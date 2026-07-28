@@ -1,9 +1,10 @@
 # RegLens-31 command surface — docs/COMMANDS.md
 # Stubbed recipes exit 1 with a pointer to their build phase (docs/BUILD_PLAN.md).
 
-# uv sync, install pre-commit, pull local model
+# uv sync + pull the pinned local model
 setup:
-    @echo "TODO(Phase 0): uv sync && pre-commit install && ollama pull <pinned model>" && exit 1
+    uv sync
+    ollama pull qwen3:8b
 
 # one-command, no-API-key, offline demo (seeded data) -> opens static site
 demo:
@@ -31,7 +32,10 @@ build-web:
 
 # full CI locally (lint, type, test, security, a11y, eval gate)
 ci: check-cost
-    @echo "TODO(Phase 0): ruff + pyright + pytest + security + a11y + eval gate (only check-cost runs today)" && exit 1
+    uv run ruff format --check .
+    uv run ruff check .
+    uv run pyright
+    uv run pytest
 
 # pip-audit, osv-scanner, gitleaks, semgrep, syft SBOM
 security:

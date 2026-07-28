@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+
+# Node / web
+node_modules/
+web/.next/
+web/out/
+
+# Secrets & local config — never committed (CLAUDE.md §5)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+
+# Local logs and scratch
+logs/
+*.log
