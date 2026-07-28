@@ -12,12 +12,29 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  verify:
+    # Deploys must never publish a build that fails the fast checks or the eval gate.
     runs-on: ubuntu-latest
-    env:
-      CLOUDFLARE_ACCOUNT_ID: b94d03381eaf097c86c43ffac8939735
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          enable-cache: true
+      - run: uv sync --frozen
+      - run: uv run ruff check .
+      - run: uv run pyright
+      - run: uv run pytest
+      - run: uv run python -m reglens.eval.harness --gate
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: verify
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24

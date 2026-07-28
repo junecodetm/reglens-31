@@ -30,6 +30,7 @@ from reglens.eval.metrics import (
     precision_recall_f1,
     wilson_interval,
 )
+from reglens.extract.records import load_extractions
 from reglens.extract.run import discover_documents
 from reglens.provenance import verify_span
 
@@ -85,12 +86,11 @@ class EvalReport(BaseModel):
 
 def _predicted_ids(claims_path: Path, provisions_path: Path) -> set[str]:
     """Provision ids overlapped by at least one gate-accepted claim."""
-    extractions = json.loads(claims_path.read_text())
     spans_by_doc: dict[str, list[tuple[int, int]]] = defaultdict(list)
-    for extraction in extractions:
-        for claim in extraction["claims"]:
-            if claim["accepted"]:
-                spans_by_doc[extraction["document_sha256"]].append((claim["start"], claim["end"]))
+    for extraction in load_extractions(claims_path):
+        for claim in extraction.claims:
+            if claim.accepted and claim.start is not None and claim.end is not None:
+                spans_by_doc[extraction.document_sha256].append((claim.start, claim.end))
     predicted: set[str] = set()
     for provision in load_provisions(provisions_path).values():
         for start, end in spans_by_doc.get(provision.document_sha256, []):
@@ -127,12 +127,12 @@ def citation_fidelity(settings: Settings, claims_path: Path) -> float:
     texts = {pair.text_sha256: pair.text for pair in discover_documents(settings.data_dir)}
     accepted = 0
     exact = 0
-    for extraction in json.loads(claims_path.read_text()):
-        source = texts.get(extraction["document_sha256"])
-        for claim in extraction["claims"]:
-            if claim["accepted"]:
+    for extraction in load_extractions(claims_path):
+        source = texts.get(extraction.document_sha256)
+        for claim in extraction.claims:
+            if claim.accepted:
                 accepted += 1
-                if source is not None and verify_span(source, claim["quote"]).accepted:
+                if source is not None and verify_span(source, claim.quote).accepted:
                     exact += 1
     return exact / accepted if accepted else 1.0
 

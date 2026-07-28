@@ -33,8 +33,9 @@ def xml_to_text(xml_bytes: bytes) -> str:
     """Flatten eCFR XML to plain text, preserving paragraph breaks.
 
     Failure mode: ``ElementTree.ParseError`` propagates — malformed XML is
-    never silently coerced into text (Python's parser also rejects entity
-    expansion, which covers the untrusted-XML concern for this public source).
+    never silently coerced into text. Python's parser does not resolve external
+    entities (no XXE); internal entity expansion is bounded only by parser
+    defaults, acceptable for this fixed, allow-listed https government source.
     """
     root = ElementTree.fromstring(xml_bytes)
     text = " ".join(fragment.strip() for fragment in root.itertext() if fragment.strip())

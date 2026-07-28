@@ -743,3 +743,9 @@ a:visited {
     grid-template-columns: 1fr;
   }
 }
+
+.model-generated-note {
+  font-size: 0.85rem;
+  color: #3d4551;
+  margin: 0.5rem 0 0.75rem;
+}

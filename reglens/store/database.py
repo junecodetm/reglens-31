@@ -7,12 +7,13 @@ stores are rebuilt atomically from scratch each run (deterministic, idempotent
 for identical input).
 """
 
-import json
 import sqlite3
 from pathlib import Path
 from typing import Any
 
 import duckdb
+
+from reglens.extract.records import load_extractions
 
 CLAIM_COLUMNS = (
     "claim_id",
@@ -33,11 +34,10 @@ CLAIM_COLUMNS = (
 
 
 def _claim_rows(claims_path: Path) -> list[tuple[Any, ...]]:
-    extractions = json.loads(claims_path.read_text())
     return [
-        tuple(claim[column] for column in CLAIM_COLUMNS)
-        for extraction in extractions
-        for claim in extraction["claims"]
+        tuple(claim.model_dump()[column] for column in CLAIM_COLUMNS)
+        for extraction in load_extractions(claims_path)
+        for claim in extraction.claims
     ]
 
 

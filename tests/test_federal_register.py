@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+import pytest
 import respx
 from httpx import Response
 
@@ -43,6 +44,15 @@ def test_ingest_document_snapshots_metadata_and_text(
 
     assert read_manifest(metadata_dir).source_id == "federal_register"
     assert (text_dir / f"{DOC_NUMBER}.txt").read_text() == "Each person must file."
+
+
+def test_unsafe_document_numbers_are_refused() -> None:
+    from reglens.ingest.federal_register import require_safe_document_number
+
+    for bad in ("../etc/passwd", "a/b", "a b", "", "x\n"):
+        with pytest.raises(ValueError, match="unsafe document number"):
+            require_safe_document_number(bad)
+    assert require_safe_document_number("2026-15112") == "2026-15112"
 
 
 @respx.mock(assert_all_mocked=True)

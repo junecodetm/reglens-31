@@ -1,6 +1,8 @@
 """Persisted claim records — every claim carries its gate verdict and run provenance."""
 
 import hashlib
+import json
+from pathlib import Path
 
 from pydantic import BaseModel
 
@@ -39,6 +41,15 @@ class DocumentExtraction(BaseModel):
     total_chars: int
     extracted_chars: int
     claims: list[ClaimRecord]
+
+
+def load_extractions(claims_path: Path) -> list[DocumentExtraction]:
+    """Validated read of claims.json — the ONLY sanctioned way to consume it.
+
+    Failure mode: pydantic ``ValidationError`` on malformed records; downstream
+    consumers never operate on unvalidated dicts (docs/STANDARDS.md).
+    """
+    return [DocumentExtraction.model_validate(item) for item in json.loads(claims_path.read_text())]
 
 
 def claim_id(document_sha256: str, obligation: ExtractedObligation) -> str:

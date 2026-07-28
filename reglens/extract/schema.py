@@ -26,12 +26,18 @@ class ExtractedObligation(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    quote: str = Field(description="Verbatim span copied exactly from the source text")
+    quote: str = Field(
+        max_length=4000, description="Verbatim span copied exactly from the source text"
+    )
     obligation_type: ObligationType
-    affected_party: str = Field(description="Who must comply, as named in the source")
-    summary: str = Field(description="One-sentence restatement of the obligation")
+    affected_party: str = Field(
+        max_length=300, description="Who must comply, as named in the source"
+    )
+    summary: str = Field(max_length=500, description="One-sentence restatement of the obligation")
     effective_date: str | None = Field(
-        default=None, description="Effective/compliance date if stated in the source, else null"
+        default=None,
+        max_length=100,
+        description="Effective/compliance date if stated in the source, else null",
     )
 
 

@@ -41,6 +41,18 @@ def test_empty_and_whitespace_quotes_are_rejected() -> None:
     assert verify_span(SOURCE, "  \n\t ").reason == "empty-quote"
 
 
+def test_empty_source_rejects_any_quote() -> None:
+    result = verify_span("", "Each person must file.")
+    assert not result.accepted
+    assert result.reason == "not-a-substring"
+
+
+def test_quote_longer_than_source_is_rejected() -> None:
+    result = verify_span("Short text.", "Short text. And much more that is not there.")
+    assert not result.accepted
+    assert result.reason == "not-a-substring"
+
+
 def test_ligature_folding() -> None:
     # NFKC expands the "ﬁ" ligature, so a ligature quote matches its expanded source form.
     source = "The bank must file annually."

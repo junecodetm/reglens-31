@@ -7,6 +7,8 @@ import pytest
 
 from reglens.config import Settings
 from reglens.eval.harness import build_report
+from reglens.extract.records import ClaimRecord, DocumentExtraction
+from reglens.extract.schema import RunMeta
 from reglens.ingest.snapshot import write_snapshot
 
 DOC_A_TEXT = "Alpha paragraph one.\n\nEach bank must report daily.\n\nBackground history text here."
@@ -98,22 +100,43 @@ def eval_env(tmp_path: Path) -> tuple[Settings, Path, Path]:
 
     claims_path = tmp_path / "claims.json"
     quote = "Each bank must report daily."
+    run = RunMeta(model_tag="fake", prompt_sha256="0" * 64, input_sha256="1" * 64)
+
+    def extraction(name: str, claims: list[ClaimRecord]) -> DocumentExtraction:
+        return DocumentExtraction(
+            document_sha256=shas[name],
+            document_number=name,
+            document_title=name,
+            document_url="https://www.federalregister.gov/documents/x",
+            accepted_count=sum(1 for claim in claims if claim.accepted),
+            rejected_count=sum(1 for claim in claims if not claim.accepted),
+            total_chars=len(docs[name]),
+            extracted_chars=len(docs[name]),
+            claims=claims,
+        )
+
+    accepted_claim = ClaimRecord(
+        claim_id="c1",
+        document_sha256=shas["DOC-A"],
+        document_number="DOC-A",
+        document_title="DOC-A",
+        document_url="https://www.federalregister.gov/documents/x",
+        quote=quote,
+        obligation_type="reporting",
+        affected_party="banks",
+        summary="Report daily.",
+        effective_date=None,
+        accepted=True,
+        start=a_ob_start,
+        end=a_ob_end,
+        rejection_reason=None,
+        run=run,
+    )
     claims_path.write_text(
         json.dumps(
             [
-                {
-                    "document_sha256": shas["DOC-A"],
-                    "document_number": "DOC-A",
-                    "claims": [
-                        {
-                            "accepted": True,
-                            "quote": quote,
-                            "start": a_ob_start,
-                            "end": a_ob_end,
-                        }
-                    ],
-                },
-                {"document_sha256": shas["DOC-B"], "document_number": "DOC-B", "claims": []},
+                extraction("DOC-A", [accepted_claim]).model_dump(),
+                extraction("DOC-B", []).model_dump(),
             ]
         )
     )

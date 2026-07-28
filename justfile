@@ -56,7 +56,7 @@ security:
 # pa11y (WCAG2AA) against the built static site
 a11y:
     @test -d web/out || just build-web
-    sh -c 'python3 -m http.server 8031 -d web/out >/dev/null 2>&1 & S=$!; sleep 1; npx --yes pa11y --standard WCAG2AA http://localhost:8031; R=$?; kill $S; exit $R'
+    sh -c 'python3 -m http.server 8031 -d web/out >/dev/null 2>&1 & S=$!; sleep 1; npx --yes pa11y@9.1.1 --standard WCAG2AA http://localhost:8031; R=$?; kill $S; exit $R'
 
 # OSCAL component-definition — de-scoped from this build (docs/PROGRESS.md; the
 # governance/ cards + assessment + monitoring/rollback plans ARE present).

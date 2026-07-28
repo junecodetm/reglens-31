@@ -123,6 +123,10 @@ export function SourcePane({
                 </dd>
               </div>
             </dl>
+            <p className="model-generated-note">
+              Type, party, date, and summary are model-generated; only the quote
+              above is provenance-verified against the source.
+            </p>
             <a
               href={selectedClaim.document_url}
               className="primary-source-link"

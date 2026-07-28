@@ -7,6 +7,7 @@ allow-list raise ``DisallowedSourceError`` before any request is made.
 """
 
 import json
+import re
 from pathlib import Path
 
 import httpx
@@ -19,6 +20,19 @@ from reglens.ingest.snapshot import write_snapshot
 API_BASE = "https://www.federalregister.gov/api/v1"
 
 FR_SCHEMA_VERSION = 1
+
+_DOCUMENT_NUMBER_PATTERN = re.compile(r"^[A-Za-z0-9._-]+$")
+
+
+def require_safe_document_number(document_number: str) -> str:
+    """Reject document numbers that could escape a path or URL segment.
+
+    Fail-closed: values arrive from the CLI and from the remote search API;
+    anything outside ``[A-Za-z0-9._-]`` raises rather than becoming a filename.
+    """
+    if not _DOCUMENT_NUMBER_PATTERN.fullmatch(document_number):
+        raise ValueError(f"unsafe document number: {document_number!r}")
+    return document_number
 
 
 class FRDocument(BaseModel):
@@ -68,7 +82,7 @@ def recent_treasury_rules(client: httpx.Client, count: int = 1) -> list[str]:
     results: list[dict[str, str]] = response.json().get("results", [])
     if not results:
         raise LookupError("Federal Register search returned no Treasury rules")
-    return [result["document_number"] for result in results]
+    return [require_safe_document_number(result["document_number"]) for result in results]
 
 
 def latest_treasury_rule(client: httpx.Client) -> str:
@@ -78,6 +92,7 @@ def latest_treasury_rule(client: httpx.Client) -> str:
 
 def ingest_document(settings: Settings, document_number: str) -> tuple[Path, Path]:
     """Snapshot one FR document's metadata JSON and raw text; return both snapshot dirs."""
+    require_safe_document_number(document_number)
     with make_client(settings) as client:
         document = fetch_document(client, document_number)
         metadata_bytes = json.dumps(document.model_dump(), indent=2, sort_keys=True).encode()

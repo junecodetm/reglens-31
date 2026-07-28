@@ -21,6 +21,16 @@ from reglens.extract.schema import ExtractionResult, RunMeta, prompt_sha256
 USER_TEMPLATE = "<document>\n{document}\n</document>"
 
 
+def neutralize_delimiters(document_text: str) -> str:
+    """Prevent source text from closing the data block and reading as instructions.
+
+    A literal ``</document>`` in fetched text is broken with a zero-width-free
+    escape; the provenance gate is unaffected because it verifies against the
+    original snapshot text, not the prompt payload.
+    """
+    return document_text.replace("</document>", "<\\/document>")
+
+
 def load_system_prompt() -> str:
     """The pinned system prompt shipped with the package."""
     return (resources.files("reglens.extract") / "prompts" / "system.txt").read_text()
@@ -48,7 +58,12 @@ class OllamaProvider:
                 "model": self._settings.model_tag,
                 "messages": [
                     {"role": "system", "content": self._system_prompt},
-                    {"role": "user", "content": USER_TEMPLATE.format(document=document_text)},
+                    {
+                        "role": "user",
+                        "content": USER_TEMPLATE.format(
+                            document=neutralize_delimiters(document_text)
+                        ),
+                    },
                 ],
                 "format": ExtractionResult.model_json_schema(),
                 "stream": False,
