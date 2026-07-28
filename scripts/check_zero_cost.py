@@ -40,6 +40,7 @@ ALLOWED_WEB_DEPS = {
     "@types/node",
     "@types/react",
     "@types/react-dom",
+    "axe-core",
     "typescript",
 }
 

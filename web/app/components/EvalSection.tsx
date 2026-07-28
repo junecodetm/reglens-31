@@ -142,7 +142,7 @@ export function EvalSection() {
               Cohen&apos;s kappa (two independent model annotation passes):{" "}
               {state.report.kappa_pass1_pass2 === null
                 ? "pending adjudication"
-                : fmt(state.report.kappa_pass1_pass2)}{" "}
+                : state.report.kappa_pass1_pass2.toFixed(2)}{" "}
               — human inter-annotator kappa pending adjudication
             </li>
             <li>

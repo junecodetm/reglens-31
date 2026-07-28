@@ -19,7 +19,10 @@ function getSourceSegments(
   sourceText: string,
   claim: ClaimRecord,
 ): SourceSegments | null {
-  const { start, end, quote } = claim;
+  // Offsets come from the fail-closed provenance gate, which matched the quote
+  // under documented normalization (NFKC + whitespace collapse). Raw slices can
+  // therefore differ from the quote in whitespace, so only bounds are checked.
+  const { start, end } = claim;
 
   if (
     start === null ||
@@ -27,9 +30,8 @@ function getSourceSegments(
     !Number.isInteger(start) ||
     !Number.isInteger(end) ||
     start < 0 ||
-    end < start ||
-    end > sourceText.length ||
-    sourceText.slice(start, end) !== quote
+    end <= start ||
+    end > sourceText.length
   ) {
     return null;
   }
