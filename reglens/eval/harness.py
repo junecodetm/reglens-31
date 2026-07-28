@@ -222,6 +222,9 @@ def main(argv: list[str] | None = None) -> int:
             # Fail-closed guardrail: an accepted claim that no longer verifies is a defect.
             print("GATE FAIL: citation fidelity below 1.0")
             return 1
+        if not BASELINE_PATH.is_file():
+            print("GATE: no committed baseline yet (fidelity enforced; F1 gate armed on commit)")
+            return 0
         baseline_f1 = json.loads(BASELINE_PATH.read_text())["f1"]
         if report.f1 < baseline_f1 - F1_TOLERANCE:
             print(f"GATE FAIL: F1 {report.f1:.3f} < baseline {baseline_f1:.3f} - {F1_TOLERANCE}")

@@ -1,14 +1,17 @@
 # RegLens-31 command surface — docs/COMMANDS.md
 # Stubbed recipes exit 1 with a pointer to their build phase (docs/BUILD_PLAN.md).
 
-# uv sync + pull the pinned local model
+# uv sync + web deps + pull the pinned local model
 setup:
     uv sync
+    cd web && npm install --no-audit --no-fund
     ollama pull qwen3:8b
 
-# one-command, no-API-key, offline demo (seeded data) -> opens static site
+# one-command, no-API-key, offline demo -> serves the static site
 demo:
-    @echo "TODO(Phase 0): offline demo on seeded data" && exit 1
+    @test -d web/out || just build-web
+    @echo "RegLens-31 demo: http://localhost:8031 (Ctrl-C to stop)"
+    python3 -m http.server 8031 -d web/out
 
 # snapshot Federal Register documents into data/raw/<sha> (allow-list enforced)
 ingest *docs:
@@ -18,9 +21,10 @@ ingest *docs:
 extract:
     uv run python -m reglens.extract
 
-# build OFAC 50% ownership graph (seeded Deripaska case guaranteed)
+# OFAC 50% ownership graph — de-scoped from this build (docs/PROGRESS.md; first
+# item in the sanctioned de-scope order). Design + caveats: docs/ENTITY_RESOLUTION.md.
 graph:
-    @echo "TODO(Phase 4): reglens.graph.ownership" && exit 1
+    @echo "de-scoped: see docs/PROGRESS.md and docs/ENTITY_RESOLUTION.md" && exit 1
 
 # eval harness over the gold set -> metrics + Wilson/bootstrap CIs ($0, offline)
 eval:
@@ -42,17 +46,22 @@ ci: check-cost
     uv run pyright
     uv run pytest
 
-# pip-audit, osv-scanner, gitleaks, semgrep, syft SBOM
+# local security suite (gitleaks/osv-scanner/syft run in CI via security.yml)
 security:
-    @echo "TODO(Phase 5): pip-audit, osv-scanner, gitleaks, semgrep, syft" && exit 1
+    uv export --format requirements-txt --no-emit-project --frozen > /tmp/reglens-req.txt
+    uvx pip-audit --strict -r /tmp/reglens-req.txt
+    uvx --from semgrep semgrep scan --config p/python --error --exclude data --exclude web/node_modules
+    uv run python scripts/check_zero_cost.py
 
-# pa11y-ci + axe + lighthouse against web/out
+# pa11y (WCAG2AA) against the built static site
 a11y:
-    @echo "TODO(Phase 2): pa11y-ci + axe + lighthouse" && exit 1
+    @test -d web/out || just build-web
+    sh -c 'python3 -m http.server 8031 -d web/out >/dev/null 2>&1 & S=$!; sleep 1; npx --yes pa11y --standard WCAG2AA http://localhost:8031; R=$?; kill $S; exit $R'
 
-# oscal-cli validate governance/component-definition.json
+# OSCAL component-definition — de-scoped from this build (docs/PROGRESS.md; the
+# governance/ cards + assessment + monitoring/rollback plans ARE present).
 govern:
-    @echo "TODO(Phase 4): oscal-cli validate governance/component-definition.json" && exit 1
+    @echo "de-scoped: OSCAL validation; governance artifacts live in governance/" && exit 1
 
 # scripts/check_zero_cost.py (fails if a non-allowlisted service appears)
 check-cost:

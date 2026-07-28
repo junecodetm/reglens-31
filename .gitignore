@@ -21,3 +21,6 @@ web/out/
 # Local logs and scratch
 logs/
 *.log
+
+# Playwright MCP session artifacts (may contain page snapshots)
+.playwright-mcp/

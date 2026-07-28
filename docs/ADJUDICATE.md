@@ -1,6 +1,6 @@
 # Adjudication Worklist
 
-Progress: **0/168 adjudicated.** Labels below are
+Progress: **0/251 adjudicated.** Labels below are
 machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on them.
 
 ## How to adjudicate an item
@@ -1150,7 +1150,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=requirement, party=the Director
 - **Rationale (claude-fable-5):** 'the Director shall determine' whether to dismiss or issue Order; 'Order shall be served'
 
-## Evening 9 (items 161-168)
+## Evening 9 (items 161-180)
 
 ### 161. `bc793aff6f77c9a7` — ⬜ pending
 
@@ -1207,4 +1207,593 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Provision:** In rule document 2026-10036 beginning on page 29340 in the issue of Tuesday, May 19, 2026, make the following correction: On page 29340, in the first column, the heading should read as set forth above.
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Editorial correction notice to a prior document heading
+
+### 169. `332043ca46230a13` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 111-1458)
+- **Provision:** § 223.1 Certificate of authority. (a) The regulations in this part govern the issuance, renewal, and revocation by the Secretary of the Treasury, acting through the U.S. Department of the Treasury, Bureau of the Fiscal Service (Treasury), of certificates of authority to bonding companies to do business with the United States as sureties on, or reinsurers of, Federal surety bonds (hereinafter “bond…
+- **Proposed:** is_obligation=True, type=requirement, party=a company applying for authority to write surety bonds in favor of the United States
+- **Rationale (claude-fable-5):** operative 'must be engaged' and 'shall not be engaged' eligibility duties in (b)
+
+### 170. `7ea42570fe0711ad` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 1460-1979)
+- **Provision:** § 223.2 Application for certificate of authority. (a) Application for issuance of certificate of authority. Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location, and in the manner, specified online at https://www.fiscal.treasury.gov/surety-bonds/. The company…
+- **Proposed:** is_obligation=True, type=reporting, party=every company not currently holding a certificate of authority wishing to apply for a certificate of authority
+- **Rationale (claude-fable-5):** operative 'shall submit an application' and 'shall file the following data with Treasury'
+
+### 171. `3e1ca35c24134138` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 8665-9993)
+- **Provision:** § 223.9(c) as of the close of the preceding year; (7) A completed Schedule of Excess Risks form (Form No. FS 285-A) as of the close of the preceding quarter; (8) A Statement of Actuarial Opinion as of the close of the preceding year provided by a qualified actuary, as defined by the NAIC, on the adequacy of all loss reserves with the scope and format of the statement also conforming to the require…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** truncated list of filing items; operative verb sits in a prior provision; 'will publish' not operative
+
+### 172. `0417e0bed33ce35d` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 12078-12205)
+- **Provision:** § 223.7 Notification of changes. (a) Every company certified under this part or recognized as an admitted reinsurer pursuant to
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** truncated fragment ending mid-sentence; no operative verb present
+
+### 173. `a666486e1e5c90bf` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 12207-12784)
+- **Provision:** § 223.12(h) must notify Treasury of changes that have a significant impact on its financial statements or solvency during the term of such certification or admission. Paragraphs (a)(1) through (4) of this section are not intended to be an exhaustive list of all such changes that Treasury may require to be reported and may evaluate as part of its ongoing analysis of the company. Additionally, Treas…
+- **Proposed:** is_obligation=True, type=reporting, party=every company certified under this part or recognized as an admitted reinsurer
+- **Rationale (claude-fable-5):** operative 'must notify Treasury of changes' affecting financial statements or solvency
+
+### 174. `9ddec7b30b7ef0b0` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 22198-22606)
+- **Provision:** § 223.12) for reinsurance in all classes of risk provided that it is ceded to the following companies: (i) Companies holding a current certificate of authority from Treasury; (ii) U.S. domiciled non-Treasury certified or recognized parents, subsidiaries, and/or affiliates if Treasury determines that the parent, subsidiary, and/or affiliate is financially solvent; (iii) Admitted reinsurers as defin…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** conditional eligibility list of cedable companies; no duty imposed in own text
+
+### 175. `058fd917807a4f91` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 27756-27893)
+- **Provision:** § 223.11 Limitation of risk: Protective methods. In the case of risks otherwise in excess of a company's limitation of risk prescribed in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** heading plus truncated clause; no operative duty language
+
+### 176. `c7fb0a6e52460a0b` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 32286-32638)
+- **Provision:** § 223.9(c).; or (2) If such obligation was incurred on behalf of or on account of a fiduciary holding property in a trust capacity, by a joint control agreement providing that the whole or a sufficient portion of the property so held may not be disposed of or pledged in any way without the consent of the insuring company. [89 FR 48834, June 10, 2024]
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes contents of a joint control agreement, an optional protective method; uncertain, per tie-break 3
+
+### 177. `e7ddcd60bda67c0f` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 32640-32867)
+- **Provision:** § 223.12 Recognition as reinsurer. (a) Use of recognized reinsurers. Companies holding a certificate of authority may: (1) Receive credit for reinsurance ceded to a reinsurer recognized pursuant to this section, as described in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive 'companies holding a certificate of authority may'; no bound duty
+
+### 178. `f56d6c5f71adce0e` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 39220-40135)
+- **Provision:** § 223.22: (i) The submissions listed in paragraphs (h)(1)(i) through (xii) of this section, except that the financial statement of such branch shall show that it has net assets of not less than $250,000 over and above all liabilities; and (ii) Evidence satisfactory to Treasury to establish that it has on deposit in the United States not less than $250,000 available to its policyholders and credito…
+- **Proposed:** is_obligation=True, type=reporting, party=any company recognized pursuant to paragraph (h)(1) or (2) of this section wishing to apply for renewal of its recognition
+- **Rationale (claude-fable-5):** operative 'shall submit an application' and 'must file the following data with Treasury'
+
+### 179. `e912ea3bf7533c7f` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 40220-41308)
+- **Provision:** § 223.22; (ii) A copy of the latest available report of its examination by its domiciliary State Insurance Department including a copy of company responses to any significant findings or recommendations; (iii) Annual statements of its financial condition, as of the close of the preceding year, on the annual statement form of the NAIC with all Schedules and Exhibits completed, including copies of t…
+- **Proposed:** is_obligation=True, type=requirement, party=the company President, Secretary, and a Notary Public
+- **Rationale (claude-fable-5):** jurat page 'is to be signed' by named officers and notary 'who shall also affix a notary seal'
+
+### 180. `55da734a44a67a88` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 43039-44054)
+- **Provision:** § 223.22 and must: (1) Meet and maintain all capital and surplus, solvency, and market conduct requirements under the applicable Covered Agreement; (2) Be recognized by at least one U.S. state as a Reciprocal Jurisdiction Reinsurer, as defined by the state's credit for reinsurance law or regulation based on the NAIC's Credit for Reinsurance Model Law and Regulation, and submit proof of such recogn…
+- **Proposed:** is_obligation=True, type=requirement, party=the company (subject elided by truncation)
+- **Rationale (claude-fable-5):** operative 'must: meet and maintain ... submit proof ... submit to Treasury'
+
+## Evening 10 (items 181-200)
+
+### 181. `3b92143d21ecc682` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 46551-47795)
+- **Provision:** § 223.16 List of certificate holding companies. A list of certificate holding companies is published annually as of August 1 in Department Circular No. 570, Companies Holding Certificates of Authority as Acceptable Sureties on Federal Bonds and as Acceptable Reinsuring Companies, with information as to underwriting limitations, areas in which listed sureties are licensed to transact surety busines…
+- **Proposed:** is_obligation=True, type=disclosure, party=Treasury
+- **Rationale (claude-fable-5):** operative 'Treasury shall give a company due notice of such exceptions'
+
+### 182. `5d380059c32577ef` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 51009-51175)
+- **Provision:** § 223.18 Revocation. (a) Treasury may initiate a revocation proceeding against a Treasury-certified company in one of two ways: (1) Treasury, of its own accord, under
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive 'Treasury may initiate a revocation proceeding'; discretion, not duty
+
+### 183. `eb59c2614f0460c5` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 63182-63835)
+- **Provision:** § 223.22 Fees for service of the Treasury Department. (a) Fees shall be imposed and collected, for the services listed in paragraphs (a)(1) through (6) of this section that are performed by Treasury, regardless of whether the action requested is granted or denied. An online payment portal is provided at https://www.fiscal.treasury.gov/surety-bonds/. The amount of the fee will be based on which of …
+- **Proposed:** is_obligation=True, type=requirement, party=Treasury
+- **Rationale (claude-fable-5):** operative 'Fees shall be imposed and collected' for listed Treasury services
+
+### 184. `909fdfe68f5f41f8` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 63998-64162)
+- **Provision:** § 223.12(h)); (3) Examination of a company's application for recognition as a complementary reinsurer of surety companies doing business with the United States (see
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** fragment listing a fee category; no operative duty language
+
+### 185. `29ed59542bc8b8a5` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 64164-64321)
+- **Provision:** § 223.12(i)); (4) Examination of a company's application for recognition as an alien reinsurer of surety companies doing business with the United States (see
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** fragment listing a fee category; no operative duty language
+
+### 186. `ba18b340d53c8611` — ⬜ pending
+
+- **Document:** 31-CFR-223 (chars 64642-65429)
+- **Provision:** § 223.12). (b) In a given year a uniform fee will be collected from every company requesting a particular category of service, e.g., determination of a company's continuing qualifications for annual renewal of its certificate of authority. However, Treasury reserves the right to redetermine the amounts of fees annually. Fees are determined in accordance with Office of Management and Budget Circula…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** declarative 'will be collected' / 'will be published' plus reserved rights; no operative duty
+
+### 187. `b1e17da22835f26e` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 0-394)
+- **Provision:** PART 356—SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL SERVICE SERIES NO. 1-93) Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391. Source: 69 FR 45202, July 28, 2004, unless otherwise noted. Editorial Note: Nomenclature changes to part 356 appear at 70 FR 57439, Sept. 30, 2005. Subpart A—General Information
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** part heading, authority citation, source and editorial notes
+
+### 188. `805fb7f929a46f5b` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 396-685)
+- **Provision:** § 356.0 What authority does the Treasury have to sell and issue securities? Chapter 31 of Title 31 of the United States Code authorizes the Secretary of the Treasury to issue United States obligations, and to offer them for sale with the terms and conditions that the Secretary prescribes.
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** authority statement: statute 'authorizes the Secretary'; permission, not duty
+
+### 189. `87c55990f967c18b` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 687-1078)
+- **Provision:** § 356.1 To which securities does this circular apply? The provisions in this part, including the appendices, and each individual auction announcement govern the sale and issuance of marketable Treasury securities issued on or after March 1, 1993. This part also governs all securities eligible for the STRIPS (Separate Trading of Registered Interest and Principal of Securities) Program (See
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** scope/applicability statement describing which securities the part governs
+
+### 190. `584a90909575e417` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 3579-3983)
+- **Provision:** § 356.15.). Bidder Identification Number means a number we assign to each institutional submitter and to certain other bidders. We assign such numbers either to identify certain bidders or to grant separate bidder status to different parts of the same corporate or partnership structure. Book-entry security means a security that is issued or maintained as an accounting entry or electronic record. (…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** definitions of bidder identification number and book-entry security
+
+### 191. `27c6e10ce4361e3a` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 15059-15359)
+- **Provision:** § 356.3 What is the role of the Federal Reserve Banks in this process? The Treasury Department authorizes Federal Reserve Banks, as fiscal agents of the United States, to perform all activities necessary to carry out the provisions of this part, any auction announcements, and applicable regulations.
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** Treasury 'authorizes' Federal Reserve Banks to act; authorization, not duty
+
+### 192. `0212ae1a0857ee5c` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 27186-27640)
+- **Provision:** § 356.13 When must I report my net long position and how do I calculate it? (a) Net long position reporting threshold. (1) If you are bidding competitively in an auction, you must report your net long position when the total of your bids plus your net long position in the security being auctioned equals or exceeds the net long position reporting threshold ( See table.). We will specify this thresh…
+- **Proposed:** is_obligation=True, type=reporting, party=you (if you are bidding competitively in an auction)
+- **Rationale (claude-fable-5):** conditional operative duty 'you must report your net long position'
+
+### 193. `a130741a36f90d04` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 30912-31125)
+- **Provision:** § 356.14 What are the requirements for submitting bids for customers? (a) Institutions that may submit bids for customers. Only depository institutions or dealers may submit bids for customers ( see definitions at
+- **Proposed:** is_obligation=True, type=prohibition, party=institutions other than depository institutions or dealers
+- **Rationale (claude-fable-5):** 'Only depository institutions or dealers may submit bids for customers' bars all others
+
+### 194. `827958ade6f276c9` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 36154-36474)
+- **Provision:** § 356.13(a). In addition to its own competitive bids and positions, the investment adviser must also include in the calculation all other competitive bids and positions that it controls. If the net long position is reportable, the investment adviser must report it as a total in connection with only one bid as stated in
+- **Proposed:** is_obligation=True, type=reporting, party=the investment adviser
+- **Rationale (claude-fable-5):** operative 'must also include in the calculation' and 'must report it as a total'
+
+### 195. `6ad33a93cc72ca6c` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 36476-36774)
+- **Provision:** § 356.13(a). This requirement applies regardless of whether the investment adviser bids in its own name or in the name of its controlled accounts. The following table shows which positions an investment adviser must include to determine whether it meets the net long position reporting threshold in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** applicability note and table introduction describing the duty imposed by 356.13(a) elsewhere
+
+### 196. `ff0dd2441905fc57` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 38620-38731)
+- **Provision:** § 356.21 for examples of how to prorate. [69 FR 45202, July 28, 2004, as amended at 78 FR 46429, July 31, 2013]
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** cross-reference fragment plus amendment citation
+
+### 197. `93aa2a1df9ebe4bb` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 38733-39957)
+- **Provision:** § 356.16 Do I have to make any certifications? (a) Submitters. If you submit bids or other information in an auction, we deem you to have certified that: (1) You are in compliance with this part and the auction announcement; (2) The information provided with regard to any bids for your own account is accurate and complete; and (3) The information provided with regard to any bids for customers accu…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** deeming provision ('we deem you to have certified'); no must/shall duty to act; tie-break 3
+
+### 198. `b82955844d82385d` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 46345-46556)
+- **Provision:** § 356.21 How are awards at the high yield, discount rate, or discount margin calculated? (a) Awards to submitters. We generally prorate bids at the highest accepted yield, discount rate, or discount margin under
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes Treasury's proration practice ('we generally prorate'); no duty imposed
+
+### 199. `1b89c9cacd0d1cf4` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 48176-48636)
+- **Provision:** § 356.22 Does the Treasury have any limitations on auction awards? (a) Awards to noncompetitive bidders. The maximum award to any noncompetitive bidder is $10 million. This limit does not apply to bidders bidding solely through a request to reinvest the proceeds of a maturing security held directly with Treasury. (b) Awards to competitive bidders. The maximum award is 35 percent of the offering am…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** declarative award caps on Treasury awards; no operative duty language; tie-break 3
+
+### 200. `de08a28104eca947` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 49033-49255)
+- **Provision:** § 356.15(c).), we will use this combined amount for the purpose of this 35 percent award limit. [69 FR 45202, July 28, 2004, as amended at 69 FR 53622, Sept. 2, 2004; 70 FR 57440, Sept. 30, 2005; 87 FR 40440, July 7, 2022]
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes Treasury's own calculation method; no duty on a regulated party
+
+## Evening 11 (items 201-220)
+
+### 201. `41fcf5cce4c2151d` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 53373-53579)
+- **Provision:** § 356.2. (See formulas in appendix B.) There are several ways to pay for securities: (a) Payment by debit entry to a deposit account. If you are paying by debit entry to a deposit account as provided for in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes available payment methods; truncated mid-condition, no operative duty
+
+### 202. `c3a8e734f6e124bf` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 53581-53859)
+- **Provision:** § 356.17(b), we will charge the settlement amount to the specified account on the issue date. (b) Payment by authorized charge to a funds account. Where the submitter's method of payment is an authorized charge to the funds account of a depository institution as provided for in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes what Treasury 'will charge' on the issue date; no duty imposed
+
+### 203. `03867c362c3f8f3a` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 54115-54420)
+- **Provision:** § 356.17(b), we will redeem the certificate of indebtedness for the settlement amount of the security and apply the proceeds on the issue date. [69 FR 45202, July 28, 2004, as amended at 70 FR 57440, Sept. 30, 2005; 73 FR 14938, Mar. 20, 2008; 87 FR 40440, July 7, 2022] Subpart D—Miscellaneous Provisions
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes Treasury redemption mechanics plus citations and subpart heading
+
+### 204. `08a49eab90d2456c` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 62988-63863)
+- **Provision:** § 356.32 What tax rules apply? (a) General. Securities issued under this part are subject to all applicable taxes imposed under the Internal Revenue Code of 1986, or its successor. Under section 3124 of title 31, United States Code, the securities are exempt from taxation by a State or political subdivision of a State, except for State estate or inheritance taxes and other exceptions as provided i…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** states tax treatment set by the Internal Revenue Code and IRS regulations elsewhere
+
+### 205. `bf493a1b8963936a` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 63865-64545)
+- **Provision:** § 356.33 Does the Treasury have any discretion in the auction process? (a) We have the discretion to: (1) Accept, reject, or refuse to recognize any bids submitted in an auction; (2) Award more or less than the amount of securities specified in the auction announcement; (3) Waive any provision of this part for any bidder or submitter; and (4) Change the terms and conditions of an auction. (b) Our …
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** reserves Treasury discretion ('we have the discretion to'); no bound duty
+
+### 206. `27d075051e052266` — ⬜ pending
+
+- **Document:** 31-CFR-356 (chars 65317-65456)
+- **Provision:** § 356.35 Who approved the information collections? The Office of Management and Budget approved the collections of information contained in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** administrative note that OMB approved the information collections
+
+### 207. `806f49b606b4ca27` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 443-1353)
+- **Provision:** § 50.1 Authority, purpose, and scope. (a) Authority. This part is issued pursuant to authority in Title I of the Terrorism Risk Insurance Act of 2002, Public Law 107-297, 116 Stat. 2322, as amended by the Terrorism Risk Insurance Extension Act of 2005, Public Law 109-144, 119 Stat. 2660, the Terrorism Risk Insurance Program Reauthorization Act of 2007, Public Law 110-160, 121 Stat. 1839, the Terro…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** authority, purpose, and scope statement for part 50
+
+### 208. `44d06c7506e6d059` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 9371-9542)
+- **Provision:** § 50.7. (6) An insurer's affiliates for a calendar year, for purposes of subpart H of this part, shall be determined in accordance with the timing requirements laid out in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** definitional rule for how affiliates 'shall be determined'; no party bound to act
+
+### 209. `570a90bf72919499` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 31742-31887)
+- **Provision:** § 50.7 Procedure for requesting determinations of controlling influence. (a) An insurer or insurers not having control over another insurer under
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** heading plus truncated clause ending mid-sentence; no operative verb
+
+### 210. `0202b97c3c0091d1` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 31889-32008)
+- **Provision:** § 50.4(c)(2)(i) or (ii) may make a written submission to Treasury to rebut a presumption of controlling influence under
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive 'may make a written submission to Treasury' to rebut a presumption
+
+### 211. `b31210ddef903a8f` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 32935-34129)
+- **Provision:** § 50.4(c)(4)(i) through (iv); and must explain in detail any basis for why the insurer believes that no controlling influence exists (if a presumption is being rebutted) in light of the particular facts and circumstances, as well as the Act's language, structure and purpose. Any confidential business or trade secret information submitted to Treasury should be clearly marked. Treasury will handle a…
+- **Proposed:** is_obligation=True, type=reporting, party=the insurer
+- **Rationale (claude-fable-5):** operative 'must explain in detail' in submission to Treasury
+
+### 212. `d2fd187d3e62ee48` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 34131-35464)
+- **Provision:** § 50.8 Procedure for requesting general interpretations of statute. Persons actually or potentially affected by the Act or regulations in this Part may request an interpretation of the Act or regulations by writing to the Terrorism Risk Insurance Program Office, Room 1410, Department of the Treasury, 1500 Pennsylvania Ave. NW., Washington, DC 20220, giving a detailed explanation of the facts and c…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive request procedure; 'may request', 'should mark', Treasury discretion
+
+### 213. `25b9167e0272cbdb` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 38445-38624)
+- **Provision:** § 50.10(b) if the insurer makes the disclosure no later than the time the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder.
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** conditional clause fragment; no operative duty verb in provision text
+
+### 214. `939c0c25b00f6401` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 44151-44548)
+- **Provision:** § 50.20 applies at the time an insurer makes the initial offer of coverage as well as at the time an insurer makes an initial offer of renewal of an existing policy. (b) Offer consistent with definition of act of terrorism. An insurer must make available coverage for insured losses in a policy of property and casualty insurance consistent with the definition of an act of terrorism as defined in
+- **Proposed:** is_obligation=True, type=requirement, party=an insurer
+- **Rationale (claude-fable-5):** 'An insurer must make available coverage for insured losses'
+
+### 215. `eac4c9cea2f7b878` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 44697-45319)
+- **Provision:** § 50.20 by first making an offer with coverage for insured losses that does not differ materially from the terms, amounts, and other coverage limitations applicable to losses arising from events other than acts of terrorism, which the policyholder or prospective policyholder declines, the insurer may negotiate with the policyholder or prospective policyholder an option of partial coverage for insu…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive negotiation; states insurer 'is not required' to offer partial coverage
+
+### 216. `07905d7b882505a7` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 46844-47455)
+- **Provision:** § 50.23 Applicability of State law requirements. (a) General. After satisfying the requirement to make available coverage for insured losses that does not differ materially from the terms, amounts, and other coverage limitations applicable to losses arising from events other than acts of terrorism, if coverage is rejected an insurer may then offer coverage that is on different terms, amounts, or c…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** permissive 'may then offer' with proviso; duty itself sits in cross-referenced section
+
+### 217. `302c8adbe08afbd5` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 47457-47792)
+- **Provision:** § 50.20 and the state has a requirement that an insurer offer full coverage without any exclusion, then the requirement would continue to apply and the insurer may not subsequently offer less than full coverage or coverage with exclusions. (2) If an insurer subject to state regulation first makes available coverage in accordance with
+- **Proposed:** is_obligation=True, type=prohibition, party=the insurer
+- **Rationale (claude-fable-5):** 'the insurer may not subsequently offer less than full coverage'
+
+### 218. `0a07e93aac862aca` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 49606-50324)
+- **Provision:** § 50.32 Entities that share profits and losses with private sector insurers. (a) Treatment. A State residual market insurance entity or a State workers' compensation fund that shares profits and losses with a private sector insurer is deemed not to be a separate insurer under the Program. (b) Premium and loss calculation. A state residual market insurance entity or a State workers' compensation fu…
+- **Proposed:** is_obligation=True, type=reporting, party=a state residual market insurance entity or a State workers' compensation fund
+- **Rationale (claude-fable-5):** reporting of premium/loss shares that 'shall then be included' in calculations
+
+### 219. `faeaaba55d89b460` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 61778-61910)
+- **Provision:** § 50.61(b) shall apply, as appropriate; (3) The Secretary's review finds that the act satisfies the elements for certification under
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** fragment; 'shall apply' is applicability, not a duty on a party
+
+### 220. `51f53749380e93e9` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 64900-66393)
+- **Provision:** § 50.62 Certification data collection. (a) General. (1) The Secretary, when evaluating an act for certification as an act of terrorism, may at any time direct one or more insurers to submit information regarding projected and actual losses in connection with an act and any other information the Secretary determines appropriate. The information sought by the Secretary shall be specified in the data…
+- **Proposed:** is_obligation=True, type=reporting, party=any insurer subject to the data request
+- **Rationale (claude-fable-5):** 'shall respond to the request within the time frame specified by the Secretary'
+
+## Evening 12 (items 221-240)
+
+### 221. `b4e911ded348d619` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 67779-68828)
+- **Provision:** § 50.73 is deemed sufficient. The Federal share of compensation under the Program shall be: (i) 85 percent of that portion of the insurer's aggregate insured losses that exceeds its insurer deductible during calendar year 2015; (ii) 84 percent of that portion of the insurer's aggregate insured losses that exceeds its insurer deductible during calendar year 2016; (iii) 83 percent of that portion of…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** sets Federal share percentages; a calculation rule, not a duty on a party
+
+### 222. `04a1b756cd29364f` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 71064-71616)
+- **Provision:** § 50.15; (6) The insurer offered coverage for insured losses and the offer was accepted by the insured prior to the act which results in the insured loss; (7) The insurer took all steps reasonably necessary to properly and carefully investigate the insured loss and otherwise processed the insured loss using practices appropriate for the business of insurance; (8) The insured loss is within the sco…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** past-tense eligibility conditions for compensation, not operative duties
+
+### 223. `a066056fda235c43` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 80644-81108)
+- **Provision:** § 50.73(b)(2). (d) Supplementary information. In addition to the information required in paragraphs (b) and (c) of this section, Treasury may require such additional supporting documentation as required to ascertain the Federal share of compensation for the insured losses of any insurer. (e) State Residual Market Insurance Entities and State Workers' Compensation Funds. A state residual market ins…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** discretionary 'Treasury may require'; remainder is a truncated heading
+
+### 224. `311e06ba6191ec62` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 81524-81857)
+- **Provision:** § 50.73(b)(2) to Treasury. Participating insurers shall treat the allocated dollar value of their proportionate share of insured losses from a state residual market insurance entity or state workers' compensation fund as an insured loss for the purpose of their own reporting to Treasury in seeking the Federal share of compensation.
+- **Proposed:** is_obligation=True, type=reporting, party=participating insurers
+- **Rationale (claude-fable-5):** 'Participating insurers shall treat' allocated losses for their own reporting to Treasury
+
+### 225. `4e1ce8cb10624085` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 102228-103652)
+- **Provision:** § 50.92 Establishment of Federal terrorism policy surcharge. (a) Treasury will establish the Federal terrorism policy surcharge based on the following factors and considerations: (1) In the case of a mandatory recoupment amount, the requirement to collect 140 percent of that amount; (2) The total dollar amount to be recouped as a percentage of the latest available annual aggregate industry direct …
+- **Proposed:** is_obligation=True, type=requirement, party=the policyholder
+- **Rationale (claude-fable-5):** surcharge 'shall be the obligation of the policyholder and is payable to the insurer'
+
+### 226. `4aafdaa5b76bee81` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 108390-109643)
+- **Provision:** § 50.95 Remitting the surcharge. (a) Each insurer shall report direct written premium and Federal terrorism policy surcharges to Treasury on a monthly and annual basis during the assessment period. Reporting will be on a form prescribed by Treasury and will be due according to the following schedule: (1) Monthly: From the beginning of the assessment period through November, on the last business da…
+- **Proposed:** is_obligation=True, type=reporting, party=each insurer
+- **Rationale (claude-fable-5):** 'Each insurer shall report direct written premium and surcharges to Treasury'
+
+### 227. `db8289e8288833de` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 117551-118897)
+- **Provision:** § 50.103 Procedure for requesting approval of proposed settlements. (a) Submission of notice. Insurers must request advance approval of a proposed settlement by submitting a notice of the proposed settlement and other required information in writing to the Terrorism Risk Insurance Program Office or its designated representative. The address where notices are to be submitted will be available at ht…
+- **Proposed:** is_obligation=True, type=reporting, party=insurers
+- **Rationale (claude-fable-5):** 'Insurers must request advance approval' by submitting written notice to Treasury
+
+### 228. `1b8b00dad72453e4` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 124319-124661)
+- **Provision:** § 50.113, from the effective date of the PRLP, as established by Treasury, until such time as Treasury provides notice that the PRLP is revised. Treasury will determine the PRLP based on the following considerations: (1) Estimates of insured losses from insurance industry statistical organizations; (2) Any data calls issued by Treasury (see
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** describes how Treasury will determine the PRLP; no bound duty
+
+### 229. `8a92b27e909fdbb2` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 130231-130976)
+- **Provision:** § 50.115(c). (ii) If an insurer estimates that it will not exceed its insurer deductible and has made payments on the basis provided in paragraph (d)(2)(i) of this section, but thereafter reaches its insurer deductible, then the insurer shall apply the PRLP to any remaining insured losses. When such an insurer submits a claim for the Federal share of compensation, the amount of the insurer's losse…
+- **Proposed:** is_obligation=True, type=requirement, party=the insurer
+- **Rationale (claude-fable-5):** conditional duty: 'then the insurer shall apply the PRLP to any remaining insured losses'
+
+### 230. `643641555c83ff69` — ⬜ pending
+
+- **Document:** 31-CFR-50 (chars 131253-132245)
+- **Provision:** § 50.115 Final amount. (a) Treasury shall determine if, as a final proration, remaining insured loss payments, as well as adjustments to previous insured loss payments, can be made by insurers based on an adjusted PLRP, and aggregate insured losses still remain within the cap on annual liability. In such a circumstance, Treasury will notify insurers as to the final PRLP and its application to insu…
+- **Proposed:** is_obligation=True, type=requirement, party=Treasury
+- **Rationale (claude-fable-5):** 'Treasury shall determine if ... a final proration' can be made; insurer 'remains liable'
+
+### 231. `de13c8472ff44068` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 0-441)
+- **Provision:** PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note). Source: 62 FR 45101, Aug. 25, 1997, unless otherwise noted. Subpart A—Relation of…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** part heading, authority citation, and source note
+
+### 232. `910290c5c27e6d26` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 2956-3312)
+- **Provision:** § 596.504(b) of this chapter shall keep a full and accurate record of such property, and such record shall be available for examination for the period of time that such property is blocked and for at least 10 years after the date such property is unblocked. [62 FR 45101, Aug. 25, 1997, as amended at 62 FR 52494, Oct. 8, 1997; 89 FR 74834, Sept. 13, 2024]
+- **Proposed:** is_obligation=True, type=recordkeeping
+- **Rationale (claude-fable-5):** 'shall keep a full and accurate record'; subject truncated by the span boundary
+
+### 233. `2bf6052406715043` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 6604-6766)
+- **Provision:** § 501.602: See subpart F of part 597 for the relationship between this section and part 597. [84 FR 29058, June 21, 2019, as amended at 89 FR 40375, May 10, 2024]
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** cross-reference note plus amendment credits
+
+### 234. `77744855229d9bf1` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 18867-19112)
+- **Provision:** § 501.603(b)(1) and the OFAC Reporting System report identification numbers, when available. Note 3 to paragraph ( b )(3). The reporting requirement set forth in this paragraph (b)(3) applies in addition to the reporting requirement set forth in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** note describing how a reporting requirement stated elsewhere applies
+
+### 235. `bcc484a7cfda36a3` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 29938-30095)
+- **Provision:** § 501.700 Applicability. This subpart is applicable only to those parts of chapter V promulgated pursuant to the TWEA, which include parts 500, 505, and 515.
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** applicability statement for the subpart
+
+### 236. `a4b8bd9132eae9e9` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 41157-42032)
+- **Provision:** § 501.704. Absent satisfactory evidence in the administrative record to the contrary, the Director may presume that the date of mailing is the date stamped on the first page of the notice or order. The respondent may rebut the presumption that a notice or order was mailed on the stamped mailing date only by presenting evidence of the postmark date on the envelope in which the notice or order was m…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** presumption and service-of-process methods; 'may presume', 'may rebut' are permissive
+
+### 237. `400e55200f84882c` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 63598-63836)
+- **Provision:** § 501.712 Acknowledgment of hearing request. No later than 60 days after service of any hearing request, the Director shall acknowledge receipt and inform a respondent, in writing, whether an Order Instituting Proceedings shall be issued.
+- **Proposed:** is_obligation=True, type=disclosure, party=the Director
+- **Rationale (claude-fable-5):** 'the Director shall acknowledge receipt and inform a respondent, in writing' within 60 days
+
+### 238. `dd9f73d2c15cb8fd` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 67712-68937)
+- **Provision:** § 501.715 Notice of Hearing. (a) If the Director issues an Order Instituting Proceedings, the respondent shall receive not less than 45 days notice of the time and place of the hearing. (b) Time and place of hearing. All hearings shall be held in the Washington, DC metropolitan area unless, based on extraordinary reasons, otherwise mutually agreed by the respondent and the Director. The time for a…
+- **Proposed:** is_obligation=True, type=requirement, party=the Director
+- **Rationale (claude-fable-5):** respondent 'shall receive not less than 45 days notice'; hearings 'shall be held' in DC area
+
+### 239. `4a67334bb0b7ab77` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 69274-69925)
+- **Provision:** § 501.716 Default. (a) A party to a proceeding may be deemed to be in default and the Administrative Law Judge (or the Secretary's designee during review proceedings) may determine the proceeding against that party upon consideration of the record if that party fails: (1) To appear, in person or through a representative, at any hearing or conference of which the party has been notified; (2) To ans…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** default consequences of failing to act; permissive 'may be deemed', no operative duty
+
+### 240. `e3d067ef375254ed` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 73629-73863)
+- **Provision:** § 501.702 may not, in that proceeding or one that is factually related, participate or advise in the decision pursuant to Section 557 of the Administrative Procedure Act, 5 U.S.C. 557, except as a witness or counsel in the proceeding.
+- **Proposed:** is_obligation=True, type=prohibition
+- **Rationale (claude-fable-5):** 'may not ... participate or advise in the decision'; subject truncated by span boundary
+
+## Evening 13 (items 241-251)
+
+### 241. `c25d8bbe535e2cea` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 75965-76067)
+- **Provision:** § 501.723, and prehearing production of documents in response to subpoenas duces tecum as set forth in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** cross-reference fragment; no operative language
+
+### 242. `cc2fa4824ceffa35` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 93415-94777)
+- **Provision:** § 501.741(e), briefs in opposition to a motion shall be filed not later than 15 days after service of the motion. Reply briefs shall be filed not later than 3 days after service of the opposition. The failure of a party to oppose a written motion or an oral motion made on the record shall be deemed a waiver of objection by that party to the entry of an order substantially in the form of any propos…
+- **Proposed:** is_obligation=True, type=requirement, party=a party
+- **Rationale (claude-fable-5):** briefs 'shall be filed not later than 15 days'; dilatory motions 'are prohibited'
+
+### 243. `e19507be36eadbe4` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 96812-97363)
+- **Provision:** § 501.728 Subpoenas. (a) Availability; procedure. In connection with any hearing before an Administrative Law Judge, either the respondent or the Director may request the issuance of subpoenas requiring the attendance and testimony of witnesses at the designated time and place of hearing, and subpoenas requiring the production of documentary or other tangible evidence returnable at a designated ti…
+- **Proposed:** is_obligation=True, type=requirement, party=the respondent or the Director
+- **Rationale (claude-fable-5):** subpoena requests 'shall be made in writing and served on each party'
+
+### 244. `55056d19ac61d644` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 108715-110039)
+- **Provision:** § 501.739(b). (b) Official notice. An Administrative Law Judge or Secretary's designee may take official notice of any material fact that might be judicially noticed by a district court of the United States, any matter in the public official records of the Secretary, or any matter that is particularly within the knowledge of the Department as an expert body. If official notice is requested or take…
+- **Proposed:** is_obligation=True, type=requirement, party=a witness at a hearing for the purpose of taking evidence
+- **Rationale (claude-fable-5):** 'shall testify under oath or affirmation'
+
+### 245. `5d399e9523139268` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 110041-110152)
+- **Provision:** § 501.733 Evidence: confidential information, protective orders. (a) Procedure. In any proceeding as defined in
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** section heading and truncated opening clause only
+
+### 246. `4e68f7d2fcaca95c` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 119546-120669)
+- **Provision:** § 501.738 Disqualification and withdrawal of Administrative Law Judge. (a) Notice of disqualification. If at any time an Administrative Law Judge or Secretary's designee believes himself or herself to be disqualified from considering a matter, the Administrative Law Judge or Secretary's designee, as appropriate, shall issue a notice stating that he or she is withdrawing from the matter and setting…
+- **Proposed:** is_obligation=True, type=disclosure, party=an Administrative Law Judge or Secretary's designee
+- **Rationale (claude-fable-5):** 'shall issue a notice' of withdrawal 'setting forth the reasons therefor'
+
+### 247. `06990c25da7866c5` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 125751-126096)
+- **Provision:** § 501.741(a)(1), the decision of the Administrative Law Judge shall become the final decision of the Department. (d) Penalty awarded. The Director is charged with implementing all final decisions of the Department and, upon a finding of violation and/or award of a civil monetary penalty, shall carry out the necessary steps to close the action.
+- **Proposed:** is_obligation=True, type=requirement, party=the Director
+- **Rationale (claude-fable-5):** 'shall carry out the necessary steps to close the action'
+
+### 248. `727134f211fd4a5c` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 130242-131035)
+- **Provision:** § 501.742 Secretary's designee's consideration of decisions by Administrative Law Judges. (a) Scope of review. The Secretary's designee may affirm, reverse, modify, set aside or remand for further proceedings, in whole or in part, a decision or ruling by an Administrative Law Judge and may make any findings or conclusions that in his or her judgment are proper and on the basis of the record and su…
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** wholly discretionary scope of review; 'may affirm', 'may summarily affirm'
+
+### 249. `cdcc053b1670fb0b` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 133369-133957)
+- **Provision:** § 501.744 Record before the Secretary's designee. The Secretary's designee shall determine each matter on the basis of the record and such additional evidence as the Secretary's designee may receive in his or her discretion. In any case of interlocutory review, the Administrative Law Judge shall direct that a transcript of the relevant proceedings be prepared and forwarded to the Secretary's desig…
+- **Proposed:** is_obligation=True, type=requirement, party=the Secretary's designee
+- **Rationale (claude-fable-5):** 'shall determine each matter on the basis of the record'; ALJ 'shall direct' a transcript
+
+### 250. `7fec982549482a1a` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 134872-135764)
+- **Provision:** § 501.745 Orders and decisions: signature, date and public availability. (a) Signature required. All orders and decisions of the Administrative Law Judge or Secretary's designee shall be signed. (b) Date of entry of orders. The date of entry of an order by the Administrative Law Judge or Secretary's designee shall be the date the order is signed. Such date shall be reflected in the caption of the …
+- **Proposed:** is_obligation=True, type=disclosure, party=the Administrative Law Judge or Secretary's designee
+- **Rationale (claude-fable-5):** orders 'shall be signed' and final orders 'shall be made public'
+
+### 251. `5d00ff64905d37d2` — ⬜ pending
+
+- **Document:** 31-CFR-501 (chars 145003-145204)
+- **Provision:** § 501.805( a ): Records or information obtained or created in the implementation of part 598 of this chapter are not subject to disclosure under section 552(a)(3) of the Freedom of Information Act. See
+- **Proposed:** is_obligation=False
+- **Rationale (claude-fable-5):** FOIA exemption statement; no duty imposed on any party
 
