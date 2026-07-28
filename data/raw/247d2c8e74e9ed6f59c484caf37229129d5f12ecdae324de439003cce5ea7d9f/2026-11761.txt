@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 112 (Thursday, June 11, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 112 (Thursday, June 11, 2026)]
+[Rules and Regulations]
+[Page 35400]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-11761]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 510
+
+
+Publication of the List of Medical Devices Requiring Specific 
+Authorization for the North Korea Sanctions Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: List of medical devices excluded from North Korea Sanctions 
+Regulations general license.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is publishing a list of medical devices that may not be 
+exported or reexported to North Korea pursuant to the general license 
+authorizing the exportation or reexportation to North Korea of certain 
+agricultural commodities, medicine, medical devices, and replacement 
+parts and components. The exportation or re-exportation of these 
+excluded medical devices to North Korea requires specific authorization 
+from OFAC.
+
+DATES: This list is effective June 11, 2026.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Regulatory Affairs, 202-622-4855; or <a href="https://ofac.treasury.gov/">https://ofac.treasury.gov/</a>contact-
+ofac.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC is 
+available on OFAC's website (<a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>).
+
+Background
+
+    On February 16, 2024, OFAC adopted a final rule (89 FR 12233) 
+amending the North Korea Sanctions Regulations, 31 CFR part 510 (the 
+``Regulations''), to, among other things, add a new general license at 
+Sec.  510.521 authorizing the exportation or reexportation to North 
+Korea of certain agricultural commodities, medicine, medical devices, 
+and replacement parts and components that are not subject to the Export 
+Administration Regulations, 15 CFR parts 730 through 774. Section 
+510.521(b)(3) defines a medical device to mean an item that (i) falls 
+within the definition of ``device'' in section 201 of the Federal Food, 
+Drug, and Cosmetic Act (21 U.S.C. 321), and (ii) is not on the List of 
+Medical Devices Requiring Specific Authorization (the ``List''), as 
+maintained on OFAC's website (<a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>) on the North 
+Korea Sanctions page. OFAC is now publishing the List in the Federal 
+Register and on its website.
+    The text of the List is provided below.
+
+List of Medical Devices Requiring Specific Authorization (June 11, 
+2026)
+
+    The list below comprises the List of Medical Devices Requiring 
+Specific Authorization as identified in 31 CFR 510.521(b)(3)(ii).
+
+General Medical Supplies and Equipment
+
+<bullet> Oxygen Generators
+<bullet> Pumps with flow rates of more than 1 liter/minute
+<bullet> Diagnostic Medical Imaging Equipment:
+    [cir] Gamma imaging equipment
+    [cir] Tactile Imaging equipment
+    [cir] Thermography equipment
+
+Laboratory
+
+<bullet> Freeze-drying (lypophilizers) and spray-drying equipment
+<bullet> Fermenters, bioreactors, and chemostats
+<bullet> Crossflow (tangential) filtration systems and disposable 
+filter cartridges
+<bullet> Biocontainment chambers and hoods, including isolators, 
+biological safety cabinets, and laminar flow hoods
+<bullet> Aerosol inhalation equipment, including full-body, head-only, 
+nose-only, and mask exposure systems
+<bullet> Decontamination showers
+<bullet> Laboratory glassware made from borosilicate glass, including 
+reaction vessels, storage tanks, heat exchangers, and distillation and 
+absorption columns
+<bullet> Autoclaves larger than 20 liters
+<bullet> Clinical laboratory water baths larger than 10 liters
+<bullet> Laboratory hot plates exceeding 1 square foot of heating 
+surface
+<bullet> Freezers capable of reaching temperatures of -80 degrees 
+Celsius
+<bullet> Laboratory shakers and incubator shakers
+<bullet> Carbon dioxide incubators
+<bullet> Circular dichroism spectrometers
+<bullet> Spectrometers and spectrophotometers not designed for clinical 
+use
+<bullet> Fluorometers
+<bullet> Nuclear Magnetic Resonance Spectrometers
+<bullet> Polymerase Chain Reaction (PCR) machines
+<bullet> Differential Scanning Calorimeters
+<bullet> Chromatography Equipment
+<bullet> Fluorescence Microscopes
+<bullet> Confocal Microscopes
+<bullet> Cascade Impactors
+<bullet> Dynamic Light Scattering Equipment
+<bullet> Quasielectric Light Scattering Equipment
+<bullet> Full face mask respirators, including Powered Air Purifying 
+Respirators (PAPR)
+<bullet> Decontamination systems using the following chemicals:
+    [cir] Vaporized hydrogen peroxide
+    [cir] Vaporized paraformaldehyde
+    [cir] Vaporized ethylene oxide
+    [cir] Isopropanol (99% purity)
+<bullet> High Efficiency Particulate Air (HEPA) Filtration Systems and 
+HEPA filters
+<bullet> Fourier Transformation Infrared (FTIR) Systems
+<bullet> Balancing machines
+<bullet> Motion simulators
+<bullet> Rate tables
+<bullet> Fluorescence-activated cell sorters (FACS)
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2026-11761 Filed 6-10-26; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

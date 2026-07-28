@@ -1,0 +1,143 @@
+{
+  "abstract": "The OCC is issuing a preemption determination concluding that Federal law preempts State laws that restrict OCC-regulated banks' flexibility to decide whether and to what extent to pay interest or other compensation on funds placed in real estate escrow accounts; or assess fees in connection with such accounts. This preemption determination will provide much-needed clarity to banks and other stakeholders.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 80,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/80",
+      "name": "Comptroller of the Currency",
+      "parent_id": 497,
+      "raw_name": "Office of the Comptroller of the Currency",
+      "slug": "comptroller-of-the-currency",
+      "url": "https://www.federalregister.gov/agencies/comptroller-of-the-currency"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/05/19/2026-10037.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "34",
+      "title": 12
+    }
+  ],
+  "citation": "91 FR 29350",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This final rule is effective on June 18, 2026.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket ID OCC-2025-0735"
+  ],
+  "dockets": [
+    {
+      "agency_name": "OCC",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2026-05-19",
+          "comment_url": "https://www.regulations.gov/commenton/OCC-2025-0735-0028",
+          "id": "OCC-2025-0735-0028",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2026-05-19T11:56:25.914-04:00"
+        }
+      ],
+      "id": "OCC-2025-0735",
+      "supporting_documents": [
+        {
+          "document_id": "OCC-2025-0735-0024",
+          "title": "Summary of 1.30.2026 Meeting with WilmerHale"
+        },
+        {
+          "document_id": "OCC-2025-0735-0023",
+          "title": "Summary of 2.17.2026 BPI Research"
+        }
+      ],
+      "supporting_documents_count": 2,
+      "title": "Preemption Determination: State Interest-on-Escrow Laws"
+    }
+  ],
+  "document_number": "2026-10037",
+  "effective_on": "2026-06-18",
+  "end_page": 29358,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/05/19/2026-10037.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/05/19/2026-10037/preemption-determination-state-interest-on-escrow-laws",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2026-10037?publication_date=2026-05-19",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-05-19/2026-10037/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 9,
+  "page_views": {
+    "count": 1247,
+    "last_updated": "2026-07-28 14:15:04 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-19/pdf/2026-10037.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-10037.pdf?1779108318",
+  "publication_date": "2026-05-19",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/05/19/2026-10037.txt",
+  "regulation_id_number_info": {
+    "1557-AF45": null
+  },
+  "regulation_id_numbers": [
+    "1557-AF45"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "OCC",
+    "checked_regulationsdotgov_at": "2026-05-20T14:55:05Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OCC-2025-0735",
+    "docket_id": "OCC-2025-0735",
+    "document_id": "OCC-2025-0735-0028",
+    "regulation_id_number": "1557-AF45",
+    "supporting_documents": [
+      {
+        "document_id": "OCC-2025-0735-0024",
+        "title": "Summary of 1.30.2026 Meeting with WilmerHale"
+      },
+      {
+        "document_id": "OCC-2025-0735-0023",
+        "title": "Summary of 2.17.2026 BPI Research"
+      }
+    ],
+    "supporting_documents_count": 2,
+    "title": "Preemption Determination: State Interest-on-Escrow Laws"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 29350,
+  "subtype": null,
+  "title": "Preemption Determination: State Interest-on-Escrow Laws",
+  "toc_doc": "Preemption Determination",
+  "toc_subject": "State Interest-on-Escrow Laws",
+  "topics": [
+    "Accounting",
+    "Banks, banking",
+    "Consumer protection",
+    "Credit",
+    "Mortgages",
+    "Reporting and recordkeeping requirements",
+    "Savings associations"
+  ],
+  "type": "Rule",
+  "volume": 91
+}

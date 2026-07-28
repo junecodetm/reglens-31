@@ -20,3 +20,5 @@ class Settings(BaseSettings):
     ollama_base_url: str = "http://localhost:11434"
     model_tag: str = "qwen3:8b"
     user_agent: str = "reglens-31/0.1 (+https://github.com/junecodetm/reglens-31)"
+    ecfr_date: str = "2026-07-01"
+    max_document_chars: int = 80_000

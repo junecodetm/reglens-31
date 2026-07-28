@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 88 (Thursday, May 7, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 88 (Thursday, May 7, 2026)]
+[Rules and Regulations]
+[Pages 24722-24724]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-09094]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Chapter V
+
+
+Publication of Iranian Transactions and Sanctions Regulations Web 
+General Licenses
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Publication of web general licenses.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is publishing two general licenses (GLs) issued in the 
+Iranian sanctions program: GLs S and T. These GLs were previously made 
+available on OFAC's website.
+
+DATES: GL S was issued on December 18, 2025. See SUPPLEMENTARY 
+INFORMATION for additional relevant dates.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Regulatory Affairs, 202-622-4855; or <a href="https://ofac.treasury.gov/contact-ofac">https://ofac.treasury.gov/contact-ofac</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov/">https://ofac.treasury.gov/</a>.
+
+Background
+
+    On December 18, 2025, OFAC issued GL S to authorize certain 
+transactions otherwise prohibited by Executive Order (E.O.) 13902 of 
+January 10, 2020, ``Imposing Sanctions With Respect to Additional 
+Sectors of Iran'' (85 FR 2003, January 14, 2020). On January 23, 2026, 
+OFAC issued GL T to authorize certain transactions otherwise prohibited 
+by E.O. 13902. GLs S and T, which are both expired, were made available 
+on OFAC's website (<a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>) when they were issued. 
+The text of these GLs is provided below.
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Executive Order 13902 of January 10, 2020
+
+Imposing Sanctions With Respect to Additional Sectors of Iran
+
+GENERAL LICENSES
+
+Authorizing Limited Safety and Environmental Transactions and the 
+Offloading of Cargo Involving Certain Persons or Vessels Blocked on 
+December 18, 2025
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by Executive Order (E.O.) 13902 that are 
+ordinarily incident and necessary to one or more of the following 
+activities involving the blocked vessels or blocked persons listed in 
+the Annex to this general license, and any entity in which the listed 
+blocked persons own, directly or indirectly, individually or in the 
+aggregate, a 50 percent or greater interest, are authorized through 
+12:01 a.m. eastern standard time, January 18, 2026, provided that any 
+payment to a blocked person must be made into a blocked interest-
+bearing account located in the United States:
+
+[[Page 24723]]
+
+    (1) The safe docking and anchoring in any port, excluding ports 
+located in Iran or the Russian Federation or Venezuela, or under the 
+control of the Government of Iran or the Government of the Russian 
+Federation or the Government of Venezuela, of the blocked vessels 
+listed in the Annex to this general license (the ``Blocked Vessels'');
+    (2) The preservation of the health or safety of the crew of any of 
+the Blocked Vessels;
+    (3) Emergency repairs of any of the Blocked Vessels or 
+environmental mitigation or protection activities relating to any of 
+the Blocked Vessels; or
+    (4) The delivery and offloading of cargo involving the Blocked 
+Vessels, provided that the cargo is not of Iranian-origin and was 
+loaded on or before December 18, 2025, and that the delivery and 
+offloading of cargo does not occur at any port located in Iran or the 
+Russian Federation or Venezuela, or under the control of the Government 
+of Iran or the Government of the Russian Federation or the Government 
+of Venezuela.
+
+    Note 1 to paragraph (a).  The authorization in paragraph (a) of 
+this general license includes services such as vessel management, 
+crewing, bunkering, piloting, registration, flagging, insurance, 
+classification, and salvage.
+
+    (b) This general license does not authorize:
+    (1) The entry into any new commercial contracts involving the 
+property or interests in property of any blocked persons, including the 
+blocked persons described in paragraph (a) of this general license, 
+except as authorized by paragraph (a); or
+    (2) Any transactions or activities prohibited by E.O. 13902, except 
+as authorized by paragraph (a) of this general license, or any 
+transaction or activity prohibited by any other E.O. or any part of 31 
+CFR chapter V, including any transaction or activity involving Iran, 
+the Government of Iran, or Iranian-origin goods or services that is 
+prohibited by the Iranian Transactions and Sanctions Regulations (31 
+CFR part 560).
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+
+Dated: December 18, 2025.
+
+Annex--Blocked Persons and Vessels Described in Paragraph (a) of 
+General License S
+
+    List of Blocked Persons and Blocked Vessels Described in Paragraph 
+(a) of General License S as of December 18, 2025:
+
+------------------------------------------------------------------------
+          Blocked person             Blocked vessel name      IMO No.
+------------------------------------------------------------------------
+Phoenix Ship Management FZE.......  NEBULA DRIFT........         9233973
+Phoenix Ship Management FZE.......  AETHER SAIL.........         9277371
+Phoenix Ship Management FZE.......  TIDAL RHYTHM........         9297101
+Phoenix Ship Management FZE.......  VOYAGER HAVEN.......         9271896
+Arihant Shipping Inc..............  ARIHANT.............         9464156
+Kurdos Shipping Inc...............  KURDOS..............         9236731
+Kurdos Shipping Inc...............  KURDOS II...........         9453729
+Kurdos Shipping Inc...............  KURDOS III..........         9380570
+Adonis Shipping Inc...............  KASSIA..............         9409986
+Concord Shipping Inc..............  MAJESTY.............         9430715
+Rukbat Marine Services Co.........  FLORA DOLCE.........         9258595
+Aleah Shipping Inc................  DIANA...............         9255945
+J M A Shipping Inc................  J M A...............         9246487
+S M A Shipping Inc................  S M A...............         9273002
+M K A Shipping Inc................  M K A...............         9269403
+Golden Gate Ship Management.......  AUROURA.............         9262912
+Darya Shipping Private Limited....  RAMYA...............         9363182
+Sinostar Marine Group Limited.....  FOSHAN..............         9404572
+Hemera Lines Inc..................  HEMERA..............         9263954
+Agape Shipping Inc................  NOMIKI..............         9242443
+Maruti Shipping Inc...............  MARUTI..............         9546710
+Everest Sea Navigation SA.........  GOLDEN EAGLE........         9255684
+Red Sea Ship Management LLC.......  SKYLIGHT............         9330020
+Red Sea Ship Management LLC.......  KHADIGA.............         9321469
+Red Sea Ship Management LLC.......  INTAN PREMIER.......         9358802
+High Seas Petroleum LLC...........
+Qatrat Alnada Almasi Ship           SEA WISE............         9224570
+ Management.
+Qatrat Alnada Almasi Ship           SEAMULL.............         9204776
+ Management.
+Qatrat Alnada Almasi Ship           SEA ROCK............         9140451
+ Management.
+Qatrat Alnada Almasi Ship           SEA CITRINE VI......         9207273
+ Management.
+------------------------------------------------------------------------
+
+
+[[Page 24724]]
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Executive Order 13902 of January 10, 2020
+
+Imposing Sanctions With Respect to Additional Sectors of Iran
+
+GENERAL LICENSE T
+
+Authorizing Limited Safety and Environmental Transactions and the 
+Offloading of Cargo Involving Certain Persons or Vessels Blocked on 
+January 23, 2026
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by Executive Order (E.O.) 13902 that are 
+ordinarily incident and necessary to one or more of the following 
+activities involving the blocked vessels or blocked persons listed in 
+the Annex to this general license, and any entity in which the listed 
+blocked persons own, directly or indirectly, individually or in the 
+aggregate, a 50 percent or greater interest, are authorized through 
+12:01 a.m. eastern standard time, February 22, 2026, provided that any 
+payment to a blocked person must be made into a blocked interest-
+bearing account located in the United States:
+    (1) The safe docking and anchoring in any port, excluding ports 
+located in Iran or the Russian Federation or Venezuela, or under the 
+control of the Government of Iran or the Government of the Russian 
+Federation or the Government of Venezuela, of the blocked vessels 
+listed in the Annex to this general license (the ``Blocked Vessels'');
+    (2) The preservation of the health or safety of the crew of any of 
+the Blocked Vessels;
+    (3) Emergency repairs of any of the Blocked Vessels or 
+environmental mitigation or protection activities relating to any of 
+the Blocked Vessels; or
+    (4) The delivery and offloading of cargo involving the Blocked 
+Vessels, provided that the cargo is not of Iranian-origin and was 
+loaded on or before January 23, 2026, and that the delivery and 
+offloading of cargo does not occur at any port located in Iran or the 
+Russian Federation or Venezuela, or under the control of the Government 
+of Iran or the Government of the Russian Federation or the Government 
+of Venezuela.
+
+    Note 1 to paragraph (a).  The authorization in paragraph (a) of 
+this general license includes services such as vessel management, 
+crewing, bunkering, piloting, registration, flagging, insurance, 
+classification, and salvage.
+
+    (b) This general license does not authorize:
+    (1) The entry into any new commercial contracts involving the 
+property or interests in property of any blocked persons, including the 
+blocked persons described in paragraph (a) of this general license, 
+except as authorized by paragraph (a); or
+    (2) Any transactions or activities prohibited by E.O. 13902, except 
+as authorized by paragraph (a) of this general license, or any 
+transaction or activity prohibited by any other E.O. or any part of 31 
+CFR chapter V, including any transaction or activity involving Iran, 
+the Government of Iran, or Iranian-origin goods or services that is 
+prohibited by the Iranian Transactions and Sanctions Regulations (31 
+CFR part 560).
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+
+Dated: January 23, 2026.
+
+Annex--Blocked Persons and Vessels Described in Paragraph (a) of 
+General License T
+
+    List of Blocked Persons and Blocked Vessels Described in Paragraph 
+(a) of General License T as of January 23, 2026:
+
+------------------------------------------------------------------------
+          Blocked person             Blocked vessel name      IMO No.
+------------------------------------------------------------------------
+Horizon Harvest Shipping LLC......  SEA BIRD............     IMO 9088536
+Aayat Ship Management Private       AVON................     IMO 9034705
+ Limited.
+Black Stone Oil and Gas...........  AL DIAB II..........     IMO 9053816
+Galeran Service Corp..............  CESARIA.............     IMO 9251602
+Longevity Shipping Limited........  LONGEVITY 7.........     IMO 9240885
+Odyssey Marine Inc................  EASTERN HERO........     IMO 9353905
+Benoil Shipping Inc...............  AQUA SPIRIT.........     IMO 9197727
+Trade Bridge Global Inc...........  CHIRON 5............     IMO 9306665
+Trade Bridge Global Inc...........  KEEL................     IMO 9176929
+------------------------------------------------------------------------
+
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2026-09094 Filed 5-6-26; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

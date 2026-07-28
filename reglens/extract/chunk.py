@@ -8,7 +8,7 @@ full document, so chunk boundaries can never corrupt a span).
 """
 
 
-def chunk_text(text: str, max_chars: int = 6000) -> list[str]:
+def chunk_text(text: str, max_chars: int = 4000) -> list[str]:
     """Split ``text`` into paragraph-aligned chunks of at most ``max_chars`` (best effort)."""
     paragraphs = text.split("\n\n")
     chunks: list[str] = []

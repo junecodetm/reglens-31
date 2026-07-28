@@ -51,24 +51,29 @@ def fetch_document(client: httpx.Client, document_number: str) -> FRDocument:
     return FRDocument.model_validate(response.json())
 
 
-def latest_treasury_rule(client: httpx.Client) -> str:
-    """Document number of the most recent Treasury final rule.
+def recent_treasury_rules(client: httpx.Client, count: int = 1) -> list[str]:
+    """Document numbers of the ``count`` most recent Treasury final rules.
 
     Failure mode: raises ``LookupError`` if the search returns no results —
-    the caller must pick a document explicitly rather than ingest nothing.
+    the caller must pick documents explicitly rather than ingest nothing.
     """
     url = (
         f"{API_BASE}/documents.json"
         "?conditions[agencies][]=treasury-department"
         "&conditions[type][]=RULE"
-        "&order=newest&per_page=1&fields[]=document_number"
+        f"&order=newest&per_page={count}&fields[]=document_number"
     )
     response = client.get(require_allowed(url))
     response.raise_for_status()
     results: list[dict[str, str]] = response.json().get("results", [])
     if not results:
         raise LookupError("Federal Register search returned no Treasury rules")
-    return results[0]["document_number"]
+    return [result["document_number"] for result in results]
+
+
+def latest_treasury_rule(client: httpx.Client) -> str:
+    """Document number of the most recent Treasury final rule."""
+    return recent_treasury_rules(client, count=1)[0]
 
 
 def ingest_document(settings: Settings, document_number: str) -> tuple[Path, Path]:

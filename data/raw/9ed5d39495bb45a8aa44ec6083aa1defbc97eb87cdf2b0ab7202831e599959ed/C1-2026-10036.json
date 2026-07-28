@@ -1,0 +1,141 @@
+{
+  "abstract": null,
+  "action": null,
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 80,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/80",
+      "name": "Comptroller of the Currency",
+      "parent_id": 497,
+      "raw_name": "Office of the Comptroller of the Currency",
+      "slug": "comptroller-of-the-currency",
+      "url": "https://www.federalregister.gov/agencies/comptroller-of-the-currency"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/06/29/C1-2026-10036.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "34",
+      "title": 12
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "160",
+      "title": 12
+    }
+  ],
+  "citation": "91 FR 38991",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": "https://www.federalregister.gov/api/v1/documents/2026-10036",
+  "corrections": [],
+  "dates": null,
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket ID OCC-2025-0736"
+  ],
+  "dockets": [
+    {
+      "agency_name": "OCC",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2026-06-29",
+          "comment_url": "https://www.regulations.gov/commenton/OCC-2025-0736-0025",
+          "id": "OCC-2025-0736-0025",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2026-06-29T18:56:12.977-04:00"
+        }
+      ],
+      "id": "OCC-2025-0736",
+      "supporting_documents": [
+        {
+          "document_id": "OCC-2025-0736-0021",
+          "title": "Summary of 2.17.2026 BPI Research"
+        },
+        {
+          "document_id": "OCC-2025-0736-0020",
+          "title": "Summary of 1.30.2026 Meeting with WilmerHale"
+        }
+      ],
+      "supporting_documents_count": 2,
+      "title": "Real Estate Lending Escrow Accounts"
+    }
+  ],
+  "document_number": "C1-2026-10036",
+  "effective_on": null,
+  "end_page": 38991,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/06/29/C1-2026-10036.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/06/29/C1-2026-10036/real-estate-lending-escrow-accounts",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/C1-2026-10036?publication_date=2026-06-29",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-06-29/C1-2026-10036/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 1,
+  "page_views": {
+    "count": 542,
+    "last_updated": "2026-07-28 14:15:04 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-29/pdf/C1-2026-10036.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/C1-2026-10036.pdf?1782477920",
+  "publication_date": "2026-06-29",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/06/29/C1-2026-10036.txt",
+  "regulation_id_number_info": {
+    "1557-AF46": null
+  },
+  "regulation_id_numbers": [
+    "1557-AF46"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "OCC",
+    "checked_regulationsdotgov_at": "2026-07-01T01:55:03Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OCC-2025-0736",
+    "docket_id": "OCC-2025-0736",
+    "document_id": "OCC-2025-0736-0025",
+    "regulation_id_number": "1557-AF46",
+    "supporting_documents": [
+      {
+        "document_id": "OCC-2025-0736-0021",
+        "title": "Summary of 2.17.2026 BPI Research"
+      },
+      {
+        "document_id": "OCC-2025-0736-0020",
+        "title": "Summary of 1.30.2026 Meeting with WilmerHale"
+      }
+    ],
+    "supporting_documents_count": 2,
+    "title": "Real Estate Lending Escrow Accounts"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 38991,
+  "subtype": null,
+  "title": "Real Estate Lending Escrow Accounts",
+  "toc_doc": "Real Estate Lending Escrow Accounts",
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 91
+}

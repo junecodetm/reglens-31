@@ -1,0 +1,410 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 88 (Thursday, May 7, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 88 (Thursday, May 7, 2026)]
+[Rules and Regulations]
+[Pages 24719-24722]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-09092]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 591
+
+
+Publication of Venezuela Sanctions Regulations Web General 
+Licenses 46, 46A, and 46B
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Publication of web general licenses.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is publishing three general licenses (GLs) issued 
+pursuant to the Venezuela Sanctions Regulations: GLs 46, 46A, and 46B, 
+each of which was previously made available on OFAC's website.
+
+DATES: GL 46 was issued on January 29, 2026. See SUPPLEMENTARY 
+INFORMATION for additional relevant dates.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Regulatory Affairs, 202-622-4855; or <a href="https://ofac.treasury.gov/contact-ofac">https://ofac.treasury.gov/contact-ofac</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov/">https://ofac.treasury.gov/</a>.
+
+Background
+
+    On January 29, 2026, OFAC issued GL 46 to authorize certain 
+transactions otherwise prohibited by the Venezuela Sanctions 
+Regulations (VSR), 31 CFR part 591. On February 10, 2026, OFAC issued 
+GL 46A, which replaced and superseded GL 46. On March 13, 2026, OFAC 
+issued GL 46B, which replaced and superseded GL 46A. These GLs were 
+made available on OFAC's website (<a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>) when they 
+were issued. The text of these GLs is provided below.
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Venezuela Sanctions Regulations
+
+31 CFR Part 591
+
+GENERAL LICENSE NO. 46
+
+Authorizing Certain Activities Involving Venezuelan-Origin Oil
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by the Venezuela Sanctions Regulations, 31 
+CFR part 591 (the VSR), including those involving the Government of 
+Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity 
+in which PdVSA owns, directly or indirectly, a 50 percent or greater 
+interest (collectively, ``PdVSA Entities''), that are ordinarily 
+incident and necessary to the lifting, exportation, reexportation, 
+sale, resale, supply, storage, marketing, purchase, delivery, or 
+transportation of Venezuelan-origin oil, including the refining of such 
+oil, by an established U.S. entity are authorized, provided that:
+    (1) Any contract for such transactions with the Government of 
+Venezuela, PdVSA, or PdVSA Entities specify that the laws of the United 
+States or any jurisdiction within the United States govern the contract 
+and that any dispute resolution under the contract occur in the United 
+States; and
+    (2) Any monetary payment to a blocked person is made into the 
+Foreign Government Deposit Funds, as specified in Executive Order 14373 
+of January 9, 2026, or any other account as instructed by the U.S. 
+Department of the Treasury.
+
+    Note 1 to Paragraph (a).  For purposes of this general license, 
+the term ``established U.S. entity'' means any entity organized 
+under the laws of the United States or any jurisdiction within the 
+United States on or before January 29, 2025.
+
+
+    Note 2 to Paragraph (a).  Transactions authorized by paragraph 
+(a) include arranging shipping and logistics services, including 
+chartering vessels, obtaining marine insurance and protection and 
+indemnity (P&I) coverage, and arranging port and terminal services, 
+including with port authorities or terminal operators that are part 
+of the Government of Venezuela. Paragraph (a) also authorizes 
+commercially reasonable payments in the form of swaps of crude oil, 
+diluents, or refined petroleum products.
+
+    (b) This general license does not authorize:
+    (1) Payment terms that are not commercially reasonable, involve 
+debt swaps or payments in gold, or are denominated in digital currency, 
+digital coin, or digital tokens issued by, for, or on behalf of the 
+Government of Venezuela, including the petro;
+    (2) Any transaction involving a person located in or organized 
+under the laws of the Russian Federation, the Islamic Republic of Iran, 
+the Democratic People's Republic of Korea, the Republic of Cuba, or any 
+entity that is owned or controlled, directly or indirectly, by or in a 
+joint venture with such persons;
+    (3) Any transaction involving an entity located in or organized 
+under the laws of Venezuela or the United States that is owned or 
+controlled, directly or indirectly, by or in a joint venture with a 
+person located in or organized under the laws of the People's Republic 
+of China;
+    (4) The unblocking of any property blocked pursuant to the VSR; or
+    (5) Any transaction involving a blocked vessel.
+    (c) Any person that exports, reexports, sells, resells, or supplies 
+Venezuelan-origin oil to countries other than the United States 
+pursuant to this general license must provide a detailed report to 
+<a href="/cdn-cgi/l/email-protection#c99aa8a7aabda0a6a7ba96a0a7aba6b189babda8bdace7aea6bf"><span class="__cf_email__" data-cfemail="5c0f3d323f283533322f0335323e33241c2f283d2839723b332a">[email&#160;protected]</span></a> and <a href="/cdn-cgi/l/email-protection#67313d3502170815130e09002703080249000811"><span class="__cf_email__" data-cfemail="0e58545c6b7e617c7a6760694e6a616b20696178">[email&#160;protected]</span></a> that identifies, for 
+each of these transactions:
+    (1) The parties involved;
+    (2) The quantities, values, and countries of ultimate destination;
+    (3) The dates the transactions occurred; and
+    (4) Any taxes, fees, or other payments provided to the Government 
+of Venezuela.
+    (d) Reports described in paragraph (c) are due ten days after the 
+execution of the first of such transactions and every 90 days 
+thereafter while such transactions are ongoing.
+
+    Note to General License No. 46.  Nothing in this general license 
+relieves any person from compliance with the requirements of other 
+Federal agencies, including the Department of Commerce's Bureau of 
+Industry and Security.
+
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+
+Dated: January 29, 2026.
+
+[[Page 24720]]
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Venezuela Sanctions Regulations
+
+31 CFR Part 591
+
+GENERAL LICENSE NO. 46A
+
+Authorizing Certain Activities Involving Venezuelan-Origin Oil
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by the Venezuela Sanctions Regulations, 31 
+CFR part 591 (the VSR), including those involving the Government of 
+Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity 
+in which PdVSA owns, directly or indirectly, a 50 percent or greater 
+interest (collectively, ``PdVSA Entities''), that are ordinarily 
+incident and necessary to the lifting, exportation, reexportation, 
+sale, resale, supply, storage, marketing, purchase, delivery, or 
+transportation of Venezuelan-origin oil, including the refining of such 
+oil, by an established U.S. entity are authorized, provided that:
+    (1) Any contract for such transactions with the Government of 
+Venezuela, PdVSA, or PdVSA Entities specify that the laws of the United 
+States or any jurisdiction within the United States govern the contract 
+and that any dispute resolution under the contract occur in the United 
+States; and
+    (2) Any monetary payment to a blocked person, excluding payments 
+for local taxes, permits, or fees, is made into the Foreign Government 
+Deposit Funds, as specified in Executive Order 14373 of January 9, 
+2026, or any other account as instructed by the U.S. Department of the 
+Treasury.
+
+    Note 1 to Paragraph (a).  For purposes of this general license, 
+the term ``established U.S. entity'' means any entity organized 
+under the laws of the United States or any jurisdiction within the 
+United States on or before January 29, 2025.
+
+
+    Note 2 to Paragraph (a).  Transactions authorized by paragraph 
+(a) include arranging shipping and logistics services, including 
+chartering vessels, obtaining marine insurance and protection and 
+indemnity (P&I) coverage, and arranging port and terminal services, 
+including with port authorities or terminal operators that are part 
+of the Government of Venezuela. Paragraph (a) also authorizes 
+commercially reasonable payments in the form of swaps of crude oil, 
+diluents, or refined petroleum products.
+
+    (b) This general license does not authorize:
+    (1) Payment terms that are not commercially reasonable, involve 
+debt swaps or payments in gold, or are denominated in digital currency, 
+digital coin, or digital tokens issued by, for, or on behalf of the 
+Government of Venezuela, including the petro;
+    (2) Any transaction involving a person located in or organized 
+under the laws of the Russian Federation, the Islamic Republic of Iran, 
+the Democratic People's Republic of Korea, the Republic of Cuba, or any 
+entity that is owned or controlled, directly or indirectly, by or in a 
+joint venture with such persons;
+    (3) Any transaction involving an entity located in or organized 
+under the laws of Venezuela or the United States that is owned or 
+controlled, directly or indirectly, by or in a joint venture with a 
+person located in or organized under the laws of the People's Republic 
+of China;
+    (4) The unblocking of any property blocked pursuant to the VSR; or
+    (5) Any transaction involving a blocked vessel.
+    (c) Any person that exports, reexports, sells, resells, or supplies 
+Venezuelan-origin oil to countries other than the United States 
+pursuant to this general license must provide a detailed report to 
+<a href="/cdn-cgi/l/email-protection#e6b5878885928f898895b98f8884899ea69592879283c8818990"><span class="__cf_email__" data-cfemail="396a58575a4d5056574a6650575b5641794a4d584d5c175e564f">[email&#160;protected]</span></a> and <a href="/cdn-cgi/l/email-protection#085e525a6d78677a7c61666f486c676d266f677e"><span class="__cf_email__" data-cfemail="f2a4a8a097829d80869b9c95b2969d97dc959d84">[email&#160;protected]</span></a> that identifies, for 
+each of these transactions:
+    (1) The parties involved;
+    (2) The quantities, values, and countries of ultimate destination;
+    (3) The dates the transactions occurred; and
+    (4) Any taxes, fees, or other payments provided to the Government 
+of Venezuela.
+    (d) Reports described in paragraph (c) are due ten days after the 
+execution of the first of such transactions and every 90 days 
+thereafter while such transactions are ongoing.
+    (e) Effective February 10, 2026, General License No. 46, dated 
+January 29, 2026, is replaced and superseded in its entirety by this 
+General License No. 46A.
+
+    Note to General License No. 46A.  Nothing in this general 
+license relieves any person from compliance with the requirements of 
+other Federal agencies, including the Department of Commerce's 
+Bureau of Industry and Security.
+
+
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+
+Dated: February 10, 2026.
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Venezuela Sanctions Regulations
+
+31 CFR Part 591
+
+GENERAL LICENSE NO. 46B
+
+Authorizing Certain Activities Involving Venezuelan-Origin Oil or 
+Petrochemical Products
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by the Venezuela Sanctions Regulations, 31 
+CFR part 591 (the VSR), including those involving the Government of 
+Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity 
+in which PdVSA owns, directly or indirectly, a 50 percent or greater 
+interest (collectively, ``PdVSA Entities''), that are ordinarily 
+incident and necessary to the lifting, exportation, reexportation, 
+sale, resale, supply, storage, marketing, purchase, delivery, or 
+transportation of Venezuelan-origin oil, including the refining of such 
+oil, or of Venezuelan-origin petrochemical products for importation 
+into the United States, by an established U.S. entity are authorized, 
+provided that:
+    (1) Any contract for such transactions with the Government of 
+Venezuela, PdVSA, or PdVSA Entities specify that the laws of the United 
+States or any jurisdiction within the United States govern the contract 
+and that any dispute resolution under the contract occur in the United 
+States; and
+    (2) Any monetary payment to a blocked person, excluding payments 
+for local taxes, permits, or fees, is made into the Foreign Government 
+Deposit Funds, as specified in Executive Order 14373 of January 9, 
+2026, or any other account as instructed by the U.S. Department of the 
+Treasury.
+
+    Note 1 to Paragraph (a).  For purposes of this general license, 
+the term ``established U.S. entity'' means any entity organized 
+under the laws of the United States or any jurisdiction within the 
+United States on or before January 29, 2025.
+
+
+    Note 2 to Paragraph (a).  Transactions authorized by paragraph 
+(a) include arranging shipping and logistics services, including 
+chartering vessels, obtaining marine insurance and protection and 
+indemnity (P&I) coverage, and arranging port and terminal services, 
+including with port authorities or terminal operators that are part 
+of the Government of Venezuela. Paragraph (a) also authorizes 
+commercially reasonable payments in the form of swaps of crude oil, 
+diluents, or refined petroleum products.
+
+
+    Note 3 to Paragraph (a).  For purposes of this general license, 
+the term ``petrochemical products'' includes fertilizer products and 
+fertilizer precursor chemicals, including the
+
+[[Page 24721]]
+
+chemicals listed in the Annex of this general license.
+
+    (b) This general license does not authorize:
+    (1) Payment terms that are not commercially reasonable, involve 
+debt swaps or payments in gold, or are denominated in digital currency, 
+digital coin, or digital tokens issued by, for, or on behalf of the 
+Government of Venezuela, including the petro;
+    (2) Any transaction involving a person located in or organized 
+under the laws of the Russian Federation, the Islamic Republic of Iran, 
+the Democratic People's Republic of Korea, the Republic of Cuba, or any 
+entity that is owned or controlled, directly or indirectly, by or in a 
+joint venture with such persons;
+    (3) Any transaction involving an entity located in or organized 
+under the laws of Venezuela or the United States that is owned or 
+controlled, directly or indirectly, by or in a joint venture with a 
+person located in or organized under the laws of the People's Republic 
+of China;
+    (4) The unblocking of any property blocked pursuant to the VSR; or
+    (5) Any transaction involving a blocked vessel.
+    (c) Any person that exports, reexports, sells, resells, or supplies 
+Venezuelan-origin oil to countries other than the United States 
+pursuant to this general license must provide a detailed report to 
+<a href="/cdn-cgi/l/email-protection#7b281a15180f121415082412151914033b080f1a0f1e551c140d"><span class="__cf_email__" data-cfemail="d281b3bcb1a6bbbdbca18dbbbcb0bdaa92a1a6b3a6b7fcb5bda4">[email&#160;protected]</span></a> and <a href="/cdn-cgi/l/email-protection#8ddbd7dfe8fde2fff9e4e3eacde9e2e8a3eae2fb"><span class="__cf_email__" data-cfemail="9bcdc1c9feebf4e9eff2f5fcdbfff4feb5fcf4ed">[email&#160;protected]</span></a> that identifies, for 
+each of these transactions:
+    (1) The parties involved;
+    (2) The quantities, values, and countries of ultimate destination;
+    (3) The dates the transactions occurred; and
+    (4) Any taxes, fees, or other payments provided to the Government 
+of Venezuela. (d) Reports described in paragraph (c) are due ten days 
+after the execution of the first of such transactions and every 90 days 
+thereafter while such transactions are ongoing.
+    (e) Effective March 13, 2026, General License No. 46A, dated 
+February 10, 2026, is replaced and superseded in its entirety by this 
+General License No. 46B.
+
+    Note to General License No. 46B.  Nothing in this general 
+license relieves any person from compliance with the requirements of 
+other Federal agencies, including the Department of Commerce's 
+Bureau of Industry and Security.
+
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+
+Dated: March 13, 2026.
+
+Annex to General License 46B
+
+    Chemicals that fall within the scope of the term ``petrochemical 
+products'' include the following:
+
+------------------------------------------------------------------------
+                      Chemical name                           HS code
+------------------------------------------------------------------------
+Sulfur..................................................      2503000010
+Sulfur..................................................      2503000090
+Phosphate Rock..........................................      2510100000
+Phosphate Rock..........................................      2510200000
+Sulfuric Acid...........................................      2807000000
+Phosphoric Acid, fertilizer-grade, containing less than       2809200010
+ 65 percent available...................................
+Phosphoric Acid, other..................................      2809200020
+Anhydrous Ammonia.......................................      2814100000
+Aqua Ammonia............................................      2814200000
+Potassium Nitrate.......................................      2834210000
+Calcium Nitrate.........................................      2834291000
+Potassium Phosphate.....................................      2835240000
+Dicalcium Phosphates....................................      2835250000
+Other Phosphates of Calcium.............................      2835260000
+Urea (Solid)............................................      3102100000
+Urea (Solid)............................................      3102100010
+Diesel Exhaust Fluid....................................      3102100030
+Other Urea..............................................      3102100050
+Ammonium Sulfate........................................      3102210000
+Other Nitrogen Fert.....................................      3102290000
+Ammonium Nitrate........................................      3102300000
+Ammonia Nitrate.........................................      3102400000
+Sodium Nitrate..........................................      3102500000
+Other Nitrogen Fert.....................................      3102600000
+Mixtures of urea and ammonium nitrate in aqueous or           3102800000
+ ammoniacal solution....................................
+Other Nitrogen Fert.....................................      3102900100
+Concentrated Super......................................      3103110000
+Normal Super............................................      3103190000
+Other Phosphate Fert....................................      3103900100
+Potassium Muriate.......................................      3104200000
+Potassium Muriate <=62% Oxide...........................      3104200010
+Potassium Muriate >62% Oxide............................      3104200050
+Potassium Sulfate.......................................      3104300000
+Other Potassium Fert....................................      3104900100
+Chemical Mixtures.......................................      3105100000
+Chemical Mixtures.......................................      3105200000
+Diammonium Phosphate....................................      3105300000
+Monoammonium Phosphate & Other..........................      3105400000
+Monoammonium Phosphate & Other..........................      3105400010
+Monoammonium Phosphate & Other..........................      3105400050
+Chemical Mixtures.......................................      3105510000
+Chemical Mixtures.......................................      3105590000
+Chemical Mixtures.......................................      3105600000
+Potassium Sodium Nitrate................................      3105900010
+Other Mixtures..........................................      3105900050
+------------------------------------------------------------------------
+
+
+
+[[Page 24722]]
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2026-09092 Filed 5-6-26; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

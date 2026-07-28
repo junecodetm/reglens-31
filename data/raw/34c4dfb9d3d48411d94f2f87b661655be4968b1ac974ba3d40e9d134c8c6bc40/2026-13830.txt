@@ -1,0 +1,1104 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 130 (Thursday, July 9, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 130 (Thursday, July 9, 2026)]
+[Rules and Regulations]
+[Pages 42345-42353]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-13830]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 1
+
+[TD 10052]
+RIN 1545-BQ07
+
+
+Information Reporting and Transfer for Valuable Consideration 
+Rules for Section 1035 Exchanges of Life Insurance and Certain Other 
+Life Insurance Contract Transactions
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document contains final regulations providing guidance on 
+the application of the transfer for valuable consideration rules and 
+associated information reporting requirements for reportable policy 
+sales of interests in life insurance contracts to exchanges of life 
+insurance contracts qualifying for nonrecognition of gain or loss and 
+certain acquisitions of interests in life insurance contracts in 
+transactions that qualify as corporate reorganizations. The final 
+regulations affect parties involved in these life insurance contract 
+transactions, including with respect to payments of reportable death 
+benefits.
+
+DATES: 
+    Effective date: These regulations are effective on July 9, 2026.
+    Applicability dates: For dates of applicability, see Sec. Sec.  
+1.101-6 and 1.6050Y-1(b).
+
+FOR FURTHER INFORMATION CONTACT: Allan H. Sakaue, (202) 317-6995 (not a 
+toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+Authority
+
+    This document contains amendments to 26 CFR part 1 under sections 
+101 and 6050Y of the Internal Revenue Code (Code) issued pursuant to 
+the express delegations of authority to the Secretary of the Treasury 
+or his delegate (Secretary) provided under sections 6050Y(a) through 
+(c), and 7805(a) of the Code (final regulations).
+    Section 6050Y provides express delegations of authority to the 
+Secretary to prescribe the time and manner to file information returns 
+and furnish statements setting forth certain information specified 
+therein by the following persons: (1) an acquirer of a life insurance 
+contract or any interest in a life insurance contract in a reportable 
+policy sale during any taxable year (section 6050Y(a)); (2) an issuer 
+of a life insurance contract in connection with a reportable policy 
+sale (section 6050Y(b)); and (3) a payor of death benefits during any 
+taxable year under a life insurance contract transferred in a 
+reportable policy sale (section 6050Y(c)).
+    Section 7805(a) authorizes the Secretary to ``prescribe all needful 
+rules and regulations for the enforcement of [the Code], including all 
+rules and regulations as may be necessary by reason of any alteration 
+of law in relation to internal revenue.''
+
+Background
+
+    These final regulations amend regulations under sections 101 and 
+6050Y published in the Federal Register (TD 9879, 84 FR 58460) on 
+October 31, 2019, as corrected (84 FR 68042) on December 13, 2019 (2019 
+final regulations).
+    The Department of the Treasury (Treasury Department) and the IRS 
+published proposed regulations under sections 101 and 6050Y (REG-
+108054-21) in the Federal Register (88 FR 30058) on May 10, 2023 (2023 
+proposed regulations). The 2023 proposed regulations were published in 
+response to concerns raised following publication of the 2019 final 
+regulations regarding the application of sections 101 and 6050Y to 
+exchanges to which section 1035 of the Code applies (section 1035 
+exchanges) and to transfers of contracts occurring in corporate 
+reorganizations under section 368 of the Code. The Treasury Department 
+and the IRS received written comments on the 2023 proposed regulations 
+and held a public hearing on September 28, 2023.
+    After consideration of the written comments and comments received 
+at the hearing, this Treasury Decision adopts the 2023 proposed 
+regulations as final regulations with modifications, as described in 
+the Summary of Comments and Explanation of Revisions.
+
+Summary of Comments and Explanation of Revisions
+
+    This Summary of Comments and Explanation of Revisions section 
+discusses the comments received on the 2023 proposed regulations and 
+explains the revisions adopted in the final regulations in response to 
+those comments.
+
+1. Comments Relating to Section 1035 Exchanges
+
+    As described in the preamble to the 2023 proposed regulations, the 
+proposed changes relating to section 1035 exchanges are intended to 
+correct an unintended change effected by the 2019 final regulations to 
+the treatment under section 101 of a life insurance contract issued to 
+a policyholder in a section 1035 exchange, while continuing to address 
+the concerns that prompted the inclusion of rules for section 1035 
+exchanges in the 2019 final regulations. These concerns include: (1) 
+that the reporting of death benefits paid under section 6050Y(c) could 
+be avoided by exchanging a contract transferred in a reportable policy 
+sale (reportable policy sale (RPS) contract) for a new contract in a 
+section 1035 exchange and (2) that a policyholder could attempt to 
+avoid the limitation on the excludability of death benefits resulting 
+from the application of the ``transfer for value'' rule set forth in 
+section 101(a)(2) through a section 1035 exchange. The 2023 proposed 
+regulations would accomplish these objectives in four ways: (1) by 
+removing the reference to section 1035 exchanges in the definition of a 
+``transfer of an interest in a life insurance contract''
+
+[[Page 42346]]
+
+(Sec.  1.101-1(e)(2) of the 2023 proposed regulations); (2) by adding a 
+new rule on how to determine the amount of the proceeds attributable to 
+an interest in a life insurance contract issued in a section 1035 
+exchange that is excludable from gross income under section 101(a) 
+(Sec.  1.101-1(b)(2)(iv) of the 2023 proposed regulations); (3) by 
+modifying the definition of ``reportable policy sale'' to address 
+section 1035 exchanges (Sec.  1.101-1(c)(3) of the 2023 proposed 
+regulations); and (4) by making conforming modifications to Sec. Sec.  
+1.6050Y-1 through 1.6050Y-4 of the 2019 final regulations. Regarding 
+conforming modifications to the reporting requirements under section 
+6050Y, because section 1035 exchanges of RPS contracts would no longer 
+be required to be reported under Sec.  1.6050Y-2 of the 2019 final 
+regulations, the 2023 proposed regulations would modify the reporting 
+rules under Sec. Sec.  1.6050Y-3 and 1.6050Y-4 of the 2019 final 
+regulations to ensure proper reporting of reportable death benefits 
+paid under contracts issued in section 1035 exchanges.
+    Commenters generally expressed support for the 2023 proposed 
+regulations under section 101 regarding the treatment of section 1035 
+exchanges. However, two commenters requested clarification of certain 
+issues related to these provisions. Additionally, one commenter 
+requested changes to the 2023 proposed regulations under section 6050Y 
+related to tracking and information reporting requirements for section 
+1035 exchanges of contracts that have been transferred in reportable 
+policy sales.
+    These comments are addressed in detail in parts 1.A through 1.D of 
+this Summary of Comments and Explanation of Revisions.
+A. Comments Supporting the 2023 Proposed Regulations
+    Comments supporting the 2023 proposed regulations under section 101 
+regarding the treatment of section 1035 exchanges included comments 
+from a commenter that agreed with the determination in the 2023 
+proposed regulations to exclude the issuance of a life insurance 
+contract to a policyholder, without qualification, from the events 
+treated as a transfer of an interest in a life insurance contract. The 
+commenter specifically supported the proposed modification of Sec.  
+1.101-1(e)(2) of the 2019 final regulations to delete the phrase 
+``other than the issuance of a policy in an exchange pursuant to 
+section 1035'' from the last clause of that section. The commenter 
+noted that it is well understood that a section 1035 exchange does not 
+transfer the beneficial rights of life insurance coverage to a 
+different policyholder/beneficiary, but, rather, is an exchange of an 
+existing life insurance coverage for new life insurance coverage 
+without any material change. The commenter also stated that it is well-
+settled in past IRS rulings that a section 1035 exchange does not 
+change the tax attributes of the relinquished contract. Accordingly, 
+the commenter reasoned, when an RPS contract is relinquished in a 
+section 1035 exchange, the contract received in exchange should be 
+treated as an RPS contract.
+    Another commenter agreed that the 2023 proposed regulations 
+correctly conclude that a section 1035 exchange, in and of itself, is 
+not a ``transfer'' of the newly issued contract received in the 
+exchange. In support of the approach adopted in the 2023 proposed 
+regulations, the commenter observed that issuing a contract is not a 
+``transfer,'' as a transfer of property presupposes the existence of 
+property that can be transferred, and the new contract received in a 
+section 1035 exchange does not exist until it is issued. The commenter 
+also explained that the 2019 final regulations create a conundrum by 
+treating all section 1035 exchanges as transfers for valuable 
+consideration for which the carryover basis exception is never 
+available to undo that treatment, regardless of whether the 
+policyholder has a substantial relationship with the insured when the 
+exchange occurs. The commenter remarked that, if left uncorrected, the 
+2019 final regulations would effect a major change in the Federal 
+income tax treatment of contract exchanges, as section 1035 exchanges 
+never triggered the transfer for value rule before the 2019 final 
+regulations. The commenter applauded the Treasury Department and the 
+IRS for recognizing that such a change in law is not warranted or 
+appropriate, for announcing a correction in the 2023 proposed 
+regulations, and for extending the correction retroactively to 
+eliminate any doubt for taxpayers regarding the Federal income tax 
+treatment of contract exchanges they may have completed in prior years. 
+In further support of the 2023 proposed regulations, the commenter also 
+noted that the regulations should not subvert the intent of section 
+1035, which is to ensure that policyholders are able to exchange 
+existing life insurance contracts for new ones better suited to their 
+needs without having to recognize gain, and that the 2019 final 
+regulations inappropriately subvert the intent of section 1035 by 
+applying the transfer for value rule merely because a life insurance 
+contract is exchanged for a new one. The commenter further expressed 
+agreement with the preamble to the 2023 proposed regulations that the 
+provisions therein are not inconsistent with section 101(j), which 
+concerns the treatment of certain employer-owned life insurance 
+contracts. No comments received on the 2023 proposed regulations 
+expressed an opposing view on this point.
+    Consistent with these comments supporting the 2023 proposed 
+regulations under section 101 regarding the treatment of section 1035 
+exchanges, the final regulations retain those provisions with 
+clarifying changes to address the treatment of boot in a section 1035 
+exchange. These include clarifying changes to the description of a 
+``section 1035 exchange'' in Sec. Sec.  1.101-1(a)(1) and 1.6050Y-
+1(a)(1) of the 2023 proposed regulations. Additionally, clarifying 
+changes are made to Sec.  1.101-1(b)(2)(iv)(B) of the 2023 proposed 
+regulations. As clarified, Sec.  1.101-1(b)(2)(iv)(B) of the final 
+regulations provides that, in certain circumstances, the amount of boot 
+received tax-free in a section 1035 exchange will reduce the amount of 
+proceeds attributable to the old interest that is excludable from gross 
+income under section 101(a) and will therefore also reduce the amount 
+of proceeds attributable to the new interest that is excludable from 
+gross income under section 101(a). This clarification is consistent 
+with the rules in Sec.  1.101-1(b)(3) of the 2019 final regulations and 
+section 1031(d).
+B. Request for Clarification Regarding State Insurable Interest Laws
+    Two of the commenters remarked on the requirement in section 
+7702(a) of the Code that a contract must be a ``life insurance contract 
+under the applicable law'' to qualify as a life insurance contract for 
+purposes of the Code. The commenters observed that a contract issued in 
+a purported section 1035 exchange does not qualify as a life insurance 
+contract for purposes of the Code if the contract violates applicable 
+State insurance law, including State ``insurable interest'' laws, which 
+the commenters described as generally requiring that a policyholder 
+have a substantial family, business, or financial relationship with the 
+insured individual other than the life insurance contract. The 
+commenters noted that, in such a case, section 101 would not apply to 
+exclude the death benefit under the contract from gross income.
+    One of the commenters expressed the view that it is not necessary 
+to retain the
+
+[[Page 42347]]
+
+significant expansion of the transfer for value rule that was reflected 
+in the 2019 final regulations in order to discourage or prevent section 
+1035 exchanges if the exchange would violate State insurable interest 
+laws because current and longstanding Federal income tax rules and 
+potential adverse consequences under State law already provide an 
+incentive to comply with such State laws. Consistent with this comment, 
+the final regulations adopt, as proposed, the provisions of the 2023 
+proposed regulations reversing the expansion of the transfer for value 
+rule with respect to section 1035 exchanges reflected in the 2019 final 
+regulations.
+    The other commenter noted that the 2023 proposed regulations may 
+have the unintended effect of creating some confusion in the 
+marketplace about whether the ``applicable law'' requirement of section 
+7702(a) continues to apply. The commenter suggested that the Treasury 
+Department and the IRS clarify as part of the process of finalizing the 
+2023 proposed regulations that a contract issued as part of a purported 
+section 1035 exchange remains subject to other requirements of the 
+Code, such as the requirement in section 7702(a) that the contract 
+issued in an exchange constitute a life insurance contract under the 
+Code, which would require that it be treated as a life insurance 
+contract under applicable State law.
+    Regardless of whether a contract is issued in a section 1035 
+exchange, it must be described in section 7702(a) to be considered a 
+life insurance contract under section 101. Section 7702(a) requires, 
+among other things, that a contract be a ``life insurance contract 
+under the applicable law,'' State or foreign law, as applicable. The 
+2023 proposed regulations under sections 101 and 6050Y address the 
+consequences under sections 101 and 6050Y in cases in which a life 
+insurance contract is issued in a section 1035 exchange. The 2023 
+proposed regulations do not affect the application of other Code 
+sections, including, for instance, sections 1035 and 7702. The 2023 
+proposed regulations, consequently, do not affect the determination of 
+whether a contract issued in a purported section 1035 exchange 
+qualifies as a life insurance contract under section 7702(a) for 
+purposes of the Code or whether an exchange of contracts qualifies as a 
+section 1035 exchange. The same is true of the final regulations.
+    A third commenter applauded the Treasury Department for proposing 
+to modify the 2019 final regulations to allow employers to pursue 
+section 1035 exchanges of contracts covering the lives of persons who 
+are no longer actively employed. This comment could be read as 
+suggesting that, with respect to section 1035 exchanges, the 2023 
+proposed regulations change the requirement under section 7702(a) that 
+a contract be a ``life insurance contract under the applicable law'' to 
+qualify as a life insurance contract for purposes of the Code. However, 
+this is not the case. Neither the 2023 proposed regulations nor the 
+final regulations change this requirement.
+C. Requests for Clarification Regarding Other Rules and Guidance
+    One commenter requested confirmation that the circumstances 
+described in Notice 2009-48, 2009-24 I.R.B. 1085, Q&As 14 and 15, do 
+not give rise to a material change in employer-owned life insurance 
+contracts for purposes of applying section 101(j). This commenter also 
+requested clarification that a forgiveness of loaned policy cash value 
+or distribution of cash or other property as a result of an exchange 
+would be recognized as taxable gain under section 1031(b) of the Code, 
+but an enhancement of policy cash value by the new carrier to offset a 
+loss of the exchanged value from the old policy would not be treated as 
+a taxable event. The requests for clarification regarding sections 
+101(j) and 1031 are not limited to situations involving life insurance 
+contracts acquired in reportable policy sales and are beyond the scope 
+of these regulations, which address the application of sections 101(a) 
+and 6050Y to life insurance contracts acquired in reportable policy 
+sales.
+    This commenter also remarked that the 2023 proposed regulations do 
+not address Rev. Rul. 2011-9, 2011-12 I.R.B. 554. This revenue ruling 
+concerns the application to section 1035 exchanges of life insurance 
+contracts of section 264(f)(1) of the Code, which disallows any 
+deduction for the portion of a taxpayer's ``interest expense'' that is 
+allocable to unborrowed policy cash values of life insurance contracts 
+and annuity and endowment contracts. The commenter expressed the 
+understanding that the 2023 proposed regulations render the employee 
+exception in Rev. Rul. 2011-9 moot and requested that this point be 
+clarified. However, the section 264 issue addressed in Rev. Rul. 2011-9 
+is also outside the scope of these final regulations under sections 101 
+and 6050Y. Neither the 2023 proposed regulations nor the final 
+regulations affect Rev. Rul. 2011-9 or the conclusion set forth 
+therein.
+D. Request for Changes to Information Reporting Obligations and 
+Procedures
+    As described in the preamble to the 2023 proposed regulations, to 
+ensure proper reporting of reportable death benefits paid under 
+contracts issued in section 1035 exchanges, Sec.  1.6050Y-3(a) of the 
+2023 proposed regulations would require reporting by each ``6050Y(b) 
+issuer'' that is a ``section 1035 issuer'' with respect to each 
+``seller'' at the time of the exchange. The 2023 proposed regulations 
+would generally impose a reporting obligation on both the issuer of the 
+old interest (old issuer) and the issuer of the new interest (new 
+issuer) in a section 1035 exchange if the policyholder (seller) is 
+exchanging an interest in a life insurance contract that has been 
+transferred in an RPS. The preamble to the 2023 proposed regulations 
+indicated that it is anticipated that this reporting will be completed 
+on Form 1099-SB, Seller's Investment in Life Insurance Contract, and 
+the information to be provided would include the policy number and 
+identification of the transaction as a section 1035 exchange.
+    One commenter agreed with the Treasury Department and the IRS that 
+modifying the information reporting rules is the right way to address 
+the concern that prompted the inclusion of the section 1035 exchange 
+rules in the 2019 final regulations, which related to the possibility 
+that a contract transferred in an RPS subsequently could be exchanged 
+for a new contract pursuant to section 1035 and the death benefits 
+under the new contract might not be reported under section 6050Y(c). 
+The commenter recommended that the Treasury Department and the IRS 
+finalize the information reporting requirements in a manner that takes 
+into account public comments that may simplify or clarify such 
+requirements or otherwise reduce the administrative burdens imposed on 
+the taxpayers charged with implementing them. The commenter did not, 
+however, make any specific burden reduction recommendations.
+    Another commenter suggested changes to the provisions of the 2023 
+proposed regulations related to tracking and information reporting 
+requirements for section 1035 exchanges of RPS contracts. The commenter 
+noted that the 2023 proposed regulations would (1) track the RPS status 
+of a contract in an exchange by the policy owner, (2) assure the death 
+benefits paid on such a contract are reported for tax purposes, and (3) 
+be consistent with the remainder of the section 6050Y tax reporting 
+regime. The commenter suggested that
+
+[[Page 42348]]
+
+these goals could be achieved with less risk of confusion for 
+policyholders and less administrative burden on insurers than under the 
+2023 proposed regulations. While expressing appreciation for the need 
+to track the RPS tax attribute of a life insurance contract more 
+formally, the commenter asserted that the requirement in Sec.  1.6050Y-
+3(a) of the 2023 proposed regulations that the old issuer and new 
+issuer file an information return with the IRS with respect to the 
+section 1035 exchange is not necessary to accomplish the desired 
+compliance goals and should therefore be removed. The commenter also 
+suggested removing the requirement in Sec.  1.6050Y-3(d)(1) of the 2023 
+proposed regulations that section 6050Y(b) issuers furnish a statement 
+to sellers (policyholders) who make a section 1035 exchange. 
+Additionally, the commenter expressed concerns regarding the 
+anticipated use of Form 1099-SB for reporting section 1035 exchanges of 
+RPS contracts.
+    The commenter noted that insurers involved in a section 1035 
+exchange typically share relevant information, including cost basis, 
+without the use of an official IRS form. See, e.g., Sec.  35.3405-1(T), 
+Q&A (E-8), of the Employment Tax Regulations. The commenter stated that 
+the existing process established for companies to share critical 
+information about contracts exchanged is effective and that the RPS tax 
+attribute could be incorporated in this reliable and established 
+practice. The commenter suggested modifying Sec.  1.6050Y-3 of the 2019 
+final regulations to require the issuer of the existing RPS contract to 
+furnish a statement to the issuer of a new contract received in 
+exchange for the RPS contract in a section 1035 exchange. Also, because 
+the old issuer already must use Form 1099-R, Distributions From 
+Pensions, Annuities, Retirement or Profit-Sharing Plans, IRAs, 
+Insurance Contracts, etc., to report section 1035 exchanges, the 
+commenter recommended adding a new distribution code for Box 7 of Form 
+1099-R that would indicate that the section 1035 exchange being 
+reported is an exchange of an RPS contract. Insurance companies 
+currently report section 1035 exchanges of life insurance contracts on 
+Form 1099-R with a distribution code ``6'' in Box 7, which identifies 
+the distribution as a tax-free section 1035 exchange.
+    After consideration of the comments received on the provisions of 
+the 2023 proposed regulations relating to information reporting 
+obligations and procedures, the Treasury Department and the IRS have 
+determined that the filing of information returns with the IRS by the 
+old issuer and new issuer with respect to section 1035 exchanges of RPS 
+contracts is not necessary to accomplish the desired compliance goals. 
+These goals can be addressed through the old issuer's Form 1099-R 
+reporting of the section 1035 exchange and the related exchange of 
+information between the old issuer and the new issuer.
+    Accordingly, the following modifications to the proposed 
+information reporting rules set forth in the 2023 proposed regulations 
+are made in the final regulations: (1) the definition of ``issuer'' in 
+Sec.  1.6050Y-1(a)(8) of the 2019 final regulations is not expanded to 
+include ``section 1035 issuers''; (2) no change is made to Sec. Sec.  
+1.6050Y-1(a)(14) and (18) and 1.6050Y-3(c) of the 2019 final 
+regulations because the changes proposed in the 2023 proposed 
+regulations are no longer necessary; (3) the requirement under Sec.  
+1.6050Y-3(a) of the 2023 proposed regulations for section 1035 issuers 
+(both old issuers described in Sec.  1.6050Y-1(a)(8)(v)(A) of the 2023 
+proposed regulations and new issuers described in Sec.  1.6050Y-
+1(a)(8)(v)(B) of the 2023 proposed regulations) to file information 
+returns is not adopted; (4) the exception from reporting set forth in 
+Sec.  1.6050Y-4(e)(3) of the 2023 proposed regulations is modified and 
+clarified; and (5) the reporting requirements under Sec.  1.6050Y-3(a) 
+and (d) of the 2023 proposed regulations for section 1035 issuers to 
+furnish statements are not adopted and reporting with respect to 
+section 1035 exchanges is instead required under new Sec.  1.6050Y-
+3(h). Section 1.6050Y-3(h) of the final regulations applies to section 
+1035 exchanges that are treated as the transfer of an interest in a 
+life insurance contract in a reportable policy sale under Sec.  1.101-
+1(c)(3) of the final regulations, but only if the new issuer is not the 
+old issuer. To ensure proper reporting when a reportable death benefit 
+is paid under the new contract, the old issuer will provide certain 
+information to the new issuer, including the policyholder's investment 
+in the contract with respect to the old interest and a statement 
+indicating whether the old issuer would have reported a payment of 
+reportable death benefits under Sec.  1.6050Y-4 of the final 
+regulations had it paid death benefits attributable to the old interest 
+on the date of the section 1035 exchange. The old issuer may use any 
+reasonable method to provide this information to the new issuer.
+    Although issuers will have no obligation to furnish statements to 
+policyholders making a section 1035 exchange under the final 
+regulations, issuers may still have an obligation to furnish statements 
+to policyholders with respect to a section 1035 exchange under other 
+Code sections or regulations. See section 6047(d); Rev. Proc. 92-26, 
+1992-1 C.B. 744. The final regulations do not require additional 
+reporting on the Form 1099-R, but it is anticipated that, as suggested 
+by one of the commenters, a new distribution code for Box 7 of Form 
+1099-R will be added to indicate that the section 1035 exchange being 
+reported is an exchange of an RPS contract. Such reporting will not be 
+required before the IRS publishes both a final Form 1099-R reflecting 
+such a requirement and final instructions for completing such form.
+
+2. Comments Relating to the De Minimis Exception for Ordinary Course 
+Mergers and Acquisitions
+
+    As described in the preambles to the 2019 final regulations and the 
+2023 proposed regulations, the 2019 final regulations include 
+provisions that effectively exclude from the definition of RPS certain 
+acquisitions of life insurance contracts, or interests therein, in 
+ordinary course business transactions in which one trade or business 
+acquires another trade or business that owns life insurance. Following 
+the publication of the 2019 final regulations in the Federal Register, 
+the Treasury Department and the IRS received a letter requesting the 
+addition of an exception from the RPS rules for acquisitive 
+transactions involving entities that own a de minimis amount of life 
+insurance (for example, as a proportion of the total value of the 
+transaction). More specifically, the author proposed that the Treasury 
+Department and the IRS consider a further exception for transactions in 
+which the amount of life insurance acquired as a result of an 
+acquisitive transaction (and any related acquisitions) is five percent 
+or less of the value of the acquired stock, assets, or both.
+    Section 1.101-1(c)(2)(v) of the 2023 proposed regulations provides 
+an exception from the definition of ``reportable policy sale'' for 
+direct acquisitions of interests in life insurance contracts from a C 
+corporation by a C corporation if (1) the acquisition results from a 
+transaction that qualifies as a reorganization under section 368(a); 
+(2) immediately before the acquisition, (i) the interest is held by a C 
+corporation that conducts an active trade or business within the 
+meaning of Sec.  1.367(a)-2(d)(2) and (3), (ii) the C corporation does 
+not engage in a trade or business of investing in interests in life 
+insurance contracts, and (iii) no more than 5
+
+[[Page 42349]]
+
+percent of the gross value of the assets of the C corporation consists 
+of life insurance contracts; and (3) immediately after the acquisition, 
+(i) the acquiring C corporation does not engage in a trade or business 
+of investing in interests in life insurance contracts, and (ii) not 
+more than 5 percent of the gross value of the assets of the C 
+corporation consists of life insurance contracts. The two comments 
+received on the de minimis exception for ordinary course mergers and 
+acquisitions set forth in Sec.  1.101-1(c)(2)(v) of the 2023 proposed 
+regulations agreed that the transactions covered by proposed Sec.  
+1.101-1(c)(2)(v) should not be reportable policy sales but also 
+requested certain expansions of the exception. Both commenters urged 
+that the de minimis exception be expanded to cover certain taxable 
+transactions, rather than just transactions that qualify as tax-free 
+reorganizations under section 368(a) as provided by Sec.  1.101-
+1(c)(2)(v)(D) of the 2023 proposed regulations.
+    One commenter asserted that this limitation is unnecessary and 
+potentially confusing because it could result in disparate treatment of 
+taxpayers engaged in very similar ordinary course business acquisitions 
+that are structured differently for non-tax business reasons with no 
+clear policy reason for why these transactions should have different 
+results under section 101. This commenter also recommended removing the 
+requirement in Sec.  1.101-1(c)(2)(v)(A) of the 2023 proposed 
+regulations that the interest in a life insurance contract be held, 
+immediately before acquisition, by a C corporation that conducts an 
+active trade or business within the meaning of Sec.  1.367(a)-2(d)(2) 
+and (3) because it is unnecessarily restrictive. The commenter noted 
+that acquisitive transactions often occur at the holding company level 
+as opposed to the operating subsidiary level and a holding company may 
+not technically meet the ``active trade or business'' standard even 
+though the holding company owns operating subsidiaries that are engaged 
+in active trades or businesses. The commenter made an alternative 
+recommendation of modifying Sec.  1.101-1(c)(2)(v)(A) of the 2023 
+proposed regulations to permit the interest to be held by a C 
+corporation that is engaged in an active trade or business or is a 
+member of an affiliated group that includes one or more members engaged 
+in an active trade or business. The commenter asserted that this 
+approach would be consistent with section 355(b)(3) and the regulations 
+promulgated thereunder, upon which the section 367 regulations appear 
+to have been originally based and which, pursuant to subsequent 
+revisions that were made after the release of the relevant section 367 
+regulations, test the active conduct of a trade or business on an 
+affiliated group level.
+    The other commenter similarly urged that the de minimis exception 
+should not be limited to transactions that qualify as a tax-free 
+reorganization under section 368(a), and further, that it should also 
+apply to acquisitive transactions of non-C corporation targets. This 
+commenter highlighted the acknowledgement in the preamble to the 2023 
+proposed regulations that ``C corporations are not frequently used as 
+vehicles for investing in life insurance contracts covering insureds 
+with respect to which the corporation does not have a substantial 
+business, financial, or family relationship at the time the contract is 
+issued because a corporate level income tax applies to corporate 
+earnings in addition to income tax on distributions at the shareholder 
+level'' and asserted that other types of business entities also ``are 
+not frequently used as vehicles for investing in life insurance 
+contracts covering insureds with respect to which the corporation does 
+not have a substantial business, financial, or family relationship at 
+the time the contract is issued.'' This commenter also remarked that it 
+is concerning that transactions with identical (or nearly identical) 
+economic substance may have divergent outcomes with respect to whether 
+the transaction gives rise to an RPS depending on the transaction's 
+form. This commenter further asserted that there are a number of legal, 
+economic, and business reasons why it is highly unlikely that ordinary 
+course business acquisitions involving meager amounts of life insurance 
+contracts can simply be restructured to meet the form-driven rules of 
+either the 2023 proposed regulations or the 2019 final regulations, but 
+that negative outcomes with respect to these incidentally transferred 
+insurance contracts do have significant consequences to a variety of 
+stakeholders. Finally, the commenter expressed concern that since the 
+issuance of the 2019 final regulations, the life insurance industry has 
+continued to see a number of circumstances where transactions that are 
+wholly unrelated to the transfer of life insurance contracts have 
+unclear outcomes under the RPS rules. For these reasons, the commenter 
+urged that the de minimis exception be expanded to entities other than 
+C corporations and regardless of the type of acquisitive transaction 
+involved.
+    After consideration of the comments received on the de minimis 
+exception for ordinary course mergers and acquisitions set forth in 
+Sec.  1.101-1(c)(2)(v) of the 2023 proposed regulations, the final 
+regulations adopt this provision without change. The Treasury 
+Department and the IRS will continue to consider the possibility of 
+proposing a rule broader than the one set forth in the 2023 proposed 
+regulations, but will not delay the adoption of the 2023 proposed 
+regulations supported by commenters while studying the issue. The 
+Treasury Department and the IRS invite additional comments regarding 
+the scope of the de minimis exception.
+
+3. Comments Relating to the Applicability Date
+
+    In general, the 2023 proposed regulations would apply to certain 
+transactions occurring on or after the date the 2023 proposed 
+regulations are finalized. See Sec. Sec.  1.101-6(c) and 1.6050Y-
+1(b)(2) of the 2023 proposed regulations. The commenter requesting 
+changes to the information reporting provisions of the 2023 proposed 
+regulations discussed in part 1.D of this Summary of Comments and 
+Explanation of Revisions also requested transition relief from the 
+reporting obligations if the proposed reporting changes suggested by 
+the commenter were not adopted. Because the final regulations adopt the 
+commenter's suggested reporting changes, no transition relief is 
+provided in the final regulations. The applicability date provisions in 
+the 2023 proposed regulations are adopted in the final regulations. See 
+Sec. Sec.  1.101-6(c) and 1.6050Y-1(b)(2) of the final regulations. 
+However, for administrative reasons, Sec.  1.6050Y-1(b) is republished 
+in its entirety in the final regulations to reflect all changes to 
+Sec.  1.6050Y-1(b), including the ministerial changes set out in the 
+2023 proposed regulations to address the addition of Sec.  1.6050Y-
+1(b)(2).
+
+Special Analyses
+
+I. Regulatory Planning and Review--Economic Analysis
+
+    These final regulations are not subject to review under section 
+6(b) of Executive Order 12866 pursuant to the Memorandum of Agreement 
+(July 4, 2025) between the Treasury Department and the Office of 
+Management and Budget (OMB) regarding review of tax regulations.
+
+II. Paperwork Reduction Act
+
+    The additional collection of information relating to the final 
+regulations has been reviewed and
+
+[[Page 42350]]
+
+approved by OMB in accordance with the Paperwork Reduction Act of 1995 
+(44 U.S.C. 3507(d)) under OMB Control Number 1545-0119. In general, the 
+additional collection of information is required for purposes of 
+enforcing section 6050Y. When an interest in a life insurance contract 
+that was previously transferred, or is treated as having been 
+previously transferred, in an RPS (old contract) is exchanged by a 
+policyholder under section 1035 for a new life insurance contract (new 
+contract), Sec.  1.6050Y-3(h) of the final regulations requires the 
+issuer of the old contract (old issuer) to notify the issuer of the new 
+contract (new issuer) of the status of the old contract as a contract 
+transferred, or treated as having been transferred, in an RPS and to 
+provide the investment in the contract for the old contract. This 
+information is necessary to carry out the purpose of section 6050Y(c), 
+which requires a payor of reportable death benefits to report certain 
+information about payments of reportable death benefits.
+    The additional collection of information in Sec.  1.6050Y-3(h) of 
+the final regulations was suggested by commenters on the proposed 
+regulations as a simpler and less burdensome alternative to the 
+collection of information rules in the proposed regulations, especially 
+because most old issuers routinely provide new issuers with relevant 
+information about the contract being exchanged, including relevant RPS 
+information. Because the additional collection of information would 
+achieve the goal of providing the information necessary for the proper 
+reporting of reportable death benefits, the final regulations eliminate 
+the reporting obligations that would have been imposed by Sec.  
+1.6050Y-3 of the 2023 proposed regulations on new issuers with respect 
+to section 1035 exchanges and reduce the reporting obligations that 
+would have been imposed by Sec.  1.6050Y-3 of the 2023 proposed 
+regulations on old issuers with respect to section 1035 exchanges.
+    The likely respondents to the collection of information are life 
+insurance companies.
+    The burden for the additional collection of information contained 
+in Sec.  1.6050Y-3 of the final regulations will be reflected on Form 
+1099-R, Distributions From Pensions, Annuities, Retirement or Profit-
+Sharing Plans, IRAs, Insurance Contracts, etc., when the burden is 
+revised to reflect the additional collection of information in Sec.  
+1.6050Y-3. The burden also will be revised when a new distribution code 
+for Box 7 of Form 1099-R is added to indicate that the section 1035 
+exchange being reported is an exchange of an RPS contract. The OMB 
+Control Number for Form 1099-R is 1545-0119. The final regulations 
+eliminate the burden on policyholders making section 1035 exchanges of 
+RPS contracts imposed by Sec.  1.6050Y-2 of the 2019 final regulations. 
+The burden on Form 1099-LS, Reportable Life Insurance Sale, will 
+accordingly be reduced when the burden is revised. The OMB Control 
+Number for Form 1099-LS is 1545-2281.
+
+III. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA) requires agencies to ``prepare 
+and make available for public comment an initial regulatory flexibility 
+analysis,'' which will ``describe the impact of the proposed rule on 
+small entities.'' 5 U.S.C. 603(a). Section 605(b) of the RFA allows an 
+agency to certify a rule, in lieu of preparing an analysis, if the 
+proposed rulemaking is not expected to have a significant economic 
+impact on a substantial number of small entities.
+    Pursuant to the RFA, it is hereby certified that the final 
+regulations will not have a significant economic impact on a 
+substantial number of small entities, because any effect on small 
+entities by the rules finalized in this document flows directly from 
+section 13520 of Public Law 115-97, 131 Stat. 2054, 2148, 2151 (2017), 
+commonly known as the Tax Cuts and Jobs Act (TCJA). In addition, it is 
+anticipated that requirements in the final regulations, which implement 
+the statutory requirements under section 13520 of the TCJA, will fall 
+primarily on financial and insurance firms with annual receipts greater 
+than $47 million and, therefore, on no small entities. Therefore, the 
+Secretary of the Treasury hereby certifies that the final regulations 
+will not have a significant economic impact on a substantial number of 
+small entities.
+    Pursuant to section 7805(f) of the Code, the notice of proposed 
+rulemaking preceding the final regulations was submitted to the Chief 
+Counsel for the Office of Advocacy of the Small Business Administration 
+for comment on its impact on small business, and no comments were 
+received.
+
+IV. Unfunded Mandates Reform Act
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995 (UMRA) 
+requires that agencies assess anticipated costs and benefits and take 
+certain other actions before issuing a final rule that includes any 
+Federal mandate that may result in expenditures in any one year by a 
+State, local, or Tribal government, in the aggregate, or by the private 
+sector, of $100 million in 1995 dollars, updated annually for 
+inflation. This rule does not include any Federal mandate that may 
+result in expenditures by State, local, or Tribal governments, or by 
+the private sector in excess of that threshold.
+
+V. Executive Order 13132: Federalism
+
+    Executive Order 13132 (Federalism) prohibits an agency from 
+publishing any rule that has federalism implications if the rule either 
+imposes substantial, direct compliance costs on State and local 
+governments, and is not required by statute, or preempts State law, 
+unless the agency meets the consultation and funding requirements of 
+section 6 of the Executive order. These final regulations do not have 
+federalism implications and do not impose substantial direct compliance 
+costs on State and local governments or preempt State law within the 
+meaning of the Executive order.
+
+VI. Congressional Review Act
+
+    Pursuant to the Congressional Review Act (5 U.S.C. 801 et seq.), 
+the Office of Information and Regulatory Affairs has designated this 
+rule as not a ``major rule,'' as defined by 5 U.S.C. 804(2).
+
+Drafting Information
+
+    The principal author of these regulations is Allan H. Sakaue, 
+Office of Associate Chief Counsel (Financial Institutions and 
+Products), IRS. However, other personnel from the Treasury Department 
+and the IRS participated in their development.
+
+Statement of Availability of IRS Documents
+
+    Any IRS Revenue Procedure, Revenue Ruling, Notice, or other 
+guidance cited in this document is published in the Internal Revenue 
+Bulletin (or Cumulative Bulletin) and is available from the 
+Superintendent of Documents, U.S. Government Publishing Office, 
+Washington, DC 20402, or by visiting the IRS website at <a href="https://www.irs.gov">https://www.irs.gov</a>.
+
+List of Subjects in 26 CFR Part 1
+
+    Income taxes, Reporting and recordkeeping requirements.
+
+Adoption of Amendments to the Regulations
+
+    Accordingly, the Treasury Department and IRS amend 26 CFR part 1 as 
+follows:
+
+PART 1--INCOME TAXES
+
+0
+Paragraph 1. The authority citation for part 1 continues to read in 
+part as follows:
+
+    Authority: 26 U.S.C. 7805 * * *
+
+
+[[Page 42351]]
+
+
+
+0
+Par. 2. Section 1.101-1 is amended by:
+0
+1. Adding a heading to paragraph (a) and a sentence after the fourth 
+sentence of paragraph (a)(1);
+0
+2. Revising the headings to paragraph (b) introductory text and 
+paragraph (b)(2);
+0
+3. Adding paragraph (b)(2)(iv);
+0
+4. Adding a sentence at the end of paragraph (c)(1);
+0
+5. Revising paragraph (c)(2)(v);
+0
+6. Adding paragraph (c)(3);
+0
+7. In the last sentence of paragraph (e)(2), removing the language ``, 
+other than the issuance of a policy in an exchange pursuant to section 
+1035'';
+0
+8. Adding two sentences after the fourth sentence of paragraph (g)(11); 
+and
+0
+9. Adding paragraphs (g)(17) through (19).
+    The additions and revisions read as follows:
+
+
+Sec.  1.101-1  Exclusion from gross income of proceeds of life 
+insurance contracts payable by reason of death.
+
+    (a) Exclusion from gross income--(1) In general. * * * The extent 
+to which this exclusion applies in cases in which life insurance 
+policies have been gratuitously transferred or issued in an exchange to 
+which section 1035(a) or section 1031 (to the extent it relates to 
+section 1035(a)) applies (section 1035 exchange) is stated in paragraph 
+(b)(2) of this section. * * *
+* * * * *
+    (b) Transfers and exchanges of life insurance policies. * * *
+* * * * *
+    (2) Other transfers and exchanges. * * *
+* * * * *
+    (iv) Section 1035 exchanges. When an interest in a life insurance 
+contract (old interest) is exchanged in a section 1035 exchange for an 
+interest in a newly issued life insurance contract (new interest), 
+except as otherwise provided by this section with respect to any 
+portion of the new interest that is transferred or exchanged subsequent 
+to the section 1035 exchange, the amount of the proceeds attributable 
+to the new interest that is excludable from gross income under section 
+101(a) is determined under either paragraph (b)(2)(iv)(A) or paragraph 
+(b)(2)(iv)(B) of this section.
+    (A) If, at the time of the exchange, the entire amount of the 
+proceeds attributable to the old interest would have been excludable 
+from gross income under section 101(a), the entire amount of the 
+proceeds attributable to the new interest is excludable from gross 
+income.
+    (B) If, at the time of the exchange, less than the entire amount of 
+the proceeds attributable to the old interest would have been 
+excludable from gross income under section 101(a), the amount of the 
+proceeds attributable to the new interest that is excludable from gross 
+income is limited to the sum of the amount of the proceeds attributable 
+to the old interest that would have been excludable at the time of the 
+exchange and the premiums and other amounts paid with respect to the 
+new interest by the policyholder, reduced (but not below zero) by 
+amounts received by the policyholder under the new life insurance 
+contract that are not received as an annuity, to the extent excludable 
+from gross income under section 72(e). For purposes of this paragraph 
+(b)(2)(iv)(B), the amount of the proceeds attributable to the old 
+interest that would have been excludable at the time of the exchange is 
+decreased by the amount of any money and the fair market value of any 
+other property received by the policyholder in the exchange and 
+increased by the amount of gain to the policyholder that was recognized 
+on such exchange.
+* * * * *
+    (c) * * *
+    (1) * * * See paragraph (c)(3) of this section for special rules 
+applicable to section 1035 exchanges.
+    (2) * * *
+* * * * *
+    (v) The direct acquisition of an interest in a life insurance 
+contract by a C corporation if:
+    (A) Immediately before the acquisition, the interest is held by 
+another C corporation (target C corporation) that actively conducts a 
+trade or business within the meaning of Sec.  1.367(a)-2(d)(2) and (3);
+    (B) Immediately before the acquisition, the target C corporation 
+does not engage in a trade or business of investing in interests in 
+life insurance contracts;
+    (C) Immediately before the acquisition, no more than 5 percent of 
+the gross value of the assets (as determined under paragraph (f)(4) of 
+this section) of the target C corporation consists of life insurance 
+contracts;
+    (D) The acquisition results from a transaction that qualifies as a 
+reorganization under section 368(a) with respect to which the target C 
+corporation and the acquiring C corporation each is a party to the 
+reorganization (within the meaning of section 368(b));
+    (E) Immediately after the acquisition, the acquiring C corporation 
+does not engage in a trade or business of investing in interests in 
+life insurance contracts; and
+    (F) Immediately after the acquisition, no more than 5 percent of 
+the gross value of the assets (as determined under paragraph (f)(4) of 
+this section) of the acquiring C corporation consists of life insurance 
+contracts.
+    (3) Section 1035 exchanges. This paragraph (c)(3) applies if an 
+interest in a life insurance contract (old interest) is exchanged in a 
+section 1035 exchange for an interest in a newly issued life insurance 
+contract (new interest), and the old interest previously was 
+transferred for valuable consideration in a reportable policy sale 
+under paragraph (c)(1) of this section or is treated as an interest in 
+a life insurance contract that previously was transferred for valuable 
+consideration in a reportable policy sale under this paragraph (c)(3). 
+For purposes of this section, the new interest is treated as an 
+interest in a life insurance contract that previously was transferred 
+for valuable consideration in a reportable policy sale. For purposes of 
+Sec. Sec.  1.6050Y-3(h) and 1.6050Y-4, the section 1035 exchange is 
+treated as the transfer of an interest in the life insurance contract 
+in a reportable policy sale.
+* * * * *
+    (g) * * *
+    (11) * * * Also, the exception in paragraph (c)(2)(v) of this 
+section applies, provided Corporation X satisfies the requirements of 
+paragraphs (c)(2)(v)(A) through (C) of this section immediately before 
+the acquisition by Corporation Y, and Corporation Y satisfies the 
+requirements of paragraphs (c)(2)(v)(E) and (F) of this section 
+immediately after the acquisition. This would be the case even if A 
+were no longer employed by Corporation X at the time of the transfer. * 
+* *
+* * * * *
+    (17) Example 17. The facts are the same as in paragraph (g)(4) of 
+this section (Example 4), except that, before A's death, C exchanges 
+the policy on A's life for a new policy on A's life in a section 1035 
+exchange. The amount of the proceeds C may exclude from C's gross 
+income under this section is limited under paragraph (b)(2)(iv)(B) of 
+this section to $6,000 plus any premiums and other amounts paid by C 
+with respect to the original policy subsequent to the transfer and any 
+premiums and other amounts paid by C with respect to the new policy.
+    (18) Example 18. The facts are the same as in paragraph (g)(17) of 
+this section (Example 17), except that, before A's death, C sells the 
+new policy to A for fair market value. A's estate receives
+
+[[Page 42352]]
+
+the proceeds of $100,000 on A's death. Under paragraph 
+(b)(1)(ii)(B)(3)(i) of this section, the amount of the proceeds A's 
+estate may exclude from gross income is not limited by paragraph (b) of 
+this section.
+    (19) Example 19. A is the initial policyholder of a $100,000 
+insurance policy on A's life. A transfers the policy for $6,000, its 
+fair market value, to an individual, C, who does not have a substantial 
+family, business, or financial relationship with A at the time of the 
+transfer. The transfer from A to C is a reportable policy sale. C also 
+is the initial policyholder of a $200,000 insurance policy on A's life. 
+Before A's death, C exchanges the two policies on A's life for a single 
+new policy on A's life in a section 1035 exchange. C receives the 
+proceeds from the new policy on A's death. The entire amount of the 
+proceeds attributable to the interest in the new policy that was issued 
+in exchange for the policy originally issued to C is excludable from 
+gross income under paragraph (b)(2)(iv)(A) of this section. The amount 
+of the proceeds attributable to the interest in the new policy that was 
+issued in exchange for the policy originally issued to A that is 
+excludable from gross income is limited under paragraph (b)(2)(iv)(B) 
+of this section to $6,000 plus any premiums and other amounts paid by C 
+with respect to the policy originally issued to A subsequent to the 
+transfer and any premiums and other amounts paid by C with respect to 
+the interest in the new policy that was issued in exchange for the 
+policy originally issued to A.
+
+0
+Par. 3. Section 1.101-6 is amended by revising the section heading and 
+adding paragraph (c) to read as follows:
+
+
+Sec.  1.101-6  Applicability date.
+
+* * * * *
+    (c) Notwithstanding paragraphs (a) and (b) of this section, Sec.  
+1.101-1(b)(2)(iv) and (c)(3) apply to any interest in a life insurance 
+contract issued in a section 1035 exchange occurring on or after July 
+9, 2026, and Sec.  1.101-1(c)(2)(v) applies to any acquisition of an 
+interest in a life insurance contract occurring on or after July 9, 
+2026. Taxpayers may also choose to apply the rules in Sec.  1.101-
+1(b)(2)(iv), (c)(2)(v), and (c)(3) to all exchanges and acquisitions 
+occurring after December 31, 2017.
+
+0
+Par. 4. Section 1.6050Y-1 is amended by:
+0
+1. Adding a sentence at the end of paragraph (a)(1);
+0
+2. Revising and republishing paragraph (a)(2);
+0
+3. Removing the last sentence in paragraph (a)(8)(ii);
+0
+4. Adding the language ``under Sec.  1.101-1(c)(1) or (3)'' at the end 
+of paragraph (a)(12); and
+0
+5. Revising and republishing paragraph (b).
+    The additions and revisions read as follows:
+
+
+Sec.  1.6050Y-1   Information reporting for reportable policy sales, 
+transfers of life insurance contracts to foreign persons, and 
+reportable death benefits.
+
+    (a) * * *
+    (1) * * * For purposes of determining the buyer under paragraph 
+(a)(2) of this section, the term acquirer also includes any person to 
+whom an interest in a life insurance contract (new interest) is issued 
+in an exchange to which section 1035(a) or section 1031 (to the extent 
+it relates to section 1035(a)) applies (section 1035 exchange) that is 
+treated as the transfer of an interest in the life insurance contract 
+in a reportable policy sale under Sec.  1.101-1(c)(3).
+    (2) Buyer. The term buyer means, with respect to any interest in a 
+life insurance contract that has been transferred in a reportable 
+policy sale under Sec.  1.101-1(c)(1) or treated as such an interest 
+under Sec.  1.101-1(c)(3), the person that was the most recent acquirer 
+of that interest in a reportable policy sale as of the date reportable 
+death benefits are paid under the contract.
+* * * * *
+    (b) Applicability dates--(1) In general. Except as otherwise 
+provided in paragraph (b)(2) of this section, this section and 
+Sec. Sec.  1.6050Y-2 through 1.6050Y-3 apply to reportable policy sales 
+made after December 31, 2018. Except as otherwise provided in paragraph 
+(b)(2) of this section, this section and Sec.  1.6050Y-4 apply to 
+reportable death benefits paid after December 31, 2018. This section 
+and Sec.  1.6050Y-3 apply to any notice of a transfer to a foreign 
+person received after December 31, 2018. However, for reportable policy 
+sales and payments of reportable death benefits occurring after 
+December 31, 2018, and on or before December 31, 2019, and any notice 
+of a transfer to a foreign person received after December 31, 2018, and 
+on or before December 31, 2019, transition relief is provided as 
+follows:
+    (i) Statements required to be furnished to issuers under section 
+6050Y(a)(2) and Sec.  1.6050Y-2(d)(2)(i) must be furnished by the later 
+of the applicable deadline set forth in Sec.  1.6050Y-2(d)(2)(ii) or 
+December 30, 2019.
+    (ii) Statements required to be furnished to reportable policy sale 
+payment recipients under section 6050Y(a)(2) and Sec.  1.6050Y-
+2(d)(1)(i) must be furnished by the later of the applicable deadline 
+set forth in Sec.  1.6050Y-2(d)(1)(ii) or February 28, 2020.
+    (iii) Statements required to be furnished to sellers under section 
+6050Y(b)(2) and Sec.  1.6050Y-3(d)(1) must be furnished by the later of 
+the applicable deadline set forth in Sec.  1.6050Y-3(d)(2) or February 
+28, 2020.
+    (iv) Statements required to be furnished to reportable death 
+benefits payment recipients under section 6050Y(c)(2) and Sec.  
+1.6050Y-4(c)(1) must be furnished by the later of the applicable 
+deadline set forth in Sec.  1.6050Y-4(c)(2) or February 28, 2020.
+    (v) Returns required to be filed under section 6050Y(a)(1) and 
+Sec.  1.6050Y-2(a), section 6050Y(b)(1) and Sec.  1.6050Y-3(a), and 
+section 6050Y(c)(1) and Sec.  1.6050Y-4 must be filed by the later of 
+the applicable deadline set forth in Sec.  1.6050Y-2(c), Sec.  1.6050Y-
+3(c), and Sec.  1.6050Y-4(b) or February 28, 2020.
+    (2) Section 1035 exchanges. Sections 1.6050Y-1, 1.6050Y-2, and 
+1.6050Y-3 apply to any life insurance contract acquired in a section 
+1035 exchange that occurs on or after July 9, 2026. Section 1.6050Y-4 
+applies to reportable death benefits paid with respect to an interest 
+in a life insurance contract issued in a section 1035 exchange if the 
+exchange occurs on or after July 9, 2026.
+
+
+Sec.  1.6050Y-2  [Amended]
+
+0
+Par. 5. Section 1.6050Y-2 is amended by removing paragraph (f)(3).
+
+0
+Par. 6. Section 1.6050Y-3 is amended by:
+0
+1. In paragraph (f) introductory text, removing the language 
+``paragraph (f)(1), (2), or (3) of this section applies'' at the end of 
+the paragraph and adding in its place ``paragraph (f)(1) or (2) of this 
+section applies'';
+0
+2. Removing paragraph (f)(3); and
+0
+3. Adding paragraph (h).
+    The addition reads as follows:
+
+
+Sec.  1.6050Y-3   Information reporting by 6050Y(b) issuers for 
+reportable policy sales and transfers of life insurance contracts to 
+foreign persons.
+
+* * * * *
+    (h) Information to be provided by old issuer to new issuer for 
+certain section 1035 exchanges--(1) Scope. This paragraph (h)(1) 
+applies to a section 1035 exchange in which an interest in a life 
+insurance contract (old interest) is exchanged by a policyholder for an 
+interest in a newly issued life insurance contract (new interest), and 
+the old interest previously was transferred for valuable consideration 
+in a reportable
+
+[[Page 42353]]
+
+policy sale under Sec.  1.101-1(c)(1) or is treated as an interest in a 
+life insurance contract that previously was transferred for valuable 
+consideration in a reportable policy sale under Sec.  1.101-1(c)(3). 
+However, this paragraph (h)(1) does not apply if the issuer of the old 
+interest (old issuer) and the issuer of the new interest (new issuer) 
+are the same.
+    (2) Provision of information. If paragraph (h)(1) of this section 
+applies to a section 1035 exchange, the old issuer will provide to the 
+new issuer the information necessary to ensure proper reporting of 
+reportable death benefits under Sec.  1.6050Y-4. This information 
+includes the policyholder's investment in the contract with respect to 
+the old interest and a statement indicating whether the old issuer 
+would have reported a payment of reportable death benefits under Sec.  
+1.6050Y-4 had it paid death benefits attributable to the old interest 
+on the date of the section 1035 exchange. For example, if the old 
+issuer had received, or had knowledge of another issuer having 
+received, a statement described in Sec.  1.6050Y-2(d)(2), the old 
+issuer would include a statement that it would have reported a payment 
+of reportable death benefits. Similarly, if the old issuer had other 
+information indicating that the old interest previously was transferred 
+for valuable consideration in a reportable policy sale under Sec.  
+1.101-1(c)(1) or was treated as having been so transferred under Sec.  
+1.101-1(c)(3), the old issuer would include a statement that it would 
+have reported a payment of reportable death benefits.
+    (3) Reasonable method. For purposes of paragraph (h)(2) of this 
+section, the old issuer may use any reasonable method to provide the 
+information described in paragraph (h)(2) of this section to the new 
+issuer.
+
+0
+Par. 7. Section 1.6050Y-4 is amended by adding a sentence at the end of 
+paragraph (e)(3) to read as follows:
+
+
+Sec.  1.6050Y-4   Information reporting by payors for reportable death 
+benefits.
+
+* * * * *
+    (e) * * *
+    (3) * * * Additionally, if the reportable death benefits are paid 
+with respect to an interest in a life insurance contract issued in a 
+section 1035 exchange, the payor never received, and has no knowledge 
+of any issuer having received, information indicating that the interest 
+was issued in exchange for an interest in a life insurance contract 
+that previously was transferred for valuable consideration in a 
+reportable policy sale or was treated as so transferred under Sec.  
+1.101-1(c)(3).
+* * * * *
+
+Frank J. Bisignano,
+Chief Executive Officer.
+
+    Approved: June 11, 2026.
+Kevin M. Salinger,
+Deputy Assistant Secretary of the Treasury (Tax Policy).
+[FR Doc. 2026-13830 Filed 7-8-26; 8:45 am]
+BILLING CODE 4831-GV-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "ecfr",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-07-01/title-31.xml?part=50",
+  "fetched_at": "2026-07-28T18:19:00.939989+00:00",
+  "sha256": "2b90cb8e1afdcaa27e6f76529f89fbe516cd1944e379367b707749cdc13d3187",
+  "content_type": "text/plain",
+  "filename": "31-CFR-50.txt"
+}

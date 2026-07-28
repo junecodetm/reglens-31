@@ -1,0 +1,1005 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 131 (Friday, July 10, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 131 (Friday, July 10, 2026)]
+[Rules and Regulations]
+[Pages 42659-42666]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-13925]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 20
+
+[TD 10050]
+RIN 1545-BQ88
+
+
+Revising Qualified Domestic Trust Regulations Under Section 2056A 
+To Update Outdated References and Procedures
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Final regulations.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document contains final regulations that amend the 
+Federal estate tax regulations applicable to estates of decedents 
+passing property to or for the benefit of a noncitizen spouse in a 
+domestic trust that satisfies all of the requirements under applicable 
+Federal tax law and regulations to be a qualified domestic trust and 
+for which the executor of the decedent's estate has made a qualified 
+domestic trust election. These final regulations modify the existing 
+regulations to update outdated references, information, and procedures. 
+These final regulations primarily affect the estates of decedents 
+passing property to or for the benefit of a noncitizen spouse in a 
+qualified domestic trust pursuant to applicable Federal tax law.
+
+DATES: 
+    Effective date: These regulations are effective on July 10, 2026.
+    Applicability dates: For dates of applicability, see Sec. Sec.  
+20.2056A-2(e), 20.2056A-4(e), 20.2056A-11(e), and 20.2056A-13.
+
+FOR FURTHER INFORMATION CONTACT: Donna Douglas at 202-317-6859 (not a 
+toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+Authority
+
+    This document contains amendments to the Estate Tax Regulations (26 
+CFR part 20) under section 2056A of the Internal Revenue Code (Code) 
+related to qualified domestic trusts. These final regulations are 
+issued under express delegations of authority provided under sections 
+2056A(a)(2), 2056A(e), and 7805(a) of the Code. Section 2056A(a)(2) 
+authorizes the Secretary of the Treasury or the Secretary's delegate 
+(Secretary) to promulgate regulations that will ensure the collection 
+of the estate tax imposed under section 2056A(b). Section 2056A(e) 
+authorizes the Secretary to prescribe such regulations as may be 
+necessary or appropriate to carry out the purposes of section 2056A. 
+Section 7805(a) directs the Secretary to prescribe all needful rules 
+and regulations for the enforcement of the Code, including all rules 
+and regulations as may be necessary by reason of any alteration of law 
+in relation to internal revenue.
+
+Background
+
+1. Statutory Overview
+
+    Section 2056(d)(1) of the Code generally disallows a marital 
+deduction for the value of property passing to a noncitizen spouse of a 
+decedent or donor. However, section 2056(d)(2)(A) allows a marital 
+deduction for such property passing to the decedent's surviving spouse 
+in a qualified domestic trust (QDOT), as defined in section 2056A. 
+Section 2056A of the Code was added by the Technical and Miscellaneous 
+Revenue Act of 1988 (Pub. L. 100-647) and further amended by the 
+Revenue Reconciliation Act of 1989 (Pub. L. 101-239), the Revenue 
+Reconciliation Act of 1990 (Pub. L. 101-508), the Taxpayer Relief Act 
+of 1997 (Pub. L. 105-34), and the Economic Growth and Tax Relief 
+Reconciliation Act of 2001 (Pub. L. 107-16).
+    Generally, for purposes of sections 2056 and 2056A, section 
+2056A(a) defines the term ``qualified domestic trust,'' with respect to 
+any decedent, as any trust if (1) its trust instrument meets certain 
+requirements regarding the identity and powers of the trustee, (2) such 
+trust meets such requirements as the Secretary may by regulations 
+prescribe to ensure the collection of any tax imposed by section 
+2056A(b), and (3) an election under section 2056A by the executor of 
+the decedent applies to such trust. Section 2056A(b) generally 
+prescribes rules relating to a deferred estate tax on distributions of 
+corpus from the QDOT during the spouse's lifetime and on the balance of 
+the corpus held in the QDOT at the spouse's death (section 2056A estate 
+tax). Section 2056A(c) provides definitions of certain relevant terms, 
+and section 2056A(d) provides rules regarding the section 2056A 
+election. Finally, section 2056A(e) directs the Secretary to prescribe 
+regulations as may be necessary or appropriate to carry out the 
+purposes of section 2056A.
+
+2. Existing Regulatory Guidance Under Section 2056A
+
+    Proposed regulations addressing the application of sections 2056(d) 
+and 2056A were published in the Federal Register (58 FR 305) on January 
+5, 1993 (1993 proposed regulations). The 1993 proposed regulations 
+included proposed rules under Sec. Sec.  20.2056A-1 through 20.2056A-
+13. Relevant to these final regulations, Sec.  20.2056A-2 of the 1993 
+proposed regulations set forth the proposed qualification requirements 
+for a QDOT; Sec.  20.2056A-4 of the 1993 proposed regulations set forth 
+the proposed procedures for conforming marital trusts and nontrust 
+marital transfers to the requirements of a QDOT; and Sec.  20.2056A-11 
+of the 1993 proposed regulations set forth the proposed rules relating 
+to filing requirements and payment of the section 2056A estate tax.
+    On August 22, 1995, after consideration of all written comments and 
+public hearing testimony, the 1993 proposed regulations were adopted as 
+final regulations by the publication of TD 8612 in the Federal Register 
+(60 FR 43531), with one exception: Sec.  20.2056A-2(d) of the 1993 
+proposed regulations, which set forth proposed additional requirements 
+to ensure collection of the section 2056A estate tax, was not 
+finalized. On the same date, the Department of the Treasury (Treasury 
+Department) and the IRS published TD 8613 in the Federal Register (60 
+FR 43554), which contained temporary regulations under Sec.  20.2056A-
+2T(d) (1995 temporary regulations). The text of the 1995 temporary 
+regulations also served, by cross-reference, as the text of reissued 
+proposed regulations published on the same date in the Federal Register 
+(60 FR 43574) to address and solicit further commentary on the 
+additional requirements necessary to ensure collection of the section 
+2056A estate tax (1995 proposed regulations). On November 29, 1996, the 
+Treasury Department and the IRS published TD 8686 in the Federal 
+Register (61 FR 60551) to adopt Sec.  20.2056A-2(d) of the 1995 
+proposed regulations, with modifications in response to comments, as 
+final regulations (1996 final regulations). In an apparent oversight,
+
+[[Page 42660]]
+
+the 1996 final regulations did not update the references to Sec.  
+20.2056A-2T(d) found in Sec. Sec.  20.2056A-2, 20.2056A-4, and 
+20.2056A-11.
+    On August 21, 2024, the Treasury Department and the IRS published 
+in the Federal Register (89 FR 67580) a notice of proposed rulemaking 
+(REG-119683-22). The proposed regulations would amend existing 
+Sec. Sec.  20.2056A-2, 20.2056A-4, 20.2056A-11, and 20.2056A-13 to 
+update outdated references, information, and procedures.
+    First, the proposed regulations would update Sec. Sec.  20.2056A-2, 
+20.2056A-4, and 20.2056A-11 of the Estate Tax Regulations to remove 
+outdated references to Sec.  20.2056A-2T(d). Second, the proposed 
+regulations would update Sec.  20.2056A-2 to correct outdated 
+references to a publication, to IRS officials and offices, and to 
+procedures and addresses to be used by certain trustees to provide a 
+security instrument to satisfy the requirements of a QDOT. Third, the 
+proposed regulations would update Sec.  20.2056A-2(d)(1)(iii) to amend 
+the definition of ``finally determined'' because the definition of that 
+term in existing regulations includes an outdated reference to the 
+issuance of an estate tax closing letter. Fourth, the proposed 
+regulations would update Sec. Sec.  20.2056A-4 and 20.2056A-11 to 
+properly identify the titles of IRS officials authorized to enter into 
+agreements with respect to the section 2056A estate tax and to grant 
+extensions of time to file a Form 706-QDT, U.S. Estate Tax Return for 
+Qualified Domestic Trusts, or to pay any section 2056A estate tax. 
+Finally, the proposed regulations would update Sec.  20.2056A-13 to 
+reflect new applicability dates related to amendments that would be 
+made by the proposed regulations.
+
+3. Public Hearing and Comments
+
+    Because no public hearing was requested, the Treasury Department 
+and the IRS did not hold a public hearing on the proposed regulations. 
+The Treasury Department and the IRS received two written comments on 
+the proposed regulations. The written comments are available for public 
+inspection at <a href="https://www.regulations.gov">https://www.regulations.gov</a> or upon request.
+    After consideration of the comments and additional consideration of 
+certain aspects of the proposed regulations, the Treasury Department 
+and the IRS are adopting the proposed regulations with two revisions.
+
+Summary of Comments and Explanation of Revisions
+
+    One commenter opined that, by leaving the substance of the 
+regulations unaltered, the Treasury Department and the IRS are allowing 
+for a more effective tax code by focusing solely on the outdated 
+terminology and leaving the function of the Code unchanged. More 
+specifically, the commenter praised the existing regulations for 
+establishing procedures by which a non-citizen spouse may qualify for 
+the marital deduction (1) by establishing a QDOT and transferring to it 
+property that otherwise would have passed directly to the spouse, and 
+(2) in the case of a plan, annuity, or other arrangement which is not 
+assignable or transferable, by allowing the property to be treated as 
+passing in the form of a QDOT, notwithstanding that the spouse does not 
+irrevocably transfer or assign the annuity or other payment to the 
+QDOT. Finally, the commenter suggested increasing the basic exclusion 
+amount to relieve taxpayers with estates of less value than that amount 
+from the expense of estate planning and from incurring ``excessive'' 
+Federal estate and gift taxes. The basic exclusion amount applicable to 
+the Federal estate and gift taxes is determined by statute and 
+therefore cannot be changed by regulations. Accordingly, this 
+suggestion has not been adopted.
+    Another commenter noted that the proposed regulations would clarify 
+the guidance for complying with the existing section 2056A regulations, 
+and that this would save taxpayers time and money, as well as raise 
+taxpayer confidence in the tax system by supporting equity and 
+taxpayer's rights. The commenter continued, however, that the IRS has a 
+mission that includes collecting the proper amount of tax revenue, at 
+the least cost to the public, by efficiently applying the tax law with 
+integrity and fairness. The commenter suggested that, to further this 
+end, before issuing the final regulations, the Treasury Department and 
+the IRS research the cost of QDOT compliance versus the amount of 
+section 2056A estate tax revenue and consider overhauling the entire 
+QDOT system and the ways QDOTs now can be structured to avoid or delay 
+the imposition of the section 2056A estate tax. Modification of the 
+entire QDOT system would first require a change in the terms of section 
+2056A itself, a change that can only be achieved by legislation. 
+Accordingly, this suggestion has not been adopted.
+    After additional consideration of certain aspects of the proposed 
+regulations that would improve tax administration, the Treasury 
+Department and the IRS adopt two non-substantive changes to these 
+regulations. First, identification of the office known as the ``Estate 
+Tax Advisory Group'' throughout these regulations is clarified to 
+include any successor office as provided in IRS publications, forms or 
+instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>. In the event of a 
+restructuring of the IRS, this will allow the IRS to efficiently and 
+quickly publicize the identity of the successor office, improving 
+clarity for taxpayers. Second, the applicability date is changed so 
+that these regulations will apply on and after the regulations are 
+published as final in the Federal Register, instead of applying only to 
+estates of decedents dying on or after the regulations are published as 
+final in the Federal Register. Because these regulations correct 
+outdated references and procedures, this change will reduce confusion 
+and ensure all taxpayers are able to utilize the updated references and 
+procedures from the time of publication of these regulations in the 
+Federal Register.
+
+Special Analyses
+
+I. Regulatory Planning and Review
+
+    These final regulations are not subject to review under section 
+6(b) of Executive Order 12866 pursuant to the Memorandum of Agreement 
+(July 4, 2025) between the Treasury Department and the Office of 
+Management and Budget regarding review of tax regulations.
+
+II. Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3520) (PRA) 
+requires that a Federal agency obtain the approval of the Office of 
+Management and Budget (OMB) before collecting information from the 
+public, whether such collection of information is mandatory, voluntary, 
+or required to obtain or retain a benefit. A Federal agency may not 
+conduct or sponsor, and a person is not required to respond to, a 
+collection of information unless the collection of information displays 
+a valid control number.
+    The final regulations update the existing regulations under section 
+2056A by modifying and replacing outdated references, information, and 
+procedures, such as references to IRS officials, offices, and addresses 
+that no longer exist and references to temporary regulations. The 
+collections of information within these final regulations include 
+reporting and third-party disclosure requirements imposed by the IRS to 
+ensure that the IRS has been provided with adequate security for the 
+collection of the section 2056A estate tax, to allow marital trusts and 
+nontrust marital transfers to be conformed to the requirements of a
+
+[[Page 42661]]
+
+QDOT, and to provide extensions of time for the payment of section 
+2056A estate tax.
+    The final regulations include third-party disclosure and reporting 
+requirements under Sec.  20.2056A-2(d)(1)(i) for surety and banks to 
+notify trustees and the IRS of the failure to renew a bond or letter of 
+credit. These collection requirements are already approved by OMB under 
+1545-1443 for all filers. The final regulations do not change the 
+already approved collection requirements, and only modify the location 
+of where to file. An update to the filing location does not change the 
+already approved burden.
+    The final regulations include reporting requirements related to a 
+security instrument used to meet the qualifications of a QDOT and filed 
+at the time the executor of an estate files a Form 706 or 706-NA. The 
+final regulations also include reporting requirements related to Form 
+706-QDT used to calculate and report the section 2056A estate tax due 
+or to notify the IRS that the trust is exempt from future filing 
+because a noncitizen spouse has become a citizen. These reporting 
+requirements are already approved by OMB under 1545-1443 for all 
+filers. The final regulations do not substantively change the 
+collection requirements, and only modify the location of where to file 
+the security instruments and arrangements. An update to the filing 
+location does not change the already approved burden.
+    The final regulations include reporting requirements related to 
+requesting extensions using Form 4768 to file Form 706-QDT, Form 706, 
+and Form 706-NA. These reporting requirements are already approved by 
+OMB under 1545-0181 for all filers. The final regulations do not 
+substantively change the collection requirements, and only modify the 
+location of where to file the extension. An update to the filing 
+location does not change the already approved burden.
+    Books and records relating to a collection of information must be 
+retained as long as their contents might become material in the 
+administration of any internal revenue law. Generally, tax returns and 
+tax return information are confidential, as required by section 6103 of 
+the Code.
+
+III. Regulatory Flexibility Act
+
+    Pursuant to the Regulatory Flexibility Act (5 U.S.C. chapter 6), it 
+is hereby certified that the final regulations will not have a 
+significant economic impact on a substantial number of small entities. 
+This rule primarily affects individuals (or their estates) and trusts, 
+which are not small entities for purposes of the Regulatory Flexibility 
+Act. Although it is anticipated that there may be an incremental 
+economic impact on executors that are small entities, including 
+entities that provide tax and legal services that assist individuals in 
+preparing tax returns, any impact will not be significant and will not 
+affect a substantial number of small entities. Therefore, a Regulatory 
+Flexibility Analysis under the Regulatory Flexibility Act (5 U.S.C. 
+chapter 6) is not required.
+
+IV. Section 7805(f)
+
+    Pursuant to section 7805(f) of the Code, this regulation has been 
+submitted to the Chief Counsel for the Office of Advocacy of the Small 
+Business Administration for comment on its impact on small business.
+
+V. Unfunded Mandates Reform Act
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995 (UMRA) 
+requires that agencies assess anticipated costs and benefits and take 
+certain other actions before issuing a final rule that includes any 
+Federal mandate that may result in expenditures in any one year by a 
+State, local, or Tribal government, in the aggregate, or by the private 
+sector, of $100 million in 1995 dollars, updated annually for 
+inflation. This rule does not include any Federal mandate that may 
+result in expenditures by State, local, or Tribal governments, or by 
+the private sector in excess of that threshold.
+
+VI. Executive Order 13132: Federalism
+
+    Executive Order 13132 (Federalism) prohibits an agency from 
+publishing any rule that has federalism implications if the rule either 
+imposes substantial, direct compliance costs on State and local 
+governments and is not required by statute, or preempts State law 
+unless the agency meets the consultation and funding requirements of 
+section 6 of the executive order. These final regulations do not have 
+federalism implications and do not impose substantial direct compliance 
+costs on State and local governments or preempt State law within the 
+meaning of the executive order.
+
+Drafting Information
+
+    The principal author of these final regulations is Donna Douglas of 
+the Office of Associate Chief Counsel (Passthroughs, Trusts, and 
+Estates). However, other personnel from the Treasury Department and the 
+IRS participated in their development.
+
+List of Subjects in 26 CFR Part 20
+
+    Estate taxes, Reporting and recordkeeping requirements.
+
+Adoption of Amendments to the Regulations
+
+    Accordingly, the Treasury Department and the IRS are amending 26 
+CFR part 20 as follows:
+
+PART 20--ESTATE TAX; ESTATES OF DECEDENTS DYING AFTER AUGUST 16, 
+1954
+
+0
+Paragraph 1. The authority citation for part 20 continues to read in 
+part as follows:
+
+    Authority:  26 U.S.C. 7805.
+* * * * *
+
+0
+Par. 2. Section 20.2056A-0 is amended by:
+0
+1. Revising the entry for paragraph (d)(6) of Sec.  20.2056A-2;
+0
+2. Adding an entry for paragraph (e) of Sec.  20.2056A-2;
+0
+3. Adding an entry for paragraph (e) of Sec.  20.2056A-4; and
+0
+4. Adding an entry for paragraph (e) of Sec.  20.2056A-11.
+    The revision and additions read as follows:
+
+
+Sec.  20.2056A-0   Table of contents.
+
+Sec.  20.2056A-2 Requirements for qualified domestic trust.
+* * * * *
+    (d) * * *
+    (6) Special rules.
+    (e) Applicability date.
+* * * * *
+Sec.  20.2056A-4 Procedures for conforming marital trusts and 
+nontrust marital transfers to the requirements of a qualified 
+domestic trust.
+* * * * *
+    (e) Applicability date.
+* * * * *
+Sec.  20.2056A-11 Filing requirements and payment of the section 
+2056A estate tax.
+* * * * *
+    (e) Applicability date.
+* * * * *
+
+0
+Par. 3. Section 20.2056A-2 is amended by:
+0
+1. Revising the first sentence of paragraph (a);
+0
+2. Revising paragraph (b)(2);
+0
+3. Revising the first sentence of paragraph (b)(3);
+0
+4. Removing the fourth sentence of paragraph (d)(1)(i)(B)(1) and adding 
+in its place two new sentences;
+0
+5. Revising and republishing paragraph (d)(1)(i)(B)(2);
+0
+6. Revising the first sentence of paragraph (d)(1)(i)(B)(4), and adding 
+a new sentence at the end of the paragraph;
+
+[[Page 42662]]
+
+0
+7. Removing the fourth sentence of paragraph (d)(1)(i)(C)(1) and adding 
+in its place two new sentences;
+0
+8. Revising and republishing paragraph (d)(1)(i)(C)(2);
+0
+9. Revising and republishing paragraph (d)(1)(i)(C)(3);
+0
+10. Revising the first sentence of paragraph (d)(1)(i)(C)(5), and 
+adding a new sentence at the end of the paragraph;
+0
+11. Revising paragraph (d)(1)(iii);
+0
+12. Revising the paragraph heading of paragraph (d)(6);
+0
+13. Removing paragraph (d)(6)(i);
+0
+14. Redesignating paragraphs (d)(6)(ii) and (iii) as paragraphs 
+(d)(6)(i) and (ii) respectively; and
+0
+15. Adding paragraph (e).
+    The revisions and additions read as follows:
+
+
+Sec.  20.2056A-2  Requirements for qualified domestic trust.
+
+    (a) * * * To qualify as a qualified domestic trust (QDOT), the 
+requirements of paragraphs (b) through (d) of this section must be 
+satisfied. * * *
+    (b) * * *
+    (2) Property passing outright to spouse. If property does not pass 
+from a decedent to a QDOT, but passes to a noncitizen surviving spouse 
+in a form that meets the requirements for a marital deduction without 
+regard to section 2056(d)(1)(A), and that is not described in paragraph 
+(b)(1) of this section, the surviving spouse must either actually 
+transfer the property, or irrevocably assign the property, to a trust 
+(whether created by the decedent, by the decedent's executor, or by the 
+surviving spouse) that meets the requirements of paragraphs (c) and (d) 
+of this section (pertaining, respectively, to statutory requirements 
+and regulatory requirements imposed to ensure collection of tax) prior 
+to the filing of the estate tax return for the decedent's estate and on 
+or before the last date prescribed by law that the QDOT election may be 
+made (see Sec.  20.2056A-3(a)).
+    (3) * * * If property does not pass from a decedent to a QDOT, but 
+passes under a plan or other arrangement that meets the requirements 
+for a marital deduction without regard to section 2056(d)(1)(A) and 
+whose payments are not assignable or transferable (see Sec.  20.2056A-
+4(c)), the property is treated as meeting the requirements of this 
+section, and the requirements of Sec.  20.2056A-2(d), if the 
+requirements of Sec.  20.2056A-4(c) are satisfied. * * *
+* * * * *
+    (d) * * *
+    (1) * * *
+    (i) * * *
+    (B) * * *
+    (1) * * * Any notice of failure to renew is required to be sent to 
+the Estate Tax Advisory Group of the Internal Revenue Service or 
+successor office as provided in IRS publications, forms or 
+instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>. To determine the correct 
+address to use when submitting the required documentation, see IRS 
+Publication 4235, Collection Advisory Offices Contact Information, or 
+as otherwise provided in IRS forms or instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>. * * *
+    (2) Form of bond.--The bond must be in the following form (or in a 
+form that is the same as the following form in all material respects), 
+or in such alternative form as the Commissioner may prescribe by 
+guidance published in the Internal Revenue Bulletin (see Sec.  
+601.601(d)(2) of this chapter):
+    Bond in Favor of the Internal Revenue Service To Secure Payment of 
+Section 2056A Estate Tax Imposed Under Section 2056A(b) of the Internal 
+Revenue Code.
+    Know all persons by these presents, That the undersigned, ___, the 
+SURETY, and ___, the PRINCIPAL, are irrevocably held and firmly bound 
+to pay the Internal Revenue Service upon written demand that amount of 
+any tax up to $ [amount determined under paragraph (d)(1)(i)(B) of this 
+section], imposed under section 2056A(b)(1) of the Internal Revenue 
+Code (including penalties and interest on said tax) determined by the 
+Internal Revenue Service to be payable with respect to the principal as 
+trustee for: [Identify trust and governing instrument, name and address 
+of trustee], a qualified domestic trust as defined in section 2056A of 
+the Internal Revenue Code, for the payment of which the said Principal 
+and said Surety, bind themselves, their heirs, executors, 
+administrators, successors and assigns, jointly and severally, firmly 
+by these presents.
+    Whereas, The Internal Revenue Service may demand payment under this 
+bond at any time if the Internal Revenue Service in its sole discretion 
+determines that a taxable event with respect to the trust has occurred; 
+the trust no longer qualifies as a qualified domestic trust as 
+described in section 2056A(a) of the Internal Revenue Code and the 
+regulations promulgated thereunder, or a distribution subject to the 
+tax imposed under section 2056A(b)(1) has been made. Demand by the 
+Internal Revenue Service for payment may be made whether or not the tax 
+and tax return (Form 706-QDT) with respect to the taxable event is due 
+at the time of such demand, or an assessment has been made by the 
+Internal Revenue Service with respect to the tax.
+    Now therefore, The condition of this obligation is such that it 
+must not be cancelled and, if payment of all tax liability finally 
+determined to be imposed under section 2056A(b) is made, then this 
+obligation is null and void; otherwise, this obligation is to remain in 
+full force and effect for one year from its effective date and is to be 
+automatically renewable on an annual basis unless, at least 60 days 
+prior to the expiration date, including periods of automatic renewals, 
+the surety mails to the U.S. Trustee and the Internal Revenue Service 
+by Registered or Certified Mail, return receipt requested, notice of 
+the failure to renew. Receipt of this notice of failure to renew by the 
+Internal Revenue Service may be considered a taxable event. The 
+Internal Revenue Service will not draw upon the bond if, within 30 days 
+of receipt of the notice of failure to renew, the trustee notifies the 
+Internal Revenue Service that an alternate security arrangement has 
+been secured and that the arrangement will take effect immediately 
+prior to or upon expiration of the bond. The surety remains liable for 
+all taxable events occurring prior to the date of expiration. All 
+notices required to be sent to the Internal Revenue Service under this 
+instrument should be sent to the Estate Tax Advisory Group of the 
+Internal Revenue Service or successor office as provided in IRS 
+publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>. To 
+determine the correct address to use when submitting the required 
+documentation, see IRS Publication 4235, Collection Advisory Offices 
+Contact Information, or as otherwise provided in IRS forms or 
+instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>.
+
+This bond shall be effective as of-------------------------------------
+Principal--------------------------------------------------------------
+Date-------------------------------------------------------------------
+Surety-----------------------------------------------------------------
+Date-------------------------------------------------------------------
+* * * * *
+    (4) * * * The bond is to be filed (separately from the decedent's 
+Federal estate tax return) by submitting it directly to the Estate Tax 
+Advisory Group of the Internal Revenue Service or successor office as 
+provided in IRS publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a> on or before the later of the filing date or due date of 
+the decedent's Federal estate tax return (Form 706 or 706-NA) unless an 
+extension for filing the bond is granted under Sec.  301.9100 of this 
+chapter. * * * To determine the correct address to use
+
+[[Page 42663]]
+
+when submitting the required documentation, see IRS Publication 4235, 
+Collection Advisory Offices Contact Information, or as otherwise 
+provided in IRS forms or instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>.
+    (C) * * *
+    (1) * * * Any notice of failure to renew or closure of a U.S. 
+branch of a foreign bank required to be sent to the Internal Revenue 
+Service must be sent to the Estate Tax Advisory Group of the Internal 
+Revenue Service or successor office as provided in IRS publications, 
+forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>. To determine the 
+correct address to use when submitting the required documentation, see 
+IRS Publication 4235, Collection Advisory Offices Contact Information, 
+or as otherwise provided in IRS forms or instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>. * * *
+    (2) Form of letter of credit.--The letter of credit must be made in 
+the following form (or in a form that is the same as the following form 
+in all material respects), or an alternative form that the Commissioner 
+prescribes by guidance published in the Internal Revenue Bulletin (see 
+Sec.  601.601(d)(2) of this chapter):
+
+[Issue Date]
+To: Internal Revenue Service
+
+    Attention: Estate Tax Advisory Group (or successor office as 
+provided in IRS publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>). (See IRS Publication 4235, Collection Advisory Offices 
+Contact Information, or as otherwise provided in IRS forms or 
+instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>, to determine the correct 
+address to use when submitting the required documentation).
+    [Or in the case of nonresident noncitizen decedents and United 
+States citizens who die domiciled outside the United States,
+
+To: Estate Tax Group,
+Assistant Commissioner (International)
+950 L'Enfant Plaza
+CP:IN:D:C:EX:HQ:1114
+Washington, DC 20224]
+Dear Sirs:
+
+    We hereby establish our irrevocable Letter of Credit No.--in your 
+favor for drawings up to U.S. $ [Applicant should provide bank with 
+amount which Applicant determined under paragraph (d)(1)(i)(C)] 
+effective immediately. This Letter of Credit is issued, presentable and 
+payable at our office at and expires at ______ 3:00 p.m. [EDT, EST, 
+CDT, CST, MDT, MST, PDT, PST] on _____ at said office.
+    For information and reference only, we are informed that this 
+Letter of Credit relates to [Applicants should provide bank with the 
+identity of qualified domestic trust and governing instrument], and the 
+name, address, and identifying number of the trustee is [Applicant 
+should provide bank with the trustee name, address and the QDOT's TIN 
+number, if any].
+    Drawings on this Letter of Credit are available upon presentation 
+of the following documents:
+    1. Your draft drawn at sight on us bearing our Letter of Credit No. 
+____; and
+    2. Your signed statement as follows:
+    The amount of the accompanying draft is payable under [identify 
+bank] irrevocable Letter of Credit No. ___ pursuant to section 2056A of 
+the Internal Revenue Code and the regulations promulgated thereunder, 
+because the Internal Revenue Service in its sole discretion has 
+determined that a ``taxable event'' with respect to the trust has 
+occurred; e.g., the trust no longer qualifies as a qualified domestic 
+trust as described in section 2056A of the Internal Revenue Code and 
+regulations promulgated thereunder, or a distribution subject to the 
+tax imposed under section 2056A(b)(1) of the Internal Revenue Code has 
+been made.
+    Except as expressly stated herein, this undertaking is not subject 
+to any agreement, requirement or qualification. The obligation of [Name 
+of Issuing Bank] under this Letter of Credit is the individual 
+obligation of [Name of Issuing Bank] and is in no way contingent upon 
+reimbursement with respect thereto.
+    It is a condition of this Letter of Credit that it is deemed to be 
+automatically extended without amendment for a period of one year from 
+the expiration date hereof, or any future expiration date, unless at 
+least 60 days prior to any expiration date, we mail to you and to the 
+U.S. Trustee notice by Registered Mail or Certified Mail, return 
+receipt requested, or by courier to your and the trustee's address 
+indicated above, that we elect not to consider this Letter of Credit 
+renewed for any such additional period. Upon receipt of this notice, 
+you may draw hereunder on or before the then current expiration date, 
+by presentation of your draft and statement as stipulated above.
+    [In the case of a letter of credit issued by a U.S. branch of a 
+foreign bank the following language must be added]. It is a further 
+condition of this Letter of Credit that if the U.S. branch of [name of 
+foreign bank] is to be closed, that at least sixty days prior to 
+closing, we mail to you and the U.S. Trustee notice by Registered Mail 
+or Certified Mail, return receipt requested, or by courier to your and 
+the U.S. Trustee's address indicated above, that this branch will be 
+closing. This notice will specify the actual date of closing. Upon 
+receipt of the notice, you may draw hereunder on or before the date of 
+closure, by presentation of your draft and statement as stipulated 
+above.
+    Except where otherwise stated herein, this Letter of Credit is 
+subject to the most recent revision of the Uniform Customs and Practice 
+for Documentary Credits published by the International Chamber of 
+Commerce (ICC), which can be found on <a href="https://www.iccwbo.org">https://www.iccwbo.org</a>. If we 
+notify you of our election not to consider this Letter of Credit 
+renewed and the expiration date occurs during an interruption of 
+business described in the most recent revision of that publication, 
+unless you had consented to cancellation prior to the expiration date, 
+the bank hereby specifically agrees to effect payment if this Letter of 
+Credit is drawn against within 30 days after the resumption of 
+business.
+    Except as stated herein, this Letter of Credit cannot be modified 
+or revoked without your consent.
+
+Authorized Signature---------------------------------------------------
+Date-------------------------------------------------------------------
+
+    (3) Form of confirmation.--If the requirements of this paragraph 
+(d)(1)(i)(C) are satisfied by the issuance of a letter of credit by a 
+foreign bank with confirmation by a bank as defined in section 581, the 
+confirmation must be made in the following form (or in a form that is 
+the same as the following form in all material respects), or an 
+alternative form that the Commissioner prescribes by guidance published 
+in the Internal Revenue Bulletin (see Sec.  601.601(d)(2) of this 
+chapter):
+
+[Issue Date]
+To: Internal Revenue Service
+
+    Attention: Estate Tax Advisory Group (or successor office as 
+provided in IRS publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>). (See IRS Publication 4235, Collection Advisory Offices 
+Contact Information, or as otherwise provided in IRS forms or 
+instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>, to determine the correct 
+address to use when submitting the required documentation).
+    [or in the case of nonresident noncitizens decedents and United 
+States citizens who die domiciled outside the United States,
+
+To: Estate Tax Group,
+Assistant Commissioner (International)
+950 L'Enfant Plaza
+CP:IN:D:C:EX:HQ:1114
+Washington, DC 20024]
+Dear Sirs:
+
+
+[[Page 42664]]
+
+
+    We hereby confirm the enclosed irrevocable Letter of Credit No. 
+______, and amendments thereto, if any, in your favor by _____ [Issuing 
+Bank] for drawings up to U.S. $ [same amount as in initial Letter of 
+Credit] effective immediately. This confirmation is issued, presentable 
+and payable at our office at ____ and expires at 3:00 p.m. [EDT, EST, 
+CDT, CST, MDT, MST, PDT, PST] on ___ at said office.
+    For information and reference only, we are informed that this 
+Confirmation relates to [Applicant should provide bank with the 
+identity of qualified domestic trust and governing instrument], and the 
+name, address, and identifying number of the trustee is [Applicant 
+should provide bank with the trustee name, address and the QDOT's TIN 
+number, if any].
+    We hereby undertake to honor your sight draft(s) drawn as specified 
+in the Letter of Credit.
+    Except as expressly stated herein, this undertaking is not subject 
+to any agreement, condition, or qualification. The obligation of [Name 
+of Confirming Bank] under this Confirmation is the individual 
+obligation of [Name of Confirming Bank] and is in no way contingent 
+upon reimbursement with respect thereto.
+    It is a condition of this Confirmation that it is deemed to be 
+automatically extended without amendment for a period of one year from 
+the expiration date hereof, or any future expiration date, unless at 
+least sixty days prior to any expiration date, we send to you and to 
+the U.S. Trustee notice by Registered Mail or Certified Mail, return 
+receipt requested, or by courier to your and the trustee's addresses, 
+respectively, indicated above, that we elect not to consider this 
+Confirmation renewed for any additional period. Upon receipt of this 
+notice by you, you may draw hereunder on or before the then current 
+expiration date, by presentation of your draft and statement as 
+stipulated above.
+    Except where otherwise stated herein, this Confirmation is subject 
+to the most recent version of the Uniform Customs and Practice for 
+Documentary Credits published by the International Chamber of Commerce 
+(ICC), which can be found on <a href="https://www.iccwbo.org">https://www.iccwbo.org</a>. If we notify you 
+of our election not to consider this Confirmation renewed and the 
+expiration date occurs during an interruption of business described in 
+the most recent version of that publication, unless you had consented 
+to cancellation prior to the expiration date, the bank hereby 
+specifically agrees to effect payment if this Confirmation is drawn 
+against within 30 days after the resumption of business.
+    Except as stated herein, this Confirmation cannot be modified or 
+revoked without your consent.
+
+Authorized Signature---------------------------------------------------
+Date-------------------------------------------------------------------
+* * * * *
+    (5) * * * The letter of credit (and confirmation, if applicable) is 
+to be filed separately from the decedent's Federal estate tax return 
+(Form 706 or Form 706-NA) by submitting it directly to the Estate Tax 
+Advisory Group of the Internal Revenue Service or successor office as 
+provided in IRS publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>, on or before the later of the filing date or the due date 
+of the decedent's Federal estate tax return (unless an extension for 
+filing the letter of credit is granted under Sec.  301.9100 of this 
+chapter). * * * To determine the correct address to use when submitting 
+the required documentation, see IRS Publication 4235, Collection 
+Advisory Offices Contact Information, or as otherwise provided in IRS 
+forms or instructions or on <a href="https://www.irs.gov">https://www.irs.gov</a>.
+* * * * *
+    (iii) Definition of finally determined--(A) In general. For 
+purposes of Sec.  20.2056A-2(d)(1)(i) and (ii), the fair market value 
+of assets is the fair market value of those assets as finally 
+determined for Federal estate tax purposes. That value is--
+    (1) The value reported on an estate tax return filed with the 
+Internal Revenue Service, once the period of limitations on assessment 
+(see section 6501) of estate tax has expired without that value having 
+been timely adjusted by the Internal Revenue Service;
+    (2) The value determined or specified by the Internal Revenue 
+Service for unreported property, or for reported property where the 
+value determined or specified by the Internal Revenue Service differs 
+from the value reported on an estate tax return filed with the Internal 
+Revenue Service, once the period of limitations on assessment 
+applicable to the estate tax has expired without that value having been 
+timely contested by the executor;
+    (3) The value determined in a written agreement with the Internal 
+Revenue Service (whether entered into during the course of the 
+administrative proceedings between the estate and the Internal Revenue 
+Service or after the commencement of litigation) once that written 
+agreement has been executed by both the executor and the Internal 
+Revenue Service and is binding on all parties (including, but not 
+limited to, the executor, the Internal Revenue Service, and the 
+beneficiaries); or
+    (4) The value determined by a court for the purpose of determining 
+the estate tax liability of the estate, once the court's determination 
+no longer can be appealed to any court.
+    (B) Contested and Executor defined. For purposes of this paragraph 
+(d)(1)(iii), the term contested means to put at issue the value of 
+property in a written communication to the Internal Revenue Service 
+that identifies the specific property, states that the executor does 
+not accept as correct the value of that property as determined or 
+specified by the Internal Revenue Service, and provides the executor's 
+claimed value for that property as determined in accordance with the 
+requirements of section 2031, the corresponding regulations, and other 
+applicable guidance. An issue cannot be contested by a general 
+protective statement or written communication that does not include 
+each of these specified elements. For purposes of this paragraph 
+(d)(1)(iii), the term executor includes any person described in section 
+2203, as expanded to include all persons required under section 6018(b) 
+to file an estate tax return.
+* * * * *
+    (6) Special rules.
+* * * * *
+    (e) Applicability date. This section applies on and after July 10, 
+2026.
+
+0
+Par. 4. Section 20.2056A-4 is amended by:
+0
+1. Revising the second sentence of paragraph (a)(1);
+0
+2. Revising the fifth and sixth sentences of paragraph (a)(2);
+0
+3. Revising the sixth sentence of paragraph (c)(1);
+0
+4. Revising and republishing paragraph (c)(6)(ii);
+0
+5. Revising and republishing paragraph (c)(7)(ii); and
+0
+6. Revising paragraph (e).
+    The revisions read as follows:
+
+
+Sec.  20.2056A-4  Procedures for conforming marital trusts and nontrust 
+marital transfers to the requirements of a qualified domestic trust.
+
+    (a) * * *
+    (1) * * * For this purpose, the requirements of a QDOT include all 
+of the applicable requirements set forth in Sec.  20.2056A-2. * * *
+    (2) * * * Thus, the trustee of the trust is responsible for filing 
+the Form 706-QDT, paying any section 2056A estate tax that becomes due, 
+and filing the annual statement required under Sec.  20.2056A-2(d)(3), 
+if applicable. Failure to comply with these requirements may cause the 
+trust to be
+
+[[Page 42665]]
+
+subject to the anti-abuse rule under Sec.  20.2056A-2(d)(1)(v). * * *
+* * * * *
+    (c) * * *
+    (1) * * * In the case of a plan, annuity, or other arrangement 
+which is not assignable or transferable (or is treated as such), the 
+property passing under the plan from the decedent is treated as meeting 
+the requirements of Sec.  20.2056A-2 (pertaining to the general 
+requirements, qualified marital interest requirements, statutory 
+requirements, and requirements to ensure collection of the tax) if the 
+requirements of either paragraph (c)(2) or (3) of this section are 
+satisfied. * * *
+* * * * *
+    (6) * * *
+    (ii) Agreement.--In order for a nonassignable annuity or other 
+payment described in this paragraph (c) to qualify under paragraph 
+(c)(2) of this section, the executor of the decedent's estate must file 
+with the estate tax return the following Agreement To Pay Section 2056A 
+Estate Tax, which must be signed by the surviving spouse of the 
+decedent (or by the surviving spouse's legal representative if the 
+surviving spouse is legally incompetent to sign the agreement):
+    I [name] hereby agree that I will report all annuity payments 
+received under the [name of plan or arrangement] on Form 706-QDT for 
+the calendar year and remit, on an annual basis, to the Internal 
+Revenue Service the estate tax that is imposed under section 
+2056A(b)(1) of the Internal Revenue Code on the corpus portion of each 
+annuity payment (as defined in Sec.  20.2056A-4(c)(4) of the Estate Tax 
+Regulations) received under the plan during the calendar year. I also 
+agree that Form 706-QDT is to be filed no later than April 15th of the 
+year following the calendar year in which any annuity payments are 
+received except that: in the case of annuity payments received in the 
+year of my spouse's death, Form 706-QDT and the payment shall not be 
+due prior to the due date, including extensions, for filing my spouse's 
+estate tax return or, if no return is filed, no later than 9 months 
+from the date of my spouse's death (except if I am granted an extension 
+of time to file Form 706-QDT under the provisions of Sec.  20.2056A-
+11); and in the year of my death, the Form 706-QDT must be filed and 
+the payment made no later than the date my estate tax return is filed 
+(or if no return is filed, no later than 9 months from the date of my 
+death). I further agree that if I fail to timely file Form 706-QDT or 
+to timely pay the tax imposed on the corpus portion of any annuity 
+payment (determined after any extensions of time to pay granted to me 
+under the provisions of Sec.  20.2056A-11), I may become immediately 
+liable to pay the amount of the tax determined by application of 
+section 2056A(b)(1) on the entire remaining present value of the 
+annuity, calculated as of the beginning of the year in which the 
+payment was received with respect to which I failed to timely pay the 
+tax or failed to timely file the return. However, I may make an 
+application for relief under Sec.  301.9100-1 of the Procedure and 
+Administration Regulations, from the consequences of failing to timely 
+file the Form 706-QDT or failing to timely pay the tax on the corpus 
+portion. [The following sentence is applicable only in cases where the 
+plan or arrangement is established and administered by a person or an 
+entity that is located outside of the United States.] I agree, at the 
+request of the Chief Tax Compliance Officer, IRS (or their delegate or 
+designee or as otherwise provided in IRS publications, forms or 
+instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>), to enter into a security 
+agreement to secure my undertakings under this agreement.
+    (7) * * *
+    (ii) Agreement.--In order for a nonassignable annuity or other 
+payment described in this paragraph (c) to qualify under paragraph 
+(c)(3) of this section, the executor of the decedent's estate must file 
+with the estate tax return the following Agreement To Roll Over Annuity 
+Payments, which must be signed by the surviving spouse of the decedent 
+(or by the legal representative of the surviving spouse if the 
+surviving spouse is legally incompetent to sign the agreement):
+    I [name] hereby agree that within 60 days of receipt of each 
+annuity payment paid under [name of plan or arrangement], I will 
+transfer an amount equal to percent (the corpus portion determined 
+under Sec.  20.2056A-4(c)(4) of the Estate Tax Regulations) of each 
+annuity payment to [identify the QDOT]. Further, I will report all 
+annuity payments received during the calendar year under the [name of 
+plan or arrangement] on Form 706-QDT including a schedule of transfers 
+to the [identify the QDOT]. I also agree that Form 706-QDT is to be 
+filed no later than April 15th of the year following the year in which 
+any annuity payments are received except that: in the case of annuity 
+payments received in the year of my spouse's death, Form 706-QDT shall 
+not be due prior to the due date, including extensions, for filing my 
+spouse's estate tax return, or, if no return is filed, no later than 9 
+months from the date of my spouse's death (except if I am granted an 
+extension of time to file Form 706-QDT under the provisions of Sec.  
+20.2056A-11); and in the year of my death, the Form 706-QDT must be 
+filed no later than the date my estate tax return is filed (or if no 
+return is filed, no later than 9 months from the date of my death), and 
+except if I am granted an extension of time to file Form 706-QDT under 
+the provisions of Sec.  20.2056A-11. I further agree that if I fail to 
+timely transfer any required amount with respect to any annuity 
+payment, or fail to timely file Form 706-QDT reporting the transfers 
+for any year, I may become immediately liable to pay the amount of the 
+tax determined by application of section 2056A(b)(1) on the entire 
+remaining present value of the annuity, calculated as of the beginning 
+of the year in which the payment was received with respect to which I 
+failed to make the timely transfer or timely file a return. However, I 
+may make an application for relief under Sec.  301.9100-1 of the 
+Procedure and Administration Regulations, from the consequences of 
+failing to timely file Form 706-QDT or failing to timely transfer the 
+corpus portion of any annuity payment to the QDOT. [The following 
+sentence is applicable only in cases where the plan or arrangement is 
+established and administered by a person or an entity that is located 
+outside of the United States.] I agree, at the request of the Chief Tax 
+Compliance Officer, IRS (or their delegate or designee or as otherwise 
+provided in IRS publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>), to enter into a security agreement to secure my 
+undertakings under this agreement.
+* * * * *
+    (e) Applicability date. This section applies on and after July 10, 
+2026.
+
+0
+Par. 5. Section 20.2056A-11 is amended by:
+0
+1. Revising the last sentence of paragraph (a);
+0
+2. Revising the last sentence of paragraph (c)(1);
+0
+3. Revising paragraph (c)(2); and
+0
+4. Adding paragraph (e).
+    The revisions and addition read as follows:
+
+
+Sec.  20.2056A-11  Filing requirements and payment of the section 2056A 
+estate tax.
+
+    (a) * * * See also Sec.  20.2056A-5(c)(1) regarding the 
+requirements for filing a Form 706-QDT in the case of a distribution to 
+the surviving spouse on account of hardship, and Sec.  20.2056A-2(d)(3) 
+regarding the requirements for filing Form 706-QDT in the case of the 
+required annual statement.
+* * * * *
+
+[[Page 42666]]
+
+    (c) * * *
+    (1) * * * Such extension may be granted by the Advisory Group 
+Managers (or their delegate or designee or as otherwise provided in IRS 
+publications, forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>).
+    (2) Extension of time for paying tax under section 6161(a)(1). An 
+extension of time beyond the due date to pay any part of the estate tax 
+imposed on lifetime distributions under section 2056A(b)(1)(A), or 
+imposed at the death of the surviving spouse under section 
+2056A(b)(1)(B), or imposed at the termination of the QDOT (such as on 
+the death or resignation of the U.S. trustee), may be granted for a 
+reasonable period of time, not to exceed 6 months (12 months in the 
+case of the estate tax imposed under section 2056A(b)(1)(B) at the 
+surviving spouse's death), by the Advisory Group Managers (or their 
+delegate or designee or as otherwise provided in IRS publications, 
+forms or instructions, or on <a href="https://www.irs.gov">https://www.irs.gov</a>).
+* * * * *
+    (e) Applicability date. This section applies on and after July 10, 
+2026.
+
+0
+Par. 6. Section 20.2056A-13 is amended by revising the section heading 
+and the first sentence to read as follows:
+
+
+Sec.  20.2056A-13  Applicability dates.
+
+    Except as provided in this section and in Sec. Sec.  20.2056A-2(e), 
+20.2056A-4(e), and 20.2056A-11(e), the provisions of Sec. Sec.  
+20.2056A-1 through 20.2056A-12 are applicable with respect to estates 
+of decedents dying on or after August 22, 1995. * * *
+
+Frank J. Bisignano,
+Chief Executive Officer (IRS).
+    Approved: April 10, 2026.
+Kenneth J. Kies,
+Assistant Secretary of the Treasury (Tax Policy).
+[FR Doc. 2026-13925 Filed 7-9-26; 8:45 am]
+BILLING CODE 4831-GV-P
+
+
+</pre></body>
+</html>

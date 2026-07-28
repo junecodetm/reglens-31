@@ -36,6 +36,8 @@ class DocumentExtraction(BaseModel):
     document_url: str
     accepted_count: int
     rejected_count: int
+    total_chars: int
+    extracted_chars: int
     claims: list[ClaimRecord]
 
 

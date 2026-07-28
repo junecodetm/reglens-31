@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "ecfr",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-07-01/title-31.xml?part=285",
+  "fetched_at": "2026-07-28T18:19:06.541380+00:00",
+  "sha256": "c3defc1a8595167202fa204646f0cbf5f08137f5c5db788c1f49b2da78e76e14",
+  "content_type": "text/plain",
+  "filename": "31-CFR-285.txt"
+}

@@ -1,0 +1,140 @@
+{
+  "abstract": "This document contains final regulations providing guidance on the application of the transfer for valuable consideration rules and associated information reporting requirements for reportable policy sales of interests in life insurance contracts to exchanges of life insurance contracts qualifying for nonrecognition of gain or loss and certain acquisitions of interests in life insurance contracts in transactions that qualify as corporate reorganizations. The final regulations affect parties involved in these life insurance contract transactions, including with respect to payments of reportable death benefits.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 254,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/254",
+      "name": "Internal Revenue Service",
+      "parent_id": 497,
+      "raw_name": "Internal Revenue Service",
+      "slug": "internal-revenue-service",
+      "url": "https://www.federalregister.gov/agencies/internal-revenue-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/07/09/2026-13830.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "1",
+      "title": 26
+    }
+  ],
+  "citation": "91 FR 42345",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective date: These regulations are effective on July 9, 2026.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "TD 10052"
+  ],
+  "dockets": [
+    {
+      "agency_name": "IRS",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2026-07-09",
+          "comment_url": "https://www.regulations.gov/commenton/IRS-2023-0023-0011",
+          "id": "IRS-2023-0023-0011",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2026-07-09T10:57:19.031-04:00"
+        }
+      ],
+      "id": "IRS-2023-0023",
+      "supporting_documents": [
+        {
+          "document_id": "IRS-2023-0023-0010",
+          "title": "Agenda - REG-108054-21 (Participants)"
+        }
+      ],
+      "supporting_documents_count": 1,
+      "title": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions (REG-108054-21)"
+    }
+  ],
+  "document_number": "2026-13830",
+  "effective_on": "2026-07-09",
+  "end_page": 42353,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/07/09/2026-13830.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/07/09/2026-13830/information-reporting-and-transfer-for-valuable-consideration-rules-for-section-1035-exchanges-of",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2026-13830?publication_date=2026-07-09",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-07-09/2026-13830/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 9,
+  "page_views": {
+    "count": 698,
+    "last_updated": "2026-07-28 14:15:04 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-09/pdf/2026-13830.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-13830.pdf?1783514709",
+  "publication_date": "2026-07-09",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/07/09/2026-13830.txt",
+  "regulation_id_number_info": {
+    "1545-BQ07": {
+      "html_url": "https://www.federalregister.gov/regulations/1545-BQ07/additional-guidance-for-reporting-and-transfer-for-value-rules-relating-to-life-insurance-transactio",
+      "issue": "202504",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Additional Guidance for Reporting and Transfer for Value Rules Relating to Life Insurance Transactions",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=1545-BQ07&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1545-BQ07"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "IRS",
+    "checked_regulationsdotgov_at": "2026-07-10T16:55:05Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=IRS-2023-0023",
+    "docket_id": "IRS-2023-0023",
+    "document_id": "IRS-2023-0023-0011",
+    "regulation_id_number": "1545-BQ07",
+    "regulatory_plan": {
+      "html_url": "https://www.federalregister.gov/regulations/1545-BQ07/additional-guidance-for-reporting-and-transfer-for-value-rules-relating-to-life-insurance-transactio",
+      "title": "Additional Guidance for Reporting and Transfer for Value Rules Relating to Life Insurance Transactions"
+    },
+    "supporting_documents": [
+      {
+        "document_id": "IRS-2023-0023-0010",
+        "title": "Agenda - REG-108054-21 (Participants)"
+      }
+    ],
+    "supporting_documents_count": 1,
+    "title": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions (REG-108054-21)"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 42345,
+  "subtype": null,
+  "title": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions",
+  "toc_doc": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions",
+  "toc_subject": null,
+  "topics": [
+    "Income taxes",
+    "Reporting and recordkeeping requirements"
+  ],
+  "type": "Rule",
+  "volume": 91
+}

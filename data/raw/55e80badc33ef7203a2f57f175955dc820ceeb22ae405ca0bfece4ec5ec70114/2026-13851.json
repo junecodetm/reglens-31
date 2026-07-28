@@ -1,0 +1,130 @@
+{
+  "abstract": "This document contains final regulations that identify certain charitable remainder annuity trust (CRAT) transactions and substantially similar transactions as listed transactions, a type of reportable transaction. Material advisors and certain participants in these listed transactions are required to file disclosures with the IRS and will be subject to penalties for failure to disclose. The final regulations affect participants in these transactions as well as material advisors but provide that certain organizations whose only role or interest in the transaction is as a charitable remainderman will not be treated as participants in the transaction or as parties to a prohibited tax shelter transaction subject to excise taxes and disclosure requirements.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 254,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/254",
+      "name": "Internal Revenue Service",
+      "parent_id": 497,
+      "raw_name": "Internal Revenue Service",
+      "slug": "internal-revenue-service",
+      "url": "https://www.federalregister.gov/agencies/internal-revenue-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2026/07/09/2026-13851.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "1",
+      "title": 26
+    }
+  ],
+  "citation": "91 FR 42353",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective date: These regulations are effective on July 9, 2026.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "TD 10051"
+  ],
+  "dockets": [
+    {
+      "agency_name": "IRS",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2026-07-09",
+          "comment_url": "https://www.regulations.gov/commenton/IRS-2024-0012-0004",
+          "id": "IRS-2024-0012-0004",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2026-07-09T10:57:40.165-04:00"
+        }
+      ],
+      "id": "IRS-2024-0012",
+      "supporting_documents": [],
+      "supporting_documents_count": 0,
+      "title": "Charitable Remainder Annuity Trust Listed Transaction"
+    }
+  ],
+  "document_number": "2026-13851",
+  "effective_on": "2026-07-09",
+  "end_page": 42356,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2026/07/09/2026-13851.xml",
+  "html_url": "https://www.federalregister.gov/documents/2026/07/09/2026-13851/charitable-remainder-annuity-trust-listed-transaction",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2026-13851?publication_date=2026-07-09",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2026-07-09/2026-13851/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 4,
+  "page_views": {
+    "count": 2967,
+    "last_updated": "2026-07-28 14:15:04 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-09/pdf/2026-13851.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-13851.pdf?1783514711",
+  "publication_date": "2026-07-09",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/07/09/2026-13851.txt",
+  "regulation_id_number_info": {
+    "1545-BQ58": {
+      "html_url": "https://www.federalregister.gov/regulations/1545-BQ58/charitable-remainder-annuity-trust-listed-transaction",
+      "issue": "202504",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Charitable Remainder Annuity Trust Listed Transaction",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=1545-BQ58&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1545-BQ58"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "IRS",
+    "checked_regulationsdotgov_at": "2026-07-10T16:55:05Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=IRS-2024-0012",
+    "docket_id": "IRS-2024-0012",
+    "document_id": "IRS-2024-0012-0004",
+    "regulation_id_number": "1545-BQ58",
+    "regulatory_plan": {
+      "html_url": "https://www.federalregister.gov/regulations/1545-BQ58/charitable-remainder-annuity-trust-listed-transaction",
+      "title": "Charitable Remainder Annuity Trust Listed Transaction"
+    },
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Charitable Remainder Annuity Trust Listed Transaction"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 42353,
+  "subtype": null,
+  "title": "Charitable Remainder Annuity Trust Listed Transaction",
+  "toc_doc": "Charitable Remainder Annuity Trust Listed Transaction",
+  "toc_subject": null,
+  "topics": [
+    "Income taxes",
+    "Reporting and recordkeeping requirements"
+  ],
+  "type": "Rule",
+  "volume": 91
+}

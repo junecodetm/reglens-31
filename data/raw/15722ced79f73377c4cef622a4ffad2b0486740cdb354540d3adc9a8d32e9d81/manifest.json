@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/api/v1/documents/2026-13830.json",
+  "fetched_at": "2026-07-28T18:18:52.415069+00:00",
+  "sha256": "15722ced79f73377c4cef622a4ffad2b0486740cdb354540d3adc9a8d32e9d81",
+  "content_type": "application/json",
+  "filename": "2026-13830.json"
+}

@@ -53,7 +53,7 @@ class OllamaProvider:
                 "format": ExtractionResult.model_json_schema(),
                 "stream": False,
                 "think": False,
-                "options": {"temperature": 0, "seed": 31, "num_ctx": 8192},
+                "options": {"temperature": 0, "seed": 31, "num_ctx": 16384, "num_predict": 3072},
             },
             timeout=1800.0,
         )

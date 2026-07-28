@@ -1,0 +1,390 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 97 (Wednesday, May 20, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 97 (Wednesday, May 20, 2026)]
+[Rules and Regulations]
+[Pages 29362-29365]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-10116]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 1
+
+[TD 10048]
+RIN 1545-BR54
+
+
+Returns Relating to Sales or Exchanges of Certain Partnership 
+Interests
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Final regulations.
+
+-----------------------------------------------------------------------
+
+[[Page 29363]]
+
+SUMMARY: This document contains final regulations modifying information 
+reporting obligations with respect to sales or exchanges of certain 
+interests in partnerships owning inventory or unrealized receivables.
+
+DATES: 
+    Effective date: These regulations are effective on May 20, 2026.
+    Applicability date: For dates of applicability, see Sec.  1.6050K-
+1(h).
+
+FOR FURTHER INFORMATION CONTACT: Benjamin Weaver, (202) 317-6850 (not a 
+toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+Authority
+
+    This document contains final regulations amending the Income Tax 
+Regulations (26 CFR part 1) under section 6050K of the Internal Revenue 
+Code (Code) by removing Sec.  1.6050K-1(c)(2).
+    Section 6050K(a) provides that, except as provided in regulations 
+prescribed by the Secretary of the Treasury or the Secretary's delegate 
+(Secretary), a partnership is required to file a return if there is an 
+exchange described in section 751(a) of the Code of any interest in the 
+partnership during any calendar year. Section 6050K(a) also contains 
+express delegations of authority for the Secretary to promulgate 
+regulations prescribing the information required to be disclosed on 
+such partnership returns, the manner in which such returns are made, 
+and the due date of such returns.
+    Section 6031(a) of the Code provides an express grant of authority 
+for the Secretary to prescribe in forms or regulations partnership 
+reporting information required ``for the purpose of carrying out the 
+provisions of subtitle A.''
+    Section 7805(a) of the Code authorizes the Secretary to ``prescribe 
+all needful rules and regulations for the enforcement of [the Code], 
+including all rules and regulations as may be necessary by reason of 
+any alteration of law in relation to internal revenue.''
+
+Background
+
+I. Statutory and Regulatory Background
+
+    Section 741 of the Code provides that gain or loss recognized by a 
+transferor partner upon sale or exchange of a partnership interest is 
+considered as gain or loss from the sale or exchange of a capital 
+asset, except as provided in section 751. Section 751(a) provides that 
+the amount of any money, or the fair market value of any property, 
+received by a transferor partner in exchange for all or a part of the 
+transferor partner's interest in the partnership attributable to (1) 
+unrealized receivables of the partnership, or (2) inventory items of 
+the partnership, will be considered as an amount realized from the sale 
+or exchange of property other than a capital asset. Section 1.6050K-
+1(a)(4)(i) refers to a sale or exchange to which section 751(a) applies 
+as a ``section 751(a) exchange.''
+    Section 6050K(a) requires a partnership to file a return if there 
+is a section 751(a) exchange of any interest in the partnership during 
+any calendar year. Section 6050K(a) further provides that the return 
+must state the name and address of the transferee and transferor in the 
+section 751(a) exchange and such other information as the Secretary may 
+by regulations prescribe.
+    Section 1.6050K-1(a)(1) generally requires a partnership to make a 
+separate return using Form 8308, Report of a Sale or Exchange of 
+Certain Partnership Interests, with respect to each section 751(a) 
+exchange. Section 1.6050K-1(b) requires the Form 8308 to include the 
+following information: (1) the names, addresses, and taxpayer 
+identification numbers of the transferee and transferor in the exchange 
+and of the partnership filing the return; (2) the date of the exchange; 
+and (3) such other information as may be required by Form 8308 or its 
+instructions. Section 1.6050K-1(f)(1) requires a partnership to file 
+Form 8308 as an attachment to its Form 1065, U.S. Return of Partnership 
+Income, for the partnership's taxable year that includes the last day 
+of the calendar year in which the section 751(a) exchange took place.
+    Section 6050K(b) requires a partnership to provide certain 
+information to transferors and transferees that are parties to a 
+section 751(a) exchange on or before January 31 of the year following 
+the calendar year of the section 751(a) exchange. Among other things, 
+the information provided to each transferor and transferee must include 
+the information required to be shown on the partnership's return under 
+section 6050K(a) with respect to such person.
+    Section 6050K(c)(1) provides that the transferor of the partnership 
+interest must notify the partnership of any exchange described in 
+section 6050K(a). Under section 6050K(c)(2), a partnership is not 
+required to make a return under section 6050K with respect to any 
+exchange until the partnership is notified of such exchange.
+    Section 1.6050K-1(c)(1) clarifies that each partnership that is 
+required to file a Form 8308 must furnish a statement to the transferor 
+and transferee by the later of (1) January 31 of the year following the 
+calendar year in which the section 751(a) exchange occurs, or (2) 30 
+days after the partnership receives notice of the exchange as specified 
+under section 6050K(c) and Sec.  1.6050K-1(e). Prior to its 
+modification by these final regulations, Sec.  1.6050K-1(c)(1) 
+generally required a partnership to use a copy of the completed Form 
+8308 as the required statement.
+    In addition, prior to its removal by these final regulations, Sec.  
+1.6050K-1(c)(2) required a partnership to furnish to a transferor 
+partner the information necessary for the transferor to make the 
+transferor partner's required statement in Sec.  1.751-1(a)(3). Section 
+1.751-1(a)(3) requires a transferor partner in a section 751(a) 
+exchange to submit with the transferor partner's income tax return for 
+the taxable year in which the sale or exchange occurs a statement 
+separately stating the date of the sale or exchange, the amount of any 
+gain or loss attributable to section 751 property, and the amount of 
+any gain or loss attributable to capital gain or loss on the sale of 
+the partnership interest. Consistent with Sec.  1.6050K-1(c)(2), Part 
+IV of Form 8308 requires a partnership to report, among other items, 
+the partnership's gain or loss from a deemed sale under section 751 and 
+the transferor partner's share of such amount.
+    The Department of the Treasury (Treasury Department) and the IRS 
+received comments from stakeholders that many partnerships are unable 
+to furnish the information required in Part IV of the Form 8308 to 
+transferors and transferees by the January 31 due date prescribed by 
+Sec.  1.6050K-1(c)(1) because, in many cases, partnerships do not have 
+all the information required by Part IV of the Form 8308 by January 31 
+of the year following the calendar year in which the section 751(a) 
+exchange occurred.
+
+II. Proposed Regulations
+
+    In response to those comments, on August 19, 2025, the Treasury 
+Department and the IRS published a notice of proposed rulemaking (REG-
+108822-25) in the Federal Register (90 FR 40269) to propose the removal 
+of Sec.  1.6050K-1(c)(2) (proposed regulations). The proposed 
+regulations also proposed to modify Sec.  1.6050K-1(c)(1) by removing 
+the reference to a ``completed copy of Form 8308'' and replacing it 
+with a reference to ``a copy of Form 8308 filled out in accordance with 
+the instructions to the form.'' In addition, the preamble to the 
+proposed regulations explained that the Treasury Department and the IRS 
+would update the instructions for Form 8308 to provide that only the 
+information in
+
+[[Page 29364]]
+
+Parts I, II, and III is required by the due dates of section 6050K. The 
+instructions to Form 8308 were updated on November 5, 2025.
+    As a result of the proposed changes to Sec.  1.6050K-1 and the 
+associated changes in the instructions to Form 8308, a partnership 
+would be required to furnish the information reported on only Parts I, 
+II, and III of Form 8308, or a statement that includes the same 
+information, to the transferor and transferee in a section 751(a) 
+exchange by the later of (1) January 31 of the year following the 
+calendar year in which the section 751(a) exchange occurred, or (2) 30 
+days after the partnership has received notice of the exchange as 
+specified under section 6050K and Sec.  1.6050K-1.
+    Further, the preamble to the proposed regulations explained that 
+the Treasury Department and the IRS would update the Instructions for 
+Form 8308 to make clear that a partnership must file a completed Form 
+8308, including Part IV, as an attachment to its Form 1065. The update 
+to the Form 8308 instructions reflects this. Accordingly, and pursuant 
+to Sec.  1.6031(a)-1(a)(2), which provides that a partnership return 
+must contain the information required by the prescribed form and the 
+accompanying instructions, a partnership would be required to file the 
+completed Form 8308, including Part IV, as an attachment to its Form 
+1065, for the taxable year of the partnership that includes the last 
+day of the calendar year in which the section 751(a) exchange took 
+place. Thus, the requirement that a partnership file a completed Form 
+8308, including Part IV, as an attachment to its Form 1065 would remain 
+unchanged by the proposed regulations.
+    The preamble to the proposed regulations further explained that, 
+pursuant to Sec.  1.6031(b)-1T(a)(3), the partnership will also 
+continue to be required to report the information required of the 
+transferor in Sec.  1.751-1(a)(3) to the transferor (including the 
+information required in Part IV of the Form 8308), in the Schedule K-1 
+(Form 1065), Partner's Share of Income, Deductions, Credits, etc., 
+issued to the transferor partner as provided by the Form and 
+Instructions to the Schedule K-1 (Form 1065).
+    Finally, the proposed regulations would modify Sec.  1.6050K-
+1(c)(1)(i) to clarify that the partnership will be providing to the IRS 
+the information included on a substitute statement furnished in lieu of 
+a Form 8308 under Sec.  1.6050K-1(c)(1).
+    The preamble to the proposed regulations stated that Sec.  1.6050K-
+1(c)(2) was proposed to be removed on the date the regulations are 
+published as final regulations in the Federal Register. The amendment 
+to Sec.  1.6050K-1(c)(1)(i) was proposed to apply to returns filed for 
+taxable years ending on or after the date the regulations are published 
+as final regulations in the Federal Register. The preamble to the 
+proposed regulations stated that a partnership may rely on the proposed 
+regulations, and the description of the anticipated changes to the 
+instructions to Form 8308 contained in the preamble to the proposed 
+regulations, with respect to section 751(a) exchanges occurring on or 
+after January 1, 2025, and before the date the regulations are 
+published as final regulations in the Federal Register.
+
+Summary of Comments and Explanation of Revisions
+
+    The Treasury Department and IRS did not receive any comments 
+pertaining to the proposed regulations, and no public hearing was 
+requested or held. Accordingly, these final regulations adopt the 
+proposed regulations without change.
+
+Special Analyses
+
+I. Regulatory Planning and Review
+
+    These final regulations are not subject to review under section 
+6(b) of Executive Order 12866 pursuant to the Memorandum of Agreement 
+(July 4, 2025) between the Treasury Department and the Office of 
+Management and Budget (OMB) regarding review of tax regulations. 
+Therefore, a regulatory impact assessment is not required.
+    The Executive Order 14192 designation for this rule is expected to 
+be deregulatory.
+
+II. Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3520) generally 
+requires that a Federal agency obtain the approval of the OMB before 
+collecting information from the public, whether such collection of 
+information is mandatory, voluntary, or required to obtain or retain a 
+benefit. An agency may not conduct or sponsor, and a person is not 
+required to respond to, a collection of information unless the 
+collection of information displays a valid control number. These final 
+regulations do not impose a new collection of information or modify an 
+existing collection of information.
+
+III. Regulatory Flexibility Act
+
+    It is hereby certified that the final regulations will not have a 
+significant economic impact on a substantial number of small entities 
+pursuant to the Regulatory Flexibility Act (5 U.S.C. chapter 6). These 
+final regulations affect partnerships for which there is a section 
+751(a) exchange (as defined in Sec.  1.6050K-1(a)(4)(i)). These final 
+regulations will likely affect a substantial number of small entities 
+organized as partnerships for Federal tax purposes, but the impact of 
+the final regulations is limited because the final regulations delay 
+the date by which partnerships must provide transferors of interests in 
+the partnership the information necessary for the transferor to make 
+the transferor's required statement under Sec.  1.751-1(a)(3). This 
+delay benefits the partnerships by providing additional time to furnish 
+the information but will not have a significant economic impact. 
+Accordingly, a regulatory flexibility analysis under the Regulatory 
+Flexibility Act is not required.
+
+IV. Unfunded Mandates Reform Act
+
+    Section 202 of the Unfunded Mandate Reform Act of 1995 (UMRA) 
+requires that agencies assess anticipated costs and benefits and take 
+certain other actions before issuing a final rule that includes any 
+Federal mandate that may result in expenditures in any one year by a 
+State, local, or Tribal government, in the aggregate, or by the private 
+sector, of $100 million (updated annually for inflation). These final 
+regulations do not include any Federal mandate that may result in 
+expenditures by State, local, or Tribal governments or by the private 
+sector in excess of that threshold.
+
+V. Executive Order 13132: Federalism
+
+    Executive Order 13132 (Federalism) prohibits an agency from 
+publishing any rule that has federalism implications if the rule either 
+imposes substantial, direct compliance costs on State and local 
+governments, and is not required by statute, or preempts State law, 
+unless the agency meets the consultation and funding requirements of 
+section 6 of the Executive order. These final regulations do not have 
+federalism implications and do not impose substantial, direct 
+compliance costs on State and local governments or preempt State law 
+within the meaning of the Executive order.
+
+VI. Small Business Administration
+
+    Pursuant to section 7805(f) of the Code, the proposed rule 
+preceding these final regulations was submitted to the Chief Counsel 
+for Advocacy of the Small Business Administration for comment on its 
+impact on small business. No comments were received from the Chief 
+Counsel for Advocacy of the Small Business Administration.
+
+[[Page 29365]]
+
+VII. Congressional Review Act
+
+    Pursuant to the Congressional Review Act (5 U.S.C. 801 et seq.), 
+the Office of Information and Regulatory Affairs designated this rule 
+as not a ``major rule,'' as defined by 5 U.S.C. 804(2).
+
+Drafting Information
+
+    The principal author of these final regulations is the Office of 
+Associate Chief Counsel (Passthroughs, Trusts, and Estates). However, 
+other personnel from the Treasury Department and the IRS participated 
+in their development.
+
+List of Subjects in 26 CFR Part 1
+
+    Income taxes, Reporting and recordkeeping requirements.
+
+Amendments to the Regulations
+
+    Accordingly, the Treasury Department and IRS amend 26 CFR part 1 as 
+follows:
+
+PART 1--INCOME TAXES
+
+0
+Paragraph 1.The authority citation for part 1 continues to read in part 
+as follows:
+
+    Authority:  26 U.S.C. 7805 * * *
+* * * * *
+
+0
+Par. 2. Section 1.6050K-1 is amended by:
+0
+1. Adding a heading for paragraph (c);
+0
+2. Revising the paragraph heading and introductory text of paragraph 
+(c)(1);
+0
+3. Revising paragraph (c)(1)(i);
+0
+4. Removing paragraph (c)(2) and redesignating paragraph (c)(3) as new 
+paragraph (c)(2); and
+0
+5. Revising paragraph (h).
+    The addition and revisions read as follows:
+
+
+Sec.  1.6050K-1   Returns relating to sales or exchanges of certain 
+partnership interests.
+
+* * * * *
+    (c) Statement to be furnished to transferor and transferee--(1) In 
+general. Every partnership required to file a return under paragraph 
+(a) of this section must furnish to each person whose name is required 
+to be set forth in such return a written statement on or before January 
+31 of the calendar year following the calendar year in which the 
+section 751(a) exchange occurred to which the return under paragraph 
+(a) of this section relates (or, if later, 30 days after the 
+partnership is notified of the exchange as defined in paragraph (e) of 
+this section). The partnership must use a copy of the Form 8308, filled 
+out in accordance with the instructions accompanying the form, as a 
+statement unless the Form 8308 contains information with respect to 
+more than one section 751(a) exchange (see paragraph (a)(3) of this 
+section). If the partnership does not use a copy of Form 8308 as a 
+statement, the statement shall include the information required to be 
+shown on Form 8308 with respect to the section 751(a) exchange to which 
+the person to whom the statement is furnished is a party. In addition, 
+it shall state that--
+    (i) The information shown on the statement will be supplied to the 
+Internal Revenue Service,
+* * * * *
+    (h) Applicability date. Paragraphs (c)(1) introductory text and 
+(c)(1)(i) of this section apply to returns filed for taxable years 
+ending on or after May 20, 2026. Paragraph (c)(2) of this section 
+applies to returns filed on or after November 30, 2020. Paragraph 
+(d)(3) of this section applies to transfers that occur on or after 
+November 30, 2020.
+
+Frank J. Bisignano,
+Chief Executive Officer.
+    Approved: April 29, 2026.
+Kenneth J. Kies,
+Assistant Secretary of the Treasury (Tax Policy).
+[FR Doc. 2026-10116 Filed 5-19-26; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre></body>
+</html>
