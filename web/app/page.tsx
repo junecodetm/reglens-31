@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { ClaimsPane } from "./components/ClaimsPane";
 import { DisclaimerBand } from "./components/DisclaimerBand";
+import { EvalSection } from "./components/EvalSection";
 import { RejectedClaims } from "./components/RejectedClaims";
 import { SourcePane } from "./components/SourcePane";
 import {
@@ -218,6 +219,8 @@ export default function Home() {
                 sourceState={sourceState}
               />
             </div>
+
+            <EvalSection />
 
             <RejectedClaims
               documents={pageData.documents}

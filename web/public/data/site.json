@@ -1,7 +1,9 @@
 {
-  "accepted_count": 1,
+  "accepted_count": 113,
   "data_as_of": "2026-07-28",
-  "document_count": 1,
-  "model_tags": ["qwen3:8b"],
-  "rejected_count": 1
+  "document_count": 4,
+  "model_tags": [
+    "qwen3:8b"
+  ],
+  "rejected_count": 26
 }

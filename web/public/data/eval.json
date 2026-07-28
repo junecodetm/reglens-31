@@ -1,0 +1,39 @@
+{
+  "n_provisions": 251,
+  "n_documents": 25,
+  "true_positives": 1,
+  "false_positives": 4,
+  "false_negatives": 50,
+  "true_negatives": 196,
+  "precision": 0.2,
+  "recall": 0.0196078431372549,
+  "f1": 0.03571428571428571,
+  "precision_wilson": [
+    0.03622316096978745,
+    0.6244717358814613
+  ],
+  "recall_wilson": [
+    0.003469603253442241,
+    0.10304807675589372
+  ],
+  "precision_bootstrap": [
+    0.0,
+    1.0
+  ],
+  "recall_bootstrap": [
+    0.0,
+    0.1111111111111111
+  ],
+  "f1_bootstrap": [
+    0.0,
+    0.16666666666666669
+  ],
+  "kappa_pass1_pass2": 1.0,
+  "citation_fidelity": 1.0,
+  "icc": 0.17812745271244038,
+  "design_effect": 2.610272172520461,
+  "effective_n": 96.15855489798832,
+  "adjudicated_count": 0,
+  "total_gold_count": 251,
+  "provisional_label": "Provisional — machine-proposed labels, human-adjudicated: 0/251. Metrics will be restated as adjudication proceeds."
+}
