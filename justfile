@@ -47,10 +47,9 @@ ci: check-cost
     uv run pyright
     uv run pytest
 
-# local security suite (gitleaks/osv-scanner/syft run in CI via security.yml)
+# local security suite; pip-audit/osv-scanner/gitleaks/syft/CodeQL run in CI
+# (security.yml) — pip-audit's venv bootstrap SIGABRTs on macOS framework Python
 security:
-    uv export --format requirements-txt --no-emit-project --frozen > /tmp/reglens-req.txt
-    uvx pip-audit --strict -r /tmp/reglens-req.txt
     uvx --from semgrep semgrep scan --config p/python --error --exclude data --exclude web/node_modules
     uv run python scripts/check_zero_cost.py
 
