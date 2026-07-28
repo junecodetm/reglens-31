@@ -10,9 +10,9 @@ setup:
 demo:
     @echo "TODO(Phase 0): offline demo on seeded data" && exit 1
 
-# snapshot Federal Register + eCFR T31 + OFAC + GLEIF into data/raw/<sha>
-ingest:
-    @echo "TODO(Phase 1): reglens.ingest snapshots (allow-list enforced)" && exit 1
+# snapshot Federal Register documents into data/raw/<sha> (allow-list enforced)
+ingest *docs:
+    uv run python -m reglens.ingest {{docs}}
 
 # run local extraction + provenance gate -> parquet
 extract:
