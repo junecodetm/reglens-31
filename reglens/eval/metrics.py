@@ -142,7 +142,11 @@ def cohens_kappa(labels_a: Sequence[str], labels_b: Sequence[str]) -> float:
 
 
 def design_effect(mean_cluster_size: float, intra_cluster_correlation: float) -> float:
-    """deff = 1 + (m̄ - 1)·ICC (docs/EVALUATION.md)."""
+    """deff = 1 + (m* - 1)·ICC (docs/EVALUATION.md).
+
+    Callers with unequal cluster sizes must pass the size-weighted mean
+    m* = sum(m_i^2)/sum(m_i), the conservative generalization of the plain mean.
+    """
     return 1 + (mean_cluster_size - 1) * intra_cluster_correlation
 
 
