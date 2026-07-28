@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ALLOWED_ACTION_OWNERS = {"actions", "astral-sh", "cloudflare", "github"}
 
 ALLOWED_PYTHON_DEPS = {
+    "duckdb",
     "httpx",
     "pydantic",
     "pydantic-settings",

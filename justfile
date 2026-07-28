@@ -17,9 +17,10 @@ demo:
 ingest *docs:
     uv run python -m reglens.ingest {{docs}}
 
-# run local extraction + provenance gate over all snapshots
+# run local extraction + provenance gate over all snapshots, then rebuild stores
 extract:
     uv run python -m reglens.extract
+    uv run python -m reglens.store.database
 
 # OFAC 50% ownership graph — de-scoped from this build (docs/PROGRESS.md; first
 # item in the sanctioned de-scope order). Design + caveats: docs/ENTITY_RESOLUTION.md.
