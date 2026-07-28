@@ -1,0 +1,58 @@
+[
+  {
+    "document_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+    "document_number": "2026-15112",
+    "document_title": "Sample Treasury Final Rule (dev fixture)",
+    "document_url": "https://www.federalregister.gov/documents/2026/07/27/2026-15112/sample",
+    "accepted_count": 1,
+    "rejected_count": 1,
+    "claims": [
+      {
+        "claim_id": "a1b2c3d4e5f60718",
+        "document_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "document_number": "2026-15112",
+        "document_title": "Sample Treasury Final Rule (dev fixture)",
+        "document_url": "https://www.federalregister.gov/documents/2026/07/27/2026-15112/sample",
+        "quote": "Each financial institution must file a report within 30 days",
+        "obligation_type": "reporting",
+        "affected_party": "financial institutions",
+        "summary": "File a report within 30 days of the transaction.",
+        "effective_date": null,
+        "accepted": true,
+        "start": 33,
+        "end": 93,
+        "rejection_reason": null,
+        "run": {
+          "schema_version": 1,
+          "model_tag": "qwen3:8b",
+          "prompt_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "input_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "temperature": 0.0
+        }
+      },
+      {
+        "claim_id": "b2c3d4e5f6071829",
+        "document_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "document_number": "2026-15112",
+        "document_title": "Sample Treasury Final Rule (dev fixture)",
+        "document_url": "https://www.federalregister.gov/documents/2026/07/27/2026-15112/sample",
+        "quote": "Each broker must notify the Secretary immediately.",
+        "obligation_type": "requirement",
+        "affected_party": "brokers",
+        "summary": "Fabricated claim rejected by the gate (dev fixture).",
+        "effective_date": null,
+        "accepted": false,
+        "start": null,
+        "end": null,
+        "rejection_reason": "not-a-substring",
+        "run": {
+          "schema_version": 1,
+          "model_tag": "qwen3:8b",
+          "prompt_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "input_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "temperature": 0.0
+        }
+      }
+    ]
+  }
+]

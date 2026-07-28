@@ -14,21 +14,26 @@ demo:
 ingest *docs:
     uv run python -m reglens.ingest {{docs}}
 
-# run local extraction + provenance gate -> parquet
+# run local extraction + provenance gate over all snapshots
 extract:
-    @echo "TODO(Phase 1): reglens.extract + provenance.verify_span" && exit 1
+    uv run python -m reglens.extract
 
 # build OFAC 50% ownership graph (seeded Deripaska case guaranteed)
 graph:
     @echo "TODO(Phase 4): reglens.graph.ownership" && exit 1
 
-# Inspect AI harness over gold set -> metrics + Wilson CIs (fixtures, $0)
+# eval harness over the gold set -> metrics + Wilson/bootstrap CIs ($0, offline)
 eval:
-    @echo "TODO(Phase 3): inspect eval over gold set/fixtures" && exit 1
+    uv run python -m reglens.eval.harness
 
-# Next.js static export -> web/out
+# eval regression gate (CI): fails on F1 regression or fidelity < 1.0
+eval-gate:
+    uv run python -m reglens.eval.harness --gate
+
+# export data for the UI + Next.js static export -> web/out
 build-web:
-    @echo "TODO(Phase 2): next build (output: export)" && exit 1
+    uv run python -m reglens.store.export_web
+    cd web && npm run build
 
 # full CI locally (lint, type, test, security, a11y, eval gate)
 ci: check-cost
