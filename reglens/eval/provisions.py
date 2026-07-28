@@ -29,6 +29,7 @@ class Provision(BaseModel):
     start: int
     end: int
     text: str
+    stratum: str = "base"
 
 
 def candidate_paragraphs(pair: DocumentPair) -> list[tuple[int, int]]:
@@ -45,7 +46,7 @@ def candidate_paragraphs(pair: DocumentPair) -> list[tuple[int, int]]:
 
 
 def sample_provisions(
-    pairs: list[DocumentPair], per_document: int = 7, seed: int = 31
+    pairs: list[DocumentPair], per_document: int = 7, seed: int = 31, stratum: str = "base"
 ) -> list[Provision]:
     """Seeded stratified sample: up to ``per_document`` provisions from every document."""
     rng = random.Random(seed)
@@ -63,6 +64,7 @@ def sample_provisions(
                     start=start,
                     end=end,
                     text=pair.text[start:end],
+                    stratum=stratum,
                 )
             )
     return provisions
@@ -97,7 +99,9 @@ def main(argv: list[str] | None = None) -> int:
         ecfr_pairs = [pair for pair in pairs if pair.document_number.startswith("31-CFR")]
         supplement = [
             provision
-            for provision in sample_provisions(ecfr_pairs, per_document=25, seed=32)
+            for provision in sample_provisions(
+                ecfr_pairs, per_document=25, seed=32, stratum="ecfr-supplement"
+            )
             if provision.provision_id not in existing_ids
         ]
         with out_path.open("a") as handle:

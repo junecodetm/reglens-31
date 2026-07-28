@@ -2,15 +2,15 @@
   "n_provisions": 251,
   "n_documents": 25,
   "true_positives": 1,
-  "false_positives": 4,
+  "false_positives": 12,
   "false_negatives": 50,
-  "true_negatives": 196,
-  "precision": 0.2,
+  "true_negatives": 188,
+  "precision": 0.07692307692307693,
   "recall": 0.0196078431372549,
-  "f1": 0.03571428571428571,
+  "f1": 0.03125,
   "precision_wilson": [
-    0.03622316096978745,
-    0.6244717358814613
+    0.013710066379696323,
+    0.3331453392824736
   ],
   "recall_wilson": [
     0.003469603253442241,
@@ -18,7 +18,7 @@
   ],
   "precision_bootstrap": [
     0.0,
-    1.0
+    0.2857142857142857
   ],
   "recall_bootstrap": [
     0.0,
@@ -26,13 +26,39 @@
   ],
   "f1_bootstrap": [
     0.0,
-    0.16666666666666669
+    0.13333333333333333
   ],
-  "kappa_pass1_pass2": 1.0,
+  "bootstrap_undefined_fractions": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "kappa_pass1_pass2": 0.9380277517159648,
+  "kappa_band": "Almost perfect",
+  "kappa_note": "Agreement between two frozen proposal passes by different models (claude-fable-5 vs claude-sonnet-5) applying the written guidelines; human inter-annotator kappa pending adjudication.",
   "citation_fidelity": 1.0,
-  "icc": 0.17812745271244038,
-  "design_effect": 2.610272172520461,
-  "effective_n": 96.15855489798832,
+  "icc": 0.11662254528316901,
+  "icc_outcome": "correctness indicator (prediction == gold), clustered by document",
+  "design_effect": 2.7674588137736054,
+  "effective_n": 90.69692338356631,
+  "strata": {
+    "base": {
+      "n": 168,
+      "true_positives": 1,
+      "false_positives": 12,
+      "false_negatives": 17,
+      "precision": 0.07692307692307693,
+      "recall": 0.05555555555555555
+    },
+    "ecfr-supplement": {
+      "n": 83,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 33,
+      "precision": null,
+      "recall": 0.0
+    }
+  },
   "adjudicated_count": 0,
   "total_gold_count": 251,
   "provisional_label": "Provisional — machine-proposed labels, human-adjudicated: 0/251. Metrics will be restated as adjudication proceeds."

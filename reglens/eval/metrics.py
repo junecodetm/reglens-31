@@ -10,6 +10,33 @@ All functions are pure and deterministic (bootstrap uses a fixed seed).
 import math
 import random
 from collections.abc import Callable, Sequence
+from typing import NamedTuple
+
+
+class BootstrapCI(NamedTuple):
+    """Percentile CI over defined resamples plus the excluded (undefined) fraction."""
+
+    low: float
+    high: float
+    undefined_fraction: float
+
+
+# Landis & Koch 1977 interpretation bands (docs/EVALUATION.md).
+_KAPPA_BANDS: tuple[tuple[float, str], ...] = (
+    (0.81, "Almost perfect"),
+    (0.61, "Substantial"),
+    (0.41, "Moderate"),
+    (0.21, "Fair"),
+    (0.00, "Slight"),
+)
+
+
+def kappa_band(kappa: float) -> str:
+    """Landis-Koch label for a kappa value; below 0.00 is Poor."""
+    for threshold, label in _KAPPA_BANDS:
+        if kappa >= threshold:
+            return label
+    return "Poor"
 
 
 def wilson_interval(successes: int, trials: int, z: float = 1.96) -> tuple[float, float]:
@@ -51,32 +78,45 @@ def precision_recall_f1(
 
 def clustered_bootstrap_ci[T](
     clusters: Sequence[Sequence[T]],
-    statistic: Callable[[Sequence[T]], float],
+    statistic: Callable[[Sequence[T]], float | None],
     *,
     n_resamples: int = 2000,
     seed: int = 31,
     confidence: float = 0.95,
-) -> tuple[float, float]:
+) -> BootstrapCI:
     """CI by resampling whole clusters (documents) with replacement.
 
     Provisions cluster within documents, so raw binomial CIs are too narrow;
     this resamples at the document level (docs/EVALUATION.md, correlated-samples
     correction). Deterministic for a fixed seed.
+
+    Resamples where ``statistic`` is undefined (returns None, e.g. a precision
+    with no predicted positives) are excluded rather than scored 0.0, and their
+    fraction is reported. Failure mode: raises ``ValueError`` if the statistic
+    is undefined in more than half of the resamples — the CI would be
+    meaningless and is refused rather than published.
     """
     if not clusters or all(len(cluster) == 0 for cluster in clusters):
         raise ValueError("clustered_bootstrap_ci requires at least one non-empty cluster")
     rng = random.Random(seed)
     stats: list[float] = []
+    undefined = 0
     for _ in range(n_resamples):
         resampled: list[T] = []
         for _ in range(len(clusters)):
             resampled.extend(rng.choice(clusters))
-        stats.append(statistic(resampled))
+        value = statistic(resampled)
+        if value is None:
+            undefined += 1
+        else:
+            stats.append(value)
+    if len(stats) < n_resamples / 2:
+        raise ValueError("statistic undefined in most bootstrap resamples")
     stats.sort()
     alpha = (1 - confidence) / 2
-    lower_index = int(alpha * n_resamples)
-    upper_index = min(n_resamples - 1, int((1 - alpha) * n_resamples))
-    return (stats[lower_index], stats[upper_index])
+    lower_index = int(alpha * len(stats))
+    upper_index = len(stats) - 1 - lower_index
+    return BootstrapCI(stats[lower_index], stats[upper_index], undefined / n_resamples)
 
 
 def cohens_kappa(labels_a: Sequence[str], labels_b: Sequence[str]) -> float:

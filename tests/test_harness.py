@@ -83,13 +83,12 @@ def eval_env(tmp_path: Path) -> tuple[Settings, Path, Path]:
         _provision("DOC-B", shas["DOC-B"], 55, 85, "Definitions apply", "p-b2"),
     ]
     (gold_dir / "provisions.jsonl").write_text("\n".join(provisions) + "\n")
-    (gold_dir / "gold.jsonl").write_text(
-        "\n".join(
-            [_gold("p-a1", True), _gold("p-a2", False), _gold("p-b1", True), _gold("p-b2", False)]
-        )
-        + "\n"
+    gold_lines = "\n".join(
+        [_gold("p-a1", True), _gold("p-a2", False), _gold("p-b1", True), _gold("p-b2", False)]
     )
-    # Pass 2 disagrees on exactly one of four -> kappa = 0.5
+    (gold_dir / "gold.jsonl").write_text(gold_lines + "\n")
+    # Kappa compares the FROZEN passes; pass 2 disagrees on one of four -> kappa = 0.5.
+    (gold_dir / "pass1.jsonl").write_text(gold_lines + "\n")
     (gold_dir / "pass2.jsonl").write_text(
         "\n".join(
             [_gold("p-a1", True), _gold("p-a2", False), _gold("p-b1", True), _gold("p-b2", True)]
@@ -132,8 +131,12 @@ def test_report_counts_cis_kappa_and_label(eval_env: tuple[Settings, Path, Path]
     assert report.recall == 0.5
     assert report.citation_fidelity == 1.0
     assert report.kappa_pass1_pass2 == pytest.approx(0.5)
+    assert report.kappa_band == "Moderate"
     assert report.adjudicated_count == 0
     assert report.provisional_label.startswith("Provisional — machine-proposed labels")
     assert "0/4" in report.provisional_label
     low, high = report.f1_bootstrap
     assert 0.0 <= low <= report.f1 <= high <= 1.0
+    assert set(report.bootstrap_undefined_fractions) == {"precision", "recall", "f1"}
+    assert "base" in report.strata
+    assert report.strata["base"].n == 4

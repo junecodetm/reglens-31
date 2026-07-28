@@ -10,6 +10,7 @@ from reglens.eval.metrics import (
     cohens_kappa,
     design_effect,
     effective_sample_size,
+    kappa_band,
     precision_recall_f1,
     wilson_interval,
 )
@@ -62,9 +63,23 @@ def test_clustered_bootstrap_is_deterministic_and_covers_point_estimate() -> Non
     first = clustered_bootstrap_ci(clusters, accuracy)
     second = clustered_bootstrap_ci(clusters, accuracy)
     assert first == second
-    low, high = first
     point = accuracy([item for cluster in clusters for item in cluster])
-    assert low <= point <= high
+    assert first.low <= point <= first.high
+    assert first.undefined_fraction == 0.0
+
+
+def test_clustered_bootstrap_skips_undefined_resamples() -> None:
+    # Precision-like statistic: undefined (None) when a resample draws only cluster B.
+    clusters: list[list[bool]] = [[True, True, False], [False, False, False]]
+
+    def precision_like(items: Sequence[bool]) -> float | None:
+        positives = sum(items)
+        return positives / len(items) if positives else None
+
+    result = clustered_bootstrap_ci(clusters, precision_like)
+    # Undefined resamples are excluded and reported, never scored as 0.0.
+    assert 0.0 < result.undefined_fraction < 0.5
+    assert result.low > 0.0
 
 
 def test_clustered_bootstrap_rejects_empty() -> None:
@@ -74,11 +89,19 @@ def test_clustered_bootstrap_rejects_empty() -> None:
 
 def test_cohens_kappa_known_values() -> None:
     assert cohens_kappa(["y", "n"], ["y", "n"]) == 1.0
-    # Classic 2x2 example: po = 0.7, pe = 0.5 -> kappa = 0.4
+    # Balanced marginals, 8/10 observed agreement: pe = 0.5 -> kappa = 0.6 exactly.
     a = ["y"] * 5 + ["n"] * 5
-    b = ["y"] * 4 + ["n"] + ["y", "n", "n", "n", "y"]
-    po = sum(1 for x, y in zip(a, b, strict=True) if x == y) / 10
-    assert cohens_kappa(a, b) == pytest.approx((po - 0.5) / 0.5)
+    b = ["y", "y", "y", "y", "n", "y", "n", "n", "n", "n"]
+    assert cohens_kappa(a, b) == pytest.approx(0.6)
+
+
+def test_kappa_bands() -> None:
+    assert kappa_band(0.95) == "Almost perfect"
+    assert kappa_band(0.7) == "Substantial"
+    assert kappa_band(0.5) == "Moderate"
+    assert kappa_band(0.3) == "Fair"
+    assert kappa_band(0.1) == "Slight"
+    assert kappa_band(-0.2) == "Poor"
 
 
 def test_cohens_kappa_rejects_misaligned() -> None:

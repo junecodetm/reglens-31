@@ -26,6 +26,7 @@ from reglens.eval.metrics import (
     cohens_kappa,
     design_effect,
     effective_sample_size,
+    kappa_band,
     precision_recall_f1,
     wilson_interval,
 )
@@ -37,6 +38,17 @@ BASELINE_PATH = Path("reglens/eval/baseline.json")
 F1_TOLERANCE = 0.05
 
 Outcome = tuple[bool, bool]  # (gold_is_obligation, pipeline_predicted)
+
+
+class StratumMetrics(BaseModel):
+    """P/R within one sampling stratum (pooled precision is prevalence-sensitive)."""
+
+    n: int
+    true_positives: int
+    false_positives: int
+    false_negatives: int
+    precision: float | None
+    recall: float | None
 
 
 class EvalReport(BaseModel):
@@ -56,11 +68,16 @@ class EvalReport(BaseModel):
     precision_bootstrap: tuple[float, float]
     recall_bootstrap: tuple[float, float]
     f1_bootstrap: tuple[float, float]
+    bootstrap_undefined_fractions: dict[str, float]
     kappa_pass1_pass2: float | None
+    kappa_band: str | None
+    kappa_note: str
     citation_fidelity: float
     icc: float
+    icc_outcome: str
     design_effect: float
     effective_n: float
+    strata: dict[str, StratumMetrics]
     adjudicated_count: int
     total_gold_count: int
     provisional_label: str
@@ -83,23 +100,26 @@ def _predicted_ids(claims_path: Path, provisions_path: Path) -> set[str]:
     return predicted
 
 
-def _f1_of(outcomes: Sequence[Outcome]) -> float:
+def _precision_of(outcomes: Sequence[Outcome]) -> float | None:
+    """None (undefined), not 0.0, when a resample has no predicted positives."""
     tp = sum(1 for gold, predicted in outcomes if gold and predicted)
     fp = sum(1 for gold, predicted in outcomes if not gold and predicted)
-    fn = sum(1 for gold, predicted in outcomes if gold and not predicted)
-    return precision_recall_f1(tp, fp, fn)[2]
+    return tp / (tp + fp) if tp + fp else None
 
 
-def _precision_of(outcomes: Sequence[Outcome]) -> float:
-    tp = sum(1 for gold, predicted in outcomes if gold and predicted)
-    fp = sum(1 for gold, predicted in outcomes if not gold and predicted)
-    return precision_recall_f1(tp, fp, 0)[0]
-
-
-def _recall_of(outcomes: Sequence[Outcome]) -> float:
+def _recall_of(outcomes: Sequence[Outcome]) -> float | None:
+    """None (undefined), not 0.0, when a resample has no gold positives."""
     tp = sum(1 for gold, predicted in outcomes if gold and predicted)
     fn = sum(1 for gold, predicted in outcomes if gold and not predicted)
-    return precision_recall_f1(tp, 0, fn)[1]
+    return tp / (tp + fn) if tp + fn else None
+
+
+def _f1_of(outcomes: Sequence[Outcome]) -> float | None:
+    precision = _precision_of(outcomes)
+    recall = _recall_of(outcomes)
+    if precision is None or recall is None:
+        return None
+    return 2 * precision * recall / (precision + recall) if precision + recall else 0.0
 
 
 def citation_fidelity(settings: Settings, claims_path: Path) -> float:
@@ -147,19 +167,46 @@ def build_report(settings: Settings, claims_path: Path, gold_dir: Path = GOLD_DI
         for cluster in clusters
     ]
     icc = binary_icc(correctness_clusters)
-    deff = design_effect(len(outcomes) / len(clusters), icc)
+    # Cluster sizes are unequal (the eCFR stratum samples more per document), so
+    # the size-weighted mean cluster size (Σm²/Σm) is used — the conservative
+    # generalization of docs/EVALUATION.md's m̄ for unequal clusters.
+    sizes = [len(cluster) for cluster in clusters]
+    weighted_mean_size = sum(size * size for size in sizes) / sum(sizes)
+    deff = design_effect(weighted_mean_size, icc)
 
+    # Kappa compares the two FROZEN proposal passes (different models). It must
+    # never read gold.jsonl, which human adjudication mutates over time.
+    pass1_path = gold_dir / "pass1.jsonl"
     pass2_path = gold_dir / "pass2.jsonl"
     kappa: float | None = None
-    if pass2_path.is_file():
+    if pass1_path.is_file() and pass2_path.is_file():
+        pass1 = {record.provision_id: record.is_obligation for record in load_jsonl(pass1_path)}
         pass2 = {record.provision_id: record.is_obligation for record in load_jsonl(pass2_path)}
         aligned = [
-            (str(record.is_obligation), str(pass2[record.provision_id]))
-            for record in gold
-            if record.provision_id in pass2
+            (str(pass1[pid]), str(pass2[pid])) for pid in sorted(pass1.keys() & pass2.keys())
         ]
         if aligned:
             kappa = cohens_kappa([a for a, _ in aligned], [b for _, b in aligned])
+
+    stratum_outcomes: dict[str, list[Outcome]] = defaultdict(list)
+    for record in gold:
+        provision = provisions[record.provision_id]
+        stratum_outcomes[provision.stratum].append(
+            (record.is_obligation, record.provision_id in predicted)
+        )
+    strata: dict[str, StratumMetrics] = {}
+    for stratum_name, stratum_items in sorted(stratum_outcomes.items()):
+        s_tp = sum(1 for g, p in stratum_items if g and p)
+        s_fp = sum(1 for g, p in stratum_items if not g and p)
+        s_fn = sum(1 for g, p in stratum_items if g and not p)
+        strata[stratum_name] = StratumMetrics(
+            n=len(stratum_items),
+            true_positives=s_tp,
+            false_positives=s_fp,
+            false_negatives=s_fn,
+            precision=_precision_of(stratum_items),
+            recall=_recall_of(stratum_items),
+        )
 
     adjudicated = sum(1 for record in gold if record.adjudicated)
     label = (
@@ -168,6 +215,10 @@ def build_report(settings: Settings, claims_path: Path, gold_dir: Path = GOLD_DI
         if adjudicated < len(gold)
         else f"Human-adjudicated gold set ({adjudicated}/{len(gold)})."
     )
+
+    precision_ci = clustered_bootstrap_ci(clusters, _precision_of)
+    recall_ci = clustered_bootstrap_ci(clusters, _recall_of)
+    f1_ci = clustered_bootstrap_ci(clusters, _f1_of)
 
     return EvalReport(
         n_provisions=len(gold),
@@ -181,14 +232,27 @@ def build_report(settings: Settings, claims_path: Path, gold_dir: Path = GOLD_DI
         f1=f1,
         precision_wilson=wilson_interval(tp, tp + fp) if tp + fp else (0.0, 0.0),
         recall_wilson=wilson_interval(tp, tp + fn) if tp + fn else (0.0, 0.0),
-        precision_bootstrap=clustered_bootstrap_ci(clusters, _precision_of),
-        recall_bootstrap=clustered_bootstrap_ci(clusters, _recall_of),
-        f1_bootstrap=clustered_bootstrap_ci(clusters, _f1_of),
+        precision_bootstrap=(precision_ci.low, precision_ci.high),
+        recall_bootstrap=(recall_ci.low, recall_ci.high),
+        f1_bootstrap=(f1_ci.low, f1_ci.high),
+        bootstrap_undefined_fractions={
+            "precision": precision_ci.undefined_fraction,
+            "recall": recall_ci.undefined_fraction,
+            "f1": f1_ci.undefined_fraction,
+        },
         kappa_pass1_pass2=kappa,
+        kappa_band=kappa_band(kappa) if kappa is not None else None,
+        kappa_note=(
+            "Agreement between two frozen proposal passes by different models "
+            "(claude-fable-5 vs claude-sonnet-5) applying the written guidelines; "
+            "human inter-annotator kappa pending adjudication."
+        ),
         citation_fidelity=citation_fidelity(settings, claims_path),
         icc=icc,
+        icc_outcome="correctness indicator (prediction == gold), clustered by document",
         design_effect=deff,
         effective_n=effective_sample_size(len(outcomes), deff),
+        strata=strata,
         adjudicated_count=adjudicated,
         total_gold_count=len(gold),
         provisional_label=label,

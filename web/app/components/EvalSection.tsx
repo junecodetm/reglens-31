@@ -17,8 +17,11 @@ type EvalReport = {
   recall_bootstrap: Interval;
   f1_bootstrap: Interval;
   kappa_pass1_pass2: number | null;
+  kappa_band: string | null;
+  kappa_note: string;
   citation_fidelity: number;
   icc: number;
+  icc_outcome: string;
   design_effect: number;
   effective_n: number;
   adjudicated_count: number;
@@ -139,16 +142,17 @@ export function EvalSection() {
               construction of the fail-closed gate)
             </li>
             <li>
-              Cohen&apos;s kappa (two independent model annotation passes):{" "}
+              Cohen&apos;s kappa:{" "}
               {state.report.kappa_pass1_pass2 === null
                 ? "pending adjudication"
-                : state.report.kappa_pass1_pass2.toFixed(2)}{" "}
-              — human inter-annotator kappa pending adjudication
+                : `${state.report.kappa_pass1_pass2.toFixed(2)} (${state.report.kappa_band ?? ""}, Landis-Koch)`}{" "}
+              — {state.report.kappa_note}
             </li>
             <li>
               n = {state.report.n_provisions} provisions across {state.report.n_documents}{" "}
-              documents; effective n ≈ {Math.round(state.report.effective_n)} (design effect{" "}
-              {state.report.design_effect.toFixed(2)}, ICC {state.report.icc.toFixed(2)})
+              documents; effective n ≈ {Math.round(state.report.effective_n)} for the{" "}
+              {state.report.icc_outcome} (design effect {state.report.design_effect.toFixed(2)},
+              ICC {state.report.icc.toFixed(2)})
             </li>
           </ul>
 

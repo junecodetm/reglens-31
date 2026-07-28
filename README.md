@@ -44,7 +44,7 @@ Full command surface: [docs/COMMANDS.md](docs/COMMANDS.md).
 
 ## Honest limitations
 
-- **Gold labels are provisional.** Machine-proposed (two independent passes of a frontier model), human adjudication in progress; every metric carries the label until done. The reported kappa is inter-pass model agreement, not human IAA.
+- **Gold labels are provisional.** Machine-proposed, human adjudication in progress; every metric carries the label until done. The reported kappa is agreement between two different frontier models (frozen proposal passes) applying the written guidelines — not human inter-annotator agreement, which awaits adjudication.
 - **Extraction coverage is bounded.** Very long documents are extracted up to a disclosed per-document cap; `total_chars`/`extracted_chars` are recorded per document.
 - **Local-model extraction accuracy is a known hard problem** — which is exactly why the provenance gate (precision floor) and the eval harness (honest measurement) exist.
 - Prototype scope: assistive, human-in-the-loop; not a sanctions-screening product, not legal advice.
