@@ -1,0 +1,45 @@
+{
+  "accepted": {
+    "claim_id": "fe677d4f490f99b2",
+    "document_number": "31-CFR-223",
+    "document_title": "31 CFR Part 223 (point-in-time 2026-07-01)",
+    "excerpt": "only insures or reinsures risks of its parent, affiliated, or controlled unaffiliated business, or is deemed by Treasury to be primarily engaged in self-insurance. [89 FR 48831, June 10, 2024]\n\n§ 223.2 Application for certificate of authority. (a) Application for issuance of certificate of authority. Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location, and in the manner, specified online at https://www.fiscal.treasury.gov/surety-bonds/. The company shall file the following data with Treasury, and shall transmit therewith the fee in accordance with the provisions of\n\n§ 223.22: (1) Payment of the application fee in accordance with the provisions of\n\n§ 223.22; (2) A written request for a certificate of authority, signed by an officer",
+    "quote": "Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location, and in the manner, specified online at https://www.fiscal.treasury.gov/surety-bonds/.",
+    "span_end": 582,
+    "span_start": 302,
+    "summary": "Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location and in the manner specified online."
+  },
+  "rejected": {
+    "claim_id": "33961b9a82254639",
+    "closest_end": 56225,
+    "closest_quote": "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than 30 days after the date of service of the Penalty Notice; (2)",
+    "closest_start": 56014,
+    "diff": [
+      [
+        "equal",
+        "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than"
+      ],
+      [
+        "model",
+        "3,0"
+      ],
+      [
+        "source",
+        "30"
+      ],
+      [
+        "equal",
+        "days after the date of service of the Penalty Notice;"
+      ],
+      [
+        "source",
+        "(2)"
+      ]
+    ],
+    "document_number": "31-CFR-501",
+    "document_title": "31 CFR Part 501 (point-in-time 2026-07-01)",
+    "quote": "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than 3,0 days after the date of service of the Penalty Notice;",
+    "similarity": 0.9881,
+    "summary": "The Penalty Notice must inform the respondent of their right to submit a written request for an administrative hearing within 30 days."
+  }
+}

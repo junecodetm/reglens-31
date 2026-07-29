@@ -1,6 +1,7 @@
 [
   {
     "accepted_count": 21,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -657,6 +658,7 @@
   },
   {
     "accepted_count": 26,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -1313,6 +1315,7 @@
   },
   {
     "accepted_count": 12,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": false,
@@ -1647,6 +1650,7 @@
   },
   {
     "accepted_count": 54,
+    "category": "Other Treasury & joint-agency rules",
     "claims": [
       {
         "accepted": false,
@@ -3246,6 +3250,7 @@
   },
   {
     "accepted_count": 40,
+    "category": "Other Treasury & joint-agency rules",
     "claims": [
       {
         "accepted": false,
@@ -4523,6 +4528,7 @@
   },
   {
     "accepted_count": 19,
+    "category": "IRS & tax regulations",
     "claims": [
       {
         "accepted": true,
@@ -5041,6 +5047,7 @@
   },
   {
     "accepted_count": 51,
+    "category": "Other Treasury & joint-agency rules",
     "claims": [
       {
         "accepted": true,
@@ -6686,6 +6693,7 @@
   },
   {
     "accepted_count": 2,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -6744,6 +6752,7 @@
   },
   {
     "accepted_count": 2,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -6802,6 +6811,7 @@
   },
   {
     "accepted_count": 4,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -6929,6 +6939,7 @@
   },
   {
     "accepted_count": 6,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -7079,6 +7090,7 @@
   },
   {
     "accepted_count": 9,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -7528,6 +7540,7 @@
   },
   {
     "accepted_count": 1,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -7563,6 +7576,7 @@
   },
   {
     "accepted_count": 31,
+    "category": "Other Treasury & joint-agency rules",
     "claims": [
       {
         "accepted": true,
@@ -8679,6 +8693,7 @@
   },
   {
     "accepted_count": 37,
+    "category": "IRS & tax regulations",
     "claims": [
       {
         "accepted": true,
@@ -9795,6 +9810,7 @@
   },
   {
     "accepted_count": 20,
+    "category": "IRS & tax regulations",
     "claims": [
       {
         "accepted": true,
@@ -10474,6 +10490,7 @@
   },
   {
     "accepted_count": 54,
+    "category": "IRS & tax regulations",
     "claims": [
       {
         "accepted": false,
@@ -12050,6 +12067,7 @@
   },
   {
     "accepted_count": 0,
+    "category": "IRS & tax regulations",
     "claims": [],
     "document_number": "2026-15008",
     "document_sha256": "45659430ae87e1436c39d8a23e7178c1f5702bd2ae3a5f73071f15847a068ee8",
@@ -12061,6 +12079,7 @@
   },
   {
     "accepted_count": 8,
+    "category": "Sanctions notices & general licenses (OFAC)",
     "claims": [
       {
         "accepted": true,
@@ -12326,6 +12345,7 @@
   },
   {
     "accepted_count": 148,
+    "category": "Title 31 \u2014 Code of Federal Regulations parts",
     "claims": [
       {
         "accepted": true,
@@ -15765,6 +15785,7 @@
   },
   {
     "accepted_count": 55,
+    "category": "Title 31 \u2014 Code of Federal Regulations parts",
     "claims": [
       {
         "accepted": true,
@@ -17088,6 +17109,7 @@
   },
   {
     "accepted_count": 139,
+    "category": "Title 31 \u2014 Code of Federal Regulations parts",
     "claims": [
       {
         "accepted": true,
@@ -20435,6 +20457,7 @@
   },
   {
     "accepted_count": 84,
+    "category": "Title 31 \u2014 Code of Federal Regulations parts",
     "claims": [
       {
         "accepted": true,
@@ -22632,6 +22655,7 @@
   },
   {
     "accepted_count": 127,
+    "category": "Title 31 \u2014 Code of Federal Regulations parts",
     "claims": [
       {
         "accepted": true,
@@ -25887,6 +25911,7 @@
   },
   {
     "accepted_count": 0,
+    "category": "Other Treasury & joint-agency rules",
     "claims": [],
     "document_number": "C1-2026-10036",
     "document_sha256": "3e813e5076f54a84f96382e917fda8e94f948501ce12ebac6d52d7cd3be5adf9",

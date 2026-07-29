@@ -60,6 +60,10 @@ def normalize(text: str) -> str:
     return _normalize_with_map(text)[0]
 
 
+# Public alias for the exporter (repo pattern: no private imports across modules).
+normalize_with_map = _normalize_with_map
+
+
 def verify_span(source_text: str, quote: str) -> VerificationResult:
     """Accept ``quote`` iff its normalized form is an exact substring of the normalized source.
 

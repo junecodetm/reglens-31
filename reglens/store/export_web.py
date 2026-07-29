@@ -9,17 +9,20 @@ from persisted inputs, never wall-clock time. Failure mode: missing inputs raise
 no sections and search indexes larger than 4 MiB raise ``ValueError``.
 """
 
+import difflib
 import hashlib
 import json
 import re
 from collections.abc import Mapping, Sequence
 from pathlib import Path
+from typing import TypedDict
 
 from reglens.authority.records import AuthorityExport
 from reglens.config import Settings
-from reglens.extract.records import DocumentExtraction, load_extractions
+from reglens.extract.records import ClaimRecord, DocumentExtraction, load_extractions
 from reglens.ingest.federal_register import require_safe_document_number
 from reglens.ingest.snapshot import read_manifest
+from reglens.provenance import normalize, normalize_with_map
 from reglens.search_index import (
     CfrSectionRef,
     SearchSource,
@@ -40,6 +43,93 @@ _USC_TEXT_FILENAME = re.compile(r"usc-(?P<title>\d+)-s(?P<section>[A-Za-z0-9]+)\
 # snapshot (reglens.ingest.inventory). A re-snapshot that changes the file
 # must update this pin deliberately; the exporter refuses any other bytes.
 INVENTORY_SNAPSHOT_SHA256 = "8e3f3332f26af5de23c2c0dda4c8e41f0ceb9097edcbd169e1216e0e6cf7512f"
+
+# Pinned document categories for the UI document picker. Every exported
+# document number MUST appear here; a new corpus document requires a
+# deliberate pin (fail-closed, like INVENTORY_SNAPSHOT_SHA256).
+CATEGORY_ORDER = (
+    "Title 31 — Code of Federal Regulations parts",
+    "Sanctions notices & general licenses (OFAC)",
+    "IRS & tax regulations",
+    "Other Treasury & joint-agency rules",
+)
+DOC_CATEGORIES: dict[str, str] = {
+    "31-CFR-50": CATEGORY_ORDER[0],
+    "31-CFR-223": CATEGORY_ORDER[0],
+    "31-CFR-285": CATEGORY_ORDER[0],
+    "31-CFR-356": CATEGORY_ORDER[0],
+    "31-CFR-501": CATEGORY_ORDER[0],
+    "2026-09090": CATEGORY_ORDER[1],
+    "2026-09092": CATEGORY_ORDER[1],
+    "2026-09094": CATEGORY_ORDER[1],
+    "2026-11592": CATEGORY_ORDER[1],
+    "2026-11601": CATEGORY_ORDER[1],
+    "2026-11614": CATEGORY_ORDER[1],
+    "2026-11615": CATEGORY_ORDER[1],
+    "2026-11616": CATEGORY_ORDER[1],
+    "2026-11761": CATEGORY_ORDER[1],
+    "2026-15112": CATEGORY_ORDER[1],
+    "2026-10116": CATEGORY_ORDER[2],
+    "2026-13830": CATEGORY_ORDER[2],
+    "2026-13851": CATEGORY_ORDER[2],
+    "2026-13925": CATEGORY_ORDER[2],
+    "2026-15008": CATEGORY_ORDER[2],
+    "2026-10036": CATEGORY_ORDER[3],
+    "C1-2026-10036": CATEGORY_ORDER[3],
+    "2026-10037": CATEGORY_ORDER[3],
+    "2026-11140": CATEGORY_ORDER[3],
+    "2026-12787": CATEGORY_ORDER[3],
+}
+EXAMPLE_ACCEPTED_CLAIM_ID = "fe677d4f490f99b2"
+EXAMPLE_REJECTED_CLAIM_ID = "33961b9a82254639"
+
+
+class _NoClosestDetail(TypedDict):
+    """Comparison result when no sufficiently similar source passage exists."""
+
+    similarity: float
+    closest: None
+
+
+class _ClosestDetail(TypedDict):
+    """Comparison result with a word-aligned source passage and word-level diff."""
+
+    similarity: float
+    closest_start: int
+    closest_end: int
+    closest_quote: str
+    diff: list[list[str]]
+
+
+type _RejectedDetail = _NoClosestDetail | _ClosestDetail
+
+
+class _RejectedDetailsPayload(TypedDict):
+    """Serialized shape of ``rejected-details.json``."""
+
+    schema_version: int
+    method: str
+    details: dict[str, _RejectedDetail]
+
+
+class _AcceptedExamplePayload(TypedDict):
+    """Serialized accepted side of the provenance-gate example."""
+
+    claim_id: str
+    document_number: str
+    document_title: str
+    summary: str
+    quote: str
+    excerpt: str
+    span_start: int
+    span_end: int
+
+
+class _ExamplePayload(TypedDict):
+    """Serialized shape of ``example.json``."""
+
+    accepted: _AcceptedExamplePayload
+    rejected: dict[str, object]
 
 
 def _snapshot_payload_path(snapshot_dir: Path, filename: str) -> Path:
@@ -313,7 +403,19 @@ def _export_structure_and_search(export: AuthorityExport, out_dir: Path) -> None
 
 
 def export_web_data(settings: Settings, web_dir: Path) -> Path:
-    """Copy claims, per-document text, and site metadata into ``web/public/data``."""
+    """Copy claims, per-document text, and site metadata into ``web/public/data``.
+
+    Inputs:
+        settings: Repository data paths containing processed claims and raw snapshots.
+        web_dir: Web project root whose ``public/data`` directory receives the export.
+
+    Returns:
+        The populated static-data directory.
+
+    Failure mode:
+        Missing or malformed inputs propagate; an unpinned document category raises
+        ``ValueError`` before ``claims.json`` is written.
+    """
     claims_path = settings.data_dir / "processed" / "claims.json"
     extractions = [_sanitized(extraction) for extraction in load_extractions(claims_path)]
 
@@ -340,6 +442,12 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
     accepted = sum(extraction.accepted_count for extraction in extractions)
     rejected = sum(extraction.rejected_count for extraction in extractions)
     payload = [extraction.model_dump() for extraction in extractions]
+    for extraction, document in zip(extractions, payload, strict=True):
+        n = extraction.document_number
+        category = DOC_CATEGORIES.get(n)
+        if category is None:
+            raise ValueError(f"Document {n!r} has no pinned category")
+        document["category"] = category
     (out_dir / "claims.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
     site = {
         "accepted_count": accepted,
@@ -350,6 +458,188 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
     }
     (out_dir / "site.json").write_text(json.dumps(site, indent=2, sort_keys=True) + "\n")
     return out_dir
+
+
+def _rejected_detail(source_text: str, quote: str) -> _RejectedDetail:
+    """Compare one rejected claim quote with its closest normalized source passage.
+
+    Inputs:
+        source_text: Original document text used by the provenance gate.
+        quote: Rejected model quote to compare with that source.
+
+    Returns:
+        A similarity-only result below the cutoff, or mapped offsets and a word diff.
+
+    Failure mode:
+        Normalization and ``difflib`` errors propagate; the exporter never guesses a result.
+    """
+    ns, index_map = normalize_with_map(source_text)
+    nq = normalize(quote)
+    if not nq:
+        return {"similarity": 0.0, "closest": None}
+
+    match = difflib.SequenceMatcher(None, ns, nq, autojunk=False).find_longest_match(
+        0, len(ns), 0, len(nq)
+    )
+    if match.size == 0:
+        return {"similarity": 0.0, "closest": None}
+
+    window_start = max(0, match.a - match.b)
+    window_end = min(len(ns), window_start + len(nq))
+    window_start = max(0, window_end - len(nq))
+    while window_start > 0 and ns[window_start - 1] != " ":
+        window_start -= 1
+    while window_end < len(ns) and ns[window_end] != " ":
+        window_end += 1
+
+    closest_norm = ns[window_start:window_end]
+    similarity = round(
+        difflib.SequenceMatcher(None, closest_norm, nq, autojunk=False).ratio(),
+        4,
+    )
+    if similarity < 0.35:
+        return {"similarity": similarity, "closest": None}
+
+    a_words = closest_norm.split(" ")
+    b_words = nq.split(" ")
+    ops: list[list[str]] = []
+    for kind, a1, a2, b1, b2 in difflib.SequenceMatcher(
+        None, a_words, b_words, autojunk=False
+    ).get_opcodes():
+        if kind == "equal":
+            ops.append(["equal", " ".join(a_words[a1:a2])])
+        elif kind == "insert":
+            ops.append(["model", " ".join(b_words[b1:b2])])
+        elif kind == "delete":
+            ops.append(["source", " ".join(a_words[a1:a2])])
+        elif kind == "replace":
+            ops.append(["model", " ".join(b_words[b1:b2])])
+            ops.append(["source", " ".join(a_words[a1:a2])])
+
+    return {
+        "similarity": similarity,
+        "closest_start": index_map[window_start],
+        "closest_end": index_map[window_end - 1] + 1,
+        "closest_quote": closest_norm,
+        "diff": ops,
+    }
+
+
+def export_rejected_details(out_dir: Path) -> None:
+    """Export closest-passage comparisons for every rejected claim.
+
+    Inputs:
+        out_dir: Static-data directory containing validated claims and document texts.
+
+    Outputs:
+        ``rejected-details.json`` beneath ``out_dir``.
+
+    Failure mode:
+        Missing/malformed claims or source texts and comparison failures propagate; no
+        partial fallback data is published.
+    """
+    details: dict[str, _RejectedDetail] = {}
+    for extraction in load_extractions(out_dir / "claims.json"):
+        source_text = (out_dir / "documents" / f"{extraction.document_number}.txt").read_text(
+            encoding="utf-8"
+        )
+        for claim in extraction.claims:
+            if not claim.accepted:
+                details[claim.claim_id] = _rejected_detail(source_text, claim.quote)
+
+    payload: _RejectedDetailsPayload = {
+        "schema_version": 1,
+        "method": (
+            "A deterministic longest-common-substring anchor (difflib) selects the closest "
+            "same-length word-aligned source passage; similarity is the difflib ratio between "
+            "the normalized passage and the claim's normalized quote."
+        ),
+        "details": details,
+    }
+    (out_dir / "rejected-details.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
+def export_example(out_dir: Path) -> None:
+    """Export pinned accepted/rejected examples explaining the provenance gate.
+
+    Inputs:
+        out_dir: Static-data directory containing validated claims and document texts.
+
+    Outputs:
+        ``example.json`` beneath ``out_dir``.
+
+    Failure mode:
+        Missing pins, verdict drift, invalid accepted offsets, missing source text, or
+        comparison failures raise before the example is written (fail-closed).
+    """
+    accepted_claim: ClaimRecord | None = None
+    rejected_claim: ClaimRecord | None = None
+    for extraction in load_extractions(out_dir / "claims.json"):
+        for claim in extraction.claims:
+            if claim.claim_id == EXAMPLE_ACCEPTED_CLAIM_ID:
+                accepted_claim = claim
+            elif claim.claim_id == EXAMPLE_REJECTED_CLAIM_ID:
+                rejected_claim = claim
+
+    if accepted_claim is None:
+        raise ValueError(f"Example accepted claim {EXAMPLE_ACCEPTED_CLAIM_ID!r} is missing")
+    if rejected_claim is None:
+        raise ValueError(f"Example rejected claim {EXAMPLE_REJECTED_CLAIM_ID!r} is missing")
+    if not accepted_claim.accepted:
+        raise ValueError(f"Example accepted claim {EXAMPLE_ACCEPTED_CLAIM_ID!r} is not accepted")
+    if rejected_claim.accepted:
+        raise ValueError(f"Example rejected claim {EXAMPLE_REJECTED_CLAIM_ID!r} is not rejected")
+    if accepted_claim.start is None or accepted_claim.end is None:
+        raise ValueError(f"Example accepted claim {EXAMPLE_ACCEPTED_CLAIM_ID!r} has no span")
+
+    accepted_text = (out_dir / "documents" / f"{accepted_claim.document_number}.txt").read_text(
+        encoding="utf-8"
+    )
+    if not 0 <= accepted_claim.start < accepted_claim.end <= len(accepted_text):
+        raise ValueError(
+            f"Example accepted claim {EXAMPLE_ACCEPTED_CLAIM_ID!r} has invalid offsets"
+        )
+    excerpt_lo = max(0, accepted_claim.start - 300)
+    excerpt_hi = min(len(accepted_text), accepted_claim.end + 300)
+    while excerpt_lo > 0 and not accepted_text[excerpt_lo - 1].isspace():
+        excerpt_lo -= 1
+    while excerpt_hi < len(accepted_text) and not accepted_text[excerpt_hi].isspace():
+        excerpt_hi += 1
+    accepted: _AcceptedExamplePayload = {
+        "claim_id": accepted_claim.claim_id,
+        "document_number": accepted_claim.document_number,
+        "document_title": accepted_claim.document_title,
+        "summary": accepted_claim.summary,
+        "quote": accepted_claim.quote,
+        "excerpt": accepted_text[excerpt_lo:excerpt_hi],
+        "span_start": accepted_claim.start - excerpt_lo,
+        "span_end": accepted_claim.end - excerpt_lo,
+    }
+
+    rejected_text = (out_dir / "documents" / f"{rejected_claim.document_number}.txt").read_text(
+        encoding="utf-8"
+    )
+    rejected_detail = _rejected_detail(rejected_text, rejected_claim.quote)
+    rejected: dict[str, object] = {
+        "claim_id": rejected_claim.claim_id,
+        "document_number": rejected_claim.document_number,
+        "document_title": rejected_claim.document_title,
+        "summary": rejected_claim.summary,
+        "quote": rejected_claim.quote,
+    }
+    for key, value in rejected_detail.items():
+        rejected[key] = value
+
+    payload: _ExamplePayload = {"accepted": accepted, "rejected": rejected}
+    (out_dir / "example.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
 
 
 def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
@@ -489,6 +779,8 @@ def main() -> int:
     out_dir = export_web_data(settings, Path("web"))
     export_ogc01_data(settings, Path("web"))
     export_use_case_inventory(settings, Path("web"))
+    export_rejected_details(out_dir)
+    export_example(out_dir)
     print(out_dir)
     return 0
 

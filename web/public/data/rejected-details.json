@@ -1,0 +1,3890 @@
+{
+  "details": {
+    "00e34ef23774989d": {
+      "closest_end": 6227,
+      "closest_quote": "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>",
+      "closest_start": 5834,
+      "diff": [
+        [
+          "equal",
+          "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions: (2) The goods, technology, software, or services involved, including quantities and values;"
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>"
+        ]
+      ],
+      "similarity": 0.5141
+    },
+    "01096f58e79b30e9": {
+      "closest_end": 35197,
+      "closest_quote": "the Departments are finalizing the definition of the term ``bundled payment arrangement'' at 26 [[Page 33904]] CFR 54.9816-3, 29 CFR 2590.716-3, and 45 CFR 149.30",
+      "closest_start": 35031,
+      "diff": [
+        [
+          "equal",
+          "the Departments are finalizing the definition of the term ``bundled payment arrangement'' at 26"
+        ],
+        [
+          "source",
+          "[[Page 33904]]"
+        ],
+        [
+          "equal",
+          "CFR 54.9816-3, 29 CFR 2590.716-3, and 45 CFR 149.30"
+        ],
+        [
+          "model",
+          "as proposed."
+        ]
+      ],
+      "similarity": 0.913
+    },
+    "044460c652b163a6": {
+      "closest_end": 12567,
+      "closest_quote": "the applicability date is changed so that these regulations will apply on and after the regulations are published as final in the Federal Register,",
+      "closest_start": 12418,
+      "diff": [
+        [
+          "equal",
+          "the applicability date is changed so that these regulations will apply on and after the regulations are published as final in the Federal"
+        ],
+        [
+          "model",
+          "Register."
+        ],
+        [
+          "source",
+          "Register,"
+        ]
+      ],
+      "similarity": 0.9932
+    },
+    "0681c0d1d1ded84d": {
+      "closest_end": 20784,
+      "closest_quote": "All reports of unblocked or transferred blocked property required pursuant to § 501.603(b)(3) must be submitted electronically to OFAC via email at OFACReport@treasury.gov, with the number of this section in the subject line, or through ORS, available on OFAC's website, https://ofac.treasury.gov/ofac-reporting-system. If",
+      "closest_start": 20461,
+      "diff": [
+        [
+          "equal",
+          "All reports of unblocked or transferred blocked property required pursuant to § 501.603(b)(3) must be submitted electronically to OFAC via email at OFACReport@treasury.gov, with the number of this section in the subject line, or through ORS, available on OFAC's website,"
+        ],
+        [
+          "model",
+          "https://ofac.treasury.gov/of,ofac-reporting-system."
+        ],
+        [
+          "source",
+          "https://ofac.treasury.gov/ofac-reporting-system. If"
+        ]
+      ],
+      "similarity": 0.9907
+    },
+    "070384feda4e991c": {
+      "closest_end": 43622,
+      "closest_quote": "an activity is ``incidental to the business of banking if it is convenient or useful to an activity that is specifically authorized for national banks or to an activity that is otherwise part of the business of banking.''",
+      "closest_start": 43398,
+      "diff": [
+        [
+          "model",
+          "An"
+        ],
+        [
+          "source",
+          "an"
+        ],
+        [
+          "equal",
+          "activity is ``incidental to the business of banking if it is convenient or useful to an activity that is specifically authorized for national banks or to an activity that is otherwise part of the business of banking.''"
+        ]
+      ],
+      "similarity": 0.9955
+    },
+    "07e2e142ae77115a": {
+      "closest_end": 65814,
+      "closest_quote": "the respondent shall file, with the Administrative Law Judge and the Office of Chief Counsel, an answer to each of the allegations contained therein.",
+      "closest_start": 65665,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "respondent shall file, with the Administrative Law Judge and the Office of Chief Counsel, an answer to each of the allegations contained therein."
+        ]
+      ],
+      "similarity": 0.9933
+    },
+    "087175b7ecf79eec": {
+      "closest_end": 39007,
+      "closest_quote": "An insurer is deemed to be in compliance with the requirement of providing disclosure on a “separate line item in the policy” under § 50.10(b) if the insurer makes the disclosure: (a) On the declarations page of the policy; (b) Elsewhere within the policy itself; or (c) In any rider or endorsement, or other document that is made a part of the policy.",
+      "closest_start": 38654,
+      "diff": [
+        [
+          "equal",
+          "An insurer is deemed to be in compliance with the requirement of providing disclosure on a"
+        ],
+        [
+          "model",
+          "\"separate"
+        ],
+        [
+          "source",
+          "“separate"
+        ],
+        [
+          "equal",
+          "line item in the"
+        ],
+        [
+          "model",
+          "policy\""
+        ],
+        [
+          "source",
+          "policy”"
+        ],
+        [
+          "equal",
+          "under § 50.10(b) if the insurer makes the disclosure: (a) On the declarations page of the policy; (b) Elsewhere within the policy itself; or (c) In any rider or endorsement, or other document that is made a part of the policy."
+        ]
+      ],
+      "similarity": 0.9943
+    },
+    "0af484a0e86bffcb": {
+      "closest_end": 37625,
+      "closest_quote": "The Court also stated that the State law ``in no manner hinder[ed]'' the national bank and imposed ``no greater interference with the functions of the bank than any other legal proceeding.''",
+      "closest_start": 37432,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "Court also stated that the State law ``in no manner hinder[ed]'' the national bank and imposed ``no greater interference with the functions of the bank than any other legal proceeding.''"
+        ]
+      ],
+      "similarity": 0.9947
+    },
+    "0d55d54a25010622": {
+      "closest_end": 6227,
+      "closest_quote": "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>",
+      "closest_start": 5834,
+      "diff": [
+        [
+          "equal",
+          "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions: (4) Any taxes, fees, or other payments provided to the Government of Venezuela."
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>"
+        ]
+      ],
+      "similarity": 0.528
+    },
+    "103a41cf366a156b": {
+      "closest_end": 5529,
+      "closest_quote": "6050K(a). Under section 6050K(c)(2), a partnership is not required to make a return under section 6050K with respect to any exchange until the partnership is notified of such exchange.",
+      "closest_start": 5343,
+      "diff": [
+        [
+          "model",
+          "Section 6050K(c)(2) provides that"
+        ],
+        [
+          "source",
+          "6050K(a). Under section 6050K(c)(2),"
+        ],
+        [
+          "equal",
+          "a partnership is not required to make a return under section 6050K with respect to any exchange until the partnership is notified of such exchange."
+        ]
+      ],
+      "similarity": 0.9096
+    },
+    "11b4a7121608867d": {
+      "closest_end": 42701,
+      "closest_quote": "the term executor includes any person described in section 2203, as expanded to include all persons required under section 6018(b) to file an estate tax return.",
+      "closest_start": 42539,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "term executor includes any person described in section 2203, as expanded to include all persons required under section 6018(b) to file an estate tax return."
+        ]
+      ],
+      "similarity": 0.9938
+    },
+    "127b42d19c7a6d39": {
+      "closest_end": 69885,
+      "closest_quote": "The Departments have determined that guidance, rather than notice- and-comment rulemaking, is appropriate for providing the technical and operational instruction needed to implement this provision.",
+      "closest_start": 69687,
+      "diff": [
+        [
+          "equal",
+          "The Departments have determined that guidance, rather than"
+        ],
+        [
+          "model",
+          "notice-and-comment"
+        ],
+        [
+          "source",
+          "notice- and-comment"
+        ],
+        [
+          "equal",
+          "rulemaking, is appropriate for providing the technical and operational instruction needed to implement this provision."
+        ]
+      ],
+      "similarity": 0.9975
+    },
+    "131e5449c10b1689": {
+      "closest_end": 35490,
+      "closest_quote": "The Supreme Court found that the Kentucky law was not preempted, including because it applied a rule that was as ``old as the common law itself.''",
+      "closest_start": 35342,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "Supreme Court found that the Kentucky law was not preempted, including because it applied a rule that was as ``old as the common law itself.''"
+        ]
+      ],
+      "similarity": 0.9932
+    },
+    "136188d47bbee74b": {
+      "closest_end": 49128,
+      "closest_quote": "we will use this combined amount for the purpose of this 35 percent award limit.",
+      "closest_start": 49048,
+      "diff": [
+        [
+          "model",
+          "We"
+        ],
+        [
+          "source",
+          "we"
+        ],
+        [
+          "equal",
+          "will use this combined amount for the purpose of this 35 percent award limit."
+        ]
+      ],
+      "similarity": 0.9875
+    },
+    "1407e4f86572e84d": {
+      "closest_end": 26639,
+      "closest_quote": "HOLA also provides the OCC with broad authority to prescribe rules and regulations to provide for the organization, incorporation, examination, operation, and regulation \\30\\ of Federal savings associations and to specify their powers to invest in, sell, or otherwise deal in various loans and other investments.\\31\\",
+      "closest_start": 26319,
+      "diff": [
+        [
+          "equal",
+          "HOLA also provides the OCC with broad authority to prescribe rules and regulations to provide for the organization, incorporation, examination, operation, and regulation"
+        ],
+        [
+          "source",
+          "\\30\\"
+        ],
+        [
+          "equal",
+          "of Federal savings associations and to specify their powers to invest in, sell, or otherwise deal in various loans and other"
+        ],
+        [
+          "model",
+          "investments."
+        ],
+        [
+          "source",
+          "investments.\\31\\"
+        ]
+      ],
+      "similarity": 0.9856
+    },
+    "146f817c99363549": {
+      "closest_end": 6384,
+      "closest_quote": "regulations, Sec. 1.6050K-1(c)(2) required a partnership to furnish to a transferor partner the information necessary for the transferor to make the transferor partner's required statement in Sec. 1.751-1(a)(3).",
+      "closest_start": 6168,
+      "diff": [
+        [
+          "model",
+          "Section"
+        ],
+        [
+          "source",
+          "regulations, Sec."
+        ],
+        [
+          "equal",
+          "1.6050K-1(c)(2) required a partnership to furnish to a transferor partner the information necessary for the transferor to make the transferor partner's required statement in Sec. 1.751-1(a)(3)."
+        ]
+      ],
+      "similarity": 0.966
+    },
+    "14a9db4b88859d9e": {
+      "closest_end": 8719,
+      "closest_quote": "property blocked pursuant to the VSR; [[Page 24718]] (4) Any transaction involving a blocked vessel;",
+      "closest_start": 8613,
+      "diff": [
+        [
+          "model",
+          "(b) This general license does not authorize:"
+        ],
+        [
+          "source",
+          "property blocked pursuant to the VSR; [[Page 24718]]"
+        ],
+        [
+          "equal",
+          "(4) Any transaction involving a blocked vessel;"
+        ]
+      ],
+      "similarity": 0.6354
+    },
+    "150469ead259444a": {
+      "closest_end": 38247,
+      "closest_quote": "(7) A respondent may seek judicial review of the final decision of the Department.",
+      "closest_start": 38165,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "(7) A"
+        ],
+        [
+          "equal",
+          "respondent may seek judicial review of the final decision of the Department."
+        ]
+      ],
+      "similarity": 0.9506
+    },
+    "15d680b2a15eddd7": {
+      "closest_end": 55659,
+      "closest_quote": "The final rule amends the OCC's real estate lending and appraisals regulations applicable to national banks and its lending and investment regulations applicable to Federal savings associations to add a definition of ``escrow account,'' expressly codify banks' power to establish and maintain escrow accounts, and to clarify that the terms and conditions of escrow accounts, including the extent of any compensation paid to customers, are business decisions to be made by each bank.",
+      "closest_start": 55170,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "final rule amends the OCC's real estate lending and appraisals regulations applicable to national banks and its lending and investment regulations applicable to Federal savings associations to add a definition of ``escrow account,'' expressly codify banks' power to establish and maintain escrow accounts, and to clarify that the terms and conditions of escrow accounts, including the extent of any compensation paid to customers, are business decisions to be made by each bank."
+        ]
+      ],
+      "similarity": 0.9979
+    },
+    "15f0b5770b812c0a": {
+      "closest_end": 15563,
+      "closest_quote": "Any person that engages in transactions pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#2477454a47504d4b4a577b4d4a464b5c6457504550410a434b52\"><span",
+      "closest_start": 15358,
+      "diff": [
+        [
+          "equal",
+          "Any person that engages in transactions pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies:"
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#2477454a47504d4b4a577b4d4a464b5c6457504550410a434b52\"><span"
+        ]
+      ],
+      "similarity": 0.6667
+    },
+    "165f221f9faa569a": {
+      "closest_end": 21762,
+      "closest_quote": "the requirement in Sec. 1.6050Y- 3(a) of the 2023 proposed regulations that the old issuer and new issuer file an information return with the IRS with respect to the section 1035 exchange is not necessary to accomplish the desired compliance goals and should therefore be removed.",
+      "closest_start": 21478,
+      "diff": [
+        [
+          "equal",
+          "the requirement in Sec."
+        ],
+        [
+          "model",
+          "1.6050Y-3(a)"
+        ],
+        [
+          "source",
+          "1.6050Y- 3(a)"
+        ],
+        [
+          "equal",
+          "of the 2023 proposed regulations that the old issuer and new issuer file an information return with the IRS with respect to the section 1035 exchange is not necessary to accomplish the desired compliance goals and should therefore be removed."
+        ]
+      ],
+      "similarity": 0.9982
+    },
+    "18abe9f29756be54": {
+      "closest_end": 39649,
+      "closest_quote": "under these final rules, if the services are billed or reimbursed under one service code (CPT code 77066), all services performed under that service code (CPT codes 77065 LT and 77065 RT) may be considered a bundled payment arrangement for purposes of the Federal IDR process.",
+      "closest_start": 39369,
+      "diff": [
+        [
+          "model",
+          "Under"
+        ],
+        [
+          "source",
+          "under"
+        ],
+        [
+          "equal",
+          "these final rules, if the services are billed or reimbursed under one service code (CPT code 77066), all services performed under that service code (CPT codes 77065 LT and 77065 RT) may be considered a bundled payment arrangement for purposes of the Federal IDR process."
+        ]
+      ],
+      "similarity": 0.9964
+    },
+    "1af13aeaad20de32": {
+      "closest_end": 23742,
+      "closest_quote": "the Departments have implemented Federal IDR portal system enhancements, such as enabling non-initiating parties to submit supporting documentation to contest dispute eligibility within their response to the notice of IDR initiation and requiring non-initiating parties to attest to the health plan type.\\21\\",
+      "closest_start": 23430,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Departments have implemented Federal IDR portal system enhancements, such as enabling non-initiating parties to submit supporting documentation to contest dispute eligibility within their response to the notice of IDR initiation and requiring non-initiating parties to attest to the health plan"
+        ],
+        [
+          "model",
+          "type."
+        ],
+        [
+          "source",
+          "type.\\21\\"
+        ]
+      ],
+      "similarity": 0.9902
+    },
+    "1b90e35a47f85446": {
+      "closest_end": 38624,
+      "closest_quote": "An insurer is deemed to be in compliance with the requirement of providing disclosure “at the time of offer and of renewal of the policy” under § 50.10(b) if the insurer makes the disclosure no later than the time the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder.",
+      "closest_start": 38300,
+      "diff": [
+        [
+          "equal",
+          "An insurer is deemed to be in compliance with the requirement of providing disclosure"
+        ],
+        [
+          "model",
+          "\"at"
+        ],
+        [
+          "source",
+          "“at"
+        ],
+        [
+          "equal",
+          "the time of offer and of renewal of the"
+        ],
+        [
+          "model",
+          "policy\""
+        ],
+        [
+          "source",
+          "policy”"
+        ],
+        [
+          "equal",
+          "under § 50.10(b) if the insurer makes the disclosure no later than the time the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder."
+        ]
+      ],
+      "similarity": 0.9938
+    },
+    "1d6c586ee71f7ef7": {
+      "closest_end": 49625,
+      "closest_quote": "the section 1035 exchange is treated as the transfer of an interest in the life insurance contract in a reportable policy sale.",
+      "closest_start": 49496,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "section 1035 exchange is treated as the transfer of an interest in the life insurance contract in a reportable policy sale."
+        ]
+      ],
+      "similarity": 0.9921
+    },
+    "1d8fc07583108a29": {
+      "closest_end": 26833,
+      "closest_quote": "establishing a new process for [[Page 33903]] providing and receiving notices related to the IDR process.",
+      "closest_start": 26726,
+      "diff": [
+        [
+          "model",
+          "proposed"
+        ],
+        [
+          "equal",
+          "establishing a new process for"
+        ],
+        [
+          "source",
+          "[[Page 33903]]"
+        ],
+        [
+          "equal",
+          "providing and receiving notices related to the IDR process."
+        ]
+      ],
+      "similarity": 0.8824
+    },
+    "1e7862c511569568": {
+      "closest_end": 5494,
+      "closest_quote": "any property blocked pursuant to the VSR; (4) Any transaction involving a blocked vessel;",
+      "closest_start": 5401,
+      "diff": [
+        [
+          "model",
+          "This general license does not authorize:"
+        ],
+        [
+          "source",
+          "any property blocked pursuant to the VSR;"
+        ],
+        [
+          "equal",
+          "(4) Any transaction involving a blocked vessel;"
+        ]
+      ],
+      "similarity": 0.7006
+    },
+    "1feedeafd4c0089d": {
+      "closest_end": 28269,
+      "closest_quote": "The Departments proposed a reduced administrative fee amount for low-dollar disputes to address access concerns by certain interested parties that regularly provide services with low- dollar values.",
+      "closest_start": 28069,
+      "diff": [
+        [
+          "equal",
+          "The Departments proposed a reduced administrative fee amount for low-dollar disputes to address access concerns by certain interested parties that regularly provide services with"
+        ],
+        [
+          "model",
+          "low-dollar"
+        ],
+        [
+          "source",
+          "low- dollar"
+        ],
+        [
+          "equal",
+          "values."
+        ]
+      ],
+      "similarity": 0.9975
+    },
+    "2131795d72fcf886": {
+      "closest_end": 59286,
+      "closest_quote": "such insurance statistical aggregator shall keep any nonpublic information that it collects confidential, consistent with the requirements of this section.",
+      "closest_start": 59131,
+      "diff": [
+        [
+          "model",
+          "Such"
+        ],
+        [
+          "source",
+          "such"
+        ],
+        [
+          "equal",
+          "insurance statistical aggregator shall keep any nonpublic information that it collects confidential, consistent with the requirements of this section."
+        ]
+      ],
+      "similarity": 0.9935
+    },
+    "22f2766c92f65cfd": {
+      "closest_end": 11801,
+      "closest_quote": "the disbursing official shall send written notice to the debtor of the maximum offset limitations described in paragraph (j)(1) of this section. The notice shall include a request that the debtor submit supporting affidavits or other documentation necessary to determine the applicable offset percentage limitation.",
+      "closest_start": 11486,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "disbursing official shall send written notice to the debtor of the maximum offset limitations described in paragraph (j)(1) of this section. The notice shall include a request that the debtor submit supporting affidavits or other documentation necessary to determine the applicable offset percentage limitation."
+        ]
+      ],
+      "similarity": 0.9968
+    },
+    "234786426ee316da": {
+      "closest_end": 53055,
+      "closest_quote": "Other commenters stated that the agency's rulemaking authority is limited based on 12 U.S.C. 25b, a statute that does not concern national banks' real estate lending powers. Specifically, these commenters pointed to the OCC's concurrent proposed preemption determination related to State interest-on-escrow laws \\55\\ and asserted that the proposed rule on bank powers was merely pretext for achieving other aims.",
+      "closest_start": 52637,
+      "diff": [
+        [
+          "equal",
+          "Other commenters stated that the agency's rulemaking authority is limited based on 12 U.S.C. 25b, a statute that does not concern national banks' real estate lending powers. Specifically, these commenters pointed to the OCC's concurrent proposed preemption determination related to State interest-on-escrow laws"
+        ],
+        [
+          "model",
+          "UUU"
+        ],
+        [
+          "source",
+          "\\55\\"
+        ],
+        [
+          "equal",
+          "and asserted that the proposed rule on bank powers was merely pretext for achieving other aims."
+        ]
+      ],
+      "similarity": 0.9915
+    },
+    "2a6a8dfb81e2d119": {
+      "closest_end": 58725,
+      "closest_quote": "All nonpublic information submitted to the Secretary under subparts F and G of this part shall be considered proprietary information and shall: (1) Be handled and stored by Treasury in an appropriately secure manner; (2) Be considered, where appropriate, to be",
+      "closest_start": 58465,
+      "diff": [
+        [
+          "equal",
+          "All nonpublic information submitted to the Secretary under subparts F and G of this part shall be considered proprietary information and shall:"
+        ],
+        [
+          "model",
+          "(3) Not be publicly released"
+        ],
+        [
+          "source",
+          "(1) Be handled and stored by Treasury"
+        ],
+        [
+          "equal",
+          "in"
+        ],
+        [
+          "model",
+          "any unaggregated form in which a consumer, policyholder, or insurer is identifiable."
+        ],
+        [
+          "source",
+          "an appropriately secure manner; (2) Be considered, where appropriate, to be"
+        ]
+      ],
+      "similarity": 0.7038
+    },
+    "2aa17198cebd0aa9": {
+      "closest_end": 24617,
+      "closest_quote": "The OCC agrees that these interest-on-escrow laws both have substantively equivalent terms to New York's interest-on- escrow law, and the OCC has incorporated these laws into its preemption determination.\\23\\",
+      "closest_start": 24407,
+      "diff": [
+        [
+          "equal",
+          "The OCC agrees that these interest-on-escrow laws both have substantively equivalent terms to New York's"
+        ],
+        [
+          "model",
+          "interest-on-escrow"
+        ],
+        [
+          "source",
+          "interest-on- escrow"
+        ],
+        [
+          "equal",
+          "law, and the OCC has incorporated these laws into its preemption"
+        ],
+        [
+          "model",
+          "determination."
+        ],
+        [
+          "source",
+          "determination.\\23\\"
+        ]
+      ],
+      "similarity": 0.9878
+    },
+    "2b518121d34c91b8": {
+      "closest_end": 38624,
+      "closest_quote": "generally applicable infrastructure laws typically apply to national banks, unless they prevent or significantly interfere with a national bank's exercise of its Federally authorized powers. ---------------------------------------------------------------------------",
+      "closest_start": 38355,
+      "diff": [
+        [
+          "equal",
+          "generally applicable infrastructure laws typically apply to national banks, unless they prevent or significantly interfere with a"
+        ],
+        [
+          "model",
+          "national,"
+        ],
+        [
+          "source",
+          "national"
+        ],
+        [
+          "equal",
+          "bank's exercise of its Federally authorized powers."
+        ],
+        [
+          "source",
+          "---------------------------------------------------------------------------"
+        ]
+      ],
+      "similarity": 0.8315
+    },
+    "2c0a2f92c3954220": {
+      "closest_end": 18189,
+      "closest_quote": "Participation--(1) In general. A taxpayer has participated in a transaction identified as a listed transaction in paragraph (a) of this section if the taxpayer's tax return reflects tax consequences or a tax strategy described in this section as provided under Sec. 1.6011- 4(c)(3)(i)(A). These tax consequences include those tax consequences that would affect any gift tax return, whether or not such gift tax return was filed.",
+      "closest_start": 17755,
+      "diff": [
+        [
+          "model",
+          "(1)"
+        ],
+        [
+          "source",
+          "Participation--(1)"
+        ],
+        [
+          "equal",
+          "In general. A taxpayer has participated in a transaction identified as a listed transaction in paragraph (a) of this section if the taxpayer's tax return reflects tax consequences or a tax strategy described in this section as provided under Sec."
+        ],
+        [
+          "model",
+          "1.6011-4(c)(3)(i)(A)."
+        ],
+        [
+          "source",
+          "1.6011- 4(c)(3)(i)(A)."
+        ],
+        [
+          "equal",
+          "These tax consequences include those tax consequences that would affect any gift tax return, whether or not such gift tax return was filed."
+        ]
+      ],
+      "similarity": 0.981
+    },
+    "2de2d6cdbfde164e": {
+      "closest_end": 25942,
+      "closest_quote": "an implementing Agency retains the discretion to decide whether the reporting of any data field or report is mandatory or voluntary, consistent with applicable law.",
+      "closest_start": 25775,
+      "diff": [
+        [
+          "model",
+          "An"
+        ],
+        [
+          "source",
+          "an"
+        ],
+        [
+          "equal",
+          "implementing Agency retains the discretion to decide whether the reporting of any data field or report is mandatory or voluntary, consistent with applicable law."
+        ]
+      ],
+      "similarity": 0.9939
+    },
+    "2f8e5da610b5a1ca": {
+      "closest_end": 63504,
+      "closest_quote": "The OCC has analyzed the final rule under the factors in the Unfunded Mandates Reform Act of 1995 (UMRA).\\63\\",
+      "closest_start": 63394,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "OCC has analyzed the final rule under the factors in the Unfunded Mandates Reform Act of 1995"
+        ],
+        [
+          "model",
+          "(UMRA)."
+        ],
+        [
+          "source",
+          "(UMRA).\\63\\"
+        ]
+      ],
+      "similarity": 0.972
+    },
+    "30cad37d724ff5f5": {
+      "closest_end": 9506,
+      "closest_quote": "substantively equivalent terms; \\12\\ and (3) these substantively equivalent State laws are also preempted.\\13\\",
+      "closest_start": 9395,
+      "diff": [
+        [
+          "model",
+          "the OCC proposed to conclude that"
+        ],
+        [
+          "source",
+          "substantively equivalent terms; \\12\\ and"
+        ],
+        [
+          "equal",
+          "(3) these substantively equivalent State laws are also"
+        ],
+        [
+          "model",
+          "preempted."
+        ],
+        [
+          "source",
+          "preempted.\\13\\"
+        ]
+      ],
+      "similarity": 0.6986
+    },
+    "31dd8e7918fcc219": {
+      "closest_end": 32146,
+      "closest_quote": "the Departments provided a definition for a bundled arrangement in the August 2022 Technical Assistance for Certified IDR Entities.\\26\\",
+      "closest_start": 32009,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Departments provided a definition for a bundled arrangement in the August 2022 Technical Assistance for Certified IDR"
+        ],
+        [
+          "model",
+          "Entities."
+        ],
+        [
+          "source",
+          "Entities.\\26\\"
+        ]
+      ],
+      "similarity": 0.9774
+    },
+    "3238eed7fcdb2aeb": {
+      "closest_end": 78312,
+      "closest_quote": "The Initial Certification of Loss will include the following: (1) Basic information, on a form prescribed by Treasury, about each insured loss paid (or to be paid pursuant to § 50.73(b)(2)(i)) by the insurer. The form will include: (i) A listing of each insured loss paid (or to be paid pursuant to § 50.73(b)(2)(i)) by the insurer by catastrophe code and line of business; (ii) The total amount of reinsurance recovered from other sources; (iii) A calculation of the aggregate insured losses sustained by the insurer above its insurer deductible for the calendar year; and (iv) The amount the insurer claims as the Federal share of compensation for its aggregate insured losses.",
+      "closest_start": 77631,
+      "diff": [
+        [
+          "equal",
+          "The Initial Certification of Loss will include the following: (1) Basic information, on a form prescribed by Treasury, about each insured loss paid (or to be paid pursuant to § 50.73(b)(2)(i)) by the insurer. The form will include: (i) A listing of each insured loss paid (or to be paid pursuant to §"
+        ],
+        [
+          "model",
+          "50,73(b)(2)(i))"
+        ],
+        [
+          "source",
+          "50.73(b)(2)(i))"
+        ],
+        [
+          "equal",
+          "by the insurer by catastrophe code and line of business; (ii) The total amount of reinsurance recovered from other sources; (iii) A calculation of the aggregate insured losses sustained by the insurer above its insurer deductible for the calendar year; and (iv) The amount the insurer claims as the Federal share of compensation for its aggregate insured losses."
+        ]
+      ],
+      "similarity": 0.9985
+    },
+    "33961b9a82254639": {
+      "closest_end": 56225,
+      "closest_quote": "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than 30 days after the date of service of the Penalty Notice; (2)",
+      "closest_start": 56014,
+      "diff": [
+        [
+          "equal",
+          "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than"
+        ],
+        [
+          "model",
+          "3,0"
+        ],
+        [
+          "source",
+          "30"
+        ],
+        [
+          "equal",
+          "days after the date of service of the Penalty Notice;"
+        ],
+        [
+          "source",
+          "(2)"
+        ]
+      ],
+      "similarity": 0.9881
+    },
+    "341746bc57873431": {
+      "closest_end": 39001,
+      "closest_quote": "The burden for the additional collection of information contained in Sec. 1.6050Y-3 of the final regulations will be reflected on Form 1099-R, Distributions From Pensions, Annuities, Retirement or Profit- Sharing Plans, IRAs, Insurance Contracts, etc., when the burden is revised to reflect the additional collection of information in Sec. 1.6050Y-3.",
+      "closest_start": 38645,
+      "diff": [
+        [
+          "equal",
+          "The burden for the additional collection of information contained in Sec. 1.6050Y-3 of the final regulations will be reflected on Form 1099-R, Distributions From Pensions, Annuities, Retirement or"
+        ],
+        [
+          "model",
+          "Profit-Sharing"
+        ],
+        [
+          "source",
+          "Profit- Sharing"
+        ],
+        [
+          "equal",
+          "Plans, IRAs, Insurance Contracts, etc., when the burden is revised to reflect the additional collection of information in Sec. 1.6050Y-3."
+        ]
+      ],
+      "similarity": 0.9986
+    },
+    "34339e4c16c8d6d6": {
+      "closest_end": 21988,
+      "closest_quote": "commenter also suggested removing the requirement in Sec. 1.6050Y-3(d)(1) of the 2023 proposed regulations that section 6050Y(b) issuers furnish a statement to sellers (policyholders) who make a section 1035 exchange.",
+      "closest_start": 21767,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "equal",
+          "commenter"
+        ],
+        [
+          "source",
+          "also"
+        ],
+        [
+          "equal",
+          "suggested removing the requirement in Sec. 1.6050Y-3(d)(1) of the 2023 proposed regulations that section 6050Y(b) issuers furnish a statement to sellers (policyholders) who make a section 1035 exchange."
+        ]
+      ],
+      "similarity": 0.9792
+    },
+    "379221d6f0611373": {
+      "closest_end": 9426,
+      "closest_quote": "the State's interest-on-escrow law; (2) eleven other States have laws with substantively equivalent terms;",
+      "closest_start": 9318,
+      "diff": [
+        [
+          "equal",
+          "the"
+        ],
+        [
+          "model",
+          "OCC proposed to conclude that"
+        ],
+        [
+          "source",
+          "State's interest-on-escrow law;"
+        ],
+        [
+          "equal",
+          "(2) eleven other States have laws with substantively equivalent terms;"
+        ]
+      ],
+      "similarity": 0.7429
+    },
+    "3a09263c88b6ddc8": {
+      "closest_end": 25460,
+      "closest_quote": "nothing in the FDTA may be construed to prohibit an Agency from tailoring the data standards when those standards are adopted.",
+      "closest_start": 25332,
+      "diff": [
+        [
+          "model",
+          "Nothing"
+        ],
+        [
+          "source",
+          "nothing"
+        ],
+        [
+          "equal",
+          "in the FDTA may be construed to prohibit an Agency from tailoring the data standards when those standards are adopted."
+        ]
+      ],
+      "similarity": 0.9921
+    },
+    "3c8a72164e0634fe": {
+      "closest_end": 29347,
+      "closest_quote": "Any notice of failure to renew or closure of a U.S. branch of a foreign bank required to be sent to the Internal Revenue Service must be sent to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on <a href=\"https://www.irs.gov\">https://www.irs.gov</a>.",
+      "closest_start": 29000,
+      "diff": [
+        [
+          "equal",
+          "Any notice of failure to renew or closure of a U.S. branch of a foreign bank required to be sent to the Internal Revenue Service must be sent to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on"
+        ],
+        [
+          "model",
+          "https://www.irs.gov."
+        ],
+        [
+          "source",
+          "<a href=\"https://www.irs.gov\">https://www.irs.gov</a>."
+        ]
+      ],
+      "similarity": 0.9479
+    },
+    "3cda2d490f2f8e3d": {
+      "closest_end": 8831,
+      "closest_quote": "plans and issuers and nonparticipating providers of air ambulance services to utilize the Federal IDR process. The",
+      "closest_start": 8712,
+      "diff": [
+        [
+          "equal",
+          "plans and issuers and nonparticipating providers of air ambulance services"
+        ],
+        [
+          "model",
+          "may"
+        ],
+        [
+          "source",
+          "to"
+        ],
+        [
+          "equal",
+          "utilize the Federal IDR process."
+        ],
+        [
+          "source",
+          "The"
+        ]
+      ],
+      "similarity": 0.96
+    },
+    "3ff972a928c367ae": {
+      "closest_end": 28711,
+      "closest_quote": "before issuing the proposed joint rule, the implementing Agencies and Treasury consulted with a variety of Federal governmental entities with relevant experience.\\23\\",
+      "closest_start": 28543,
+      "diff": [
+        [
+          "model",
+          "Before"
+        ],
+        [
+          "source",
+          "before"
+        ],
+        [
+          "equal",
+          "issuing the proposed joint rule, the implementing Agencies and Treasury consulted with a variety of Federal governmental entities with relevant"
+        ],
+        [
+          "model",
+          "experience."
+        ],
+        [
+          "source",
+          "experience.\\23\\"
+        ]
+      ],
+      "similarity": 0.9817
+    },
+    "41ee44e632eecb60": {
+      "closest_end": 51872,
+      "closest_quote": "The States and territories that require their own State- chartered banks to pay specified interest amounts on mortgage-escrow accounts include California (Cal. Civ. Code sec. 2954.8 (2025)), Connecticut (Conn. Gen. Stat. sec. 49-2a (2025)), Guam (11 Guam Code Ann. sec. 106103 (2024)); Maine (Me. Rev. Stat. Ann. tit. 9-B, sec. 429; id. tit. 33, sec. 504), Maryland (Md. Code Ann., Com. Law secs. 12-109, 12-109.2 (2025)), Massachusetts (Mass. Gen. Laws ch. 183, sec. 61 (2025)), Minnesota (Minn. Stat. Ann. sec. 47.20, subd. 9 (2025)), New Hampshire (N.H. Rev. Stat. Ann. sec. 383-B:3- 303(a)(7)(E) (2025)), New York (N.Y. Gen. Oblig. Law sec. 5-601 (2025)), Oregon (Or. Rev. Stat. secs. 86.245, 86.250 (2025)), Rhode Island (19 R.I. Gen. Laws sec. 19-9-2 (2025)), U.S. Virgin Islands (V.I. Code tit. 9, sec. 67 2025), Utah (Utah Code Ann. sec. 7-17-3 (2025)), Vermont (Vt. Stat. Ann. tit. 8, sec. 10404 (2025)), and Wisconsin (Wis. Stat. secs. 138.051, 138.052 (2025)).",
+      "closest_start": 50889,
+      "diff": [
+        [
+          "equal",
+          "The States and territories that require their own"
+        ],
+        [
+          "model",
+          "State-chartered"
+        ],
+        [
+          "source",
+          "State- chartered"
+        ],
+        [
+          "equal",
+          "banks to pay specified interest amounts on mortgage-escrow accounts include California (Cal. Civ. Code sec. 2954.8 (2025)), Connecticut (Conn. Gen. Stat. sec. 49-2a (2025)), Guam (11 Guam Code Ann. sec. 106103 (2024)); Maine (Me. Rev. Stat. Ann. tit. 9-B, sec. 429; id. tit. 33, sec. 504), Maryland (Md. Code Ann., Com. Law secs. 12-109, 12-109.2 (2025)), Massachusetts (Mass. Gen. Laws ch. 183, sec. 61 (2025)), Minnesota (Minn. Stat. Ann. sec. 47.20, subd. 9 (2025)), New Hampshire (N.H. Rev. Stat. Ann. sec."
+        ],
+        [
+          "model",
+          "383-B:3-303(a)(7)(E)"
+        ],
+        [
+          "source",
+          "383-B:3- 303(a)(7)(E)"
+        ],
+        [
+          "equal",
+          "(2025)), New York (N.Y. Gen. Oblig. Law sec. 5-601 (2025)), Oregon (Or. Rev. Stat. secs. 86.245, 86.250 (2025)), Rhode Island (19 R.I. Gen. Laws sec. 19-9-2 (2025)), U.S. Virgin Islands (V.I. Code tit. 9, sec. 67 2025), Utah (Utah Code Ann. sec. 7-17-3 (2025)), Vermont (Vt. Stat. Ann. tit. 8, sec. 10404 (2025)), and Wisconsin (Wis. Stat. secs. 138.051, 138.052 (2025))."
+        ]
+      ],
+      "similarity": 0.999
+    },
+    "44a3d43a8b982a58": {
+      "closest_end": 57772,
+      "closest_quote": "The final rule codifies these powers in the context of Federal savings associations in substantially similar terms.\\57\\",
+      "closest_start": 57651,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "final rule codifies these powers in the context of Federal savings associations in substantially similar"
+        ],
+        [
+          "model",
+          "terms."
+        ],
+        [
+          "source",
+          "terms.\\57\\"
+        ]
+      ],
+      "similarity": 0.9744
+    },
+    "47ffc90fa4dcb285": {
+      "closest_end": 10464,
+      "closest_quote": "the Treasury Department and IRS have determined that it is unnecessary to address the issue in the regulatory text.",
+      "closest_start": 10347,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Treasury Department and IRS have determined that it is unnecessary to address the issue in the regulatory text."
+        ]
+      ],
+      "similarity": 0.9913
+    },
+    "487232e4323ec07f": {
+      "closest_end": 25765,
+      "closest_quote": "the FDTA does not impose new information collection requirements. That is, it does not require an implementing Agency to collect or make publicly available additional information that the Agency was not already collecting or making publicly available prior to the enactment of the FDTA.\\19\\",
+      "closest_start": 25471,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "FDTA does not impose new information collection requirements. That is, it does not require an implementing Agency to collect or make publicly available additional information that the Agency was not already collecting or making publicly available prior to the enactment of the"
+        ],
+        [
+          "model",
+          "FDTA."
+        ],
+        [
+          "source",
+          "FDTA.\\19\\"
+        ]
+      ],
+      "similarity": 0.9896
+    },
+    "4a20f0a3d0e95473": {
+      "closest_end": 5689,
+      "closest_quote": "Any transaction involving a blocked vessel; (5) The formation of new joint ventures or other entities in Venezuela to explore or produce oil, gas, or petrochemical products or to generate, transmit, store, or distribute electricity;",
+      "closest_start": 5451,
+      "diff": [
+        [
+          "model",
+          "This general license does not authorize:"
+        ],
+        [
+          "source",
+          "Any transaction involving a blocked vessel;"
+        ],
+        [
+          "equal",
+          "(5) The formation of new joint ventures or other entities in Venezuela to explore or produce oil, gas, or petrochemical products or to generate, transmit, store, or distribute electricity;"
+        ]
+      ],
+      "similarity": 0.8633
+    },
+    "4ab78dce4e7f3588": {
+      "closest_end": 15563,
+      "closest_quote": "final regulations also include reporting requirements related to Form 706-QDT used to calculate and report the section 2056A estate tax due or to notify the IRS that the trust is exempt from future filing because a noncitizen spouse has become a citizen.",
+      "closest_start": 15306,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "equal",
+          "final regulations"
+        ],
+        [
+          "source",
+          "also"
+        ],
+        [
+          "equal",
+          "include reporting requirements related to Form 706-QDT used to calculate and report the section 2056A estate tax due or to notify the IRS that the trust is exempt from future filing because a noncitizen spouse has become a citizen."
+        ]
+      ],
+      "similarity": 0.9822
+    },
+    "4d30e1d55ee82851": {
+      "closest_end": 23902,
+      "closest_quote": "To determine the correct address to use when submitting the required documentation, see IRS Publication 4235, Collection Advisory Offices Contact Information, or as otherwise provided in IRS forms or instructions or on <a href=\"https://www.irs.gov\">https://www.irs.gov</a>.",
+      "closest_start": 23626,
+      "diff": [
+        [
+          "equal",
+          "To determine the correct address to use when submitting the required documentation, see IRS Publication 4235, Collection Advisory Offices Contact Information, or as otherwise provided in IRS forms or instructions or on"
+        ],
+        [
+          "model",
+          "https://www.irs.gov."
+        ],
+        [
+          "source",
+          "<a href=\"https://www.irs.gov\">https://www.irs.gov</a>."
+        ]
+      ],
+      "similarity": 0.9336
+    },
+    "4df9b5701e531371": {
+      "closest_end": 24962,
+      "closest_quote": "the requirement under Sec. 1.6050Y-3(a) of the 2023 proposed regulations for section 1035 issuers (both old issuers described in Sec. 1.6050Y-1(a)(8)(v)(A) of the 2023 proposed regulations and new issuers described in Sec. 1.6050Y- 1(a)(8)(v)(B) of the 2023 proposed regulations) to file information returns is not adopted;",
+      "closest_start": 24632,
+      "diff": [
+        [
+          "equal",
+          "the requirement under Sec. 1.6050Y-3(a) of the 2023 proposed regulations for section 1035 issuers (both old issuers described in Sec. 1.6050Y-1(a)(8)(v)(A) of the 2023 proposed regulations and new issuers described in Sec."
+        ],
+        [
+          "model",
+          "1.6050Y-1(a)(8)(v)(B)"
+        ],
+        [
+          "source",
+          "1.6050Y- 1(a)(8)(v)(B)"
+        ],
+        [
+          "equal",
+          "of the 2023 proposed regulations) to file information returns is not"
+        ],
+        [
+          "model",
+          "adopted."
+        ],
+        [
+          "source",
+          "adopted;"
+        ]
+      ],
+      "similarity": 0.9953
+    },
+    "4f38e485d4ba2bfc": {
+      "closest_end": 56134,
+      "closest_quote": "The final rule defines ``escrow accounts'' in substantially similar terms in the context of Federal savings associations.",
+      "closest_start": 56012,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "final rule defines ``escrow accounts'' in substantially similar terms in the context of Federal savings associations."
+        ]
+      ],
+      "similarity": 0.9917
+    },
+    "4ffbcce22be1b440": {
+      "closest_end": 66277,
+      "closest_quote": "If OIRA finds the final rule to be a ``significant regulatory action,'' Executive Order 12866 requires the OCC to conduct a cost- benefit analysis of the final rule and for OIRA to conduct a review of the final rule prior to publication in the Federal Register.",
+      "closest_start": 66014,
+      "diff": [
+        [
+          "equal",
+          "If OIRA finds the final rule to be a ``significant regulatory action,'' Executive Order 12866 requires the OCC to conduct a"
+        ],
+        [
+          "model",
+          "cost-benefit"
+        ],
+        [
+          "source",
+          "cost- benefit"
+        ],
+        [
+          "equal",
+          "analysis of the final rule and for OIRA to conduct a review of the final rule prior to publication in the Federal Register."
+        ]
+      ],
+      "similarity": 0.9981
+    },
+    "501d814465695a5f": {
+      "closest_end": 51453,
+      "closest_quote": "We will provide notice to each depository institution that has entered into an autocharge agreement with a submitter or a clearing corporation of the amount to be charged, on the issue date, to the institution's funds account at the Federal Reserve Bank servicing the institution.",
+      "closest_start": 51173,
+      "diff": [
+        [
+          "equal",
+          "We will provide notice to each depository institution that has entered into an autocharge agreement with a"
+        ],
+        [
+          "model",
+          "submitt,"
+        ],
+        [
+          "source",
+          "submitter"
+        ],
+        [
+          "equal",
+          "or a clearing corporation of the amount to be charged, on the issue date, to the institution's funds account at the Federal Reserve Bank servicing the institution."
+        ]
+      ],
+      "similarity": 0.9946
+    },
+    "507624b61de52ebe": {
+      "closest_end": 31084,
+      "closest_quote": "the Departments shall provide that, in the case of items and services which are included by a provider or facility as part of a bundled payment, such items and services may be part of a single determination.",
+      "closest_start": 30874,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Departments shall provide that, in the case of items and services which are included by a provider or facility as part of a bundled payment, such items and services may be part of a single determination."
+        ]
+      ],
+      "similarity": 0.9952
+    },
+    "5112844c836fa719": {
+      "closest_end": 48291,
+      "closest_quote": "The acquisition results from a transaction that qualifies as a reorganization under section 368(a) with respect to which the target C corporation and the acquiring C corporation each is a party to the reorganization (within the meaning of section 368(b));",
+      "closest_start": 48033,
+      "diff": [
+        [
+          "equal",
+          "The acquisition results from a transaction that qualifies as a reorganization under section 368(a) with respect to which the target C corporation and the acquiring C corporation each is a party to the reorganization (within the meaning of section"
+        ],
+        [
+          "model",
+          "368(b))."
+        ],
+        [
+          "source",
+          "368(b));"
+        ]
+      ],
+      "similarity": 0.9961
+    },
+    "538ffabad423d253": {
+      "closest_end": 27240,
+      "closest_quote": "an Agency may adopt data standards, including data standards other than the joint standards, pursuant to separate authority an Agency may have.",
+      "closest_start": 27095,
+      "diff": [
+        [
+          "model",
+          "An"
+        ],
+        [
+          "source",
+          "an"
+        ],
+        [
+          "equal",
+          "Agency may adopt data standards, including data standards other than the joint standards, pursuant to separate authority an Agency may have."
+        ]
+      ],
+      "similarity": 0.993
+    },
+    "549532c782d04cab": {
+      "closest_end": 74522,
+      "closest_quote": "The OCC has analyzed the final rule under the factors in the Unfunded Mandates Reform Act of 1995 (UMRA).\\90\\",
+      "closest_start": 74412,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "OCC has analyzed the final rule under the factors in the Unfunded Mandates Reform Act of 1995"
+        ],
+        [
+          "model",
+          "(UMRA)."
+        ],
+        [
+          "source",
+          "(UMRA).\\90\\"
+        ]
+      ],
+      "similarity": 0.972
+    },
+    "54f34c02b66b7fa1": {
+      "closest_end": 70001,
+      "closest_quote": "(GLEIF Statutes) (stating that where fees are imposed with relation to the LEI they be modest and based on a cost-recovery basis that avoids monopoly rents).",
+      "closest_start": 69842,
+      "diff": [
+        [
+          "model",
+          "GLEIF Statutes"
+        ],
+        [
+          "source",
+          "(GLEIF Statutes)"
+        ],
+        [
+          "equal",
+          "(stating that where fees are imposed with relation to the LEI they be modest and based on a cost-recovery basis that avoids monopoly rents)."
+        ]
+      ],
+      "similarity": 0.9936
+    },
+    "555cc8ac67d67c58": {
+      "closest_end": 25363,
+      "closest_quote": "the reporting requirements under Sec. 1.6050Y-3(a) and (d) of the 2023 proposed regulations for section 1035 issuers to furnish statements are not adopted and reporting with respect to section 1035 exchanges is instead required under new Sec. 1.6050Y- 3(h).",
+      "closest_start": 25101,
+      "diff": [
+        [
+          "equal",
+          "the reporting requirements under Sec. 1.6050Y-3(a) and (d) of the 2023 proposed regulations for section 1035 issuers to furnish statements are not adopted and reporting with respect to section 1035 exchanges is instead required under new Sec."
+        ],
+        [
+          "model",
+          "1.6050Y-3(h)."
+        ],
+        [
+          "source",
+          "1.6050Y- 3(h)."
+        ]
+      ],
+      "similarity": 0.9981
+    },
+    "55b2d9e809d72e5b": {
+      "closest_end": 24550,
+      "closest_quote": "the data standards adopted by each implementing Agency through its respective Agency- specific rulemaking must take effect not later than two years after the final joint rule is promulgated.\\17\\",
+      "closest_start": 24354,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "data standards adopted by each implementing Agency through its respective"
+        ],
+        [
+          "model",
+          "Agency-specific"
+        ],
+        [
+          "source",
+          "Agency- specific"
+        ],
+        [
+          "equal",
+          "rulemaking must take effect not later than two years after the final joint rule is"
+        ],
+        [
+          "model",
+          "promulgated."
+        ],
+        [
+          "source",
+          "promulgated.\\17\\"
+        ]
+      ],
+      "similarity": 0.9817
+    },
+    "56b876b736029fb3": {
+      "closest_end": 8898,
+      "closest_quote": "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, February 22, 2026, provided that any payment to a blocked person must be made into a blocked interest- bearing account located in the United States:",
+      "closest_start": 8298,
+      "diff": [
+        [
+          "equal",
+          "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, February 22, 2026, provided that any payment to a blocked person must be made into a blocked"
+        ],
+        [
+          "model",
+          "interest-bearing"
+        ],
+        [
+          "source",
+          "interest- bearing"
+        ],
+        [
+          "equal",
+          "account located in the United States:"
+        ]
+      ],
+      "similarity": 0.9992
+    },
+    "58f4e7f624ee3542": {
+      "closest_end": 22817,
+      "closest_quote": "the surviving spouse must either actually transfer the property, or irrevocably assign the property, to a trust (whether created by the decedent, by the decedent's executor, or by the surviving spouse) that meets the requirements of paragraphs (c) and (d) of this section (pertaining, respectively, to statutory requirements and regulatory requirements imposed to ensure collection of tax) prior to the filing of the estate tax return for the decedent's estate and on or before the last date prescribed by law that the QDOT election may be made (see Sec. 20.2056A-3(a)).",
+      "closest_start": 22238,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "surviving spouse must either actually transfer the property, or irrevocably assign the property, to a trust (whether created by the decedent, by the decedent's executor, or by the surviving spouse) that meets the requirements of paragraphs (c) and (d) of this section (pertaining, respectively, to statutory requirements and regulatory requirements imposed to ensure collection of tax) prior to the filing of the estate tax return for the decedent's estate and on or before the last date prescribed by law that the QDOT election may be made (see Sec. 20.2056A-3(a))."
+        ]
+      ],
+      "similarity": 0.9982
+    },
+    "5d6adb69f6918b4b": {
+      "closest_end": 71072,
+      "closest_quote": "The insurer has provided a clear and conspicuous disclosure as required by §§ 50.10 through 50.14 and a cap disclosure as required by § 50.15;",
+      "closest_start": 70928,
+      "diff": [
+        [
+          "equal",
+          "The insurer has provided a clear and conspicuous disclosure as required by §§ 50.10 through"
+        ],
+        [
+          "model",
+          "50,14"
+        ],
+        [
+          "source",
+          "50.14"
+        ],
+        [
+          "equal",
+          "and a cap disclosure as required by § 50.15;"
+        ]
+      ],
+      "similarity": 0.993
+    },
+    "5ef77e567581eca6": {
+      "closest_end": 26658,
+      "closest_quote": "determination, which concludes that (1) the National Bank Act preempts section 5-601 of New York's General Obligations Law, the State's interest-on-escrow law;",
+      "closest_start": 26497,
+      "diff": [
+        [
+          "model",
+          "the OCC proposed to conclude"
+        ],
+        [
+          "source",
+          "determination, which concludes"
+        ],
+        [
+          "equal",
+          "that (1) the National Bank Act preempts section 5-601 of New York's General Obligations Law, the State's interest-on-escrow law;"
+        ]
+      ],
+      "similarity": 0.8924
+    },
+    "5efe1b015577c93a": {
+      "closest_end": 7473,
+      "closest_quote": "general license does not authorize any transactions otherwise prohibited by E.O. 13902, including transactions involving any person [[Page 35142]] blocked pursuant to E.O. 13902 other than the blocked persons described in paragraph (a) of this general license, unless separately authorized.",
+      "closest_start": 7178,
+      "diff": [
+        [
+          "model",
+          "(b) This"
+        ],
+        [
+          "equal",
+          "general license does not authorize any transactions otherwise prohibited by E.O. 13902, including transactions involving any person"
+        ],
+        [
+          "source",
+          "[[Page 35142]]"
+        ],
+        [
+          "equal",
+          "blocked pursuant to E.O. 13902 other than the blocked persons described in paragraph (a) of this general license, unless separately authorized."
+        ]
+      ],
+      "similarity": 0.9582
+    },
+    "604c2d3d834a390e": {
+      "closest_end": 29278,
+      "closest_quote": "Since the earliest days of the Federal banking system, courts have held that banks have wide latitude in managing and protecting property acquired in the usual course of banking, even where such activities are not otherwise [[Page 29343]]",
+      "closest_start": 29036,
+      "diff": [
+        [
+          "equal",
+          "Since the earliest days of the Federal banking system, courts have held that banks have wide latitude in managing and protecting property acquired in the usual course of banking, even where such activities are not otherwise"
+        ],
+        [
+          "model",
+          "permissible."
+        ],
+        [
+          "source",
+          "[[Page 29343]]"
+        ]
+      ],
+      "similarity": 0.9494
+    },
+    "61f41bc56fe51979": {
+      "closest_end": 56824,
+      "closest_quote": "Returns required to be filed under section 6050Y(a)(1) and Sec. 1.6050Y-2(a), section 6050Y(b)(1) and Sec. 1.6050Y-3(a), and section 6050Y(c)(1) and Sec. 1.6050Y-4 must be filed by the later of the applicable deadline set forth in Sec. 1.6050Y-2(c), Sec. 1.6050Y- 3(c), and Sec. 1.6050Y-4(b) or February 28, 2020.",
+      "closest_start": 56502,
+      "diff": [
+        [
+          "equal",
+          "Returns required to be filed under section 6050Y(a)(1) and Sec. 1.6050Y-2(a), section 6050Y(b)(1) and Sec. 1.6050Y-3(a), and section 6050Y(c)(1) and Sec. 1.6050Y-4 must be filed by the later of the applicable deadline set forth in Sec. 1.6050Y-2(c), Sec."
+        ],
+        [
+          "model",
+          "1.6050Y-3(c),"
+        ],
+        [
+          "source",
+          "1.6050Y- 3(c),"
+        ],
+        [
+          "equal",
+          "and Sec. 1.6050Y-4(b) or February 28, 2020."
+        ]
+      ],
+      "similarity": 0.9984
+    },
+    "61f7c5244cbb6920": {
+      "closest_end": 64660,
+      "closest_quote": "on information provided by the Director; (2) State the legal authority under which the hearing is to be held;",
+      "closest_start": 64551,
+      "diff": [
+        [
+          "model",
+          "The Order Instituting Proceedings shall:"
+        ],
+        [
+          "source",
+          "on information provided by the Director;"
+        ],
+        [
+          "equal",
+          "(2) State the legal authority under which the hearing is to be held;"
+        ]
+      ],
+      "similarity": 0.6881
+    },
+    "64209de09793bc4e": {
+      "closest_end": 72701,
+      "closest_quote": "communication. If an ex parte communication is received by the Administrative Law Judge or the Secretary's designee, the Administrative Law Judge or the Secretary's designee, as appropriate, shall cause all of such written communication (or, if the communication is oral, a memorandum stating the substance of the communication) to be placed on the record of the proceeding and served on all parties.",
+      "closest_start": 72301,
+      "diff": [
+        [
+          "source",
+          "communication."
+        ],
+        [
+          "equal",
+          "If an ex parte communication is received by the Administrative Law Judge or the Secretary's designee, the Administrative"
+        ],
+        [
+          "model",
+          "Law,"
+        ],
+        [
+          "source",
+          "Law"
+        ],
+        [
+          "equal",
+          "Judge or the Secretary's designee, as appropriate, shall cause all of such written communication (or, if the communication is oral, a memorandum stating the substance of the communication) to be placed on the record of the proceeding and served on all parties."
+        ]
+      ],
+      "similarity": 0.9796
+    },
+    "64d2d28b9409c3b4": {
+      "closest_end": 16161,
+      "closest_quote": "the Treasury Department and the IRS amend 26 CFR part 1 as follows:",
+      "closest_start": 16093,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Treasury Department and the IRS amend 26 CFR part 1 as follows:"
+        ]
+      ],
+      "similarity": 0.9851
+    },
+    "66804f7be50d578f": {
+      "closest_end": 73539,
+      "closest_quote": "the sum of the Federal share of compensation paid by Treasury to an insurer and the insurer's recoveries for insured losses from other sources shall not be greater than the insurer's aggregate amount of insured losses for acts of terrorism in that calendar year.",
+      "closest_start": 73277,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "sum of the Federal share of compensation paid by Treasury to an insurer and the insurer's recoveries for insured losses from other sources shall not be greater than the insurer's aggregate amount of insured losses for acts of terrorism in that calendar year."
+        ]
+      ],
+      "similarity": 0.9962
+    },
+    "67f820aa84d4adf9": {
+      "closest_end": 9081,
+      "closest_quote": "a partnership would be required to furnish the information reported on only Parts I, II, and III of Form 8308, or a statement that includes the same information, to the transferor and transferee in a section 751(a) exchange by the later of (1) January 31 of the year following the calendar year in which the section 751(a) exchange occurred, or (2) 30 days after the partnership has received notice of the exchange as specified under section 6050K and Sec. 1.6050K-1. Further,",
+      "closest_start": 8593,
+      "diff": [
+        [
+          "equal",
+          "a partnership would be required to furnish the information reported on only Parts I, II, and III of Form 8308, or a statement that includes the same information, to the transferor and transferee in a section 751(a) exchange by the later of (1) January 31 of the year following the calendar year in which the section"
+        ],
+        [
+          "model",
+          "75,1(a)"
+        ],
+        [
+          "source",
+          "751(a)"
+        ],
+        [
+          "equal",
+          "exchange occurred, or (2) 30 days after the partnership has received notice of the exchange as specified under section 6050K and Sec. 1.6050K-1."
+        ],
+        [
+          "source",
+          "Further,"
+        ]
+      ],
+      "similarity": 0.9894
+    },
+    "6a25d325afda8219": {
+      "closest_end": 3787,
+      "closest_quote": "section 6707A(c)(2) defines the term ``listed transaction'' to mean a reportable transaction that is ``the same as, or substantially similar to, a transaction specifically identified by the Secretary as a tax avoidance transaction for purposes of section 6011.''",
+      "closest_start": 3521,
+      "diff": [
+        [
+          "model",
+          "Section"
+        ],
+        [
+          "source",
+          "section"
+        ],
+        [
+          "equal",
+          "6707A(c)(2) defines the term ``listed transaction'' to mean a reportable transaction that is ``the same as, or substantially similar to, a transaction specifically identified by the Secretary as a tax avoidance transaction for purposes of section 6011.''"
+        ]
+      ],
+      "similarity": 0.9962
+    },
+    "7280bf73b3db5929": {
+      "closest_end": 8965,
+      "closest_quote": "Venezuela to explore or produce oil or gas; or (6) Any transactions or dealings related to the exportation or reexportation of diluents, directly or indirectly, to Venezuela.",
+      "closest_start": 8786,
+      "diff": [
+        [
+          "model",
+          "(b) This general license does not authorize:"
+        ],
+        [
+          "source",
+          "Venezuela to explore or produce oil or gas; or"
+        ],
+        [
+          "equal",
+          "(6) Any transactions or dealings related to the exportation or reexportation of diluents, directly or indirectly, to Venezuela."
+        ]
+      ],
+      "similarity": 0.7861
+    },
+    "72cb375910268720": {
+      "closest_end": 10189,
+      "closest_quote": "These rules implement provisions to protect consumers from surprise medical bills for emergency services, non-emergency services furnished by nonparticipating providers for patient visits to participating facilities \\6\\ in certain circumstances, and air ambulance services furnished by nonparticipating providers of air ambulance services.",
+      "closest_start": 9846,
+      "diff": [
+        [
+          "equal",
+          "These rules implement provisions to protect consumers from surprise medical bills for emergency services, non-emergency services furnished by nonparticipating providers for patient visits to participating facilities"
+        ],
+        [
+          "source",
+          "\\6\\"
+        ],
+        [
+          "equal",
+          "in certain circumstances, and air ambulance services furnished by nonparticipating providers of air ambulance services."
+        ]
+      ],
+      "similarity": 0.9941
+    },
+    "74d144ceb75d457d": {
+      "closest_end": 64868,
+      "closest_quote": "authority under which the hearing is to be held; (3) Contain a short and plain statement of the alleged violation(s) to be considered and determined (including the matters of fact and law asserted) in such detail as will permit a specific response thereto;",
+      "closest_start": 64612,
+      "diff": [
+        [
+          "model",
+          "The Order Instituting Proceedings shall:"
+        ],
+        [
+          "source",
+          "authority under which the hearing is to be held;"
+        ],
+        [
+          "equal",
+          "(3) Contain a short and plain statement of the alleged violation(s) to be considered and determined (including the matters of fact and law asserted) in such detail as will permit a specific response thereto;"
+        ]
+      ],
+      "similarity": 0.8929
+    },
+    "78127f1057289dad": {
+      "closest_end": 5374,
+      "closest_quote": "Government of Venezuela, including the petro; (2) Any transaction involving a person located in or organized under the laws of the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled, directly or indirectly, by or in a joint venture with such persons;",
+      "closest_start": 4978,
+      "diff": [
+        [
+          "model",
+          "This general license does not authorize:"
+        ],
+        [
+          "source",
+          "Government of Venezuela, including the petro;"
+        ],
+        [
+          "equal",
+          "(2) Any transaction involving a person located in or organized under the laws of the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled, directly or indirectly, by or in a joint venture with such persons;"
+        ]
+      ],
+      "similarity": 0.9105
+    },
+    "7b26ccc5d94649a9": {
+      "closest_end": 10220,
+      "closest_quote": "to be a material advisor, the charitable remainderman must receive gross income (such as a fee) at least equal to the thresholds in Sec. 301.6111-3(b)(3), and the commenter noted that it was not aware of charitable remaindermen receiving fees for providing material aid, assistance, or advice.",
+      "closest_start": 9922,
+      "diff": [
+        [
+          "model",
+          "To"
+        ],
+        [
+          "source",
+          "to"
+        ],
+        [
+          "equal",
+          "be a material advisor, the charitable remainderman must receive gross income (such as a fee) at least equal to the thresholds in Sec. 301.6111-3(b)(3), and the commenter noted that it was not aware of charitable remaindermen receiving fees for providing material aid, assistance, or advice."
+        ]
+      ],
+      "similarity": 0.9966
+    },
+    "800be9e7d44c03ef": {
+      "closest_end": 24331,
+      "closest_quote": "the data standards that an implementing Agency adopts in its Agency-specific rulemaking must incorporate and ensure compatibility with, to the extent feasible, applicable joint standards.",
+      "closest_start": 24141,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "data standards that an implementing Agency adopts in its Agency-specific rulemaking must incorporate and ensure compatibility with, to the extent feasible, applicable joint standards."
+        ]
+      ],
+      "similarity": 0.9947
+    },
+    "810231490c1fdcd4": {
+      "closest_end": 56013,
+      "closest_quote": "the Director promptly shall issue a Penalty Notice informing the respondent that, absent a timely request for an administrative hearing, the Director will impose the civil monetary penalty described in the Penalty Notice.",
+      "closest_start": 55792,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Director promptly shall issue a Penalty Notice informing the respondent that, absent a timely request for an administrative hearing, the Director will impose the civil monetary penalty described in the Penalty Notice."
+        ]
+      ],
+      "similarity": 0.9955
+    },
+    "8835bb19eed74203": {
+      "closest_end": 61916,
+      "closest_quote": "adjusted values based on the new base reference period. At that time, we will publish information that describes how this conversion will occur.",
+      "closest_start": 61772,
+      "diff": [
+        [
+          "model",
+          "If"
+        ],
+        [
+          "source",
+          "adjusted values based on"
+        ],
+        [
+          "equal",
+          "the"
+        ],
+        [
+          "model",
+          "CPI is rebased to a different time"
+        ],
+        [
+          "source",
+          "new"
+        ],
+        [
+          "equal",
+          "base reference"
+        ],
+        [
+          "model",
+          "period..."
+        ],
+        [
+          "source",
+          "period. At that time,"
+        ],
+        [
+          "equal",
+          "we will publish information that describes how this conversion will occur."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    "8a62c012f9ba81f6": {
+      "closest_end": 54620,
+      "closest_quote": "We will pay principal on bills, notes, and bonds on the maturity date as specified in the auction announcement.",
+      "closest_start": 54509,
+      "diff": [
+        [
+          "model",
+          "we"
+        ],
+        [
+          "source",
+          "We"
+        ],
+        [
+          "equal",
+          "will pay principal on bills, notes, and bonds on the maturity date as specified in the auction announcement."
+        ]
+      ],
+      "similarity": 0.991
+    },
+    "8a835fda01cd1b6d": {
+      "closest_end": 53844,
+      "closest_quote": "Freight forwarders and shippers may not charter, book cargo on, or otherwise deal with blocked vessels.",
+      "closest_start": 53740,
+      "diff": [
+        [
+          "model",
+          "freight"
+        ],
+        [
+          "source",
+          "Freight"
+        ],
+        [
+          "equal",
+          "forwarders and shippers may not charter, book cargo on, or otherwise deal with blocked vessels."
+        ]
+      ],
+      "similarity": 0.9903
+    },
+    "8bf217d30f717df2": {
+      "closest_end": 67638,
+      "closest_quote": "Order 14192, titled ``Unleashing Prosperity Through Deregulation,'' requires that an agency, unless prohibited by law, identify at [[Page 29347]] least 10 existing regulations to be repealed when the agency publicly proposes for notice and comment or otherwise promulgates a new regulation with total costs greater than zero.",
+      "closest_start": 67307,
+      "diff": [
+        [
+          "model",
+          "Executive"
+        ],
+        [
+          "equal",
+          "Order 14192, titled ``Unleashing Prosperity Through Deregulation,'' requires that an agency, unless prohibited by law, identify at"
+        ],
+        [
+          "source",
+          "[[Page 29347]]"
+        ],
+        [
+          "equal",
+          "least 10 existing regulations to be repealed when the agency publicly proposes for notice and comment or otherwise promulgates a new regulation with total costs greater than zero."
+        ]
+      ],
+      "similarity": 0.9612
+    },
+    "8c2c06d33addd46b": {
+      "closest_end": 43983,
+      "closest_quote": "Notwithstanding paragraph (a)(2) of this section and § 50.22(a), property and casualty insurance coverage for insured losses does not have to be made available beyond December 31, 2027, even if the policy period of insurance coverage for losses from events other than acts of terrorism extends beyond that date.",
+      "closest_start": 43671,
+      "diff": [
+        [
+          "equal",
+          "Notwithstanding paragraph (a)(2) of this section and §"
+        ],
+        [
+          "model",
+          "50.21,"
+        ],
+        [
+          "source",
+          "50.22(a),"
+        ],
+        [
+          "equal",
+          "property and casualty insurance coverage for insured losses does not have to be made available beyond December 31, 2027, even if the policy period of insurance coverage for losses from events other than acts of terrorism extends beyond that date."
+        ]
+      ],
+      "similarity": 0.9919
+    },
+    "8cfc4e841926a07e": {
+      "closest_end": 35715,
+      "closest_quote": "State law addressed the transfer and devolution of property in the State,\\42\\ a kind of generally applicable State ``infrastructure'' law that is typically not preempted.\\43\\",
+      "closest_start": 35539,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "equal",
+          "State law addressed the transfer and devolution of property in the"
+        ],
+        [
+          "model",
+          "State,"
+        ],
+        [
+          "source",
+          "State,\\42\\"
+        ],
+        [
+          "equal",
+          "a kind of generally applicable State ``infrastructure'' law that is typically not"
+        ],
+        [
+          "model",
+          "preempted."
+        ],
+        [
+          "source",
+          "preempted.\\43\\"
+        ]
+      ],
+      "similarity": 0.9651
+    },
+    "8d1836915c7ab181": {
+      "closest_end": 63764,
+      "closest_quote": "the OCC considered whether the final rule includes a Federal mandate that may result in the expenditure by State, local, and tribal governments, in the aggregate, or by the private sector, of $100 million or more in any one year ($193",
+      "closest_start": 63527,
+      "diff": [
+        [
+          "equal",
+          "the OCC"
+        ],
+        [
+          "model",
+          "considers"
+        ],
+        [
+          "source",
+          "considered"
+        ],
+        [
+          "equal",
+          "whether the final rule includes a Federal mandate that may result in the expenditure by State, local, and tribal governments, in the aggregate, or by the private sector, of"
+        ],
+        [
+          "model",
+          "$193"
+        ],
+        [
+          "source",
+          "$100"
+        ],
+        [
+          "equal",
+          "million or more in any one"
+        ],
+        [
+          "model",
+          "year."
+        ],
+        [
+          "source",
+          "year ($193"
+        ]
+      ],
+      "similarity": 0.9697
+    },
+    "8dc8dbdce6ba8c0d": {
+      "closest_end": 28639,
+      "closest_quote": "The bond is to be filed (separately from the decedent's Federal estate tax return) by submitting it directly to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on <a href=\"https://www.irs.gov\">https://www.irs.gov</a> on or before the later of the filing date or due date of the decedent's Federal estate tax return (Form 706 or 706-NA) unless an extension for filing the bond is granted under",
+      "closest_start": 28149,
+      "diff": [
+        [
+          "equal",
+          "The bond is to be filed (separately from the decedent's Federal estate tax return) by submitting it directly to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on"
+        ],
+        [
+          "model",
+          "https://www.irs.gov"
+        ],
+        [
+          "source",
+          "<a href=\"https://www.irs.gov\">https://www.irs.gov</a>"
+        ],
+        [
+          "equal",
+          "on or before the later of the filing date or due date of the decedent's Federal estate tax return (Form 706 or 706-NA) unless an extension for filing the bond is granted under"
+        ],
+        [
+          "model",
+          "Sec. 301.9100 of this chapter."
+        ]
+      ],
+      "similarity": 0.9328
+    },
+    "90a2f9dbc139fb02": {
+      "closest_end": 64930,
+      "closest_quote": "will permit a specific response thereto; (4) State the amount of the penalty sought in the proceeding;",
+      "closest_start": 64828,
+      "diff": [
+        [
+          "model",
+          "The Order Instituting Proceedings shall:"
+        ],
+        [
+          "source",
+          "will permit a specific response thereto;"
+        ],
+        [
+          "equal",
+          "(4) State the amount of the penalty sought in the proceeding;"
+        ]
+      ],
+      "similarity": 0.6373
+    },
+    "90c83b6317cd1e65": {
+      "closest_end": 4820,
+      "closest_quote": "(c) Any person that exports, reexports, sells, resells, or supplies U.S.-origin diluents to Venezuela pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#86d5e7e8e5f2efe9e8f5d9efe8e4e9fec6f5f2e7f2e3a8e1e9f0\"><span class=\"__cf_email__\" data-cfemail=\"d487b5bab7a0bdbbbaa78bbdbab6bbac94a7a0b5a0b1fab3bba2\">[email&#160;protected]</span></a>",
+      "closest_start": 4430,
+      "diff": [
+        [
+          "equal",
+          "(c) Any person that exports, reexports, sells, resells, or supplies U.S.-origin diluents to Venezuela pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions: (1) The parties involved; (2) The quantities and values; and (3) The dates the transactions occurred."
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#86d5e7e8e5f2efe9e8f5d9efe8e4e9fec6f5f2e7f2e3a8e1e9f0\"><span class=\"__cf_email__\" data-cfemail=\"d487b5bab7a0bdbbbaa78bbdbab6bbac94a7a0b5a0b1fab3bba2\">[email&#160;protected]</span></a>"
+        ]
+      ],
+      "similarity": 0.5087
+    },
+    "92e403c2833a2adf": {
+      "closest_end": 8650,
+      "closest_quote": "indirectly, by or in a joint venture with such persons; (3) The unblocking of any property blocked pursuant to the VSR;",
+      "closest_start": 8527,
+      "diff": [
+        [
+          "model",
+          "(b) This general license does not authorize:"
+        ],
+        [
+          "source",
+          "indirectly, by or in a joint venture with such persons;"
+        ],
+        [
+          "equal",
+          "(3) The unblocking of any property blocked pursuant to the VSR;"
+        ]
+      ],
+      "similarity": 0.652
+    },
+    "93626e3ae515d197": {
+      "closest_end": 39453,
+      "closest_quote": "section 25b codified the Barnett standard,\\50\\ expressly recognized the OCC's role in preemption, and established procedural requirements for OCC ``preemption determinations.''",
+      "closest_start": 39275,
+      "diff": [
+        [
+          "equal",
+          "section 25b codified the Barnett"
+        ],
+        [
+          "model",
+          "standard,"
+        ],
+        [
+          "source",
+          "standard,\\50\\"
+        ],
+        [
+          "equal",
+          "expressly recognized the OCC's role in preemption, and established procedural requirements for OCC ``preemption determinations.''"
+        ]
+      ],
+      "similarity": 0.9885
+    },
+    "9369ff7de5eb6692": {
+      "closest_end": 19215,
+      "closest_quote": "4965. A tax- exempt entity (as defined in section 4965 of the Code) that is an organization described in section 170(c) and that the purported charitable remainder annuity trust designates as a recipient of the remainder interest described in section 664(d)(1) is not treated as a party to the transaction described in this section for purposes of section 4965 solely by reason of its status as a recipient of the remainder interest described in section 664(d)(1).",
+      "closest_start": 18745,
+      "diff": [
+        [
+          "model",
+          "(1)"
+        ],
+        [
+          "source",
+          "4965."
+        ],
+        [
+          "equal",
+          "A"
+        ],
+        [
+          "model",
+          "tax-exempt"
+        ],
+        [
+          "source",
+          "tax- exempt"
+        ],
+        [
+          "equal",
+          "entity (as defined in section 4965 of the Code) that is an organization described in section 170(c) and that the purported charitable remainder annuity trust designates as a recipient of the remainder interest described in section 664(d)(1) is not treated as a party to the transaction described in this section for purposes of section 4965 solely by reason of its status as a recipient of the remainder interest described in section 664(d)(1)."
+        ]
+      ],
+      "similarity": 0.9903
+    },
+    "93891827ac50f3d8": {
+      "closest_end": 4197,
+      "closest_quote": "section 2056A(a) defines the term ``qualified domestic trust,'' with respect to any decedent, as any trust if (1) its trust instrument meets certain requirements regarding the identity and powers of the trustee, (2) such trust meets such requirements as the Secretary may by regulations prescribe to ensure the collection of any tax imposed by section 2056A(b), and (3) an election under section 2056A by the executor of the decedent applies to such trust.",
+      "closest_start": 3734,
+      "diff": [
+        [
+          "model",
+          "Section"
+        ],
+        [
+          "source",
+          "section"
+        ],
+        [
+          "equal",
+          "2056A(a) defines the term ``qualified domestic trust,'' with respect to any decedent, as any trust if (1) its trust instrument meets certain requirements regarding the identity and powers of the trustee, (2) such trust meets such requirements as the Secretary may by regulations prescribe to ensure the collection of any tax imposed by section 2056A(b), and (3) an election under section 2056A by the executor of the decedent applies to such trust."
+        ]
+      ],
+      "similarity": 0.9978
+    },
+    "943c1f16e723793f": {
+      "closest_end": 58833,
+      "closest_quote": "and G of this part shall be considered proprietary information and shall: (1) Be handled and stored by Treasury in an appropriately secure manner; (2) Be considered, where appropriate, to be trade secrets or commercial or financial information obtained from a person and privileged or confidential;",
+      "closest_start": 58535,
+      "diff": [
+        [
+          "model",
+          "All nonpublic information submitted to the Secretary under subparts F"
+        ],
+        [
+          "equal",
+          "and G of this part shall be considered proprietary information and shall:"
+        ],
+        [
+          "source",
+          "(1) Be handled and stored by Treasury in an appropriately secure manner;"
+        ],
+        [
+          "equal",
+          "(2) Be considered, where appropriate, to be trade secrets or commercial or financial information obtained from a person and privileged or confidential;"
+        ]
+      ],
+      "similarity": 0.7589
+    },
+    "949d3432ebcfcf73": {
+      "closest_end": 6125,
+      "closest_quote": "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\"",
+      "closest_start": 5834,
+      "diff": [
+        [
+          "equal",
+          "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions: (1) The parties involved;"
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\""
+        ]
+      ],
+      "similarity": 0.6713
+    },
+    "951d02d7839fc65b": {
+      "closest_end": 22973,
+      "closest_quote": "29 CFR 2590.716-8(c)(3)(i)(B) and 45 CFR 149.510(c)(3)(i)(B). The District Court vacated the batching provisions of 45 CFR 149.510(c)(3)(i)(C), 26 CFR 54.9816- 8T(c)(3)(i)(C), and 29 CFR 2590.716-8(c)(3)(i)(C) in Tex. Med. Ass'n v. U.S. Dep't of Health & Hum. Servs.,Case No. 6:23-cv-59-JDK (E.D. Tex. Aug. 3, 2023) (TMA IV).",
+      "closest_start": 22644,
+      "diff": [
+        [
+          "equal",
+          "29 CFR 2590.716-8(c)(3)(i)(B) and 45 CFR 149.510(c)(3)(i)(B). The District Court vacated the batching provisions of 45 CFR 149.510(c)(3)(i)(C), 26 CFR"
+        ],
+        [
+          "model",
+          "54.9816-8T(c)(3)(i)(C),"
+        ],
+        [
+          "source",
+          "54.9816- 8T(c)(3)(i)(C),"
+        ],
+        [
+          "equal",
+          "and 29 CFR 2590.716-8(c)(3)(i)(C) in Tex. Med. Ass'n v. U.S. Dep't of Health & Hum."
+        ],
+        [
+          "model",
+          "Servs., Case"
+        ],
+        [
+          "source",
+          "Servs.,Case"
+        ],
+        [
+          "equal",
+          "No. 6:23-cv-59-JDK (E.D. Tex. Aug. 3, 2023) (TMA IV)."
+        ]
+      ],
+      "similarity": 0.9969
+    },
+    "9967f71ff2cfbf24": {
+      "closest_end": 56003,
+      "closest_quote": "Statements required to be furnished to reportable policy sale payment recipients under section 6050Y(a)(2) and Sec. 1.6050Y- 2(d)(1)(i) must be furnished by the later of the applicable deadline set forth in Sec. 1.6050Y-2(d)(1)(ii) or February 28, 2020.",
+      "closest_start": 55746,
+      "diff": [
+        [
+          "equal",
+          "Statements required to be furnished to reportable policy sale payment recipients under section 6050Y(a)(2) and Sec."
+        ],
+        [
+          "model",
+          "1.6050Y-2(d)(1)(i)"
+        ],
+        [
+          "source",
+          "1.6050Y- 2(d)(1)(i)"
+        ],
+        [
+          "equal",
+          "must be furnished by the later of the applicable deadline set forth in Sec. 1.6050Y-2(d)(1)(ii) or February 28, 2020."
+        ]
+      ],
+      "similarity": 0.998
+    },
+    "9a2557ae487ad653": {
+      "closest_end": 8582,
+      "closest_quote": "Government of Venezuela, including the petro; (2) Any transaction involving a person located in or organized under the laws of the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled, directly or indirectly, by or in a joint venture with such persons;",
+      "closest_start": 8186,
+      "diff": [
+        [
+          "model",
+          "(b) This general license does not authorize:"
+        ],
+        [
+          "source",
+          "Government of Venezuela, including the petro;"
+        ],
+        [
+          "equal",
+          "(2) Any transaction involving a person located in or organized under the laws of the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled, directly or indirectly, by or in a joint venture with such persons;"
+        ]
+      ],
+      "similarity": 0.9084
+    },
+    "9c8014df717d2f32": {
+      "closest_end": 39822,
+      "closest_quote": "confirmation, if applicable) is to be filed separately from the decedent's Federal estate tax return (Form 706 or Form 706-NA) by submitting it directly to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on <a href=\"https://www.irs.gov\">https://www.irs.gov</a>, on or before the later of the filing date or the due date of the decedent's Federal estate tax return (unless an extension for filing the letter of credit is granted under Sec. 301.9100 of this chapter).",
+      "closest_start": 39256,
+      "diff": [
+        [
+          "model",
+          "The letter of credit (and"
+        ],
+        [
+          "equal",
+          "confirmation, if applicable) is to be filed separately from the decedent's Federal estate tax return (Form 706 or Form"
+        ],
+        [
+          "model",
+          "70,6-NA)"
+        ],
+        [
+          "source",
+          "706-NA)"
+        ],
+        [
+          "equal",
+          "by submitting it directly to the Estate Tax Advisory Group of the Internal Revenue Service or successor office as provided in IRS publications, forms or instructions, or on"
+        ],
+        [
+          "model",
+          "https://www.irs.gov,"
+        ],
+        [
+          "source",
+          "<a href=\"https://www.irs.gov\">https://www.irs.gov</a>,"
+        ],
+        [
+          "equal",
+          "on or before the later of the filing date or the due date of the decedent's Federal estate tax return (unless an extension for filing the letter of credit is granted under Sec. 301.9100 of this chapter)."
+        ]
+      ],
+      "similarity": 0.945
+    },
+    "9cb71865681de94c": {
+      "closest_end": 46194,
+      "closest_quote": "I also agree that Form 706-QDT is to be filed no later than April 15th of the year following the calendar year in which any annuity payments are received except that: in the case of annuity payments received in the year of my spouse's death, Form 706-QDT and the payment shall not be due prior to the due date, including extensions, for filing my spouse's estate tax return or, if no return is filed, no later than 9 months from the date of my spouse's death (except if I am granted an extension of time to file Form 706-QDT under the provisions of Sec. 20.2056A- 11); and in the year of my death, the Form 706-QDT must be filed and the payment made no later than the date my estate tax return is filed (or if no return is filed, no later than 9 months from the date of my death).",
+      "closest_start": 45402,
+      "diff": [
+        [
+          "equal",
+          "I also agree that Form 706-QDT is to be filed no later than April 15th of the year following the calendar year in which any annuity payments are received except that: in the case of annuity payments received in the year of my spouse's death, Form 706-QDT and the payment shall not be due prior to the due date, including extensions, for filing my spouse's estate tax return or, if no return is filed, no later than 9 months from the date of my spouse's death (except if I am granted an extension of time to file Form 706-QDT under the provisions of Sec."
+        ],
+        [
+          "model",
+          "20.2056A-11);"
+        ],
+        [
+          "source",
+          "20.2056A- 11);"
+        ],
+        [
+          "equal",
+          "and in the year of my death, the Form 706-QDT must be filed and the payment made no later than the date my estate tax return is filed (or if no return is filed, no later than 9 months from the date of my death)."
+        ]
+      ],
+      "similarity": 0.9994
+    },
+    "9dc90a34a7c4f829": {
+      "closest_end": 12239,
+      "closest_quote": "An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information [[Page 42355]] unless the collection of information displays a valid OMB control",
+      "closest_start": 12046,
+      "diff": [
+        [
+          "equal",
+          "An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information"
+        ],
+        [
+          "source",
+          "[[Page 42355]]"
+        ],
+        [
+          "equal",
+          "unless the collection of information displays a valid OMB control"
+        ],
+        [
+          "model",
+          "number."
+        ]
+      ],
+      "similarity": 0.9383
+    },
+    "a13df78baef84632": {
+      "closest_end": 15206,
+      "closest_quote": "A statement of its financial condition, as of the close of the preceding quarter, on the quarterly statement form of the NAIC with all Schedules and Exhibits completed, including copies of the NAIC File Upload, showing that it has paid-up capital of at least $250,000 in cash or its equivalent, in the case of a stock insurance company, or has net assets of not less than $500,000 over and above all liabilities, in the case of a mutual insurance company. The",
+      "closest_start": 14747,
+      "diff": [
+        [
+          "equal",
+          "A statement of its financial condition, as of the close of the preceding quarter, on the quarterly statement form of the NAIC with all Schedules and Exhibits completed, including copies of the NAIC File Upload, showing that it has paid-up capital of at least $250,000 in cash or its equivalent, in the case of a stock insurance company, or has net assets of not less than"
+        ],
+        [
+          "model",
+          "$5,000,000"
+        ],
+        [
+          "source",
+          "$500,000"
+        ],
+        [
+          "equal",
+          "over and above all liabilities, in the case of a mutual insurance company."
+        ],
+        [
+          "source",
+          "The"
+        ]
+      ],
+      "similarity": 0.9934
+    },
+    "a17efe728003b458": {
+      "closest_end": 74721,
+      "closest_quote": "the Administrative Law Judge may direct a representative or any party to attend one or more prehearing conferences.",
+      "closest_start": 74606,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Administrative Law Judge may direct a representative or any party to attend one or more prehearing conferences."
+        ]
+      ],
+      "similarity": 0.9913
+    },
+    "a2979ddc13c5fde5": {
+      "closest_end": 64473,
+      "closest_quote": "The Order Instituting Proceedings shall: (1) Be prepared by the Office of",
+      "closest_start": 64400,
+      "diff": [
+        [
+          "equal",
+          "The Order Instituting Proceedings shall:"
+        ],
+        [
+          "model",
+          "(5)"
+        ],
+        [
+          "source",
+          "(1)"
+        ],
+        [
+          "equal",
+          "Be"
+        ],
+        [
+          "model",
+          "signed"
+        ],
+        [
+          "source",
+          "prepared"
+        ],
+        [
+          "equal",
+          "by the"
+        ],
+        [
+          "model",
+          "Director."
+        ],
+        [
+          "source",
+          "Office of"
+        ]
+      ],
+      "similarity": 0.8333
+    },
+    "a32e6fe44993138d": {
+      "closest_end": 8832,
+      "closest_quote": "(4) Any transaction involving a blocked vessel; (5) The formation of new joint ventures or other entities in Venezuela to explore or produce oil or gas; or",
+      "closest_start": 8672,
+      "diff": [
+        [
+          "model",
+          "(b) This general license does not authorize:"
+        ],
+        [
+          "source",
+          "(4) Any transaction involving a blocked vessel;"
+        ],
+        [
+          "equal",
+          "(5) The formation of new joint ventures or other entities in Venezuela to explore or produce oil or gas; or"
+        ]
+      ],
+      "similarity": 0.7883
+    },
+    "a3c6cee467b32674": {
+      "closest_end": 51019,
+      "closest_quote": "Similarly, an intermediary is responsible for providing notification of any awards to its customers and any intermediaries from whom it received bids.",
+      "closest_start": 50869,
+      "diff": [
+        [
+          "equal",
+          "Similarly, an intermediary is responsible for providing notification of any awards to its customers and any"
+        ],
+        [
+          "model",
+          "intermedi,"
+        ],
+        [
+          "source",
+          "intermediaries"
+        ],
+        [
+          "equal",
+          "from whom it received bids."
+        ]
+      ],
+      "similarity": 0.9797
+    },
+    "a940d9ecc65db0de": {
+      "closest_end": 37107,
+      "closest_quote": "the Supreme Court held that a Kentucky tax law was not preempted,",
+      "closest_start": 37041,
+      "diff": [
+        [
+          "equal",
+          "the Supreme Court held that a Kentucky tax law was not"
+        ],
+        [
+          "model",
+          "preempted."
+        ],
+        [
+          "source",
+          "preempted,"
+        ]
+      ],
+      "similarity": 0.9846
+    },
+    "ac096427c69d1d36": {
+      "closest_end": 38549,
+      "closest_quote": "the final regulations eliminate the reporting obligations that would have been imposed by Sec. 1.6050Y-3 of the 2023 proposed regulations on new issuers with respect to section 1035 exchanges and reduce the reporting obligations that would have been imposed by Sec. 1.6050Y-3 of the 2023 proposed regulations on old issuers with respect to section 1035 exchanges.",
+      "closest_start": 38179,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "final regulations eliminate the reporting obligations that would have been imposed by Sec. 1.6050Y-3 of the 2023 proposed regulations on new issuers with respect to section 1035 exchanges and reduce the reporting obligations that would have been imposed by Sec. 1.6050Y-3 of the 2023 proposed regulations on old issuers with respect to section 1035 exchanges."
+        ]
+      ],
+      "similarity": 0.9972
+    },
+    "aca7036b6560f96f": {
+      "closest_end": 50574,
+      "closest_quote": "Finally, roughly three quarters of States permit State-chartered banks flexibility to exercise their business judgment as to how to structure the financing of their escrow operations for residential real estate lending, either explicitly \\53\\ or implicitly through silence on the subject,\\54\\ and the OCC is not aware of any State restricting this flexibility with regards to commercial real estate lending.",
+      "closest_start": 50162,
+      "diff": [
+        [
+          "equal",
+          "Finally, roughly three quarters of States permit State-chartered banks flexibility to exercise their business judgment as to how to structure the financing of their escrow operations for residential real estate lending, either explicitly"
+        ],
+        [
+          "model",
+          "SSS"
+        ],
+        [
+          "source",
+          "\\53\\"
+        ],
+        [
+          "equal",
+          "or implicitly through silence on the"
+        ],
+        [
+          "model",
+          "subject,TTT"
+        ],
+        [
+          "source",
+          "subject,\\54\\"
+        ],
+        [
+          "equal",
+          "and the OCC is not aware of any State restricting this flexibility with regards to commercial real estate lending."
+        ]
+      ],
+      "similarity": 0.9828
+    },
+    "adce2b777e3db2cf": {
+      "closest_end": 37020,
+      "closest_quote": "An insurer may not describe the premium in a manner that is misleading in the context of the Program, such as by characterizing the premium as a “surcharge.”",
+      "closest_start": 36863,
+      "diff": [
+        [
+          "equal",
+          "An insurer may not describe the premium in a manner that is misleading in the context of the Program, such as by characterizing the premium as a"
+        ],
+        [
+          "model",
+          "\"surcharge.\""
+        ],
+        [
+          "source",
+          "“surcharge.”"
+        ]
+      ],
+      "similarity": 0.9873
+    },
+    "afd76a4da6a3066e": {
+      "closest_end": 14790,
+      "closest_quote": "Enable high quality data through schemas, with accompanying metadata documented in machine-readable taxonomy or ontology models, which clearly define the semantic meaning of the data, as defined by the underlying regulatory information collection requirements,",
+      "closest_start": 14342,
+      "diff": [
+        [
+          "equal",
+          "Enable high quality data through schemas, with accompanying metadata documented in machine-readable taxonomy or ontology models, which clearly define the semantic meaning of the data, as defined by the underlying regulatory information collection"
+        ],
+        [
+          "model",
+          "requirements;"
+        ],
+        [
+          "source",
+          "requirements,"
+        ]
+      ],
+      "similarity": 0.9962
+    },
+    "b3b22be4105e566f": {
+      "closest_end": 22332,
+      "closest_quote": "Disputes are also ineligible when the disputing parties initiate the Federal IDR process after failing to satisfy the 30-business-day open negotiation period requirements specified under 29 CFR 2590.716-8(b)(1) and 45 CFR 149.510(b)(1) or after 4 business days after the end of the 30- business-day open negotiation period as specified under 29 CFR 2590.716-8(b)(2)(i) and 45 CFR 149.510(b)(2)(i).",
+      "closest_start": 21930,
+      "diff": [
+        [
+          "equal",
+          "Disputes are also ineligible when the disputing parties initiate the Federal IDR process after failing to satisfy the 30-business-day open negotiation period requirements specified under 29 CFR 2590.716-8(b)(1) and 45 CFR 149.510(b)(1) or after 4 business days after the end of the"
+        ],
+        [
+          "model",
+          "30-business-day"
+        ],
+        [
+          "source",
+          "30- business-day"
+        ],
+        [
+          "equal",
+          "open negotiation period as specified under 29 CFR 2590.716-8(b)(2)(i) and 45 CFR 149.510(b)(2)(i)."
+        ]
+      ],
+      "similarity": 0.9987
+    },
+    "b72de64fa192eb00": {
+      "closest_end": 26701,
+      "closest_quote": "included amendments to the notice of IDR initiation and new requirements for the initiation response from the non-initiating party.\\22\\",
+      "closest_start": 26564,
+      "diff": [
+        [
+          "model",
+          "include"
+        ],
+        [
+          "source",
+          "included"
+        ],
+        [
+          "equal",
+          "amendments to the notice of IDR initiation and new requirements for the initiation response from the non-initiating"
+        ],
+        [
+          "model",
+          "party."
+        ],
+        [
+          "source",
+          "party.\\22\\"
+        ]
+      ],
+      "similarity": 0.9811
+    },
+    "ba4fddef1531751e": {
+      "closest_end": 19509,
+      "closest_quote": "Applicability date. This section's identification of transactions that are the same as, or substantially similar to, the [[Page 42356]] transaction described in paragraph (b) of this section as listed transactions for purposes of Sec. 1.6011-4(b)(2) is effective on July 9, 2026.",
+      "closest_start": 19224,
+      "diff": [
+        [
+          "model",
+          "(e)"
+        ],
+        [
+          "equal",
+          "Applicability date. This section's identification of transactions that are the same as, or substantially similar to, the"
+        ],
+        [
+          "source",
+          "[[Page 42356]]"
+        ],
+        [
+          "equal",
+          "transaction described in paragraph (b) of this section as listed transactions for purposes of Sec. 1.6011-4(b)(2) is effective on July 9, 2026."
+        ]
+      ],
+      "similarity": 0.9653
+    },
+    "bb0a7975b4b96306": {
+      "closest_end": 10662,
+      "closest_quote": "Servicers must comply with applicable law in connection with [their] management of escrow accounts, including collecting, holding, and escrowing funds on behalf of each borrower in accordance with RESPA (12 [U.S.C.] 2609) and Regulation X (12 CFR 1024.17 and 1024.34). .",
+      "closest_start": 10388,
+      "diff": [
+        [
+          "equal",
+          "Servicers must comply with applicable law in connection with [their] management of escrow accounts, including collecting, holding, and escrowing funds on behalf of each borrower in accordance with RESPA (12 [U.S.C.] 2609) and Regulation X (12 CFR 1024.17 and"
+        ],
+        [
+          "model",
+          "10024.34)."
+        ],
+        [
+          "source",
+          "1024.34). ."
+        ]
+      ],
+      "similarity": 0.9944
+    },
+    "bb15ae2cf259ec24": {
+      "closest_end": 22815,
+      "closest_quote": "the FDTA directs the implementing Agencies to issue Agency-specific rulemakings adopting applicable data standards and to incorporate and ensure compatibility with, to the extent feasible, the joint standards.\\15\\",
+      "closest_start": 22599,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "FDTA directs the implementing Agencies to issue Agency-specific rulemakings adopting applicable data standards and to incorporate and ensure compatibility with, to the extent feasible, the joint"
+        ],
+        [
+          "model",
+          "standards."
+        ],
+        [
+          "source",
+          "standards.\\15\\"
+        ]
+      ],
+      "similarity": 0.9858
+    },
+    "bc5aa2eef039c296": {
+      "closest_end": 6605,
+      "closest_quote": "Sec. 20.2056A- 2T(d) (1995 temporary regulations). The text of the 1995 temporary regulations also served, by cross-reference, as the text of reissued proposed regulations published on the same date in the Federal Register (60 FR 43574) to address and solicit further commentary on the additional requirements necessary to ensure collection of the section 2056A estate tax (1995 proposed regulations).",
+      "closest_start": 6198,
+      "diff": [
+        [
+          "equal",
+          "Sec."
+        ],
+        [
+          "model",
+          "20.2056A-2T(d)"
+        ],
+        [
+          "source",
+          "20.2056A- 2T(d)"
+        ],
+        [
+          "equal",
+          "(1995 temporary regulations). The text of the 1995 temporary regulations also served, by cross-reference, as the text of reissued proposed regulations published on the same date in the Federal Register (60 FR 43574) to address and solicit further commentary on the additional requirements necessary to ensure collection of the section 2056A estate tax (1995 proposed regulations)."
+        ]
+      ],
+      "similarity": 0.9988
+    },
+    "bd9793dbbeed61b3": {
+      "closest_end": 18074,
+      "closest_quote": "section 124(c)(1)(B) of the Financial Stability Act requires that the data standards must, to the extent practicable: <bullet> Render data fully searchable and machine-readable;",
+      "closest_start": 17892,
+      "diff": [
+        [
+          "equal",
+          "section 124(c)(1)(B) of the Financial Stability Act requires that the data standards must, to the extent practicable:"
+        ],
+        [
+          "source",
+          "<bullet>"
+        ],
+        [
+          "equal",
+          "Render data fully searchable and machine-readable;"
+        ]
+      ],
+      "similarity": 0.9739
+    },
+    "bf280e293c5a7e66": {
+      "closest_end": 25279,
+      "closest_quote": "each implementing Agency (1) may scale data reporting requirements to reduce any unjustified burden on smaller entities affected by the regulations and (2) must seek to minimize disruptive changes to those entities or persons.\\18\\",
+      "closest_start": 25046,
+      "diff": [
+        [
+          "model",
+          "Each"
+        ],
+        [
+          "source",
+          "each"
+        ],
+        [
+          "equal",
+          "implementing Agency (1) may scale data reporting requirements to reduce any unjustified burden on smaller entities affected by the regulations and (2) must seek to minimize disruptive changes to those entities or"
+        ],
+        [
+          "model",
+          "persons."
+        ],
+        [
+          "source",
+          "persons.\\18\\"
+        ]
+      ],
+      "similarity": 0.9868
+    },
+    "c125f4ae7e012df1": {
+      "closest_end": 34069,
+      "closest_quote": "the Departments proposed to remove the language under 26 CFR 54.9816-8T(c)(3)(ii), 29 CFR 2590.716- 8(c)(3)(ii), and 45 CFR 149.510(c)(3)(ii) stating that a bundled payment arrangement is subject to the rules for batched disputes.",
+      "closest_start": 33837,
+      "diff": [
+        [
+          "equal",
+          "the Departments proposed to remove the language under 26 CFR 54.9816-8T(c)(3)(ii), 29 CFR"
+        ],
+        [
+          "model",
+          "2590.716-8(c)(3)(ii),"
+        ],
+        [
+          "source",
+          "2590.716- 8(c)(3)(ii),"
+        ],
+        [
+          "equal",
+          "and 45 CFR 149.510(c)(3)(ii) stating that a bundled payment arrangement is subject to the rules for batched disputes."
+        ]
+      ],
+      "similarity": 0.9978
+    },
+    "c31acb553da05886": {
+      "closest_end": 27994,
+      "closest_quote": "of New York's General Obligations Law requires ``mortgage investing institutions'' to pay [[Page 29353]] ``dividends or interest at a rate of not less than two per centum per year . . . or a rate prescribed by the [New York] superintendent of financial services'' on escrow account balances.",
+      "closest_start": 27698,
+      "diff": [
+        [
+          "model",
+          "Section 5-601"
+        ],
+        [
+          "equal",
+          "of New York's General Obligations Law requires ``mortgage investing institutions'' to pay"
+        ],
+        [
+          "source",
+          "[[Page 29353]]"
+        ],
+        [
+          "equal",
+          "``dividends or interest at a rate of not less than two per centum per year . . . or a rate prescribed by the [New York] superintendent of financial services'' on escrow account balances."
+        ]
+      ],
+      "similarity": 0.9501
+    },
+    "c34156e8c4b2b862": {
+      "closest_end": 16034,
+      "closest_quote": "Section 124(b) of the Financial Stability Act directs the Agencies to jointly issue regulations establishing data standards for (1) certain collections of information reported to each Agency by financial entities \\6\\ under the jurisdiction of the Agency, and (2) the data collected from the Agencies on behalf of the Financial Stability Oversight Council (FSOC).",
+      "closest_start": 15667,
+      "diff": [
+        [
+          "equal",
+          "Section 124(b) of the Financial Stability Act directs the Agencies to jointly issue regulations establishing data standards for (1) certain collections of information reported to each Agency by financial entities"
+        ],
+        [
+          "source",
+          "\\6\\"
+        ],
+        [
+          "equal",
+          "under the jurisdiction of the Agency, and (2) the data collected from the Agencies on behalf of the Financial Stability Oversight Council (FSOC)."
+        ]
+      ],
+      "similarity": 0.9944
+    },
+    "c5836d9288783cc2": {
+      "closest_end": 28068,
+      "closest_quote": "the proposed rule included amendments related to the collection of certified IDR entity fees and administrative fees.",
+      "closest_start": 27949,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "proposed rule included amendments related to the collection of certified IDR entity fees and administrative fees."
+        ]
+      ],
+      "similarity": 0.9915
+    },
+    "c5dcb744de24333f": {
+      "closest_end": 40367,
+      "closest_quote": "An insurer is deemed to be in compliance with the requirement of providing disclosure “at the time of offer, purchase, and renewal of the policy” under § 50.15(b) if the insurer: (1) Makes the disclosure no later than the time the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder; and (2) If terrorism risk coverage is purchased, the insurer makes clear and conspicuous reference back to that disclosure, as well as the final terms of terrorism insurance coverage, at the time the transaction is completed.",
+      "closest_start": 39804,
+      "diff": [
+        [
+          "equal",
+          "An insurer is deemed to be in compliance with the requirement of providing disclosure"
+        ],
+        [
+          "model",
+          "\"at"
+        ],
+        [
+          "source",
+          "“at"
+        ],
+        [
+          "equal",
+          "the time of offer, purchase, and renewal of the"
+        ],
+        [
+          "model",
+          "policy\""
+        ],
+        [
+          "source",
+          "policy”"
+        ],
+        [
+          "equal",
+          "under § 50.15(b) if the insurer: (1) Makes the disclosure no later than the time the insurer first formally offers to provide insurance coverage or renew a policy for a current policyholder; and (2) If terrorism risk coverage is purchased, the insurer makes clear and conspicuous reference back to that disclosure, as well as the final terms of terrorism insurance coverage, at the time the transaction is completed."
+        ]
+      ],
+      "similarity": 0.9964
+    },
+    "c5fc0c29f16fcc20": {
+      "closest_end": 28646,
+      "closest_quote": "if you have more than one bid in an auction and you must report either your net long position or a zero, you must report that figure only once.",
+      "closest_start": 28503,
+      "diff": [
+        [
+          "model",
+          "If"
+        ],
+        [
+          "source",
+          "if"
+        ],
+        [
+          "equal",
+          "you have more than one bid in an auction and you must report either your net long position or a zero, you must report that figure only once."
+        ]
+      ],
+      "similarity": 0.993
+    },
+    "c746399be4ff305c": {
+      "closest_end": 26637,
+      "closest_quote": "an Agency could determine to use an identifier that is not in the joint standards, including an Agency-specific identifier, rather than, or in addition to or in combination with, an identifier established by the final joint rule.",
+      "closest_start": 26404,
+      "diff": [
+        [
+          "model",
+          "An"
+        ],
+        [
+          "source",
+          "an"
+        ],
+        [
+          "equal",
+          "Agency could determine to use an identifier that is not in the joint standards, including an Agency-specific identifier, rather than, or in addition to or in combination with, an identifier established by the final joint rule."
+        ]
+      ],
+      "similarity": 0.9956
+    },
+    "c9c7fdd82f9c0f1f": {
+      "closest_end": 35143,
+      "closest_quote": "The Supreme Court has also recognized that when a State law does not prevent or significantly interfere with the national bank's exercise of its powers, it is not preempted.\\40\\",
+      "closest_start": 34964,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "Supreme Court has also recognized that when a State law does not prevent or significantly interfere with the national bank's exercise of its powers, it is not"
+        ],
+        [
+          "model",
+          "preempted."
+        ],
+        [
+          "source",
+          "preempted.\\40\\"
+        ]
+      ],
+      "similarity": 0.9829
+    },
+    "cb4daae3ad2ff665": {
+      "closest_end": 9632,
+      "closest_quote": "a mere suggestion or description of a trust qualifying as a CRAT would not be a statement relating to a tax aspect of the transaction that causes the transaction to be a reportable transaction.",
+      "closest_start": 9437,
+      "diff": [
+        [
+          "model",
+          "A"
+        ],
+        [
+          "source",
+          "a"
+        ],
+        [
+          "equal",
+          "mere suggestion or description of a trust qualifying as a CRAT would not be a statement relating to a tax aspect of the transaction that causes the transaction to be a reportable transaction."
+        ]
+      ],
+      "similarity": 0.9948
+    },
+    "cc5978d32f2a5e33": {
+      "closest_end": 16034,
+      "closest_quote": "Section 124(b) of the Financial Stability Act directs the Agencies to jointly issue regulations establishing data standards for (1) certain collections of information reported to each Agency by financial entities \\6\\ under the jurisdiction of the Agency, and (2) the data collected from the Agencies on behalf of the Financial Stability Oversight Council (FSOC).",
+      "closest_start": 15667,
+      "diff": [
+        [
+          "equal",
+          "Section 124(b) of the Financial Stability Act directs the Agencies to jointly issue regulations establishing data standards for (1) certain collections of information reported to each Agency by financial entities"
+        ],
+        [
+          "source",
+          "\\6\\"
+        ],
+        [
+          "equal",
+          "under the jurisdiction of the Agency, and (2) the data collected from the Agencies on behalf of the Financial Stability Oversight Council (FSOC)."
+        ]
+      ],
+      "similarity": 0.9944
+    },
+    "ccac68eb7fed2a53": {
+      "closest_end": 4236,
+      "closest_quote": "Transactions authorized by paragraph (a) include arranging shipping and logistics services, including chartering vessels, obtaining marine insurance and protection and indemnity (P&I) coverage, and arranging port and terminal services, including with port authorities or terminal operators that are part of the Government of Venezuela. Paragraph (a) also authorizes commercially reasonable payments in the form of swaps of crude oil, diluents, or refined petroleum products.",
+      "closest_start": 3755,
+      "diff": [
+        [
+          "equal",
+          "Transactions authorized by paragraph (a) include arranging shipping and logistics services, including"
+        ],
+        [
+          "model",
+          "charting"
+        ],
+        [
+          "source",
+          "chartering"
+        ],
+        [
+          "equal",
+          "vessels, obtaining marine insurance and protection and indemnity (P&I) coverage, and arranging port and terminal services, including with port authorities or terminal operators that are part of the Government of Venezuela. Paragraph (a) also authorizes commercially reasonable payments in the form of swaps of crude oil, diluents, or refined petroleum products."
+        ]
+      ],
+      "similarity": 0.9979
+    },
+    "ccf468226ec6e8f1": {
+      "closest_end": 55458,
+      "closest_quote": "``[i]t would require some affirmative indication to justify an interpretation that would permit a national bank to engage in a business'' but give them ``no right to let the public know about it.''",
+      "closest_start": 55258,
+      "diff": [
+        [
+          "model",
+          "it"
+        ],
+        [
+          "source",
+          "``[i]t"
+        ],
+        [
+          "equal",
+          "would require some affirmative indication to justify an interpretation that would permit a national bank to engage in a business'' but give them ``no right to let the public know about it.''"
+        ]
+      ],
+      "similarity": 0.9897
+    },
+    "cd333e9877436f07": {
+      "closest_end": 35542,
+      "closest_quote": "The Departments did not receive any comments on the proposed amendment to remove the language under 26 CFR 54.9816-8T(c)(3)(ii), 29 CFR 2590.716- 8(c)(3)(ii), and 45 CFR 149.510(c)(3)(ii) stating that a bundled payment arrangement is subject to the rules for batched disputes, and are finalizing this amendment as proposed.\\27\\",
+      "closest_start": 35211,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "Departments did not receive any comments on the proposed amendment to remove the language under 26 CFR 54.9816-8T(c)(3)(ii), 29 CFR"
+        ],
+        [
+          "model",
+          "2590.716-8(c)(3)(ii),"
+        ],
+        [
+          "source",
+          "2590.716- 8(c)(3)(ii),"
+        ],
+        [
+          "equal",
+          "and 45 CFR 149.510(c)(3)(ii) stating that a bundled payment arrangement is subject to the rules for batched disputes, and are finalizing this amendment as"
+        ],
+        [
+          "model",
+          "proposed."
+        ],
+        [
+          "source",
+          "proposed.\\27\\"
+        ]
+      ],
+      "similarity": 0.9892
+    },
+    "cd6c9740030176a9": {
+      "closest_end": 9087,
+      "closest_quote": "Unless a lower maximum offset limitation is provided by applicable State law, the maximum part of a Federal salary payment per pay period subject to offset to collect past-due support shall not exceed those amounts set forth at section 1673(b)(2) (A) and (B) of Title 15, United States Code,",
+      "closest_start": 8796,
+      "diff": [
+        [
+          "equal",
+          "Unless a lower maximum offset limitation is provided by applicable State law, the maximum part of a Federal salary payment per pay period subject to offset to collect past-due support shall not exceed those amounts set forth at section 1673(b)(2) (A) and (B) of Title 15, United States"
+        ],
+        [
+          "model",
+          "Code."
+        ],
+        [
+          "source",
+          "Code,"
+        ]
+      ],
+      "similarity": 0.9966
+    },
+    "d1be956b8d2cbd0c": {
+      "closest_end": 5442,
+      "closest_quote": "or in a joint venture with such persons; (3) The unblocking of any property blocked pursuant to the VSR;",
+      "closest_start": 5334,
+      "diff": [
+        [
+          "model",
+          "This general license does not authorize:"
+        ],
+        [
+          "source",
+          "or in a joint venture with such persons;"
+        ],
+        [
+          "equal",
+          "(3) The unblocking of any property blocked pursuant to the VSR;"
+        ]
+      ],
+      "similarity": 0.6538
+    },
+    "d7ff1bff08b5d750": {
+      "closest_end": 5825,
+      "closest_quote": "transmit, store, or distribute electricity; or (6) Any transactions or dealings related to the exportation or reexportation of diluents, directly or indirectly, to Venezuela.",
+      "closest_start": 5646,
+      "diff": [
+        [
+          "model",
+          "This general license does not authorize:"
+        ],
+        [
+          "source",
+          "transmit, store, or distribute electricity; or"
+        ],
+        [
+          "equal",
+          "(6) Any transactions or dealings related to the exportation or reexportation of diluents, directly or indirectly, to Venezuela."
+        ]
+      ],
+      "similarity": 0.807
+    },
+    "d8d991e2af1debfb": {
+      "closest_end": 12237,
+      "closest_quote": "identification of the office known as the ``Estate Tax Advisory Group'' throughout these regulations is clarified to include any successor office as provided in IRS publications, forms or instructions, or on <a href=\"https://www.irs.gov\">https://www.irs.gov</a>. In the",
+      "closest_start": 11965,
+      "diff": [
+        [
+          "equal",
+          "identification of the office known as the ``Estate Tax Advisory Group'' throughout these regulations is clarified to include any successor office as provided in IRS publications, forms or instructions, or on <a"
+        ],
+        [
+          "model",
+          "href=\"https://www.irs.gov\">https://www.irs,irs.gov</a>."
+        ],
+        [
+          "source",
+          "href=\"https://www.irs.gov\">https://www.irs.gov</a>. In the"
+        ]
+      ],
+      "similarity": 0.9794
+    },
+    "d978adf936f339bb": {
+      "closest_end": 53646,
+      "closest_quote": "Financial institutions should contact OFAC at <a href=\"https://ofac.treasury.gov/contact-ofac\">https://ofac.treasury.gov/contact-ofac</a> for further instructions should the name of a blocked vessel appear in shipping documents presented under a letter of credit or if noticed in a documentary collection.",
+      "closest_start": 53338,
+      "diff": [
+        [
+          "model",
+          "financial"
+        ],
+        [
+          "source",
+          "Financial"
+        ],
+        [
+          "equal",
+          "institutions should contact OFAC at <a href=\"https://ofac.treasury.gov/contact-ofac\">https://ofac.treasury.gov/contact-ofac</a> for further instructions should the name of a blocked vessel appear in shipping documents presented under a letter of credit or if noticed in a documentary collection."
+        ]
+      ],
+      "similarity": 0.9967
+    },
+    "d9cadda75535c77c": {
+      "closest_end": 68865,
+      "closest_quote": "commenters requested that guidance address potential non-compliance, including describing oversight mechanisms and penalties and providing contact information for filing complaints against parties that are non-compliant with the CARC and RARC requirement.",
+      "closest_start": 68606,
+      "diff": [
+        [
+          "model",
+          "Commenters"
+        ],
+        [
+          "source",
+          "commenters"
+        ],
+        [
+          "equal",
+          "requested that guidance address potential non-compliance, including describing oversight mechanisms and penalties and providing contact information for filing complaints against parties that are non-compliant with the CARC and RARC requirement."
+        ]
+      ],
+      "similarity": 0.9961
+    },
+    "da00cf30120f712e": {
+      "closest_end": 37496,
+      "closest_quote": "the Director of the Office of Foreign Assets Control will issue a “Penalty Notice.” The respondent will have 30 days from the date of service to either pay the penalty or request a hearing.",
+      "closest_start": 37307,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "Director of the Office of Foreign Assets Control will issue a “Penalty Notice.” The respondent will have 30 days from the date of service to either pay the penalty or request a hearing."
+        ]
+      ],
+      "similarity": 0.9947
+    },
+    "e0863eec78599841": {
+      "closest_end": 15202,
+      "closest_quote": "appropriate; <bullet> Ensure that a data element or data asset that exists to satisfy an underlying regulatory information collection requirement be consistently identified as such in associated machine-readable metadata;",
+      "closest_start": 14794,
+      "diff": [
+        [
+          "source",
+          "appropriate;"
+        ],
+        [
+          "equal",
+          "<bullet> Ensure that a data element or data asset"
+        ],
+        [
+          "model",
+          "of data"
+        ],
+        [
+          "equal",
+          "that exists to satisfy an underlying regulatory information collection requirement be consistently identified as such in associated machine-readable metadata;"
+        ]
+      ],
+      "similarity": 0.9519
+    },
+    "e2aea73fe7d70ff5": {
+      "closest_end": 15467,
+      "closest_quote": "reports shall be submitted to OFAC within 10 business days from the date blocked property is unblocked or transferred.",
+      "closest_start": 15349,
+      "diff": [
+        [
+          "model",
+          "Reports"
+        ],
+        [
+          "source",
+          "reports"
+        ],
+        [
+          "equal",
+          "shall be submitted to OFAC within 10 business days from the date blocked property is unblocked or transferred."
+        ]
+      ],
+      "similarity": 0.9915
+    },
+    "e74cb996756f6f5e": {
+      "closest_end": 5575,
+      "closest_quote": "(c) Any person that exports, reexports, sells, resells, or supplies Venezuelan-origin oil to countries other than the United States pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#c99aa8a7aabda0a6a7ba96a0a7aba6b189babda8bdace7aea6bf\"><span",
+      "closest_start": 5277,
+      "diff": [
+        [
+          "equal",
+          "(c) Any person that exports, reexports, sells, resells, or supplies Venezuelan-origin oil to countries other than the United States pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions:"
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#c99aa8a7aabda0a6a7ba96a0a7aba6b189babda8bdace7aea6bf\"><span"
+        ]
+      ],
+      "similarity": 0.7388
+    },
+    "eb32ec0cf2b123d0": {
+      "closest_end": 26259,
+      "closest_quote": "The old issuer may use any reasonable method to provide this information to the new issuer.",
+      "closest_start": 26167,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "old issuer may use any reasonable method to provide this information to the new issuer."
+        ]
+      ],
+      "similarity": 0.989
+    },
+    "ec16f4b2240e7aca": {
+      "closest_end": 3099,
+      "closest_quote": "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, January 18, 2026, provided that any payment to a blocked person must be made into a blocked interest- bearing account located in the United States:",
+      "closest_start": 2500,
+      "diff": [
+        [
+          "equal",
+          "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, January 18, 2026, provided that any payment to a blocked person must be made into a blocked"
+        ],
+        [
+          "model",
+          "interest-bearing"
+        ],
+        [
+          "source",
+          "interest- bearing"
+        ],
+        [
+          "equal",
+          "account located in the United States:"
+        ]
+      ],
+      "similarity": 0.9992
+    },
+    "edffc5f146c448ca": {
+      "closest_end": 60409,
+      "closest_quote": "requires an agency, in connection with a final rule, to prepare a final regulatory flexibility analysis describing the impact of the rule on small entities",
+      "closest_start": 60251,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "requires an"
+        ],
+        [
+          "equal",
+          "agency, in connection with a final rule, to prepare a final regulatory flexibility analysis describing the impact of the rule on small entities"
+        ]
+      ],
+      "similarity": 0.9603
+    },
+    "eeaa73360fdabbd8": {
+      "closest_end": 67103,
+      "closest_quote": "LEIs are based on the cost-recovery principle, whereby fees must not be higher than necessary to recover an LOU's costs and are intended to remove a potential profit motive as an influence on their LEI activities.\\61\\",
+      "closest_start": 66883,
+      "diff": [
+        [
+          "model",
+          "or renew an LEI. 60"
+        ],
+        [
+          "source",
+          "LEIs are based on the"
+        ],
+        [
+          "equal",
+          "cost-recovery principle, whereby fees must not be higher than necessary to recover an LOU's costs and are intended to remove a potential profit motive as an influence on their LEI"
+        ],
+        [
+          "model",
+          "activities."
+        ],
+        [
+          "source",
+          "activities.\\61\\"
+        ]
+      ],
+      "similarity": 0.9159
+    },
+    "ef922739aa8f1318": {
+      "closest_end": 26807,
+      "closest_quote": "the OCC is issuing this final preemption determination, which concludes that (1) the National Bank Act preempts section 5-601 of New York's General Obligations Law, the State's interest-on-escrow law; (2) thirteen other States have laws with substantively equivalent terms; and (3) these substantively equivalent State laws are also preempted.\\25\\",
+      "closest_start": 26455,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "OCC is issuing this final preemption determination, which concludes that (1) the National Bank Act preempts section 5-601 of New York's General Obligations Law, the State's interest-on-escrow law; (2) thirteen other States have laws with substantively equivalent terms; and (3) these substantively equivalent State laws are also"
+        ],
+        [
+          "model",
+          "preempted."
+        ],
+        [
+          "source",
+          "preempted.\\25\\"
+        ]
+      ],
+      "similarity": 0.9913
+    },
+    "f2cb4de9336365de": {
+      "closest_end": 66776,
+      "closest_quote": "these final rules establish the general requirement that plans and issuers use CARCs and RARCs, in the manner and timeframe specified in guidance, to communicate information about whether an item or service identified on a claim is or is not subject to the surprise billing requirements under the No Surprises Act.",
+      "closest_start": 66458,
+      "diff": [
+        [
+          "model",
+          "These"
+        ],
+        [
+          "source",
+          "these"
+        ],
+        [
+          "equal",
+          "final rules establish the general requirement that plans and issuers use CARCs and RARCs, in the manner and timeframe specified in guidance, to communicate information about whether an item or service identified on a claim is or is not subject to the surprise billing requirements under the No Surprises Act."
+        ]
+      ],
+      "similarity": 0.9968
+    },
+    "f2d00e09dfa0e096": {
+      "closest_end": 12210,
+      "closest_quote": "all transactions prohibited by the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), including those involving the Government of Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity in which PdVSA owns, directly or indirectly, a 50 percent or greater interest, that are related to the negotiation of and entry into contingent contracts for new investment in oil, gas, petrochemical products, or electricity sector operations in Venezuela, are authorized, provided that the performance of any such contract is made expressly contingent upon separate authorization from the Office of Foreign Assets Control (``contingent contracts''). Note 1 to",
+      "closest_start": 11527,
+      "diff": [
+        [
+          "equal",
+          "all transactions prohibited by the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), including those involving the Government of Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity in which PdVSA owns, directly or indirectly, a 50 percent or greater interest, that are related to the negotiation of and entry into contingent contracts for new investment in oil, gas, petrochemical products, or electricity sector operations in Venezuela, are authorized, provided that the performance of any such contract is made expressly contingent upon separate authorization from the Office of Foreign Assets Control"
+        ],
+        [
+          "model",
+          "(``conting, contingent"
+        ],
+        [
+          "source",
+          "(``contingent"
+        ],
+        [
+          "equal",
+          "contracts'')."
+        ],
+        [
+          "source",
+          "Note 1 to"
+        ]
+      ],
+      "similarity": 0.9858
+    },
+    "f4ac2baf5ae4dc67": {
+      "closest_end": 40358,
+      "closest_quote": "the fair market value of assets is the fair market value of those assets as finally determined for Federal estate tax purposes.",
+      "closest_start": 40229,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "fair market value of assets is the fair market value of those assets as finally determined for Federal estate tax purposes."
+        ]
+      ],
+      "similarity": 0.9921
+    },
+    "f4c08ba7f540eee4": {
+      "closest_end": 4744,
+      "closest_quote": "section 2056A(e) directs the Secretary to prescribe regulations as may be necessary or appropriate to carry out the purposes of section 2056A.",
+      "closest_start": 4600,
+      "diff": [
+        [
+          "model",
+          "Section"
+        ],
+        [
+          "source",
+          "section"
+        ],
+        [
+          "equal",
+          "2056A(e) directs the Secretary to prescribe regulations as may be necessary or appropriate to carry out the purposes of section 2056A."
+        ]
+      ],
+      "similarity": 0.993
+    },
+    "f90afa73b0d87c90": {
+      "closest_end": 7914,
+      "closest_quote": "each FEHB Program contract must require a carrier to comply with requirements described in sections 9816 and 9817 of the Code, sections 716 and 717 of ERISA, and sections 2799A-1 and 2799A- 2 of the PHS Act (as applicable) in the same manner as these provisions apply for a group health plan or health insurance issuer offering group or individual health insurance coverage.",
+      "closest_start": 7536,
+      "diff": [
+        [
+          "equal",
+          "each FEHB Program contract must require a carrier to comply with requirements described in sections 9816 and 9817 of the Code, sections 716 and 717 of ERISA, and sections 2799A-1 and"
+        ],
+        [
+          "model",
+          "2799A-2"
+        ],
+        [
+          "source",
+          "2799A- 2"
+        ],
+        [
+          "equal",
+          "of the PHS Act (as applicable) in the same manner as these provisions apply for a group health plan or health insurance issuer offering group or individual health insurance coverage."
+        ]
+      ],
+      "similarity": 0.9987
+    },
+    "f9bc000a69036bc8": {
+      "closest_end": 6227,
+      "closest_quote": "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to <a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>",
+      "closest_start": 5834,
+      "diff": [
+        [
+          "equal",
+          "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to"
+        ],
+        [
+          "model",
+          "[email protected] and [email protected] that identifies, for each of these transactions: (3) The dates the transactions occurred;"
+        ],
+        [
+          "source",
+          "<a href=\"/cdn-cgi/l/email-protection#7427151a17001d1b1a072b1d1a161b0c3407001500115a131b02\"><span class=\"__cf_email__\" data-cfemail=\"0556646b66716c6a6b765a6c6b676a7d4576716471602b626a73\">[email&#160;protected]</span></a>"
+        ]
+      ],
+      "similarity": 0.552
+    },
+    "fa195a4d7cf19539": {
+      "closest_end": 13841,
+      "closest_quote": "The individual or entity from whom the funds originated and the amount of funds received;",
+      "closest_start": 13751,
+      "diff": [
+        [
+          "model",
+          "the"
+        ],
+        [
+          "source",
+          "The"
+        ],
+        [
+          "equal",
+          "individual or entity from whom the funds originated and the amount of funds received;"
+        ]
+      ],
+      "similarity": 0.9888
+    },
+    "fb104754143204aa": {
+      "closest_end": 39067,
+      "closest_quote": "the provider shall report (or for the purpose of the Federal IDR process, the provider shall bill) the Current Procedural Terminology (CPT) code 77066 (Diagnostic mammography . . . bilateral).",
+      "closest_start": 38873,
+      "diff": [
+        [
+          "model",
+          "The"
+        ],
+        [
+          "source",
+          "the"
+        ],
+        [
+          "equal",
+          "provider shall report (or for the purpose of the Federal IDR process, the provider shall bill) the Current Procedural Terminology (CPT) code 77066 (Diagnostic mammography . . . bilateral)."
+        ]
+      ],
+      "similarity": 0.9948
+    },
+    "ff1d6396e987db5b": {
+      "closest_end": 52538,
+      "closest_quote": "(3) The failure to submit a response within the time period set forth in this paragraph (a), including any additional time granted by the Director, shall be deemed to be a waiver of the right to respond to the Prepenalty Notice.",
+      "closest_start": 52310,
+      "diff": [
+        [
+          "model",
+          "(2)"
+        ],
+        [
+          "source",
+          "(3)"
+        ],
+        [
+          "equal",
+          "The failure to submit a response within the time period set forth in this paragraph (a), including any additional time granted by the Director, shall be deemed to be a waiver of the right to respond to the Prepenalty Notice."
+        ]
+      ],
+      "similarity": 0.9956
+    }
+  },
+  "method": "A deterministic longest-common-substring anchor (difflib) selects the closest same-length word-aligned source passage; similarity is the difflib ratio between the normalized passage and the claim's normalized quote.",
+  "schema_version": 1
+}
