@@ -2,6 +2,10 @@
 
 import { useEffect, useId, useRef } from "react";
 
+// Extension required: the node test harness resolves this graph without a
+// bundler (tests/ui-primitives.test.mts).
+import { pulseHighlight } from "../../motion/pulse.ts";
+
 export interface HighlightSegments {
   before: string;
   highlighted: string;
@@ -113,6 +117,7 @@ function scrollHighlight(
       block: "nearest",
       inline: "nearest",
     });
+    pulseHighlight(highlight);
     return true;
   }
 
@@ -127,6 +132,7 @@ function scrollHighlight(
     top: Math.max(0, targetTop),
     behavior,
   });
+  pulseHighlight(highlight);
   return true;
 }
 

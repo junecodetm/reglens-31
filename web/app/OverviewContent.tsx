@@ -1,12 +1,18 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
 import { recordRouteMount } from "./components/shell/route-mount-state";
 import { type SiteData } from "./components/reglens-types";
 import { useLazyJson } from "./components/ui/useLazyJson";
+import { DUR, EASE, STAGGER } from "./motion/tokens";
+import { useCountUp } from "./motion/useCountUp";
+
+gsap.registerPlugin(useGSAP);
 
 interface TaskCard {
   title: string;
@@ -106,6 +112,9 @@ const PIPELINE_STEPS: readonly { name: string; detail: string }[] = [
 
 export function OverviewContent() {
   const { state, load } = useLazyJson<SiteData>("/data/site.json");
+  const scopeRef = useRef<HTMLDivElement>(null);
+  const acceptedCountRef = useRef<HTMLElement>(null);
+  const rejectedCountRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     recordRouteMount();
@@ -114,8 +123,33 @@ export function OverviewContent() {
 
   const site = state.status === "ready" ? state.data : null;
 
+  useCountUp(acceptedCountRef, site?.accepted_count ?? null);
+  useCountUp(rejectedCountRef, site?.rejected_count ?? null);
+
+  useGSAP(
+    () => {
+      const media = gsap.matchMedia();
+
+      media.add("(prefers-reduced-motion: no-preference)", () => {
+        // opacity, not autoAlpha: the staggered cards are links and must
+        // stay focusable throughout the reveal.
+        gsap.from("[data-reveal]", {
+          y: 12,
+          opacity: 0,
+          duration: DUR.base,
+          ease: EASE,
+          stagger: STAGGER,
+          clearProps: "all",
+        });
+      });
+
+      return () => media.revert();
+    },
+    { scope: scopeRef },
+  );
+
   return (
-    <>
+    <div ref={scopeRef}>
       <LegacyHashRedirect />
 
       <header className="site-header">
@@ -138,14 +172,18 @@ export function OverviewContent() {
             <div className="stat-badge stat-badge-accepted">
               <dt className="screen-reader-only">Accepted claims</dt>
               <dd>
-                <strong data-stat-count>{site?.accepted_count ?? "—"}</strong>{" "}
+                <strong data-stat-count ref={acceptedCountRef}>
+                  {site?.accepted_count ?? "—"}
+                </strong>{" "}
                 obligations verified
               </dd>
             </div>
             <div className="stat-badge stat-badge-rejected">
               <dt className="screen-reader-only">Rejected claims</dt>
               <dd>
-                <strong data-stat-count>{site?.rejected_count ?? "—"}</strong>{" "}
+                <strong data-stat-count ref={rejectedCountRef}>
+                  {site?.rejected_count ?? "—"}
+                </strong>{" "}
                 claims rejected by the provenance gate
               </dd>
             </div>
@@ -153,7 +191,11 @@ export function OverviewContent() {
         </div>
       </header>
 
-      <section className="overview-section" aria-labelledby="overview-framing">
+      <section
+        className="overview-section"
+        aria-labelledby="overview-framing"
+        data-reveal
+      >
         <h2 id="overview-framing">What this demonstrates</h2>
         <p>
           Every claim this site shows survived a deterministic, fail-closed
@@ -179,7 +221,7 @@ export function OverviewContent() {
         <h2 id="overview-tasks">Start with a task</h2>
         <ul className="overview-cards">
           {TASK_CARDS.map((card) => (
-            <li key={card.href}>
+            <li key={card.href} data-reveal>
               <Link className="overview-card" href={card.href}>
                 <span className="overview-card-title">{card.title}</span>
                 <span className="overview-card-description">
@@ -194,6 +236,7 @@ export function OverviewContent() {
       <section
         className="overview-section"
         aria-labelledby="overview-pipeline"
+        data-reveal
       >
         <h2 id="overview-pipeline">How the pipeline works</h2>
         <ol className="pipeline-strip">
@@ -204,6 +247,6 @@ export function OverviewContent() {
           ))}
         </ol>
       </section>
-    </>
+    </div>
   );
 }

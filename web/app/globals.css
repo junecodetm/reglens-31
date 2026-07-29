@@ -1345,3 +1345,24 @@ body {
 .site-header a:focus-visible {
   color: var(--soft-blue);
 }
+
+/* Sidebar micro-transitions run only when the visitor allows motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .sidebar .usa-sidenav a {
+    transition:
+      color 0.15s ease-out,
+      background-color 0.15s ease-out,
+      border-color 0.15s ease-out,
+      padding 0.15s ease-out;
+  }
+
+  .sidebar-overlay {
+    transition:
+      opacity 0.22s ease-out,
+      visibility 0.22s ease-out;
+  }
+
+  .sidebar-drawer {
+    transition: transform 0.22s ease-out;
+  }
+}
