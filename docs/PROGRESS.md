@@ -1,29 +1,92 @@
-# PROGRESS — RegLens-31 single-pass build
+# PROGRESS — RegLens-31
 
-> **Status: COMPLETE — no remaining work.** Built 2026-07-28 in one pass per BUILD.md.
+> **Status: COMPLETE — no remaining work.** Base build 2026-07-28 per BUILD.md;
+> OGC-01 extension 2026-07-28/29 per EXTEND-OGC01.md, single pass.
 > Live: **https://reglens-31.pages.dev** · Repo: **https://github.com/junecodetm/reglens-31**
 
-## What was built (all verified)
+## Base build (BUILD.md — unchanged, nothing regressed)
 
-- **Pipeline:** allow-list-enforced ingest (20 Treasury FR final rules + eCFR Title 31 parts 50/223/285/356/501; SHA-256 content-addressed snapshots + manifests) → local extraction (Ollama qwen3:8b, temp 0, fixed seed, JSON-schema-constrained, pinned tag + prompt/input SHA per run, 80K-char disclosed per-document cap) → **fail-closed provenance gate** (character-wise NFKC + whitespace normalizer with offset map; exact substring; every failure path rejects) → SQLite + DuckDB/Parquet stores → static export.
-- **Results:** 25 documents, **950 claims accepted, 163 rejected** by the gate, 7 chunks dropped fail-closed on invalid model output. Fabricated-quote rejection proven by unit + hypothesis tests AND visible in the UI counter + rejected-claims transparency section.
-- **Eval (honest, provisional):** 251-provision gold set, two disclosed strata, two frozen proposal passes by different models (fable-5 / sonnet-5). **P=0.434 (95% Wilson 0.329–0.546; clustered bootstrap 0.208–0.556), R=0.647 (Wilson 0.510–0.764; bootstrap 0.378–0.967), F1=0.520 (bootstrap 0.278–0.658)** — TP=33 FP=43 FN=18; citation fidelity 1.000 (guardrail), **cross-model κ=0.938 (Almost perfect)**, effective n≈122 (design effect 2.06), per-stratum breakdown in eval.json. Every metric carries: *"Provisional — machine-proposed labels, human-adjudicated: 0/251."* CI regression gate armed at F1 baseline 0.520 − 0.05.
-- **UI:** obligation list → click → exact span highlighted + scrolled in the primary source; §333 disclaimer above the fold at 1440/768/375; model-generated fields labeled; axe **zero violations**; fully keyboard operable. Playwright audit: **two consecutive fully clean passes** locally + clean pass on the deployed URL.
-- **Security/governance:** SHA-pinned least-privilege workflows (CI, security, eval-gate, verify-then-deploy); CodeQL, pip-audit, checksum-verified gitleaks/osv-scanner/syft, semgrep; SBOM artifact; CSP + security headers; real zero-cost allow-list checker; model/data cards, AI impact assessment, monitoring + rollback plans; DATA_LICENSE.md; CONTRIBUTING + CoC. Independent subagent reviews (security, statistics, code quality) ran and **every finding was fixed** (statistics re-verified by the auditor).
+- Allow-list-enforced ingest → local extraction (qwen3:8b, temp 0, JSON-schema) →
+  **fail-closed provenance gate** → SQLite/DuckDB/Parquet → static export.
+  25 documents, 950 accepted / 163 rejected claims; fabricated-quote rejection
+  proven by tests and visible in the UI.
+- Core eval (251 provisions): P=0.434 (Wilson 0.329–0.546), R=0.647
+  (Wilson 0.510–0.764), F1=0.520; fidelity 1.000; cross-model κ=0.938;
+  n_eff≈122. Label: *Provisional — machine-proposed labels, human-adjudicated: 0/251.*
 
-## De-scoped (BUILD.md's sanctioned order) and why
+## OGC-01 extension (EXTEND-OGC01.md) — what was built (all verified)
 
-1. **OFAC 50% ownership graph** — first in the de-scope order; design + seeded Deripaska case fully documented in docs/ENTITY_RESOLUTION.md for a future phase.
-2. **OSCAL component-definition** — substantive governance artifacts are present; OSCAL validation deferred.
-3. **SLSA L3 provenance**; 4. **Groq escalation** (local-only is the stronger air-gap story); 5. **Inspect AI wrapper** (the deterministic in-repo harness owns all statistics per docs/EVALUATION.md); 6. **Commit signing** (no key on this machine; not in the DoD).
+- **Stage 1 — Statutory authority linker** (`reglens/authority/` + `reglens/ingest/uscode.py`):
+  authority lines parsed from eCFR XML at pinned date 2026-07-27 with exact
+  gate-verified spans; typed citations (usc-section / usc-note / Pub. L. / E.O.);
+  every cited section resolved against OLRC USLM release point **PL 119-102**
+  (13 title zips cached gitignored; only cited-section fragments snapshotted);
+  deterministic operative-grant classifier (published pattern table, mandatory >
+  discretionary > silent precedence, negation guards) with every verb phrase
+  provenance-gate-verified. **Census: 150 section citations — 116 resolved
+  (15 mandatory / 16 discretionary / 85 silent), 34 unresolved (CISADA-range
+  codification gaps, fail-closed), 4 non-section, 0 gate rejections.**
+  Unresolvable citations fail closed — proven by test (DoD #2).
+- **Stage 2 — Two-sided grounding signal** (`reglens/grounding/`): deterministic
+  literal marker retrieval over 24 FR documents (incl. the four per-part source
+  preambles; part 223 recorded as "preamble unavailable" coverage fact) —
+  8 deference-reliance / 35 grounding-strength spans, 0 gate rejections; per-rule
+  facts (predates *Loper Bright*; cites *Chevron*); bands are textual-marker
+  density only, definition displayed verbatim in the UI.
+- **Stage 3 — Draft rule skeletons** (`reglens/draft/`): DDH (Aug 2018 rev. 2.2,
+  snapshotted) template with placeholders for every required analysis; model
+  narrative (labeled) is the only generative text; fabrication scan + quote gate +
+  set-out verification; **6/6 drafts pass conformance (rate 1.00, 0 unverified quotes)**.
+- **Stage 4 — Governance**: docs/M25-21-CROSSWALK.md (practices + deadline text
+  verified against the memo PDF) and docs/OGC01-ALIGNMENT.md (limitations-first,
+  written for a skeptical attorney; notes the "Looper Bright" inventory typo once).
+- **Eval** (`reglens/eval/ogc01.py`, provisional — 0/306 human-adjudicated,
+  two frozen cross-model proposal passes fable-5/sonnet-5):
+  link P=1.000 R=1.000 F1=1.000 (150-pair census; both blind enumerations matched
+  the parser; κ=1.0); classification accuracy **0.884** (99/112; Wilson
+  0.811–0.931; clustered bootstrap 0.874–1.0; κ=1.0, independence verified);
+  marker precision **0.814** (35/43; Wilson 0.674–0.903), recall vs independent
+  sweep **0.972**; grounding judgment κ=0.494 (Moderate — honest disagreement);
+  draft conformance 1.00. CI gate armed at each baseline − 0.05; unverified
+  draft quotes fail the gate outright. 5-cluster census caveat printed with the CIs.
+- **UI**: four new lazily-loaded sections (authority click-to-highlight into part
+  and U.S.C. texts; equal-weight two-family grounding table with marker → document
+  highlight; draft viewer with visible placeholders; OGC-01 eval with CIs and
+  provisional labels). Playwright audit: **two consecutive fully clean local
+  passes** + clean deployed-URL pass; axe zero violations (all impacts, local),
+  zero serious/critical (deployed); 1440/768/375 no overflow; disclaimers
+  (§333 + not-legal-advice) above the fold.
+- **Zero-cost**: allow-list extended exactly per EXTEND-OGC01 §2 (uscode.house.gov,
+  archives.gov, reginfo.gov — path-pinned); no new secrets; CourtListener/QuantGov/
+  api.data.gov never used. The Cloudflare API token was **rolled** at the start of
+  this pass (old value invalidated; secret re-set 2026-07-29T01:18Z).
+
+## Independent reviews (author≠blesser)
+
+security-reviewer, eval-auditor, validator (Opus), and the new **neutrality-reviewer**
+(§5 brief, blocking) all ran on the extension; every finding was fixed. See the
+final report and commit history for details.
+
+## De-scoped (sanctioned) — unchanged
+
+OFAC 50% ownership graph, OSCAL, SLSA/cosign/Scorecard, Groq escalation, Inspect
+wrapper, commit signing (BUILD.md order); CourtListener, QuantGov, outcome
+prediction, ranked repeal lists, Ch. V/X expansion (EXTEND-OGC01 §6 — forbidden,
+not merely de-scoped).
 
 ## Adjudication worklist status
 
-**0/251 adjudicated** — docs/ADJUDICATE.md is a numbered worklist (~13 evenings at ~20/evening). After each session: `just eval && just build-web`, commit, push; metrics and their label restate automatically from the JSONL.
+**0/251 core + 0/306 OGC-01 adjudicated** — docs/ADJUDICATE.md holds both
+numbered worklists; after each session `just eval && just build-web`, commit,
+push; metrics and labels restate automatically from the JSONL.
 
-## Security notes / next actions for the owner
+## Next actions for the owner
 
-1. **Roll the Cloudflare API token** (Pages:Edit) — its value passed through this build session's transcript; GitHub push protection blocked the one accidental commit attempt and `.playwright-mcp/` is now gitignored. Roll at dash.cloudflare.com → API Tokens, then `gh secret set CLOUDFLARE_API_TOKEN`.
-2. Adjudicate gold labels (see above) — the single highest-value follow-up.
-3. Optional hardening: branch protection + PR-only main, signed commits, narrowing `.claude/settings.json` `Bash(git:*)/Bash(gh:*)` allowances, per-stratum precision weighting once adjudication yields trusted labels.
+1. Adjudicate gold labels (both worklists) — the single highest-value follow-up.
+2. Note: the rolled Cloudflare token value transited this session's local
+   transcript (you asked me to roll it via the browser). Roll it again at your
+   convenience for full hygiene: dash.cloudflare.com → API Tokens → Roll, then
+   `gh secret set CLOUDFLARE_API_TOKEN`.
+3. Optional hardening: branch protection + PR-only main; signed commits;
+   narrowing `.claude/settings.json` Bash allowances.
 4. Optional next phases: OFAC ownership module, OSCAL, SLSA, Fiscal Data demo.

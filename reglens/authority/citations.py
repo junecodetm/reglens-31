@@ -23,7 +23,7 @@ from reglens.provenance import verify_span
 
 _USC_LIST = re.compile(r"^(\d+)\s+U\.S\.C\.\s+(.+)$")
 _NOTE_PAREN = re.compile(r"\((\d+)\s+U\.S\.C\.\s+([0-9]+[A-Za-z0-9-]*)\s+note\)")
-_SECTION_TOKEN = re.compile(r"^([0-9]+[A-Za-z]*)(\([A-Za-z0-9]+\))?$")
+_SECTION_TOKEN = re.compile(r"^([0-9]+[A-Za-z]*)((?:\([A-Za-z0-9]+\))*)$")
 _RANGE_TOKEN = re.compile(r"^([0-9]+)-([0-9]+)$")
 
 # Expanding a range beyond this bound would indicate a mis-parse, not a real
@@ -86,7 +86,9 @@ def _expand_section_list(title: int, body: str) -> list[AuthorityCitation]:
     citations: list[AuthorityCitation] = []
     # "3102, et seq." — the flag binds to the previous token after the comma.
     body = re.sub(r",\s*et\s+seq\.?", " et-seq-marker", body)
-    tokens = [token.strip().rstrip(".") for token in body.split(",")]
+    # "3717, 3718 and 3720A" / "5311-5314 and 5316-5336" — the conjunction is
+    # a separator, same as the comma (the canonical Chapter X form).
+    tokens = [token.strip().rstrip(".") for token in re.split(r",|\s+and\s+", body)]
     for token in tokens:
         if not token:
             continue
@@ -113,7 +115,7 @@ def _expand_section_list(title: int, body: str) -> list[AuthorityCitation]:
         token_match = _SECTION_TOKEN.match(token)
         if token_match is None:
             raise AuthorityParseError(f"unrecognized section token: {title} U.S.C. {token!r}")
-        section, subsection = token_match.group(1), token_match.group(2)
+        section, subsection = token_match.group(1), token_match.group(2) or None
         citations.append(
             AuthorityCitation(
                 raw=f"{title} U.S.C. {token}" + (" et seq." if et_seq else ""),

@@ -101,12 +101,15 @@ def resolve_part_citations(
         if citation.kind is not CitationKind.usc_section:
             totals["other"] += 1
             continue
-        assert citation.usc_title is not None and citation.usc_section is not None
-        totals["sections"] += 1
+        if citation.usc_title is None or citation.usc_section is None:
+            # Fail-closed: a section citation without a (title, section) is a
+            # parser defect, never silently skipped or guessed at.
+            raise ValueError(f"usc_section citation missing title/section: {citation.raw!r}")
         key = (citation.usc_title, citation.usc_section)
         if key in seen:
-            continue
+            continue  # within-part duplicate: counted once
         seen.add(key)
+        totals["sections"] += 1
         entry = sections.get(key)
         if entry is None:
             # Fail-closed: absent from the pinned USLM release point —
@@ -146,7 +149,8 @@ def build_authority(settings: Settings) -> AuthorityExport:
         part_inputs.append((part, heading, text_sha, authority_text, start, end, citations))
         for citation in citations:
             if citation.kind is CitationKind.usc_section and citation.usc_section:
-                assert citation.usc_title is not None
+                if citation.usc_title is None:
+                    raise ValueError(f"usc_section citation missing title: {citation.raw!r}")
                 wanted[citation.usc_title].add(citation.usc_section)
 
     # Resolve every cited section against the pinned release point, snapshot

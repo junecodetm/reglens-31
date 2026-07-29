@@ -157,7 +157,8 @@ def build_report() -> Ogc01EvalReport:
     for part in export.parts:
         for citation in part.citations:
             if citation.kind.value == "usc-section" and citation.usc_section:
-                assert citation.usc_title is not None
+                if citation.usc_title is None:
+                    raise ValueError(f"usc_section citation missing title: {citation.raw!r}")
                 predicted.add((part.part, citation.usc_title, citation.usc_section))
                 part_of_pair[(citation.usc_title, citation.usc_section)] = part.part
     links_gold = [
@@ -171,14 +172,19 @@ def build_report() -> Ogc01EvalReport:
     fn = len(gold_pairs - predicted)
     link_precision = tp / (tp + fp) if tp + fp else None
     link_recall = tp / (tp + fn) if tp + fn else None
-    link_f1 = (
-        2 * link_precision * link_recall / (link_precision + link_recall)
-        if link_precision and link_recall
-        else None
-    )
-    # Clustered bootstrap by part over the union of pairs.
+    # F1 is 0.0 (not None) when either component is a true zero — None is
+    # reserved for "metric unavailable", which the gate fails closed on.
+    link_f1: float | None = None
+    if link_precision is not None and link_recall is not None:
+        link_f1 = (
+            2 * link_precision * link_recall / (link_precision + link_recall)
+            if link_precision + link_recall
+            else 0.0
+        )
+    # Clustered bootstrap by part over the union of pairs (sorted: cluster
+    # order must not depend on set-iteration order for replayability).
     link_clusters: dict[int, list[Outcome]] = defaultdict(list)
-    for part_number, title, section in predicted | gold_pairs:
+    for part_number, title, section in sorted(predicted | gold_pairs):
         link_clusters[part_number].append(
             (
                 (part_number, title, section) in gold_pairs,
@@ -375,6 +381,12 @@ def main(argv: list[str] | None = None) -> int:
             # is a defect (target is zero by construction).
             print("GATE FAIL: unverified quotes in accepted drafts")
             return 1
+        for key, value in gated.items():
+            if value is None:
+                # Fail-closed: a metric that cannot be computed (missing gold
+                # file, empty denominator) must fail the gate, never skip it.
+                print(f"GATE FAIL: {key} unavailable (None)")
+                return 1
         if not BASELINE_PATH.is_file():
             print("GATE: no committed ogc01 baseline yet (armed on first commit)")
             return 0

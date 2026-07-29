@@ -209,3 +209,28 @@ def test_unresolvable_citation_fails_closed_dod2() -> None:
     assert [c.usc_section for c in unresolved] == ["99999"]
     assert unresolved[0].raw == "31 U.S.C. 99999"  # untouched: no guess, no quote
     assert totals["unresolved"] == 1 and totals["resolved"] == 1
+
+
+def test_negation_bypass_guards_validator_finding_1() -> None:
+    """Interposed/trailing negations must never classify as grants."""
+    assert classify_section(
+        "The Secretary shall, notwithstanding any other law, not prescribe "
+        "regulations under this section."
+    )[0] is Classification.silent
+    assert classify_section("No regulations shall be prescribed under this subsection.")[0] is (
+        Classification.silent
+    )
+    assert classify_section("The Secretary may prescribe no regulations under this section.")[
+        0
+    ] is Classification.silent
+
+
+def test_and_joined_lists_and_multilevel_subsections() -> None:
+    """Canonical Chapter X forms: 'and'-joined lists/ranges; nested subsections."""
+    citations = parse_authority("Authority: 31 U.S.C. 3717, 3718 and 3720A.")
+    assert [c.usc_section for c in citations] == ["3717", "3718", "3720A"]
+    ranges = parse_authority("Authority: 31 U.S.C. 5311-5314 and 5316-5332.")
+    sections = [c.usc_section for c in ranges]
+    assert sections[0] == "5311" and sections[-1] == "5332" and "5315" not in sections
+    nested = parse_authority("Authority: 12 U.S.C. 1818(b)(3).")
+    assert nested[0].usc_section == "1818" and nested[0].subsection == "(b)(3)"

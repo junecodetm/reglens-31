@@ -47,16 +47,24 @@ class ConformanceReport(BaseModel):
 
 
 def _verification_corpus(settings: Settings, record: PartAuthority) -> list[str]:
-    """Sources a draft's quotes/set-out text may verify against."""
+    """Sources a draft's quotes/set-out text may verify against.
+
+    Scoped to THIS part: its authority line, its part text, and only the
+    U.S.C. sections its own authority cites — a quote must never verify
+    against a statute cited by a different part.
+    """
     corpus = [record.authority_text]
     stem = f"31-CFR-{record.part}-authority-{record.ecfr_date}"
+    own_sections = {
+        f"usc-{resolved.usc_title}-s{resolved.usc_section}.txt" for resolved in record.resolved
+    }
     raw_root = settings.data_dir / "raw"
     for snapshot_dir in sorted(raw_root.iterdir()):
         if not (snapshot_dir / "manifest.json").is_file():
             continue
         manifest = read_manifest(snapshot_dir)
         if manifest.filename == f"{stem}.txt" or (
-            manifest.content_type == "text/x-usc-section" and manifest.filename.endswith(".txt")
+            manifest.content_type == "text/x-usc-section" and manifest.filename in own_sections
         ):
             corpus.append((snapshot_dir / manifest.filename).read_text())
     return corpus

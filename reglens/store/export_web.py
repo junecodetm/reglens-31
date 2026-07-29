@@ -72,6 +72,8 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     Failure mode: missing pipeline outputs raise ``FileNotFoundError`` — a
     partial export is never produced silently.
     """
+    import shutil
+
     from reglens.authority.records import AuthorityExport
     from reglens.authority.run import AUTHORITY_JSON
     from reglens.draft.run import CONFORMANCE_JSON, DRAFTS_DIR
@@ -82,6 +84,10 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     usc_dir = out_dir / "usc"
     parts_dir = out_dir / "authority-parts"
     drafts_out = out_dir / "drafts"
+    # Fail-closed publication: the exported drafts dir mirrors the accepted
+    # set exactly — a draft rejected on a later run must disappear from the
+    # site, so the directory is rebuilt from scratch every export.
+    shutil.rmtree(drafts_out, ignore_errors=True)
     for directory in (usc_dir, parts_dir, drafts_out):
         directory.mkdir(parents=True, exist_ok=True)
 
@@ -91,6 +97,17 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     (out_dir / "conformance.json").write_text(CONFORMANCE_JSON.read_text())
     for draft_path in sorted(DRAFTS_DIR.glob("*.txt")):
         (drafts_out / draft_path.name).write_bytes(draft_path.read_bytes())
+
+    # Grounding scans every FR document, including the four source preambles
+    # that carry no extracted claims — export their texts too so marker spans
+    # can highlight (claims-corpus texts are exported by export_web_data).
+    from reglens.extract.run import discover_documents
+
+    documents_dir = out_dir / "documents"
+    documents_dir.mkdir(parents=True, exist_ok=True)
+    for pair in discover_documents(settings.data_dir):
+        # Always (re)written: a stale copy must never outlive its snapshot.
+        (documents_dir / f"{pair.document_number}.txt").write_text(pair.text)
 
     raw_root = settings.data_dir / "raw"
     for snapshot_dir in sorted(raw_root.iterdir()):

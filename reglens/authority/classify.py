@@ -26,12 +26,18 @@ import re
 from reglens.authority.records import Classification, GrantSpan
 
 # Verb + object vocabularies shared across families. The bounded gap
-# [^.;]{0,120} tolerates intervening clauses ("shall, not later than 180
-# days after ..., prescribe regulations") without crossing sentence ends.
+# tolerates intervening clauses without crossing sentence ends — and is
+# NEGATION-FREE: an interposed "not"/"no" ("shall, notwithstanding ..., not
+# prescribe", "prescribe no regulations") must never bridge into a grant.
+# The deadline idiom "not later/less/more/earlier/fewer than" is NOT a
+# negation ("shall, not later than 180 days ..., prescribe regulations" is a
+# mandatory grant) and stays allowed. "notwithstanding" is safe by itself:
+# \bnot\b requires a word boundary after "not".
 _VERBS = r"(?:prescribe[sd]?|issues?d?|issue|promulgates?d?|promulgate|adopts?|establish(?:es)?)"
 _OBJECTS = r"(?:regulations?|rules?\b(?:\s+and\s+regulations?)?)"
-_GAP = r"[^.;]{0,120}?"
-_SHORT_GAP = r"[^.;]{0,60}?"
+_NEG_FREE = r"(?:(?!\bno\b)(?!\bnot\b(?!\s+(?:later|less|more|earlier|fewer)\s+than))[^.;])"
+_GAP = rf"{_NEG_FREE}{{0,120}}?"
+_SHORT_GAP = rf"{_NEG_FREE}{{0,60}}?"
 
 # (family label, classification, compiled pattern). Negation guards:
 # "shall not"/"may not" must never match a grant family.
@@ -55,9 +61,12 @@ _FAMILIES: tuple[tuple[str, Classification, re.Pattern[str]], ...] = (
     (
         "passive-shall-be-prescribed",
         Classification.mandatory,
+        # Negation guards: "No regulations shall be prescribed" is a
+        # prohibition, not a grant — the lookbehind and negation-free gap
+        # both block it.
         re.compile(
-            rf"\b{_OBJECTS}\b[^.;]{{0,80}}?\bshall\s+be\s+"
-            r"(?:prescribed|issued|promulgated|adopted|established)\b",
+            rf"(?<!\bno\s)\b{_OBJECTS}\b{_NEG_FREE}{{0,80}}?\bshall\s+"
+            r"(?!not\b)be\s+(?:prescribed|issued|promulgated|adopted|established)\b",
             re.IGNORECASE,
         ),
     ),
