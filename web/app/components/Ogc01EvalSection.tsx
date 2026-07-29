@@ -18,11 +18,15 @@ type Ogc01Report = {
   link_recall_wilson: Interval | null;
   link_f1_bootstrap: Interval | null;
   link_kappa: number | null;
+  link_pass_agreement: number | null;
   class_n: number;
   class_correct: number;
   class_accuracy: number | null;
   class_accuracy_wilson: Interval | null;
   class_accuracy_bootstrap: Interval | null;
+  class_icc: number | null;
+  class_design_effect: number | null;
+  class_effective_n: number | null;
   class_kappa: number | null;
   class_kappa_band: string | null;
   unresolved_count: number;
@@ -34,15 +38,20 @@ type Ogc01Report = {
   marker_precision: number | null;
   marker_precision_wilson: Interval | null;
   marker_missed: number;
+  marker_missed_pending: number;
+  marker_judged_excluded: number;
   marker_recall: number | null;
   marker_recall_wilson: Interval | null;
   grounding_kappa: number | null;
+  grounding_kappa_band: string | null;
+  marker_trust_note: string;
   grounding_gate_rejections: number;
   draft_generated: number;
   draft_accepted: number;
   draft_pass_rate: number;
   draft_unverified_quotes: number;
   kappa_note: string;
+  bootstrap_note: string;
   cluster_caveat: string;
   adjudicated_count: number;
   total_gold_count: number;
@@ -127,7 +136,7 @@ export function Ogc01EvalSection() {
                 : ""}
               , F1 {fmt(state.report.link_f1)}
               {state.report.link_f1_bootstrap
-                ? ` (95% clustered bootstrap${ci(state.report.link_f1_bootstrap)})`
+                ? ` (cluster-resampling range${ci(state.report.link_f1_bootstrap)})`
                 : ""}{" "}
               — TP {state.report.link_tp} / FP {state.report.link_fp} / FN{" "}
               {state.report.link_fn} over {state.report.link_gold_count} gold pairs.
@@ -140,7 +149,13 @@ export function Ogc01EvalSection() {
                 ? `; 95% Wilson${ci(state.report.class_accuracy_wilson)}`
                 : ""}
               {state.report.class_accuracy_bootstrap
-                ? `; 95% clustered bootstrap${ci(state.report.class_accuracy_bootstrap)}`
+                ? `; cluster-resampling range${ci(state.report.class_accuracy_bootstrap)}`
+                : ""}
+              {state.report.class_effective_n !== null
+                ? `; effective n ≈ ${Math.round(state.report.class_effective_n)}` +
+                  (state.report.class_design_effect !== null
+                    ? ` (design effect ${state.report.class_design_effect.toFixed(2)})`
+                    : "")
                 : ""}
               ).
             </li>
@@ -152,19 +167,23 @@ export function Ogc01EvalSection() {
               E.O.), {state.report.authority_gate_rejections} provenance-gate rejections.
             </li>
             <li>
-              Cross-model kappa — pair enumeration:{" "}
-              {state.report.link_kappa === null
-                ? "—"
-                : state.report.link_kappa.toFixed(2)}
+              Cross-model agreement — pair enumeration:{" "}
+              {state.report.link_kappa !== null
+                ? `kappa ${state.report.link_kappa.toFixed(2)}`
+                : state.report.link_pass_agreement !== null
+                  ? `raw agreement ${state.report.link_pass_agreement.toFixed(2)} ` +
+                    "(kappa undefined: identical passes leave no negative instances)"
+                  : "—"}
               ; classification:{" "}
               {state.report.class_kappa === null
                 ? "—"
-                : `${state.report.class_kappa.toFixed(2)} (${
+                : `kappa ${state.report.class_kappa.toFixed(2)} (${
                     state.report.class_kappa_band ?? ""
                   }, Landis-Koch)`}
               .
             </li>
             <li>{state.report.cluster_caveat}</li>
+            <li>{state.report.bootstrap_note}</li>
           </ul>
 
           <h3>Grounding-marker retrieval</h3>
@@ -191,8 +210,10 @@ export function Ogc01EvalSection() {
               Cross-model kappa on genuineness judgments:{" "}
               {state.report.grounding_kappa === null
                 ? "—"
-                : state.report.grounding_kappa.toFixed(2)}{" "}
-              — an honest signal that in-context judgment is harder than enumeration.
+                : `${state.report.grounding_kappa.toFixed(2)} (${
+                    state.report.grounding_kappa_band ?? ""
+                  }, Landis-Koch)`}
+              . {state.report.marker_trust_note}
             </li>
           </ul>
 

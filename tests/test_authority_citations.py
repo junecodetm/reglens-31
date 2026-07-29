@@ -213,16 +213,20 @@ def test_unresolvable_citation_fails_closed_dod2() -> None:
 
 def test_negation_bypass_guards_validator_finding_1() -> None:
     """Interposed/trailing negations must never classify as grants."""
-    assert classify_section(
-        "The Secretary shall, notwithstanding any other law, not prescribe "
-        "regulations under this section."
-    )[0] is Classification.silent
+    assert (
+        classify_section(
+            "The Secretary shall, notwithstanding any other law, not prescribe "
+            "regulations under this section."
+        )[0]
+        is Classification.silent
+    )
     assert classify_section("No regulations shall be prescribed under this subsection.")[0] is (
         Classification.silent
     )
-    assert classify_section("The Secretary may prescribe no regulations under this section.")[
-        0
-    ] is Classification.silent
+    assert (
+        classify_section("The Secretary may prescribe no regulations under this section.")[0]
+        is Classification.silent
+    )
 
 
 def test_and_joined_lists_and_multilevel_subsections() -> None:

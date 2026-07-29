@@ -25,7 +25,11 @@ from reglens.provenance import verify_span
 # so the fold table is unambiguous to linters and readers.
 _QUOTE_FOLD = str.maketrans({"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"'})
 
-_QUOTED_STRING = re.compile(r'"([^"]{15,})"')
+# Both double- AND single-quoted spans are gate-checked (curly quotes fold
+# to straight first). The floor keeps apostrophes/contractions out of the
+# matcher; the narrative SYSTEM prompt bans quotation entirely, so any
+# quote-looking span at all is already suspect.
+_QUOTED_STRING = re.compile(r"\"([^\"]{15,})\"|'([^']{15,})'")
 MIN_QUOTE_CHARS = 15
 
 # Fabrication scan over MODEL-GENERATED narrative only: the deterministic
@@ -45,6 +49,8 @@ _FABRICATION_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
             r"October|November|December)\s+\d{1,2},\s+\d{4}\b|\b\d{4}-\d{2}-\d{2}\b"
         ),
     ),
+    # An injected URL must never ride a narrative into a published draft.
+    ("url", re.compile(r"https?://|\bwww\.[\w-]+\.\w{2,}", re.IGNORECASE)),
 )
 
 _AMENDATORY_LINE = re.compile(r"^\d+\.\s+\S", re.MULTILINE)
@@ -134,7 +140,7 @@ def verify_narrative_quotes(narrative: str, corpus: list[str]) -> int:
     folded = narrative.translate(_QUOTE_FOLD)
     unverified = 0
     for match in _QUOTED_STRING.finditer(folded):
-        quote = match.group(1)
+        quote = match.group(1) or match.group(2)
         if not any(verify_span(source, quote).accepted for source in corpus):
             unverified += 1  # fail-closed: an unverifiable quote rejects the draft
     return unverified

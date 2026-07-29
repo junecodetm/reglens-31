@@ -24,8 +24,11 @@ from pydantic import BaseModel
 from reglens.authority.records import AuthorityExport
 from reglens.eval.harness import Outcome, f1_of
 from reglens.eval.metrics import (
+    binary_icc,
     clustered_bootstrap_ci,
     cohens_kappa,
+    design_effect,
+    effective_sample_size,
     kappa_band,
     wilson_interval,
 )
@@ -43,6 +46,11 @@ CLUSTER_CAVEAT = (
     "Census, not a sample: every citation pair from the five in-scope parts is "
     "evaluated. Clustered bootstrap runs over only 5 part-level clusters, "
     "dominated by part 501 — intervals are unstable and reported anyway."
+)
+BOOTSTRAP_NOTE = (
+    "Bootstrap figures are a cluster-resampling range over 5 part-level "
+    "clusters — NOT a calibrated 95% interval (too few clusters for nominal "
+    "coverage). The Wilson interval is the honest headline uncertainty."
 )
 
 
@@ -99,13 +107,20 @@ class Ogc01EvalReport(BaseModel):
     link_precision_wilson: tuple[float, float] | None
     link_recall_wilson: tuple[float, float] | None
     link_f1_bootstrap: tuple[float, float] | None
+    # Kappa is undefined when the union design yields a single category
+    # (identical passes → no negative instances); raw agreement is reported
+    # instead and kappa is None, never a fabricated 1.0.
     link_kappa: float | None
+    link_pass_agreement: float | None
     # Classification (deterministic pattern table vs proposed gold)
     class_n: int
     class_correct: int
     class_accuracy: float | None
     class_accuracy_wilson: tuple[float, float] | None
     class_accuracy_bootstrap: tuple[float, float] | None
+    class_icc: float | None
+    class_design_effect: float | None
+    class_effective_n: float | None
     class_kappa: float | None
     class_kappa_band: str | None
     # Coverage facts (not errors)
@@ -119,9 +134,13 @@ class Ogc01EvalReport(BaseModel):
     marker_precision: float | None
     marker_precision_wilson: tuple[float, float] | None
     marker_missed: int
+    marker_missed_pending: int
+    marker_judged_excluded: int
     marker_recall: float | None
     marker_recall_wilson: tuple[float, float] | None
     grounding_kappa: float | None
+    grounding_kappa_band: str | None
+    marker_trust_note: str
     grounding_gate_rejections: int
     # Draft skeletons (deterministic checklist — the only honest generation metric)
     draft_generated: int
@@ -130,6 +149,7 @@ class Ogc01EvalReport(BaseModel):
     draft_unverified_quotes: int
     # Honesty labels
     kappa_note: str
+    bootstrap_note: str = BOOTSTRAP_NOTE
     cluster_caveat: str = CLUSTER_CAVEAT
     adjudicated_count: int
     total_gold_count: int
@@ -160,7 +180,10 @@ def build_report() -> Ogc01EvalReport:
                 if citation.usc_title is None:
                     raise ValueError(f"usc_section citation missing title: {citation.raw!r}")
                 predicted.add((part.part, citation.usc_title, citation.usc_section))
-                part_of_pair[(citation.usc_title, citation.usc_section)] = part.part
+                key = (citation.usc_title, citation.usc_section)
+                # Deterministic cluster assignment for multi-part sections:
+                # the LOWEST citing part, independent of iteration order.
+                part_of_pair[key] = min(part_of_pair.get(key, part.part), part.part)
     links_gold = [
         record
         for record in load_typed_jsonl(GOLD_AUTHORITY / "links_gold.jsonl", LinkRecord)
@@ -205,12 +228,18 @@ def build_report() -> Ogc01EvalReport:
         if isinstance(r, LinkRecord)
     }
     link_kappa: float | None = None
+    link_pass_agreement: float | None = None
     if pass1_pairs and pass2_pairs:
         union = sorted(pass1_pairs | pass2_pairs)
-        link_kappa = cohens_kappa(
-            [str(pair in pass1_pairs) for pair in union],
-            [str(pair in pass2_pairs) for pair in union],
-        )
+        labels_a = [str(pair in pass1_pairs) for pair in union]
+        labels_b = [str(pair in pass2_pairs) for pair in union]
+        link_pass_agreement = len(pass1_pairs & pass2_pairs) / len(pass1_pairs | pass2_pairs)
+        # Kappa over the union frame is UNDEFINED when the passes coincide:
+        # every label is "True" (no negative instances exist by construction),
+        # so raw agreement is reported and kappa stays None — never a
+        # fabricated 1.0 from the degenerate no-variance path.
+        if len(set(labels_a) | set(labels_b)) > 1:
+            link_kappa = cohens_kappa(labels_a, labels_b)
 
     # --- Classification accuracy: pipeline vs gold on unique resolved sections.
     pipeline_class: dict[str, str] = {}
@@ -232,7 +261,11 @@ def build_report() -> Ogc01EvalReport:
             continue
         correct = predicted_label == record.classification
         class_outcomes.append(correct)
-        cluster = part_of_pair.get((record.usc_title, record.usc_section), 0)
+        cluster = part_of_pair.get((record.usc_title, record.usc_section))
+        if cluster is None:
+            # Fail-closed: a gold section the parser never cited has no
+            # cluster — a data defect, never silently binned.
+            raise ValueError(f"gold section not cited by any part: {record.pair_id}")
         class_clusters[cluster].append(correct)
     class_n = len(class_outcomes)
     class_correct = sum(class_outcomes)
@@ -245,6 +278,20 @@ def build_report() -> Ogc01EvalReport:
         if class_outcomes
         else None
     )
+    # Design-effect accounting for the correctness outcome, clustered by part
+    # (mirrors the core harness; docs/EVALUATION.md).
+    class_icc: float | None = None
+    class_deff: float | None = None
+    class_n_eff: float | None = None
+    if len(class_clusters) >= 2:
+        # binary_icc needs >=2 non-empty clusters; with fewer, deff/n_eff stay
+        # None (reported as unavailable, never guessed).
+        cluster_lists = list(class_clusters.values())
+        class_icc = binary_icc(cluster_lists)
+        sizes = [len(cluster_items) for cluster_items in cluster_lists]
+        weighted_mean_size = sum(size * size for size in sizes) / sum(sizes)
+        class_deff = design_effect(weighted_mean_size, class_icc)
+        class_n_eff = effective_sample_size(class_n, class_deff)
     pass1_class = {
         r.pair_id: r.classification
         for r in load_typed_jsonl(GOLD_AUTHORITY / "class_pass1.jsonl", ClassRecord)
@@ -269,11 +316,22 @@ def build_report() -> Ogc01EvalReport:
         for record in load_typed_jsonl(GOLD_GROUNDING / "gold.jsonl", MarkerJudgment)
         if isinstance(record, MarkerJudgment)
     ]
-    judgments = [r for r in grounding_gold if r.kind == "judgment"]
+    all_judgments = [r for r in grounding_gold if r.kind == "judgment"]
+    # Judgments with genuine == None are unadjudicated: excluded from the
+    # precision numerator AND denominator, with the exclusion count reported.
+    judgments = [r for r in all_judgments if r.genuine is not None]
+    judged_excluded = len(all_judgments) - len(judgments)
     missed = [r for r in grounding_gold if r.kind == "missed"]
+    # A swept occurrence counts against recall unless a human has judged it
+    # NOT genuine; pending (None) misses stay in the denominator
+    # (conservative) and are reported separately.
+    missed_counted = [r for r in missed if r.genuine is not False]
+    missed_pending = sum(1 for r in missed if r.genuine is None)
     genuine = sum(1 for r in judgments if r.genuine)
     marker_precision = genuine / len(judgments) if judgments else None
-    marker_recall = genuine / (genuine + len(missed)) if genuine + len(missed) else None
+    marker_recall = (
+        genuine / (genuine + len(missed_counted)) if genuine + len(missed_counted) else None
+    )
     pass1_g = {
         (r.document_number, r.start, r.end): bool(r.genuine)
         for r in load_typed_jsonl(GOLD_GROUNDING / "pass1.jsonl", MarkerJudgment)
@@ -313,11 +371,15 @@ def build_report() -> Ogc01EvalReport:
         link_recall_wilson=wilson_interval(tp, tp + fn) if tp + fn else None,
         link_f1_bootstrap=(link_f1_ci.low, link_f1_ci.high) if link_f1_ci else None,
         link_kappa=link_kappa,
+        link_pass_agreement=link_pass_agreement,
         class_n=class_n,
         class_correct=class_correct,
         class_accuracy=class_correct / class_n if class_n else None,
         class_accuracy_wilson=wilson_interval(class_correct, class_n) if class_n else None,
         class_accuracy_bootstrap=(class_ci.low, class_ci.high) if class_ci else None,
+        class_icc=class_icc,
+        class_design_effect=class_deff,
+        class_effective_n=class_n_eff,
         class_kappa=class_kappa,
         class_kappa_band=kappa_band(class_kappa) if class_kappa is not None else None,
         unresolved_count=export.total_unresolved,
@@ -329,11 +391,24 @@ def build_report() -> Ogc01EvalReport:
         marker_precision=marker_precision,
         marker_precision_wilson=(wilson_interval(genuine, len(judgments)) if judgments else None),
         marker_missed=len(missed),
+        marker_missed_pending=missed_pending,
+        marker_judged_excluded=judged_excluded,
         marker_recall=marker_recall,
         marker_recall_wilson=(
-            wilson_interval(genuine, genuine + len(missed)) if genuine + len(missed) else None
+            wilson_interval(genuine, genuine + len(missed_counted))
+            if genuine + len(missed_counted)
+            else None
         ),
         grounding_kappa=grounding_kappa,
+        grounding_kappa_band=(kappa_band(grounding_kappa) if grounding_kappa is not None else None),
+        marker_trust_note=(
+            "Cross-model agreement on genuineness judgments is below the >=0.61 "
+            "trust threshold (docs/EVALUATION.md): marker precision/recall rest "
+            "on judgments not yet human-adjudicated. Recall is additionally an "
+            "upper bound, limited by sweep completeness."
+            if grounding_kappa is not None and grounding_kappa < 0.61
+            else "Recall is an upper bound, limited by sweep completeness."
+        ),
         grounding_gate_rejections=int(grounding["total_gate_rejections"]),
         draft_generated=int(conformance["generated"]),
         draft_accepted=int(conformance["accepted"]),
@@ -342,7 +417,12 @@ def build_report() -> Ogc01EvalReport:
         kappa_note=(
             "All kappa values are agreement between two frozen proposal passes by "
             "different models (claude-fable-5 vs claude-sonnet-5) applying the "
-            "written guidelines; human inter-annotator kappa pending adjudication."
+            "written guidelines. Isolation protocol: each pass ran in a separate "
+            "session instructed to judge ONLY from the section/document text files "
+            "(never the classifier, retriever, or the other pass); independence was "
+            "spot-verified via distinct rationale wording. Perfect agreement on the "
+            "rule-guided classification task therefore reflects guideline "
+            "convergence, and human inter-annotator kappa is pending adjudication."
         ),
         adjudicated_count=adjudicated,
         total_gold_count=len(all_gold),
@@ -393,11 +473,12 @@ def main(argv: list[str] | None = None) -> int:
         baseline = json.loads(BASELINE_PATH.read_text())
         for key, value in gated.items():
             floor = baseline.get(key)
-            if (
-                isinstance(floor, float)
-                and isinstance(value, float)
-                and (value < floor - TOLERANCE)
-            ):
+            if not isinstance(floor, float):
+                # Fail-closed: a missing/None baseline floor would silently
+                # disarm this key forever — refuse instead.
+                print(f"GATE FAIL: baseline floor for {key} missing or non-numeric")
+                return 1
+            if isinstance(value, float) and value < floor - TOLERANCE:
                 print(f"GATE FAIL: {key} {value:.3f} < baseline {floor:.3f} - {TOLERANCE}")
                 return 1
     return 0

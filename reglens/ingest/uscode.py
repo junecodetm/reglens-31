@@ -10,6 +10,7 @@ guessed or synthesized.
 
 from __future__ import annotations
 
+import hashlib
 import re
 import zipfile
 from pathlib import Path
@@ -64,12 +65,40 @@ def title_zip_url(release_point: str, title: int) -> str:
     )
 
 
+# Ceiling on a single title archive (largest real title zips are ~100 MB);
+# past this, a compromised origin is feeding a decompression/disk bomb.
+_MAX_ZIP_BYTES = 400 * 1024 * 1024
+
+
+def recheck_redirects(response: httpx.Response) -> None:
+    """httpx response hook: every redirect hop must stay on the allow-list.
+
+    Fail-closed: ``require_allowed`` raises on the first off-list hop, so a
+    redirect can never smuggle a fetch to an unapproved host.
+    """
+    if response.is_redirect and response.next_request is not None:
+        require_allowed(str(response.next_request.url))
+
+
 def fetch_title_zip(settings: Settings, title: int) -> Path:
     """Download and cache one pinned USLM title ZIP, or replay the cached file."""
     title_number = _title_number(title)
     release_point = settings.usc_release_point
+    if _RELEASE_POINT.fullmatch(release_point) is None:
+        # Fail-closed BEFORE any path construction: a hostile release-point
+        # value must never shape the cache path.
+        raise ValueError(f"invalid U.S. Code release point: {release_point}")
     cache_path = settings.data_dir / "cache" / f"xml_usc{title_number}@{release_point}.zip"
+    digest_path = cache_path.with_suffix(".zip.sha256")
     if cache_path.is_file():
+        # Fail-closed replay: the cached archive must match the digest
+        # recorded at first fetch — a tampered cache is refused, not parsed.
+        if not digest_path.is_file():
+            raise ValueError(f"cached archive has no recorded digest: {cache_path}")
+        actual = hashlib.sha256(cache_path.read_bytes()).hexdigest()
+        recorded = digest_path.read_text().strip()
+        if actual != recorded:
+            raise ValueError(f"cached archive digest mismatch: {cache_path}")
         return cache_path
 
     url = title_zip_url(release_point, title)
@@ -79,6 +108,7 @@ def fetch_title_zip(settings: Settings, title: int) -> Path:
             headers={"User-Agent": settings.user_agent},
             timeout=300,
             follow_redirects=True,
+            event_hooks={"response": [recheck_redirects]},
         ) as client,
         client.stream("GET", allowed_url) as response,
     ):
@@ -95,11 +125,20 @@ def fetch_title_zip(settings: Settings, title: int) -> Path:
         try:
             # Fail-closed: only a completely streamed archive is promoted
             # to the replay cache; an interrupted download remains unusable.
+            digest = hashlib.sha256()
+            total = len(first_chunk)
             with partial_path.open("wb") as archive_file:
                 archive_file.write(first_chunk)
+                digest.update(first_chunk)
                 for chunk in chunks:
+                    total += len(chunk)
+                    if total > _MAX_ZIP_BYTES:
+                        # Fail-closed: an implausibly large stream is refused.
+                        raise ValueError(f"title {title} archive exceeds size ceiling")
                     archive_file.write(chunk)
+                    digest.update(chunk)
             partial_path.replace(cache_path)
+            digest_path.write_text(digest.hexdigest() + "\n")
         finally:
             partial_path.unlink(missing_ok=True)
     return cache_path

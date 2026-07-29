@@ -112,8 +112,10 @@ def check_web_deps(violations: list[str]) -> None:
 
 
 # XML namespace URIs are opaque identifiers, never fetched (no network,
-# no cost). Only exact, known namespace hosts are exempt from the URL scan.
-NAMESPACE_URI_HOSTS = {"xml.house.gov"}
+# no cost). Only these EXACT URI strings are exempt from the URL scan —
+# a host-wide exemption would let arbitrary xml.house.gov URLs through.
+NAMESPACE_URIS = {"http://xml.house.gov/schemas/uslm/1.0"}
+_FULL_URL_PATTERN = re.compile(r"https?://[A-Za-z0-9.-]+[^\s\"'<>)]*")
 
 
 def check_urls(violations: list[str]) -> None:
@@ -121,9 +123,15 @@ def check_urls(violations: list[str]) -> None:
         for path in sorted(ROOT.glob(pattern)):
             if path.name == "package-lock.json":
                 continue  # npm registry URLs; registry access is free
-            for host in URL_PATTERN.findall(path.read_text(errors="replace")):
-                if host in NAMESPACE_URI_HOSTS:
+            for full_url in _FULL_URL_PATTERN.findall(path.read_text(errors="replace")):
+                # Exempt only the exact namespace URI strings — any other URL
+                # on the same host still gets flagged below.
+                if any(full_url.startswith(uri) for uri in NAMESPACE_URIS):
                     continue
+                host_match = URL_PATTERN.match(full_url)
+                if host_match is None:
+                    continue
+                host = host_match.group(1)
                 if host not in ALLOWED_HOSTS:
                     violations.append(
                         f"{path.relative_to(ROOT)}: external host not allow-listed: {host}"

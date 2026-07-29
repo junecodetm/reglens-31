@@ -114,7 +114,10 @@ def clustered_bootstrap_ci[T](
         raise ValueError("statistic undefined in most bootstrap resamples")
     stats.sort()
     alpha = (1 - confidence) / 2
-    lower_index = int(alpha * len(stats))
+    # Order-statistic index for the alpha percentile of len(stats) sorted
+    # values: floor(alpha * (n - 1)) — int(alpha * n) drifts upward as
+    # undefined resamples shrink the list.
+    lower_index = int(alpha * (len(stats) - 1))
     upper_index = len(stats) - 1 - lower_index
     return BootstrapCI(stats[lower_index], stats[upper_index], undefined / n_resamples)
 

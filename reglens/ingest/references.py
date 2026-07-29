@@ -17,6 +17,7 @@ import httpx
 from reglens.config import Settings
 from reglens.ingest.allowlist import require_allowed
 from reglens.ingest.snapshot import write_snapshot
+from reglens.ingest.uscode import recheck_redirects
 
 REFERENCE_PDFS: tuple[tuple[str, str], ...] = (
     (
@@ -37,7 +38,12 @@ REFERENCE_PDFS: tuple[tuple[str, str], ...] = (
 def ingest_references(settings: Settings) -> list[Path]:
     """Snapshot every pinned reference PDF; return the snapshot directories."""
     snapshot_dirs: list[Path] = []
-    with httpx.Client(headers={"User-Agent": settings.user_agent}, timeout=120.0) as client:
+    with httpx.Client(
+        headers={"User-Agent": settings.user_agent},
+        timeout=120.0,
+        # Every redirect hop is re-checked against the allow-list (fail-closed).
+        event_hooks={"response": [recheck_redirects]},
+    ) as client:
         for stem, url in REFERENCE_PDFS:
             response = client.get(require_allowed(url), follow_redirects=True)
             response.raise_for_status()

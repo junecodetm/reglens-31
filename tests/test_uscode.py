@@ -1,5 +1,6 @@
 """Pinned OLRC U.S. Code ingest stays offline and excludes non-statutory text."""
 
+import hashlib
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -93,17 +94,38 @@ def test_title_zip_url_formats_title_and_validates_release_point() -> None:
         title_zip_url("bad", 31)
 
 
+def _place_cache(cache_path: Path, payload: bytes) -> None:
+    """Pre-place a cached archive WITH its digest sidecar (the replay contract)."""
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_bytes(payload)
+    cache_path.with_suffix(".zip.sha256").write_text(hashlib.sha256(payload).hexdigest() + "\n")
+
+
 def test_fetch_title_zip_returns_existing_cache_without_network(tmp_path: Path) -> None:
     settings = Settings(data_dir=tmp_path)
     cache_path = tmp_path / "cache" / "xml_usc05@119-102.zip"
-    cache_path.parent.mkdir(parents=True)
     cached_bytes = b"PK\x03\x04already cached"
-    cache_path.write_bytes(cached_bytes)
+    _place_cache(cache_path, cached_bytes)
 
     result = fetch_title_zip(settings, 5)
 
     assert result == cache_path
     assert result.read_bytes() == cached_bytes
+
+
+def test_fetch_title_zip_refuses_tampered_or_undigested_cache(tmp_path: Path) -> None:
+    settings = Settings(data_dir=tmp_path)
+    cache_path = tmp_path / "cache" / "xml_usc05@119-102.zip"
+    # Fail-closed: a cached archive without a recorded digest is refused.
+    cache_path.parent.mkdir(parents=True)
+    cache_path.write_bytes(b"PK\x03\x04no digest")
+    with pytest.raises(ValueError, match="no recorded digest"):
+        fetch_title_zip(settings, 5)
+    # Fail-closed: a digest mismatch (tampered cache) is refused.
+    _place_cache(cache_path, b"PK\x03\x04original")
+    cache_path.write_bytes(b"PK\x03\x04tampered!")
+    with pytest.raises(ValueError, match="digest mismatch"):
+        fetch_title_zip(settings, 5)
 
 
 def test_snapshot_sections_writes_two_idempotent_snapshots_per_found_section(
@@ -112,6 +134,7 @@ def test_snapshot_sections_writes_two_idempotent_snapshots_per_found_section(
     settings = Settings(data_dir=tmp_path)
     cache_path = tmp_path / "cache" / "xml_usc99@119-102.zip"
     _write_uslm_zip(cache_path)
+    _place_cache(cache_path, cache_path.read_bytes())
 
     first = snapshot_sections(settings, 99, {"101", "102", "103"})
 

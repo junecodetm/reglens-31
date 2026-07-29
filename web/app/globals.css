@@ -172,16 +172,18 @@ a:visited {
   font-size: 1.22em;
 }
 
+/* Neutral by design: gate accept/reject counts are facts, not judgments —
+   no semantic success/warning color anywhere (EXTEND-OGC01 §5 posture). */
 .stat-badge-accepted {
-  color: var(--success-ink);
-  background: var(--success-surface);
-  border-color: #70a987;
+  color: var(--ink);
+  background: #f0f0f0;
+  border-color: #a9aeb1;
 }
 
 .stat-badge-rejected {
-  color: var(--warm-ink);
-  background: var(--warm-surface);
-  border-color: #d27a2c;
+  color: var(--ink);
+  background: #f0f0f0;
+  border-color: #a9aeb1;
 }
 
 .site-header :focus-visible,

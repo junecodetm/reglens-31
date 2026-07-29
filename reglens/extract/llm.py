@@ -10,6 +10,7 @@ closed, schema-constrained transform (docs/SECURITY.md, prompt injection).
 """
 
 import hashlib
+import re
 from importlib import resources
 from typing import Protocol
 
@@ -21,14 +22,19 @@ from reglens.extract.schema import ExtractionResult, RunMeta, prompt_sha256
 USER_TEMPLATE = "<document>\n{document}\n</document>"
 
 
+_DELIMITER_PATTERN = re.compile(r"<(/?)\s*document\b([^>]*)>", re.IGNORECASE)
+
+
 def neutralize_delimiters(document_text: str) -> str:
     """Prevent source text from closing the data block and reading as instructions.
 
-    A literal ``</document>`` in fetched text is broken with a zero-width-free
-    escape; the provenance gate is unaffected because it verifies against the
-    original snapshot text, not the prompt payload.
+    Any ``<document ...>`` / ``</document>`` tag variant (case-insensitive,
+    whitespace/attribute-tolerant) in fetched text is broken with an escape;
+    the provenance gate is unaffected because it verifies against the
+    original snapshot text, not the prompt payload. Defense-in-depth: the
+    schema-constrained output, fabrication scan, and quote gate backstop this.
     """
-    return document_text.replace("</document>", "<\\/document>")
+    return _DELIMITER_PATTERN.sub(r"<\\\1document\2>", document_text)
 
 
 def load_system_prompt() -> str:
