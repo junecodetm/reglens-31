@@ -1797,3 +1797,149 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** FOIA exemption statement; no duty imposed on any party
 
+
+# EXTEND-OGC01 Adjudication Worklist
+
+Progress: **0/306 adjudicated.** Same protocol as above:
+find the record in its JSONL file, correct if needed, set `"adjudicated": true`,
+commit; `just eval` restates the metrics and their label automatically.
+
+## A. Classifications (112 items) — `reglens/eval/gold/authority/class_gold.jsonl`
+
+Check each against the U.S.C. section text (`web/public/data/usc/usc-<title>-s<section>.txt`) and docs/ANNOTATION_GUIDELINES.md §OGC-01.
+
+### Batch A1
+
+1. ⬜ `t12-s391` — proposed **silent** (claude-fable-5); Depositary and fiscal agent provisions; no rulemaking grant
+2. ⬜ `t18-s2332d` — proposed **silent** (claude-fable-5); Only references regulations issued by the Secretary; criminal offense provision
+3. ⬜ `t18-s2339B` — proposed **silent** (claude-fable-5); Reporting in accordance with regulations issued elsewhere; referencing, not granting
+4. ⬜ `t19-s3901` — proposed **silent** (claude-fable-5); Congressional findings only
+5. ⬜ `t19-s3902` — proposed **silent** (claude-fable-5); Definitions; references regulations promulgated by the President without granting authority
+6. ⬜ `t19-s3903` — proposed **silent** (claude-fable-5); Directs prohibition and permits waiver; no regulations or rules object
+7. ⬜ `t19-s3904` — proposed **mandatory** (claude-fable-5); Both authorized and shall issue regulations; mandatory precedence applies
+8. ⬜ `t19-s3905` — proposed **silent** (claude-fable-5); Designates authorities and directs Federal Register list publication, not rulemaking
+9. ⬜ `t19-s3906` — proposed **silent** (claude-fable-5); Statement of policy only
+10. ⬜ `t19-s3907` — proposed **silent** (claude-fable-5); Penalties referencing regulations issued under chapter; enforcement, not rulemaking grant
+11. ⬜ `t19-s3908` — proposed **silent** (claude-fable-5); Technical assistance direction only; no regulations
+12. ⬜ `t19-s3909` — proposed **silent** (claude-fable-5); Sense of Congress only
+13. ⬜ `t19-s3910` — proposed **silent** (claude-fable-5); Directs establishing a coordinating committee, not regulations or rules
+14. ⬜ `t19-s3911` — proposed **silent** (claude-fable-5); Reporting requirements only
+15. ⬜ `t19-s3912` — proposed **silent** (claude-fable-5); GAO report requirement only
+16. ⬜ `t19-s3913` — proposed **silent** (claude-fable-5); Delegation of authorities; no regulations or rules object
+17. ⬜ `t21-s1901` — proposed **silent** (claude-fable-5); Findings and policy statement only
+18. ⬜ `t21-s1902` — proposed **silent** (claude-fable-5); Purpose statement only
+19. ⬜ `t21-s1903` — proposed **silent** (claude-fable-5); Public identification, reporting, and waiver provisions; no rulemaking grant
+20. ⬜ `t21-s1904` — proposed **discretionary** (claude-fable-5); Subsection (e)(1) authorizes, not directs, promulgating rules and regulations
+### Batch A2
+
+21. ⬜ `t21-s1905` — proposed **discretionary** (claude-fable-5); Subsection (d) rulemaking is permissive; subsection (a) likewise permissive
+22. ⬜ `t21-s1906` — proposed **silent** (claude-fable-5); Penalties referencing rules or regulations issued elsewhere; no grant
+23. ⬜ `t21-s1907` — proposed **silent** (claude-fable-5); Definitions only
+24. ⬜ `t21-s1908` — proposed **mandatory** (claude-fable-5); Shall establish rules, though internal commission procedural rules only
+25. ⬜ `t22-s2370` — proposed **mandatory** (claude-fable-5); Subsection (h) directs the President to adopt regulations
+26. ⬜ `t22-s287c` — proposed **mandatory** (claude-fable-5); Subsection (c)(2) directs regulations; mandatory outranks (a) permissive rules
+27. ⬜ `t22-s6009` — proposed **silent** (claude-fable-5); Enforcement authority and OFAC branch establishment; no regulations grant
+28. ⬜ `t22-s6032` — proposed **silent** (claude-fable-5); Directs enforcement of existing regulations; codifies embargo, grants no rulemaking
+29. ⬜ `t22-s7205` — proposed **silent** (claude-fable-5); Licensing requirement and reports; no regulations or rules grant
+30. ⬜ `t22-s8501` — proposed **silent** (claude-fable-5); Congressional findings only
+31. ⬜ `t22-s8511` — proposed **silent** (claude-fable-5); Definitions only
+32. ⬜ `t22-s8512` — proposed **mandatory** (claude-fable-5); Subsection (d)(1) regulatory authority directs prescribing regulations
+33. ⬜ `t22-s8513` — proposed **mandatory** (claude-fable-5); Subsections (c)(1), (d)(1), (e)(1) each direct prescribing regulations
+34. ⬜ `t22-s8514` — proposed **discretionary** (claude-fable-5); Sanctions subject to such regulations as President may prescribe
+35. ⬜ `t22-s8515` — proposed **discretionary** (claude-fable-5); Procurement prohibition operates under regulations the President may prescribe
+36. ⬜ `t22-s8516` — proposed **discretionary** (claude-fable-5); Permissive regulatory authority to implement Security Council resolutions
+37. ⬜ `t22-s8517` — proposed **silent** (claude-fable-5); Findings and appropriations authorizations only
+38. ⬜ `t22-s8518` — proposed **silent** (claude-fable-5); Reporting requirements only
+39. ⬜ `t22-s8519` — proposed **silent** (claude-fable-5); Reporting requirements only
+40. ⬜ `t22-s8531` — proposed **silent** (claude-fable-5); Definitions only
+### Batch A3
+
+41. ⬜ `t22-s8532` — proposed **silent** (claude-fable-5); Authorizes State divestment measures, not federal regulations or rules
+42. ⬜ `t22-s8541` — proposed **silent** (claude-fable-5); Definitions only
+43. ⬜ `t22-s8542` — proposed **silent** (claude-fable-5); Intelligence reporting and identification requirement only
+44. ⬜ `t22-s8543` — proposed **silent** (claude-fable-5); Designation, reporting, and licensing under existing regulations; no rulemaking grant
+45. ⬜ `t22-s8544` — proposed **silent** (claude-fable-5); Permits designating enforcement employees, not issuing regulations
+46. ⬜ `t22-s8551` — proposed **silent** (claude-fable-5); Sunset, waivers, and appropriations; no rulemaking grant
+47. ⬜ `t26-s6402` — proposed **mandatory** (claude-fable-5); Subsections (e)(6) and (n) direct regulations; mandatory outranks (b) permissive
+48. ⬜ `t31-s3102` — proposed **mandatory** (claude-fable-5); Subsection (c)(2) directs regulations; outranks permissive bond authorities
+49. ⬜ `t31-s321` — proposed **mandatory** (claude-fable-5); Subsection (a) shall stem governs (a)(5); outranks (b)(1) permissive
+50. ⬜ `t31-s3701` — proposed **silent** (claude-fable-5); Definitions and application only
+51. ⬜ `t31-s3711` — proposed **discretionary** (claude-fable-5); Subsection (g)(10) permits rules and regulations; no mandatory grant present
+52. ⬜ `t31-s3716` — proposed **mandatory** (claude-fable-5); Subsection (b) requires adopting or prescribing offset regulations before collecting
+53. ⬜ `t31-s3719` — proposed **mandatory** (claude-fable-5); Subsection (a) directs the Secretary to prescribe reporting regulations
+54. ⬜ `t31-s3720A` — proposed **mandatory** (claude-fable-5); Subsection (d) directs the Secretary to issue regulations
+55. ⬜ `t31-s3720B` — proposed **silent** (claude-fable-5); Bars delinquent debtors under prescribed standards; no regulations grant
+56. ⬜ `t31-s3720D` — proposed **mandatory** (claude-fable-5); Subsection (h) directs Secretary to issue implementing regulations
+57. ⬜ `t31-s9304` — proposed **silent** (claude-fable-5); Surety bond sufficiency rules; no regulation-issuing grant
+58. ⬜ `t31-s9305` — proposed **silent** (claude-fable-5); Secretary authorizes or revokes corporations; no rulemaking grant
+59. ⬜ `t31-s9306` — proposed **silent** (claude-fable-5); Resident-agent and service-of-process requirements only
+60. ⬜ `t31-s9307` — proposed **silent** (claude-fable-5); Venue and defenses in civil actions; no rulemaking
+### Batch A4
+
+61. ⬜ `t31-s9308` — proposed **silent** (claude-fable-5); Civil penalty provision only; no rulemaking
+62. ⬜ `t42-s664` — proposed **mandatory** (claude-fable-5); Subsection (b)(1) directs Treasury to issue offset regulations
+63. ⬜ `t5-s301` — proposed **discretionary** (claude-fable-5); Department head permitted, not directed, to prescribe housekeeping regulations
+64. ⬜ `t5-s5514` — proposed **mandatory** (claude-fable-5); Subsection (b)(1) directs each agency head to prescribe implementing regulations
+65. ⬜ `t50-s1701` — proposed **silent** (claude-fable-5); Predicate for emergency declaration; no regulation grant
+66. ⬜ `t50-s1702` — proposed **discretionary** (claude-fable-5); Permissive “under such regulations as he may prescribe” in (a)(1)
+67. ⬜ `t50-s1703` — proposed **silent** (claude-fable-5); Consultation and reporting duties only; no rulemaking
+68. ⬜ `t50-s1704` — proposed **discretionary** (claude-fable-5); Express permissive grant: President may issue such regulations
+69. ⬜ `t50-s1705` — proposed **silent** (claude-fable-5); Penalties; merely references regulations issued elsewhere
+70. ⬜ `t50-s1706` — proposed **silent** (claude-fable-5); Savings provisions on continued exercise; no rulemaking
+71. ⬜ `t50-s4301` — proposed **silent** (claude-fable-5); Short-title designation only
+72. ⬜ `t50-s4302` — proposed **silent** (claude-fable-5); Definitions; proclamation power is not regulation issuance
+73. ⬜ `t50-s4303` — proposed **mandatory** (claude-fable-5); Passive shall-be-prescribed in (c) outranks permissive (d) establish clause
+74. ⬜ `t50-s4304` — proposed **silent** (claude-fable-5); Licensing terms and conditions only; no regulation grant
+75. ⬜ `t50-s4305` — proposed **discretionary** (claude-fable-5); Permissive may-make grant in (a); no mandatory counterpart
+76. ⬜ `t50-s4306` — proposed **silent** (claude-fable-5); Appointment power; prescribing duties is not rulemaking
+77. ⬜ `t50-s4307` — proposed **mandatory** (claude-fable-5); Shall-prescribe clause in (a) and (d) outranks may-prescribe clause
+78. ⬜ `t50-s4308` — proposed **mandatory** (claude-fable-5); Shall-prescribe clause in (a) outranks later may-prescribe proviso
+79. ⬜ `t50-s4309` — proposed **silent** (claude-fable-5); Claims procedures; custodian sets claim form, not regulations
+80. ⬜ `t50-s4310` — proposed **discretionary** (claude-fable-5); Subsection (c) permits President to prescribe licensing rules and regulations
+### Batch A5
+
+81. ⬜ `t50-s4311` — proposed **mandatory** (claude-fable-5); Import bar operates under regulations the President shall prescribe
+82. ⬜ `t50-s4312` — proposed **mandatory** (claude-fable-5); Two shall-prescribe rules-and-regulations clauses govern deposits and custodian powers
+83. ⬜ `t50-s4313` — proposed **silent** (claude-fable-5); Manifest and statement duties on masters; no rulemaking
+84. ⬜ `t50-s4314` — proposed **silent** (claude-fable-5); Clearance refusal and reporting by collector; no rulemaking
+85. ⬜ `t50-s4315` — proposed **silent** (claude-fable-5); Penalties and forfeiture; references regulations issued elsewhere
+86. ⬜ `t50-s4316` — proposed **discretionary** (claude-fable-5); Permissive grant to district courts to make rules as to notice
+87. ⬜ `t50-s4317` — proposed **silent** (claude-fable-5); Fee cap and court petition procedure; no rulemaking
+88. ⬜ `t50-s4318` — proposed **silent** (claude-fable-5); Expatriation presumption rule of decision; no rulemaking
+89. ⬜ `t50-s4319` — proposed **silent** (claude-fable-5); Bars fugitives from recovery; no rulemaking
+90. ⬜ `t50-s4320` — proposed **discretionary** (claude-fable-5); Income payment duty operates under permissive may-prescribe regulations clause
+91. ⬜ `t50-s4321` — proposed **silent** (claude-fable-5); Only “under regulations prescribed by” references to authority granted elsewhere
+92. ⬜ `t50-s4322` — proposed **discretionary** (claude-fable-5); Subsection (e) certificates issue under permissive may-prescribe regulations
+93. ⬜ `t50-s4323` — proposed **silent** (claude-fable-5); Allocation and payment duties; no regulation-issuing grant
+94. ⬜ `t50-s4324` — proposed **silent** (claude-fable-5); Directs return of patent consideration; no rulemaking
+95. ⬜ `t50-s4325` — proposed **silent** (claude-fable-5); Definition of unallocated interest fund only
+96. ⬜ `t50-s4326` — proposed **silent** (claude-fable-5); Custodian prescribes waiver terms and conditions, not regulations
+97. ⬜ `t50-s4327` — proposed **silent** (claude-fable-5); Attachment and garnishment procedure; no rulemaking
+98. ⬜ `t50-s4328` — proposed **silent** (claude-fable-5); Definition of former ruling family only
+99. ⬜ `t50-s4329` — proposed **silent** (claude-fable-5); Return conditions; only claim form may be prescribed
+100. ⬜ `t50-s4330` — proposed **silent** (claude-fable-5); Filing deadlines and limitations periods; no rulemaking
+### Batch A6
+
+101. ⬜ `t50-s4331` — proposed **silent** (claude-fable-5); Debt claim allowance, priority, and review; no rulemaking
+102. ⬜ `t50-s4332` — proposed **discretionary** (claude-fable-5); Grants power to prescribe claims rules; permissive, not directed
+103. ⬜ `t50-s4333` — proposed **silent** (claude-fable-5); Tax computation “in accordance with regulations prescribed by” references outside authority
+104. ⬜ `t50-s4334` — proposed **silent** (claude-fable-5); Permits procuring insurance; no rulemaking
+105. ⬜ `t50-s4335` — proposed **silent** (claude-fable-5); Relief shipments made lawful plus definitions; no rulemaking
+106. ⬜ `t50-s4336` — proposed **silent** (claude-fable-5); Retention, Treasury cover-in, and ex gratia payment; no rulemaking
+107. ⬜ `t50-s4337` — proposed **silent** (claude-fable-5); Authorizes intercustodial agreements, not regulations
+108. ⬜ `t50-s4338` — proposed **silent** (claude-fable-5); Self-executing divestment plus notice duty; no rulemaking
+109. ⬜ `t50-s4339` — proposed **silent** (claude-fable-5); Jurisdiction and copyright divestment; no rulemaking
+110. ⬜ `t50-s4340` — proposed **silent** (claude-fable-5); Trademark divestment and Federal Register list; no rulemaking
+111. ⬜ `t50-s4341` — proposed **silent** (claude-fable-5); Directs transfer of motion picture print title; no rulemaking
+112. ⬜ `t8-s1189` — proposed **silent** (claude-fable-5); Designation authority only; procedures established, no regulations or rules grant
+
+## B. Citation pairs (150 items) — `reglens/eval/gold/authority/links_gold.jsonl`
+
+Check each (part → title, section) pair against the verbatim authority line
+shown in the Statutory authority UI section (or the eCFR).
+
+## C. Grounding markers (44 items) — `reglens/eval/gold/grounding/gold.jsonl`
+
+For `judgment` records: confirm the genuine/not-genuine call in document
+context. For `missed` records: confirm the occurrence exists and name its family.
+

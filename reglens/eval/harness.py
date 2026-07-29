@@ -122,6 +122,11 @@ def _f1_of(outcomes: Sequence[Outcome]) -> float | None:
     return 2 * precision * recall / (precision + recall) if precision + recall else 0.0
 
 
+# Public alias: the OGC-01 eval (reglens.eval.ogc01) reuses the same
+# undefined-as-None F1 statistic for its clustered bootstrap.
+f1_of = _f1_of
+
+
 def citation_fidelity(settings: Settings, claims_path: Path) -> float:
     """Re-verify every accepted claim against its source; must be 1.0 by construction."""
     texts = {pair.text_sha256: pair.text for pair in discover_documents(settings.data_dir)}

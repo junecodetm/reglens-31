@@ -21,3 +21,4 @@ jobs:
       - run: uv sync --frozen
       # Committed fixtures only: no model, no API key, $0.
       - run: uv run python -m reglens.eval.harness --gate
+      - run: uv run python -m reglens.eval.ogc01 --gate

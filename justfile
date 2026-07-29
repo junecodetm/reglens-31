@@ -27,13 +27,27 @@ extract:
 graph:
     @echo "de-scoped: see docs/PROGRESS.md and docs/ENTITY_RESOLUTION.md" && exit 1
 
+# EXTEND-OGC01 Stage 1: authority citations -> USLM resolution -> classification
+authority:
+    uv run python -m reglens.authority.run
+
+# EXTEND-OGC01 Stage 2: two-sided grounding-marker retrieval (deterministic)
+grounding:
+    uv run python -m reglens.grounding.run
+
+# EXTEND-OGC01 Stage 3: DDH skeletons + conformance gates (local model narrative)
+draft:
+    uv run python -m reglens.draft.run
+
 # eval harness over the gold set -> metrics + Wilson/bootstrap CIs ($0, offline)
 eval:
     uv run python -m reglens.eval.harness
+    uv run python -m reglens.eval.ogc01
 
 # eval regression gate (CI): fails on F1 regression or fidelity < 1.0
 eval-gate:
     uv run python -m reglens.eval.harness --gate
+    uv run python -m reglens.eval.ogc01 --gate
 
 # export data for the UI + Next.js static export -> web/out
 build-web:

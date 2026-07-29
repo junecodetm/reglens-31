@@ -8,7 +8,10 @@ just demo         # one-command, no-API-key, offline demo (seeded data) -> opens
 just ingest       # snapshot Federal Register + eCFR T31 + OFAC + GLEIF into data/raw/<sha>
 just extract      # run local extraction + provenance gate -> parquet
 just graph        # build OFAC 50% ownership graph (seeded Deripaska case guaranteed)
-just eval         # Inspect AI harness over gold set -> metrics + Wilson CIs (fixtures, $0)
+just authority    # EXTEND-OGC01: authority citations -> USLM resolution -> classification
+just grounding    # EXTEND-OGC01: two-sided grounding-marker retrieval
+just draft        # EXTEND-OGC01: DDH rule skeletons + conformance gates
+just eval         # eval harnesses (core + OGC-01) -> metrics + Wilson/bootstrap CIs ($0)
 just build-web    # Next.js static export -> web/out
 just ci           # full CI locally (lint, type, test, security, a11y, eval gate)
 just security     # pip-audit, osv-scanner, gitleaks, semgrep, syft SBOM
