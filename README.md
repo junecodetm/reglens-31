@@ -25,6 +25,11 @@ The demo makes no network calls: all data ships as static assets. `just extract`
    - **Two-sided grounding signal** (`reglens/grounding/`): exact gate-verified marker spans in two equal-weight families (deference-reliance AND grounding-strength) plus neutral per-rule facts; bands are textual-marker density only — retrieval, never prediction.
    - **Draft rule skeletons** (`reglens/draft/`): DDH-conformant NPRM/final skeletons — deterministic structure, visible `[PLACEHOLDER — attorney to complete]` blocks for every required analysis, a labeled model-generated narrative, and a conformance checker (fabrication scan + quote gate) that rejects rather than caveats.
    - Governance crosswalk: [docs/M25-21-CROSSWALK.md](docs/M25-21-CROSSWALK.md) (OMB M-25-21 §4(b) minimum practices + NIST AI 600-1 Confabulation/Information Integrity).
+5. **Blueprint-alignment additions** ([docs/BLUEPRINT-ALIGNMENT.md](docs/BLUEPRINT-ALIGNMENT.md) maps an aspirational enterprise blueprint to what is realized, its neutral equivalent, or its documented exclusion):
+   - **Client-side lexical search** over claims, U.S. Code sections, CFR sections, and drafts — a precomputed static inverted index (`reglens/search_index.py`), BM25-scored in the browser, exact-term matching, no backend and no model involvement.
+   - **Hierarchy browser**: Title 31 → part → section navigation (`reglens/structure.py` splits each part's exact published text into offset-validated section spans).
+   - **Authority cross-references**: each part ↔ its cited U.S. Code sections, both directions, shared authorities surfaced — retrieval only, not an impact analysis.
+   - **APA procedural checklist + per-draft provenance dossier**: named structural checks (authority citation, basis-and-purpose elements, comment-period/effective-date reference, all three OFR amendatory verb forms) and a replay dossier per draft (model, decoding parameters, prompt/system/input SHA-256).
 
 ## Setup & run
 
