@@ -160,7 +160,7 @@ export function DraftsSection() {
 
     try {
       const response = await fetch(
-        `/data/drafts/31-CFR-${checklist.part}-${checklist.doc_type}.txt`,
+        `/data/drafts/31-CFR-${encodeURIComponent(String(checklist.part))}-${encodeURIComponent(checklist.doc_type)}.txt`,
         { signal: controller.signal },
       );
 

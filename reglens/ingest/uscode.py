@@ -65,9 +65,11 @@ def title_zip_url(release_point: str, title: int) -> str:
     )
 
 
-# Ceiling on a single title archive (largest real title zips are ~100 MB);
-# past this, a compromised origin is feeding a decompression/disk bomb.
+# Ceilings: a single title archive (largest real zips ~100 MB compressed)
+# and its uncompressed XML member (largest real titles ~700 MB). Past these,
+# a compromised origin is feeding a decompression/disk bomb.
 _MAX_ZIP_BYTES = 400 * 1024 * 1024
+_MAX_XML_MEMBER_BYTES = 1600 * 1024 * 1024
 
 
 def recheck_redirects(response: httpx.Response) -> None:
@@ -203,6 +205,10 @@ def extract_sections(zip_path: Path, title: int, sections: set[str]) -> dict[str
             # a valid title containing no requested sections.
             raise ValueError(f"U.S. Code archive contains no XML member: {zip_path}")
         xml_member = max(xml_members, key=lambda member: (member.file_size, member.filename))
+        if xml_member.file_size > _MAX_XML_MEMBER_BYTES:
+            # Fail-closed: a member claiming an implausible uncompressed size
+            # is a decompression bomb, not a U.S. Code title.
+            raise ValueError(f"U.S. Code XML member exceeds size ceiling: {xml_member.filename}")
 
         with archive.open(xml_member) as xml_file:
             root: ElementTree.Element[str] | None = None

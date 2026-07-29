@@ -19,6 +19,7 @@
     1.0,
     1.0
   ],
+  "link_f1_bootstrap_undefined": 0.0,
   "link_kappa": null,
   "link_pass_agreement": 1.0,
   "class_n": 112,
@@ -32,6 +33,7 @@
     0.8076923076923077,
     0.9583333333333334
   ],
+  "class_accuracy_bootstrap_undefined": 0.0,
   "class_icc": 0.0,
   "class_design_effect": 1.0,
   "class_effective_n": 112.0,
@@ -48,6 +50,11 @@
     0.6738270676469403,
     0.9025836441989402
   ],
+  "marker_precision_bootstrap": [
+    0.6808510638297872,
+    0.9722222222222222
+  ],
+  "marker_precision_bootstrap_undefined": 0.0,
   "marker_missed": 1,
   "marker_missed_pending": 1,
   "marker_judged_excluded": 0,
@@ -65,7 +72,7 @@
   "draft_pass_rate": 1.0,
   "draft_unverified_quotes": 0,
   "kappa_note": "All kappa values are agreement between two frozen proposal passes by different models (claude-fable-5 vs claude-sonnet-5) applying the written guidelines. Isolation protocol: each pass ran in a separate session instructed to judge ONLY from the section/document text files (never the classifier, retriever, or the other pass); independence was spot-verified via distinct rationale wording. Perfect agreement on the rule-guided classification task therefore reflects guideline convergence, and human inter-annotator kappa is pending adjudication.",
-  "bootstrap_note": "Bootstrap figures are a cluster-resampling range over 5 part-level clusters — NOT a calibrated 95% interval (too few clusters for nominal coverage). The Wilson interval is the honest headline uncertainty.",
+  "bootstrap_note": "Bootstrap figures are a cluster-resampling range over 5 part-level clusters — NOT a calibrated 95% interval (too few clusters for nominal coverage). With one dominant cluster, resamples that omit it score near 1.0, so the clustered LOWER bound can exceed the Wilson lower bound — here it is NOT the conservative reading. The Wilson interval is the honest headline uncertainty.",
   "cluster_caveat": "Census, not a sample: every citation pair from the five in-scope parts is evaluated. Clustered bootstrap runs over only 5 part-level clusters, dominated by part 501 — intervals are unstable and reported anyway.",
   "adjudicated_count": 0,
   "total_gold_count": 306,

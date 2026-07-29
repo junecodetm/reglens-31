@@ -37,6 +37,7 @@ type Ogc01Report = {
   marker_genuine: number;
   marker_precision: number | null;
   marker_precision_wilson: Interval | null;
+  marker_precision_bootstrap: Interval | null;
   marker_missed: number;
   marker_missed_pending: number;
   marker_judged_excluded: number;
@@ -193,6 +194,9 @@ export function Ogc01EvalSection() {
               {state.report.marker_genuine}/{state.report.marker_judged} judged genuine
               {state.report.marker_precision_wilson
                 ? `; 95% Wilson${ci(state.report.marker_precision_wilson)}`
+                : ""}
+              {state.report.marker_precision_bootstrap
+                ? `; document-cluster resampling range${ci(state.report.marker_precision_bootstrap)}`
                 : ""}
               ); recall vs the independent sweep {fmt(state.report.marker_recall)} (
               {state.report.marker_missed} missed occurrence

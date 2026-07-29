@@ -50,7 +50,10 @@ CLUSTER_CAVEAT = (
 BOOTSTRAP_NOTE = (
     "Bootstrap figures are a cluster-resampling range over 5 part-level "
     "clusters — NOT a calibrated 95% interval (too few clusters for nominal "
-    "coverage). The Wilson interval is the honest headline uncertainty."
+    "coverage). With one dominant cluster, resamples that omit it score near "
+    "1.0, so the clustered LOWER bound can exceed the Wilson lower bound — "
+    "here it is NOT the conservative reading. The Wilson interval is the "
+    "honest headline uncertainty."
 )
 
 
@@ -107,6 +110,7 @@ class Ogc01EvalReport(BaseModel):
     link_precision_wilson: tuple[float, float] | None
     link_recall_wilson: tuple[float, float] | None
     link_f1_bootstrap: tuple[float, float] | None
+    link_f1_bootstrap_undefined: float | None
     # Kappa is undefined when the union design yields a single category
     # (identical passes → no negative instances); raw agreement is reported
     # instead and kappa is None, never a fabricated 1.0.
@@ -118,6 +122,7 @@ class Ogc01EvalReport(BaseModel):
     class_accuracy: float | None
     class_accuracy_wilson: tuple[float, float] | None
     class_accuracy_bootstrap: tuple[float, float] | None
+    class_accuracy_bootstrap_undefined: float | None
     class_icc: float | None
     class_design_effect: float | None
     class_effective_n: float | None
@@ -133,6 +138,9 @@ class Ogc01EvalReport(BaseModel):
     marker_genuine: int
     marker_precision: float | None
     marker_precision_wilson: tuple[float, float] | None
+    # Clustered by document (43 judgments span 11 documents, one holding 12).
+    marker_precision_bootstrap: tuple[float, float] | None
+    marker_precision_bootstrap_undefined: float | None
     marker_missed: int
     marker_missed_pending: int
     marker_judged_excluded: int
@@ -332,6 +340,13 @@ def build_report() -> Ogc01EvalReport:
     marker_recall = (
         genuine / (genuine + len(missed_counted)) if genuine + len(missed_counted) else None
     )
+    # Judgments cluster within documents — resample whole documents.
+    marker_clusters: dict[str, list[bool]] = defaultdict(list)
+    for record in judgments:
+        marker_clusters[record.document_number].append(bool(record.genuine))
+    marker_ci = (
+        clustered_bootstrap_ci(list(marker_clusters.values()), _accuracy_of) if judgments else None
+    )
     pass1_g = {
         (r.document_number, r.start, r.end): bool(r.genuine)
         for r in load_typed_jsonl(GOLD_GROUNDING / "pass1.jsonl", MarkerJudgment)
@@ -370,6 +385,7 @@ def build_report() -> Ogc01EvalReport:
         link_precision_wilson=wilson_interval(tp, tp + fp) if tp + fp else None,
         link_recall_wilson=wilson_interval(tp, tp + fn) if tp + fn else None,
         link_f1_bootstrap=(link_f1_ci.low, link_f1_ci.high) if link_f1_ci else None,
+        link_f1_bootstrap_undefined=link_f1_ci.undefined_fraction if link_f1_ci else None,
         link_kappa=link_kappa,
         link_pass_agreement=link_pass_agreement,
         class_n=class_n,
@@ -377,6 +393,7 @@ def build_report() -> Ogc01EvalReport:
         class_accuracy=class_correct / class_n if class_n else None,
         class_accuracy_wilson=wilson_interval(class_correct, class_n) if class_n else None,
         class_accuracy_bootstrap=(class_ci.low, class_ci.high) if class_ci else None,
+        class_accuracy_bootstrap_undefined=class_ci.undefined_fraction if class_ci else None,
         class_icc=class_icc,
         class_design_effect=class_deff,
         class_effective_n=class_n_eff,
@@ -390,6 +407,8 @@ def build_report() -> Ogc01EvalReport:
         marker_genuine=genuine,
         marker_precision=marker_precision,
         marker_precision_wilson=(wilson_interval(genuine, len(judgments)) if judgments else None),
+        marker_precision_bootstrap=(marker_ci.low, marker_ci.high) if marker_ci else None,
+        marker_precision_bootstrap_undefined=(marker_ci.undefined_fraction if marker_ci else None),
         marker_missed=len(missed),
         marker_missed_pending=missed_pending,
         marker_judged_excluded=judged_excluded,
@@ -473,12 +492,14 @@ def main(argv: list[str] | None = None) -> int:
         baseline = json.loads(BASELINE_PATH.read_text())
         for key, value in gated.items():
             floor = baseline.get(key)
-            if not isinstance(floor, float):
+            # JSON round-trips 1.0 as 1 in hand-edited files: an int floor is
+            # numeric and accepted; bool is not (it would coerce silently).
+            if isinstance(floor, bool) or not isinstance(floor, (int, float)):
                 # Fail-closed: a missing/None baseline floor would silently
                 # disarm this key forever — refuse instead.
                 print(f"GATE FAIL: baseline floor for {key} missing or non-numeric")
                 return 1
-            if isinstance(value, float) and value < floor - TOLERANCE:
+            if isinstance(value, (int, float)) and value < float(floor) - TOLERANCE:
                 print(f"GATE FAIL: {key} {value:.3f} < baseline {floor:.3f} - {TOLERANCE}")
                 return 1
     return 0
