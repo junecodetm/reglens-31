@@ -43,11 +43,17 @@ jobs:
       - run: npm run build
         working-directory: web
       # Non-affiliation invariant (CLAUDE.md §2, invariant 4): the disclaimer
-      # and the mockup framing must be present in the README and survive the
-      # static build, or the push fails.
+      # must be present in the README and on EVERY emitted page of the
+      # multi-page static build; the mockup framing stays pinned to the
+      # Overview page. Any miss fails the push.
       - name: disclaimer-and-framing-guard
         run: |
           grep -qF "not affiliated with, endorsed by, or an official product of the U.S. Department of the Treasury" README.md
-          grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" web/out/index.html
+          pages=$(find web/out -name index.html)
+          test -n "$pages"
+          for page in $pages; do
+            grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" "$page" \
+              || { echo "disclaimer missing: $page"; exit 1; }
+          done
           grep -qF "About this demonstration" web/out/index.html
           grep -qF "Regulatory Reform Tool" web/out/index.html

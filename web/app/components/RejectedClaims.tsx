@@ -31,8 +31,9 @@ export function RejectedClaims({
         <h3 id="rejected-heading">Rejected claims ({rejectedCount})</h3>
       ) : null}
       <p>
-        These model-proposed claims failed exact verbatim verification against
-        the source text and were rejected by the fail-closed provenance gate.
+        <strong>{rejectedCount}</strong> model-proposed claims failed exact
+        verbatim verification against the source text and were rejected by the
+        fail-closed provenance gate — counted and listed, not hidden.
       </p>
 
       {rejectedClaims.length === 0 ? (
