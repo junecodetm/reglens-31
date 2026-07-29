@@ -319,8 +319,8 @@ def test_missing_heading_fails_closed() -> None:
 def test_dossier_hashes_are_stable_for_fixed_inputs() -> None:
     settings = Settings(model_tag="test-model")
     source_record = record(PART_TEXT_SHA256)
-    first = draft_run._build_dossier(settings, source_record, "nprm", PART_TEXT)
-    second = draft_run._build_dossier(settings, source_record, "nprm", PART_TEXT)
+    first = draft_run.build_dossier(settings, source_record, "nprm", PART_TEXT)
+    second = draft_run.build_dossier(settings, source_record, "nprm", PART_TEXT)
 
     assert first == second
     assert first.model_dump() == {

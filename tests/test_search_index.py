@@ -370,13 +370,13 @@ def test_serialize_search_index_enforces_utf8_byte_limit_without_truncation() ->
 
 def test_snapshot_payload_path_rejects_directory_escape(tmp_path: Path) -> None:
     """Static export resolves snapshot payloads only from safe basename manifests."""
-    from reglens.store.export_web import _snapshot_payload_path
+    from reglens.store.export_web import snapshot_payload_path
 
-    assert _snapshot_payload_path(tmp_path, "payload.txt") == tmp_path / "payload.txt"
+    assert snapshot_payload_path(tmp_path, "payload.txt") == tmp_path / "payload.txt"
     with pytest.raises(ValueError, match="Unsafe snapshot filename"):
-        _snapshot_payload_path(tmp_path, "../payload.txt")
+        snapshot_payload_path(tmp_path, "../payload.txt")
     with pytest.raises(ValueError, match="Unsafe snapshot filename"):
-        _snapshot_payload_path(tmp_path, "/payload.txt")
+        snapshot_payload_path(tmp_path, "/payload.txt")
 
 
 def test_real_web_export_writes_sections_and_search_index(tmp_path: Path) -> None:

@@ -115,6 +115,10 @@ def _build_dossier(
     )
 
 
+# Public alias for tests (repo pattern: tests never import private names).
+build_dossier = _build_dossier
+
+
 def _verification_corpus(settings: Settings, record: PartAuthority) -> list[str]:
     """Sources a draft's quotes/set-out text may verify against.
 

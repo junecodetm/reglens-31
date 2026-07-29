@@ -55,6 +55,10 @@ def _snapshot_payload_path(snapshot_dir: Path, filename: str) -> Path:
     return snapshot_dir / candidate
 
 
+# Public alias for tests (repo pattern: tests never import private names).
+snapshot_payload_path = _snapshot_payload_path
+
+
 def _sanitized(extraction: DocumentExtraction) -> DocumentExtraction:
     """Enforce https on the outbound link; refuse unsafe document numbers."""
     require_safe_document_number(extraction.document_number)
