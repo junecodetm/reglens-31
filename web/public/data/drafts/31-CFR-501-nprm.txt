@@ -16,7 +16,7 @@ ACTION: Notice of proposed rulemaking.
 
 SUMMARY: [model-generated] 31 CFR Part 501 establishes reporting, procedural, and penalty regulations related to various statutory authorities. This skeleton provides a structural framework for the regulation without including specific legal conclusions or policy recommendations.
 
-DATES: [PLACEHOLDER — attorney to complete]
+DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
 ADDRESSES: [PLACEHOLDER — attorney to complete]
 
@@ -76,6 +76,14 @@ PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS
 
    Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).
 
-2. [PLACEHOLDER — attorney to complete] Amend § 501.___ as follows: [PLACEHOLDER — attorney to complete]
+2. Amend § 501.___ by adding paragraph (___) to read as follows:
+
+   [PLACEHOLDER — attorney to complete]
+
+3. Revise § 501.___ to read as follows:
+
+   [PLACEHOLDER — attorney to complete]
+
+4. Remove and reserve § 501.___.
 
 Signature block: [PLACEHOLDER — attorney to complete]

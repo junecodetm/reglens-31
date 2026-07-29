@@ -16,7 +16,7 @@ ACTION: Notice of proposed rulemaking.
 
 SUMMARY: [model-generated] 31 CFR Part 223 establishes the regulatory framework for surety companies that conduct business with the United States. This skeleton provides a structural outline of the part, focusing on the requirements and obligations applicable to such companies. The content is intended to guide the development of a Notice of Proposed Rulemaking.
 
-DATES: [PLACEHOLDER — attorney to complete]
+DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
 ADDRESSES: [PLACEHOLDER — attorney to complete]
 
@@ -76,6 +76,14 @@ PART 223—SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES
 
    Authority: 5 U.S.C. 301; 31 U.S.C. 9304-9308.
 
-2. [PLACEHOLDER — attorney to complete] Amend § 223.___ as follows: [PLACEHOLDER — attorney to complete]
+2. Amend § 223.___ by adding paragraph (___) to read as follows:
+
+   [PLACEHOLDER — attorney to complete]
+
+3. Revise § 223.___ to read as follows:
+
+   [PLACEHOLDER — attorney to complete]
+
+4. Remove and reserve § 223.___.
 
 Signature block: [PLACEHOLDER — attorney to complete]

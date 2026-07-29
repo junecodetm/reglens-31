@@ -1,0 +1,1150 @@
+{
+  "parts": [
+    {
+      "heading": "PART 50—TERRORISM RISK INSURANCE PROGRAM",
+      "part": 50,
+      "sections": [
+        {
+          "designation": "§ 50.1",
+          "end": 1355,
+          "heading": "Authority, purpose, and scope.",
+          "start": 443
+        },
+        {
+          "designation": "§ 50.2",
+          "end": 1685,
+          "heading": "Responsible office.",
+          "start": 1355
+        },
+        {
+          "designation": "§ 50.3",
+          "end": 1837,
+          "heading": "Mandatory participation in program.",
+          "start": 1685
+        },
+        {
+          "designation": "§ 50.4",
+          "end": 30946,
+          "heading": "Definitions.",
+          "start": 1837
+        },
+        {
+          "designation": "§ 50.5",
+          "end": 31169,
+          "heading": "Rule of construction for dates.",
+          "start": 30946
+        },
+        {
+          "designation": "§ 50.6",
+          "end": 31742,
+          "heading": "Special rules for Interim Guidance safe harbors.",
+          "start": 31169
+        },
+        {
+          "designation": "§ 50.7",
+          "end": 34131,
+          "heading": "Procedure for requesting determinations of controlling influence.",
+          "start": 31742
+        },
+        {
+          "designation": "§ 50.8",
+          "end": 35466,
+          "heading": "Procedure for requesting general interpretations of statute.",
+          "start": 34131
+        },
+        {
+          "designation": "§ 50.10",
+          "end": 36022,
+          "heading": "General disclosure requirements.",
+          "start": 35466
+        },
+        {
+          "designation": "§ 50.11",
+          "end": 36339,
+          "heading": "Definition.",
+          "start": 36022
+        },
+        {
+          "designation": "§ 50.12",
+          "end": 38273,
+          "heading": "Clear and conspicuous disclosure.",
+          "start": 36339
+        },
+        {
+          "designation": "§ 50.13",
+          "end": 38626,
+          "heading": "Offer and renewal.",
+          "start": 38273
+        },
+        {
+          "designation": "§ 50.14",
+          "end": 39009,
+          "heading": "Separate line item.",
+          "start": 38626
+        },
+        {
+          "designation": "§ 50.15",
+          "end": 40527,
+          "heading": "Cap disclosure.",
+          "start": 39009
+        },
+        {
+          "designation": "§ 50.16",
+          "end": 41910,
+          "heading": "Use of model forms.",
+          "start": 40527
+        },
+        {
+          "designation": "§ 50.17",
+          "end": 43018,
+          "heading": "General disclosure requirements for State residual market insurance entities and State workers' compensation funds.",
+          "start": 41910
+        },
+        {
+          "designation": "§ 50.20",
+          "end": 44055,
+          "heading": "General mandatory availability requirements.",
+          "start": 43018
+        },
+        {
+          "designation": "§ 50.21",
+          "end": 45676,
+          "heading": "Make available.",
+          "start": 44055
+        },
+        {
+          "designation": "§ 50.22",
+          "end": 46844,
+          "heading": "No material difference from other coverage.",
+          "start": 45676
+        },
+        {
+          "designation": "§ 50.23",
+          "end": 48115,
+          "heading": "Applicability of State law requirements.",
+          "start": 46844
+        },
+        {
+          "designation": "§ 50.30",
+          "end": 49015,
+          "heading": "General participation requirements.",
+          "start": 48115
+        },
+        {
+          "designation": "§ 50.31",
+          "end": 49606,
+          "heading": "Entities that do not share profits and losses with private sector insurers.",
+          "start": 49015
+        },
+        {
+          "designation": "§ 50.32",
+          "end": 50326,
+          "heading": "Entities that share profits and losses with private sector insurers.",
+          "start": 49606
+        },
+        {
+          "designation": "§ 50.33",
+          "end": 51731,
+          "heading": "Allocation of premium income associated with entities that do share profits and losses with private sector insurers.",
+          "start": 50326
+        },
+        {
+          "designation": "§ 50.50",
+          "end": 51896,
+          "heading": "General.",
+          "start": 51731
+        },
+        {
+          "designation": "§ 50.51",
+          "end": 54525,
+          "heading": "Annual data reporting.",
+          "start": 51896
+        },
+        {
+          "designation": "§ 50.52",
+          "end": 55719,
+          "heading": "Small insurer data.",
+          "start": 54525
+        },
+        {
+          "designation": "§ 50.53",
+          "end": 58426,
+          "heading": "Collection of claims data.",
+          "start": 55719
+        },
+        {
+          "designation": "§ 50.54",
+          "end": 61136,
+          "heading": "Handling of data.",
+          "start": 58426
+        },
+        {
+          "designation": "§ 50.60",
+          "end": 63026,
+          "heading": "Certification.",
+          "start": 61136
+        },
+        {
+          "designation": "§ 50.61",
+          "end": 64900,
+          "heading": "Public communication.",
+          "start": 63026
+        },
+        {
+          "designation": "§ 50.62",
+          "end": 66395,
+          "heading": "Certification data collection.",
+          "start": 64900
+        },
+        {
+          "designation": "§ 50.63",
+          "end": 67572,
+          "heading": "Notification of certification determination.",
+          "start": 66395
+        },
+        {
+          "designation": "§ 50.70",
+          "end": 72769,
+          "heading": "Federal share of compensation.",
+          "start": 67572
+        },
+        {
+          "designation": "§ 50.71",
+          "end": 75602,
+          "heading": "Adjustments to the Federal share of compensation.",
+          "start": 72769
+        },
+        {
+          "designation": "§ 50.72",
+          "end": 76803,
+          "heading": "Notice of deductible erosion.",
+          "start": 75602
+        },
+        {
+          "designation": "§ 50.73",
+          "end": 81859,
+          "heading": "Loss certifications.",
+          "start": 76803
+        },
+        {
+          "designation": "§ 50.74",
+          "end": 85752,
+          "heading": "Payment of Federal share of compensation.",
+          "start": 81859
+        },
+        {
+          "designation": "§ 50.75",
+          "end": 86004,
+          "heading": "Determination of affiliations.",
+          "start": 85752
+        },
+        {
+          "designation": "§ 50.76",
+          "end": 93338,
+          "heading": "Final netting.",
+          "start": 86004
+        },
+        {
+          "designation": "§ 50.80",
+          "end": 93816,
+          "heading": "Audit authority.",
+          "start": 93338
+        },
+        {
+          "designation": "§ 50.81",
+          "end": 95508,
+          "heading": "Recordkeeping.",
+          "start": 93816
+        },
+        {
+          "designation": "§ 50.82",
+          "end": 97552,
+          "heading": "Civil penalties.",
+          "start": 95508
+        },
+        {
+          "designation": "§ 50.83",
+          "end": 98570,
+          "heading": "Adjustment of civil monetary penalty amount.",
+          "start": 97552
+        },
+        {
+          "designation": "§ 50.90",
+          "end": 100046,
+          "heading": "Mandatory and discretionary recoupment.",
+          "start": 98570
+        },
+        {
+          "designation": "§ 50.91",
+          "end": 102228,
+          "heading": "Determination of recoupment amounts.",
+          "start": 100046
+        },
+        {
+          "designation": "§ 50.92",
+          "end": 103667,
+          "heading": "Establishment of Federal terrorism policy surcharge.",
+          "start": 102228
+        },
+        {
+          "designation": "§ 50.93",
+          "end": 104602,
+          "heading": "Notification of recoupment.",
+          "start": 103667
+        },
+        {
+          "designation": "§ 50.94",
+          "end": 108390,
+          "heading": "Collecting the surcharge.",
+          "start": 104602
+        },
+        {
+          "designation": "§ 50.95",
+          "end": 110977,
+          "heading": "Remitting the surcharge.",
+          "start": 108390
+        },
+        {
+          "designation": "§ 50.96",
+          "end": 111280,
+          "heading": "Insurer responsibility.",
+          "start": 110977
+        },
+        {
+          "designation": "§ 50.100",
+          "end": 113143,
+          "heading": "Federal cause of action and remedy.",
+          "start": 111280
+        },
+        {
+          "designation": "§ 50.101",
+          "end": 113670,
+          "heading": "State causes of action preempted.",
+          "start": 113143
+        },
+        {
+          "designation": "§ 50.102",
+          "end": 117551,
+          "heading": "Advance approval of settlements.",
+          "start": 113670
+        },
+        {
+          "designation": "§ 50.103",
+          "end": 121595,
+          "heading": "Procedure for requesting approval of proposed settlements.",
+          "start": 117551
+        },
+        {
+          "designation": "§ 50.104",
+          "end": 122264,
+          "heading": "Subrogation.",
+          "start": 121595
+        },
+        {
+          "designation": "§ 50.110",
+          "end": 122846,
+          "heading": "Cap on annual liability.",
+          "start": 122264
+        },
+        {
+          "designation": "§ 50.111",
+          "end": 123575,
+          "heading": "Notice to Congress.",
+          "start": 122846
+        },
+        {
+          "designation": "§ 50.112",
+          "end": 127316,
+          "heading": "Determination of pro rata share.",
+          "start": 123575
+        },
+        {
+          "designation": "§ 50.113",
+          "end": 130978,
+          "heading": "Application of pro rata share.",
+          "start": 127316
+        },
+        {
+          "designation": "§ 50.114",
+          "end": 131253,
+          "heading": "Data call authority.",
+          "start": 130978
+        },
+        {
+          "designation": "§ 50.115",
+          "end": 132245,
+          "heading": "Final amount.",
+          "start": 131253
+        }
+      ],
+      "text_path": "authority-parts/31-CFR-50.txt"
+    },
+    {
+      "heading": "PART 223—SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES",
+      "part": 223,
+      "sections": [
+        {
+          "designation": "§ 223.1",
+          "end": 1460,
+          "heading": "Certificate of authority.",
+          "start": 111
+        },
+        {
+          "designation": "§ 223.2",
+          "end": 9995,
+          "heading": "Application for certificate of authority.",
+          "start": 1460
+        },
+        {
+          "designation": "§ 223.3",
+          "end": 11512,
+          "heading": "Issuance of certificates of authority.",
+          "start": 9995
+        },
+        {
+          "designation": "§ 223.4",
+          "end": 11532,
+          "heading": "[Reserved]",
+          "start": 11512
+        },
+        {
+          "designation": "§ 223.5",
+          "end": 12058,
+          "heading": "Business.",
+          "start": 11532
+        },
+        {
+          "designation": "§ 223.6",
+          "end": 12078,
+          "heading": "[Reserved]",
+          "start": 12058
+        },
+        {
+          "designation": "§ 223.7",
+          "end": 14459,
+          "heading": "Notification of changes.",
+          "start": 12078
+        },
+        {
+          "designation": "§ 223.8",
+          "end": 16617,
+          "heading": "Quarterly financial reporting requirements.",
+          "start": 14459
+        },
+        {
+          "designation": "§ 223.9",
+          "end": 25649,
+          "heading": "Determination of financial condition and other required information.",
+          "start": 16617
+        },
+        {
+          "designation": "§ 223.10",
+          "end": 27756,
+          "heading": "Limitation of risk.",
+          "start": 25649
+        },
+        {
+          "designation": "§ 223.11",
+          "end": 32640,
+          "heading": "Limitation of risk: Protective methods.",
+          "start": 27756
+        },
+        {
+          "designation": "§ 223.12",
+          "end": 45974,
+          "heading": "Recognition as reinsurer.",
+          "start": 32640
+        },
+        {
+          "designation": "§§ 223.13-223.14",
+          "end": 46003,
+          "heading": "[Reserved]",
+          "start": 45974
+        },
+        {
+          "designation": "§ 223.15",
+          "end": 46551,
+          "heading": "Paid-up capital and surplus for Treasury rating purposes; how determined.",
+          "start": 46003
+        },
+        {
+          "designation": "§ 223.16",
+          "end": 47879,
+          "heading": "List of certificate holding companies.",
+          "start": 46551
+        },
+        {
+          "designation": "§ 223.17",
+          "end": 51009,
+          "heading": "Acceptance and non-acceptance of bonds.",
+          "start": 47879
+        },
+        {
+          "designation": "§ 223.18",
+          "end": 51991,
+          "heading": "Revocation.",
+          "start": 51009
+        },
+        {
+          "designation": "§ 223.19",
+          "end": 52812,
+          "heading": "Treasury-initiated revocation proceedings.",
+          "start": 51991
+        },
+        {
+          "designation": "§ 223.20",
+          "end": 62380,
+          "heading": "Revocation proceedings initiated by Treasury upon receipt of an agency complaint.",
+          "start": 52812
+        },
+        {
+          "designation": "§ 223.21",
+          "end": 63182,
+          "heading": "Reinstatement.",
+          "start": 62380
+        },
+        {
+          "designation": "§ 223.22",
+          "end": 65429,
+          "heading": "Fees for service of the Treasury Department.",
+          "start": 63182
+        }
+      ],
+      "text_path": "authority-parts/31-CFR-223.txt"
+    },
+    {
+      "heading": "PART 285—DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION IMPROVEMENT ACT OF 1996",
+      "part": 285,
+      "sections": [
+        {
+          "designation": "§ 285.1",
+          "end": 18954,
+          "heading": "Collection of past-due support by administrative offset.",
+          "start": 354
+        },
+        {
+          "designation": "§ 285.2",
+          "end": 33192,
+          "heading": "Offset of tax refund payments to collect past-due, legally enforceable nontax debt.",
+          "start": 18954
+        },
+        {
+          "designation": "§ 285.3",
+          "end": 48593,
+          "heading": "Offset of tax refund payments to collect past-due support.",
+          "start": 33192
+        },
+        {
+          "designation": "§ 285.4",
+          "end": 58403,
+          "heading": "Offset of Federal benefit payments to collect past-due, legally enforceable nontax debt.",
+          "start": 48593
+        },
+        {
+          "designation": "§ 285.5",
+          "end": 93631,
+          "heading": "Centralized offset of Federal payments to collect nontax debts owed to the United States.",
+          "start": 58403
+        },
+        {
+          "designation": "§ 285.6",
+          "end": 106974,
+          "heading": "Administrative offset under reciprocal agreements with states.",
+          "start": 93631
+        },
+        {
+          "designation": "§ 285.7",
+          "end": 123129,
+          "heading": "Salary offset.",
+          "start": 106974
+        },
+        {
+          "designation": "§ 285.8",
+          "end": 138170,
+          "heading": "Offset of tax refund payments to collect certain debts owed to States.",
+          "start": 123129
+        },
+        {
+          "designation": "§ 285.11",
+          "end": 157941,
+          "heading": "Administrative wage garnishment.",
+          "start": 138170
+        },
+        {
+          "designation": "§ 285.12",
+          "end": 173146,
+          "heading": "Transfer of debts to Treasury for collection.",
+          "start": 157941
+        },
+        {
+          "designation": "§ 285.13",
+          "end": 184301,
+          "heading": "Barring delinquent debtors from obtaining Federal loans or loan insurance or guarantees.",
+          "start": 173146
+        }
+      ],
+      "text_path": "authority-parts/31-CFR-285.txt"
+    },
+    {
+      "heading": "PART 356—SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL SERVICE SERIES NO. 1-93)",
+      "part": 356,
+      "sections": [
+        {
+          "designation": "§ 356.0",
+          "end": 687,
+          "heading": "What authority does the Treasury have to sell and issue securities?",
+          "start": 396
+        },
+        {
+          "designation": "§ 356.1",
+          "end": 1220,
+          "heading": "To which securities does this circular apply?",
+          "start": 687
+        },
+        {
+          "designation": "§ 356.2",
+          "end": 15059,
+          "heading": "What definitions do I need to know to understand this part?",
+          "start": 1220
+        },
+        {
+          "designation": "§ 356.3",
+          "end": 15361,
+          "heading": "What is the role of the Federal Reserve Banks in this process?",
+          "start": 15059
+        },
+        {
+          "designation": "§ 356.4",
+          "end": 17024,
+          "heading": "What are the book-entry systems in which auctioned Treasury securities may be issued or maintained?",
+          "start": 15361
+        },
+        {
+          "designation": "§ 356.5",
+          "end": 20723,
+          "heading": "What types of securities does the Treasury auction?",
+          "start": 17024
+        },
+        {
+          "designation": "§ 356.10",
+          "end": 21345,
+          "heading": "What is the purpose of an auction announcement?",
+          "start": 20723
+        },
+        {
+          "designation": "§ 356.11",
+          "end": 23473,
+          "heading": "How are bids submitted in an auction?",
+          "start": 21345
+        },
+        {
+          "designation": "§ 356.12",
+          "end": 27186,
+          "heading": "What are the different types of bids and do they have specific requirements or restrictions?",
+          "start": 23473
+        },
+        {
+          "designation": "§ 356.13",
+          "end": 30912,
+          "heading": "When must I report my net long position and how do I calculate it?",
+          "start": 27186
+        },
+        {
+          "designation": "§ 356.14",
+          "end": 33902,
+          "heading": "What are the requirements for submitting bids for customers?",
+          "start": 30912
+        },
+        {
+          "designation": "§ 356.15",
+          "end": 38733,
+          "heading": "What rules apply to bids submitted by investment advisers?",
+          "start": 33902
+        },
+        {
+          "designation": "§ 356.16",
+          "end": 39959,
+          "heading": "Do I have to make any certifications?",
+          "start": 38733
+        },
+        {
+          "designation": "§ 356.17",
+          "end": 42534,
+          "heading": "How and when do I pay for securities awarded in an auction?",
+          "start": 39959
+        },
+        {
+          "designation": "§ 356.20",
+          "end": 46345,
+          "heading": "How does the Treasury determine auction awards?",
+          "start": 42534
+        },
+        {
+          "designation": "§ 356.21",
+          "end": 48176,
+          "heading": "How are awards at the high yield, discount rate, or discount margin calculated?",
+          "start": 46345
+        },
+        {
+          "designation": "§ 356.22",
+          "end": 49257,
+          "heading": "Does the Treasury have any limitations on auction awards?",
+          "start": 48176
+        },
+        {
+          "designation": "§ 356.23",
+          "end": 50144,
+          "heading": "How are the auction results announced?",
+          "start": 49257
+        },
+        {
+          "designation": "§ 356.24",
+          "end": 53170,
+          "heading": "Will I be notified directly of my awards and, if I am submitting bids for others, do I have to provide confirmations?",
+          "start": 50144
+        },
+        {
+          "designation": "§ 356.25",
+          "end": 54422,
+          "heading": "How does the settlement process work?",
+          "start": 53170
+        },
+        {
+          "designation": "§ 356.30",
+          "end": 57590,
+          "heading": "When does the Treasury pay principal and interest on securities?",
+          "start": 54422
+        },
+        {
+          "designation": "§ 356.31",
+          "end": 62988,
+          "heading": "How does the STRIPS program work?",
+          "start": 57590
+        },
+        {
+          "designation": "§ 356.32",
+          "end": 63865,
+          "heading": "What tax rules apply?",
+          "start": 62988
+        },
+        {
+          "designation": "§ 356.33",
+          "end": 64547,
+          "heading": "Does the Treasury have any discretion in the auction process?",
+          "start": 63865
+        },
+        {
+          "designation": "§ 356.34",
+          "end": 65317,
+          "heading": "What could happen if someone does not fully comply with the auction rules or fails to pay for securities?",
+          "start": 64547
+        },
+        {
+          "designation": "§ 356.35",
+          "end": 168989,
+          "heading": "Who approved the information collections?",
+          "start": 65317
+        }
+      ],
+      "text_path": "authority-parts/31-CFR-356.txt"
+    },
+    {
+      "heading": "PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS",
+      "part": 501,
+      "sections": [
+        {
+          "designation": "§ 501.101",
+          "end": 1837,
+          "heading": "Relation of this part to other parts in this chapter.",
+          "start": 443
+        },
+        {
+          "designation": "§ 501.301",
+          "end": 2372,
+          "heading": "Definitions.",
+          "start": 1837
+        },
+        {
+          "designation": "§ 501.601",
+          "end": 3314,
+          "heading": "Records and recordkeeping requirements.",
+          "start": 2372
+        },
+        {
+          "designation": "§ 501.602",
+          "end": 6793,
+          "heading": "Reports to be furnished on demand.",
+          "start": 3314
+        },
+        {
+          "designation": "§ 501.603",
+          "end": 21797,
+          "heading": "Reports of blocked, unblocked, or transferred blocked property.",
+          "start": 6793
+        },
+        {
+          "designation": "§ 501.604",
+          "end": 26659,
+          "heading": "Reports of rejected transactions.",
+          "start": 21797
+        },
+        {
+          "designation": "§ 501.605",
+          "end": 29631,
+          "heading": "Reports on litigation, arbitration, and dispute resolution proceedings.",
+          "start": 26659
+        },
+        {
+          "designation": "§ 501.606",
+          "end": 30063,
+          "heading": "Reporting and recordkeeping requirements applicable to economic sanctions programs.",
+          "start": 29631
+        },
+        {
+          "designation": "§ 501.700",
+          "end": 30222,
+          "heading": "Applicability.",
+          "start": 30063
+        },
+        {
+          "designation": "§ 501.701",
+          "end": 33134,
+          "heading": "Penalties.",
+          "start": 30222
+        },
+        {
+          "designation": "§ 501.702",
+          "end": 36531,
+          "heading": "Definitions.",
+          "start": 33134
+        },
+        {
+          "designation": "§ 501.703",
+          "end": 38728,
+          "heading": "Overview of civil penalty process and construction of rules.",
+          "start": 36531
+        },
+        {
+          "designation": "§ 501.704",
+          "end": 40588,
+          "heading": "Appearance and practice.",
+          "start": 38728
+        },
+        {
+          "designation": "§ 501.705",
+          "end": 49862,
+          "heading": "Service and filing.",
+          "start": 40588
+        },
+        {
+          "designation": "§ 501.706",
+          "end": 51887,
+          "heading": "Prepenalty Notice; issuance by Director.",
+          "start": 49862
+        },
+        {
+          "designation": "§ 501.707",
+          "end": 55197,
+          "heading": "Response to Prepenalty Notice.",
+          "start": 51887
+        },
+        {
+          "designation": "§ 501.708",
+          "end": 55677,
+          "heading": "Director's finding of no penalty warranted.",
+          "start": 55197
+        },
+        {
+          "designation": "§ 501.709",
+          "end": 57075,
+          "heading": "Penalty notice.",
+          "start": 55677
+        },
+        {
+          "designation": "§ 501.710",
+          "end": 61534,
+          "heading": "Settlement.",
+          "start": 57075
+        },
+        {
+          "designation": "§ 501.711",
+          "end": 63723,
+          "heading": "Hearing request.",
+          "start": 61534
+        },
+        {
+          "designation": "§ 501.712",
+          "end": 63963,
+          "heading": "Acknowledgment of hearing request.",
+          "start": 63723
+        },
+        {
+          "designation": "§ 501.713",
+          "end": 65645,
+          "heading": "Order Instituting Proceedings.",
+          "start": 63963
+        },
+        {
+          "designation": "§ 501.714",
+          "end": 67837,
+          "heading": "Answer to Order Instituting Proceedings.",
+          "start": 65645
+        },
+        {
+          "designation": "§ 501.715",
+          "end": 69399,
+          "heading": "Notice of Hearing.",
+          "start": 67837
+        },
+        {
+          "designation": "§ 501.716",
+          "end": 70478,
+          "heading": "Default.",
+          "start": 69399
+        },
+        {
+          "designation": "§ 501.717",
+          "end": 71051,
+          "heading": "Consolidation of proceedings.",
+          "start": 70478
+        },
+        {
+          "designation": "§ 501.718",
+          "end": 71597,
+          "heading": "Conduct and order of hearings.",
+          "start": 71051
+        },
+        {
+          "designation": "§ 501.719",
+          "end": 73574,
+          "heading": "Ex parte communications.",
+          "start": 71597
+        },
+        {
+          "designation": "§ 501.720",
+          "end": 73990,
+          "heading": "Separation of functions.",
+          "start": 73574
+        },
+        {
+          "designation": "§ 501.721",
+          "end": 74299,
+          "heading": "Hearings to be public.",
+          "start": 73990
+        },
+        {
+          "designation": "§ 501.722",
+          "end": 77188,
+          "heading": "Prehearing conferences.",
+          "start": 74299
+        },
+        {
+          "designation": "§ 501.723",
+          "end": 85993,
+          "heading": "Prehearing disclosures; methods to discover additional matter.",
+          "start": 77188
+        },
+        {
+          "designation": "§ 501.724",
+          "end": 86869,
+          "heading": "Documents that may be withheld.",
+          "start": 85993
+        },
+        {
+          "designation": "§ 501.725",
+          "end": 92496,
+          "heading": "Confidential treatment of information in certain filings.",
+          "start": 86869
+        },
+        {
+          "designation": "§ 501.726",
+          "end": 94904,
+          "heading": "Motions.",
+          "start": 92496
+        },
+        {
+          "designation": "§ 501.727",
+          "end": 96937,
+          "heading": "Motion for summary disposition.",
+          "start": 94904
+        },
+        {
+          "designation": "§ 501.728",
+          "end": 100204,
+          "heading": "Subpoenas.",
+          "start": 96937
+        },
+        {
+          "designation": "§ 501.729",
+          "end": 102939,
+          "heading": "Sanctions.",
+          "start": 100204
+        },
+        {
+          "designation": "§ 501.730",
+          "end": 106146,
+          "heading": "Depositions upon oral examination.",
+          "start": 102939
+        },
+        {
+          "designation": "§ 501.731",
+          "end": 107380,
+          "heading": "Depositions upon written questions.",
+          "start": 106146
+        },
+        {
+          "designation": "§ 501.732",
+          "end": 110166,
+          "heading": "Evidence.",
+          "start": 107380
+        },
+        {
+          "designation": "§ 501.733",
+          "end": 112679,
+          "heading": "Evidence: confidential information, protective orders.",
+          "start": 110166
+        },
+        {
+          "designation": "§ 501.734",
+          "end": 114245,
+          "heading": "Introducing prior sworn statements of witnesses into the record.",
+          "start": 112679
+        },
+        {
+          "designation": "§ 501.735",
+          "end": 116318,
+          "heading": "Proposed findings, conclusions and supporting briefs.",
+          "start": 114245
+        },
+        {
+          "designation": "§ 501.736",
+          "end": 118036,
+          "heading": "Authority of Administrative Law Judge.",
+          "start": 116318
+        },
+        {
+          "designation": "§ 501.737",
+          "end": 119671,
+          "heading": "Adjustments of time, postponements and adjournments.",
+          "start": 118036
+        },
+        {
+          "designation": "§ 501.738",
+          "end": 120796,
+          "heading": "Disqualification and withdrawal of Administrative Law Judge.",
+          "start": 119671
+        },
+        {
+          "designation": "§ 501.739",
+          "end": 123130,
+          "heading": "Record in proceedings before Administrative Law Judge; retention of documents; copies.",
+          "start": 120796
+        },
+        {
+          "designation": "§ 501.740",
+          "end": 126223,
+          "heading": "Decision of Administrative Law Judge.",
+          "start": 123130
+        },
+        {
+          "designation": "§ 501.741",
+          "end": 130367,
+          "heading": "Review of decision or ruling.",
+          "start": 126223
+        },
+        {
+          "designation": "§ 501.742",
+          "end": 131162,
+          "heading": "Secretary's designee's consideration of decisions by Administrative Law Judges.",
+          "start": 130367
+        },
+        {
+          "designation": "§ 501.743",
+          "end": 133494,
+          "heading": "Briefs filed with the Secretary's designee.",
+          "start": 131162
+        },
+        {
+          "designation": "§ 501.744",
+          "end": 134997,
+          "heading": "Record before the Secretary's designee.",
+          "start": 133494
+        },
+        {
+          "designation": "§ 501.745",
+          "end": 135909,
+          "heading": "Orders and decisions: signature, date and public availability.",
+          "start": 134997
+        },
+        {
+          "designation": "§ 501.746",
+          "end": 136391,
+          "heading": "Referral to United States Department of Justice; administrative collection measures.",
+          "start": 135909
+        },
+        {
+          "designation": "§ 501.747",
+          "end": 136824,
+          "heading": "Procedures on remand of decisions.",
+          "start": 136391
+        },
+        {
+          "designation": "§ 501.801",
+          "end": 143102,
+          "heading": "Licensing.",
+          "start": 136824
+        },
+        {
+          "designation": "§ 501.802",
+          "end": 143407,
+          "heading": "Decisions.",
+          "start": 143102
+        },
+        {
+          "designation": "§ 501.803",
+          "end": 143738,
+          "heading": "Amendment, modification, or revocation.",
+          "start": 143407
+        },
+        {
+          "designation": "§ 501.804",
+          "end": 144544,
+          "heading": "Rulemaking.",
+          "start": 143738
+        },
+        {
+          "designation": "§ 501.805",
+          "end": 148054,
+          "heading": "Rules governing availability of information.",
+          "start": 144544
+        },
+        {
+          "designation": "§ 501.806",
+          "end": 150585,
+          "heading": "Procedures for unblocking property believed to have been blocked and reported in error due to mistaken identity or typographical or similar errors.",
+          "start": 148054
+        },
+        {
+          "designation": "§ 501.807",
+          "end": 153502,
+          "heading": "Procedures governing delisting from the Specially Designated Nationals and Blocked Persons List or any other list of sanctioned persons or property maintained by the Office of Foreign Assets Control.",
+          "start": 150585
+        },
+        {
+          "designation": "§ 501.808",
+          "end": 154114,
+          "heading": "License application and other procedures applicable to economic sanctions programs.",
+          "start": 153502
+        },
+        {
+          "designation": "§ 501.901",
+          "end": 201378,
+          "heading": "Paperwork Reduction Act notice.",
+          "start": 154114
+        }
+      ],
+      "text_path": "authority-parts/31-CFR-501.txt"
+    }
+  ],
+  "title": 31
+}

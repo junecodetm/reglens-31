@@ -7,11 +7,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "ce1c19dfffa2665d01d073f28cfd150eacbd4c4ddd84c79d754d21c361686b7a",
+        "input_sha256": "2b90cb8e1afdcaa27e6f76529f89fbe516cd1944e379367b707749cdc13d3187",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     },
     {
@@ -21,11 +39,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "352a3699fb81c025d4abdc12b28f4fa6f653b019d6acf71d5f28efacfd3e1194",
+        "input_sha256": "3be0750516f615dc85992c480478a67afe8c0639954a2c4bc23ccbc3660762f3",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     },
     {
@@ -35,11 +71,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "2c1518142e731f6505fbc67aa8889f35cc2e3f73c1095ca03e4857394c1600a3",
+        "input_sha256": "3be0750516f615dc85992c480478a67afe8c0639954a2c4bc23ccbc3660762f3",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     },
     {
@@ -49,11 +103,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "1fa4dcaf5b9ec27094ba2476df54504b6c3f32999f27c8d3edd141b4cc7e803b",
+        "input_sha256": "c3defc1a8595167202fa204646f0cbf5f08137f5c5db788c1f49b2da78e76e14",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     },
     {
@@ -63,11 +135,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "31f4c6075ffed058ae78264d0c8daa4df8c50d36f5a8aefa711e8e07d0a095bf",
+        "input_sha256": "092037024490d693dff5deb8e10fd4795570d819128c782c008b52de80bc3371",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     },
     {
@@ -77,11 +167,29 @@
       "analysis_sections_present": true,
       "placeholders_intact": true,
       "amendatory_instructions_parse": true,
+      "amendatory_forms_demonstrated": true,
+      "authority_citation_present": true,
+      "basis_and_purpose_present": true,
+      "comment_period_reference": true,
       "setout_text_verified": true,
       "narrative_fabrication_clean": true,
       "quotes_verified": true,
       "unverified_quote_count": 0,
       "fabrication_hits": [],
+      "dossier": {
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": 8192,
+        "num_predict": 1024,
+        "system_prompt_sha256": "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3",
+        "prompt_sha256": "221ee8d3863a09806ec679c791669b0d21ac561bbde39db587e675341c3fa7d3",
+        "input_sha256": "9278f65625cdd6f261deb6fbefc17c981368cb2039fcfd0231d8f6416d6141e0",
+        "narrative_fields": [
+          "summary",
+          "supplementary_intro"
+        ]
+      },
       "passed": true
     }
   ],
