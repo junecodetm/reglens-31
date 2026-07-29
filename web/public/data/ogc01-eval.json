@@ -1,0 +1,64 @@
+{
+  "link_gold_count": 150,
+  "link_predicted_count": 150,
+  "link_tp": 150,
+  "link_fp": 0,
+  "link_fn": 0,
+  "link_precision": 1.0,
+  "link_recall": 1.0,
+  "link_f1": 1.0,
+  "link_precision_wilson": [
+    0.9750288608542812,
+    1.0
+  ],
+  "link_recall_wilson": [
+    0.9750288608542812,
+    1.0
+  ],
+  "link_f1_bootstrap": [
+    1.0,
+    1.0
+  ],
+  "link_kappa": 1.0,
+  "class_n": 112,
+  "class_correct": 99,
+  "class_accuracy": 0.8839285714285714,
+  "class_accuracy_wilson": [
+    0.8114927457758987,
+    0.9309003150934263
+  ],
+  "class_accuracy_bootstrap": [
+    0.8736842105263158,
+    1.0
+  ],
+  "class_kappa": 1.0,
+  "class_kappa_band": "Almost perfect",
+  "unresolved_count": 34,
+  "unresolved_rate": 0.22666666666666666,
+  "non_section_citations": 4,
+  "authority_gate_rejections": 0,
+  "marker_judged": 43,
+  "marker_genuine": 35,
+  "marker_precision": 0.813953488372093,
+  "marker_precision_wilson": [
+    0.6738270676469403,
+    0.9025836441989402
+  ],
+  "marker_missed": 1,
+  "marker_recall": 0.9722222222222222,
+  "marker_recall_wilson": [
+    0.8582996626496918,
+    0.9950797197044302
+  ],
+  "grounding_kappa": 0.4941176470588238,
+  "grounding_gate_rejections": 0,
+  "draft_generated": 6,
+  "draft_accepted": 6,
+  "draft_pass_rate": 1.0,
+  "draft_unverified_quotes": 0,
+  "kappa_note": "All kappa values are agreement between two frozen proposal passes by different models (claude-fable-5 vs claude-sonnet-5) applying the written guidelines; human inter-annotator kappa pending adjudication.",
+  "cluster_caveat": "Census, not a sample: every citation pair from the five in-scope parts is evaluated. Clustered bootstrap runs over only 5 part-level clusters, dominated by part 501 — intervals are unstable and reported anyway.",
+  "adjudicated_count": 0,
+  "total_gold_count": 306,
+  "provisional_label": "Provisional — machine-proposed labels, human-adjudicated: 0/306. Metrics will be restated as adjudication proceeds."
+}
