@@ -14,29 +14,12 @@ const DISCLAIMER =
 // route → sole h1 text and sidebar label carrying aria-current on that page.
 const ROUTES = [
   ["", "RegLens-31", "Overview"],
-  ["about", "About this demonstration", "About this demonstration"],
-  ["extraction/claims", "Extracted obligations", "Claims &amp; sources"],
-  ["extraction/rejected", "Rejected claims", "Rejected claims"],
-  ["explore/search", "Search the ingested corpus", "Corpus search"],
-  ["explore/browse", "Browse Title 31 (ingested parts)", "Browse Title 31"],
-  [
-    "explore/cross-references",
-    "Authority cross-references",
-    "Authority cross-references",
-  ],
-  ["ogc01/authority", "Statutory authority", "Authority citations"],
-  [
-    "ogc01/grounding",
-    "Grounding markers (two-sided)",
-    "Grounding markers",
-  ],
-  ["ogc01/drafts", "Draft rule skeletons", "Draft skeletons"],
-  ["evaluation", "Evaluation — core metrics (provisional)", "Core metrics"],
-  [
-    "evaluation/ogc01",
-    "Evaluation — authority, grounding, and drafts (provisional)",
-    "OGC-01 modules",
-  ],
+  ["obligations", "Extracted obligations", "Extracted obligations"],
+  ["authorities", "Statutory authority", "Statutory authority"],
+  ["drafts", "Draft rule skeletons", "Draft skeletons"],
+  ["evaluation", "Evaluation (provisional)", "Evaluation"],
+  ["sources", "Search &amp; browse the corpus", "Search &amp; browse"],
+  ["about", "About this demonstration", "About &amp; provenance"],
 ];
 
 function readPage(route) {
@@ -78,11 +61,33 @@ test("the sidebar marks each page's own link with aria-current", () => {
   }
 });
 
-test("the Overview keeps the mockup framing and the legacy-hash forwarder", () => {
+test("every route emits exactly one page-lead paragraph, except the Overview", () => {
+  for (const [route] of ROUTES) {
+    const html = readPage(route);
+    const leadCount = (html.match(/class="page-lead"/g) ?? []).length;
+
+    if (route === "") {
+      assert.equal(
+        leadCount,
+        0,
+        "Overview uses its own hero copy, not PageHeader's lead prop",
+      );
+    } else {
+      assert.equal(
+        leadCount,
+        1,
+        `${route}: expected exactly one page-lead paragraph`,
+      );
+    }
+  }
+});
+
+test("the Overview keeps the mockup framing, the guided example, and the legacy-hash forwarder", () => {
   const html = readPage("");
 
   assert.ok(html.includes("About this demonstration"));
   assert.ok(html.includes("Regulatory Reform Tool"));
+  assert.ok(html.includes("See it work"));
 
   const overview = readFileSync(
     join(ROOT, "web", "app", "OverviewContent.tsx"),
@@ -96,10 +101,10 @@ test("the Overview keeps the mockup framing and the legacy-hash forwarder", () =
   assert.match(overview, /<LegacyHashRedirect \/>/);
   for (const [hash, target] of [
     ["#about", "/about"],
-    ["#extraction", "/extraction/claims"],
-    ["#rejected-claims", "/extraction/rejected"],
-    ["#explore", "/explore/search"],
-    ["#ogc01", "/ogc01/authority"],
+    ["#extraction", "/obligations"],
+    ["#rejected-claims", "/obligations#rejected"],
+    ["#explore", "/sources"],
+    ["#ogc01", "/authorities"],
     ["#evaluation", "/evaluation"],
   ]) {
     assert.ok(

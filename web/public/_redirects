@@ -1,0 +1,9 @@
+/extraction/claims/ /obligations/ 301
+/extraction/rejected/ /obligations/#rejected 301
+/explore/search/ /sources/ 301
+/explore/browse/ /sources/#browse 301
+/explore/cross-references/ /authorities/#shared 301
+/ogc01/authority/ /authorities/ 301
+/ogc01/grounding/ /authorities/#markers 301
+/ogc01/drafts/ /drafts/ 301
+/evaluation/ogc01/ /evaluation/#ogc01 301

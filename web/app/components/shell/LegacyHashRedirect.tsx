@@ -8,10 +8,10 @@ import { useRouter } from "next/navigation";
 // route that now owns the content; unknown hashes are left untouched.
 const LEGACY_HASH_ROUTES: Record<string, string> = {
   "#about": "/about",
-  "#extraction": "/extraction/claims",
-  "#rejected-claims": "/extraction/rejected",
-  "#explore": "/explore/search",
-  "#ogc01": "/ogc01/authority",
+  "#extraction": "/obligations",
+  "#rejected-claims": "/obligations#rejected",
+  "#explore": "/sources",
+  "#ogc01": "/authorities",
   "#evaluation": "/evaluation",
 };
 

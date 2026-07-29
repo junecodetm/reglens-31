@@ -9,56 +9,15 @@ interface NavigationItem {
   href: string;
 }
 
-interface NavigationGroup {
-  label: string;
-  items: NavigationItem[];
-}
-
-const OVERVIEW_ITEM: NavigationItem = {
-  label: "Overview",
-  href: "/",
-};
-
-const NAVIGATION_GROUPS: NavigationGroup[] = [
-  {
-    label: "EXTRACTION",
-    items: [
-      { label: "Claims & sources", href: "/extraction/claims" },
-      { label: "Rejected claims", href: "/extraction/rejected" },
-    ],
-  },
-  {
-    label: "EXPLORE",
-    items: [
-      { label: "Corpus search", href: "/explore/search" },
-      { label: "Browse Title 31", href: "/explore/browse" },
-      {
-        label: "Authority cross-references",
-        href: "/explore/cross-references",
-      },
-    ],
-  },
-  {
-    label: "OGC-01 MODULES",
-    items: [
-      { label: "Authority citations", href: "/ogc01/authority" },
-      { label: "Grounding markers", href: "/ogc01/grounding" },
-      { label: "Draft skeletons", href: "/ogc01/drafts" },
-    ],
-  },
-  {
-    label: "EVALUATION",
-    items: [
-      { label: "Core metrics", href: "/evaluation" },
-      { label: "OGC-01 modules", href: "/evaluation/ogc01" },
-    ],
-  },
+const NAVIGATION_ITEMS: NavigationItem[] = [
+  { label: "Overview", href: "/" },
+  { label: "Extracted obligations", href: "/obligations" },
+  { label: "Statutory authority", href: "/authorities" },
+  { label: "Draft skeletons", href: "/drafts" },
+  { label: "Evaluation", href: "/evaluation" },
+  { label: "Search & browse", href: "/sources" },
+  { label: "About & provenance", href: "/about" },
 ];
-
-const ABOUT_ITEM: NavigationItem = {
-  label: "About this demonstration",
-  href: "/about",
-};
 
 function normalizePathname(pathname: string): string {
   if (pathname === "/") {
@@ -236,16 +195,7 @@ export function Sidebar() {
           </div>
 
           <nav aria-label="Primary">
-            <NavigationList items={[OVERVIEW_ITEM]} pathname={pathname} onNavigate={() => setIsOpen(false)} />
-
-            {NAVIGATION_GROUPS.map((group) => (
-              <div className="sidebar-group" key={group.label}>
-                <span className="sidebar-group-label">{group.label}</span>
-                <NavigationList items={group.items} pathname={pathname} onNavigate={() => setIsOpen(false)} />
-              </div>
-            ))}
-
-            <NavigationList items={[ABOUT_ITEM]} pathname={pathname} onNavigate={() => setIsOpen(false)} />
+            <NavigationList items={NAVIGATION_ITEMS} pathname={pathname} onNavigate={() => setIsOpen(false)} />
           </nav>
         </div>
       </div>

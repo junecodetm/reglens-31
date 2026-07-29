@@ -1,14 +1,15 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { type ReactNode, useEffect, useRef } from "react";
 
 import { recordRouteMount } from "./route-mount-state";
 
 interface PageHeaderProps {
   title: string;
+  lead?: ReactNode;
 }
 
-export function PageHeader({ title }: PageHeaderProps) {
+export function PageHeader({ title, lead }: PageHeaderProps) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const hasHandledMountRef = useRef(false);
 
@@ -28,6 +29,7 @@ export function PageHeader({ title }: PageHeaderProps) {
       <h1 ref={headingRef} tabIndex={-1}>
         {title}
       </h1>
+      {lead !== undefined ? <p className="page-lead">{lead}</p> : null}
     </header>
   );
 }

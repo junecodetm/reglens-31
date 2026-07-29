@@ -55,7 +55,7 @@ const TRACEABILITY: readonly {
   {
     quote: "“generates draft proposed and final rules”",
     module: "Draft rule skeletons",
-    href: "/ogc01/drafts",
+    href: "/drafts",
     detail:
       "Deterministic Document Drafting Handbook structure with a fail-closed conformance gate: the model writes only two labeled narrative fields, and any set-out regulatory text must verify verbatim against the source or the draft is rejected.",
     linkText: "Open: Draft rule skeletons",
@@ -64,7 +64,7 @@ const TRACEABILITY: readonly {
     quote:
       "“reviews statutes for potential deregulatory actions” / “identify statutes that are not statutorily required …”",
     module: "Statutory authority citations",
-    href: "/ogc01/authority",
+    href: "/authorities",
     detail:
       "Every rulemaking authority the ingested CFR parts cite, resolved against a pinned U.S. Code release and classified mandatory / discretionary / silent / unresolved from verbatim-verified verb spans. The classification describes the statutory text; no candidate list and no recommendation is produced.",
     linkText: "Open: Statutory authority citations",
@@ -72,7 +72,7 @@ const TRACEABILITY: readonly {
   {
     quote: "“… that are inconsistent with Looper Bright [sic]”",
     module: "Grounding markers",
-    href: "/ogc01/grounding",
+    href: "/authorities#markers",
     detail:
       "Two-sided retrieval of literal textual markers in published rule preambles — deference-reliance markers and grounding-strength markers, presented with equal weight. Marker counts describe the published text; nothing is ranked, predicted, or concluded.",
     linkText: "Open: Grounding markers",

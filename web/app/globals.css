@@ -1150,25 +1150,6 @@ body {
   outline-offset: -0.2rem;
 }
 
-.sidebar-group {
-  margin-top: 1.5rem;
-}
-
-.sidebar-group-label {
-  display: block;
-  margin: 0 0 0.45rem;
-  color: var(--muted-ink);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 1.25;
-  text-transform: uppercase;
-}
-
-.sidebar nav > .usa-sidenav:last-child {
-  margin-top: 1.5rem;
-}
-
 .page-header {
   margin: 0 0 2rem;
   padding-bottom: 1.5rem;
@@ -1367,4 +1348,135 @@ body {
   .sidebar-drawer {
     transition: transform 0.22s ease-out;
   }
+}
+
+/* Front-end revamp: tabs, glossary, document picker, rejected-detail diff */
+.page-lead {
+  max-width: 68ch;
+  margin: 0.75rem 0 0;
+  color: var(--muted-ink);
+}
+
+.glossary-term {
+  padding: 0;
+  color: var(--blue);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.glossary-definition {
+  display: block;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--soft-blue);
+  border-left: 0.2rem solid var(--blue);
+  font-size: 0.92rem;
+}
+
+[role="tablist"],
+.view-tabs-list {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.view-tab {
+  padding: 0.75rem 1rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 0;
+  border-bottom: 0.2rem solid transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+.view-tab[aria-selected="true"] {
+  color: var(--blue-dark);
+  border-bottom-color: var(--blue);
+  font-weight: 700;
+}
+
+.view-tab-panel {
+  padding-top: 1rem;
+}
+
+.document-picker {
+  margin-bottom: 1rem;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.view-toggle button {
+  padding: 0.55rem 0.85rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font: inherit;
+}
+
+.view-toggle button[aria-pressed="true"] {
+  background: var(--soft-blue);
+  border-color: var(--blue-dark);
+  font-weight: 700;
+}
+
+.diff-comparison {
+  line-height: 1.6;
+}
+
+ins.diff-model {
+  background: var(--soft-blue);
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+  text-decoration-style: solid;
+}
+
+del.diff-source {
+  color: var(--muted-ink);
+  background: transparent;
+  text-decoration: line-through;
+}
+
+/* Overview guided example + quiet links (route-swap pass) */
+.overview-example-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.overview-example-card {
+  padding: 1rem 1.125rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
+.overview-example-card .source-document {
+  max-height: 16rem;
+}
+
+.overview-example-label {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+}
+
+.overview-example-summary {
+  margin: 0 0 0.75rem;
+}
+
+.overview-quiet-links {
+  margin-top: 1rem;
+  color: var(--muted-ink);
 }

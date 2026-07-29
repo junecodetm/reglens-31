@@ -7,79 +7,49 @@ import { useGSAP } from "@gsap/react";
 
 import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
 import { recordRouteMount } from "./components/shell/route-mount-state";
-import { type SiteData } from "./components/reglens-types";
+import {
+  type ExampleData,
+  hasClosestPassage,
+  type SiteData,
+} from "./components/reglens-types";
+import { DiffComparison } from "./components/ui/DiffComparison";
+import { HighlightedText } from "./components/ui/HighlightedText";
 import { useLazyJson } from "./components/ui/useLazyJson";
 import { DUR, EASE, STAGGER } from "./motion/tokens.ts";
 import { useCountUp } from "./motion/useCountUp.ts";
 
 gsap.registerPlugin(useGSAP);
 
-interface TaskCard {
+interface ModuleCard {
   title: string;
   href: string;
   description: string;
 }
 
-const TASK_CARDS: readonly TaskCard[] = [
+const MODULE_CARDS: readonly ModuleCard[] = [
   {
-    title: "Verify claims against sources",
-    href: "/extraction/claims",
+    title: "Extracted obligations",
+    href: "/obligations",
     description:
-      "Extracted obligations side by side with their primary sources; selecting a claim highlights its verbatim span.",
+      "Every regulatory obligation the extractor found, organized by document — see the exact source sentence behind each one, and every claim the provenance gate rejected, with proof.",
   },
   {
-    title: "Review rejected claims",
-    href: "/extraction/rejected",
+    title: "Statutory authority",
+    href: "/authorities",
     description:
-      "The claims the fail-closed provenance gate discarded, counted and listed.",
+      "What statute authorizes each regulation, whether that statute's language is mandatory or discretionary, and the textual markers found in rule preambles — presented two-sided, with no conclusions drawn.",
   },
   {
-    title: "Search the corpus",
-    href: "/explore/search",
+    title: "Draft rule skeletons",
+    href: "/drafts",
     description:
-      "Lexical search over extracted obligations, U.S. Code sections, CFR part sections, and draft skeletons.",
+      "Document Drafting Handbook–structured drafts with a fail-closed conformance gate; the model writes only two labeled narrative fields, everything else is deterministic scaffolding or verbatim-verified text.",
   },
   {
-    title: "Browse Title 31",
-    href: "/explore/browse",
-    description:
-      "Part-to-section navigation over the five ingested parts of 31 CFR, as of the pinned snapshot date.",
-  },
-  {
-    title: "Trace authority cross-references",
-    href: "/explore/cross-references",
-    description:
-      "The U.S. Code sections each ingested CFR part cites as rulemaking authority, including those shared across parts.",
-  },
-  {
-    title: "Inspect authority citations",
-    href: "/ogc01/authority",
-    description:
-      "Citations resolved against a pinned U.S. Code release and classified mandatory / discretionary / silent / unresolved from verbatim-verified verb spans.",
-  },
-  {
-    title: "Scan grounding markers",
-    href: "/ogc01/grounding",
-    description:
-      "Two-sided textual markers in published rule preambles, presented with equal weight; counts describe the text, nothing is concluded.",
-  },
-  {
-    title: "Read draft skeletons",
-    href: "/ogc01/drafts",
-    description:
-      "Document Drafting Handbook structure with fail-closed conformance checks; the model writes only two labeled narrative fields.",
-  },
-  {
-    title: "Evaluation — core metrics",
+    title: "Evaluation",
     href: "/evaluation",
     description:
-      "Precision, recall, and F1 with Wilson and clustered-bootstrap intervals; labels are machine-proposed and marked provisional.",
-  },
-  {
-    title: "Evaluation — OGC-01 modules",
-    href: "/evaluation/ogc01",
-    description:
-      "Link precision, marker retrieval, and conformance checks for the three OGC-01 demonstration modules.",
+      "How accurate the extractor is, measured against a labeled sample and reported with confidence intervals — including the modules above. Labels are machine-proposed and marked provisional.",
   },
 ];
 
@@ -112,6 +82,8 @@ const PIPELINE_STEPS: readonly { name: string; detail: string }[] = [
 
 export function OverviewContent() {
   const { state, load } = useLazyJson<SiteData>("/data/site.json");
+  const { state: exampleState, load: loadExample } =
+    useLazyJson<ExampleData>("/data/example.json");
   const scopeRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const acceptedCountRef = useRef<HTMLElement>(null);
@@ -123,10 +95,13 @@ export function OverviewContent() {
     if (recordRouteMount()) {
       headingRef.current?.focus();
     }
-    load();
-  }, [load]);
+    void load();
+    void loadExample();
+  }, [load, loadExample]);
 
   const site = state.status === "ready" ? state.data : null;
+  const example =
+    exampleState.status === "ready" ? exampleState.data : null;
 
   useCountUp(acceptedCountRef, site?.accepted_count ?? null);
   useCountUp(rejectedCountRef, site?.rejected_count ?? null);
@@ -164,14 +139,18 @@ export function OverviewContent() {
               RegLens-31
             </h1>
             <p>
-              Provenance-gated regulatory obligation extraction — every claim
-              verified verbatim against its primary source, fail-closed.
+              This tool reads real Treasury regulations, extracts the
+              specific obligations inside them — who must do what — and
+              proves each one against the government&apos;s own published
+              text before showing it to you. Anything it can&apos;t prove is
+              rejected and shown as evidence, not hidden.
             </p>
             <p>
-              An independent working mockup aligned to U.S. Treasury AI use
-              case OGC-01 (“Regulatory Reform Tool,” Treasury public AI Use
-              Case Inventory) — see{" "}
-              <Link href="/about">About this demonstration</Link>.
+              It&apos;s a working mockup of a real Treasury AI use case —
+              OGC-01, the &ldquo;Regulatory Reform Tool&rdquo; — built
+              entirely from public sources. See{" "}
+              <Link href="/about">About this demonstration</Link> for the
+              source record.
             </p>
           </div>
 
@@ -199,35 +178,96 @@ export function OverviewContent() {
       </header>
 
       <section
-        className="overview-section"
-        aria-labelledby="overview-framing"
+        className="overview-section overview-example"
+        aria-labelledby="overview-example"
         data-reveal
       >
-        <h2 id="overview-framing">What this demonstrates</h2>
-        <p>
-          Every claim this site shows survived a deterministic, fail-closed
-          provenance check: the extracted text must match its primary source
-          verbatim, or it is rejected and counted. The site is a working
-          mockup of OGC-01 — the “Regulatory Reform Tool” listed by
-          Treasury’s Office of the General Counsel in the public AI Use Case
-          Inventory — built from public primary sources only. Where the
-          inventory describes OGC-01 in deregulatory terms, this
-          demonstration implements deliberately neutral analogs: it makes no
-          deregulatory recommendations, nominates no rules or statutes for
-          change, and draws no legal conclusions.
-        </p>
-        <p>
-          The verbatim inventory record, its provenance (source URL, fetch
-          date, SHA-256), and the mapping from each stated OGC-01 output to
-          the module demonstrating it are on{" "}
-          <Link href="/about">About this demonstration</Link>.
-        </p>
+        <h2 id="overview-example">
+          See it work: one accepted claim, one rejected claim
+        </h2>
+        <p>Every number above comes from real extractions like these two.</p>
+
+        {exampleState.status === "loading" ||
+        exampleState.status === "idle" ? (
+          <p className="loading-state" role="status">
+            Loading example…
+          </p>
+        ) : null}
+
+        {exampleState.status === "error" ? (
+          <p className="neutral-notice" role="alert">
+            The example could not be loaded. {exampleState.message}
+          </p>
+        ) : null}
+
+        {example !== null ? (
+          <div className="overview-example-grid">
+            <article
+              className="overview-example-card"
+              aria-label="An accepted claim"
+            >
+              <p className="overview-example-label">
+                Accepted — this is real regulatory text
+              </p>
+              <p className="overview-example-summary">
+                {example.accepted.summary}
+              </p>
+              <HighlightedText
+                text={example.accepted.excerpt}
+                start={example.accepted.span_start}
+                end={example.accepted.span_end}
+                selectionKey={`example-${example.accepted.claim_id}`}
+                regionLabel="Source excerpt"
+                highlightStatus="The verified quote is highlighted in the source excerpt."
+                noSpanMessage="No span is recorded for this example."
+                boundsMessage="The example span does not match the excerpt."
+                retryWhenVisible={false}
+                showStatus={false}
+                scroll="nearest"
+                scrollBehavior="auto"
+              />
+              <p>
+                <Link href="/obligations">
+                  See more accepted claims like this
+                </Link>
+              </p>
+            </article>
+
+            <article
+              className="overview-example-card"
+              aria-label="A rejected claim"
+            >
+              <p className="overview-example-label">
+                Rejected — the model got this wrong, here&apos;s the proof
+              </p>
+              <p className="overview-example-summary">
+                {example.rejected.summary}
+              </p>
+              {hasClosestPassage(example.rejected) ? (
+                <p
+                  className="diff-comparison"
+                  aria-label="Word-level comparison of the model's quote against the closest source passage"
+                >
+                  <DiffComparison diff={example.rejected.diff} />
+                </p>
+              ) : null}
+              <p>
+                <Link href="/obligations#rejected">
+                  See more rejected claims like this
+                </Link>
+              </p>
+            </article>
+          </div>
+        ) : null}
       </section>
 
-      <section className="overview-section" aria-labelledby="overview-tasks">
-        <h2 id="overview-tasks">Start with a task</h2>
+      <section
+        className="overview-section"
+        aria-labelledby="overview-modules"
+      >
+        <h2 id="overview-modules">What this demonstrates</h2>
         <ul className="overview-cards">
-          {TASK_CARDS.map((card) => (
+          {MODULE_CARDS.map((card) => (
             <li key={card.href} data-reveal>
               <Link className="overview-card" href={card.href}>
                 <span className="overview-card-title">{card.title}</span>
@@ -238,6 +278,11 @@ export function OverviewContent() {
             </li>
           ))}
         </ul>
+        <p className="overview-quiet-links">
+          Also on this site:{" "}
+          <Link href="/sources">Search &amp; browse the corpus</Link> and{" "}
+          <Link href="/about">About &amp; provenance</Link>.
+        </p>
       </section>
 
       <section

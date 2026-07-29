@@ -41,16 +41,11 @@ test("AppShell and Sidebar expose the requested navigation semantics", () => {
   const sidebar = read("app/components/shell/Sidebar.tsx");
   const expectedRoutes = [
     "/",
-    "/extraction/claims",
-    "/extraction/rejected",
-    "/explore/search",
-    "/explore/browse",
-    "/explore/cross-references",
-    "/ogc01/authority",
-    "/ogc01/grounding",
-    "/ogc01/drafts",
+    "/obligations",
+    "/authorities",
+    "/drafts",
     "/evaluation",
-    "/evaluation/ogc01",
+    "/sources",
     "/about",
   ];
 
@@ -127,72 +122,19 @@ test("the route template animates only when reduced motion is not requested", ()
   assert.match(template, /clearProps:\s*"all"/);
 });
 
-test("all eleven route pages mount their existing section tool", () => {
-  const routes = [
+test("all seven route pages mount their existing section tool", () => {
+  const singleComponentRoutes = [
     ["app/about/page.tsx", "About this demonstration", "AboutSection", false],
     [
-      "app/extraction/claims/page.tsx",
+      "app/obligations/page.tsx",
       "Extracted obligations",
-      "ClaimsExplorer",
+      "ObligationsExplorer",
       false,
     ],
-    [
-      "app/extraction/rejected/page.tsx",
-      "Rejected claims",
-      "RejectedClaimsExplorer",
-      false,
-    ],
-    [
-      "app/explore/search/page.tsx",
-      "Search the ingested corpus",
-      "SearchSection",
-      false,
-    ],
-    [
-      "app/explore/browse/page.tsx",
-      "Browse Title 31 (ingested parts)",
-      "BrowseSection",
-      true,
-    ],
-    [
-      "app/explore/cross-references/page.tsx",
-      "Authority cross-references",
-      "CrossRefSection",
-      true,
-    ],
-    [
-      "app/ogc01/authority/page.tsx",
-      "Statutory authority",
-      "AuthoritySection",
-      true,
-    ],
-    [
-      "app/ogc01/grounding/page.tsx",
-      "Grounding markers (two-sided)",
-      "GroundingSection",
-      true,
-    ],
-    [
-      "app/ogc01/drafts/page.tsx",
-      "Draft rule skeletons",
-      "DraftsSection",
-      true,
-    ],
-    [
-      "app/evaluation/page.tsx",
-      "Evaluation — core metrics (provisional)",
-      "EvalSection",
-      true,
-    ],
-    [
-      "app/evaluation/ogc01/page.tsx",
-      "Evaluation — authority, grounding, and drafts (provisional)",
-      "Ogc01EvalSection",
-      true,
-    ],
+    ["app/drafts/page.tsx", "Draft rule skeletons", "DraftsSection", true],
   ];
 
-  for (const [path, title, component, active] of routes) {
+  for (const [path, title, component, active] of singleComponentRoutes) {
     const source = read(path);
     const componentProps = active ? " active standalone" : " standalone";
 
@@ -212,10 +154,51 @@ test("all eleven route pages mount their existing section tool", () => {
       `${path} should mount ${component}${componentProps}`,
     );
   }
+
+  const tabbedRoutes = [
+    [
+      "app/authorities/page.tsx",
+      "Statutory authority",
+      ["AuthoritySection", "CrossRefSection", "GroundingSection"],
+    ],
+    [
+      "app/evaluation/page.tsx",
+      "Evaluation (provisional)",
+      ["EvalSection", "Ogc01EvalSection"],
+    ],
+    [
+      "app/sources/page.tsx",
+      "Search & browse the corpus",
+      ["SearchSection", "BrowseSection"],
+    ],
+  ];
+
+  for (const [path, title, components] of tabbedRoutes) {
+    const source = read(path);
+
+    assert.doesNotMatch(source, /^"use client";/);
+    assert.match(
+      source,
+      new RegExp(`title:\\s*"${escapeRegExp(title)} — RegLens-31"`),
+      `${path} should export its tool metadata title`,
+    );
+    assert.match(
+      source,
+      new RegExp(`<PageHeader\\s+title="${escapeRegExp(title)}"`),
+      `${path} should mount its existing heading in PageHeader`,
+    );
+    assert.match(source, /<ViewTabs\b/, `${path} should mount ViewTabs`);
+    for (const component of components) {
+      assert.ok(
+        source.includes(`<${component} `),
+        `${path} should mount ${component} inside its tabs`,
+      );
+    }
+  }
 });
 
-test("ClaimsExplorer preserves the overview bootstrap and lazy source flow", () => {
-  const explorer = read("app/extraction/claims/ClaimsExplorer.tsx");
+test("ObligationsExplorer preserves the bootstrap, lazy source flow, and rejected-details lazy load", () => {
+  const explorer = read("app/obligations/ObligationsExplorer.tsx");
 
   assert.match(explorer, /^"use client";/);
   assert.match(explorer, /fetchData<SiteData>\("\/data\/site\.json"/);
@@ -230,31 +213,13 @@ test("ClaimsExplorer preserves the overview bootstrap and lazy source flow", () 
   );
   assert.match(explorer, /sourceCacheRef/);
   assert.match(explorer, /className="two-pane-grid"/);
-  assert.match(explorer, /<ClaimsPane/);
-  assert.match(explorer, /selectedClaimId=\{selectedClaim\?\.claim_id \?\? null\}/);
-  assert.match(explorer, /onSelectClaim=\{setSelectedClaim\}/);
+  assert.match(explorer, /<DocumentPicker/);
   assert.match(explorer, /<SourcePane/);
-  assert.match(explorer, /selectedClaim=\{selectedClaim\}/);
-  assert.match(explorer, /sourceState=\{sourceState\}/);
-  assert.doesNotMatch(explorer, /RejectedClaims/);
-});
-
-test("the rejected route lazily supplies both required data props", () => {
-  const explorer = read(
-    "app/extraction/rejected/RejectedClaimsExplorer.tsx",
-  );
-
-  assert.match(explorer, /^"use client";/);
-  assert.match(explorer, /useLazyJson<SiteData>\("\/data\/site\.json"/);
+  assert.match(explorer, /<RejectedDetailPane/);
   assert.match(
     explorer,
-    /useLazyJson<DocumentExtraction\[\]>\("\/data\/claims\.json"/,
+    /useLazyJson<RejectedDetailsData>\("\/data\/rejected-details\.json"\)/,
   );
-  assert.match(explorer, /void loadSite\(\)/);
-  assert.match(explorer, /void loadDocuments\(\)/);
-  assert.match(explorer, /<RejectedClaims/);
-  assert.match(explorer, /documents=\{documentsState\.data\}/);
-  assert.match(explorer, /rejectedCount=\{siteState\.data\.rejected_count\}/);
 });
 
 test("the appended shell CSS is responsive, accessible, and palette-only", () => {
@@ -274,10 +239,6 @@ test("the appended shell CSS is responsive, accessible, and palette-only", () =>
   assert.match(
     shellCss,
     /\.sidebar\s*\{[\s\S]*?position:\s*sticky;[\s\S]*?top:\s*0;[\s\S]*?overflow-y:\s*auto;/,
-  );
-  assert.match(
-    shellCss,
-    /\.sidebar-group-label\s*\{[\s\S]*?color:\s*var\(--muted-ink\);[\s\S]*?letter-spacing:/,
   );
   assert.match(
     shellCss,

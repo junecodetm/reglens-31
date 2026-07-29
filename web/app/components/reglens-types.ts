@@ -40,6 +40,7 @@ export interface DocumentExtraction {
   document_number: string;
   document_title: string;
   document_url: string;
+  category: string;
   accepted_count: number;
   rejected_count: number;
   claims: ClaimRecord[];
@@ -58,6 +59,55 @@ export type SourceTextState =
   | { status: "loading"; documentNumber: string }
   | { status: "ready"; documentNumber: string; text: string }
   | { status: "error"; documentNumber: string; message: string };
+
+export type DiffOpKind = "equal" | "model" | "source";
+export type DiffOp = [DiffOpKind, string];
+
+export type RejectedDetailEntry =
+  | { similarity: number; closest: null }
+  | {
+      similarity: number;
+      closest_start: number;
+      closest_end: number;
+      closest_quote: string;
+      diff: DiffOp[];
+    };
+
+export function hasClosestPassage(
+  entry: RejectedDetailEntry,
+): entry is Extract<RejectedDetailEntry, { diff: DiffOp[] }> {
+  return "diff" in entry;
+}
+
+export interface RejectedDetailsData {
+  schema_version: number;
+  method: string;
+  details: Record<string, RejectedDetailEntry>;
+}
+
+export interface ExampleClaimData {
+  claim_id: string;
+  document_number: string;
+  document_title: string;
+  summary: string;
+  quote: string;
+  excerpt: string;
+  span_start: number;
+  span_end: number;
+}
+
+export type ExampleRejectedData = {
+  claim_id: string;
+  document_number: string;
+  document_title: string;
+  summary: string;
+  quote: string;
+} & RejectedDetailEntry;
+
+export interface ExampleData {
+  accepted: ExampleClaimData;
+  rejected: ExampleRejectedData;
+}
 
 export interface AuthorityData {
   schema_version: number;

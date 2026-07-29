@@ -38,6 +38,15 @@ const { computeHighlightSegments } = await import(
 const { ci, fmt } = await import(
   "../web/app/components/ui/metric-format.ts"
 );
+const { groupDocumentsByCategory } = await import(
+  "../web/app/components/DocumentPicker.tsx"
+);
+const { nextTabIndex } = await import(
+  "../web/app/components/ui/ViewTabs.tsx"
+);
+const { lookupGlossaryTerm } = await import(
+  "../web/app/components/ui/glossary.ts"
+);
 
 test("highlight segmentation returns the complete text around an in-bounds span", () => {
   assert.deepEqual(
@@ -147,4 +156,101 @@ test("ci renders nullable and numeric intervals consistently", () => {
   assert.equal(ci(null), null);
   assert.equal(ci([0, 1]), "[0.000, 1.000]");
   assert.equal(ci([0.1234, 0.9876]), "[0.123, 0.988]");
+});
+
+test("document grouping follows display order, sorts documents, and appends unknown categories", () => {
+  const documents = [
+    {
+      category: "Uncatalogued material",
+      document_number: "Z-200",
+    },
+    {
+      category: "IRS & tax regulations",
+      document_number: "2026-20000",
+    },
+    {
+      category: "Title 31 — Code of Federal Regulations parts",
+      document_number: "31-CFR-501",
+    },
+    {
+      category: "Sanctions notices & general licenses (OFAC)",
+      document_number: "2026-10000",
+    },
+    {
+      category: "Sanctions notices & general licenses (OFAC)",
+      document_number: "2026-09000",
+    },
+    {
+      category: "Title 31 — Code of Federal Regulations parts",
+      document_number: "31-CFR-223",
+    },
+    {
+      category: "Archived material",
+      document_number: "A-100",
+    },
+    {
+      category: "Archived material",
+      document_number: "A-050",
+    },
+  ] as any;
+
+  const groups = groupDocumentsByCategory(documents);
+
+  assert.deepEqual(
+    groups.map((group) => ({
+      category: group.category,
+      documentNumbers: group.documents.map(
+        (document) => document.document_number,
+      ),
+    })),
+    [
+      {
+        category: "Title 31 — Code of Federal Regulations parts",
+        documentNumbers: ["31-CFR-223", "31-CFR-501"],
+      },
+      {
+        category: "Sanctions notices & general licenses (OFAC)",
+        documentNumbers: ["2026-09000", "2026-10000"],
+      },
+      {
+        category: "IRS & tax regulations",
+        documentNumbers: ["2026-20000"],
+      },
+      {
+        category: "Archived material",
+        documentNumbers: ["A-050", "A-100"],
+      },
+      {
+        category: "Uncatalogued material",
+        documentNumbers: ["Z-200"],
+      },
+    ],
+  );
+});
+
+test("tab keyboard navigation wraps and maps vertical arrows to horizontal movement", () => {
+  const cases = [
+    [2, "ArrowRight", 3, 0],
+    [0, "ArrowLeft", 3, 2],
+    [2, "ArrowDown", 3, 0],
+    [0, "ArrowUp", 3, 2],
+    [1, "Home", 3, 0],
+    [1, "End", 3, 2],
+  ] as const;
+
+  for (const [currentIndex, key, tabCount, expected] of cases) {
+    assert.equal(
+      nextTabIndex(currentIndex, key, tabCount),
+      expected,
+      `${key} from index ${currentIndex}`,
+    );
+  }
+});
+
+test("glossary lookup returns known definitions and null for unknown terms", () => {
+  assert.equal(
+    lookupGlossaryTerm("provenance-gate"),
+    "A deterministic check that keeps an extracted claim only if its quoted text is an exact match, character for character, inside the government source document. Anything that doesn't match is rejected and counted, never silently dropped.",
+  );
+  assert.equal(lookupGlossaryTerm("not-in-the-glossary"), null);
 });

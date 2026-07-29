@@ -1,17 +1,37 @@
 import type { Metadata } from "next";
 
 import { EvalSection } from "../components/EvalSection";
+import { Ogc01EvalSection } from "../components/Ogc01EvalSection";
 import { PageHeader } from "../components/shell/PageHeader";
+import { ViewTabs } from "../components/ui/ViewTabs";
 
 export const metadata: Metadata = {
-  title: "Evaluation — core metrics (provisional) — RegLens-31",
+  title: "Evaluation (provisional) — RegLens-31",
 };
 
 export default function EvaluationPage() {
   return (
     <>
-      <PageHeader title="Evaluation — core metrics (provisional)" />
-      <EvalSection active standalone />
+      <PageHeader
+        title="Evaluation (provisional)"
+        lead="How often the extractor is right, measured on a labeled sample and reported with confidence intervals — for obligation extraction and for the three modules above. Labels are machine-proposed and marked provisional until human adjudication completes."
+      />
+      <ViewTabs
+        ariaLabel="Evaluation views"
+        defaultTabId="core"
+        tabs={[
+          {
+            id: "core",
+            label: "Core extraction",
+            panel: <EvalSection active standalone />,
+          },
+          {
+            id: "ogc01",
+            label: "Authority, grounding & drafts",
+            panel: <Ogc01EvalSection active standalone />,
+          },
+        ]}
+      />
     </>
   );
 }
