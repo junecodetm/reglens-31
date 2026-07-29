@@ -61,11 +61,31 @@
   api.data.gov never used. The Cloudflare API token was **rolled** at the start of
   this pass (old value invalidated; secret re-set 2026-07-29T01:18Z).
 
-## Independent reviews (author≠blesser)
+## Independent reviews (author≠blesser) — all findings fixed
 
-security-reviewer, eval-auditor, validator (Opus), and the new **neutrality-reviewer**
-(§5 brief, blocking) all ran on the extension; every finding was fixed. See the
-final report and commit history for details.
+- **Validator (Opus): FAIL → fixed.** Negation-bypass in the classifier
+  (negation-free gaps, deadline-idiom exception, passive-family guard + regression
+  tests), fail-open eval gate (None metrics now fail closed), stale published
+  drafts (export dir rebuilt each run), "and"-joined citation lists + nested
+  subsections parse, part-scoped draft verification corpus, census dedupe,
+  production asserts → raises.
+- **Eval auditor: FAIL → fixed.** Degenerate link kappa now reported as raw
+  agreement + None (never a fabricated 1.0); bootstrap relabeled
+  "cluster-resampling range — not a calibrated 95% interval"; ICC/design-effect/
+  effective-n added; deterministic cluster keys; missing baseline floors fail
+  closed; recall denominators respect judged genuineness with pending counts;
+  grounding kappa banded (0.49 Moderate) with an explicit below-0.61 trust note;
+  gate now covered by tests; bootstrap percentile off-by-one fixed.
+- **Security reviewer: PASS**; hardening applied anyway (redirect-hop allow-list
+  re-checks, digest-pinned zip cache with size ceiling, single-quote + URL
+  coverage in the draft quote/fabrication gates, case-tolerant delimiter
+  neutralization, exact-URI namespace exemption in the zero-cost checker).
+- **Neutrality reviewer: PASS** (zero blocking violations; verdict verbatim:
+  "NEUTRALITY: PASS"). Both advisories applied: gate accept/reject badges moved
+  to neutral tokens; draft analysis sections renumbered III–VIII.
+- Shipped point estimates were unchanged by all fixes; the site was rebuilt,
+  re-audited (two consecutive fully clean Playwright passes + clean deployed
+  pass), and redeployed.
 
 ## De-scoped (sanctioned) — unchanged
 
