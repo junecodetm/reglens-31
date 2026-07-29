@@ -1,5 +1,5 @@
 export const DISCLAIMER_TEXT =
-  "Independent personal research prototype. Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury or any U.S. government agency (31 U.S.C. § 333). Outputs are assistive only — verify every obligation against the primary source.";
+  "Independent personal research prototype. Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury or any U.S. government agency (31 U.S.C. § 333). Not legal advice; no attorney-client relationship. Outputs are assistive only — verify every obligation against the primary source.";
 
 export type ObligationType =
   | "requirement"
