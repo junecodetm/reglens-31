@@ -57,3 +57,11 @@ jobs:
           done
           grep -qF "About this demonstration" web/out/index.html
           grep -qF "Regulatory Reform Tool" web/out/index.html
+      # Deterministic design-quality gate (impeccable detector, offline, $0).
+      # Scans authored source only: compiled out/ hits USWDS vendor CSS and
+      # minification artifacts, which are not ours to fix. Exceptions live in
+      # web/.impeccable/config.json and inline impeccable-disable-line
+      # comments, each with a recorded justification.
+      - name: impeccable-detector
+        run: npx --no-install impeccable detect app
+        working-directory: web

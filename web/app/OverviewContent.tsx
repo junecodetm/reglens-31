@@ -25,13 +25,13 @@ const TASK_CARDS: readonly TaskCard[] = [
     title: "Verify claims against sources",
     href: "/extraction/claims",
     description:
-      "Extracted obligations side by side with their primary sources — selecting a claim highlights its verbatim span.",
+      "Extracted obligations side by side with their primary sources; selecting a claim highlights its verbatim span.",
   },
   {
     title: "Review rejected claims",
     href: "/extraction/rejected",
     description:
-      "The claims the fail-closed provenance gate discarded — counted and listed, not hidden.",
+      "The claims the fail-closed provenance gate discarded: counted and listed, not hidden.",
   },
   {
     title: "Search the corpus",
@@ -49,7 +49,7 @@ const TASK_CARDS: readonly TaskCard[] = [
     title: "Trace authority cross-references",
     href: "/explore/cross-references",
     description:
-      "Which U.S. Code sections each ingested CFR part cites as rulemaking authority, and which are shared across parts.",
+      "The U.S. Code sections each ingested CFR part cites as rulemaking authority, including those shared across parts.",
   },
   {
     title: "Inspect authority citations",
@@ -242,7 +242,7 @@ export function OverviewContent() {
         <ol className="pipeline-strip">
           {PIPELINE_STEPS.map((step) => (
             <li key={step.name}>
-              <strong>{step.name}</strong> — {step.detail}
+              <strong>{step.name}.</strong> {step.detail}
             </li>
           ))}
         </ol>

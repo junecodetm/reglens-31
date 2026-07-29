@@ -1135,7 +1135,9 @@ body {
 .sidebar .usa-sidenav a.usa-current:visited {
   padding-left: calc(1rem - 4px);
   color: var(--navy);
-  border-left: 4px solid var(--blue);
+  /* USWDS side-nav convention: the 4px left bar is the design system's own
+     current-item indicator (sole >1px-border exception, see DESIGN.md). */
+  border-left: 4px solid var(--blue); /* impeccable-disable-line side-tab */
   font-weight: 700;
 }
 
@@ -1349,11 +1351,11 @@ body {
 /* Sidebar micro-transitions run only when the visitor allows motion. */
 @media (prefers-reduced-motion: no-preference) {
   .sidebar .usa-sidenav a {
+    /* color/border only — padding is a layout property and would thrash. */
     transition:
       color 0.15s ease-out,
       background-color 0.15s ease-out,
-      border-color 0.15s ease-out,
-      padding 0.15s ease-out;
+      border-color 0.15s ease-out;
   }
 
   .sidebar-overlay {
