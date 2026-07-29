@@ -4,6 +4,7 @@ import { AuthoritySection } from "../components/AuthoritySection";
 import { CrossRefSection } from "../components/CrossRefSection";
 import { GroundingSection } from "../components/GroundingSection";
 import { PageHeader } from "../components/shell/PageHeader";
+import { GlossaryTerm } from "../components/ui/GlossaryTerm";
 import { ViewTabs } from "../components/ui/ViewTabs";
 
 export const metadata: Metadata = {
@@ -15,7 +16,19 @@ export default function AuthoritiesPage() {
     <>
       <PageHeader
         title="Statutory authority"
-        lead="Every regulation must cite the statute that authorizes it. This page traces each ingested CFR part's cited authority into the U.S. Code, shows which statutes several parts share, and lists two families of textual markers found in rule preambles — presented with equal weight, describing the published text only."
+        lead={
+          <>
+            Every regulation must cite the statute that authorizes it. This
+            page traces each ingested CFR part&apos;s cited authority into
+            the U.S. Code, classifies each citation&apos;s language as{" "}
+            <GlossaryTerm term="mandatory-discretionary-silent-unresolved">
+              mandatory, discretionary, silent, or unresolved
+            </GlossaryTerm>
+            , shows which statutes several parts share, and lists two
+            families of textual markers found in rule preambles — presented
+            with equal weight, describing the published text only.
+          </>
+        }
       />
       <ViewTabs
         ariaLabel="Statutory authority views"

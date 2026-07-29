@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { EvalSection } from "../components/EvalSection";
 import { Ogc01EvalSection } from "../components/Ogc01EvalSection";
 import { PageHeader } from "../components/shell/PageHeader";
+import { GlossaryTerm } from "../components/ui/GlossaryTerm";
 import { ViewTabs } from "../components/ui/ViewTabs";
 
 export const metadata: Metadata = {
@@ -14,7 +15,16 @@ export default function EvaluationPage() {
     <>
       <PageHeader
         title="Evaluation (provisional)"
-        lead="How often the extractor is right, measured on a labeled sample and reported with confidence intervals — for obligation extraction and for the three modules above. Labels are machine-proposed and marked provisional until human adjudication completes."
+        lead={
+          <>
+            How often the extractor is right, measured on a labeled sample
+            and reported with confidence intervals — for obligation
+            extraction and for the three modules above. Labels are
+            machine-proposed and marked{" "}
+            <GlossaryTerm term="provisional-label">provisional</GlossaryTerm>{" "}
+            until human adjudication completes.
+          </>
+        }
       />
       <ViewTabs
         ariaLabel="Evaluation views"

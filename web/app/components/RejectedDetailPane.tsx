@@ -7,6 +7,7 @@ import {
   type SourceTextState,
 } from "./reglens-types";
 import { DiffComparison } from "./ui/DiffComparison";
+import { GlossaryTerm } from "./ui/GlossaryTerm";
 import { HighlightedText } from "./ui/HighlightedText";
 import type { LazyJsonState } from "./ui/useLazyJson";
 
@@ -45,8 +46,11 @@ export function RejectedDetailPane({
         </PaneHeading>
         <div className="instruction-card">
           <p>
-            Select a rejected claim to see why the provenance gate turned it
-            down.
+            Select a rejected claim to see why the{" "}
+            <GlossaryTerm term="provenance-gate">
+              provenance gate
+            </GlossaryTerm>{" "}
+            turned it down.
           </p>
         </div>
       </section>
