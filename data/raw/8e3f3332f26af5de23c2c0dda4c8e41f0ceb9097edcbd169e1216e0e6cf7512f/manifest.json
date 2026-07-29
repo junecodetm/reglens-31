@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "use-case-inventory",
+  "url": "https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv",
+  "fetched_at": "2026-07-29T14:24:50.584473+00:00",
+  "sha256": "8e3f3332f26af5de23c2c0dda4c8e41f0ceb9097edcbd169e1216e0e6cf7512f",
+  "content_type": "text/csv",
+  "filename": "Treasury-AI-Use-Case-Inventory.csv"
+}

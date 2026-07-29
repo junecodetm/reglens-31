@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "source_url": "https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv",
+  "fetched_at": "2026-07-29T14:24:50.584473+00:00",
+  "sha256": "8e3f3332f26af5de23c2c0dda4c8e41f0ceb9097edcbd169e1216e0e6cf7512f",
+  "row": {
+    "Use Case ID": "OGC-01",
+    "Use Case Name": "Regulatory Reform Tool",
+    "Bureau/Component": "General Counsel",
+    "Email Address": "https://home.treasury.gov/utility/contact",
+    "Should this AI use case be withheld from public reporting?": "No",
+    "Stage of Development": "Pre-Deployment - The use case is in a development or acquisition status.",
+    "Is the AI use case high-impact?": "High-impact",
+    "Justification": "N/A",
+    "Use Case Topic Area": "Administrative Functions",
+    "AI Classification": "Generative AI",
+    "What problem is the AI intended to solve?": "Prepares draft proposed and final regulations; reviews statutes for potential deregulatory actions",
+    "What are the expected benefits and positive outcomes from the AI for an agency’s mission and/or the general public?": " The AI improves operational efficiency, reduces manual burden, and enhances service delivery to the public.",
+    "Describe the AI system’s outputs.": "The tool seeks to identify statutes that are not statutorily required or that are inconsistent with Looper Bright; generates draft proposed and final rules ",
+    "Date when AI use case became operational or the pilot’s start date": "N/A",
+    "Was the system involved in this use case purchased from a vendor or developed under contract(s) or in-house?": "N/A",
+    "Vendor(s) Name": "N/A",
+    "Does this AI use case have an associated Authorization to Operate (ATO)?": "N/A",
+    "System(s) Name": "N/A",
+    "Describe any data used to  train, fine-tune, and/or  evaluate performance of the  model(s) used in this use  case.": "The model was trained and evaluated on a mixture of licensed data, data created by human trainers, and publicly available data. For government or Treasury enterprise use, no agency-specific or Treasury data was used to train, fine-tune, or evaluate the model unless such data was explicitly provided and securely isolated within that enterprise environment.",
+    "If the data is required to be  publicly disclosed as an  open government data asset,  provide a link to the entry on the Federal Data Catalog.": "N/A",
+    "Does this AI use case  involve personally  identifiable information (PII)  that is maintained by the  agency?": "No",
+    "If publicly available, provide  the link to the AI use case’s associated Privacy Impact Assessment (PIA).": "https://www.dhs.gov/publication/dhsallpia-097-use-conditionally-approved-commercial-generative-artificial-intelligence",
+    "Which, if any, demographic  variables does the AI use  case explicitly use as model  features?": "None of the Above",
+    "Does this project include  custom-developed code?": "Yes",
+    "If the code is open source, provide the link for the  publicly available source  code.": "N/A",
+    "Has pre-deployment testing been conducted for this AI  use case? ": "N/A",
+    "Has an AI impact assessment been completed for this AI use case? ": "N/A",
+    "What are the potential  impacts of using the AI for  this particular use case and  how were they identified?    ": "N/A",
+    "Has as independent review  of the AI use case been  conducted? ": "N/A",
+    "Is there a process to conduct ongoing monitoring to identify any adverse impacts to the performance and security of the AI functionality, as well as to privacy, civil rights, and civil liberties?": "N/A",
+    "Has the agency established sufficient and periodic  training for operators of the  AI to interpret and act on the  its output and managed associated risks?": "N/A",
+    "Does this AI use case have an appropriate fail-safe that minimizes the risk of significant harm?": "N/A",
+    "Is there an established appeal process in the event that an impacted individual would like to appeal or  contest the AI system’s  outcome?": "N/A",
+    "What steps has the agency taken to consult and incorporate feedback from end users of this AI use case and the public?": "N/A"
+  },
+  "context": {
+    "total_use_cases": 129,
+    "high_impact": [
+      {
+        "use_case_id": "OGC-01",
+        "name": "Regulatory Reform Tool",
+        "bureau": "General Counsel"
+      },
+      {
+        "use_case_id": "TREAS-IRS-104",
+        "name": "IRS IaaP Accelerator ( AI-Powered Infrastructure as a Product Accelerator)",
+        "bureau": "Internal Revenue Service (IRS)"
+      },
+      {
+        "use_case_id": "TREAS-IRS-37",
+        "name": "Resume Scanner",
+        "bureau": "Internal Revenue Service (IRS)"
+      },
+      {
+        "use_case_id": "TREAS-IRS-46",
+        "name": "GenAI for Low Code Platform",
+        "bureau": "Internal Revenue Service (IRS)"
+      }
+    ],
+    "general_counsel_use_case_ids": [
+      "OGC-01"
+    ]
+  }
+}

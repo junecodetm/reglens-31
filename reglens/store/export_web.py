@@ -32,8 +32,14 @@ from reglens.structure import (
     build_sections_export,
     split_part_text,
 )
+from reglens.use_case_inventory import UseCaseInventoryExport, parse_inventory_csv
 
 _USC_TEXT_FILENAME = re.compile(r"usc-(?P<title>\d+)-s(?P<section>[A-Za-z0-9]+)\.txt")
+
+# Pinned content address of the committed Treasury AI Use Case Inventory CSV
+# snapshot (reglens.ingest.inventory). A re-snapshot that changes the file
+# must update this pin deliberately; the exporter refuses any other bytes.
+INVENTORY_SNAPSHOT_SHA256 = "8e3f3332f26af5de23c2c0dda4c8e41f0ceb9097edcbd169e1216e0e6cf7512f"
 
 
 def _snapshot_payload_path(snapshot_dir: Path, filename: str) -> Path:
@@ -444,10 +450,38 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     _export_structure_and_search(export, out_dir)
 
 
+def export_use_case_inventory(settings: Settings, web_dir: Path) -> None:
+    """Export the OGC-01 inventory reference JSON from the pinned snapshot.
+
+    Reads only the committed content-addressed snapshot (never the network),
+    re-verifies its digest, and writes ``use-case-inventory.json``. Failure
+    mode: a missing or digest-mismatched snapshot raises — the About
+    section's provenance claims are never published unverified (fail-closed).
+    """
+    snapshot_dir = settings.data_dir / "raw" / INVENTORY_SNAPSHOT_SHA256
+    manifest = read_manifest(snapshot_dir)
+    payload = _snapshot_payload_path(snapshot_dir, manifest.filename).read_bytes()
+    if hashlib.sha256(payload).hexdigest() != INVENTORY_SNAPSHOT_SHA256:
+        # Fail-closed: published provenance must match the committed bytes.
+        raise ValueError("use-case inventory snapshot bytes do not match the pinned digest")
+    data = parse_inventory_csv(payload)
+    export = UseCaseInventoryExport(
+        source_url=manifest.url,
+        fetched_at=manifest.fetched_at,
+        sha256=manifest.sha256,
+        row=data.row,
+        context=data.context,
+    )
+    (web_dir / "public" / "data" / "use-case-inventory.json").write_text(
+        export.model_dump_json(indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+
+
 def main() -> int:
     settings = Settings()
     out_dir = export_web_data(settings, Path("web"))
     export_ogc01_data(settings, Path("web"))
+    export_use_case_inventory(settings, Path("web"))
     print(out_dir)
     return 0
 

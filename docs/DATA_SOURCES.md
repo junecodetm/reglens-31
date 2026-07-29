@@ -19,6 +19,12 @@
 | Document Drafting Handbook | `https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf` (Aug 2018 ed., rev. 2.2, mandatory as of 2025-06-09) | None | U.S. Gov public | Basis for the draft-skeleton template + conformance rules |
 | reginfo.gov E.O. 14192 accounting | `https://www.reginfo.gov/public/pdf/eo14192/Final_Accounting_for_Fiscal_Year_2025_under_EO_14192.pdf`, `.../Accounting_Methods_under_EO_14192.pdf` | None | U.S. Gov public | PDFs only (no xlsx workbook exists); Table 1 field names source the offset-accounting stub |
 
+## Reference snapshots (added 2026-07-29)
+
+| Source | Endpoint (verified) | Auth | License | Notes |
+|---|---|---|---|---|
+| Treasury AI Use Case Inventory | `https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv` (landing: `https://home.treasury.gov/data/ai_inventory`) | None (User-Agent sent) | U.S. Government work (17 U.S.C. §105) | One-time reference snapshot provenancing the site's OGC-01 "About this demonstration" framing; content-addressed under `data/raw/`, pinned in `reglens/store/export_web.py`; the exporter reads only the committed snapshot, never the network. Not a pipeline extraction input. |
+
 Explicitly forbidden as dependencies (EXTEND-OGC01 §2): CourtListener API (rate-limited; membership breaks zero-cost), QuantGov/RegData datasets (cited as prior art only), anything requiring an api.data.gov key.
 
 **EXCLUSION LIST (never fetch/store/synthesize):** BSA/SAR data; FinCEN Beneficial Ownership Information (also largely inactive for U.S. companies after the 2025-03-26 interim final rule); taxpayer data; PII about private individuals; anything behind authentication or paywalls; any Vixio employer data or work product. Enforced by `ingest/allowlist.py` (only the six sources above are fetchable) + Semgrep/gitleaks scans.

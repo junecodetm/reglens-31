@@ -57,6 +57,8 @@ ALLOWED_HOSTS = {
     "uscode.house.gov",
     "www.archives.gov",
     "www.reginfo.gov",
+    # Treasury AI Use Case Inventory reference CSV (free, keyless)
+    "home.treasury.gov",
     # local inference + project surfaces (all free/no-card)
     "localhost",
     "github.com",

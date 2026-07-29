@@ -38,6 +38,9 @@ _ALLOWED: tuple[tuple[str, str], ...] = (
     ("www.archives.gov", "/files/federal-register/"),
     # E.O. 14192 accounting PDFs (Unified Agenda site)
     ("www.reginfo.gov", "/public/pdf/eo14192/"),
+    # Treasury AI Use Case Inventory CSV (exact file only) — reference snapshot
+    # provenancing the site's OGC-01 framing (docs/DATA_SOURCES.md)
+    ("home.treasury.gov", "/system/files/136/Treasury-AI-Use-Case-Inventory.csv"),
 )
 
 
