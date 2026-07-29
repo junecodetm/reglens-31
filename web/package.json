@@ -8,7 +8,9 @@
     "test": "tsc --noEmit --incremental false --allowImportingTsExtensions --module esnext --moduleResolution bundler --target es2022 --skipLibCheck --jsx preserve --typeRoots ./node_modules/@types ../tests/*.mts && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test ../tests/*.mts ../tests/*.mjs"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@trussworks/react-uswds": "^11.1.0",
+    "gsap": "^3.15.0",
     "next": "^15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -18,6 +20,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "axe-core": "^4.12.1",
+    "impeccable": "3.4.0",
     "typescript": "^5.8.0"
   },
   "overrides": {
