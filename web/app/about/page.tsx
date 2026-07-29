@@ -11,7 +11,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader title="About this demonstration" />
-      <AboutSection />
+      <AboutSection standalone />
     </>
   );
 }

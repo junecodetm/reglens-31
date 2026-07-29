@@ -16,6 +16,10 @@ type PageDataState =
   | { status: "ready"; site: SiteData; documents: DocumentExtraction[] }
   | { status: "error"; message: string };
 
+interface ClaimsExplorerProps {
+  standalone?: boolean;
+}
+
 async function fetchData<T>(
   path: string,
   signal: AbortSignal,
@@ -29,7 +33,9 @@ async function fetchData<T>(
   return (await response.json()) as T;
 }
 
-export function ClaimsExplorer() {
+export function ClaimsExplorer({
+  standalone = false,
+}: ClaimsExplorerProps) {
   const [pageData, setPageData] = useState<PageDataState>({
     status: "loading",
   });
@@ -147,6 +153,8 @@ export function ClaimsExplorer() {
     };
   }, [selectedDocumentNumber]);
 
+  const ErrorHeading = standalone ? "h2" : "h3";
+
   return (
     <>
       {pageData.status === "loading" ? (
@@ -157,7 +165,7 @@ export function ClaimsExplorer() {
 
       {pageData.status === "error" ? (
         <div className="error-state page-state" role="alert">
-          <h3>Snapshot unavailable</h3>
+          <ErrorHeading>Snapshot unavailable</ErrorHeading>
           <p>
             The pre-computed data files could not be loaded.{" "}
             {pageData.message}
@@ -171,10 +179,12 @@ export function ClaimsExplorer() {
             documents={pageData.documents}
             selectedClaimId={selectedClaim?.claim_id ?? null}
             onSelectClaim={setSelectedClaim}
+            standalone={standalone}
           />
           <SourcePane
             selectedClaim={selectedClaim}
             sourceState={sourceState}
+            standalone={standalone}
           />
         </div>
       ) : null}

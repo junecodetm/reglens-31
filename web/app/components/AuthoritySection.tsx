@@ -161,10 +161,12 @@ interface AuthorityPartDetailsProps {
   selectedUsc: UscSelection | null;
   uscTextState: TextLoadState;
   onToggleUsc: (part: number, section: ResolvedSection) => void;
+  standalone: boolean;
 }
 
 interface AuthoritySectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
 function AuthorityPartDetails({
@@ -172,17 +174,19 @@ function AuthorityPartDetails({
   selectedUsc,
   uscTextState,
   onToggleUsc,
+  standalone,
 }: AuthorityPartDetailsProps) {
   const nonSectionCount = part.citations.filter(
     (citation) => citation.kind !== "usc-section",
   ).length;
+  const DetailHeading: "h3" | "h5" = standalone ? "h3" : "h5";
 
   return (
     <>
       <section className="margin-top-3">
-        <h5 id={`authority-part-${part.part}-usc-heading`}>
+        <DetailHeading id={`authority-part-${part.part}-usc-heading`}>
           {CITATION_KIND_LABELS["usc-section"]}
-        </h5>
+        </DetailHeading>
 
         {part.resolved.length === 0 ? (
           <p>No resolved U.S.C. sections are recorded.</p>
@@ -313,9 +317,9 @@ function AuthorityPartDetails({
       </section>
 
       <section className="margin-top-3">
-        <h5 id={`authority-part-${part.part}-coverage-heading`}>
+        <DetailHeading id={`authority-part-${part.part}-coverage-heading`}>
           Resolves outside codified section text (coverage category)
-        </h5>
+        </DetailHeading>
 
         {nonSectionCount === 0 ? (
           <p>None recorded for this part.</p>
@@ -331,9 +335,11 @@ function AuthorityPartDetails({
 
             return (
               <section key={kind}>
-                <h6 id={`authority-part-${part.part}-${kind}-heading`}>
+                <DetailHeading
+                  id={`authority-part-${part.part}-${kind}-heading`}
+                >
                   {CITATION_KIND_LABELS[kind]}
-                </h6>
+                </DetailHeading>
                 <ul className="usa-list">
                   {citations.map((citation, index) => (
                     <li key={`${citation.raw}-${index}`}>{citation.raw}</li>
@@ -346,9 +352,9 @@ function AuthorityPartDetails({
       </section>
 
       <section className="margin-top-3">
-        <h5 id={`authority-part-${part.part}-unresolved-heading`}>
+        <DetailHeading id={`authority-part-${part.part}-unresolved-heading`}>
           Unresolved (fail-closed, not guessed)
-        </h5>
+        </DetailHeading>
 
         {part.unresolved.length === 0 ? (
           <p>None recorded for this part.</p>
@@ -364,11 +370,11 @@ function AuthorityPartDetails({
 
             return (
               <section key={kind}>
-                <h6
+                <DetailHeading
                   id={`authority-part-${part.part}-unresolved-${kind}-heading`}
                 >
                   {CITATION_KIND_LABELS[kind]}
-                </h6>
+                </DetailHeading>
                 <ul className="usa-list">
                   {citations.map((citation, index) => (
                     <li key={`${citation.raw}-${index}`}>
@@ -388,7 +394,10 @@ function AuthorityPartDetails({
   );
 }
 
-export function AuthoritySection({ active }: AuthoritySectionProps) {
+export function AuthoritySection({
+  active,
+  standalone = false,
+}: AuthoritySectionProps) {
   const { state: authorityState, load: loadAuthorityData } =
     useLazyJson<AuthorityData>("/data/authority.json", {
       requestErrorPrefix: "The authority request returned status ",
@@ -551,12 +560,17 @@ export function AuthoritySection({ active }: AuthoritySectionProps) {
     void loadUscText(section.usc_title, section.usc_section);
   }
 
+  const PartHeading: "h2" | "h4" = standalone ? "h2" : "h4";
+
   return (
     <section
       className="rejected-section authority-section"
-      aria-labelledby="authority-heading"
+      aria-labelledby={standalone ? undefined : "authority-heading"}
+      aria-label={standalone ? "Statutory authority" : undefined}
     >
-      <h3 id="authority-heading">Statutory authority</h3>
+      {standalone ? null : (
+        <h3 id="authority-heading">Statutory authority</h3>
+      )}
 
       <div id="authority-section-content">
         {authorityState.status === "loading" ? (
@@ -643,7 +657,7 @@ export function AuthoritySection({ active }: AuthoritySectionProps) {
                       panelId,
                     }) => (
                       <>
-                        <h4>{label}</h4>
+                        <PartHeading>{label}</PartHeading>
 
                         <Button
                           type="button"
@@ -669,6 +683,7 @@ export function AuthoritySection({ active }: AuthoritySectionProps) {
                         selectedUsc={selectedUsc}
                         uscTextState={uscTextState}
                         onToggleUsc={toggleUsc}
+                        standalone={standalone}
                       />
                     }
                     key={part.part}

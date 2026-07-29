@@ -11,7 +11,7 @@ export default function DraftsPage() {
   return (
     <>
       <PageHeader title="Draft rule skeletons" />
-      <DraftsSection active />
+      <DraftsSection active standalone />
     </>
   );
 }

@@ -9,7 +9,13 @@ import {
 } from "../../components/reglens-types";
 import { useLazyJson } from "../../components/ui/useLazyJson";
 
-export function RejectedClaimsExplorer() {
+interface RejectedClaimsExplorerProps {
+  standalone?: boolean;
+}
+
+export function RejectedClaimsExplorer({
+  standalone = false,
+}: RejectedClaimsExplorerProps) {
   const { state: siteState, load: loadSite } =
     useLazyJson<SiteData>("/data/site.json");
   const { state: documentsState, load: loadDocuments } =
@@ -43,10 +49,11 @@ export function RejectedClaimsExplorer() {
         : documentsState.status === "error"
           ? documentsState.message
           : "The static snapshot could not be loaded.";
+    const ErrorHeading = standalone ? "h2" : "h3";
 
     return (
       <div className="error-state page-state" role="alert">
-        <h3>Snapshot unavailable</h3>
+        <ErrorHeading>Snapshot unavailable</ErrorHeading>
         <p>
           The pre-computed data files could not be loaded. {message}
         </p>
@@ -58,6 +65,7 @@ export function RejectedClaimsExplorer() {
     <RejectedClaims
       documents={documentsState.data}
       rejectedCount={siteState.data.rejected_count}
+      standalone={standalone}
     />
   );
 }

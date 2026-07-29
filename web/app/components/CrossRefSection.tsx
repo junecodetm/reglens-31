@@ -11,9 +11,13 @@ export const CROSS_REF_INTRO =
 
 interface CrossRefSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
-export function CrossRefSection({ active }: CrossRefSectionProps) {
+export function CrossRefSection({
+  active,
+  standalone = false,
+}: CrossRefSectionProps) {
   const { state: authorityState, load: loadAuthorityData } =
     useLazyJson<AuthorityData>("/data/authority.json", {
       requestErrorPrefix: "The authority request returned status ",
@@ -37,13 +41,18 @@ export function CrossRefSection({ active }: CrossRefSectionProps) {
     authorityState.status === "ready"
       ? buildAuthorityCrossReferences(authorityState.data)
       : [];
+  const ViewHeading: "h2" | "h4" = standalone ? "h2" : "h4";
+  const GroupHeading: "h3" | "h5" = standalone ? "h3" : "h5";
 
   return (
     <section
       className="eval-section cross-ref-section"
-      aria-labelledby="cross-ref-heading"
+      aria-labelledby={standalone ? undefined : "cross-ref-heading"}
+      aria-label={standalone ? "Authority cross-references" : undefined}
     >
-      <h3 id="cross-ref-heading">Authority cross-references</h3>
+      {standalone ? null : (
+        <h3 id="cross-ref-heading">Authority cross-references</h3>
+      )}
       <p>{CROSS_REF_INTRO}</p>
 
       <div id="cross-ref-section-panel">
@@ -63,7 +72,9 @@ export function CrossRefSection({ active }: CrossRefSectionProps) {
         {authorityState.status === "ready" ? (
           <div className="cross-ref-views">
             <section aria-labelledby="cross-ref-by-part-heading">
-              <h4 id="cross-ref-by-part-heading">By CFR part</h4>
+              <ViewHeading id="cross-ref-by-part-heading">
+                By CFR part
+              </ViewHeading>
 
               {sortedParts.map((part) => (
                 <section
@@ -71,9 +82,9 @@ export function CrossRefSection({ active }: CrossRefSectionProps) {
                   aria-labelledby={`cross-ref-part-${part.part}-heading`}
                   key={part.part}
                 >
-                  <h5 id={`cross-ref-part-${part.part}-heading`}>
+                  <GroupHeading id={`cross-ref-part-${part.part}-heading`}>
                     31 CFR Part {part.part}
-                  </h5>
+                  </GroupHeading>
                   <ul className="usa-list">
                     {part.resolved.map((section) => (
                       <li key={section.identifier}>
@@ -93,7 +104,9 @@ export function CrossRefSection({ active }: CrossRefSectionProps) {
             </section>
 
             <section aria-labelledby="cross-ref-by-usc-heading">
-              <h4 id="cross-ref-by-usc-heading">By U.S. Code section</h4>
+              <ViewHeading id="cross-ref-by-usc-heading">
+                By U.S. Code section
+              </ViewHeading>
               <p>
                 Shared authorities (cited by more than one part) appear first.
               </p>

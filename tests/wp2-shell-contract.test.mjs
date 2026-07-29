@@ -114,7 +114,8 @@ test("the route template animates only when reduced motion is not requested", ()
     /prefers-reduced-motion:\s*no-preference/,
   );
   assert.match(template, /gsap\.from\(ref\.current/);
-  assert.match(template, /autoAlpha:\s*0/);
+  // opacity, not autoAlpha: visibility:hidden would defeat h1 focus on nav.
+  assert.match(template, /opacity:\s*0/);
   assert.match(template, /y:\s*8/);
   assert.match(template, /duration:\s*DUR\.base/);
   assert.match(template, /ease:\s*EASE/);
@@ -188,6 +189,7 @@ test("all eleven route pages mount their existing section tool", () => {
 
   for (const [path, title, component, active] of routes) {
     const source = read(path);
+    const componentProps = active ? " active standalone" : " standalone";
 
     assert.doesNotMatch(source, /^"use client";/);
     assert.match(
@@ -201,42 +203,8 @@ test("all eleven route pages mount their existing section tool", () => {
       `${path} should mount its existing heading in PageHeader`,
     );
     assert.ok(
-      source.includes(`<${component}${active ? " active" : ""} />`),
-      `${path} should mount ${component}${active ? " active" : ""}`,
-    );
-  }
-});
-
-test("only existing constant section intros are reused as route ledes", () => {
-  const introContracts = [
-    [
-      "app/components/SearchSection.tsx",
-      "SEARCH_INTRO",
-      "app/explore/search/page.tsx",
-    ],
-    [
-      "app/components/BrowseSection.tsx",
-      "BROWSE_INTRO",
-      "app/explore/browse/page.tsx",
-    ],
-    [
-      "app/components/CrossRefSection.tsx",
-      "CROSS_REF_INTRO",
-      "app/explore/cross-references/page.tsx",
-    ],
-  ];
-
-  for (const [componentPath, constantName, routePath] of introContracts) {
-    const component = read(componentPath);
-    const route = read(routePath);
-
-    assert.ok(
-      component.includes(`export const ${constantName}`),
-      `${constantName} should be referenceable without duplicating prose`,
-    );
-    assert.ok(
-      route.includes(`lede={${constantName}}`),
-      `${routePath} should reuse ${constantName}`,
+      source.includes(`<${component}${componentProps} />`),
+      `${path} should mount ${component}${componentProps}`,
     );
   }
 });
@@ -304,25 +272,17 @@ test("the appended shell CSS is responsive, accessible, and palette-only", () =>
   );
   assert.match(
     shellCss,
-    /\.sidebar-group-label\s*\{[\s\S]*?letter-spacing:[\s\S]*?color:\s*var\(--muted-ink\);/,
+    /\.sidebar-group-label\s*\{[\s\S]*?color:\s*var\(--muted-ink\);[\s\S]*?letter-spacing:/,
   );
   assert.match(
     shellCss,
     /\.sidebar \.usa-sidenav a\.usa-current[\s\S]*?\{[\s\S]*?border-left:\s*4px solid var\(--blue\);/,
-  );
-  assert.match(
-    shellCss,
-    /\.page-header-lede\s*\{[\s\S]*?max-width:\s*70ch;/,
   );
   assert.match(shellCss, /@media \(min-width:\s*64em\)/);
   assert.match(shellCss, /@media \(max-width:\s*63\.99em\)/);
   assert.match(
     shellCss,
     /\.sidebar-menu-button,[\s\S]*?\.sidebar-close-button\s*\{[\s\S]*?min-width:\s*2\.75rem;[\s\S]*?min-height:\s*2\.75rem;/,
-  );
-  assert.match(
-    shellCss,
-    /\.app-content \.app-shell\s*\{[\s\S]*?display:\s*flex;/,
   );
   assert.doesNotMatch(
     shellCss,

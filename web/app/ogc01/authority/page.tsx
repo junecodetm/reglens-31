@@ -11,7 +11,7 @@ export default function AuthorityPage() {
   return (
     <>
       <PageHeader title="Statutory authority" />
-      <AuthoritySection active />
+      <AuthoritySection active standalone />
     </>
   );
 }

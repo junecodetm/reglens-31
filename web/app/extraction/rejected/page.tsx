@@ -11,7 +11,7 @@ export default function RejectedClaimsPage() {
   return (
     <>
       <PageHeader title="Rejected claims" />
-      <RejectedClaimsExplorer />
+      <RejectedClaimsExplorer standalone />
     </>
   );
 }

@@ -62,9 +62,13 @@ type Ogc01Report = {
 
 interface Ogc01EvalSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
-export function Ogc01EvalSection({ active }: Ogc01EvalSectionProps) {
+export function Ogc01EvalSection({
+  active,
+  standalone = false,
+}: Ogc01EvalSectionProps) {
   const { state, load } = useLazyJson<Ogc01Report>(
     "/data/ogc01-eval.json",
     {
@@ -80,11 +84,23 @@ export function Ogc01EvalSection({ active }: Ogc01EvalSectionProps) {
     }
   }, [active, load]);
 
+  const InternalHeading = standalone ? "h2" : "h4";
+
   return (
-    <section className="eval-section" aria-labelledby="ogc01-eval-heading">
-      <h3 id="ogc01-eval-heading">
-        Evaluation — authority, grounding, and drafts (provisional)
-      </h3>
+    <section
+      className="eval-section"
+      aria-label={
+        standalone
+          ? "Evaluation — authority, grounding, and drafts (provisional)"
+          : undefined
+      }
+      aria-labelledby={standalone ? undefined : "ogc01-eval-heading"}
+    >
+      {!standalone ? (
+        <h3 id="ogc01-eval-heading">
+          Evaluation — authority, grounding, and drafts (provisional)
+        </h3>
+      ) : null}
 
       {state.status === "loading" ? (
         <p role="status">Loading the OGC-01 evaluation report…</p>
@@ -97,11 +113,17 @@ export function Ogc01EvalSection({ active }: Ogc01EvalSectionProps) {
 
       {state.status === "ready" ? (
         <>
-          <Alert type="warning" headingLevel="h4" slim>
+          <Alert
+            type="warning"
+            headingLevel={standalone ? "h2" : "h4"}
+            slim
+          >
             {state.data.provisional_label}
           </Alert>
 
-          <h4>Authority linking (citation pairs — a census)</h4>
+          <InternalHeading>
+            Authority linking (citation pairs — a census)
+          </InternalHeading>
           <ul className="eval-details">
             <li>
               Link precision {fmt(state.data.link_precision)}
@@ -164,7 +186,7 @@ export function Ogc01EvalSection({ active }: Ogc01EvalSectionProps) {
             <li>{state.data.bootstrap_note}</li>
           </ul>
 
-          <h4>Grounding-marker retrieval</h4>
+          <InternalHeading>Grounding-marker retrieval</InternalHeading>
           <ul className="eval-details">
             <li>
               In-context precision {fmt(state.data.marker_precision)} (
@@ -198,7 +220,9 @@ export function Ogc01EvalSection({ active }: Ogc01EvalSectionProps) {
             </li>
           </ul>
 
-          <h4>Draft skeletons (structural conformance)</h4>
+          <InternalHeading>
+            Draft skeletons (structural conformance)
+          </InternalHeading>
           <ul className="eval-details">
             <li>
               Conformance pass rate {state.data.draft_pass_rate.toFixed(2)} (

@@ -3,6 +3,7 @@ import type { ClaimRecord, DocumentExtraction } from "./reglens-types";
 interface RejectedClaimsProps {
   documents: DocumentExtraction[];
   rejectedCount: number;
+  standalone?: boolean;
 }
 
 function getRejectedClaims(documents: DocumentExtraction[]): ClaimRecord[] {
@@ -14,15 +15,21 @@ function getRejectedClaims(documents: DocumentExtraction[]): ClaimRecord[] {
 export function RejectedClaims({
   documents,
   rejectedCount,
+  standalone = false,
 }: RejectedClaimsProps) {
   const rejectedClaims = getRejectedClaims(documents);
 
   return (
     <section
       className="rejected-section"
-      aria-labelledby="rejected-heading"
+      aria-label={
+        standalone ? `Rejected claims (${rejectedCount})` : undefined
+      }
+      aria-labelledby={standalone ? undefined : "rejected-heading"}
     >
-      <h3 id="rejected-heading">Rejected claims ({rejectedCount})</h3>
+      {!standalone ? (
+        <h3 id="rejected-heading">Rejected claims ({rejectedCount})</h3>
+      ) : null}
       <p>
         These model-proposed claims failed exact verbatim verification against
         the source text and were rejected by the fail-closed provenance gate.

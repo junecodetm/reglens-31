@@ -1,17 +1,33 @@
 "use client";
 
+import { useEffect, useRef } from "react";
+
+import { recordRouteMount } from "./route-mount-state";
+
 interface PageHeaderProps {
   title: string;
-  kicker?: string;
-  lede?: string;
 }
 
-export function PageHeader({ title, kicker, lede }: PageHeaderProps) {
+export function PageHeader({ title }: PageHeaderProps) {
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const hasHandledMountRef = useRef(false);
+
+  useEffect(() => {
+    if (hasHandledMountRef.current) {
+      return;
+    }
+    hasHandledMountRef.current = true;
+
+    if (recordRouteMount()) {
+      headingRef.current?.focus();
+    }
+  }, []);
+
   return (
     <header className="page-header">
-      {kicker ? <span className="page-header-kicker">{kicker}</span> : null}
-      <h1 tabIndex={-1}>{title}</h1>
-      {lede ? <p className="page-header-lede">{lede}</p> : null}
+      <h1 ref={headingRef} tabIndex={-1}>
+        {title}
+      </h1>
     </header>
   );
 }

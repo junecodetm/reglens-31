@@ -165,7 +165,7 @@ export function useLazyJson<T>(
       requestedPathRef.current === path
     ) {
       // Strict Mode replays passive effects after their cleanup. Restart the
-      // aborted first-open request without firing onFirstOpen a second time.
+      // aborted request without issuing a duplicate logical load.
       requestedPathRef.current = null;
       promiseRef.current = null;
       void load();

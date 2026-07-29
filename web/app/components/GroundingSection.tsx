@@ -36,6 +36,7 @@ interface SelectedMarker {
 
 interface GroundingSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
 function compareDocumentNumbers(
@@ -80,7 +81,10 @@ function DensityValue({
   );
 }
 
-export function GroundingSection({ active }: GroundingSectionProps) {
+export function GroundingSection({
+  active,
+  standalone = false,
+}: GroundingSectionProps) {
   const { state: groundingState, load: loadGroundingData } =
     useLazyJson<GroundingData>("/data/grounding.json", {
       requestErrorPrefix: "Request returned status ",
@@ -253,14 +257,22 @@ export function GroundingSection({ active }: GroundingSectionProps) {
     void loadDocument(selection);
   }
 
+  const InternalHeading: "h2" | "h4" = standalone ? "h2" : "h4";
+  const NestedHeading: "h3" | "h4" = standalone ? "h3" : "h4";
+
   return (
     <section
       className="grounding-section margin-top-5 padding-top-2 border-top-1px border-base-lighter"
-      aria-labelledby="grounding-heading"
+      aria-label={
+        standalone ? "Statutory grounding signal (two-sided)" : undefined
+      }
+      aria-labelledby={standalone ? undefined : "grounding-heading"}
     >
-      <h3 id="grounding-heading">
-        Statutory grounding signal (two-sided)
-      </h3>
+      {!standalone ? (
+        <h3 id="grounding-heading">
+          Statutory grounding signal (two-sided)
+        </h3>
+      ) : null}
 
       <div
         className="bg-base-lightest border-left-05 border-base padding-2 margin-bottom-2"
@@ -284,7 +296,9 @@ export function GroundingSection({ active }: GroundingSectionProps) {
             className="bg-base-lightest border-2px border-base padding-2 radius-md"
             role="alert"
           >
-            <h4 className="margin-top-0">Grounding data unavailable</h4>
+            <InternalHeading className="margin-top-0">
+              Grounding data unavailable
+            </InternalHeading>
             <p className="margin-bottom-0">{groundingState.message}</p>
           </div>
         ) : null}
@@ -388,9 +402,9 @@ export function GroundingSection({ active }: GroundingSectionProps) {
                           className="bg-base-lightest padding-2"
                         >
                           <div id={markerContentId}>
-                            <h4 className="margin-top-0">
+                            <InternalHeading className="margin-top-0">
                               Markers for document {rule.document_number}
-                            </h4>
+                            </InternalHeading>
 
                             {rule.markers.length === 0 ? (
                               <p>No markers were recorded for this document.</p>
@@ -463,10 +477,10 @@ export function GroundingSection({ active }: GroundingSectionProps) {
                                             className="bg-base-lightest border-2px border-base padding-2 radius-md"
                                             role="alert"
                                           >
-                                            <h4 className="margin-top-0">
+                                            <NestedHeading className="margin-top-0">
                                               Published document text
                                               unavailable
-                                            </h4>
+                                            </NestedHeading>
                                             <p className="margin-bottom-0">
                                               {documentView.message}
                                             </p>
@@ -495,9 +509,9 @@ export function GroundingSection({ active }: GroundingSectionProps) {
                                                 className="bg-base-lightest border-2px border-base padding-2 radius-md"
                                                 role="alert"
                                               >
-                                                <h4 className="margin-top-0">
+                                                <NestedHeading className="margin-top-0">
                                                   Marker span unavailable
-                                                </h4>
+                                                </NestedHeading>
                                                 <p className="margin-bottom-0">
                                                   The saved offsets do not fall
                                                   within the published document
@@ -542,7 +556,9 @@ export function GroundingSection({ active }: GroundingSectionProps) {
             </Table>
 
             <section aria-labelledby="grounding-coverage-heading">
-              <h4 id="grounding-coverage-heading">Coverage notes</h4>
+              <InternalHeading id="grounding-coverage-heading">
+                Coverage notes
+              </InternalHeading>
               {groundingState.data.coverage_notes.length > 0 ? (
                 <ul className="usa-list">
                   {groundingState.data.coverage_notes.map((note) => (

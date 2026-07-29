@@ -16,8 +16,10 @@ export default function Template({ children }: { children: ReactNode }) {
       const media = gsap.matchMedia();
 
       media.add("(prefers-reduced-motion: no-preference)", () => {
+        // opacity, NOT autoAlpha: autoAlpha toggles visibility:hidden, which
+        // would make the PageHeader h1 unfocusable during the entrance tween.
         gsap.from(ref.current, {
-          autoAlpha: 0,
+          opacity: 0,
           y: 8,
           duration: DUR.base,
           ease: EASE,

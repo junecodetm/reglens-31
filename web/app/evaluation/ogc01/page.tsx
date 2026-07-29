@@ -12,7 +12,7 @@ export default function Ogc01EvaluationPage() {
   return (
     <>
       <PageHeader title="Evaluation — authority, grounding, and drafts (provisional)" />
-      <Ogc01EvalSection active />
+      <Ogc01EvalSection active standalone />
     </>
   );
 }

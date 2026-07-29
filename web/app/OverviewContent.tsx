@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 
 import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
+import { recordRouteMount } from "./components/shell/route-mount-state";
 import { type SiteData } from "./components/reglens-types";
 import { useLazyJson } from "./components/ui/useLazyJson";
 
@@ -107,6 +108,7 @@ export function OverviewContent() {
   const { state, load } = useLazyJson<SiteData>("/data/site.json");
 
   useEffect(() => {
+    recordRouteMount();
     load();
   }, [load]);
 

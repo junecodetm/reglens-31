@@ -21,6 +21,10 @@ type ResultTextState =
 export const SEARCH_INTRO =
   "Lexical search over extracted obligations, U.S. Code sections, CFR part sections, and draft skeletons. Exact-term matching against a precomputed index — no semantic ranking, no external service, and no model involvement.";
 
+interface SearchSectionProps {
+  standalone?: boolean;
+}
+
 const TYPE_LABELS: Record<SearchUnit["type"], string> = {
   claim: "Extracted claim",
   usc: "U.S. Code section",
@@ -42,7 +46,9 @@ function claimText(unit: Extract<SearchUnit, { type: "claim" }>): string {
   return `${unit.label}\n\nFrom document ${unit.ref}`;
 }
 
-export function SearchSection() {
+export function SearchSection({
+  standalone = false,
+}: SearchSectionProps) {
   const [query, setQuery] = useState("");
   // Group activation deliberately plays no role here: the 1.26 MB search
   // index loads only on the first submitted search, via loadIndex below.
@@ -195,9 +201,12 @@ export function SearchSection() {
   return (
     <section
       className="eval-section search-section"
-      aria-labelledby="search-heading"
+      aria-labelledby={standalone ? undefined : "search-heading"}
+      aria-label={standalone ? "Search the ingested corpus" : undefined}
     >
-      <h3 id="search-heading">Search the ingested corpus</h3>
+      {standalone ? null : (
+        <h3 id="search-heading">Search the ingested corpus</h3>
+      )}
       <p>{SEARCH_INTRO}</p>
 
       <form className="search-form" onSubmit={(event) => void handleSearch(event)}>

@@ -79,20 +79,33 @@ const TRACEABILITY: readonly {
   },
 ];
 
-export function AboutSection() {
+interface AboutSectionProps {
+  standalone?: boolean;
+}
+
+export function AboutSection({
+  standalone = false,
+}: AboutSectionProps) {
   const { state, load } = useLazyJson<UseCaseInventory>(
     "/data/use-case-inventory.json",
   );
+  const TraceabilityHeading: "h2" | "h3" = standalone ? "h2" : "h3";
 
   useEffect(() => {
     load();
   }, [load]);
 
   return (
-    <section className="about-section" aria-labelledby="about">
-      <h2 id="about" tabIndex={-1}>
-        About this demonstration
-      </h2>
+    <section
+      className="about-section"
+      aria-labelledby={standalone ? undefined : "about"}
+      aria-label={standalone ? "About this demonstration" : undefined}
+    >
+      {standalone ? null : (
+        <h2 id="about" tabIndex={-1}>
+          About this demonstration
+        </h2>
+      )}
       <p>
         RegLens-31 is an independent working mockup of a single publicly
         documented Treasury AI use case: <strong>OGC-01, the “Regulatory
@@ -180,7 +193,9 @@ export function AboutSection() {
         </>
       )}
 
-      <h3>Stated outputs → what this site demonstrates</h3>
+      <TraceabilityHeading className="about-traceability-heading">
+        Stated outputs → what this site demonstrates
+      </TraceabilityHeading>
       <p>
         Each output and stated purpose the inventory records for OGC-01, and
         the on-page module demonstrating its neutral equivalent:

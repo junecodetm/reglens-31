@@ -47,6 +47,7 @@ const CONTEXT_CHARACTER_COUNT = 500;
 
 interface BrowseSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
 function isSelected(
@@ -61,7 +62,10 @@ function isSelected(
   );
 }
 
-export function BrowseSection({ active }: BrowseSectionProps) {
+export function BrowseSection({
+  active,
+  standalone = false,
+}: BrowseSectionProps) {
   const { state: sectionsState, load: loadSections } =
     useLazyJson<SectionsData>("/data/sections.json", {
       requestErrorPrefix: "The section index request returned status ",
@@ -169,12 +173,17 @@ export function BrowseSection({ active }: BrowseSectionProps) {
     void loadPartText(part);
   }
 
+  const TitleHeading: "h2" | "h4" = standalone ? "h2" : "h4";
+
   return (
     <section
       className="eval-section browse-section"
-      aria-labelledby="browse-heading"
+      aria-labelledby={standalone ? undefined : "browse-heading"}
+      aria-label={standalone ? "Browse Title 31 (ingested parts)" : undefined}
     >
-      <h3 id="browse-heading">Browse Title 31 (ingested parts)</h3>
+      {standalone ? null : (
+        <h3 id="browse-heading">Browse Title 31 (ingested parts)</h3>
+      )}
       <p>{BROWSE_INTRO}</p>
 
       <div id="browse-section-panel">
@@ -193,7 +202,9 @@ export function BrowseSection({ active }: BrowseSectionProps) {
 
         {sectionsState.status === "ready" ? (
           <>
-            <h4>Title 31 — Money and Finance: Treasury</h4>
+            <TitleHeading>
+              Title 31 — Money and Finance: Treasury
+            </TitleHeading>
             <div className="document-groups">
               {sectionsState.data.parts.map((part) => {
                 const partIsExpanded = expandedParts.has(part.part);

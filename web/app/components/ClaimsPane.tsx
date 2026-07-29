@@ -7,12 +7,14 @@ interface ClaimsPaneProps {
   documents: DocumentExtraction[];
   selectedClaimId: string | null;
   onSelectClaim: (claim: ClaimRecord) => void;
+  standalone?: boolean;
 }
 
 export function ClaimsPane({
   documents,
   selectedClaimId,
   onSelectClaim,
+  standalone = false,
 }: ClaimsPaneProps) {
   const groups = documents
     .map((document) => ({
@@ -20,10 +22,17 @@ export function ClaimsPane({
       acceptedClaims: document.claims.filter((claim) => claim.accepted),
     }))
     .filter(({ acceptedClaims }) => acceptedClaims.length > 0);
+  const DocumentHeading = standalone ? "h2" : "h4";
 
   return (
-    <section className="pane claims-pane" aria-labelledby="claims-heading">
-      <h3 id="claims-heading">Extracted obligations</h3>
+    <section
+      className="pane claims-pane"
+      aria-label={standalone ? "Extracted obligations" : undefined}
+      aria-labelledby={standalone ? undefined : "claims-heading"}
+    >
+      {!standalone ? (
+        <h3 id="claims-heading">Extracted obligations</h3>
+      ) : null}
 
       {groups.length === 0 ? (
         <p className="empty-state">
@@ -36,13 +45,13 @@ export function ClaimsPane({
               className="document-group"
               key={document.document_sha256}
             >
-              <h4>
+              <DocumentHeading>
                 <span>{document.document_title}</span>
                 <a href={document.document_url} className="document-link">
                   FR {document.document_number}
                   <span aria-hidden="true"> ↗</span>
                 </a>
-              </h4>
+              </DocumentHeading>
 
               <ul className="claim-list">
                 {acceptedClaims.map((claim) => {

@@ -16,6 +16,7 @@ type DraftChecklist = ConformanceData["checklists"][number];
 
 interface DraftsSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
 function draftKey(checklist: DraftChecklist): string {
@@ -42,7 +43,13 @@ function formatPassRate(value: number): string {
   }).format(value);
 }
 
-function Checklist({ checklist }: { checklist: DraftChecklist }) {
+function Checklist({
+  checklist,
+  standalone,
+}: {
+  checklist: DraftChecklist;
+  standalone: boolean;
+}) {
   const booleanChecks = [
     ["Headings in order", checklist.headings_in_order],
     ["Analysis sections present", checklist.analysis_sections_present],
@@ -74,6 +81,7 @@ function Checklist({ checklist }: { checklist: DraftChecklist }) {
       checklist.amendatory_forms_demonstrated,
     ],
   ] as const;
+  const Subheading = standalone ? "h3" : "h5";
 
   return (
     <>
@@ -98,7 +106,9 @@ function Checklist({ checklist }: { checklist: DraftChecklist }) {
         </li>
       </ul>
 
-      <h5>APA procedural elements (structural presence only)</h5>
+      <Subheading>
+        APA procedural elements (structural presence only)
+      </Subheading>
       <ul
         className="eval-details"
         aria-label={`APA procedural elements for ${draftLabel(checklist)}`}
@@ -184,7 +194,10 @@ function GenerationProvenance({
   );
 }
 
-export function DraftsSection({ active }: DraftsSectionProps) {
+export function DraftsSection({
+  active,
+  standalone = false,
+}: DraftsSectionProps) {
   const {
     state: conformanceState,
     load: loadConformance,
@@ -299,13 +312,15 @@ export function DraftsSection({ active }: DraftsSectionProps) {
             left.doc_type.localeCompare(right.doc_type),
         )
       : [];
+  const InternalHeading = standalone ? "h2" : "h4";
 
   return (
     <section
       className="eval-section drafts-section"
-      aria-labelledby="drafts-heading"
+      aria-label={standalone ? "Draft rule skeletons" : undefined}
+      aria-labelledby={standalone ? undefined : "drafts-heading"}
     >
-      <h3 id="drafts-heading">Draft rule skeletons</h3>
+      {!standalone ? <h3 id="drafts-heading">Draft rule skeletons</h3> : null}
 
       <div id="drafts-section-panel">
         {conformanceState.status === "loading" ? (
@@ -314,7 +329,7 @@ export function DraftsSection({ active }: DraftsSectionProps) {
 
         {conformanceState.status === "error" ? (
           <div role="alert">
-            <h4>Draft data unavailable</h4>
+            <InternalHeading>Draft data unavailable</InternalHeading>
             <p>
               The draft conformance data could not be loaded.{" "}
               {conformanceState.message}
@@ -378,7 +393,9 @@ export function DraftsSection({ active }: DraftsSectionProps) {
                       panelId: togglePanelId,
                     }) => (
                       <>
-                        <h4 id={headingId}>{label}</h4>
+                        <InternalHeading id={headingId}>
+                          {label}
+                        </InternalHeading>
 
                         <Button
                           type="button"
@@ -397,7 +414,10 @@ export function DraftsSection({ active }: DraftsSectionProps) {
                     )}
                     beforePanel={
                       <>
-                        <Checklist checklist={checklist} />
+                        <Checklist
+                          checklist={checklist}
+                          standalone={standalone}
+                        />
                         <GenerationProvenance checklist={checklist} />
                       </>
                     }
@@ -430,7 +450,7 @@ export function DraftsSection({ active }: DraftsSectionProps) {
 
             {conformanceState.data.rejected_drafts.length > 0 ? (
               <div>
-                <h4>Rejected drafts</h4>
+                <InternalHeading>Rejected drafts</InternalHeading>
                 <ul>
                   {conformanceState.data.rejected_drafts.map((draft) => (
                     <li key={draft}>{draft}</li>

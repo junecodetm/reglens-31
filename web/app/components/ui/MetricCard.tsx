@@ -9,7 +9,7 @@ export interface MetricCardProps {
   label: string;
   value: number | null;
   intervals: MetricCardInterval[];
-  headingLevel?: "h3" | "h4";
+  headingLevel?: "h2" | "h3" | "h4";
 }
 
 export function MetricCard({

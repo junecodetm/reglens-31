@@ -33,9 +33,13 @@ type EvalReport = {
 
 interface EvalSectionProps {
   active: boolean;
+  standalone?: boolean;
 }
 
-export function EvalSection({ active }: EvalSectionProps) {
+export function EvalSection({
+  active,
+  standalone = false,
+}: EvalSectionProps) {
   const { state, load } = useLazyJson<EvalReport>("/data/eval.json", {
     requestErrorPrefix: "Request failed with status ",
     fallbackErrorMessage: "The evaluation report could not be loaded.",
@@ -47,9 +51,17 @@ export function EvalSection({ active }: EvalSectionProps) {
     }
   }, [active, load]);
 
+  const internalHeadingLevel = standalone ? "h2" : "h4";
+
   return (
-    <section className="eval-section" aria-labelledby="eval-heading">
-      <h3 id="eval-heading">Evaluation — honest, provisional</h3>
+    <section
+      className="eval-section"
+      aria-label={standalone ? "Evaluation — honest, provisional" : undefined}
+      aria-labelledby={standalone ? undefined : "eval-heading"}
+    >
+      {!standalone ? (
+        <h3 id="eval-heading">Evaluation — honest, provisional</h3>
+      ) : null}
 
       {state.status === "loading" ? (
         <p role="status">Loading the evaluation report…</p>
@@ -61,13 +73,13 @@ export function EvalSection({ active }: EvalSectionProps) {
 
       {state.status === "ready" ? (
         <>
-          <Alert type="warning" headingLevel="h4" slim>
+          <Alert type="warning" headingLevel={internalHeadingLevel} slim>
             {state.data.provisional_label}
           </Alert>
 
           <div className="metric-grid">
             <MetricCard
-              headingLevel="h4"
+              headingLevel={internalHeadingLevel}
               label="Precision"
               value={state.data.precision}
               intervals={[
@@ -82,7 +94,7 @@ export function EvalSection({ active }: EvalSectionProps) {
               ]}
             />
             <MetricCard
-              headingLevel="h4"
+              headingLevel={internalHeadingLevel}
               label="Recall"
               value={state.data.recall}
               intervals={[
@@ -97,7 +109,7 @@ export function EvalSection({ active }: EvalSectionProps) {
               ]}
             />
             <MetricCard
-              headingLevel="h4"
+              headingLevel={internalHeadingLevel}
               label="F1"
               value={state.data.f1}
               intervals={[

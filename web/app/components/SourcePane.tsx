@@ -9,11 +9,13 @@ import {
 interface SourcePaneProps {
   selectedClaim: ClaimRecord | null;
   sourceState: SourceTextState;
+  standalone?: boolean;
 }
 
 export function SourcePane({
   selectedClaim,
   sourceState,
+  standalone = false,
 }: SourcePaneProps) {
   const isCurrentDocument =
     selectedClaim !== null &&
@@ -31,10 +33,12 @@ export function SourcePane({
           selectedClaim.end,
         )
       : null;
+  const PaneHeading = standalone ? "h2" : "h3";
+  const InternalHeading = standalone ? "h3" : "h4";
 
   return (
     <section className="pane source-pane" aria-labelledby="source-heading">
-      <h3 id="source-heading">Primary source</h3>
+      <PaneHeading id="source-heading">Primary source</PaneHeading>
 
       {!selectedClaim ? (
         <div className="instruction-card">
@@ -90,7 +94,7 @@ export function SourcePane({
 
           {isCurrentDocument && sourceState.status === "error" ? (
             <div className="error-state" role="alert">
-              <h4>Source document unavailable</h4>
+              <InternalHeading>Source document unavailable</InternalHeading>
               <p>{sourceState.message}</p>
             </div>
           ) : null}
@@ -99,7 +103,7 @@ export function SourcePane({
             <>
               {highlightResult?.status !== "ready" ? (
                 <div className="error-state" role="alert">
-                  <h4>Verified span unavailable</h4>
+                  <InternalHeading>Verified span unavailable</InternalHeading>
                   <p>
                     The saved offsets do not match the quoted source text, so
                     no passage has been highlighted.

@@ -11,7 +11,7 @@ export default function EvaluationPage() {
   return (
     <>
       <PageHeader title="Evaluation — honest, provisional" />
-      <EvalSection active />
+      <EvalSection active standalone />
     </>
   );
 }

@@ -11,7 +11,7 @@ export default function GroundingPage() {
   return (
     <>
       <PageHeader title="Statutory grounding signal (two-sided)" />
-      <GroundingSection active />
+      <GroundingSection active standalone />
     </>
   );
 }

@@ -67,8 +67,3 @@ test("draft checklist includes APA structural checks and generation provenance",
     assert.ok(drafts.includes(text), `Missing required DraftsSection copy: ${text}`);
   }
 });
-
-
-// Single-page composition, PageNav, and hash-navigation contracts were
-// retired with the multi-page shell (2026-07-29); per-route coverage lives
-// in the WP7 routes contract and the Playwright walk.
