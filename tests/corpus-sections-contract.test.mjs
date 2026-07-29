@@ -62,7 +62,7 @@ test("draft checklist includes APA structural checks and generation provenance",
     "These checks verify the structural presence of required elements in the skeleton. They are not a determination of legal sufficiency.",
     "Generation provenance",
     "Model-generated fields:",
-    "Model, decoding parameters, and SHA-256 digests of the prompts and source input for the model-generated narrative fields. Everything else in the skeleton is deterministic template output.",
+    "Model, decoding parameters, and SHA-256 digests of the prompts sent to the model and of the source part snapshot of record. Everything else in the skeleton is deterministic template output.",
   ]) {
     assert.ok(drafts.includes(text), `Missing required DraftsSection copy: ${text}`);
   }

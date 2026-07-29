@@ -3,6 +3,7 @@
     {
       "heading": "PART 50—TERRORISM RISK INSURANCE PROGRAM",
       "part": 50,
+      "rejected_candidates": 0,
       "sections": [
         {
           "designation": "§ 50.1",
@@ -382,6 +383,7 @@
     {
       "heading": "PART 223—SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES",
       "part": 223,
+      "rejected_candidates": 1,
       "sections": [
         {
           "designation": "§ 223.1",
@@ -515,6 +517,7 @@
     {
       "heading": "PART 285—DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION IMPROVEMENT ACT OF 1996",
       "part": 285,
+      "rejected_candidates": 0,
       "sections": [
         {
           "designation": "§ 285.1",
@@ -588,6 +591,7 @@
     {
       "heading": "PART 356—SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL SERVICE SERIES NO. 1-93)",
       "part": 356,
+      "rejected_candidates": 0,
       "sections": [
         {
           "designation": "§ 356.0",
@@ -751,6 +755,7 @@
     {
       "heading": "PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS",
       "part": 501,
+      "rejected_candidates": 0,
       "sections": [
         {
           "designation": "§ 501.101",

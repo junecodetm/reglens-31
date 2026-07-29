@@ -44,6 +44,10 @@ class PartStructure(BaseModel):
     heading: str
     text_path: str
     sections: list[SectionSpan]
+    # Transparency counter: heading-shaped candidates the splitter did NOT
+    # accept (false-positive filtering). A nonzero value on a corpus refresh
+    # is the signal to re-inspect coverage rather than trust silence.
+    rejected_candidates: int = Field(default=0, ge=0)
 
 
 class SectionsExport(BaseModel):
@@ -204,13 +208,12 @@ def split_part_text(*, part: int, heading: str, text_path: str, text: str) -> Pa
     if not accepted:
         raise ValueError(f"No plausible section headings found for part {part}")
 
+    # Offsets are correct by construction here (each start is a finditer match
+    # position); the meaningful re-validation happens in export, which re-reads
+    # the published text from disk and re-checks every span against it.
     sections: list[SectionSpan] = []
     for index, (start, _, _, designation, section_heading) in enumerate(accepted):
         end = accepted[index + 1][0] if index + 1 < len(accepted) else len(text)
-        if not text[start:].startswith(designation):
-            raise ValueError(
-                f"Section designation offset validation failed for part {part}: {designation}"
-            )
         sections.append(
             SectionSpan(
                 designation=designation,
@@ -225,4 +228,5 @@ def split_part_text(*, part: int, heading: str, text_path: str, text: str) -> Pa
         heading=heading,
         text_path=text_path,
         sections=sections,
+        rejected_candidates=len(candidates) - len(accepted),
     )

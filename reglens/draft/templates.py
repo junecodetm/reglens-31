@@ -120,6 +120,9 @@ List of Subjects in 31 CFR Part {part}
 
 Words of Issuance and Amendatory Instructions
 
+(Verb-form demonstrations with placeholder designations — no amendment is
+proposed.)
+
 For the reasons set forth in the preamble, {PLACEHOLDER} {amend_verb}
 31 CFR part {part} as follows:
 

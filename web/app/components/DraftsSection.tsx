@@ -165,7 +165,7 @@ function GenerationProvenance({
           </code>
         </p>
         <p>
-          <strong>Source input SHA-256:</strong>{" "}
+          <strong>Source part snapshot SHA-256 (context of record; not sent to the model):</strong>{" "}
           <code className="provenance-digest">
             {checklist.dossier.input_sha256}
           </code>
@@ -176,7 +176,7 @@ function GenerationProvenance({
         </p>
         <p>
           {
-            "Model, decoding parameters, and SHA-256 digests of the prompts and source input for the model-generated narrative fields. Everything else in the skeleton is deterministic template output."
+            "Model, decoding parameters, and SHA-256 digests of the prompts sent to the model and of the source part snapshot of record. Everything else in the skeleton is deterministic template output."
           }
         </p>
       </div>
@@ -229,6 +229,7 @@ export function DraftsSection() {
       }
     } catch (error: unknown) {
       if (!controller.signal.aborted) {
+        conformanceRequestStartedRef.current = false;
         setConformanceState({
           status: "error",
           message:
@@ -241,8 +242,10 @@ export function DraftsSection() {
   }
 
   async function loadDraft(checklist: DraftChecklist, key: string) {
+    const draftTextState = draftTextStates[key];
+
     if (
-      draftTextStates[key] !== undefined ||
+      (draftTextState !== undefined && draftTextState.status !== "error") ||
       draftRequestsRef.current.has(key)
     ) {
       return;
@@ -299,7 +302,8 @@ export function DraftsSection() {
 
     if (
       willExpand &&
-      conformanceState.status === "idle" &&
+      (conformanceState.status === "idle" ||
+        conformanceState.status === "error") &&
       !conformanceRequestStartedRef.current
     ) {
       conformanceRequestStartedRef.current = true;

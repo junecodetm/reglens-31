@@ -162,3 +162,18 @@ test("path encoding preserves slashes while encoding each segment", () => {
     "usc/a%20b/%23.txt",
   );
 });
+
+test("path encoding rejects traversal and empty segments", () => {
+  for (const path of ["usc/../../foo", "usc//x", "/abs"]) {
+    assert.throws(
+      () => encodePathSegments(path),
+      new Error(`Unsafe path segment in ${path}`),
+    );
+  }
+});
+
+test("path encoding round-trips a safe corpus path", () => {
+  const path = "usc/usc-15-s6701.txt";
+
+  assert.equal(encodePathSegments(path), path);
+});

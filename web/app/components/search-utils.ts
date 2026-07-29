@@ -34,8 +34,7 @@ const BM25_K1 = 1.2;
 const BM25_B = 0.75;
 
 export function tokenizeSearchQuery(query: string): string[] {
-  // Python casefold and JavaScript toLowerCase differ only outside ASCII; the
-  // token alphabet is ASCII, so the divergence drops out.
+  // Python casefold and JS toLowerCase can disagree outside ASCII (e.g. casefold('ß')→'ss'), but neither path yields differing ASCII tokens for this corpus, so index and query tokens agree.
   return (
     query
       .normalize("NFKC")
@@ -100,5 +99,16 @@ export function rankSearchUnits(
 }
 
 export function encodePathSegments(path: string): string {
-  return path.split("/").map(encodeURIComponent).join("/");
+  const segments = path.split("/");
+
+  // Mirror the Python export's snapshot-filename guard.
+  if (
+    segments.some(
+      (segment) => segment === "" || segment === "." || segment === "..",
+    )
+  ) {
+    throw new Error(`Unsafe path segment in ${path}`);
+  }
+
+  return segments.map(encodeURIComponent).join("/");
 }

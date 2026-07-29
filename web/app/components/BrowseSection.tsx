@@ -159,6 +159,7 @@ export function BrowseSection() {
       }
     } catch (error: unknown) {
       if (!controller.signal.aborted) {
+        sectionsRequestedRef.current = false;
         setSectionsState({
           status: "error",
           message:
@@ -236,7 +237,10 @@ export function BrowseSection() {
     const willExpand = !isExpanded;
     setIsExpanded(willExpand);
 
-    if (willExpand && sectionsState.status === "idle") {
+    if (
+      willExpand &&
+      (sectionsState.status === "idle" || sectionsState.status === "error")
+    ) {
       void loadSections();
     }
   }
@@ -349,12 +353,11 @@ export function BrowseSection() {
                               base
                               outline
                               className="width-full text-left"
-                              aria-expanded={isSelected(
-                                selectedSection,
-                                part,
-                                section,
-                              )}
-                              aria-controls={sectionPanelId}
+                              aria-current={
+                                isSelected(selectedSection, part, section)
+                                  ? "true"
+                                  : undefined
+                              }
                               onClick={() => selectSection(part, section)}
                             >
                               {section.designation} {section.heading}

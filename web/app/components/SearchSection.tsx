@@ -107,6 +107,7 @@ export function SearchSection() {
       }
     } catch (error: unknown) {
       if (!controller.signal.aborted) {
+        indexRequestedRef.current = false;
         setIndexState({
           status: "error",
           message:
@@ -141,9 +142,10 @@ export function SearchSection() {
 
   async function loadResultText(result: RankedSearchResult) {
     const { unit, unitIndex } = result;
+    const resultTextState = resultTextStates[unitIndex];
 
     if (
-      resultTextStates[unitIndex] !== undefined ||
+      (resultTextState !== undefined && resultTextState.status !== "error") ||
       resultRequestsRef.current.has(unitIndex)
     ) {
       return;
@@ -178,7 +180,19 @@ export function SearchSection() {
           `/data/authority-parts/31-CFR-${encodeURIComponent(String(unit.ref.part))}.txt`,
           controller.signal,
         );
-        text = partText.slice(unit.ref.start, unit.ref.end);
+        const sectionText = partText.slice(unit.ref.start, unit.ref.end);
+
+        if (
+          unit.ref.end > partText.length ||
+          unit.ref.start >= unit.ref.end ||
+          !sectionText.startsWith("§")
+        ) {
+          throw new Error(
+            "Section offsets do not match the served part text.",
+          );
+        }
+
+        text = sectionText;
       } else {
         text = await fetchText(
           `/data/drafts/${encodeURIComponent(unit.ref)}`,

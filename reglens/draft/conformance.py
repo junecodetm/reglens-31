@@ -68,8 +68,12 @@ _AMENDATORY_FORMS: tuple[re.Pattern[str], ...] = (
 class DraftDossier(BaseModel):
     """Replay metadata for one narrative generation.
 
-    Inputs are the actual model settings, model-bound prompt digests, and
-    source CFR part digest. Output is a JSON-safe dossier; invalid or missing
+    Inputs are the actual model settings, model-bound prompt digests, and the
+    part snapshot digest. ``prompt_sha256``/``system_prompt_sha256`` cover the
+    exact bytes the model received; ``input_sha256`` is the source CFR part
+    snapshot of record, which is NOT itself sent to the model (the prompt
+    carries only part number, heading, authority line, and doc type) — the UI
+    labels it accordingly. Output is a JSON-safe dossier; invalid or missing
     fields raise through Pydantic, so provenance cannot silently degrade.
     """
 
@@ -181,17 +185,31 @@ def _comment_period_reference(doc_type: str, draft: str) -> bool:
     return False  # fail-closed: an unknown draft type has no valid timing caption
 
 
+_INSTRUCTION_LINE = re.compile(r"^\d+\.\s", re.MULTILINE)
+
+
 def _setout_text_verified(draft: str, corpus: list[str]) -> bool:
-    """Text set out after "read as follows:" must gate-verify or be a placeholder."""
-    verified = True
-    pattern = r"read as follows:[ \t]*\n?\n?(.*?)(?:\n\n|\Z)"
-    for match in re.finditer(pattern, draft, re.DOTALL):
-        block = match.group(1).strip()
-        if not block or block == PLACEHOLDER:
-            continue
-        if not any(verify_span(source, block).accepted for source in corpus):
-            verified = False  # fail-closed: unverifiable set-out text
-    return verified
+    """EVERY paragraph set out after "read as follows:" must gate-verify or be
+    a placeholder. The region runs to the next numbered instruction (or end of
+    draft), so a fabricated second paragraph or extra blank line cannot slip
+    past a first-paragraph-only window; an empty set-out region is itself a
+    defect. Fail-closed throughout."""
+    for match in re.finditer(r"read as follows:", draft):
+        next_instruction = _INSTRUCTION_LINE.search(draft, match.end())
+        region_end = next_instruction.start() if next_instruction else len(draft)
+        paragraphs = [
+            stripped
+            for paragraph in draft[match.end() : region_end].split("\n\n")
+            if (stripped := paragraph.strip())
+        ]
+        if not paragraphs:
+            return False  # fail-closed: an empty set-out region is a defect
+        for paragraph in paragraphs:
+            if paragraph == PLACEHOLDER:
+                continue
+            if not any(verify_span(source, paragraph).accepted for source in corpus):
+                return False  # fail-closed: unverifiable set-out text
+    return True
 
 
 def scan_fabrication(narrative: str) -> list[str]:

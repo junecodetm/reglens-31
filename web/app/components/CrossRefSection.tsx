@@ -55,6 +55,7 @@ export function CrossRefSection() {
       }
     } catch (error: unknown) {
       if (!controller.signal.aborted) {
+        requestStartedRef.current = false;
         setAuthorityState({
           status: "error",
           message:
@@ -74,7 +75,10 @@ export function CrossRefSection() {
     const willExpand = !isExpanded;
     setIsExpanded(willExpand);
 
-    if (willExpand && authorityState.status === "idle") {
+    if (
+      willExpand &&
+      (authorityState.status === "idle" || authorityState.status === "error")
+    ) {
       void loadAuthorityData();
     }
   }

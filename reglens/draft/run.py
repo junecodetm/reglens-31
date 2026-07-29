@@ -177,7 +177,7 @@ def build_drafts(settings: Settings) -> ConformanceReport:
             checklists.append(checklist)
             name = f"31-CFR-{record.part}-{doc_type}.txt"
             if checklist.passed:
-                (DRAFTS_DIR / name).write_text(draft)
+                (DRAFTS_DIR / name).write_text(draft, encoding="utf-8", newline="\n")
             else:
                 # Fail-closed: rejected drafts are never written out; any
                 # stale accepted copy from a prior run is removed.

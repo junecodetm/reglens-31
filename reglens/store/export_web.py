@@ -302,8 +302,8 @@ def _export_structure_and_search(export: AuthorityExport, out_dir: Path) -> None
         + "\n"
     )
     search_json = serialize_search_index(build_search_index(sources))
-    (out_dir / "sections.json").write_text(sections_json, encoding="utf-8")
-    (out_dir / "search-index.json").write_text(search_json, encoding="utf-8")
+    (out_dir / "sections.json").write_text(sections_json, encoding="utf-8", newline="\n")
+    (out_dir / "search-index.json").write_text(search_json, encoding="utf-8", newline="\n")
 
 
 def export_web_data(settings: Settings, web_dir: Path) -> Path:
@@ -324,7 +324,9 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
             extraction = by_sha.get(manifest.sha256)
             if manifest.content_type == "text/plain" and extraction is not None:
                 source = _snapshot_payload_path(snapshot_dir, manifest.filename).read_text()
-                (documents_dir / f"{extraction.document_number}.txt").write_text(source)
+                (documents_dir / f"{extraction.document_number}.txt").write_text(
+                    source, encoding="utf-8", newline="\n"
+                )
 
     model_tags = sorted(
         {claim.run.model_tag for extraction in extractions for claim in extraction.claims}
@@ -400,7 +402,9 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     documents_dir.mkdir(parents=True, exist_ok=True)
     for pair in discover_documents(settings.data_dir):
         # Always (re)written: a stale copy must never outlive its snapshot.
-        (documents_dir / f"{pair.document_number}.txt").write_text(pair.text)
+        (documents_dir / f"{pair.document_number}.txt").write_text(
+            pair.text, encoding="utf-8", newline="\n"
+        )
 
     raw_root = settings.data_dir / "raw"
     for snapshot_dir in sorted(raw_root.iterdir()):
@@ -426,7 +430,7 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
             text = xml_to_text(payload_path.read_bytes())
             if hashlib.sha256(text.encode()).hexdigest() != expected_hash:
                 continue
-            (parts_dir / output_filename).write_text(text)
+            (parts_dir / output_filename).write_text(text, encoding="utf-8", newline="\n")
 
     actual_usc_files = {path.name for path in usc_dir.glob("*.txt")}
     missing_usc_files = sorted(expected_usc_hashes.keys() - actual_usc_files)

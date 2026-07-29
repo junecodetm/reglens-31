@@ -336,3 +336,50 @@ def test_dossier_hashes_are_stable_for_fixed_inputs() -> None:
         "input_sha256": PART_TEXT_SHA256,
         "narrative_fields": ["summary", "supplementary_intro"],
     }
+
+
+def test_fabricated_second_setout_paragraph_fails_closed() -> None:
+    draft = build().replace(
+        f"read as follows:\n\n   {AUTHORITY}",
+        f"read as follows:\n\n   {AUTHORITY}\n\n   Fabricated second set-out paragraph.",
+        1,
+    )
+    checklist = check_draft(
+        501,
+        "nprm",
+        draft,
+        CLEAN_NARRATIVE,
+        CORPUS,
+        dossier=TEST_DOSSIER,
+    )
+    assert not checklist.setout_text_verified and not checklist.passed
+
+
+def test_extra_blank_lines_before_setout_text_fail_closed() -> None:
+    draft = build().replace(
+        f"read as follows:\n\n   {AUTHORITY}",
+        "read as follows:\n\n\n\n   Fabricated set-out text after blank lines.",
+        1,
+    )
+    checklist = check_draft(
+        501,
+        "nprm",
+        draft,
+        CLEAN_NARRATIVE,
+        CORPUS,
+        dossier=TEST_DOSSIER,
+    )
+    assert not checklist.setout_text_verified and not checklist.passed
+
+
+def test_empty_setout_region_fails_closed() -> None:
+    draft = build().replace(f"read as follows:\n\n   {AUTHORITY}", "read as follows:", 1)
+    checklist = check_draft(
+        501,
+        "nprm",
+        draft,
+        CLEAN_NARRATIVE,
+        CORPUS,
+        dossier=TEST_DOSSIER,
+    )
+    assert not checklist.setout_text_verified and not checklist.passed

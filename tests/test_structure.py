@@ -12,6 +12,8 @@ EXPECTED_PART_FILES = {
     "31-CFR-356.txt",
     "31-CFR-501.txt",
 }
+EXPECTED_SECTION_COUNTS = {50: 62, 223: 21, 285: 11, 356: 26, 501: 65}
+EXPECTED_REJECTED_CANDIDATES = {50: 0, 223: 1, 285: 0, 356: 0, 501: 0}
 
 
 def test_split_part_text_preserves_headings_and_exact_offsets() -> None:
@@ -188,6 +190,15 @@ def test_all_authority_part_snapshots_split_with_valid_offsets() -> None:
         assert result.text_path == str(path)
         assert result.sections
         assert result.sections[-1].end == len(text)
+        # Pinned coverage: a corpus refresh that silently halves a part's
+        # sections must fail here, not pass quietly.
+        assert len(result.sections) == EXPECTED_SECTION_COUNTS[part]
+        # Transparency counter: the only rejected candidate in the committed
+        # corpus is part 223's in-text cross-reference line ("§ 223.16
+        # Department Circular No. 570 list may be presented ..."), which the
+        # ordered-sequence filter correctly refuses as a heading; the real
+        # § 223.16 heading is retained (asserted via the pinned count above).
+        assert result.rejected_candidates == EXPECTED_REJECTED_CANDIDATES[part]
 
         for index, section in enumerate(result.sections):
             assert 0 <= section.start < section.end <= len(text)
