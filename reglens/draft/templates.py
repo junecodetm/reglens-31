@@ -61,6 +61,11 @@ def build_skeleton(
     """Assemble one skeleton. ``summary``/``supplementary_intro`` are the
     model-generated narrative (labeled as such in the output)."""
     action_line, amend_verb = DOC_TYPES[doc_type]
+    dates_line = (
+        f"Comments must be received on or before {PLACEHOLDER}."
+        if doc_type == "nprm"
+        else f"Effective date: {PLACEHOLDER}."
+    )
     part = record.part
     # Roman numbering continues the preamble sequence (I. Background,
     # II. Section-by-Section Analysis, III..VIII the required analyses) —
@@ -89,7 +94,7 @@ ACTION: {action_line}
 
 SUMMARY: [model-generated] {summary}
 
-DATES: {PLACEHOLDER}
+DATES: {dates_line}
 
 ADDRESSES: {PLACEHOLDER}
 
@@ -124,7 +129,15 @@ For the reasons set forth in the preamble, {PLACEHOLDER} {amend_verb}
 
    {record.authority_text}
 
-2. {PLACEHOLDER} Amend § {part}.___ as follows: {PLACEHOLDER}
+2. Amend § {part}.___ by adding paragraph (___) to read as follows:
+
+   {PLACEHOLDER}
+
+3. Revise § {part}.___ to read as follows:
+
+   {PLACEHOLDER}
+
+4. Remove and reserve § {part}.___.
 
 Signature block: {PLACEHOLDER}
 """

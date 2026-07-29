@@ -58,6 +58,30 @@ _AMENDATORY_OK = re.compile(
     r"^\d+\.\s+(?:The authority citation for part \d+ continues to read as follows:"
     r"|\[PLACEHOLDER|Amend\b|Revise\b|Add\b|Remove\b)"
 )
+_AMENDATORY_FORMS: tuple[re.Pattern[str], ...] = (
+    re.compile(r"Amend § \d+\.___ by adding paragraph"),
+    re.compile(r"Revise § \d+\.___ to read as follows:"),
+    re.compile(r"Remove and reserve § \d+\.___"),
+)
+
+
+class DraftDossier(BaseModel):
+    """Replay metadata for one narrative generation.
+
+    Inputs are the actual model settings, model-bound prompt digests, and
+    source CFR part digest. Output is a JSON-safe dossier; invalid or missing
+    fields raise through Pydantic, so provenance cannot silently degrade.
+    """
+
+    model: str
+    temperature: float
+    seed: int
+    num_ctx: int
+    num_predict: int
+    system_prompt_sha256: str
+    prompt_sha256: str
+    input_sha256: str
+    narrative_fields: list[str]
 
 
 class DraftChecklist(BaseModel):
@@ -69,11 +93,16 @@ class DraftChecklist(BaseModel):
     analysis_sections_present: bool
     placeholders_intact: bool
     amendatory_instructions_parse: bool
+    amendatory_forms_demonstrated: bool
+    authority_citation_present: bool
+    basis_and_purpose_present: bool
+    comment_period_reference: bool
     setout_text_verified: bool
     narrative_fabrication_clean: bool
     quotes_verified: bool
     unverified_quote_count: int
     fabrication_hits: list[str] = Field(default_factory=list[str])
+    dossier: DraftDossier
     passed: bool
 
 
@@ -117,12 +146,48 @@ def _amendatory_instructions_parse(draft: str) -> bool:
     return bool(numbered) and all(_AMENDATORY_OK.match(line) for line in numbered)
 
 
+def _amendatory_forms_demonstrated(draft: str) -> bool:
+    marker = draft.find("Amendatory Instructions")
+    if marker < 0:
+        return False
+    numbered = "\n".join(
+        match.group(0) for match in re.finditer(r"^\d+\..*$", draft[marker:], re.MULTILINE)
+    )
+    return all(pattern.search(numbered) is not None for pattern in _AMENDATORY_FORMS)
+
+
+def _authority_citation_present(part: int, draft: str) -> bool:
+    marker = f"The authority citation for part {part} continues to read as follows:"
+    line = re.search(rf"^\d+\.\s+{re.escape(marker)}[ \t]*$", draft, re.MULTILINE)
+    if line is None:
+        return False
+    tail = draft[line.end() :]
+    next_instruction = re.search(r"^\d+\.\s", tail, re.MULTILINE)
+    block = tail[: next_instruction.start()] if next_instruction is not None else tail
+    return bool(block.strip())
+
+
+def _basis_and_purpose_present(draft: str) -> bool:
+    return all(
+        marker in draft for marker in ("SUMMARY:", "SUPPLEMENTARY INFORMATION:", "I. Background")
+    )
+
+
+def _comment_period_reference(doc_type: str, draft: str) -> bool:
+    if doc_type == "nprm":
+        return "Comments must be received on or before" in draft
+    if doc_type == "final":
+        return "Effective date:" in draft
+    return False  # fail-closed: an unknown draft type has no valid timing caption
+
+
 def _setout_text_verified(draft: str, corpus: list[str]) -> bool:
     """Text set out after "read as follows:" must gate-verify or be a placeholder."""
     verified = True
-    for match in re.finditer(r"read as follows:\n\n?(.*?)(?:\n\n|\Z)", draft, re.DOTALL):
+    pattern = r"read as follows:[ \t]*\n?\n?(.*?)(?:\n\n|\Z)"
+    for match in re.finditer(pattern, draft, re.DOTALL):
         block = match.group(1).strip()
-        if not block or PLACEHOLDER in block:
+        if not block or block == PLACEHOLDER:
             continue
         if not any(verify_span(source, block).accepted for source in corpus):
             verified = False  # fail-closed: unverifiable set-out text
@@ -152,8 +217,15 @@ def check_draft(
     draft: str,
     narrative: str,
     corpus: list[str],
+    *,
+    dossier: DraftDossier,
 ) -> DraftChecklist:
-    """Run the full checklist; ``passed`` requires every check to hold."""
+    """Run every gate and attach the generation dossier.
+
+    Inputs are one draft, its narrative/corpus, and required provenance;
+    output is a typed checklist. Each unverifiable path records ``False`` and
+    ``passed`` requires every structural and fabrication check to hold.
+    """
     fabrication = scan_fabrication(narrative)
     unverified_quotes = verify_narrative_quotes(narrative, corpus)
     checklist = DraftChecklist(
@@ -163,11 +235,16 @@ def check_draft(
         analysis_sections_present=_analysis_sections_present(draft),
         placeholders_intact=_placeholders_intact(draft),
         amendatory_instructions_parse=_amendatory_instructions_parse(draft),
+        amendatory_forms_demonstrated=_amendatory_forms_demonstrated(draft),
+        authority_citation_present=_authority_citation_present(part, draft),
+        basis_and_purpose_present=_basis_and_purpose_present(draft),
+        comment_period_reference=_comment_period_reference(doc_type, draft),
         setout_text_verified=_setout_text_verified(draft, corpus),
         narrative_fabrication_clean=not fabrication,
         quotes_verified=unverified_quotes == 0,
         unverified_quote_count=unverified_quotes,
         fabrication_hits=fabrication,
+        dossier=dossier,
         passed=False,
     )
     checklist.passed = all(
@@ -176,6 +253,10 @@ def check_draft(
             checklist.analysis_sections_present,
             checklist.placeholders_intact,
             checklist.amendatory_instructions_parse,
+            checklist.amendatory_forms_demonstrated,
+            checklist.authority_citation_present,
+            checklist.basis_and_purpose_present,
+            checklist.comment_period_reference,
             checklist.setout_text_verified,
             checklist.narrative_fabrication_clean,
             checklist.quotes_verified,

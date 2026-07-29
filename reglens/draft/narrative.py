@@ -36,6 +36,12 @@ Authority citation: {authority}
 Draft type: {doc_type}
 </document>"""
 
+TEMPERATURE: float = 0.0
+SEED = 31
+NUM_CTX = 8192
+NUM_PREDICT = 1024
+NARRATIVE_FIELDS: tuple[str, ...] = ("summary", "supplementary_intro")
+
 
 class Narrative(BaseModel):
     """Schema-constrained model output."""
@@ -44,30 +50,48 @@ class Narrative(BaseModel):
     supplementary_intro: str = Field(max_length=1200)
 
 
+def render_user_prompt(part: int, heading: str, authority: str, doc_type: str) -> str:
+    """Render the exact user message for one narrative request.
+
+    Inputs are one part's identifiers and source-derived text; output is the
+    delimiter-neutralized prompt sent to the model. Failure mode is explicit:
+    formatting errors propagate and no fallback prompt is substituted.
+    """
+    return USER_TEMPLATE.format(
+        part=part,
+        heading=neutralize_delimiters(heading),
+        authority=neutralize_delimiters(authority),
+        doc_type=doc_type,
+    )
+
+
 def generate_narrative(
     settings: Settings, part: int, heading: str, authority: str, doc_type: str
 ) -> Narrative:
-    """One schema-constrained, temperature-0 call to the pinned local model."""
+    """Generate one two-field narrative from an exact rendered prompt.
+
+    Inputs are the pinned settings and one part's metadata; output is a
+    schema-validated ``Narrative``. HTTP or schema failures raise, so invalid
+    model output never falls through to draft generation.
+    """
+    user_prompt = render_user_prompt(part, heading, authority, doc_type)
     response = httpx.post(
         f"{settings.ollama_base_url}/api/chat",
         json={
             "model": settings.model_tag,
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
-                {
-                    "role": "user",
-                    "content": USER_TEMPLATE.format(
-                        part=part,
-                        heading=neutralize_delimiters(heading),
-                        authority=neutralize_delimiters(authority),
-                        doc_type=doc_type,
-                    ),
-                },
+                {"role": "user", "content": user_prompt},
             ],
             "format": Narrative.model_json_schema(),
             "stream": False,
             "think": False,
-            "options": {"temperature": 0, "seed": 31, "num_ctx": 8192, "num_predict": 1024},
+            "options": {
+                "temperature": TEMPERATURE,
+                "seed": SEED,
+                "num_ctx": NUM_CTX,
+                "num_predict": NUM_PREDICT,
+            },
         },
         timeout=600.0,
     )
