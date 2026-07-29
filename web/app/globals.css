@@ -1152,3 +1152,283 @@ h3.collapsible-section-heading {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* WP2 app shell */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-shell {
+  display: grid;
+  min-height: 0;
+  flex: 1 0 auto;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.app-content {
+  min-width: 0;
+  width: 100%;
+  max-width: none;
+  padding: clamp(1.5rem, 3vw, 3rem);
+  background: var(--canvas);
+}
+
+.app-content:focus {
+  outline-offset: -0.25rem;
+}
+
+.sidebar {
+  position: sticky;
+  z-index: 200;
+  top: 0;
+  width: 18rem;
+  height: 100vh;
+  overflow-y: auto;
+  color: var(--ink);
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+}
+
+.sidebar-menu-button {
+  display: none;
+}
+
+.sidebar-menu-button,
+.sidebar-close-button {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.85rem;
+  color: var(--surface);
+  background: var(--navy);
+  border: 1px solid var(--navy);
+  border-radius: 0.2rem;
+  font: inherit;
+  font-weight: 700;
+}
+
+.sidebar-overlay {
+  min-height: 100%;
+}
+
+.sidebar-drawer {
+  width: 100%;
+  min-height: 100%;
+  padding: 1.5rem 1rem 2rem;
+  background: var(--surface);
+}
+
+.sidebar-drawer-header {
+  display: none;
+}
+
+.sidebar .usa-sidenav {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+.sidebar .usa-sidenav__item {
+  border-top: 1px solid var(--line);
+}
+
+.sidebar .usa-sidenav__item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.sidebar .usa-sidenav a,
+.sidebar .usa-sidenav a:visited {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  color: var(--navy);
+  background: var(--surface);
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.sidebar .usa-sidenav a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.18em;
+}
+
+.sidebar .usa-sidenav a.usa-current,
+.sidebar .usa-sidenav a.usa-current:visited {
+  padding-left: calc(1rem - 4px);
+  color: var(--navy);
+  border-left: 4px solid var(--blue);
+  font-weight: 700;
+}
+
+.sidebar .usa-sidenav a:focus-visible,
+.sidebar-menu-button:focus-visible,
+.sidebar-close-button:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: 0.2rem solid var(--blue);
+  outline-offset: -0.2rem;
+}
+
+.sidebar-group {
+  margin-top: 1.5rem;
+}
+
+.sidebar-group-label {
+  display: block;
+  margin: 0 0 0.45rem;
+  color: var(--muted-ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.sidebar nav > .usa-sidenav:last-child {
+  margin-top: 1.5rem;
+}
+
+.page-header {
+  margin: 0 0 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-header-kicker {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--muted-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.page-header h1 {
+  margin: 0;
+  color: var(--navy);
+  font-family:
+    "Merriweather Web", Georgia, Cambria, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.page-header-lede {
+  max-width: 70ch;
+  margin: 0.75rem 0 0;
+  color: var(--muted-ink);
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+/* The overview retains its legacy wrapper until the next work package. */
+.app-content .app-shell {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  grid-template-columns: none;
+}
+
+@media (min-width: 64em) {
+  .sidebar-menu-button {
+    display: none;
+  }
+}
+
+@media (max-width: 63.99em) {
+  .app-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: relative;
+    z-index: 300;
+    top: auto;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar-menu-button {
+    display: inline-flex;
+    margin: 0.5rem;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    z-index: 400;
+    inset: 0;
+    min-height: 0;
+    visibility: hidden;
+    overflow: visible;
+    opacity: 0;
+    background: var(--navy-deep);
+    pointer-events: none;
+  }
+
+  .sidebar-overlay.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .sidebar-drawer {
+    width: min(22rem, calc(100% - 3rem));
+    height: 100%;
+    min-height: 0;
+    padding: 0 0.75rem 2rem;
+    overflow-y: auto;
+    background: var(--surface);
+    border-right: 1px solid var(--line);
+    transform: translateX(-100%);
+  }
+
+  .sidebar-overlay.is-open .sidebar-drawer {
+    transform: translateX(0);
+  }
+
+  .sidebar-drawer-header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 0;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar-drawer-title {
+    color: var(--navy);
+    font-family:
+      "Merriweather Web", Georgia, Cambria, "Times New Roman", serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .sidebar-close-button {
+    display: inline-flex;
+  }
+
+  .app-content {
+    padding: 1.25rem 1rem 2rem;
+  }
+}

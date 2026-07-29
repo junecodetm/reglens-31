@@ -41,7 +41,7 @@ type PartTextState =
   | { status: "ready"; key: number; text: string }
   | { status: "error"; key: number; message: string };
 
-const BROWSE_INTRO =
+export const BROWSE_INTRO =
   "Hierarchical navigation over the five ingested parts of 31 CFR (as of the pinned snapshot date), from part to section. Selecting a section opens the part text at that location. Paragraph-level drill-down is not built.";
 const CONTEXT_CHARACTER_COUNT = 500;
 

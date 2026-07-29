@@ -6,7 +6,7 @@ import { buildAuthorityCrossReferences } from "./crossref-utils";
 import type { AuthorityData } from "./reglens-types";
 import { useLazyJson } from "./ui/useLazyJson";
 
-const CROSS_REF_INTRO =
+export const CROSS_REF_INTRO =
   "Which U.S. Code sections each ingested CFR part cites as rulemaking authority, and which cited sections are shared across parts. Retrieval over the parsed authority citations only — this is not a dependency, impact, or conflict analysis. Citations that did not resolve in the pinned U.S. Code release are listed separately as coverage facts.";
 
 interface CrossRefSectionProps {

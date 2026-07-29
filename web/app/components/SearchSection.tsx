@@ -18,7 +18,7 @@ type ResultTextState =
   | { status: "ready"; text: string }
   | { status: "error"; message: string };
 
-const SEARCH_INTRO =
+export const SEARCH_INTRO =
   "Lexical search over extracted obligations, U.S. Code sections, CFR part sections, and draft skeletons. Exact-term matching against a precomputed index — no semantic ranking, no external service, and no model involvement.";
 
 const TYPE_LABELS: Record<SearchUnit["type"], string> = {
