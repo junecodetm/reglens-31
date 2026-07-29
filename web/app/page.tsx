@@ -2,9 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 
+import { AuthoritySection } from "./components/AuthoritySection";
 import { ClaimsPane } from "./components/ClaimsPane";
 import { DisclaimerBand } from "./components/DisclaimerBand";
+import { DraftsSection } from "./components/DraftsSection";
 import { EvalSection } from "./components/EvalSection";
+import { GroundingSection } from "./components/GroundingSection";
+import { Ogc01EvalSection } from "./components/Ogc01EvalSection";
 import { RejectedClaims } from "./components/RejectedClaims";
 import { SourcePane } from "./components/SourcePane";
 import {
@@ -221,6 +225,14 @@ export default function Home() {
             </div>
 
             <EvalSection />
+
+            <AuthoritySection />
+
+            <GroundingSection />
+
+            <DraftsSection />
+
+            <Ogc01EvalSection />
 
             <RejectedClaims
               documents={pageData.documents}

@@ -749,3 +749,32 @@ a:visited {
   color: #3d4551;
   margin: 0.5rem 0 0.75rem;
 }
+
+/* Lazily loaded evidence sections */
+.authority-section > h2,
+.grounding-section > h2,
+.drafts-section > h2 {
+  margin: 0 0 0.85rem;
+  color: var(--navy-deep);
+  font-family:
+    "Merriweather Web", Georgia, Cambria, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.5vw, 1.8rem);
+  line-height: 1.25;
+}
+
+.authority-gate-count {
+  border-width: 2px !important;
+}
+
+.authority-section .usa-tag {
+  color: #1b1b1b;
+  background: #dfe1e2;
+}
+
+.authority-section .source-document mark,
+.grounding-section .source-document mark {
+  color: #1b1b1b;
+  background: #d9e8f6;
+  border-bottom-color: #1b1b1b;
+  outline-color: #1b1b1b;
+}
