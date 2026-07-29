@@ -110,3 +110,57 @@ push; metrics and labels restate automatically from the JSONL.
 3. Optional hardening: branch protection + PR-only main; signed commits;
    narrowing `.claude/settings.json` Bash allowances.
 4. Optional next phases: OFAC ownership module, OSCAL, SLSA, Fiscal Data demo.
+
+---
+
+## Blueprint-alignment pass (2026-07-29)
+
+Executed against `Treasury GenAI Architecture Blueprint.md` (committed at repo
+root). Owner decisions: committed invariants override the blueprint on every
+conflict; all four implementable feature deltas built; temporal-versioning
+compare skipped and documented. The full reconciliation is
+`docs/BLUEPRINT-ALIGNMENT.md` (realized / neutral equivalent / excluded with
+the controlling invariant named).
+
+**Shipped:**
+- Client-side lexical search (precomputed inverted index, `reglens/search_index.py`;
+  BM25 in the browser with a documented tokenizer twin; 4 MiB fail-closed cap;
+  1.26 MB actual) over 950 claims, 112 U.S.C. sections, 185 CFR sections, 6 drafts.
+- Title 31 hierarchy browser (`reglens/structure.py` — offset-validated section
+  spans over the exact published part texts; per-part counts pinned in tests;
+  rejected-candidate transparency counter — the corpus's single rejected
+  candidate is part 223's in-text "§ 223.16 Department Circular No. 570 list…"
+  cross-reference line, correctly refused as a heading).
+- Authority cross-reference view (part ↔ U.S.C., both directions, shared
+  authorities surfaced; retrieval-only copy).
+- Three OFR amendatory verb forms (add / revise / remove-and-reserve,
+  placeholder designations, rendered self-description "no amendment is
+  proposed"), APA procedural-elements checklist (structural presence only),
+  and a per-draft provenance dossier (model, decoding params, prompt/system
+  SHA-256, part-snapshot digest labeled "context of record; not sent to the
+  model").
+
+**Audit loop:** validator (Opus) PASS-WITH-FIXES — its HIGH (set-out gate
+fail-open on multi-paragraph/extra-blank-line set-out) fixed: the gate now
+verifies every paragraph up to the next numbered instruction and treats an
+empty region as a defect, regression-tested; security reviewer PASS — its
+medium (client `..` traversal defense-in-depth) fixed with a thrown-error
+segment guard; neutrality reviewer **PASS**, both advisories applied (dead
+success/danger CSS tokens deleted; drafts self-describe). Drafts regenerated
+6/6 under the stricter gate; all metrics unchanged (core F1 0.520, fidelity
+1.000; OGC-01 link F1 1.0, class acc 0.884, marker P 0.814 / R 0.972, drafts
+1.00; provisional labels unchanged, 0/251 + 0/306 adjudicated).
+
+**Verification:** 150 pytest + 14 node tests green; ruff/pyright strict/
+zero-cost green; two consecutive fully clean identical Playwright audits
+locally (fold checks at 1440/768/375, all four search result types expand,
+tree → section highlight, cross-refs, APA group, dossier, axe zero
+violations) plus a fully clean identical pass against
+https://reglens-31.pages.dev; all four CI workflows green at eedb6ea.
+
+**Excluded by invariant (see BLUEPRINT-ALIGNMENT.md):** vulnerability
+matrices / deference risk scores / deregulatory target reports (§5),
+Regulations.gov comment ingestion (api.data.gov key ban), FinCEN/IRS bureau
+templating (scope + §333), Form 450/RBAC lockout (no-auth non-goal +
+restricted PII), pgvector/Memgraph/LangChain/live chat (zero-infra static
+export), Llama-3-70B fine-tune (non-goal + hardware).
