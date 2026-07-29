@@ -1,0 +1,385 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 130 (Thursday, July 9, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 130 (Thursday, July 9, 2026)]
+[Rules and Regulations]
+[Pages 42353-42356]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-13851]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 1
+
+[TD 10051]
+RIN 1545-BQ58
+
+
+Charitable Remainder Annuity Trust Listed Transaction
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document contains final regulations that identify certain 
+charitable remainder annuity trust (CRAT) transactions and 
+substantially similar transactions as listed transactions, a type of 
+reportable transaction. Material advisors and certain participants in 
+these listed transactions are required to file disclosures with the IRS 
+and will be subject to penalties for failure to disclose. The final 
+regulations affect participants in these transactions as well as 
+material advisors but provide that certain organizations whose only 
+role or interest in the transaction is as a charitable remainderman 
+will not be treated as participants in the transaction or as parties to 
+a prohibited tax shelter transaction subject to excise taxes and 
+disclosure requirements.
+
+DATES: 
+    Effective date: These regulations are effective on July 9, 2026.
+    Applicability date: For applicability date, see Sec.  1.6011-15(e).
+
+FOR FURTHER INFORMATION CONTACT: Concerning the final regulations, 
+Charles D. Wien of the Office of Associate Chief Counsel (Passthroughs, 
+Trusts & Estates) (202) 317-5279 (not a toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+Authority
+
+    This document amends the Income Tax Regulations (26 CFR part 1) by 
+adding final regulations under section 6011 of the Internal Revenue 
+Code (Code) to identify certain CRAT transactions as listed 
+transactions, a type of reportable transaction (final regulations).
+    Section 6001 of the Code provides an express delegation of 
+authority to the Secretary of the Treasury or his delegate (Secretary) 
+to require, either by notice served or by regulations, every taxpayer 
+to keep the records, render the statements, make the returns, and 
+comply with the rules and regulations that the Secretary deems 
+necessary to demonstrate tax liability.
+    Section 6011(a) of the Code provides an express delegation of 
+authority to the Secretary to require every taxpayer to ``make a return 
+or statement according to the forms and regulations prescribed by the 
+Secretary'' and ``include therein the information required by such 
+forms or regulations.''
+    Section 6707A(c) of the Code confirms the Secretary's authority to 
+identify transactions as ``reportable transactions'' and as ``listed 
+transactions'' and to require reporting of information relating to such 
+transactions pursuant to the authority conferred by section 6011. 
+Section 6707A(c)(1) defines the term ``reportable transaction'' to mean 
+``any transaction with respect to which information is required to be 
+included with a return or statement because, as determined under 
+regulations prescribed under section 6011, such transaction is of a 
+type which the Secretary determines as having a potential for tax 
+avoidance or evasion.'' In addition, section 6707A(c)(2) defines the 
+term ``listed transaction'' to mean a reportable transaction that is 
+``the same as, or substantially similar to, a transaction specifically 
+identified by the Secretary as a tax avoidance transaction for purposes 
+of section 6011.''
+    The final regulations also are issued under the express delegation 
+of authority under section 7805(a) of the Code, which authorizes the 
+Secretary to ``prescribe all needful rules and regulations for the 
+enforcement of [the Code], including all rules and regulations as may 
+be necessary by reason of any alteration of law in relation to internal 
+revenue.''
+
+Background
+
+    On March 25, 2024, the Department of Treasury (Treasury Department) 
+and the IRS published a notice of proposed rulemaking (REG-108761-22) 
+in the Federal Register (89 FR 20569) proposing regulations at new 
+Sec.  1.6011-15 (proposed Sec.  1.6011-15) that would identify certain 
+CRAT transactions and substantially similar transactions as ``listed 
+transactions'' for purposes of
+
+[[Page 42354]]
+
+Sec.  1.6011-4 and sections 6111 and 6112 of the Code (proposed 
+regulations). The Treasury Department and the IRS received one comment 
+in response to the proposed regulations that are the subject of this 
+final rulemaking. The comment is available for public inspection at 
+<a href="https://www.regulations.gov">https://www.regulations.gov</a> or upon request. No public hearing was held 
+on the proposed regulations because there were no requests to speak.
+
+Summary of and Response to Comment
+
+    The one comment received supports the proposed regulations and 
+agrees that the transactions described in the proposed regulations 
+miscomprehend the operation of the tier structure under section 664 
+that governs the characterization and taxation of distributions from 
+CRATs. In addition, the commenter noted that the CRATs described in the 
+proposed regulations have other technical flaws that would prevent the 
+purported CRATs from qualifying as CRATs under section 664(d)(1).
+    The commenter also agreed with the proposal that an organization 
+described in section 170(c) of the Code that the purported CRAT 
+designates as a recipient of the remainder interest is not treated as 
+(1) a participant under Sec.  1.6011-4(c)(3)(i)(A) in the transaction, 
+or (2) as a party to the transaction for purposes of section 4965 of 
+the Code solely by reason of its status as a recipient of the remainder 
+interest described in section 664(d)(1). Further, the commenter pointed 
+out that the charitable remainder beneficiary often is not even aware 
+of the existence of its remainder interest until the charitable 
+organization receives a distribution from the trust.
+    The proposed regulations requested comments concerning whether a 
+charitable remainder beneficiary could be a material advisor under 
+section 6111(b)(1)(A), and asked, in particular, whether the charitable 
+remainder beneficiary ever provides material aid, assistance, or advice 
+with respect to transactions described in proposed Sec.  1.6011-15(b), 
+the nature of the services being provided, and what fees the charitable 
+remainder beneficiary would receive for providing such material aid, 
+assistance, or advice. In response to this request for comments, the 
+commenter stated that, based on its experience, charitable remainder 
+beneficiaries rarely provide material aid, assistance, or advice, and 
+that any material aid, assistance, or advice is most often provided by 
+the promoters of the transaction. Additionally, the commenter stated it 
+is not aware of cases in which charitable remainder beneficiaries have 
+received fees, either directly or indirectly, for providing material 
+aid, assistance, or advice.
+    However, the commenter noted that it is possible that a charity 
+would provide general information about a CRAT to a participant in the 
+listed transaction. Specifically, it would not be unusual for a charity 
+to suggest consideration of a CRAT to a potential charitable donor or 
+to explain to that potential donor the elements and operation of a 
+trust that qualifies as a CRAT. The commenter requested that the final 
+regulations make clear that a charitable remainder beneficiary will not 
+be considered to provide material aid, assistance, or advice unless the 
+charitable remainder beneficiary provides information that specifically 
+endorses the abusive interpretation of the applicability and operation 
+of the tier structure under which CRAT distributions are taxed by 
+section 664(b).
+    Section 301.6111-3(b)(1) provides that a person is a material 
+advisor with respect to a transaction if the person provides any 
+material aid, assistance, or advice with respect to organizing, 
+managing, promoting, selling, implementing, insuring, or carrying out 
+any reportable transaction and directly or indirectly derives gross 
+income in excess of the threshold amount provided in Sec.  301.6111-
+3(b)(3). Section 301.6111-3(b)(2)(i) provides that a person provides 
+material aid, assistance, or advice if the person makes or provides a 
+tax statement to or for the benefit of any person described in Sec.  
+301.6111-3(b)(2)(i). Section 301.6111-3(b)(2)(ii) generally provides 
+that a tax statement is any statement (including another person's 
+statement), oral or written, that relates to a tax aspect of a 
+transaction that causes the transaction to be a reportable transaction.
+    A description of the effect of section 664(b) that includes, or a 
+statement endorsing, the abusive interpretation of the application or 
+operation of the tier structure under section 664(b) would be 
+considered a tax statement as defined in Sec.  301.6111-3(b)(2)(ii) as 
+noted by the commenter, as would other statements regarding other 
+elements of the transaction described in these final regulations, such 
+as the validity of the terms of a CRAT used in the structure. However, 
+a mere suggestion or description of a trust qualifying as a CRAT would 
+not be a statement relating to a tax aspect of the transaction that 
+causes the transaction to be a reportable transaction. As a result, as 
+was discussed by the commenter, simply suggesting a donor's 
+consideration of the creation of, or providing general information 
+regarding, a trust qualifying as a CRAT would not be a tax statement 
+that would result in the charity being a material advisor. Furthermore, 
+to be a material advisor, the charitable remainderman must receive 
+gross income (such as a fee) at least equal to the thresholds in Sec.  
+301.6111-3(b)(3), and the commenter noted that it was not aware of 
+charitable remaindermen receiving fees for providing material aid, 
+assistance, or advice.
+    Because the application of rules governing who is considered a 
+material adviser seem sufficiently clear in this context, the Treasury 
+Department and IRS have determined that it is unnecessary to address 
+the issue in the regulatory text. Thus, the Treasury Department and IRS 
+decline to adopt the proposed change recommended by the commenter in 
+finalizing the proposed regulations, and the proposed regulations are 
+adopted as final without change.
+
+Special Analyses
+
+I. Regulatory Planning and Review
+
+    These regulations are not subject to review under section 6(b) of 
+Executive Order 12866 pursuant to the Memorandum of Agreement (July 4, 
+2025) between the Treasury Department and the Office of Management and 
+Budget (OMB) regarding review of tax regulations. Therefore, a 
+regulatory impact assessment is not required.
+
+II. Paperwork Reduction Act
+
+    The estimated number of taxpayers impacted by these final 
+regulations is between 50 to 100 per year. No burden on these taxpayers 
+is imposed by these final regulations. Instead, the collection of 
+information contained in these final regulations is reflected in the 
+collection of information for Form 8886, Reportable Transaction 
+Disclosure Statement, and Form 8918, Material Advisor Disclosure 
+Statement, that have been reviewed and approved by the OMB in 
+accordance with the Paperwork Reduction Act (44 U.S.C. 3507(c)) under 
+control numbers 1545-1800 and 1545-0865.
+    To the extent there is a change in burden as a result of these 
+regulations, the change in burden will be reflected in the updated 
+burden estimates for Forms 8886 and 8918. The requirement to maintain 
+records to substantiate information on Forms 8886 and 8918 already is 
+contained in the burden associated with the control numbers for the 
+forms and remains unchanged.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information
+
+[[Page 42355]]
+
+unless the collection of information displays a valid OMB control 
+number.
+
+III. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (5 U.S.C. chapter 6) (RFA) requires 
+the agency to ``prepare and make available for public comment an 
+initial regulatory flexibility analysis'' which will ``describe the 
+impact of the proposed rule on small entities.'' 5 U.S.C. 603(a). The 
+term ``small entities'' is defined in 5 U.S.C. 601(6) to mean ``small 
+business,'' ``small organization,'' and ``small governmental 
+jurisdiction,'' which also are defined in 5 U.S.C. 601(3) through (5). 
+Small business size standards define whether a business is ``small'' 
+and have been established for types of economic activities, or 
+industry, generally under the North American Industry Classification 
+System (NAICS). See title 13, part 121 of the Code of Federal 
+Regulations (titled ``Small Business Size Regulations''). The size 
+standards look at various factors, including annual receipts, number of 
+employees, and amount of assets, to determine whether the business is 
+small. See title 13, part 121.201 of the Code of Federal Regulations 
+for the Small Business Size Standards by NAICS Industry.
+    Section 605 of the Act allows an agency to certify a rule if the 
+rulemaking is not expected to have a significant economic impact on a 
+substantial number of small entities. The Treasury Department and the 
+IRS hereby certify that these final regulations will not have a 
+significant economic impact on a substantial number of small entities. 
+This certification is based on the fact that the majority of the effect 
+of the final regulations falls on individuals and trusts. Further, the 
+Treasury Department and the IRS expect that the reporting burden is 
+low; the information sought is necessary for regular annual return 
+preparation and ordinary recordkeeping.
+    For the reasons stated, a regulatory flexibility analysis under the 
+RFA is not required. Pursuant to section 7805(f) of the Code, the 
+proposed rule preceding this rulemaking was submitted to the Chief 
+Counsel for the Office of Advocacy of the Small Business Administration 
+for comment on its impact on small business and no comments were 
+received.
+
+IV. Unfunded Mandates Reform Act
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995 (UMRA) 
+requires that agencies assess anticipated costs and benefits and take 
+certain other actions before issuing a final rule that includes any 
+Federal mandate that may result in expenditures in any one year by a 
+State, local, or Tribal government, in the aggregate, or by the private 
+sector, of $100 million (updated annually for inflation). This final 
+rule does not include any Federal mandate that may result in 
+expenditures by State, local, or Tribal governments, or by the private 
+sector in excess of that threshold.
+
+V. Executive Order 13132: Federalism
+
+    Executive Order 13132 (Federalism) prohibits an agency from 
+publishing any rule that has federalism implications if the rule either 
+imposes substantial, direct compliance costs on State and local 
+governments, and is not required by statute, or preempts State law, 
+unless the agency meets the consultation and funding requirements of 
+section 6 of the Executive order. This final rule does not have 
+federalism implications and does not impose substantial direct 
+compliance costs on State and local governments or preempt State law 
+within the meaning of the Executive order.
+
+Drafting Information
+
+    The principal author of these final regulations is Charles D. Wien, 
+Office of Associate Chief Counsel (Passthroughs, Trusts, & Estates). 
+However, other personnel from the IRS and the Treasury Department 
+participated in the development of these regulations.
+
+List of Subjects in 26 CFR Part 1
+
+    Income taxes, Reporting and recordkeeping requirements.
+
+Adoption of Amendments to the Regulations
+
+    Accordingly, the Treasury Department and the IRS amend 26 CFR part 
+1 as follows:
+
+PART 1--INCOME TAXES
+
+    Paragraph 1. The authority citation for part 1 is amended by adding 
+an entry for Sec.  1.6011-15 in numerical order to read, in part, as 
+follows:
+
+    Authority:  26 U.S.C. 7805 * * *
+* * * * *
+    Section 1.6011-15 also issued under 26 U.S.C. 6001 and 26 U.S.C. 
+6011.
+* * * * *
+    Par. 2. Section 1.6011-15 is added to read as follows:
+
+
+Sec.  1.6011-15  Charitable remainder annuity trust listed transaction.
+
+    (a) In general. Transactions that are the same as, or substantially 
+similar to, a transaction described in paragraph (b) of this section 
+are identified as listed transactions for purposes of Sec.  1.6011-
+4(b)(2).
+    (b) Charitable remainder annuity trusts. A transaction is described 
+in this paragraph (b) if:
+    (1) The grantor creates a trust purporting to qualify as a 
+charitable remainder annuity trust under section 664(d)(1) of the 
+Internal Revenue Code (Code);
+    (2) The grantor funds the trust with property having a fair market 
+value in excess of its basis (contributed property);
+    (3) The trustee sells the contributed property;
+    (4) The trustee uses some or all of the proceeds from the sale of 
+the contributed property to purchase an annuity; and
+    (5) On a Federal income tax return, the beneficiary of the trust 
+treats the annuity amount payable from the trust as if it were, in 
+whole or in part, an annuity payment subject to section 72 of the Code, 
+instead of as carrying out to the beneficiary amounts in the ordinary 
+income and capital gain tiers of the trust in accordance with section 
+664(b).
+    (c) Participation--(1) In general. A taxpayer has participated in a 
+transaction identified as a listed transaction in paragraph (a) of this 
+section if the taxpayer's tax return reflects tax consequences or a tax 
+strategy described in this section as provided under Sec.  1.6011-
+4(c)(3)(i)(A). These tax consequences include those tax consequences 
+that would affect any gift tax return, whether or not such gift tax 
+return was filed. See Sec.  25.6011-4 of this chapter.
+    (2) Treatment of charitable remainderman. An organization described 
+in section 170(c) of the Code that the purported charitable remainder 
+annuity trust designates as a recipient of the remainder interest 
+described in section 664(d)(1) is not treated as a participant under 
+Sec.  1.6011-4(c)(3)(i)(A) in the transaction described in this section 
+solely by reason of its status as a recipient of the remainder interest 
+described in section 664(d)(1).
+    (d) Treatment of charitable remainderman under section 4965. A tax-
+exempt entity (as defined in section 4965 of the Code) that is an 
+organization described in section 170(c) and that the purported 
+charitable remainder annuity trust designates as a recipient of the 
+remainder interest described in section 664(d)(1) is not treated as a 
+party to the transaction described in this section for purposes of 
+section 4965 solely by reason of its status as a recipient of the 
+remainder interest described in section 664(d)(1).
+    (e) Applicability date. This section's identification of 
+transactions that are the same as, or substantially similar to, the
+
+[[Page 42356]]
+
+transaction described in paragraph (b) of this section as listed 
+transactions for purposes of Sec.  1.6011-4(b)(2) is effective on July 
+9, 2026.
+
+Frank J. Bisignano,
+Chief Executive Officer.
+    Approved: April 15, 2026.
+Kenneth J. Kies.
+Assistant Secretary of the Treasury (Tax Policy).
+[FR Doc. 2026-13851 Filed 7-8-26; 8:45 am]
+BILLING CODE 4831-GV-P
+
+
+</pre></body>
+</html>

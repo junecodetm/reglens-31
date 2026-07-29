@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 141 (Friday, July 24, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 141 (Friday, July 24, 2026)]
+[Rules and Regulations]
+[Page 46724]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-15008]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 20
+
+[TD 10050]
+RIN 1545-BQ88
+
+
+Revising Qualified Domestic Trust Regulations Under Section 2056A 
+To Update Outdated References and Procedures; Correction
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Final rule; correcting amendments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This document contains corrections to Treasury Decision 10050 
+published in the Federal Register on Friday, July 10, 2026. Treasury 
+Decision 10050 contains final regulations that amend the Federal estate 
+tax regulations applicable to estates of decedents passing property to 
+or for the benefit of a noncitizen spouse in a domestic trust that 
+satisfies all of the requirements under applicable Federal tax law and 
+regulations to be a qualified domestic trust and for which the executor 
+of the decedent's estate has made a qualified domestic trust election.
+
+DATES: 
+    Effective date: These corrections are effective on July 24, 2026.
+    Applicability dates: For dates of applicability, see Sec. Sec.  
+20.2056A-2(e), 20.2056A-4(e), 20.2056A-11(e), and 20.2056A-13.
+
+FOR FURTHER INFORMATION CONTACT: Donna Douglas at 202-317-6859 (not a 
+toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The final regulations (TD 10050) subject to these corrections are 
+issued under sections 2056A(a)(2), 2056A(e), and 7805(a) of the 
+Internal Revenue Code.
+
+List of Subjects in 26 CFR Part 20
+
+    Estate taxes, Reporting and recordkeeping requirements.
+
+Correction to the Regulations
+
+    Accordingly, 26 CFR part 20 is corrected by making the following 
+correcting amendments:
+
+PART 20--ESTATE TAX; ESTATES OF DECEDENTS DYING AFTER AUGUST 16, 
+1954
+
+0
+Paragraph 1. The authority citation for part 20 continues to read in 
+part as follows:
+
+    Authority:  26 U.S.C. 7805.
+
+
+Sec.  20.2056A-2  [Amended]
+
+0
+Par. 2. Section 20.2056A-2 is amended:
+0
+a. In paragraph (d)(1)(i)(B)(2), in the form, by removing the language 
+``as defined in section 2056A'' and adding the language ``as defined in 
+section 2056A(a)'' in its place.
+0
+b. In paragraph (d)(1)(i)(C)(2), in the form:
+0
+i. By removing the zip code ``20224'' and adding the zip code ``20024'' 
+in its place.
+0
+ii. By removing the word ``Applicants'' and adding the word 
+``Applicant'' in its place.
+0
+c. In paragraph (d)(1)(i)(C)(3), in the form, by removing the language 
+``from the expiration date'' and adding the language ``from the expiry 
+date'' in its place.
+
+Oluwafunmilayo Taylor,
+Section Chief, Publications and Regulations Section, Associate Chief 
+Counsel, (Procedure and Administration).
+[FR Doc. 2026-15008 Filed 7-23-26; 8:45 am]
+BILLING CODE 4831-GV-P
+
+
+</pre></body>
+</html>

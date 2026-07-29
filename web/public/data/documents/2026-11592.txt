@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 111 (Wednesday, June 10, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 111 (Wednesday, June 10, 2026)]
+[Rules and Regulations]
+[Page 35142]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-11592]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 578
+
+
+Publication of Cyber-Related Sanctions Regulations Web General 
+License 2
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Publication of a web general license.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is publishing a general license (GL) issued pursuant to 
+the Cyber-Related Sanctions Regulations: GL 2. This GL was previously 
+made available on OFAC's website.
+
+DATES: GL 2 was issued on April 23, 2026. See SUPPLEMENTARY INFORMATION 
+for additional relevant dates.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Regulatory Affairs, 202-622-4855; or <a href="https://ofac.treasury.gov/contact-ofac">https://ofac.treasury.gov/contact-ofac</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov/">https://ofac.treasury.gov/</a>.
+
+Background
+
+    On April 23, 2026, OFAC issued GL 2 to authorize certain 
+transactions otherwise prohibited by the Cyber-Related Sanctions 
+Regulations, 31 CFR part 578. GL 2 was made available on OFAC's website 
+(<a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>) when it was issued. The text of this GL is 
+provided below.
+
+OFFICE OF FOREIGN ASSETS CONTROL
+
+Cyber-Related Sanctions Regulations
+
+31 CFR Part 578
+
+GENERAL LICENSE NO. 2
+
+Authorizing Certain Transactions Involving Anco Water Supply Co. Ltd. 
+Related to the Treatment and Distribution of Drinking Water
+
+    (a) Except as provided in paragraph (b) of this general license, 
+all transactions prohibited by the Cyber-Related Sanctions Regulations, 
+31 CFR part 578 (CRSR), involving Anco Water Supply Co. Ltd. or any 
+entity in which Anco Water Supply Co. Ltd. owns, directly or 
+indirectly, a 50 percent or greater interest, and that are ordinarily 
+incident and necessary to the treatment or distribution of drinking 
+water, are authorized.
+    (b) This general license does not authorize any transactions 
+otherwise prohibited by the CRSR, including transactions involving any 
+person blocked pursuant to the CRSR other than the blocked persons 
+described in paragraph (a) of this general license, unless separately 
+authorized.
+
+Bradley T. Smith,
+
+Director, Office of Foreign Assets Control.
+
+    Dated: April 23, 2026.
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2026-11592 Filed 6-9-26; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>
