@@ -207,7 +207,7 @@ test, ExpandableGroup dead default toggle deleted — all applied). Known
 accepted LOW: Authority and CrossRef each fetch `authority.json` into
 their own hook instance (second hit is browser-cached).
 
-Verification: 163 pytest + 25 node tests green; ruff/pyright strict/
+Verification: 167 pytest + 25 node tests green; ruff/pyright strict/
 zero-cost green; export replay byte-identical; full Playwright button-walk
 (nav walk, deep links, every expander class, all four search result types,
 keyboard, axe with all groups open, three viewports) — two consecutive
