@@ -1432,3 +1432,64 @@ body {
     padding: 1.25rem 1rem 2rem;
   }
 }
+
+/* Overview route — task-first landing (multi-page shell) */
+.overview-section {
+  margin: 2.5rem 0;
+}
+
+.overview-section > p {
+  max-width: 72ch;
+}
+
+.overview-cards {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1rem;
+}
+
+.overview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  height: 100%;
+  padding: 1rem 1.125rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.overview-card:hover,
+.overview-card:focus-visible {
+  background: var(--soft-blue);
+}
+
+.overview-card-title {
+  font-weight: 700;
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.overview-card:hover .overview-card-title {
+  color: var(--blue-dark);
+}
+
+.overview-card-description {
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.pipeline-strip {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+  max-width: 72ch;
+}
+
+.pipeline-strip li {
+  margin-bottom: 0.5rem;
+}
