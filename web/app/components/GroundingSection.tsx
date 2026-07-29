@@ -264,13 +264,13 @@ export function GroundingSection({
     <section
       className="grounding-section margin-top-5 padding-top-2 border-top-1px border-base-lighter"
       aria-label={
-        standalone ? "Statutory grounding signal (two-sided)" : undefined
+        standalone ? "Grounding markers (two-sided)" : undefined
       }
       aria-labelledby={standalone ? undefined : "grounding-heading"}
     >
       {!standalone ? (
         <h3 id="grounding-heading">
-          Statutory grounding signal (two-sided)
+          Grounding markers (two-sided)
         </h3>
       ) : null}
 

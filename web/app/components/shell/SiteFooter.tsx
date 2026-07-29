@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import siteSnapshot from "../../../public/data/site.json";
 import {
   DISCLAIMER_TEXT,
@@ -5,7 +7,7 @@ import {
 } from "../reglens-types";
 
 const FOOTER_ATTRIBUTION =
-  "Use-case framing: Treasury AI Use Case Inventory (U.S. Government work) — see About this demonstration.";
+  "Use-case framing: Treasury AI Use Case Inventory (U.S. Government work) — see ";
 const site: SiteData | null = siteSnapshot;
 
 export function SiteFooter() {
@@ -29,7 +31,10 @@ export function SiteFooter() {
           <p>Snapshot metadata is loading or unavailable.</p>
         )}
         <p>Source data: Federal Register (U.S. public domain).</p>
-        <p>{FOOTER_ATTRIBUTION}</p>
+        <p>
+          {FOOTER_ATTRIBUTION}
+          <Link href="/about">About this demonstration</Link>.
+        </p>
         <p>
           <a href="https://github.com/junecodetm/reglens-31">
             Source code &amp; methodology

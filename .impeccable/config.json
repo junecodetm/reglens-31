@@ -19,5 +19,6 @@
         "reason": "USWDS side-nav convention: the 4px left bar on usa-current is the design system's own current-item indicator (sole >1px-border exception, web/DESIGN.md)"
       }
     ]
-  }
+  },
+  "updateCheck": false
 }

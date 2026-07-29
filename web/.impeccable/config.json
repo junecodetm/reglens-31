@@ -10,5 +10,6 @@
         "reason": "USWDS type system: Roboto Mono Web is the design system's mono face, used only for code, SHA digests, and verbatim source text (DESIGN.md pins the USWDS trio)"
       }
     ]
-  }
+  },
+  "updateCheck": false
 }

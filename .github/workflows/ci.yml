@@ -49,9 +49,8 @@ jobs:
       - name: disclaimer-and-framing-guard
         run: |
           grep -qF "not affiliated with, endorsed by, or an official product of the U.S. Department of the Treasury" README.md
-          pages=$(find web/out -name index.html)
-          test -n "$pages"
-          for page in $pages; do
+          test "$(find web/out -name index.html | wc -l)" -gt 0
+          find web/out -name index.html -print0 | while IFS= read -r -d '' page; do
             grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" "$page" \
               || { echo "disclaimer missing: $page"; exit 1; }
           done

@@ -27,11 +27,11 @@ const ROUTES = [
   ["ogc01/authority", "Statutory authority", "Authority citations"],
   [
     "ogc01/grounding",
-    "Statutory grounding signal (two-sided)",
+    "Grounding markers (two-sided)",
     "Grounding markers",
   ],
   ["ogc01/drafts", "Draft rule skeletons", "Draft skeletons"],
-  ["evaluation", "Evaluation — honest, provisional", "Core metrics"],
+  ["evaluation", "Evaluation — core metrics (provisional)", "Core metrics"],
   [
     "evaluation/ogc01",
     "Evaluation — authority, grounding, and drafts (provisional)",

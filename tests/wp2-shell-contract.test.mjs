@@ -91,9 +91,14 @@ test("the shared footer preserves the overview attribution copy", () => {
 
   assert.match(footer, /DISCLAIMER_TEXT/);
   assert.match(types, /Independent personal research prototype\. Not affiliated with/);
+  // The attribution's "About this demonstration" is a live link to /about.
   assert.match(
     footer,
-    /Use-case framing: Treasury AI Use Case Inventory \(U\.S\. Government work\) — see About this demonstration\./,
+    /Use-case framing: Treasury AI Use Case Inventory \(U\.S\. Government work\) — see /,
+  );
+  assert.match(
+    footer,
+    /<Link href="\/about">About this demonstration<\/Link>/,
   );
   assert.match(footer, /Source data: Federal Register \(U\.S\. public domain\)\./);
   assert.match(footer, /Source code &amp; methodology/);
@@ -163,7 +168,7 @@ test("all eleven route pages mount their existing section tool", () => {
     ],
     [
       "app/ogc01/grounding/page.tsx",
-      "Statutory grounding signal (two-sided)",
+      "Grounding markers (two-sided)",
       "GroundingSection",
       true,
     ],
@@ -175,7 +180,7 @@ test("all eleven route pages mount their existing section tool", () => {
     ],
     [
       "app/evaluation/page.tsx",
-      "Evaluation — honest, provisional",
+      "Evaluation — core metrics (provisional)",
       "EvalSection",
       true,
     ],

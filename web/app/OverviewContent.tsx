@@ -31,7 +31,7 @@ const TASK_CARDS: readonly TaskCard[] = [
     title: "Review rejected claims",
     href: "/extraction/rejected",
     description:
-      "The claims the fail-closed provenance gate discarded: counted and listed, not hidden.",
+      "The claims the fail-closed provenance gate discarded, counted and listed.",
   },
   {
     title: "Search the corpus",

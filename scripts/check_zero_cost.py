@@ -72,6 +72,12 @@ ALLOWED_HOSTS = {
 }
 
 # tests/ is excluded: allow-list tests intentionally contain refused example URLs.
+# .claude/skills/ is excluded DELIBERATELY: it vendors the third-party
+# impeccable design skill (Apache-2.0, dev-time only, never shipped or run by
+# the pipeline/CI beyond its offline detect CLI). Its scripts reference vendor
+# URLs (impeccable.style update check — disabled via updateCheck:false in
+# .impeccable/config.json — and optional asset endpoints that nothing invokes).
+# Scope documented in docs/STACK.md.
 SCAN_GLOBS = [
     "reglens/**/*.py",
     "scripts/*.py",

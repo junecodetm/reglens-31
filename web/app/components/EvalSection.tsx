@@ -56,11 +56,11 @@ export function EvalSection({
   return (
     <section
       className="eval-section"
-      aria-label={standalone ? "Evaluation — honest, provisional" : undefined}
+      aria-label={standalone ? "Evaluation — core metrics (provisional)" : undefined}
       aria-labelledby={standalone ? undefined : "eval-heading"}
     >
       {!standalone ? (
-        <h3 id="eval-heading">Evaluation — honest, provisional</h3>
+        <h3 id="eval-heading">Evaluation — core metrics (provisional)</h3>
       ) : null}
 
       {state.status === "loading" ? (

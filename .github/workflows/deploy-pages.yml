@@ -39,10 +39,16 @@ jobs:
       - run: npm run build
         working-directory: web
       # Non-affiliation invariant (CLAUDE.md §2, invariant 4): never deploy a
-      # build that lost the disclaimer or the mockup framing.
+      # build with ANY page missing the disclaimer, or / missing the framing.
+      # Mirrors ci.yml — deploy does not depend on the ci workflow, so the
+      # guard must hold here independently.
       - name: disclaimer-and-framing-guard
         run: |
-          grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" web/out/index.html
+          test "$(find web/out -name index.html | wc -l)" -gt 0
+          find web/out -name index.html -print0 | while IFS= read -r -d '' page; do
+            grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" "$page" \
+              || { echo "disclaimer missing: $page"; exit 1; }
+          done
           grep -qF "About this demonstration" web/out/index.html
           grep -qF "Regulatory Reform Tool" web/out/index.html
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1

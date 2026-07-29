@@ -15,3 +15,10 @@ Code in this repository is Apache-2.0 (see [LICENSE](LICENSE)). The data artifac
 Every raw snapshot is content-addressed under `data/raw/<sha256>/` with a `manifest.json` recording source id, URL, fetch time, and hash. Derived claims record the model tag, prompt hash, and input hash that produced them.
 
 No BSA/SAR data, FinCEN Beneficial Ownership Information, taxpayer data, private-individual PII, or any authenticated/paywalled content is ingested — enforced by the runtime allow-list (`reglens/ingest/allowlist.py`) and CI scans (CLAUDE.md §2, invariant 3).
+
+## Non-OSS code dependency note
+
+All code dependencies are OSS except **GSAP** (`gsap`, `@gsap/react`): free of
+charge for this use under the [GreenSock Standard License](https://gsap.com/standard-license)
+(public static-site use explicitly permitted; not an OSI license). Details in
+`docs/STACK.md`.
