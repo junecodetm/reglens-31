@@ -20,6 +20,11 @@ The demo makes no network calls: all data ships as static assets. `just extract`
 1. **Obligation extraction with a fail-closed provenance gate** (`reglens/provenance.py`). A local model (qwen3:8b via Ollama, temperature 0, JSON-schema-constrained) proposes obligations with verbatim quotes; a deterministic normalizer (character-wise NFKC + whitespace collapse, documented in the module) accepts a claim only if its quote is an exact substring of the source — and maps it back to exact highlight offsets. Anything unverifiable is **rejected and counted, never hidden**: the UI banner shows the rejection count, and a transparency section lists every rejected claim with its reason.
 2. **Evaluation with honest uncertainty** (`reglens/eval/`). Provision-level P/R/F1 against a 251-provision gold set with 95% Wilson intervals, clustered (by-document) bootstrap intervals, ICC/design-effect-adjusted effective n, and Cohen's kappa. Gold labels are machine-proposed and explicitly labeled **Provisional** until human-adjudicated (`docs/ADJUDICATE.md`); the adjudicated count is wired to the versioned JSONL, so the label restates itself as adjudication proceeds. A CI gate re-runs the eval from committed fixtures at $0 and fails on F1 regression or any citation-fidelity defect.
 3. **Security & governance as code**: SHA-pinned least-privilege workflows, CodeQL + semgrep + gitleaks + pip-audit + osv-scanner, CycloneDX SBOM, a runtime data-source allow-list, and a zero-cost invariant checker that fails the build if a non-allow-listed dependency, action, or external host appears.
+4. **OGC-01 extension — authority, grounding, drafting** (EXTEND-OGC01; mapped to Treasury AI use case OGC-01 "Regulatory Reform Tool" in [docs/OGC01-ALIGNMENT.md](docs/OGC01-ALIGNMENT.md)):
+   - **Statutory authority linker** (`reglens/authority/`): each part's authority citation parsed with exact spans, every cited U.S.C. section resolved against a pinned OLRC USLM release point, and the operative grant classified {mandatory, discretionary, silent, unresolved} by a published deterministic pattern table — the verbatim statutory verb phrase is gate-verified, unresolvable citations fail closed, and note/Pub. L./E.O. citations are a separate coverage category.
+   - **Two-sided grounding signal** (`reglens/grounding/`): exact gate-verified marker spans in two equal-weight families (deference-reliance AND grounding-strength) plus neutral per-rule facts; bands are textual-marker density only — retrieval, never prediction.
+   - **Draft rule skeletons** (`reglens/draft/`): DDH-conformant NPRM/final skeletons — deterministic structure, visible `[PLACEHOLDER — attorney to complete]` blocks for every required analysis, a labeled model-generated narrative, and a conformance checker (fabrication scan + quote gate) that rejects rather than caveats.
+   - Governance crosswalk: [docs/M25-21-CROSSWALK.md](docs/M25-21-CROSSWALK.md) (OMB M-25-21 §4(b) minimum practices + NIST AI 600-1 Confabulation/Information Integrity).
 
 ## Setup & run
 
@@ -27,7 +32,10 @@ The demo makes no network calls: all data ships as static assets. `just extract`
 just setup       # uv sync, web npm install, ollama pull qwen3:8b
 just ingest      # snapshot Federal Register + eCFR Title 31 sources (allow-listed only)
 just extract     # local extraction + provenance gate -> data/processed/claims.json
-just eval        # metrics + Wilson/bootstrap CIs -> web/public/data/eval.json
+just authority   # authority citations -> USLM resolution -> classification
+just grounding   # two-sided grounding-marker retrieval
+just draft       # DDH rule skeletons + conformance gates
+just eval        # metrics + Wilson/bootstrap CIs (core + OGC-01) -> web/public/data/
 just build-web   # export data + Next.js static export -> web/out
 just demo        # serve web/out locally, fully offline
 just ci          # lint + types + tests + zero-cost check
@@ -49,6 +57,7 @@ Full command surface: [docs/COMMANDS.md](docs/COMMANDS.md).
 - **Local-model extraction accuracy is a known hard problem** — which is exactly why the provenance gate (precision floor) and the eval harness (honest measurement) exist.
 - Prototype scope: assistive, human-in-the-loop; not a sanctions-screening product, not legal advice.
 - The OFAC 50% Rule ownership-graph module was de-scoped from this build (see docs/PROGRESS.md); the entity-resolution analysis and its caveats remain documented in [docs/ENTITY_RESOLUTION.md](docs/ENTITY_RESOLUTION.md).
+- **The OGC-01 extension makes no legal conclusions and predicts nothing.** Classification is deterministic pattern retrieval with measured accuracy; marker bands are phrase-frequency facts; skeletons contain structure, not substance. The full limitations list — the most important section for that work — is [docs/OGC01-ALIGNMENT.md](docs/OGC01-ALIGNMENT.md).
 
 ## Demo staleness
 
