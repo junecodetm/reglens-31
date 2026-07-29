@@ -455,20 +455,27 @@ def export_use_case_inventory(settings: Settings, web_dir: Path) -> None:
 
     Reads only the committed content-addressed snapshot (never the network),
     re-verifies its digest, and writes ``use-case-inventory.json``. Failure
-    mode: a missing or digest-mismatched snapshot raises — the About
-    section's provenance claims are never published unverified (fail-closed).
+    mode: a missing snapshot, a digest mismatch, or a manifest whose URL or
+    digest disagrees with the module pins raises — the About section's
+    provenance claims are never published unverified (fail-closed).
     """
+    from reglens.ingest.inventory import INVENTORY_URL
+
     snapshot_dir = settings.data_dir / "raw" / INVENTORY_SNAPSHOT_SHA256
     manifest = read_manifest(snapshot_dir)
     payload = _snapshot_payload_path(snapshot_dir, manifest.filename).read_bytes()
     if hashlib.sha256(payload).hexdigest() != INVENTORY_SNAPSHOT_SHA256:
         # Fail-closed: published provenance must match the committed bytes.
         raise ValueError("use-case inventory snapshot bytes do not match the pinned digest")
+    if manifest.sha256 != INVENTORY_SNAPSHOT_SHA256 or manifest.url != INVENTORY_URL:
+        # Fail-closed: a stale or edited manifest must never supply the
+        # provenance the site displays as the snapshot's identity.
+        raise ValueError("use-case inventory manifest does not match the pinned URL/digest")
     data = parse_inventory_csv(payload)
     export = UseCaseInventoryExport(
-        source_url=manifest.url,
+        source_url=INVENTORY_URL,
         fetched_at=manifest.fetched_at,
-        sha256=manifest.sha256,
+        sha256=INVENTORY_SNAPSHOT_SHA256,
         row=data.row,
         context=data.context,
     )

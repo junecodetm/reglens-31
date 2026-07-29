@@ -38,26 +38,39 @@ _ALLOWED: tuple[tuple[str, str], ...] = (
     ("www.archives.gov", "/files/federal-register/"),
     # E.O. 14192 accounting PDFs (Unified Agenda site)
     ("www.reginfo.gov", "/public/pdf/eo14192/"),
-    # Treasury AI Use Case Inventory CSV (exact file only) — reference snapshot
-    # provenancing the site's OGC-01 framing (docs/DATA_SOURCES.md)
+)
+
+# (exact host, exact path) pairs — single-file sources where a prefix match
+# would over-grant (e.g. "…Inventory.csv.bak" must be refused).
+_ALLOWED_EXACT: tuple[tuple[str, str], ...] = (
+    # Treasury AI Use Case Inventory CSV — reference snapshot provenancing
+    # the site's OGC-01 framing (docs/DATA_SOURCES.md)
     ("home.treasury.gov", "/system/files/136/Treasury-AI-Use-Case-Inventory.csv"),
 )
 
 
 def is_allowed(url: str) -> bool:
-    """Return True iff ``url`` is https and matches an allow-listed (host, path prefix).
+    """Return True iff ``url`` is https on the default port and matches an
+    allow-listed (host, path prefix) or (host, exact path) entry.
 
-    Fail-closed: URL parse errors return False rather than propagate.
+    Fail-closed: URL parse errors, non-default ports, and dot-segment paths
+    return False rather than propagate.
     """
     try:
         parts = urlsplit(url)
     except ValueError:
         # Fail-closed: an unparseable URL is refused, not retried or passed.
         return False
-    if parts.scheme != "https":
+    if parts.scheme != "https" or parts.port not in (None, 443):
         return False
     host = parts.hostname or ""
     path = parts.path or "/"
+    # Fail-closed: dot segments could re-escape an allow-listed prefix after
+    # server-side normalization, so they are refused outright.
+    if any(segment in (".", "..") for segment in path.split("/")):
+        return False
+    if any(host == allowed_host and path == exact for allowed_host, exact in _ALLOWED_EXACT):
+        return True
     return any(
         host == allowed_host and path.startswith(prefix) for allowed_host, prefix in _ALLOWED
     )

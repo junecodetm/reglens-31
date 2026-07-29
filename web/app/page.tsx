@@ -157,11 +157,20 @@ export default function Home() {
       );
     };
     const observer = new MutationObserver(updateSettledState);
+    // Degrade open: a hung inventory fetch must not gate hash navigation
+    // forever — after this window, scroll targets are close enough anyway.
+    const settleTimeout = window.setTimeout(
+      () => setAboutInventorySettled(true),
+      1500,
+    );
 
     updateSettledState();
     observer.observe(aboutSection, { childList: true, subtree: true });
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(settleTimeout);
+    };
   }, []);
 
   useEffect(() => {
@@ -456,7 +465,7 @@ export default function Home() {
           forceOpenSignal={forceOpenSignals.explore}
         >
           <p className="page-group-intro">{EXPLORE_INTRO}</p>
-          <SearchSection active={exploreActive} />
+          <SearchSection />
           <BrowseSection active={exploreActive} />
           <CrossRefSection active={exploreActive} />
         </CollapsibleSection>

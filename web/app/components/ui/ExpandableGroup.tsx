@@ -12,6 +12,9 @@ export interface ExpandableGroupToggleProps {
   panelId: string;
 }
 
+// This primitive owns only the container/panel wiring (stable ids, hidden
+// panel, aria-labelledby); every call site supplies its own toggle markup via
+// renderToggle, so the toggle is deliberately not defaulted here.
 export interface ExpandableGroupProps {
   id: string;
   label: ReactNode;
@@ -24,7 +27,7 @@ export interface ExpandableGroupProps {
   ariaLabelledby?: string | null;
   panelId?: string;
   panelClassName?: string | null;
-  renderToggle?: (props: ExpandableGroupToggleProps) => ReactNode;
+  renderToggle: (props: ExpandableGroupToggleProps) => ReactNode;
   beforePanel?: ReactNode;
   afterPanel?: ReactNode;
   children: ReactNode;
@@ -51,38 +54,6 @@ export function ExpandableGroup({
   const panelId = providedPanelId ?? `${id}-panel`;
   const resolvedAriaLabelledby =
     ariaLabelledby === undefined ? buttonId : ariaLabelledby;
-  const toggleProps: ExpandableGroupToggleProps = {
-    id,
-    label,
-    expanded,
-    onToggle,
-    ariaCurrent,
-    buttonId,
-    panelId,
-  };
-  const toggle = renderToggle ? (
-    renderToggle(toggleProps)
-  ) : (
-    <h3 className="expandable-group-heading">
-      <button
-        id={buttonId}
-        type="button"
-        className="expandable-group-button"
-        aria-expanded={expanded}
-        aria-controls={panelId}
-        aria-current={ariaCurrent ? "true" : undefined}
-        onClick={onToggle}
-      >
-        <span>{label}</span>
-        <span
-          className="disclosure-icon"
-          aria-hidden="true"
-        >
-          ▾
-        </span>
-      </button>
-    </h3>
-  );
 
   return (
     <Container
@@ -90,7 +61,15 @@ export function ExpandableGroup({
       className={className ?? undefined}
       aria-labelledby={resolvedAriaLabelledby ?? undefined}
     >
-      {toggle}
+      {renderToggle({
+        id,
+        label,
+        expanded,
+        onToggle,
+        ariaCurrent,
+        buttonId,
+        panelId,
+      })}
       {beforePanel}
 
       <div

@@ -17,6 +17,8 @@ ALLOWED_URLS = [
     "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc31@119-102.zip",
     "https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf",
     "https://www.reginfo.gov/public/pdf/eo14192/Accounting_Methods_under_EO_14192.pdf",
+    # Reference snapshots (exact-path entries)
+    "https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv",
 ]
 
 REFUSED_URLS = [
@@ -33,6 +35,13 @@ REFUSED_URLS = [
     "https://api.data.gov/regulations/v4/documents",
     "https://uscode.house.gov/browse/prelim@title31",  # outside /download/
     "https://www.reginfo.gov/public/do/eAgendaMain",  # outside the pinned PDF path
+    # Exact-path entries are exact: neighbors and suffixes are refused
+    "https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv.bak",
+    "https://home.treasury.gov/system/files/136/other.csv",
+    "https://home.treasury.gov/data/ai_inventory",
+    # Non-default ports and dot segments are refused everywhere
+    "https://www.federalregister.gov:8443/api/v1/documents.json",
+    "https://www.govinfo.gov/bulkdata/ECFR/title-31/../title-26/x.xml",
 ]
 
 

@@ -15,7 +15,12 @@ test("use-case-inventory.json carries pinned provenance and the verbatim OGC-01 
     "https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv",
   );
   assert.match(payload.fetched_at, /^\d{4}-\d{2}-\d{2}T/);
-  assert.match(payload.sha256, /^[0-9a-f]{64}$/);
+  // Exact pinned digest — a re-snapshot must update this deliberately, in
+  // lockstep with INVENTORY_SNAPSHOT_SHA256 in reglens/store/export_web.py.
+  assert.equal(
+    payload.sha256,
+    "8e3f3332f26af5de23c2c0dda4c8e41f0ceb9097edcbd169e1216e0e6cf7512f",
+  );
 
   assert.equal(payload.row["Use Case ID"], "OGC-01");
   assert.equal(payload.row["Use Case Name"], "Regulatory Reform Tool");

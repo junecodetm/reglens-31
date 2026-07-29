@@ -170,7 +170,11 @@ test("page navigation and new attribution copy retain the required contract", as
   assert.ok(footer.includes("<p>{FOOTER_ATTRIBUTION}</p>"));
 });
 
-test("hash navigation waits for disclosure and upstream layout readiness", async () => {
+// Source-marker contract only: pins that the hash-navigation implementation
+// keeps its named guards present in page.tsx. It does NOT exercise behavior —
+// behavioral coverage lives in the scripted Playwright button-walk audit
+// (.playwright-mcp/reglens-revamp-audit.mjs: navWalk, deepLink, traceability).
+test("hash-navigation source markers remain present (see Playwright walk for behavior)", async () => {
   const [page, collapsible, about] = await Promise.all([
     read("web/app/page.tsx"),
     read("web/app/components/ui/CollapsibleSection.tsx"),

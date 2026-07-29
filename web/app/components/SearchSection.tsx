@@ -28,10 +28,6 @@ const TYPE_LABELS: Record<SearchUnit["type"], string> = {
   draft: "Draft skeleton",
 };
 
-interface SearchSectionProps {
-  active: boolean;
-}
-
 async function fetchText(path: string, signal: AbortSignal): Promise<string> {
   const response = await fetch(path, { signal });
 
@@ -46,10 +42,10 @@ function claimText(unit: Extract<SearchUnit, { type: "claim" }>): string {
   return `${unit.label}\n\nFrom document ${unit.ref}`;
 }
 
-export function SearchSection({ active: _active }: SearchSectionProps) {
+export function SearchSection() {
   const [query, setQuery] = useState("");
-  // Parent activation must not preload the search index. The first submitted
-  // search remains the only entry point to loadIndex.
+  // Group activation deliberately plays no role here: the 1.26 MB search
+  // index loads only on the first submitted search, via loadIndex below.
   const { state: indexState, load: loadIndex } =
     useLazyJson<SearchIndexData>("/data/search-index.json", {
       requestErrorPrefix: "The search-index request returned status ",

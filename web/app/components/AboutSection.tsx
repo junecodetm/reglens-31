@@ -59,17 +59,17 @@ const TRACEABILITY: readonly {
   },
   {
     quote:
-      "“reviews statutes for potential deregulatory actions” / “identify statutes that are not statutorily required”",
+      "“reviews statutes for potential deregulatory actions” / “identify statutes that are not statutorily required …”",
     module: "Statutory authority citations",
     detail:
-      "Every rulemaking authority the ingested CFR parts cite, resolved against a pinned U.S. Code release and classified mandatory / discretionary / silent from verbatim-verified verb spans. The classification describes the statutory text; no candidate list and no recommendation is produced.",
+      "Every rulemaking authority the ingested CFR parts cite, resolved against a pinned U.S. Code release and classified mandatory / discretionary / silent / unresolved from verbatim-verified verb spans. The classification describes the statutory text; no candidate list and no recommendation is produced.",
     linkText: "Open: Statutory authority citations",
   },
   {
     quote: "“… that are inconsistent with Looper Bright [sic]”",
     module: "Grounding markers",
     detail:
-      "Two-sided retrieval of literal textual markers in published rule preambles — deference-reliance markers and grounding-strength markers, presented with equal weight. Marker counts describe the published text; nothing is scored, predicted, or concluded.",
+      "Two-sided retrieval of literal textual markers in published rule preambles — deference-reliance markers and grounding-strength markers, presented with equal weight. Marker counts describe the published text; nothing is ranked, predicted, or concluded.",
     linkText: "Open: Grounding markers",
   },
 ];
@@ -150,7 +150,7 @@ export function AboutSection() {
               ).map((field) => (
                 <tr key={field}>
                   <th scope="row">{displayLabel(field)}</th>
-                  <td>{state.data.row[field].trim()}</td>
+                  <td>{`“${state.data.row[field].trim()}”`}</td>
                 </tr>
               ))}
             </tbody>
@@ -177,8 +177,8 @@ export function AboutSection() {
 
       <h3>Stated outputs → what this site demonstrates</h3>
       <p>
-        Each output the inventory states for OGC-01, and the on-page module
-        demonstrating its neutral equivalent:
+        Each output and stated purpose the inventory records for OGC-01, and
+        the on-page module demonstrating its neutral equivalent:
       </p>
       <dl className="about-traceability">
         {TRACEABILITY.map((entry) => (

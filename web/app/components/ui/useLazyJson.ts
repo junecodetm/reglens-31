@@ -33,6 +33,11 @@ interface ActiveJsonRequest {
   controller: AbortController;
 }
 
+interface SharedJsonPromise<T> {
+  path: string;
+  promise: Promise<T | null>;
+}
+
 export function useLazyJson<T>(
   path: string,
   {
@@ -46,6 +51,7 @@ export function useLazyJson<T>(
   });
   const requestedPathRef = useRef<string | null>(null);
   const controllerRef = useRef<ActiveJsonRequest | null>(null);
+  const promiseRef = useRef<SharedJsonPromise<T> | null>(null);
   const observedPathRef = useRef(path);
 
   useEffect(() => {
@@ -65,6 +71,10 @@ export function useLazyJson<T>(
       requestedPathRef.current = null;
     }
 
+    if (promiseRef.current && promiseRef.current.path !== path) {
+      promiseRef.current = null;
+    }
+
     setEntry((current) =>
       current.path === path
         ? current
@@ -72,9 +82,11 @@ export function useLazyJson<T>(
     );
   }, [path]);
 
-  const load = useCallback(async (): Promise<T | null> => {
-    if (requestedPathRef.current === path) {
-      return null;
+  const load = useCallback((): Promise<T | null> => {
+    // Callers issued while a request is in flight (or after success) share
+    // the same promise, so a second submit is never silently dropped.
+    if (promiseRef.current?.path === path) {
+      return promiseRef.current.promise;
     }
 
     const activeRequest = controllerRef.current;
@@ -88,51 +100,60 @@ export function useLazyJson<T>(
     controllerRef.current = { path, controller };
     setEntry({ path, state: { status: "loading" } });
 
-    try {
-      const response = await fetch(path, {
-        signal: controller.signal,
-      });
-
-      if (!response.ok) {
-        throw new Error(`${requestErrorPrefix}${response.status}.`);
-      }
-
-      const data = (await response.json()) as T;
-
-      if (
-        !controller.signal.aborted &&
-        requestedPathRef.current === path
-      ) {
-        setEntry({
-          path,
-          state: { status: "ready", data },
+    const promise = (async (): Promise<T | null> => {
+      try {
+        const response = await fetch(path, {
+          signal: controller.signal,
         });
-        return data;
-      }
-    } catch (error: unknown) {
-      if (
-        !controller.signal.aborted &&
-        requestedPathRef.current === path
-      ) {
-        requestedPathRef.current = null;
-        setEntry({
-          path,
-          state: {
-            status: "error",
-            message:
-              error instanceof Error
-                ? error.message
-                : fallbackErrorMessage,
-          },
-        });
-      }
-    } finally {
-      if (controllerRef.current?.controller === controller) {
-        controllerRef.current = null;
-      }
-    }
 
-    return null;
+        if (!response.ok) {
+          throw new Error(`${requestErrorPrefix}${response.status}.`);
+        }
+
+        const data = (await response.json()) as T;
+
+        if (
+          !controller.signal.aborted &&
+          requestedPathRef.current === path
+        ) {
+          setEntry({
+            path,
+            state: { status: "ready", data },
+          });
+          return data;
+        }
+      } catch (error: unknown) {
+        if (
+          !controller.signal.aborted &&
+          requestedPathRef.current === path
+        ) {
+          requestedPathRef.current = null;
+          // A failed request must not stay cached, or retry would replay it.
+          if (promiseRef.current?.path === path) {
+            promiseRef.current = null;
+          }
+          setEntry({
+            path,
+            state: {
+              status: "error",
+              message:
+                error instanceof Error
+                  ? error.message
+                  : fallbackErrorMessage,
+            },
+          });
+        }
+      } finally {
+        if (controllerRef.current?.controller === controller) {
+          controllerRef.current = null;
+        }
+      }
+
+      return null;
+    })();
+
+    promiseRef.current = { path, promise };
+    return promise;
   }, [fallbackErrorMessage, path, requestErrorPrefix]);
 
   useEffect(() => {
@@ -146,6 +167,7 @@ export function useLazyJson<T>(
       // Strict Mode replays passive effects after their cleanup. Restart the
       // aborted first-open request without firing onFirstOpen a second time.
       requestedPathRef.current = null;
+      promiseRef.current = null;
       void load();
     }
 
