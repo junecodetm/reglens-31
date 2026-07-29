@@ -34,9 +34,10 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci --no-audit --no-fund
         working-directory: web
-      - run: npm test
-        working-directory: web
+      # Build BEFORE test: routes-contract reads the emitted web/out pages.
       - run: npm run build
+        working-directory: web
+      - run: npm test
         working-directory: web
       # Non-affiliation invariant (CLAUDE.md §2, invariant 4): never deploy a
       # build with ANY page missing the disclaimer, or / missing the framing.

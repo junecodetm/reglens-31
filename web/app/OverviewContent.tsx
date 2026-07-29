@@ -9,8 +9,8 @@ import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
 import { recordRouteMount } from "./components/shell/route-mount-state";
 import { type SiteData } from "./components/reglens-types";
 import { useLazyJson } from "./components/ui/useLazyJson";
-import { DUR, EASE, STAGGER } from "./motion/tokens";
-import { useCountUp } from "./motion/useCountUp";
+import { DUR, EASE, STAGGER } from "./motion/tokens.ts";
+import { useCountUp } from "./motion/useCountUp.ts";
 
 gsap.registerPlugin(useGSAP);
 
@@ -113,11 +113,16 @@ const PIPELINE_STEPS: readonly { name: string; detail: string }[] = [
 export function OverviewContent() {
   const { state, load } = useLazyJson<SiteData>("/data/site.json");
   const scopeRef = useRef<HTMLDivElement>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
   const acceptedCountRef = useRef<HTMLElement>(null);
   const rejectedCountRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    recordRouteMount();
+    // Same focus contract as PageHeader: announce the page on client-side
+    // navigation, never steal focus on the initial load.
+    if (recordRouteMount()) {
+      headingRef.current?.focus();
+    }
     load();
   }, [load]);
 
@@ -155,7 +160,9 @@ export function OverviewContent() {
       <header className="site-header">
         <div className="content-bound header-content">
           <div className="title-block">
-            <h1>RegLens-31</h1>
+            <h1 ref={headingRef} tabIndex={-1}>
+              RegLens-31
+            </h1>
             <p>
               Provenance-gated regulatory obligation extraction — every claim
               verified verbatim against its primary source, fail-closed.

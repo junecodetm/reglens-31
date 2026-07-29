@@ -19,11 +19,19 @@ export function LegacyHashRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    const target = LEGACY_HASH_ROUTES[window.location.hash];
+    const forward = () => {
+      const target = LEGACY_HASH_ROUTES[window.location.hash];
 
-    if (target) {
-      router.replace(target);
-    }
+      if (target) {
+        router.replace(target);
+      }
+    };
+
+    forward();
+    // The retired single page also honored hash edits after load.
+    window.addEventListener("hashchange", forward);
+
+    return () => window.removeEventListener("hashchange", forward);
   }, [router]);
 
   return null;

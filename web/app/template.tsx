@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef, type ReactNode } from "react";
 
-import { DUR, EASE } from "./motion/tokens";
+import { DUR, EASE } from "./motion/tokens.ts";
 
 gsap.registerPlugin(useGSAP);
 

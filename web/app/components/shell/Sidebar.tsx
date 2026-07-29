@@ -71,9 +71,10 @@ function normalizePathname(pathname: string): string {
 interface NavigationListProps {
   items: NavigationItem[];
   pathname: string;
+  onNavigate: () => void;
 }
 
-function NavigationList({ items, pathname }: NavigationListProps) {
+function NavigationList({ items, pathname, onNavigate }: NavigationListProps) {
   const normalizedPathname = normalizePathname(pathname);
 
   return (
@@ -88,6 +89,7 @@ function NavigationList({ items, pathname }: NavigationListProps) {
               className={isCurrent ? "usa-current" : undefined}
               href={item.href}
               aria-current={isCurrent ? "page" : undefined}
+              onClick={onNavigate}
             >
               {item.label}
             </Link>
@@ -176,6 +178,21 @@ export function Sidebar() {
     }
   }
 
+  // While the mobile drawer is open, the page behind it must be inert for
+  // assistive tech (the keyboard focus trap alone doesn't stop the virtual
+  // cursor). The drawer only ever opens on mobile; on desktop isOpen stays
+  // false and this never fires.
+  useEffect(() => {
+    if (!isOpen) {
+      return;
+    }
+
+    const main = document.getElementById("main-content");
+    main?.setAttribute("inert", "");
+
+    return () => main?.removeAttribute("inert");
+  }, [isOpen]);
+
   return (
     <aside className="sidebar">
       <button
@@ -201,6 +218,9 @@ export function Sidebar() {
           ref={drawerRef}
           id="primary-navigation-drawer"
           className="sidebar-drawer"
+          role={isOpen ? "dialog" : undefined}
+          aria-modal={isOpen ? "true" : undefined}
+          aria-label={isOpen ? "Primary navigation" : undefined}
         >
           <div className="sidebar-drawer-header">
             <span className="sidebar-drawer-title">RegLens-31</span>
@@ -216,16 +236,16 @@ export function Sidebar() {
           </div>
 
           <nav aria-label="Primary">
-            <NavigationList items={[OVERVIEW_ITEM]} pathname={pathname} />
+            <NavigationList items={[OVERVIEW_ITEM]} pathname={pathname} onNavigate={() => setIsOpen(false)} />
 
             {NAVIGATION_GROUPS.map((group) => (
               <div className="sidebar-group" key={group.label}>
                 <span className="sidebar-group-label">{group.label}</span>
-                <NavigationList items={group.items} pathname={pathname} />
+                <NavigationList items={group.items} pathname={pathname} onNavigate={() => setIsOpen(false)} />
               </div>
             ))}
 
-            <NavigationList items={[ABOUT_ITEM]} pathname={pathname} />
+            <NavigationList items={[ABOUT_ITEM]} pathname={pathname} onNavigate={() => setIsOpen(false)} />
           </nav>
         </div>
       </div>

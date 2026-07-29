@@ -10,11 +10,19 @@ export function pulseHighlight(element: HTMLElement): void {
     return;
   }
 
-  const finalBackground = getComputedStyle(element).backgroundColor;
+  const computed = getComputedStyle(element);
+  const finalBackground = computed.backgroundColor;
+  // GSAP can't parse var() as a color — resolve the custom property first
+  // (custom properties inherit, so the element's computed style has it).
+  const softBlue = computed.getPropertyValue("--soft-blue").trim();
+
+  if (!softBlue) {
+    return;
+  }
 
   gsap.fromTo(
     element,
-    { backgroundColor: "var(--soft-blue)" },
+    { backgroundColor: softBlue },
     {
       backgroundColor: finalBackground,
       duration: DUR.slow,
