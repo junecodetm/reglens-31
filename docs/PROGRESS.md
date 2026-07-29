@@ -218,3 +218,46 @@ publicly documented capabilities, and all three already have shipped
 neutral equivalents — no backend features were missing; the gap was
 presentational and is now closed. Metrics and provisional labels
 unchanged (0/251 core + 0/306 OGC-01 adjudicated; worklists still open).
+
+## Multi-page revamp — sidebar app shell, GSAP motion, impeccable gate (2026-07-29, third pass)
+
+The single long page became a 12-route working tool (user-directed; head
+adcea60, live at https://reglens-31.pages.dev). Shipped: persistent USWDS
+sidebar (grouped EXTRACTION / EXPLORE / OGC-01 MODULES / EVALUATION, exact
+aria-current, mobile drawer with focus trap + Escape + role=dialog +
+inert background), layout-level skip link/disclaimer/footer (§333 on every
+page), trailingSlash directory export, task-first Overview (hero + count-up
+stats + condensed OGC-01 framing + ten task cards + pipeline strip), full
+About on /about with per-module traceability links, legacy #hash → route
+forwarding (mount + hashchange), per-route h1 focus on client navigation.
+Motion (gsap + @gsap/react, GreenSock Standard License — free, no card,
+STACK.md row): 220 ms entrance, overview stagger, count-up, highlight pulse
+— all inside prefers-reduced-motion guards with DOM authored in final
+state; opacity-not-autoAlpha so focus targets stay focusable. impeccable
+v3.4.0 (Apache-2.0, exact pin): PRODUCT.md/DESIGN.md briefs, detector CI
+step over authored source (two justified USWDS exceptions recorded in
+.impeccable config; puppeteer postinstall blocked durably by web/.npmrc
+ignore-scripts; update phone-home disabled via updateCheck:false).
+
+Audit loop (author≠blesser): neutrality PASS-WITH-ADVISORIES (titles
+neutralized to "Grounding markers (two-sided)" and "Evaluation — core
+metrics (provisional)", card-copy dedup, footer attribution now links to
+/about — all applied); security PASS-WITH-FIXES (ignore-scripts, deploy
+verify job gets the all-pages disclaimer loop, null-delimited CI loop,
+zero-cost scan exclusion documented, GSAP license noted in DATA_LICENSE.md
+— all applied); validator (Opus) PASS-WITH-FIXES (build-before-test in
+both workflows — routes-contract reads web/out; pulse resolves
+var(--soft-blue) before tweening; Overview h1 joins the focus contract;
+drawer closes on same-page clicks; dead footer branch removed — all
+applied).
+
+Verification: 167 pytest + 35 node tests green; ruff/pyright strict/
+zero-cost/detector green; per-route contract pins §333 + sole-h1 +
+aria-current on all 12 emitted pages; rewritten multi-page Playwright
+walk (~50 checks: nav walk with focus assertions, every tool control,
+four search result types, legacy hashes, skip link, drawer keyboard,
+reduced motion, axe zero violations on all 12 routes, three viewports) —
+two consecutive identical fully clean local passes and one identical
+clean pass against the deployed URL; all four workflows green at adcea60.
+Metrics and provisional labels byte-identical (0/251 core + 0/306 OGC-01
+adjudicated; worklists still open).
