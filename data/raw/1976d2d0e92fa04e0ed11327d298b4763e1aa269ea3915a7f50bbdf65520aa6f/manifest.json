@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "ecfr",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-07-27/title-31.xml?part=223",
+  "fetched_at": "2026-07-29T01:24:03.290760+00:00",
+  "sha256": "1976d2d0e92fa04e0ed11327d298b4763e1aa269ea3915a7f50bbdf65520aa6f",
+  "content_type": "application/xml",
+  "filename": "31-CFR-223-authority-2026-07-27.xml"
+}

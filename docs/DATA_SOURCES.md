@@ -11,4 +11,14 @@
 | OpenSanctions (enrichment/join) | Bulk download, no key; datasets `us_ofac_sdn`, `securities`, `ext_gleif` | None for bulk | Daily updates | Daily (4×/day upstream) | **CC-BY-NC 4.0 (non-commercial)** — attribution required | Aggregated public sanctions data |
 | Treasury Fiscal Data (optional secondary demo) | `https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny` etc. | None | No documented limit; throttle | Daily/monthly | U.S. Gov public | No PII |
 
+## EXTEND-OGC01 extension sources (added 2026-07-28)
+
+| Source | Endpoint (verified) | Auth | License | Notes |
+|---|---|---|---|---|
+| U.S. Code (OLRC USLM XML) | `https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc{NN}@119-102.zip` (pinned release point PL 119-102, 2026-07-12) | None | U.S. Gov public domain | Full title zips cached locally (gitignored); only cited-section XML fragments are snapshotted into `data/raw/` |
+| Document Drafting Handbook | `https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf` (Aug 2018 ed., rev. 2.2, mandatory as of 2025-06-09) | None | U.S. Gov public | Basis for the draft-skeleton template + conformance rules |
+| reginfo.gov E.O. 14192 accounting | `https://www.reginfo.gov/public/pdf/eo14192/Final_Accounting_for_Fiscal_Year_2025_under_EO_14192.pdf`, `.../Accounting_Methods_under_EO_14192.pdf` | None | U.S. Gov public | PDFs only (no xlsx workbook exists); Table 1 field names source the offset-accounting stub |
+
+Explicitly forbidden as dependencies (EXTEND-OGC01 §2): CourtListener API (rate-limited; membership breaks zero-cost), QuantGov/RegData datasets (cited as prior art only), anything requiring an api.data.gov key.
+
 **EXCLUSION LIST (never fetch/store/synthesize):** BSA/SAR data; FinCEN Beneficial Ownership Information (also largely inactive for U.S. companies after the 2025-03-26 interim final rule); taxpayer data; PII about private individuals; anything behind authentication or paywalls; any Vixio employer data or work product. Enforced by `ingest/allowlist.py` (only the six sources above are fetchable) + Semgrep/gitleaks scans.

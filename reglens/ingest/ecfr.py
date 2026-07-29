@@ -42,6 +42,44 @@ def xml_to_text(xml_bytes: bytes) -> str:
     return re.sub(r" (?=(Sec\.|§))", "\n\n", text)
 
 
+def ingest_part_authority(
+    settings: Settings, part: int, date: str | None = None
+) -> tuple[Path, Path]:
+    """Snapshot one part's raw XML and flattened text for the authority linker.
+
+    Uses ``settings.ecfr_authority_date`` (not ``ecfr_date``) and date-suffixed
+    filename stems, so these snapshots never pair with — or shadow — the
+    original claims-corpus snapshots in ``discover_documents``. Returns
+    ``(xml_dir, text_dir)``. Failure mode: HTTP/parse errors propagate;
+    nothing is snapshotted from unparseable XML.
+    """
+    pinned_date = date or settings.ecfr_authority_date
+    url = part_url(pinned_date, part)
+    stem = f"31-CFR-{part}-authority-{pinned_date}"
+    with httpx.Client(headers={"User-Agent": settings.user_agent}, timeout=120.0) as client:
+        response = client.get(require_allowed(url))
+        response.raise_for_status()
+        xml_bytes = response.content
+        text = xml_to_text(xml_bytes)  # raises on malformed XML before any snapshot
+    xml_dir = write_snapshot(
+        settings.data_dir,
+        source_id="ecfr",
+        url=url,
+        content=xml_bytes,
+        content_type="application/xml",
+        filename=f"{stem}.xml",
+    )
+    text_dir = write_snapshot(
+        settings.data_dir,
+        source_id="ecfr",
+        url=url,
+        content=text.encode(),
+        content_type="text/x-ecfr-authority",
+        filename=f"{stem}.txt",
+    )
+    return xml_dir, text_dir
+
+
 def ingest_part(settings: Settings, part: int, date: str | None = None) -> tuple[Path, Path]:
     """Snapshot one Title 31 part's metadata and plain text; return both snapshot dirs."""
     pinned_date = date or settings.ecfr_date

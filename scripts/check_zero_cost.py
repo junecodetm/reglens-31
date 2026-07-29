@@ -53,6 +53,10 @@ ALLOWED_HOSTS = {
     "www.gleif.org",
     "data.opensanctions.org",
     "api.fiscaldata.treasury.gov",
+    # EXTEND-OGC01 sources (all free, keyless; docs/DATA_SOURCES.md)
+    "uscode.house.gov",
+    "www.archives.gov",
+    "www.reginfo.gov",
     # local inference + project surfaces (all free/no-card)
     "localhost",
     "github.com",

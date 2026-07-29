@@ -4,7 +4,7 @@ Inputs: a candidate URL. Outputs: pass/refuse. Failure mode: any URL outside
 the docs/DATA_SOURCES.md table raises :class:`DisallowedSourceError`.
 
 This enforces the NO-RESTRICTED-DATA invariant (CLAUDE.md §2, invariant 3):
-only the six documented public sources are fetchable. Fail-closed: malformed
+only the documented public sources are fetchable. Fail-closed: malformed
 URLs, non-https schemes, and unknown hosts are all refused, never passed.
 """
 
@@ -31,6 +31,13 @@ _ALLOWED: tuple[tuple[str, str], ...] = (
     ("data.opensanctions.org", "/datasets/"),
     # Treasury Fiscal Data API (optional secondary demo)
     ("api.fiscaldata.treasury.gov", "/services/api/fiscal_service/"),
+    # EXTEND-OGC01 sources (docs/DATA_SOURCES.md, extension rows):
+    # OLRC U.S. Code USLM XML release-point downloads
+    ("uscode.house.gov", "/download/"),
+    # Document Drafting Handbook (Aug 2018 ed., rev. 2.2)
+    ("www.archives.gov", "/files/federal-register/"),
+    # E.O. 14192 accounting PDFs (Unified Agenda site)
+    ("www.reginfo.gov", "/public/pdf/eo14192/"),
 )
 
 

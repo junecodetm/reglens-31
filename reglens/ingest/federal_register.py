@@ -85,6 +85,34 @@ def recent_treasury_rules(client: httpx.Client, count: int = 1) -> list[str]:
     return [require_safe_document_number(result["document_number"]) for result in results]
 
 
+def find_rule_by_citation(
+    client: httpx.Client, volume: int, page: int, publication_date: str
+) -> str | None:
+    """Resolve an FR citation (e.g. ``62 FR 45101``) to a document number.
+
+    The FR API has no citation-lookup endpoint, so this filters documents
+    published on ``publication_date`` and matches ``page`` against each
+    result's ``start_page``..``end_page`` range. Failure mode: returns None
+    when no published document covers the page (a coverage fact, never a
+    guess); HTTP errors propagate.
+    """
+    url = (
+        f"{API_BASE}/documents.json"
+        f"?conditions[publication_date][is]={publication_date}"
+        "&per_page=300&fields[]=document_number&fields[]=citation"
+        "&fields[]=start_page&fields[]=end_page"
+    )
+    response = client.get(require_allowed(url))
+    response.raise_for_status()
+    del volume  # citation volume is implied by publication_date; kept for call-site clarity
+    for result in response.json().get("results", []):
+        start = result.get("start_page")
+        end = result.get("end_page") or start
+        if isinstance(start, int) and isinstance(end, int) and start <= page <= end:
+            return require_safe_document_number(result["document_number"])
+    return None
+
+
 def latest_treasury_rule(client: httpx.Client) -> str:
     """Document number of the most recent Treasury final rule."""
     return recent_treasury_rules(client, count=1)[0]

@@ -21,4 +21,10 @@ class Settings(BaseSettings):
     model_tag: str = "qwen3:8b"
     user_agent: str = "reglens-31/0.1 (+https://github.com/junecodetm/reglens-31)"
     ecfr_date: str = "2026-07-01"
+    # EXTEND-OGC01 pins: authority-linker snapshots use their own point-in-time
+    # date (latest supported by the eCFR versioner at build) so the original
+    # claims corpus at ecfr_date stays byte-stable for deterministic replay.
+    ecfr_authority_date: str = "2026-07-27"
+    # OLRC U.S. Code release point (uscode.house.gov), verified 2026-07-28.
+    usc_release_point: str = "119-102"
     max_document_chars: int = 80_000

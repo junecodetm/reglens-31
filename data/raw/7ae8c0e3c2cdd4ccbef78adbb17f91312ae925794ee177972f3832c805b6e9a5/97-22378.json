@@ -1,0 +1,146 @@
+{
+  "abstract": "The Office of Foreign Assets Control (``OFAC'') is issuing the Reporting and Procedures Regulations. This new part simplifies--by consolidating and standardizing in a single part--common provisions on collections of information in existing OFAC regulations. Those collections are eliminated from the individual parts of 31 CFR chapter V. This final rule includes an initial and annual requirement to report on blocked assets or retained funds transfers--as well as periodic reports on funds transfers rejected by U.S. financial institutions--for administrative and foreign policy formulation purposes. The rule also requires reports on U.S. litigation and other dispute resolution proceedings where the proceedings may affect blocked assets or funds retained by banks that have stopped violative transfers. In addition, new procedures are set forth for persons seeking the unblocking of funds they believe have been blocked due to mistaken identity, or seeking administrative review of their designation or that of a vessel as blocked. Finally, the reporting requirements and licensing and other procedures of the new part are made applicable to transactions that have become subject to economic sanctions programs for which implementation and administration are delegated to the Office of Foreign Assets Control. The final rule also makes conforming amendments and technical corrections to the various parts of 31 CFR chapter V.",
+  "action": "Final rule; amendments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1997/08/25/97-22378.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": null,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 500,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 505,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 515,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 535,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 536,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 550,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 560,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 575,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 585,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 590,
+      "title": 31
+    }
+  ],
+  "citation": "62 FR 45098",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "August 25, 1997.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "97-22378",
+  "effective_on": null,
+  "end_page": 45114,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1997/08/25/97-22378/reporting-and-procedures-regulations-consolidation-of-information-collections-annual-reports-on",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/97-22378?publication_date=1997-08-25",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1997-08-25/97-22378/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 17,
+  "page_views": {
+    "count": 934,
+    "last_updated": "2026-07-28 20:15:04 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1997-08-25/pdf/97-22378.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1997-08-25",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1997/08/25/97-22378.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 45098,
+  "subtype": null,
+  "title": "Reporting and Procedures Regulations: Consolidation of Information Collections; Annual Reports on Blocked Assets and Retained Transfers; Reports on Rejected Transfers; Reports on Litigation; Procedure for Releasing Funds Believed to Have Been Blocked Due to Mistaken Identity; Procedure For Removal From the Lists of Blocked Persons and Vessels",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 62
+}

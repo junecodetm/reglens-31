@@ -1,0 +1,835 @@
+<html>
+<head>
+<title>Federal Register, Volume 62 Issue 122 (Wednesday, June 25, 1997)</title>
+</head>
+<body><pre>[Federal Register Volume 62, Number 122 (Wednesday, June 25, 1997)]
+[Rules and Regulations]
+[Pages 34175-34181]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 97-16181]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AA62
+
+
+Offset of Tax Refund Payments To Collect Past-Due, Legally 
+Enforceable Nontax Debt
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Interim rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Effective January 1, 1998, the Department of the Treasury 
+(Treasury) will merge the tax refund offset program with the 
+centralized administrative offset program operated by the Financial 
+Management Service (FMS), a bureau of the Department of the Treasury. 
+The merger of the two offset programs is intended to maximize and 
+improve Treasury's government-wide collection of delinquent nontax debt 
+owed to the Federal Government. FMS will administer nontax debt 
+collection functions that include the tax refund offset program. The 
+Internal Revenue Service (IRS) will remain responsible for the 
+administration of the internal revenue laws. To conform with the 
+requirements of the merged offset program, this interim rule supersedes 
+the tax refund offset procedures promulgated by the IRS.
+
+DATES: This rule is effective July 25, 1997. This rule applies to tax 
+refund payments payable after January 1, 1998. Comments will be 
+received until July 25, 1997.
+
+ADDRESSES: All comments should be addressed to Gerry Isenberg, 
+Financial Program Specialist, Debt Management Services, Financial 
+Management Service, Department of the Treasury, 401 14th Street S.W., 
+Room 151, Washington, D.C. 20227. A copy of this interim rule is being 
+made available for downloading from the Financial Management Service 
+home page at the following address: <a href="http://www.fms.treas.gov">http://www.fms.treas.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Gerry Isenberg, Financial Program 
+Specialist, at (202) 874-6660; Pamela Dillon, Treasury Offset Program, 
+at (202) 874-8700; Ellen Neubauer or Ronda Kent, Senior Attorneys, at 
+(202) 874-6680.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    FMS, as the Treasury disbursing agency, is responsible for the 
+implementation of centralized administrative offset of Federal payments 
+for the collection of delinquent nontax debt owed to Federal agencies 
+and to States, including past-due child support, in accordance with the 
+provisions of the Debt Collection Improvement Act of 1996 (DCIA), 
+Public Law 104-134, 110 Stat. 1321-358 et seq. (1996). In addition, FMS 
+disburses more than 850 million Federal payments annually, including 
+tax refund payments to taxpayers on behalf of the IRS.
+    Under 26 U.S.C. 6402(d) and 31 U.S.C. 3720A, the tax refund of a 
+taxpayer who owes delinquent debt to a Federal agency is reduced, or 
+offset, by the amounts owed by the taxpayer. The funds offset from the 
+taxpayers' tax refunds are forwarded to the Federal agency collecting 
+the delinquent debt. Since 1986, the IRS has been collecting delinquent 
+debt owed to Federal agencies by tax refund offset.
+    To improve the efficiency of Treasury's collection of delinquent 
+debt owed to Federal agencies, effective January 1, 1998, the tax 
+refund offset program will merge with the centralized administrative 
+offset program operated by FMS, known as the ``Treasury Offset 
+Program.'' The Treasury Offset Program, described below, is a 
+centralized offset program. Under the Treasury Offset Program, a 
+Federal payment to a person can be reduced, or offset, by a
+
+[[Page 34176]]
+
+delinquent amount owed by that person to a Federal agency or to a 
+State. In centralizing offset through the Treasury Offset Program, FMS 
+will consolidate and simplify offset procedures for the Federal 
+Government. The rules and procedures governing the Treasury Offset 
+Program will reflect statutory requirements for particular types of 
+payments or debts, as well as the general rules applicable to 
+collection of debts by offset.
+    The DCIA clarified that a Treasury disbursing official may conduct 
+tax refund offsets (see section 31001(w) of the DCIA, codified at 31 
+U.S.C. 3720A(h)). To conform with the requirements of the merged 
+program, this regulation supersedes the procedures governing the tax 
+refund offset program established by the IRS (codified at 26 CFR 
+301.6402-6), applicable to the collection of delinquent nontax debts 
+owed to Federal agencies. The tax refund offset procedures in this rule 
+supersede the procedures codified at 26 CFR 301.6402-6. Procedures for 
+processing claims by non-debtor spouses and for rejecting a taxpayer's 
+election to apply his or her refund to future tax liabilities remain 
+governed by IRS rules.
+    FMS will promulgate separate rules for the offset of tax refund 
+payments for the collection of past-due child support under 26 U.S.C. 
+6402(c) (offset of past-due support against overpayments) and 42 U.S.C. 
+664 (collection of past-due support from Federal tax refunds). In 
+addition, as authorized by the DCIA, FMS will promulgate rules for the 
+offset of payments other than tax refund payments for the collection of 
+debts owed to the United States and debts owed to States. FMS 
+anticipates that Part 285 of this title will contain all of the 
+provisions relating to offset by disbursing officials for the 
+collection of debts owed to the Federal Government and to State 
+governments, including past-due support.
+    Under the Treasury Offset Program, before a payment is disbursed to 
+a payee, FMS will compare the payee information with debtor information 
+in a database operated by FMS. The database contains debtor information 
+submitted and updated by Federal and State agencies collecting debts. 
+If the payee's name (or derivation of the name, known as a ``name 
+control'') and taxpayer identifying number (TIN) match the name control 
+and TIN of a debtor, the payment will be offset to satisfy the debt, to 
+the extent allowed by law, including applicable regulations. The 
+delinquent debt information will remain in the debtor database for 
+continuous offset of tax refund and all other eligible Federal payments 
+until debt collection activity for that debt is terminated because of 
+payment, compromise, write-off or other reasons justifying termination.
+    After January 1, 1998, tax refund payments will be offset as part 
+of the Treasury Offset Program, subject to the requirements of 26 
+U.S.C. 6402 and 31 U.S.C. 3720A. Since FMS issues different payment 
+types daily, a nontax delinquent debt could be satisfied by the offset 
+of a variety of Federal payment types, including vendor, salary, 
+retirement and certain benefit payments, as well as tax refund 
+payments.
+    As required by IRS regulation codified at 26 CFR 301.6402-6, under 
+the Treasury Offset Program and this rule, before submitting the debt 
+to FMS for offset, creditor agencies are responsible for notifying 
+debtors that their debt is delinquent and that the creditor agency 
+intends to collect the debt by offset. In the notice, the creditor 
+agency must inform debtors of their right to review applicable records 
+and to seek a review of the determination of the debt. The creditor 
+agency will certify to FMS that the requirements of this regulation and 
+applicable Federal law have been met.
+    After a tax refund offset occurs, FMS will notify the debtor that 
+the offset has occurred. FMS will provide information to the debtor 
+regarding the amount and date of the offset, the creditor agency to 
+which the amount offset was paid or credited, and a contact within the 
+creditor agency that will handle concerns or questions regarding the 
+offset. The notice also will advise any non-debtor spouse who may have 
+filed a joint tax return with the debtor of the steps that a non-debtor 
+spouse may take to secure his or her proper share of the tax refund. 
+IRS will continue to be responsible for reviewing refund claims by non-
+debtor spouses. FMS will provide creditor agencies with sufficient 
+information to identify the debt for which amounts have been collected, 
+but will not disclose the payment source for the amounts collected. FMS 
+also will report offset information to the IRS at least weekly.
+
+Procedural Changes Under Treasury Offset Program
+
+    As described in detail below, this rule supersedes certain 
+procedures established by the IRS (codified at 26 CFR 301.6402-6) 
+applicable to the collection of delinquent nontax debts owed to Federal 
+agencies. The procedural changes do not affect the rights of the debtor 
+to dispute the nature or amount of the debt or method of collection; 
+they only reflect the changes necessitated by the merger of tax refund 
+offset with the Treasury Offset Program and/or enactment of the DCIA. 
+For example, since FMS will implement tax refund offset, under this 
+rule, agencies are required to refer delinquent debts and provide 
+information and certification to FMS, instead of IRS. FMS, rather than 
+IRS, will provide post-offset notices and information to debtors and 
+agencies. Under the Treasury Offset Program, agencies will submit debts 
+for offset on an ongoing basis, rather than annually. Therefore, 
+agencies may report, as needed, routine increases to the amount of the 
+debt (such as those resulting from interest, penalties, and costs) 
+subject to notice and certification requirements.
+    Under the IRS regulation (codified at 26 CFR 301.6402-6(c)), prior 
+to referring a debt for tax refund offset, among other things, agencies 
+are required to attempt to collect the debt by administrative and 
+salary offset. FMS' Treasury Offset Program implements the DCIA mandate 
+to conduct centralized administrative offset (31 U.S.C. 3716(c)) and 
+salary offset (5 U.S.C. 5514(a)). Therefore, when an agency refers a 
+debt to FMS' Treasury Offset Program, the debt automatically will be 
+subject to collection by administrative offset, salary offset, and tax 
+refund offset. Under the IRS regulation (codified at 26 CFR 301.6402-
+6(c)), prior to referring a debt for tax refund offset, agencies are 
+required to report the debt to a consumer reporting agency. The DCIA 
+requires that agencies report delinquent consumer debt to credit 
+bureaus, which agencies may do prior to or after submitting a debt to 
+the Treasury Offset Program. Although agencies are encouraged to report 
+delinquent debt early in the collection process, credit bureau 
+reporting is not a prerequisite to tax refund offset under this rule.
+    Creditor agencies are required to provide the same due process 
+rights to debtors under this rule as required by the IRS regulation 
+(codified at 26 CFR 301.6402-6) and agency-specific regulations. Under 
+the IRS regulation codified at 26 CFR 301.6402-6(d)(1), agencies are 
+required to mail the pre-offset notice to a debtor at the mailing 
+address obtained by the IRS. Although agencies may continue to use the 
+IRS mailing address, this rule allows agencies the flexibility to use 
+current address information contained in an agency's records, which may 
+include address information obtained from the debtor, public databases, 
+and other means. Since 1992, when the IRS promulgated its final rule, 
+access to address information databases has become widely available at 
+reasonable
+
+[[Page 34177]]
+
+costs. Also, based on their experience as participants in the tax 
+refund offset program over the last 10 years, some agencies have 
+indicated that the debtor address in their files is a more appropriate 
+mailing address for due process notification than the IRS address. The 
+change contained in this rule recognizes the fact that, for the purpose 
+of providing pre-offset notice to the taxpayer, the address obtained by 
+a creditor agency may be more recent than the address that the IRS can 
+provide based on a prior year's tax return.
+
+Section Analysis
+
+(a) Definitions
+
+    Creditor agency. The term ``creditor agency'' has the same meaning 
+as found at 31 U.S.C. 3701(e)(1) and includes a Federal agency seeking 
+to collect a claim through tax refund offset.
+    Debt or claim. For the purposes of this rule, the terms ``claim'' 
+and ``debt'' are synonymous and interchangeable and have the same 
+meaning as found at 31 U.S.C. 3701(b). The term includes debt 
+administered by a third party acting as an agent for the Federal 
+Government as set forth in 31 U.S.C. 3720A(a).
+    Tax refund offset. For purposes of this rule, the term ``tax refund 
+offset'' means withholding or reducing a tax refund payment by an 
+amount necessary to satisfy a debt owed by the payee(s) of a tax refund 
+payment. This rule governs the offset of tax refund payments under 26 
+U.S.C. 6402(d), 31 U.S.C. 3720A and agency regulations promulgated in 
+accordance with the requirements of this rule. This rule does not cover 
+the offset of payments other than tax refund payments, nor does it 
+cover tax refund offset for the collection of past-due support. The 
+offset of tax refund payments to collect past-due child support is 
+governed by 26 U.S.C. 6402(c), 42 U.S.C. 664, and additional 
+regulations issued by FMS and the Department of Health and Human 
+Services. The offset of other types of Federal payments to collect 
+delinquent debt is governed by 31 U.S.C. 3716, 5 U.S.C. 5514, and 
+related regulations issued by FMS, Office of Personnel Management, and 
+agencies collecting debt.
+    Tax refund payment. The tax refund payment is the amount to be 
+refunded to the taxpayer after the IRS has applied the taxpayer's 
+overpayment to the taxpayer's past-due tax liabilities in accordance 
+with 26 U.S.C. 6402(a) and 26 CFR 6402-3(a)(6)(i).
+
+(b) General Rule
+
+    Paragraph (b)(1) states the general rule that Federal agencies, 
+except the Tennessee Valley Authority (TVA), are required to submit 
+nontax delinquent debt information to the Secretary of the Treasury for 
+purposes of tax refund offset. TVA may, but is not required to, submit 
+its delinquent debt information for tax refund offset. Under the IRS 
+regulation codified at 26 CFR 301.6402-6(a), agencies submit debt 
+information to the IRS. Under this rule, agencies will submit debt 
+information to FMS, a bureau of the Treasury. FMS will operate the 
+delinquent debtor database and agencies are required to submit debtor 
+information to FMS for offset purposes. Federal agencies will submit 
+delinquent debtor information to FMS for purposes of tax refund offset 
+and administrative offset simultaneously. Thus, agencies will not have 
+to submit duplicate information to the IRS (for tax refund offset) and 
+FMS or other Federal agencies (for administrative offset).
+    Paragraph (b)(2) describes the offset process.
+    Paragraph (b)(3) identifies the types of debts that this rule does 
+not cover. Tax debts are collected in accordance with the Internal 
+Revenue Code and related regulations. As noted above, the IRS deducts 
+any tax liabilities owed by the taxpayer before authorizing the 
+issuance of the tax refund payment.
+    Paragraph (b)(4) describes the rules applicable to tax refund 
+offset for the purpose of collecting Federal Old Age, Survivors and 
+Disability Insurance (OASDI) overpayments. These rules have not changed 
+as a result of the merger of the tax refund offset program with the 
+administrative offset program.
+    Paragraph (b)(5) clarifies that an agency is not precluded from 
+using other debt collection tools, such as wage garnishment, after 
+submitting a debt to FMS for purposes of tax refund and administrative 
+offset.
+
+(c) Regulations
+
+    This paragraph requires agencies to promulgate temporary or final 
+regulations for administrative and tax refund offset. Agencies that 
+previously participated in the tax refund offset program may need to 
+revise existing regulations to conform with the revised requirements in 
+this rule. Regulations for administrative offset under 31 U.S.C. 3716 
+are required since any debt submitted to the FMS debtor database will 
+be subject to administrative and tax refund offset simultaneously (to 
+the extent that payments are available for offset). Therefore, in 
+addition to tax refund offset requirements, a creditor agency must meet 
+the prerequisites for administrative offset before submitting debts for 
+collection by offset. FMS anticipates that Federal employee salary 
+offsets (whereby salary payments payable to Federal employees who owe 
+Federal debt are reduced to satisfy the outstanding obligations) will 
+be part of the Treasury Offset Program.
+
+(d) Agency Certification and Referral of Debt
+
+    This paragraph describes the procedures related to the collection 
+of past-due legally enforceable debt owed to Federal agencies by tax 
+refund offset.
+    Paragraph (d)(1) outlines the certification required by an agency 
+submitting debt to FMS for tax refund offset. Section 3720A(b) of title 
+31 requires that, before collecting a debt by tax refund offset, an 
+agency must certify that reasonable efforts to collect the debt have 
+been made by the agency. Under the IRS regulation codified at 26 CFR 
+301.6402-6(c), before referring a debt for tax refund offset agencies 
+are required, among other things, to report the debt to a credit bureau 
+and attempt collection by salary and administrative offset. This rule 
+no longer requires credit bureau reporting and offset collection as 
+prerequisites to tax refund offset because the DCIA mandates that 
+agencies submit their delinquent debts to Treasury for administrative 
+offset and participate in matches for salary offset purposes. FMS' 
+Treasury Offset Program will implement the DCIA mandates to conduct 
+centralized administrative (31 U.S.C. 3716(c)) and salary offset (5 
+U.S.C. 5514(a)). Therefore, when an agency refers a debt to FMS' 
+Treasury Offset Program, the debt automatically will be subject to 
+collection by administrative offset, salary offset, and tax refund 
+offset. Under this rule, by complying with the DCIA, agencies will meet 
+the ``reasonable efforts'' requirement since, before submitting a debt 
+for tax refund offset, agencies will have demanded payment, notified 
+the debtor that the agency intends to collect the debt by offset 
+through FMS' Treasury Offset Program if payment is not received when 
+due, and provided the debtor with an opportunity for review of the debt 
+and to enter into a reasonable repayment plan. The DCIA further 
+requires that agencies report delinquent consumer debt to credit 
+bureaus, which agencies may do prior to or after submitting a debt to 
+FMS' Treasury Offset Program. Although agencies are encouraged to 
+report delinquent debt early in the collection process, credit bureau 
+reporting is not a prerequisite to tax refund offset under this rule.
+    Paragraph (d)(1)(iv) requires agencies to certify that the debt is 
+at least $25. If a debt referred to FMS is over $25 at the time it is 
+referred, the debt will remain
+
+[[Page 34178]]
+
+subject to collection by offset until it is paid in full even if it 
+falls below the $25 minimum.
+    Paragraph (d)(2) governs pre-offset notice and consideration of 
+evidence. Under the IRS regulation codified at 26 CFR 301.6402-6(d)(1), 
+agencies are required to mail a pre-offset notice to a debtor at the 
+mailing address obtained from the IRS. Paragraph (d)(2)(i) of this rule 
+modifies this requirement. As noted above, many agencies can obtain 
+updated address information from credit reports, public record 
+databases and the debtor. In many cases, the address obtained by the 
+agency is more recent than the address that the IRS can provide based 
+on a prior year's tax return. Therefore, agencies may mail the required 
+pre-offset notice to the debtor at the most current address contained 
+in the agency's records related to the debt. An agency may, but is not 
+required to, obtain address information from the IRS pursuant to 26 
+U.S.C. 6103(m)(2), (4), or (5) in accordance with IRS procedures.
+    Paragraph (d)(2)(ii) requires that agencies provide debtors with at 
+least 30 days to request review by the agency when an agent of the 
+creditor agency has handled the review. This requirement is the same as 
+contained in the IRS regulation codified at 26 CFR 301.6402-6(d)(2).
+    Paragraph (d)(3) governs referral of past-due, legally enforceable 
+debt. This paragraph describes the information that agencies must 
+include for each debt submitted to FMS for purposes of tax refund 
+offset.
+    Paragraph (d)(4) describes the procedures for correcting and 
+updating information transmitted to FMS by a creditor agency. Under the 
+IRS regulation codified at 26 CFR 301.6402-6(f), agencies are not 
+permitted to increase the amount of debt after they refer a debt to the 
+IRS for tax refund offset. Under the Treasury Offset Program and this 
+rule, agencies may increase the amount of the debt owed, subject to 
+compliance with certification requirements. As operated by the IRS, 
+agencies submit debts annually for tax refund offset. Since, in 
+addition to tax refunds, other types of payments will be offset under 
+the Treasury Offset Program, agencies will submit debts to the debtor 
+database, and offsets will occur, on an ongoing basis. Payments will be 
+offset and applied to a debtor's debt in the order in which the 
+payments are issued. A tax refund payment is one of many types of 
+payments that may be offset. Therefore, agencies may increase the 
+amount of the debt owed if the offset prerequisites have been met.
+
+(e) Priorities for Offset
+
+    This paragraph describes how a tax refund payment is applied when a 
+taxpayer owes multiple debts. The priorities as stated in the IRS 
+regulation codified at 26 CFR 301.6402-6 have not changed. Before 
+authorizing FMS to disburse a tax refund payment, the IRS will apply 
+any amount of overpayment by the taxpayer to tax liabilities of the 
+taxpayer (see definition of ``tax refund payment'' in paragraph (a) of 
+this section).
+    Paragraph (e)(1) states that the tax refund payment will be reduced 
+and applied to a taxpayer's debts in the following order of priority: 
+First by the amount of any past-due support assigned to a State; 
+second, by the amount of any past-due, legally enforceable debt owed to 
+a Federal agency; and third, by the amount of any qualifying past-due 
+support not assigned to a State.
+    Paragraph (e)(2) states that if a debtor owes more than one past-
+due, legally enforceable debt to a Federal agency or agencies, the tax 
+refund payment shall be credited against the debts in the order in 
+which the debts accrued. A debt shall be considered to have accrued at 
+the time at which the agency determines that the debt became past due.
+    FMS notes that for payments other than tax refunds that are offset 
+under the Treasury Offset Program, debts not subject to any time 
+limitation for enforcement will be paid after debts subject to such 
+limitations. One of the purposes of the DCIA is ``to maximize 
+collections of delinquent debts owed to the Government by ensuring 
+quick action to enforce recovery of the debts and the use of all 
+appropriate collection tools.'' DCIA, Section 31001(b)(1). Generally, 
+Government policy requires that agencies apply amounts recovered by 
+offset to debts owed to Federal agencies in accordance with the best 
+interests of the United States, considering the applicable statute of 
+limitations. See Federal Claims Collection Standards at 4 CFR Part 
+102.3(g). It is in the best interests of the United States to first 
+collect debts that are subject to time limitations restrictions. 
+Therefore, if a debtor owes multiple debts to the United States, 
+amounts offset under 31 U.S.C. 3716 will be applied first to older 
+debts subject to a time limitation, and last to debts for which there 
+is no limitation to when legal action to collect the debt may be 
+initiated. See e.g., 20 U.S.C. 1091a (no limitation terminates the 
+period within which legal action, including offset, may be taken to 
+collect a student loan). However, unlike 31 U.S.C. 3716, 26 U.S.C. 
+6402(d)(2) states that a tax refund payment shall be applied to 
+multiple debts owed to Federal agencies by a taxpayer in the order in 
+which such debts accrued.
+    Paragraph (e)(3) reiterates that the tax refund payment will be 
+applied to the outstanding debts of a taxpayer prior to the taxpayer's 
+future estimated tax liabilities. Any amounts remaining after offset 
+shall be applied to estimated tax, or will be refunded to the taxpayer.
+
+(f) Post-Offset Notice to the Debtor, the Creditor Agency, and the IRS
+
+    As provided by the IRS under the IRS regulation codified at 26 CFR 
+301.6402-6(h), under this paragraph (f), once an offset of a tax refund 
+payment has occurred, FMS will provide notice to the payee and the 
+creditor agency collecting the debt. FMS will not inform the creditor 
+agency of the payment source of the amounts collected. Since FMS and 
+other disbursing agencies will be conducting offsets of various payment 
+types, debt repayment may result from any one of a number of payment 
+sources. In its notice to the payee, FMS also will notify a non-debtor 
+spouse who files a joint income tax return with a debtor and who is 
+entitled to a tax refund of the procedures that may be taken to secure 
+his or her proper share of the tax refund. FMS will notify the IRS of 
+any offsets.
+
+(g) Offset Made With Regard to a Tax Refund Payment Based Upon Joint 
+Return
+
+    This paragraph states that a non-debtor spouse who files a joint 
+income tax return with a debtor should take appropriate action to 
+secure his or her proper share of a tax refund from which an offset was 
+made. Such procedures are governed by IRS rules and are not affected by 
+this rule.
+
+(h) Disposition of Amounts Collected
+
+    This paragraph describes how amounts collected from tax refund 
+payments will be transmitted to creditor agencies.
+
+(i) Fees
+
+    As did the IRS, FMS will charge a fee to cover the costs of the tax 
+refund offset program incurred by FMS and IRS. FMS will deduct the fee 
+from the amount offset before that amount is transmitted to the 
+creditor agency. The creditor agency may add this fee to the amount of 
+the debt as an administrative cost if permitted by law. FMS may adjust 
+the amount of the fee annually to ensure that the fee adequately covers 
+the
+
+[[Page 34179]]
+
+administrative costs of the tax refund offset program.
+
+(j) Review of Tax Refund Offsets
+
+    As provided in the IRS regulation codified at 26 CFR 301.6402-6(l) 
+and not changed by this rule, the reduction of a taxpayer's refund made 
+pursuant to 26 U.S.C. 6402(d) shall not be subject to review by any 
+court of the United States or by the Secretary of the Treasury, FMS or 
+IRS in an administrative proceeding. Any action taken to recover the 
+amount of a tax refund offset must be taken against the Federal 
+creditor agency to which the amount of the reduction was paid. With 
+respect to recoveries of overpayments of benefits under 42 U.S.C. 404, 
+any action to recover the amount of the tax refund offset must be taken 
+against the Commissioner of Social Security.
+
+(k) Access to and Use of Confidential Tax Information
+
+    Since creditor agencies will not receive information identifying 
+the payment source of an offset, FMS does not anticipate that creditor 
+agencies will have access to and use of confidential tax information 
+under the merged offset programs. If any such information is disclosed, 
+however, access to and use of such information is restricted and 
+governed by 26 U.S.C. 6103.
+
+(l) Effective Date
+
+    The merger of the tax refund offset program with the administrative 
+offset program conducted by FMS will be effective for all tax refund 
+payments payable after January 1, 1998. Before that date, Federal 
+agencies must publish or amend tax refund offset regulations and 
+otherwise comply with tax refund offset prerequisites, such as 
+providing notice to debtors, to participate in the merged program for 
+tax refund payments payable after January 1, 1998. Therefore, although 
+this rule applies to tax refund payments payable after January 1, 1998, 
+agencies are required to comply with the requirements of this rule on 
+July 25, 1997.
+
+Regulatory Analyses
+
+    This interim rule is not a significant regulatory action as defined 
+in Executive Order 12866. Because no notice of proposed rulemaking is 
+required for this interim rule, the provisions of the Regulatory 
+Flexibility Act do not apply.
+
+Special Analyses
+
+    FMS is promulgating this interim rule without opportunity for prior 
+public comment pursuant to the Administrative Procedure Act, 5 U.S.C. 
+553, because FMS has determined that a comment period would be 
+unnecessary, impractical, and contrary to the public interest. A 
+comment period is unnecessary because this interim rule does not 
+contain any significant, substantive changes from the IRS regulations 
+and does not change how the tax refund offset program affects the 
+taxpayer who owes delinquent nontax debt. This interim rule reflects 
+changes to procedures under which creditor agencies submit debt 
+information to Treasury because of DCIA requirements and the merger of 
+the tax refund offset program with other Federal offset programs. Under 
+this regulation, creditor agencies will submit delinquent debt 
+information to FMS, instead of the IRS. Creditor agencies remain 
+responsible for providing debtors with the same pre-offset notice, 
+opportunities, and rights to dispute the debt as required under 
+existing IRS regulations.
+    The purpose of a delayed effective date is to afford persons 
+affected by a rule a reasonable time to prepare for compliance. 
+However, in this case, many agencies have participated in the tax 
+refund offset program over the last 10 years. Procedures affecting 
+debtors remain substantially unchanged. The procedural changes in this 
+rule affect how agencies will participate in the offset program. In 
+order to implement the merged offset programs for tax refund payments 
+made after January 1, 1998, agencies may need to modify and/or 
+promulgate their own offset regulations and provide debtors with pre-
+offset notice prior to October 1997. This interim rule provides 
+critical guidance that will facilitate creditor agencies' participation 
+in the tax refund offset program in 1998.
+    The merged offset programs will improve the efficiency of 
+Treasury's government-wide collection of nontax delinquent debts. 
+Therefore, FMS believes that good cause exists and that it is in the 
+public interest to issue the interim rule without opportunity for prior 
+public comment.
+    The public is invited to submit comments on the interim rule which 
+will be taken into account before a final rule is issued.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Claims, Privacy, Taxes.
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, part 285 is added to 31 
+CFR chapter II, subchapter A, to read as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+Subpart A--Disbursing Official Offset
+
+Sec.
+285.1  [Reserved]
+285.2  Offset of tax refund payments to collect past-due, legally 
+enforceable nontax debt.
+
+    Authority: 26 U.S.C. 6402; 31 U.S.C. 321, 3720A.
+
+Subpart A--Disbursing Official Offset
+
+
+Sec. 285.1  [Reserved]
+
+
+Sec. 285.2  Offset of tax refund payments to collect past-due, legally 
+enforceable nontax debt.
+
+    (a) Definitions. For purposes of this section:
+    Creditor agency means a Federal agency owed a claim that seeks to 
+collect that claim through tax refund offset.
+    Debt or claim refers to an amount of money, funds, or property 
+which has been determined by an agency official to be due the United 
+States from any person, organization, or entity, except another Federal 
+agency. For the purposes of this section, the terms ``claim'' and 
+``debt'' are synonymous and interchangeable and includes debt 
+administered by a third party acting as an agent for the Federal 
+Government.
+    Debtor means a person who owes a debt or claim. The term ``person'' 
+includes any individual, organization or entity, except another Federal 
+agency.
+    FMS means the Financial Management Service, a bureau of the 
+Department of the Treasury.
+    IRS means the Internal Revenue Service, a bureau of the Department 
+of the Treasury.
+    Tax refund offset means withholding or reducing a tax refund 
+payment by an amount necessary to satisfy a debt owed by the payee(s) 
+of a tax refund payment.
+    Tax refund payment means any overpayment of Federal taxes to be 
+refunded to the person making the overpayment after the IRS makes the 
+appropriate credits as provided in 26 U.S.C. 6402(a) and 26 CFR 6402-
+3(a)(6)(i) for any liabilities for any tax on the part of the person 
+who made the overpayment.
+    (b) General rule. (1) A Federal agency (as defined in 26 U.S.C. 
+6402(g)) that is owed by a person a past-due, legally enforceable 
+nontax debt shall notify FMS of the amount of such debt for collection 
+by tax refund offset. However, any agency subject to section 9 of the 
+Act of May 18, 1933 (16 U.S.C. 831h) owed such a debt may, but is not
+
+[[Page 34180]]
+
+required to, notify FMS of the amount of such debt for collection by 
+tax refund offset.
+    (2) FMS will compare tax refund payment records, as certified by 
+the IRS, with records of debts submitted to FMS. A match will occur 
+when the taxpayer identifying number (as that term is used in 26 U.S.C. 
+6109) and name (or derivation of the name, known as a ``name control'') 
+of a payment certification record are the same as the taxpayer 
+identifying number and name control of a debtor record. When a match 
+occurs and all other requirements for tax refund offset have been met, 
+FMS will reduce the amount of any tax refund payment payable to a 
+debtor by the amount of any past-due, legally enforceable debt owed by 
+the debtor. Any amounts not offset will be paid to the payee(s) listed 
+in the payment certification record.
+    (3) This section does not apply to any debt or claim arising under 
+the Internal Revenue Code.
+    (4)(i) This section applies to Federal Old Age, Survivors and 
+Disability Insurance (OASDI) overpayments provided the requirements of 
+31 U.S.C. 3720A(f)(1) and (2) are met with respect to such 
+overpayments.
+    (ii) For purposes of this section, ``OASDI overpayment'' means any 
+overpayment of benefits made to an individual under title II of the 
+Social Security Act (42 U.S.C. 401 et seq.).
+    (5) A creditor agency is not precluded from using debt collection 
+procedures, such as wage garnishment, to collect debts that have been 
+submitted to FMS for purposes of offset under this part. Such debt 
+collection procedures may be used separately or in conjunction with 
+offset collection procedures.
+    (c) Regulations. Prior to submitting debts to FMS for collection by 
+tax refund offset, Federal agencies shall promulgate temporary or final 
+regulations under 31 U.S.C. 3716 and 31 U.S.C. 3720A, governing the 
+agencies' authority to collect debts by administrative offset, in 
+general, and offset of tax refund payments, in particular.
+    (d) Agency certification and referral of debt--(1) Past-due, 
+legally enforceable debt eligible for tax refund offset. For purposes 
+of this section, when a Federal agency refers a past-due, legally 
+enforceable debt to FMS for tax refund offset, the agency will certify 
+to FMS that:
+    (i) The debt is past-due and legally enforceable in the amount 
+submitted to FMS and that the agency will ensure that collections are 
+properly credited to the debt;
+    (ii) Except in the case of a judgment debt or as otherwise allowed 
+by law, the debt is referred for offset within ten years after the 
+agency's right of action accrues;
+    (iii) The creditor agency has made reasonable efforts to obtain 
+payment of the debt in that the agency has:
+    (A) Submitted the debt to FMS for collection by administrative 
+offset and complied with the provisions of 31 U.S.C. 3716(a) and 
+related regulations, to the extent that collection of the debt by 
+administrative offset is not prohibited by statute;
+    (B) Notified, or has made a reasonable attempt to notify, the 
+debtor that the debt is past-due, and unless repaid within 60 days 
+after the date of the notice, will be referred to FMS for tax refund 
+offset;
+    (C) Given the debtor at least 60 days to present evidence that all 
+or part of the debt is not past-due or legally enforceable, considered 
+any evidence presented by the debtor, and determined that the debt is 
+past-due and legally enforceable; and
+    (D) Provided the debtor with an opportunity to make a written 
+agreement to repay the amount of the debt;
+    (iv) The debt is at least $25; and
+    (v) In the case of an OASDI overpayment--
+    (A) The individual is not currently entitled to monthly insurance 
+benefits under title II of the Social Security Act (42 U.S.C. 401 et 
+seq.);
+    (B) The notice describes conditions under which the Commissioner of 
+Social Security is required to waive recovery of the overpayment, as 
+provided under 42 U.S.C. 404(b); and
+    (C) If the debtor files a request for a waiver under 42 U.S.C. 
+404(b) within the 60-day notice period, the agency has considered the 
+debtor's request.
+    (2) Pre-offset notice and consideration of evidence for past-due, 
+legally enforceable debt. (i) For purposes of paragraph (d)(1)(iii)(B) 
+of this section, a creditor agency has made a reasonable attempt to 
+notify the debtor if the agency uses the current address information 
+contained in the agency's records related to the debt. Agencies may, 
+but are not required to, obtain address information from the IRS 
+pursuant to 26 U.S.C. 6103(m)(2), (4), or (5).
+    (ii) For purposes of paragraph (d)(1)(iii)(C) of this section, if 
+the evidence presented by the debtor is considered by an agent of the 
+creditor agency, or other entities or persons acting on the agency's 
+behalf, the debtor must be accorded at least 30 days from the date the 
+agent or other entity or person determines that all or part of the debt 
+is past-due and legally enforceable to request review by an officer or 
+employee of the agency of any unresolved dispute. The agency must then 
+notify the debtor of its decision.
+    (3) Referral of past-due, legally enforceable debt. A Federal 
+agency will submit past-due, legally enforceable debt information for 
+tax refund offset to FMS in the time and manner prescribed by FMS. For 
+each debt, the creditor agency will include the following information:
+    (i) The name and taxpayer identifying number (as defined in 26 
+U.S.C. 6109) of the debtor who is responsible for the debt;
+    (ii) The amount of such past-due and legally enforceable debt;
+    (iii) The date on which the debt became past-due;
+    (iv) The designation of the Federal agency or subagency referring 
+the debt; and
+    (v) In the case of an OASDI overpayment, a certification by the 
+Commissioner of Social Security designating whether the amount payable 
+to the agency is to be deposited in either the Federal Old-Age and 
+Survivors Insurance Trust Fund or the Federal Disability Insurance 
+Trust Fund, but not both.
+    (4) Correcting and updating referral. If, after referring a past-
+due, legally enforceable debt to FMS as provided in paragraph (d)(3) of 
+this section, a creditor agency determines that an error has been made 
+with respect to the information transmitted to FMS, or if an agency 
+receives a payment or credits a payment to the account of a debtor 
+referred to FMS for offset, or if the debt amount is otherwise 
+incorrect, the agency shall promptly notify FMS and make the 
+appropriate correction of the agency's records. Creditor agencies will 
+provide certification as required under paragraph (d)(1) of this 
+section for any increases to amounts owed.
+    (5) FMS may reject a certification which does not comply with the 
+requirements of paragraph (d)(1) of this section. Upon notification of 
+the rejection and the reason for the rejection, a creditor agency may 
+resubmit the debt with a corrected certification.
+    (e) Priorities for offset. (1) A tax refund payment shall be 
+reduced first by the amount of any past-due support assigned to a State 
+under section 402(a)(26) or section 471(a)(17) of the Social Security 
+Act (42 U.S.C. 602(a)(26) or 42 U.S.C. 671(a)(17)) which is to be 
+offset under 26 U.S.C. 6402(c), 42 U.S.C. 664 and the regulations 
+thereunder; second, by the amount of any past-due,
+
+[[Page 34181]]
+
+legally enforceable debt owed to a Federal agency which is to be offset 
+under 26 U.S.C. 6402(d), 31 U.S.C. 3720A and this section; and third, 
+by the amount of any qualifying past-due support not assigned to a 
+State which is to be offset under 26 U.S.C. 6402(c), 42 U.S.C. 664 and 
+the regulations thereunder.
+    (2) If a debtor owes more than one past-due, legally enforceable 
+debt to a Federal agency or agencies, the tax refund payment shall be 
+credited against the debts in the order in which the debts accrued. A 
+debt shall be considered to have accrued at the time at which the 
+agency determines that the debt became past due.
+    (3) Reduction of the tax refund payment pursuant to 26 U.S.C. 
+6402(a), (c), and (d) shall occur prior to crediting the overpayment to 
+any future liability for an internal revenue tax. Any amount remaining 
+after tax refund offset under 26 U.S.C. 6402 (a), (c), and (d) shall be 
+refunded to the taxpayer, or applied to estimated tax, if elected by 
+the taxpayer pursuant to IRS regulations.
+    (f) Post-offset notice to the debtor, the creditor agency, and the 
+IRS. (1)(i) FMS will notify the payee(s) to whom the tax refund payment 
+is due, in writing of:
+    (A) The amount and date of the offset to satisfy a past-due, 
+legally enforceable nontax debt;
+    (B) The creditor agency to which this amount has been paid or 
+credited; and
+    (C) A contact point within the creditor agency that will handle 
+concerns or questions regarding the offset.
+    (ii) The notice in paragraph (f)(1)(i) of this section will also 
+advise any non-debtor spouse who may have filed a joint tax return with 
+the debtor of the steps which a non-debtor spouse may take in order to 
+secure his or her proper share of the tax refund. See paragraph (g) of 
+this section.
+    (2) FMS will advise each creditor agency of the names, mailing 
+addresses, and identifying numbers of the debtors from whom amounts of 
+past-due, legally enforceable debt were collected and of the amounts 
+collected from each debtor for that agency. FMS will not advise the 
+creditor agency of the source of payment from which such amounts were 
+collected. If a payment from which an amount of past-due, legally 
+enforceable debt is to be withheld is payable to two individual payees, 
+FMS will notify the creditor agency and furnish the name and address of 
+each payee to whom the payment was payable.
+    (3) At least weekly, FMS will notify the IRS of the names and 
+taxpayer identifying numbers of the debtors from whom amounts of past-
+due, legally enforceable debt were collected and the amounts collected 
+from each debtor.
+    (g) Offset made with regard to a tax refund payment based upon 
+joint return. If the person filing a joint return with a debtor owing 
+the past-due, legally enforceable debt takes appropriate action to 
+secure his or her proper share of a tax refund from which an offset was 
+made, the IRS will pay the person his or her share of the refund and 
+request that FMS deduct that amount from amounts payable to the 
+creditor agency. FMS and the creditor agency will adjust their debtor 
+records accordingly.
+    (h) Disposition of amounts collected. FMS will transmit amounts 
+collected for past-due, legally enforceable debts, less fees charged 
+under paragraph (i) of this section, to the creditor agency's account. 
+If an erroneous payment is made to any agency, FMS will notify the 
+creditor agency that an erroneous payment has been made. The agency 
+shall pay promptly to FMS an amount equal to the amount of the 
+erroneous payment (without regard to whether any other amounts payable 
+to such agency have been paid).
+    (i) Fees. The creditor agency will reimburse FMS and the IRS for 
+the full cost of administering the tax refund offset program. FMS will 
+deduct the fees from amounts collected prior to disposition and 
+transmit a portion of the fees deducted to reimburse the IRS for its 
+share of the cost of administering the tax refund offset program. To 
+the extent allowed by law, creditor agencies may add the offset fees to 
+the debt.
+    (j) Review of tax refund offsets. Any reduction of a taxpayer's 
+refund made pursuant to 26 U.S.C. 6402(d) shall not be subject to 
+review by any court of the United States or by the Secretary of the 
+Treasury, FMS or IRS in an administrative proceeding. No action brought 
+against the United States to recover the amount of this reduction shall 
+be considered to be a suit for refund of tax. Any legal, equitable, or 
+administrative action by any person seeking to recover the amount of 
+the reduction of the overpayment must be taken against the Federal 
+creditor agency to which the amount of the reduction was paid. Any 
+action which is otherwise available with respect to recoveries of 
+overpayments of benefits under 42 U.S.C. 404 must be taken against the 
+Commissioner of Social Security.
+    (k) Access to and use of confidential tax information. Access to 
+and use of confidential tax information in connection with the tax 
+refund offset program are restricted by 26 U.S.C. 6103. Generally, 
+agencies will not receive confidential tax information from FMS. To the 
+extent such information is received, agencies are subject to the 
+safeguard, recordkeeping, and reporting requirements of 26 U.S.C. 
+6103(p)(4) and the regulations thereunder. The agency shall inform its 
+officers and employees who access or use confidential tax information 
+of the restrictions and penalties under the Internal Revenue Code for 
+misuse of confidential tax information.
+    (l) Effective date. This section applies to tax refund payments 
+payable under 26 U.S.C. 6402 after January 1, 1998.
+
+    Dated: June 6, 1997.
+Russell D. Morris,
+Commissioner, Financial Management Service.
+[FR Doc. 97-16181 Filed 6-24-97; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

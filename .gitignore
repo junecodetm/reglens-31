@@ -24,3 +24,6 @@ logs/
 
 # Playwright MCP session artifacts (may contain page snapshots)
 .playwright-mcp/
+
+# EXTEND-OGC01: full USLM title zips are cached, never committed
+data/cache/
