@@ -59,6 +59,21 @@ function Checklist({ checklist }: { checklist: DraftChecklist }) {
     ["Quotes verified", checklist.quotes_verified],
     ["Overall passed", checklist.passed],
   ] as const;
+  const apaProceduralChecks = [
+    ["Authority citation present", checklist.authority_citation_present],
+    [
+      "Basis-and-purpose elements present",
+      checklist.basis_and_purpose_present,
+    ],
+    [
+      "Comment-period / effective-date reference",
+      checklist.comment_period_reference,
+    ],
+    [
+      "Amendatory verb forms demonstrated (add / revise / remove-and-reserve)",
+      checklist.amendatory_forms_demonstrated,
+    ],
+  ] as const;
 
   return (
     <>
@@ -82,7 +97,90 @@ function Checklist({ checklist }: { checklist: DraftChecklist }) {
             : checklist.fabrication_hits.join("; ")}
         </li>
       </ul>
+
+      <h4>APA procedural elements (structural presence only)</h4>
+      <ul
+        className="eval-details"
+        aria-label={`APA procedural elements for ${draftLabel(checklist)}`}
+      >
+        {apaProceduralChecks.map(([label, value]) => (
+          <li key={label}>
+            {label}: <strong>{passFail(value)}</strong>
+          </li>
+        ))}
+      </ul>
+      <p>
+        {
+          "These checks verify the structural presence of required elements in the skeleton. They are not a determination of legal sufficiency."
+        }
+      </p>
     </>
+  );
+}
+
+function GenerationProvenance({
+  checklist,
+}: {
+  checklist: DraftChecklist;
+}) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const key = draftKey(checklist);
+  const buttonId = `draft-${key}-provenance-button`;
+  const panelId = `draft-${key}-provenance-panel`;
+
+  return (
+    <div>
+      <Button
+        id={buttonId}
+        type="button"
+        base
+        outline
+        aria-expanded={isExpanded}
+        aria-controls={panelId}
+        onClick={() => setIsExpanded((current) => !current)}
+      >
+        Generation provenance
+      </Button>
+
+      <div id={panelId} aria-labelledby={buttonId} hidden={!isExpanded}>
+        <p>
+          <strong>Model:</strong> {checklist.dossier.model}
+        </p>
+        <p>
+          <strong>Decoding:</strong> temperature{" "}
+          {checklist.dossier.temperature}, seed {checklist.dossier.seed}, context{" "}
+          {checklist.dossier.num_ctx}, max tokens{" "}
+          {checklist.dossier.num_predict}
+        </p>
+        <p>
+          <strong>System prompt SHA-256:</strong>{" "}
+          <code className="provenance-digest">
+            {checklist.dossier.system_prompt_sha256}
+          </code>
+        </p>
+        <p>
+          <strong>User prompt SHA-256:</strong>{" "}
+          <code className="provenance-digest">
+            {checklist.dossier.prompt_sha256}
+          </code>
+        </p>
+        <p>
+          <strong>Source input SHA-256:</strong>{" "}
+          <code className="provenance-digest">
+            {checklist.dossier.input_sha256}
+          </code>
+        </p>
+        <p>
+          <strong>Model-generated fields:</strong>{" "}
+          {checklist.dossier.narrative_fields.join(", ")}
+        </p>
+        <p>
+          {
+            "Model, decoding parameters, and SHA-256 digests of the prompts and source input for the model-generated narrative fields. Everything else in the skeleton is deterministic template output."
+          }
+        </p>
+      </div>
+    </div>
   );
 }
 
@@ -334,6 +432,7 @@ export function DraftsSection() {
                     </Button>
 
                     <Checklist checklist={checklist} />
+                    <GenerationProvenance checklist={checklist} />
 
                     <div id={panelId} hidden={!draftIsExpanded}>
                       {draftTextState?.status === "loading" ? (

@@ -3,13 +3,16 @@
 import { useEffect, useRef, useState } from "react";
 
 import { AuthoritySection } from "./components/AuthoritySection";
+import { BrowseSection } from "./components/BrowseSection";
 import { ClaimsPane } from "./components/ClaimsPane";
+import { CrossRefSection } from "./components/CrossRefSection";
 import { DisclaimerBand } from "./components/DisclaimerBand";
 import { DraftsSection } from "./components/DraftsSection";
 import { EvalSection } from "./components/EvalSection";
 import { GroundingSection } from "./components/GroundingSection";
 import { Ogc01EvalSection } from "./components/Ogc01EvalSection";
 import { RejectedClaims } from "./components/RejectedClaims";
+import { SearchSection } from "./components/SearchSection";
 import { SourcePane } from "./components/SourcePane";
 import {
   DISCLAIMER_TEXT,
@@ -224,9 +227,15 @@ export default function Home() {
               />
             </div>
 
+            <SearchSection />
+
+            <BrowseSection />
+
             <EvalSection />
 
             <AuthoritySection />
+
+            <CrossRefSection />
 
             <GroundingSection />
 

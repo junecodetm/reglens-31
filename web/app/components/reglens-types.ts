@@ -158,6 +158,18 @@ export interface GroundingData {
   }>;
 }
 
+export interface DraftDossier {
+  model: string;
+  temperature: number;
+  seed: number;
+  num_ctx: number;
+  num_predict: number;
+  system_prompt_sha256: string;
+  prompt_sha256: string;
+  input_sha256: string;
+  narrative_fields: string[];
+}
+
 export interface ConformanceData {
   generated: number;
   accepted: number;
@@ -173,11 +185,16 @@ export interface ConformanceData {
     analysis_sections_present: boolean;
     placeholders_intact: boolean;
     amendatory_instructions_parse: boolean;
+    amendatory_forms_demonstrated: boolean;
+    authority_citation_present: boolean;
+    basis_and_purpose_present: boolean;
+    comment_period_reference: boolean;
     setout_text_verified: boolean;
     narrative_fabrication_clean: boolean;
     quotes_verified: boolean;
     unverified_quote_count: number;
     fabrication_hits: string[];
+    dossier: DraftDossier;
     passed: boolean;
   }>;
 }
