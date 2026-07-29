@@ -1,54 +1,20 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-
 import type { ClaimRecord, SourceTextState } from "./reglens-types";
+import {
+  computeHighlightSegments,
+  HighlightedText,
+} from "./ui/HighlightedText";
 
 interface SourcePaneProps {
   selectedClaim: ClaimRecord | null;
   sourceState: SourceTextState;
 }
 
-interface SourceSegments {
-  before: string;
-  highlighted: string;
-  after: string;
-}
-
-function getSourceSegments(
-  sourceText: string,
-  claim: ClaimRecord,
-): SourceSegments | null {
-  // Offsets come from the fail-closed provenance gate, which matched the quote
-  // under documented normalization (NFKC + whitespace collapse). Raw slices can
-  // therefore differ from the quote in whitespace, so only bounds are checked.
-  const { start, end } = claim;
-
-  if (
-    start === null ||
-    end === null ||
-    !Number.isInteger(start) ||
-    !Number.isInteger(end) ||
-    start < 0 ||
-    end <= start ||
-    end > sourceText.length
-  ) {
-    return null;
-  }
-
-  return {
-    before: sourceText.slice(0, start),
-    highlighted: sourceText.slice(start, end),
-    after: sourceText.slice(end),
-  };
-}
-
 export function SourcePane({
   selectedClaim,
   sourceState,
 }: SourcePaneProps) {
-  const panelRef = useRef<HTMLDivElement>(null);
-  const markRef = useRef<HTMLElement>(null);
   const isCurrentDocument =
     selectedClaim !== null &&
     sourceState.status !== "idle" &&
@@ -57,34 +23,14 @@ export function SourcePane({
     isCurrentDocument && sourceState.status === "ready"
       ? sourceState.text
       : null;
-  const sourceSegments =
+  const highlightResult =
     selectedClaim && readyText
-      ? getSourceSegments(readyText, selectedClaim)
+      ? computeHighlightSegments(
+          readyText,
+          selectedClaim.start,
+          selectedClaim.end,
+        )
       : null;
-
-  useEffect(() => {
-    const panel = panelRef.current;
-    const highlight = markRef.current;
-
-    if (!panel || !highlight) {
-      return;
-    }
-
-    const panelRect = panel.getBoundingClientRect();
-    const highlightRect = highlight.getBoundingClientRect();
-    const targetTop =
-      panel.scrollTop +
-      (highlightRect.top - panelRect.top) -
-      (panel.clientHeight - highlightRect.height) / 2;
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-
-    panel.scrollTo({
-      top: Math.max(0, targetTop),
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-    });
-  }, [readyText, selectedClaim?.claim_id]);
 
   return (
     <section className="pane source-pane" aria-labelledby="source-heading">
@@ -151,7 +97,7 @@ export function SourcePane({
 
           {readyText !== null ? (
             <>
-              {!sourceSegments ? (
+              {highlightResult?.status !== "ready" ? (
                 <div className="error-state" role="alert">
                   <h3>Verified span unavailable</h3>
                   <p>
@@ -165,23 +111,18 @@ export function SourcePane({
                 </p>
               )}
 
-              <div
-                ref={panelRef}
-                className="source-document"
-                tabIndex={0}
-                role="region"
-                aria-label="Source document text"
-              >
-                {sourceSegments ? (
-                  <>
-                    {sourceSegments.before}
-                    <mark ref={markRef}>{sourceSegments.highlighted}</mark>
-                    {sourceSegments.after}
-                  </>
-                ) : (
-                  readyText
-                )}
-              </div>
+              <HighlightedText
+                text={readyText}
+                start={selectedClaim.start}
+                end={selectedClaim.end}
+                selectionKey={selectedClaim.claim_id}
+                regionLabel="Source document text"
+                highlightStatus={`Source passage highlighted for ${selectedClaim.summary}`}
+                noSpanMessage="The saved offsets do not match the quoted source text, so no passage has been highlighted."
+                boundsMessage="The saved offsets do not match the quoted source text, so no passage has been highlighted."
+                retryWhenVisible={false}
+                showStatus={false}
+              />
             </>
           ) : null}
         </>

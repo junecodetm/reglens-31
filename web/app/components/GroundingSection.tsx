@@ -10,18 +10,17 @@ import {
 import { Button, Table } from "@trussworks/react-uswds";
 
 import type { GroundingData } from "./reglens-types";
+import {
+  computeHighlightSegments,
+  HighlightedText,
+} from "./ui/HighlightedText";
+import { useLazyJson } from "./ui/useLazyJson";
 
 const BAND_DEFINITION =
   "Bands report TEXTUAL-MARKER DENSITY only (listed phrase families per 1,000 words; none=0, low≤0.2, moderate≤0.6, elevated>0.6), applied identically to both marker families. They describe phrase frequency in the published document text and are not a prediction of any judicial outcome or a statement about any regulation's validity.";
 
 type GroundingRule = GroundingData["rules"][number];
 type GroundingMarker = GroundingRule["markers"][number];
-
-type GroundingState =
-  | { status: "idle" }
-  | { status: "loading" }
-  | { status: "ready"; data: GroundingData }
-  | { status: "error"; message: string };
 
 type DocumentViewState =
   | { status: "idle" }
@@ -33,35 +32,6 @@ interface SelectedMarker {
   documentNumber: string;
   markerIndex: number;
   marker: GroundingMarker;
-}
-
-interface SourceSegments {
-  before: string;
-  highlighted: string;
-  after: string;
-}
-
-function getSourceSegments(
-  sourceText: string,
-  marker: GroundingMarker,
-): SourceSegments | null {
-  const { start, end } = marker;
-
-  if (
-    !Number.isInteger(start) ||
-    !Number.isInteger(end) ||
-    start < 0 ||
-    end <= start ||
-    end > sourceText.length
-  ) {
-    return null;
-  }
-
-  return {
-    before: sourceText.slice(0, start),
-    highlighted: sourceText.slice(start, end),
-    after: sourceText.slice(end),
-  };
 }
 
 function compareDocumentNumbers(
@@ -108,9 +78,11 @@ function DensityValue({
 
 export function GroundingSection() {
   const [expanded, setExpanded] = useState(false);
-  const [groundingState, setGroundingState] = useState<GroundingState>({
-    status: "idle",
-  });
+  const { state: groundingState, load: loadGroundingData } =
+    useLazyJson<GroundingData>("/data/grounding.json", {
+      requestErrorPrefix: "Request returned status ",
+      fallbackErrorMessage: "The grounding data could not be loaded.",
+    });
   const [expandedRuleNumber, setExpandedRuleNumber] = useState<string | null>(
     null,
   );
@@ -120,15 +92,11 @@ export function GroundingSection() {
     status: "idle",
   });
 
-  const groundingRequestedRef = useRef(false);
-  const groundingControllerRef = useRef<AbortController | null>(null);
   const documentCacheRef = useRef<Map<string, string>>(new Map());
   const documentControllersRef = useRef<Map<string, AbortController>>(
     new Map(),
   );
   const selectedMarkerRef = useRef<SelectedMarker | null>(null);
-  const panelRef = useRef<HTMLDivElement>(null);
-  const markRef = useRef<HTMLElement>(null);
 
   const sortedRules = useMemo(() => {
     if (groundingState.status !== "ready") {
@@ -147,9 +115,13 @@ export function GroundingSection() {
     documentView.documentNumber === selectedMarker.documentNumber
       ? documentView.text
       : null;
-  const sourceSegments =
+  const highlightResult =
     selectedMarker !== null && readyText !== null
-      ? getSourceSegments(readyText, selectedMarker.marker)
+      ? computeHighlightSegments(
+          readyText,
+          selectedMarker.marker.start,
+          selectedMarker.marker.end,
+        )
       : null;
   const selectedMarkerKey =
     selectedMarker === null
@@ -160,7 +132,6 @@ export function GroundingSection() {
     const documentControllers = documentControllersRef.current;
 
     return () => {
-      groundingControllerRef.current?.abort();
       for (const controller of documentControllers.values()) {
         controller.abort();
       }
@@ -168,66 +139,11 @@ export function GroundingSection() {
     };
   }, []);
 
-  useEffect(() => {
-    const panel = panelRef.current;
-    const highlight = markRef.current;
-
-    if (!panel || !highlight) {
-      return;
-    }
-
-    const panelRect = panel.getBoundingClientRect();
-    const highlightRect = highlight.getBoundingClientRect();
-    const targetTop =
-      panel.scrollTop +
-      (highlightRect.top - panelRect.top) -
-      (panel.clientHeight - highlightRect.height) / 2;
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-
-    panel.scrollTo({
-      top: Math.max(0, targetTop),
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-    });
-  }, [readyText, selectedMarkerKey]);
-
-  async function loadGroundingData() {
-    const controller = new AbortController();
-    groundingControllerRef.current = controller;
-    setGroundingState({ status: "loading" });
-
-    try {
-      const response = await fetch("/data/grounding.json", {
-        signal: controller.signal,
-      });
-      if (!response.ok) {
-        throw new Error(`Request returned status ${response.status}.`);
-      }
-
-      const data = (await response.json()) as GroundingData;
-      if (!controller.signal.aborted) {
-        setGroundingState({ status: "ready", data });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setGroundingState({
-          status: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The grounding data could not be loaded.",
-        });
-      }
-    }
-  }
-
   function toggleSection() {
     const nextExpanded = !expanded;
     setExpanded(nextExpanded);
 
-    if (nextExpanded && !groundingRequestedRef.current) {
-      groundingRequestedRef.current = true;
+    if (nextExpanded && groundingState.status === "idle") {
       void loadGroundingData();
     }
   }
@@ -573,7 +489,8 @@ export function GroundingSection() {
                                         selectedMarker !== null &&
                                         readyText !== null ? (
                                           <>
-                                            {sourceSegments ? (
+                                            {highlightResult?.status ===
+                                            "ready" ? (
                                               <p role="status">
                                                 Highlighted saved marker span [
                                                 {selectedMarker.marker.start},{" "}
@@ -602,27 +519,23 @@ export function GroundingSection() {
                                               </div>
                                             )}
 
-                                            <div
-                                              ref={panelRef}
-                                              className="source-document"
-                                              tabIndex={0}
-                                              role="region"
-                                              aria-label={`Published document text for ${rule.document_number}, marker ${markerIndex + 1}`}
-                                            >
-                                              {sourceSegments ? (
-                                                <>
-                                                  {sourceSegments.before}
-                                                  <mark ref={markRef}>
-                                                    {
-                                                      sourceSegments.highlighted
-                                                    }
-                                                  </mark>
-                                                  {sourceSegments.after}
-                                                </>
-                                              ) : (
-                                                readyText
-                                              )}
-                                            </div>
+                                            <HighlightedText
+                                              text={readyText}
+                                              start={
+                                                selectedMarker.marker.start
+                                              }
+                                              end={selectedMarker.marker.end}
+                                              selectionKey={
+                                                selectedMarkerKey ??
+                                                rule.document_number
+                                              }
+                                              regionLabel={`Published document text for ${rule.document_number}, marker ${markerIndex + 1}`}
+                                              highlightStatus={`Highlighted saved marker span [${selectedMarker.marker.start}, ${selectedMarker.marker.end}) for family ${selectedMarker.marker.family}.`}
+                                              noSpanMessage="The saved offsets do not fall within the published document text, so no passage is highlighted."
+                                              boundsMessage="The saved offsets do not fall within the published document text, so no passage is highlighted."
+                                              retryWhenVisible={false}
+                                              showStatus={false}
+                                            />
                                           </>
                                         ) : null}
                                       </div>

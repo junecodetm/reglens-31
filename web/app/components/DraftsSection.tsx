@@ -4,12 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import type { ConformanceData } from "./reglens-types";
-
-type ConformanceState =
-  | { status: "idle" }
-  | { status: "loading" }
-  | { status: "ready"; data: ConformanceData }
-  | { status: "error"; message: string };
+import { ExpandableGroup } from "./ui/ExpandableGroup";
+import { useLazyJson } from "./ui/useLazyJson";
 
 type DraftTextState =
   | { status: "loading" }
@@ -186,16 +182,19 @@ function GenerationProvenance({
 
 export function DraftsSection() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [conformanceState, setConformanceState] =
-    useState<ConformanceState>({ status: "idle" });
+  const {
+    state: conformanceState,
+    load: loadConformance,
+  } = useLazyJson<ConformanceData>("/data/conformance.json", {
+    requestErrorPrefix: "Request failed with status ",
+    fallbackErrorMessage: "The draft conformance data could not be loaded.",
+  });
   const [expandedDrafts, setExpandedDrafts] = useState<Set<string>>(
     () => new Set(),
   );
   const [draftTextStates, setDraftTextStates] = useState<
     Record<string, DraftTextState>
   >({});
-  const conformanceRequestStartedRef = useRef(false);
-  const conformanceControllerRef = useRef<AbortController | null>(null);
   const draftRequestsRef = useRef<Set<string>>(new Set());
   const draftControllersRef = useRef<Map<string, AbortController>>(
     new Map(),
@@ -203,43 +202,9 @@ export function DraftsSection() {
 
   useEffect(() => {
     return () => {
-      conformanceControllerRef.current?.abort();
       draftControllersRef.current.forEach((controller) => controller.abort());
     };
   }, []);
-
-  async function loadConformance() {
-    const controller = new AbortController();
-    conformanceControllerRef.current = controller;
-    setConformanceState({ status: "loading" });
-
-    try {
-      const response = await fetch("/data/conformance.json", {
-        signal: controller.signal,
-      });
-
-      if (!response.ok) {
-        throw new Error(`Request failed with status ${response.status}.`);
-      }
-
-      const data = (await response.json()) as ConformanceData;
-
-      if (!controller.signal.aborted) {
-        setConformanceState({ status: "ready", data });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        conformanceRequestStartedRef.current = false;
-        setConformanceState({
-          status: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The draft conformance data could not be loaded.",
-        });
-      }
-    }
-  }
 
   async function loadDraft(checklist: DraftChecklist, key: string) {
     const draftTextState = draftTextStates[key];
@@ -303,10 +268,8 @@ export function DraftsSection() {
     if (
       willExpand &&
       (conformanceState.status === "idle" ||
-        conformanceState.status === "error") &&
-      !conformanceRequestStartedRef.current
+        conformanceState.status === "error")
     ) {
-      conformanceRequestStartedRef.current = true;
       void loadConformance();
     }
   }
@@ -414,54 +377,70 @@ export function DraftsSection() {
                 const draftTextState = draftTextStates[key];
 
                 return (
-                  <article
+                  <ExpandableGroup
+                    id={`draft-${key}`}
+                    label={label}
+                    expanded={draftIsExpanded}
+                    onToggle={() => handleDraftToggle(checklist)}
+                    as="article"
+                    containerId={null}
                     className="document-group"
-                    aria-labelledby={headingId}
+                    ariaLabelledby={headingId}
+                    panelId={panelId}
+                    panelClassName={null}
                     key={key}
-                  >
-                    <h3 id={headingId}>{label}</h3>
+                    renderToggle={({
+                      expanded,
+                      onToggle,
+                      panelId: togglePanelId,
+                    }) => (
+                      <>
+                        <h3 id={headingId}>{label}</h3>
 
-                    <Button
-                      type="button"
-                      base
-                      outline
-                      aria-expanded={draftIsExpanded}
-                      aria-controls={panelId}
-                      onClick={() => handleDraftToggle(checklist)}
-                      style={{ width: "100%", textAlign: "left" }}
-                    >
-                      {draftIsExpanded
-                        ? `Hide draft text for ${label}`
-                        : `Load and show draft text for ${label}`}
-                    </Button>
-
-                    <Checklist checklist={checklist} />
-                    <GenerationProvenance checklist={checklist} />
-
-                    <div id={panelId} hidden={!draftIsExpanded}>
-                      {draftTextState?.status === "loading" ? (
-                        <p role="status">Loading draft text for {label}…</p>
-                      ) : null}
-
-                      {draftTextState?.status === "error" ? (
-                        <p role="alert">
-                          The draft text could not be loaded.{" "}
-                          {draftTextState.message}
-                        </p>
-                      ) : null}
-
-                      {draftTextState?.status === "ready" ? (
-                        <pre
-                          className="source-document"
-                          tabIndex={0}
-                          role="region"
-                          aria-label={`Draft text for ${label}`}
+                        <Button
+                          type="button"
+                          base
+                          outline
+                          aria-expanded={expanded}
+                          aria-controls={togglePanelId}
+                          onClick={onToggle}
+                          style={{ width: "100%", textAlign: "left" }}
                         >
-                          {draftTextState.text}
-                        </pre>
-                      ) : null}
-                    </div>
-                  </article>
+                          {expanded
+                            ? `Hide draft text for ${label}`
+                            : `Load and show draft text for ${label}`}
+                        </Button>
+                      </>
+                    )}
+                    beforePanel={
+                      <>
+                        <Checklist checklist={checklist} />
+                        <GenerationProvenance checklist={checklist} />
+                      </>
+                    }
+                  >
+                    {draftTextState?.status === "loading" ? (
+                      <p role="status">Loading draft text for {label}…</p>
+                    ) : null}
+
+                    {draftTextState?.status === "error" ? (
+                      <p role="alert">
+                        The draft text could not be loaded.{" "}
+                        {draftTextState.message}
+                      </p>
+                    ) : null}
+
+                    {draftTextState?.status === "ready" ? (
+                      <pre
+                        className="source-document"
+                        tabIndex={0}
+                        role="region"
+                        aria-label={`Draft text for ${label}`}
+                      >
+                        {draftTextState.text}
+                      </pre>
+                    ) : null}
+                  </ExpandableGroup>
                 );
               })}
             </div>

@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { Alert } from "@trussworks/react-uswds";
 
-type Interval = [number, number];
+import { MetricCard } from "./ui/MetricCard";
+import { fmt, type MetricInterval } from "./ui/metric-format";
 
 type EvalReport = {
   n_provisions: number;
@@ -11,11 +12,11 @@ type EvalReport = {
   precision: number;
   recall: number;
   f1: number;
-  precision_wilson: Interval;
-  recall_wilson: Interval;
-  precision_bootstrap: Interval;
-  recall_bootstrap: Interval;
-  f1_bootstrap: Interval;
+  precision_wilson: MetricInterval;
+  recall_wilson: MetricInterval;
+  precision_bootstrap: MetricInterval;
+  recall_bootstrap: MetricInterval;
+  f1_bootstrap: MetricInterval;
   kappa_pass1_pass2: number | null;
   kappa_band: string | null;
   kappa_note: string;
@@ -33,35 +34,6 @@ type EvalState =
   | { status: "loading" }
   | { status: "ready"; report: EvalReport }
   | { status: "error"; message: string };
-
-function fmt(value: number): string {
-  return value.toFixed(3);
-}
-
-function ci(interval: Interval): string {
-  return `[${fmt(interval[0])}, ${fmt(interval[1])}]`;
-}
-
-function MetricCard({
-  label,
-  value,
-  wilson,
-  bootstrap,
-}: {
-  label: string;
-  value: number;
-  wilson?: Interval;
-  bootstrap: Interval;
-}) {
-  return (
-    <div className="metric-card">
-      <h3>{label}</h3>
-      <p className="metric-value">{fmt(value)}</p>
-      {wilson ? <p className="metric-ci">95% Wilson {ci(wilson)}</p> : null}
-      <p className="metric-ci">95% clustered bootstrap {ci(bootstrap)}</p>
-    </div>
-  );
-}
 
 export function EvalSection() {
   const [state, setState] = useState<EvalState>({ status: "loading" });
@@ -120,19 +92,40 @@ export function EvalSection() {
             <MetricCard
               label="Precision"
               value={state.report.precision}
-              wilson={state.report.precision_wilson}
-              bootstrap={state.report.precision_bootstrap}
+              intervals={[
+                {
+                  label: "95% Wilson",
+                  interval: state.report.precision_wilson,
+                },
+                {
+                  label: "95% clustered bootstrap",
+                  interval: state.report.precision_bootstrap,
+                },
+              ]}
             />
             <MetricCard
               label="Recall"
               value={state.report.recall}
-              wilson={state.report.recall_wilson}
-              bootstrap={state.report.recall_bootstrap}
+              intervals={[
+                {
+                  label: "95% Wilson",
+                  interval: state.report.recall_wilson,
+                },
+                {
+                  label: "95% clustered bootstrap",
+                  interval: state.report.recall_bootstrap,
+                },
+              ]}
             />
             <MetricCard
               label="F1"
               value={state.report.f1}
-              bootstrap={state.report.f1_bootstrap}
+              intervals={[
+                {
+                  label: "95% clustered bootstrap",
+                  interval: state.report.f1_bootstrap,
+                },
+              ]}
             />
           </div>
 

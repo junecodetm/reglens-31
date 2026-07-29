@@ -3,7 +3,7 @@
 import { useCallback, useState } from "react";
 import { Alert, Button } from "@trussworks/react-uswds";
 
-type Interval = [number, number];
+import { ci, fmt, type MetricInterval } from "./ui/metric-format";
 
 type Ogc01Report = {
   link_gold_count: number;
@@ -14,16 +14,16 @@ type Ogc01Report = {
   link_precision: number | null;
   link_recall: number | null;
   link_f1: number | null;
-  link_precision_wilson: Interval | null;
-  link_recall_wilson: Interval | null;
-  link_f1_bootstrap: Interval | null;
+  link_precision_wilson: MetricInterval | null;
+  link_recall_wilson: MetricInterval | null;
+  link_f1_bootstrap: MetricInterval | null;
   link_kappa: number | null;
   link_pass_agreement: number | null;
   class_n: number;
   class_correct: number;
   class_accuracy: number | null;
-  class_accuracy_wilson: Interval | null;
-  class_accuracy_bootstrap: Interval | null;
+  class_accuracy_wilson: MetricInterval | null;
+  class_accuracy_bootstrap: MetricInterval | null;
   class_icc: number | null;
   class_design_effect: number | null;
   class_effective_n: number | null;
@@ -36,13 +36,13 @@ type Ogc01Report = {
   marker_judged: number;
   marker_genuine: number;
   marker_precision: number | null;
-  marker_precision_wilson: Interval | null;
-  marker_precision_bootstrap: Interval | null;
+  marker_precision_wilson: MetricInterval | null;
+  marker_precision_bootstrap: MetricInterval | null;
   marker_missed: number;
   marker_missed_pending: number;
   marker_judged_excluded: number;
   marker_recall: number | null;
-  marker_recall_wilson: Interval | null;
+  marker_recall_wilson: MetricInterval | null;
   grounding_kappa: number | null;
   grounding_kappa_band: string | null;
   marker_trust_note: string;
@@ -64,16 +64,6 @@ type State =
   | { status: "loading" }
   | { status: "ready"; report: Ogc01Report }
   | { status: "error"; message: string };
-
-function fmt(value: number | null): string {
-  return value === null ? "—" : value.toFixed(3);
-}
-
-function ci(interval: Interval | null): string {
-  return interval === null
-    ? ""
-    : ` [${interval[0].toFixed(3)}, ${interval[1].toFixed(3)}]`;
-}
 
 export function Ogc01EvalSection() {
   const [state, setState] = useState<State>({ status: "idle" });
@@ -129,15 +119,15 @@ export function Ogc01EvalSection() {
             <li>
               Link precision {fmt(state.report.link_precision)}
               {state.report.link_precision_wilson
-                ? ` (95% Wilson${ci(state.report.link_precision_wilson)})`
+                ? ` (95% Wilson ${ci(state.report.link_precision_wilson)})`
                 : ""}
               , recall {fmt(state.report.link_recall)}
               {state.report.link_recall_wilson
-                ? ` (95% Wilson${ci(state.report.link_recall_wilson)})`
+                ? ` (95% Wilson ${ci(state.report.link_recall_wilson)})`
                 : ""}
               , F1 {fmt(state.report.link_f1)}
               {state.report.link_f1_bootstrap
-                ? ` (cluster-resampling range${ci(state.report.link_f1_bootstrap)})`
+                ? ` (cluster-resampling range ${ci(state.report.link_f1_bootstrap)})`
                 : ""}{" "}
               — TP {state.report.link_tp} / FP {state.report.link_fp} / FN{" "}
               {state.report.link_fn} over {state.report.link_gold_count} gold pairs.
@@ -147,10 +137,10 @@ export function Ogc01EvalSection() {
               {fmt(state.report.class_accuracy)} ({state.report.class_correct}/
               {state.report.class_n}
               {state.report.class_accuracy_wilson
-                ? `; 95% Wilson${ci(state.report.class_accuracy_wilson)}`
+                ? `; 95% Wilson ${ci(state.report.class_accuracy_wilson)}`
                 : ""}
               {state.report.class_accuracy_bootstrap
-                ? `; cluster-resampling range${ci(state.report.class_accuracy_bootstrap)}`
+                ? `; cluster-resampling range ${ci(state.report.class_accuracy_bootstrap)}`
                 : ""}
               {state.report.class_effective_n !== null
                 ? `; effective n ≈ ${Math.round(state.report.class_effective_n)}` +
@@ -193,16 +183,16 @@ export function Ogc01EvalSection() {
               In-context precision {fmt(state.report.marker_precision)} (
               {state.report.marker_genuine}/{state.report.marker_judged} judged genuine
               {state.report.marker_precision_wilson
-                ? `; 95% Wilson${ci(state.report.marker_precision_wilson)}`
+                ? `; 95% Wilson ${ci(state.report.marker_precision_wilson)}`
                 : ""}
               {state.report.marker_precision_bootstrap
-                ? `; document-cluster resampling range${ci(state.report.marker_precision_bootstrap)}`
+                ? `; document-cluster resampling range ${ci(state.report.marker_precision_bootstrap)}`
                 : ""}
               ); recall vs the independent sweep {fmt(state.report.marker_recall)} (
               {state.report.marker_missed} missed occurrence
               {state.report.marker_missed === 1 ? "" : "s"}
               {state.report.marker_recall_wilson
-                ? `; 95% Wilson${ci(state.report.marker_recall_wilson)}`
+                ? `; 95% Wilson ${ci(state.report.marker_recall_wilson)}`
                 : ""}
               ).
             </li>

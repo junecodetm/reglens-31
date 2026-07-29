@@ -4,18 +4,18 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import type { AuthorityData } from "./reglens-types";
+import { ExpandableGroup } from "./ui/ExpandableGroup";
+import {
+  HighlightedText,
+  type HighlightedTextProps,
+} from "./ui/HighlightedText";
+import { useLazyJson } from "./ui/useLazyJson";
 
 type AuthorityPart = AuthorityData["parts"][number];
 type AuthorityCitation = AuthorityPart["citations"][number];
 type ResolvedSection = AuthorityPart["resolved"][number];
 type CitationKind = AuthorityCitation["kind"];
 type NonSectionCitationKind = Exclude<CitationKind, "usc-section">;
-
-type AuthorityState =
-  | { status: "idle" }
-  | { status: "loading" }
-  | { status: "ready"; data: AuthorityData }
-  | { status: "error"; message: string };
 
 type TextLoadState =
   | { status: "idle" }
@@ -27,23 +27,6 @@ interface UscSelection {
   part: number;
   title: number;
   section: string;
-}
-
-interface TextSegments {
-  before: string;
-  highlighted: string;
-  after: string;
-}
-
-interface HighlightedTextProps {
-  text: string;
-  start: number | null;
-  end: number | null;
-  selectionKey: string;
-  regionLabel: string;
-  highlightStatus: string;
-  noSpanMessage: string;
-  boundsMessage: string;
 }
 
 interface TextRequestViewProps
@@ -79,30 +62,6 @@ const NEUTRAL_COUNT_CLASS =
   "bg-base-lightest border border-base-lighter radius-sm padding-1 text-ink";
 const CLASSIFICATION_CHIP_CLASS =
   "usa-tag bg-base-lighter text-ink text-normal";
-
-function getTextSegments(
-  text: string,
-  start: number | null,
-  end: number | null,
-): TextSegments | null {
-  if (
-    start === null ||
-    end === null ||
-    !Number.isInteger(start) ||
-    !Number.isInteger(end) ||
-    start < 0 ||
-    end <= start ||
-    end > text.length
-  ) {
-    return null;
-  }
-
-  return {
-    before: text.slice(0, start),
-    highlighted: text.slice(start, end),
-    after: text.slice(end),
-  };
-}
 
 function domIdSegment(value: string): string {
   return value.replace(/[^A-Za-z0-9_-]/g, "-");
@@ -153,88 +112,6 @@ async function fetchText(
   return response.text();
 }
 
-function HighlightedText({
-  text,
-  start,
-  end,
-  selectionKey,
-  regionLabel,
-  highlightStatus,
-  noSpanMessage,
-  boundsMessage,
-}: HighlightedTextProps) {
-  const panelRef = useRef<HTMLDivElement>(null);
-  const markRef = useRef<HTMLElement>(null);
-  const segments = getTextSegments(text, start, end);
-  const hasRecordedOffsets = start !== null || end !== null;
-  const descriptionId = `authority-text-status-${domIdSegment(selectionKey)}`;
-
-  useEffect(() => {
-    const panel = panelRef.current;
-    const highlight = markRef.current;
-
-    if (!panel || !highlight) {
-      return;
-    }
-
-    const panelRect = panel.getBoundingClientRect();
-    const highlightRect = highlight.getBoundingClientRect();
-    const targetTop =
-      panel.scrollTop +
-      (highlightRect.top - panelRect.top) -
-      (panel.clientHeight - highlightRect.height) / 2;
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-
-    panel.scrollTo({
-      top: Math.max(0, targetTop),
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-    });
-  }, [end, selectionKey, start, text]);
-
-  return (
-    <>
-      {segments ? (
-        <p
-          id={descriptionId}
-          className="screen-reader-only"
-          role="status"
-        >
-          {highlightStatus}
-        </p>
-      ) : (
-        <p
-          id={descriptionId}
-          className={`${NEUTRAL_NOTICE_CLASS} margin-top-1`}
-          role="status"
-        >
-          {hasRecordedOffsets ? boundsMessage : noSpanMessage}
-        </p>
-      )}
-
-      <div
-        ref={panelRef}
-        className="source-document"
-        tabIndex={0}
-        role="region"
-        aria-label={regionLabel}
-        aria-describedby={descriptionId}
-      >
-        {segments ? (
-          <>
-            {segments.before}
-            <mark ref={markRef}>{segments.highlighted}</mark>
-            {segments.after}
-          </>
-        ) : (
-          text
-        )}
-      </div>
-    </>
-  );
-}
-
 function TextRequestView({
   state,
   requestKey,
@@ -266,14 +143,254 @@ function TextRequestView({
     );
   }
 
-  return <HighlightedText text={state.text} {...highlightedTextProps} />;
+  return (
+    <HighlightedText
+      text={state.text}
+      {...highlightedTextProps}
+      descriptionId={`authority-text-status-${domIdSegment(highlightedTextProps.selectionKey)}`}
+      readyStatusClassName="screen-reader-only"
+      noticeStatusClassName={`${NEUTRAL_NOTICE_CLASS} margin-top-1`}
+      scrollBehavior="smooth"
+      retryWhenVisible={false}
+    />
+  );
+}
+
+interface AuthorityPartDetailsProps {
+  part: AuthorityPart;
+  selectedUsc: UscSelection | null;
+  uscTextState: TextLoadState;
+  onToggleUsc: (part: number, section: ResolvedSection) => void;
+}
+
+function AuthorityPartDetails({
+  part,
+  selectedUsc,
+  uscTextState,
+  onToggleUsc,
+}: AuthorityPartDetailsProps) {
+  const nonSectionCount = part.citations.filter(
+    (citation) => citation.kind !== "usc-section",
+  ).length;
+
+  return (
+    <>
+      <section className="margin-top-3">
+        <h4 id={`authority-part-${part.part}-usc-heading`}>
+          {CITATION_KIND_LABELS["usc-section"]}
+        </h4>
+
+        {part.resolved.length === 0 ? (
+          <p>No resolved U.S.C. sections are recorded.</p>
+        ) : (
+          <ul className="claim-list">
+            {part.resolved.map((section, index) => {
+              const citation = findCitationForSection(part, section);
+              const rawCitation =
+                citation?.raw ??
+                `${section.usc_title} U.S.C. ${section.usc_section}`;
+              const uscIsSelected = isSameUscSelection(
+                selectedUsc,
+                part.part,
+                section,
+              );
+              const textKey = uscTextKey(
+                section.usc_title,
+                section.usc_section,
+              );
+              const panelId = `authority-usc-${part.part}-${section.usc_title}-${domIdSegment(section.usc_section)}-${index}`;
+
+              return (
+                <ExpandableGroup
+                  as="li"
+                  id={panelId}
+                  label={
+                    <>
+                      <span className="display-block text-bold">
+                        {uscIsSelected
+                          ? "Hide U.S.C. section text"
+                          : "Show U.S.C. section text"}
+                      </span>
+                      <span className="display-block margin-top-1">
+                        {rawCitation}
+                      </span>
+                    </>
+                  }
+                  expanded={uscIsSelected}
+                  onToggle={() => onToggleUsc(part.part, section)}
+                  containerId={null}
+                  className={null}
+                  ariaLabelledby={null}
+                  panelId={panelId}
+                  panelClassName={null}
+                  renderToggle={({
+                    expanded,
+                    label,
+                    onToggle,
+                    panelId,
+                  }) => (
+                    <Button
+                      type="button"
+                      base
+                      outline
+                      className="width-full text-left"
+                      aria-expanded={expanded}
+                      aria-controls={panelId}
+                      onClick={onToggle}
+                    >
+                      {label}
+                    </Button>
+                  )}
+                  beforePanel={
+                    <div className="padding-x-1 padding-bottom-2">
+                      <p className="margin-y-1">
+                        <strong>Heading:</strong> {section.heading}
+                      </p>
+                      <p className="margin-y-1">
+                        <strong>Identifier:</strong>{" "}
+                        <code>{section.identifier}</code>
+                      </p>
+                      <p className="margin-y-1">
+                        <span className={CLASSIFICATION_CHIP_CLASS}>
+                          Classification: {section.classification}
+                        </span>
+                      </p>
+                      {section.status ? (
+                        <p className="margin-y-1">
+                          <strong>Status:</strong> {section.status}
+                        </p>
+                      ) : null}
+                      {citation?.from_range ? (
+                        <p className="margin-y-1">
+                          <strong>Expanded from cited range:</strong>{" "}
+                          {citation.from_range}
+                        </p>
+                      ) : null}
+                      <p className="margin-y-1">
+                        <strong>Recorded verb passage:</strong>{" "}
+                        {section.verb_quote ? (
+                          <q>{section.verb_quote}</q>
+                        ) : (
+                          "None recorded"
+                        )}
+                      </p>
+                      {section.gate_rejected ? (
+                        <div
+                          className={`${NEUTRAL_NOTICE_CLASS} margin-y-1`}
+                        >
+                          <p className="margin-y-0">
+                            <strong>Gate rejection recorded.</strong>{" "}
+                            {section.rejection_reason ??
+                              "No reason is recorded."}
+                          </p>
+                        </div>
+                      ) : null}
+                    </div>
+                  }
+                  key={`${section.identifier}-${index}`}
+                >
+                  <TextRequestView
+                    state={uscTextState}
+                    requestKey={textKey}
+                    loadingMessage={`Loading ${section.usc_title} U.S.C. ${section.usc_section} text…`}
+                    start={section.verb_start}
+                    end={section.verb_end}
+                    selectionKey={`usc-${part.part}-${textKey}`}
+                    regionLabel={`${section.usc_title} U.S.C. ${section.usc_section} text`}
+                    highlightStatus={`Recorded verb passage highlighted for ${section.usc_title} U.S.C. ${section.usc_section}.`}
+                    noSpanMessage="No verb passage span is recorded; the full U.S.C. section text is shown."
+                    boundsMessage="The recorded verb passage span falls outside the served U.S.C. section text; the full section text is shown without a highlighted passage."
+                  />
+                </ExpandableGroup>
+              );
+            })}
+          </ul>
+        )}
+      </section>
+
+      <section className="margin-top-3">
+        <h4 id={`authority-part-${part.part}-coverage-heading`}>
+          Resolves outside codified section text (coverage category)
+        </h4>
+
+        {nonSectionCount === 0 ? (
+          <p>None recorded for this part.</p>
+        ) : (
+          NON_SECTION_KINDS.map((kind) => {
+            const citations = part.citations.filter(
+              (citation) => citation.kind === kind,
+            );
+
+            if (citations.length === 0) {
+              return null;
+            }
+
+            return (
+              <section key={kind}>
+                <h5 id={`authority-part-${part.part}-${kind}-heading`}>
+                  {CITATION_KIND_LABELS[kind]}
+                </h5>
+                <ul className="usa-list">
+                  {citations.map((citation, index) => (
+                    <li key={`${citation.raw}-${index}`}>{citation.raw}</li>
+                  ))}
+                </ul>
+              </section>
+            );
+          })
+        )}
+      </section>
+
+      <section className="margin-top-3">
+        <h4 id={`authority-part-${part.part}-unresolved-heading`}>
+          Unresolved (fail-closed, not guessed)
+        </h4>
+
+        {part.unresolved.length === 0 ? (
+          <p>None recorded for this part.</p>
+        ) : (
+          CITATION_KINDS.map((kind) => {
+            const citations = part.unresolved.filter(
+              (citation) => citation.kind === kind,
+            );
+
+            if (citations.length === 0) {
+              return null;
+            }
+
+            return (
+              <section key={kind}>
+                <h5
+                  id={`authority-part-${part.part}-unresolved-${kind}-heading`}
+                >
+                  {CITATION_KIND_LABELS[kind]}
+                </h5>
+                <ul className="usa-list">
+                  {citations.map((citation, index) => (
+                    <li key={`${citation.raw}-${index}`}>
+                      {citation.raw}
+                      {citation.from_range ? (
+                        <> (from range {citation.from_range})</>
+                      ) : null}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            );
+          })
+        )}
+      </section>
+    </>
+  );
 }
 
 export function AuthoritySection() {
   const [expanded, setExpanded] = useState(false);
-  const [authorityState, setAuthorityState] = useState<AuthorityState>({
-    status: "idle",
-  });
+  const { state: authorityState, load: loadAuthorityData } =
+    useLazyJson<AuthorityData>("/data/authority.json", {
+      requestErrorPrefix: "The authority request returned status ",
+      fallbackErrorMessage: "The authority data could not be loaded.",
+    });
   const [selectedPart, setSelectedPart] = useState<number | null>(null);
   const [partTextState, setPartTextState] = useState<TextLoadState>({
     status: "idle",
@@ -285,8 +402,6 @@ export function AuthoritySection() {
     status: "idle",
   });
 
-  const authorityRequestedRef = useRef(false);
-  const authorityControllerRef = useRef<AbortController | null>(null);
   const partControllerRef = useRef<AbortController | null>(null);
   const uscControllerRef = useRef<AbortController | null>(null);
   const partTextCacheRef = useRef<Map<string, string>>(new Map());
@@ -294,54 +409,10 @@ export function AuthoritySection() {
 
   useEffect(() => {
     return () => {
-      authorityControllerRef.current?.abort();
       partControllerRef.current?.abort();
       uscControllerRef.current?.abort();
     };
   }, []);
-
-  async function loadAuthorityData(): Promise<void> {
-    if (authorityRequestedRef.current) {
-      return;
-    }
-
-    authorityRequestedRef.current = true;
-    const controller = new AbortController();
-    authorityControllerRef.current = controller;
-    setAuthorityState({ status: "loading" });
-
-    try {
-      const response = await fetch("/data/authority.json", {
-        signal: controller.signal,
-      });
-
-      if (!response.ok) {
-        throw new Error(
-          `The authority request returned status ${response.status}.`,
-        );
-      }
-
-      const data = (await response.json()) as AuthorityData;
-
-      if (!controller.signal.aborted) {
-        setAuthorityState({ status: "ready", data });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setAuthorityState({
-          status: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The authority data could not be loaded.",
-        });
-      }
-    } finally {
-      if (authorityControllerRef.current === controller) {
-        authorityControllerRef.current = null;
-      }
-    }
-  }
 
   async function loadPartText(part: number): Promise<void> {
     const key = authorityPartKey(part);
@@ -564,264 +635,69 @@ export function AuthoritySection() {
                 const partIsSelected = selectedPart === part.part;
                 const partKey = authorityPartKey(part.part);
                 const partPanelId = `authority-part-${part.part}-text`;
-                const nonSectionCount = part.citations.filter(
-                  (citation) => citation.kind !== "usc-section",
-                ).length;
 
                 return (
-                  <article className="document-group" key={part.part}>
-                    <h3>
-                      31 CFR part {part.part}: {part.part_heading}
-                    </h3>
+                  <ExpandableGroup
+                    id={`authority-part-${part.part}`}
+                    label={`31 CFR part ${part.part}: ${part.part_heading}`}
+                    expanded={partIsSelected}
+                    onToggle={() => togglePart(part.part)}
+                    containerId={null}
+                    className="document-group"
+                    ariaLabelledby={null}
+                    panelId={partPanelId}
+                    panelClassName={null}
+                    renderToggle={({
+                      expanded,
+                      label,
+                      onToggle,
+                      panelId,
+                    }) => (
+                      <>
+                        <h3>{label}</h3>
 
-                    <Button
-                      type="button"
-                      base
-                      outline
-                      className="width-full text-left"
-                      aria-expanded={partIsSelected}
-                      aria-controls={partPanelId}
-                      onClick={() => togglePart(part.part)}
-                    >
-                      <span className="display-block text-bold margin-bottom-1">
-                        {partIsSelected ? "Hide part text" : "Show part text"}
-                      </span>
-                      <span className="display-block">
-                        {part.authority_text}
-                      </span>
-                    </Button>
-
-                    <div id={partPanelId} hidden={!partIsSelected}>
-                      <TextRequestView
-                        state={partTextState}
-                        requestKey={partKey}
-                        loadingMessage={`Loading 31 CFR part ${part.part} text…`}
-                        start={part.authority_start}
-                        end={part.authority_end}
-                        selectionKey={`part-${part.part}`}
-                        regionLabel={`31 CFR part ${part.part} text`}
-                        highlightStatus={`Authority citation passage highlighted for 31 CFR part ${part.part}.`}
-                        noSpanMessage="No authority citation span is recorded; the full part text is shown."
-                        boundsMessage="The recorded authority citation span falls outside the served part text; the full part text is shown without a highlighted passage."
+                        <Button
+                          type="button"
+                          base
+                          outline
+                          className="width-full text-left"
+                          aria-expanded={expanded}
+                          aria-controls={panelId}
+                          onClick={onToggle}
+                        >
+                          <span className="display-block text-bold margin-bottom-1">
+                            {expanded ? "Hide part text" : "Show part text"}
+                          </span>
+                          <span className="display-block">
+                            {part.authority_text}
+                          </span>
+                        </Button>
+                      </>
+                    )}
+                    afterPanel={
+                      <AuthorityPartDetails
+                        part={part}
+                        selectedUsc={selectedUsc}
+                        uscTextState={uscTextState}
+                        onToggleUsc={toggleUsc}
                       />
-                    </div>
+                    }
+                    key={part.part}
+                  >
+                    <TextRequestView
+                      state={partTextState}
+                      requestKey={partKey}
+                      loadingMessage={`Loading 31 CFR part ${part.part} text…`}
+                      start={part.authority_start}
+                      end={part.authority_end}
+                      selectionKey={`part-${part.part}`}
+                      regionLabel={`31 CFR part ${part.part} text`}
+                      highlightStatus={`Authority citation passage highlighted for 31 CFR part ${part.part}.`}
+                      noSpanMessage="No authority citation span is recorded; the full part text is shown."
+                      boundsMessage="The recorded authority citation span falls outside the served part text; the full part text is shown without a highlighted passage."
+                    />
 
-                    <section
-                      className="margin-top-3"
-                    >
-                      <h4 id={`authority-part-${part.part}-usc-heading`}>
-                        {CITATION_KIND_LABELS["usc-section"]}
-                      </h4>
-
-                      {part.resolved.length === 0 ? (
-                        <p>No resolved U.S.C. sections are recorded.</p>
-                      ) : (
-                        <ul className="claim-list">
-                          {part.resolved.map((section, index) => {
-                            const citation = findCitationForSection(
-                              part,
-                              section,
-                            );
-                            const rawCitation =
-                              citation?.raw ??
-                              `${section.usc_title} U.S.C. ${section.usc_section}`;
-                            const uscIsSelected = isSameUscSelection(
-                              selectedUsc,
-                              part.part,
-                              section,
-                            );
-                            const textKey = uscTextKey(
-                              section.usc_title,
-                              section.usc_section,
-                            );
-                            const panelId = `authority-usc-${part.part}-${section.usc_title}-${domIdSegment(section.usc_section)}-${index}`;
-
-                            return (
-                              <li key={`${section.identifier}-${index}`}>
-                                <Button
-                                  type="button"
-                                  base
-                                  outline
-                                  className="width-full text-left"
-                                  aria-expanded={uscIsSelected}
-                                  aria-controls={panelId}
-                                  onClick={() =>
-                                    toggleUsc(part.part, section)
-                                  }
-                                >
-                                  <span className="display-block text-bold">
-                                    {uscIsSelected
-                                      ? "Hide U.S.C. section text"
-                                      : "Show U.S.C. section text"}
-                                  </span>
-                                  <span className="display-block margin-top-1">
-                                    {rawCitation}
-                                  </span>
-                                </Button>
-
-                                <div className="padding-x-1 padding-bottom-2">
-                                  <p className="margin-y-1">
-                                    <strong>Heading:</strong>{" "}
-                                    {section.heading}
-                                  </p>
-                                  <p className="margin-y-1">
-                                    <strong>Identifier:</strong>{" "}
-                                    <code>{section.identifier}</code>
-                                  </p>
-                                  <p className="margin-y-1">
-                                    <span
-                                      className={CLASSIFICATION_CHIP_CLASS}
-                                    >
-                                      Classification:{" "}
-                                      {section.classification}
-                                    </span>
-                                  </p>
-                                  {section.status ? (
-                                    <p className="margin-y-1">
-                                      <strong>Status:</strong>{" "}
-                                      {section.status}
-                                    </p>
-                                  ) : null}
-                                  {citation?.from_range ? (
-                                    <p className="margin-y-1">
-                                      <strong>Expanded from cited range:</strong>{" "}
-                                      {citation.from_range}
-                                    </p>
-                                  ) : null}
-                                  <p className="margin-y-1">
-                                    <strong>Recorded verb passage:</strong>{" "}
-                                    {section.verb_quote ? (
-                                      <q>{section.verb_quote}</q>
-                                    ) : (
-                                      "None recorded"
-                                    )}
-                                  </p>
-                                  {section.gate_rejected ? (
-                                    <div
-                                      className={`${NEUTRAL_NOTICE_CLASS} margin-y-1`}
-                                    >
-                                      <p className="margin-y-0">
-                                        <strong>Gate rejection recorded.</strong>{" "}
-                                        {section.rejection_reason ??
-                                          "No reason is recorded."}
-                                      </p>
-                                    </div>
-                                  ) : null}
-                                </div>
-
-                                <div id={panelId} hidden={!uscIsSelected}>
-                                  <TextRequestView
-                                    state={uscTextState}
-                                    requestKey={textKey}
-                                    loadingMessage={`Loading ${section.usc_title} U.S.C. ${section.usc_section} text…`}
-                                    start={section.verb_start}
-                                    end={section.verb_end}
-                                    selectionKey={`usc-${part.part}-${textKey}`}
-                                    regionLabel={`${section.usc_title} U.S.C. ${section.usc_section} text`}
-                                    highlightStatus={`Recorded verb passage highlighted for ${section.usc_title} U.S.C. ${section.usc_section}.`}
-                                    noSpanMessage="No verb passage span is recorded; the full U.S.C. section text is shown."
-                                    boundsMessage="The recorded verb passage span falls outside the served U.S.C. section text; the full section text is shown without a highlighted passage."
-                                  />
-                                </div>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      )}
-                    </section>
-
-                    <section
-                      className="margin-top-3"
-                    >
-                      <h4
-                        id={`authority-part-${part.part}-coverage-heading`}
-                      >
-                        Resolves outside codified section text (coverage category)
-                      </h4>
-
-                      {nonSectionCount === 0 ? (
-                        <p>None recorded for this part.</p>
-                      ) : (
-                        NON_SECTION_KINDS.map((kind) => {
-                          const citations = part.citations.filter(
-                            (citation) => citation.kind === kind,
-                          );
-
-                          if (citations.length === 0) {
-                            return null;
-                          }
-
-                          return (
-                            <section
-                              key={kind}
-                            >
-                              <h5
-                                id={`authority-part-${part.part}-${kind}-heading`}
-                              >
-                                {CITATION_KIND_LABELS[kind]}
-                              </h5>
-                              <ul className="usa-list">
-                                {citations.map((citation, index) => (
-                                  <li key={`${citation.raw}-${index}`}>
-                                    {citation.raw}
-                                  </li>
-                                ))}
-                              </ul>
-                            </section>
-                          );
-                        })
-                      )}
-                    </section>
-
-                    <section
-                      className="margin-top-3"
-                    >
-                      <h4
-                        id={`authority-part-${part.part}-unresolved-heading`}
-                      >
-                        Unresolved (fail-closed, not guessed)
-                      </h4>
-
-                      {part.unresolved.length === 0 ? (
-                        <p>None recorded for this part.</p>
-                      ) : (
-                        CITATION_KINDS.map((kind) => {
-                          const citations = part.unresolved.filter(
-                            (citation) => citation.kind === kind,
-                          );
-
-                          if (citations.length === 0) {
-                            return null;
-                          }
-
-                          return (
-                            <section
-                              key={kind}
-                            >
-                              <h5
-                                id={`authority-part-${part.part}-unresolved-${kind}-heading`}
-                              >
-                                {CITATION_KIND_LABELS[kind]}
-                              </h5>
-                              <ul className="usa-list">
-                                {citations.map((citation, index) => (
-                                  <li key={`${citation.raw}-${index}`}>
-                                    {citation.raw}
-                                    {citation.from_range ? (
-                                      <>
-                                        {" "}
-                                        (from range {citation.from_range})
-                                      </>
-                                    ) : null}
-                                  </li>
-                                ))}
-                              </ul>
-                            </section>
-                          );
-                        })
-                      )}
-                    </section>
-                  </article>
+                  </ExpandableGroup>
                 );
               })}
             </div>

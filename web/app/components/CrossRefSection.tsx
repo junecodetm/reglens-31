@@ -1,75 +1,23 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import { buildAuthorityCrossReferences } from "./crossref-utils";
 import type { AuthorityData } from "./reglens-types";
-
-type AuthorityState =
-  | { status: "idle" }
-  | { status: "loading" }
-  | { status: "ready"; data: AuthorityData }
-  | { status: "error"; message: string };
+import { useLazyJson } from "./ui/useLazyJson";
 
 const CROSS_REF_INTRO =
   "Which U.S. Code sections each ingested CFR part cites as rulemaking authority, and which cited sections are shared across parts. Retrieval over the parsed authority citations only — this is not a dependency, impact, or conflict analysis. Citations that did not resolve in the pinned U.S. Code release are listed separately as coverage facts.";
 
 export function CrossRefSection() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [authorityState, setAuthorityState] = useState<AuthorityState>({
-    status: "idle",
-  });
-  const requestStartedRef = useRef(false);
-  const controllerRef = useRef<AbortController | null>(null);
-
-  useEffect(() => {
-    return () => controllerRef.current?.abort();
-  }, []);
-
-  async function loadAuthorityData() {
-    if (requestStartedRef.current) {
-      return;
-    }
-
-    requestStartedRef.current = true;
-    const controller = new AbortController();
-    controllerRef.current = controller;
-    setAuthorityState({ status: "loading" });
-
-    try {
-      const response = await fetch("/data/authority.json", {
-        signal: controller.signal,
-      });
-
-      if (!response.ok) {
-        throw new Error(
-          `The authority request returned status ${response.status}.`,
-        );
-      }
-
-      const data = (await response.json()) as AuthorityData;
-
-      if (!controller.signal.aborted) {
-        setAuthorityState({ status: "ready", data });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        requestStartedRef.current = false;
-        setAuthorityState({
-          status: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The authority cross-reference data could not be loaded.",
-        });
-      }
-    } finally {
-      if (controllerRef.current === controller) {
-        controllerRef.current = null;
-      }
-    }
-  }
+  const { state: authorityState, load: loadAuthorityData } =
+    useLazyJson<AuthorityData>("/data/authority.json", {
+      requestErrorPrefix: "The authority request returned status ",
+      fallbackErrorMessage:
+        "The authority cross-reference data could not be loaded.",
+    });
 
   function toggleSection() {
     const willExpand = !isExpanded;

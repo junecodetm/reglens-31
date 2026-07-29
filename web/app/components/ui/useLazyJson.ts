@@ -15,7 +15,12 @@ export type LazyJsonState<T> =
 
 export interface UseLazyJsonResult<T> {
   state: LazyJsonState<T>;
-  load: () => void;
+  load: () => Promise<T | null>;
+}
+
+export interface UseLazyJsonOptions {
+  requestErrorPrefix?: string;
+  fallbackErrorMessage?: string;
 }
 
 interface LazyJsonEntry<T> {
@@ -30,6 +35,10 @@ interface ActiveJsonRequest {
 
 export function useLazyJson<T>(
   path: string,
+  {
+    requestErrorPrefix = "The JSON request returned status ",
+    fallbackErrorMessage = "The JSON data could not be loaded.",
+  }: UseLazyJsonOptions = {},
 ): UseLazyJsonResult<T> {
   const [entry, setEntry] = useState<LazyJsonEntry<T>>({
     path,
@@ -63,9 +72,9 @@ export function useLazyJson<T>(
     );
   }, [path]);
 
-  const load = useCallback(() => {
+  const load = useCallback(async (): Promise<T | null> => {
     if (requestedPathRef.current === path) {
-      return;
+      return null;
     }
 
     const activeRequest = controllerRef.current;
@@ -79,53 +88,52 @@ export function useLazyJson<T>(
     controllerRef.current = { path, controller };
     setEntry({ path, state: { status: "loading" } });
 
-    void (async () => {
-      try {
-        const response = await fetch(path, {
-          signal: controller.signal,
-        });
+    try {
+      const response = await fetch(path, {
+        signal: controller.signal,
+      });
 
-        if (!response.ok) {
-          throw new Error(
-            `The JSON request returned status ${response.status}.`,
-          );
-        }
-
-        const data = (await response.json()) as T;
-
-        if (
-          !controller.signal.aborted &&
-          requestedPathRef.current === path
-        ) {
-          setEntry({
-            path,
-            state: { status: "ready", data },
-          });
-        }
-      } catch (error: unknown) {
-        if (
-          !controller.signal.aborted &&
-          requestedPathRef.current === path
-        ) {
-          requestedPathRef.current = null;
-          setEntry({
-            path,
-            state: {
-              status: "error",
-              message:
-                error instanceof Error
-                  ? error.message
-                  : "The JSON data could not be loaded.",
-            },
-          });
-        }
-      } finally {
-        if (controllerRef.current?.controller === controller) {
-          controllerRef.current = null;
-        }
+      if (!response.ok) {
+        throw new Error(`${requestErrorPrefix}${response.status}.`);
       }
-    })();
-  }, [path]);
+
+      const data = (await response.json()) as T;
+
+      if (
+        !controller.signal.aborted &&
+        requestedPathRef.current === path
+      ) {
+        setEntry({
+          path,
+          state: { status: "ready", data },
+        });
+        return data;
+      }
+    } catch (error: unknown) {
+      if (
+        !controller.signal.aborted &&
+        requestedPathRef.current === path
+      ) {
+        requestedPathRef.current = null;
+        setEntry({
+          path,
+          state: {
+            status: "error",
+            message:
+              error instanceof Error
+                ? error.message
+                : fallbackErrorMessage,
+          },
+        });
+      }
+    } finally {
+      if (controllerRef.current?.controller === controller) {
+        controllerRef.current = null;
+      }
+    }
+
+    return null;
+  }, [fallbackErrorMessage, path, requestErrorPrefix]);
 
   useEffect(() => {
     const activeRequest = controllerRef.current;
@@ -138,7 +146,7 @@ export function useLazyJson<T>(
       // Strict Mode replays passive effects after their cleanup. Restart the
       // aborted first-open request without firing onFirstOpen a second time.
       requestedPathRef.current = null;
-      load();
+      void load();
     }
 
     return () => {

@@ -24,7 +24,13 @@ export interface HighlightedTextProps {
   boundsMessage: string;
   contextChars?: number;
   scroll?: "center" | "nearest";
+  scrollBehavior?: "auto" | "smooth";
+  retryWhenVisible?: boolean;
   as?: "div" | "pre";
+  showStatus?: boolean;
+  descriptionId?: string;
+  readyStatusClassName?: string;
+  noticeStatusClassName?: string;
 }
 
 export function computeHighlightSegments(
@@ -87,6 +93,7 @@ function scrollHighlight(
   panel: HTMLElement,
   highlight: HTMLElement,
   position: "center" | "nearest",
+  scrollBehavior: "auto" | "smooth",
 ): boolean {
   if (panel.offsetParent === null || highlight.offsetParent === null) {
     return false;
@@ -95,7 +102,10 @@ function scrollHighlight(
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
-  const behavior = prefersReducedMotion ? "auto" : "smooth";
+  const behavior =
+    scrollBehavior === "auto" || prefersReducedMotion
+      ? "auto"
+      : "smooth";
 
   if (position === "nearest") {
     highlight.scrollIntoView({
@@ -131,7 +141,13 @@ export function HighlightedText({
   boundsMessage,
   contextChars,
   scroll = "center",
+  scrollBehavior = "smooth",
+  retryWhenVisible = true,
   as = "div",
+  showStatus = true,
+  descriptionId: providedDescriptionId,
+  readyStatusClassName = "screen-reader-only",
+  noticeStatusClassName = "neutral-notice margin-top-1",
 }: HighlightedTextProps) {
   const panelRef = useRef<HTMLElement | null>(null);
   const markRef = useRef<HTMLElement>(null);
@@ -142,11 +158,13 @@ export function HighlightedText({
     end,
     contextChars,
   );
-  const descriptionId = [
-    "highlighted-text-status",
-    encodeIdSegment(selectionKey),
-    encodeIdSegment(instanceId),
-  ].join("-");
+  const descriptionId =
+    providedDescriptionId ??
+    [
+      "highlighted-text-status",
+      encodeIdSegment(selectionKey),
+      encodeIdSegment(instanceId),
+    ].join("-");
 
   useEffect(() => {
     const panel = panelRef.current;
@@ -156,7 +174,18 @@ export function HighlightedText({
       return;
     }
 
-    if (scrollHighlight(panel, highlight, scroll)) {
+    if (
+      scrollHighlight(
+        panel,
+        highlight,
+        scroll,
+        scrollBehavior,
+      )
+    ) {
+      return;
+    }
+
+    if (!retryWhenVisible) {
       return;
     }
 
@@ -168,10 +197,15 @@ export function HighlightedText({
       mutationObserver?.disconnect();
       resizeObserver?.disconnect();
     };
-    const retryWhenVisible = () => {
+    const retryScrollWhenVisible = () => {
       if (
         pending &&
-        scrollHighlight(panel, highlight, scroll)
+        scrollHighlight(
+          panel,
+          highlight,
+          scroll,
+          scrollBehavior,
+        )
       ) {
         pending = false;
         stopObserving();
@@ -180,7 +214,7 @@ export function HighlightedText({
 
     // A highlight can finish rendering below a hidden disclosure panel.
     // Keep the scroll pending until layout visibility returns, then disconnect.
-    mutationObserver = new MutationObserver(retryWhenVisible);
+    mutationObserver = new MutationObserver(retryScrollWhenVisible);
 
     for (
       let ancestor: HTMLElement | null = panel;
@@ -194,7 +228,7 @@ export function HighlightedText({
     }
 
     if (typeof ResizeObserver !== "undefined") {
-      resizeObserver = new ResizeObserver(retryWhenVisible);
+      resizeObserver = new ResizeObserver(retryScrollWhenVisible);
       resizeObserver.observe(panel);
     }
 
@@ -202,7 +236,16 @@ export function HighlightedText({
       pending = false;
       stopObserving();
     };
-  }, [contextChars, end, scroll, selectionKey, start, text]);
+  }, [
+    contextChars,
+    end,
+    retryWhenVisible,
+    scroll,
+    scrollBehavior,
+    selectionKey,
+    start,
+    text,
+  ]);
 
   const documentChildren =
     result.status === "ready" ? (
@@ -220,21 +263,23 @@ export function HighlightedText({
 
   return (
     <>
-      <p
-        id={descriptionId}
-        className={
-          result.status === "ready"
-            ? "screen-reader-only"
-            : "neutral-notice margin-top-1"
-        }
-        role="status"
-      >
-        {result.status === "ready"
-          ? highlightStatus
-          : result.status === "missing-offsets"
-            ? noSpanMessage
-            : boundsMessage}
-      </p>
+      {showStatus ? (
+        <p
+          id={descriptionId}
+          className={
+            result.status === "ready"
+              ? readyStatusClassName
+              : noticeStatusClassName
+          }
+          role="status"
+        >
+          {result.status === "ready"
+            ? highlightStatus
+            : result.status === "missing-offsets"
+              ? noSpanMessage
+              : boundsMessage}
+        </p>
+      ) : null}
 
       {as === "pre" ? (
         <pre
@@ -243,7 +288,7 @@ export function HighlightedText({
           tabIndex={0}
           role="region"
           aria-label={regionLabel}
-          aria-describedby={descriptionId}
+          aria-describedby={showStatus ? descriptionId : undefined}
         >
           {documentChildren}
         </pre>
@@ -254,7 +299,7 @@ export function HighlightedText({
           tabIndex={0}
           role="region"
           aria-label={regionLabel}
-          aria-describedby={descriptionId}
+          aria-describedby={showStatus ? descriptionId : undefined}
         >
           {documentChildren}
         </div>

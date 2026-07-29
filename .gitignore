@@ -27,3 +27,6 @@ logs/
 
 # EXTEND-OGC01: full USLM title zips are cached, never committed
 data/cache/
+
+# TypeScript incremental build artifact
+web/tsconfig.tsbuildinfo

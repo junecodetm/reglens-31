@@ -4,6 +4,12 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import { encodePathSegments } from "./search-utils";
+import { ExpandableGroup } from "./ui/ExpandableGroup";
+import {
+  computeHighlightSegments,
+  HighlightedText,
+} from "./ui/HighlightedText";
+import { useLazyJson } from "./ui/useLazyJson";
 
 interface SectionSpan {
   designation: string;
@@ -29,18 +35,6 @@ interface SelectedSection {
   section: SectionSpan;
 }
 
-interface ContextSegments {
-  before: string;
-  highlighted: string;
-  after: string;
-}
-
-type SectionsState =
-  | { status: "idle" }
-  | { status: "loading" }
-  | { status: "ready"; data: SectionsData }
-  | { status: "error"; message: string };
-
 type PartTextState =
   | { status: "idle" }
   | { status: "loading"; key: number }
@@ -50,33 +44,6 @@ type PartTextState =
 const BROWSE_INTRO =
   "Hierarchical navigation over the five ingested parts of 31 CFR (as of the pinned snapshot date), from part to section. Selecting a section opens the part text at that location. Paragraph-level drill-down is not built.";
 const CONTEXT_CHARACTER_COUNT = 500;
-
-function getContextSegments(
-  text: string,
-  section: SectionSpan,
-): ContextSegments | null {
-  if (
-    !Number.isInteger(section.start) ||
-    !Number.isInteger(section.end) ||
-    section.start < 0 ||
-    section.end <= section.start ||
-    section.end > text.length
-  ) {
-    return null;
-  }
-
-  return {
-    before: text.slice(
-      Math.max(0, section.start - CONTEXT_CHARACTER_COUNT),
-      section.start,
-    ),
-    highlighted: text.slice(section.start, section.end),
-    after: text.slice(
-      section.end,
-      Math.min(text.length, section.end + CONTEXT_CHARACTER_COUNT),
-    ),
-  };
-}
 
 function isSelected(
   selected: SelectedSection | null,
@@ -92,9 +59,12 @@ function isSelected(
 
 export function BrowseSection() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [sectionsState, setSectionsState] = useState<SectionsState>({
-    status: "idle",
-  });
+  const { state: sectionsState, load: loadSections } =
+    useLazyJson<SectionsData>("/data/sections.json", {
+      requestErrorPrefix: "The section index request returned status ",
+      fallbackErrorMessage:
+        "The Title 31 section index could not be loaded.",
+    });
   const [expandedParts, setExpandedParts] = useState<Set<number>>(
     () => new Set(),
   );
@@ -104,76 +74,14 @@ export function BrowseSection() {
     status: "idle",
   });
 
-  const sectionsRequestedRef = useRef(false);
-  const sectionsControllerRef = useRef<AbortController | null>(null);
   const partControllerRef = useRef<AbortController | null>(null);
   const partTextCacheRef = useRef<Map<number, string>>(new Map());
-  const markRef = useRef<HTMLElement>(null);
-
-  const selectionKey = selectedSection
-    ? `${selectedSection.part.part}:${selectedSection.section.start}:${selectedSection.section.end}`
-    : null;
 
   useEffect(() => {
     return () => {
-      sectionsControllerRef.current?.abort();
       partControllerRef.current?.abort();
     };
   }, []);
-
-  useEffect(() => {
-    if (
-      selectionKey !== null &&
-      partTextState.status === "ready" &&
-      markRef.current
-    ) {
-      markRef.current.scrollIntoView({ block: "nearest" });
-    }
-  }, [partTextState, selectionKey]);
-
-  async function loadSections() {
-    if (sectionsRequestedRef.current) {
-      return;
-    }
-
-    sectionsRequestedRef.current = true;
-    const controller = new AbortController();
-    sectionsControllerRef.current = controller;
-    setSectionsState({ status: "loading" });
-
-    try {
-      const response = await fetch("/data/sections.json", {
-        signal: controller.signal,
-      });
-
-      if (!response.ok) {
-        throw new Error(
-          `The section index request returned status ${response.status}.`,
-        );
-      }
-
-      const data = (await response.json()) as SectionsData;
-
-      if (!controller.signal.aborted) {
-        setSectionsState({ status: "ready", data });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        sectionsRequestedRef.current = false;
-        setSectionsState({
-          status: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The Title 31 section index could not be loaded.",
-        });
-      }
-    } finally {
-      if (sectionsControllerRef.current === controller) {
-        sectionsControllerRef.current = null;
-      }
-    }
-  }
 
   async function loadPartText(part: SectionsPart) {
     if (
@@ -315,114 +223,136 @@ export function BrowseSection() {
                 const textIsCurrent =
                   partTextState.status !== "idle" &&
                   partTextState.key === part.part;
-                const contextSegments =
+                const highlightResult =
                   section &&
                   textIsCurrent &&
                   partTextState.status === "ready"
-                    ? getContextSegments(
+                    ? computeHighlightSegments(
                         partTextState.text,
-                        section,
+                        section.start,
+                        section.end,
+                        CONTEXT_CHARACTER_COUNT,
                       )
                     : null;
 
                 return (
-                  <article className="document-group" key={part.part}>
-                    <Button
-                      type="button"
-                      base
-                      outline
-                      className="width-full text-left"
-                      aria-expanded={partIsExpanded}
-                      aria-controls={sectionListId}
-                      onClick={() => togglePart(part.part)}
-                    >
-                      31 CFR Part {part.part} — {part.heading}
-                    </Button>
-
-                    <div id={sectionListId} hidden={!partIsExpanded}>
-                      <ul
-                        className="claim-list browse-section-list"
-                        aria-label={`Sections in 31 CFR Part ${part.part}`}
+                  <ExpandableGroup
+                    id={`browse-part-${part.part}`}
+                    label={`31 CFR Part ${part.part} — ${part.heading}`}
+                    expanded={partIsExpanded}
+                    onToggle={() => togglePart(part.part)}
+                    containerId={null}
+                    className="document-group"
+                    ariaLabelledby={null}
+                    panelId={sectionListId}
+                    panelClassName={null}
+                    renderToggle={({
+                      expanded,
+                      label,
+                      onToggle,
+                      panelId,
+                    }) => (
+                      <Button
+                        type="button"
+                        base
+                        outline
+                        className="width-full text-left"
+                        aria-expanded={expanded}
+                        aria-controls={panelId}
+                        onClick={onToggle}
                       >
-                        {part.sections.map((section) => (
-                          <li
-                            key={`${section.designation}:${section.start}`}
+                        {label}
+                      </Button>
+                    )}
+                    key={part.part}
+                  >
+                    <ul
+                      className="claim-list browse-section-list"
+                      aria-label={`Sections in 31 CFR Part ${part.part}`}
+                    >
+                      {part.sections.map((section) => (
+                        <li
+                          key={`${section.designation}:${section.start}`}
+                        >
+                          <Button
+                            type="button"
+                            base
+                            outline
+                            className="width-full text-left"
+                            aria-current={
+                              isSelected(selectedSection, part, section)
+                                ? "true"
+                                : undefined
+                            }
+                            onClick={() => selectSection(part, section)}
                           >
-                            <Button
-                              type="button"
-                              base
-                              outline
-                              className="width-full text-left"
-                              aria-current={
-                                isSelected(selectedSection, part, section)
-                                  ? "true"
-                                  : undefined
-                              }
-                              onClick={() => selectSection(part, section)}
-                            >
-                              {section.designation} {section.heading}
-                            </Button>
-                          </li>
-                        ))}
-                      </ul>
+                            {section.designation} {section.heading}
+                          </Button>
+                        </li>
+                      ))}
+                    </ul>
 
-                      <div id={sectionPanelId}>
-                        {selectedForPart &&
-                        textIsCurrent &&
-                        partTextState.status === "loading" ? (
-                          <p role="status">
-                            Loading 31 CFR Part {part.part} text…
+                    <div id={sectionPanelId}>
+                      {selectedForPart &&
+                      textIsCurrent &&
+                      partTextState.status === "loading" ? (
+                        <p role="status">
+                          Loading 31 CFR Part {part.part} text…
+                        </p>
+                      ) : null}
+
+                      {selectedForPart &&
+                      textIsCurrent &&
+                      partTextState.status === "error" ? (
+                        <div className="neutral-notice" role="alert">
+                          <p>
+                            <strong>CFR part text unavailable.</strong>{" "}
+                            {partTextState.message}
                           </p>
-                        ) : null}
+                        </div>
+                      ) : null}
 
-                        {selectedForPart &&
-                        textIsCurrent &&
-                        partTextState.status === "error" ? (
-                          <div className="neutral-notice" role="alert">
-                            <p>
-                              <strong>CFR part text unavailable.</strong>{" "}
-                              {partTextState.message}
-                            </p>
-                          </div>
-                        ) : null}
+                      {section &&
+                      textIsCurrent &&
+                      partTextState.status === "ready" &&
+                      highlightResult?.status === "ready" ? (
+                        <>
+                          <p className="browse-context-line">
+                            {`Showing ${section.designation} within 31 CFR Part ${part.part}.`}
+                          </p>
+                          <HighlightedText
+                            text={partTextState.text}
+                            start={section.start}
+                            end={section.end}
+                            selectionKey={`${part.part}:${section.start}:${section.end}`}
+                            regionLabel={`${section.designation} within 31 CFR Part ${part.part}`}
+                            highlightStatus={`Showing ${section.designation} within 31 CFR Part ${part.part}.`}
+                            noSpanMessage="The recorded section span falls outside the served CFR part text."
+                            boundsMessage="The recorded section span falls outside the served CFR part text."
+                            contextChars={CONTEXT_CHARACTER_COUNT}
+                            scroll="nearest"
+                            scrollBehavior="auto"
+                            retryWhenVisible={false}
+                            as="pre"
+                            showStatus={false}
+                          />
+                        </>
+                      ) : null}
 
-                        {section &&
-                        textIsCurrent &&
-                        partTextState.status === "ready" &&
-                        contextSegments ? (
-                          <>
-                            <p className="browse-context-line">
-                              {`Showing ${section.designation} within 31 CFR Part ${part.part}.`}
-                            </p>
-                            <pre
-                              className="source-document"
-                              tabIndex={0}
-                              role="region"
-                              aria-label={`${section.designation} within 31 CFR Part ${part.part}`}
-                            >
-                              {contextSegments.before}
-                              <mark ref={markRef}>
-                                {contextSegments.highlighted}
-                              </mark>
-                              {contextSegments.after}
-                            </pre>
-                          </>
-                        ) : null}
-
-                        {section &&
-                        textIsCurrent &&
-                        partTextState.status === "ready" &&
-                        !contextSegments ? (
-                          <div className="neutral-notice" role="alert">
-                            <p>
-                              The recorded section span falls outside the
-                              served CFR part text.
-                            </p>
-                          </div>
-                        ) : null}
-                      </div>
+                      {section &&
+                      textIsCurrent &&
+                      partTextState.status === "ready" &&
+                      highlightResult !== null &&
+                      highlightResult.status !== "ready" ? (
+                        <div className="neutral-notice" role="alert">
+                          <p>
+                            The recorded section span falls outside the
+                            served CFR part text.
+                          </p>
+                        </div>
+                      ) : null}
                     </div>
-                  </article>
+                  </ExpandableGroup>
                 );
               })}
             </div>
