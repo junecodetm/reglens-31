@@ -28,6 +28,10 @@ const TYPE_LABELS: Record<SearchUnit["type"], string> = {
   draft: "Draft skeleton",
 };
 
+interface SearchSectionProps {
+  active: boolean;
+}
+
 async function fetchText(path: string, signal: AbortSignal): Promise<string> {
   const response = await fetch(path, { signal });
 
@@ -42,8 +46,10 @@ function claimText(unit: Extract<SearchUnit, { type: "claim" }>): string {
   return `${unit.label}\n\nFrom document ${unit.ref}`;
 }
 
-export function SearchSection() {
+export function SearchSection({ active: _active }: SearchSectionProps) {
   const [query, setQuery] = useState("");
+  // Parent activation must not preload the search index. The first submitted
+  // search remains the only entry point to loadIndex.
   const { state: indexState, load: loadIndex } =
     useLazyJson<SearchIndexData>("/data/search-index.json", {
       requestErrorPrefix: "The search-index request returned status ",
@@ -195,7 +201,7 @@ export function SearchSection() {
       className="eval-section search-section"
       aria-labelledby="search-heading"
     >
-      <h2 id="search-heading">Search the ingested corpus</h2>
+      <h3 id="search-heading">Search the ingested corpus</h3>
       <p>{SEARCH_INTRO}</p>
 
       <form className="search-form" onSubmit={(event) => void handleSearch(event)}>

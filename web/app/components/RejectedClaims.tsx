@@ -22,7 +22,7 @@ export function RejectedClaims({
       className="rejected-section"
       aria-labelledby="rejected-heading"
     >
-      <h2 id="rejected-heading">Rejected claims ({rejectedCount})</h2>
+      <h3 id="rejected-heading">Rejected claims ({rejectedCount})</h3>
       <p>
         These model-proposed claims failed exact verbatim verification against
         the source text and were rejected by the fail-closed provenance gate.

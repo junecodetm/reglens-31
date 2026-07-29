@@ -45,6 +45,10 @@ const BROWSE_INTRO =
   "Hierarchical navigation over the five ingested parts of 31 CFR (as of the pinned snapshot date), from part to section. Selecting a section opens the part text at that location. Paragraph-level drill-down is not built.";
 const CONTEXT_CHARACTER_COUNT = 500;
 
+interface BrowseSectionProps {
+  active: boolean;
+}
+
 function isSelected(
   selected: SelectedSection | null,
   part: SectionsPart,
@@ -57,8 +61,7 @@ function isSelected(
   );
 }
 
-export function BrowseSection() {
-  const [isExpanded, setIsExpanded] = useState(false);
+export function BrowseSection({ active }: BrowseSectionProps) {
   const { state: sectionsState, load: loadSections } =
     useLazyJson<SectionsData>("/data/sections.json", {
       requestErrorPrefix: "The section index request returned status ",
@@ -76,6 +79,12 @@ export function BrowseSection() {
 
   const partControllerRef = useRef<AbortController | null>(null);
   const partTextCacheRef = useRef<Map<number, string>>(new Map());
+
+  useEffect(() => {
+    if (active) {
+      void loadSections();
+    }
+  }, [active, loadSections]);
 
   useEffect(() => {
     return () => {
@@ -141,18 +150,6 @@ export function BrowseSection() {
     }
   }
 
-  function toggleSection() {
-    const willExpand = !isExpanded;
-    setIsExpanded(willExpand);
-
-    if (
-      willExpand &&
-      (sectionsState.status === "idle" || sectionsState.status === "error")
-    ) {
-      void loadSections();
-    }
-  }
-
   function togglePart(part: number) {
     setExpandedParts((current) => {
       const next = new Set(current);
@@ -177,23 +174,10 @@ export function BrowseSection() {
       className="eval-section browse-section"
       aria-labelledby="browse-heading"
     >
-      <h2 id="browse-heading">Browse Title 31 (ingested parts)</h2>
+      <h3 id="browse-heading">Browse Title 31 (ingested parts)</h3>
       <p>{BROWSE_INTRO}</p>
 
-      <Button
-        type="button"
-        base
-        outline
-        aria-expanded={isExpanded}
-        aria-controls="browse-section-panel"
-        onClick={toggleSection}
-      >
-        {isExpanded
-          ? "Collapse Title 31 browser"
-          : "Expand Title 31 browser"}
-      </Button>
-
-      <div id="browse-section-panel" hidden={!isExpanded}>
+      <div id="browse-section-panel">
         {sectionsState.status === "loading" ? (
           <p role="status">Loading the Title 31 section index…</p>
         ) : null}
@@ -209,7 +193,7 @@ export function BrowseSection() {
 
         {sectionsState.status === "ready" ? (
           <>
-            <h3>Title 31 — Money and Finance: Treasury</h3>
+            <h4>Title 31 — Money and Finance: Treasury</h4>
             <div className="document-groups">
               {sectionsState.data.parts.map((part) => {
                 const partIsExpanded = expandedParts.has(part.part);

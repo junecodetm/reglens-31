@@ -34,7 +34,7 @@ export function SourcePane({
 
   return (
     <section className="pane source-pane" aria-labelledby="source-heading">
-      <h2 id="source-heading">Primary source</h2>
+      <h3 id="source-heading">Primary source</h3>
 
       {!selectedClaim ? (
         <div className="instruction-card">
@@ -90,7 +90,7 @@ export function SourcePane({
 
           {isCurrentDocument && sourceState.status === "error" ? (
             <div className="error-state" role="alert">
-              <h3>Source document unavailable</h3>
+              <h4>Source document unavailable</h4>
               <p>{sourceState.message}</p>
             </div>
           ) : null}
@@ -99,7 +99,7 @@ export function SourcePane({
             <>
               {highlightResult?.status !== "ready" ? (
                 <div className="error-state" role="alert">
-                  <h3>Verified span unavailable</h3>
+                  <h4>Verified span unavailable</h4>
                   <p>
                     The saved offsets do not match the quoted source text, so
                     no passage has been highlighted.

@@ -34,6 +34,10 @@ interface SelectedMarker {
   marker: GroundingMarker;
 }
 
+interface GroundingSectionProps {
+  active: boolean;
+}
+
 function compareDocumentNumbers(
   first: GroundingRule,
   second: GroundingRule,
@@ -76,8 +80,7 @@ function DensityValue({
   );
 }
 
-export function GroundingSection() {
-  const [expanded, setExpanded] = useState(false);
+export function GroundingSection({ active }: GroundingSectionProps) {
   const { state: groundingState, load: loadGroundingData } =
     useLazyJson<GroundingData>("/data/grounding.json", {
       requestErrorPrefix: "Request returned status ",
@@ -129,6 +132,12 @@ export function GroundingSection() {
       : `${selectedMarker.documentNumber}-${selectedMarker.markerIndex}-${selectedMarker.marker.start}-${selectedMarker.marker.end}`;
 
   useEffect(() => {
+    if (active) {
+      void loadGroundingData();
+    }
+  }, [active, loadGroundingData]);
+
+  useEffect(() => {
     const documentControllers = documentControllersRef.current;
 
     return () => {
@@ -138,15 +147,6 @@ export function GroundingSection() {
       documentControllers.clear();
     };
   }, []);
-
-  function toggleSection() {
-    const nextExpanded = !expanded;
-    setExpanded(nextExpanded);
-
-    if (nextExpanded && groundingState.status === "idle") {
-      void loadGroundingData();
-    }
-  }
 
   function clearSelectedMarker() {
     selectedMarkerRef.current = null;
@@ -258,9 +258,9 @@ export function GroundingSection() {
       className="grounding-section margin-top-5 padding-top-2 border-top-1px border-base-lighter"
       aria-labelledby="grounding-heading"
     >
-      <h2 id="grounding-heading">
+      <h3 id="grounding-heading">
         Statutory grounding signal (two-sided)
-      </h2>
+      </h3>
 
       <div
         className="bg-base-lightest border-left-05 border-base padding-2 margin-bottom-2"
@@ -270,21 +270,9 @@ export function GroundingSection() {
         <p className="margin-y-0">{displayedBandDefinition}</p>
       </div>
 
-      <Button
-        type="button"
-        base
-        outline
-        aria-expanded={expanded}
-        aria-controls="grounding-content"
-        onClick={toggleSection}
-      >
-        {expanded ? "Hide grounding details" : "Show grounding details"}
-      </Button>
-
       <div
         id="grounding-content"
         className="margin-top-2"
-        hidden={!expanded}
       >
         {groundingState.status === "idle" ||
         groundingState.status === "loading" ? (
@@ -296,7 +284,7 @@ export function GroundingSection() {
             className="bg-base-lightest border-2px border-base padding-2 radius-md"
             role="alert"
           >
-            <h3 className="margin-top-0">Grounding data unavailable</h3>
+            <h4 className="margin-top-0">Grounding data unavailable</h4>
             <p className="margin-bottom-0">{groundingState.message}</p>
           </div>
         ) : null}
@@ -400,9 +388,9 @@ export function GroundingSection() {
                           className="bg-base-lightest padding-2"
                         >
                           <div id={markerContentId}>
-                            <h3 className="margin-top-0">
+                            <h4 className="margin-top-0">
                               Markers for document {rule.document_number}
-                            </h3>
+                            </h4>
 
                             {rule.markers.length === 0 ? (
                               <p>No markers were recorded for this document.</p>
@@ -475,10 +463,10 @@ export function GroundingSection() {
                                             className="bg-base-lightest border-2px border-base padding-2 radius-md"
                                             role="alert"
                                           >
-                                            <h3 className="margin-top-0">
+                                            <h4 className="margin-top-0">
                                               Published document text
                                               unavailable
-                                            </h3>
+                                            </h4>
                                             <p className="margin-bottom-0">
                                               {documentView.message}
                                             </p>
@@ -507,9 +495,9 @@ export function GroundingSection() {
                                                 className="bg-base-lightest border-2px border-base padding-2 radius-md"
                                                 role="alert"
                                               >
-                                                <h3 className="margin-top-0">
+                                                <h4 className="margin-top-0">
                                                   Marker span unavailable
-                                                </h3>
+                                                </h4>
                                                 <p className="margin-bottom-0">
                                                   The saved offsets do not fall
                                                   within the published document
@@ -554,7 +542,7 @@ export function GroundingSection() {
             </Table>
 
             <section aria-labelledby="grounding-coverage-heading">
-              <h3 id="grounding-coverage-heading">Coverage notes</h3>
+              <h4 id="grounding-coverage-heading">Coverage notes</h4>
               {groundingState.data.coverage_notes.length > 0 ? (
                 <ul className="usa-list">
                   {groundingState.data.coverage_notes.map((note) => (

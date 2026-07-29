@@ -13,6 +13,7 @@ export interface CollapsibleSectionProps {
   headingLevel?: "h2" | "h3";
   defaultOpen?: boolean;
   onFirstOpen?: () => void;
+  onForceOpen?: () => void;
   forceOpenSignal?: number;
   children: ReactNode;
 }
@@ -23,12 +24,14 @@ export function CollapsibleSection({
   headingLevel = "h2",
   defaultOpen = false,
   onFirstOpen,
+  onForceOpen,
   forceOpenSignal = 0,
   children,
 }: CollapsibleSectionProps) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
   const hasOpenedRef = useRef(false);
   const previousForceOpenSignalRef = useRef(0);
+  const handledForceOpenSignalRef = useRef(0);
   const Heading = headingLevel;
   const panelId = `${id}-panel`;
 
@@ -43,6 +46,17 @@ export function CollapsibleSection({
       }
     }
   }, [forceOpenSignal]);
+
+  useEffect(() => {
+    if (
+      isOpen &&
+      forceOpenSignal !== 0 &&
+      forceOpenSignal !== handledForceOpenSignalRef.current
+    ) {
+      handledForceOpenSignalRef.current = forceOpenSignal;
+      onForceOpen?.();
+    }
+  }, [forceOpenSignal, isOpen, onForceOpen]);
 
   useEffect(() => {
     if (isOpen && !hasOpenedRef.current) {

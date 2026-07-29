@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@trussworks/react-uswds";
+import { useEffect } from "react";
 
 import { buildAuthorityCrossReferences } from "./crossref-utils";
 import type { AuthorityData } from "./reglens-types";
@@ -10,8 +9,11 @@ import { useLazyJson } from "./ui/useLazyJson";
 const CROSS_REF_INTRO =
   "Which U.S. Code sections each ingested CFR part cites as rulemaking authority, and which cited sections are shared across parts. Retrieval over the parsed authority citations only — this is not a dependency, impact, or conflict analysis. Citations that did not resolve in the pinned U.S. Code release are listed separately as coverage facts.";
 
-export function CrossRefSection() {
-  const [isExpanded, setIsExpanded] = useState(false);
+interface CrossRefSectionProps {
+  active: boolean;
+}
+
+export function CrossRefSection({ active }: CrossRefSectionProps) {
   const { state: authorityState, load: loadAuthorityData } =
     useLazyJson<AuthorityData>("/data/authority.json", {
       requestErrorPrefix: "The authority request returned status ",
@@ -19,17 +21,11 @@ export function CrossRefSection() {
         "The authority cross-reference data could not be loaded.",
     });
 
-  function toggleSection() {
-    const willExpand = !isExpanded;
-    setIsExpanded(willExpand);
-
-    if (
-      willExpand &&
-      (authorityState.status === "idle" || authorityState.status === "error")
-    ) {
+  useEffect(() => {
+    if (active) {
       void loadAuthorityData();
     }
-  }
+  }, [active, loadAuthorityData]);
 
   const sortedParts =
     authorityState.status === "ready"
@@ -47,23 +43,10 @@ export function CrossRefSection() {
       className="eval-section cross-ref-section"
       aria-labelledby="cross-ref-heading"
     >
-      <h2 id="cross-ref-heading">Authority cross-references</h2>
+      <h3 id="cross-ref-heading">Authority cross-references</h3>
       <p>{CROSS_REF_INTRO}</p>
 
-      <Button
-        type="button"
-        base
-        outline
-        aria-expanded={isExpanded}
-        aria-controls="cross-ref-section-panel"
-        onClick={toggleSection}
-      >
-        {isExpanded
-          ? "Collapse authority cross-references"
-          : "Expand authority cross-references"}
-      </Button>
-
-      <div id="cross-ref-section-panel" hidden={!isExpanded}>
+      <div id="cross-ref-section-panel">
         {authorityState.status === "loading" ? (
           <p role="status">Loading authority cross-references…</p>
         ) : null}
@@ -80,7 +63,7 @@ export function CrossRefSection() {
         {authorityState.status === "ready" ? (
           <div className="cross-ref-views">
             <section aria-labelledby="cross-ref-by-part-heading">
-              <h3 id="cross-ref-by-part-heading">By CFR part</h3>
+              <h4 id="cross-ref-by-part-heading">By CFR part</h4>
 
               {sortedParts.map((part) => (
                 <section
@@ -88,9 +71,9 @@ export function CrossRefSection() {
                   aria-labelledby={`cross-ref-part-${part.part}-heading`}
                   key={part.part}
                 >
-                  <h4 id={`cross-ref-part-${part.part}-heading`}>
+                  <h5 id={`cross-ref-part-${part.part}-heading`}>
                     31 CFR Part {part.part}
-                  </h4>
+                  </h5>
                   <ul className="usa-list">
                     {part.resolved.map((section) => (
                       <li key={section.identifier}>
@@ -110,7 +93,7 @@ export function CrossRefSection() {
             </section>
 
             <section aria-labelledby="cross-ref-by-usc-heading">
-              <h3 id="cross-ref-by-usc-heading">By U.S. Code section</h3>
+              <h4 id="cross-ref-by-usc-heading">By U.S. Code section</h4>
               <p>
                 Shared authorities (cited by more than one part) appear first.
               </p>

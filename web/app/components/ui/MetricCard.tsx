@@ -9,16 +9,20 @@ export interface MetricCardProps {
   label: string;
   value: number | null;
   intervals: MetricCardInterval[];
+  headingLevel?: "h3" | "h4";
 }
 
 export function MetricCard({
   label,
   value,
   intervals,
+  headingLevel = "h3",
 }: MetricCardProps) {
+  const Heading = headingLevel;
+
   return (
     <div className="metric-card">
-      <h3>{label}</h3>
+      <Heading>{label}</Heading>
       <p className="metric-value">{fmt(value)}</p>
       {intervals.map((item, index) => {
         const formattedInterval = ci(item.interval);

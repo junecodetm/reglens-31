@@ -1,7 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 
+import { AboutSection } from "./components/AboutSection";
 import { AuthoritySection } from "./components/AuthoritySection";
 import { BrowseSection } from "./components/BrowseSection";
 import { ClaimsPane } from "./components/ClaimsPane";
@@ -11,6 +17,7 @@ import { DraftsSection } from "./components/DraftsSection";
 import { EvalSection } from "./components/EvalSection";
 import { GroundingSection } from "./components/GroundingSection";
 import { Ogc01EvalSection } from "./components/Ogc01EvalSection";
+import { PageNav } from "./components/PageNav";
 import { RejectedClaims } from "./components/RejectedClaims";
 import { SearchSection } from "./components/SearchSection";
 import { SourcePane } from "./components/SourcePane";
@@ -21,6 +28,48 @@ import {
   type SiteData,
   type SourceTextState,
 } from "./components/reglens-types";
+import { CollapsibleSection } from "./components/ui/CollapsibleSection";
+
+const HERO_MOCKUP_LINE =
+  "An independent working mockup aligned to U.S. Treasury AI use case OGC-01 (“Regulatory Reform Tool,” Treasury public AI Use Case Inventory) — see About this demonstration below.";
+const FOOTER_ATTRIBUTION =
+  "Use-case framing: Treasury AI Use Case Inventory (U.S. Government work) — see About this demonstration.";
+const EXTRACTION_INTRO =
+  "Every extracted obligation below carries a verbatim quote from its primary source; claims that fail the deterministic check are rejected and counted, not hidden.";
+const EXPLORE_INTRO =
+  "Search, browse, and cross-reference the ingested public corpus.";
+const OGC01_INTRO =
+  "Neutral working analogs of the three outputs Treasury’s inventory states for OGC-01 — mapped under About this demonstration.";
+const EVALUATION_INTRO =
+  "Precision, recall, and F1 with confidence intervals; labels are machine-proposed and marked provisional pending human adjudication.";
+const SECTION_IDS = [
+  "about",
+  "extraction",
+  "explore",
+  "ogc01",
+  "evaluation",
+] as const;
+
+type SectionId = (typeof SECTION_IDS)[number];
+type GroupSectionId = Exclude<SectionId, "about">;
+type ForceOpenSignals = Record<GroupSectionId, number>;
+
+interface HashNavigationRequest {
+  sectionId: SectionId;
+  sequence: number;
+  disclosureReady: boolean;
+}
+
+const INITIAL_FORCE_OPEN_SIGNALS: ForceOpenSignals = {
+  extraction: 0,
+  explore: 0,
+  ogc01: 0,
+  evaluation: 0,
+};
+
+function isSectionId(value: string): value is SectionId {
+  return SECTION_IDS.some((sectionId) => sectionId === value);
+}
 
 type PageDataState =
   | { status: "loading" }
@@ -50,8 +99,158 @@ export default function Home() {
   const [sourceState, setSourceState] = useState<SourceTextState>({
     status: "idle",
   });
+  const [exploreActive, setExploreActive] = useState(false);
+  const [ogc01Active, setOgc01Active] = useState(false);
+  const [evaluationActive, setEvaluationActive] = useState(false);
+  const [aboutInventorySettled, setAboutInventorySettled] =
+    useState(false);
+  const [hashNavigationRequest, setHashNavigationRequest] =
+    useState<HashNavigationRequest | null>(null);
+  const [forceOpenSignals, setForceOpenSignals] =
+    useState<ForceOpenSignals>(INITIAL_FORCE_OPEN_SIGNALS);
   const sourceCacheRef = useRef<Map<string, string>>(new Map());
+  const hashNavigationFrameRef = useRef<number | null>(null);
+  const hashNavigationSequenceRef = useRef(0);
   const selectedDocumentNumber = selectedClaim?.document_number ?? null;
+
+  const openHashTarget = useCallback((hash: string) => {
+    const sectionId = hash.startsWith("#") ? hash.slice(1) : hash;
+
+    if (!isSectionId(sectionId)) {
+      return;
+    }
+
+    hashNavigationSequenceRef.current += 1;
+    setHashNavigationRequest({
+      sectionId,
+      sequence: hashNavigationSequenceRef.current,
+      disclosureReady: sectionId === "about",
+    });
+
+    if (sectionId !== "about") {
+      setForceOpenSignals((current) => ({
+        ...current,
+        [sectionId]: current[sectionId] + 1,
+      }));
+    }
+  }, []);
+
+  const markHashTargetOpen = useCallback((sectionId: GroupSectionId) => {
+    setHashNavigationRequest((current) =>
+      current?.sectionId === sectionId && !current.disclosureReady
+        ? { ...current, disclosureReady: true }
+        : current,
+    );
+  }, []);
+
+  useEffect(() => {
+    const aboutSection = document.querySelector(".about-section");
+
+    if (!aboutSection) {
+      setAboutInventorySettled(true);
+      return;
+    }
+
+    const updateSettledState = () => {
+      setAboutInventorySettled(
+        aboutSection.querySelector(".about-inventory-loading") === null,
+      );
+    };
+    const observer = new MutationObserver(updateSettledState);
+
+    updateSettledState();
+    observer.observe(aboutSection, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const handleHashChange = () => openHashTarget(window.location.hash);
+    const handleSameHashLinkClick = (event: MouseEvent) => {
+      const eventTarget = event.target;
+
+      if (!(eventTarget instanceof Element)) {
+        return;
+      }
+
+      const anchor = eventTarget.closest("a[href]");
+
+      if (
+        !(anchor instanceof HTMLAnchorElement) ||
+        event.defaultPrevented ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey ||
+        (anchor.target !== "" && anchor.target !== "_self") ||
+        anchor.hasAttribute("download") ||
+        anchor.origin !== window.location.origin ||
+        anchor.pathname !== window.location.pathname ||
+        anchor.search !== window.location.search ||
+        anchor.hash !== window.location.hash ||
+        !isSectionId(anchor.hash.slice(1))
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+      openHashTarget(anchor.hash);
+    };
+
+    handleHashChange();
+    window.addEventListener("hashchange", handleHashChange);
+    document.addEventListener("click", handleSameHashLinkClick);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+      document.removeEventListener("click", handleSameHashLinkClick);
+    };
+  }, [openHashTarget]);
+
+  useEffect(() => {
+    if (
+      !hashNavigationRequest?.disclosureReady ||
+      pageData.status === "loading" ||
+      (hashNavigationRequest.sectionId !== "about" &&
+        !aboutInventorySettled)
+    ) {
+      return;
+    }
+
+    const { sectionId, sequence } = hashNavigationRequest;
+
+    hashNavigationFrameRef.current = window.requestAnimationFrame(() => {
+      hashNavigationFrameRef.current = null;
+      const target = document.getElementById(sectionId);
+
+      if (target) {
+        const behavior = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches
+          ? "auto"
+          : "smooth";
+
+        target.scrollIntoView({ behavior, block: "start" });
+        target.focus({ preventScroll: true });
+      }
+
+      setHashNavigationRequest((current) =>
+        current?.sequence === sequence ? null : current,
+      );
+    });
+
+    return () => {
+      if (hashNavigationFrameRef.current !== null) {
+        window.cancelAnimationFrame(hashNavigationFrameRef.current);
+        hashNavigationFrameRef.current = null;
+      }
+    };
+  }, [
+    aboutInventorySettled,
+    hashNavigationRequest,
+    pageData.status,
+  ]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -174,6 +373,7 @@ export default function Home() {
               Provenance-gated regulatory obligation extraction — every claim
               verified verbatim against its primary source, fail-closed.
             </p>
+            <p>{HERO_MOCKUP_LINE}</p>
           </div>
 
           <dl className="header-stats" aria-label="Snapshot totals">
@@ -196,59 +396,95 @@ export default function Home() {
       </header>
 
       <DisclaimerBand />
+      <PageNav />
 
       <main id="main-content" className="content-bound main-content" tabIndex={-1}>
-        {pageData.status === "loading" ? (
-          <div className="loading-state page-state" role="status">
-            Loading the pre-computed regulatory snapshot…
-          </div>
-        ) : null}
+        <AboutSection />
 
-        {pageData.status === "error" ? (
-          <div className="error-state page-state" role="alert">
-            <h2>Snapshot unavailable</h2>
-            <p>
-              The pre-computed data files could not be loaded. {pageData.message}
-            </p>
-          </div>
-        ) : null}
+        <CollapsibleSection
+          id="extraction"
+          heading="Obligation extraction"
+          defaultOpen
+          onForceOpen={() => markHashTargetOpen("extraction")}
+          forceOpenSignal={forceOpenSignals.extraction}
+        >
+          <p className="page-group-intro">{EXTRACTION_INTRO}</p>
 
-        {pageData.status === "ready" ? (
-          <>
-            <div className="two-pane-grid">
-              <ClaimsPane
-                documents={pageData.documents}
-                selectedClaimId={selectedClaim?.claim_id ?? null}
-                onSelectClaim={setSelectedClaim}
-              />
-              <SourcePane
-                selectedClaim={selectedClaim}
-                sourceState={sourceState}
-              />
+          {pageData.status === "loading" ? (
+            <div className="loading-state page-state" role="status">
+              Loading the pre-computed regulatory snapshot…
             </div>
+          ) : null}
 
-            <SearchSection />
+          {pageData.status === "error" ? (
+            <div className="error-state page-state" role="alert">
+              <h3>Snapshot unavailable</h3>
+              <p>
+                The pre-computed data files could not be loaded.{" "}
+                {pageData.message}
+              </p>
+            </div>
+          ) : null}
 
-            <BrowseSection />
+          {pageData.status === "ready" ? (
+            <>
+              <div className="two-pane-grid">
+                <ClaimsPane
+                  documents={pageData.documents}
+                  selectedClaimId={selectedClaim?.claim_id ?? null}
+                  onSelectClaim={setSelectedClaim}
+                />
+                <SourcePane
+                  selectedClaim={selectedClaim}
+                  sourceState={sourceState}
+                />
+              </div>
 
-            <EvalSection />
+              <RejectedClaims
+                documents={pageData.documents}
+                rejectedCount={pageData.site.rejected_count}
+              />
+            </>
+          ) : null}
+        </CollapsibleSection>
 
-            <AuthoritySection />
+        <CollapsibleSection
+          id="explore"
+          heading="Explore the corpus"
+          onFirstOpen={() => setExploreActive(true)}
+          onForceOpen={() => markHashTargetOpen("explore")}
+          forceOpenSignal={forceOpenSignals.explore}
+        >
+          <p className="page-group-intro">{EXPLORE_INTRO}</p>
+          <SearchSection active={exploreActive} />
+          <BrowseSection active={exploreActive} />
+          <CrossRefSection active={exploreActive} />
+        </CollapsibleSection>
 
-            <CrossRefSection />
+        <CollapsibleSection
+          id="ogc01"
+          heading="OGC-01 demonstration modules"
+          onFirstOpen={() => setOgc01Active(true)}
+          onForceOpen={() => markHashTargetOpen("ogc01")}
+          forceOpenSignal={forceOpenSignals.ogc01}
+        >
+          <p className="page-group-intro">{OGC01_INTRO}</p>
+          <AuthoritySection active={ogc01Active} />
+          <GroundingSection active={ogc01Active} />
+          <DraftsSection active={ogc01Active} />
+        </CollapsibleSection>
 
-            <GroundingSection />
-
-            <DraftsSection />
-
-            <Ogc01EvalSection />
-
-            <RejectedClaims
-              documents={pageData.documents}
-              rejectedCount={pageData.site.rejected_count}
-            />
-          </>
-        ) : null}
+        <CollapsibleSection
+          id="evaluation"
+          heading="Evaluation & assurance"
+          onFirstOpen={() => setEvaluationActive(true)}
+          onForceOpen={() => markHashTargetOpen("evaluation")}
+          forceOpenSignal={forceOpenSignals.evaluation}
+        >
+          <p className="page-group-intro">{EVALUATION_INTRO}</p>
+          <EvalSection active={evaluationActive} />
+          <Ogc01EvalSection active={evaluationActive} />
+        </CollapsibleSection>
       </main>
 
       <footer className="site-footer">
@@ -270,6 +506,7 @@ export default function Home() {
             <p>Snapshot metadata is loading or unavailable.</p>
           )}
           <p>Source data: Federal Register (U.S. public domain).</p>
+          <p>{FOOTER_ATTRIBUTION}</p>
           <p>
             <a href="https://github.com/junecodetm/reglens-31">
               Source code &amp; methodology

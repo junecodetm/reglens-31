@@ -14,6 +14,10 @@ type DraftTextState =
 
 type DraftChecklist = ConformanceData["checklists"][number];
 
+interface DraftsSectionProps {
+  active: boolean;
+}
+
 function draftKey(checklist: DraftChecklist): string {
   return `${checklist.part}-${checklist.doc_type}`;
 }
@@ -94,7 +98,7 @@ function Checklist({ checklist }: { checklist: DraftChecklist }) {
         </li>
       </ul>
 
-      <h4>APA procedural elements (structural presence only)</h4>
+      <h5>APA procedural elements (structural presence only)</h5>
       <ul
         className="eval-details"
         aria-label={`APA procedural elements for ${draftLabel(checklist)}`}
@@ -180,8 +184,7 @@ function GenerationProvenance({
   );
 }
 
-export function DraftsSection() {
-  const [isExpanded, setIsExpanded] = useState(false);
+export function DraftsSection({ active }: DraftsSectionProps) {
   const {
     state: conformanceState,
     load: loadConformance,
@@ -199,6 +202,12 @@ export function DraftsSection() {
   const draftControllersRef = useRef<Map<string, AbortController>>(
     new Map(),
   );
+
+  useEffect(() => {
+    if (active) {
+      void loadConformance();
+    }
+  }, [active, loadConformance]);
 
   useEffect(() => {
     return () => {
@@ -261,19 +270,6 @@ export function DraftsSection() {
     }
   }
 
-  function handleSectionToggle() {
-    const willExpand = !isExpanded;
-    setIsExpanded(willExpand);
-
-    if (
-      willExpand &&
-      (conformanceState.status === "idle" ||
-        conformanceState.status === "error")
-    ) {
-      void loadConformance();
-    }
-  }
-
   function handleDraftToggle(checklist: DraftChecklist) {
     const key = draftKey(checklist);
     const willExpand = !expandedDrafts.has(key);
@@ -309,29 +305,16 @@ export function DraftsSection() {
       className="eval-section drafts-section"
       aria-labelledby="drafts-heading"
     >
-      <h2 id="drafts-heading">Draft rule skeletons</h2>
+      <h3 id="drafts-heading">Draft rule skeletons</h3>
 
-      <Button
-        type="button"
-        base
-        outline
-        aria-expanded={isExpanded}
-        aria-controls="drafts-section-panel"
-        onClick={handleSectionToggle}
-      >
-        {isExpanded
-          ? "Collapse draft rule skeletons"
-          : "Expand draft rule skeletons"}
-      </Button>
-
-      <div id="drafts-section-panel" hidden={!isExpanded}>
+      <div id="drafts-section-panel">
         {conformanceState.status === "loading" ? (
           <p role="status">Loading draft conformance data…</p>
         ) : null}
 
         {conformanceState.status === "error" ? (
           <div role="alert">
-            <h3>Draft data unavailable</h3>
+            <h4>Draft data unavailable</h4>
             <p>
               The draft conformance data could not be loaded.{" "}
               {conformanceState.message}
@@ -395,7 +378,7 @@ export function DraftsSection() {
                       panelId: togglePanelId,
                     }) => (
                       <>
-                        <h3 id={headingId}>{label}</h3>
+                        <h4 id={headingId}>{label}</h4>
 
                         <Button
                           type="button"
@@ -447,7 +430,7 @@ export function DraftsSection() {
 
             {conformanceState.data.rejected_drafts.length > 0 ? (
               <div>
-                <h3>Rejected drafts</h3>
+                <h4>Rejected drafts</h4>
                 <ul>
                   {conformanceState.data.rejected_drafts.map((draft) => (
                     <li key={draft}>{draft}</li>

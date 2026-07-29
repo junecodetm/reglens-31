@@ -109,7 +109,7 @@ export function AboutSection() {
       </p>
 
       {state.status === "loading" || state.status === "idle" ? (
-        <p>Loading the inventory record…</p>
+        <p className="about-inventory-loading">Loading the inventory record…</p>
       ) : state.status === "error" ? (
         <>
           <p className="neutral-notice" role="alert">

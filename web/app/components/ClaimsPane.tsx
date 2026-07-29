@@ -23,7 +23,7 @@ export function ClaimsPane({
 
   return (
     <section className="pane claims-pane" aria-labelledby="claims-heading">
-      <h2 id="claims-heading">Extracted obligations</h2>
+      <h3 id="claims-heading">Extracted obligations</h3>
 
       {groups.length === 0 ? (
         <p className="empty-state">
@@ -36,13 +36,13 @@ export function ClaimsPane({
               className="document-group"
               key={document.document_sha256}
             >
-              <h3>
+              <h4>
                 <span>{document.document_title}</span>
                 <a href={document.document_url} className="document-link">
                   FR {document.document_number}
                   <span aria-hidden="true"> ↗</span>
                 </a>
-              </h3>
+              </h4>
 
               <ul className="claim-list">
                 {acceptedClaims.map((claim) => {

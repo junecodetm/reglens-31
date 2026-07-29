@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Alert } from "@trussworks/react-uswds";
 
 import { MetricCard } from "./ui/MetricCard";
 import { fmt, type MetricInterval } from "./ui/metric-format";
+import { useLazyJson } from "./ui/useLazyJson";
 
 type EvalReport = {
   n_provisions: number;
@@ -30,49 +31,25 @@ type EvalReport = {
   provisional_label: string;
 };
 
-type EvalState =
-  | { status: "loading" }
-  | { status: "ready"; report: EvalReport }
-  | { status: "error"; message: string };
+interface EvalSectionProps {
+  active: boolean;
+}
 
-export function EvalSection() {
-  const [state, setState] = useState<EvalState>({ status: "loading" });
+export function EvalSection({ active }: EvalSectionProps) {
+  const { state, load } = useLazyJson<EvalReport>("/data/eval.json", {
+    requestErrorPrefix: "Request failed with status ",
+    fallbackErrorMessage: "The evaluation report could not be loaded.",
+  });
 
   useEffect(() => {
-    const controller = new AbortController();
-
-    async function load() {
-      try {
-        const response = await fetch("/data/eval.json", {
-          signal: controller.signal,
-        });
-        if (!response.ok) {
-          throw new Error(`Request failed with status ${response.status}.`);
-        }
-        const report = (await response.json()) as EvalReport;
-        if (!controller.signal.aborted) {
-          setState({ status: "ready", report });
-        }
-      } catch (error: unknown) {
-        if (!controller.signal.aborted) {
-          setState({
-            status: "error",
-            message:
-              error instanceof Error
-                ? error.message
-                : "The evaluation report could not be loaded.",
-          });
-        }
-      }
+    if (active) {
+      void load();
     }
-
-    void load();
-    return () => controller.abort();
-  }, []);
+  }, [active, load]);
 
   return (
     <section className="eval-section" aria-labelledby="eval-heading">
-      <h2 id="eval-heading">Evaluation — honest, provisional</h2>
+      <h3 id="eval-heading">Evaluation — honest, provisional</h3>
 
       {state.status === "loading" ? (
         <p role="status">Loading the evaluation report…</p>
@@ -84,46 +61,49 @@ export function EvalSection() {
 
       {state.status === "ready" ? (
         <>
-          <Alert type="warning" headingLevel="h3" slim>
-            {state.report.provisional_label}
+          <Alert type="warning" headingLevel="h4" slim>
+            {state.data.provisional_label}
           </Alert>
 
           <div className="metric-grid">
             <MetricCard
+              headingLevel="h4"
               label="Precision"
-              value={state.report.precision}
+              value={state.data.precision}
               intervals={[
                 {
                   label: "95% Wilson",
-                  interval: state.report.precision_wilson,
+                  interval: state.data.precision_wilson,
                 },
                 {
                   label: "95% clustered bootstrap",
-                  interval: state.report.precision_bootstrap,
+                  interval: state.data.precision_bootstrap,
                 },
               ]}
             />
             <MetricCard
+              headingLevel="h4"
               label="Recall"
-              value={state.report.recall}
+              value={state.data.recall}
               intervals={[
                 {
                   label: "95% Wilson",
-                  interval: state.report.recall_wilson,
+                  interval: state.data.recall_wilson,
                 },
                 {
                   label: "95% clustered bootstrap",
-                  interval: state.report.recall_bootstrap,
+                  interval: state.data.recall_bootstrap,
                 },
               ]}
             />
             <MetricCard
+              headingLevel="h4"
               label="F1"
-              value={state.report.f1}
+              value={state.data.f1}
               intervals={[
                 {
                   label: "95% clustered bootstrap",
-                  interval: state.report.f1_bootstrap,
+                  interval: state.data.f1_bootstrap,
                 },
               ]}
             />
@@ -131,21 +111,21 @@ export function EvalSection() {
 
           <ul className="eval-details">
             <li>
-              Citation fidelity: {fmt(state.report.citation_fidelity)} (guardrail — 1.0 by
+              Citation fidelity: {fmt(state.data.citation_fidelity)} (guardrail — 1.0 by
               construction of the fail-closed gate)
             </li>
             <li>
               Cohen&apos;s kappa:{" "}
-              {state.report.kappa_pass1_pass2 === null
+              {state.data.kappa_pass1_pass2 === null
                 ? "pending adjudication"
-                : `${state.report.kappa_pass1_pass2.toFixed(2)} (${state.report.kappa_band ?? ""}, Landis-Koch)`}{" "}
-              — {state.report.kappa_note}
+                : `${state.data.kappa_pass1_pass2.toFixed(2)} (${state.data.kappa_band ?? ""}, Landis-Koch)`}{" "}
+              — {state.data.kappa_note}
             </li>
             <li>
-              n = {state.report.n_provisions} provisions across {state.report.n_documents}{" "}
-              documents; effective n ≈ {Math.round(state.report.effective_n)} for the{" "}
-              {state.report.icc_outcome} (design effect {state.report.design_effect.toFixed(2)},
-              ICC {state.report.icc.toFixed(2)})
+              n = {state.data.n_provisions} provisions across {state.data.n_documents}{" "}
+              documents; effective n ≈ {Math.round(state.data.effective_n)} for the{" "}
+              {state.data.icc_outcome} (design effect {state.data.design_effect.toFixed(2)},
+              ICC {state.data.icc.toFixed(2)})
             </li>
           </ul>
 

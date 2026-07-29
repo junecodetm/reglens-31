@@ -163,6 +163,10 @@ interface AuthorityPartDetailsProps {
   onToggleUsc: (part: number, section: ResolvedSection) => void;
 }
 
+interface AuthoritySectionProps {
+  active: boolean;
+}
+
 function AuthorityPartDetails({
   part,
   selectedUsc,
@@ -176,9 +180,9 @@ function AuthorityPartDetails({
   return (
     <>
       <section className="margin-top-3">
-        <h4 id={`authority-part-${part.part}-usc-heading`}>
+        <h5 id={`authority-part-${part.part}-usc-heading`}>
           {CITATION_KIND_LABELS["usc-section"]}
-        </h4>
+        </h5>
 
         {part.resolved.length === 0 ? (
           <p>No resolved U.S.C. sections are recorded.</p>
@@ -309,9 +313,9 @@ function AuthorityPartDetails({
       </section>
 
       <section className="margin-top-3">
-        <h4 id={`authority-part-${part.part}-coverage-heading`}>
+        <h5 id={`authority-part-${part.part}-coverage-heading`}>
           Resolves outside codified section text (coverage category)
-        </h4>
+        </h5>
 
         {nonSectionCount === 0 ? (
           <p>None recorded for this part.</p>
@@ -327,9 +331,9 @@ function AuthorityPartDetails({
 
             return (
               <section key={kind}>
-                <h5 id={`authority-part-${part.part}-${kind}-heading`}>
+                <h6 id={`authority-part-${part.part}-${kind}-heading`}>
                   {CITATION_KIND_LABELS[kind]}
-                </h5>
+                </h6>
                 <ul className="usa-list">
                   {citations.map((citation, index) => (
                     <li key={`${citation.raw}-${index}`}>{citation.raw}</li>
@@ -342,9 +346,9 @@ function AuthorityPartDetails({
       </section>
 
       <section className="margin-top-3">
-        <h4 id={`authority-part-${part.part}-unresolved-heading`}>
+        <h5 id={`authority-part-${part.part}-unresolved-heading`}>
           Unresolved (fail-closed, not guessed)
-        </h4>
+        </h5>
 
         {part.unresolved.length === 0 ? (
           <p>None recorded for this part.</p>
@@ -360,11 +364,11 @@ function AuthorityPartDetails({
 
             return (
               <section key={kind}>
-                <h5
+                <h6
                   id={`authority-part-${part.part}-unresolved-${kind}-heading`}
                 >
                   {CITATION_KIND_LABELS[kind]}
-                </h5>
+                </h6>
                 <ul className="usa-list">
                   {citations.map((citation, index) => (
                     <li key={`${citation.raw}-${index}`}>
@@ -384,8 +388,7 @@ function AuthorityPartDetails({
   );
 }
 
-export function AuthoritySection() {
-  const [expanded, setExpanded] = useState(false);
+export function AuthoritySection({ active }: AuthoritySectionProps) {
   const { state: authorityState, load: loadAuthorityData } =
     useLazyJson<AuthorityData>("/data/authority.json", {
       requestErrorPrefix: "The authority request returned status ",
@@ -406,6 +409,12 @@ export function AuthoritySection() {
   const uscControllerRef = useRef<AbortController | null>(null);
   const partTextCacheRef = useRef<Map<string, string>>(new Map());
   const uscTextCacheRef = useRef<Map<string, string>>(new Map());
+
+  useEffect(() => {
+    if (active) {
+      void loadAuthorityData();
+    }
+  }, [active, loadAuthorityData]);
 
   useEffect(() => {
     return () => {
@@ -518,14 +527,6 @@ export function AuthoritySection() {
     }
   }
 
-  function toggleSection(): void {
-    if (!expanded && authorityState.status === "idle") {
-      void loadAuthorityData();
-    }
-
-    setExpanded((current) => !current);
-  }
-
   function togglePart(part: number): void {
     if (selectedPart === part) {
       setSelectedPart(null);
@@ -555,21 +556,9 @@ export function AuthoritySection() {
       className="rejected-section authority-section"
       aria-labelledby="authority-heading"
     >
-      <h2 id="authority-heading">Statutory authority</h2>
+      <h3 id="authority-heading">Statutory authority</h3>
 
-      <Button
-        type="button"
-        base
-        aria-expanded={expanded}
-        aria-controls="authority-section-content"
-        onClick={toggleSection}
-      >
-        {expanded
-          ? "Hide statutory authority data"
-          : "Show statutory authority data"}
-      </Button>
-
-      <div id="authority-section-content" hidden={!expanded}>
+      <div id="authority-section-content">
         {authorityState.status === "loading" ? (
           <p className="loading-state" role="status">
             Loading statutory authority data…
@@ -654,7 +643,7 @@ export function AuthoritySection() {
                       panelId,
                     }) => (
                       <>
-                        <h3>{label}</h3>
+                        <h4>{label}</h4>
 
                         <Button
                           type="button"
