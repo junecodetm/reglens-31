@@ -27,13 +27,13 @@ export function GlossaryTerm({ term, children }: GlossaryTermProps) {
       >
         {children}
       </button>
-      <span
-        role="note"
-        className="glossary-definition"
-        hidden={!open}
-      >
-        {definition}
-      </span>
+      {open ? (
+        // Conditional render, not `hidden`: the class sets `display: block`,
+        // which would override the hidden attribute's UA styling.
+        <span role="note" className="glossary-definition">
+          {definition}
+        </span>
+      ) : null}
     </>
   );
 }

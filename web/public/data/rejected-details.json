@@ -3885,6 +3885,6 @@
       "similarity": 0.9956
     }
   },
-  "method": "A deterministic longest-common-substring anchor (difflib) selects the closest same-length word-aligned source passage; similarity is the difflib ratio between the normalized passage and the claim's normalized quote.",
+  "method": "A deterministic longest-common-substring anchor (difflib) selects the closest same-length word-aligned source passage; similarity is the difflib ratio between the normalized passage and the claim's normalized quote. Entries with similarity below 0.35 report closest: null instead of a passage.",
   "schema_version": 1
 }

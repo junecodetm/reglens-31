@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 import { BrowseSection } from "../components/BrowseSection";
-import { PageHeader } from "../components/shell/PageHeader";
 import { SearchSection } from "../components/SearchSection";
+import { PageHeader } from "../components/shell/PageHeader";
 import { ViewTabs } from "../components/ui/ViewTabs";
 
 export const metadata: Metadata = {

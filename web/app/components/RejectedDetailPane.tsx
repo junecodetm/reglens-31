@@ -130,10 +130,7 @@ export function RejectedDetailPane({
             The words below that don&apos;t line up are why this claim was
             rejected.
           </p>
-          <p
-            className="diff-comparison"
-            aria-label="Word-level comparison of the model's quote against the closest source passage"
-          >
+          <p className="diff-comparison">
             <DiffComparison diff={entry.diff} />
           </p>
 

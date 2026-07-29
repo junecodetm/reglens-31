@@ -552,7 +552,8 @@ def export_rejected_details(out_dir: Path) -> None:
         "method": (
             "A deterministic longest-common-substring anchor (difflib) selects the closest "
             "same-length word-aligned source passage; similarity is the difflib ratio between "
-            "the normalized passage and the claim's normalized quote."
+            "the normalized passage and the claim's normalized quote. Entries with similarity "
+            "below 0.35 report closest: null instead of a passage."
         ),
         "details": details,
     }

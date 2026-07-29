@@ -1150,6 +1150,10 @@ body {
   outline-offset: -0.2rem;
 }
 
+.sidebar nav > .usa-sidenav:last-child {
+  margin-top: 1.5rem;
+}
+
 .page-header {
   margin: 0 0 2rem;
   padding-bottom: 1.5rem;

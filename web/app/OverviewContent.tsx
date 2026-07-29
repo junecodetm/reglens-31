@@ -20,13 +20,13 @@ import { useCountUp } from "./motion/useCountUp.ts";
 
 gsap.registerPlugin(useGSAP);
 
-interface ModuleCard {
+interface TaskCard {
   title: string;
   href: string;
   description: string;
 }
 
-const MODULE_CARDS: readonly ModuleCard[] = [
+const MODULE_CARDS: readonly TaskCard[] = [
   {
     title: "Extracted obligations",
     href: "/obligations",
@@ -207,7 +207,7 @@ export function OverviewContent() {
               aria-label="An accepted claim"
             >
               <p className="overview-example-label">
-                Accepted — this is real regulatory text
+                Accepted — the quote below is verbatim in the source
               </p>
               <p className="overview-example-summary">
                 {example.accepted.summary}
@@ -244,10 +244,7 @@ export function OverviewContent() {
                 {example.rejected.summary}
               </p>
               {hasClosestPassage(example.rejected) ? (
-                <p
-                  className="diff-comparison"
-                  aria-label="Word-level comparison of the model's quote against the closest source passage"
-                >
+                <p className="diff-comparison">
                   <DiffComparison diff={example.rejected.diff} />
                 </p>
               ) : null}
