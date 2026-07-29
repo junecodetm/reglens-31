@@ -164,3 +164,57 @@ Regulations.gov comment ingestion (api.data.gov key ban), FinCEN/IRS bureau
 templating (scope + §333), Form 450/RBAC lockout (no-auth non-goal +
 restricted PII), pgvector/Memgraph/LangChain/live chat (zero-infra static
 export), Llama-3-70B fine-tune (non-goal + hardware).
+
+## Front-end revamp — OGC-01 mockup framing (2026-07-29, second pass)
+
+Comprehensive front-end revamp making the site legible as an independent
+mockup of Treasury AI use case OGC-01. Shipped:
+
+- **About this demonstration** (`AboutSection.tsx` + `reglens/use_case_inventory.py`
+  + `reglens/ingest/inventory.py`): Treasury's OGC-01 inventory row quoted
+  verbatim from a pinned content-addressed snapshot of the official CSV
+  (`home.treasury.gov`, exact-path allow-list entry; provenance shown: URL,
+  fetch date, SHA-256), why-chosen numbers computed from the snapshot (129
+  use cases, sole General Counsel entry, 1 of 4 high-impact), the "Looper
+  Bright" [sic] note, and a traceability map linking each inventory-stated
+  output to its on-page neutral-equivalent module. Hero gained the mockup
+  line; footer gained the inventory attribution.
+- **IA regroup**: About + four anchored CollapsibleSection groups
+  (Extraction open by default; Explore, OGC-01 modules, Evaluation
+  collapsed) behind one unified reveal pattern; sticky 5-link PageNav with
+  open-scroll-focus hash navigation working from any collapsed state;
+  RejectedClaims moved adjacent to the extraction panes; heading hierarchy
+  h1 → h2 groups → h3 sections.
+- **Shared primitives** (`web/app/components/ui/`): HighlightedText,
+  CollapsibleSection, ExpandableGroup, useLazyJson, MetricCard +
+  metric-format — the 5×-duplicated highlight logic and 6×-duplicated
+  lazy-fetch blocks deleted (net −366 lines in the migration commit).
+- **CI guards**: disclaimer-and-framing grep in ci.yml + deploy-pages.yml
+  (invariant 4 was documented but unenforced); web tests now run in CI;
+  export-replay guard re-derives `web/public/data` from committed snapshots
+  and fails on drift; the deploy job no longer runs any package install
+  with the Cloudflare token in scope (artifact handoff from verify).
+
+Audit loop: neutrality-reviewer PASS-WITH-ADVISORIES (4 applied: quoted
+table values, truncation ellipsis, unresolved category listed, "ranked"
+not "scored"); security-reviewer PASS-WITH-FIXES (deploy-job isolation,
+digest-pinned contract test + replay guard, exact-path allow-list tier +
+port/dot-segment refusal, snapshot tests assert instead of skip, manifest
+pin check — all applied); validator (Opus) PASS-WITH-FIXES (in-flight
+promise sharing in useLazyJson so a second search submit is never dropped,
+1.5 s degrade-open for hash navigation, honest rename of the source-marker
+test, ExpandableGroup dead default toggle deleted — all applied). Known
+accepted LOW: Authority and CrossRef each fetch `authority.json` into
+their own hook instance (second hit is browser-cached).
+
+Verification: 163 pytest + 25 node tests green; ruff/pyright strict/
+zero-cost green; export replay byte-identical; full Playwright button-walk
+(nav walk, deep links, every expander class, all four search result types,
+keyboard, axe with all groups open, three viewports) — two consecutive
+identical fully clean local passes and one identical clean pass against
+https://reglens-31.pages.dev; all four workflows green at 6236e7b. OGC-01
+feature-gap research: the inventory's three stated outputs are the ONLY
+publicly documented capabilities, and all three already have shipped
+neutral equivalents — no backend features were missing; the gap was
+presentational and is now closed. Metrics and provisional labels
+unchanged (0/251 core + 0/306 OGC-01 adjudicated; worklists still open).
