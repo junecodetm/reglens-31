@@ -4,7 +4,7 @@ A solo-built, zero-cost, auditable prototype that ingests U.S. federal regulator
 
 The site is an **independent working mockup aligned to U.S. Treasury AI use case OGC-01** ("Regulatory Reform Tool" — the only General Counsel entry, and one of four high-impact entries, in Treasury's [public AI Use Case Inventory](https://home.treasury.gov/data/ai_inventory)). The site's "About this demonstration" page quotes the inventory row verbatim from a content-addressed snapshot and maps each stated output to the module demonstrating its neutral equivalent. It is a mockup, not the OGC-01 system: no connection, no Treasury-internal information, no deregulatory recommendations.
 
-**Live demo:** https://reglens-31.pages.dev — a pre-computed static export; loads cold with no backend and no API key. The site is a multi-page working tool: a persistent sidebar routes from a task-oriented overview to dedicated pages for claim-vs-source verification, rejected claims, corpus search/browse/cross-references, the three OGC-01 modules, and the evaluation reports.
+**Live demo:** https://reglens-31.pages.dev — a pre-computed static export; loads cold with no backend and no API key. Seven pages in narrative order: an Overview that shows one real accepted claim (with its highlighted source span) and one real rejection (with a word-level diff against the closest source passage); **Extracted obligations** (document picker, accepted/rejected toggle, and per-rejection evidence); **Statutory authority** (citations / shared authorities / grounding markers as tabs); **Draft skeletons**; **Evaluation**; **Search & browse**; and **About & provenance**. Every page opens with a plain-language lead, and jargon carries click-to-expand definitions.
 
 ## Demo
 

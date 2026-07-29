@@ -261,3 +261,61 @@ two consecutive identical fully clean local passes and one identical
 clean pass against the deployed URL; all four workflows green at adcea60.
 Metrics and provisional labels byte-identical (0/251 core + 0/306 OGC-01
 adjudicated; worklists still open).
+
+## Simplification revamp — 12 routes → 7, rejection evidence, guided example (2026-07-29, fourth pass)
+
+Owner feedback: the 12-route front-end was overcomplicated and disjointed —
+the use case was not legible, jargon was defined only on the home page, the
+claims view looked like "one Venezuela law" (flat 950-claim scroll in file
+order), and "not a substring" rejections looked arbitrary because the UI
+never showed WHAT failed to match.
+
+Data layer (reglens/store/export_web.py): pinned DOC_CATEGORIES (25 docs,
+fail-closed like the inventory pin) adds a "category" to every claims.json
+document; NEW rejected-details.json precomputes, per rejected claim, a
+deterministic closest-source-passage (normalize_with_map + difflib
+longest-match anchor + word-boundary window) with a word-level diff and
+original-text offsets (similarity <0.35 → closest:null, documented in the
+method string); NEW example.json pins one accepted claim
+(fe677d4f490f99b2, 31-CFR-223) and one legible rejection (33961b9a82254639,
+the "3,0 days" digit corruption) for the Overview. Invariants pinned in
+tests/test_rejected_details.py (reconstruction + slice-verified offsets);
+byte-deterministic across runs; replay guard green. verify_span untouched.
+
+IA: flat 7-item sidebar in narrative order (Overview → Extracted
+obligations → Statutory authority → Draft skeletons → Evaluation → Search
+& browse → About & provenance); unexplained "OGC-01 MODULES" group labels
+deleted. New primitives: ViewTabs (APG tabs, hash-synced, panels
+mounted+hidden), GlossaryTerm + 13-term glossary (button-toggled inline
+definitions; conditional render — display:block had defeated `hidden`),
+DocumentPicker (optgroup per category, default 31-CFR-223),
+RejectedDetailPane (mechanical rejection reason + closest-passage diff +
+proximity-highlight in full source), shared DiffComparison (ins/del +
+visually-hidden prefixes, underline-vs-strikethrough, never hue-only).
+PageHeader gained a `lead` prop: every page opens with a plain-language
+1-2 sentence lead in static HTML. Overview rewritten: plain value prop,
+live counts, guided example (real accepted claim highlighted + real
+rejection diffed), four module links replacing the ten-link farm, pipeline
+strip. Old routes forward via web/public/_redirects; legacy hashes
+retargeted; About traceability rehomed; M-25-21 crosswalk + governance/
+docs now linked from /about (was orphaned). Both contract tests rewritten
+for the 7-route map.
+
+Audit loop (author≠blesser): neutrality PASS (advisory applied — accepted
+example label claims verbatim status only for the quote, not the
+model-written summary); validator (Opus) ACCEPT-WITH-FIXES (aria-label
+dropped from role=paragraph diff wrappers per aria-prohibited-attr;
+screenshot artifacts removed; method-string cutoff clause, build-web
+.next clean, and a11y recipe extended to all 7 routes — all applied).
+
+Verification: 171 pytest + 38 node tests green; ruff/pyright/detector
+green; export byte-deterministic (two-run diff clean); Playwright MCP walk
+at 1440/768/375 — every route + h1 + lead + disclaimers, claim→span
+highlight, accepted/rejected toggle with per-document counts, rejection
+diff (incl. the capitalization case rendered legibly), tab arrow-key
+navigation + #markers/#ogc01/#browse deep links, search ("skeleton"),
+drawer dialog semantics (inert main, Escape + focus return), zero console
+errors; pa11y WCAG2AA (HTMLCS) all 7 routes clean; settled-DOM axe-core
+4.11 WCAG 2.1 AA zero violations on all 7 routes (pa11y --runner axe
+flags during the 220 ms entrance fade are scan-timing artifacts;
+reduced-motion users get no animation).
