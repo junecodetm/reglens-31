@@ -111,12 +111,19 @@ def check_web_deps(violations: list[str]) -> None:
         violations.append(f"web/package.json: dependency not on the audited allow-list: {name}")
 
 
+# XML namespace URIs are opaque identifiers, never fetched (no network,
+# no cost). Only exact, known namespace hosts are exempt from the URL scan.
+NAMESPACE_URI_HOSTS = {"xml.house.gov"}
+
+
 def check_urls(violations: list[str]) -> None:
     for pattern in SCAN_GLOBS:
         for path in sorted(ROOT.glob(pattern)):
             if path.name == "package-lock.json":
                 continue  # npm registry URLs; registry access is free
             for host in URL_PATTERN.findall(path.read_text(errors="replace")):
+                if host in NAMESPACE_URI_HOSTS:
+                    continue
                 if host not in ALLOWED_HOSTS:
                     violations.append(
                         f"{path.relative_to(ROOT)}: external host not allow-listed: {host}"

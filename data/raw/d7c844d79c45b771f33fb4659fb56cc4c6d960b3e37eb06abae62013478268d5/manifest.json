@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "uscode",
+  "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc21@119-102.zip#/us/usc/t21/s1908",
+  "fetched_at": "2026-07-29T01:43:26.829952+00:00",
+  "sha256": "d7c844d79c45b771f33fb4659fb56cc4c6d960b3e37eb06abae62013478268d5",
+  "content_type": "text/x-usc-section",
+  "filename": "usc-21-s1908.txt"
+}

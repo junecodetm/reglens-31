@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "band_definition": "Bands report TEXTUAL-MARKER DENSITY only (listed phrase families per 1,000 words; none=0, low≤0.2, moderate≤0.6, elevated>0.6), applied identically to both marker families. They describe phrase frequency in the published document text and are not a prediction of any judicial outcome or a statement about any regulation's validity.",
+  "loper_bright_decided": "2024-06-28",
+  "rules": [
+    {
+      "document_number": "04-17012",
+      "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds-Plain Language Uniform Offering Circular",
+      "publication_date": "2004-07-28",
+      "source_for_part": 356,
+      "predates_loper_bright": true,
+      "cites_chevron": false,
+      "word_count": 21567,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2016-29987",
+      "title": "Terrorism Risk Insurance Program",
+      "publication_date": "2016-12-21",
+      "source_for_part": 50,
+      "predates_loper_bright": true,
+      "cites_chevron": false,
+      "word_count": 32735,
+      "deference_count": 1,
+      "grounding_count": 11,
+      "deference_density_per_1k": 0.0305,
+      "grounding_density_per_1k": 0.336,
+      "deference_band": "low",
+      "grounding_band": "moderate",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 24658,
+          "end": 24672
+        },
+        {
+          "family": "requires-the-secretary",
+          "side": "grounding-strength",
+          "quote": "requires the Secretary",
+          "start": 49860,
+          "end": 49882
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 63500,
+          "end": 63514
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 69043,
+          "end": 69057
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 69287,
+          "end": 69301
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 69637,
+          "end": 69651
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 69813,
+          "end": 69827
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as \nrequired by",
+          "start": 160599,
+          "end": 160614
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as \nrequired by",
+          "start": 160667,
+          "end": 160682
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 185228,
+          "end": 185242
+        },
+        {
+          "family": "necessary-and-appropriate",
+          "side": "deference-reliance",
+          "quote": "necessary and appropriate",
+          "start": 191604,
+          "end": 191629
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 195154,
+          "end": 195168
+        }
+      ]
+    },
+    {
+      "document_number": "2026-09090",
+      "title": "Publication of Venezuela Sanctions Regulations Web General Licenses 47, 48, 49, and 50",
+      "publication_date": "2026-05-07",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": true,
+      "word_count": 2314,
+      "deference_count": 1,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.4322,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "moderate",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 17023,
+          "end": 17030
+        }
+      ]
+    },
+    {
+      "document_number": "2026-09092",
+      "title": "Publication of Venezuela Sanctions Regulations Web General Licenses 46, 46A, and 46B",
+      "publication_date": "2026-05-07",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 2483,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-09094",
+      "title": "Publication of Iranian Transactions and Sanctions Regulations Web General Licenses",
+      "publication_date": "2026-05-07",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 1569,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-10036",
+      "title": "Real Estate Lending Escrow Accounts",
+      "publication_date": "2026-05-19",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": true,
+      "word_count": 10308,
+      "deference_count": 5,
+      "grounding_count": 1,
+      "deference_density_per_1k": 0.4851,
+      "grounding_density_per_1k": 0.097,
+      "deference_band": "moderate",
+      "grounding_band": "low",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 40799,
+          "end": 40806
+        },
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 41155,
+          "end": 41162
+        },
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 41198,
+          "end": 41205
+        },
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 41251,
+          "end": 41258
+        },
+        {
+          "family": "chevron-citation",
+          "side": "deference-reliance",
+          "quote": "Chevron",
+          "start": 41407,
+          "end": 41414
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "As \nrequired by",
+          "start": 69756,
+          "end": 69771
+        }
+      ]
+    },
+    {
+      "document_number": "2026-10037",
+      "title": "Preemption Determination: State Interest-on-Escrow Laws",
+      "publication_date": "2026-05-19",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 11433,
+      "deference_count": 0,
+      "grounding_count": 2,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.1749,
+      "deference_band": "none",
+      "grounding_band": "low",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "expressly authorized",
+          "start": 52075,
+          "end": 52095
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "As \nrequired by",
+          "start": 80750,
+          "end": 80765
+        }
+      ]
+    },
+    {
+      "document_number": "2026-10116",
+      "title": "Returns Relating to Sales or Exchanges of Certain Partnership Interests",
+      "publication_date": "2026-05-20",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 2851,
+      "deference_count": 0,
+      "grounding_count": 1,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.3508,
+      "deference_band": "none",
+      "grounding_band": "moderate",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegations",
+          "start": 1897,
+          "end": 1916
+        }
+      ]
+    },
+    {
+      "document_number": "2026-11140",
+      "title": "Federal Independent Dispute Resolution Operations",
+      "publication_date": "2026-06-04",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 195391,
+      "deference_count": 1,
+      "grounding_count": 4,
+      "deference_density_per_1k": 0.0051,
+      "grounding_density_per_1k": 0.0205,
+      "deference_band": "low",
+      "grounding_band": "low",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "necessary-and-appropriate",
+          "side": "deference-reliance",
+          "quote": "necessary and appropriate",
+          "start": 51008,
+          "end": 51033
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 72364,
+          "end": 72378
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 493822,
+          "end": 493836
+        },
+        {
+          "family": "requires-the-secretary",
+          "side": "grounding-strength",
+          "quote": "requires \nthe Secretary",
+          "start": 790670,
+          "end": 790693
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as \nrequired by",
+          "start": 839835,
+          "end": 839850
+        }
+      ]
+    },
+    {
+      "document_number": "2026-11592",
+      "title": "Publication of Cyber-Related Sanctions Regulations Web General License 2",
+      "publication_date": "2026-06-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 388,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-11601",
+      "title": "Publication of International Criminal Court-Related Sanctions Regulations Web General License 11",
+      "publication_date": "2026-06-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 452,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-11614",
+      "title": "Publication of Iran-Related Web General Licenses U and V",
+      "publication_date": "2026-06-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 1073,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-11615",
+      "title": "Publication of Venezuela Sanctions Regulations Web General Licenses 5U and 5V",
+      "publication_date": "2026-06-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 631,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-11616",
+      "title": "Publication of Venezuela Sanctions Regulations Web General Licenses 48A and 49A",
+      "publication_date": "2026-06-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 1837,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-11761",
+      "title": "Publication of the List of Medical Devices Requiring Specific Authorization for the North Korea Sanctions Regulations",
+      "publication_date": "2026-06-11",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 677,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-12787",
+      "title": "Financial Data Transparency Act Joint Data Standards",
+      "publication_date": "2026-06-25",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 26151,
+      "deference_count": 0,
+      "grounding_count": 5,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.1912,
+      "deference_band": "none",
+      "grounding_band": "low",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required \nby",
+          "start": 2590,
+          "end": 2605
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 66361,
+          "end": 66375
+        },
+        {
+          "family": "congressional-direction",
+          "side": "grounding-strength",
+          "quote": "statutory mandate",
+          "start": 96136,
+          "end": 96153
+        },
+        {
+          "family": "congressional-direction",
+          "side": "grounding-strength",
+          "quote": "statutory mandate",
+          "start": 96300,
+          "end": 96317
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 177527,
+          "end": 177541
+        }
+      ]
+    },
+    {
+      "document_number": "2026-13830",
+      "title": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions",
+      "publication_date": "2026-07-09",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 9306,
+      "deference_count": 0,
+      "grounding_count": 2,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.2149,
+      "deference_band": "none",
+      "grounding_band": "moderate",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegations",
+          "start": 2008,
+          "end": 2027
+        },
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegations",
+          "start": 2222,
+          "end": 2241
+        }
+      ]
+    },
+    {
+      "document_number": "2026-13851",
+      "title": "Charitable Remainder Annuity Trust Listed Transaction",
+      "publication_date": "2026-07-09",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 2906,
+      "deference_count": 0,
+      "grounding_count": 3,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 1.0323,
+      "deference_band": "none",
+      "grounding_band": "elevated",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegation",
+          "start": 2216,
+          "end": 2234
+        },
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegation",
+          "start": 2597,
+          "end": 2615
+        },
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegation",
+          "start": 3840,
+          "end": 3858
+        }
+      ]
+    },
+    {
+      "document_number": "2026-13925",
+      "title": "Revising Qualified Domestic Trust Regulations Under Section 2056A To Update Outdated References and Procedures",
+      "publication_date": "2026-07-10",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 8112,
+      "deference_count": 0,
+      "grounding_count": 4,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.4931,
+      "deference_band": "none",
+      "grounding_band": "moderate",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "express-delegation",
+          "side": "grounding-strength",
+          "quote": "express delegations",
+          "start": 2191,
+          "end": 2210
+        },
+        {
+          "family": "directs-the-secretary",
+          "side": "grounding-strength",
+          "quote": "directs the Secretary",
+          "start": 2679,
+          "end": 2700
+        },
+        {
+          "family": "directs-the-secretary",
+          "side": "grounding-strength",
+          "quote": "directs the Secretary",
+          "start": 4617,
+          "end": 4638
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 16621,
+          "end": 16635
+        }
+      ]
+    },
+    {
+      "document_number": "2026-15008",
+      "title": "Revising Qualified Domestic Trust Regulations Under Section 2056A To Update Outdated References and Procedures; Correction",
+      "publication_date": "2026-07-24",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 432,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "2026-15112",
+      "title": "Updating Website and Contact Information, and Authorizations for Payments for Legal Services",
+      "publication_date": "2026-07-27",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 7974,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "97-16181",
+      "title": "Offset of Tax Refund Payments To Collect Past-Due, Legally Enforceable Nontax Debt",
+      "publication_date": "1997-06-25",
+      "source_for_part": 285,
+      "predates_loper_bright": true,
+      "cites_chevron": false,
+      "word_count": 7363,
+      "deference_count": 0,
+      "grounding_count": 2,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.2716,
+      "deference_band": "none",
+      "grounding_band": "moderate",
+      "gate_rejections": 0,
+      "markers": [
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "As required by",
+          "start": 7139,
+          "end": 7153
+        },
+        {
+          "family": "as-required-by",
+          "side": "grounding-strength",
+          "quote": "as required by",
+          "start": 11021,
+          "end": 11035
+        }
+      ]
+    },
+    {
+      "document_number": "97-22378",
+      "title": "Reporting and Procedures Regulations: Consolidation of Information Collections; Annual Reports on Blocked Assets and Retained Transfers; Reports on Rejected Transfers; Reports on Litigation; Procedure for Releasing Funds Believed to Have Been Blocked Due to Mistaken Identity; Procedure For Removal From the Lists of Blocked Persons and Vessels",
+      "publication_date": "1997-08-25",
+      "source_for_part": 501,
+      "predates_loper_bright": true,
+      "cites_chevron": false,
+      "word_count": 14662,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    },
+    {
+      "document_number": "C1-2026-10036",
+      "title": "Real Estate Lending Escrow Accounts",
+      "publication_date": "2026-06-29",
+      "source_for_part": null,
+      "predates_loper_bright": false,
+      "cites_chevron": false,
+      "word_count": 202,
+      "deference_count": 0,
+      "grounding_count": 0,
+      "deference_density_per_1k": 0.0,
+      "grounding_density_per_1k": 0.0,
+      "deference_band": "none",
+      "grounding_band": "none",
+      "gate_rejections": 0,
+      "markers": []
+    }
+  ],
+  "coverage_notes": [
+    "31 CFR part 223: source preamble unavailable (no eCFR Source line; predates Federal Register API coverage). Recorded as a coverage fact, not synthesized."
+  ],
+  "total_gate_rejections": 0
+}

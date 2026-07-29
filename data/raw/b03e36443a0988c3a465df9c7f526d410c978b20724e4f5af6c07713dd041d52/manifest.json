@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "uscode",
+  "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc31@119-102.zip#/us/usc/t31/s3701",
+  "fetched_at": "2026-07-29T01:43:55.648007+00:00",
+  "sha256": "b03e36443a0988c3a465df9c7f526d410c978b20724e4f5af6c07713dd041d52",
+  "content_type": "text/x-usc-section",
+  "filename": "usc-31-s3701.txt"
+}

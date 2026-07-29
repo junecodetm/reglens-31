@@ -51,6 +51,23 @@ def extract_authority_text(xml_bytes: bytes) -> str:
     return text
 
 
+def extract_part_heading(xml_bytes: bytes) -> str:
+    """The part's HEAD line (e.g. "PART 501—REPORTING …").
+
+    Failure mode: raises ``LookupError`` when absent — draft skeletons must
+    carry the real part heading or none at all, never an invented one.
+    """
+    root = ElementTree.fromstring(xml_bytes)
+    for div in root.iter():
+        if div.get("TYPE") == "PART":
+            head = div.find("HEAD")
+            if head is not None:
+                text = " ".join(f.strip() for f in head.itertext() if f.strip())
+                if text:
+                    return text
+    raise LookupError("part XML has no PART HEAD element")
+
+
 def locate_authority_span(part_text: str, authority_text: str) -> tuple[int, int]:
     """Gate-verified offsets of the authority line inside the part text.
 

@@ -86,6 +86,7 @@ class PartAuthority(BaseModel):
     schema_version: int = AUTHORITY_SCHEMA_VERSION
     cfr_title: int = 31
     part: int
+    part_heading: str
     ecfr_date: str
     authority_text: str
     # Offsets of the authority citation inside the part's flattened text

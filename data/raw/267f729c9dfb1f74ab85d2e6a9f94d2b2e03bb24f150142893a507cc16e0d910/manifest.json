@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "uscode",
+  "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc19@119-102.zip#/us/usc/t19/s3911",
+  "fetched_at": "2026-07-29T01:43:23.206157+00:00",
+  "sha256": "267f729c9dfb1f74ab85d2e6a9f94d2b2e03bb24f150142893a507cc16e0d910",
+  "content_type": "text/x-usc-section",
+  "filename": "usc-19-s3911.txt"
+}

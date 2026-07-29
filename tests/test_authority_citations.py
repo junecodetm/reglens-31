@@ -175,3 +175,37 @@ def test_all_spans_recorded_in_document_order() -> None:
         Classification.discretionary,
     ]
     assert spans[0].start < spans[1].start
+
+
+def test_unresolvable_citation_fails_closed_dod2() -> None:
+    """DoD #2: an unresolvable authority citation is recorded unresolved — never guessed."""
+    from reglens.authority.records import AuthorityCitation, CitationKind
+    from reglens.authority.run import resolve_part_citations
+    from reglens.ingest.uscode import UscSection
+
+    present = UscSection(
+        title=31,
+        section="321",
+        identifier="/us/usc/t31/s321",
+        heading="General authority of the Secretary",
+        status=None,
+        text="The Secretary may prescribe regulations to carry out this section.",
+    )
+    citations = [
+        AuthorityCitation(
+            raw="31 U.S.C. 321", kind=CitationKind.usc_section, usc_title=31, usc_section="321"
+        ),
+        AuthorityCitation(
+            raw="31 U.S.C. 99999",
+            kind=CitationKind.usc_section,
+            usc_title=31,
+            usc_section="99999",
+        ),
+    ]
+    resolved, unresolved, totals = resolve_part_citations(
+        citations, {(31, "321"): (present, "a" * 64)}
+    )
+    assert [r.usc_section for r in resolved] == ["321"]
+    assert [c.usc_section for c in unresolved] == ["99999"]
+    assert unresolved[0].raw == "31 U.S.C. 99999"  # untouched: no guess, no quote
+    assert totals["unresolved"] == 1 and totals["resolved"] == 1

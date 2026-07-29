@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "uscode",
+  "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc50@119-102.zip#/us/usc/t50/s4321",
+  "fetched_at": "2026-07-29T01:45:52.228305+00:00",
+  "sha256": "d26d0c7d48ba9c501f1e2655d18564986f05c813914f8792323d346c97f157a6",
+  "content_type": "text/x-usc-section",
+  "filename": "usc-50-s4321.txt"
+}

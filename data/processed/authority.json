@@ -1,0 +1,3855 @@
+{
+  "schema_version": 1,
+  "usc_release_point": "119-102",
+  "generated_from": "eCFR point-in-time 2026-07-27; USLM release point 119-102",
+  "parts": [
+    {
+      "schema_version": 1,
+      "cfr_title": 31,
+      "part": 50,
+      "part_heading": "PART 50—TERRORISM RISK INSURANCE PROGRAM",
+      "ecfr_date": "2026-07-27",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-297, 116 Stat. 2322, as amended by Pub. L. 109-144, 119 Stat. 2660, Pub. L. 110-160, 121 Stat. 1839, Pub. L. 114-1, 129 Stat. 3, and Pub. L. 116-94, 133 Stat. 2534 (15 U.S.C. 6701 note); Pub. L. 114-74, 129 Stat. 601, Title VII (28 U.S.C. 2461 note).",
+      "part_text_sha256": "2b90cb8e1afdcaa27e6f76529f89fbe516cd1944e379367b707749cdc13d3187",
+      "authority_start": 41,
+      "authority_end": 352,
+      "citations": [
+        {
+          "raw": "5 U.S.C. 301",
+          "kind": "usc-section",
+          "usc_title": 5,
+          "usc_section": "301",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 321",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "321",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "Title I, Pub. L. 107-297, 116 Stat. 2322, as amended by Pub. L. 109-144, 119 Stat. 2660, Pub. L. 110-160, 121 Stat. 1839, Pub. L. 114-1, 129 Stat. 3, and Pub. L. 116-94, 133 Stat. 2534 (15 U.S.C. 6701 note)",
+          "kind": "usc-note",
+          "usc_title": 15,
+          "usc_section": "6701",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "Pub. L. 114-74, 129 Stat. 601, Title VII (28 U.S.C. 2461 note)",
+          "kind": "usc-note",
+          "usc_title": 28,
+          "usc_section": "2461",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        }
+      ],
+      "resolved": [
+        {
+          "usc_title": 5,
+          "usc_section": "301",
+          "identifier": "/us/usc/t5/s301",
+          "heading": "Departmental regulations",
+          "status": null,
+          "text_sha256": "924fe4c894873a7b4b186b6cea8172f74098c98fa965ede68602fba4fa8effc3",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations",
+          "verb_start": 91,
+          "verb_end": 116,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe regulations",
+              "start": 91,
+              "end": 116
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "321",
+          "identifier": "/us/usc/t31/s321",
+          "heading": "General authority of the Secretary",
+          "status": null,
+          "text_sha256": "83d4a24e7b11454da86f0b91856fd04db21fe33a16d092f8869cf6dc6c62485d",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations",
+          "verb_start": 1613,
+          "verb_end": 1643,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may— (1) prescribe regulations",
+              "start": 1613,
+              "end": 1643
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        }
+      ],
+      "unresolved": [],
+      "ecfr_url": "https://www.ecfr.gov/on/2026-07-27/title-31/part-50"
+    },
+    {
+      "schema_version": 1,
+      "cfr_title": 31,
+      "part": 223,
+      "part_heading": "PART 223—SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES",
+      "ecfr_date": "2026-07-27",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 9304-9308.",
+      "part_text_sha256": "3be0750516f615dc85992c480478a67afe8c0639954a2c4bc23ccbc3660762f3",
+      "authority_start": 64,
+      "authority_end": 109,
+      "citations": [
+        {
+          "raw": "5 U.S.C. 301",
+          "kind": "usc-section",
+          "usc_title": 5,
+          "usc_section": "301",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 9304",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "9304",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "31 U.S.C. 9304-9308"
+        },
+        {
+          "raw": "31 U.S.C. 9305",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "9305",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "31 U.S.C. 9304-9308"
+        },
+        {
+          "raw": "31 U.S.C. 9306",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "9306",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "31 U.S.C. 9304-9308"
+        },
+        {
+          "raw": "31 U.S.C. 9307",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "9307",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "31 U.S.C. 9304-9308"
+        },
+        {
+          "raw": "31 U.S.C. 9308",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "9308",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "31 U.S.C. 9304-9308"
+        }
+      ],
+      "resolved": [
+        {
+          "usc_title": 5,
+          "usc_section": "301",
+          "identifier": "/us/usc/t5/s301",
+          "heading": "Departmental regulations",
+          "status": null,
+          "text_sha256": "924fe4c894873a7b4b186b6cea8172f74098c98fa965ede68602fba4fa8effc3",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations",
+          "verb_start": 91,
+          "verb_end": 116,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe regulations",
+              "start": 91,
+              "end": 116
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "9304",
+          "identifier": "/us/usc/t31/s9304",
+          "heading": "Surety corporations",
+          "status": null,
+          "text_sha256": "b15fb1798c4b9dc5c7fa00b0286a07427ba174b934f07ba5a359ce4b1a8efed6",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "9305",
+          "identifier": "/us/usc/t31/s9305",
+          "heading": "Authority and revocation of authority of surety corporations",
+          "status": null,
+          "text_sha256": "f02d7e996ecbbe4ab60ec836a4e5d21f1d35d81a43696e67d93777440e1f81e8",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "9306",
+          "identifier": "/us/usc/t31/s9306",
+          "heading": "Surety corporations acting outside area of incorporation and place of principal office",
+          "status": null,
+          "text_sha256": "dfe88df5f8d4f411129d7e5fac14b7f6f4548857ea1694d6288ca30d8c8f3887",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "9307",
+          "identifier": "/us/usc/t31/s9307",
+          "heading": "Civil actions and judgments against surety corporations",
+          "status": null,
+          "text_sha256": "891459fcfbf70ceb346d49e689334ada48a86fe900a41d9c02b347a19194848a",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "9308",
+          "identifier": "/us/usc/t31/s9308",
+          "heading": "Civil penalty",
+          "status": null,
+          "text_sha256": "0fb0ec1600fe4c88949e4f1ab05bb2f198f523fa297014d719d105620ad45a3c",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        }
+      ],
+      "unresolved": [],
+      "ecfr_url": "https://www.ecfr.gov/on/2026-07-27/title-31/part-223"
+    },
+    {
+      "schema_version": 1,
+      "cfr_title": 31,
+      "part": 285,
+      "part_heading": "PART 285—DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION IMPROVEMENT ACT OF 1996",
+      "ecfr_date": "2026-07-27",
+      "authority_text": "Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 FR 51763, 3 CFR, 1996 Comp., p. 216.",
+      "part_text_sha256": "c3defc1a8595167202fa204646f0cbf5f08137f5c5db788c1f49b2da78e76e14",
+      "authority_start": 87,
+      "authority_end": 255,
+      "citations": [
+        {
+          "raw": "5 U.S.C. 5514",
+          "kind": "usc-section",
+          "usc_title": 5,
+          "usc_section": "5514",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "26 U.S.C. 6402",
+          "kind": "usc-section",
+          "usc_title": 26,
+          "usc_section": "6402",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 321",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "321",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3701",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3701",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3711",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3711",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3716",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3716",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3719",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3719",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3720A",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3720A",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3720B",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3720B",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3720D",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3720D",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "42 U.S.C. 664",
+          "kind": "usc-section",
+          "usc_title": 42,
+          "usc_section": "664",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "E.O. 13019, 61 FR 51763, 3 CFR, 1996 Comp., p. 216",
+          "kind": "executive-order",
+          "usc_title": null,
+          "usc_section": null,
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        }
+      ],
+      "resolved": [
+        {
+          "usc_title": 5,
+          "usc_section": "5514",
+          "identifier": "/us/usc/t5/s5514",
+          "heading": "Installment deduction for indebtedness to the United States",
+          "status": null,
+          "text_sha256": "e9a829c28acb1a02fe22d8e316d2b7971f261fd06f23affa32e87f16e542399f",
+          "classification": "mandatory",
+          "verb_quote": "shall establish and maintain an interagency consortium to implement centralized salary offset computer matching, and promulgate regulations",
+          "verb_start": 1986,
+          "verb_end": 2125,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall establish and maintain an interagency consortium to implement centralized salary offset computer matching, and promulgate regulations",
+              "start": 1986,
+              "end": 2125
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 5780,
+              "end": 5807
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 26,
+          "usc_section": "6402",
+          "identifier": "/us/usc/t26/s6402",
+          "heading": "Authority to make credits or refunds",
+          "status": null,
+          "text_sha256": "5892136d5486cadfe76f3ea2d1b3cd96ca43785339ede5c38d4fd86e15f29a55",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations",
+          "verb_start": 9255,
+          "verb_end": 9278,
+          "grant_spans": [
+            {
+              "family": "authorized-to-prescribe",
+              "classification": "discretionary",
+              "quote": "is authorized to prescribe regulations",
+              "start": 491,
+              "end": 529
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall issue regulations",
+              "start": 9255,
+              "end": 9278
+            },
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may issue regulations",
+              "start": 13680,
+              "end": 13701
+            },
+            {
+              "family": "may-by-rule",
+              "classification": "discretionary",
+              "quote": "may by regulation",
+              "start": 17372,
+              "end": 17389
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 18305,
+              "end": 18332
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "321",
+          "identifier": "/us/usc/t31/s321",
+          "heading": "General authority of the Secretary",
+          "status": null,
+          "text_sha256": "83d4a24e7b11454da86f0b91856fd04db21fe33a16d092f8869cf6dc6c62485d",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations",
+          "verb_start": 1613,
+          "verb_end": 1643,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may— (1) prescribe regulations",
+              "start": 1613,
+              "end": 1643
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3701",
+          "identifier": "/us/usc/t31/s3701",
+          "heading": "Definitions and application",
+          "status": null,
+          "text_sha256": "b03e36443a0988c3a465df9c7f526d410c978b20724e4f5af6c07713dd041d52",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3711",
+          "identifier": "/us/usc/t31/s3711",
+          "heading": "Collection and compromise",
+          "status": null,
+          "text_sha256": "216f28319cf231d9b6c4a0ff0de364f6769d4c50ef1e75222455836b7887cd61",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such rules",
+          "verb_start": 13550,
+          "verb_end": 13574,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe such rules",
+              "start": 13550,
+              "end": 13574
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3716",
+          "identifier": "/us/usc/t31/s3716",
+          "heading": "Administrative offset",
+          "status": null,
+          "text_sha256": "edb38261e57d37e86a2520c00ea81f6dcc1c3f316857b900fd6063da3a243cc0",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such rules",
+          "verb_start": 6424,
+          "verb_end": 6448,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe such rules",
+              "start": 6424,
+              "end": 6448
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3719",
+          "identifier": "/us/usc/t31/s3719",
+          "heading": "Reports on debt collection activities",
+          "status": null,
+          "text_sha256": "36130ccb3c794f72f1e06d5d43a96e23d7bea17d72a228b4a3b4160766f04f46",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations",
+          "verb_start": 148,
+          "verb_end": 175,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 148,
+              "end": 175
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3720A",
+          "identifier": "/us/usc/t31/s3720A",
+          "heading": "Reduction of tax refund by amount of debt",
+          "status": null,
+          "text_sha256": "6fc757f67c19b0d3e432bfcb4fd97cdc182b7b100c90bd7820f6e1d3152b546e",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations",
+          "verb_start": 1975,
+          "verb_end": 1998,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall issue regulations",
+              "start": 1975,
+              "end": 1998
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3720B",
+          "identifier": "/us/usc/t31/s3720B",
+          "heading": "Barring delinquent Federal debtors from obtaining Federal loans or loan insurance guarantees",
+          "status": null,
+          "text_sha256": "ddb1184a26fdefce74a2c37d87d7128215e713faa49e8805743291de66176f26",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3720D",
+          "identifier": "/us/usc/t31/s3720D",
+          "heading": "Garnishment",
+          "status": null,
+          "text_sha256": "6b28146d930fe89ee4e0c5dbffd3e35a618026338704cccf70b78bd66c12d076",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations",
+          "verb_start": 5411,
+          "verb_end": 5434,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall issue regulations",
+              "start": 5411,
+              "end": 5434
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 42,
+          "usc_section": "664",
+          "identifier": "/us/usc/t42/s664",
+          "heading": "Collection of past-due support from Federal tax refunds",
+          "status": null,
+          "text_sha256": "864163bf092d8035f535b8417dbe2394062d82631d4a741762cecc77aa3c946f",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations",
+          "verb_start": 5643,
+          "verb_end": 5666,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may be prescribed by the Secretary of Health and Human Services by regulation",
+              "start": 3535,
+              "end": 3612
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall issue regulations",
+              "start": 5643,
+              "end": 5666
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        }
+      ],
+      "unresolved": [],
+      "ecfr_url": "https://www.ecfr.gov/on/2026-07-27/title-31/part-285"
+    },
+    {
+      "schema_version": 1,
+      "cfr_title": 31,
+      "part": 356,
+      "part_heading": "PART 356—SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL SERVICE SERIES NO. 1-93)",
+      "ecfr_date": "2026-07-27",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.",
+      "part_text_sha256": "092037024490d693dff5deb8e10fd4795570d819128c782c008b52de80bc3371",
+      "authority_start": 152,
+      "authority_end": 216,
+      "citations": [
+        {
+          "raw": "5 U.S.C. 301",
+          "kind": "usc-section",
+          "usc_title": 5,
+          "usc_section": "301",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "31 U.S.C. 3102 et seq.",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "3102",
+          "subsection": null,
+          "et_seq": true,
+          "from_range": null
+        },
+        {
+          "raw": "12 U.S.C. 391",
+          "kind": "usc-section",
+          "usc_title": 12,
+          "usc_section": "391",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        }
+      ],
+      "resolved": [
+        {
+          "usc_title": 5,
+          "usc_section": "301",
+          "identifier": "/us/usc/t5/s301",
+          "heading": "Departmental regulations",
+          "status": null,
+          "text_sha256": "924fe4c894873a7b4b186b6cea8172f74098c98fa965ede68602fba4fa8effc3",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations",
+          "verb_start": 91,
+          "verb_end": 116,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe regulations",
+              "start": 91,
+              "end": 116
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "3102",
+          "identifier": "/us/usc/t31/s3102",
+          "heading": "Bonds",
+          "status": null,
+          "text_sha256": "69398319cdae9036fe74e6f5df4258ecc2788504c010044906e1616300db9124",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations",
+          "verb_start": 1600,
+          "verb_end": 1627,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 1600,
+              "end": 1627
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 12,
+          "usc_section": "391",
+          "identifier": "/us/usc/t12/s391",
+          "heading": "Federal reserve banks as Government depositaries and fiscal agents",
+          "status": null,
+          "text_sha256": "8dcdc7e09e7da211aac6776a63bf66eab37475435c4cec72b2b8308f2946a880",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        }
+      ],
+      "unresolved": [],
+      "ecfr_url": "https://www.ecfr.gov/on/2026-07-27/title-31/part-356"
+    },
+    {
+      "schema_version": 1,
+      "cfr_title": 31,
+      "part": 501,
+      "part_heading": "PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS",
+      "ecfr_date": "2026-07-27",
+      "authority_text": "Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).",
+      "part_text_sha256": "9278f65625cdd6f261deb6fbefc17c981368cb2039fcfd0231d8f6416d6141e0",
+      "authority_start": 57,
+      "authority_end": 318,
+      "citations": [
+        {
+          "raw": "8 U.S.C. 1189",
+          "kind": "usc-section",
+          "usc_title": 8,
+          "usc_section": "1189",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "18 U.S.C. 2332d",
+          "kind": "usc-section",
+          "usc_title": 18,
+          "usc_section": "2332d",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "18 U.S.C. 2339B",
+          "kind": "usc-section",
+          "usc_title": 18,
+          "usc_section": "2339B",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "19 U.S.C. 3901",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3901",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3902",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3902",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3903",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3903",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3904",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3904",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3905",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3905",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3906",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3906",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3907",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3907",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3908",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3908",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3909",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3909",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3910",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3910",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3911",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3911",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3912",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3912",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "19 U.S.C. 3913",
+          "kind": "usc-section",
+          "usc_title": 19,
+          "usc_section": "3913",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "19 U.S.C. 3901-3913"
+        },
+        {
+          "raw": "21 U.S.C. 1901",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1901",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1902",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1902",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1903",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1903",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1904",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1904",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1905",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1905",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1906",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1906",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1907",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1907",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "21 U.S.C. 1908",
+          "kind": "usc-section",
+          "usc_title": 21,
+          "usc_section": "1908",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "21 U.S.C. 1901-1908"
+        },
+        {
+          "raw": "22 U.S.C. 287c",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "287c",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "22 U.S.C. 2370(a)",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "2370",
+          "subsection": "(a)",
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "22 U.S.C. 6009",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "6009",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "22 U.S.C. 6032",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "6032",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "22 U.S.C. 7205",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "7205",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "22 U.S.C. 8501",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8501",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8502",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8502",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8503",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8503",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8504",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8504",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8505",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8505",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8506",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8506",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8507",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8507",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8508",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8508",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8509",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8509",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8510",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8510",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8511",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8511",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8512",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8512",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8513",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8513",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8514",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8514",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8515",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8515",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8516",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8516",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8517",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8517",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8518",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8518",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8519",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8519",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8520",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8520",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8521",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8521",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8522",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8522",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8523",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8523",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8524",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8524",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8525",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8525",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8526",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8526",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8527",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8527",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8528",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8528",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8529",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8529",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8530",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8530",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8531",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8531",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8532",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8532",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8533",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8533",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8534",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8534",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8535",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8535",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8536",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8536",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8537",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8537",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8538",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8538",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8539",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8539",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8540",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8540",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8541",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8541",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8542",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8542",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8543",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8543",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8544",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8544",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8545",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8545",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8546",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8546",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8547",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8547",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8548",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8548",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8549",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8549",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8550",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8550",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8551",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8551",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "31 U.S.C. 321(b)",
+          "kind": "usc-section",
+          "usc_title": 31,
+          "usc_section": "321",
+          "subsection": "(b)",
+          "et_seq": false,
+          "from_range": null
+        },
+        {
+          "raw": "50 U.S.C. 1701",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1701",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 1702",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1702",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 1703",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1703",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 1704",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1704",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 1705",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1705",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 1706",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "1706",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 1701-1706"
+        },
+        {
+          "raw": "50 U.S.C. 4301",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4301",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4302",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4302",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4303",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4303",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4304",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4304",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4305",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4305",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4306",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4306",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4307",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4307",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4308",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4308",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4309",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4309",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4310",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4310",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4311",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4311",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4312",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4312",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4313",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4313",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4314",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4314",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4315",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4315",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4316",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4316",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4317",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4317",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4318",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4318",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4319",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4319",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4320",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4320",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4321",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4321",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4322",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4322",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4323",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4323",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4324",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4324",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4325",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4325",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4326",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4326",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4327",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4327",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4328",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4328",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4329",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4329",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4330",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4330",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4331",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4331",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4332",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4332",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4333",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4333",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4334",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4334",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4335",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4335",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4336",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4336",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4337",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4337",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4338",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4338",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4339",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4339",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4340",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4340",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "50 U.S.C. 4341",
+          "kind": "usc-section",
+          "usc_title": 50,
+          "usc_section": "4341",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "50 U.S.C. 4301-4341"
+        },
+        {
+          "raw": "Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note)",
+          "kind": "usc-note",
+          "usc_title": 28,
+          "usc_section": "2461",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": null
+        }
+      ],
+      "resolved": [
+        {
+          "usc_title": 8,
+          "usc_section": "1189",
+          "identifier": "/us/usc/t8/s1189",
+          "heading": "Designation of foreign terrorist organizations",
+          "status": null,
+          "text_sha256": "ab86e30a42a8556d7d5caf60629302496f2f1fb8e7c6d4d4d458b69aea33f944",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 18,
+          "usc_section": "2332d",
+          "identifier": "/us/usc/t18/s2332d",
+          "heading": "Financial transactions",
+          "status": null,
+          "text_sha256": "3a2f08b896ecd327934b0d1c730f81526d1ccb2ef23568756e777107694d9650",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 18,
+          "usc_section": "2339B",
+          "identifier": "/us/usc/t18/s2339B",
+          "heading": "Providing material support or resources to designated foreign terrorist organizations",
+          "status": null,
+          "text_sha256": "806cfe709686c0c7278177f7a4728f9433fd970e3aa0496531bbabc50c9a6bce",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3901",
+          "identifier": "/us/usc/t19/s3901",
+          "heading": "Findings",
+          "status": null,
+          "text_sha256": "f864441281efefd88f5be19dddfa0c87f46edc735514aa6808ea8ffd12a78897",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3902",
+          "identifier": "/us/usc/t19/s3902",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "f50ccb547343df4fdcb54cb67665409c50eca28931a520a4be2ab048bfee7e62",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3903",
+          "identifier": "/us/usc/t19/s3903",
+          "heading": "Measures for the importation and exportation of rough diamonds",
+          "status": null,
+          "text_sha256": "22690bd0e8a0905c526650d4f6d1c1981a48509f6f01becb52da780dfbd5dfc5",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3904",
+          "identifier": "/us/usc/t19/s3904",
+          "heading": "Regulatory and other authority",
+          "status": null,
+          "text_sha256": "cba17b60da4e563944d630ade66ab23fc23e00cf02894c3da690a7174d34f766",
+          "classification": "mandatory",
+          "verb_quote": "shall as necessary issue such proclamations, regulations",
+          "verb_start": 90,
+          "verb_end": 146,
+          "grant_spans": [
+            {
+              "family": "authorized-to-prescribe",
+              "classification": "discretionary",
+              "quote": "is authorized to and shall as necessary issue such proclamations, regulations",
+              "start": 69,
+              "end": 146
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall as necessary issue such proclamations, regulations",
+              "start": 90,
+              "end": 146
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3905",
+          "identifier": "/us/usc/t19/s3905",
+          "heading": "Importing and exporting authorities",
+          "status": null,
+          "text_sha256": "524e6722ff22cf74aeb10fea10ea0b20d3f134149f0606bb987b20ff53b92495",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3906",
+          "identifier": "/us/usc/t19/s3906",
+          "heading": "Statement of policy",
+          "status": null,
+          "text_sha256": "15de74396ae7ac2d1fc973061ab7396d6a59ad8b8a895c177dd0fdf3c37f855c",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3907",
+          "identifier": "/us/usc/t19/s3907",
+          "heading": "Enforcement",
+          "status": null,
+          "text_sha256": "8fa60e65a29dcb44f99f35baf140675eb3a5dd3b11a382dbc703800b3aae3ae6",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3908",
+          "identifier": "/us/usc/t19/s3908",
+          "heading": "Technical assistance",
+          "status": null,
+          "text_sha256": "aadb47f1baeec04d8c1951c103c0eda1fd8092486d1cf02ed1a09c696d916292",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3909",
+          "identifier": "/us/usc/t19/s3909",
+          "heading": "Sense of Congress",
+          "status": null,
+          "text_sha256": "d8d7f60804397871acceec478c7971e7587c07cc27f1c389a7a10d1034ad8f3a",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3910",
+          "identifier": "/us/usc/t19/s3910",
+          "heading": "Kimberley Process Implementation Coordinating Committee",
+          "status": null,
+          "text_sha256": "4e80db95d8c82315daa08aa0c7f50e301d692ba39deca7dd8cf495fad591dee0",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3911",
+          "identifier": "/us/usc/t19/s3911",
+          "heading": "Reports",
+          "status": null,
+          "text_sha256": "267f729c9dfb1f74ab85d2e6a9f94d2b2e03bb24f150142893a507cc16e0d910",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3912",
+          "identifier": "/us/usc/t19/s3912",
+          "heading": "GAO report",
+          "status": null,
+          "text_sha256": "26221630a4deacd26e73a8ad4ce4c304dfc41c6843342f1241942d588f224f2c",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 19,
+          "usc_section": "3913",
+          "identifier": "/us/usc/t19/s3913",
+          "heading": "Delegation of authorities",
+          "status": null,
+          "text_sha256": "0dcf7a82c54e8f09845fba4e37e4943724831aea77c091a8e4b1f9429658ecfb",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1901",
+          "identifier": "/us/usc/t21/s1901",
+          "heading": "Findings and policy",
+          "status": null,
+          "text_sha256": "c779feb3bc18f784652a911774ca57f080f343baf09054daa951e79948534d5e",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1902",
+          "identifier": "/us/usc/t21/s1902",
+          "heading": "Purpose",
+          "status": null,
+          "text_sha256": "8101c099f25407ab529ce5eca51c1abe902965bb6413a6c1c497d99e51487788",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1903",
+          "identifier": "/us/usc/t21/s1903",
+          "heading": "Public identification of significant foreign narcotics traffickers and required reports",
+          "status": null,
+          "text_sha256": "a54bb17c1f62727ef236bff608c05bacefe61665efe03372a87407a57bcc539e",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1904",
+          "identifier": "/us/usc/t21/s1904",
+          "heading": "Blocking assets and prohibiting transactions",
+          "status": null,
+          "text_sha256": "dc8d6a4bbfbcd68f1e642c74d644d69e8ecc7662c509d6aaa124497a2ecde45f",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1905",
+          "identifier": "/us/usc/t21/s1905",
+          "heading": "Authorities",
+          "status": null,
+          "text_sha256": "6bdec2c01f03d155cbfa24eb75678d4f5c54f226adc9707ce76fcc2d68dd6fb9",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as he may prescribe",
+          "verb_start": 114,
+          "verb_end": 156,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such regulations as he may prescribe",
+              "start": 114,
+              "end": 156
+            },
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may issue such other regulations",
+              "start": 1808,
+              "end": 1840
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1906",
+          "identifier": "/us/usc/t21/s1906",
+          "heading": "Enforcement",
+          "status": null,
+          "text_sha256": "403d6f27cf4cfdc2c8ab011626f1ce3e3324cf7e573e585f959468862ad1985d",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1907",
+          "identifier": "/us/usc/t21/s1907",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "01cada05ce646dde1253b88864270746dd1934a0abd0fbbd0462f5dd1166bee7",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 21,
+          "usc_section": "1908",
+          "identifier": "/us/usc/t21/s1908",
+          "heading": "Judicial Review Commission on Foreign Asset Control",
+          "status": null,
+          "text_sha256": "d7c844d79c45b771f33fb4659fb56cc4c6d960b3e37eb06abae62013478268d5",
+          "classification": "mandatory",
+          "verb_quote": "shall establish rules",
+          "verb_start": 1359,
+          "verb_end": 1380,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall establish rules",
+              "start": 1359,
+              "end": 1380
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "287c",
+          "identifier": "/us/usc/t22/s287c",
+          "heading": "Economic and communication sanctions pursuant to United Nations Security Council Resolution",
+          "status": null,
+          "text_sha256": "5463cb4eedf5adcfbeab34ef7580b6281fc8996b8571957f1f8ef47c2d0d3577",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations",
+          "verb_start": 2761,
+          "verb_end": 2788,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 2761,
+              "end": 2788
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "2370",
+          "identifier": "/us/usc/t22/s2370",
+          "heading": "Prohibitions against furnishing assistance",
+          "status": null,
+          "text_sha256": "79f6ae8997c2405206f78db054fa7b5ee322a9a092887120cb84177d8e5d7ae5",
+          "classification": "mandatory",
+          "verb_quote": "shall adopt regulations",
+          "verb_start": 10642,
+          "verb_end": 10665,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall adopt regulations",
+              "start": 10642,
+              "end": 10665
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "6009",
+          "identifier": "/us/usc/t22/s6009",
+          "heading": "Enforcement",
+          "status": null,
+          "text_sha256": "10d34fd859decf94d9fa7459fcc855bee2cfe5e50f01756d4cccece7d2b1be1f",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "6032",
+          "identifier": "/us/usc/t22/s6032",
+          "heading": "Enforcement of economic embargo of Cuba",
+          "status": null,
+          "text_sha256": "b425d867e37b8c2496938b891861507c6d04f27b0809a359eae27f43ea86bc3b",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "7205",
+          "identifier": "/us/usc/t22/s7205",
+          "heading": "State sponsors of international terrorism",
+          "status": null,
+          "text_sha256": "8e89f7c247a872d15d54174d0dc6cc270b12e55d6472ffd29c9fa7c5612184ce",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8501",
+          "identifier": "/us/usc/t22/s8501",
+          "heading": "Findings",
+          "status": null,
+          "text_sha256": "d2aefd9d3341fab535061f7c7d334e10572156cb1e3cda45e220723f75fa4310",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8511",
+          "identifier": "/us/usc/t22/s8511",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "0297304b4b9f9531c295cb694d0e5640fd6855734fbc36a8eee933bf40dc0bd9",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8512",
+          "identifier": "/us/usc/t22/s8512",
+          "heading": "Economic sanctions relating to Iran",
+          "status": null,
+          "text_sha256": "4c69db419ac63edbf4711f5ce9010b41bf0758fc5399982ff41ee42a59da123c",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations",
+          "verb_start": 6735,
+          "verb_end": 6762,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 6735,
+              "end": 6762
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8513",
+          "identifier": "/us/usc/t22/s8513",
+          "heading": "Mandatory sanctions with respect to financial institutions that engage in certain transactions",
+          "status": null,
+          "text_sha256": "0e77d82b8e8e0489cc601af48684e714be72754ff2610bc237d9a481fa072513",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations",
+          "verb_start": 3102,
+          "verb_end": 3129,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 3102,
+              "end": 3129
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 8847,
+              "end": 8874
+            },
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall prescribe regulations",
+              "start": 10088,
+              "end": 10115
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8514",
+          "identifier": "/us/usc/t22/s8514",
+          "heading": "Imposition of sanctions on certain persons who are responsible for or complicit in human rights abuses committed against citizens of Iran or their family members after the June 12, 2009 , elections in Iran",
+          "status": null,
+          "text_sha256": "1007762a962fa3711adb690f8ee3171a5e02ca8add482a08d9c1d1bb9791fe4a",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8515",
+          "identifier": "/us/usc/t22/s8515",
+          "heading": "Prohibition on procurement contracts with persons that export sensitive technology to Iran",
+          "status": null,
+          "text_sha256": "0dc597c70b964666cd48dfe73726685bddc47e3c94d5e76b1448ccb30a1d379d",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8516",
+          "identifier": "/us/usc/t22/s8516",
+          "heading": "Authority to implement United Nations Security Council resolutions imposing sanctions with respect to Iran",
+          "status": null,
+          "text_sha256": "376250a1921a8740d3539e283578a3dd519c734f054255833c2e9abcca734169",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such regulations",
+          "verb_start": 262,
+          "verb_end": 292,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may prescribe such regulations",
+              "start": 262,
+              "end": 292
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8517",
+          "identifier": "/us/usc/t22/s8517",
+          "heading": "Increased capacity for efforts to combat unlawful or terrorist financing",
+          "status": null,
+          "text_sha256": "4af3a629b988dcde5b3e4a791f2ba0bc2f34ca5a43f0754ab1ca2fc89ec76dc5",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8518",
+          "identifier": "/us/usc/t22/s8518",
+          "heading": "Reports on investments in the energy sector of Iran",
+          "status": null,
+          "text_sha256": "d4169cf94624f550b1a2decb929ec96cfd8263ec52c26ac6c86384deb541efc5",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8519",
+          "identifier": "/us/usc/t22/s8519",
+          "heading": "Reports on certain activities of foreign export credit agencies and of the Export-Import Bank of the United States",
+          "status": null,
+          "text_sha256": "ebea674248649c7b017f0b8edc5f249eda9f0f36958acc396c362cf0446fa32d",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8531",
+          "identifier": "/us/usc/t22/s8531",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "a4691b8242984d0a9d73d09321606e139c51de020ae6e635765c827b4b8e79e4",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8532",
+          "identifier": "/us/usc/t22/s8532",
+          "heading": "Authority of State and local governments to divest from certain companies that invest in Iran",
+          "status": null,
+          "text_sha256": "720ea2281cbad7c570ad256fa63de01db2b2e74b665176c6fc0a3c3c24ed64ed",
+          "classification": "mandatory",
+          "verb_quote": "shall be construed to abridge the authority of a State to issue and enforce rules",
+          "verb_start": 5357,
+          "verb_end": 5438,
+          "grant_spans": [
+            {
+              "family": "shall-prescribe",
+              "classification": "mandatory",
+              "quote": "shall be construed to abridge the authority of a State to issue and enforce rules",
+              "start": 5357,
+              "end": 5438
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8541",
+          "identifier": "/us/usc/t22/s8541",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "928e1dcb0862c9b69a71af5aa261805bf64aabcaca86afc787a92644c1bc59e6",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8542",
+          "identifier": "/us/usc/t22/s8542",
+          "heading": "Identification of countries of concern with respect to the diversion of certain goods, services, and technologies to or through Iran",
+          "status": null,
+          "text_sha256": "9847e8c7e749cae2b52f1b8e4862c30b04771e46a6fa2e8720eb9b2f73f4321f",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8543",
+          "identifier": "/us/usc/t22/s8543",
+          "heading": "Destinations of Diversion Concern",
+          "status": null,
+          "text_sha256": "bf88526baacecfda27dd00f0f695cdbf62a623c81fe877f2146437d1c201ceec",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8544",
+          "identifier": "/us/usc/t22/s8544",
+          "heading": "Enforcement authority",
+          "status": null,
+          "text_sha256": "f7f086b3ad229e9e2f85643e05ffd051f0b65629595643033af5af39a219d6ad",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 22,
+          "usc_section": "8551",
+          "identifier": "/us/usc/t22/s8551",
+          "heading": "General provisions",
+          "status": null,
+          "text_sha256": "524322fb941e1e87abb56a26a6381e556aededb724bbdee129ed56a60a91c58e",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 31,
+          "usc_section": "321",
+          "identifier": "/us/usc/t31/s321",
+          "heading": "General authority of the Secretary",
+          "status": null,
+          "text_sha256": "83d4a24e7b11454da86f0b91856fd04db21fe33a16d092f8869cf6dc6c62485d",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations",
+          "verb_start": 1613,
+          "verb_end": 1643,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may— (1) prescribe regulations",
+              "start": 1613,
+              "end": 1643
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1701",
+          "identifier": "/us/usc/t50/s1701",
+          "heading": "Unusual and extraordinary threat; declaration of national emergency; exercise of Presidential authorities",
+          "status": null,
+          "text_sha256": "ad862e67a2ed0534c8cf87b8b3e059fb67c157ab8a66daddcbd237f391747e3d",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1702",
+          "identifier": "/us/usc/t50/s1702",
+          "heading": "Presidential authorities",
+          "status": null,
+          "text_sha256": "fd1a5ca7bd8dc79000ecf2d19895b93ad03c54b09a4849c5305ccd1fd334e2ec",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as he may prescribe",
+          "verb_start": 145,
+          "verb_end": 187,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such regulations as he may prescribe",
+              "start": 145,
+              "end": 187
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1703",
+          "identifier": "/us/usc/t50/s1703",
+          "heading": "Consultation and reports",
+          "status": null,
+          "text_sha256": "f7d2fbb14d287b312f15680fd1562fd93f5b72cb70d6bf0547be8e922fe2e47d",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1704",
+          "identifier": "/us/usc/t50/s1704",
+          "heading": "Authority to issue regulations",
+          "status": null,
+          "text_sha256": "93b84737e9ba4636b86d563374ec2ed6439debea423a8b5900555270ba4a0be5",
+          "classification": "discretionary",
+          "verb_quote": "may issue such regulations",
+          "verb_start": 53,
+          "verb_end": 79,
+          "grant_spans": [
+            {
+              "family": "may-prescribe",
+              "classification": "discretionary",
+              "quote": "may issue such regulations",
+              "start": 53,
+              "end": 79
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1705",
+          "identifier": "/us/usc/t50/s1705",
+          "heading": "Penalties",
+          "status": null,
+          "text_sha256": "fbf597005d124cedda7981edb355464c7071db3d7fdd4d6cc6f83e6ba9aacbdc",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "1706",
+          "identifier": "/us/usc/t50/s1706",
+          "heading": "Savings provisions",
+          "status": null,
+          "text_sha256": "5bcbf76b404e85d4474feb7fb9f22b790a8f6ea9153b50218eaff61ad239544a",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4301",
+          "identifier": "/us/usc/t50/s4301",
+          "heading": "Designation of chapter",
+          "status": null,
+          "text_sha256": "f0da0032bb75b24b288cc4c7ea94aca57ebf357b59f68694b927b72572958c74",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4302",
+          "identifier": "/us/usc/t50/s4302",
+          "heading": "Definitions",
+          "status": null,
+          "text_sha256": "07eba6f88b0be05f39962fb3e67ca3610e28a7d2d1ac8b62f2cbdcf5d763f937",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4303",
+          "identifier": "/us/usc/t50/s4303",
+          "heading": "Acts prohibited",
+          "status": null,
+          "text_sha256": "3250348056d62498311483a5bea1f0b7b9b8059bba86c8f8178f07fba8ae15cd",
+          "classification": "mandatory",
+          "verb_quote": "rules and regulations, and with such exemptions, as shall be prescribed",
+          "verb_start": 2299,
+          "verb_end": 2370,
+          "grant_spans": [
+            {
+              "family": "passive-shall-be-prescribed",
+              "classification": "mandatory",
+              "quote": "rules and regulations, and with such exemptions, as shall be prescribed",
+              "start": 2299,
+              "end": 2370
+            },
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such rules and regulations as he may from time to time establish",
+              "start": 2516,
+              "end": 2586
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4304",
+          "identifier": "/us/usc/t50/s4304",
+          "heading": "Licenses to enemy or ally of enemy insurance or reinsurance companies; change of name; doing business in United States",
+          "status": null,
+          "text_sha256": "3f544345d80850f33ee6718585daaad9cc5bdc8025bda30d82877ad74b6b583e",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4305",
+          "identifier": "/us/usc/t50/s4305",
+          "heading": "Suspension of provisions relating to ally of enemy; regulation of transactions in foreign exchange of gold or silver, property transfers, vested interests, enforcement and penalties",
+          "status": null,
+          "text_sha256": "c4374f4e6e952da4ddc79caaea518a4ce92dca077cda6ae4436c953750503ca0",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as he may prescribe",
+          "verb_start": 1874,
+          "verb_end": 1926,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such rules and regulations as he may prescribe",
+              "start": 1874,
+              "end": 1926
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4306",
+          "identifier": "/us/usc/t50/s4306",
+          "heading": "Alien Property Custodian; general powers and duties",
+          "status": null,
+          "text_sha256": "92ec83fc3506032a67f4c25fb5235e7e9887dfd174f15d7911431d59ec145afe",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4307",
+          "identifier": "/us/usc/t50/s4307",
+          "heading": "Lists of enemy or ally of enemy officers, directors or stockholders of corporations in United States; acts constituting trade with enemy prior to October 6, 1917 ; conveyance of property to custodian; voluntary payment to custodian by holder; acts under order, rule, or regulation",
+          "status": null,
+          "text_sha256": "b86bceed48f5b8b5cb48f04c029cff218c668ccebe7ad091e11e5554b4a6eb19",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as the President may prescribe",
+          "verb_start": 617,
+          "verb_end": 680,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such rules and regulations as the President may prescribe",
+              "start": 617,
+              "end": 680
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4308",
+          "identifier": "/us/usc/t50/s4308",
+          "heading": "Contracts, mortgages, or pledges against or with enemy or ally of enemy; abrogation of contracts; suspension of limitations",
+          "status": null,
+          "text_sha256": "eb56525266f13082fffba9ea2d66356f24080201bfa3f73cedbb3e9b50f468f7",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4309",
+          "identifier": "/us/usc/t50/s4309",
+          "heading": "Claims to property transferred to custodian; notice of claim; filing; return of property; suits to recover; sale of claimed property in time of war or during national emergency",
+          "status": null,
+          "text_sha256": "5d666340f6705e663d1112c2616b59ba4cd73b02adfb5c93d261f71ff2764ba0",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4310",
+          "identifier": "/us/usc/t50/s4310",
+          "heading": "Acts permitted; applications for patents, or registration of trade-marks or copyrights; payment of tax in relation thereto; licenses under enemy owned patent or copyright; statements by licensees; term and cancellation; suits against licensees; restraining infringements; powers of attorney; keeping secret inventions",
+          "status": null,
+          "text_sha256": "d2cdc7b49c13502f91c938157f7b1356b47e3c3b0256d3098c0a2ab29cf768db",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4311",
+          "identifier": "/us/usc/t50/s4311",
+          "heading": "Importations prohibited",
+          "status": null,
+          "text_sha256": "a08b325830bab932b5f9d322e69bf1a05f505f1cbb6884770e7d38308b4aaae3",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4312",
+          "identifier": "/us/usc/t50/s4312",
+          "heading": "Property transferred to Alien Property Custodian",
+          "status": null,
+          "text_sha256": "21a7fa42bf1af969e9e2620fd64c711b53ea154b9667a8a38b8af4dc26c38d88",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4313",
+          "identifier": "/us/usc/t50/s4313",
+          "heading": "Statements by masters of vessels and owners of cargoes before granting clearances",
+          "status": null,
+          "text_sha256": "256ece1067549baf64b614774c79a76a68afbc07c92d4798332f5d57c8e6c277",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4314",
+          "identifier": "/us/usc/t50/s4314",
+          "heading": "False manifest; refusal of clearance; reports of gold or silver coin in cargoes for export",
+          "status": null,
+          "text_sha256": "6c6aa3e5af5dbe225d53b025c196a41361e33321bbab4490bb37524075104dda",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4315",
+          "identifier": "/us/usc/t50/s4315",
+          "heading": "Offenses; punishment; forfeitures of property",
+          "status": null,
+          "text_sha256": "1a8dc1d4bf3aed48d96138525fa6b8d2cfa66e77348f7300fa421a631668b357",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4316",
+          "identifier": "/us/usc/t50/s4316",
+          "heading": "Rules by district courts; appeals",
+          "status": null,
+          "text_sha256": "2b95162ee29d712f732053188a62418ed2c18cc388c521ee497f9f0ad6d83ecc",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4317",
+          "identifier": "/us/usc/t50/s4317",
+          "heading": "Fees of agents, attorneys, or representatives",
+          "status": null,
+          "text_sha256": "c9dd8009e5ef7970199232a6835f63486b0e339947c51442f4108b8010029b49",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4318",
+          "identifier": "/us/usc/t50/s4318",
+          "heading": "Claims of naturalized citizens as affected by expatriation",
+          "status": null,
+          "text_sha256": "b6b48d90e10efd5df9239ff14bb5768b4ee45db17372686975724f8e0c6deb32",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4319",
+          "identifier": "/us/usc/t50/s4319",
+          "heading": "Fugitives from justice barred from recovery",
+          "status": null,
+          "text_sha256": "05c3205bba2fbcbefb45eedcdca8a29a234929a52e11237cb229bbec659ef5e5",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4320",
+          "identifier": "/us/usc/t50/s4320",
+          "heading": "Payment of income, etc., by Alien Property Custodian",
+          "status": null,
+          "text_sha256": "7a57ff2df4815837a3a300df69d67f773ba7dfe16a47f7a383d1214fb7513fc1",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as the President may prescribe",
+          "verb_start": 474,
+          "verb_end": 537,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such rules and regulations as the President may prescribe",
+              "start": 474,
+              "end": 537
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4321",
+          "identifier": "/us/usc/t50/s4321",
+          "heading": "Payment of taxes and expenses by Alien Property Custodian",
+          "status": null,
+          "text_sha256": "d26d0c7d48ba9c501f1e2655d18564986f05c813914f8792323d346c97f157a6",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4322",
+          "identifier": "/us/usc/t50/s4322",
+          "heading": "Investments by Custodian in participating certificates issued by Secretary of the Treasury; transfers to and payments from German, Austrian or Hungarian special deposit accounts; allocation of payments",
+          "status": null,
+          "text_sha256": "021678032c7cfb86bf7260ed5e407bf6807b52247e9725d869d443ef205bfec6",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as the Secretary of the Treasury may prescribe",
+          "verb_start": 5201,
+          "verb_end": 5270,
+          "grant_spans": [
+            {
+              "family": "under-such-regulations-as-may",
+              "classification": "discretionary",
+              "quote": "under such regulations as the Secretary of the Treasury may prescribe",
+              "start": 5201,
+              "end": 5270
+            }
+          ],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4323",
+          "identifier": "/us/usc/t50/s4323",
+          "heading": "Allocation of “unallocated interest fund”",
+          "status": null,
+          "text_sha256": "67d0ad11620fef47967f356d317fe49bbd00145ef9a47ae8edca0d6fc514e87f",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4324",
+          "identifier": "/us/usc/t50/s4324",
+          "heading": "Return by Custodian, to United States, of payments under licenses, assignments or sales of patents",
+          "status": null,
+          "text_sha256": "473fc78f3411724b7b5499d2686c4720a3536ea1a9d02725a447c28f86393cb8",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4325",
+          "identifier": "/us/usc/t50/s4325",
+          "heading": "“Unallocated interest fund” defined",
+          "status": null,
+          "text_sha256": "6c60cec90056bcc2d2dfcf21e95d50f1f54575129640fb1b3440576a34cfc69b",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4326",
+          "identifier": "/us/usc/t50/s4326",
+          "heading": "Waiver by Custodian of demand for property; acceptance of less amount; approval of Attorney General",
+          "status": null,
+          "text_sha256": "ddc6f85474844d20258823ada99211123d0490fa1be6cd6f60e71e835da6527f",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4327",
+          "identifier": "/us/usc/t50/s4327",
+          "heading": "Attachment or garnishment of funds or property held by Custodian",
+          "status": null,
+          "text_sha256": "16da7ec8ae5ea77628282b0148c340f886168b3e957e4c6b7105216e3fa695ce",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4328",
+          "identifier": "/us/usc/t50/s4328",
+          "heading": "“Member of the former ruling family” defined",
+          "status": null,
+          "text_sha256": "8a8609b21437ea36183fe7fd3840485b04afdd8a7a8761af719c947038ce6bc9",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4329",
+          "identifier": "/us/usc/t50/s4329",
+          "heading": "Return of property",
+          "status": null,
+          "text_sha256": "4fd558b4ae8a2af794d532114372225d0bbbe18754c656052c2c87d9056f59dc",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4330",
+          "identifier": "/us/usc/t50/s4330",
+          "heading": "Notice of claim; institution of suits; computation of time",
+          "status": null,
+          "text_sha256": "629e3a11a7b2f4dceb8dde475da26ac6f7a1e86061e09948c99ea0bf125cc7a3",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4331",
+          "identifier": "/us/usc/t50/s4331",
+          "heading": "Payment of debts",
+          "status": null,
+          "text_sha256": "4f49567848732e82cc6fad8d91b1e6e6e0a6dae7f3dcc4d278f9b0e9193418e7",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4332",
+          "identifier": "/us/usc/t50/s4332",
+          "heading": "Hearings on claims; rules and regulations; delegation of powers",
+          "status": null,
+          "text_sha256": "4036be1364af26a2b7e9cea672f4a7ab66777668df602be1bf9022bcaf3042cc",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4333",
+          "identifier": "/us/usc/t50/s4333",
+          "heading": "Taxes",
+          "status": null,
+          "text_sha256": "c4093da680dc8cec7022029a33b321171b4ec488d4bbbec17736aa8b67c0e5d5",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4334",
+          "identifier": "/us/usc/t50/s4334",
+          "heading": "Insurance of property",
+          "status": null,
+          "text_sha256": "d974ac37793d785fee0cc115e88678b21f5a60d9d95bbf6610e77df0985c9530",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4335",
+          "identifier": "/us/usc/t50/s4335",
+          "heading": "Shipment of relief supplies; definitions",
+          "status": null,
+          "text_sha256": "233d83c093b012b1c829f95785a5f040524ca9e4f88edf89ed1d0f91977c24e0",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4336",
+          "identifier": "/us/usc/t50/s4336",
+          "heading": "Retention of properties or interests of Germany and Japan and their nationals; proceeds covered into Treasury; ex gratia payment to Switzerland",
+          "status": null,
+          "text_sha256": "06a79ea91b9f90cea2cdf88ccc791f812d9320270c206e6f2d5ee448fe763fef",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4337",
+          "identifier": "/us/usc/t50/s4337",
+          "heading": "Intercustodial conflicts involving enemy property; authority of President to conclude; delegation of authority",
+          "status": null,
+          "text_sha256": "54f9f2a2c3f6929edcfde69677470bf36ca35cea63eafa085b942e190f61437c",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4338",
+          "identifier": "/us/usc/t50/s4338",
+          "heading": "Divestment of estates, trusts, insurance policies, annuities, remainders, pensions, workmen’s compensation and veterans’ benefits; exceptions; notice of divestment",
+          "status": null,
+          "text_sha256": "09e765c4059e12ba7f862ce68445b8f91948a3d98b1d8b897de243d2c8e099c9",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4339",
+          "identifier": "/us/usc/t50/s4339",
+          "heading": "Claims for proceeds from sale of certain certificates: jurisdiction, limitations; divestment of copyrights: “copyrights” defined, rights of licensees and assignees, reproduction rights of United States, transfer of interests, payment of royalties to Attorney General, suits for infringement",
+          "status": null,
+          "text_sha256": "7ca9a5b97022be61fbd4de68a9746158f4d77b874de7922b7738601fc6068663",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4340",
+          "identifier": "/us/usc/t50/s4340",
+          "heading": "Divestment of trademarks",
+          "status": null,
+          "text_sha256": "d892291d4d41b2f793d05898d58b9cf5aeaae24ed2ad28f50832bcc66173dc13",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        },
+        {
+          "usc_title": 50,
+          "usc_section": "4341",
+          "identifier": "/us/usc/t50/s4341",
+          "heading": "Motion picture prints, transfer of title",
+          "status": null,
+          "text_sha256": "b12dc2639d62210f614399ec02ecb9ae9ba9f0ad2caf74a8da8a8069ae39cbd2",
+          "classification": "silent",
+          "verb_quote": null,
+          "verb_start": null,
+          "verb_end": null,
+          "grant_spans": [],
+          "gate_rejected": false,
+          "rejection_reason": null
+        }
+      ],
+      "unresolved": [
+        {
+          "raw": "22 U.S.C. 8502",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8502",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8503",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8503",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8504",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8504",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8505",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8505",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8506",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8506",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8507",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8507",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8508",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8508",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8509",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8509",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8510",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8510",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8520",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8520",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8521",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8521",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8522",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8522",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8523",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8523",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8524",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8524",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8525",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8525",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8526",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8526",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8527",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8527",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8528",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8528",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8529",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8529",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8530",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8530",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8533",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8533",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8534",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8534",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8535",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8535",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8536",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8536",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8537",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8537",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8538",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8538",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8539",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8539",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8540",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8540",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8545",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8545",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8546",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8546",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8547",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8547",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8548",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8548",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8549",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8549",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        },
+        {
+          "raw": "22 U.S.C. 8550",
+          "kind": "usc-section",
+          "usc_title": 22,
+          "usc_section": "8550",
+          "subsection": null,
+          "et_seq": false,
+          "from_range": "22 U.S.C. 8501-8551"
+        }
+      ],
+      "ecfr_url": "https://www.ecfr.gov/on/2026-07-27/title-31/part-501"
+    }
+  ],
+  "total_section_citations": 150,
+  "total_resolved": 116,
+  "total_unresolved": 34,
+  "total_non_section_citations": 4,
+  "gate_rejections": 0
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "uscode",
+  "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc31@119-102.zip#/us/usc/t31/s321",
+  "fetched_at": "2026-07-29T01:43:55.646976+00:00",
+  "sha256": "83d4a24e7b11454da86f0b91856fd04db21fe33a16d092f8869cf6dc6c62485d",
+  "content_type": "text/x-usc-section",
+  "filename": "usc-31-s321.txt"
+}

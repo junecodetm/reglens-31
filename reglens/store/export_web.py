@@ -64,9 +64,53 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
     return out_dir
 
 
+def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
+    """Export EXTEND-OGC01 artifacts (authority, grounding, drafts, texts).
+
+    The U.S.C. section texts and derived part texts are written byte-identical
+    to what the provenance gate verified, so UI highlight offsets never drift.
+    Failure mode: missing pipeline outputs raise ``FileNotFoundError`` — a
+    partial export is never produced silently.
+    """
+    from reglens.authority.records import AuthorityExport
+    from reglens.authority.run import AUTHORITY_JSON
+    from reglens.draft.run import CONFORMANCE_JSON, DRAFTS_DIR
+    from reglens.grounding.run import GROUNDING_JSON
+    from reglens.ingest.ecfr import xml_to_text
+
+    out_dir = web_dir / "public" / "data"
+    usc_dir = out_dir / "usc"
+    parts_dir = out_dir / "authority-parts"
+    drafts_out = out_dir / "drafts"
+    for directory in (usc_dir, parts_dir, drafts_out):
+        directory.mkdir(parents=True, exist_ok=True)
+
+    export = AuthorityExport.model_validate_json(AUTHORITY_JSON.read_text())
+    (out_dir / "authority.json").write_text(export.model_dump_json(indent=2) + "\n")
+    (out_dir / "grounding.json").write_text(GROUNDING_JSON.read_text())
+    (out_dir / "conformance.json").write_text(CONFORMANCE_JSON.read_text())
+    for draft_path in sorted(DRAFTS_DIR.glob("*.txt")):
+        (drafts_out / draft_path.name).write_bytes(draft_path.read_bytes())
+
+    raw_root = settings.data_dir / "raw"
+    for snapshot_dir in sorted(raw_root.iterdir()):
+        if not (snapshot_dir / "manifest.json").is_file():
+            continue
+        manifest = read_manifest(snapshot_dir)
+        if manifest.content_type == "text/x-usc-section" and manifest.filename.endswith(".txt"):
+            payload = (snapshot_dir / manifest.filename).read_bytes()
+            (usc_dir / manifest.filename).write_bytes(payload)
+        elif manifest.content_type == "application/xml" and "-authority-" in manifest.filename:
+            # Same deterministic derivation as reglens.authority.run — byte-identical.
+            text = xml_to_text((snapshot_dir / manifest.filename).read_bytes())
+            part_stem = manifest.filename.rsplit("-authority-", 1)[0]
+            (parts_dir / f"{part_stem}.txt").write_text(text)
+
+
 def main() -> int:
     settings = Settings()
     out_dir = export_web_data(settings, Path("web"))
+    export_ogc01_data(settings, Path("web"))
     print(out_dir)
     return 0
 
