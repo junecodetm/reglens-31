@@ -750,6 +750,81 @@ a:visited {
 }
 
 /* Lazily loaded evidence sections */
+.collapsible-section {
+  margin-top: 2.5rem;
+}
+
+.collapsible-section-heading {
+  margin: 0;
+  color: var(--navy-deep);
+  font-family:
+    "Merriweather Web", Georgia, Cambria, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.5vw, 1.8rem);
+  line-height: 1.25;
+}
+
+h3.collapsible-section-heading {
+  font-size: 1.2rem;
+}
+
+.collapsible-section-button,
+.expandable-group-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  color: var(--navy-deep);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 0.35rem solid var(--gold);
+  border-radius: 0.35rem;
+  box-shadow: 0 0.18rem 0.65rem rgba(11, 39, 61, 0.08);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.collapsible-section-button:hover,
+.expandable-group-button:hover,
+.collapsible-section-button[aria-expanded="true"],
+.expandable-group-button[aria-expanded="true"],
+.expandable-group-button[aria-current="true"] {
+  background: var(--soft-blue);
+  border-color: var(--blue-dark);
+}
+
+.disclosure-icon {
+  flex: 0 0 auto;
+  color: var(--blue-dark);
+  font-family:
+    "Source Sans Pro Web", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  transform: rotate(-90deg);
+  transition: transform 160ms ease;
+}
+
+[aria-expanded="true"] > .disclosure-icon {
+  transform: rotate(0);
+}
+
+.collapsible-section-panel,
+.expandable-group-panel {
+  padding-top: 1rem;
+}
+
+.expandable-group-button {
+  box-shadow: none;
+}
+
+.document-group .expandable-group-heading {
+  display: block;
+  margin: 0;
+}
+
 .authority-section > h2,
 .grounding-section > h2,
 .drafts-section > h2,

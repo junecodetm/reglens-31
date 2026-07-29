@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "next lint",
-    "test": "tsc --noEmit --incremental false --allowImportingTsExtensions --module esnext --moduleResolution bundler --target es2022 --skipLibCheck --typeRoots ./node_modules/@types ../tests/search-utils.test.mts ../tests/crossref-utils.test.mts && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test ../tests/search-utils.test.mts ../tests/crossref-utils.test.mts ../tests/corpus-sections-contract.test.mjs"
+    "test": "tsc --noEmit --incremental false --allowImportingTsExtensions --module esnext --moduleResolution bundler --target es2022 --skipLibCheck --jsx preserve --typeRoots ./node_modules/@types ../tests/*.mts && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test ../tests/*.mts ../tests/*.mjs"
   },
   "dependencies": {
     "@trussworks/react-uswds": "^11.1.0",
