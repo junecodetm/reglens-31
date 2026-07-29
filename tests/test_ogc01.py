@@ -11,7 +11,7 @@ from reglens.eval import ogc01
 @pytest.fixture
 def eval_paths(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     """Point every module path at tmp fixtures for a minimal, healthy report."""
-    authority = {
+    authority: dict[str, object] = {
         "schema_version": 1,
         "usc_release_point": "119-102",
         "generated_from": "test",
