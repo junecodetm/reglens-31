@@ -42,8 +42,17 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci --no-audit --no-fund
         working-directory: web
+      - run: npm test
+        working-directory: web
       - run: npm run build
         working-directory: web
+      # Non-affiliation invariant (CLAUDE.md §2, invariant 4): never deploy a
+      # build that lost the disclaimer or the mockup framing.
+      - name: disclaimer-and-framing-guard
+        run: |
+          grep -qF "Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury" web/out/index.html
+          grep -qF "About this demonstration" web/out/index.html
+          grep -qF "Regulatory Reform Tool" web/out/index.html
       - uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -9,6 +9,7 @@ Code in this repository is Apache-2.0 (see [LICENSE](LICENSE)). The data artifac
 | U.S. Code USLM XML (`uscode.house.gov`), release point PL 119-102 | Cited-section statutory text for the authority linker | U.S. Government (OLRC) public domain |
 | Document Drafting Handbook (`www.archives.gov`), Aug 2018 ed. rev. 2.2 | Provenance for the draft-skeleton template + conformance rules | U.S. Government (NARA) public |
 | reginfo.gov E.O. 14192 accounting PDFs | Field names for the offset-accounting placeholder stub | U.S. Government public |
+| Treasury AI Use Case Inventory CSV (`home.treasury.gov`) | Verbatim OGC-01 inventory row + corpus context for the site's "About this demonstration" section | U.S. Government work (17 U.S.C. §105) |
 | — OpenSanctions, OFAC SLS, GLEIF | **Not used in this build** (ownership-graph module de-scoped) | OpenSanctions is CC-BY-NC 4.0 with attribution if ever enabled; noted here because docs/ENTITY_RESOLUTION.md describes the design |
 
 Every raw snapshot is content-addressed under `data/raw/<sha256>/` with a `manifest.json` recording source id, URL, fetch time, and hash. Derived claims record the model tag, prompt hash, and input hash that produced them.
