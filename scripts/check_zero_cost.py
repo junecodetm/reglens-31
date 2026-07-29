@@ -42,6 +42,12 @@ ALLOWED_WEB_DEPS = {
     "@types/react-dom",
     "axe-core",
     "typescript",
+    # Free forever, no card/account (docs/STACK.md table): GSAP has been 100%
+    # free incl. all plugins since 2025-04-30 (GreenSock Standard License);
+    # impeccable is Apache-2.0, dev-time only, never shipped in the bundle.
+    "gsap",
+    "@gsap/react",
+    "impeccable",
 }
 
 ALLOWED_HOSTS = {
