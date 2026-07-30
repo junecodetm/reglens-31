@@ -75,11 +75,20 @@ _MAX_XML_MEMBER_BYTES = 1600 * 1024 * 1024
 def recheck_redirects(response: httpx.Response) -> None:
     """httpx response hook: every redirect hop must stay on the allow-list.
 
-    Fail-closed: ``require_allowed`` raises on the first off-list hop, so a
-    redirect can never smuggle a fetch to an unapproved host.
+    Fail-closed: the ``Location`` header is resolved against the current request
+    URL and allow-list-checked before httpx builds and sends the next request, so
+    a redirect can never smuggle a fetch to an unapproved host.
+
+    The hop must be read from ``Location`` rather than ``response.next_request``:
+    httpx has not populated ``next_request`` at the time response event hooks
+    run, so a ``next_request is not None`` guard silently disables the check.
     """
-    if response.is_redirect and response.next_request is not None:
-        require_allowed(str(response.next_request.url))
+    if not response.is_redirect:
+        return
+    location = response.headers.get("location")
+    if location is None:
+        return  # a redirect status with no target cannot be followed anyway
+    require_allowed(str(response.request.url.join(location)))
 
 
 def fetch_title_zip(settings: Settings, title: int) -> Path:
