@@ -12,6 +12,7 @@ identical bytes is a no-op.
 
 import hashlib
 import json
+from collections.abc import Iterator
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -81,3 +82,28 @@ def read_manifest(snapshot_dir: Path) -> SnapshotManifest:
     a snapshot without a valid manifest is treated as absent, never guessed at.
     """
     return SnapshotManifest.model_validate_json((snapshot_dir / "manifest.json").read_text())
+
+
+def iter_snapshots(
+    raw_root: Path, *, content_type: str | None = None
+) -> Iterator[tuple[Path, SnapshotManifest]]:
+    """Every complete snapshot under ``raw_root``, in a stable order.
+
+    Yields ``(snapshot_dir, manifest)`` sorted by directory name — the content
+    SHA — so downstream "first match wins" logic is reproducible rather than
+    dependent on filesystem ordering. Optionally filtered to one ``content_type``.
+
+    Failure mode: a directory without a manifest is skipped, because the manifest
+    is written last and its absence means an incomplete snapshot; a missing
+    ``raw_root`` yields nothing. Callers that must not proceed on an empty corpus
+    are responsible for raising — this iterator reports what exists, it does not
+    decide whether that is enough.
+    """
+    if not raw_root.is_dir():
+        return
+    for snapshot_dir in sorted(raw_root.iterdir()):
+        if not (snapshot_dir / "manifest.json").is_file():
+            continue  # incomplete snapshot: ignored, never guessed at
+        manifest = read_manifest(snapshot_dir)
+        if content_type is None or manifest.content_type == content_type:
+            yield snapshot_dir, manifest

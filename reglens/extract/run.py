@@ -21,7 +21,7 @@ from reglens.extract.chunk import chunk_text
 from reglens.extract.llm import LLMProvider, input_sha256
 from reglens.extract.records import ClaimRecord, DocumentExtraction, claim_id
 from reglens.extract.schema import ExtractedObligation, RunMeta
-from reglens.ingest.snapshot import read_manifest
+from reglens.ingest.snapshot import iter_snapshots
 from reglens.provenance import verify_span
 
 
@@ -37,16 +37,9 @@ class DocumentPair(NamedTuple):
 
 def discover_documents(data_dir: Path) -> list[DocumentPair]:
     """Pair metadata and raw-text snapshots by document number, sorted for determinism."""
-    raw_root = data_dir / "raw"
-    if not raw_root.is_dir():
-        return []
     metadata: dict[str, dict[str, str]] = {}
     texts: dict[str, tuple[str, str]] = {}
-    for snapshot_dir in sorted(raw_root.iterdir()):
-        manifest_path = snapshot_dir / "manifest.json"
-        if not manifest_path.is_file():
-            continue  # incomplete snapshot: ignored, never guessed at
-        manifest = read_manifest(snapshot_dir)
+    for snapshot_dir, manifest in iter_snapshots(data_dir / "raw"):
         stem = Path(manifest.filename).stem
         payload = (snapshot_dir / manifest.filename).read_bytes()
         if manifest.content_type == "application/json":

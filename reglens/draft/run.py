@@ -28,7 +28,7 @@ from reglens.draft.narrative import (
     render_user_prompt,
 )
 from reglens.draft.templates import build_skeleton
-from reglens.ingest.snapshot import read_manifest
+from reglens.ingest.snapshot import iter_snapshots, read_manifest
 
 AUTHORITY_JSON = Path("data/processed/authority.json")
 DRAFTS_DIR = Path("data/processed/drafts")
@@ -131,11 +131,7 @@ def _verification_corpus(settings: Settings, record: PartAuthority) -> list[str]
     own_sections = {
         f"usc-{resolved.usc_title}-s{resolved.usc_section}.txt" for resolved in record.resolved
     }
-    raw_root = settings.data_dir / "raw"
-    for snapshot_dir in sorted(raw_root.iterdir()):
-        if not (snapshot_dir / "manifest.json").is_file():
-            continue
-        manifest = read_manifest(snapshot_dir)
+    for snapshot_dir, manifest in iter_snapshots(settings.data_dir / "raw"):
         if manifest.filename == f"{stem}.txt" or (
             manifest.content_type == "text/x-usc-section" and manifest.filename in own_sections
         ):

@@ -31,7 +31,7 @@ from reglens.authority.records import (
 from reglens.config import Settings
 from reglens.corpus import CFR_PARTS
 from reglens.ingest.ecfr import xml_to_text
-from reglens.ingest.snapshot import read_manifest
+from reglens.ingest.snapshot import iter_snapshots, read_manifest
 from reglens.ingest.uscode import UscSection, extract_sections, fetch_title_zip, title_zip_url
 from reglens.provenance import verify_span
 
@@ -45,12 +45,7 @@ def _find_snapshot(data_dir: Path, filename: str) -> tuple[Path, str]:
     Failure mode: raises ``LookupError`` when absent — the pipeline must not
     proceed on a missing snapshot.
     """
-    raw_root = data_dir / "raw"
-    for snapshot_dir in sorted(raw_root.iterdir()):
-        manifest_path = snapshot_dir / "manifest.json"
-        if not manifest_path.is_file():
-            continue
-        manifest = read_manifest(snapshot_dir)
+    for snapshot_dir, manifest in iter_snapshots(data_dir / "raw"):
         if manifest.filename == filename:
             return snapshot_dir, manifest.sha256
     raise LookupError(f"no snapshot found for {filename}")

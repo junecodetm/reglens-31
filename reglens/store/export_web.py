@@ -21,7 +21,7 @@ from reglens.authority.records import AuthorityExport
 from reglens.config import Settings
 from reglens.extract.records import ClaimRecord, DocumentExtraction, load_extractions
 from reglens.ingest.federal_register import require_safe_document_number
-from reglens.ingest.snapshot import read_manifest
+from reglens.ingest.snapshot import iter_snapshots, read_manifest
 from reglens.provenance import normalize, normalize_with_map
 from reglens.search_index import (
     CfrSectionRef,
@@ -425,16 +425,14 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
 
     by_sha = {extraction.document_sha256: extraction for extraction in extractions}
     latest_fetch = ""
-    for snapshot_dir in sorted((settings.data_dir / "raw").iterdir()):
-        if (snapshot_dir / "manifest.json").is_file():
-            manifest = read_manifest(snapshot_dir)
-            latest_fetch = max(latest_fetch, manifest.fetched_at)
-            extraction = by_sha.get(manifest.sha256)
-            if manifest.content_type == "text/plain" and extraction is not None:
-                source = _snapshot_payload_path(snapshot_dir, manifest.filename).read_text()
-                (documents_dir / f"{extraction.document_number}.txt").write_text(
-                    source, encoding="utf-8", newline="\n"
-                )
+    for snapshot_dir, manifest in iter_snapshots(settings.data_dir / "raw"):
+        latest_fetch = max(latest_fetch, manifest.fetched_at)
+        extraction = by_sha.get(manifest.sha256)
+        if manifest.content_type == "text/plain" and extraction is not None:
+            source = _snapshot_payload_path(snapshot_dir, manifest.filename).read_text()
+            (documents_dir / f"{extraction.document_number}.txt").write_text(
+                source, encoding="utf-8", newline="\n"
+            )
 
     model_tags = sorted(
         {claim.run.model_tag for extraction in extractions for claim in extraction.claims}
@@ -703,11 +701,7 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
             pair.text, encoding="utf-8", newline="\n"
         )
 
-    raw_root = settings.data_dir / "raw"
-    for snapshot_dir in sorted(raw_root.iterdir()):
-        if not (snapshot_dir / "manifest.json").is_file():
-            continue
-        manifest = read_manifest(snapshot_dir)
+    for snapshot_dir, manifest in iter_snapshots(settings.data_dir / "raw"):
         payload_path = _snapshot_payload_path(snapshot_dir, manifest.filename)
         if manifest.content_type == "text/x-usc-section" and manifest.filename.endswith(".txt"):
             expected_hash = expected_usc_hashes.get(manifest.filename)

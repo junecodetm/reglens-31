@@ -83,18 +83,13 @@ def _publication_dates(settings: Settings) -> dict[str, str]:
     """document number → publication_date from the FR metadata snapshots."""
     import json
 
-    from reglens.ingest.snapshot import read_manifest
+    from reglens.ingest.snapshot import iter_snapshots
 
     dates: dict[str, str] = {}
     raw_root = settings.data_dir / "raw"
     if not raw_root.is_dir():
         return dates
-    for snapshot_dir in sorted(raw_root.iterdir()):
-        if not (snapshot_dir / "manifest.json").is_file():
-            continue
-        manifest = read_manifest(snapshot_dir)
-        if manifest.content_type != "application/json":
-            continue
+    for snapshot_dir, manifest in iter_snapshots(raw_root, content_type="application/json"):
         payload = json.loads((snapshot_dir / manifest.filename).read_bytes())
         number = payload.get("document_number")
         date = payload.get("publication_date")
