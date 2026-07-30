@@ -15,7 +15,7 @@ import json
 import re
 from collections.abc import Mapping, Sequence
 from pathlib import Path
-from typing import TypedDict
+from typing import TypedDict, cast
 
 from reglens.authority.records import AuthorityExport
 from reglens.config import Settings
@@ -53,33 +53,59 @@ CATEGORY_ORDER = (
     "IRS & tax regulations",
     "Other Treasury & joint-agency rules",
 )
-DOC_CATEGORIES: dict[str, str] = {
-    "31-CFR-50": CATEGORY_ORDER[0],
-    "31-CFR-223": CATEGORY_ORDER[0],
-    "31-CFR-285": CATEGORY_ORDER[0],
-    "31-CFR-356": CATEGORY_ORDER[0],
-    "31-CFR-501": CATEGORY_ORDER[0],
-    "2026-09090": CATEGORY_ORDER[1],
-    "2026-09092": CATEGORY_ORDER[1],
-    "2026-09094": CATEGORY_ORDER[1],
-    "2026-11592": CATEGORY_ORDER[1],
-    "2026-11601": CATEGORY_ORDER[1],
-    "2026-11614": CATEGORY_ORDER[1],
-    "2026-11615": CATEGORY_ORDER[1],
-    "2026-11616": CATEGORY_ORDER[1],
-    "2026-11761": CATEGORY_ORDER[1],
-    "2026-15112": CATEGORY_ORDER[1],
-    "2026-10116": CATEGORY_ORDER[2],
-    "2026-13830": CATEGORY_ORDER[2],
-    "2026-13851": CATEGORY_ORDER[2],
-    "2026-13925": CATEGORY_ORDER[2],
-    "2026-15008": CATEGORY_ORDER[2],
-    "2026-10036": CATEGORY_ORDER[3],
-    "C1-2026-10036": CATEGORY_ORDER[3],
-    "2026-10037": CATEGORY_ORDER[3],
-    "2026-11140": CATEGORY_ORDER[3],
-    "2026-12787": CATEGORY_ORDER[3],
-}
+
+
+def _is_ofac_reference(reference: Mapping[str, object]) -> bool:
+    """True for a 31 CFR Chapter V citation — the OFAC chapter, parts 500-599.
+
+    Chapter V is identified either by an explicit ``chapter`` of "V" or by a part
+    number in the 500-599 range, because the Federal Register populates one or
+    the other depending on how the rule cites itself.
+    """
+    if reference.get("title") != 31:
+        return False
+    if reference.get("chapter") == "V":
+        return True
+    part = str(reference.get("part"))
+    return part.isdigit() and 500 <= int(part) <= 599
+
+
+def document_category(document_number: str, cfr_references: Sequence[Mapping[str, object]]) -> str:
+    """Group a document for the UI's document picker, derived from its own metadata.
+
+    Derived rather than hand-listed: a pinned document-number table cannot
+    describe a corpus defined by a rule (reglens/corpus.py), and would have to be
+    edited by hand every time the corpus is re-closed. Total by construction —
+    every document receives a category, so a new document can never fail the
+    export.
+    """
+    if document_number.startswith("31-CFR-"):
+        return CATEGORY_ORDER[0]
+    if any(_is_ofac_reference(reference) for reference in cfr_references):
+        return CATEGORY_ORDER[1]
+    if {reference.get("title") for reference in cfr_references} == {26}:
+        return CATEGORY_ORDER[2]
+    return CATEGORY_ORDER[3]
+
+
+def cfr_references_by_document(data_dir: Path) -> dict[str, list[Mapping[str, object]]]:
+    """CFR citations per document number, read from the committed metadata snapshots."""
+    references: dict[str, list[Mapping[str, object]]] = {}
+    for snapshot_dir, manifest in iter_snapshots(data_dir / "raw", content_type="application/json"):
+        decoded: object = json.loads((snapshot_dir / manifest.filename).read_bytes())
+        if not isinstance(decoded, dict):
+            continue
+        payload = cast(dict[str, object], decoded)
+        number = payload.get("document_number")
+        cited = payload.get("cfr_references")
+        if isinstance(number, str) and isinstance(cited, list):
+            entries = cast(list[object], cited)
+            references[number] = [
+                cast(Mapping[str, object], item) for item in entries if isinstance(item, dict)
+            ]
+    return references
+
+
 EXAMPLE_ACCEPTED_CLAIM_ID = "fe677d4f490f99b2"
 EXAMPLE_REJECTED_CLAIM_ID = "33961b9a82254639"
 
@@ -440,12 +466,10 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
     accepted = sum(extraction.accepted_count for extraction in extractions)
     rejected = sum(extraction.rejected_count for extraction in extractions)
     payload = [extraction.model_dump() for extraction in extractions]
+    references = cfr_references_by_document(settings.data_dir)
     for extraction, document in zip(extractions, payload, strict=True):
-        n = extraction.document_number
-        category = DOC_CATEGORIES.get(n)
-        if category is None:
-            raise ValueError(f"Document {n!r} has no pinned category")
-        document["category"] = category
+        number = extraction.document_number
+        document["category"] = document_category(number, references.get(number, []))
     (out_dir / "claims.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
     site = {
         "accepted_count": accepted,
