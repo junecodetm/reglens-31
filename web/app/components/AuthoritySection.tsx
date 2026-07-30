@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import { groupAuthoritySections } from "./crossref-utils";
@@ -11,18 +11,16 @@ import {
   type HighlightedTextProps,
 } from "./ui/HighlightedText";
 import { useLazyJson } from "./ui/useLazyJson";
+import {
+  type LazyTextState,
+  useLazyText,
+} from "./ui/useLazyText";
 
 type AuthorityPart = AuthorityData["parts"][number];
 type AuthorityCitation = AuthorityPart["citations"][number];
 type ResolvedSection = AuthorityPart["resolved"][number];
 type CitationKind = AuthorityCitation["kind"];
 type NonSectionCitationKind = Exclude<CitationKind, "usc-section">;
-
-type TextLoadState =
-  | { status: "idle" }
-  | { status: "loading"; key: string }
-  | { status: "ready"; key: string; text: string }
-  | { status: "error"; key: string; message: string };
 
 interface UscSelection {
   part: number;
@@ -32,7 +30,7 @@ interface UscSelection {
 
 interface TextRequestViewProps
   extends Omit<HighlightedTextProps, "text"> {
-  state: TextLoadState;
+  state: LazyTextState<string>;
   requestKey: string;
   loadingMessage: string;
 }
@@ -100,19 +98,6 @@ function findCitationForSection(
   );
 }
 
-async function fetchText(
-  path: string,
-  signal: AbortSignal,
-): Promise<string> {
-  const response = await fetch(path, { signal });
-
-  if (!response.ok) {
-    throw new Error(`The text request returned status ${response.status}.`);
-  }
-
-  return response.text();
-}
-
 function TextRequestView({
   state,
   requestKey,
@@ -160,7 +145,7 @@ function TextRequestView({
 interface AuthorityPartDetailsProps {
   part: AuthorityPart;
   selectedUsc: UscSelection | null;
-  uscTextState: TextLoadState;
+  uscTextState: LazyTextState<string>;
   onToggleUsc: (part: number, section: ResolvedSection) => void;
   standalone: boolean;
 }
@@ -487,138 +472,27 @@ export function AuthoritySection({
       requestErrorPrefix: "The authority request returned status ",
       fallbackErrorMessage: "The authority data could not be loaded.",
     });
+  const { state: partTextState, load: requestPartText } =
+    useLazyText<string>({
+      requestErrorPrefix: "The text request returned status ",
+      fallbackErrorMessage: "The part text could not be loaded.",
+    });
+  const { state: uscTextState, load: requestUscText } =
+    useLazyText<string>({
+      requestErrorPrefix: "The text request returned status ",
+      fallbackErrorMessage:
+        "The U.S.C. section text could not be loaded.",
+    });
   const [selectedPart, setSelectedPart] = useState<number | null>(null);
-  const [partTextState, setPartTextState] = useState<TextLoadState>({
-    status: "idle",
-  });
   const [selectedUsc, setSelectedUsc] = useState<UscSelection | null>(
     null,
   );
-  const [uscTextState, setUscTextState] = useState<TextLoadState>({
-    status: "idle",
-  });
-
-  const partControllerRef = useRef<AbortController | null>(null);
-  const uscControllerRef = useRef<AbortController | null>(null);
-  const partTextCacheRef = useRef<Map<string, string>>(new Map());
-  const uscTextCacheRef = useRef<Map<string, string>>(new Map());
 
   useEffect(() => {
     if (active) {
       void loadAuthorityData();
     }
   }, [active, loadAuthorityData]);
-
-  useEffect(() => {
-    return () => {
-      partControllerRef.current?.abort();
-      uscControllerRef.current?.abort();
-    };
-  }, []);
-
-  async function loadPartText(part: number): Promise<void> {
-    const key = authorityPartKey(part);
-
-    if (
-      partTextState.status === "loading" &&
-      partTextState.key === key
-    ) {
-      return;
-    }
-
-    partControllerRef.current?.abort();
-    partControllerRef.current = null;
-
-    const cached = partTextCacheRef.current.get(key);
-
-    if (cached !== undefined) {
-      setPartTextState({ status: "ready", key, text: cached });
-      return;
-    }
-
-    const controller = new AbortController();
-    partControllerRef.current = controller;
-    setPartTextState({ status: "loading", key });
-
-    try {
-      const text = await fetchText(
-        `/data/authority-parts/31-CFR-${encodeURIComponent(String(part))}.txt`,
-        controller.signal,
-      );
-
-      if (!controller.signal.aborted) {
-        partTextCacheRef.current.set(key, text);
-        setPartTextState({ status: "ready", key, text });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setPartTextState({
-          status: "error",
-          key,
-          message:
-            error instanceof Error
-              ? error.message
-              : "The part text could not be loaded.",
-        });
-      }
-    } finally {
-      if (partControllerRef.current === controller) {
-        partControllerRef.current = null;
-      }
-    }
-  }
-
-  async function loadUscText(
-    title: number,
-    section: string,
-  ): Promise<void> {
-    const key = uscTextKey(title, section);
-
-    if (uscTextState.status === "loading" && uscTextState.key === key) {
-      return;
-    }
-
-    uscControllerRef.current?.abort();
-    uscControllerRef.current = null;
-
-    const cached = uscTextCacheRef.current.get(key);
-
-    if (cached !== undefined) {
-      setUscTextState({ status: "ready", key, text: cached });
-      return;
-    }
-
-    const controller = new AbortController();
-    uscControllerRef.current = controller;
-    setUscTextState({ status: "loading", key });
-
-    try {
-      const text = await fetchText(
-        `/data/usc/usc-${encodeURIComponent(String(title))}-s${encodeURIComponent(section)}.txt`,
-        controller.signal,
-      );
-
-      if (!controller.signal.aborted) {
-        uscTextCacheRef.current.set(key, text);
-        setUscTextState({ status: "ready", key, text });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setUscTextState({
-          status: "error",
-          key,
-          message:
-            error instanceof Error
-              ? error.message
-              : "The U.S.C. section text could not be loaded.",
-        });
-      }
-    } finally {
-      if (uscControllerRef.current === controller) {
-        uscControllerRef.current = null;
-      }
-    }
-  }
 
   function togglePart(part: number): void {
     if (selectedPart === part) {
@@ -627,7 +501,10 @@ export function AuthoritySection({
     }
 
     setSelectedPart(part);
-    void loadPartText(part);
+    void requestPartText(
+      authorityPartKey(part),
+      `/data/authority-parts/31-CFR-${encodeURIComponent(String(part))}.txt`,
+    );
   }
 
   function toggleUsc(part: number, section: ResolvedSection): void {
@@ -641,7 +518,10 @@ export function AuthoritySection({
       title: section.usc_title,
       section: section.usc_section,
     });
-    void loadUscText(section.usc_title, section.usc_section);
+    void requestUscText(
+      uscTextKey(section.usc_title, section.usc_section),
+      `/data/usc/usc-${encodeURIComponent(String(section.usc_title))}-s${encodeURIComponent(section.usc_section)}.txt`,
+    );
   }
 
   const PartHeading: "h2" | "h4" = standalone ? "h2" : "h4";

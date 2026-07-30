@@ -1,16 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import type { ConformanceData } from "./reglens-types";
 import { ExpandableGroup } from "./ui/ExpandableGroup";
 import { useLazyJson } from "./ui/useLazyJson";
-
-type DraftTextState =
-  | { status: "loading" }
-  | { status: "ready"; text: string }
-  | { status: "error"; message: string };
+import { useLazyTextMap } from "./ui/useLazyText";
 
 type DraftChecklist = ConformanceData["checklists"][number];
 
@@ -239,15 +235,15 @@ export function DraftsSection({
     requestErrorPrefix: "Request failed with status ",
     fallbackErrorMessage: "The draft conformance data could not be loaded.",
   });
+  const {
+    stateFor: stateForDraft,
+    load: requestDraftText,
+  } = useLazyTextMap<string>({
+    requestErrorPrefix: "Request failed with status ",
+    fallbackErrorMessage: "The draft text could not be loaded.",
+  });
   const [expandedDrafts, setExpandedDrafts] = useState<Set<string>>(
     () => new Set(),
-  );
-  const [draftTextStates, setDraftTextStates] = useState<
-    Record<string, DraftTextState>
-  >({});
-  const draftRequestsRef = useRef<Set<string>>(new Set());
-  const draftControllersRef = useRef<Map<string, AbortController>>(
-    new Map(),
   );
 
   useEffect(() => {
@@ -255,67 +251,6 @@ export function DraftsSection({
       void loadConformance();
     }
   }, [active, loadConformance]);
-
-  useEffect(() => {
-    return () => {
-      draftControllersRef.current.forEach((controller) => controller.abort());
-    };
-  }, []);
-
-  async function loadDraft(checklist: DraftChecklist, key: string) {
-    const draftTextState = draftTextStates[key];
-
-    if (
-      (draftTextState !== undefined && draftTextState.status !== "error") ||
-      draftRequestsRef.current.has(key)
-    ) {
-      return;
-    }
-
-    const controller = new AbortController();
-    draftRequestsRef.current.add(key);
-    draftControllersRef.current.set(key, controller);
-    setDraftTextStates((current) => ({
-      ...current,
-      [key]: { status: "loading" },
-    }));
-
-    try {
-      const response = await fetch(
-        `/data/drafts/31-CFR-${encodeURIComponent(String(checklist.part))}-${encodeURIComponent(checklist.doc_type)}.txt`,
-        { signal: controller.signal },
-      );
-
-      if (!response.ok) {
-        throw new Error(`Request failed with status ${response.status}.`);
-      }
-
-      const text = await response.text();
-
-      if (!controller.signal.aborted) {
-        setDraftTextStates((current) => ({
-          ...current,
-          [key]: { status: "ready", text },
-        }));
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setDraftTextStates((current) => ({
-          ...current,
-          [key]: {
-            status: "error",
-            message:
-              error instanceof Error
-                ? error.message
-                : "The draft text could not be loaded.",
-          },
-        }));
-      }
-    } finally {
-      draftRequestsRef.current.delete(key);
-      draftControllersRef.current.delete(key);
-    }
-  }
 
   function handleDraftToggle(checklist: DraftChecklist) {
     const key = draftKey(checklist);
@@ -334,7 +269,10 @@ export function DraftsSection({
     });
 
     if (willExpand) {
-      void loadDraft(checklist, key);
+      void requestDraftText(
+        key,
+        `/data/drafts/31-CFR-${encodeURIComponent(String(checklist.part))}-${encodeURIComponent(checklist.doc_type)}.txt`,
+      );
     }
   }
 
@@ -406,7 +344,7 @@ export function DraftsSection({
                 const headingId = `draft-${key}-heading`;
                 const panelId = `draft-${key}-panel`;
                 const draftIsExpanded = expandedDrafts.has(key);
-                const draftTextState = draftTextStates[key];
+                const draftTextState = stateForDraft(key);
 
                 return (
                   <ExpandableGroup

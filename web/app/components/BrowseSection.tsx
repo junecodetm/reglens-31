@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import {
@@ -13,6 +13,7 @@ import {
   HighlightedText,
 } from "./ui/HighlightedText";
 import { useLazyJson } from "./ui/useLazyJson";
+import { useLazyText } from "./ui/useLazyText";
 
 interface SectionSpan {
   designation: string;
@@ -37,12 +38,6 @@ interface SelectedSection {
   part: SectionsPart;
   section: SectionSpan;
 }
-
-type PartTextState =
-  | { status: "idle" }
-  | { status: "loading"; key: number }
-  | { status: "ready"; key: number; text: string }
-  | { status: "error"; key: number; message: string };
 
 export const BROWSE_INTRO =
   "Hierarchical navigation over the five ingested parts of 31 CFR (as of the pinned snapshot date), from part to section. Selecting a section opens the part text at that location. Paragraph-level drill-down is not built.";
@@ -75,87 +70,23 @@ export function BrowseSection({
       fallbackErrorMessage:
         "The Title 31 section index could not be loaded.",
     });
+  const { state: partTextState, load: loadPartText } =
+    useLazyText<number>({
+      requestErrorPrefix: "The part-text request returned status ",
+      fallbackErrorMessage:
+        "The selected CFR part text could not be loaded.",
+    });
   const [expandedParts, setExpandedParts] = useState<Set<number>>(
     () => new Set(),
   );
   const [selectedSection, setSelectedSection] =
     useState<SelectedSection | null>(null);
-  const [partTextState, setPartTextState] = useState<PartTextState>({
-    status: "idle",
-  });
-
-  const partControllerRef = useRef<AbortController | null>(null);
-  const partTextCacheRef = useRef<Map<number, string>>(new Map());
 
   useEffect(() => {
     if (active) {
       void loadSections();
     }
   }, [active, loadSections]);
-
-  useEffect(() => {
-    return () => {
-      partControllerRef.current?.abort();
-    };
-  }, []);
-
-  async function loadPartText(part: SectionsPart) {
-    if (
-      partTextState.status === "loading" &&
-      partTextState.key === part.part
-    ) {
-      return;
-    }
-
-    partControllerRef.current?.abort();
-    partControllerRef.current = null;
-
-    const cached = partTextCacheRef.current.get(part.part);
-
-    if (cached !== undefined) {
-      setPartTextState({ status: "ready", key: part.part, text: cached });
-      return;
-    }
-
-    const controller = new AbortController();
-    partControllerRef.current = controller;
-    setPartTextState({ status: "loading", key: part.part });
-
-    try {
-      const response = await fetch(
-        `/data/${encodePathSegments(part.text_path)}`,
-        { signal: controller.signal },
-      );
-
-      if (!response.ok) {
-        throw new Error(
-          `The part-text request returned status ${response.status}.`,
-        );
-      }
-
-      const text = await response.text();
-
-      if (!controller.signal.aborted) {
-        partTextCacheRef.current.set(part.part, text);
-        setPartTextState({ status: "ready", key: part.part, text });
-      }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setPartTextState({
-          status: "error",
-          key: part.part,
-          message:
-            error instanceof Error
-              ? error.message
-              : "The selected CFR part text could not be loaded.",
-        });
-      }
-    } finally {
-      if (partControllerRef.current === controller) {
-        partControllerRef.current = null;
-      }
-    }
-  }
 
   function togglePart(part: number) {
     setExpandedParts((current) => {
@@ -173,7 +104,10 @@ export function BrowseSection({
 
   function selectSection(part: SectionsPart, section: SectionSpan) {
     setSelectedSection({ part, section });
-    void loadPartText(part);
+    void loadPartText(
+      part.part,
+      `/data/${encodePathSegments(part.text_path)}`,
+    );
   }
 
   const TitleHeading: "h2" | "h4" = standalone ? "h2" : "h4";
