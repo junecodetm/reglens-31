@@ -42,9 +42,19 @@ Must include at minimum:
   stop and make me do it before any deploy step.
 - Ollama model still pulled and tag unchanged from the recorded pin? (`ollama list`)
 - Scope confirmation: keep the existing 31 CFR parts (50/223/285/356/501) or extend?
-  **Recommend keeping.** They are fiscal/debt-management/government-securities parts —
-  substantively real and politically inert. Do not propose sanctions (Ch. V) or BSA/AML
-  (Ch. X) parts; see §5.
+  **Recommend keeping.** Corrected 2026-07-30 — the earlier description of these as
+  "fiscal/debt-management/government-securities parts" was wrong for two of the five, and
+  a Treasury reviewer would catch it. They span three chapters: Part 50 is the Terrorism
+  Risk Insurance Program (Ch. I, Departmental Offices); 223 (surety companies), 285 (debt
+  collection) and 356 (marketable Treasury securities) are Bureau of the Fiscal Service
+  parts (Ch. II); and Part 501 is the OFAC Reporting, Procedures and Penalties Regulations
+  (Ch. V). The real selection principle is drafting-style variety across substantively
+  real, politically inert parts — not a single subject-matter family.
+  Part 501 is admissible despite being Ch. V because it is **procedural** — reporting,
+  recordkeeping, licensing and penalty procedure — not a substantive designation program.
+  What §5 rules out is proposing changes to sanctions *programs* or BSA/AML (Ch. X)
+  substance; extracting verbatim procedural obligations makes no designation or screening
+  determination. Canonical scope now lives in `reglens/corpus.py`.
 - The eCFR snapshot date to pin, and the OLRC U.S. Code release point to pin.
 - Confirm the provisional-labeling protocol (BUILD.md §4) stays in force. It does.
 

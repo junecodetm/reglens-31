@@ -32,7 +32,7 @@ No downstream work may depend on an unverified assumption. Each risky assumption
 
 1. Exact local model + quantization that clears W1-1 on real Title 31 text.
 2. `@trussworks/react-uswds` 11.x compatibility with React 19 + Next.js 15 static export (W1-2).
-3. Whether the pinned Inspect AI release exposes native confidence-interval metrics (else compute in-repo).
+3. ~~Whether the pinned Inspect AI release exposes native confidence-interval metrics (else compute in-repo).~~ **Resolved:** Inspect AI was not adopted; Wilson + clustered bootstrap + kappa are computed in `reglens/eval/metrics.py`. See docs/STACK.md.
 4. Current exact Next.js and USWDS major versions at `uv`/`npm` lock time (Next.js 15.x and USWDS 3.x assumed).
 5. Live OFAC→GLEIF match yield beyond the seeded case (W1-3) — ship seeded-only if thin.
 6. OFAC SLS namespace/schema stability at fetch time (W1-4).

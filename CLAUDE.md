@@ -33,6 +33,20 @@ Decomposition is DONE. This table is the index of where each part of the spec li
 | — | `EXTEND-OGC01.md` (repo root) — OGC-01 extension spec: authority/grounding/draft stages, §5 neutrality rules, eval extension | done |
 | — | `BUILD.md` (repo root) — single-pass build execution prompt; kept as a process-transparency artifact | done |
 | — | `scripts/check_zero_cost.py` | done (real allow-list check: pinned actions, dependency + host allow-lists) |
+| — | `reglens/corpus.py` — canonical corpus scope + the executable FR inclusion rule | done |
+
+### Documents added after decomposition (2026-07-30 audit — these existed but were missing from this map)
+
+| File | What it covers |
+|---|---|
+| `docs/PROGRESS.md` | Running build log: what was done per pass, and the sanctioned de-scope list |
+| `docs/ADJUDICATE.md` | Generated adjudication worklist for the gold set (machine-proposed labels awaiting human review) |
+| `docs/ANNOTATION_GUIDELINES.md` | What counts as an obligation; minimal-span and tie-breaking rules (docs/EVALUATION.md protocol) |
+| `docs/OGC01-ALIGNMENT.md` | How the three EXTEND-OGC01 stages map to the OGC-01 inventory row |
+| `docs/BLUEPRINT-ALIGNMENT.md` | Realization map against the Treasury GenAI Architecture Blueprint, incl. invariant-cited exclusions |
+| `docs/M25-21-CROSSWALK.md` | OMB M-25-21 minimum-practices crosswalk to concrete `governance/` artifacts |
+| `docs/Treasury GenAI Architecture Blueprint.md` | Reference source document for `BLUEPRINT-ALIGNMENT.md` |
+| `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `DATA_LICENSE.md` (repo root) | Contributor path, conduct policy, data provenance + licence terms |
 
 ## 1. Project purpose & non-goals
 

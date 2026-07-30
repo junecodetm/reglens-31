@@ -14,4 +14,6 @@
 - [x] Non-affiliation disclaimer in README, site header band + footer, and repo description (31 U.S.C. §333).
 - [x] Data licensing: DATA_LICENSE.md provenance table (OpenSanctions not used in this build; CC-BY-NC term documented for the future ownership module).
 - [x] Zero-cost check passes; no card anywhere; `scripts/check_zero_cost.py` green (real allow-list check: pinned actions, dependency + host allow-lists).
+- [ ] Inspect AI as the eval harness — **not adopted**; the harness is a custom implementation in `reglens/eval/` and `inspect-ai` is not a dependency. Reasoning and trade-off in docs/STACK.md.
+- [ ] Signed commits (`docs/CONTRIBUTING.md`) — **de-scoped**; commits in this build are unsigned.
 - [x] Staleness note on the deployed demo ("data as of" footer; refresh/retirement policy in governance/monitoring_plan.md).
