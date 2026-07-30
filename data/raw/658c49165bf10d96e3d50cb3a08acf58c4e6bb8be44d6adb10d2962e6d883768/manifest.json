@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2004/07/28/04-17235.txt",
+  "fetched_at": "2026-07-30T14:09:17.211080+00:00",
+  "sha256": "658c49165bf10d96e3d50cb3a08acf58c4e6bb8be44d6adb10d2962e6d883768",
+  "content_type": "text/plain",
+  "filename": "04-17235.txt"
+}

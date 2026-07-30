@@ -1,0 +1,248 @@
+{
+  "abstract": "The Office of Foreign Assets Control (\"OFAC\") of the U.S. Department of the Treasury (\"Treasury\") is issuing this interim final rule to provide revisions to its civil penalties regulations promulgated pursuant to the Trading with the Enemy Act. These revisions consolidate substantive changes to the Foreign Assets Control Regulations, and the Cuban Assets Control Regulations, in a new subpart of the Reporting and Procedures Regulations, renamed Reporting, Procedures, and Penalties Regulations. Conforming changes are made to the other parts of the regulations.",
+  "action": "Interim final rule with request for comments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2003/09/11/03-22968.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 500,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 505,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 515,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 535,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 536,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 537,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 538,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 539,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 540,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 545,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 550,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 560,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 575,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 585,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 586,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 587,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 588,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 590,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 591,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 594,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 595,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 596,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 597,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 598,
+      "title": 31
+    }
+  ],
+  "citation": "68 FR 53640",
+  "comment_url": null,
+  "comments_close_on": "2003-10-14",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This interim final rule is effective September 11, 2003. Written comments on this interim final rule may be submitted on or before October 14, 2003.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "03-22968",
+  "effective_on": "2003-09-11",
+  "end_page": 53661,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2003/09/11/03-22968.xml",
+  "html_url": "https://www.federalregister.gov/documents/2003/09/11/03-22968/foreign-assets-control-regulations-reporting-and-procedures-regulations-cuban-assets-control",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/03-22968?publication_date=2003-09-11",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2003-09-11/03-22968/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 22,
+  "page_views": {
+    "count": 943,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2003-09-11/pdf/03-22968.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2003-09-11",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2003/09/11/03-22968.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 53640,
+  "subtype": null,
+  "title": "Foreign Assets Control Regulations; Reporting and Procedures Regulations; Cuban Assets Control Regulations: Publication of Revised Civil Penalties Hearing Regulations",
+  "toc_doc": "Civil penalties hearing regulations",
+  "toc_subject": "Trading with the Enemy Act; implementation:",
+  "topics": [
+    "Administrative practice and procedure",
+    "Afghanistan",
+    "Banks, banking",
+    "Burma",
+    "Cambodia",
+    "Cuba",
+    "Currency",
+    "Diamonds",
+    "Foreign claims",
+    "Foreign investments in United States",
+    "Foreign trade",
+    "Iran",
+    "Iraq",
+    "Korea, Democratic Peoples Republic of",
+    "Libya",
+    "Penalties",
+    "Reporting and recordkeeping requirements",
+    "Securities",
+    "Sudan",
+    "Terrorism",
+    "Travel restrictions",
+    "Vietnam",
+    "Western Balkans"
+  ],
+  "type": "Rule",
+  "volume": 68
+}

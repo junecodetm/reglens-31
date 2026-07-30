@@ -1,0 +1,333 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 84 (Tuesday, May 3, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 84 (Tuesday, May 3, 2005)]
+[Rules and Regulations]
+[Pages 22797-22800]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-8640]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AA70
+
+
+Salary Offset
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule describes the rules and procedures applicable 
+to the centralized offset of Federal salary payments to collect 
+delinquent nontax debts owed by Federal employees to the United States. 
+The Financial Management Service (FMS), a bureau of the U.S. Department 
+of the Treasury, administers centralized salary offset through the 
+Treasury Offset Program (TOP).
+
+[[Page 22798]]
+
+
+DATES: This rule is effective May 3, 2005.
+
+FOR FURTHER INFORMATION CONTACT: Gerry Isenberg, Financial Program 
+Specialist, at (202) 874-6660; or Tricia Long, Attorney, at (202) 874-
+6680.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    A major purpose of the Debt Collection Improvement Act of 1996 
+(DCIA), Pub. L. 104-134, 110 Stat. 1321-358 et seq. (April 26, 1996), 
+is to increase the collection of delinquent nontax debts owed to the 
+Federal Government. Among other things, the DCIA established a 
+centralized process for withholding or reducing eligible Federal 
+payments, including Federal salary payments, to pay the payees' 
+delinquent debts owed to the United States. This process is known as 
+``centralized administrative offset.'' The DCIA also established a 
+requirement that Federal agencies match their delinquent debtor records 
+with records of Federal employees, at least annually, to identify 
+Federal employees who owe delinquent debt to the Federal Government. 
+This rule establishes centralized procedures for matching information 
+about delinquent debts with information about Federal salary payments 
+for the purpose of offsetting a debtor's Federal salary payments to 
+satisfy the debt.
+    On April 28, 1998, FMS issued an interim rule with request for 
+comments that established the centralized salary offset program 
+operated by FMS through TOP. See 63 FR 23354. We did not receive 
+comments from any individuals or entities outside the Federal 
+government. However, we received comments from three Federal agencies, 
+many of which were operational in nature and, therefore, not 
+appropriate for a regulatory rulemaking. Since the time of the 
+publication of the interim rule, FMS has worked with Federal agencies--
+including the three commenters--to develop systems and procedures that 
+addressed their operational concerns. Therefore, we have not addressed 
+those operational comments in this rulemaking.
+
+Discussion of Comments
+
+General
+
+    As indicated above, FMS received comments from three Federal 
+agencies. The comments to the rule that were regulatory in nature are 
+discussed in this final rule. In addition, FMS has corrected the list 
+of authorities to include 31 U.S.C. 3720B and 42 U.S.C. 664, which were 
+inadvertently deleted in previous amendments to this Part 285, and has 
+made minor editorial changes for purposes of clarity and consistency.
+
+Comment Analysis
+
+Interim Rule Sec.  285.7(a), Purpose and Scope
+    One commenter recommended that paragraph (a)(1) expressly state 
+that this section applies only to the collection of nontax debts. FMS 
+agrees that such clarification would be beneficial and has made this 
+change to paragraph (a)(1).
+    It was also brought to FMS's attention that the rule does not 
+expressly state that the centralized offset of final salary payments 
+and any final, lump-sum payment made to an employee after the employee 
+leaves Federal service is governed by the provisions of 31 U.S.C. 3716 
+and implementing regulations found at 31 CFR 285.5, rather than this 
+rule. FMS has, therefore, added a new paragraph (a)(6) to clarify that 
+this rule does not apply to the offset of final salary payments or 
+final, lump-sum payments made to former employees. Among other things, 
+this means that a disbursing official may offset up to 100% of a former 
+employee's final payment, whereas for current employees, the offset 
+amount is limited to 15% of disposable pay. This new provision is 
+consistent with the salary offset provisions promulgated by the Office 
+of Personnel Management in Subpart K of 5 CFR part 550. See 5 CFR 
+550.1104(l), Liquidation from final check.
+Interim Rule Sec.  285.7(b), Definitions
+    One commenter suggested that FMS expand the definition of ``Federal 
+employee records'' to include Federal payroll records and employment 
+records in order to facilitate the matching process for salary offset. 
+FMS has not amended the definition of ``Federal employee records'' in 
+response to this comment, but it has deleted the reference to Federal 
+employee records in paragraph (a)(4) and revised paragraph (f) to 
+clarify that Federal employee records are only those records required 
+for identifying Federal employees who owe delinquent Federal debts. For 
+purposes of this rule, ``Federal employee records'' are records of 
+Federal salary payments that a paying agency has certified to a 
+disbursing official for disbursement. Such records are sufficient for 
+the disbursing official to identify Federal employees who owe 
+delinquent debts. Paying agencies, however, may require additional 
+types of records to calculate the amount of disposable pay due to a 
+Federal employee for purposes of paragraph (f) of this section. 
+Paragraph (f) authorizes paying agencies to deduct the offset amount 
+from disposable pay before certifying a salary payment to a disbursing 
+official. Paying agencies may use such records as are necessary to 
+calculate disposable pay in accordance with 5 CFR part 550, which 
+governs the calculation of disposable pay.
+Interim Rule Sec.  285.7(d), Creditor Agency Participation
+    One commenter recommended that the rule specify that notifying 
+Treasury of all past-due, legally enforceable debts for purposes of 
+administrative offset relieves agencies of the need to enter into 
+computer matching agreements with other Federal disbursing officials to 
+satisfy the statutory salary offset requirement set forth in 5 U.S.C. 
+5514. The commenter noted that the Supplementary Information portion of 
+the interim rule indicated that compliance with this section would mean 
+that the agency was also in compliance with the statutory requirement. 
+In response to this comment, FMS has revised paragraph (d)(1) to state 
+expressly that creditor agencies that notify FMS of all past-due 
+legally enforceable debts for purposes of administrative offset have 
+complied with the statutory requirement set forth in 5 U.S.C. 5514. 
+Notwithstanding this change, FMS encourages agencies to maintain 
+matching agreements with any salary paying agencies that have not yet 
+participated in the interagency consortium established under 285.7(c) 
+to implement centralized salary offset computer matching. Such matching 
+helps maximize the Government's collection of delinquent nontax debt. 
+FMS has therefore declined to put a provision in the rule that states 
+that creditor agencies do not need to enter into computer matching 
+agreements with other Federal agencies.
+    Two commenters suggested that FMS eliminate the waiver requirement 
+in paragraph (d)(4) of the interim rule. FMS has made the suggested 
+change. Paragraph (d)(4) required a waiver from Treasury before a 
+creditor agency could submit a debt to TOP without first certifying 
+that the creditor agency has complied with the salary offset due 
+process requirements of 5 U.S.C. 5514. See paragraph (d)(3)(iv) of this 
+section. Such certification is referred to informally as a ``partial 
+certification,'' because the creditor agency is not relieved from the 
+requirement to certify its compliance with those due process pre-
+requisites applicable to the offset of non-salary payments. See 31 CFR 
+285.5(d)(6), Creditor agency
+
+[[Page 22799]]
+
+certification. With a partial certification, TOP compares debtor 
+information with Federal salary payment information to determine if the 
+debtor receives a Federal salary and informs the creditor agency if 
+there is a match. Such matching affords the creditor agency time to 
+perform the necessary due process prior to submitting the completed 
+certification that all due process requirements of 5 U.S.C. 5514 have 
+been met. An offset will only occur after the creditor agency submits 
+the completed certification. The creditor agency may only submit a debt 
+to TOP with a partial certification if it uses the match information 
+for offset purposes--that is to complete due process and resubmit the 
+debt to TOP with the completed certification.
+    FMS agrees that it is appropriate to allow creditor agencies to 
+submit debts with the partial certification without an express waiver 
+from Treasury. FMS's experience since the publication of the interim 
+rule is that the partial certification process works well to allow 
+agencies time to complete due process, and that an express waiver is no 
+longer necessary. Therefore, paragraph (d)(4) has been amended to 
+remove the requirement for a waiver from Treasury prior to submitting a 
+partial certification. Paragraph (d)(4) has also been amended to add a 
+provision to make clear that such partial certification is only 
+permitted when the creditor agency intends to use the Federal salary 
+information to provide due process for offset under this section and 
+fully certify the debt in the future.
+Interim Rule Sec.  285.7(g)(1), Offset Amount
+    One commenter suggested that paragraph (g)(1) be amended to clarify 
+that when a debtor is receiving more than one Federal salary at the 
+same time (e.g., when a person receives both civilian and military 
+reserve pay), that the offset amount is 15% of each of those payments. 
+FMS has not made a change to the rule in response to this comment, 
+because the current language of (g)(1) refers to disposable pay, and 
+disposable pay is defined as having the same meaning as that term is 
+defined in 5 CFR 550.1103. Section 550.1103 makes clear that disposable 
+pay includes any pay to a Federal employee. Paragraph (g)(1), 
+therefore, allows the Government to offset up to 15% of all Federal 
+salaries paid to the debtor.
+Interim Rule Sec.  287.7(h), Priorities
+    One commenter recommended that Treasury require that tax levies 
+imposed by the Internal Revenue Service (IRS) be served directly on 
+FMS, rather than on Federal agencies directly. FMS has not changed this 
+rule in response to this comment. This rule applies only to the 
+collection of nontax debts. Moreover, service of IRS levies is governed 
+by the Internal Revenue Code, which is administered solely by the IRS. 
+Service of levies to collect delinquent tax obligations is therefore 
+outside the scope of this rule.
+
+Regulatory Analysis
+
+    This final rule is not a significant regulatory action as defined 
+in Executive Order 12866. Because no notice of proposed rulemaking was 
+required for this rule, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. 601 et seq.) do not apply.
+
+Special Analysis
+
+    FMS has determined that good cause exists to make this final rule 
+effective upon publication without providing the 30-day period between 
+publication and the effective date contemplated by 5 U.S.C. 553(d). The 
+purpose of a delayed effective date is to afford persons affected by a 
+rule a reasonable time to prepare for compliance. However, the agencies 
+affected by this rule have already been accomplishing centralized 
+salary offset in accordance with the terms of this rule, and procedures 
+affecting debtors remain unchanged in this rule. Moreover, this final 
+rule makes only minor changes to the currently effective interim final 
+rule and provides guidance that is expected to facilitate Federal 
+agencies' participation in the centralized offset program. Therefore, 
+FMS believes that good cause exists, and that it is in the public 
+interest, to make this final rule effective upon publication.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Claims, Credit, Debts, Disability benefits, Federal employees, 
+Garnishment of wages, Hearing and appeal procedures, Loan programs, 
+Privacy, Railroad retirement, Railroad unemployment insurance, 
+Salaries, Social Security benefits, Supplemental Security Income (SSI), 
+Taxes, Veteran's benefits, Wages.
+
+Authority and Issuance
+
+0
+For the reasons set forth in the preamble, 31 CFR part 285 is amended 
+as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 is revised to read as follows:
+
+    Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. Amend Sec.  285.7 as follows:
+0
+a. Revise paragraph (a)(1);
+0
+b. Remove the last sentence of paragraph (a)(4);
+0
+c. Add a new paragraph (a)(6);
+0
+d. Revise paragraph (d)(1);
+0
+e. Revise paragraph (d)(4); and
+0
+f. Add a new sentence to the end of paragraph (f).
+    The revisions and additions read as follows:
+
+
+Sec.  285.7  Salary offset.
+
+    (a) Purpose and scope. (1) This section establishes FMS's 
+procedures for the centralized offset of Federal salary payments to 
+collect delinquent nontax debts owed to the United States. This process 
+is known as centralized salary offset. Rules issued by the Office of 
+Personnel Management contain the requirements Federal agencies must 
+follow prior to conducting centralized or non-centralized salary offset 
+and the procedures for requesting offsets directly from a paying 
+agency, rather than through TOP. See 5 CFR 550.1101 through 550.1108.
+* * * * *
+    (6) This section does not govern the centralized offset of final 
+salary payments or lump-sum payments made to employees who have left an 
+agency's employ. The centralized offset of such payments is governed by 
+Sec.  285.5 of this part.
+* * * * *
+    (d) Creditor agency participation. (1) As required under 5 U.S.C. 
+5514(a)(1), creditor agencies shall participate at least annually in 
+centralized salary offset computer matching. By notifying FMS of all 
+past-due, legally enforceable debts delinquent for more than 180 days 
+for purposes of 31 U.S.C. 3716(c)(6), creditor agencies shall have met 
+the requirement set forth in 5 U.S.C. 5514(a)(1). Additionally, 
+creditor agencies may notify FMS of past-due, legally enforceable debts 
+delinquent for less than 180 days for purposes of centralized offset.
+* * * * *
+    (4) The creditor agency is not required to submit the certification 
+set forth in paragraph (d)(3)(iv) of this section prior
+
+[[Page 22800]]
+
+to submitting a debt to FMS. However, if the creditor agency does not 
+provide such certification initially, the creditor agency shall provide 
+the Federal employee with the notices and opportunity for a hearing, as 
+required by 5 U.S.C. 5514 and applicable regulations, and shall make 
+the necessary certification before the disbursing official offsets a 
+salary payment pursuant to this section. A creditor agency may submit a 
+debt without the requirement set forth in paragraph (d)(3)(iv) of this 
+section, only if the creditor agency intends to complete the 
+certification after complying with the provisions of 5 U.S.C. 5514 and 
+applicable regulations.
+* * * * *
+    (f) Salary offset. * * * The salary paying agency shall use such 
+records as it deems necessary to accurately calculate disposable pay in 
+accordance with 5 CFR 550.1103.
+* * * * *
+
+    Dated: April 22, 2005.
+Richard L. Gregg,
+Commissioner.
+[FR Doc. 05-8640 Filed 5-2-05; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2000/07/05/00-16844.txt",
+  "fetched_at": "2026-07-30T14:09:08.134997+00:00",
+  "sha256": "1fc8777bbdd269f79965d97243280d730a71328a1a155ab95874ab21ddeaae78",
+  "content_type": "text/plain",
+  "filename": "00-16844.txt"
+}

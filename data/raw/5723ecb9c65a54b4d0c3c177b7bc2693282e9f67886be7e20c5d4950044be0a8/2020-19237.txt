@@ -1,0 +1,451 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 172 (Thursday, September 3, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 172 (Thursday, September 3, 2020)]
+[Rules and Regulations]
+[Pages 54911-54914]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-19237]
+
+
+
+[[Page 54911]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+[Docket Number OFAC-2020-0001]
+
+
+Inflation Adjustment of Civil Monetary Penalties Related to 
+Reporting and Recordkeeping
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Interim final rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this interim final rule to further implement 
+the Federal Civil Penalties Inflation Adjustment Act of 1990, as 
+amended by the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act of 2015, by adjusting for inflation its civil monetary 
+penalties for failure to comply with certain recordkeeping and 
+reporting requirements, which are contained in OFAC's Economic 
+Sanctions Enforcement Guidelines in OFAC's Reporting, Procedures and 
+Penalties Regulations.
+
+DATES: This rule is effective October 5, 2020. Comments must be 
+received on or before October 5, 2020.
+
+ADDRESSES: You may submit comments by either of the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">www.regulations.gov</a>. Follow the 
+instructions on the website for submitting comments. Refer to Docket 
+Number OFAC-2020-0001.
+    Mail: Attn: Request for Comments (Inflation Adjustment of Civil 
+Monetary Penalties Related to Reporting and Recordkeeping), Office of 
+Foreign Assets Control, Department of the Treasury, 1500 Pennsylvania 
+Avenue NW, Freedman's Bank Building, Washington, DC 20220. Refer to 
+Docket Number OFAC-2020-0001.
+    Instructions: All submissions received must include the agency name 
+and the docket number that appears at the end of this document. All 
+comments, including attachments and other supporting materials, will 
+become part of the public record and subject to public disclosure. 
+Sensitive personal information, such as account numbers or Social 
+Security numbers, should not be included. Comments generally will not 
+be edited to remove any identifying or contact information.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Licensing, 202-622-2480; Assistant Director for Regulatory Affairs, 
+202-622-4855; or Assistant Director for Sanctions Compliance & 
+Evaluation, 202-622-2490.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available from OFAC's website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+
+Background
+
+The Federal Civil Penalties Inflation Adjustment Act
+
+    Section 4 of the Federal Civil Penalties Inflation Adjustment Act 
+(1990 Pub. L. 101-410, 104 Stat. 890; 28 U.S.C. 2461 note), as amended 
+by the Federal Civil Penalties Inflation Adjustment Act Improvements 
+Act of 2015 (Pub. L. 114-74, 129 Stat. 599, 28 U.S.C. 2461 note) 
+(collectively, the FCPIA Act), requires each federal agency with 
+statutory authority to assess civil monetary penalties (CMPs) to adjust 
+CMPs for inflation according to a formula described in section 5 of the 
+FCPIA Act. One purpose of the FCPIA Act is to ensure that CMPs continue 
+to maintain their deterrent effect through periodic cost-of-living 
+based adjustments.
+    The FCPIA Act directs agencies to adjust the level of CMPs for 
+inflation with an initial ``catch-up'' adjustment to be effective no 
+later than August 1, 2016, followed by annual adjustments. The FCPIA 
+directs the Office of Management and Budget (OMB) to provide agencies 
+with guidance and Consumer Price Index for all Urban Consumers (CPI-U)-
+related multipliers for the initial catch-up adjustment and subsequent 
+annual adjustments.
+    OFAC currently is authorized to impose CMPs pursuant to five 
+statutes: The Trading with the Enemy Act (50 U.S.C. 4315) (TWEA); the 
+International Emergency Economic Powers Act (50 U.S.C. 1705) (IEEPA); 
+the Antiterrorism and Effective Death Penalty Act of 1996 (18 U.S.C. 
+2339B) (AEDPA); the Foreign Narcotics Kingpin Designation Act (21 
+U.S.C. 1906) (FNKDA); and the Clean Diamond Trade Act (19 U.S.C. 3907) 
+(CDTA).
+    OFAC issued an initial catch-up adjustment rule for CMPs pursuant 
+to these statutes on August 1, 2016 (81 FR 43070, July 1, 2016), and 
+issued annual CMP increases on February 10, 2017 (82 FR 10434, February 
+10, 2017), March 19, 2018 (83 FR 11876, March 19, 2018), June 14, 2019 
+(84 FR 27714, June 14, 2019), and April 9, 2020 (85 FR 19884, April 9, 
+2020).
+    OFAC inadvertently omitted from its initial catch-up regulation and 
+subsequent annual increases its CMPs for failure to comply with a 
+requirement to furnish information, the late filing of a required 
+report, and failure to maintain records, which are located in its 
+Economic Sanctions Enforcement Guidelines in appendix A to 31 CFR part 
+501. This interim final rule combines the catch-up adjustment that 
+would have become effective August 1, 2016, plus the annual adjustments 
+for 2017 through 2020 for these CMPs.
+    In addition, OFAC is making technical edits to the authority 
+citation for part 501 to conform to Federal Register guidance.
+
+Calculation Method for Catch-Up Adjustments
+
+    In order to complete the catch-up adjustment for CMPs, the FCPIA 
+Act directs agencies to identify when the CMP amount or range was 
+established or last adjusted, other than adjustments pursuant to the 
+FCPIA Act. Agencies are directed to use that amount or range as a 
+starting point for performing calculations. The catch-up calculations 
+therefore exclude prior inflationary adjustments under the FCPIA Act. 
+The FCPIA Act directs agencies to calculate initial catch-up 
+adjustments based on the percent change between the CPI-U for the month 
+of October in the year of the last non-FCPIA-Act-based adjustment and 
+the October 2015 CPI-U. In accordance with the FCPIA Act, the amount of 
+the CMP catch-up adjustment shall not exceed 150 percent of the 
+corresponding level in effect on November 2, 2015 (the ``maximum 
+adjustment''), and agencies must round all CMP levels to the nearest 
+dollar after applying the multiplier.
+    On February 24, 2016, OMB issued written guidance providing 
+agencies with CPI-U-related multipliers to use when adjusting the CMP 
+level or range of CMP levels based on the year the CMP was established 
+or last adjusted by statute or regulation. (Memorandum for the Heads of 
+Executive Departments and Agencies: Implementation of the Federal Civil 
+Penalties Inflation Adjustment Act Improvements Act of 2015 (OMB Catch-
+Up Guidance)).
+
+Catch-Up Adjustments for Failure To Comply With a Requirement To 
+Furnish Information and the Late Filing of a Required Report
+
+    OFAC's CMPs for failure to comply with a requirement to furnish 
+information pursuant to 31 CFR 501.602 and the late filing of a report 
+set forth in regulations or a specific license are contained in 
+sections IV.A and B, respectively, of appendix A to 31 CFR part 501. 
+OFAC established these CMPs
+
+[[Page 54912]]
+
+on September 8, 2008 (73 FR 51933, September 8, 2008), and OFAC has not 
+adjusted them since. Pursuant to the OMB Catch-Up Guidance, the 
+inflation factor for catch-up adjustments for these CMPs is 1.09819, 
+with a maximum allowable adjustment of 150 percent of the CMP that was 
+in effect on November 2, 2015.
+    The CMP established in 2008 for failure to furnish information 
+pursuant to 31 CFR 501.602 irrespective of whether any other violation 
+is alleged is $20,000. Applying the multiplier of 1.09819 results in a 
+catch-up CMP of $21,964. The CMP established in 2008 for failure to 
+furnish information pursuant to 31 CFR 501.602 where OFAC has reason to 
+believe that the apparent violation(s) involves a transaction(s) valued 
+at greater than $500,000, irrespective of whether any other violation 
+is alleged, is $50,000. Applying the multiplier of 1.09819 results in a 
+catch-up CMP amount of $54,910. The CMP established in 2008 for the 
+late filing of a required report, whether set forth in regulations or 
+in a specific license, if filed within the first 30 days after the 
+report is due, is $2,500. Applying the multiplier of 1.09819 results in 
+a catch-up CMP amount of $2,745. The CMP established in 2008 for the 
+late filing of a required report, whether set forth in regulations or 
+in a specific license, if filed more than 30 days after the report is 
+due, is $5,000. Applying the multiplier of 1.09819 results in a catch-
+up CMP amount of $5,491. The 2008 CMP for the late filing of a required 
+report, whether set forth in regulations or in a specific license, if 
+the report relates to blocked assets, is an additional $1,000 for every 
+30 days that the report is overdue, up to five years. Applying the 
+multiplier of 1.09819 results in a catch-up CMP amount of $1,098. None 
+of these catch-up increases exceeds the maximum adjustment amount. 
+These catch-up increases are shown in Column 2 of Table 1.
+
+Catch-Up Adjustment for Failure To Maintain Records in Conformance With 
+the Requirements of OFAC's Regulations or of a Specific License
+
+    OFAC last adjusted its CMP for failure to maintain records in 
+conformance with the requirements of OFAC's regulations or of a 
+specific license, which is located in section IV.C of appendix A to 31 
+CFR part 501, on November 9, 2009 (74 FR 57593, November 9, 2009). The 
+2009 adjustment of this CMP provides for a penalty in an amount up to 
+$50,000. Pursuant to the OMB Catch-Up Guidance, the relevant inflation 
+factor for the catch-up adjustment for this CMP is 1.10020, with a 
+maximum allowable adjustment of 150 percent of the CMP that was in 
+effect on November 2, 2015. Applying the multiplier of 1.10020 to this 
+CMP results in the catch-up amount up to $55,010, which does not exceed 
+the maximum adjustment. This catch-up figure is shown in Column 2 of 
+Table 2.
+
+Calculation Method for 2017, 2018, 2019, and 2020 Adjustments
+
+    The FCPIA Act requires agencies to adjust CMPs annually for 
+inflation subsequent to the initial catch-up adjustment. These annual 
+adjustments are to be based on the percent change between the CPI-U for 
+the October preceding the date of the adjustment and the prior year's 
+October CPI-U. Each December, OMB issues the adjustment multiplier for 
+the upcoming year's calculations. In order to complete the annual 
+adjustment, each CMP (as revised by the catch-up adjustment) is 
+multiplied by the adjustment multiplier for that year. Under the FCPIA 
+Act, any increases in CMPs must be rounded to the nearest multiple of 
+$1.
+    The adjustment multiplier for the 2017 CMP increase was 1.01636, as 
+set forth in OMB Memorandum M-17-11 of December 16, 2016 (Memorandum 
+for the Heads of Executive Departments and Agencies: Implementation of 
+the 2017 Annual Adjustment pursuant to the Federal Civil Penalties 
+Inflation Adjustment Act Improvements Act of 2015). For the 2018 CMP 
+increase, OMB Memorandum M-18-03 of December 15, 2017 provided an 
+adjustment multiplier of 1.02041 (Memorandum for the Heads of Executive 
+Departments and Agencies: Implementation of Penalty Inflation 
+Adjustments for 2018, Pursuant to the Federal Civil Penalties Inflation 
+Adjustment Act Improvements Act of 2015). For the 2019 CMP increase, 
+OMB Memorandum M-19-04 of December 14, 2018 stated the adjustment 
+multiplier was 1.02522 (Memorandum for the Heads of Executive 
+Departments and Agencies: Implementation of Penalty Inflation 
+Adjustments for 2019, Pursuant to the Federal Civil Penalties Inflation 
+Adjustment Act Improvements Act of 2015,). For the 2020 CMP increase, 
+OMB Memorandum M-20-05 of December 16, 2019 provided an adjustment 
+multiplier of 1.01764 (Memorandum for the Heads of Executive 
+Departments and Agencies: Implementation of Penalty Inflation 
+Adjustments for 2020, Pursuant to the Federal Civil Penalties Inflation 
+Adjustment Act Improvements Act of 2015).
+
+Adjustments for 2017, 2018, 2019, and 2020 for Failure To Comply With a 
+Requirement To Furnish Information and the Late Filing of a Required 
+Report
+
+    If OFAC had calculated the 2017 annual adjustment for its CMPs for 
+failure to comply with a requirement to furnish information and the 
+late filing of a report, each of the catch-up CMP amounts would have 
+been multiplied by the OMB-provided factor of 1.01636. The resulting 
+amounts for the 2017 CMPs are shown in Column 3 of Table 1. If OFAC had 
+calculated the 2018 annual adjustment, the 2017 CMPs would have been 
+multiplied by the OMB-provided factor of 1.02041. The resulting amounts 
+for the 2018 CMPs are shown in Column 4 of Table 1. If OFAC had 
+calculated the 2019 CMP adjustment, the 2018 CMPs would have been 
+multiplied by the OMB-provided factor of 1.02522. The resulting amounts 
+for the 2019 CMPs are shown in Column 5 of Table 1.
+    For the 2020 CMP increases, OMB provided an adjustment factor of 
+1.01764. OFAC multiplied the 2019 CMP amounts by this factor, resulting 
+in the 2020 CMP amounts as shown in Column 6 of Table 2. These 2020 CMP 
+amounts will be effective October 5, 2020 for associated violations 
+that occurred after November 2, 2015 for which penalties were assessed 
+on or after October 5, 2020.
+
+Adjustments for 2017, 2018, 2019, and 2020 for Failure To Maintain 
+Records in Conformance With the Requirements of OFAC's Regulations or 
+of a Specific License
+
+    If OFAC had calculated the 2017 annual adjustment for its CMP for 
+failure to maintain records in conformance with the requirements of 
+OFAC's regulations or of a specific license, the catch-up CMP amount 
+would have been multiplied by the OMB-provided factor of 1.01636. The 
+resulting amount for the 2017 CMP is shown in Column 3 of Table 2. If 
+OFAC had calculated the 2018 annual CMP adjustment, the 2017 CMP would 
+have been multiplied by the OMB-provided factor of 1.02041. The 
+resulting amount for the 2018 CMP is shown in Column 4 of Table 2. If 
+OFAC had calculated the 2019 CMP adjustment, the 2018 CMP would have 
+been multiplied by the OMB-provided factor of 1.02522. The resulting 
+amount for the 2019 CMP is shown in Column 5 of Table 2.
+    For the 2020 CMP increase, OMB provided an adjustment factor of 
+1.01764. OFAC multiplied the 2019 CMP amount by this factor, resulting 
+in the 2020 CMP amount as shown in
+
+[[Page 54913]]
+
+Column 6 of Table 2. This 2020 CMP amount will be effective October 5, 
+2020 for associated violations that occurred after November 2, 2015 for 
+which penalties were assessed on or after October 5, 2020.
+
+Summary of CMP Increases in This Rule
+
+    The CMP for failure to comply with the requirement to furnish 
+information pursuant to 31 CFR 501.602 irrespective of whether any 
+other violation is alleged will increase from $20,000 to $23,765. The 
+CMP for failure to comply with a requirement to furnish information, 
+where OFAC has reason to believe that the apparent violation(s) that is 
+the subject of the requirement to furnish information involves a 
+transaction(s) valued at greater than $500,000, irrespective of whether 
+any other violation is alleged, will increase from $50,000 to $59,413. 
+The CMP for late filing of a required report, whether set forth in 
+regulations or in a specific license, if filed within the first 30 days 
+after the report is due will increase from $2,500 to $2,970. The CMP 
+for late filing of a required report, whether set forth in regulations 
+or in a specific license, if filed more than 30 days after the report 
+is due, will increase from $5,000 to $5,942. The CMP for late filing of 
+a required report, whether set forth in regulations or in a specific 
+license, if the report relates to blocked assets, an additional CMP for 
+every 30 days that the report is overdue, up to five years, will 
+increase from $1,000 to $1,189. The CMP for failure to maintain records 
+in conformance with the requirements of OFAC's regulations or of a 
+specific license will increase from a maximum of $50,000 to $59,522.
+
+                      Table 1--CMPs for Failure To Comply With a Requirement To Furnish Information and the Late Filing of a Report
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Column 1            Column 2            Column 3            Column 4            Column 5            Column 6
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Violation.......................  Existing CMP......  2016 catch-up CMP   2017 adjusted CMP   2018 CMP (factor    2019 CMP (factor    2020 CMP (factor
+                                                       (catch-up factor    (factor of          of 1.02041          of 1.02522          of 1.01764
+                                                       of 1.09819          1.01636 applied     applied to 2017     applied to 2018     applied to 2019
+                                                       applied to          to catch-up CMP).   CMP).               CMP).               CMP) This is the
+                                                       existing CMP).                                                                  penalty effective
+                                                                                                                                       October 5, 2020.
+Failure to furnish information    $20,000...........  $21,964...........  $22,323...........  $22,779...........  $23,353...........  $23,765.
+ pursuant to 31 CFR 501.602
+ irrespective of whether any
+ other violation is alleged.
+Failure to furnish information    $50,000...........  $54,910...........  $55,808...........  $56,947...........  $58,383...........  $59,413.
+ pursuant to 31 CFR 501.602
+ where OFAC has reason to
+ believe that the apparent
+ violation(s) involves a
+ transaction(s) valued at
+ greater than $500,000,
+ irrespective of whether any
+ other violation is alleged.
+Late filing of a required         $2,500............  $2,745............  $2,790............  $2,847............  $2,919............  $2,970.
+ report, whether set forth in
+ regulations or in a specific
+ license, if filed within the
+ first 30 days after the report
+ is due.
+Late filing of a required         $5,000............  $5,491............  $5,581............  $5,695............  $5,839............  $5,942.
+ report, whether set forth in
+ regulations or in a specific
+ license, if filed more than 30
+ days after the report is due.
+Late filing of a required         $1,000............  $1,098............  $1,116............  $1,139............  $1,168............  $1,189.
+ report, whether set forth in
+ regulations or in a specific
+ license, if the report relates
+ to blocked assets, an
+ additional CMP for every 30
+ days that the report is
+ overdue, up to five years.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+            Table 2--CMPs for Failure To Maintain Records in Conformance With the Requirements of OFAC's Regulations or of a Specific License
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Column 1            Column 2            Column 3            Column 4            Column 5            Column 6
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Violation.......................  Existing CMP......  2016 catch-up CMP   2017 adjusted CMP   2018 CMP (factor    2019 CMP (factor    2020 CMP (factor
+                                                       (catch-up factor    (factor of          of 1.02041          of 1.02522          of 1.01764
+                                                       of 1.10020          1.01636 applied     applied to 2017     applied to 2018     applied to 2019
+                                                       applied to          to catch-up CMP).   CMP).               CMP).               CMP) This is the
+                                                       existing CMP).                                                                  penalty effective
+                                                                                                                                       October 5, 2020.
+Failure to maintain records in    $50,000...........  $55,010...........  $55,910...........  $57,051...........  $58,490...........  $59,522.
+ conformance with the
+ requirements of OFAC's
+ regulations or of a specific
+ license.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    The adjusted CMP amounts described in this rule are applicable only 
+to CMPs assessed after October 5, 2020, whose associated violations 
+occurred after November 2, 2015, the date of enactment of the FCPIA 
+Act.
+
+[[Page 54914]]
+
+Procedural Requirements
+
+Notice and Comment
+
+    As required by the FCPIA Act, these amendments are being published 
+as an interim final rule with an effective date of October 5, 2020. 
+Although other notice and comment procedures are not required, OFAC 
+invites comments on this rule related to the catch-up adjustment only. 
+The FCPIA Act expressly exempts the inflation adjustments from the 
+notice and comment requirements of the Administrative Procedure Act, by 
+directing agencies to adjust CMPs for inflation ``notwithstanding 
+section 553 of title 5, United States Code'' (Pub. L. 114-74, 129 Stat. 
+599; 28 U.S.C. 2461 note).
+
+Regulatory Flexibility Act
+
+    Because no notice of proposed rulemaking is required for this rule, 
+the Regulatory Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The Paperwork Reduction Act does not apply because this rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq.
+
+List of Subjects for 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Enforcement guidelines, Exports, Foreign trade, Licensing, 
+Penalties, Recordkeeping, Sanctions.
+    For the reasons set forth in the preamble, 31 CFR part 501 is 
+amended as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 is revised to read as follows:
+
+    Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 
+7205, 8501-8551; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 
+note); 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341.
+
+Appendix A to Part 501--[Amended]
+
+0
+2. In appendix A to part 501:
+0
+a. Amend paragraph IV.A. as follows:
+0
+i. Remove ``$20,000'' and in its place add ``$23,765''.
+0
+ii. Remove ``$50,000'' and in its place add ``$59,413''.
+0
+b. Amend paragraph IV.B. as follows:
+0
+i. Remove ``$2,500'' and add in its place ``$2,970''.
+0
+ii. Remove ``$5,000'' and add in its place ``$5,942''.
+0
+iii. Remove ``$1,000'' and add in its place ``$1,189''.
+
+0
+5. In paragraph IV.C., remove ``$50,000'' and add in its place 
+``$59,522''.
+
+    Dated: August 27, 2020.
+Bradley T. Smith,
+Deputy Director, Office of Foreign Assets Control.
+[FR Doc. 2020-19237 Filed 9-2-20; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

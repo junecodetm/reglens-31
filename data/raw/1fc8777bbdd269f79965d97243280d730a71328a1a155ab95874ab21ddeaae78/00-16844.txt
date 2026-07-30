@@ -1,0 +1,1246 @@
+<html>
+<head>
+<title>Federal Register, Volume 65 Issue 129 (Wednesday, July 5, 2000)</title>
+</head>
+<body><pre>
+[Federal Register Volume 65, Number 129 (Wednesday, July 5, 2000)]
+[Rules and Regulations]
+[Pages 41334-41342]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 00-16844]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501 and 598
+
+
+Reporting and Procedures Regulations; Foreign Narcotics Kingpin 
+Sanctions Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule; amendments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control of the U.S. Department of 
+the Treasury is amending its Reporting and Procedures Regulations, and 
+issuing the Foreign Narcotics Kingpin Sanctions Regulations, in 
+implementation of the Foreign Narcotics Kingpin Designation Act.
+
+EFFECTIVE DATE: July 5, 2000.
+
+FOR FURTHER INFORMATION CONTACT: J. Robert McBrien, Chief, 
+International Programs, tel.: 202/622-2420, or Barbara C. Hammerle, 
+Deputy Chief Counsel, tel.: 202/622-2410, Office of Foreign Assets 
+Control, Department of the Treasury, Washington, DC 20220.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic and Facsimile Availability
+
+    This document is available as an electronic file on The Federal 
+Bulletin Board the day of publication in the Federal Register. By 
+modem, dial 202/512-1387 and type ``/GO FAC,'' or call 202/512-1530 for 
+disk or paper copies. This file is available for downloading without 
+charge in ASCII and Adobe Acrobat<Register> readable (*.PDF) formats. 
+For Internet access, the address for use with the World Wide Web (Home 
+Page), Telnet, or FTP protocol is: <a href="http://fedbbs.access.gpo.gov">fedbbs.access.gpo.gov</a>. This document 
+and additional information concerning the programs of the Office of 
+Foreign Assets Control are available for downloading from the Office's 
+Internet Home Page: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>, or in fax form through 
+the Office's 24-hour fax-on-demand service: call 202/622-0077 using a 
+fax machine, fax modem, or (within the United States) a touch-tone 
+telephone.
+
+Background
+
+    On December 3, 1999, President Clinton signed into law the Foreign 
+Narcotics Kingpin Designation Act, Pub. L. No. 106-120, title VIII, 113 
+Stat. 1606, 1626-1636 (1999) (to be codified at 21 U.S.C. 1901-1908, 8 
+U.S.C. 1182(a)(2)(C)) (the ``Act''), which provides authority for the 
+application of sanctions to significant foreign narcotics traffickers 
+and their organizations operating worldwide. Section 805(b) of the Act 
+blocks all property and interests in property within the United States 
+or within the possession or control of any United States person, which 
+are owned or controlled by significant foreign narcotics traffickers, 
+as identified by the President, or foreign persons designated by the 
+Secretary of the Treasury, in consultation with the Attorney General, 
+the Director of Central Intelligence, the Director of the Federal 
+Bureau of Investigation, the Administrator of the Drug Enforcement 
+Administration, the Secretary of Defense, and the Secretary of State, 
+because they are found to be:
+    (1) Materially assisting in, or providing financial or 
+technological support for or to, or providing goods or services in 
+support of, the international narcotics trafficking activities of a 
+significant foreign narcotics trafficker or foreign persons designated 
+by the Secretary of the Treasury pursuant to section 805(b) of the Act;
+    (2) Owned, controlled, or directed by, or acting for or on behalf 
+of, a significant foreign narcotics trafficker or foreign persons 
+designated by the Secretary of the Treasury pursuant to section 805(b) 
+of the Act; or
+    (3) Playing a significant role in international narcotics 
+trafficking.
+    Significant foreign narcotics traffickers and persons coming within 
+any of the above three categories are referred to as specially 
+designated narcotics traffickers.
+    Section 805(e)(1) of the Act authorizes the Secretary of the 
+Treasury, in consultation with the Attorney General, the Director of 
+Central Intelligence, the Director of the Federal Bureau of 
+Investigation, the Administrator of the
+
+[[Page 41335]]
+
+Drug Enforcement Administration, the Secretary of Defense, and the 
+Secretary of State, to take such actions as may be necessary to carry 
+out the Act, including the promulgation of rules and regulations 
+permitted under the Act. Section 806 of the Act authorizes the 
+Secretary of the Treasury to issue regulations and orders as may be 
+necessary for the exercise of authorities granted by the Act.
+    In implementation of the Act, the Office of Foreign Assets Control 
+of the Department of the Treasury is issuing the Foreign Narcotics 
+Kingpin Sanctions Regulations, 31 CFR Part 598 (the ``Regulations''). 
+These Regulations are separate from, and independent of, the Narcotics 
+Trafficking Sanctions Regulations, 31 CFR Part 536, which implement the 
+national emergency declared in Executive Order 12978 of October 21, 
+1995, with respect to significant foreign narcotics traffickers 
+centered in Colombia. See Sec. 598.101. Sanctions imposed and persons 
+named as specially designated narcotics traffickers pursuant to 31 CFR 
+part 536 are not affected by this part 598. Section 809 of the Act, 
+which amends section 212(a)(2)(C) of the Immigration and Nationality 
+Act, is not implemented by these Regulations.
+    Subpart B of the Regulations implements section 805 of the Act. 
+Specifically, section 598.201 implements section 805(a) of the Act by 
+providing that specially designated narcotics traffickers are subject 
+to any and all sanctions authorized by the Act until revoked or waived. 
+Section 598.202 implements section 805(b) of the Act by providing that 
+property and interests in property owned or controlled by specially 
+designated narcotics traffickers and within the United States or within 
+the possession or control of a United States person are blocked. 
+Section 598.203 of the Regulations implements section 805(c)(1) of the 
+Act by prohibiting transactions and dealings by U.S. persons or within 
+the United States in property or interests in property of specially 
+designated narcotics traffickers. Section 598.204 implements section 
+805(c)(2) of the Act by prohibiting transactions that have the effect 
+of evading or avoiding, and attempts or conspiracies to violate, the 
+prohibitions set forth in this part. Sections 598.205 and 598.206 of 
+the Regulations detail the effect of transfers of blocked property in 
+violation of the Regulations and the required holding of blocked 
+property in interest-bearing accounts.
+    Subpart C of the Regulations implements section 808 of the Act and 
+defines key terms used throughout the Regulations. Subpart D of the 
+Regulations sets forth interpretive sections regarding the general 
+prohibitions of subpart B.
+    Transactions otherwise prohibited under this part but found to be 
+consistent with U.S. policy may be authorized by a general license 
+contained in subpart E or by a specific license issued pursuant to the 
+procedures set forth in subpart D of part 501 of chapter V. The general 
+licenses contained in subpart E include an authorization for U.S. 
+financial institutions to debit blocked accounts for normal service 
+charges. See Sec. 598.506. Section 598.507 authorizes the provision of 
+certain legal services, provided that receipt of payment for such 
+services is specifically licensed.
+    Subpart F of the Regulations implements sections 806(a)-(b) of the 
+Act by reference to the Reporting and Procedures Regulations in subpart 
+C of 31 CFR part 501, which set forth provisions relating to required 
+records and reports. Subpart G implements section 807 of the Act by 
+describing the civil and criminal penalties applicable to violations of 
+the Regulations. Specifically, section 598.701 sets forth the civil and 
+criminal penalties prescribed in sections 807(a)-(b) of the Act, and 
+section 598.706 implements section 807(c) of the Act by providing that 
+civil penalties shall be subject to judicial review only to the extent 
+provided in 5 U.S.C. 702.
+    Subpart H provides certain administrative procedures applicable to 
+this part and implements others by reference to the Reporting and 
+Procedures Regulations in subpart D of 31 CFR part 501, which contain 
+provisions relating to administrative procedures. Section 598.802 
+implements section 805(e)(3) of the Act by clarifying that records or 
+information obtained or created in the implementation of the 
+Regulations are not subject to disclosure under section 552(a)(3) of 
+the Freedom of Information Act (5 U.S.C. 552(a)(3)). Section 598.803 
+delegates to the Office of Foreign Assets Control those actions that 
+the Secretary of the Treasury is authorized to take pursuant to the 
+Act. Subpart I of the Regulations sets forth a Paperwork Reduction Act 
+notice.
+    In addition to adding a new part 598, the Office of Foreign Assets 
+Control is revising its Reporting and Procedures Regulations contained 
+in 31 CFR part 501 in implementation of certain provisions of the Act. 
+Pursuant to section 805(e)(3) of the Act, section 501.805(a) is amended 
+to add a note clarifying the inapplicability of section 552(a)(3) of 
+the Freedom of Information Act.
+    In implementing the Regulations, the Office of Foreign Assets 
+Control will seek to consult with foreign governments where 
+appropriate. Because the Regulations involve a foreign affairs 
+function, Executive Order 12866 and the provisions of the 
+Administrative Procedure Act (5 U.S.C. 553) requiring notice of 
+proposed rulemaking, opportunity for public participation, and delay in 
+effective date, are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The collections of information related to the Regulations are 
+contained in the Reporting and Procedures Regulations in 31 CFR part 
+501. Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), 
+those collections of information were previously approved by the Office 
+of Management and Budget (``OMB'') under control number 1505-0164. An 
+agency may not conduct or sponsor, and a person is not required to 
+respond to, a collection of information unless the collection of 
+information displays a valid control number.
+
+List of Subjects in 31 CFR Part 598
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Drug traffic control, Narcotics trafficking, Penalties, 
+Reporting and recordkeeping requirements, Significant foreign narcotics 
+traffickers, Specially designated narcotics traffickers, Transfer of 
+assets.
+
+    For the reasons set forth in the preamble, 31 CFR Chapter V is 
+amended as follows:
+
+PART 501--REPORTING AND PROCEDURES REGULATIONS
+
+    1. The authority citation for part 501 is revised to read as 
+follows:
+
+    Authority: 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 31 U.S.C. 
+321(b); 50 U.S.C. 1701-1706; 50 U.S.C. App. 1-44.
+
+Subpart D--Procedures
+
+    2. A note is added to paragraph (a) of Sec. 501.805 to read as 
+follows:
+
+
+Sec. 501.805  Rules governing availability of information.
+
+    (a) * * *
+
+    Note to paragraph (a) of Sec. 501.805: Records or information 
+obtained or created in the implementation of part 598 of this 
+chapter are not subject to disclosure under section
+
+[[Page 41336]]
+
+552(a)(3) of the Freedom of Information Act. See Sec. 598.802 of 
+this chapter.
+
+* * * * *
+    3. Part 598 is added to read as follows:
+
+PART 598--FOREIGN NARCOTICS KINGPIN SANCTIONS REGULATIONS
+
+Subpart A--Relation of This Part to Other Laws and Regulations
+Sec.
+598.101   Relation of this part to other laws and regulations.
+Subpart B--Prohibitions
+598.201   Applicability of sanctions.
+598.202   Blocking of assets.
+598.203   Prohibited transactions involving blocked property.
+598.204   Evasions; attempts; conspiracies.
+598.205   Effect of transfers violating the provisions of this part.
+598.206   Holding of funds in interest-bearing accounts; investment 
+and reinvestment.
+Subpart C--General Definitions
+598.301   Blocked account; blocked property.
+598.302   Effective date.
+598.303   Entity.
+598.304   Foreign Narcotics Kingpin Designation Act.
+598.305   Foreign person.
+598.306   General license.
+598.307   Interest.
+598.308   License.
+598.309   Narcotic drug; controlled substance; listed chemical.
+598.310   Narcotics trafficking.
+598.311   Person.
+598.312   Property; property interest.
+598.313   Significant foreign narcotics trafficker.
+598.314   Specially designated narcotics trafficker.
+598.315   Specific license.
+598.316   Transfer.
+598.317   United States.
+598.318   United States person; U.S. person.
+598.319   U.S. financial institution.
+Subpart D--Interpretations
+598.401   Reference to amended sections.
+598.402   Effect of amendment.
+598.403   Termination and acquisition of an interest in blocked 
+property.
+598.404   Setoffs prohibited.
+598.405   Transactions incidental to a licensed transaction.
+598.406   Provision of services.
+598.407   Offshore transactions.
+598.408   Alleged change in ownership or control of an entity 
+designated as a specially designated narcotics trafficker.
+598.409   Credit extended and cards issued by U.S. financial 
+institutions.
+598.410   Payments from blocked accounts to U.S. exporters and for 
+other obligations prohibited.
+Subpart E--Licenses, Authorizations, and Statements of Licensing Policy
+598.501   General and specific licensing procedures.
+598.502   Effect of license.
+598.503   Exclusion from licenses.
+598.504   Payments and transfers to blocked accounts in U.S. 
+financial institutions.
+598.505   Investment and reinvestment of certain funds.
+598.506   Entries in certain accounts for normal service charges 
+authorized.
+598.507   Provision of certain legal services authorized.
+Subpart F--Reports
+598.601   Records and reports.
+Subpart G--Penalties
+598.701   Penalties.
+598.702   Prepenalty notice.
+598.703   Response to prepenalty notice; informal settlement.
+598.704   Penalty imposition or withdrawal.
+598.705   Administrative collection; referral to United States 
+Department of Justice.
+598.706   Judicial review of civil penalty.
+Subpart H--Procedures
+598.801   Procedures.
+598.802   Availability of information pursuant to the Freedom of 
+Information Act.
+598.803   Delegation by the Secretary of the Treasury.
+Subpart I--Paperwork Reduction Act
+598.901   Paperwork Reduction Act notice.
+
+    Authority: 3 U.S.C. 301; 21 U.S.C. 1901-1908; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note).
+
+Subpart A--Relation of This Part to Other Laws and Regulations
+
+
+Sec. 598.101  Relation of this part to other laws and regulations.
+
+    (a) This part is separate from, and independent of, the other parts 
+of this chapter, including part 536 of this chapter, ``Narcotics 
+Trafficking Sanctions Regulations,'' with the exception of part 501 of 
+this chapter, the provisions of which apply to this part. Actions taken 
+pursuant to part 501 of this chapter with respect to the prohibitions 
+contained in this part are considered actions taken pursuant to this 
+part. Differing foreign policy and national security contexts may 
+result in differing interpretations of similar language among the parts 
+of this chapter. No license or authorization contained in or issued 
+pursuant to those other parts authorizes any transaction prohibited by 
+this part. No license or authorization contained in or issued pursuant 
+to any other provision of law or regulation authorizes any transaction 
+prohibited by this part.
+    (b) No license contained in or issued pursuant to this part 
+relieves the involved parties from complying with any other applicable 
+laws or regulations.
+
+Subpart B--Prohibitions
+
+
+Sec. 598.201  Applicability of sanctions.
+
+    A specially designated narcotics trafficker is subject to any and 
+all sanctions authorized by the Foreign Narcotics Kingpin Designation 
+Act and implemented in this part. The application of sanctions on any 
+specially designated narcotics trafficker will remain in effect until 
+revoked by the President pursuant to section 804(h)(2) of the Foreign 
+Narcotics Kingpin Designation Act, waived by the President pursuant to 
+section 804(g)(1) of that Act, or revoked by the Secretary of the 
+Treasury pursuant to section 805(e)(1)(A) of that Act.
+
+
+Sec. 598.202  Blocking of assets.
+
+    Except to the extent provided in regulations, orders, instructions, 
+licenses, or directives issued pursuant to this part, and 
+notwithstanding any contract entered into or any license or permit 
+granted prior to the effective date, there are blocked as of the 
+effective date, and any date thereafter, all such property and 
+interests in property within the United States, or within the 
+possession or control of any United States person, which are owned or 
+controlled by a specially designated narcotics trafficker.
+
+
+Sec. 598.203  Prohibited transactions involving blocked property.
+
+    (a) Except to the extent provided in regulations, orders, 
+instructions, licenses, or directives issued pursuant to this part, and 
+notwithstanding any contract entered into or any license or permit 
+granted prior to the effective date, any transaction or dealing by a 
+United States person, or within the United States, in property or 
+interests in property of a specially designated narcotics trafficker is 
+prohibited.
+    (b) Unless otherwise authorized by this part or by a specific 
+license expressly referring to this section, any dealing in any 
+security (or evidence thereof) held within the possession or control of 
+a U.S. person and either registered or inscribed in the name of or 
+known to be held for the benefit of any specially designated narcotics 
+trafficker is prohibited. This prohibition includes but is not limited 
+to the transfer (including the transfer on the books of any issuer or 
+agent thereof), disposition, transportation, importation, exportation, 
+or withdrawal of any such security or the endorsement or guaranty of 
+signatures on any such security.
+    (c) When a transaction results in the blocking of funds at a 
+financial institution pursuant to this section and a party to the 
+transaction believes the
+
+[[Page 41337]]
+
+funds have been blocked due to mistaken identity, that party may seek 
+to have such funds unblocked pursuant to the administrative procedures 
+set forth in Sec. 501.806 of this chapter.
+
+
+Sec. 598.204  Evasions; attempts; conspiracies.
+
+    Except to the extent provided in regulations, orders, instructions, 
+licenses, or directives issued pursuant to this part, and 
+notwithstanding any contract entered into or any license or permit 
+granted prior to the effective date, any transaction or dealing by any 
+United States person, or within the United States, that evades or 
+avoids, or has the effect of evading or avoiding, and any endeavor, 
+attempt, or conspiracy to violate any of the prohibitions set forth in 
+this part is prohibited.
+
+
+Sec. 598.205  Effect of transfers violating the provisions of this 
+part.
+
+    (a) Any transfer after the effective date that is in violation of 
+any provision of this part or of any regulation, order, directive, 
+ruling, instruction, or license issued pursuant to this part, and that 
+involves any property or interest in property of a specially designated 
+narcotics trafficker is null and void and shall not be the basis for 
+the assertion or recognition of any interest in or right, remedy, 
+power, or privilege with respect to such property or property 
+interests.
+    (b) No transfer before the effective date shall be the basis for 
+the assertion or recognition of any right, remedy, power, or privilege 
+with respect to, or any interest in, any property or interest in 
+property of a specially designated narcotics trafficker, unless the 
+person with whom such property is held or maintained, prior to that 
+date, had written notice of the transfer or by any written evidence had 
+recognized such transfer.
+    (c) Unless otherwise provided, an appropriate license or other 
+authorization issued by or pursuant to the direction or authorization 
+of the Director of the Office of Foreign Assets Control before, during, 
+or after a transfer shall validate such transfer or make it enforceable 
+to the same extent that it would be valid or enforceable but for the 
+provisions of the Foreign Narcotics Kingpin Designation Act, this part, 
+and any regulation, order, directive, ruling, instruction, or license 
+issued pursuant to this part.
+    (d) Property transfers that otherwise would be null and void or 
+unenforceable by virtue of the provisions of this section shall not be 
+deemed to be null and void or unenforceable as to any person with whom 
+such property was held or maintained (and as to such person only) in 
+cases in which such person is able to establish to the satisfaction of 
+the Director of the Office of Foreign Assets Control each of the 
+following:
+    (1) Such transfer did not represent a willful violation of the 
+provisions of this part by the person with whom such property was held 
+or maintained;
+    (2) The person with whom such property was held or maintained did 
+not have reasonable cause to know or suspect, in view of all the facts 
+and circumstances known or available to such person, that such transfer 
+required a license issued pursuant to this part and was not so 
+licensed, or if a license did purport to cover the transfer, that such 
+license had been obtained by misrepresentation of a third party or 
+withholding of material facts or was otherwise fraudulently obtained; 
+and
+    (3) The person with whom such property was held or maintained filed 
+with the Office of Foreign Assets Control a report setting forth in 
+full the circumstances relating to such transfer promptly upon 
+discovery that:
+    (i) Such transfer was in violation of the provisions of this part 
+or any regulation, ruling, instruction, direction, or license issued 
+pursuant to this part;
+    (ii) Such transfer was not licensed or authorized by the Director 
+of the Office of Foreign Assets Control; or
+    (iii) If a license did purport to cover the transfer, such license 
+had been obtained by misrepresentation of a third party or withholding 
+of material facts or was otherwise fraudulently obtained.
+
+    Note to paragraph (d) of Sec. 598.205: The filing of a report in 
+accordance with the provisions of paragraph (d)(3) of this section 
+shall not be deemed evidence that the terms of paragraphs (d)(1) and 
+(2) of this section have been satisfied.
+
+    (e) Unless licensed or authorized pursuant to this part, any 
+attachment, judgment, decree, lien, execution, garnishment, or other 
+judicial process is null and void with respect to any property in which 
+on or since the effective date there existed an interest of a specially 
+designated narcotics trafficker.
+
+
+Sec. 598.206  Holding of funds in interest-bearing accounts; investment 
+and reinvestment.
+
+    (a) Except as provided in paragraph (c) or (d) of this section, or 
+as otherwise directed by the Office of Foreign Assets Control, any U.S. 
+person holding funds, such as currency, bank deposits, or liquidated 
+financial obligations, subject to Sec. 598.202 shall hold or place such 
+funds in a blocked interest-bearing account located in the United 
+States.
+    (b)(1) For purposes of this section, the term blocked interest-
+bearing account means a blocked account:
+    (i) In a federally-insured U.S. bank, thrift institution, or credit 
+union, provided the funds are earning interest at rates that are 
+commercially reasonable; or
+    (ii) With a broker or dealer registered with the Securities and 
+Exchange Commission under the Securities Exchange Act of 1934, provided 
+the funds are invested in a money market fund or in U.S. Treasury 
+bills.
+    (2) For purposes of this section, a rate is commercially reasonable 
+if it is the rate currently offered to other depositors on deposits or 
+instruments of comparable size and maturity.
+    (3) Funds held or placed in a blocked account pursuant to this 
+paragraph (b) may not be invested in instruments the maturity of which 
+exceeds 180 days. If interest is credited to a separate blocked account 
+or sub-account, the name of the account party on each account must be 
+the same.
+    (c) Blocked funds held in instruments the maturity of which exceeds 
+180 days at the time the funds become subject to Sec. 598.202 may 
+continue to be held until maturity in the original instrument, provided 
+any interest, earnings, or other proceeds derived therefrom are paid 
+into a blocked interest-bearing account in accordance with paragraph 
+(b) or (d) of this section.
+    (d) Blocked funds held in accounts or instruments outside the 
+United States at the time the funds become subject to Sec. 598.202 may 
+continue to be held in the same type of accounts or instruments, 
+provided the funds earn interest at rates that are commercially 
+reasonable.
+    (e) This section does not create an affirmative obligation for the 
+holder of blocked tangible property, such as chattels or real estate, 
+or of other blocked property, such as debt or equity securities, to 
+sell or liquidate such property at the time the property becomes 
+subject to Sec. 598.202. However, the Office of Foreign Assets Control 
+may issue licenses permitting or directing such sales in appropriate 
+cases.
+    (f) Funds subject to this section may not be held, invested, or 
+reinvested in a manner that provides immediate financial or economic 
+benefit or access to specially designated narcotics traffickers, nor 
+may their holder cooperate in or facilitate the pledging or other 
+attempted use as collateral of blocked funds or other assets.
+
+    Note to Sec. 598.206: Please refer to Sec. 598.505 for 
+authorized investment and reinvestment of certain funds held in 
+blocked accounts.
+
+
+[[Page 41338]]
+
+
+
+Subpart C--General Definitions
+
+
+Sec. 598.301  Blocked account; blocked property.
+
+    The terms blocked account and blocked property mean any account or 
+property subject to Sec. 598.202 held in the name of a specially 
+designated narcotics trafficker, or in which a specially designated 
+narcotics trafficker has an interest, and with respect to which 
+payments, transfers, exportations, withdrawals, or other dealings may 
+not be made or effected except pursuant to an authorization or license 
+from the Office of Foreign Assets Control authorizing such action.
+
+
+Sec. 598.302  Effective date.
+
+    The term effective date refers to the effective date of the 
+applicable prohibitions and directives of this part, which is December 
+3, 1999, or, in the case of specially designated narcotics traffickers 
+designated after that date, the earlier of the date on which actual or 
+constructive notice of such designation is received.
+
+
+Sec. 598.303  Entity.
+
+    The term entity means a partnership, joint venture, association, 
+corporation, organization, network, group, or subgroup, or any form of 
+business collaboration.
+
+
+Sec. 598.304  Foreign Narcotics Kingpin Designation Act.
+
+    The term Foreign Narcotics Kingpin Designation Act means the 
+Foreign Narcotics Kingpin Designation Act, Pub. L. 106-120, title 8, 
+113 Stat. 1606, 1626-1636 (codified at 21 U.S.C. 1901-1908, 8 U.S.C. 
+1182(a)(2)(C)).
+
+
+Sec. 598.305  Foreign person.
+
+    The term foreign person means any citizen or national of a foreign 
+state or any entity not organized under the laws of the United States, 
+but does not include a foreign state.
+
+
+Sec. 598.306  General license.
+
+    The term general license means any license or authorization the 
+terms of which are set forth in this part.
+
+
+Sec. 598.307  Interest.
+
+    Except as otherwise provided in this part, the term interest when 
+used with respect to property (e.g., an interest in property) means an 
+interest of any nature whatsoever, direct or indirect.
+
+
+Sec. 598.308  License.
+
+    Except as otherwise specified, the term license means any license 
+or authorization contained in or issued pursuant to this part.
+
+
+Sec. 598.309  Narcotic drug; controlled substance; listed chemical.
+
+    The terms narcotic drug, controlled substance, and listed chemical 
+have the meanings given those terms in section 102 of the Controlled 
+Substances Act (21 U.S.C. 802).
+
+
+Sec. 598.310  Narcotics trafficking.
+
+    The term narcotics trafficking means any illicit activity to 
+cultivate, produce, manufacture, distribute, sell, finance, or 
+transport narcotic drugs, controlled substances, or listed chemicals, 
+or otherwise endeavor or attempt to do so, or to assist, abet, 
+conspire, or collude with others to do so.
+
+
+Sec. 598.311  Person.
+
+    The term person means an individual or entity.
+
+
+Sec. 598.312  Property; property interest.
+
+    The terms property and property interest include but are not 
+limited to money, checks, drafts, bullion, bank deposits, savings 
+accounts, debts, indebtedness, obligations, notes, guarantees, 
+debentures, stocks, bonds, coupons, any other financial instruments, 
+bankers acceptances, mortgages, pledges, liens or other rights in the 
+nature of security, warehouse receipts, bills of lading, trust 
+receipts, bills of sale, any other evidences of title, ownership, or 
+indebtedness, letters of credit and any documents relating to any 
+rights or obligations thereunder, powers of attorney, goods, wares, 
+merchandise, chattels, stocks on hand, ships, goods on ships, real 
+estate mortgages, deeds of trust, vendors' sales agreements, land 
+contracts, leaseholds, ground rents, real estate and any other interest 
+therein, options, negotiable instruments, trade acceptances, royalties, 
+book accounts, accounts payable, judgments, patents, trademarks or 
+copyrights, insurance policies, safe deposit boxes and their contents, 
+annuities, pooling agreements, services of any nature whatsoever, 
+contracts of any nature whatsoever, and any other property, real, 
+personal, or mixed, tangible or intangible, or interest or interests 
+therein, whether present, future, or contingent.
+
+
+Sec. 598.313  Significant foreign narcotics trafficker.
+
+    The term significant foreign narcotics trafficker means any foreign 
+person that plays a significant role in international narcotics 
+trafficking that the President has determined to be appropriate for 
+sanctions and has publicly identified under section 804(b) or section 
+804(h)(1) of the Foreign Narcotics Kingpin Designation Act.
+
+
+Sec. 598.314  Specially designated narcotics trafficker.
+
+    The term specially designated narcotics trafficker means:
+    (a) Significant foreign narcotics traffickers; and
+    (b) Foreign persons designated by the Secretary of the Treasury, in 
+consultation with the Attorney General, the Director of Central 
+Intelligence, the Director of the Federal Bureau of Investigation, the 
+Administrator of the Drug Enforcement Administration, the Secretary of 
+Defense, and the Secretary of State, because they are found to be:
+    (1) Materially assisting in, or providing financial or 
+technological support for or to, or providing goods or services in 
+support of, the international narcotics trafficking activities of a 
+specially designated narcotics trafficker;
+    (2) Owned, controlled, or directed by, or acting for or on behalf 
+of, a specially designated narcotics trafficker; or
+    (3) Playing a significant role in international narcotics 
+trafficking.
+
+    Note to Sec. 598.314:
+    Please refer to the appendices at the end of this chapter V for 
+listings of persons determined to fall within this definition who 
+have been designated pursuant to this part. Section 501.807 of this 
+chapter V sets forth the procedures to be followed by persons 
+seeking administrative reconsideration of their designation or who 
+wish to assert that the circumstances resulting in designation no 
+longer apply.
+
+Sec. 598.315  Specific license.
+
+    The term specific license means any license not set forth in this 
+part but issued pursuant to this part.
+
+
+Sec. 598.316  Transfer.
+
+    The term transfer means any actual or purported act or transaction, 
+whether or not evidenced by writing, and whether or not done or 
+performed within the United States, the purpose, intent, or effect of 
+which is to create, surrender, release, convey, transfer, or alter, 
+directly or indirectly, any right, remedy, power, privilege, or 
+interest with respect to any property. Without limitation upon the 
+foregoing, the term transfer includes the making, execution, or 
+delivery of any assignment, power, conveyance, check, declaration, 
+deed, deed of trust, power of attorney, power of appointment, bill of 
+sale, mortgage, receipt, agreement, contract, certificate, gift, sale, 
+affidavit, or statement; the making of any payment; the setting off of 
+any obligation or credit; the appointment of any agent, trustee, or 
+fiduciary; the creation or transfer of any lien; the issuance, 
+docketing, filing, or levy of or under any judgment, decree, 
+attachment, injunction, execution, or other judicial or administrative 
+process
+
+[[Page 41339]]
+
+or order; the service of any garnishment; the acquisition of any 
+interest of any nature whatsoever by reason of a judgment or decree of 
+any foreign country; the fulfillment of any condition; the exercise of 
+any power of appointment, power of attorney, or other power; or the 
+acquisition, disposition, transportation, importation, exportation, or 
+withdrawal of any security.
+
+
+Sec. 598.317  United States.
+
+    The term United States means the United States, its territories and 
+possessions, and all areas under the jurisdiction or authority thereof.
+
+
+Sec. 598.318  United States person; U.S. person.
+
+    The term United States person or U.S. person means any United 
+States citizen or national, permanent resident alien, an entity 
+organized under the laws of the United States (including its foreign 
+branches), or any person within the United States.
+
+
+Sec. 598.319  U.S. financial institution.
+
+    The term U.S. financial institution means any U.S. entity 
+(including a foreign branch) that is engaged in the business of 
+accepting deposits, making, granting, transferring, holding, or 
+brokering loans or credits, or purchasing or selling foreign exchange, 
+securities, commodity futures or options, as principal or agent. This 
+terms includes but is not limited to depository institutions, banks, 
+savings banks, trust companies, securities brokers and dealers, 
+commodity futures and options brokers and dealers, forward contract and 
+foreign exchange merchants, securities and commodities exchanges, 
+clearing corporations, investment companies, employee benefit plans, 
+and U.S. holding companies, U.S. affiliates, or U.S. subsidiaries of 
+any of the foregoing. This term includes those branches, offices, and 
+agencies of foreign financial institutions which are located in the 
+United States, but not such institutions' foreign branches, offices, or 
+agencies.
+
+Subpart D--Interpretations
+
+
+Sec. 598.401  Reference to amended sections.
+
+    Except as otherwise specified, reference to any provision in or 
+appendix to this part or chapter or to any regulation, ruling, order, 
+instruction, direction, or license issued pursuant to this part refers 
+to the same as currently amended.
+
+
+Sec. 598.402  Effect of amendment.
+
+    Unless otherwise specifically provided, any amendment, 
+modification, or revocation of any provision in or appendix to this 
+part or chapter or of any order, regulation, ruling, instruction, or 
+license issued by or under the direction of the Director of the Office 
+of Foreign Assets Control does not affect any act done or omitted, or 
+any civil or criminal suit or proceeding commenced or pending prior to 
+such amendment, modification, or revocation. All penalties, 
+forfeitures, and liabilities under any such order, regulation, ruling, 
+instruction, or license continue and may be enforced as if such 
+amendment, modification, or revocation had not been made.
+
+
+Sec. 598.403  Termination and acquisition of an interest in blocked 
+property.
+
+    (a) Whenever a transaction licensed pursuant to this part results 
+in the transfer of property (including any property interest) away from 
+a specially designated narcotics trafficker, the transferred property 
+will no longer be considered property in which that person has or has 
+had an interest. Provided no other specially designated narcotics 
+trafficker has any interest in the transferred property following the 
+transfer, the transferred property will no longer be considered 
+property blocked pursuant to Sec. 598.202.
+    (b) Unless otherwise specifically provided in a license issued 
+pursuant to this part, if property (including any property interest) is 
+transferred or attempted to be transferred to a specially designated 
+narcotics trafficker, such property shall be deemed to be property in 
+which that person has an interest, and such property is therefore 
+blocked pursuant to Sec. 598.202.
+
+
+Sec. 598.404  Setoffs prohibited.
+
+    A setoff against blocked property (including a blocked account), 
+whether by a U.S. financial institution or other U.S. person, is a 
+prohibited transfer under Sec. 598.203 if effected after the effective 
+date.
+
+
+Sec. 598.405  Transactions incidental to a licensed transaction.
+
+    Any transaction ordinarily incident to a licensed transaction and 
+necessary to give effect to the licensed transaction is also authorized 
+by the license. Except as specifically authorized by the terms of a 
+license, prohibited transactions by specially designated narcotics 
+traffickers and debits to accounts blocked pursuant to Sec. 598.202 are 
+not considered incidental to a licensed transaction and therefore 
+remain prohibited.
+
+
+Sec. 598.406  Provision of services.
+
+    (a) The prohibitions contained in Sec. 598.203 apply to services 
+performed by U.S. persons, wherever located:
+    (1) On behalf of or for the benefit of a specially designated 
+narcotics trafficker; or
+    (2) With respect to property interests of a specially designated 
+narcotics trafficker.
+    (b) Example: U.S. persons may not, except as authorized by or 
+pursuant to this part, provide legal, accounting, financial, brokering, 
+freight forwarding, transportation, public relations, or other services 
+to a specially designated narcotics trafficker. See Sec. 598.507 on 
+licensing policy with regard to the provision of certain legal 
+services.
+
+
+Sec. 598.407  Offshore transactions.
+
+    The prohibitions contained in Sec. 598.203 apply to transactions by 
+any U.S. person in a location outside the United States with respect to 
+property in which the U.S. person knows, or has reason to know, that a 
+specially designated narcotics trafficker has or has had an interest 
+since the effective date.
+
+
+Sec. 598.408  Alleged change in ownership or control of an entity 
+designated as a specially designated narcotics trafficker.
+
+    (a) A change or alleged change in ownership or control of an entity 
+designated as a specially designated narcotics trafficker shall not be 
+the basis for removal of that entity from the list of specially 
+designated narcotics traffickers unless, upon investigation by the 
+Office of Foreign Control and submission of evidence by the entity, it 
+is demonstrated to the satisfaction of the Director of the Office of 
+Foreign Assets Control that the transfer to a bona fide purchaser at 
+arm's length, or other means of changing ownership or control, is 
+legitimate and that the entity no longer meets the criteria for 
+designation under Sec. 598.314. Evidence submitted must conclusively 
+demonstrate that all ties with other specially designated narcotics 
+traffickers have been completely severed, and may include, but is not 
+limited to, articles of incorporation; identification of new directors, 
+officers, shareholders, and sources of capital; and contracts 
+evidencing the sale of the entity to its new owners.
+    (b) Any continuing substantial financial obligations on the part of 
+the new owners to any specially designated narcotics traffickers, 
+including long-term payment plans, leases, or rents, will be considered 
+as evidence of continuing control of the entity by the specially 
+designated narcotics trafficker. Purchase of a designated entity 
+without ongoing substantial financial obligations to a specially 
+designated narcotics trafficker may nonetheless be a basis for
+
+[[Page 41340]]
+
+subsequent designation of the purchaser, if the transaction is 
+determined materially to assist in or provide financial support for the 
+international narcotics trafficking activities of specially designated 
+narcotics traffickers for purposes of Sec. 598.314(b)(1). For example, 
+any acquisition transaction resulting in a direct cash transfer to or 
+other enrichment of a specially designated narcotics trafficker could 
+lead to designation of the purchaser. Mere change in name of an entity 
+will not be considered as constituting a change of the entity's status.
+
+
+Sec. 598.409  Credit extended and cards issued by U.S. financial 
+institutions.
+
+    The prohibition in Sec. 598.203 on dealing in property in which a 
+specially designated narcotics trafficker has an interest prohibits 
+U.S. financial institutions from performing under any existing credit 
+agreements, including, but not limited to, charge cards, debit cards, 
+or other credit facilities issued by a U.S. financial institution to a 
+specially designated narcotics trafficker.
+
+
+Sec. 598.410  Payments from blocked accounts to U.S. exporters and for 
+other obligations prohibited.
+
+    No debits may be made to a blocked account to pay obligations to 
+U.S. persons or other persons, including payment for goods or services 
+exported prior to the effective date of the blocking, except as 
+authorized pursuant to this part.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec. 598.501  General and specific licensing procedures.
+
+    For provisions relating to licensing procedures, see part 501, 
+subpart D of this chapter. Licensing actions taken pursuant to part 501 
+of this chapter with respect to the prohibitions contained in this part 
+are considered actions taken pursuant to this part.
+
+
+Sec. 598.502  Effect of license.
+
+    (a) No license contained in this part, or otherwise issued by or 
+under the direction of the Director of the Office of Foreign Assets 
+Control pursuant to this part, authorizes or validates any transaction 
+effected prior to the issuance of the license, unless the prior 
+transaction is specifically authorized in such license.
+    (b) No regulation, ruling, instruction, or license authorizes any 
+transaction prohibited by this part unless the regulation, ruling, 
+instruction, or license is issued by the Office of Foreign Assets 
+Control and specifically refers to this part. No regulation, ruling, 
+instruction, or license referring to this part authorizes any 
+transaction prohibited by any provision of this chapter unless the 
+regulation, ruling, instruction, or license specifically refers to such 
+provision.
+    (c) Any regulation, ruling, instruction, or license authorizing any 
+transaction otherwise prohibited by this part has the effect of 
+removing from the transaction a prohibition or prohibitions contained 
+in this part, but only to the extent specifically stated by its terms. 
+Unless the regulation, ruling, instruction, or license otherwise 
+specifies, such an authorization does not create any right, duty, 
+obligation, claim, or interest that would not otherwise exist under 
+ordinary principles of law in or with respect to any property.
+
+
+Sec. 598.503  Exclusion from licenses.
+
+    The Director of the Office of Foreign Assets Control reserves the 
+right to exclude any person, property, or transaction from the 
+operation of any license or from the privileges conferred by any 
+license. The Director of the Office of Foreign Assets Control also 
+reserves the right to restrict the applicability of any license to 
+particular persons, property, transactions, or classes thereof. Such 
+actions are binding upon all persons receiving actual or constructive 
+notice of the exclusions or restrictions.
+
+
+Sec. 598.504  Payments and transfers to blocked accounts in U.S. 
+financial institutions.
+
+    Any payment of funds or transfer of credit in which a specially 
+designated narcotics trafficker has any interest that comes within the 
+possession or control of a U.S. financial institution must be blocked 
+in an account on the books of that financial institution. A transfer of 
+funds or credit by a U.S. financial institution between blocked 
+accounts in its branches or offices is authorized, provided that no 
+transfer is made from an account within the United States to an account 
+held outside the United States, and further provided that a transfer 
+from a blocked account may only be made to another blocked account held 
+in the same name.
+
+    Note to Sec. 598.504: Please refer to part 501, subpart C of 
+this chapter for mandatory reporting requirements regarding 
+financial transfers. See also Sec. 598.206 concerning the obligation 
+to hold blocked funds in interest-bearing accounts.
+
+Sec. 598.505  Investment and reinvestment of certain funds.
+
+    Subject to the requirements of Sec. 598.206, U.S. financial 
+institutions are authorized to invest and reinvest assets held in 
+blocked accounts in the name of a specially designated narcotics 
+trafficker, subject to the following conditions:
+    (a) The assets representing such investments and reinvestments are 
+credited to a blocked account or subaccount that is held in the same 
+name at the same U.S. financial institution, or within the possession 
+or control of a U.S. person, but in no case may funds be transferred 
+outside the United States for this purpose;
+    (b) The proceeds of such investments and reinvestments are not 
+credited to a blocked account or subaccount under any name or 
+designation that differs from the name or designation of the specific 
+blocked account or subaccount in which such funds or securities were 
+held; and
+    (c) No immediate financial or economic benefit accrues (e.g., 
+through pledging or other use) to the specially designated narcotics 
+trafficker.
+
+
+Sec. 598.506  Entries in certain accounts for normal service charges 
+authorized.
+
+    (a) U.S. financial institutions are authorized to debit any blocked 
+account with such U.S. financial institution in payment or 
+reimbursement for normal service charges owed to such U.S. financial 
+institution by the owner of such blocked account.
+    (b) As used in this section, the term normal service charges 
+includes but is not limited to charges in payment or reimbursement for 
+interest due; cable, telegraph, or telephone charges; postage costs; 
+custody fees; small adjustment charges to correct bookkeeping errors; 
+minimum balance charges; notary and protest fees; and charges for 
+reference books, photocopies, credit reports, transcripts of 
+statements, registered mail, insurance, stationery and supplies, and 
+other similar items.
+
+
+Sec. 598.507  Provision of certain legal services authorized.
+
+    (a) The provision to or on behalf of a specially designated 
+narcotics trafficker of the legal services set forth in paragraph (b) 
+of this section is authorized, provided that all receipt of payment for 
+such services must be specifically licensed.
+    (b) Specific licenses may be issued on a case-by-case basis 
+authorizing receipt from unblocked sources of payment of professional 
+fees and reimbursement of incurred expenses for the following legal 
+services by U.S. persons to a specially designated narcotics 
+trafficker:
+    (1) Provision of legal advice and counseling on the requirements of 
+and compliance with the laws of any jurisdiction within the United 
+States,
+
+[[Page 41341]]
+
+provided that such advice and counseling is not provided to facilitate 
+transactions that would violate any prohibition contained in this 
+chapter;
+    (2) Representation of a specially designated narcotics trafficker 
+when named as a defendant in or otherwise made a party to domestic U.S. 
+legal, arbitration, or administrative proceedings;
+    (3) Initiation and conduct of domestic U.S. legal, arbitration, or 
+administrative proceedings in defense of property interests subject to 
+U.S. jurisdiction of a specially designated narcotics trafficker;
+    (4) Representation of a specially designated narcotics trafficker 
+before any federal or state agency with respect to the imposition, 
+administration, or enforcement of U.S. sanctions against such person; 
+and
+    (5) Provision of legal services in any other context in which 
+prevailing U.S. law requires access to legal counsel at public expense.
+    (c) The provision of any other legal services to a specially 
+designated narcotics trafficker, not otherwise authorized in this part, 
+requires the issuance of a specific license.
+    (d) Entry into a settlement agreement affecting property or 
+interests in property of a specially designated narcotics trafficker or 
+the enforcement of any lien, judgment, arbitral award, decree, or other 
+order through execution, garnishment, or other judicial process 
+purporting to transfer or otherwise alter or affect property or 
+interests in property of a specially designated narcotics trafficker is 
+prohibited unless specifically licensed in accordance with 
+Sec. 598.205(e).
+
+Subpart F--Reports
+
+
+Sec. 598.601  Records and reports.
+
+    For provisions relating to required records and reports, see part 
+501, subpart C of this chapter. Recordkeeping and reporting 
+requirements imposed by part 501 of this chapter with respect to the 
+prohibitions contained in this part are considered requirements arising 
+pursuant to this part.
+
+Subpart G--Penalties
+
+
+Sec. 598.701  Penalties.
+
+    (a) Attention is directed to section 807 of the Foreign Narcotics 
+Kingpin Designation Act, which is applicable to violations of the 
+provisions of any license, rule, or regulation issued by or pursuant to 
+the direction or authorization of the Secretary of the Treasury 
+pursuant to this part or otherwise under that Act. Section 807 of 
+Foreign Narcotics Kingpin Designation Act provides that:
+    (1) Whoever willfully violates the provisions of the Foreign 
+Narcotics Kingpin Designation Act, or any license, rule, or regulation 
+issued pursuant to that Act, or willfully neglects or refuses to comply 
+with any order of the President issued under that Act, shall be 
+imprisoned for not more than 10 years, fined in the amount provided in 
+title 18, United States Code, or both, or, in the case of an entity, 
+fined not more than $10,000,000;
+    (2) Any officer, director, or agent of any entity who knowingly 
+participates in a violation of the provisions of the Foreign Narcotics 
+Kingpin Designation Act, shall be imprisoned for not more than 30 
+years, fined not more than $5,000,000, or both;
+    (3) A civil penalty not to exceed $1,000,000 per violation may be 
+imposed by the Secretary of the Treasury on any person who violates any 
+license, order, rule, or regulation issued in compliance with the 
+provisions of the Foreign Narcotics Kingpin Designation Act.
+    (b) The criminal penalties provided in this part are subject to 
+increase pursuant to 18 U.S.C. 3571.
+    (c) Attention is directed to 18 U.S.C. 1001, which provides that 
+whoever, in any matter within the jurisdiction of any department or 
+agency of the United States, knowingly and willfully falsifies, 
+conceals, or covers up by any trick, scheme, or device a material fact, 
+or makes any materially false, fictitious, or fraudulent statement or 
+representation, or makes or uses any false writing or document knowing 
+the same to contain any materially false, fictitious, or fraudulent 
+statement or entry shall be fined under title 18, United States Code, 
+or imprisoned not more than five years, or both.
+    (d) Violations of this part may also be subject to relevant 
+provisions of other applicable laws.
+
+
+Sec. 598.702  Prepenalty notice.
+
+    (a) When required. If the Director of the Office of Foreign Assets 
+Control has reasonable cause to believe that there has occurred a 
+violation of any provision of this part or a violation of the 
+provisions of any license, ruling, regulation, order, direction, or 
+instruction issued by or pursuant to the direction or authorization of 
+the Secretary of the Treasury pursuant to this part or otherwise under 
+the Foreign Narcotics Kingpin Designation Act, and the Director 
+determines that further proceedings are warranted, the Director shall 
+issue to the person concerned a notice of intent to impose a monetary 
+penalty. This prepenalty notice shall be issued whether or not another 
+agency has taken any action with respect to this matter.
+    (b) Contents--(1) Facts of violation. The prepenalty notice shall 
+describe the violation, specify the laws and regulations allegedly 
+violated, and state the amount of the proposed monetary penalty.
+    (2) Right to respond. The prepenalty notice also shall inform the 
+respondent of respondent's right to make a written presentation within 
+30 days of the date of mailing of the notice as to why a monetary 
+penalty should not be imposed or why, if imposed, the monetary penalty 
+should be in a lesser amount than proposed.
+
+
+Sec. 598.703  Response to prepenalty notice; informal settlement.
+
+    (a) Deadline for response. The respondent shall have 30 days from 
+the date of mailing of the prepenalty notice to make a written response 
+to the Director of the Office of Foreign Assets Control.
+    (b) Form and contents of response. The written response need not be 
+in any particular form, but must contain information sufficient to 
+indicate that it is in response to the prepenalty notice. It should 
+contain responses to the allegations in the prepenalty notice and set 
+forth the reasons why the respondent believes the penalty should not be 
+imposed or why, if imposed, it should be in a lesser amount than 
+proposed.
+    (c) Informal settlement. In addition or as an alternative to a 
+written response to a prepenalty notice issued pursuant to this 
+section, the respondent or respondent's representative may contact the 
+Office of Foreign Assets Control as advised in the prepenalty notice to 
+propose the settlement of allegations contained in the prepenalty 
+notice and related matters. In the event of settlement at the 
+prepenalty stage, the claim proposed in the prepenalty notice will be 
+withdrawn, the respondent will not be required to take a written 
+position on allegations contained in the prepenalty notice, and the 
+Office of Foreign Assets Control will make no final determination as to 
+whether a violation occurred. The amount accepted in settlement of 
+allegations in a prepenalty notice may vary from the civil penalty that 
+might finally be imposed in the event of a formal determination of 
+violation. In the event no settlement is reached, the 30-day period 
+specified in paragraph (a) of this section for written response to the 
+prepenalty notice remains in effect unless additional time is granted 
+by the Office of Foreign Assets Control.
+
+[[Page 41342]]
+
+Sec. 598.704  Penalty imposition or withdrawal.
+
+    (a) No violation. If, after considering any response to a 
+prepenalty notice and any relevant facts, the Director of the Office of 
+Foreign Assets Control determines that there was no violation by the 
+respondent named in the prepenalty notice, the Director promptly shall 
+notify the respondent in writing of that determination and that no 
+monetary penalty will be imposed.
+    (b) Violation. If, after considering any response to a prepenalty 
+notice and any relevant facts, the Director of the Office of Foreign 
+Assets Control determines that there was a violation by the respondent 
+named in the prepenalty notice, the Director promptly shall issue a 
+written notice of the imposition of the monetary penalty to the 
+respondent. The issuance of a written notice of the imposition of a 
+monetary penalty shall constitute final agency action.
+    (1) The penalty notice shall inform the respondent that payment of 
+the assessed penalty must be made within 30 days of the date of mailing 
+of the penalty notice.
+    (2) The penalty notice shall inform the respondent of the 
+requirement to furnish the respondent's taxpayer identification number 
+pursuant to 31 U.S.C. 7701 and that such number will be used for 
+purposes of collecting and reporting on any delinquent penalty amount.
+
+
+Sec. 598.705  Administrative collection; referral to United States 
+Department of Justice.
+
+    In the event that the respondent does not pay a penalty imposed 
+pursuant to this part or make payment arrangements acceptable to the 
+Director of the Office of Foreign Assets Control within 30 days of the 
+date of mailing of a penalty notice, the matter may be referred for 
+administrative collection measures by the Department of the Treasury or 
+to the United States Department of Justice for appropriate action to 
+recover the penalty in a civil suit in a Federal district court.
+
+
+Sec. 598.706  Judicial review of civil penalty.
+
+    A civil penalty imposed pursuant to this subpart G is subject to 
+judicial review only to the extent provided in 5 U.S.C. 702.
+
+Subpart H--Procedures
+
+
+Sec. 598.801  Procedures.
+
+    For license application procedures and procedures relating to 
+amendments, modifications, or revocations of licenses; administrative 
+decisions; rulemaking; and requests for documents pursuant to the 
+Privacy Act (5 U.S.C. 552a), see part 501, subpart D of this chapter.
+
+
+Sec. 598.802  Availability of information pursuant to the Freedom of 
+Information Act.
+
+    Any record or information obtained or created in the implementation 
+of this part is not subject to disclosure under section 552(a)(3) of 
+the Freedom of Information Act. Information required to be made 
+available to the public under other provisions of the Freedom of 
+Information Act (5 U.S.C. 552) will be made available in accordance 
+with Sec. 501.805(a) of this chapter.
+
+
+Sec. 598.803  Delegation by the Secretary of the Treasury.
+
+    Any action that the Secretary of the Treasury is authorized to take 
+pursuant to the Foreign Narcotics Kingpin Designation Act may be taken 
+by the Director of the Office of Foreign Assets Control or by any other 
+person to whom the Secretary of the Treasury has delegated authority so 
+to act.
+
+Subpart I--Paperwork Reduction Act
+
+
+Sec. 598.901  Paperwork Reduction Act notice.
+
+    For approval by the Office of Management and Budget (``OMB'') under 
+the Paperwork Reduction Act of 1995 (44 U.S.C. 3507) of information 
+collections relating to recordkeeping and reporting requirements, 
+licensing procedures (including those pursuant to statements of 
+licensing policy), and other procedures, see Sec. 501.901 of this 
+chapter. An agency may not conduct or sponsor, and a person is not 
+required to respond to, a collection of information unless it displays 
+a valid control number assigned by OMB.
+
+    Dated: June 6, 2000.
+R. Richard Newcomb,
+Director, Office of Foreign Assets Control.
+
+    Approved: June 13, 2000.
+Elisabeth A. Bresee,
+Assistant Secretary (Enforcement), Department of the Treasury.
+[FR Doc. 00-16844 Filed 6-29-00; 3:39 pm]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

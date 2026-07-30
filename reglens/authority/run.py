@@ -29,12 +29,13 @@ from reglens.authority.records import (
     ResolvedSection,
 )
 from reglens.config import Settings
+from reglens.corpus import CFR_PARTS
 from reglens.ingest.ecfr import xml_to_text
 from reglens.ingest.snapshot import read_manifest
 from reglens.ingest.uscode import UscSection, extract_sections, fetch_title_zip, title_zip_url
 from reglens.provenance import verify_span
 
-PARTS = (50, 223, 285, 356, 501)
+PARTS = CFR_PARTS
 AUTHORITY_JSON = Path("data/processed/authority.json")
 
 

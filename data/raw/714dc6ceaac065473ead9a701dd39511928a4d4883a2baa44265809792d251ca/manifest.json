@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2001/11/13/01-28435.txt",
+  "fetched_at": "2026-07-30T14:09:09.782789+00:00",
+  "sha256": "714dc6ceaac065473ead9a701dd39511928a4d4883a2baa44265809792d251ca",
+  "content_type": "text/plain",
+  "filename": "01-28435.txt"
+}

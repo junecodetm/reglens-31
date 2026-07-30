@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 64 Issue 23 (Thursday, February 4, 1999)</title>
+</head>
+<body><pre>[Federal Register Volume 64, Number 23 (Thursday, February 4, 1999)]
+[Rules and Regulations]
+[Pages 5614-5615]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 99-2571]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Reporting and Procedures Regulations: Procedure for Requests for 
+Removal from List of Blocked Persons, Specially Designated Nationals, 
+Specially Designated Terrorists, Foreign Terrorist Organizations, 
+Specially Designated Narcotics Traffickers, and Blocked Vessels
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule; amendment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Treasury Department is amending the Reporting and 
+Procedures Regulations to modify the procedures for removal of names of 
+blocked persons or vessels from the Office of Foreign Assets Control's 
+list of blocked persons, specially designated nationals, specially 
+designated terrorists, foreign terrorist organizations, specially 
+designated narcotics traffickers, and blocked vessels.
+
+EFFECTIVE DATE: January 29, 1999.
+
+FOR FURTHER INFORMATION CONTACT: J. Robert McBrien, Chief, 
+International Programs Division (tel.: 202/622-2420), or William B. 
+Hoffman, Chief Counsel (tel.: 202/622-2410), Office of Foreign Assets 
+Control, Department of the Treasury, Washington, D.C. 20220.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic and Facsimile Availability
+
+    This document is available as an electronic file on The Federal 
+Bulletin Board the day of publication in the Federal Register. By 
+modem, dial 202/512-1387 and type ``/GO FAC,'' or call 202/512-1530 for 
+disk or paper copies. This file is available for downloading without 
+charge in ASCII and Adobe Acrobat<SUP>R</SUP> readable (*.PDF) formats. 
+For Internet access, the address for use with the World Wide Web (Home 
+Page), Telnet, or FTP protocol is: fedbbs.access.gpo.gov. The document 
+is also accessible for downloading in ASCII format without charge from 
+Treasury's Electronic Library (``TEL'') in the ``Research Mall'' of the 
+FedWorld bulletin board. By modem, dial 703/321-3339, and select self-
+expanding file ``T11FR00.EXE'' in TEL. For Internet access, use one of 
+the following protocols: Telnet = fedworld.gov (192.239.93.3); World 
+Wide Web (Home Page) = <a href="http://www.fedworld.gov">http://www.fedworld.gov</a>; FTP = ftp.fedworld.gov 
+(192.239.92.205). Additional information concerning the programs of the 
+Office of Foreign Assets Control is available for downloading from the 
+Office's Internet Home Page: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>, or in fax form 
+through the Office's 24-hour fax-on-demand service: call 202/622-0077 
+using a fax machine, fax modem, or (within the United States) a touch-
+tone telephone.
+
+Background
+
+    On August 25, 1997, the Office of Foreign Assets Control of the 
+Treasury Department (``OFAC'') promulgated the Reporting and Procedures 
+Regulations, 31 CFR part 501 (the ``Regulations''), to simplify, by 
+consolidating and standardizing in a single part, common provisions on 
+collections of information in existing OFAC regulations. Section 
+501.807 of the Regulations described a procedure to be followed by a 
+person seeking administrative reconsideration of its designation or 
+that of a vessel as blocked, or who wished to assert that the 
+circumstances resulting in the designation are no longer applicable. 
+Section 501.807 is amended to modify the procedure set forth in that 
+section.
+    Because the Regulations involve a foreign affairs function, 
+Executive Order 12866 and the provisions of the Administrative 
+Procedure Act (5 U.S.C. 553)(the ``APA'') requiring notice of proposed 
+rulemaking, opportunity for public participation, and delay in 
+effective date, are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign trade, Reporting and recordkeeping requirements.
+    For the reasons set forth in the preamble, 31 CFR part 501 is 
+amended as set forth below:
+
+PART 501--REPORTING AND PROCEDURES REGULATIONS
+
+    1. The authority citation for part 501 continues to read as 
+follows:
+
+    Authority: 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 U.S.C. 1701-
+1706; 50 U.S.C. App. 1-44.
+
+Subpart D -- Procedures
+
+    2. Section 501.807 is revised to read as follows:
+
+
+Sec. 501.807.  Procedures governing removal of names from appendices A, 
+B, and C to this chapter.
+
+    A person may seek administrative reconsideration of his, her or its 
+designation or that of a vessel as
+
+[[Page 5615]]
+
+blocked, or assert that the circumstances resulting in the designation 
+no longer apply, and thus seek to have the designation rescinded 
+pursuant to the following administrative procedures:
+    (a) A person blocked under the provisions of any part of this 
+chapter, including a specially designated national, specially 
+designated terrorist, or specially designated narcotics trafficker 
+(collectively,``a blocked person''), or a person owning a majority 
+interest in a blocked vessel may submit arguments or evidence that the 
+person believes establishes that insufficient basis exists for the 
+designation. The blocked person also may propose remedial steps on the 
+person's part, such as corporate reorganization, resignation of persons 
+from positions in a blocked entity, or similar steps, which the person 
+believes would negate the basis for designation. A person owning a 
+majority interest in a blocked vessel may propose the sale of the 
+vessel, with the proceeds to be placed into a blocked interest-bearing 
+account after deducting the costs incurred while the vessel was blocked 
+and the costs of the sale. This submission must be made in writing and 
+addressed to the Director, Office of Foreign Assets Control, U.S. 
+Department of the Treasury, 1500 Pennsylvania Avenue, NW--Annex, 
+Washington, DC 20220.
+    (b) The information submitted by the blocked person seeking 
+unblocking or by a person seeking the unblocking of a vessel will be 
+reviewed by the Office of Foreign Assets Control, which may request 
+clarifying, corroborating, or other additional information.
+    (c) A blocked person seeking unblocking or a person seeking the 
+unblocking of a vessel may request a meeting with the Office of Foreign 
+Assets Control; however, such meetings are not required, and the office 
+may, at its discretion, decline to conduct such meetings prior to 
+completing a review pursuant to this section.
+    (d) After the Office of Foreign Assets Control has conducted a 
+review of the request for reconsideration, it will provide a written 
+decision to the blocked person or person seeking the unblocking of a 
+vessel.
+
+    Dated: January 6, 1999.
+R. Richard Newcomb,
+Director, Office of Foreign Assets Control.
+    Approved: January 20, 1999.
+Elisabeth A. Bresee,
+Assistant Secretary (Enforcement), Department of the Treasury.
+[FR Doc. 99-2571 Filed 1-29-99; 3:55 pm]
+BILLING CODE 4810-25-F
+
+
+</pre></body>
+</html>

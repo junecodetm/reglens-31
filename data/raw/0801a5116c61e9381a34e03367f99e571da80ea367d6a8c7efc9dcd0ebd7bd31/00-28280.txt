@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>Federal Register, Volume 65 Issue 214 (Friday, November 3, 2000)</title>
+</head>
+<body><pre>
+[Federal Register Volume 65, Number 214 (Friday, November 3, 2000)]
+[Rules and Regulations]
+[Pages 66174-66175]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 00-28280]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Parts 306 and 356
+
+[Department of the Treasury Circular, Public Debt Series No. 1-93]
+
+
+Marketable Book-Entry Treasury Bills, Notes, and Bonds; Minimum 
+Par Amounts Required for STRIPS
+
+AGENCY: Bureau of Public Debt, Fiscal Service, Department of Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury,'' ``We,'' or 
+``Us'' is issuing in final form amendments to 31 CFR part 306 (General 
+Regulations Governing U.S. Securities) and 31 CFR part 356 (Uniform 
+Offering Circular for the Sale and Issue of Marketable Book-Entry 
+Treasury Bills, Notes, and Bonds). The purpose of these amendments is 
+to simplify and enhance market participants' ability to strip Treasury 
+fixed-principal securities. ``Stripping'' a security means to separate 
+it into its principal and interest components. The amendment modifies 
+the minimum and multiple amounts that are required to strip Treasury 
+fixed-principal securities by setting them each at $1,000. It also 
+eliminates the multiple requirement for the interest components that 
+result from stripping, in effect making Treasury fixed-principal 
+securities strippable ``to the penny.'' Further, the amendment 
+eliminates Exhibit C of this part, ``Minimum Par Amounts for Fixed-
+Principal STRIPS,'' since this table will no longer be necessary. 
+Finally, the amendment provides us the flexibility to designate a 
+Treasury note or bond as strippable even if the note or bond was not 
+originally designated as strippable by its offering announcement. This 
+flexibility will allow us to make eligible for stripping outstanding 
+five-year Treasury notes issued prior to September 30, 1997.
+
+EFFECTIVE DATE: March 1, 2001, except for the amendment of 
+Sec. 356.31(a), which is effective November 3, 2000.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Internet site at the following address: 
+<a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>. It is also available for public inspection 
+and copying at the Treasury Department Library, Room 1428, Main 
+Treasury Building, 1500 Pennsylvania Avenue, NW., Washington, DC, 
+20220. To visit the library, call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director) 
+or Chuck Andreatta (Senior Financial Advisory), Bureau of the Public 
+Debt, Government Securities Regulations Staff, (202) 691-3632, or e-
+mail us at <a href="/cdn-cgi/l/email-protection#80e7eff6f3e5e3f2e5e7c0e2f0e4aef4f2e5e1f3aee7eff6"><span class="__cf_email__" data-cfemail="cfa8a0b9bcaaacbdaaa88fadbfabe1bbbdaaaebce1a8a0b9">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: 31 CFR part 356, also referred to as the 
+uniform offering circular, sets out the terms and conditions for the 
+sale and issuance to the public of marketable Treasury bills, notes, 
+and bonds.\1\ The uniform offering circular, in conjunction with 
+offering announcements, represents a comprehensive statement of these 
+terms and conditions.\2\ This final rule modifies Sec. 356.31, which 
+pertains to STRIPS (Separate Trading of Registered Interest and 
+Principal of Securities). It also eliminates Exhibit C (``Minimum Par 
+Amounts for Fixed-Principal STRIPS''). In addition, this rule amends 31 
+CFR 306.128, which pertains to Treasury's discretion to supplement, 
+amend, or revise regulations governing U.S. securities.
+---------------------------------------------------------------------------
+
+    \1\ Includes both fixed-principal and inflation-indexed Treasury 
+securities.
+    \2\ The uniform offering circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR part 356.
+---------------------------------------------------------------------------
+
+Stripping Treasury Securities ``To the Penny''
+
+    The STRIPS program, which began in January 1985, allows holders of 
+book-entry (electronic) Treasury notes and bonds to separate those 
+securities into their separate principal and interest components. These 
+components can then be held and traded separately as zero-coupon 
+securities. The interest components (``TINTs''), but not the principal 
+components, are fungible (interchangeable). This means that TINTs with 
+the same maturity date have the same identifying CUSIP number 
+regardless of the underlying security from which they were stripped. 
+Securities with the same CUSIP number are considered to be the same 
+security.
+    Since its implementation, the STRIPS program has required that the 
+par amount of a fully constituted Treasury fixed-principal \3\ security 
+to be stripped must be an amount that, based on the stated interest 
+rate of the security, will produce a TINT of $1,000 or a multiples of 
+$1,000. Any amount greater than this par amount must be in a multiple 
+of that amount. Once a book-entry security has been separated, each 
+interest and principal component can then be maintained and transferred 
+in multiples of $1,000. This $1,0000 minimum and multiple requirement 
+conforms with the minimum and multiple requirement of fully constituted 
+Treasury notes and bonds.
+---------------------------------------------------------------------------
+
+    \3\ We use the term ``fixed-principal'' to distinguish such 
+securities from Treasury ``inflated-indexed'' securities, whose 
+principal amounts are adjusted periodically for inflation.
+---------------------------------------------------------------------------
+
+    The $1,000 multiple requirement for the TINTs, however, results in 
+a wide disparity in the par amounts of fully constituted (unstripped) 
+securities with different interest rates that are needed to produce 
+TINTs in multiples of $1,000. For example, a note or bond with an 
+interest rate of 6\1/8\ percent requires a minimum of $1,600,000 of the 
+fully constituted security for stripping in order for the resulting 
+TINTs to be in a multiple of $1,000. In this example, the resulting 
+TINTs have payment amounts of $49,000. By contrast, a note or bond with 
+an interest rate of 6\1/4\ percent requires only a minimum par amount 
+of $32,000 to be stripped, with resulting TINTs of $1,000, which is the 
+minimum amounts for TINTs.
+    When we implemented a process to make TINTs from inflation-indexed 
+securities fungible on March 31, 1999,\4\
+
+[[Page 66175]]
+
+it was necessary for us to convert the payment values of the TINTs to 
+``adjust values,'' which could be maintained and transferred ``to the 
+penny.'' At that time, we stated that we would ``consider at a later 
+date the desirability of making changes to the minimum and multiple 
+requirements for fixed-principal TINTs, * * * and permitting fixed-
+principal TINTs to be held in amounts to the penny.'' \5\
+---------------------------------------------------------------------------
+
+    \4\ 63 FR 35782 (June 30, 1998).
+    \5\ 63 FR 35783 (June 30, 1998).
+---------------------------------------------------------------------------
+
+    On November 1, 2000, we announced that, effective March 1, 2001, we 
+will be changing the minimum and multiple requirements for stripping 
+Treasury fixed-principal securities. We have decided to make these 
+changes because elimination of the $1,000 minimum and multiple 
+requirements will make stripping easier. Market participants will no 
+longer be required to deliver fully constituted securities in widely 
+different amounts depending on the interest rate of the underlying 
+security. By simplifying the requirements for STRIPS, our goal is to 
+enhance the liquidity and efficiency of the STRIPS market.
+
+Increasing the Number of Strippable Securities
+
+    Enhancing the liquidity of the STRIPS market is also our objective 
+in modifying the STRIPS rules to permit us to designate a note or bond 
+as strippable even if the note or bond was not originally designated as 
+strippable by its offering announcement. When the STRIPS program was 
+first implemented in 1985, only Treasury notes and bonds with 
+maturities of 10 years or longer were eligible for stripping. At that 
+time there was little market interest in stripping securities with 
+maturities less than 10 years.
+    By 1997, however, interest in stripping shorter-term Treasury notes 
+had developed. Consequently, on September 17, 1997, we announced that 
+all Treasury notes issued on or after September 30, 1997, were eligible 
+for STRIPS.
+    Because Treasury securities currently can be made eligible for 
+STRIPS only by being designated as such in their offering 
+announcements, we have not been able to make eligible for stripping 
+outstanding shorter-term (five-year) notes that were issued prior to 
+September 30, 1997. This amendment to the uniform offering circular 
+will allow us to do so. As a result, we plan to announce that we are 
+making eligible for stripping five-year notes issued prior to September 
+30, 1997, thereby allowing for an increase in the supply of TINTs that 
+mature in the next two years.
+
+Amendments, Revisions, and Deletions
+
+    Accordingly, we are amending the uniform offering circular's 
+general paragraph on STRIPS, 356.31(a), so that we may designate 
+Treasury notes and bonds as being eligible for stripping at a later 
+date if they were not designated as being eligible in their offering 
+announcement. We are also amending paragraph 356.31(b)(1), which 
+provides the minimum par amount and multiple requirements for stripping 
+Treasury fixed-principal securities, so that they may be stripped to 
+the penny. We are also amending 31 CFR 306.128 in order to allow 
+outstanding Treasury notes and bonds that we issued prior to the 
+effective date of the uniform offering circular, March 1, 1993, to also 
+be stripped to the penny. As a result of these amendments, we are 
+removing Exhibit C to the uniform offering circular because this table 
+is no longer necessary.
+    We are issuing this amendment in final form rather than proposed 
+form in order to more quickly simplify and expand the STRIPS market. In 
+addition, there is no negative impact on the holders of the issues of 
+the securities affected. This change provides an additional feature 
+that should enhance the marketability of these issues.
+
+Procedural Requirements
+
+    This final rule is not a ``significant regulatory action'' under 
+Executive Order 12866. The notice and public procedures and delayed 
+effective date requirements of the Administrative Procedure Act also do 
+not apply, under 5 U.S.C. 553(a)(2).
+    Since no notice of proposed rulemaking is required, the provisions 
+of the Regulatory Flexibility Act (5 U.S.C. 601, et seq.) do not apply.
+
+List of Subjects
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons stated in the preamble, we amend 31 CFR Chapter II, 
+Subchapter B, as follows:
+
+PART 306--GENERAL REGULATIONS GOVERNING U.S. SECURITIES
+
+    1. The authority citation for part 306 continues to read as 
+follows:
+
+    Authority: 31 U.S.C. Chapter 31; 5 U.S.C. 301; 12 U.S.C. 391.
+
+    2. Revise Sec. 306.128 to read as follows:
+
+
+Sec. 306.128  Supplements, amendments or revisions.
+
+    The Secretary of the Treasury may at any time, or from time to 
+time, prescribe additional supplemental, amendatory or revised 
+regulations with respect to U.S. securities. The Secretary also may 
+lower the minimum and multiple requirements for stripping marketable 
+Treasury notes and bonds issued prior to March 1, 1993, through an 
+announcement as provided in Sec. 356.31 of this title.
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    3. The authority citation for part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+    4. Amend Sec. 356.31 as set forth below:
+    a. Revise the first sentence in paragraph (a), and
+    b. Revise paragraph (b)(1) to read as follows:
+
+
+Sec. 356.31  STRIPS.
+
+    (a) General. A note or bond may be designated in the offering 
+announcement, or later by announcement by Treasury, as eligible for the 
+STRIPS program. * * *
+    (b) Treasury fixed-principal securities--(1) Minimum par amounts 
+required for STRIPS. The minimum par amount of a fixed-principal 
+security that may be stripped into the components described in 
+paragraph (a) of this section is $1,000. Any par amount to be stripped 
+above $1,000 must be in a multiple of $1,000.
+* * * * *
+
+Exhibit C to Part 356 [Removed]
+
+    5. Remove Exhibit C to Part 356.
+
+    Dated: October 31, 2000.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 00-28280 Filed 11-1-00; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

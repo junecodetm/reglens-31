@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2006/01/12/06-278.txt",
+  "fetched_at": "2026-07-30T14:09:21.978748+00:00",
+  "sha256": "1467c65609d79f65782ae6fced05791a0bde4b6925947851e3a98db08a53fa83",
+  "content_type": "text/plain",
+  "filename": "06-278.txt"
+}

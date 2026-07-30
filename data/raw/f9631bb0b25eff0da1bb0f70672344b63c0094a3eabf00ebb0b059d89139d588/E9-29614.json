@@ -1,0 +1,89 @@
+{
+  "abstract": "The Department of the Treasury (\"Treasury\") is issuing this final rule as part of its implementation of Title I of the Terrorism Risk Insurance Act of 2002 (\"TRIA\" or \"the Act\"), as amended by the Terrorism Risk Insurance Program Reauthorization Act of 2007 (\"Reauthorization Act\"). The Act established a temporary Terrorism Risk Insurance Program (\"TRIP\" or \"Program\") under which the Federal Government would share with commercial property and casualty insurers the risk of insured losses from certified acts of terrorism. The Reauthorization Act has now extended the Program until December 31, 2014. This rule was published in proposed form on September 30, 2008, for public comment. Some clarifying changes have been made in the final rule in response to comments. The rule incorporates and implements statutory requirements in section 103(e) of the Act, as amended by the Reauthorization Act, for capping the annual liability for insured losses at $100 billion. In particular, the rule describes how Treasury intends to determine the pro rata share of insured losses under the Program when insured losses would otherwise exceed the cap on annual liability. The rule builds upon previous rules issued by Treasury.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2009/12/14/E9-29614.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 50,
+      "title": 31
+    }
+  ],
+  "citation": "74 FR 66061",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective January 13, 2010.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "E9-29614",
+  "effective_on": "2010-01-13",
+  "end_page": 66068,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2009/12/14/E9-29614.xml",
+  "html_url": "https://www.federalregister.gov/documents/2009/12/14/E9-29614/terrorism-risk-insurance-program-cap-on-annual-liability",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E9-29614?publication_date=2009-12-14",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2009-12-14/E9-29614/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 8,
+  "page_views": {
+    "count": 49,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-12-14/pdf/E9-29614.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2009-12-14",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/12/14/E9-29614.txt",
+  "regulation_id_number_info": {
+    "1505-AB92": {
+      "html_url": "https://www.federalregister.gov/regulations/1505-AB92/terrorism-risk-insurance-program-cap-on-annual-liability-and-pro-rata-share-of-insured-losses",
+      "issue": "201004",
+      "priority_category": "Other Significant",
+      "title": "Terrorism Risk Insurance Program; Cap on Annual Liability and Pro Rata Share of Insured Losses",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=201004&RIN=1505-AB92&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1505-AB92"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2009-12-14T20:18:46Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=TREAS_FRDOC_0001",
+    "docket_id": "TREAS_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Financial Crimes Enforcement Network; Anti-Money Laundering Programs; Special Due Diligence Programs for Certain Foreign Accounts  RULES"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": true,
+  "signing_date": null,
+  "start_page": 66061,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program; Cap on Annual Liability",
+  "toc_doc": "Cap on Annual Liability",
+  "toc_subject": "Terrorism Risk Insurance Program:",
+  "topics": [],
+  "type": "Rule",
+  "volume": 74
+}

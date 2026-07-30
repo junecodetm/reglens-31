@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Federal Register, Volume 65 Issue 40 (Tuesday, February 29, 2000)</title>
+</head>
+<body><pre>
+[Federal Register Volume 65, Number 40 (Tuesday, February 29, 2000)]
+[Rules and Regulations]
+[Pages 10707-10708]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 00-4672]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Reporting and Procedures Regulations: Mandatory License 
+Application Form for Unblocking Funds Transfers
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule; amendments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control (``OFAC'') is amending 
+the Reporting and Procedures Regulations to require that license 
+applicants seeking to unblock funds transfers under the various 
+economic sanctions programs administered by OFAC submit their 
+application in a standardized format.
+
+EFFECTIVE DATE: February 29, 2000.
+
+FOR FURTHER INFORMATION CONTACT: Dennis P. Wood, Chief, Compliance 
+Programs Division (tel.: 202/622-2490); or William B. Hoffman, Chief 
+Counsel (tel.: 202/622-2410), Office of Foreign Assets Control, 
+Department of the Treasury, Washington, DC 20220.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic and Facsimile Availability
+
+    This document is available as an electronic file on The Federal 
+Bulletin Board the day of publication in the Federal Register. By 
+modem, dial 202/512-1387 and type ``/GO FAC,'' or call 202/512-1530 for 
+disk or paper copies. This file is available for downloading without 
+charge in ASCII and Adobe Acrobat<Register> readable (*.PDF) formats. 
+For Internet access, the address for use with the World Wide Web (Home 
+Page), Telnet, or FTP protocol is: <a href="http://fedbbs.access.gpo.gov">fedbbs.access.gpo.gov</a>. This document 
+and additional information concerning the programs of the Office of 
+Foreign Assets Control are also available for downloading from the 
+Office's Internet Home Page: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>, or in fax form 
+through the Office's 24-hour fax-on-demand service: call 202/622-0077 
+using a fax machine, fax modem, or (within the United States) a touch-
+tone telephone.
+
+Background
+
+    The Office of Foreign Assets Control (``OFAC'') is amending the 
+Reporting and Procedures Regulations, 31 CFR part 501 (the 
+``Regulations''), to require that license applications to unblock funds 
+transfers be submitted in a standardized format. Section 501.801 of the 
+Regulations provides procedures for requesting specific licenses, 
+including application procedures under those statements of licensing 
+policy contained in subpart E of the individual parts in chapter V, 
+which note the availability of specific licenses for particular 
+categories of transactions but do not establish requirements for the 
+submission of specific information.
+    Assets blocked pursuant to the various economic sanctions programs 
+administered by OFAC may be released through a specific license issued 
+by OFAC in response to applications submitted by persons having an 
+interest in the blocked funds. OFAC has for many years required certain 
+information to be included in each license application. Until December 
+1998, applicants applied for a license by sending a letter with 
+supporting documentation to OFAC. However, this non-standardized format 
+was not conducive to the efficient processing of applications because 
+many applications were incomplete, difficult to interpret and at times 
+not submitted in English as required.
+    Accordingly, OFAC developed a form for OFAC license applications 
+(TD-F 90-22.54) (OMB #1505-0170) in December 1998, which provided a 
+voluntary standardized method for all applicants seeking the release of 
+blocked funds transfers. This form was made available in electronic 
+format on OFAC's website and by fax from OFAC's fax-on-demand service. 
+Its use has greatly facilitated applicants' submission and OFAC's 
+processing of applications, and obviated the need for applicants to 
+write lengthy letter applications. This has resulted in a reduction of 
+the overall burden of the application process.
+    OFAC is amending Sec. 501.801 of the Regulations to make this form 
+mandatory for applicants seeking the unblocking of funds transfers, and 
+to require that the filing include the original signed application and 
+two duplicate submissions of the entire application package. A new 
+feature of the mandatory form is that the actual application form will 
+generally become the license or license denial once stamped and signed 
+by the appropriate OFAC official.
+    Section 501.801 of the Regulations is also being amended to require 
+that all applications must be filed by mail or courier. Applications 
+will no longer be accepted by fax or electronically, unless otherwise 
+authorized. However, the application form for the unblocking of funds 
+transfers will continue to be available on OFAC's website, where it may 
+be completed but not signed electronically, and on OFAC's fax-on-demand 
+service.
+    Since this final rule involves a foreign affairs function, 
+Executive Order 12886 and the provisions of the Administrative 
+Procedure Act (5 U.S.C. 553) requiring notice of proposed rulemaking, 
+opportunity for public participation, and delay in effective date are 
+inapplicable. Because no notice of proposed rulemaking is required for 
+this rule, the Regulatory Flexibility Act (5 U.S.C. 601-612) does not 
+apply.
+
+Paperwork Reduction Act
+
+    This rule is being issued without prior notice and public comment 
+procedure pursuant to the Administrative Procedure Act (5 U.S.C. 553). 
+Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), the 
+collection of information contained in this rule has been submitted to 
+and approved by the Office of Management and Budget (``OMB''), and has 
+been assigned control number 1505-0170. An agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid control number assigned by OMB.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign trade, Reporting and recordkeeping requirements.
+
+    For the reasons set forth in the preamble, 31 CFR part 501 is 
+amended as set forth below:
+
+PART 501--REPORTING AND PROCEDURES REGULATIONS
+
+    1. The authority citation for part 501 continues to read as 
+follows:
+
+    Authority: 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 U.S.C. 1701-
+1706; 50 U.S.C. App. 1-44.
+
+Subpart D--Procedures
+
+    2. Paragraph (b)(2) of Sec. 501.801 is revised as follows:
+
+[[Page 10708]]
+
+Sec. 501.801  Licensing.
+
+* * * * *
+    (b) Specific licenses-- * * *
+    (2) Applications for specific licenses. Original signed 
+applications for specific licenses to engage in any transactions 
+prohibited by or pursuant to this chapter or sanctions programs that 
+have been delegated to the Director of the Office of Foreign Assets 
+Control for implementation and administration must be filed by mail or 
+courier. Applications will not be accepted by fax or electronically, 
+unless otherwise authorized. Applications may be submitted in letter 
+form with the exception of license applications for the unblocking of 
+funds transfers. Applications for the unblocking of funds transfers 
+must be submitted using TD-F 90-22.54, ``Application for the Release of 
+Blocked Funds,'' accompanied by two complete copies of the entire 
+submission. The form, which requires information regarding the date of 
+the blocking, the financial institutions involved in the transfer, and 
+the beneficiary and amount of the transfer, may be obtained from the 
+OFAC Internet Home Page: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>, the OFAC fax-on-
+demand service: 202/622-0077, or the Compliance Programs Division, 
+Office of Foreign Assets Control, Department of the Treasury, 
+Washington, DC 20220. Any person having an interest in a transaction or 
+proposed transaction may file an application for a license authorizing 
+such transaction.
+* * * * *
+
+    Dated: January 19, 2000.
+R. Richard Newcomb,
+Director, Office of Foreign Assets Control.
+    Approved: January 24, 2000.
+Elisabeth A. Bresee,
+Assistant Secretary (Enforcement), Department of the Treasury.
+[FR Doc. 00-4672 Filed 2-24-00; 9:49 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

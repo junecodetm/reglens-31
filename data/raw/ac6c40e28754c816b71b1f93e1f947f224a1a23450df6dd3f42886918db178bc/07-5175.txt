@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Federal Register, Volume 72 Issue 203 (Monday, October 22, 2007)</title>
+</head>
+<body><pre>
+[Federal Register Volume 72, Number 203 (Monday, October 22, 2007)]
+[Rules and Regulations]
+[Page 59480]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 07-5175]
+
+
+
+[[Page 59480]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AB16
+
+
+Offset of Tax Refund Payments To Collect Past-Due Support
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Financial Management Service, Department of the Treasury, 
+is amending its regulations governing the offset of federal tax refund 
+payments to collect past-due child support obligations. We are removing 
+the definition of Qualified child due to a change in the statutory 
+definition on which it is based enacted as part of the Deficit 
+Reduction Act of 2005. This statutory change will allow the tax refund 
+offset program to collect past-due child support on behalf of children 
+who are no longer minors. We are also amending the description of past-
+due support obligations that qualify for the tax refund offset by 
+removing the requirement that the support be owed to or on behalf of a 
+qualified child.
+
+DATES: Effective October 22, 2007.
+
+ADDRESSES: You may inspect and copy this rule at: Treasury Department 
+Library, Freedom of Information Act (FOIA) Collection, Room 1428, Main 
+Treasury Building, 1500 Pennsylvania Avenue, NW., Washington, DC 20220. 
+Before visiting, you must call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Dungan, Policy Analyst, at (202 
+847-6660 or at <a href="/cdn-cgi/l/email-protection#e1958e8ccf85948f86808fa1878c92cf9593848092cf868e97"><span class="__cf_email__" data-cfemail="8cf8e3e1a2e8f9e2ebede2cceae1ffa2f8fee9edffa2ebe3fa">[email&#160;protected]</span></a> or Ellen Neubauer, Senior 
+Attorney, at (202) 874-6680 or at <a href="/cdn-cgi/l/email-protection#44212828212a6a2a21312625312136042229376a30362125376a232b32"><span class="__cf_email__" data-cfemail="72171e1e171c5c1c1707101307170032141f015c06001713015c151d04">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    The Deficit Reduction Act of 2005, Public Law 109-171, amended the 
+Social Security Act to remove a restriction on the collection of past-
+due support obligations by tax refund offset. Prior to this change, tax 
+refund offset to collect past-due support obligations being collected 
+by States on behalf of an individual was only available if the support 
+was due to or on behalf of a qualified child (a child who is a minor or 
+who, while a minor, was determined to be disabled). The amendment to 
+the law allows for the collection of past-due support by tax refund 
+offset on behalf of individuals who were owed child support as minors 
+but reached the age of majority without having collected the full 
+support amount owed to them.
+    The changes to this rule conform to the statutory change by 
+removing the definition of Qualified child and by deleting the 
+requirement that past-due support be owed to or on behalf of a 
+qualified child to be eligible for collection by tax refund offset.
+
+II. Regulatory Analyses
+
+Administrative Procedures Act
+
+    This rule is being issued as a final rule without prior public 
+notice and comment because the changes to the rule are being made to 
+conform to statutory requirements. Under 5 U.S.C. 553(b), good cause 
+exists to determine that notice and comment rulemaking is unnecessary 
+and contrary to the public interest. The amendments made by this rule 
+merely mirror amendments already enacted into law. Further delay in 
+making these amendments would create an inconsistency between the law 
+and the regulations and would cause confusion.
+
+Regulatory Planning and Review
+
+    The final rule does not meet the criteria for a ``significant 
+regulatory action'' as defined in Executive Order 12866. Therefore, the 
+regulatory review procedures contained therein do not apply.
+
+Regulatory Flexibility Act Analysis
+
+    Because no notice of proposed rulemaking is required, the 
+provisions of the Regulatory Flexibility Act (5 U.S.C. et seq.) do not 
+apply.
+
+Paperwork Reduction Act
+
+    This rule contains no new collections of information. Therefore, 
+the Paperwork Reduction Act does not apply.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Child support, Child 
+welfare, Claims, Debts, Privacy, Taxes.
+
+Authority and Issuance
+
+0
+For the reasons set forth in the preamble, we are amending part 285 of 
+title 31, as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 31 
+U.S.C. 3701; 31 U.S.C. 3716; 42 U.S.C. 664; E.O. 13019, 61 FR 51763, 
+3 CFR, 1996 Comp., p. 216; Public Law 109-171.
+
+0
+2. Amend Sec.  285.3 by removing from paragraph (a) the definition of 
+``Qualified child'' and by revising paragraph (c)(1)(i)(B) to read as 
+follows:
+
+
+Sec.  285.3  Offset of tax refund payments to collect past-due support.
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (i) * * *
+    (B) A State agency is providing support collection services under 
+42 U.S.C. 654(4) and the amount of the past-due support is not less 
+than $500.00; and
+* * * * *
+
+    Dated: October 9, 2007.
+Kenneth R. Papaj,
+Commissioner.
+[FR Doc. 07-5175 Filed 10-19-07; 8:45 am]
+BILLING CODE 4810-39-M
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

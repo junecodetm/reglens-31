@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1996/07/16/96-17896.txt",
+  "fetched_at": "2026-07-30T14:10:13.107100+00:00",
+  "sha256": "1b668cf5900ac6d1b8376186f505abecb3adbe2bfc7074192a1b961a99b85350",
+  "content_type": "text/plain",
+  "filename": "96-17896.txt"
+}

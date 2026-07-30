@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2001/01/11/01-690.txt",
+  "fetched_at": "2026-07-30T14:09:10.310008+00:00",
+  "sha256": "249b4e51469197f7e7de11859db986b62d2944d2b25e83320d64d54ffd35fab4",
+  "content_type": "text/plain",
+  "filename": "01-690.txt"
+}

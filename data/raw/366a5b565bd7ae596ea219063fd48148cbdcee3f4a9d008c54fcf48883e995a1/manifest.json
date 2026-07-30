@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1999/04/28/99-10136.txt",
+  "fetched_at": "2026-07-30T14:10:34.900782+00:00",
+  "sha256": "366a5b565bd7ae596ea219063fd48148cbdcee3f4a9d008c54fcf48883e995a1",
+  "content_type": "text/plain",
+  "filename": "99-10136.txt"
+}

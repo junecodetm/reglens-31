@@ -1,0 +1,259 @@
+{
+  "abstract": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is issuing this final rule to adjust certain civil monetary penalties (CMPs) for inflation pursuant to the Federal Civil Penalties Inflation Adjustment Act of 1990, as amended by the Debt Collection Improvement Act of 1996 and the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2019/06/14/2019-12475.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 510,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 535,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 536,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 539,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 541,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 542,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 544,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 546,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 547,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 548,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 549,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 560,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 561,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 566,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 576,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 583,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 584,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 588,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 592,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 594,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 595,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 597,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 598,
+      "title": 31
+    }
+  ],
+  "citation": "84 FR 27714",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective: June 14, 2019.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2019-12475",
+  "effective_on": "2019-06-14",
+  "end_page": 27719,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2019/06/14/2019-12475.xml",
+  "html_url": "https://www.federalregister.gov/documents/2019/06/14/2019-12475/inflation-adjustment-of-civil-monetary-penalties",
+  "images": {
+    "ER14JN19.000": {
+      "large": "https://img.federalregister.gov/ER14JN19.000/ER14JN19.000_large.png",
+      "original_size": "https://img.federalregister.gov/ER14JN19.000/ER14JN19.000_original_size.png"
+    }
+  },
+  "images_metadata": {
+    "ER14JN19.000": {
+      "large": {
+        "content_type": "image/png",
+        "height": 586,
+        "identifier": "ER14JN19.000",
+        "sha": "21e11f4109afe9182982e8b5fad369d6",
+        "size": 25701,
+        "url": "https://img.federalregister.gov/ER14JN19.000/ER14JN19.000_large.png",
+        "width": 823
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 2483,
+        "identifier": "ER14JN19.000",
+        "sha": "74a2ce0b06cfe72785e7773ec1f2ea1b",
+        "size": 36342,
+        "url": "https://img.federalregister.gov/ER14JN19.000/ER14JN19.000_original_size.png",
+        "width": 3487
+      }
+    }
+  },
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2019-12475?publication_date=2019-06-14",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2019-06-14/2019-12475/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 6,
+  "page_views": {
+    "count": 1896,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2019-06-14/pdf/2019-12475.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2019-12475.pdf?1560429917",
+  "publication_date": "2019-06-14",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2019/06/14/2019-12475.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2019-06-17T03:30:08Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC_FRDOC_0001",
+    "docket_id": "OFAC_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted OFAC Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 27714,
+  "subtype": null,
+  "title": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_doc": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Blocking of assets",
+    "Exports",
+    "Foreign trade",
+    "Penalties"
+  ],
+  "type": "Rule",
+  "volume": 84
+}

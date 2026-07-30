@@ -1,0 +1,912 @@
+<html>
+<head>
+<title>Federal Register, Volume 62 Issue 129 (Monday, July 7, 1997)</title>
+</head>
+<body><pre>[Federal Register Volume 62, Number 129 (Monday, July 7, 1997)]
+[Rules and Regulations]
+[Pages 36205-36212]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 97-17518]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AA58
+
+
+Collection of Past-Due Support by Administrative Offset
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Interim rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Debt Collection Improvement Act of 1996 (DCIA), enacted on 
+April 26, 1996, authorizes the Secretary of the Treasury (Secretary) to 
+collect past-due support by the administrative offset of Federal 
+payments. Executive Order 13019 of September 28, 1996 (Executive Order) 
+requires that the Secretary promptly develop and implement procedures 
+necessary for the collection of past-due support debts by 
+administrative offset. In addition, the Executive Order requires each 
+executive agency to review each class of payments certified by such 
+agencies to determine whether any class of payments should be exempt 
+from offset. With respect to any class of payments so identified, 
+agencies must submit a request for exemption from offset to the 
+Secretary within 30 days after the Secretary establishes standards for 
+determining exemptions. The Executive Order further requires that 
+Federal payment agencies and disbursing officials promptly implement 
+any rules, regulations, or procedures issued by the Secretary that are 
+necessary to implement offset for the collection of past-due support.
+    The Financial Management Service (FMS), as the central disbursing 
+agency of the Federal Government, is
+
+[[Page 36206]]
+
+responsible for implementation of centralized administrative offset for 
+the collection of nontax delinquent debt owed to the Federal 
+Government, past-due support, and other debt owed to States. This 
+regulation implements administrative offset for the collection of past-
+due support pursuant to the DCIA and the Executive Order.
+    As authorized by the DCIA, FMS intends to promulgate additional 
+rules for centralized administrative offset for the collection of 
+nontax debt owed to Federal and State Governments, other than child 
+support. FMS anticipates that Part 285 will eventually contain all of 
+the provisions relating to centralized administrative offset.
+
+DATES: This rule is effective on July 25, 1997. Comments will be 
+accepted until September 5, 1997.
+
+ADDRESSES: Comments or inquiries may be mailed to Gerry Isenberg, 
+Financial Program Specialist, Debt Management Services, Financial 
+Management Service, Department of the Treasury, 401 14th Street SW., 
+Room 151, Washington, DC 20227. A copy of this interim rule is being 
+made available for downloading from the Financial Management Service 
+web site at the following address: <a href="http://www.fms.treas.gov">http://www.fms.treas.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Gerry Isenberg, Financial Program 
+Specialist, at (202) 874-6660; Pamela Dillon, Director, Treasury Offset 
+Program, at (202) 874-8700; Ellen Neubauer or Ronda Kent, Senior 
+Attorneys, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The Debt Collection Improvement Act of 1996 (DCIA), Pub. L. 104-
+134, 110 Stat. 1321-358 (1996), requires that disbursing officials of 
+the Department of the Treasury and other Federal disbursing officials 
+offset Federal payments to collect nontax delinquent debts owed to the 
+United States. Subsection (h) of 31 U.S.C. 3716, as added by section 
+31001(f) of the DCIA, authorizes the Secretary of the Treasury 
+(Secretary) to collect State debts, including past-due support, by the 
+administrative offset of Federal payments. See also section 
+31001(z)(1)(B) of the DCIA, codified at 31 U.S.C. 3701(b)(2).
+    FMS, as the Treasury disbursing office, is responsible for 
+implementation of centralized administrative offset for the collection 
+of nontax debt owed to the United States, past-due support, and other 
+State debt. On September 28, 1996, the President issued Executive Order 
+13019 entitled ``Supporting Families: Collecting Delinquent Child 
+Support Obligations'' (Executive Order) which requires that the 
+Secretary promptly develop and implement procedures necessary to 
+collect past-due support debts by administrative offset. The Executive 
+Order recognizes that the failure of some parents to meet their child 
+support obligations threatens the health, education, and well-being of 
+their children and requires the collection of delinquent child support 
+obligations from persons who may be entitled or eligible to receive 
+certain Federal payments. FMS is publishing this interim regulation to 
+establish and notify the public of the procedures necessary for the 
+collection of past-due support debts by administrative offset in 
+accordance with 31 U.S.C. 3716(h) and the Executive Order.
+    Federal law prohibits the use of administrative offset to collect 
+State debts (including past-due support) for many types of Federal 
+payments, including payments due to an individual under (a) title IV of 
+the Higher Education Act of 1965; (b) the Social Security Act; (c) part 
+B of the Black Lung Benefits Act; (d) any law administered by the 
+Railroad Retirement Board; (e) the tariff laws of the United States; 
+and (f) any other law that expressly prohibits collection of past-due 
+support by administrative offset. Regulations promulgated by the 
+Internal Revenue Service and the Department of Health and Human 
+Services (HHS) govern the offsetting of Federal tax refund payments to 
+collect past due child support as authorized under 26 U.S.C. 6402 and 
+42 U.S.C. 664. See 26 CFR 301.6402-5 and 45 CFR 303.72. FMS will be 
+responsible for operation of the tax refund offset program effective 
+January 1, 1998, and will issue new regulations governing the offset of 
+tax refund payments to collect past-due support.
+    To implement the Executive Order and 31 U.S.C. 3716(h), FMS is 
+working with HHS, Treasury and non-Treasury disbursing officials, and 
+other affected agencies, including Federal payment agencies. The 
+Executive Order requires that disbursing officials (officials 
+authorized to disburse Federal payments) and payment agencies (agencies 
+that certify Federal payments) promptly implement any rule, regulation, 
+or procedure necessary to conduct administrative offset to collect 
+delinquent child support payments.
+    Subsection (c)(3)(B) of 31 U.S.C. 3716, as added by section 
+31001(d)(2)(D) of the DCIA, requires the Secretary to exempt payments 
+under means-tested programs from administrative offset when requested 
+by the head of the respective agency. In addition, this subsection 
+authorizes the Secretary to exempt other payments from administrative 
+offset upon the written request of the head of the payment certifying 
+agency. The written request for exemption must provide justification 
+for the exemption. Standards and instructions for making such requests 
+are available from FMS at the above address and at the FMS web site at 
+<a href="http://www.fms.treas.gov">www.fms.treas.gov</a>. The Executive Order requires that Federal payment 
+agencies determine the classes and types of payments that should be 
+considered for exemption from administrative offset by the Secretary 
+and submit requests for exemption to FMS within 30 days of the date the 
+Secretary prescribes standards. In acting on such requests, the 
+Secretary will give due consideration to whether administrative offset 
+would tend to interfere substantially with or defeat the purposes of 
+the payment agency's program. The DCIA requires that the Secretary 
+report to the Congress annually on exemptions granted under the DCIA.
+    FMS is working closely with HHS to implement procedures necessary 
+to report to the Secretary information on past-due support claims 
+referred to HHS by States for tax refund offset purposes under 42 
+U.S.C. 664 and 26 U.S.C. 6402(c), including claims enforced by States 
+pursuant to cooperative agreements with or by Indian tribal 
+governments. Such procedures are appropriate to facilitate offset and 
+prevent duplicative efforts by the States. FMS is also working closely 
+with HHS to implement procedures necessary to report to the Secretary 
+information on past-due support claims referred to HHS by States under 
+this rule. It is anticipated that States will continue to refer debts 
+to HHS for offset from both Federal tax refunds and other Federal 
+payments and that HHS will report those debts to the Secretary. While 
+nothing in this rule is intended to require States to refer debts 
+directly to FMS for administrative offset, this rule provides States 
+with that option.
+    ``Past-due support'' means the amount of support, determined under 
+a court order, or an order of an administrative procedure established 
+under State law, for support and maintenance of a child, or of a child 
+and the parent with whom the child is living, which has not been paid. 
+States will have the option of directly notifying FMS of past-due 
+support for administrative offset purposes or of notifying HHS, 
+whereupon HHS will report those debts to FMS.
+
+[[Page 36207]]
+
+    Before notifying FMS or HHS that an individual owes past-due 
+support, the State or its agents will be required to send notice to 
+such individual that an offset may be taken from certain Federal 
+payments otherwise payable to such individual. The notice shall inform 
+the individual owing the past-due support of the type and amount of the 
+support owed, as well as such individual's right to a review of the 
+State's determination that past-due support is owed or of the amount 
+owed. The State will certify that the requirements of this regulation 
+and applicable State law have been met.
+
+Section by Section Analysis
+
+(a) Definitions
+
+    Administrative Offset. Administrative offset has the same meaning 
+as found at 31 U.S.C. 3701(a)(1) except that as used in this rule the 
+term is limited to the offsetting of payments to collect past-due 
+support.
+    Debt. As used in this rule, the term ``debt'' is limited to debt 
+based on past-due support. Debt based on past-due support is among the 
+many kinds of debts subject to collection by administrative offset and 
+encompassed by the statutory definition of debt found at 31 U.S.C. 
+3701(b) (1) and (2). The definition of debt contained in this rule does 
+not alter the statutory definition. It merely limits the scope of the 
+rule to debt based on past-due support.
+    Disbursing Official. Disbursing official means an official who has 
+authority to disburse public money pursuant to 31 U.S.C. 3321 or 
+another law. It includes disbursing officials of the Department of the 
+Treasury, the Department of Defense, the United States Postal Service, 
+or any other Government corporation, any disbursing official of the 
+United States designated by the Secretary of the Treasury, or any 
+disbursing official of any other executive department or agency that 
+disburses Federal payments.
+    Past-Due Support. Past-due support means the amount of support 
+determined under a court order or an order of an administrative 
+procedure established under State law for support and maintenance of a 
+child or of a child and the parent with whom the child is living, which 
+has not been paid. Unless so limited by court order or under State law 
+or procedure, the term ``child'' as used in this definition is not 
+intended to be limited to minor children.
+    State. Treasury considered including legal subdivisions of States 
+within the definition of ``State'' to ensure that there were no 
+impediments to collecting past-due support being enforced at, for 
+example, the county level. Legal subdivisions of States were not 
+included in the definition of ``State'' because of concerns about the 
+potential impact on current relationships between States and their 
+legal subdivisions in the collection of past-due support. The public is 
+invited to comment on the impact of including or excluding legal 
+subdivisions of States in the definition of ``State'' as well as on any 
+other provision of this rule.
+
+(b) General Rule
+
+    Paragraph (b) states the general rule that disbursing officials of 
+FMS and other disbursing officials of the Federal Government will 
+offset Federal payments to collect past-due support. States enforcing 
+past-due support may notify FMS of past-due support either by entering 
+into an agreement with FMS and requesting that the offset be conducted 
+or by notifying HHS. Amounts offset will be forwarded to the State less 
+any fee charged for the offset.
+
+(c) Agreements
+
+    Paragraph (c) states that FMS may, within its discretion, enter 
+into an agreement with a State for disbursing officials of FMS and 
+other Federal disbursing officials to collect past-due support by 
+administrative offset. The agreement will contain requirements that FMS 
+considers appropriate to facilitate the offset such as the manner and 
+time frames for submitting debts to FMS; requirements for updating 
+debts; and other procedures to ensure offsets are properly made. The 
+agreement also will require that States have procedures in place for 
+collecting debt by administrative offset including procedures for 
+ensuring that individuals who owe past-due support are provided with 
+notice and an opportunity to be heard before the debt is referred to 
+FMS for offset. There is a strong Federal and State interest in 
+ensuring that parents meet their child support obligations. The failure 
+of some parents to meet their child support obligations weakens 
+families and increases State and Federal welfare expenditures. Thus, 
+agreements entered into between FMS and a State for the collection of 
+past-due support by administrative offset are of mutual benefit to both 
+the State and FMS and are therefore considered reciprocal. There is no 
+requirement that States offset their payments to collect debts owed to 
+the Federal Government and thus the request for offset from the State 
+may come from the appropriate official of the State responsible for 
+enforcing past-due support rather than a State disbursing official.
+
+(d) Notification to FMS of Past-Due Support
+
+    Paragraph (d) describes the procedures which must be followed for 
+each debt when a State notifies FMS or HHS of past-due support for 
+purposes of collection by administrative offset. More specific 
+instructions regarding the formatting of information and the required 
+data elements will be provided to States.
+    States which are enforcing a past-due support order issued by 
+another State or otherwise have knowledge that another State is 
+involved in enforcing a particular past-due support order, are required 
+to inform any other State involved in enforcing the order that it has 
+notified FMS of the past-due support. States must also notify any other 
+State involved in enforcing the order of any amounts received as a 
+result of an offset. The purpose of this notification is to avoid 
+referral of the same debt from more than one State and to ensure that 
+debt amounts are accurately maintained.
+    Before a debt can be referred to FMS, States must sign a 
+certification for each debt or group of debts certifying that each debt 
+is past-due, legally enforceable, that the notice described in 
+paragraph (h) has been sent, and that the State has completed any 
+requirements imposed by its own laws or procedures for collection of 
+debts by administrative offset. The certifying official must have both 
+the knowledge and the authority to certify to FMS, on behalf of the 
+State, that these requirements have been met. One of the purposes of 
+the certification is to permit the Secretary of the Treasury, as 
+authorized by the DCIA, to waive certain requirements of the Computer 
+Matching and Privacy Protection Act of 1988, 5 U.S.C. 552a, when 
+applicable, upon certification by a State that the requirements of 31 
+U.S.C. 3716(a) have been met. Section 3716(a) of Title 31 sets forth 
+the due process requirements applicable to the collection of delinquent 
+debts owed to the Federal Government. The due process requirements 
+applicable to the determination and collection of past-due support are 
+established under State laws and procedures. Additionally, paragraph 
+(h) of this rule sets forth specific due process requirements States 
+must meet to collect past-due support under this rule. Thus, 
+certification of compliance with both the requirements of State laws 
+and procedures and the requirements of paragraph (h) of this rule will 
+be considered equivalent to certification of compliance with the 
+requirements of 31 U.S.C. 3716(a).
+
+[[Page 36208]]
+
+    Any debts which are not properly certified or do not otherwise 
+comply with the requirement of this section will not be accepted by 
+FMS. States will be notified that a particular debt or group of debts 
+has been rejected and will be given the reason for the rejection. Such 
+debts may be submitted to FMS once any deficiencies noted have been 
+resolved.
+
+(e) Minimum Amount of Past-due Support
+
+    Paragraph (e) states that FMS will not accept debts of less than 
+$25.00 for collection by administrative offset. If a debt is referred 
+to FMS which is over $25.00 at the time it is referred, the debt will 
+remain subject to collection by administrative offset until it is paid 
+in full even if it falls below the $25.00 minimum. The $25.00 minimum 
+is intended to ensure that FMS is not collecting debt by administrative 
+offset where the administrative cost of collection exceeds the amount 
+of the debt. The minimum amount may be adjusted either upward or 
+downward by FMS. States will be notified of any adjustments.
+
+(f) Limitations
+
+    Paragraph (f) provides that a debt properly submitted to FMS for 
+administrative offset will remain subject to collection by offset until 
+it is paid in full as long as the debt remains past-due and legally 
+enforceable. A debt will be considered legally enforceable for purposes 
+of this paragraph (f) if, under applicable State law, it may lawfully 
+be collected by administrative offset.
+
+(g) Notification of Changes in Status of Debt
+
+    To ensure that debts referred to FMS for collection by 
+administrative offset remain accurate as to their amount and that 
+amounts offset do not exceed the amount of the debt, paragraph (g) 
+requires States to notify FMS or HHS of any decreases in the amount of 
+a debt referred. States are also required to notify FMS or HHS if any 
+debt should be deleted from the debtor database either because it has 
+been paid in full or for any other reason. States are permitted to 
+notify FMS or HHS of any increases in the amount of a debt referred to 
+FMS as long as the State has provided proper notice to the debtor and 
+has complied with any other requirements of State law or procedure. 
+Where a debt represents an ongoing obligation and it is anticipated 
+that the debt will increase on a regular basis, States should ensure 
+that the notices sent pursuant to paragraph (h) of this regulation 
+include such amounts.
+    Under paragraph (g), States will be required to report, at 
+established time intervals, the total net adjustment made to the amount 
+of the debt if the net adjustment results in a decrease in the debt 
+amount. If the total net adjustment made to the debt amount during the 
+established time interval results in an increase in the debt amount, 
+States are encouraged, but are not required, to report the total net 
+adjustment.
+
+(h) Advance Notification of Intent to Collect by Administrative Offset
+
+    Paragraph (h) sets forth requirements concerning the notice and 
+opportunity to exercise certain rights that must be provided to 
+individuals who owe past-due support before the debt can be referred 
+for collection by administrative offset. States must have procedures in 
+place to afford individuals who owe past-due support the opportunity 
+for a review as provided for under this paragraph (h) and must comply 
+with those procedures prior to referring a debt for collection by 
+administrative offset. Where a State intends to refer a debt which it 
+is enforcing based upon an order issued by another State, the referring 
+State must ensure that the individual who owes the past-due support has 
+the opportunity for a review by either the referring State or the State 
+which issued the order.
+
+(i) Payments Subject to Offset
+
+    All Federal payments are subject to offset to collect past-due 
+support except those payments described in paragraph (i). Those 
+payments listed in paragraph (i)(1) are specifically excluded from 
+offset to collect past-due support by the DCIA. Paragraph (i)(2) sets 
+forth the authority of the Secretary under the DCIA to exempt 
+additional payments from offset. Payments which may be exempted from 
+offset under this authority are described in paragraph (k). Paragraph 
+(i)(3) is intended to recognize that other laws may prohibit the offset 
+of certain payments to collect past-due support. This exception applies 
+only where another law specifically and expressly prohibits offset. For 
+example, 38 U.S.C. 5301(a) expressly prohibits the collection of most 
+debt by offset from certain Veterans' benefit payments. Paragraphs 
+(i)(4) and (i)(5) reflect the DCIA provisions which exclude payments 
+made under the Internal Revenue Code and the tariff laws of the United 
+States from administrative offset under 31 U.S.C. 3716. Authority to 
+offset tax refund payments to collect past-due support is found at 42 
+U.S.C. 664 and 26 U.S.C. 6402 and is governed by regulations at 45 CFR 
+303.72 and 26 CFR 301.6402-5. All other Federal payments are subject to 
+offset under this rule although restrictions may apply to limit the 
+amount of a particular payment which may be offset.
+
+(j) Special Provisions Applicable to Federal Salary Payments
+
+    Federal salary payments are included in those payments subject to 
+offset to collect past-due support under 31 U.S.C. 3716. The special 
+rules contained in paragraph (j) are intended to ensure that the amount 
+of a Federal salary payment subject to offset does not exceed the 
+limitations applicable to the garnishment of Federal pay to collect 
+support under 15 U.S.C. 1673(b)(2) (A) and (B). The authority to offset 
+Federal salary payments to collect past-due support is not intended to 
+alter or supersede the authority to garnish the wages of a Federal 
+employee who owes past-due support. Thus, this rule provides that the 
+maximum allowable offset amount will be reduced by the amount of a 
+garnishment order for support. For example, if a Federal employee's pay 
+in a given pay period, after required deductions, is $1,000 and 50% of 
+that pay may be offset, the total amount subject to offset is $500. If, 
+however, there is a garnishment order for support of $300 against that 
+employee's pay, the amount subject to offset is reduced to $200. Where 
+there is a $500 garnishment order against that employee's pay, no 
+offset would be permitted. Because Federal salary pay is being offset 
+to collect past-due support under 31 U.S.C. 3716, the provisions 
+applicable to the offset of Federal salary payments to collect debt 
+owed to the Federal Government do not apply.
+
+(k) Payments Exempt From Administrative Offset to Collect Past-due 
+Support Being Enforced by a State
+
+    Paragraph (k) describes the authority of the Secretary as contained 
+in the DCIA to exempt certain payments from administrative offset. 
+Examples of means-tested programs as defined in paragraph (k) include 
+food stamps and Supplemental Security Income (SSI). Such programs are 
+exempt from offset so long as a request for an exemption is properly 
+submitted to the Secretary and the Secretary determines that such 
+programs are, in fact, means-tested. Other payments may be exempted 
+from offset at the discretion of the Secretary upon receipt of a proper 
+request from the agency that issues the payment which justifies the 
+reason for the exemption. FMS has issued standards for payment agencies 
+to follow when for making such requests. These standards are available 
+from FMS at the above address and at the FMS web site. In
+
+[[Page 36209]]
+
+acting on such requests, the Secretary will give due consideration to 
+whether or not the offset would tend to substantially interfere with 
+the purpose of the program.
+
+(l) Fees
+
+    FMS will charge a fee to cover the costs of the offset.
+    The fee will be deducted from the amount offset before that amount 
+is forwarded to the States and will only be charged when an offset has 
+been made. States may add this fee to the amount of the debt if 
+permitted by law. The fee charged is intended to reimburse FMS for the 
+administrative costs of the offset and therefore may be adjusted to 
+reflect costs. Once a fee is established, however, it will not be 
+adjusted for a period of at least 12 months. States will be notified in 
+advance of any adjustments.
+
+(m) Conducting the Offset
+
+    Paragraph (m) describes how the offset program works. Debts 
+referred to FMS are entered into a centralized debtor database. When 
+disbursing officials of the Federal Government issue payments, those 
+payments are compared with the debtor database to determine if the 
+person to whom the payment is to be issued (the payee) owes a debt. If 
+a match occurs (a match occurs when the taxpayer identification number 
+and name of the payee match the taxpayer identification number and name 
+of a debtor) and the payment is one which is subject to offset for the 
+collection of past-due support, the offset will take place. Amounts 
+offset will be forwarded to the State, less any fee. If the amount 
+offset is less than the amount of the payment, the remainder of the 
+payment will be forwarded to the payee. Certain payments may only be 
+partially offset, that is, only a certain percentage of the payment may 
+be offset to collect a debt. If the offset does not result in payment 
+of the debt in full, offsets from future payments to the payee will 
+continue until the debt is paid in full. Although only those debts 
+based on past-due support are the subject of this rule, other debts as 
+defined at 31 U.S.C. 3701(b) are also included in the database to be 
+collected by administrative offset. Separate rules govern the 
+collection of other debts (debts not based on past-due support) by 
+administrative offset.
+
+(n) Priorities
+
+    Paragraph (n) is intended to establish a priority for offsets where 
+an individual owes more than one debt and a payment being issued to 
+that individual (or the amount of that payment which is available for 
+offset) is not sufficient to satisfy all debts. Debt based on past-due 
+support may be of more than one type depending on whether or not the 
+debt has been assigned to the State. Paragraph (n) provides that debt 
+which has been assigned to the State will be collected first and that 
+debt which has not been assigned to the State will be collected only 
+after other reductions allowed by law have been taken, such as offsets 
+to collect debt as defined at 31 U.S.C. 3701(b) which is owed to the 
+Federal Government.
+
+(o) Notification of Offset
+
+    Paragraph (o) provides that once an offset has occurred, the 
+disbursing official who conducted the offset will provide notice to the 
+payee that the offset has occurred. A disbursing official, however, 
+cannot be held liable for failure to provide this notice.
+
+(p) Liability of Disbursing Officials and Payment Agencies
+
+    Paragraph (p) restates the DCIA which provides that neither the 
+disbursing official nor the payment agency shall be liable for the 
+amount of the offset on the basis that the underlying obligation, 
+represented by the payment amount before the offset was taken, was not 
+satisfied. Thus, if a payee is due a payment and receives less than the 
+full amount of that payment because an offset has occurred, no cause of 
+action exists against the disbursing official or the payment agency on 
+the basis that the payment was not made in full. Paragraph (p) also 
+provides that the payment agency will receive notice that the offset 
+has occurred and will be provided with contact information at the State 
+which referred the debt for offset. The purpose of this notice is to 
+allow the payment agency to properly direct any inquiries it may 
+receive concerning the offset.
+
+Regulatory Analyses
+
+    It has been determined that this rule is not a significant 
+regulatory action as defined in Executive Order 12866. Because no 
+notice of proposed rulemaking is required, the provisions of the 
+Regulatory Flexibility Act do not apply.
+
+Special Analyses
+
+    FMS is promulgating this interim rule without opportunity for prior 
+public comment pursuant to the Administrative Procedure Act (APA), 5 
+U.S.C. 553, because FMS has determined, for the following reasons, that 
+a comment period would be impracticable and contrary to the public 
+interest. The DCIA was effective immediately upon its enactment on 
+April 26, 1996, and for the first time, authorized the collection of 
+past-due support by administrative offset from certain Federal 
+payments. Prior to the passage of the DCIA only debts owed to the 
+United States could be collected by administrative offset from these 
+Federal payments. Thus, States enforcing past-due support as well as 
+members of the public who either owe or are owed past-due support may 
+not be aware of the impact of the law.
+    Executive Order 13019 dated September 28, 1996 requires the 
+Secretary to promptly develop and implement procedures necessary for 
+the Secretary to collect past-due support by administrative offset. The 
+Executive Order states that the failure of some parents to meet their 
+child support obligations threatens the health, education, and well-
+being of their children. It is the intent of the Executive Order to 
+facilitate the collection of delinquent child support obligations from 
+persons who may be entitled to receive certain Federal payments thereby 
+supporting our children and strengthening American families. Since this 
+interim rule provides critical guidance needed to facilitate the offset 
+of Federal payments to collect past-due support, FMS believes that it 
+is in the public interest to issue this interim rule without 
+opportunity for prior public comment.
+    The public is invited to submit comments on the interim rule which 
+will be taken into account before a final rule is issued.
+    FMS has determined that good cause exists to make this interim rule 
+effective upon publication without providing the 30 day period between 
+publication and the effective date contemplated by 5 U.S.C. 553(d). The 
+purpose of a delayed effective date is to afford persons affected by a 
+rule a reasonable time to prepare for compliance. However, in this 
+case, the authority to collect past-due support by administrative 
+offset from Federal payments became effective on April 26, 1996. 
+Inasmuch as this interim rule provides important guidance that is 
+expected to facilitate implementation of the authority contained in the 
+law, FMS believes that good cause exists to make the rule effective 
+upon publication.
+    Since the interim rule is being issued without prior notice and 
+public procedure pursuant to the APA, the collections of information 
+contained in the interim rule has been reviewed under the requirements 
+of the Paperwork Reduction Act (44 U.S.C. 3507(j)) and, pending receipt 
+and evaluation of public comments,
+
+[[Page 36210]]
+
+approved by the Office of Management and Budget (OMB) under control 
+number 1510-0069. An agency may not conduct or sponsor, and a person is 
+not required to respond to, a collection of information unless it 
+displays a valid control number assigned by OMB.
+    Comments concerning the collection of information should be 
+directed to OMB, Attention: Desk Officer for the Department of the 
+Treasury, Financial Management Service, Office of Information and 
+Regulatory Affairs, Washington, D.C. 20503, with copies to Jacqueline 
+Perry, Public Reports Clearance Officer, Financial Management Service, 
+3361 75th Avenue, Landover, Maryland 20785. Any such comments should be 
+submitted not later than September 5, 1997. Comments are specifically 
+requested concerning:
+    Whether the proposed collection of information is necessary for the 
+proper performance of the functions of FMS, including whether the 
+information will have practical utility;
+    The accuracy of the estimated burden associated with the proposed 
+collection of information (see below);
+    How the quality, utility, and clarity of the information to be 
+collected may be enhanced; and
+    How the burden of complying with the proposed collection of 
+information may be minimized, including through the application of 
+automated collection techniques and other forms of information 
+technology.
+    The collections of information in this interim regulation are in 
+Sec. 285.1 (d)(1), (d)(2), (d)(3), (g), and (h). The information 
+collected under Sec. 285.1(d)(1) may include the name of the person 
+owing past-due support, the person's social security number, the 
+person's address, the amount of past-due support owed, and an identity 
+code for the State. This information is needed to determine if the 
+debtor and the payee of a Federal payment is the same person, to notify 
+the debtor/payee of the occurrence of an offset, and to forward the 
+money offset to the appropriate State.
+    The information collected under Sec. 285.1(d)(2) shall include name 
+and social security number of the debtor. This information is necessary 
+to prevent duplication of reporting to FMS.
+    The information collection under Sec. 285.1(d)(3) shall include a 
+signed statement that the debt is past-due and legally enforceable and 
+that the State has complied with all the requirements under 
+Sec. 285.1(h). This information is necessary to provide a waiver of 
+certain sections of the Computer Matching and Privacy Protection Act of 
+1988 where such a waiver is necessary to conduct administrative offset 
+under this rule.
+    The information collected under Sec. 285.1(g) may include changes 
+to the name of the person owing past-due support, the person's social 
+security number, the person's address, the amount of past-due support 
+owed, or the identity code for the State collecting the debt. This 
+information is needed to assure that the information concerning the 
+debtor is accurate, which prevents erroneous offsets.
+    The information collected under Sec. 285.1(h) shall include the 
+name and address of the debtor, information concerning the existence of 
+a past-due support debt and the intent to collect the debt by 
+administrative offset, and a listing of the debtor's rights. This 
+information is a prerequisite for conducting administrative offset 
+under 31 U.S.C. 3716(a).
+    The collections of information under this rule is voluntary. Likely 
+respondents to all the collections of information listed above are 
+States, Territories, and Commonwealths of the Federal Government.
+    The estimated total annual reporting burden is 5562 hours. The 
+estimated burden hours per respondent is 103 hours. The estimated 
+number of respondents is 54. These figures represent the burden imposed 
+by FMS. The reporting burden imposed by other agencies will be 
+addressed by those agencies.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Child Support, Claims, 
+Debts, Privacy, Taxes.
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, 31 CFR part 285 is 
+amended to read as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+    1. The authority citation for part 285 is revised to read as 
+follows:
+
+    Authority: 26 U.S.C. 6402; 31 U.S.C. 321, 3716, 3720A; E.O. 
+13019.
+
+    2. Section 285.1 is added to part 285, subpart A, to read as 
+follows:
+
+
+Sec. 285.1  Collection of past-due support by administrative offset.
+
+    (a) Definitions. For purposes of this section:
+    Administrative offset means withholding funds payable by the United 
+States (including funds payable by the United States on behalf of a 
+State government) to, or held by the United States for, a person to 
+satisfy a debt.
+    Debt as used in this section is synonymous with the term past-due 
+support.
+    Disbursing official includes an official who has authority to 
+disburse public money pursuant to 31 U.S.C. 3321 or another Federal 
+law.
+    FMS means the Financial Management Service, a bureau of the 
+Department of the Treasury. FMS is the designee of the Secretary of the 
+Treasury for all matters concerning this section, unless otherwise 
+specified.
+    HHS means the Department of Health and Human Services, Office of 
+Child Support Enforcement.
+    Past-due support means the amount of support determined under a 
+court order, or an order of an administrative procedure established 
+under State law, for support and maintenance of a child, or of a child 
+and the parent with whom the child is living, which has not been paid.
+    Past-due support being enforced by the State means there has been 
+an assignment of the support rights to the State or the State making 
+the request for offset is providing services to individuals pursuant to 
+42 U.S.C. 654(5) (section 454(5) of the Social Security Act).
+    State means the several States of the United States. The term State 
+also includes the District of Columbia, American Samoa, Guam, the 
+United States Virgin Islands, the Commonwealth of the Northern Mariana 
+Islands, and the Commonwealth of Puerto Rico.
+    Secretary means the Secretary of the Treasury.
+    (b) General Rule. FMS may enter into a reciprocal agreement with a 
+State for the collection of past-due support being enforced by the 
+State by administrative offset from certain Federal payments. Upon 
+notification of past-due support either directly from a State which has 
+entered into such an agreement or from HHS, disbursing officials of FMS 
+or any other disbursing official of the United States shall offset 
+Federal payments which are subject to offset under this section, to 
+collect past-due support. The amount offset, minus the offset fee, 
+shall be forwarded to the State to be distributed in accordance with 
+applicable laws and procedures.
+    (c) Agreements. FMS may enter into reciprocal agreements with 
+States for disbursing officials of FMS and any other Federal disbursing 
+official to offset certain Federal payments to collect past-due support 
+being enforced by the State. The agreement shall contain any 
+requirements which FMS considers
+
+[[Page 36211]]
+
+appropriate to facilitate the offset and prevent duplicative efforts 
+and shall require States to prescribe procedures governing the 
+collection of past-due support by Federal administrative offset. For 
+purposes of this section, reciprocal means of mutual benefit. An 
+agreement between FMS and a State to collect past-due support by 
+offsetting Federal payments will be considered of mutual benefit and it 
+is not required that States conduct administrative offsets to collect 
+debts owed to the Federal Government. States which have entered into an 
+agreement with FMS pursuant to this section may thereafter request, in 
+the manner prescribed herein, that an offset be performed. Such 
+requests shall be made by the appropriate State disbursing official 
+which, for purposes of this section, means an appropriate official of 
+the State agency which administers or supervises the administration of 
+the State plan under Title IV-D of the Social Security Act.
+    (d) Notification to FMS of past-due support. (1) States notifying 
+FMS of past-due support must do so in the manner and format prescribed 
+by FMS. States notifying HHS of past-due support must do so in the 
+manner and format prescribed by HHS. HHS shall notify FMS of all past-
+due support referred to HHS by States for collection by administrative 
+offset provided that the requirements of paragraphs (d)(3) and (h) of 
+this section have been met.
+    (2) When a State has knowledge that past-due support is being 
+enforced by more than one State, the State notifying FMS or HHS of the 
+past-due support must inform any other State involved in enforcing the 
+past-due support when it refers the debt for offset and when it 
+receives the offset amount.
+    (3) The notification of past-due support must be accompanied by a 
+certification that the debt is past-due, legally enforceable, and that 
+the State has complied with all the requirements as set forth in 
+paragraph (h) of this section and with any requirements imposed by 
+State law or procedure. For debts so certified, the Secretary may waive 
+sections 552a (o) and (p) of Title 5, United States Code, where 
+applicable, in accordance with the Secretary's authority under 31 
+U.S.C. 3716(f).
+    (4) FMS may reject a notification of past-due support which does 
+not comply with the requirements of this section. The State will be 
+notified of the rejection along with the reason for the rejection.
+    (e) Minimum amount of past-due support. FMS will reject a 
+notification of past-due support where the past-due support owed is 
+less than $25.00. This amount may be adjusted from time to time by FMS 
+to ensure that the cost of collection does not exceed the debt.
+    (f) Limitations. Debts properly submitted to FMS for administrative 
+offset will remain subject to collection by administrative offset until 
+withdrawn by the State provided the debt remains past-due and legally 
+enforceable.
+    (g) Notification of changes in status of debt. The State notifying 
+FMS or HHS of past-due support shall, in the manner and in the time 
+frames provided by FMS or HHS, notify FMS or HHS of any deletion or 
+decrease in the amount of a debt referred for collection by 
+administrative offset. The State may notify FMS or HHS of any increases 
+in the amount of a debt referred for collection by administrative 
+offset provided the State has complied with the requirements of 
+paragraph (h) of this section with regard to those amounts.
+    (h) Advance notification of intent to collect by administrative 
+offset. (1) The State, or FMS or HHS on behalf of the State, if the 
+State requests and FMS or HHS agrees, shall send a written 
+notification, at least 30 days in advance of referral of the debt for 
+offset, to the individual owing past-due support, informing the 
+individual that the State intends to refer the debt for collection by 
+administrative offset against Federal payments. The notice must also 
+inform the individual of:
+    (i) The nature and amount of the debt; and
+    (ii) The right to an administrative review by the State referring 
+the debt or, upon the request of the individual, by the State with the 
+order upon which the referral was based, of the determination of the 
+State with respect to the debt and of the procedures and time frames 
+established by the State for such reviews.
+    (2) Prior to referring a debt to FMS for collection by 
+administrative offset, States must provide individuals with a 
+reasonable opportunity to exercise the rights enumerated in paragraph 
+(h)(1) of this section in accordance with procedures prescribed by the 
+State.
+    (i) Payments subject to offset. Federal payments subject to offset 
+under this section include all Federal payments except:
+    (1) Payments due to an individual under
+    (i) Title IV of the Higher Education Act of 1965;
+    (ii) The Social Security Act;
+    (iii) Part B of the Black Lung Benefits Act;
+    (iv) Any law administered by the Railroad Retirement Board;
+    (2) Payments which the Secretary determines are exempt from offset 
+in accordance with paragraph (k) of this section;
+    (3) Payments from which collection of past-due support by 
+administrative offset is expressly prohibited by law;
+    (4) Payments made under the Internal Revenue Code of 1986 (except 
+that tax refund payments are subject to offset under separate 
+authority); and
+    (5) Payments made under the tariff laws of the United States.
+    (j) Special provisions applicable to Federal salary payments. (1) 
+Unless a lower maximum offset limitation is provided by applicable 
+State law, the maximum part of a Federal salary payment per pay period 
+subject to offset to collect past-due support shall not exceed those 
+amounts set forth at section 1673(b)(2) (A) and (B) of Title 15, United 
+States Code, as follows:
+    (i) Fifty (50%) percent of the debtor's aggregate disposable 
+earnings for any pay period, where the debtor asserts by affidavit, or 
+by other acceptable evidence, that he/she is supporting a spouse and/or 
+dependent child, other than the former spouse and/or child for whom 
+support is being collected, except that an additional five (5%) percent 
+will apply if it appears that such earnings are to enforce past-due 
+support for a period which is twelve (12) weeks or more prior to the 
+pay period to which the offset applies. A debtor shall be considered to 
+be supporting a spouse and/or dependent child only if the debtor 
+provides over half of the spouse's and/or dependent child's support.
+    (ii) Sixty (60%) percent of the debtor's aggregate disposable 
+earnings for any pay period where the debtor fails to assert by 
+affidavit or establish by other acceptable evidence that he/she is 
+supporting a spouse and/or dependent child, other than a former spouse 
+and/or child for whom support is being collected, except that an 
+additional five (5%) percent will apply if it appears that such 
+earnings are to enforce past-due support for a period which is twelve 
+(12) weeks or more prior to the pay period to which the offset applies.
+    (2) The maximum allowable offset amount shall be reduced by the 
+amount of any deductions in pay resulting from a garnishment order for 
+support. Nothing in this rule is intended to alter rules applicable to 
+processing garnishment orders for child support and/or alimony.
+    (3) Federal salary payments subject to offset for the collection of 
+past-due support include current basic pay, special pay, incentive pay, 
+retainer pay, overtime, or in the case of an employee not entitled to 
+basic pay, other authorized pay. Aggregate disposable earnings for 
+purposes of determining the
+
+[[Page 36212]]
+
+maximum amounts which may be offset under paragraph (j)(1) of this 
+section is Federal salary pay remaining after the deduction of:
+    (i) Any amount required by law to be withheld;
+    (ii) Amounts properly withheld for Federal, State or local income 
+tax purposes;
+    (iii) Amounts deducted as health insurance premiums;
+    (iv) Amounts deducted as normal retirement contributions, not 
+including amounts deducted for supplementary coverage; and
+    (v) Amounts deducted as normal life insurance premiums not 
+including amounts deducted for supplementary coverage.
+    (4) At least 30 days in advance of offset, the disbursing official 
+shall send written notice to the debtor of the maximum offset 
+limitations described in paragraph (j)(1) of this section. The notice 
+shall include a request that the debtor submit supporting affidavits or 
+other documentation necessary to determine the applicable offset 
+percentage limitation. The notice shall also inform the debtor of the 
+percentage that will be deducted if he/she fails to submit the 
+requested documentation.
+    (k) Payments exempt from administrative offset to collect past-due 
+support being enforced by a State. The Secretary will exempt from 
+administrative offset under this part payments made under means-tested 
+programs when requested by the head of the Federal agency which 
+administers the program. For purposes of this section, means-tested 
+programs are programs for which eligibility is based on a determination 
+that income and/or assets of the beneficiary are inadequate to provide 
+the beneficiary with an adequate standard of living without program 
+assistance. The Secretary may exempt from administrative offset under 
+this section any other class or type of payment upon the written 
+request of the head of the agency which authorizes the payments. In 
+determining whether or not to grant such exemptions, the Secretary 
+shall give due consideration to whether administrative offset would 
+tend to interfere substantially with or defeat the purposes of the 
+payment agency's program.
+    (l) Fees. A fee which FMS has determined to be sufficient to 
+reimburse FMS for the full cost of the offset procedure, shall be 
+deducted from each offset amount. FMS will notify the States, annually 
+and in advance, of the amount of the fee to be charged for each offset.
+    (m) Conducting the offset. Disbursing officials of the Department 
+of the Treasury, the Department of Defense, the United States Postal 
+Service, or any other Government corporation, any disbursing official 
+of the United States designated by the Secretary, or any disbursing 
+official of an executive department or agency that disburses Federal 
+payments shall offset payments subject to offset under this section to 
+satisfy, in whole or part, a debt owed by the payee. Disbursing 
+officials shall compare payment certification records with records of 
+debts submitted to FMS for collection by administrative offset. A match 
+will occur when the taxpayer identifying number and name control of a 
+payment record are the same as the taxpayer identifying number and name 
+control of a debt record. The taxpayer identifying number for an 
+individual is the individual's social security number. When a match 
+occurs and all other requirements for offset have been met, the 
+disbursing official shall offset the payment to satisfy, in whole or 
+part, the debt. Any amounts not offset shall be paid to the payee. The 
+amount that can be offset from a single payment is the lesser of the 
+amount of the debt (including interest, penalties, and administrative 
+costs); the amount of the payment; or the amount of the payment 
+available for offset if a statute or regulation prohibits offset of the 
+entire amount. Debts remain subject to collection by offset until paid 
+in full.
+    (n) Priorities. When a payee owes more than one debt which has been 
+referred to FMS for collection by administrative offset, any offset 
+will be applied first to past-due support assigned to a State and will 
+be applied to any other past-due support after any other reductions 
+allowed by law.
+    (o) Notification of offset. Disbursing officials of FMS or any 
+other disbursing official which conducts an offset will notify the 
+payee in writing of the occurrence of the offset to satisfy past-due 
+support. The notice shall inform the payee of the type and amount of 
+the payment that was offset; the identity of the State which requested 
+the offset; and a contact point within the State that will handle 
+concerns regarding the offset. Disbursing officials shall not be liable 
+for failure to provide this notice.
+    (p) Liability of disbursing officials and payment agencies. Neither 
+the disbursing official nor the agency authorizing the payment shall be 
+liable for the amount of the administrative offset on the basis that 
+the underlying obligation, represented by the payment before the 
+administrative offset was taken, was not satisfied. Disbursing 
+officials will notify the agency authorizing the payment that the 
+offset has occurred so that the agency authorizing the payment may 
+direct any inquiries concerning the offset to the appropriate State.
+
+    Dated: June 30, 1997.
+Russell D. Morris,
+Commissioner.
+[FR Doc. 97-17518 Filed 7-3-97; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

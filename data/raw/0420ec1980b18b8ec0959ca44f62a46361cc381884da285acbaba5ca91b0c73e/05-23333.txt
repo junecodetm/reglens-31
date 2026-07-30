@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 228 (Tuesday, November 29, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 228 (Tuesday, November 29, 2005)]
+[Rules and Regulations]
+[Page 71401]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-23333]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Bills, Notes, and Bonds; 
+Correction
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule; correction.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Bureau of the Public Debt published a final rule in the 
+September 30, 2005, Federal Register, amending the Sale and Issue of 
+Marketable Book-Entry Treasury Bills, Notes, and Bonds to permit 
+Treasury bills, notes, and bonds to be held in the TreasuryDirect 
+system. Several paragraphs were inadvertently omitted. This correction 
+document corrects that omission.
+
+DATES: Effective November 29, 2005.
+
+ADDRESSES: You can download this correction at the following Internet 
+address: <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Chuck Andreatta, Associate Director, 
+Government Securities Regulations Staff, Bureau of the Public Debt, at 
+(202) 504-3632 or <a href="/cdn-cgi/l/email-protection#12757d64617771607775527062763c66607773613c757d64"><span class="__cf_email__" data-cfemail="10777f66637573627577507260743e64627571633e777f66">[email&#160;protected]</span></a>.
+    Susan Klimas, Attorney-Adviser, Dean Adams, Assistant Chief 
+Counsel, or Edward Gronseth, Deputy Chief Counsel, Office of the Chief 
+Counsel, Bureau of the Public Debt, at (304) 480-8692 or 
+<a href="/cdn-cgi/l/email-protection#c9babcbaa8a7e7a2a5a0a4a8ba89abb9ade7bdbbaca8bae7aea6bf"><span class="__cf_email__" data-cfemail="44373137252a6a2f282d292537042634206a30362125376a232b32">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Bureau of the Public Debt published in 
+the September 30, 2005, Federal Register (70 FR 57437), a final rule 
+that amended 31 CFR part 356, the Sale and Issue of Marketable Book-
+Entry Treasury Bills, Notes, and Bonds, to permit investors to hold 
+Treasury bills, notes, and bonds in the TreasuryDirect system. In 
+section 356.17, several already-existing paragraphs were inadvertently 
+deleted. This document corrects the deletion.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+
+0
+Accordingly, 31 CFR part 356 is corrected by making the following 
+correcting amendments:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. In Sec.  356.17, add paragraphs (d)(1) and (d)(2), to read as 
+follows:
+
+
+Sec.  356.17  How and when do I pay for securities awarded in an 
+auction?
+
+* * * * *
+    (d) * * *
+    (1) A submitter that does not have a funds account at a Federal 
+Reserve Bank or that chooses not to pay by charge to its own funds 
+account must have an approved autocharge agreement on file with us 
+before submitting any bids. Any depository institution whose funds 
+account will be charged under an autocharge agreement will receive 
+advance notice from us of the total par amount of, and price to be 
+charged for, securities awarded as a result of the submitter's bids.
+    (2) A submitter that is a member of a clearing corporation may 
+instruct that delivery and payment be made through the clearing 
+corporation for securities awarded to the submitter for its own 
+account. To do this, the following requirements must be met prior to 
+submitting any bids:
+    (i) We must have acknowledged and have on file an autocharge 
+agreement between the clearing corporation and a depository 
+institution. By entering into such an agreement, the clearing 
+corporation authorizes us to provide aggregate par and price 
+information to the depository institution whose funds account will be 
+charged under the agreement. The clearing corporation is responsible 
+for remitting payment for auction awards of the clearing corporation 
+member.
+    (ii) We must have acknowledged and have on file a delivery and 
+payment agreement between the submitter and the clearing corporation. 
+By entering into such an agreement, the submitter authorizes us to 
+provide award and payment information to the clearing corporation.
+
+    Dated: November 21, 2005.
+Van Zeck,
+Commissioner of the Public Debt.
+[FR Doc. 05-23333 Filed 11-28-05; 8:45 am]
+BILLING CODE 4810-39-M
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

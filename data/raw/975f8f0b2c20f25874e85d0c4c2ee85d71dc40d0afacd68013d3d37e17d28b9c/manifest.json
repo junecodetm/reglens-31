@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1998/07/01/98-17539.txt",
+  "fetched_at": "2026-07-30T14:10:26.299875+00:00",
+  "sha256": "975f8f0b2c20f25874e85d0c4c2ee85d71dc40d0afacd68013d3d37e17d28b9c",
+  "content_type": "text/plain",
+  "filename": "98-17539.txt"
+}

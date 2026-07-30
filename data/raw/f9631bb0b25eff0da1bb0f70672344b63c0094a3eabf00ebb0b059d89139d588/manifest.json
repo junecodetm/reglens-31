@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/api/v1/documents/E9-29614.json",
+  "fetched_at": "2026-07-30T14:10:56.693730+00:00",
+  "sha256": "f9631bb0b25eff0da1bb0f70672344b63c0094a3eabf00ebb0b059d89139d588",
+  "content_type": "application/json",
+  "filename": "E9-29614.json"
+}

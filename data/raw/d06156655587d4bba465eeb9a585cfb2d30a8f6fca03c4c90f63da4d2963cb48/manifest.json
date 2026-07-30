@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2003/02/11/03-3310.txt",
+  "fetched_at": "2026-07-30T14:09:14.662956+00:00",
+  "sha256": "d06156655587d4bba465eeb9a585cfb2d30a8f6fca03c4c90f63da4d2963cb48",
+  "content_type": "text/plain",
+  "filename": "03-3310.txt"
+}

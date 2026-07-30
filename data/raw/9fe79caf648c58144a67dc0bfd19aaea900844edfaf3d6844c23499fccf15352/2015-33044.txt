@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>Federal Register, Volume 81 Issue 7 (Tuesday, January 12, 2016)</title>
+</head>
+<body><pre>
+[Federal Register Volume 81, Number 7 (Tuesday, January 12, 2016)]
+[Rules and Regulations]
+[Pages 1318-1320]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-33044]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1530-AA12
+
+
+Debt Collection Authorities Under the Debt Collection Improvement 
+Act of 1996
+
+AGENCY: Bureau of the Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury, Bureau of the Fiscal Service, 
+is amending its regulations concerning the offset of Federal benefit 
+payments to collect past-due, legally enforceable nontax debt, 
+centralized offset of Federal payments to collect nontax debts owed to 
+the United States, salary offset, and transfer of debts to Treasury for 
+collection. The amendment adjusts the time period in which Federal 
+agencies must notify the Secretary of the Treasury of past due, nontax 
+debt for the purposes of administrative offset. A statutory change, 
+enacted as part of the Digital Accountability and Transparency Act of 
+2014, shortened the period of delinquency within which Federal agencies 
+are required to notify the Secretary of past due, nontax debt from 180 
+days to 120 days.
+
+DATES: This rule is effective January 12, 2016.
+
+[[Page 1319]]
+
+
+ADDRESSES: Bureau of the Fiscal Service, 401 14th Street SW., 
+Washington, DC 20227.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Section 5 of the Digital Accountability and Transparency Act of 
+2014, Public Law 113-101, amended a provision of the Debt Collection 
+Improvement Act of 1996, codified at 31 U.S.C. 3716(c)(6), to change 
+the time by which Federal agencies must notify the Secretary of the 
+Treasury of past due, nontax debts for the purposes of administrative 
+offset. The amendment changes the notice requirement from 180 days 
+delinquent to 120 days delinquent.
+    The changes to this rule conform to the statutory language by 
+removing references to 180 days in the sections relating to: Offset of 
+Federal benefit payments to collect past-due, legally enforceable 
+nontax debt; centralized offset of Federal payments to collect nontax 
+debts owed to the United States; salary offset; and the transfer of 
+debts to Treasury for collection. In each instance, ``180 days'' is 
+replaced with ``120 days.'' In addition, the rule makes revisions to 
+address agencies that transfer debts to Fiscal Service for debt 
+collection services and on behalf of which Fiscal Service submits debt 
+for administrative offset. Federal agencies that are owed debt must 
+transfer any debt that is more than 180 days delinquent to Fiscal 
+Service for debt collection services. Administrative offset is one of 
+the collection tools used by Fiscal Service to collect debt. Therefore, 
+agencies transferring debts to Fiscal Service for debt collection are 
+able to satisfy the notification requirement for administrative offset 
+and the requirement to transfer delinquent debts with a single 
+referral. Because the notice requirement for administrative offset is 
+now 120 days and not 180 days, agencies relying on Fiscal Service to 
+submit debts for administrative offset on their behalf must transfer 
+the debts no later than 120 days after they become delinquent in order 
+to meet the notification requirement for administrative offset. 
+Agencies that do not rely on Fiscal Service to submit their debts for 
+administrative offset must still transfer their debts no later than 180 
+days after they become delinquent.
+
+II. Procedural Analyses
+
+Administrative Procedures Act
+
+    This rule is being issued without prior public notice and comment 
+because the changes to the rule are being made to conform to statutory 
+requirements. Under 5 U.S.C. 553(b) and (d)(3), good cause exists to 
+determine that notice and comment rulemaking is unnecessary and 
+contrary to the public interest. The amendments made by this rule 
+merely mirror amendments already enacted into law. Further delay in 
+making these amendments would create an inconsistency between the law 
+and the regulations and would cause confusion.
+
+Regulatory Planning and Review
+
+    The final rule does not meet the criteria for a ``significant 
+regulatory action'' as defined in Executive Order 12866. Therefore, the 
+regulatory review procedures contained therein do not apply.
+
+Regulatory Flexibility Act Analysis
+
+    Because no notice of rulemaking is required, the provisions of the 
+Regulatory Flexibility Act (5 U.S.C. et seq.) do not apply.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Child support, Child 
+welfare, Claims, Credits, Debts, Disability benefits, Federal 
+employees, Garnishment of wages, Hearing and appeal procedures, Loan 
+programs, Privacy, Railroad retirement, Railroad unemployment 
+insurance, Salaries, Social Security benefits, Supplemental Security 
+Income (SSI), Taxes, Veterans' benefits, Wages.
+
+    For the reasons set forth in the preamble, we are amending 31 CFR 
+part 285 as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority:  5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+Sec.  285.4  [Amended]
+
+0
+2. In Sec.  285.4, in paragraph (d), remove ``180'' and add in its 
+place ``120'' each place it appears.
+
+
+Sec.  285.5  [Amended]
+
+0
+3. In Sec.  285.5, in paragraphs (d)(1) and (2) and two occurences in 
+paragraph (d)(3)(iv), remove ``180'' and add in its place ``120''.
+
+
+Sec.  285.7  [Amended]
+
+0
+4. In Sec.  285.7, in paragraph (d)(1), remove ``180'' and add in its 
+place ``120''.
+
+0
+5. In Sec.  285.12, revise paragraphs (c)(1), (c)(3)(i), and (g) to 
+read as follows:
+
+
+Sec.  285.12  Governing transfer of debts to Treasury for collection.
+
+* * * * *
+    (c) * * *
+    (1) Except as set forth in paragraph (d) of this section, a 
+creditor agency shall transfer any debt that is more than 180 days 
+delinquent to Fiscal Service for debt collection services. Agencies 
+that transfer delinquent debts to Fiscal Service for the purposes of 
+debt collection and that rely on Fiscal Service to submit the 
+transferred debts for administrative offset on the agency's behalf must 
+transfer the debts to Fiscal Service no later than 120 days after the 
+debts become delinquent in order to satisfy the 120-day notice 
+requirement for purposes of administrative offset. For accounting and 
+reporting purposes, the debt remains on the books and records of the 
+agency which transferred the debt.
+* * * * *
+    (3)(i) A debt is considered delinquent for purposes of this section 
+if it is past due and is legally enforceable. A debt is past-due if it 
+has not been paid by the date specified in the agency's initial written 
+demand for payment or applicable agreement or instrument (including a 
+post-delinquency payment agreement) unless other satisfactory payment 
+arrangements have been made. A debt is legally enforceable if there has 
+been a final agency determination that the debt, in the amount stated, 
+is due and there are no legal bars to collection action. Where, for 
+example, a debt is the subject of a pending administrative review 
+process required by statute or regulation and collection action during 
+the review process is prohibited, the debt is not considered legally 
+enforceable for purposes of mandatory transfer to Fiscal Service and is 
+not to be transferred even if the debt is more than 180 days past-due.
+* * * * *
+    (g) Administrative offset. As described in paragraph (c) of this 
+section, under the DCIA, agencies are required to transfer all debts 
+over 180 days delinquent to Fiscal Service for purposes of debt 
+collection (i.e., cross-servicing). Agencies are also required, under 
+the DCIA, to notify the Secretary of all debts over 120 days delinquent 
+for purposes of administrative offset. Administrative offset is one 
+type of collection tool used by Fiscal Service
+
+[[Page 1320]]
+
+and Treasury-designated debt collection centers to collect debts 
+transferred under this section. Thus, by transferring debt to Fiscal 
+Service or to a Treasury-designated debt collection center under this 
+section, Federal agencies will satisfy the requirement to notify the 
+Secretary of debts for purposes of administrative offset and duplicate 
+referrals are not required. Agencies relying on Fiscal Service to 
+submit debts for administrative offset on the agency's behalf must 
+transfer the debts to Fiscal Service no later than 120 days after the 
+debts become delinquent in order to satisfy the 120-day notice 
+requirement for purposes of administrative offset. A debt which is not 
+transferred to Fiscal Service for purposes of debt collection, however, 
+such as a debt which falls within one of the exempt categories listed 
+in paragraph (d) of this section, nevertheless may be subject to the 
+DCIA requirement of notification to the Secretary for purposes of 
+administrative offset.
+* * * * *
+
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2015-33044 Filed 1-11-16; 8:45 am]
+BILLING CODE P
+
+
+</pre></body>
+</html>

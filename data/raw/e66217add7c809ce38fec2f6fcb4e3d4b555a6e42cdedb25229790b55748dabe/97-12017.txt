@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>Federal Register, Volume 62 Issue 89 (Thursday, May 8, 1997)</title>
+</head>
+<body><pre>[Federal Register Volume 62, Number 89 (Thursday, May 8, 1997)]
+[Rules and Regulations]
+[Pages 25113-25115]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 97-12017]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds (Department of the Treasury Circular, Public Debt Series No. 
+1-93)
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+[[Page 25114]]
+
+SUMMARY: The Department of the Treasury (``Treasury'' or 
+``Department'') is issuing in final form an amendment to 31 CFR Part 
+356 (Uniform Offering Circular for the Sale and Issue of Marketable 
+Book-Entry Treasury Bills, Notes, and Bonds). This final rule codifies 
+in the Code of Federal Regulations a change in the way the offering 
+amounts for Treasury bill auctions are announced and auction amounts 
+are awarded to the Federal Reserve Banks for their own account, also 
+referred to as the System Open Market Account. The change involves 
+treating such auction awards as additions to the announced offering 
+amount rather than making such awards within this amount.
+
+EFFECTIVE DATE: May 8, 1997.
+
+ADDRESSES: This final rule has been made available for downloading from 
+the Bureau of the Public Debt's Internet site at the following address: 
+<a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Ken Papaj (Director), Lee Grandy or 
+Kurt Eidemiller (Government Securities Specialists), Bureau of the 
+Public Debt, Government Securities Regulations Staff, (202) 219-3632.
+
+SUPPLEMENTARY INFORMATION: 31 CFR Part 356, also referred to as the 
+uniform offering circular, sets out the terms and conditions for the 
+sale and issuance by the Department of the Treasury to the public of 
+marketable Treasury bills, notes, and bonds. The uniform offering 
+circular, in conjunction with offering announcements, represents a 
+comprehensive statement of those terms and conditions.\1\ This rule 
+amends the defined term ``public offering'' in section 356.2 and makes 
+an unrelated, administrative correction to paragraph (a) of section 
+356.13 of the uniform offering circular pertaining to the reporting of 
+net long positions.
+---------------------------------------------------------------------------
+
+    \1\ The uniform offering circular was published as a final rule 
+on January 5, 1993 (58 FR 412). Amendments to the circular were 
+published on June 3, 1994 (59 FR 28773), March 15, 1995 (60 FR 
+13906), July 16, 1996 (61 FR 37007), August 23, 1996 (61 FR 43626), 
+October 22, 1996 (61 FR 54908), and January 6, 1997 (62 FR 846).
+---------------------------------------------------------------------------
+
+    The current rules provide that, when the Department issues an 
+offering announcement for a regular Treasury bill auction (i.e., 13-, 
+26-, and 52-week bills), the stated public offering amount of each 
+security issue includes any amounts that would be awarded in the 
+auction to the Federal Reserve Banks for their own account and for the 
+accounts of foreign and international monetary authorities up to the 
+amount of maturing securities held by each. This practice differs from 
+the treatment of these amounts in the announcements and auctions of 
+cash management bills (``CMBs''), notes, and bonds. In these 
+announcements and auctions, the rules provide that the amounts to be 
+awarded to the Federal Reserve Banks for both their own account and for 
+the accounts of foreign and international monetary authorities are in 
+addition to the announced public offering amounts.
+    In a press release dated March 18, 1997, Treasury announced a 
+change in the way bill auctions are announced, beginning with the 
+auction of 52-week bills that were auctioned on March 26, 1997. The 
+press release stated that amounts to be awarded to the Federal Reserve 
+Banks for their own account will be treated as additions to the 
+announced offering amount of Treasury bill auctions. As a result, 
+awards to the Federal Reserve Banks for their own account in bill 
+auctions are now treated as additions to the amount sold to the public. 
+The Department made this change to provide market participants with 
+more complete information and greater certainty as to the supply of 
+bills available to the public in an auction. Awards to the Federal 
+Reserve Banks for their own account in bill auctions will continue to 
+be at the weighted average discount rate of accepted competitive 
+tenders. The treatment of the amount to be awarded to the Federal 
+Reserve Banks for the accounts for foreign and international monetary 
+authorities in regular Treasury bill auctions remains unchanged.
+    Accordingly, to codify this change in determining the public 
+offering amount for auctions of regular Treasury bills, section 356.2 
+of the uniform offering circular is amended by revising the definition 
+of the term ``public offering.'' It is anticipated that the sample 
+announcements of Treasury offerings, found in Exhibit A to Part 356, 
+will be revised to reflect this change once the recent proposed 
+amendments to accommodate three decimal bidding in .005 increments for 
+Treasury bill auctions, as published in the Federal Register on May 5, 
+1997 (62 FR 24375), are finalized.
+    This final rule also makes an unrelated, administrative correction 
+to section 356.13(a). The section is being restated in its entirety to 
+reflect the intent of the revisions to the uniform offering circular 
+that were published on July 16, 1996 (61 FR 37007) and January 6, 1997 
+(62 FR 846). This correction does not involve any substantive changes.
+
+Procedural Requirements
+
+    This final rule does not meet the criteria for a ``significant 
+regulatory action'' pursuant to Executive Order 12866.
+    Because this rule relates to public contracts and procedures for 
+United States securities, the notice, public comment, and delayed 
+effective date provisions of the Administrative Procedure Act are 
+inapplicable, pursuant to U.S.C. 553(a)(2).
+    As no notice of proposed rulemaking is required, the provisions of 
+the Regulatory Flexibility Act (5 U.S.C. 601, et seq.) do not apply.
+    There is no new collection of information contained in this final 
+rule, and, therefore, the Paperwork Reduction Act does not apply. The 
+collections of information of 31 CFR Part 356 have been previously 
+approved by the Office of Management and Budget under section 3507(d) 
+of the Paperwork Reduction Act of 1995 (44 U.S.C. Chapter 35) under 
+control number 1535-0112. Under this Act, an agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid OMB control number.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons set forth in the preamble, 31 CFR Chapter II, 
+Subchapter B, Part 356, is amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+    2. Section 356.2 is amended by revising the definition of ``public 
+offering'' to read as follows:
+
+
+Sec. 356.2  Definitions.
+
+* * * * *
+    Public offering means the par amount of securities offered to the 
+public for purchase in an auction. For all bills except cash management 
+bills, the public offering is the amount specified in the offering 
+announcement, less securities awarded in the auction to the Federal 
+Reserve Banks for the accounts of foreign and international monetary 
+authorities (up to the amount of maturing securities held by such 
+accounts). For notes, bonds, and cash management bills, the public 
+offering is
+
+[[Page 25115]]
+
+the same as the amount specified in the offering announcement.
+* * * * *
+    3. Section 356.13 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec. 356.13  Net long position.
+
+    (a) Reporting net long positions. When bidding competitively, a 
+bidder must report the amount of its net long position when the total 
+of all of its bids in an auction plus the bidder's net long position in 
+the security being auctioned equals or exceeds the net long position 
+reporting threshold amount. The threshold amount for any particular 
+security will be as stated in the offering announcement for that 
+security. (See Sec. 356.10.) That amount will be $2 billion for bills, 
+notes, and bonds unless otherwise stated in the offering announcement. 
+For example, the net long position reporting threshold amount may be 
+less than $2 billion for smaller security offerings, e.g., certain 
+inflation-indexed securities or cash management bills. If the bidder 
+either has no position or has a net short position and the total of all 
+of its bids equals or exceeds the threshold amount, e.g., $2 billion, a 
+net long position of zero must be reported. In cases where a bidder 
+that is required to report the amount of its net long position has more 
+than one bid, the bidder's total net long position should be reported 
+in connection with only one bid. A bidder that is a customer must 
+report its reportable net long position through only one depository 
+institution or dealer. (See Sec. 356.14(c).)
+* * * * *
+    Dated: April 30, 1997.
+Gerald Murphy,
+Fiscal Assistant Secretary.
+[FR Doc. 97-12017 Filed 5-7-97; 8:45 am]
+BILLING CODE 4810-39-M
+
+
+</pre></body>
+</html>

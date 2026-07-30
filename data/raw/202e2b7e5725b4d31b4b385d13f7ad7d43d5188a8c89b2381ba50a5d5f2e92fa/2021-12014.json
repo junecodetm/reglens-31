@@ -1,0 +1,85 @@
+{
+  "abstract": "The Department of the Treasury (Treasury) is issuing this final rule to implement technical changes to the Terrorism Risk Insurance Program (TRIP or Program) rules in response to the Terrorism Risk Insurance Program Reauthorization Act of 2019. In addition, Treasury is issuing this final rule to: Clarify the manner in which Treasury will calculate \"property and casualty insurance losses\" for purposes of considering certification of an act of terrorism, and \"insured losses\" when administering the financial sharing mechanisms under the Program, including the Program Trigger and Program Cap; incorporate into the Program rules the prior guidance provided by Treasury in connection with stand-alone cyber insurance under the Program; and provide updated links to additional information found on the Program's website relating to administration of the Program. The changes were published in proposed form for public comment by Treasury on November 10, 2020.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2021/06/09/2021-12014.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "50",
+      "title": 31
+    }
+  ],
+  "citation": "86 FR 30537",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective July 12, 2021.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2021-12014",
+  "effective_on": "2021-07-12",
+  "end_page": 30541,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2021/06/09/2021-12014.xml",
+  "html_url": "https://www.federalregister.gov/documents/2021/06/09/2021-12014/terrorism-risk-insurance-program-updated-regulations-in-light-of-the-terrorism-risk-insurance",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2021-12014?publication_date=2021-06-09",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2021-06-09/2021-12014/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 5,
+  "page_views": {
+    "count": 2280,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-06-09/pdf/2021-12014.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2021-12014.pdf?1623156320",
+  "publication_date": "2021-06-09",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/06/09/2021-12014.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "agency_id": "TREAS",
+    "checked_regulationsdotgov_at": "2021-06-10T03:30:10Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=TREAS_FRDOC_0001",
+    "docket_id": "TREAS_FRDOC_0001",
+    "document_id": "TREAS_FRDOC_0001-0392",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Financial Crimes Enforcement Network; Anti-Money Laundering Programs; Special Due Diligence Programs for Certain Foreign Accounts  RULES"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 30537,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program; Updated Regulations in Light of the Terrorism Risk Insurance Program Reauthorization Act of 2019, and for Other Purposes",
+  "toc_doc": "Updated Regulations in Light of the Terrorism Risk Insurance Program Reauthorization Act of 2019, and for Other Purposes",
+  "toc_subject": "Terrorism Risk Insurance Program:\n",
+  "topics": [
+    "Insurance",
+    "Terrorism"
+  ],
+  "type": "Rule",
+  "volume": 86
+}

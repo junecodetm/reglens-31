@@ -1,0 +1,1134 @@
+<html>
+<head>
+<title>Federal Register, Volume 62 Issue 195 (Wednesday, October 8, 1997)</title>
+</head>
+<body><pre>[Federal Register Volume 62, Number 195 (Wednesday, October 8, 1997)]
+[Rules and Regulations]
+[Pages 52493-52501]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 97-26787]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501 and 597
+
+
+Reporting and Procedures Regulations; Foreign Terrorist 
+Organizations Sanctions Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control is issuing the Foreign 
+Terrorist Organizations Sanctions Regulations to implement sections 302 
+and 303 of the Antiterrorism and Effective Death Penalty Act as they 
+relate to the Treasury Department. Conforming and technical amendments 
+are made to the Reporting and Procedures Regulations.
+
+EFFECTIVE DATE: October 6, 1997.
+
+FOR FURTHER INFORMATION CONTACT: Office of Foreign Assets Control, 
+Department of the Treasury, Washington, DC 20220; tel.: 202/622-2520.
+
+SUPPLEMENTARY INFORMATION: 
+
+Electronic and Facsimile Availability
+
+    This document is available as an electronic file on The Federal 
+Bulletin Board the day of publication in the Federal Register. By 
+modem, dial 202/512-1387 and type ``/GO FAC,'' or call 202/512-1530 for 
+disk or paper copies. This file is available for downloading without 
+charge in WordPerfect 5.1, ASCII, and Adobe Acrobat<SUP>TM</SUP> 
+readable (*.PDF) formats. For Internet access, the address for use with 
+the World Wide Web (Home Page), Telnet, or FTP protocol is: 
+fedbbs.access.gpo.gov. The document is also accessible for downloading 
+in ASCII format without charge from Treasury's Electronic Library 
+(``TEL'') in the ``Business, Trade and Labor Mall'' of the FedWorld 
+bulletin board. By modem, dial 703/321-3339, and select the appropriate 
+self-expanding file in TEL. For Internet access, use one of the 
+following protocols: Telnet = fedworld.gov (192.239.93.3); World Wide 
+Web (Home
+
+[[Page 52494]]
+
+Page) = <a href="http://www.fedworld.gov">http://www.fedworld.gov</a>; FTP = ftp.fedworld.gov 
+(192.239.92.205). Additional information concerning the programs of the 
+Office of Foreign Assets Control (``OFAC'') is available for 
+downloading from OFAC's Internet Home Page: <a href="http://www.ustreas.gov/
+treasury/services/fac/fac.html">http://www.ustreas.gov/
+treasury/services/fac/fac.html</a>, or in fax form through OFAC's 24-hour 
+fax-on-demand service: call 202/622-0077 using a fax machine, fax 
+modem, or (within the United States) a touch-tone telephone.
+
+Background
+
+    On April 24, 1996, President Clinton signed into law the 
+Antiterrorism and Effective Death Penalty Act of 1996, Pub. L. 104-132, 
+110 Stat. 1214-1319 (the ``Act''). Section 302 of the Act (new 8 U.S.C. 
+1189) authorizes the Secretary of State, in consultation with the 
+Secretary of the Treasury and the Attorney General, to designate 
+organizations meeting stated requirements as foreign terrorist 
+organizations, with prior notification to Congress of the intent to 
+designate. Upon that notification to Congress, the Secretary of the 
+Treasury may require U.S. financial institutions to block financial 
+transactions involving assets in their possession or control of the 
+foreign organizations proposed for designation.
+    Section 303 of the Act (new 18 U.S.C. 2339B) prohibits persons 
+within the United States or subject to U.S. jurisdiction from knowingly 
+providing material support or resources to a designated foreign 
+terrorist organization, and makes violations punishable by criminal 
+penalties under title 18, United States Code. Additionally, except as 
+authorized by the Treasury Department, financial institutions in 
+possession or control of funds in which a foreign terrorist 
+organization or its agent has an interest are required to block such 
+funds and file reports in accordance with Treasury Department 
+regulations. Financial institutions in violation of 18 U.S.C. 
+2339B(a)(2) are subject to civil penalties administered by the Treasury 
+Department. In implementation of sections 302 and 303 and the statutory 
+purpose stated in section 301, the Treasury Department is issuing the 
+Foreign Terrorist Organizations Sanctions Regulations (the 
+``Regulations'').
+    Transactions otherwise prohibited under this part but found to be 
+consistent with U.S. policy may be authorized by a general license 
+contained in subpart E or by a specific license issued pursuant to the 
+procedures described in subpart D of part 501 of this chapter. 
+Penalties for violations of the Regulations are described in subpart G.
+    Conforming and technical amendments are also made to the Reporting 
+and Procedures Regulations, 31 CFR Part 501. Since the Regulations 
+involve a foreign affairs function, the provisions of Executive Order 
+12866 and the Administrative Procedure Act (5 U.S.C. 553), requiring 
+notice of proposed rulemaking, opportunity for public participation, 
+and delay in effective date, are inapplicable. Because no notice of 
+proposed rulemaking is required for this rule, the Regulatory 
+Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The Regulations are being issued without prior notice and public 
+comment procedure pursuant to the Administrative Procedure Act (5 
+U.S.C. 553). The collections of information related to the Regulations 
+are contained in part 501 of this chapter (the ``Reporting and 
+Procedures Regulations''). Pursuant to the Paperwork Reduction Act of 
+1995 (44 U.S.C. 3507), those collections of information have been 
+approved by the Office of Management and Budget (``OMB'') under control 
+number 1505-0164. An agency may not conduct or sponsor, and a person is 
+not required to respond to, a collection of information unless the 
+collection of information displays a valid control number.
+
+List of Subjects
+
+31 CFR Part 501
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign trade, Reporting and recordkeeping requirements
+
+31 CFR Part 597
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign terrorist organizations, Penalties, Reporting and 
+recordkeeping requirements, Terrorism, Transfer of assets.
+
+    For the reasons set forth in the preamble, 31 CFR chapter V is 
+amended as follows:
+
+PART 501--REPORTING AND PROCEDURES REGULATIONS
+
+    1. The authority citation for part 501 continues to read as 
+follows:
+
+    Authority: 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 U.S.C. 1701-
+1706; 50 U.S.C. App. 1-44.
+
+    2. Section 501.101 is revised to read as follows:
+
+
+Sec. 501.101  Relation of this part to other parts in this chapter.
+
+    This part sets forth standard reporting and recordkeeping 
+requirements and license application and other procedures governing 
+transactions regulated pursuant to other parts codified in this 
+chapter, as well as to economic sanctions programs for which 
+implementation and administration are delegated to the Office of 
+Foreign Assets Control. Substantive prohibitions and policies 
+particular to each economic sanctions program are not contained in this 
+part but are set forth in the particular part of this chapter dedicated 
+to that program, or, in the case of economic sanctions programs not yet 
+implemented in regulations, in the applicable executive order or other 
+authority. License application procedures and reporting requirements 
+set forth in this part govern transactions undertaken pursuant to 
+general or specific licenses. The criteria for general and specific 
+licenses pertaining to a particular economic sanctions program are set 
+forth in subpart E of the individual parts in this chapter. Statements 
+of licensing policy contained in subpart E of the individual parts in 
+this chapter, however, may contain additional information collection 
+provisions that require production of specified documentation unique to 
+a given general license or statement of licensing policy.
+
+    3. The following note is added to the end of Sec. 501.601 to read 
+as follows:
+
+    Note: See subpart F of part 597 for the relationship between 
+this section and part 597.
+
+    4. Section 501.602 is amended by revising the last sentence to read 
+as follows, and by adding the following note to the end of the section:
+
+Sec. 501.602  Reports to be furnished on demand.
+
+    * * * Except as provided in parts 596 and 597, the Director may, 
+through any person or agency, conduct investigations, hold hearings, 
+administer oaths, examine witnesses, receive evidence, take 
+depositions, and require by subpoena the attendance and testimony of 
+witnesses and the production of all books, papers, and documents 
+relating to any matter under investigation, regardless of whether any 
+report has been required or filed in connection therewith.
+    Note: See subpart F of part 597 for the relationship between 
+this section and part 597.
+
+    5. The following note is added to the end of Sec. 501.603 to read 
+as follows:
+
+
+[[Page 52495]]
+
+
+    Note: See subpart F of part 597 for the relationship between 
+this section and part 597.
+
+    6. Section 501.806 is amended by revising paragraph (b) to read as 
+follows:
+
+
+Sec. 501.806  Procedures for unblocking funds believed to have been 
+blocked due to mistaken identity.
+
+* * * * *
+    (b) Requests to release funds which a party believes to have been 
+blocked due to mistaken identity must be made in writing and addressed 
+to the Office of Foreign Assets Control, Compliance Programs Division, 
+1500 Pennsylvania Avenue, NW--Annex, Washington, DC 20220, or sent by 
+facsimile transmission to the Compliance Programs Division at 202/622-
+1657.
+* * * * *
+
+    7. Section 501.807 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec. 501.807  Procedures governing removal of names from appendices A, 
+B, and C to this chapter.
+
+* * * * *
+    (a) A specially designated national (``SDN''), specially designated 
+terrorist (``SDT''), specially designated narcotics trafficker 
+(``SDNT''), or an agent of a foreign terrorist organization (``AFTO'') 
+(collectively, a ``designated person''), or a person owning a majority 
+interest in a blocked vessel, may request disclosure of the factual 
+basis for designation and, subject to the limitations contained in 
+paragraph (c) of this section, review factual materials relied upon by 
+the Office of Foreign Assets Control in designating the person or 
+vessel.
+
+    8. Part 597 is added to read as follows:
+
+PART 597--FOREIGN TERRORIST ORGANIZATIONS SANCTIONS REGULATIONS
+
+Subpart A--Relation of This Part to Other Laws and Regulations
+
+Sec.
+597.101 Relation of this part to other laws and regulations.
+
+Subpart B--Prohibitions
+
+597.201 Prohibited transactions involving blocked assets or funds of 
+foreign terrorist organizations or their agents.
+597.202 Effect of transfers violating the provisions of this part.
+597.203 Holding of funds in interest-bearing accounts; investment 
+and reinvestment.
+597.204 Evasions; attempts; conspiracies.
+
+Subpart C--General Definitions
+
+597.301 Agent.
+597.302 Assets.
+597.303 Blocked account; blocked funds.
+597.304 Designation.
+597.305 Effective date.
+597.306 Entity.
+597.307 Financial institution.
+597.308 Financial transaction.
+597.309 Foreign terrorist organization.
+597.310 Funds.
+597.311 General license.
+597.312 Interest.
+597.313 License.
+597.314 Person.
+597.315 Specific license.
+597.316 Transaction.
+597.317 Transfer.
+597.318 United States.
+597.319 U.S. financial institution.
+
+Subpart D--Interpretations
+
+597.401 Reference to amended sections.
+597.402 Effect of amendment.
+597.403 Termination and acquisition of an interest in blocked funds.
+597.404 Setoffs prohibited.
+597.405 Transactions incidental to a licensed transaction.
+597.406 Offshore transactions.
+
+Subpart E--Licenses, Authorizations and Statements of Licensing Policy
+
+597.501 Effect of license or authorization.
+597.502 Exclusion from licenses and authorizations.
+597.503 Payments and transfers to blocked accounts in U.S. financial 
+institutions.
+597.504 Entries in certain accounts for normal service charges 
+authorized.
+597.505 Payment for certain legal services.
+
+Subpart F--Reports
+
+597.601 Records and reports.
+
+Subpart G--Penalties
+
+597.701 Penalties.
+597.702 Prepenalty notice.
+597.703 Response to prepenalty notice.
+597.704 Penalty notice.
+597.705 Administrative collection; referral to United States 
+Department of Justice.
+
+Subpart H--Procedures
+
+597.801 Procedures.
+597.802 Delegation by the Secretary of the Treasury.
+
+Subpart I--Paperwork Reduction Act
+
+597.901 Paperwork Reduction Act notice.
+
+    Authority: 31 U.S.C. 321(b); Pub. L. 104-132, 110 Stat. 1214, 
+1248-53 (8 U.S.C. 1189, 18 U.S.C. 2339B).
+
+Subpart A--Relation of This Part to Other Laws andRegulations
+
+
+Sec. 597.101  Relation of this part to other laws and regulations.
+
+    (a) This part is separate from, and independent of, the other parts 
+of this chapter, with the exception of part 501 of this chapter, the 
+recordkeeping and reporting requirements and license application and 
+other procedures of which apply to this part. Differing statutory 
+authority and foreign policy and national security contexts may result 
+in differing interpretations of similar language among the parts of 
+this chapter. No license or authorization contained in or issued 
+pursuant to those other parts authorizes any transaction prohibited by 
+this part. No license or authorization contained in or issued pursuant 
+to any other provision of law or regulation authorizes any transaction 
+prohibited by this part.
+    (b) No license or authorization contained in or issued pursuant to 
+this part relieves the involved parties from complying with any other 
+applicable laws or regulations. This part does not implement, construe, 
+or limit the scope of any other part of this chapter, including (but 
+not limited to) the Terrorism Sanctions Regulations, part 595 of this 
+chapter, and does not excuse any person from complying with any other 
+part of this chapter, including (but not limited to) part 595 of this 
+chapter.
+    (c) This part does not implement, construe, or limit the scope of 
+any criminal statute, including (but not limited to) 18 U.S.C. 
+2339B(a)(1) and 2339A, and does not excuse any person from complying 
+with any criminal statute, including (but not limited to) 18 U.S.C. 
+2339B(a)(1) and 18 U.S.C. 2339A.
+
+Subpart B--Prohibitions
+
+
+Sec. 597.201  Prohibited transactions involving blocked assets or funds 
+of foreign terrorist organizations or their agents.
+
+    (a) Upon notification to Congress of the Secretary of State's 
+intent to designate an organization as a foreign terrorist organization 
+pursuant to 8 U.S.C. 1189(a), until the publication in the Federal 
+Register as described in paragraph (c) of this section, any U.S. 
+financial institution receiving notice from the Secretary of the 
+Treasury by means of order, directive, instruction, regulation, ruling, 
+license, or otherwise shall, except as otherwise provided in such 
+notice, block all financial transactions involving any assets of such 
+organization within the possession or control of such U.S. financial 
+institution until further directive from the Secretary of the Treasury, 
+Act of Congress, or order of court.
+    (b) Except as otherwise authorized by order, directive, 
+instruction, regulation, ruling, license, or otherwise, from and after 
+the designation of an organization as a foreign terrorist organization 
+pursuant to 8 U.S.C. 1189(a), any U.S. financial institution that 
+becomes aware that it has possession of or control over any funds in 
+which the designated foreign terrorist organization or its agent has an 
+interest shall:
+    (1) Retain possession of or maintain control over such funds; and
+    (2) Report to the Secretary of the Treasury the existence of such 
+funds in accordance with Sec. 501.603 of this chapter.
+
+[[Page 52496]]
+
+    (c) Publication in the Federal Register of the designation of an 
+organization as a foreign terrorist organization pursuant to 8 U.S.C. 
+1189(a) shall be deemed to constitute a further directive from the 
+Secretary of the Treasury for purposes of paragraph (a) of this 
+section, and shall require the actions contained in paragraph (b) of 
+this section.
+    (d) The requirements of paragraph (b) of this section shall remain 
+in effect until the effective date of an administrative, judicial, or 
+legislative revocation of the designation of an organization as a 
+foreign terrorist organization, or until the designation lapses, 
+pursuant to 8 U.S.C. 1189.
+    (e) When a transaction results in the blocking of funds at a 
+financial institution pursuant to this section and a party to the 
+transaction believes the funds have been blocked due to mistaken 
+identity, that party may seek to have such funds unblocked pursuant to 
+the administrative procedures set forth in Sec. 501.806 of this 
+chapter. Requests for the unblocking of funds pursuant to Sec. 501.806 
+must be submitted to the attention of the Compliance Programs Division.
+
+
+Sec. 597.202  Effect of transfers violating the provisions of this 
+part.
+
+    (a) Any transfer after the effective date which is in violation of 
+Sec. 597.201 or any other provision of this part or of any regulation, 
+order, directive, ruling, instruction, license, or other authorization 
+hereunder and involves any funds or assets held in the name of a 
+foreign terrorist organization or its agent or in which a foreign 
+terrorist organization or its agent has or has had an interest since 
+such date, is null and void and shall not be the basis for the 
+assertion or recognition of any interest in or right, remedy, power or 
+privilege with respect to such funds or assets.
+    (b) No transfer before the effective date shall be the basis for 
+the assertion or recognition of any right, remedy, power, or privilege 
+with respect to, or interest in, any funds or assets held in the name 
+of a foreign terrorist organization or its agent or in which a foreign 
+terrorist organization or its agent has an interest, or has had an 
+interest since such date, unless the financial institution with whom 
+such funds or assets are held or maintained, prior to such date, had 
+written notice of the transfer or by any written evidence had 
+recognized such transfer.
+    (c) Unless otherwise provided, an appropriate license or other 
+authorization issued by or pursuant to the direction or authorization 
+of the Director of the Office of Foreign Assets Control before, during, 
+or after a transfer shall validate such transfer or render it 
+enforceable to the same extent that it would be valid or enforceable 
+but for the provisions of this part, and any regulation, order, 
+directive, ruling, instruction, or license issued hereunder.
+    (d) Transfers of funds or assets which otherwise would be null and 
+void or unenforceable by virtue of the provisions of this section shall 
+not be deemed to be null and void or unenforceable as to any financial 
+institution with whom such funds or assets were held or maintained (and 
+as to such financial institution only) in cases in which such financial 
+institution is able to establish to the satisfaction of the Director of 
+the Office of Foreign Assets Control each of the following:
+    (1) Such transfer did not represent a willful violation of the 
+provisions of this part by the financial institution with whom such 
+funds or assets were held or maintained;
+    (2) The financial institution with which such funds or assets were 
+held or maintained did not have reasonable cause to know or suspect, in 
+view of all the facts and circumstances known or available to such 
+institution, that such transfer required a license or authorization by 
+or pursuant to this part and was not so licensed or authorized, or if a 
+license or authorization did purport to cover the transfer, that such 
+license or authorization had been obtained by misrepresentation of a 
+third party or the withholding of material facts or was otherwise 
+fraudulently obtained; and
+    (3) The financial institution with which such funds or assets were 
+held or maintained filed with the Office of Foreign Assets Control a 
+report setting forth in full the circumstances relating to such 
+transfer promptly upon discovery that:
+    (i) Such transfer was in violation of the provisions of this part 
+or any regulation, ruling, instruction, license, or other direction or 
+authorization hereunder; or
+    (ii) Such transfer was not licensed or authorized by the Director 
+of the Office of Foreign Assets Control; or
+    (iii) If a license did purport to cover the transfer, such license 
+had been obtained by misrepresentation of a third party or the 
+withholding of material facts or was otherwise fraudulently obtained.
+    Note to paragraph (d): The filing of a report in accordance with 
+the provisions of paragraph (d)(3) of this section shall not be 
+deemed evidence that the terms of paragraphs (d)(1) and (2) of this 
+section have been satisfied.
+    (e) Except for exercises of judicial authority pursuant to 8 U.S.C. 
+1189(b), unless licensed or authorized pursuant to this part, any 
+attachment, judgment, decree, lien, execution, garnishment, or other 
+judicial process is null and void with respect to any funds or assets 
+which, on or since the effective date, were in the possession or 
+control of a U.S. financial institution and were held in the name of a 
+foreign terrorist organization or its agent or in which there existed 
+an interest of a foreign terrorist organization or its agent.
+
+
+Sec. 597.203  Holding of funds in interest-bearing accounts; investment 
+and reinvestment.
+
+    (a) Except as provided in paragraph (c) of this section, or as 
+otherwise directed by the Office of Foreign Assets Control, any U.S. 
+financial institution holding funds subject to Sec. 597.201(b) shall 
+hold or place such funds in a blocked interest-bearing account which is 
+in the name of the foreign terrorist organization or its agent and 
+which is located in the United States.
+    (b)(1) For purposes of this section, the term interest-bearing 
+account means a blocked account:
+    (i) in a federally-insured U.S. bank, thrift institution, or credit 
+union, provided the funds are earning interest at rates which are 
+commercially reasonable for the amount of funds in the account or 
+certificate of deposit; or
+    (ii) with a broker or dealer registered with the Securities and 
+Exchange Commission under the Securities Exchange Act of 1934, provided 
+the funds are invested in a money market fund or in U.S. Treasury 
+Bills.
+    (2) Funds held or placed in a blocked interest-bearing account 
+pursuant to this paragraph may not be invested in instruments the 
+maturity of which exceeds 180 days. If interest is credited to a 
+separate blocked account or sub-account, the name of the account party 
+on each account must be the same and must clearly indicate the foreign 
+terrorist organization or agent having an interest in the accounts.
+    (c) Blocked funds held as of the effective date in the form of 
+stocks, bonds, debentures, letters of credit, or instruments which 
+cannot be negotiated for the purpose of placing the funds in a blocked 
+interest-bearing account pursuant to paragraph (a) may continue to be 
+held in the form of the existing security or instrument until 
+liquidation or maturity, provided that any dividends, interest income, 
+or other proceeds derived therefrom are paid into a blocked interest-
+bearing account in accordance with the requirements of this section.
+    (d) Funds subject to this section may not be held, invested, or 
+reinvested in
+
+[[Page 52497]]
+
+a manner in which an immediate financial or economic benefit or access 
+accrues to the foreign terrorist organization or its agent.
+
+
+Sec. 597.204  Evasions; attempts; conspiracies.
+
+    Any transaction for the purpose of, or which has the effect of, 
+evading or avoiding, or which facilitates the evasion or avoidance of, 
+any of the prohibitions set forth in this part, is hereby prohibited. 
+Any attempt to violate the prohibitions set forth in this part is 
+hereby prohibited. Any conspiracy formed for the purpose of engaging in 
+a transaction prohibited by this part is hereby prohibited.
+
+Subpart C--General Definitions
+
+
+Sec. 597.301  Agent.
+
+    (a) The term agent means:
+    (1) Any person owned or controlled by a foreign terrorist 
+organization; or
+    (2) Any person to the extent that such person is, or has been, or 
+to the extent that there is reasonable cause to believe that such 
+person is, or has been, since the effective date, acting or purporting 
+to act directly or indirectly on behalf of a foreign terrorist 
+organization.
+    (b) The term agent includes, but is not limited to, any person 
+determined by the Director of the Office of Foreign Assets Control to 
+be an agent as defined in paragraph (a) of this section.
+    Note to Sec. 597.301: Please refer to the appendices at the end 
+of this chapter for listings of persons designated as foreign 
+terrorist organizations or their agents. Section 501.807 of this 
+chapter sets forth the procedures to be followed by a person seeking 
+administrative reconsideration of a designation as an agent, or who 
+wishes to assert that the circumstances resulting in the designation 
+as an agent are no longer applicable.
+
+
+Sec. 597.302  Assets.
+
+    The term assets includes, but is not limited to, money, checks, 
+drafts, bullion, bank deposits, savings accounts, debts, indebtedness, 
+obligations, notes, guarantees, debentures, stocks, bonds, coupons, any 
+other financial instruments, bankers acceptances, mortgages, pledges, 
+liens or other rights in the nature of security, warehouse receipts, 
+bills of lading, trust receipts, bills of sale, any other evidences of 
+title, ownership or indebtedness, letters of credit and any documents 
+relating to any rights or obligations thereunder, powers of attorney, 
+goods, wares, merchandise, chattels, stocks on hand, ships, goods on 
+ships, real estate mortgages, deeds of trust, vendors' sales 
+agreements, land contracts, leaseholds, ground rents, real estate and 
+any other interest therein, options, negotiable instruments, trade 
+acceptances, royalties, book accounts, accounts payable, judgments, 
+patents, trademarks or copyrights, insurance policies, safe deposit 
+boxes and their contents, annuities, pooling agreements, services of 
+any nature whatsoever, contracts of any nature whatsoever, and any 
+other property, real, personal, or mixed, tangible or intangible, or 
+interest or interests therein, present, future or contingent.
+
+
+Sec. 597.303  Blocked account; blocked funds.
+
+    The terms blocked account and blocked funds shall mean any account 
+or funds subject to the prohibitions in Sec. 597.201 held in the name 
+of a foreign terrorist organization or its agent or in which a foreign 
+terrorist organization or its agent has an interest, and with respect 
+to which payments, transfers, exportations, withdrawals, or other 
+dealings may not be made or effected except pursuant to an 
+authorization or license from the Office of Foreign Assets Control 
+authorizing such action.
+
+
+Sec. 597.304  Designation.
+
+    The term designation includes both the designation and 
+redesignation of a foreign terrorist organization pursuant to 8 U.S.C. 
+1189.
+
+
+Sec. 597.305  Effective date.
+
+    Except as that term is used in Sec. 597.201(d), the term effective 
+date refers to the effective date of the applicable prohibitions and 
+directives contained in this part which is October 6, 1997, or, in the 
+case of foreign terrorist organizations designated after that date and 
+their agents, the earlier of the date on which a financial institution 
+receives actual or constructive notice of such designation or of the 
+Secretary of Treasury's exercise of his authority to block financial 
+transactions pursuant to 8 U.S.C. 1189(a)(2)(C) and Sec. 597.201(a).
+
+
+Sec. 597.306  Entity.
+
+    The term entity includes a partnership, association, corporation, 
+or other organization, group, or subgroup.
+
+
+Sec. 597.307  Financial institution.
+
+    The term financial institution shall have the definition given that 
+term in 31 U.S.C. 5312(a)(2) as from time to time amended, 
+notwithstanding the definition of that term in 31 CFR part 103.
+    Note: The breadth of the statutory definition of financial 
+institution precludes its reproduction in this section. Among the 
+types of businesses covered are insured banks (as defined in 12 
+U.S.C. 1813(h)), commercial banks or trust companies, private 
+bankers, agencies or branches of a foreign bank in the United 
+States, insured institutions (as defined in 12 U.S.C. 1724(a)), 
+thrift institutions, brokers or dealers registered with the 
+Securities and Exchange Commission under 15 U.S.C. 78a et seq., 
+securities or commodities brokers and dealers, investment bankers or 
+investment companies, currency exchanges, issuers, redeemers, or 
+cashiers of traveler's checks, checks, money orders, or similar 
+instruments, credit card system operators, insurance companies, 
+dealers in precious metals, stones or jewels, pawnbrokers, loan or 
+finance companies, travel agencies, licensed senders of money, 
+telegraph companies, businesses engaged in vehicle sales, including 
+automobile, airplane or boat sales, persons involved in real estate 
+closings and settlements, the United States Postal Service, a 
+casino, gambling casino, or gaming establishment with an annual 
+gaming revenue of more than $1,000,000 as further described in 31 
+U.S.C. 5312(a)(2), or agencies of the United States Government or of 
+a State or local government carrying out a duty or power of any of 
+the businesses described in 31 U.S.C. 5312(a)(2).
+
+
+Sec. 597.308  Financial transaction.
+
+    The term financial transaction means a transactioninvolving the 
+transfer or movement of funds, whether by wire or other means.
+
+
+Sec. 597.309  Foreign terrorist organization.
+
+    The term foreign terrorist organization means an organization 
+designated or redesignated as a foreign terrorist organization, or with 
+respect to which the Secretary of State has notified Congress of the 
+intention to designate as a foreign terrorist organization, under 8 
+U.S.C. 1189(a).
+
+
+Sec. 597.310  Funds.
+
+    The term funds includes coin or currency of the United States or 
+any other country, traveler's checks, personal checks, bank checks, 
+money orders, stocks, bonds, debentures, drafts, letters of credit, any 
+other negotiable instrument, and any electronic representation of any 
+of the foregoing. An electronic representation of any of the foregoing 
+includes any form of digital or electronic cash, coin, or currency in 
+use currently or placed in use in the future.
+
+
+Sec. 597.311  General license.
+
+    The term general license means any license or authorization the 
+terms of which are set forth in this part.
+
+
+Sec. 597.312  Interest.
+
+    Except as otherwise provided in this part, the term interest when 
+used with respect to funds or assets (e.g., ``an interest in funds'') 
+means an interest of any nature whatsoever, direct or indirect.
+
+[[Page 52498]]
+
+Sec. 597.313  License.
+
+    Except as otherwise specified, the term license means any license 
+or authorization contained in or issued pursuant to this part.
+
+
+Sec. 597.314  Person.
+
+    The term person means an individual or entity.
+
+
+Sec. 597.315  Specific license.
+
+    The term specific license means any license or authorization not 
+set forth in this part but issued pursuant to this part.
+
+
+Sec. 597.316  Transaction.
+
+    The term transaction shall have the meaning set forth in 18 U.S.C. 
+1956(c)(3), as from time to time amended. As of the effective date, 
+this term includes a purchase, sale, loan, pledge, gift, transfer, 
+delivery, or other disposition of any asset, and with respect to a 
+financial institution includes a deposit, withdrawal, transfer between 
+accounts, exchange of currency, loan, extension of credit, purchase or 
+sale of any stock, bond, certificate of deposit, or other monetary 
+instrument, use of a safe deposit box, or any other payment, transfer, 
+or delivery by, through, or to a financial institution, by whatever 
+means effected.
+
+
+Sec. 597.317  Transfer.
+
+    The term transfer means any actual or purported act or transaction, 
+whether or not evidenced by writing, and whether or not done or 
+performed within the United States, the purpose, intent, or effect of 
+which is to create, surrender, release, convey, transfer, or alter, 
+directly or indirectly, any right, remedy, power, privilege, or 
+interest with respect to any property and, without limitation upon the 
+foregoing, shall include the making, execution, or delivery of any 
+assignment, power, conveyance, check, declaration, deed, deed of trust, 
+power of attorney, power of appointment, bill of sale, mortgage, 
+receipt, agreement, contract, certificate, gift, sale, affidavit, or 
+statement; the making of any payment; the setting off of any obligation 
+or credit; the appointment of any agent, trustee, or fiduciary; the 
+creation or transfer of any lien; the issuance, docketing, filing, or 
+levy of or under any judgment, decree, attachment, injunction, 
+execution, or other judicial or administrative process or order, or the 
+service of any garnishment; the acquisition of any interest of any 
+nature whatsoever by reason of a judgment or decree of any foreign 
+country; the fulfillment of any condition; the exercise of any power of 
+appointment, power of attorney, or other power; or the acquisition, 
+disposition, transportation, importation, exportation, or withdrawal of 
+any security.
+
+
+Sec. 597.318  United States.
+
+    The term United States means the United States, its territories, 
+states, commonwealths, districts, and possessions, and all areas under 
+the jurisdiction or authority thereof.
+
+
+Sec. 597.319  U.S. financial institution.
+
+    The term U.S. financial institution means:
+    (a) Any financial institution organized under the laws of the 
+United States, including such financial institution's foreign branches;
+    (b) Any financial institution operating or doing business in the 
+United States; or
+    (c) Those branches, offices and agencies of foreign financial 
+institutions which are located in the United States, but not such 
+foreign financial institutions' other foreign branches, offices, or 
+agencies.
+
+Subpart D--Interpretations
+
+
+Sec. 597.401  Reference to amended sections.
+
+    Except as otherwise specified, reference to any section of this 
+part or to any regulation, ruling, order, instruction, direction, or 
+license issued pursuant to this part shall be deemed to refer to the 
+same as currently amended.
+
+
+Sec. 597.402  Effect of amendment.
+
+    Any amendment, modification, or revocation of any section of this 
+part or of any order, regulation, ruling, instruction, or license 
+issued by or under the direction of the Director of the Office of 
+Foreign Assets Control shall not, unless otherwise specifically 
+provided, be deemed to affect any act done or omitted to be done, or 
+any civil or criminal suit or proceeding commenced or pending prior to 
+such amendment, modification, or revocation. All penalties, 
+forfeitures, and liabilities under any such order, regulation, ruling, 
+instruction, or license shall continue and may be enforced as if such 
+amendment, modification, or revocation had not been made.
+
+
+Sec. 597.403  Termination and acquisition of an interest in blocked 
+funds.
+
+    (a) Whenever a transaction licensed or authorized by or pursuant to 
+this part results in the transfer of funds (including any interest in 
+funds) away from a foreign terrorist organization or its agent, such 
+funds shall no longer be deemed to be funds in which the foreign 
+terrorist organization or its agent has or has had an interest, or 
+which are held in the name of a foreign terrorist organization or its 
+agent, unless there exists in the funds another interest of a foreign 
+terrorist organization or its agent, the transfer of which has not been 
+effected pursuant to license or other authorization.
+    (b) Unless otherwise specifically provided in a license or 
+authorization issued pursuant to this part, if funds (including any 
+interest in funds) are or at any time since the effective date have 
+been held by a foreign terrorist organization or its agent, or at any 
+time thereafter are transferred or attempted to be transferred to a 
+foreign terrorist organization or its agent, including by the making of 
+any contribution to or for the benefit of a foreign terrorist 
+organization or its agent, such funds shall be deemed to be funds in 
+which there exists an interest of the foreign terrorist organization or 
+its agent.
+
+
+Sec. 597.404  Setoffs prohibited.
+
+    A setoff against blocked funds (including a blocked account) by a 
+U.S. financial institution is a prohibited transaction under 
+Sec. 597.201 if effected after the effective date.
+
+
+Sec. 597.405  Transactions incidental to a licensed transaction.
+
+    Any transaction ordinarily incident to a licensed transaction and 
+necessary to give effect thereto is also authorized, except a 
+transaction by an unlicensed, foreign terrorist organization or its 
+agent or involving a debit to a blocked account or a transfer of 
+blocked funds not explicitly authorized within the terms of the 
+license.
+
+
+Sec. 597.406  Offshore transactions.
+
+    The prohibitions contained in Sec. 597.201 apply to transactions by 
+U.S. financial institutions in locations outside the United States with 
+respect to funds or assets which the U.S. financial institution knows, 
+or becomes aware, are held in the name of a foreign terrorist 
+organization or its agent, or in which the U.S. financial institution 
+knows, or becomes aware that, a foreign terrorist organization or its 
+agent has or has had an interest since the effective date.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec. 597.501  Effect of license or authorization.
+
+    (a) No license or other authorization contained in this part, or 
+otherwise issued by or under the direction of the Director of the 
+Office of Foreign Assets Control, shall be deemed to authorize or 
+validate any transaction effected prior to
+
+[[Page 52499]]
+
+the issuance of the license, unless specifically provided in such 
+license or authorization.
+    (b) No regulation, ruling, instruction, or license authorizes any 
+transaction prohibited under this part unless the regulation, ruling, 
+instruction, or license is issued by the Office of Foreign Assets 
+Control and specifically refers to this part. No regulation, ruling, 
+instruction, or license referring to this part shall be deemed to 
+authorize any transaction prohibited by any provision of this chapter 
+unless the regulation, ruling, instruction or license specifically 
+refers to such provision.
+    (c) Any regulation, ruling, instruction, or license authorizing any 
+transaction otherwise prohibited under this part has the effect of 
+removing a prohibition or prohibitions contained in this part from the 
+transaction, but only to the extent specifically stated by its terms. 
+Unless the regulation, ruling, instruction, or license otherwise 
+specifies, such an authorization does not create any right, duty, 
+obligation, claim, or interest in, or with respect to, any property 
+which would not otherwise exist under ordinary principles of law.
+
+
+Sec. 597.502  Exclusion from licenses and authorizations.
+
+    The Director of the Office of Foreign Assets Control reserves the 
+right to exclude any person, property, or transaction from the 
+operation of any license, or from the privileges therein conferred, or 
+to restrict the applicability thereof with respect to particular 
+persons, property, transactions, or classes thereof. Such action shall 
+be binding upon all persons receiving actual or constructive notice of 
+such exclusion or restriction.
+
+
+Sec. 597.503  Payments and transfers to blocked accounts in U.S. 
+financial institutions.
+
+    (a) Any payment of funds or transfer of credit or other financial 
+or economic resources or assets by a financial institution into a 
+blocked account in a U.S. financial institution is authorized, provided 
+that a transfer from a blocked account pursuant to this authorization 
+may only be made to another blocked account held in the same name on 
+the books of the same U.S. financial institution.
+    (b) This section does not authorize any transfer from a blocked 
+account within the United States to an account held outside the United 
+States.
+    Note to Sec. 597.503: Please refer to Secs. 501.603 and 597.601 
+of this chapter for mandatory reporting requirements regarding 
+financial transfers.
+
+
+Sec. 597.504  Entries in certain accounts for normal service charges 
+authorized.
+
+    (a) U.S. financial institutions are hereby authorized to debit any 
+blocked account with such U.S. financial institution in payment or 
+reimbursement for normal service charges owed to such U.S. financial 
+institution by the owner of such blocked account.
+    (b) As used in this section, the term normal service charge shall 
+include charges in payment or reimbursement for interest due; cable, 
+telegraph, or telephone charges; postage costs; custody fees; small 
+adjustment charges to correct bookkeeping errors; and, but not by way 
+of limitation, minimum balance charges, notary and protest fees, and 
+charges for reference books, photostats, credit reports, transcripts of 
+statements, registered mail insurance, stationery and supplies, check 
+books, and other similar items.
+
+
+Sec. 597.505  Payment for certain legal services.
+
+    Specific licenses may be issued, on a case-by-case basis, 
+authorizing receipt of payment of professional fees and reimbursement 
+of incurred expenses through a U.S. financial institution for the 
+following legal services by U.S. persons:
+    (a) Provision of legal advice and counseling to a foreign terrorist 
+organization or an agent thereof on the requirements of and compliance 
+with the laws of any jurisdiction within the United States, provided 
+that such advice and counseling is not provided to facilitate 
+transactions in violation of any of the prohibitions of this part;
+    (b) Representation of a foreign terrorist organization or an agent 
+thereof when named as a defendant in or otherwise made a party to 
+domestic U.S. legal, arbitration, or administrative proceedings;
+    (c) Initiation and conduct of domestic U.S. legal, arbitration, or 
+administrative proceedings on behalf of a foreign terrorist 
+organization or an agent thereof;
+    (d) Representation of a foreign terrorist organization or an agent 
+thereof before any federal or state agency with respect to the 
+imposition, administration, or enforcement of U.S. sanctions against a 
+foreign terrorist organization or an agent thereof;
+    (e) Provision of legal services to a foreign terrorist organization 
+or an agent thereof in any other context in which prevailing U.S. law 
+requires access to legal counsel at public expense; and
+    (f) Representation of a foreign terrorist organization seeking 
+judicial review of a designation before the United States Court of 
+Appeals for the District of Columbia Circuit pursuant to 8 U.S.C. 
+1189(b)(1).
+
+Subpart F--Reports
+
+
+Sec. 597.601  Records and reports.
+
+    For provisions relating to records and reports, see subpart C of 
+part 501 of this chapter; provided, however, that all of the powers 
+afforded the Director pursuant to the first 3 sentences of Sec. 501.602 
+of this chapter may also be exercised by the Attorney General in 
+conducting administrative investigations pursuant to 18 U.S.C. 
+2339B(e); provided further, that the investigative authority of the 
+Director pursuant to Sec. 501.602 of this chapter shall be exercised in 
+accordance with 18 U.S.C. 2339B(e); and provided further, that for 
+purposes of this part no person other than a U.S. financial institution 
+and its directors, officers, employees, and agents shall be required to 
+maintain records or to file any reports or furnish any information 
+under Secs. 501.601, 501.602, or 501.603 of this chapter.
+
+Subpart G--Penalties
+
+
+Sec. 597.701  Penalties.
+
+    (a) Attention is directed to 18 U.S.C. 2339B(a)(1), as added by 
+Public Law 104-132, 110 Stat. 1250-1253, section 303, which provides 
+that whoever, within the United States or subject to the jurisdiction 
+of the United States, knowingly provides material support or resources 
+to a foreign terrorist organization, or attempts or conspires to do so, 
+shall be fined under title 18, United States Code, or imprisoned for 
+not more than 10 years, or both.
+    (b) Attention is directed to 18 U.S.C. 2339B(b), as added by Public 
+Law 104-132, 110 Stat. 1250-1253, section 303, which provides that, 
+except as authorized by the Secretary of the Treasury, any financial 
+institution that knowingly fails to retain possession of or maintain 
+control over funds in which a foreign terrorist organization or its 
+agent has an interest, or to report the existence of such funds in 
+accordance with these regulations, shall be subject to a civil penalty 
+in an amount that is the greater of $50,000 per violation, or twice the 
+amount of which the financial institution was required to retain 
+possession or control.
+    (c) Attention is directed to 18 U.S.C. 1001, which provides that 
+whoever, in any matter within the jurisdiction of the executive, 
+legislative, or judicial branch of the Government of the United States, 
+knowingly and willfully falsifies, conceals or covers up by any trick, 
+scheme, or device a material fact, or
+
+[[Page 52500]]
+
+makes any materially false, fictitious or fraudulent statement or 
+representation, or makes or uses any false writing or document knowing 
+the same to contain any materially false, fictitious or fraudulent 
+statement or entry, shall be fined under title 18, United States Code, 
+or imprisoned not more than 5 years, or both.
+    (d) Conduct covered by this part may also be subject to relevant 
+provisions of other applicable laws.
+
+
+Sec. 597.702  Prepenalty notice.
+
+    (a) When required. If the Director of the Office of Foreign Assets 
+Control has reasonable cause to believe that there has occurred a 
+violation of any provision of this part or a violation of the 
+provisions of any license, ruling, regulation, order, direction or 
+instruction issued by or pursuant to the direction or authorization of 
+the Secretary of the Treasury pursuant to this part, and the Director, 
+acting in coordination with the Attorney General, determines that civil 
+penalty proceedings are warranted, the Director shall issue to the 
+person concerned a notice of intent to impose a monetary penalty. The 
+prepenalty notice shall be issued whether or not another agency has 
+taken any action with respect to this matter.
+    (b) Contents.--(1) Facts of violation. The prepenalty notice shall 
+describe the violation, specify the laws and regulations allegedly 
+violated, and state the amount of the proposed monetary penalty.
+    (2) Right to respond. The prepenalty notice also shall inform the 
+respondent of respondent's right to respond within 30 days of mailing 
+of the notice as to why a monetary penalty should not be imposed, or, 
+if imposed, why it should be in a lesser amount than proposed.
+
+
+Sec. 597.703  Response to prepenalty notice.
+
+    (a) Time within which to respond. The respondent shall have 30 days 
+from the date of mailing of the prepenalty notice to respond in writing 
+to the Director of the Office of Foreign Assets Control.
+    (b) Form and contents of written response. The written response 
+need not be in any particular form, but shall contain information 
+sufficient to indicate that it is in response to the prepenalty notice. 
+It should respond to the allegations in the prepenalty notice and set 
+forth the reasons why the respondent believes the penalty should not be 
+imposed or, if imposed, why it should be in a lesser amount than 
+proposed.
+    (c) Informal settlement. In addition or as an alternative to a 
+written response to a prepenalty notice pursuant to this section, the 
+respondent or respondent's representative may contact the Office of 
+Foreign Assets Control as advised in the prepenalty notice to propose 
+the settlement of allegations contained in the prepenalty notice and 
+related matters. In the event of settlement at the prepenalty stage, 
+the prepenalty notice will be withdrawn, the respondent is not required 
+to take a written position on allegations contained in the prepenalty 
+notice, and the Office of Foreign Assets Control will make no final 
+determination as to whether a violation occurred. The amount accepted 
+in settlement of allegations in a prepenalty notice may vary from the 
+civil penalty that might finally be imposed in the event of a formal 
+determination of violation. In the event no settlement is reached, the 
+30-day period specified in paragraph (a) of this section for written 
+response to the prepenalty notice remains in effect unless additional 
+time is granted by the Office of Foreign Assets Control.
+
+
+Sec. 597.704  Penalty notice.
+
+    (a) No violation. If, after considering any written response to the 
+prepenalty notice and any relevant facts, the Director of the Office of 
+Foreign Assets Control determines that there was no violation by the 
+respondent, the Director promptly shall notify the respondent in 
+writing of that determination and that no monetary penalty will be 
+imposed.
+    (b) Violation. (1) If, after considering any written response to 
+the prepenalty notice and any relevant facts, the Director of the 
+Office of Foreign Assets Control determines that there was a violation 
+by the respondent, the Director promptly shall issue a written notice 
+of the imposition of the monetary penalty on the respondent. The 
+issuance of a written notice of the imposition of a monetary penalty 
+shall constitute final agency action.
+    (2) The penalty notice shall inform the respondent that payment of 
+the assessed penalty must be made within 30 days of the mailing of the 
+penalty notice.
+    (3) The penalty notice shall inform the respondent of the 
+requirement to furnish respondent's taxpayer identification number 
+pursuant to 31 U.S.C. 7701 and that the Department intends to use such 
+number for the purposes of collecting and reporting on any delinquent 
+penalty amount in the event of a failure to pay the penalty imposed.
+
+
+Sec. 597.705  Administrative collection; referral to United States 
+Department of Justice.
+
+    In the event that the respondent does not pay the penalty imposed 
+pursuant to this part or make payment arrangements acceptable to the 
+Director of the Office of Foreign Assets Control within 30 days of the 
+mailing of the written notice of the imposition of the penalty, the 
+matter may be referred for administrative collection measures by the 
+Department of the Treasury or to the United States Department of 
+Justice for appropriate action to recover the penalty in a civil suit 
+in a Federal district court.
+
+Subpart H--Procedures
+
+
+Sec. 597.801  Procedures.
+
+    For license application procedures and procedures relating to 
+amendments, modifications, or revocations of licenses; administrative 
+decisions; rulemaking; and requests for documents pursuant to the 
+Freedom of Information and Privacy Acts (5 U.S.C. 552 and 552a), see 
+subpart D of part 501 of this chapter.
+
+
+Sec. 597.802  Delegation by the Secretary of the Treasury.
+
+    Any action which the Secretary of the Treasury is authorized to 
+take pursuant to 8 U.S.C. 1189 or 18 U.S.C. 2339B, as added by Public 
+Law 104-132, 110 Stat. 1248-1253, sections 302 and 303, may be taken by 
+the Director of the Office of Foreign Assets Control, or by any other 
+person to whom the Secretary of the Treasury has delegated authority so 
+to act.
+
+Part I--Paperwork Reduction Act
+
+
+Sec. 597.901  Paperwork Reduction Act notice.
+
+    For approval by the Office of Management and Budget (``OMB'') under 
+the Paperwork Reduction Act of information collections relating to 
+recordkeeping and reporting requirements, to licensing procedures 
+(including those pursuant to statements of licensing policy), and to 
+other procedures, see Sec. 501.901 of this chapter. An agency may not 
+conduct or sponsor, and a person is not required to respond to, a 
+collection of information unless it displays a valid control number 
+assigned by OMB.
+
+
+[[Page 52501]]
+
+
+    Dated: September 26, 1997.
+Loren L. Dohm,
+Acting Director, Office of Foreign Assets Control.
+    Approved: September 30, 1997.
+James E. Johnson,
+Assistant Secretary (Enforcement).
+[FR Doc. 97-26787 Filed 10-6-97; 2:22 pm]
+BILLING CODE 4810-25-F
+
+
+</pre></body>
+</html>

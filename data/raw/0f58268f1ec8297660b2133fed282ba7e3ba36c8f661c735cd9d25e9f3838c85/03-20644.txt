@@ -1,0 +1,273 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 156 (Wednesday, August 13, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 156 (Wednesday, August 13, 2003)]
+[Rules and Regulations]
+[Pages 48280-48282]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-20644]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AA96
+
+
+Terrorism Risk Insurance Program
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule modifies the current regulatory definition of 
+``direct earned premium'' in the regulations under Title I of the 
+Terrorism Risk Insurance Act of 2002 (Act). The Act established a 
+temporary Terrorism Risk Insurance Program (Program) under which the 
+Federal Government will share the risk of insured losses from certified 
+acts of terrorism with commercial property and casualty insurers until 
+the Program sunsets on December 31, 2005. The Department of the 
+Treasury (Treasury) is responsible for implementing the Act. This final 
+rule clarifies the current regulatory definition of ``direct earned 
+premium'' to parallel the definition of ``direct earned premium'' in 
+section 102(4) of the Act.
+
+DATES: This final rule is effective August 13, 2003.
+
+FOR FURTHER INFORMATION CONTACT: Mario Ugoletti, Deputy Director, 
+Office of Financial Institutions Policy (202) 622-2730, Martha Ellett 
+or Cynthia Reese, Attorney-Advisors, Office of the Assistant General 
+Counsel (Banking & Finance), (202) 622-0480, or C. Christopher Ledoux, 
+Senior Attorney, Terrorism Risk Insurance Program (202) 622-6770 (not 
+toll-free numbers).
+
+SUPPLEMENTARY INFORMATION: On July 11, 2003, Treasury published a final 
+rule containing definitions and other general provisions under the Act 
+(68 FR 41250, July 11, 2003) (the July final rule). Treasury is now 
+making a clarifying revision to the definition of ``direct earned 
+premium'' in the July final rule to ensure that the rule parallels the 
+definition in section 102(4) of the Act.
+    Under section 102(6) of the Act, an ``insurer'' calculates its 
+``insurer deductible'' based on the insurer's ``direct earned 
+premium.'' Except in the case of new insurers, an ``insurer 
+deductible'' is an insurer's direct earned premiums over the preceding 
+calendar year, multiplied by a percentage specified in the Act for that 
+year. If a certified act of terrorism occurs, an insurer would only be 
+entitled to federal payment under the Program if the insurer's insured 
+losses exceed its insurer deductible and other required conditions are 
+met.
+    Section 102(4) of the Act defines the term ``direct earned 
+premium'' as ``a direct earned premium for property and casualty 
+insurance issued by any insurer for insurance against losses occurring 
+at the locations described'' in section 102(5)(A) and (B) of the Act 
+(emphasis added). These cross-referenced locations appear within the 
+definition of ``insured loss.'' The locations are (1) ``within the 
+United States,'' (2) ``to an air carrier'' (as defined), (3) ``to a 
+United States flag vessel (or a vessel based principally in the United 
+States, on which United States income tax is paid and whose insurance 
+coverage is subject to regulation in the United States),'' and (4) ``at 
+the premises of any United States mission.'' Therefore, there is a 
+relationship between the locations contained in the definition of 
+``insured loss'' and the scope of the definition of ``direct earned 
+premium,'' since both make reference to the same specified locations.
+    The July final rule was preceded by an interim final rule that 
+requested public comments (68 FR 9804, February 28, 2003). No comments 
+were received on the interim final rule concerning the relationship of 
+the terms ``insured loss'' and ``direct earned premium.'' Upon further 
+review, Treasury notes that the current regulatory definition of 
+``direct earned premium'' in the July final rule could be interpreted 
+as inconsistent with the statutory definition of ``direct earned 
+premium.'' This is because the
+
+[[Page 48281]]
+
+regulatory definition ``direct earned premium'' includes an abbreviated 
+reference to ``insured losses'' under the Program. Treasury's intent 
+was to reflect the statutory definition, including the specified 
+locations, as described above. An unintended consequence of the current 
+text of the regulatory definition of direct earned premium is that it 
+might be read to narrow the statutory definition of ``direct earned 
+premium'' to refer only to direct earned premiums for losses resulting 
+from acts of terrorism rather than direct earned premiums on all 
+commercial property and casualty insurance covering all risks within 
+the specified locations.
+    After further review of the definition in the July final rule, 
+Treasury is by this final rule revising the regulatory definition of 
+``direct earned premium'' in section 50.5(d) to ensure that it 
+parallels the definition in the Act. Treasury is also revising the 
+related provisions in the definition of direct earned premium for State 
+licensed or admitted insurers that report to the NAIC and certain 
+eligible surplus line carrier insurers. (Although there are no changes 
+to some of these provisions, paragraphs (d)(1) and (d)(3) of section 
+50.5(d) are being set out in their entirety for ease of reading and 
+understanding.) The effect of these changes to the current regulatory 
+text is to clarify that direct earned premium, as provided in the Act, 
+consists of direct earned premium for all commercial property and 
+casualty insurance (as that term is used in the Act and Treasury's 
+regulations) issued by an insurer for insurance against losses at the 
+specified locations. Consistent with the preamble discussion in the 
+July final rule, premiums for retroactive insurance may continue to be 
+excluded by an insurer if they are associated with losses that occurred 
+prior to the date of enactment of the Act (November 26, 2002). An 
+insurer receiving premiums for retroactive insurance associated with 
+losses that occurred prior to November 26, 2002 may continue to follow 
+the guidelines in section 50.5(d)(1) for the purposes of calculating 
+the appropriate measure of direct earned premium.
+
+Procedural Requirements
+
+    The Act established a Program to provide for loss sharing payments 
+by the Federal Government for insured losses resulting from certified 
+acts of terrorism. The Act became effective immediately upon the date 
+of enactment (November 26, 2002). Treasury has issued and will be 
+issuing additional regulations to implement the Program. This final 
+regulation merely clarifies the current regulatory definition of 
+``direct earned premium'' to parallel the definition in the Act. Since 
+no one can predict if, or when, an act of terrorism may occur, there is 
+a clear need for Treasury to modify the previously issued final rule to 
+clarify the definition and avoid any possible reading that it is 
+narrower than the definition in the Act. Moreover, the definition in 
+the Act is unambiguous and the regulatory change merely clarifies the 
+current regulatory definition to parallel the definition in the Act.
+    For these reasons, Treasury has determined that notice and public 
+procedure are unnecessary and contrary to the public interest, pursuant 
+to 5 U.S.C. 553(b)(B). For the same reasons, pursuant to 5 U.S.C. 
+553(d)(3), Treasury has determined that there is good cause for this 
+final rule to become effective immediately upon publication.
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. Because no notice of proposed rulemaking is 
+required, the provisions of the Regulatory Flexibility Act (5 U.S.C. 
+chapter 6) do not apply. However, the Act and the Program are intended 
+to provide benefits to the U.S. economy and all businesses, including 
+small businesses, by providing a federal reinsurance backstop to 
+commercial property and casualty insurance policyholders and spreading 
+the risk of insured loss resulting from an act of terrorism.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, 31 CFR part 50 is amended as follows:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+
+0
+2. Section 50.5(d) introductory text is revised, and (d)(1) and (d)(3) 
+are revised to read as follows:
+
+
+Sec.  50.5  Definitions.
+
+* * * * *
+    (d) Direct earned premium means a direct earned premium for all 
+commercial property and casualty insurance issued by any insurer for 
+insurance against all losses, including losses from an act of 
+terrorism, occurring at the locations described in section 102(5)(A) 
+and (B) of the Act.
+    (1) State licensed or admitted insurers. For a State licensed or 
+admitted insurer that reports to the NAIC, direct earned premium is the 
+premium information for commercial property and casualty insurance 
+coverage reported by the insurer on column 2 of the NAIC Exhibit of 
+Premiums and Losses of the NAIC Annual Statement (commonly known as 
+Statutory Page 14). (See definition of property and casualty 
+insurance.)
+    (i) Premium information as reported to the NAIC should be included 
+in the calculation of direct earned premiums for purposes of the 
+Program only to the extent of commercial property and casualty coverage 
+issued by the insurer against losses occurring at the locations 
+described in section 102(5)(A) and (B) of the Act.
+    (ii) Premiums for personal property and casualty insurance coverage 
+(coverage primarily designed to cover personal, family or household 
+risk exposures, with the exception of coverage written to insure 1 to 4 
+family rental dwellings owned for the business purpose of generating 
+income for the property owner), or premiums for any other insurance 
+coverage that does not meet the definition of commercial property and 
+casualty insurance, should be excluded in the calculation of direct 
+earned premiums for purposes of the Program.
+    (iii) Personal property and casualty insurance coverage that 
+includes incidental coverage for commercial purposes is primarily 
+personal coverage, and therefore premiums may be fully excluded by an 
+insurer from the calculation of direct earned premium. For purposes of 
+the Program, commercial coverage is incidental if less than 25 percent 
+of the total direct earned premium is attributable to commercial 
+coverage. Commercial property and casualty insurance coverage insuring 
+against losses occurring at locations other than the locations 
+described in section 102(5)(A) and (B) of the Act, or other insurance 
+coverage that does not meet the definition of commercial property and 
+casualty insurance, but that includes incidental coverage for 
+commercial property and casualty insurance insuring against losses 
+occurring at such locations, is primarily non-Program coverage, and 
+therefore premiums also may be fully excluded by an insurer from the 
+calculation of direct earned premium. For purposes of the Program, 
+commercial property and casualty insurance coverage insuring against 
+losses at the locations described in section 102(5)(A) and (B) of the 
+Act is incidental if less than 25 percent of the
+
+[[Page 48282]]
+
+total direct earned premium is attributable to such coverage. For 
+purposes of the Program, commercial coverage combined with coverages 
+that otherwise do not meet the definition of commercial property and 
+casualty insurance is incidental if less than 25 percent of the total 
+direct earned premium is for such coverage.
+    (iv) If a property and casualty insurance policy covers both 
+commercial and personal risk exposures, insurers may allocate the 
+premiums in accordance with the proportion of risk between commercial 
+and personal components in order to ascertain direct earned premium. If 
+a policy includes insurance coverage that meets the definition of 
+commercial property and casualty insurance for losses occurring at the 
+locations described in section 102(5)(A) and (B) of the Act, but also 
+includes other coverage, insurers may allocate the premiums in 
+accordance with the proportion of risk attributable to the components, 
+in order to ascertain direct earned premium.
+* * * * *
+    (3) Certain eligible surplus line carrier insurers. An eligible 
+surplus line carrier insurer listed on the NAIC Quarterly Listing of 
+Alien Insurers must ascertain its direct earned premium as follows:
+    (i) For policies that were in-force as of November 26, 2002, or 
+entered into prior to January 1, 2003, direct earned premiums are to be 
+determined with reference to the definition of property and casualty 
+insurance and the locations described in section 102(5)(A) and (B) of 
+the Act by allocating the appropriate portion of premium income for 
+losses for property and casualty insurance at such locations. The same 
+allocation methodologies contained within the NAIC's ``Allocation of 
+Surplus Lines and Independently Procured Insurance Premium Tax on 
+Multi-State Risks Model Regulation'' for allocating premium between 
+coverage for property and casualty insurance for losses occurring at 
+the locations described in section 102(5)(A) and (B) of the Act and all 
+other coverage, to ascertain the appropriate percentage of premium 
+income to be included in direct earned premium, may be used.
+    (ii) For policies issued after January 1, 2003, premium for 
+insurance that meets the definition of property and casualty insurance 
+for losses occurring at the locations described in section 102(5)(A) 
+and (B) of the Act, must be priced separately by such eligible surplus 
+line carriers.
+* * * * *
+
+    Dated: August 5, 2003.
+Wayne A. Abernathy,
+Assistant Secretary of the Treasury.
+[FR Doc. 03-20644 Filed 8-12-03; 8:45 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

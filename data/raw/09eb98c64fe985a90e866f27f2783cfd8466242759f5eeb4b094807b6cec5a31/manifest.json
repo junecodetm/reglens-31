@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1998/05/06/98-11966.txt",
+  "fetched_at": "2026-07-30T14:10:23.262599+00:00",
+  "sha256": "09eb98c64fe985a90e866f27f2783cfd8466242759f5eeb4b094807b6cec5a31",
+  "content_type": "text/plain",
+  "filename": "98-11966.txt"
+}

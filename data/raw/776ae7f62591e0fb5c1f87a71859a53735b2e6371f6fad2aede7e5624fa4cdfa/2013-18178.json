@@ -1,0 +1,609 @@
+{
+  "abstract": "This final rule amends Treasury's marketable securities auction rules to accommodate the public offering of a new type of marketable security with a floating rate interest payment. In addition, the amendment makes certain technical clarifications and conforming changes.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2013/07/31/2013-18178.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    }
+  ],
+  "citation": "78 FR 46426",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2013-18178",
+    "https://www.federalregister.gov/api/v1/documents/C2-2013-18178"
+  ],
+  "dates": "Effective July 31, 2013.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. Fiscal-BPD-2013-0001"
+  ],
+  "dockets": [],
+  "document_number": "2013-18178",
+  "effective_on": "2013-07-31",
+  "end_page": 46445,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2013/07/31/2013-18178.xml",
+  "html_url": "https://www.federalregister.gov/documents/2013/07/31/2013-18178/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds",
+  "images": {
+    "ER31JY13.000": {
+      "large": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_original_size.png"
+    },
+    "ER31JY13.001": {
+      "large": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_original_size.png"
+    },
+    "ER31JY13.002": {
+      "large": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_original_size.png"
+    },
+    "ER31JY13.003": {
+      "large": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_original_size.png"
+    },
+    "ER31JY13.004": {
+      "large": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_original_size.png"
+    },
+    "ER31JY13.005": {
+      "large": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_original_size.png"
+    },
+    "ER31JY13.006": {
+      "large": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_original_size.png"
+    },
+    "ER31JY13.007": {
+      "large": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_original_size.png"
+    },
+    "ER31JY13.008": {
+      "large": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_original_size.png"
+    },
+    "ER31JY13.010": {
+      "large": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_original_size.png"
+    },
+    "ER31JY13.011": {
+      "large": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_original_size.png"
+    },
+    "ER31JY13.012": {
+      "large": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_original_size.png"
+    },
+    "ER31JY13.013": {
+      "large": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_original_size.png"
+    },
+    "ER31JY13.014": {
+      "large": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_original_size.png"
+    },
+    "ER31JY13.015": {
+      "large": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_large.png",
+      "medium": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_medium.png",
+      "original_size": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_original_size.png"
+    }
+  },
+  "images_metadata": {
+    "ER31JY13.000": {
+      "large": {
+        "content_type": "image/png",
+        "height": 245,
+        "identifier": "ER31JY13.000",
+        "sha": "6a4e6407deff059a30961c5d16d47c99",
+        "size": 9002,
+        "url": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_large.png",
+        "width": 431
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 115,
+        "identifier": "ER31JY13.000",
+        "sha": "3d09bd24471abedd7bd6e3b309ad6281",
+        "size": 3586,
+        "url": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_medium.png",
+        "width": 203
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 872,
+        "identifier": "ER31JY13.000",
+        "sha": "2cac33730c3507a265102a5439e968c3",
+        "size": 18961,
+        "url": "https://img.federalregister.gov/ER31JY13.000/ER31JY13.000_original_size.png",
+        "width": 1536
+      }
+    },
+    "ER31JY13.001": {
+      "large": {
+        "content_type": "image/png",
+        "height": 651,
+        "identifier": "ER31JY13.001",
+        "sha": "8f735caa2ebe603b6b47202068eb2613",
+        "size": 42389,
+        "url": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 421,
+        "identifier": "ER31JY13.001",
+        "sha": "2ce3552f609d4ea8c8053e4c9322bde8",
+        "size": 23096,
+        "url": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_medium.png",
+        "width": 532
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 3177,
+        "identifier": "ER31JY13.001",
+        "sha": "0c2b70754ed256dad8bb6fd733caa3c6",
+        "size": 329319,
+        "url": "https://img.federalregister.gov/ER31JY13.001/ER31JY13.001_original_size.png",
+        "width": 4018
+      }
+    },
+    "ER31JY13.002": {
+      "large": {
+        "content_type": "image/png",
+        "height": 720,
+        "identifier": "ER31JY13.002",
+        "sha": "c7d1ab3fc176d90cabf6bffb81afacb9",
+        "size": 52995,
+        "url": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_large.png",
+        "width": 796
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 339,
+        "identifier": "ER31JY13.002",
+        "sha": "c97e69b5548187e88fd4ad36a5a32931",
+        "size": 17028,
+        "url": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_medium.png",
+        "width": 375
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 2561,
+        "identifier": "ER31JY13.002",
+        "sha": "97ff0783ba0b1747e747fa893afc363f",
+        "size": 99781,
+        "url": "https://img.federalregister.gov/ER31JY13.002/ER31JY13.002_original_size.png",
+        "width": 2831
+      }
+    },
+    "ER31JY13.003": {
+      "large": {
+        "content_type": "image/png",
+        "height": 245,
+        "identifier": "ER31JY13.003",
+        "sha": "04c6a6b02bae55a4fdd8f095fcb4c2c9",
+        "size": 8875,
+        "url": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_large.png",
+        "width": 431
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 115,
+        "identifier": "ER31JY13.003",
+        "sha": "9db091bcdb298cbe4f0342ac63c088ea",
+        "size": 3714,
+        "url": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_medium.png",
+        "width": 203
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 872,
+        "identifier": "ER31JY13.003",
+        "sha": "f74789e5882c70c1cb1f6ec1ab155dc3",
+        "size": 18980,
+        "url": "https://img.federalregister.gov/ER31JY13.003/ER31JY13.003_original_size.png",
+        "width": 1536
+      }
+    },
+    "ER31JY13.004": {
+      "large": {
+        "content_type": "image/png",
+        "height": 332,
+        "identifier": "ER31JY13.004",
+        "sha": "cffec8c170226b1031e118018fa2346c",
+        "size": 22598,
+        "url": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_large.png",
+        "width": 822
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 189,
+        "identifier": "ER31JY13.004",
+        "sha": "1be401636979e911f8114bbb5a9413e1",
+        "size": 10332,
+        "url": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_medium.png",
+        "width": 468
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1427,
+        "identifier": "ER31JY13.004",
+        "sha": "5cf34e33ec2a134232c908b2107a56f6",
+        "size": 64680,
+        "url": "https://img.federalregister.gov/ER31JY13.004/ER31JY13.004_original_size.png",
+        "width": 3535
+      }
+    },
+    "ER31JY13.005": {
+      "large": {
+        "content_type": "image/png",
+        "height": 521,
+        "identifier": "ER31JY13.005",
+        "sha": "2aa88decac7e5c519965e903ef6392c2",
+        "size": 35303,
+        "url": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 250,
+        "identifier": "ER31JY13.005",
+        "sha": "f2b2ba6753e818dcfc00df60d6f4a57c",
+        "size": 11568,
+        "url": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_medium.png",
+        "width": 395
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1892,
+        "identifier": "ER31JY13.005",
+        "sha": "5ba71abe479a705a03fb2c968d9b3949",
+        "size": 61631,
+        "url": "https://img.federalregister.gov/ER31JY13.005/ER31JY13.005_original_size.png",
+        "width": 2986
+      }
+    },
+    "ER31JY13.006": {
+      "large": {
+        "content_type": "image/png",
+        "height": 494,
+        "identifier": "ER31JY13.006",
+        "sha": "de5490a6b4b93fe3a31345e7663e0a25",
+        "size": 17623,
+        "url": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_large.png",
+        "width": 619
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 232,
+        "identifier": "ER31JY13.006",
+        "sha": "d0fe9dc491b93587500fd0de4e58611e",
+        "size": 6791,
+        "url": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_medium.png",
+        "width": 291
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1756,
+        "identifier": "ER31JY13.006",
+        "sha": "588df84d1800c21604ac9fd9030007b5",
+        "size": 39331,
+        "url": "https://img.federalregister.gov/ER31JY13.006/ER31JY13.006_original_size.png",
+        "width": 2199
+      }
+    },
+    "ER31JY13.007": {
+      "large": {
+        "content_type": "image/png",
+        "height": 357,
+        "identifier": "ER31JY13.007",
+        "sha": "edaa0d6aed6162e80921b11e61ebb375",
+        "size": 26539,
+        "url": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 203,
+        "identifier": "ER31JY13.007",
+        "sha": "2e8ebd9a5abbb34b8565e993265a0096",
+        "size": 11839,
+        "url": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_medium.png",
+        "width": 468
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1533,
+        "identifier": "ER31JY13.007",
+        "sha": "f5b3276fc46003a41e461261772d9994",
+        "size": 73242,
+        "url": "https://img.federalregister.gov/ER31JY13.007/ER31JY13.007_original_size.png",
+        "width": 3535
+      }
+    },
+    "ER31JY13.008": {
+      "large": {
+        "content_type": "image/png",
+        "height": 878,
+        "identifier": "ER31JY13.008",
+        "sha": "aa29e18c483aa23ac35b37d0bb8ef4dc",
+        "size": 59045,
+        "url": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_large.png",
+        "width": 822
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 440,
+        "identifier": "ER31JY13.008",
+        "sha": "7c240a4378b6e89b439cad400e4a26d8",
+        "size": 23370,
+        "url": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_medium.png",
+        "width": 412
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 3319,
+        "identifier": "ER31JY13.008",
+        "sha": "77f17a83f1756e76dbad872290c18614",
+        "size": 128042,
+        "url": "https://img.federalregister.gov/ER31JY13.008/ER31JY13.008_original_size.png",
+        "width": 3109
+      }
+    },
+    "ER31JY13.010": {
+      "large": {
+        "content_type": "image/png",
+        "height": 183,
+        "identifier": "ER31JY13.010",
+        "sha": "cbfc628ffacda7c42a11bee4b9b27e4f",
+        "size": 19885,
+        "url": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 106,
+        "identifier": "ER31JY13.010",
+        "sha": "5dfe13c299ad854e533e78be1dfc966c",
+        "size": 8765,
+        "url": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_medium.png",
+        "width": 475
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 798,
+        "identifier": "ER31JY13.010",
+        "sha": "d27f9097945d5e9a5b35f588660516a4",
+        "size": 54825,
+        "url": "https://img.federalregister.gov/ER31JY13.010/ER31JY13.010_original_size.png",
+        "width": 3580
+      }
+    },
+    "ER31JY13.011": {
+      "large": {
+        "content_type": "image/png",
+        "height": 330,
+        "identifier": "ER31JY13.011",
+        "sha": "3fb2e81de9169af86a842a2ebc437842",
+        "size": 23578,
+        "url": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 188,
+        "identifier": "ER31JY13.011",
+        "sha": "53a8d74ad906409fb8cb23d99a7c74aa",
+        "size": 10472,
+        "url": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_medium.png",
+        "width": 468
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1418,
+        "identifier": "ER31JY13.011",
+        "sha": "8dfadda57b0f247e913d449dfb4415b1",
+        "size": 65397,
+        "url": "https://img.federalregister.gov/ER31JY13.011/ER31JY13.011_original_size.png",
+        "width": 3535
+      }
+    },
+    "ER31JY13.012": {
+      "large": {
+        "content_type": "image/png",
+        "height": 357,
+        "identifier": "ER31JY13.012",
+        "sha": "8db51c6f36005c124dea88703f9675e6",
+        "size": 26610,
+        "url": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 203,
+        "identifier": "ER31JY13.012",
+        "sha": "ddadb01cab8b781efc727d61ce0a57a2",
+        "size": 11855,
+        "url": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_medium.png",
+        "width": 468
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1533,
+        "identifier": "ER31JY13.012",
+        "sha": "d2cd364525866df16e94623e82c39107",
+        "size": 73364,
+        "url": "https://img.federalregister.gov/ER31JY13.012/ER31JY13.012_original_size.png",
+        "width": 3535
+      }
+    },
+    "ER31JY13.013": {
+      "large": {
+        "content_type": "image/png",
+        "height": 488,
+        "identifier": "ER31JY13.013",
+        "sha": "3aa8f312221b105d8cdfd12bbf80e8d9",
+        "size": 17751,
+        "url": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_large.png",
+        "width": 618
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 229,
+        "identifier": "ER31JY13.013",
+        "sha": "d8ca933311218ff17d1b38c8fec490cf",
+        "size": 6754,
+        "url": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_medium.png",
+        "width": 290
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1737,
+        "identifier": "ER31JY13.013",
+        "sha": "56f03c210998149971f2592c0cb2257b",
+        "size": 39310,
+        "url": "https://img.federalregister.gov/ER31JY13.013/ER31JY13.013_original_size.png",
+        "width": 2199
+      }
+    },
+    "ER31JY13.014": {
+      "large": {
+        "content_type": "image/png",
+        "height": 357,
+        "identifier": "ER31JY13.014",
+        "sha": "29b0bafb109ed3e7d12747f8f9ef4e44",
+        "size": 26670,
+        "url": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 203,
+        "identifier": "ER31JY13.014",
+        "sha": "7f5ad4b9c49932fa952df533d612218a",
+        "size": 11725,
+        "url": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_medium.png",
+        "width": 468
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1533,
+        "identifier": "ER31JY13.014",
+        "sha": "1c3127701af05bcb5e5f678580906174",
+        "size": 73154,
+        "url": "https://img.federalregister.gov/ER31JY13.014/ER31JY13.014_original_size.png",
+        "width": 3535
+      }
+    },
+    "ER31JY13.015": {
+      "large": {
+        "content_type": "image/png",
+        "height": 880,
+        "identifier": "ER31JY13.015",
+        "sha": "9e4ba735d96be6205ed5cabb1f941544",
+        "size": 60991,
+        "url": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 439,
+        "identifier": "ER31JY13.015",
+        "sha": "193092c5ebe37aa1dc8eed6670dd768f",
+        "size": 20461,
+        "url": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_medium.png",
+        "width": 411
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 3319,
+        "identifier": "ER31JY13.015",
+        "sha": "7780d8d98361312dc204960cc054b4bc",
+        "size": 129847,
+        "url": "https://img.federalregister.gov/ER31JY13.015/ER31JY13.015_original_size.png",
+        "width": 3104
+      }
+    }
+  },
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2013-18178?publication_date=2013-07-31",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2013-07-31/2013-18178/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 20,
+  "page_views": {
+    "count": 1216,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2013-07-31/pdf/2013-18178.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2013-18178.pdf?1375188850",
+  "publication_date": "2013-07-31",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2013/07/31/2013-18178.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2013-08-20T08:08:53Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 46426,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds",
+  "toc_doc": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds",
+  "toc_subject": null,
+  "topics": [
+    "Bonds",
+    "Government securities",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 78
+}

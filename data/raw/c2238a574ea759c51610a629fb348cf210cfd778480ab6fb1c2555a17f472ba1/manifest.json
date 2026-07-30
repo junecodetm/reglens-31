@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2005/01/21/05-1051.txt",
+  "fetched_at": "2026-07-30T14:09:18.429464+00:00",
+  "sha256": "c2238a574ea759c51610a629fb348cf210cfd778480ab6fb1c2555a17f472ba1",
+  "content_type": "text/plain",
+  "filename": "05-1051.txt"
+}

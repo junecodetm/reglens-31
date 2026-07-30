@@ -1,0 +1,106 @@
+{
+  "abstract": "The Department of the Treasury, Bureau of the Fiscal Service, is amending its regulations concerning the offset of Federal benefit payments to collect past-due, legally enforceable nontax debt, centralized offset of Federal payments to collect nontax debts owed to the United States, salary offset, and transfer of debts to Treasury for collection. The amendment adjusts the time period in which Federal agencies must notify the Secretary of the Treasury of past due, nontax debt for the purposes of administrative offset. A statutory change, enacted as part of the Digital Accountability and Transparency Act of 2014, shortened the period of delinquency within which Federal agencies are required to notify the Secretary of past due, nontax debt from 180 days to 120 days.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2016/01/12/2015-33044.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "81 FR 1318",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective January 12, 2016.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2015-33044",
+  "effective_on": "2016-01-12",
+  "end_page": 1320,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2016/01/12/2015-33044.xml",
+  "html_url": "https://www.federalregister.gov/documents/2016/01/12/2015-33044/debt-collection-authorities-under-the-debt-collection-improvement-act-of-1996",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2015-33044?publication_date=2016-01-12",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2016-01-12/2015-33044/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 3,
+  "page_views": {
+    "count": 2269,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-01-12/pdf/2015-33044.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2015-33044.pdf?1452519918",
+  "publication_date": "2016-01-12",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/01/12/2015-33044.txt",
+  "regulation_id_number_info": {
+    "1530-AA12": null
+  },
+  "regulation_id_numbers": [
+    "1530-AA12"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2016-02-01T06:00:12Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 1318,
+  "subtype": null,
+  "title": "Debt Collection Authorities Under the Debt Collection Improvement Act of 1996",
+  "toc_doc": "Debt Collection Authorities under the Debt Collection Improvement Act",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Child support",
+    "Child welfare",
+    "Claims",
+    "Credit",
+    "Disability benefits",
+    "Loan programs",
+    "Privacy",
+    "Railroad retirement",
+    "Railroad unemployment insurance",
+    "Supplemental Security Income (SSI)",
+    "Taxes",
+    "Wages"
+  ],
+  "type": "Rule",
+  "volume": 81
+}

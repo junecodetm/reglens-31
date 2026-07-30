@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>Federal Register, Volume 76 Issue 19 (Friday, January 28, 2011)</title>
+</head>
+<body><pre>
+[Federal Register Volume 76, Number 19 (Friday, January 28, 2011)]
+[Rules and Regulations]
+[Pages 5070-5072]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2011-1697]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AB29
+
+
+Offset of Tax Refund Payments To Collect Delinquent State 
+Unemployment Compensation Debts
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Interim rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This rule implements the authority added by the SSI Extension 
+for Elderly and Disabled Refugees Act of 2008 (``2008 Act''), as 
+amended by the Claims Resolution Act of 2010 (2010 Act'') to offset 
+overpayments of Federal taxes (referred to as ``tax refund offset'') to 
+collect delinquent State unemployment compensation debts. The 
+Department of the Treasury (Treasury) will incorporate the procedures 
+necessary to collect State unemployment compensation debts as part of 
+the Treasury Offset Program (TOP), a centralized offset program 
+operated by the Financial Management Service (FMS), a Treasury bureau. 
+FMS has promulgated a rule governing the offset of federal tax refunds 
+to collect delinquent State income tax obligations. This rule amends 
+FMS regulations to include unemployment compensation debts among the 
+types of State debts that may be collected by tax refund offset. This 
+rule does not affect any of the requirements or procedures for 
+collecting delinquent State income tax obligations.
+
+DATES: This rule is effective January 28, 2011. Comments must be 
+received by March 29, 2011.
+
+ADDRESSES: Treasury participates in the U.S. government's eRulemaking 
+Initiative by publishing rulemaking information on <a href="http://www.regulations.gov">http://www.regulations.gov</a>. <a href="http://Regulations.gov">Regulations.gov</a> offers the public the ability to 
+comment on, search, and view publicly available rulemaking materials, 
+including comments received on rules. Comments on this rule should be 
+submitted using only the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the 
+instructions on the Web site for submitting comments.
+    Mail: Thomas Dungan, Senior Policy Analyst, U.S. Department of the 
+Treasury, Financial Management Service, 401 14th St., SW., Washington, 
+DC 20227.
+    All submissions received must include the agency name (``Fiscal 
+Service'') and the title of this rulemaking. In general, comments 
+received will be published on <a href="http://Regulations.gov">Regulations.gov</a> without change, including 
+any business or personal information provided. Comments received, 
+including attachments and other supporting materials, are part of the 
+public record and subject to public disclosure. Do not enclose any 
+information in your comment or supporting materials that you consider 
+confidential or inappropriate for public disclosure.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Dungan, Senior Policy Analyst, 
+at (202)874-6660, or Tricia Long, Senior Counsel, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    General. The Internal Revenue Code authorizes the Secretary of the 
+Treasury to offset Federal tax refund payments to satisfy debts owed to 
+the United States, past-due support collected by States, and income tax 
+debts owed to States. The 2008 Act amended section 6402 of the Internal 
+Revenue Code to authorize tax refund offset to collect an additional 
+type of debt unemployment compensation debts owed to the States which 
+were incurred as a result of fraud, and which were not outstanding for 
+more than ten years. The 2010 Act expanded that authority to include 
+all unemployment compensation debts incurred as a result of the 
+debtor's failure to report earnings, whether or not the failure 
+constituted fraud. The 2010 Act also eliminated the ten-year time 
+limitation on collection, the requirement that the debtor reside in the 
+State seeking to collect the debt, and the requirement to use certified 
+mail with return receipt for pre-offset notices.
+    This rule governs the offset of one type of payment (i.e., Federal 
+tax refunds) to pay one type of delinquent debt (i.e., past-due, 
+legally enforceable State unemployment debts). FMS has promulgated 
+separate rules and procedures governing other types of offset, such as 
+tax refund offset to collect nontax debt owed to the United States (see 
+section 285.2 of this title).
+    The Treasury Offset Program. FMS operates TOP to carry out offsets 
+under the Internal Revenue Code and other laws. TOP is a centralized 
+offset program by which FMS offsets payments to collect delinquent 
+debts owed to Federal agencies and States. TOP currently works as 
+follows. FMS maintains a database containing information about 
+delinquent debts submitted and updated by Federal and State agencies. 
+Before Federal payments, including Federal tax refund payments, are 
+disbursed to a payee, FMS compares the payee information with debt 
+information in the TOP delinquent debt database. If the name and 
+taxpayer identifying number (TIN) associated with a payment match the 
+name (or derivative of the name) and TIN associated with a debt, the 
+payment is offset in whole or part to satisfy the debt. FMS transmits 
+amounts collected to the appropriate agencies or States owed the 
+delinquent debts after deducting a fee charged to cover the cost of the 
+offset program. Information about a delinquent debt or past-due, 
+legally enforceable debt will remain in the debtor database for offset 
+as long as the debt remains past due and legally collectible by offset.
+    Offset of Tax Refund Payments To Collect Debts Owed to States 
+Through the Treasury Offset Program. TOP will be expanded to include 
+the collection of past-due, legally enforceable State unemployment 
+compensation debts. As is done by States for State income tax debts, 
+before submitting a debt to the database, States will certify to FMS 
+that the debt is past due, legally enforceable
+
+[[Page 5071]]
+
+and that all due process prerequisites have been met.
+    This rule establishes procedures for such collection, and amends 
+section 285.8, which governs tax refund offset to collect State income 
+tax obligations, because the two types of offset are similar.
+
+II. Procedural Analyses
+
+Administrative Procedure Act
+
+    FMS is promulgating this interim rule without opportunity for prior 
+public comment pursuant to the Administrative Procedure Act, 5 U.S.C. 
+553 (the ``APA''), because FMS has determined, for the following 
+reasons, that a comment period would be unnecessary and contrary to the 
+public interest. The authority to offset tax refund payments to collect 
+delinquent State unemployment debt incurred as a result of fraud was 
+effective on September 30, 2008, and the authority to collect 
+unemployment compensation debts not resulting from fraud was effective 
+December 8, 2010. A comment period is unnecessary because this interim 
+rule is not required in order to exercise this authority and does not 
+change the ongoing TOP offset process. It only provides guidance for 
+State agencies and Federal disbursing officials to facilitate the 
+addition of State unemployment debts into TOP. Under this interim rule, 
+State agencies are required to provide to the debtor the same pre 
+offset notice, opportunities, and rights to dispute the debt and seek 
+waiver as currently required by 26 U.S.C. 6402. Since this interim rule 
+provides important guidance ensuring that debtors receive appropriate 
+notices and opportunities from States that elect to participate, FMS 
+believes that it is in the public interest to issue this interim rule 
+without delaying the effective date to wait for prior public comment.
+    For the same reasons, FMS has determined that good cause exists to 
+make this interim rule effective upon publication without providing the 
+30-day period between publication and the effective date contemplated 
+by 5 U.S.C. 553(d)(3). The public is invited to submit comments on the 
+interim rule, which will be taken into account before a final rule is 
+issued.
+
+Request for Comment on Plain Language
+
+    Executive Order 12866 requires each agency in the executive branch 
+to write regulations that are simple and easy to understand. We invite 
+comment on how to make the proposed rule clearer. For example, you may 
+wish to discuss: (1) Whether we have organized the material to suit 
+your needs; (2) whether the requirements of the rule are clear; or (3) 
+whether there is something else we could do to make this rule easier to 
+understand.
+
+Regulatory Analysis Planning and Review
+
+    This interim rule is not a significant regulatory action as defined 
+in Executive Order 12866. Because no notice of proposed rulemaking is 
+required for this rule, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. 601 et seq.) do not apply.
+
+Federalism
+
+    This rule has been reviewed under Executive Order 13132, 
+Federalism. This rule will not have substantial direct effects on 
+States, on the relationship between the national government and the 
+States, or on distribution of power and responsibilities among the 
+various levels of government. Participation in the program governed by 
+this rule is voluntary for the States; this rule only sets forth the 
+general procedures for State participation. States already participate 
+in offset of tax refunds to collect delinquent State income tax 
+obligations pursuant to 31 CFR 285.8. This rule merely updates the 
+regulations to reflect the statutory change authorizing States to 
+submit additional debts to TOP for collection by tax refund offset. 
+Therefore, in accordance with Executive Order 13132, it is determined 
+that this rule does not have sufficient federalism implications to 
+warrant the preparation of a federalism summary impact statement.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Claims, Credit, Debts, Disability benefits, Federal employees, 
+Garnishment of wages, Hearing and appeal procedures, Loan programs, 
+Privacy, Railroad retirement, Railroad unemployment insurance, 
+Salaries, Social Security benefits, Supplemental Security Income (SSI), 
+Taxes, Unemployment compensation, Veterans' benefits, Wages.
+
+    For the reasons set forth in the preamble, 31 CFR Part 285 is 
+amended as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority:  5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 37203, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., P. 216.
+
+0
+2. Amend Sec.  285.8 as follows:
+0
+a. Revise the section heading.
+0
+b. In paragraph (a), revise the definition of ``Debt'', revise the 
+definition of ``Debtor'', and add a definition of ``Unemployment 
+compensation debt'' in alphabetical order.
+0
+c. Revise paragraph (b).
+0
+d. In paragraph (c), revise the heading, paragraphs (c)(1), (c)(3)(i), 
+and (c)(3)(ii).
+0
+e. In paragraph (d)(2), remove the words ``6402(a), (c), (d) and (e)'' 
+wherever they appear, and add, in their place, ``6402(a), (c), (d), (e) 
+and (f)''.
+0
+f. In paragraph (i), revise the first sentence.
+0
+g. In paragraph (j), remove the word ``6402(e)'' and add, in its place, 
+``6402(e) or (f)'' wherever it occurs.
+0
+h. Remove paragraph (k).
+0
+i. In paragraphs (c)(4), (e)(1)(i), and (f), remove the words ``State 
+income tax obligation'' and add, in their place, ``State income tax 
+obligation or unemployment compensation debt'' wherever they occur.
+0
+j. In paragraphs (e)(3), (e)(4), and (h), remove the words ``State 
+income tax obligations'' and add, in their place, ``State income tax 
+obligations or unemployment compensation debts'' wherever they occur.
+    The revision and additions read as follows:
+
+
+Sec.  285.8  Offset of tax refund payments to collect certain debts 
+owed to States.
+
+    (a) * * *
+    Debt means past-due, legally enforceable State income tax 
+obligation or unemployment compensation debt unless otherwise 
+indicated.
+    Debtor means a person who owes a debt.
+* * * * *
+    Unemployment compensation debt has the same meaning as the term 
+``covered unemployment debt'' as defined in 26 U.S.C. 6402(f)(4), and 
+means
+    (1) A past-due debt for erroneous payment of unemployment 
+compensation due to fraud or the person's failure to report earnings 
+which has become final under the law of a State certified by the 
+Secretary of Labor pursuant to 26 U.S.C. 3304 and which remains 
+uncollected;
+    (2) Contributions due to the unemployment fund of a State for which 
+the State has determined the person to be liable and which remain 
+uncollected; and
+    (3) Any penalties and interest assessed on such debt.
+
+[[Page 5072]]
+
+    (b) General rule. (1) FMS will offset tax refunds to collect debt 
+under this section in accordance with 26 U.S.C. 6402(e) and (f) and 
+this section.
+    (2) FMS will compare tax refund payment records, as certified by 
+the IRS, with records of debts submitted to FMS. A match will occur 
+when the taxpayer identifying number (as that term is used in 26 U.S.C. 
+6109) and name on a payment certification record are the same as the 
+taxpayer identifying number and name (or derivative of the name) on a 
+delinquent debt record. When a match occurs and all other requirements 
+for tax refund offset have been met, FMS will reduce the amount of any 
+tax refund payment payable to a debtor by the amount of any past-due, 
+legally enforceable State income tax obligation or unemployment 
+compensation debt owed by the debtor. Any amounts not offset will be 
+paid to the payee(s) listed in the payment certification record.
+    (3) FMS will only offset a tax refund payment for a State income 
+tax obligation if the address shown on the Federal tax return for the 
+taxable year of the overpayment is an address within the State seeking 
+the offset.
+    (c) Notification of past-due, legally enforceable State income tax 
+obligations or unemployment compensation debts. (1) Notification. 
+States shall notify FMS of debts in the manner and format prescribed by 
+FMS. The notification of liability must be accompanied by a 
+certification that the debt is past due and legally enforceable and 
+that the State has complied with the requirements contained in 
+paragraph (c)(3) of this section and with all Federal or State 
+requirements applicable to the collection of debts under this section. 
+With respect to State income tax obligations only, the certification 
+must specifically state that none of the debts submitted for collection 
+by offset are debts owed by an individual who has claimed immunity from 
+State taxation by reason of being an enrolled member of an Indian tribe 
+who lives on a reservation and derives all of his or her income from 
+that reservation unless such claim has been adjudicated de novo on its 
+merits in accordance with paragraph (c)(3). FMS may reject a 
+notification that does not comply with the requirements of this 
+section. Upon notification of the rejection and the reason for 
+rejection, the State may resubmit a corrected notification.
+* * * * *
+    (3)(i) Advance notification to the debtor of the State's intent to 
+collect by Federal tax refund offset. The State is required to provide 
+a written notification to the debtor informing the debtor that the 
+State intends to refer the debt for collection by tax refund offset. 
+The notice must give the debtor at least 60 days to present evidence, 
+in accordance with procedures established by the State, that all or 
+part of the debt is not past due or not legally enforceable, or, in the 
+case of a covered unemployment compensation debt, the debt is not due 
+to fraud or the debtor's failure to report earnings. In the case of a 
+State income tax obligation, the notice must be sent certified mail, 
+return receipt requested.
+    (ii) Determination. The State must, in accordance with procedures 
+established by the State, consider any evidence presented by a debtor 
+in response to the notice described in paragraph (c)(3)(i) of this 
+section and determine whether an amount of such debt is past due and 
+legally enforceable and, in the case of a covered unemployment 
+compensation debt, the debt is due to fraud or the debtor's failure to 
+report earnings. With respect to State income tax obligations only, 
+where the debtor claims that he or she is immune from State taxation by 
+reason of being an enrolled member of an Indian tribe who lives on a 
+reservation and derives all of his or her income from that reservation, 
+State procedures shall include de novo review on the merits, unless 
+such claims have been previously adjudicated by a court of competent 
+jurisdiction. States shall, upon request from the Secretary of the 
+Treasury, make such procedures available to the Secretary of the 
+Treasury for review.
+* * * * *
+    (i) * * * In accordance with 26 U.S.C. 6402(g), any reduction of a 
+taxpayer's refund made pursuant to 26 U.S.C. 6402(e) or (f) shall not 
+be subject to review by any court of the United States or by the 
+Secretary of the Treasury, FMS or IRS in an administrative proceeding. 
+* * *
+
+    Dated: January 20, 2011.
+Richard L. Gregg,
+Fiscal Assistant Secretary.
+[FR Doc. 2011-1697 Filed 1-27-11; 8:45 am]
+BILLING CODE 4810-35-M
+
+
+</pre></body>
+</html>

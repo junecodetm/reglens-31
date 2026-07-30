@@ -1,0 +1,110 @@
+{
+  "abstract": "The Office of Foreign Assets Control of the U.S. Department of the Treasury is amending provisions relating to the registration of nongovernmental organizations in the Reporting and Procedures Regulations and Sudanese Sanctions Regulations and is issuing the Taliban (Afghanistan) Sanctions Regulations to implement the President's declaration of a national emergency and imposition of sanctions against the Taliban in Executive Order 13129 of July 4, 1999.",
+  "action": "Interim rule; amendments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2001/01/11/01-690.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 538,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 545,
+      "title": 31
+    }
+  ],
+  "citation": "66 FR 2726",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective Date: January 11, 2001.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "01-690",
+  "effective_on": "2001-01-11",
+  "end_page": 2741,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2001/01/11/01-690.xml",
+  "html_url": "https://www.federalregister.gov/documents/2001/01/11/01-690/reporting-and-procedures-regulations-sudanese-sanctions-regulations-taliban-afghanistan-sanctions",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/01-690?publication_date=2001-01-11",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2001-01-11/01-690/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 16,
+  "page_views": {
+    "count": 248,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-11/pdf/01-690.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2001-01-11",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/01/11/01-690.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 2726,
+  "subtype": null,
+  "title": "Reporting and Procedures Regulations; Sudanese Sanctions Regulations; Taliban (Afghanistan) Sanctions Regulations",
+  "toc_doc": "Sudanese and Taliban (Afghanistan) sanctions regulations; reporting and procedures regulations; registration of nongovernmental organizations",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Afghanistan",
+    "Agricultural commodities",
+    "Banks, banking",
+    "Blocking of assets",
+    "Drugs",
+    "Exports",
+    "Foreign trade",
+    "Humanitarian aid",
+    "Imports",
+    "Medical devices",
+    "Penalties",
+    "Reporting and recordkeeping requirements",
+    "Specially Designated Nationals",
+    "Sudan",
+    "Terrorism",
+    "Transportation"
+  ],
+  "type": "Rule",
+  "volume": 66
+}

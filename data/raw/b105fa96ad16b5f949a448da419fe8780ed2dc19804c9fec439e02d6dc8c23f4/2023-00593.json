@@ -1,0 +1,330 @@
+{
+  "abstract": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is issuing this final rule to adjust certain civil monetary penalties for inflation pursuant to the Federal Civil Penalties Inflation Adjustment Act of 1990, as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2023/01/13/2023-00593.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "501",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "510",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "535",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "536",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "539",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "541",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "542",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "544",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "546",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "547",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "548",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "549",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "551",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "552",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "553",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "560",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "561",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "566",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "570",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "576",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "578",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "583",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "584",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "588",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "589",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "590",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "592",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "594",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "597",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "598",
+      "title": 31
+    }
+  ],
+  "citation": "88 FR 2229",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2023-00593"
+  ],
+  "dates": "This rule is effective January 13, 2023.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [
+    {
+      "agency_name": "OFAC",
+      "documents": [
+        {
+          "allow_late_comments": null,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2023-01-13",
+          "comment_url": "https://www.regulations.gov/commenton/OFAC_FRDOC_0001-1579",
+          "id": "OFAC_FRDOC_0001-1579",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2023-02-24T22:17:46.568-05:00"
+        }
+      ],
+      "id": "OFAC_FRDOC_0001",
+      "supporting_documents": [],
+      "supporting_documents_count": 0,
+      "title": "Recently Posted OFAC Rules and Notices."
+    }
+  ],
+  "document_number": "2023-00593",
+  "effective_on": "2023-01-13",
+  "end_page": 2234,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2023/01/13/2023-00593.xml",
+  "html_url": "https://www.federalregister.gov/documents/2023/01/13/2023-00593/inflation-adjustment-of-civil-monetary-penalties",
+  "images": {
+    "ER13JA23.005": {
+      "large": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_large.png",
+      "medium": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_medium.png",
+      "original_size": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_original_size.png"
+    }
+  },
+  "images_metadata": {
+    "ER13JA23.005": {
+      "large": {
+        "content_type": "image/png",
+        "height": 590,
+        "identifier": "ER13JA23.005",
+        "sha": "ca7595b1f3c078bbcdf016e92a7a399b",
+        "size": 25704,
+        "url": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 334,
+        "identifier": "ER13JA23.005",
+        "sha": "60dd09b48512f037ca801fd1f3b56247",
+        "size": 11096,
+        "url": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_medium.png",
+        "width": 465
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 2517,
+        "identifier": "ER13JA23.005",
+        "sha": "2f4a203ec6bb2dcf6302f5f628a96eb8",
+        "size": 36976,
+        "url": "https://img.federalregister.gov/ER13JA23.005/ER13JA23.005_original_size.png",
+        "width": 3509
+      }
+    }
+  },
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2023-00593?publication_date=2023-01-13",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2023-01-13/2023-00593/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 6,
+  "page_views": {
+    "count": 2132,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2023-01-13/pdf/2023-00593.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2023-00593.pdf?1673531131",
+  "publication_date": "2023-01-13",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2023/01/13/2023-00593.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "agency_id": "OFAC",
+    "checked_regulationsdotgov_at": "2023-02-25T03:17:45Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC_FRDOC_0001",
+    "docket_id": "OFAC_FRDOC_0001",
+    "document_id": "OFAC_FRDOC_0001-1579",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted OFAC Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 2229,
+  "subtype": null,
+  "title": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_doc": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Blocking of assets",
+    "Exports",
+    "Foreign trade",
+    "Penalties"
+  ],
+  "type": "Rule",
+  "volume": 88
+}

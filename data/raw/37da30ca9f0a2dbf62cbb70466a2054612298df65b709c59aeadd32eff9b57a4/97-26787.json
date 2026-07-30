@@ -1,0 +1,86 @@
+{
+  "abstract": "The Office of Foreign Assets Control is issuing the Foreign Terrorist Organizations Sanctions Regulations to implement sections 302 and 303 of the Antiterrorism and Effective Death Penalty Act as they relate to the Treasury Department. Conforming and technical amendments are made to the Reporting and Procedures Regulations.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1997/10/08/97-26787.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 597,
+      "title": 31
+    }
+  ],
+  "citation": "62 FR 52493",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "October 6, 1997.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "97-26787",
+  "effective_on": null,
+  "end_page": 52501,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1997/10/08/97-26787/reporting-and-procedures-regulations-foreign-terrorist-organizations-sanctions-regulations",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/97-26787?publication_date=1997-10-08",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1997-10-08/97-26787/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 9,
+  "page_views": {
+    "count": 494,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1997-10-08/pdf/97-26787.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1997-10-08",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1997/10/08/97-26787.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 52493,
+  "subtype": null,
+  "title": "Reporting and Procedures Regulations; Foreign Terrorist Organizations Sanctions Regulations",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 62
+}

@@ -1,0 +1,262 @@
+{
+  "abstract": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is issuing this final rule to adjust certain civil monetary penalties for inflation pursuant to the Federal Civil Penalties Inflation Adjustment Act of 1990, as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2021/03/17/2021-05506.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "501",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "510",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "535",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "536",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "539",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "541",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "542",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "544",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "546",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "547",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "548",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "549",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "552",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "560",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "561",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "566",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "576",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "583",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "584",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "588",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "592",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "594",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "597",
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "598",
+      "title": 31
+    }
+  ],
+  "citation": "86 FR 14534",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective March 17, 2021.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2021-05506",
+  "effective_on": "2021-03-17",
+  "end_page": 14539,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2021/03/17/2021-05506.xml",
+  "html_url": "https://www.federalregister.gov/documents/2021/03/17/2021-05506/inflation-adjustment-of-civil-monetary-penalties",
+  "images": {
+    "ER17MR21.012": {
+      "large": "https://img.federalregister.gov/ER17MR21.012/ER17MR21.012_large.png",
+      "original_size": "https://img.federalregister.gov/ER17MR21.012/ER17MR21.012_original_size.png"
+    }
+  },
+  "images_metadata": {
+    "ER17MR21.012": {
+      "large": {
+        "content_type": "image/png",
+        "height": 695,
+        "identifier": "ER17MR21.012",
+        "sha": "c64d8e98b91c151e152748b8a5b4a610",
+        "size": 31668,
+        "url": "https://img.federalregister.gov/ER17MR21.012/ER17MR21.012_large.png",
+        "width": 823
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 2977,
+        "identifier": "ER17MR21.012",
+        "sha": "8e77de685fb34fab4c68f85b5275d12d",
+        "size": 44542,
+        "url": "https://img.federalregister.gov/ER17MR21.012/ER17MR21.012_original_size.png",
+        "width": 3525
+      }
+    }
+  },
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2021-05506?publication_date=2021-03-17",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2021-03-17/2021-05506/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 6,
+  "page_views": {
+    "count": 1877,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-03-17/pdf/2021-05506.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2021-05506.pdf?1615898729",
+  "publication_date": "2021-03-17",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/03/17/2021-05506.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "agency_id": "OFAC",
+    "checked_regulationsdotgov_at": "2021-03-18T03:30:09Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC_FRDOC_0001",
+    "docket_id": "OFAC_FRDOC_0001",
+    "document_id": "OFAC_FRDOC_0001-1263",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted OFAC Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 14534,
+  "subtype": null,
+  "title": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_doc": "Inflation Adjustment of Civil Monetary Penalties",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Blocking of assets",
+    "Exports",
+    "Foreign trade",
+    "Penalties"
+  ],
+  "type": "Rule",
+  "volume": 86
+}

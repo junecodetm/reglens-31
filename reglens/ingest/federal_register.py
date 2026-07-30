@@ -8,7 +8,9 @@ allow-list raise ``DisallowedSourceError`` before any request is made.
 
 import json
 import re
+from collections.abc import Sequence
 from pathlib import Path
+from urllib.parse import urlencode
 
 import httpx
 from pydantic import BaseModel, ConfigDict
@@ -116,6 +118,56 @@ def find_rule_by_citation(
 def latest_treasury_rule(client: httpx.Client) -> str:
     """Document number of the most recent Treasury final rule."""
     return recent_treasury_rules(client, count=1)[0]
+
+
+def rules_amending_part(client: httpx.Client, *, title: int, part: int) -> list[str]:
+    """Every Federal Register final rule the FR CFR index attributes to one CFR part.
+
+    This is the corpus inclusion rule expressed as code: re-running it
+    reproduces the document set, rather than depending on whichever documents an
+    earlier citation-following pass happened to reach. Results are returned in
+    the API's newest-first order and de-duplicated by the caller.
+
+    Failure mode: HTTP errors propagate; an unsafe document number raises before
+    it can become a filename. Coverage caveat: the index only tags documents
+    whose FR metadata carries a CFR reference, so some pre-1994 rules are not
+    reachable by this criterion (recorded in docs/DATA_SOURCES.md).
+    """
+    document_numbers: list[str] = []
+    page = 1
+    while True:
+        query = urlencode(
+            {
+                "conditions[cfr][title]": title,
+                "conditions[cfr][part]": part,
+                "conditions[type][]": "RULE",
+                "fields[]": "document_number",
+                "per_page": 100,
+                "page": page,
+            }
+        )
+        response = client.get(require_allowed(f"{API_BASE}/documents.json?{query}"))
+        response.raise_for_status()
+        payload = response.json()
+        results: list[dict[str, str]] = payload.get("results") or []
+        for result in results:
+            document_numbers.append(require_safe_document_number(result["document_number"]))
+        total_pages: int = payload.get("total_pages") or 1
+        if page >= total_pages:
+            return document_numbers
+        page += 1
+
+
+def corpus_document_numbers(client: httpx.Client, *, title: int, parts: Sequence[int]) -> list[str]:
+    """The de-duplicated corpus: every final rule amending any of ``parts``.
+
+    Sorted for determinism so two runs over an unchanged Federal Register
+    produce the same ingest order.
+    """
+    found: set[str] = set()
+    for part in parts:
+        found.update(rules_amending_part(client, title=title, part=part))
+    return sorted(found)
 
 
 def ingest_document(settings: Settings, document_number: str) -> tuple[Path, Path]:

@@ -1,0 +1,627 @@
+<html>
+<head>
+<title>Federal Register, Volume 72 Issue 7 (Thursday, January 11, 2007)</title>
+</head>
+<body><pre>
+[Federal Register Volume 72, Number 7 (Thursday, January 11, 2007)]
+[Rules and Regulations]
+[Pages 1283-1288]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E7-127]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AB09
+
+
+Administrative Offset Under Reciprocal Agreements With States
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Interim rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This interim rule describes the rules applicable to the offset 
+of Federal nontax payments to collect delinquent debts owed to States 
+pursuant to reciprocal agreements between the Secretary of the Treasury 
+and the States. In addition to providing for the offset of Federal 
+nontax payments, the reciprocal agreements will provide for the offset 
+of State payments to collect delinquent, nontax Federal debts. The 
+offsets described in this rule will be processed by the Treasury Offset 
+Program (TOP). The Department of the Treasury's Financial Management 
+Service (FMS) established TOP in order to centralize the process by 
+which Federal payments are withheld or reduced (in other words, offset) 
+to collect delinquent debts. This interim rule specifically applies to 
+the centralized offset of Federal nontax payments by Federal disbursing 
+officials to collect delinquent debts owed to States pursuant to 
+reciprocal agreements. Therefore, this interim rule affects persons who 
+owe delinquent debts to a State of the United States and who receive 
+Federal payments. It also affects persons who owe delinquent, nontax 
+Federal debts and who receive payments from States. This rule does not 
+apply to collection of past-due support debts (see 31 CFR 285.1), the 
+offset of Federal tax refund payments, the offset of Federal salary 
+payments, or the offset of other Federal payments excluded from offset 
+by law.
+
+DATES: This rule is effective January 11, 2007. Comments must be 
+received by March 12, 2007.
+
+ADDRESSES: All comments should be addressed to Thomas Dungan, Senior 
+Policy Analyst, Debt Management Services, Financial Management Service, 
+Department of the Treasury, 401 14th Street, SW., Room 435B, 
+Washington, DC 20227. Comments may also be submitted via the internet 
+as directed on the FMS Web site at the following address: <a href="http://www.fms.treas.gov/debt">http://www.fms.treas.gov/debt</a>. A copy of this interim rule is being made 
+available for downloading from the Web site.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Dungan, Senior Policy Analyst, 
+at (202) 874-6660, or Tricia Long, Senior Counsel, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION: 
+
+Background
+
+    The Debt Collection Improvement Act of 1996 (DCIA), Pub. L. 104-
+134, 110 Stat. 1321-358 et seq. (April 26, 1996), authorized Federal 
+disbursing officials to withhold or reduce eligible Federal payments to 
+pay the payee's delinquent debt owed to the United States. See 31 
+U.S.C. 3716(c). This process is known as ``administrative offset'' or 
+``offset.'' The DCIA also provided that Federal payments may be offset 
+to collect delinquent debts owed to States provided that the States 
+enter into reciprocal agreements with the Secretary of the Treasury and 
+meet
+
+[[Page 1284]]
+
+certain other qualifications. See 31 U.S.C. 3716(h).
+    FMS, a bureau of the Department of the Treasury (Treasury), is 
+responsible for the implementation of centralized administrative offset 
+of Federal payments for the collection of delinquent debt. FMS has 
+established TOP to meet this and other debt collection 
+responsibilities. By centralizing offset through TOP, FMS has 
+consolidated and simplified debt collection procedures for the Federal 
+Government. TOP works as follows: Creditor agencies submit information 
+about delinquent debts to FMS, which maintains the information in its 
+delinquent debtor database. Payment agencies prepare and certify 
+payment vouchers to FMS and disbursing officials at certain other 
+Federal agencies with disbursing authority (such as the Department of 
+Defense or the United States Postal Service), who then disburse 
+payments. The payment vouchers contain information about the payment 
+including the name and taxpayer identifying number (TIN) of the 
+recipient.
+    Before an eligible Federal payment is disbursed to a payee, FMS 
+compares the payment information (including information from payments 
+disbursed by other Federal agencies) with debtor information in FMS's 
+delinquent debtor database. If the payee's name and TIN match the name 
+and TIN of a debtor, the disbursing official offsets the payment, in 
+whole or in part, to satisfy the debt, to the extent legally allowed.
+    FMS transmits amounts collected through offset to the appropriate 
+creditor agencies after deducting fees to cover the costs of operating 
+the offset program, pursuant to 31 U.S.C. 3716(c)(4). If not otherwise 
+prohibited by law, creditor agencies may add the fees to the debts as 
+administrative costs, pursuant to 31 U.S.C. 3717(e).
+    Section 3716(h) authorizes the Secretary of the Treasury to allow 
+States to participate in administrative offset to collect delinquent 
+State debts so long as the States meet the requirements of 31 U.S.C. 
+3716(h), including entering into reciprocal agreements with the 
+Secretary of the Treasury. Such reciprocal agreements shall contain any 
+requirements that the Secretary considers appropriate to facilitate 
+offset and prevent duplicative efforts.
+    In order to determine if it is in the best interests of the United 
+States and the States to fully implement reciprocal offsets under this 
+section, FMS invited the States to participate in the development of a 
+pilot program. Three States have chosen to work with FMS to develop and 
+participate in the pilot. The purpose of the pilot is to test systems 
+and procedures to facilitate offset and to evaluate whether the 
+benefits of the program outweigh the costs. FMS will consider 
+information gained from the operation of the pilot, in addition to 
+comments received on this interim rule, before issuing a final rule.
+
+Section Analysis
+
+    (a) Scope. Paragraph (a) describes the scope of this rule, which 
+governs the administrative offset of Federal nontax payments to collect 
+delinquent debts owed to States in accordance with the requirements of 
+31 U.S.C. 3716(h). This rule does not apply to the offset of Federal 
+tax refund payments, because the authority for this section--31 U.S.C. 
+3716--does not authorize the offset of Federal tax refunds to collect 
+debts. This rule also does not apply to the offset of Federal salary 
+payments. While Federal salary payments may be offset under 31 U.S.C. 
+3716, there are many statutes and regulations that affect Federal 
+salary offsets. FMS has chosen not to address those authorities in this 
+rule. Additionally, this rule does not apply to the collection of past-
+due support payments. (See 31 CFR 285.1 for rules applicable to 
+administrative offset to collect past-due support).
+    (b) Definitions. Paragraph (b) of this rule sets forth definitions 
+applicable to this rule. Unless otherwise defined in this rule, all 
+terms have the meanings set forth in section 285.5(b) of this part. As 
+defined in this rule, ``administrative offset'' is used to describe the 
+offset of Federal payments to collect delinquent State debts. The 
+definition of ``State debt'' expressly excludes debts owed by other 
+governments. FMS has determined that TOP is not the appropriate tool 
+for resolving issues of indebtedness between State, local and foreign 
+governments. Also, the term ``debt'' is limited by statute to exclude 
+debts owed by agencies of the United States. See 31 U.S.C. 3701(c). The 
+term ``State payment offset'' means the offset of State payments, 
+pursuant to State law, to collect delinquent Federal nontax debts. The 
+term ``reciprocal agreement'' is defined to mean a written agreement 
+between FMS and a State, which will govern administrative offset to 
+collect that State's debts and the offset of that State's payments to 
+collect Federal debts.
+    (c) General rule. Paragraph (c) sets forth the general rule that 
+Federal disbursing officials are authorized to offset Federal payments 
+to collect delinquent State debts as long as the requirements of 31 
+U.S.C. 3716(h) are met. Among other things, States must enter into 
+reciprocal agreements with FMS that provide for the offset of State 
+payments to collect Federal nontax debts.
+    (d) Reciprocal agreements. Paragraph (d) sets forth the basic 
+parameters for the reciprocal agreements between FMS and the States. As 
+required by 31 U.S.C. 3716(h)(1)(B)(i), a State must enter into a 
+reciprocal agreement before it may collect its debts through 
+administrative offset under this section. The reciprocal agreement will 
+contain more detailed provisions consistent with this rule. A 
+reciprocal agreement will not necessarily require that each party will 
+offset the exact same types of payments. FMS and the State shall 
+determine which payments will be part of the offset programs in order 
+to make the agreements mutually beneficial and, thus, reciprocal.
+    (e) Requirements for administrative offset. Paragraph (e) sets 
+forth the requirements for collecting State debts by administrative 
+offset of Federal payments. State debts must meet the same eligibility 
+requirements for administrative offset as Federal debts are required to 
+meet under 31 CFR 285.5(d)(3)(i). States must comply with the same 
+certification requirements as Federal agencies under 31 CFR 285.5(d)(6) 
+except for requirements that are clearly inapplicable to administrative 
+offset under this section. The specific exceptions are establishment of 
+Federal salary offset procedures and the requirement to assess interest 
+on Federal debts.
+    Additionally, with respect to paragraph (d)(6)(ii) of section 285.5 
+of this part, States will only be required to certify that they have 
+complied with the requirements of 31 U.S.C. 3716 and this section; 
+States are not required to certify compliance with 31 U.S.C. 3720A or 
+26 U.S.C. 6402, both of which apply to Federal tax refund offsets. 
+States shall also certify that they have complied with any requirements 
+imposed by State law or procedure that may be applicable to 
+administrative offset under this section.
+    (f) Debts previously submitted by States for tax refund offset. 
+Pursuant to 31 CFR 285.8, States have submitted delinquent State income 
+tax obligations to FMS for collection by Federal tax refund offset. At 
+the time of submission, States certified the debts in substantially the 
+same manner as required under this rule, including that the State has 
+given the debtor notice of the State's intention to collect the debt 
+through offset of Federal tax refunds. State income tax obligations may 
+also be collected by administrative offset under this rule. FMS has 
+determined that it is unnecessary to require the States to
+
+[[Page 1285]]
+
+certify those debts again as a condition to eligibility for 
+administrative offset under this rule. However, with respect to these 
+debts, within 30 days of an administrative offset under this section, 
+the State must notify the debtor in writing that the debtor may 
+exercise the due process rights set forth in paragraph (e) of this 
+rule, if the State has not previously notified the debtor that Federal 
+payments other than tax refunds are subject to administrative offset, 
+and the debtor has not exercised his or her due process rights prior to 
+the submission of the debt to FMS. This paragraph also notes that 
+nothing in this rule requires the State to duplicate any notice or any 
+opportunity for a hearing or review previously provided to the debtor.
+    (g) Federal Payments subject to administrative offset under this 
+section. Paragraph (g) states that the types of Federal payments that 
+will be offset to collect a State's debts shall be set forth in the 
+reciprocal agreement. A number of payment types are expressly excluded 
+from administrative offset under this rule. In accordance with the 
+statutory prohibitions contained in 31 U.S.C. 3716(h), disbursing 
+officials may not offset the following payments to collect debts under 
+this rule: (a) Any payments exempted from offset as set forth in 31 CFR 
+285.5(e)(2); (b) payments due to an individual under the Social 
+Security Act; (c) payments due an individual pursuant to part B of the 
+Black Lung Benefits Act; and (d) payments due an individual pursuant to 
+any law administered by the Railroad Retirement Board. Additionally, as 
+explained above, offset of Federal tax refunds and salary payments are 
+not authorized by this rule.
+    (h) Conducting the administrative offset. Paragraph (h) instructs 
+Federal disbursing officials to conduct administrative offset under 
+this rule in the same manner as under 31 CFR 285.5. This paragraph also 
+specifies the priority for applying offset funds when a payment matches 
+with multiple debts in TOP. FMS uses TOP to collect many types of 
+delinquent debts under various legal authorities. If a payment matches 
+with multiple debts, the disbursing official shall apply offset amounts 
+to all other types of debts collected by offset under subpart A of 31 
+CFR part 285 (i.e., debts owed to Federal agencies and past due support 
+debts) before applying any available amounts to a debt under this rule. 
+Additionally, in accordance with 31 U.S.C. 3716(c)(8), a levy pursuant 
+to the Internal Revenue Code has precedence over offsets under this 
+section. Disbursing officials, therefore, will satisfy a levy to 
+collect tax debts prior to offsetting funds under this section.
+    (i) Liability of disbursing officials and payment agencies. 
+Paragraph (i) restates the statutory provision that disbursing 
+officials and payment agencies shall not be liable to the payee for 
+nonpayment of any amounts offset under this rule.
+    (j) Notification to a State of Federal debt. Paragraph (j) 
+addresses the requirements for offsetting a State payment to collect a 
+Federal debt. State payment offset is governed by the law of the State 
+conducting the offset. This paragraph provides that all State law 
+requirements that Federal creditor agencies must meet for State payment 
+offset shall be set forth in the reciprocal agreement. Such 
+requirements shall not exceed the requirements for collecting Federal 
+debts by administrative offset under 31 CFR 285.5(d). This paragraph 
+also provides that FMS will certify to the State conducting the offset 
+that the Federal debts FMS submits to the State have been certified as 
+valid and legally enforceable in accordance with 31 U.S.C. 3716(a).
+    (k) Conducting State payment offset. Paragraph (k) provides that 
+States shall conduct State payment offset pursuant to the State's laws 
+and regulations. The paragraph sets forth two requirements regarding 
+State payment offset that parallel requirements for conducting 
+administrative offset. First, in the case of a State payment that is 
+payable to two or more joint payees, the entire payment shall be 
+subject to offset to collect the debt of any one of the payees, unless 
+prohibited by State law. Such prohibition must be set forth in the 
+reciprocal agreements. Because the Treasury Offset Program only matches 
+one debtor at a time per payment, FMS will generally not enter into 
+reciprocal agreements that prohibit offsetting a payment to collect a 
+debt owed by only one of the joint payees. Second, if a payment is made 
+to a person solely in that person's capacity as a representative payee 
+for another person having the beneficial interest in the payment, the 
+State disbursing official shall only offset such payments for the debts 
+of the person having the beneficial interest. For example, if a State 
+makes a payment to a minor child, and the payment is made payable to 
+that child's parent as the representative payee for that child, the 
+State shall not offset the payment to collect a debt that the parent 
+owes to the United States.
+    Paragraph (k) also sets forth the requirement that the State notify 
+the payee of any State payment offset. While the reciprocal agreement 
+may set forth additional requirements, this rule requires, at a 
+minimum, that the notice inform the payee of the type and amount of the 
+payment that was offset, the identity of the Federal agency that 
+requested the offset, and a contact point within the Federal agency 
+that will handle concerns regarding the offset. Operationally, FMS will 
+provide this information to the State at the time FMS requests the 
+State payment offset.
+    (l) Limitations. Paragraph (l) sets forth limitations on the 
+collectibility of both Federal and State debts. Debts shall remain 
+eligible for State payment offset or administrative offset, as 
+applicable, so long as the debts remain valid and legally enforceable 
+for purposes of offset. Among other things, this means that, unless 
+otherwise provided by law, the debt has not been outstanding for more 
+than 10 years. See 31 U.S.C. 3716(e). The 10-year limitation, however, 
+does not apply to collecting debts reduced to judgment by 
+administrative offset. See the Federal Claims Collection Standards at 
+31 CFR 901.3(a)(4). There are no time limitations on collecting Federal 
+judgments. Many State judgments are also not subject to time 
+limitations. Therefore, this rule states that a Federal or State debt 
+that has been reduced to judgment shall remain enforceable for purposes 
+of administrative offset for as long as the judgment remains 
+enforceable against the debtor under the laws applicable to the 
+judgment.
+    (m) Fees. Paragraph (m) states that FMS will deduct a fee from 
+amounts offset pursuant to this rule. As required by 31 U.S.C. 
+3716(c)(4), the fee will be in an amount that FMS has determined to be 
+sufficient to reimburse FMS for the full cost of conducting offsets 
+under this section. FMS will notify States and Federal agencies of the 
+amount of the fee in advance.
+
+Special Analysis
+
+    FMS is promulgating this interim rule without opportunity for prior 
+public comment pursuant to the Administrative Procedure Act, 5 U.S.C. 
+553 (the ``APA''), because FMS has determined, for the following 
+reasons, that a comment period would be unnecessary and contrary to the 
+public interest. The DCIA provision authorizing the offset of Federal 
+payments to collect delinquent debt owed to the States pursuant to 
+reciprocal agreements was effective on August 26, 1996. A comment 
+period is unnecessary because this interim rule does not change the 
+ongoing offset process under the TOP, but rather provides guidance for 
+State agencies and Federal disbursing officials to facilitate the 
+addition of State debts into TOP. Under this interim rule, State
+
+[[Page 1286]]
+
+agencies are required to provide to the debtor the same pre-offset 
+notice, opportunities, and rights to dispute the debt and seek waiver 
+as currently required under 31 U.S.C. 3716 and 3720A and implementing 
+regulations. Since this interim rule provides important guidance 
+ensuring that debtors receive appropriate notices and opportunities 
+from States that elect to participate, FMS believes that it is in the 
+public interest to issue this interim rule without opportunity for 
+prior public comment.
+    For the same reasons, FMS has determined that good cause exists to 
+make this interim rule effective upon publication without providing the 
+30-day period between publication and the effective date contemplated 
+by 5 U.S.C. 553(d)(3). The public is invited to submit comments on the 
+interim rule, which will be taken into account before a final rule is 
+issued.
+
+Regulatory Analysis
+
+    This interim rule is not a significant regulatory action as defined 
+in Executive Order 12866. Because no notice of proposed rulemaking is 
+required for this rule, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. 601 et seq.) do not apply.
+
+Federalism
+
+    This rule has been reviewed under Executive Order 13132, 
+Federalism. This rule will not have substantial direct effects on the 
+States, on the relationship between the national government and the 
+States, or on distribution of power and responsibilities among the 
+various levels of government. Participation in the program governed by 
+this rule is voluntary for the States, and this rule only sets forth 
+the general procedures for State participation. Additionally, as 
+described above, FMS has worked closely with States in the development 
+of a pilot program that will operate pursuant to this interim rule. As 
+part of that collaborative process, FMS has consulted with the States 
+participating in the pilot regarding the provisions of this rule and 
+the operational requirements for participation. Therefore, in 
+accordance with Executive Order 13132, it is determined that this rule 
+does not have sufficient federalism implications to warrant the 
+preparation of a federalism summary impact statement.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Claims, Credit, Debts, Disability benefits, Federal employees, 
+Garnishment of wages, Hearing and appeal procedures, Loan programs, 
+Privacy, Railroad retirement, Railroad unemployment insurance, 
+Salaries, Social Security benefits, Supplemental Security Income (SSI), 
+Taxes, Veteran's benefits, Wages.
+
+Authority and Issuance
+
+0
+For the reasons set forth in the preamble, 31 CFR part 285 is amended 
+as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. Section 285.6 is added to part 285, subpart A, to read as follows:
+
+
+Sec.  285.6  Administrative offset under reciprocal agreements with 
+states.
+
+    (a) Scope. (1) This section sets forth the rules that apply to the 
+administrative offset of Federal nontax payments to collect delinquent 
+debts owed to States. As set forth in 31 U.S.C. 3716(h), States may 
+participate in administrative offset so long as they meet certain 
+requirements, including entering into reciprocal agreements with the 
+Secretary of the Treasury. Such reciprocal agreements may contain any 
+requirements that the Secretary considers appropriate to facilitate 
+offset. Participation in offset under this section is voluntary for 
+both FMS and the States. This section prescribes the minimum 
+requirements for such reciprocal agreements, including provisions 
+applicable to the offset of State payments, pursuant to State law, to 
+collect delinquent Federal debts. Such offsets are defined in this 
+section as ``State payment offsets.''
+    (2) This section does not apply to the offset of Federal salary 
+payments, Federal tax refunds (see 31 CFR 285.8), or the collection of 
+past-due support debts (see 31 CFR 285.1 and 285.3).
+    (b) Definitions. (1) Unless otherwise defined in paragraph Sec.  
+285.5(b) of this subpart.
+    (2) For purposes of this section:
+    Administrative offset has the meaning set forth in 31 U.S.C. 
+3701(a) and means withholding funds payable by the United States to, or 
+held by the United States for, a person to satisfy a debt owed by the 
+payee. The term debt in this definition means a State debt.
+    Debtor means a person who owes a debt to the United States or a 
+State.
+    Federal debt means any amount of money, funds or property that has 
+been determined by an appropriate official of the Federal government to 
+be owed to the United States by a person, organization, or entity, 
+except another Federal agency. The term includes debt administered by a 
+third party acting as an agent for the Federal Government. For purposes 
+of this section, the term ``Federal debt'' does not include debts 
+arising under the Internal Revenue Code of 1986 (26 U.S.C. 1 et seq.), 
+the tariff laws of the United States, or the Social Security Act (42 
+U.S.C. 301 et seq.), except to the extent provided in sections 204(f) 
+and 1631(b)(4) of such Act (42 U.S.C. 404(f) and 1383(b)(4)(A), 
+respectively) and 31 U.S.C. 3716(c).
+    Offset means withholding funds payable to a person to satisfy a 
+debt owed by the payee.
+    Participating State means a State that has entered into a 
+reciprocal agreement under this section.
+    Reciprocal agreement means a written agreement between FMS and a 
+State, entered into pursuant to 31 U.S.C. Sec.  3716(h), which provides 
+for administrative offset and State payment offset.
+    State has the meaning set forth in 31 U.S.C. 3701(b)(2) and 
+includes the several states of the United States, the District of 
+Columbia, American Samoa, Guam, the United States Virgin Islands, the 
+Commonwealth of the Northern Mariana Islands, and the Commonwealth of 
+Puerto Rico.
+    State debt means any amount of money, funds or property that has 
+been determined by an appropriate State official to be owed to that 
+State by a person, organization, or entity, except the United States, a 
+foreign sovereign, or another State (including local governments within 
+a State). For purposes of this rule, the term includes debt 
+administered by a third party acting as an agent for the State.
+    State payment offset means withholding funds payable by a State to, 
+or held by a State for, a person to satisfy a debt owed by the payee to 
+the United States.
+    (c) General rule. FMS and other disbursing officials of the Federal 
+Government will conduct administrative offset to collect past-due State 
+debts certified to FMS, and participating States will conduct State 
+payment offset to collect delinquent Federal debts in accordance with 
+the terms of reciprocal agreements entered into between the States and 
+FMS, acting on behalf of the Secretary. Upon notification of a 
+delinquent State debt
+
+[[Page 1287]]
+
+from a participating State to FMS, disbursing officials of the United 
+States shall offset the Federal payments specified in the reciprocal 
+agreement to collect the State debt. The amount offset, minus an offset 
+fee, shall be forwarded to the State to be distributed in accordance 
+with applicable laws and procedures. Upon notification of a delinquent 
+Federal debt from FMS to a participating State, authorized officials of 
+the participating State shall conduct State payment offset as specified 
+in the applicable reciprocal agreement to collect the Federal debt.
+    (d) Reciprocal agreements. (1) FMS may enter into reciprocal 
+agreements with States for administrative offset and State payment 
+offset. The agreements shall contain any requirements which FMS 
+considers appropriate to facilitate the offset and prevent duplicative 
+efforts, and shall require States to prescribe procedures governing the 
+collection of delinquent State debts which are substantially similar to 
+requirements imposed on Federal agencies pursuant to 31 U.S.C. Sec.  
+3716(b). States may prescribe such procedures through legislation or 
+regulations, as deemed appropriate by State officials. States which 
+have entered into a reciprocal agreement with FMS pursuant to this 
+section may thereafter request, in the manner prescribed in the 
+reciprocal agreement, that administrative offsets be performed. Such 
+requests shall be made by the appropriate State disbursing official, 
+which, for purposes of this section, means an appropriate official of 
+the State agency that is responsible for collecting the State debt. 
+Reciprocal agreements must be signed by a State official authorized to 
+enter into such agreements.
+    (2) Once FMS has entered into a reciprocal agreement with a State 
+pursuant to this section, FMS may request that the State perform State 
+payment offsets to collect delinquent Federal debts in accordance with 
+the terms of the reciprocal agreement.
+    (3) A duly executed reciprocal agreement is required before a State 
+may request an administrative offset pursuant to 31 U.S.C. 3716(h).
+    (e) Requirements for submitting State debts for administrative 
+offset--(1) Debt eligibility. A State debt submitted to FMS for 
+collection by administrative offset must meet the debt eligibility 
+requirements of 31 CFR 285.5(d)(3)(i).
+    (2) Certification. At the time a participating State notifies FMS 
+of a State debt for purposes of collection by administrative offset 
+under this section, the State shall comply with the certification 
+requirements set forth in paragraph 31 CFR 285.5(d)(6) with the 
+following two exceptions:
+    (i) Paragraph (d)(6)(ii)(E)--Federal salary offset; and
+    (ii) Paragraph (d)(6)(iii)--Federal requirements for the assessment 
+of interest and penalties to Federal debts. Additionally, with respect 
+to paragraph (d)(6)(ii) of Sec.  285.5, States shall only be required 
+to certify that they have complied with the requirements of 31 U.S.C. 
+3716 (not 31 U.S.C. 3720A or 26 U.S.C. 6402) and this section 285.6. 
+States shall also certify that they have complied with any requirements 
+imposed by State law or procedure that may be applicable to 
+administrative offset.
+    (f) State debts submitted to FMS for tax refund offset prior to the 
+effective date of this section. A State shall be deemed to have 
+complied with the requirements of paragraph (e)(2) of this section with 
+respect to any State debt that the State certified to Treasury prior to 
+the effective date of this section for collection pursuant to 31 CFR 
+285.8, Offset of tax refund payments to collect state income tax 
+obligations. However, within 30 days of an administrative offset under 
+this section, the State shall notify the debtor in writing that the 
+debtor may exercise the rights set forth in the applicable sections of 
+31 CFR 285.5(d) as set forth in paragraph (e) of this section, only if 
+the State has not previously informed the debtor in writing that 
+Federal payments other than tax refunds may be offset to collect the 
+State debt, and the debtor has not exercised such rights previously 
+with respect to the State debt that was collected by the offset. 
+Nothing in this section requires any State to duplicate any notice or 
+any opportunity for a hearing or review provided to the debtor prior to 
+administrative offset.
+    (g) Federal Payments subject to administrative offset under this 
+section. (1) The Federal payments that will be offset to collect a 
+participating State's debts shall be set forth in the reciprocal 
+agreement. Federal payments that are excluded from administrative 
+offset under this section include:
+    (i) Any payments described in 31 CFR 285.5(e)(2) ``Payments 
+excluded from offset'';
+    (ii) Payments due to an individual under the Social Security Act;
+    (iii) Payments due an individual pursuant to part B of the Black 
+Lung Benefits Act;
+    (iv) Payments due an individual pursuant to any law administered by 
+the Railroad Retirement Board;
+    (v) Federal tax refunds; and
+    (vi) Federal salary payments.
+    (h) Conducting the administrative offset. (1) Disbursing officials 
+shall conduct administrative offset under this section in the same 
+manner as set forth in 31 CFR 285.5(f) through (i).
+    (2) When a payee owes more than one delinquent State debt which has 
+been referred to FMS for collection, amounts will be applied to 
+delinquent State debts under this section after any amounts offset 
+pursuant to any other section of this subpart A and any amounts levied 
+pursuant 26 U.S.C. 6331.
+    (i) Liability of disbursing officials and payment agencies. Neither 
+the Federal disbursing official nor the agency authorizing the Federal 
+payment shall be liable to a debtor for the amount of the 
+administrative offset on the basis that the underlying obligation, 
+represented by the payment before the administrative offset was taken, 
+was not satisfied.
+    (j) Notification to a State of Federal debt. (1) A State may set 
+forth in the reciprocal agreement the requirements for FMS to follow 
+when submitting a Federal debt for collection by State payment offset. 
+Such agreements shall set forth all requirements contained in State law 
+for the State payment offset. Such requirements, however, may not 
+exceed the requirements for collecting Federal debts by administrative 
+offset as set forth in Sec.  285.5(d) of this subpart.
+    (2) FMS shall certify to a participating State that each debt FMS 
+submits for State payment offset has been certified by the Federal 
+creditor agency to be delinquent, valid, and legally enforceable in the 
+amount stated, and that the Federal creditor agency owed the debt has 
+complied with the requirements of 31 U.S.C. 3716(a) prior to submitting 
+the debt for offset.
+    (k) Conducting State payment offset. (1) An official of a 
+participating State shall conduct State payment offset pursuant to the 
+laws and regulations of the participating State; provided that:
+    (i) If a payment is owed jointly to more than one payee, the entire 
+payment shall be offset for a debt of either payee, unless otherwise 
+prohibited by law or regulation; and
+    (ii) If a payment is made to a person solely in that person's 
+capacity as a representative payee for another person having the 
+beneficial interest in the payment, the disbursing official shall 
+offset that payment only to collect debts owed by the person having the 
+beneficial interest in the payment.
+    (2) Any prohibitions on offsetting a joint payment described in 
+paragraph (k)(1)(i) of this section shall be set forth in the 
+reciprocal agreement.
+    (3) An official of the participating State shall notify the payee 
+of the State
+
+[[Page 1288]]
+
+payment offset. The reciprocal agreement may contain detailed guidance 
+and procedures regarding sending such notice, but shall, at a minimum 
+require that the notice inform the payee of:
+    (i) The type and amount of the payment that was offset;
+    (ii) The identity of the Federal agency that requested the offset; 
+and
+    (iii) A contact point within the Federal agency that will handle 
+concerns regarding the offset.
+    (l) Limitations. A debt properly submitted to FMS or the State for 
+administrative offset or State payment offset shall remain subject to 
+collection until withdrawn by the entity that submitted the debt for 
+collection, provided the debt remains past-due and legally enforceable 
+for purposes of administrative offset or State payment offset, as 
+applicable. A debt which has been reduced to a judgment shall remain 
+legally enforceable for purposes of administrative offset and State 
+payment offset for as long as the judgment remains enforceable against 
+the debtor.
+    (m) Fees. FMS shall deduct a fee from each administrative offset 
+and State payment offset amount before transferring the balance of the 
+offset funds to the State or Federal agency owed the debt. Pursuant to 
+31 U.S.C. 3716(c)(4), the fee will be in an amount that FMS has 
+determined to be sufficient to reimburse FMS for the full cost of the 
+offset procedure. FMS will notify the States and creditor agencies, 
+annually and in advance, of the amount of the fee FMS will charge for 
+each offset.
+
+    Dated: January 4, 2007.
+Kenneth R. Papaj,
+Commissioner.
+ [FR Doc. E7-127 Filed 1-10-07; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

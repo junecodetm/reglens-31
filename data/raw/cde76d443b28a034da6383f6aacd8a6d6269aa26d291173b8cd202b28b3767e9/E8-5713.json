@@ -1,0 +1,94 @@
+{
+  "abstract": "The Department of the Treasury (\"Treasury\" or \"We\") is issuing in final form amendments to the Uniform Offering Circular for the Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds. The first change lowers the minimum and multiple par amounts of Treasury marketable notes, bonds, and Treasury inflation-protected securities (TIPS) that may be stripped from $1,000 to $100. The second change eliminates the provisions allowing depository institutions and dealers to submit customer bids in Treasury marketable securities auctions for securities that will be held in Legacy Treasury Direct. The third change eliminates the requirement that submitters that submit bids by computer provide a written certification that they are in compliance with the auction rules. Finally, this final rule adds technical clarification to the calculation of accrued interest for Treasury bonds and notes.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2008/03/20/E8-5713.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    }
+  ],
+  "citation": "73 FR 14937",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective Date: This rule is effective on March 20, 2008.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. BPD GSRS 08-01"
+  ],
+  "dockets": [],
+  "document_number": "E8-5713",
+  "effective_on": "2008-03-20",
+  "end_page": 14939,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2008/03/20/E8-5713.xml",
+  "html_url": "https://www.federalregister.gov/documents/2008/03/20/E8-5713/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds-minimum-and-multiple-amounts",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E8-5713?publication_date=2008-03-20",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2008-03-20/E8-5713/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 3,
+  "page_views": {
+    "count": 84,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2008-03-20/pdf/E8-5713.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2008-03-20",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2008/03/20/E8-5713.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-11-13T23:21:28Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 14937,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds-Minimum and Multiple Amounts Eligible for STRIPS, Legacy Treasury Direct, and Certification Requirements",
+  "toc_doc": "Minimum and Multiple Amounts Eligible for STRIPS, Legacy Treasury Direct, and Certification Requirements",
+  "toc_subject": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds:",
+  "topics": [
+    "Bonds",
+    "Government securities",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 73
+}

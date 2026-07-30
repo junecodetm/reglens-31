@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1999/02/04/99-2571.txt",
+  "fetched_at": "2026-07-30T14:10:35.787903+00:00",
+  "sha256": "8f4c057f638f92610f3240681f6a67b16a26c56a364bf7b86a40f7b1c346e81a",
+  "content_type": "text/plain",
+  "filename": "99-2571.txt"
+}

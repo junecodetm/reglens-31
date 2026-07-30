@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2011/01/28/2011-1697.txt",
+  "fetched_at": "2026-07-30T14:09:24.170573+00:00",
+  "sha256": "c7cd0ac55b43c59952e880695e69c059d6723271bc2305b3a932013320c5d124",
+  "content_type": "text/plain",
+  "filename": "2011-1697.txt"
+}

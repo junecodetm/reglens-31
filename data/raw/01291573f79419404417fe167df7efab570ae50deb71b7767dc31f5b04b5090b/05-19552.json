@@ -1,0 +1,103 @@
+{
+  "abstract": "TreasuryDirect is an account-based, book-entry, online system for purchasing, holding, and conducting transactions in Treasury securities. To date, the system has only been available for the purchase and holding of savings bonds and certificates of indebtedness. The Department of the Treasury (hereinafter referred to as \"Treasury\" or \"We\") is amending Regulations Governing Securities Held in TreasuryDirect to add marketable Treasury securities to the securities that may be purchased and held in TreasuryDirect and to provide the terms and conditions for marketable Treasury securities held in the system. We are amending Regulations Governing Book-Entry Treasury Bonds, Notes and Bills Held in Legacy Treasury Direct to provide for the transfer of securities between Legacy Treasury Direct and TreasuryDirect. We are also amending the Uniform Offering Circular for the Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds to make the changes necessary to accommodate participation in Treasury marketable securities auctions for securities to be held in either the TreasuryDirect or the Legacy Treasury Direct[supreg] system. We are also eliminating the ability to bid competitively through Legacy Treasury Direct. These final amendments benefit individual investors by allowing them to purchase, hold and conduct transactions in marketable Treasury securities through the TreasuryDirect system.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2005/09/30/05-19552.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 357,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 363,
+      "title": 31
+    }
+  ],
+  "citation": "70 FR 57437",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective Date: September 30, 2005.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. BPD-CC-05-2"
+  ],
+  "dockets": [],
+  "document_number": "05-19552",
+  "effective_on": "2005-09-30",
+  "end_page": 57445,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2005/09/30/05-19552.xml",
+  "html_url": "https://www.federalregister.gov/documents/2005/09/30/05-19552/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds-department-of-the-treasury",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/05-19552?publication_date=2005-09-30",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2005-09-30/05-19552/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 9,
+  "page_views": {
+    "count": 636,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2005-09-30/pdf/05-19552.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2005-09-30",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2005/09/30/05-19552.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-11-12T17:13:15Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 57437,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds (Department of the Treasury Circular, Public Debt Series No. 1-93); Regulations Governing Book-Entry Treasury Bonds, Notes and Bills Held in Legacy Treasury Direct\u00ae; Regulations Governing Securities Held in TreasuryDirect\u00ae",
+  "toc_doc": "Securities held in TreasuryDirect",
+  "toc_subject": "Book-entry and marketable book-entry Treasury bonds, notes, and bills:",
+  "topics": [
+    "Banks, banking",
+    "Bonds",
+    "Electronic funds transfers",
+    "Government securities",
+    "Reporting and recordkeeping requirements",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 70
+}

@@ -1,0 +1,1134 @@
+<html>
+<head>
+<title>Federal Register, Volume 69 Issue 170 (Thursday, September 2, 2004)</title>
+</head>
+<body><pre>
+[Federal Register Volume 69, Number 170 (Thursday, September 2, 2004)]
+[Rules and Regulations]
+[Pages 53619-53626]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 04-19999]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Department of the Treasury Circular, Public Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Treasury Bills, Notes, and Bonds: 
+Six-Decimal Pricing, Negative-Yield Bidding, Zero-Filling, and 
+Noncompetitive Bidding and Award Limit Increase
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury,'' ``We,'' or 
+``Us'') is issuing in final form an amendment to its regulations 
+(Uniform Offering Circular for the Sale and Issue of
+
+[[Page 53620]]
+
+Marketable Book-Entry Treasury Bills, Notes, and Bonds). This amendment 
+implements four policy changes and makes conforming changes to the 
+formulas. First, this amendment changes the pricing convention for all 
+marketable Treasury securities auctions from three decimal places to 
+six decimal places. Second, this amendment allows for negative-yield 
+bidding in Treasury inflation-protected securities (TIPS) auctions to 
+accommodate circumstances in which the desired real yield is a negative 
+number. Third, this amendment provides for ``zero-filling'' of 
+competitive auction bids that are not expressed out to the required 
+three decimals by modifying the bids to a three-decimal rate or yield 
+that is mathematically equivalent to the rate or yield submitted. 
+Finally, this amendment raises the noncompetitive bidding and award 
+limit for all Treasury bill auctions from $1 million to $5 million, 
+which is the current noncompetitive limit for all Treasury note and 
+bond auctions.
+
+EFFECTIVE DATE: September 20, 2004.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Web site at <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a> or from the 
+Electronic Code of Federal Regulations (e-CFR) Web site at <a href="http://www.gpoaccess.gov/ecfr">http://www.gpoaccess.gov/ecfr</a>. It is also available for public inspection and 
+copying at the Treasury Department Library, Room 1428, Main Treasury 
+Building, 1500 Pennsylvania Avenue, NW., Washington, DC 20220. To visit 
+the library, call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director), 
+Chuck Andreatta or Lee Grandy (Associate Directors), Bureau of the 
+Public Debt, Government Securities Regulations Staff, (202) 504-3632, 
+or e-mail us at <a href="/cdn-cgi/l/email-protection#771018010412140512103715071359030512160459101801"><span class="__cf_email__" data-cfemail="fd9a928b8e989e8f989abd9f8d99d3898f989c8ed39a928b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular, in 
+conjunction with the offering announcement for each auction, provides 
+the terms and conditions for the sale and issuance in an auction to the 
+public of marketable Treasury bills, notes and bonds.\1\ In this 
+notice, we describe the current rules and why we are changing them. 
+Then we describe the final amendment to the Uniform Offering Circular.
+---------------------------------------------------------------------------
+
+    \1\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR part 356.
+---------------------------------------------------------------------------
+
+Background and Analysis
+
+A. Six-Decimal Pricing
+
+    It is a longstanding convention in marketable Treasury securities 
+auctions that the prices at which we award securities to successful 
+bidders are expressed in terms of price per 100 of par value to three 
+decimal places, for example, 99.170. One result is that auctions of 
+Treasury bills of less than 72 days currently do not result in price 
+uniqueness for each discount rate bid.\2\ In other words, for these 
+short-term Treasury bills, there may be multiple discount rates bid 
+that result in the same three-decimal price. Furthermore, for extremely 
+short-term Treasury bills, rounding the price to three decimals can 
+result in the investment rate (the equivalent coupon-issue yield) being 
+inaccurate. Treasury provides both the discount rate and the investment 
+rate on its Treasury bill auction results announcements. Because the 
+discount rate is based on a par value of $100, and the investment rate 
+is based on the actual price paid per $100 of par, the discount rate 
+should always be less than the investment rate. (The formula for 
+calculating a purchase price from a discount rate is P = 100(1 - dr/
+360), where d = the discount rate, in decimals, r = the number of days 
+to maturity, and P = price per hundred (dollars). The formula for 
+calculating an investment rate from a purchase price is
+---------------------------------------------------------------------------
+
+    \2\ Price uniqueness occurs when each separate discount rate 
+produces a different (unique) price, i.e., no two discount rates 
+result in the same price. Price uniqueness is a function of the 
+minimum bid increment allowed in auctions, price rounding 
+conventions, and the number of days to maturity.
+[GRAPHIC] [TIFF OMITTED] TR02SE04.004
+
+where i = the investment rate, in decimals; P = price per hundred 
+(dollars); r = number of days to maturity; and y = number of days in 
+the year following the issue date (normally 365). See Section V of 
+Appendix B.) However, this relationship does not always hold under our 
+current three-decimal conventions.
+    An example of the anomalies that can occur in very short-term 
+Treasury bills occurred in Treasury's auction of four-day cash 
+management bills on September 10, 2003. This bill was awarded at a 
+discount rate of 0.940 percent and a three-decimal price of 99.990. 
+Under the current bidding convention, 18 different discount rates could 
+have been bid in the auction (from 0.860 percent to 0.945 percent), all 
+having a corresponding rounded price of 99.990. In addition, the 
+investment rate for the auction was 0.915 percent, which is less than 
+the awarded discount rate of 0.940 percent.
+    In the February 2004 Quarterly Refunding Statement, Treasury 
+announced its intention to compute the price of awards in auctions to 
+six decimal places per hundred.<SUP>3-4</SUP> In an effort to make the 
+transition as smooth as possible, the six-decimal pricing calculation 
+formulas were made available at the Bureau of the Public Debt Website 
+on March 4, 2004.\5\ In the May 2004 Quarterly Refunding Statement, 
+Treasury reiterated its intention to change to the six-decimal pricing 
+convention in the second half of the year.\6\
+---------------------------------------------------------------------------
+
+    \3-4\ Treasury February Quarterly Refunding Statement, February 
+4, 2004. Treasury stated its intention to implement six-decimal 
+pricing later in the year.
+    \5\ See Public Debt News Release on March 4, 2004. The formulas 
+are available at <a href="http://www.publicdebt.treas.gov/of/ofcalc6decimal.htm">http://www.publicdebt.treas.gov/of/ofcalc6decimal.htm</a>.
+    \6\ Treasury May Quarterly Refunding Statement, May 5, 2004.
+---------------------------------------------------------------------------
+
+    Accordingly, to ensure price uniqueness for all discount rates or 
+yields bid in all marketable Treasury securities auctions, we are 
+amending the Uniform Offering Circular to calculate prices for awarded 
+securities to six decimals per $100 of par value. Specifically, Sec.  
+356.20(c) is being changed to state that price calculations for awarded 
+securities will be rounded to six decimal places per hundred (rather 
+than the current three decimals), for example, 99.954321. Calculating 
+prices to six decimals will also make Treasury's pricing practice 
+consistent with secondary market practices. As of the effective date of 
+this amendment, this change will apply to all Treasury bill, note, and 
+bond auctions.
+
+B. Negative-Yield Bidding
+
+    Treasury's current auction regulations do not expressly permit 
+bidders in TIPS auctions to submit negative-yield bids. Since it is 
+possible that under certain market conditions the yield desired by a 
+competitive bidder in a TIPS auction would be a negative number, this 
+amendment modifies the regulations to allow Treasury to accept 
+negative-yield bids in TIPS auctions.
+    The introduction of 5-year TIPS \7\ has increased the possibility 
+that a Treasury TIPS auction could result in a negative-yield TIPS. 
+However, a negative TIPS interest (coupon) rate is neither practical 
+nor desirable. Therefore, if a TIPS auction produces a negative or zero 
+yield, this amendment clarifies that
+
+[[Page 53621]]
+
+we will set the interest rate at zero and calculate the award price 
+accordingly. Investors will receive the inflation-adjusted par amount 
+at maturity. Therefore, Sec.  356.12(c)(1)(iii) is being modified to 
+state that the real-yield bid submitted for a TIPS auction may be a 
+positive number, a negative number, or zero. Also, Sec.  356.20(b) is 
+being modified to state that if a TIPS auction produces a negative or 
+zero yield, the interest rate will be set at zero, with successful 
+bidders' award prices calculated accordingly.
+---------------------------------------------------------------------------
+
+    \7\ Treasury May 2004 Quarterly Refunding Statement, May 5, 
+2004. Treasury stated it would begin offering 5-year TIPS, with the 
+first such offering to be conducted in October 2004.
+---------------------------------------------------------------------------
+
+C. Zero-Filling
+
+    When evaluating bids submitted in Treasury auctions, we currently 
+reject any bid that does not adhere to the established three-decimal 
+bidding format. Rejecting such bids reduces the number of competitive 
+bids in Treasury auctions, which is counter to our objective of 
+ensuring broad participation in Treasury auctions. Therefore, we have 
+decided to accept competitive bids that are not expressed out to three 
+decimals at a three-decimal rate or yield that is mathematically 
+equivalent to the rate or yield that was submitted. For example, a bid 
+of 5.32 will be treated as a bid of 5.320, a bid of 4.1 will be treated 
+as a bid of 4.100, and a bid of 3 will be treated as a bid of 3.000. 
+Accordingly, Sec. Sec.  356.12(c)(1)(i),(ii), and (iii) are being 
+modified to state that any missing decimals in a competitive bid will 
+be treated as zero.
+
+D. Noncompetitive Bidding and Award Limit Increase for Treasury Bill 
+Auctions
+
+    In an October 25, 1991 Treasury News press release, Treasury 
+announced it was increasing the maximum noncompetitive award in note 
+and bond auctions from $1 million to $5 million, effective November 5, 
+1991.\8\ The change was made to broaden participation in Treasury 
+auctions, particularly to encourage bidding by smaller investors. The 
+noncompetitive bid and award limit for Treasury bills remained at $1 
+million. In an effort to make the maximum noncompetitive bid and award 
+limit consistent for all marketable Treasury securities auctions, and 
+to increase participation in Treasury auctions, Treasury is raising the 
+noncompetitive bidding and award limit for Treasury bill auctions from 
+$1 million to $5 million.
+---------------------------------------------------------------------------
+
+    \8\ Treasury News press release dated October 21, 1991.
+---------------------------------------------------------------------------
+
+    Accordingly, Sec.  356.12(b)(1) is being modified to provide 
+generally that the maximum amount that can be bid noncompetitively in 
+any Treasury securities auction is $5 million.\9\ Also, Sec.  356.22(a) 
+is being modified to state that the maximum noncompetitive award to any 
+bidder will be $5 million, which will apply to all Treasury auctions.
+---------------------------------------------------------------------------
+
+    \9\ Paragraph 356.12(b)(1) also states that the maximum bid 
+limitation does not apply if a bidder is bidding solely through a 
+TreasuryDirect reinvestment request.
+---------------------------------------------------------------------------
+
+E. Formulas and Effective Date
+
+    Technical changes are being made to the formulas in Appendix B, 
+Sections II, III, and V to conform with the changes we are making in 
+the pricing conventions. To provide market participants and Treasury 
+sufficient time to modify their settlement systems and to make any 
+other operational changes that may be needed, we are providing a 
+delayed effective date of September 20, 2004.
+
+Procedural Requirements
+
+    It has been determined that this final rule is not a significant 
+regulatory action for purposes of Executive Order 12866. The notice and 
+public procedures requirements of the Administrative Procedure Act do 
+not apply.
+    Since no notice of proposed rulemaking is required, the provisions 
+of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do not apply.
+    The Office of Management and Budget has approved the collections of 
+information in this final rule amendment in accordance with the 
+Paperwork Reduction Act of 1995. This final rule is technical in nature 
+and imposes no additional burdens on auction bidders.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+0
+For the reasons stated in the preamble, 31 CFR part 356 is amended as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. Section 356.12 is amended by revising paragraphs (b)(1) and 
+(c)(1)(i),(ii), and (iii) to read as follows:
+
+
+Sec.  356.12  What are the different types of bids and do they have 
+specific requirements or restrictions?
+
+* * * * *
+    (b) Noncompetitive bids. (1) Maximum bid. You may not bid 
+noncompetitively for more than $5 million. The maximum bid limitation 
+does not apply if you are bidding solely through a TreasuryDirect 
+reinvestment request. A request for reinvestment of securities maturing 
+in TreasuryDirect is a noncompetitive bid.
+* * * * *
+    (c) Competitive bids.--(1) Bid format (i) Treasury bills. A 
+competitive bid must show the discount rate bid, expressed with three 
+decimals in .005 increments. The third decimal must be either a zero or 
+a five, for example, 5.320 or 5.325. We will treat any missing decimals 
+as zero, for example, a bid of 5.32 will be treated as 5.320.
+    (ii) Treasury fixed-principal securities. A competitive bid must 
+show the yield bid, expressed with three decimals, for example, 4.170. 
+We will treat any missing decimals as zero, for example, a bid of 4.1 
+will be treated as 4.100.
+    (iii) Treasury inflation-protected securities. A competitive bid 
+must show the real yield bid, expressed with three decimals, for 
+example, 3.070. We will treat any missing decimals as zero, for 
+example, a bid of 3 will be treated as 3.000. The real yield may be a 
+positive number, a negative number, or zero.
+* * * * *
+0
+3. Section 356.20 is amended by revising paragraphs (b) and (c) to read 
+as follows:
+
+
+Sec.  356.20  How does the Treasury determine auction awards?
+
+* * * * *
+    (b) Determining the interest rate for new note and bond issues. We 
+set the interest rate at a \1/8\ of one percent increment. If a 
+Treasury inflation-protected securities auction results in a negative 
+or zero yield, the interest rate will be set at zero, and successful 
+bidders' award prices will be calculated accordingly (See Appendix B to 
+this part for formulas).
+    (1) Single-price auctions. The interest rate we establish produces 
+the price closest to, but not above, par when evaluated at the yield of 
+awards to successful competitive bidders.
+    (2) Multiple-price auctions. The interest rate we establish 
+produces the price closest to, but not above, par when evaluated at the 
+weighted-average yield of awards to successful competitive bidders.
+    (c) Determining purchase prices for awarded securities. We round 
+price calculations to six decimal places on the basis of price per 
+hundred, for example, 99.954321 (See Appendix B to this part).
+
+[[Page 53622]]
+
+    (1) Single-price auctions. We award securities to both 
+noncompetitive and competitive bidders at the price equivalent to the 
+highest accepted discount rate or yield at which bids were accepted. 
+For inflation-protected securities, the price for awarded securities is 
+the price equivalent to the highest accepted real yield.
+    (2) Multiple-price auctions--(i) Competitive bids. We award 
+securities to competitive bidders at the price equivalent to each yield 
+or discount rate at which their bids were accepted.
+    (ii) Noncompetitive bids. We award securities to noncompetitive 
+bidders at the price equivalent to the weighted average yield or 
+discount rate of accepted competitive bids.
+
+0
+4. Section 356.22 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.22  Does the Treasury have any limitations on auction awards?
+
+    (a) Awards to noncompetitive bidders. The maximum award to any 
+bidder is $5 million. This limit does not apply to bidders bidding 
+solely through TreasuryDirect reinvestment requests.
+* * * * *
+
+0
+5. Appendix B to part 356, sections II and III are revised to read as 
+follows:
+
+Appendix B to Part 356--Formulas and Tables
+
+* * * * *
+
+II. Formulas for Conversion of Fixed-Principal Security Yields to 
+Equivalent Prices
+
+Definitions
+
+P = price per 100 (dollars), rounded to six places, using normal 
+rounding procedures.
+C = the regular annual interest per $100, payable semiannually, 
+e.g., 6.125 (the decimal equivalent of a 6\1/8\ interest rate).
+i = nominal annual rate of return or yield to maturity, based on 
+semiannual interest payments and expressed in decimals, e.g., .0719.
+n = number of full semiannual periods from the issue date to 
+maturity, except that, if the issue date is a coupon frequency date, 
+n will be one less than the number of full semiannual periods 
+remaining to maturity. Coupon frequency dates are the two semiannual 
+dates based on the maturity date of each note or bond issue. For 
+example, a security maturing on November 15, 2015, would have coupon 
+frequency dates of May 15 and November 15.
+r = (1) number of days from the issue date to the first interest 
+payment (regular or short first payment period), or (2) number of 
+days in fractional portion (or ``initial short period'') of long 
+first payment period.
+s = (1) number of days in the full semiannual period ending on the 
+first interest payment date (regular or short first payment period), 
+or (2) number of days in the full semiannual period in which the 
+fractional portion of a long first payment period falls, ending at 
+the onset of the regular portion of the first interest payment.
+
+v\n\ = 1 / [1 + (i/2)] \n\ = present value of 1 due at the end of n 
+periods.
+a<INF>n</INF>[rceil] = (1-v<SUP>n</SUP>) / (i/2) = v + v\2\ + v\3\ + 
+... v\n\ = present value of 1 per period for n periods.
+
+    Special Case: If i = 0, then a<INF>n</INF>[rceil] = n. 
+Furthermore, when i = 0, a<INF>n</INF>[rceil] cannot be calculated 
+using the formula: (1 - v<INF>n</INF>)/(i/2). In the special case 
+where i = 0, a<INF>n</INF>[rceil] must be calculated as the 
+summation of the individual present values (i.e., v + v\2\ + v\3\ + 
+... + v\n\). Using the summation method will always confirm that 
+a<INF>n</INF>[rceil] = n when i = 0.
+
+A = accrued interest.
+
+    A. For fixed-principal securities with a regular first interest 
+payment period:
+
+Formula:
+
+P[1 + (r/s)(i/2)] = (C/2)(r/s) + (C/2)a<INF>n</INF>[rceil] + 
+100v\n\.
+
+Example:
+
+    For an 8\3/4\% 30-year bond issued May 15, 1990, due May 15, 
+2020, with interest payments on November 15 and May 15, solve for 
+the price per 100 (P) at a yield of 8.84%.
+
+Definitions:
+
+C = 8.75.
+i = .0884.
+r = 184 (May 15 to November 15, 1990).
+s = 184 (May 15 to November 15, 1990).
+n = 59 (There are 60 full semiannual periods, but n is reduced by 1 
+because the issue date is a coupon frequency date.)
+v\n\ = 1 / [(1 + .0884 / 2)]\59\, or .0779403508.
+a<INF>n</INF>[rceil] = (1 - .0779403508) / .0442, or 20.8610780353.
+
+Resolution:
+
+P[1 + (r/s)(i/2)] = (C/2)(r/s) + (C/2)a<INF>n</INF>[rceil] + 100v\n\ 
+or
+P[1 + (184/184)(.0884/2)] = (8.75/2)(184/184) + (8.75/
+2)(20.8610780353) + 100(.0779403508).
+(1) P[1 + .0442] = 4.375 + 91.2672164044 + 7.7940350840.
+(2) P[1.0442] = 103.4362514884.
+(3) P = 103.4362514884 / 1.0442.
+(4) P = 99.057893.
+
+    B. For fixed-principal securities with a short first interest 
+payment period:
+
+Formula:
+
+P[1 + (r/s)(i/2)] = (C/2)(r/s) + (C/2)a<INF>n</INF>[rceil] + 
+100v\n\.
+
+Example:
+
+    For an 8\1/2\% 2-year note issued April 2, 1990, due March 31, 
+1992, with interest payments on September 30 and March 31, solve for 
+the price per 100 (P) at a yield of 8.59%.
+
+Definitions:
+
+C = 8.50.
+i = .0859.
+n = 3.
+r = 181 (April 2 to September 30, 1990).
+s = 183 (March 31 to September 30, 1990).
+v\n\ = 1 / [(1 + .0859 / 2)]\3\, or .8814740565.
+a<INF>n</INF>[rceil] = (1 - .8814740565) / .04295, or 2.7596261590.
+
+Resolution:
+
+P[1 + (r/s)(i/2)] = (C/2)(r/s) + (C/2)a<INF>n</INF>[rceil] + 100v\n\ 
+or
+P[1 + (181/183)(.0859/2)] = (8.50/2)(181/183) + (8.50/
+2)(2.7596261590) + 100(.8814740565).
+(1) P[1 + .042480601] = 4.2035519126 + 11.7284111757 + 88.14740565.
+(2) P[1.042480601] = 104.0793687354.
+(3) P = 104.0793687354 / 1.042480601.
+(4) P = 99.838183.
+
+    C. For fixed-principal securities with a long first interest 
+payment period:
+
+Formula:
+
+P[1 + (r/s)(i/2)] = [(C/2)(r/s)]v + (C/
+2)a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>
+] + 100v\n\.
+
+Example:
+
+    For an 8\1/2\% 5-year 2-month note issued March 1, 1990, due May 
+15, 1995, with interest payments on November 15 and May 15 (first 
+payment on November 15, 1990), solve for the price per 100 (P) at a 
+yield of 8.53%.
+
+Definitions:
+
+C = 8.50.
+i = .0853.
+n = 10.
+r = 75 (March 1 to May 15, 1990, which is the fractional portion of 
+the first interest payment).
+s = 181 (November 15, 1989, to May 15, 1990).
+v = 1 / (1 + .0853/2), or .9590946147.
+v\n\ = 1 / (1 + .0853/2)\10\, or .6585890783.
+a<INF>n</INF>[rceil] = (1-.658589)/.04265, or 8.0049454082.
+
+Resolution:
+
+P[1 + (r/s)(i/2)] = [(C/2)(r/s)]v + (C/2)a<INF>n</INF>[rceil] + 
+100v\n\ or
+P[1 + (75/181)(.0853/2)] = [(8.50/2)(75/181)].9590946147 + (8.50/
+2)(8.0049454082) + 100(.6585890783).
+(1) P[1 + .017672652] = 1.6890133062 + 34.0210179850 + 
+65.8589078339.
+(2) P[1.017672652] = 101.5689391251.
+(3) P = 101.5689391251 / 1.017672652.
+(4) P = 99.805118.
+
+    D. (1) For fixed-principal securities reopened during a regular 
+interest period where the purchase price includes predetermined 
+accrued interest.
+    (2) For new fixed-principal securities accruing interest from 
+the coupon frequency date immediately preceding the issue date, with 
+the interest rate established in the auction being used to determine 
+the accrued interest payable on the issue date.
+
+Formula:
+
+(P + A)[1 + (r/s)(i/2)] = C/2 + (C/2)a<INF>n</INF>[rceil] + 100v\n\.
+Where:
+
+    A = [(s-r)/s](C/2).
+
+Example:
+
+    For a 9\1/2\% 10-year note with interest accruing from November 
+15, 1985, issued November 29, 1985, due November 15, 1995, and 
+interest payments on May 15 and November 15, solve for the price per 
+100 (P) at a yield of 9.54%. Accrued interest is from November 15 to 
+November 29 (14 days).
+
+Definitions:
+
+C = 9.50.
+i = .0954.
+n = 19.
+
+[[Page 53623]]
+
+r = 167 (November 29, 1985, to May 15, 1986).
+s = 181 (November 15, 1985, to May 15, 1986).
+v\n\ = 1 / [(1 + .0954/2)]\19\, or .4125703996.
+a<INF>n</INF>[rceil] = (1 - .4125703996) / .0477, or 12.3150859630.
+A = [(181 - 167) / 181](9.50/2), or .367403.
+
+Resolution:
+
+(P+A)[1 + (r/s)(i/2)] = C/2 + (C/2)a<INF>n</INF>[rceil] + 100v\n\ or
+(P + .367403)[1 + (167/181)(.0954/2)] = (9.50/2) + (9.50/
+2)(12.3150859630) + 100(.4125703996).
+(1) (P + .367403)[1 + .044010497] = 4.75 + 58.4966583243 + 
+41.25703996.
+(2) (P + .367403)[1.044010497] = 104.5036982843.
+(3) (P + .367403) = 104.5036982843 / 1.044010497.
+(4) (P + .367403) = 100.098321.
+(5) P = 100.098321 -.367403.
+(6) P = 99.730918.
+
+    E. For fixed-principal securities reopened during the regular 
+portion of a long first payment period:
+
+Formula:
+
+(P + A)[1 + (r/s)(i/2)] = (r's'')(C/2) + C/2 + (C/
+2)a<INF>n</INF>[rceil] + 100v\n\.
+
+Where:
+
+A = AI' + AI,
+AI' = (r'/s'')(C/2),
+AI = [(s-r) / s](C/2), and
+
+r = number of days from the reopening date to the first interest 
+payment date,
+s = number of days in the semiannual period for the regular portion 
+of the first interest payment period,
+r' = number of days in the fractional portion (or ``initial short 
+period'') of the first interest payment period,
+s'' = number of days in the semiannual period ending with the 
+commencement date of the regular portion of the first interest 
+payment period.
+
+Example:
+
+    A 10\3/4\% 19-year 9-month bond due August 15, 2005, is issued 
+on July 2, 1985, and reopened on November 4, 1985, with interest 
+payments on February 15 and August 15 (first payment on February 15, 
+1986), solve for the price per 100 (P) at a yield of 10.47%. Accrued 
+interest is calculated from July 2 to November 4.
+
+Definitions:
+
+C = 10.75.
+i = .1047.
+n = 39.
+r = 103 (November 4, 1985, to February 15, 1986).
+s = 184 (August 15, 1985, to February 15, 1986).
+r' = 44 (July 2 to August 15, 1985).
+s'' = 181 (February 15 to August 15, 1985).
+v\n\ = 1 / [(1 + .1047 / 2)]\39\, or .1366947986.
+a<INF>n</INF>[rceil] = (1 - .1366947986) / .05235, or 16.4910258142.
+AI' = (44 / 181)(10.75 / 2), or 1.306630.
+AI = [(184 - 103) / 184](10.75 / 2), or 2.366168.
+A = AI' + AI, or 3.672798.
+
+Resolution:
+
+(P + A)[1 + (r/s)(i/2)] = (r'/s'')(C/2) + C/2 + (C/
+2)a<INF>n</INF>[rceil] + 100v\n\ or
+(P + 3.672798)[1 + (103/184)(.1047/2)] = (44/181)(10.75/2) +10.75/2 
++ (10.75/2)(16.4910258142) + 100(.1366947986).
+(1) (P + 3.672798)[1 + .02930462] = 1.3066298343 + 5.375 + 
+88.6392637512 + 13.6694798628.
+(2) (P + 3.672798)[1.02930462] = 108.9903734482.
+(3) (P + 3.672798) = 108.9903734482 / 1.02930462.
+(4) (P + 3.672798) = 105.887384.
+(5) P = 105.887384 -3.672798.
+(6) P = 102.214586.
+
+    F. For fixed-principal securities reopened during a short first 
+payment period:
+
+Formula:
+
+(P + A)[1 + (r/s)(i/2)] = (r'/s)(C/2) + (C/
+2)a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>
+] + 100v \n\.
+
+Where:
+
+A = [(r' - r)/s](C/2) and
+
+r' = number of days from the original issue date to the first 
+interest payment date.
+
+Example:
+
+    For a 10\1/2\% 8-year note due May 15, 1991, originally issued 
+on May 16, 1983, and reopened on August 15, 1983, with interest 
+payments on November 15 and May 15 (first payment on November 15, 
+1983), solve for the price per 100 (P) at a yield of 10.53%. Accrued 
+interest is calculated from May 16 to August 15.
+
+Definitions:
+
+C = 10.50.
+i = .1053.
+n = 15.
+r = 92 (August 15, 1983, to November 15, 1983).
+s = 184 (May 15, 1983, to November 15, 1983).
+r' = 183 (May 16, 1983, to November 15, 1983).
+v \n\ = 1/[(1 + .1053/2)]\15\, or .4631696332.
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+= (1 - .4631696332) / .05265, or 10.1962082956.
+A = [(183 - 92) / 184](10.50 / 2), or 2.596467.
+
+Resolution:
+
+(P + A)[1 + (r/s)(i/2)] = (r'/s)(C/2) + (C/
+2)a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>
+] + 100v \n\ or
+(P + 2.596467)[1+(92/184)(.1053/2)] = (183/184)(10.50/2) + (10.50/
+2)(10.1962082956) + 100(.4631696332).
+(1) (P + 2.596467)[1 + .026325] = 5.2214673913 + 53.5300935520 + 
+46.31696332.
+(2) (P + 2.596467)[1.026325] = 105.0685242633.
+(3) (P + 2.596467) = 105.0685242633 / 1.026325.
+(4) (P + 2.596467) = 102.373541.
+(5) P = 102.373541 - 2.596467.
+(6) P = 99.777074.
+
+    G. For fixed-principal securities reopened during the fractional 
+portion (initial short period) of a long first payment period:
+
+Formula:
+
+(P + A)[1 + (r/s)(i/2)] = [(r'/s)(C/2)]v + (C/
+2)a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>
+] + 100v \n\.
+
+Where:
+
+A = [(r' - r)/s](C/2), and
+r = number of days from the reopening date to the end of the short 
+period.
+r' = number of days in the short period.
+s = number of days in the semiannual period ending with the end of 
+the short period.
+
+Example:
+
+    For a 9\3/4\% 6-year 2-month note due December 15, 1994, 
+originally issued on October 15, 1988, and reopened on November 15, 
+1988, with interest payments on June 15 and December 15 (first 
+payment on June 15, 1989), solve for the price per 100 (P) at a 
+yield of 9.79%. Accrued interest is calculated from October 15 to 
+November 15.
+
+Definitions:
+
+C = 9.75.
+i = .0979.
+n = 12.
+r = 30 (November 15, 1988, to December 15, 1988).
+s = 183 (June 15, 1988, to December 15, 1988).
+r' = 61 (October 15, 1988, to December 15, 1988).
+v = 1 / (1 + .0979/2), or .9533342867.
+v \n\ = [1 / (1 + .0979/2)]\12\, or .5635631040.
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+= (1 - .5635631040)/.04895, or 8.9159733613.
+A = [(61 - 30)/183](9.75/2), or .825820.
+
+Resolution:
+
+(P + A)[1 + (r/s)(i/2)] = [(r'/s)(C/2)]v + (C/
+2)a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>
+] + 100v \n\ or
+(P + .825820)[1 + (30/183)(.0979/2)] = [(61/183)(9.75/
+2)](.9533342867) + (9.75/2)(8.9159733613) + 100(.5635631040).
+(1) (P + .825820)[1+ .00802459] = 1.549168216 + 43.4653701362 + 
+56.35631040.
+(2) (P + .825820)[1.00802459] = 101.3708487520.
+(3) (P + .825820) = 101.3708487520 / 1.00802459.
+(4) (P + .825820) = 100.563865.
+(5) P = 100.563865 -. 825820.
+(6) P = 99.738045.
+
+III. Formulas for Conversion of Inflation-Indexed Security Yields to 
+Equivalent Prices
+
+Definitions
+
+P = unadjusted or real price per 100 (dollars).
+P<INF>adj</INF> = inflation adjusted price; P x Index 
+Ratio<INF>Date</INF>.
+A = unadjusted accrued interest per $100 original principal.
+A<INF>adj</INF> = inflation adjusted accrued interest; Ax Index 
+Ratio<INF>Date</INF>.
+SA = settlement amount including accrued interest in current dollars 
+per $100 original principal; P<INF>adj</INF> + A<INF>adj</INF>.
+r = days from settlement date to next coupon date.
+s = days in current semiannual period.
+i = real yield, expressed in decimals (e.g., 0.0325).
+C = real annual coupon, payable semiannually, in terms of real 
+dollars paid on $100 initial, or real, principal of the security.
+n = number of full semiannual periods from issue date to maturity 
+date, except that, if the issue date is a coupon frequency date, n 
+will be one less than the number of full semiannual periods 
+remaining until maturity. Coupon frequency dates are the two 
+semiannual dates based on the maturity date of each note or bond
+
+[[Page 53624]]
+
+issue. For example, a security maturing on July 15, 2026 would have 
+coupon frequency dates of January 15 and July 15.
+v \n\ = 1/(1 + i/2)\n\ = present value of 1 due at the end of n 
+periods.
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+= (1 - v \n\) /(i/2) = v + v \2\ + v \3\ + \...\ + v \n\ = present 
+value of 1 per period for n periods.
+
+    Special Case: If i = 0, then 
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+= n. Furthermore, when i = 0, 
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+cannot be calculated using the formula: (1 - v \n\)/(i/2). In the 
+special case where i = 0, 
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+must be calculated as the summation of the individual present values 
+(i.e., v + v \2\ + v \3\ + \...\ + v \n\). Using the summation 
+method will always confirm that 
+a<INF>n</INF>[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 
+= n when i = 0.
+
+Date = valuation date.
+D = the number of days in the month in which Date falls.
+t = calendar day corresponding to Date.
+CPI = Consumer Price Index number.
+CPI<INF>M</INF> = CPI reported for the calendar month M by the 
+Bureau of Labor Statistics.
+Ref CPI<INF>M</INF> = reference CPI for the first day of the 
+calendar month in which Date falls (also equal to the CPI for the 
+third preceding calendar month), e.g., Ref CPI<INF>April 1</INF> is 
+the CPI<INF>January.</INF>
+Ref CPI<INF>M+1</INF> = reference CPI for the first day of the 
+calendar month immediately following Date.
+Ref CPI<INF>Date</INF> = Ref CPI<INF>M</INF> - [(t - 1)/D][Ref 
+CPI<INF>M+1</INF>-Ref CPI<INF>M</INF>].
+Index Ratio<INF>Date</INF> = Ref CPI<INF>Date</INF> / Ref 
+CPI<INF>IssueDate</INF>.
+
+    Note: When the Issue Date is different from the Dated Date, the 
+denominator is the Ref CPI<INF>DatedDate</INF>.
+
+    A. For inflation-indexed securities with a regular first 
+interest payment period:
+Formulas:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.005
+
+P<INF>adj</INF> = P x Index Ratio<INF>Date</INF>.
+A = [(s-r)/s] x (C/2).
+A<INF>adj</INF> = A x Index Ratio<INF>Date</INF>.
+SA = P<INF>adj</INF> + A<INF>adj</INF>.
+Index Ratio<INF>Date</INF> = Ref CPI<INF>Date</INF>/Ref 
+CPI<INF>IssueDate</INF>.
+
+Example:
+
+    We issued a 10-year inflation-indexed note on January 15, 1999. 
+The note was issued at a discount to yield of 3.898% (real). The 
+note bears a 3\7/8\% real coupon, payable on July 15 and January 15 
+of each year. The base CPI index applicable to this note is 164. (We 
+normally derive this number using the interpolative process 
+described in Appendix B, section I, paragraph B.)
+
+Definitions:
+
+C = 3.875.
+i = 0.03898.
+n = 19 (There are 20 full semiannual periods but n is reduced by 1 
+because the issue date is a coupon frequency date.).
+r = 181 (January 15, 1999 to July 15, 1999).
+s = 181 (January 15, 1999 to July 15, 1999).
+Ref CPI<INF>Date</INF> = 164.
+Ref CPI<INF>IssueDate</INF> = 164.
+
+Resolution:
+
+Index Ratio<INF>Date</INF> = Ref CPI<INF>Date</INF> / Ref 
+CPI<INF>IssueDate</INF> = 164/164 = 1.
+A = [(181 - 181)/181] x 3.875/2 = 0.
+A<INF>adj</INF> = 0 x 1 = 0.
+v<SUP>n</SUP> = 1/(1 + i/2)<SUP>n</SUP> = 1/(1 + .03898/2)\19\ = 
+0.692984572.
+an[rceil] = (1 - v<SUP>n</SUP>)/(i/2) = (1-0.692984572) / (.03898/2) 
+= 15.752459107.
+
+Formula:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.006
+
+P = 99.811030.
+P<INF>adj</INF> = P x Index Ratio<INF>Date</INF>.
+P<INF>adj</INF> = 99.811030 x 1 = 99.811030.
+SA = P<INF>adj</INF> x A<INF>adj</INF>.
+SA = 99.811030 + 0 = 99.811030.
+    Note: For the real price (P), we have rounded to six places. 
+These amounts are based on 100 par value.
+    B. (1) For inflation-indexed securities reopened during a 
+regular interest period where the purchase price includes 
+predetermined accrued interest.
+    (2) For new inflation-indexed securities accruing interest from 
+the coupon frequency date immediately preceding the issue date, with 
+the interest rate established in the auction being used to determine 
+the accrued interest payable on the issue date.
+    Bidding: The dollar amount of each bid is in terms of the par 
+amount. For example, if the Ref CPI applicable to the issue date of 
+the note is 120, and the reference CPI applicable to the reopening 
+issue date is 132, a bid of $10,000 will in effect be a bid of 
+$10,000 x (132/120), or $11,000.
+
+Formulas:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.007
+
+P<INF>adj</INF> = P x Index Ratio<INF>Date</INF>.
+A = [(s-r)/s] x (C/2).
+A<INF>adj</INF> = A x Index Ratio<INF>Date</INF>.
+SA = P<INF>adj</INF> + A<INF>adj</INF>.
+Index Ratio<INF>Date</INF> = Ref CPI<INF>Date</INF>/Ref 
+CPI<INF>IssueDate</INF>.
+
+Example:
+
+    We issued a 3\5/8\% 10-year inflation-indexed note on January 
+15, 1998, with interest payments on July 15 and January 15. For a 
+reopening on October 15, 1998, with inflation compensation accruing 
+from January 15, 1998 to October 15, 1998, and accrued interest 
+accruing from July 15, 1998 to October 15, 1998 (92 days), solve for 
+the price per 100 (P) at a real yield, as determined in the 
+reopening auction, of 3.65%. The base index applicable to the issue 
+date of this note is 161.55484 and the reference CPI applicable to 
+October 15, 1998, is 163.29032.
+
+Definitions:
+
+C = 3.625.
+i = 0.0365.
+n = 18.
+r = 92 (October 15, 1998 to January 15, 1999).
+s = 184 (July 15, 1998 to January 15, 1999).
+Ref CPI<INF>Date</INF> = 163.29032.
+Ref CPI<INF>IssueDate</INF> = 161.55484.
+
+Resolution:
+
+Index Ratio<INF>Date</INF> = Ref CPI<INF>Date</INF>/Ref 
+CPI<INF>IssueDate</INF> = 163.29032/161.55484 = 1.01074.
+v<SUP>n</SUP> = 1/(1 + i/2)<SUP>n</SUP> = 1/(1 + .0365/
+2)<SUP>18</SUP> = 0.722138438.
+a<INF>n</INF> = 
+[<bd/h-u-arr><l-d-Bond><h-dar/uar><bd/h-l-arr><eq-div>] 1-
+v<SUP>n</SUP>)/(i/2) = (1 - 0.722138438)/(.0365/2) = 15.225291068.
+
+Formula:
+
+
+[[Page 53625]]
+
+
+[GRAPHIC] [TIFF OMITTED] TR02SE04.008
+
+P = 100.703267 - 0.906250.
+P = 99.797017.
+P<INF>adj</INF> = P x Index Ratio<INF>Date</INF>.
+P<INF>adj</INF> = 99.797017 x 1.01074 = 100.86883696.
+P<INF>adj</INF> = 100.868837.
+A = [(184-92)/184] x 3.625/2 = 0.906250.
+A<INF>adj</INF> = A x Index Ratio<INF>Date</INF>.
+A<INF>adj</INF> = 0.906250 x 1.01074 = 0.91598313.
+A<INF>adj</INF> = 0.915983.
+SA = P<INF>adj</INF> + A<INF>adj</INF> = 100.868837 + 0.915983.
+SA = 101.784820.
+
+    Note: For the real price (P), and the inflation-adjusted price 
+(P<INF>adj</INF>), we have rounded to six places. For accrued 
+interest (A) and the adjusted accrued interest (A<INF>adj</INF>), we 
+have rounded to six places. These amounts are based on 100 par 
+value.
+* * * * *
+
+0
+6. Appendix B to Part 356, Section V, is revised to read as follows:
+
+V. Computation of Purchase Price, Discount Rate, and Investment Rate 
+(Coupon-Equivalent Yield) for Treasury Bills
+
+    A. Conversion of the discount rate to a purchase price for 
+Treasury bills of all maturities:
+
+Formula:
+
+P = 100 (1 - dr / 360).
+
+Where:
+
+d = discount rate, in decimals.
+r = number of days remaining to maturity.
+P = price per 100 (dollars).
+
+Example:
+
+    For a bill issued November 24, 1989, due February 22, 1990, at a 
+discount rate of 7.610%, solve for price per 100 (P).
+
+Definitions:
+
+d = .07610.
+r = 90 (November 24, 1989 to February 22, 1990).
+
+Resolution:
+
+P = 100 (1 - dr / 360).
+(1) P = 100 [1 - (.07610)(90) / 360].
+(2) P = 100 (1 - .019025).
+(3) P = 100 (.980975).
+(4) P = 98.097500.
+
+    Note: Purchase prices per $100 are rounded to six decimal 
+places, using normal rounding procedures.
+
+    B. Computation of purchase prices and discount amounts based on 
+price per $100, for Treasury bills of all maturities:
+    1. To determine the purchase price of any bill, divide the par 
+amount by 100 and multiply the resulting quotient by the price per 
+$100.
+
+Example:
+
+    To compute the purchase price of a $10,000 13-week bill sold at 
+a price of $98.098000 per $100, divide the par amount ($10,000) by 
+100 to obtain the multiple (100). That multiple times 98.098000 
+results in a purchase price of $9,809.80.
+    2. To determine the discount amount for any bill, subtract the 
+purchase price from the par amount of the bill.
+
+Example:
+
+    For a $10,000 bill with a purchase price of $9,809.80, the 
+discount amount would be $190.20, or $10,000 - $9,809.80.
+
+    C. Conversion of prices to discount rates for Treasury bills of 
+all maturities:
+
+Formula:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.009
+
+Where:
+
+P = price per 100 (dollars).
+d = discount rate.
+r = number of days remaining to maturity.
+
+Example:
+
+    For a 26-week bill issued December 30, 1982, due June 30, 1983, 
+with a price of $95.934567, solve for the discount rate (d).
+
+Definitions:
+
+P = 95.934567.
+r = 182 (December 30, 1982, to June 30, 1983).
+
+Resolution:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.010
+
+(2) d = [.04065433 x 1.978021978].
+(3) d = .080415158.
+(4) d = 8.042%.
+
+    Note: Prior to April 18, 1983, we sold all bills in price-basis 
+auctions, in which discount rates calculated from prices were 
+rounded to three places, using normal rounding procedures. Since 
+that time, we have sold bills only on a discount rate basis.
+    D. Calculation of investment rate (coupon-equivalent yield) for 
+Treasury bills:
+    1. For bills of not more than one half-year to maturity:
+
+Formula:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.011
+
+Where:
+
+i = investment rate, in decimals.
+P = price per 100 (dollars).
+r = number of days remaining to maturity.
+y = number of days in year following the issue date; normally 365 
+but, if the year following the issue date includes February 29, then 
+y is 366.
+
+Example:
+
+    For a cash management bill issued June 1, 1990, due June 21, 
+1990, with a price of $99.559444 (computed from a discount rate of 
+7.930%), solve for the investment rate (i).
+
+Definitions:
+
+P = 99.559444.
+r = 20 (June 1, 1990, to June 21, 1990).
+y = 365.
+
+Resolution:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.012
+
+(2) i = [.004425 x 18.25].
+(3) i = .080756.
+(4) i = 8.076%.
+
+    2. For bills of more than one half-year to maturity:
+
+Formula:
+
+P [1 + (r - y/2)(i/y)] (1 + i/2) = 100.
+
+    This formula must be solved by using the quadratic equation, 
+which is:
+
+ax <SUP>2</SUP> + bx + c = 0.
+
+    Therefore, rewriting the bill formula in the quadratic equation 
+form gives:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.013
+
+and solving for ``i'' produces:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.014
+
+Where:
+
+i = investment rate in decimals.
+b = r/y.
+a = (r/2y) - .25.
+c = (P-100)/P.
+P = price per 100 (dollars).
+r = number of days remaining to maturity.
+y = number of days in year following the issue date; normally 365, 
+but if the year following the issue date includes February 29, then 
+y is 366.
+
+Example:
+
+    For a 52-week bill issued June 7, 1990, due June 6, 1991, with a 
+price of $92.265000 (computed from a discount rate of 7.65%), solve 
+for the investment rate (i).
+
+Definitions:
+
+r = 364 (June 7, 1990, to June 6, 1991).
+y = 365.
+P = 92.265000.
+
+[[Page 53626]]
+
+b = 364 / 365, or .997260274.
+a = (364 / 730) - .25, or .248630137.
+c = (92.265 - 100) / 92.265, or -.083834607.
+
+Resolution:
+[GRAPHIC] [TIFF OMITTED] TR02SE04.015
+
+(3) i = (-.997260274 + 1.038221216) / .497260274.
+(4) i = .040960942 / .497260274.
+(5) i = .082373244 or
+(6) i = 8.237%.
+* * * * *
+
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 04-19999 Filed 9-1-04; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

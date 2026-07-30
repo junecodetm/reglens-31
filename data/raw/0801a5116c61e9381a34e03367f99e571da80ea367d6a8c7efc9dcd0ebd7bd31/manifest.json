@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2000/11/03/00-28280.txt",
+  "fetched_at": "2026-07-30T14:09:08.529631+00:00",
+  "sha256": "0801a5116c61e9381a34e03367f99e571da80ea367d6a8c7efc9dcd0ebd7bd31",
+  "content_type": "text/plain",
+  "filename": "00-28280.txt"
+}

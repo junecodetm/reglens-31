@@ -1,0 +1,81 @@
+{
+  "abstract": "The Department of the Treasury (Treasury) is issuing this interim final rule as part of its implementation of Title I of the Terrorism Risk Insurance Act of 2002 (Act). The Act established a temporary Terrorism Risk Insurance Program (Program) under which the Federal Government will share the risk of insured losses from certified acts of terrorism with commercial property and casualty insurers until the Program sunsets on December 31, 2005. This interim final rule incorporates and clarifies statutory conditions for federal payment under the Program that require insurers to make certain disclosures to policyholders. The rule also incorporates and clarifies statutory requirements that insurers \"make available,\" in their commercial property and casualty insurance policies, terrorism risk coverage for insured losses under the Program. The interim final rule generally incorporates interim guidance previously issued by Treasury in this area, but with some modifications. This is the second in a series of regulations that Treasury will issue to implement the Act.",
+  "action": "Interim final rule with request for comments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2003/04/18/03-9611.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 50,
+      "title": 31
+    }
+  ],
+  "citation": "68 FR 19302",
+  "comment_url": null,
+  "comments_close_on": "2003-05-19",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This interim final rule is effective April 18, 2003. Written comments on this interim final rule may be submitted on or before May 19, 2003.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "03-9611",
+  "effective_on": "2003-04-18",
+  "end_page": 19308,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2003/04/18/03-9611.xml",
+  "html_url": "https://www.federalregister.gov/documents/2003/04/18/03-9611/terrorism-risk-insurance-program",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/03-9611?publication_date=2003-04-18",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2003-04-18/03-9611/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 7,
+  "page_views": {
+    "count": 49,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2003-04-18/pdf/03-9611.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2003-04-18",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2003/04/18/03-9611.txt",
+  "regulation_id_number_info": {
+    "1505-AA98": {
+      "html_url": "https://www.federalregister.gov/regulations/1505-AA98/terrorism-risk-insurance-program",
+      "issue": "200304",
+      "priority_category": "Other Significant",
+      "title": "Terrorism Risk Insurance Program",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=200304&RIN=1505-AA98&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1505-AA98"
+  ],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": true,
+  "signing_date": null,
+  "start_page": 19302,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program",
+  "toc_doc": "Statutory conditions for Federal payment",
+  "toc_subject": "Terrorism Risk Insurance Program",
+  "topics": [],
+  "type": "Rule",
+  "volume": 68
+}

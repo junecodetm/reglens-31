@@ -1,0 +1,1552 @@
+<html>
+<head>
+<title>Federal Register, Volume 89 Issue 112 (Monday, June 10, 2024)</title>
+</head>
+<body><pre>
+[Federal Register Volume 89, Number 112 (Monday, June 10, 2024)]
+[Rules and Regulations]
+[Pages 48827-48838]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2024-12491]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Bureau of the Fiscal Service
+
+31 CFR Part 223
+
+[Docket No. FISCAL-2021-0006]
+RIN 1530-AA20
+
+
+Surety Companies Doing Business With the United States
+
+AGENCY: Fiscal Service, Bureau of the Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule amends the regulations of the Department of 
+the Treasury, Bureau of the Fiscal Service (Treasury), regarding the 
+corporate Federal surety bond program (the program). Treasury is 
+amending its regulations to allow for recognition of additional 
+companies as reinsurers. Treasury is also amending its regulations to 
+incorporate requirements, previously published in supplemental guidance 
+documents, for surety companies to submit information that Treasury 
+uses to perform financial analysis of these companies. Treasury is also 
+reorganizing the existing regulations to modernize and improve their 
+structure.
+
+DATES: This final rule is effective August 9, 2024.
+
+FOR FURTHER INFORMATION CONTACT: Melvin Saunders at 
+<a href="/cdn-cgi/l/email-protection#9cf1f9f0eaf5f2b2effde9f2f8f9eeefdcfaf5effffdf0b2e8eef9fdefe9eee5b2fbf3ea"><span class="__cf_email__" data-cfemail="04696168726d6a2a7765716a6061767744626d776765682a707661657771767d2a636b72">[email&#160;protected]</span></a> or 304-480-5108; Bobbi McDonald at 
+<a href="/cdn-cgi/l/email-protection#6c0e030e0e0542010f0803020d00082c0a051f0f0d0042181e090d1f191e15420b031a"><span class="__cf_email__" data-cfemail="77151815151e591a14131819161b1337111e0414161b59030512160402050e59101801">[email&#160;protected]</span></a> or 304-480-7098; or David Crowe at 
+<a href="/cdn-cgi/l/email-protection#a5c1c4d3ccc18bc6d7cad2c0e5c3ccd6c6c4c98bd1d7c0c4d6d0d7dc8bc2cad3"><span class="__cf_email__" data-cfemail="5e3a3f28373a703d2c31293b1e38372d3d3f32702a2c3b3f2d2b2c2770393128">[email&#160;protected]</span></a> or 304-480-8971.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Treasury administers the corporate Federal surety bond program, 
+which issues certificates of authority to authorized surety companies, 
+analyzes the financial statements of applicant and authorized companies 
+to ensure compliance, and publishes lists of companies holding a 
+certificate authority. Treasury also reviews applications by companies 
+to become admitted reinsurers, i.e., companies permitted by Treasury to 
+provide reinsurance to certified sureties except on excess risks that 
+run to the United States. Treasury administers the program pursuant to 
+31 CFR part 223 (part 223) and publishes supplemental guidance on its 
+website.
+    Treasury published a request for information (RFI) on December 30, 
+2019.\1\ The RFI sought public input on a variety of topics relating to 
+Treasury's evaluation of surety companies, as well as the operations of 
+the corporate Federal surety bond program. These topics included, among 
+other things, Treasury's financial analysis methodology, its rules 
+regarding credit for reinsurance, and the documentation it requires to 
+perform its review of companies seeking designation and renewal as 
+certified sureties or admitted reinsurers. The public comments 
+informed, in part, Treasury's development of this rulemaking.
+---------------------------------------------------------------------------
+
+    \1\ 84 FR 72138.
+---------------------------------------------------------------------------
+
+    On March 3, 2022, Treasury published a notice of proposed 
+rulemaking (NPRM) at 87 FR 12003 to propose amendments to part 223, 
+which implements the provisions of 31 U.S.C. 9304-9308. The NPRM 
+proposed two main amendments to part 223. First, the NPRM proposed to 
+add two new categories of reinsurance companies that can receive 
+recognition from Treasury: complementary reinsurers and alien 
+reinsurers. The proposed amendments would allow Treasury-certified 
+surety companies to receive credit for reinsurance ceded to these 
+companies with reduced or zero collateral, and would also allow 
+complementary or alien reinsurers to reinsure excess risks of certified 
+surety companies not running to the United States. Second, Treasury 
+proposed amending 31 CFR 223.9 to describe in greater detail the 
+financial analysis it performs related to companies applying for a 
+certificate of authority or renewal of a certificate of authority and 
+to incorporate certain requirements previously published in the 
+program's annual and supplemental guidance. Additionally, Treasury 
+proposed various amendments to part 223 to reorganize and modernize the 
+structure of the regulations.
+    Treasury received 13 comment letters from a cross-section of 
+entities associated with the surety industry and other stakeholders. 
+Seven of the comment letters were from surety companies or reinsurers, 
+three were from surety or insurance trade associations, one was from a 
+law firm that represents surety companies, one was from a coalition of 
+environmental groups, and one was from an anonymous individual. 
+Treasury has considered the comments and addresses them below.
+
+II. Analysis of Comments
+
+    The public comments were generally supportive of the NPRM's 
+proposed changes to add new categories of reinsurers eligible for 
+Treasury recognition, to add more detailed information regarding 
+Treasury's financial analysis, and to update and modernize the 
+structure of the surety regulations. Treasury did not receive any 
+comments expressing disagreement with the key objectives described 
+above. Several of the favorable comments regarding Treasury's proposal 
+to add new categories of reinsurers eligible for Treasury recognition 
+noted that these changes would benefit the surety industry as a whole 
+by lowering the regulatory burden on surety companies and increasing 
+the reinsurance capacity available to Treasury-certified surety 
+companies. Commenters also concurred with the NPRM that these changes 
+would not increase the risk to the Federal Government of surety 
+companies being unable to carry out their obligations.
+    A surety company commented that smaller and medium-sized surety 
+companies, which typically have a lower underwriting limit than larger 
+firms, might particularly benefit from greater access to international 
+reinsurance without the posting of collateral under the proposal to 
+recognize additional reinsurers. The same commenter also noted that 
+these changes could lower the price of surety bonds in the marketplace, 
+which could not only benefit smaller and medium-sized surety companies 
+but also benefit smaller and minority-owned contractors who frequently 
+obtain surety bonds from smaller or mid-sized surety companies. Thus, 
+in the view of the commenter, the proposed changes could make it easier 
+for small, minority-owned contractors to bid on construction projects 
+for the Federal Government.
+
+[[Page 48828]]
+
+    Some commenters, while expressing support for the NPRM generally, 
+suggested changes or clarifications, as discussed below.
+
+A. Categories of Reinsurers
+
+    Two commenters suggested that the NPRM's definition of the two new 
+categories of reinsurers--complementary reinsurers and alien 
+reinsurers--should be expanded to include additional reinsurers that 
+are recognized under state laws that are based on the National 
+Association of Insurance Commissioners' (NAIC) Credit for Reinsurance 
+Model Law (Model 785) and Model Regulation (Model 786). Under the NPRM, 
+to be recognized as a complementary reinsurer, a company must be from a 
+non-U.S. jurisdiction that is subject to an in-force Covered Agreement, 
+among other requirements. A ``Covered Agreement'' is an agreement, as 
+described in Sec.  223.12(i), regarding prudential matters with respect 
+to the business of insurance or reinsurance between the United States 
+and one or more foreign authorities, entered into pursuant to 31 U.S.C. 
+313-314.
+    Per the NPRM, the company must also be recognized by at least one 
+U.S. state as a Reciprocal Jurisdiction Reinsurer. A ``Reciprocal 
+Jurisdiction'' is a jurisdiction that meets one of the following: (1) a 
+non-U.S. jurisdiction that is subject to an in-force Covered Agreement 
+with the United States, (2) a U.S. jurisdiction that meets the 
+requirements for accreditation under the NAIC financial standards and 
+accreditation program, or (3) a Qualified Jurisdiction, as defined by 
+state law that is based on the NAIC Credit for Reinsurance Model Law 
+(Model 785) and Model Regulation (Model 786), which meets certain 
+additional requirements. A ``Reciprocal Jurisdiction Reinsurer'' is a 
+reinsurer with its head office in or domicile in a Reciprocal 
+Jurisdiction and which meets all capital and surplus, solvency, and 
+market conduct requirements under state law based on the 2019 
+Amendments to the NAIC Credit for Reinsurance Model Law and Model 
+Regulation.
+    To be recognized by Treasury as an alien reinsurer, the NPRM 
+provided that a company must be from a non-U.S. jurisdiction that is 
+recognized by state law and the NAIC as a Qualified Jurisdiction or as 
+a Reciprocal Jurisdiction, provided the Reciprocal Jurisdiction is not 
+party to an in-force Covered Agreement, among other requirements. A 
+``Qualified Jurisdiction'' is a jurisdiction determined by a state 
+insurance supervisor to have appropriate and effective supervision of 
+reinsurance and which meets other requirements defined in state law. 
+The NAIC also publishes a list of Qualified Jurisdictions. The NPRM 
+also required the company to be recognized by at least one state as a 
+Certified Reinsurer or Reciprocal Jurisdiction Reinsurer. A ``Certified 
+Reinsurer'' is a reinsurer from a Qualified Jurisdiction that meets the 
+requirements of the state insurance laws and regulations based on the 
+NAIC models.
+    The two commenters pointed out that these definitions of 
+complementary reinsurer and alien reinsurer excluded some reinsurers 
+eligible for recognition at the state level, namely reinsurers referred 
+to as Accredited Reinsurers under the NAIC Credit for Reinsurance Model 
+Law and Model Regulation. Under state law based on these models, an 
+``Accredited Reinsurer'' is a reinsurer meeting specific conditions, 
+which allow it to receive accreditation from the state and to assume 
+reinsurance from U.S. reinsurers. The commenters suggested that 
+Treasury clarify whether the definitions of the new categories of 
+reinsurers include Accredited Reinsurers and, if not, consider 
+expanding the definitions to include such companies.
+    The NPRM's goal in expanding the types of reinsurers eligible for 
+recognition was to ease the administrative burden on surety companies 
+by allowing them to use additional reinsurers that meet Treasury's 
+financial strength and market conduct requirements and that are from 
+jurisdictions with sufficient regulatory regimes, as well as by 
+incorporating greater harmony with state regulation. Treasury agrees 
+with the commenters that allowing recognition of Accredited Reinsurers 
+would further this goal, provided that they meet Treasury's other 
+requirements. The final rule therefore includes revisions in Sec.  
+223.12(d) and (j) to clarify that a company recognized as an Accredited 
+Reinsurer by a U.S. state is eligible to be recognized by Treasury as 
+an alien reinsurer. Note that under Sec.  223.11(b)(2), that if a 
+company, including an Accredited Reinsurer, seeking recognition as an 
+alien reinsurer is required by its U.S. state of domicile to provide 
+100 percent collateral in order for its ceding insurers to obtain full 
+credit for reinsurance, then that company is not eligible to reinsure a 
+surety company's excess risk pursuant to Sec.  223.11(b). Such a 
+company may only be used by a surety company to receive credit for 
+reinsurance pursuant to Sec.  223.9(c) and must provide the same level 
+of collateral as called for under state law. This change is being made 
+to highlight and codify Treasury's existing policy that companies 
+cannot rely on collateral for both credit for reinsurance and 
+limitations of excess risks.
+
+B. Admitted Assets
+
+    One commenter suggested that the NPRM adopt an approach towards 
+``admitted assets'' set forth in the NAIC's Accounting Practices and 
+Procedures Manual, which all 50 states have adopted. However, Treasury 
+does not intend to adopt the approach utilized by the NAIC. Adoption of 
+that approach would limit Treasury's discretionary authority to reject 
+an asset in the limited circumstances where it determines that such a 
+rejection may be warranted. The NPRM codifies into the surety 
+regulations, in 31 CFR 223.9, several provisions regarding Treasury's 
+admissibility and valuation of assets that previously were only 
+contained in the program's annual guidance, while also retaining the 
+ability for Treasury to value a company's assets and liabilities in its 
+discretion.
+
+C. Letters of Credit
+
+    One commenter suggested that Treasury update the NPRM to allow for 
+irrevocable, unconditional, evergreen letters of credit to be used to 
+protect risks underwritten in excess of a surety company's underwriting 
+limit. Treasury has had a longstanding policy, which the NPRM proposed 
+to codify at Sec.  223.9(e)(2), of allowing surety companies to use 
+letters of credit to obtain credit for reinsurance, under certain 
+circumstances. Treasury has reservations, however, about allowing 
+letters of credit to be used to protect excess risks (i.e., those risk 
+that exceed the company's underwriting limit). Historically, companies 
+attempting to rely on letters of credit for such a purpose have not 
+been able to demonstrate to Treasury that the assets referred to in the 
+letter of credit are set aside by the issuer solely for the exclusive 
+use of protecting the particular excess risk. This means that Treasury 
+has been unable to verify that the companies could actually rely on the 
+assets referred to in the letter of credit if the companies need to pay 
+a claim on the excess risk. Accordingly, Treasury declines to amend 
+Sec.  223.11 to allow for the blanket usage of irrevocable, 
+unconditional, evergreen letters of credit to protect excess risks. 
+However, Treasury may consider, on a case-by-case basis, allowing a 
+surety company to use a letter of credit for such purpose if Treasury 
+can verify that the assets referenced in the letter are
+
+[[Page 48829]]
+
+pledged exclusively to secure the excess risk--that is, if the assets 
+references in the letter of credit cannot be drawn upon for any other 
+purpose--and if the letter of credit meets other requirements Treasury 
+might prescribe. A modification to Sec.  223.11(c)(1) has been made 
+reflecting this clarification.
+
+D. Underwriting Limitation
+
+    Another commenter recommended that Treasury alter the way it 
+calculates the underwriting limitation for certified surety companies. 
+The commenter stated that Treasury's current method, which sets the 
+limit at 10 percent of a company's surplus as determined by Treasury, 
+is outdated and may adversely impact monoline surety companies. The 
+letter proposes that Treasury adopt an approach that would set a surety 
+company's underwriting limit based on its risk-based capital. The 
+existing underwriting limitation is one of Treasury's most important 
+tools in ensuring that the sureties it certifies are able to carry out 
+their contracts, and Treasury's longstanding method of determining the 
+underwriting limitation has worked well in accomplishing this goal. A 
+national association of surety companies responded to the RFI that 
+Treasury published on December 31, 2019, strongly encouraging Treasury 
+not to change its method of calculating the underwriting limitation 
+because of the strong safeguard it provides to the Federal Government. 
+While the NPRM relies on certain risk-based approaches, Treasury 
+believes the existing limitation is appropriate and beneficial.
+
+E. Eligibility
+
+    One commenter requested that Treasury reconsider a provision of the 
+NPRM regarding companies that only insure or reinsure risks of their 
+parent, affiliated, or controlled unaffiliated business, or that are 
+deemed by Treasury to be primarily engaged in self-insurance. Sections 
+223.1(c) and 223.12(e) of the proposed rules codified Treasury's 
+longstanding policy that such companies are not eligible to obtain a 
+certificate of authority, nor for recognition as a reinsurer. As noted 
+in the NPRM, these types of companies cannot provide the documentation 
+required by Treasury to evaluate them consistent with its standards. 
+Treasury acknowledges the alternative view offered by this commenter, 
+but continues to believe its existing policy is in the best interests 
+of the surety program. Accordingly, Treasury is adopting these 
+provisions of the rule as proposed.
+
+F. Small Business Administration Surety Bond Guarantee Program
+
+    One commenter suggested that Treasury consider a surety's admission 
+in the Small Business Administration's (SBA) Surety Bond Guarantee 
+program to serve as an alternative to reinsurance under the program's 
+requirements. SBA's Surety Bond Guarantee program is not intended to be 
+akin to reinsurance for companies admitted into Treasury's surety bond 
+program. Given the different purposes of the two programs, it would not 
+be appropriate to treat the SBA Surety Bond Guarantee program as 
+reinsurance for this purpose. Accordingly, Treasury declines to adopt 
+the recommendation in this comment.
+
+G. Risk Analysis
+
+    One comment letter suggested that Treasury make additional 
+amendments unrelated to the substance of the changes proposed in the 
+NPRM that would, in the view of the commenters, allow Treasury to 
+better consider potential risk posed by ``the aggregate of all 
+currently-issued bonds'' of a particular surety. The letter asserts 
+that in certain sectors, a small number of surety companies have issued 
+bonds that, in the aggregate, exceed each company's ability to pay, 
+creating a risk that these surety companies will go bankrupt if the 
+obligees on the bonds undertake forfeiture of the bonds. Accordingly, 
+the letter asks that Treasury consider revisions to part 223 that would 
+analyze a surety's aggregate risk when determining whether a surety 
+qualifies for certification, and that Treasury impose an underwriting 
+limitation on the aggregate risk of all bonds issued by a given surety. 
+The letter also asks, should Treasury decline to make such changes, 
+that Treasury clarify that it neither considers nor places limits on 
+aggregate risk when evaluating sureties. The letter also addresses 
+certain regulatory matters that are beyond the scope of the surety bond 
+program.
+    The substance of these proposed changes is beyond the scope of 
+those proposed by the NPRM. Accordingly, Treasury does not express an 
+opinion on the letter's proposed amendments to the regulations. 
+Nevertheless, for clarity, Treasury notes that there are multiple ways, 
+in addition to its requirement that companies report bonds in excess of 
+their underwriting limitation, by which Treasury ensures that a surety 
+is not underwriting bonds in excess of its ability to pay. For example, 
+Treasury's financial analysis, now codified in more detail in part 223 
+through this rulemaking, encompasses a robust review of a surety's 
+financial statements. This review includes a detailed analysis by 
+Treasury of the surety company's reinsurance portfolio via the Treasury 
+Schedule F. And although a surety company reports excess risks to 
+Treasury on a per-bond basis, the Schedule of Excess Risks form that 
+each company submits gives Treasury insight into the overall risk 
+profile of each company and the adequacy of protective measures taken 
+by the company. Additionally, Treasury requires surety companies to 
+report on a quarterly basis the penal sum of all Federal surety bonds 
+(not just those bonds in excess of the companies' underwriting limits) 
+written and outstanding as of the close of the reporting period, 
+including identifying the types of surety bonds being written (e.g., 
+customs, reclamation, construction contract) and the agency obligee. 
+All of these tools provide Treasury with the means to evaluate risks 
+from a surety company, which could result in a deeper analysis of the 
+company and potential non-renewal of its certificate of authority.
+
+III. Additional Changes
+
+    In addition to the changes made in response to comments, discussed 
+above, Treasury made a number of changes to the final rule text in 
+Sec. Sec.  223.2, 223.3, 223.5, 223.7, 223.8, 223.9, 223.10, 223.11, 
+223.12, 223.16, and 223.22 that were not specified in the NPRM. These 
+changes are clarifying, technical, or nonsubstantive and are made in 
+furtherance of the purposes described in the NPRM.
+    Treasury updated the application requirements in Sec.  
+223.2(a)(5)(i) to clarify that when applying for a certificate of 
+authority companies must also report significant changes in operations 
+or corporate structure that might impact their financial statements. 
+Treasury routinely asks for this information in the application process 
+and is now codifying it with the other application requirements. 
+Treasury added a similar requirement in Sec.  223.12(h)(1)(ix) to apply 
+to applications for recognition as an admitted reinsurer.
+    In Sec.  223.3(a), Treasury removed the phrase ``at the company's 
+expense'' from the provision that Treasury may require companies to 
+submit additional information when making decisions to issue or renew 
+certificates of authority. Treasury made this edit for consistency with 
+other provisions of part 223 that state Treasury may require additional 
+information but do not specify that doing so is at the company's 
+expense. Treasury believes it is self-evident that companies are 
+responsible for the expense of submitting any required
+
+[[Page 48830]]
+
+additional information, and therefore removed that clause from Sec.  
+223.3 to avoid any confusion as to why the requirement was not 
+mentioned elsewhere.
+    Treasury made edits in Sec. Sec.  223.2(a) and (b) and 222.12(h) 
+through (j), to remove ``receipt or proof of payment'' as part of the 
+application requirements. In the time since Treasury published the 
+NPRM, Treasury has updated its processes whereby it no longer requires 
+applicant companies to submit a receipt or other proof of payment for 
+Treasury to verify that the companies have paid the required fees.
+    In Sec. Sec.  223.2(a) and (b), 223.8(a), and 223.12(h) Treasury 
+added a requirement that companies provide the NAIC file upload when 
+submitting their annual or quarterly financial statements. Companies 
+have submitted their statements via the text file upload for many 
+years, so Treasury wanted to clarify these sections to remove any doubt 
+that the companies should continue to do so.
+    Treasury made an additional edit to the application requirements in 
+Sec.  223.2(b) to clarify that a Schedule of Excess Risks form is 
+submitted as of the close of the preceding quarter, not the preceding 
+year.
+    In Sec. Sec.  223.2(b) and 223.8, Treasury corrected the name of 
+the form utilized by companies to report Federal business written and 
+outstanding.
+    Treasury also made edits to Sec.  223.9(c)(2) to reflect its 
+practice that companies must submit sufficient documentation before 
+receiving credit for reinsurance to the extent of funds withheld, trust 
+agreements, or letters of credit. Treasury also made an edit in this 
+paragraph to conform with a similar statement previously published in 
+supplemental guidance that Treasury's allowance of credit in these 
+circumstances is discretionary.
+    Treasury removed language in Sec.  223.11 describing the 
+requirements for Miller Act bonds to improve the clarity of the 
+section.
+    Treasury made edits to Sec.  223.12(i) and (j) to clarify that 
+Treasury will look to state law to determine whether a reinsurer 
+applying to be a complementary reinsurer or alien reinsurer is 
+recognized as a Reciprocal Jurisdiction Reinsurer, Accredited 
+Reinsurer, or Certified Reinsurer, as appropriate. The NPRM stated that 
+Treasury would look to the NAIC definition of those categories of 
+reinsurer, but as Treasury requires reinsurers to submit proof that 
+they have obtained recognition from at least one U.S. state, Treasury 
+finds it more appropriate to reference state law that is based on the 
+NAIC models. For similar reasons, Treasury made an edit in Sec.  
+223.12(j) to clarify that an alien reinsurer must be domiciled in a 
+non-U.S. jurisdiction that is recognized by a U.S. state as a Qualified 
+Jurisdiction or Reciprocal Jurisdiction (provided that the Reciprocal 
+Jurisdiction is not party to an in-force Covered Agreement as described 
+in Sec.  223.12(i)). Treasury removed the language contained in the 
+NPRM that an alien reinsurer's jurisdiction must be recognized as 
+Qualified or Reciprocal by the NAIC, but Treasury also made an edit in 
+Sec.  223.12(j) to clarify that Treasury may consider, if it deems 
+appropriate, the NAIC lists of Qualified and Reciprocal Jurisdictions.
+    Treasury also removed the word ``independent'' where it appeared 
+before the term ``qualified actuary'' in Sec. Sec.  223.2(a) and (b) 
+and 223.12(h). The application requirements in these sections require 
+companies to submit reports by ``qualified actuary,'' as defined by the 
+NAIC. Treasury removed the word ``independent'' to be clear the term 
+``qualified actuary'' in part 223 should be understood as having the 
+same meaning as the term used by the NAIC.
+    Treasury updated the provision of Sec.  223.9(c)(1)(ii) discussing 
+amounts ceded to parents, subsidiaries, or affiliates to better align 
+with Treasury's pre-existing guidance on these cessions.
+
+IV. Procedural Analysis
+
+Regulatory Planning and Review
+
+    The final rule does not meet the criteria for a ``significant'' 
+regulatory action under Executive Order 12866, as amended. Therefore, 
+the regulatory review procedures contained therein do not apply.
+
+Administrative PAYGO
+
+    The Administrative Pay-As-You-Go Act of 2023 (Pub. L. 118-5) does 
+not apply to this rule because it does not increase direct spending.
+
+Regulatory Flexibility Act
+
+    It is hereby certified that the final rule will not have a 
+significant economic impact on a substantial number of small entities. 
+The final rule adopts criteria for recognition for reinsurers outlined 
+in the Covered Agreements and in the NAIC Credit for Reinsurance Model 
+Law and Regulation. Accordingly, reinsurance companies from relevant 
+non-U.S. jurisdictions seeking to assume business from U.S. ceding 
+insurers are already complying with similar financial requirements. 
+Additionally, adherence to these requirements is only required for 
+companies seeking recognition by Treasury; participation in the program 
+is voluntary. The final rule changes regarding Treasury's financial 
+analysis mainly codify existing requirements and policies, of which 
+Treasury-certified sureties were already aware. Therefore, this final 
+rule will not have a significant economic impact on a substantial 
+number of small entities, and a regulatory flexibility analysis under 
+the Regulatory Flexibility Act is not required.
+
+Unfunded Mandates Act of 1995
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995, 2 U.S.C. 
+1532, requires agencies to prepare budgetary impact statements before 
+promulgating any rule likely to result in a Federal mandate that may 
+result in the expenditure by state, local, and tribal governments, in 
+the aggregate, or by the private sector, of $100 million or more in any 
+one year. If a budgetary impact statement is required, section 205 of 
+the Unfunded Mandates Reform Act also requires the agency to identify 
+and consider a reasonable number of regulatory alternatives before 
+promulgating the rule. This final rule will not result in expenditures 
+by state, local, and tribal governments, or by the private sector, of 
+$100 million of more in any one year. Accordingly, Treasury has not 
+prepared a budgetary impact statement or specifically addressed any 
+regulatory alternatives.
+
+Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (Act) (codified at 44 U.S.C. 
+3507(d)) requires that collections of information prescribed in the 
+proposed rules be submitted to the Office of Management and Budget 
+(OMB) for review and approval. In accordance with that requirement, 
+Treasury has submitted the collection of information contained in the 
+notice of proposed rulemaking to OMB for approval under OMB Control 
+Number 1530-0074. Under the Act, an agency may not conduct or sponsor, 
+and a person is not required to respond to, a collection of information 
+unless it displays a valid OMB control number.
+    The collection of information is contained in Sec.  223.12(i) and 
+(j). The amendments require companies applying for initial recognition 
+as a complementary reinsurer to submit to Treasury all information 
+provided by the company or by the supervisory authority of the 
+company's domiciliary jurisdiction to any U.S. state regulator in the 
+two most recently completed calendar years. For renewal of such 
+recognition, companies will submit all semi-annual and annual filing
+
+[[Page 48831]]
+
+information provided by the company or by the supervisory authority of 
+the company's domiciliary jurisdiction to any U.S. state regulator in 
+the most recently completed calendar year. Companies applying for 
+initial recognition as an alien reinsurer will submit to Treasury all 
+information provided to any U.S. state regulator in the two most 
+recently completed calendar years. For renewal of such recognition, 
+companies will submit all annual filing information provided to any 
+U.S. state regulator in the most recently completed calendar year.
+
+List of Subjects in 31 CFR Part 223
+
+    Financial analysis, Reinsurance, Surety bonds.
+
+    For the reasons set forth in the NPRM and in this preamble, 
+Treasury amends 31 CFR part 223 as follows:
+
+PART 223--SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES
+
+0
+1. The authority citation for part 223 continues to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 9304-9308.
+
+
+0
+2. Revise Sec.  223.1 to read as follows:
+
+
+Sec.  223.1  Certificate of authority.
+
+    (a) The regulations in this part govern the issuance, renewal, and 
+revocation by the Secretary of the Treasury, acting through the U.S. 
+Department of the Treasury, Bureau of the Fiscal Service (Treasury), of 
+certificates of authority to bonding companies to do business with the 
+United States as sureties on, or reinsurers of, Federal surety bonds 
+(hereinafter ``bonds'' or ``obligations'') under the authority of 31 
+U.S.C. 9304-9308 and this part, and the acceptance of such obligations.
+    (b) A company applying for authority to write surety bonds in favor 
+of the United States must be engaged in the business of writing surety 
+or fidelity contracts at the time of its application to Treasury, 
+whether or not also making contracts in other classes of insurance, but 
+shall not be engaged in any type or class of business not authorized by 
+its charter or the laws of the state in which the company is 
+incorporated. It must be the intention of the company to engage 
+actively in the execution of surety bonds or fidelity contracts in 
+favor of the United States.
+    (c) A company is not eligible for a certificate of authority if it 
+only insures or reinsures risks of its parent, affiliated, or 
+controlled unaffiliated business, or is deemed by Treasury to be 
+primarily engaged in self-insurance.
+
+0
+3. Revise Sec.  223.2 to read as follows:
+
+
+Sec.  223.2  Application for certificate of authority.
+
+    (a) Application for issuance of certificate of authority. Every 
+company not currently holding a certificate of authority wishing to 
+apply for a certificate of authority shall submit an application to 
+Treasury, c/o Surety Bonds Program, to the location, and in the manner, 
+specified online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The 
+company shall file the following data with Treasury, and shall transmit 
+therewith the fee in accordance with the provisions of Sec.  223.22:
+    (1) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22;
+    (2) A written request for a certificate of authority, signed by an 
+officer of the company. This request must indicate:
+    (i) Whether the company has previously applied for a certificate of 
+authority from Treasury and, if so, the date and disposition of the 
+previous application; and
+    (ii) Whether Treasury has ever previously issued the company a 
+certificate of authority, the reason for termination of its certificate 
+of authority, and the applicable dates;
+    (3) A certified copy of its charter or articles of incorporation 
+showing that it is duly authorized to conduct the business referenced 
+under 31 U.S.C. 9304(a)(2) and a statement from an officer of the 
+company certifying that:
+    (i) The company is authorized to transact surety business; and
+    (ii) If granted a certificate of authority, there are no 
+restrictions upon the company preventing it from being able to execute 
+and guarantee bonds and undertakings in judicial proceedings, and 
+guarantee contracts to which the United States is a party;
+    (4) A listing of the names of the company's current officers and 
+directors as of the date of application, including a biographical 
+affidavit of each officer and director per instructions online at 
+<a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>;
+    (5) A memorandum setting forth:
+    (i) A comprehensive statement of the company's method of operation, 
+including, but not limited to, underwriting guidelines, claims 
+adjustment procedures, reinsurance philosophy, control over collateral, 
+and significant changes in operations or corporate structure that 
+impact its financial statements;
+    (ii) The classes of business in which it engages;
+    (iii) Any special underwriting agreements, management agreements, 
+or pooling agreements in force. Copies of such agreements must be 
+included with the memorandum; and
+    (iv) Present plans of the company as to the types of Federal bonds 
+it intends to write, the anticipated annual premium volume of the 
+Federal bonds, and the geographical areas in which it intends to write 
+the Federal bonds;
+    (6) A certified copy of a license from its state of incorporation 
+and a completed Surety License Form (Form No. FS 2208);
+    (7) A copy of the latest available report of its examination by its 
+domiciliary State Insurance Department including a copy of company 
+responses to any significant findings or recommendations;
+    (8) The National Association of Insurance Commissioners (NAIC) 
+annual statement form with all Schedules and Exhibits completed, 
+including copies of the NAIC File Upload, showing the last two full 
+calendar years of the company's financial condition, including proof 
+that the company has paid-up capital of at least $250,000 in cash or 
+its equivalent, in the case of a stock insurance company, or has net 
+assets of not less than $500,000 over and above all liabilities, in the 
+case of a mutual insurance company. The annual financial statement's 
+Jurat Page (only) is to be signed (facsimile or electronic signatures 
+are acceptable) by the company President, Secretary, and a Notary 
+Public who shall also affix a notary seal;
+    (9) The Insurance Regulatory Information System (IRIS) ratio 
+results, and an explanation for any ratios outside the normal ranges as 
+established by the NAIC for the last two full calendar years preceding 
+the date of application;
+    (10) A written statement signed by the Insurance Commissioner or 
+other proper financial officer of any state attesting that the company 
+maintains on deposit legal investments having a current market value of 
+not less than $100,000 for the protection of claimants, including all 
+of its policyholders in the U.S.;
+    (11) A completed Treasury Schedule F (Form No. TFS 6314), as 
+referenced in Sec.  223.9(c) for the last two full calendar years 
+preceding the date of application;
+    (12) Copies of all reinsurance treaties currently in force along 
+with a completed Summary of Reinsurance Treaties, per instructions 
+provided online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>;
+    (13) A completed Schedule of Excess Risks form (Form No. FS 285-A) 
+as of the date of the application;
+
+[[Page 48832]]
+
+    (14) A Statement of Actuarial Opinion as of the close of the last 
+two full calendar years preceding the date of application provided by a 
+qualified actuary, as defined by the NAIC, on the adequacy of all loss 
+reserves with the scope and format of the statement also conforming to 
+the requirements of the NAIC; and
+    (15) Such other evidence as Treasury may, in its discretion, 
+request to establish that the company is solvent, willing, and able to 
+meet the continuing obligation to carry out its contracts. 
+Additionally, Treasury will publish supplemental guidance annually 
+regarding evidence it may require, submission methods, and format of 
+the data listed in paragraphs (a)(1) through (14) of this section.
+    (b) Applications for renewal of certificate of authority. Every 
+company wishing to apply for the annual renewal of its certificate of 
+authority shall submit an application to Treasury, c/o Surety Bonds 
+Program, to the location, and in the manner, specified online at 
+<a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The company shall file 
+the following data with Treasury, and shall transmit therewith the fee 
+in accordance with the provisions of Sec.  223.22:
+    (1) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22;
+    (2) A completed Surety License Form (Form No. FS 2208) and a 
+certified copy of the licenses from any states indicated on the Surety 
+License Form that were not indicated on the company's most recent form;
+    (3) A copy of the latest available report of its examination by its 
+domiciliary State Insurance Department including a copy of company 
+responses to any significant findings or recommendations;
+    (4) A statement of its financial condition, as of the close of the 
+preceding year, on the annual statement form of the NAIC with all 
+Schedules and Exhibits completed, including copies of the NAIC File 
+Upload, showing that it has paid-up capital of at least $250,000 in 
+cash or its equivalent, in the case of a stock insurance company, or 
+has net assets of not less than $500,000 over and above all 
+liabilities, in the case of a mutual insurance company. The Annual 
+Financial Statement's Jurat Page (only) is to be signed (facsimile or 
+electronic signatures are acceptable) by the company President, 
+Secretary, and a Notary Public who shall also affix a notary seal;
+    (5) IRIS ratio results, and an explanation for any ratios outside 
+the normal ranges as established by the NAIC, as of the close of the 
+preceding year;
+    (6) A completed Treasury Schedule F (Form No. TFS 6314), as 
+referenced in Sec.  223.9(c) as of the close of the preceding year;
+    (7) A completed Schedule of Excess Risks form (Form No. FS 285-A) 
+as of the close of the preceding quarter;
+    (8) A Statement of Actuarial Opinion as of the close of the 
+preceding year provided by a qualified actuary, as defined by the NAIC, 
+on the adequacy of all loss reserves with the scope and format of the 
+statement also conforming to the requirements of the NAIC;
+    (9) A listing of the names of the company's current officers and 
+directors as of the close of the preceding year, including a 
+biographical affidavit of any new officer and director for whom a 
+biographical affidavit was not previously provided, per instructions 
+online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>;
+    (10) A Report of Federal Business Written and/or Outstanding as of 
+the close of the preceding year, per instructions provided online at 
+<a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>; and
+    (11) Such other evidence as Treasury may request to establish that 
+the company is solvent, willing, and able to meet the continuing 
+obligation to carry out its contracts. Additionally, Treasury will 
+publish supplemental guidance annually regarding evidence it may 
+require, submission methods, and format of the data listed in 
+paragraphs (b)(1) through (10) of this section.
+
+0
+4. Revise Sec.  223.3 to read as follows:
+
+
+Sec.  223.3  Issuance of certificates of authority.
+
+    (a) In determining whether to issue or renew a certificate of 
+authority, Treasury will evaluate the whole application package under 
+Sec.  223.2, the financial condition of the company as determined under 
+Sec.  223.9, the history of the company, and any further evidence or 
+information that Treasury may, in its discretion, require the company 
+to submit.
+    (b) A certificate of authority will be effective for a term that 
+expires on the last day of the next July. All statutory requirements 
+and regulatory requirements under this part are continuing obligations, 
+and any certificate issued is expressly subject to continuing 
+compliance with such requirements. The certificate of authority will be 
+renewed annually on the first day of August, provided that the company 
+remains qualified under the law, the regulations in this part, and 
+other relevant Treasury requirements, and the company submits the fee 
+required under Sec.  223.22 by March 1st of each year.
+    (c) If a company meets the requirements for a certificate of 
+authority as an acceptable surety on Federal bonds in all respects 
+except that it is limited to reinsurance business only, it may be 
+issued a certificate of authority as a reinsuring company on Federal 
+bonds. The fees for initial application and renewal of a certificate as 
+a reinsuring company are the same as the fees for an initial 
+application and renewal of a certificate of authority as an acceptable 
+surety on Federal bonds.
+
+
+Sec.  223.4  [Removed and Reserved]
+
+0
+5. Remove and reserve Sec.  223.4.
+
+0
+6. Revise Sec.  223.5 to read as follows:
+
+
+Sec.  223.5  Business.
+
+    A company holding a certificate of authority, or its agent, may 
+only execute (sign or otherwise validate) a surety bond in favor of the 
+United States in a state where it is licensed to do surety business. It 
+need not be licensed in the state or other area in which the principal 
+resides or where the contract is to be performed. The term other area 
+includes the District of Columbia, American Samoa, Guam, the Northern 
+Mariana Islands, Puerto Rico, and the U.S. Virgin Islands.
+
+
+Sec.  223.6  [Removed and Reserved]
+
+0
+7. Remove and reserve Sec.  223.6.
+
+0
+8. Revise Sec.  223.7 to read as follows:
+
+
+Sec.  223.7  Notification of changes.
+
+    (a) Every company certified under this part or recognized as an 
+admitted reinsurer pursuant to Sec.  223.12(h) must notify Treasury of 
+changes that have a significant impact on its financial statements or 
+solvency during the term of such certification or admission. Paragraphs 
+(a)(1) through (4) of this section are not intended to be an exhaustive 
+list of all such changes that Treasury may require to be reported and 
+may evaluate as part of its ongoing analysis of the company. 
+Additionally, Treasury will publish supplemental guidance on additional 
+information that may be required. Every company certified under this 
+part or recognized as an admitted reinsurer pursuant to Sec.  223.12(h) 
+must notify Treasury of the following:
+    (1) Capital changes. Companies must forward to Treasury, when 
+available, approvals by the insurance authorities of the company's 
+state regulator when changes in paid-up capital or contributions or 
+withdrawals to surplus have occurred;
+
+[[Page 48833]]
+
+    (2) Changes in stock ownership. Stock insurance companies must 
+provide a statement signed and sworn to by the Secretary or Assistant 
+Secretary and by the Treasurer or Assistant Treasurer of the company 
+each time any person (whether an individual, corporation, or 
+organization of any kind) becomes owner of more than 5 percent of any 
+class of outstanding stock issued by the company;
+    (3) Mergers, transfer, assumption, and group/pool restructuring. 
+Companies must notify Treasury at least six months prior to any merger, 
+consolidation, transfer, assumption, material group or pool 
+restructuring, or name changes in which the reporting company is 
+involved. The company must furnish to Treasury copies or agreements or 
+documents pertaining to the same, as approved by the insurance 
+authorities of the company's state regulator; and
+    (4) Charters and bylaws amendments. Whenever a company amends its 
+charter or bylaws it must submit a certified copy of the amended 
+charter or bylaws to Treasury.
+    (b) Noncompliance with this section may result in Treasury denying 
+a company's application for its certificate of authority, its 
+recognition as an admitted reinsurer, renewal of its certificate of 
+authority, or renewal of its recognition as an admitted reinsurer; or 
+in Treasury revoking a company's certificate of authority or 
+recognition as an admitted reinsurer.
+
+0
+9. Revise Sec.  223.8 to read as follows:
+
+
+Sec.  223.8  Quarterly financial reporting requirements.
+
+    Every company certified under this part is required to file the 
+following each quarter with Treasury, c/o Surety Bonds Program, to the 
+location, and in the manner, specified online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>:
+    (a) A statement of its financial condition, as of the close of the 
+preceding quarter, on the quarterly statement form of the NAIC with all 
+Schedules and Exhibits completed, including copies of the NAIC File 
+Upload, showing that it has paid-up capital of at least $250,000 in 
+cash or its equivalent, in the case of a stock insurance company, or 
+has net assets of not less than $500,000 over and above all 
+liabilities, in the case of a mutual insurance company. The Quarterly 
+Financial Statement's Jurat Page (only) is to be signed (facsimile or 
+electronic signatures are acceptable) by the company President, 
+Secretary, and a Notary Public who shall also affix a notary seal;
+    (b) A completed Schedule of Excess Risks form (Form No. FS 285-A) 
+as of the close of the preceding quarter;
+    (c) A Report of Federal Business Written and/or Outstanding as of 
+the close of the preceding quarter, per instructions provided online at 
+<a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>;
+    (d) A copy of the latest available report of its examination by its 
+domiciliary State Insurance Department including a copy of company 
+responses to any significant findings or recommendations;
+    (e) A listing of the names of the company's current officers and 
+directors as of the close of the preceding quarter, including a 
+biographical affidavit of each new officer and director per 
+instructions online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>; 
+and
+    (f) Such other evidence as Treasury may request to establish that 
+the company is solvent, willing, and able to meet the continuing 
+obligation to carry out its contracts. Additionally, Treasury will 
+publish supplemental guidance annually regarding evidence it may 
+require, submission methods, and format of the data listed in 
+paragraphs (a) through (e) of this section along with the due dates for 
+quarterly reporting.
+
+0
+10. Revise Sec.  223.9 to read as follows:
+
+
+Sec.  223.9  Determination of financial condition and other required 
+information.
+
+    In determining the financial condition of every company applying 
+for a certificate of authority or renewal of a certificate of authority 
+under this part, Treasury will generally compute the company's assets 
+and liabilities in accordance with paragraphs (a) through (f) of this 
+section, provided that Treasury may exercise discretion in valuing the 
+assets and liabilities of such companies. While paragraphs (a) through 
+(f) specify how Treasury will value certain classes of assets and 
+liabilities and the analysis that Treasury will perform, they are not 
+intended to be an exhaustive list of all assets and liabilities that 
+Treasury may require to be reported and may evaluate as part of this 
+analysis. Additionally, Treasury will annually publish supplemental 
+guidance on the financial analysis performed by Treasury, including 
+applicable ratios and acceptable ranges for ratios.
+    (a) Assets--(1) General criteria for admissibility. The cash 
+capital and other funds included in the financial statement must be 
+safely invested in accordance with the laws of the state in which the 
+company is incorporated. Admissible assets must be reported in U.S. 
+Dollars and are generally limited to investments in cash, cash 
+equivalents, short term investments, mortgage loans (within certain 
+limits), and real property necessary for the conduct of a company's 
+business. In cases where an investment (other than U.S. Government 
+securities and securities of affiliates or subsidiaries) exceeds 10 
+percent of the total admitted assets, Treasury may require additional 
+supporting documentation as needed on a case-by-case basis in order for 
+the asset to be admissible. Additionally, Treasury considers normal 
+account balances (such as, but not limited to, investment income due 
+and accrued, agents' balances and premiums receivables, reinsurance 
+recoverables on paid losses, and funds held by or deposited with ceding 
+reinsuring companies) to be admissible provided they meet Treasury's 
+standards. In order to be admissible, normal account balances may be 
+evaluated for transactional substance, quality, and liquidity. Some 
+assets that may be admissible under codification and/or certain state 
+permitted practices may require supporting documentation as needed on a 
+case-by-case basis in order to be admissible under Treasury's criteria. 
+Assets resulting from reinsurance transactions must meet the credit for 
+reinsurance standards listed under paragraph (c) of this section.
+    (2) Securities. Bonds, unaffiliated common stocks, and unaffiliated 
+preferred stocks must be valued and reported in accordance with the 
+NAIC's Accounting Practices and Procedures Manual (as updated or 
+amended from time to time) and the NAIC Securities Valuation Office 
+(SVO). Those with an investment grade designation will be admissible 
+and those with a non-investment grade designation will be considered on 
+a case-by-case basis.
+    (i) All other securities. The value of all other securities should 
+be valued as of December 31 and reported in U.S. Dollars. For 
+securities that do not have a SVO designation or have a SVO non-
+investment grade designation and are significant for Treasury purposes, 
+Treasury may consider, if it deems appropriate, other relevant data 
+(e.g., prospectus, marketability/liquidity information, internal 
+investment strategies/philosophies) and perform an analysis to 
+determine whether the securities meet Treasury's criteria for 
+admissibility.
+    (ii) Securities of controlled companies. Investments in 
+subsidiaries, controlled entities, and affiliated entities must be 
+reported in accordance with the NAIC Accounting Practices and 
+Procedures Manual (as updated or amended from time to time).
+
+[[Page 48834]]
+
+    (A) Other insurance companies. Companies owning securities of other 
+insurance companies, which are under the same direction and control as 
+the reporting company, must furnish copies of the NAIC File Upload of 
+the subsidiaries. The assets of these subsidiaries will be analyzed 
+according to the criteria set forth in this section.
+    (B) Non-insurance companies. Companies owning securities of non-
+insurance companies, which are under the same direction and control as 
+the reporting company, must furnish copies of independently audited 
+financial statements of such companies as of the reporting date.
+    (3) Real estate and mortgages. Only real estate essential to the 
+operating needs of the company for conducting its business, and 
+conventional first mortgage loans on unencumbered, improved, or 
+productive real estate located within the United States, are 
+admissible. These must be reported in accordance with the NAIC's 
+Accounting Practices and Procedures Manual (as updated or amended from 
+time to time). The real estate and mortgaged property must be supported 
+by an appraisal report that includes the information and computations 
+normally used in arriving at a competent appraised value. In instances 
+where the aggregate values exceed 20 percent of the policyholders' 
+surplus, Treasury may, if it deems appropriate, require additional 
+supporting documentation.
+    (b) Minimum bail reserve requirements. Companies transacting surety 
+bail business must submit a schedule showing bail premiums in force, 
+bail liability, and the amount of any associated unearned premium 
+reserve.
+    (c) Reinsurance. (1) Companies are required to submit Treasury 
+Schedule F (Treasury Form No. TFS 6314) reflecting information in the 
+company's annual statements. Credit for reinsurance may be taken (to 
+the extent specified in the referenced provisions of Sec.  223.12) for 
+reinsurance in all classes of risk provided that it is ceded to the 
+following companies:
+    (i) Companies holding a current certificate of authority from 
+Treasury;
+    (ii) U.S. domiciled non-Treasury certified or recognized parents, 
+subsidiaries, and/or affiliates if Treasury determines that the parent, 
+subsidiary, and/or affiliate is financially solvent;
+    (iii) Admitted reinsurers as defined under Sec.  223.12(h);
+    (iv) Complementary reinsurers as defined under Sec.  223.12(i);
+    (v) Alien reinsurers as defined under Sec.  223.12(j), up to the 
+extent credit is allowed for reinsurance ceded to the alien reinsurer 
+by the ceding company's state of domicile (subject to paragraph (c)(3) 
+of this section); and
+    (vi) An instrumentality or agency of the United States that is 
+permitted by Federal law or regulation to execute reinsurance 
+contracts.
+    (2) Treasury may give credit for reinsurance not covered in 
+paragraph (c)(1) of this section, to the extent of funds withheld or 
+letters of credit or trust agreements from such reinsurers, provided 
+the company advises Treasury and provides sufficient documentation of 
+the amount of funds held, letters of credit posted or funds secured in 
+trust for each company. Treasury may also give credit for trust account 
+assets associated with multi-beneficiary trust agreements established 
+and maintained in the United States by overseas accredited or trusteed 
+reinsurers listed online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>, to the extent the relevant ceded business is covered by these 
+trust account assets.
+    (3) If, after its review of the financial documentation submitted 
+by an alien reinsurer recognized pursuant to Sec.  223.12(j) and of the 
+financial documentation submitted by the ceding company, Treasury 
+determines that either company may be unable to carry out its 
+obligations, Treasury may require additional collateral for the ceding 
+company to receive credit for reinsurance to the extent credit is given 
+for reinsurance ceded to the alien reinsurer by the ceding company's 
+state of domicile.
+    (d) Risk based capital (RBC). Treasury uses RBC in determining the 
+financial solvency of companies, together with such companies' overall 
+financial results, ratios, and trends. Companies must maintain RBC 
+results that fall within acceptable ranges as established by the NAIC 
+or provide a satisfactory explanation for results that do not.
+    (e) Financial ratios. Treasury uses the NAIC IRIS ratios to measure 
+companies' solvency, profitability, and liquidity. Companies must 
+maintain results for these ratios that fall within acceptable ranges as 
+established by the NAIC or provide a satisfactory explanation for 
+results that do not.
+    (f) Financial results and trends. Treasury analyzes financial 
+results from annual and quarterly financial statements required under 
+this part for evidence of negative financial results or trends. 
+Treasury may require companies to submit additional documentation or 
+explanation regarding financial statements with evidence of negative 
+financial results or trends such as decreasing policyholders' surplus, 
+large underwriting losses, negative cashflows, or unsatisfactory IRIS 
+ratio results.
+    (g) Noncompliance. Noncompliance with paragraphs (a) through (f) of 
+this section may result in Treasury denying a company's application for 
+its certificate of authority, or renewal of its certificate, or in 
+Treasury revoking a company's certificate.
+
+0
+11. Revise Sec.  223.10 to read as follows:
+
+
+Sec.  223.10  Limitation of risk.
+
+    (a) Except as provided in Sec.  223.11, no company holding a 
+certificate of authority shall underwrite any single risk on any bond 
+or policy on behalf of any individual, firm, association, or 
+corporation, whether or not the United States is interested as a party 
+thereto, the amount of which is greater than 10 percent of the paid-up 
+capital and surplus of such company, as determined by Treasury. Such 
+figure (i.e., 10 percent of a company's paid-up capital and surplus as 
+determined by Treasury) is hereinafter referred to as the underwriting 
+limitation. For purposes of this part, single risk means the total risk 
+under one bond or policy regardless of the number of individual risks 
+under that bond or policy.
+    (b) In determining the underwriting limitation, the full penalty of 
+any surety and fidelity obligation will be regarded as the liability, 
+and no offset will be allowed on account of any estimate of risk that 
+is less than such full penalty, except in the following cases:
+    (1) Appeal bonds; in which case the liability will be regarded as 
+the amount of the judgment appealed from, plus 10 percent of said 
+amount to cover interest and costs;
+    (2) Bonds of executors, administrators, trustees, guardians, and 
+other fiduciaries, where the penalty of the bond or other obligation is 
+fixed in excess of the estimated value of the estate; in which cases 
+the estimated value of the estate, upon which the penalty of the bond 
+was fixed, will be regarded as the liability;
+    (3) Indemnifying agreements executed by sole heirs or beneficiaries 
+of an estate releasing the surety from liability;
+    (4) Contract bonds given in excess of the amount of the contract; 
+in which cases the amount of the contract will be regarded as the 
+liability; or
+    (5) Bonds for banks or trust companies as principals, conditioned 
+to repay moneys on deposit, whereby pursuant to any law or decree of a 
+court, the amount to be deposited shall be less than the penalty of the 
+bond; in which cases the maximum amount on deposit at any one time will 
+be regarded as the liability.
+
+0
+12. Revise Sec.  223.11 to read as follows:
+
+[[Page 48835]]
+
+Sec.  223.11  Limitation of risk: Protective methods.
+
+    In the case of risks otherwise in excess of a company's limitation 
+of risk prescribed in Sec.  223.10, compliance may be achieved by the 
+following methods:
+    (a) Coinsurance. Two or more companies holding a certificate of 
+authority may underwrite a single risk on any bond or policy, the 
+amount of which does not exceed their aggregate underwriting 
+limitations. Each company must limit its liability upon the face of the 
+bond or policy to an amount which must be within its respective 
+underwriting limitation.
+    (b) Reinsurance--(1) Bonds running to the United States. (i) With 
+respect to all bonds running to the United States to the extent that 
+its excess liability is not addressed through another protective method 
+specified in this section, a company writing such bonds must reinsure 
+liability in excess of the underwriting limitation with one or more 
+companies holding a certificate of authority from Treasury within 45 
+days from the date of execution and delivery of the bond. Such 
+reinsurance shall not be in excess of the underwriting limitation of 
+the reinsuring company. Federal agencies may accept a bond from the 
+direct writing company in satisfaction of the total bond requirement 
+even though it may exceed the direct writing company's underwriting 
+limitation. Within the 45-day period, the direct writing company shall 
+furnish to the Federal agency any requested reinsurance agreements. 
+However, a Federal agency may, in its discretion, require that the 
+direct writing company obtain reinsurance within a lesser period than 
+45 days, and may require the direct writing company to provide 
+completely executed reinsurance agreements before making a final 
+determination that any bond is acceptable.
+    (ii) For bonds required to be furnished to the United States by the 
+Miller Act (40 U.S.C. 3131, as amended), in addition to complying with 
+the requirements of paragraph (b)(1)(i) of this section, the direct 
+writing company must execute the following reinsurance agreement forms: 
+Standard Form 273 (Reinsurance Agreement for a Bonds Statute 
+Performance Bond), Standard Form 274 (Reinsurance Agreement for a Bonds 
+Statute Payment Bond), and Standard Form 275 (Reinsurance Agreement in 
+Favor of the United States). These forms are available on the General 
+Services Administration website at <a href="http://www.gsa.gov">www.gsa.gov</a>.
+    (2) Bonds not running to the United States. A company holding a 
+certificate of authority from Treasury writing risks covered by bonds 
+or policies not running to the United States, to the extent that its 
+excess liability is not addressed through another protective method 
+specified in this section, must reinsure liability in excess of its 
+underwriting limitation within 45 days from the date of execution and 
+delivery of the bond or policy with any of:
+    (i) One or more companies holding a certificate of authority from 
+Treasury;
+    (ii) One or more companies recognized as a reinsurer in accordance 
+with Sec.  223.12, except for any reinsurer who is required by a U.S. 
+state to post 100 percent collateral;
+    (iii) A pool, association, etc., to the extent that it is composed 
+of such companies; or
+    (iv) An instrumentality or agency of the United States that is 
+permitted by Federal law or regulation to execute reinsurance 
+contracts.
+    (3) Limitation. No certificate-holding company may cede to a 
+reinsuring company recognized under Sec.  223.12 any single risk in 
+excess of 10 percent of the latter company's paid-up capital and 
+surplus.
+    (c) Other methods. With respect to all risks other than bonds 
+required to be furnished to the United States by the Miller Act (40 
+U.S.C. 3131, as amended), which must be either coinsured or reinsured 
+in accordance with paragraph (a) or (b)(1)(ii) of this section 
+respectively, the excess liability may be protected:
+    (1) By the deposit with the company in pledge, or by conveyance to 
+it in trust for its protection, of assets admitted by Treasury, the 
+current market value of which is at least equal to the liability in 
+excess of its underwriting limitation. Treasury may, on a case-by-case 
+basis, consider a letter of credit provided by a financial institution 
+to be adequate security under this paragraph (c) if Treasury can verify 
+that the assets referenced in the letter of credit are pledged 
+exclusively to secure the excess risk, and if the letter of credit 
+meets other requirements Treasury might prescribe. Assets used to 
+protect excess liability pursuant to this paragraph (c) cannot also be 
+used to obtain credit for reinsurance pursuant to Sec.  223.9(c).; or
+    (2) If such obligation was incurred on behalf of or on account of a 
+fiduciary holding property in a trust capacity, by a joint control 
+agreement providing that the whole or a sufficient portion of the 
+property so held may not be disposed of or pledged in any way without 
+the consent of the insuring company.
+
+0
+13. Revise Sec.  223.12 to read as follows:
+
+
+Sec.  223.12  Recognition as reinsurer.
+
+    (a) Use of recognized reinsurers. Companies holding a certificate 
+of authority may:
+    (1) Receive credit for reinsurance ceded to a reinsurer recognized 
+pursuant to this section, as described in Sec.  223.9(c); and
+    (2) Protect liability in excess of their underwriting limit on 
+risks not running to the United States by reinsuring excess liability 
+with a reinsurer recognized pursuant to this section.
+    (b) Application. Every company applying for recognition by Treasury 
+as one of the categories of reinsurers in paragraphs (c) through (j) of 
+this section, or annual renewal of such recognition, shall submit an 
+application to Treasury, c/o Surety Bonds Program, to the location, and 
+in the manner, specified online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The applicant company must submit the documentation and 
+must meet the requirements as outlined in this section and in 
+supplemental guidance published by Treasury on its website.
+    (c) Treasury recognition. Recognition by Treasury will be effective 
+for a term that expires on the last day of the following October. A 
+list of reinsuring companies so recognized by Treasury will be 
+published online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>.
+    (d) Notice to Treasury. Each company recognized pursuant to this 
+section shall immediately notify Treasury if a U.S. state takes action 
+to suspend or revoke the company's license or its status or eligibility 
+as an Accredited Reinsurer, Certified Reinsurer, or Reciprocal 
+Jurisdiction Reinsurer, or if the company notifies a U.S. state that a 
+supervisory authority in its domiciliary jurisdiction takes regulatory 
+action against it for serious noncompliance with applicable law (as 
+determined by the supervisory authority in its domiciliary 
+jurisdiction).
+    (e) Eligibility. A company is not eligible for recognition under 
+this section if it only insures or reinsures risks of its parent, 
+affiliated, or controlled unaffiliated business, or is deemed by 
+Treasury to be primarily engaged in self-insurance.
+    (f) Guidance. Treasury may issue supplemental guidance regarding 
+the timing, form, content, and its analysis of the submissions required 
+pursuant to this section. Such guidance will be posted on its website.
+    (g) Noncompliance. Noncompliance with the requirements of this 
+section may result in a company's application for recognition, or for 
+renewal of its recognition, being denied.
+
+[[Page 48836]]
+
+    (h) Admitted reinsurers--(1) Application for recognition by U.S. 
+company. Any company organized under the laws of the United States or 
+of any state thereof, wishing to apply for recognition as an admitted 
+reinsurer of surety companies doing business with the United States, 
+shall submit an application to Treasury, c/o Surety Bonds Program, to 
+the location, and in the manner, specified online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The company shall file the 
+following data with Treasury and shall transmit therewith the fee in 
+accordance with the provisions of Sec.  223.22:
+    (i) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22;
+    (ii) A written request for recognition as an admitted reinsurer, 
+signed by an officer of the company. This request must indicate:
+    (A) The reason for applying for recognition;
+    (B) Whether the company has ever previously applied for recognition 
+as an admitted reinsurer, whether Treasury approved the application, 
+and the applicable dates; and
+    (C) If Treasury previously approved the company for recognition as 
+an admitted reinsurer, the reason for termination of its recognition 
+and the applicable date;
+    (iii) A certified copy of its charter or articles of incorporation 
+with all amendments as of the date of application showing the legal 
+name of the company and that it is authorized to write reinsurance;
+    (iv) A listing of the names of the company's current officers and 
+directors as of the date of application, including a biographical 
+affidavit of each officer and director per instructions online at 
+<a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>;
+    (v) A certified copy of a license from any one state in which it 
+has been authorized to do business showing its authority to write 
+reinsurance and/or other lines of insurance;
+    (vi) A copy of the latest available report of its examination by 
+its domiciliary State Insurance Department including a copy of company 
+responses to any significant findings or recommendations;
+    (vii) Annual statements of its financial condition, as of the close 
+of the last two full years preceding the date of application, on the 
+annual statement form of the NAIC with all Schedules and Exhibits 
+completed, including copies of the NAIC File Upload, showing that it 
+has paid-up capital of at least $250,000 in cash or its equivalent, in 
+the case of a stock insurance company, or has net assets of not less 
+than $500,000 over and above all liabilities, in the case of a mutual 
+insurance company. The Annual Financial Statement's Jurat Page (only) 
+is to be signed (facsimile signatures are acceptable) by the company 
+President, Secretary, and a Notary Public who shall also affix a notary 
+seal;
+    (viii) IRIS ratio results, and an explanation for any ratios 
+outside the normal ranges as established by the NAIC for the last two 
+years preceding the date of application;
+    (ix) A memorandum setting forth the company's method of operation, 
+including lines of business written, the company's underwriting and 
+claims philosophy, and significant changes in the company's operations 
+or corporate structure that impact its financial statements;
+    (x) A completed Treasury Schedule F (Form No. TFS 6314), as 
+referenced in Sec.  223.9(c) for two years preceding the date of 
+application;
+    (xi) A Statement of Actuarial Opinion as of the close of the last 
+two years preceding the date of application provided by a qualified 
+actuary, as defined by the NAIC, on the adequacy of all loss reserves 
+with the scope and format of the statement also conforming to the 
+requirements of the NAIC; and
+    (xii) Such other evidence as Treasury may request to establish that 
+the company is solvent and able to meet the continuing obligation to 
+carry out its contracts. Treasury will publish supplemental guidance 
+annually regarding evidence it may require, submission methods, and 
+format of the data listed in paragraphs (h)(1)(i) through (xi) of this 
+section.
+    (2) Application by a U.S. branch. A U.S. branch of a non-U.S. 
+company applying for recognition as an admitted reinsurer must file the 
+following data with Treasury, and shall transmit therewith the fee in 
+accordance with the provisions of Sec.  223.22:
+    (i) The submissions listed in paragraphs (h)(1)(i) through (xii) of 
+this section, except that the financial statement of such branch shall 
+show that it has net assets of not less than $250,000 over and above 
+all liabilities; and
+    (ii) Evidence satisfactory to Treasury to establish that it has on 
+deposit in the United States not less than $250,000 available to its 
+policyholders and creditors in the United States.
+    (3) Application for renewal of recognition as an admitted 
+reinsurer. Any company recognized pursuant to paragraph (h)(1) or (2) 
+of this section wishing to apply for renewal of its recognition shall 
+submit an application to Treasury, c/o Surety Bonds Program, to the 
+location, and in the manner, specified online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The company must file the 
+following data with Treasury and shall transmit therewith the fee in 
+accordance with the provisions of Sec.  223.22:
+    (i) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22;
+    (ii) A copy of the latest available report of its examination by 
+its domiciliary State Insurance Department including a copy of company 
+responses to any significant findings or recommendations;
+    (iii) Annual statements of its financial condition, as of the close 
+of the preceding year, on the annual statement form of the NAIC with 
+all Schedules and Exhibits completed, including copies of the NAIC File 
+Upload, showing that it has paid-up capital of at least $250,000 in 
+cash or its equivalent, in the case of a stock insurance company, or 
+has net assets of not less than $500,000 over and above all 
+liabilities, in the case of a mutual insurance company. The Annual 
+Financial Statement's Jurat Page (only) is to be signed (facsimile 
+signatures are acceptable) by the company President, Secretary, and a 
+Notary Public who shall also affix a notary seal;
+    (iv) IRIS ratio results, and an explanation for any ratios outside 
+the normal ranges as established by the NAIC as of the close of the 
+preceding year;
+    (v) A completed Treasury Schedule F (Form No. TFS 6314), as 
+referenced in Sec.  223.9(c) as of the close of the preceding year;
+    (vi) A Statement of Actuarial Opinion as of the close of the 
+preceding year provided by a qualified actuary, as defined by the NAIC, 
+on the adequacy of all loss reserves with the scope and format of the 
+statement also conforming to the requirements of the NAIC;
+    (vii) A listing of the names of the company's current officers and 
+directors as of the close of the preceding year, including a 
+biographical affidavit of each new officer and director per 
+instructions online at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>; 
+and
+    (viii) Such other evidence as Treasury may request to establish 
+that the company is solvent and able to meet the continuing obligation 
+to carry out its contracts. Treasury will publish supplemental guidance 
+annually regarding evidence it may require, submission methods, and 
+format of the data listed in paragraphs (h)(3)(i) through (vii) of this 
+section.
+
+[[Page 48837]]
+
+    (i) Complementary reinsurers. Any company may apply for recognition 
+as a complementary reinsurer or annual renewal of such recognition 
+provided the company is licensed to write reinsurance by and has its 
+head office in (or is domiciled in) a non-U.S. jurisdiction that is 
+subject to an in-force Covered Agreement entered into with the United 
+States pursuant to 31 U.S.C. 313-314, which Covered Agreement addresses 
+the elimination, under specified conditions, of collateral requirements 
+as a condition for entering into any reinsurance agreement with a 
+ceding insurer domiciled in a U.S. state or for allowing the ceding 
+insurer to recognize credit for reinsurance. To obtain recognition as a 
+complementary reinsurer, the company must submit to Treasury the fee in 
+accordance with the provisions of Sec.  223.22 and must:
+    (1) Meet and maintain all capital and surplus, solvency, and market 
+conduct requirements under the applicable Covered Agreement;
+    (2) Be recognized by at least one U.S. state as a Reciprocal 
+Jurisdiction Reinsurer, as defined by the state's credit for 
+reinsurance law or regulation based on the NAIC's Credit for 
+Reinsurance Model Law and Regulation, and submit proof of such 
+recognition; and
+    (3) Submit to Treasury:
+    (i) For initial applications for recognition, all information 
+provided by the company or by the supervisory authority of the 
+company's domiciliary jurisdiction to any U.S. state regulator in the 
+two most recently completed calendar years.
+    (ii) For applications for renewal of recognition, all semi-annual 
+and annual filing information provided by the company or by the 
+supervisory authority of the company's domiciliary jurisdiction to any 
+U.S. state regulator in the most recently completed calendar year.
+    (iii) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22.
+    (j) Alien reinsurers. Any company may apply for recognition or 
+annual renewal of such recognition as an alien reinsurer, provided it 
+is licensed to write reinsurance by, and has its head office or 
+domicile in, a non-U.S. jurisdiction that is recognized by a U.S. state 
+as a Qualified Jurisdiction or as a Reciprocal Jurisdiction, provided 
+that the Reciprocal Jurisdiction is not party to an in-force Covered 
+Agreement as described in paragraph (i) of this section. Treasury may 
+also consider, if it deems appropriate, the lists of Qualified and 
+Reciprocal Jurisdictions most recently published through the relevant 
+NAIC committee when determining a company's eligibility for recognition 
+pursuant to this paragraph (j). To obtain such recognition, the company 
+must submit to Treasury the fee in accordance with the provisions of 
+Sec.  223.22 and must:
+    (1) Be recognized by at least one U.S. state as an ``Accredited 
+Reinsurer,'' ``Certified Reinsurer,'' or a ``Reciprocal Jurisdiction 
+Reinsurer,'' as defined by the state's credit for reinsurance law or 
+regulation based on the NAIC's Credit for Reinsurance Model Law and 
+Regulation, and submit proof of such recognition;
+    (2) Meet and maintain all capital and surplus, market conduct, and 
+other requirements for eligibility as an ``Accredited Reinsurer,'' 
+``Certified Reinsurer,'' or ``Reciprocal Jurisdiction Reinsurer'' in 
+accordance with the law and regulation of all U.S. states granting it 
+such recognition; and
+    (3) Submit to Treasury:
+    (i) For initial applications for recognition, all information 
+provided to any U.S. state regulator in the two most recently completed 
+calendar years.
+    (ii) For applications for renewal of such recognition, all annual 
+filing information provided to any U.S. state regulator in the most 
+recently completed calendar year.
+    (iii) Payment of the application fee in accordance with the 
+provisions of Sec.  223.22.
+
+
+Sec.  223.13  [Removed and Reserved]
+
+0
+14. Remove and reserve Sec.  223.13.
+
+
+Sec.  223.14  [Removed and Reserved]
+
+0
+15. Remove and reserve Sec.  223.14.
+
+0
+16. Revise Sec.  223.15 to read as follows:
+
+
+Sec.  223.15  Paid-up capital and surplus for Treasury rating purposes; 
+how determined.
+
+    Treasury determines the amount of paid-up capital and surplus of 
+any company holding or seeking a certificate of authority or recognized 
+(or seeking recognition) as an admitted reinsurer pursuant to Sec.  
+223.12(h) on an insurance accounting basis under the regulations in 
+this part, from the company's financial statements and other 
+information, or by such examination of the company at its own expense 
+as Treasury may deem appropriate.
+
+0
+17. Amend Sec.  223.16 by revising the first three sentences to read as 
+follows:
+
+
+Sec.  223.16  List of certificate holding companies.
+
+    A list of certificate holding companies is published annually as of 
+August 1 in Department Circular No. 570, Companies Holding Certificates 
+of Authority as Acceptable Sureties on Federal Bonds and as Acceptable 
+Reinsuring Companies, with information as to underwriting limitations, 
+areas in which listed sureties are licensed to transact surety 
+business, and other details. If Treasury shall take any exceptions to 
+the financial statements submitted by a company or other information 
+pertinent to the company's financial solvency, before issuing 
+Department Circular 570, Treasury shall give a company due notice of 
+such exceptions. Copies of the Circular are available at <a href="https://www.fiscal.treasury.gov/surety-bonds/list-certified-companies.html">https://www.fiscal.treasury.gov/surety-bonds/list-certified-companies.html</a>, or 
+from the Surety Bonds Program, upon request. * * *
+
+0
+18. Amend Sec.  223.17 by revising paragraphs (b)(1)(iii) and (iv) to 
+read as follows:
+
+
+Sec.  223.17  Acceptance and non-acceptance of bonds.
+
+* * * * *
+    (b) * * *
+    (1) * * *
+    (iii) Provide the company with an opportunity to rebut the stated 
+reasons or cause; and
+    (iv) Provide the company with an opportunity to cure the stated 
+reasons or cause.
+* * * * *
+
+0
+19. Amend Sec.  223.18 by revising paragraphs (a) introductory text and 
+(a)(1) to read as follows:
+
+
+Sec.  223.18  Revocation.
+
+    (a) Treasury may initiate a revocation proceeding against a 
+Treasury-certified company in one of two ways:
+    (1) Treasury, of its own accord, under Sec.  223.19, may initiate 
+revocation proceedings against the company when it has reason to 
+believe that the company is not complying with 31 U.S.C. 9304-9308 and/
+or the regulations under this part; or
+* * * * *
+
+0
+20. Amend Sec.  223.19 by revising the introductory text and paragraph 
+(b)(2) to read as follows:
+
+
+Sec.  223.19  Treasury-initiated revocation proceedings.
+
+    Whenever Treasury has reason to believe that a company is not 
+complying with the requirements of 31 U.S.C. 9304-9308 and/or the 
+regulations under this part, including but not limited to a failure to 
+satisfy corporate and financial standards, Treasury shall:
+* * * * *
+    (b) * * *
+    (2) The company responded, was provided an opportunity to 
+demonstrate or achieve compliance, and failed to do so.
+
+[[Page 48838]]
+
+
+0
+21. Amend Sec.  223.20 by revising paragraphs (b)(1) and (h)(8) and (9) 
+to read as follows:
+
+
+Sec.  223.20  Revocation proceedings initiated by Treasury upon receipt 
+of an agency complaint.
+
+* * * * *
+    (b) * * *
+    (1) The agency has determined, consistent with agency authorities, 
+the principal is in default on the obligation covered by the bond. 
+Alternatively, if the default has been litigated, documentation 
+indicating a court of competent jurisdiction has determined the 
+principal is in default;
+* * * * *
+    (h) * * *
+    (8) The formal adjudication standards under the Administrative 
+Procedure Act, 5 U.S.C. 554, 556, and 557, do not apply to the informal 
+hearing or adjudication process.
+    (9) Treasury may promulgate additional procedural guidance 
+governing the conduct of informal hearings.
+* * * * *
+
+0
+22. Revise Sec.  223.21 to read as follows:
+
+
+Sec.  223.21  Reinstatement.
+
+    If, after one year from the date that Treasury notifies the company 
+of its decision to decline to renew or revoke the certificate of 
+authority of a company under this part, the company can demonstrate 
+that the basis for the non-renewal or revocation has been cured, as 
+determined by Treasury in its discretion, and that it can comply with, 
+and does meet, all continuing requirements for certification under 31 
+U.S.C. 9304-9308 and this part, the company may submit an application 
+to Treasury for reinstatement or reissuance of a certificate of 
+authority, which will be granted without prejudice if all such 
+requirements are met. Treasury may waive the one year waiting period 
+for good cause shown, as determined by Treasury in its sole discretion.
+
+0
+23. Revise Sec.  223.22 to read as follows:
+
+
+Sec.  223.22  Fees for service of the Treasury Department.
+
+    (a) Fees shall be imposed and collected, for the services listed in 
+paragraphs (a)(1) through (6) of this section that are performed by 
+Treasury, regardless of whether the action requested is granted or 
+denied. An online payment portal is provided at <a href="https://www.fiscal.treasury.gov/surety-bonds/">https://www.fiscal.treasury.gov/surety-bonds/</a>. The amount of the fee will be 
+based on which of the following categories of service is requested:
+    (1) Examination of a company's application for a certificate of 
+authority as an acceptable surety on Federal bonds or for a certificate 
+of authority as an acceptable reinsuring company on such bonds (see 
+Sec.  223.2(a));
+    (2) Examination of a company's application for recognition as an 
+admitted reinsurer of surety companies doing business with the United 
+States (see Sec.  223.12(h));
+    (3) Examination of a company's application for recognition as a 
+complementary reinsurer of surety companies doing business with the 
+United States (see Sec.  223.12(i));
+    (4) Examination of a company's application for recognition as an 
+alien reinsurer of surety companies doing business with the United 
+States (see Sec.  223.12(j));
+    (5) Determination of a company's continuing qualifications for 
+annual renewal of its certificate of authority (see Sec.  223.2(b)); or
+    (6) Determination of a company's continuing qualifications for 
+annual renewal of its recognition as an admitted reinsurer, 
+complementary reinsurer, or alien reinsurer (see Sec.  223.12).
+    (b) In a given year a uniform fee will be collected from every 
+company requesting a particular category of service, e.g., 
+determination of a company's continuing qualifications for annual 
+renewal of its certificate of authority. However, Treasury reserves the 
+right to redetermine the amounts of fees annually. Fees are determined 
+in accordance with Office of Management and Budget Circular A-25, as 
+amended.
+    (c) Specific fee information may be obtained from the Surety Bonds 
+Program, or online at <a href="https://www.fiscal.treasury.gov/files/surety-bonds/user-fees.pdf">https://www.fiscal.treasury.gov/files/surety-bonds/user-fees.pdf</a>. In addition, a notice of the amount of a fee 
+referred to in paragraphs (a)(1) through (6) of this section will be 
+published in the Federal Register as each change in such fee is made.
+
+    By the Department of the Treasury.
+David Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2024-12491 Filed 6-7-24; 8:45 am]
+BILLING CODE 4810-AS-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

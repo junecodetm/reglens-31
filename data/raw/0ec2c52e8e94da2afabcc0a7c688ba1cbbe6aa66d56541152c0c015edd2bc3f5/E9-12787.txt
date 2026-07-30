@@ -1,0 +1,378 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 103 (Monday, June 1, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 103 (Monday, June 1, 2009)]
+[Rules and Regulations]
+[Pages 26084-26087]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-12787]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 09-01; Department of the Treasury Circular, Public 
+Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury'' or ``We'') is 
+issuing in final form amendments to the Uniform Offering Circular for 
+the Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and 
+Bonds. This final rule makes conforming changes to several sections of 
+the Uniform Offering Circular to be consistent with Treasury's
+
+[[Page 26085]]
+
+current auction practices. The first change modifies the description of 
+Treasury bills to clarify that they may be issued at a discount or at 
+par, depending upon the auction results. The second change clarifies 
+that the rate or yield bid in Treasury bill or Treasury fixed-principal 
+securities auctions must be a positive number or zero. The third change 
+eliminates a provision related to ``guaranteed bid'' arrangements that 
+was intended for multiple-price auctions. Because Treasury no longer 
+conducts multiple-price auctions, the provision is no longer needed or 
+effective. The fourth change updates an example of the proration of 
+auction awards at the highest accepted yield or discount rate to 
+reflect the change in minimum and multiple bid amounts to $100 for all 
+Treasury marketable securities auctions that became effective in 2008. 
+The fifth change modifies the provision for the notification of auction 
+awards and settlement amounts to provide language consistent with 
+related provisions of the Uniform Offering Circular. Finally, we are 
+updating several references to the Bureau of the Public Debt's Web site 
+to reflect the current URL.
+
+DATES: Effective June 1, 2009.
+
+ADDRESSES: This final rule is available on the Bureau of the Public 
+Debt's Web site at: <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a>. It is also available 
+for public inspection and copying at the Treasury Department Library, 
+Room 1428, Main Treasury Building, 1500 Pennsylvania Avenue, NW., 
+Washington, DC 20220. To visit the library, call (202) 622-0990 for an 
+appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena, Lee Grandy, or Kevin 
+Hawkins, Department of the Treasury, Bureau of the Public Debt, 
+Government Securities Regulations Staff, (202) 504-3632.
+
+SUPPLEMENTARY INFORMATION: Part 356 of title 31 of the Code of Federal 
+Regulations, also referred to as the Uniform Offering Circular (``UOC'' 
+or ``auction rules''), sets out the terms and conditions for the sale 
+and issuance by the Treasury to the public of marketable book-entry 
+Treasury bills, notes, and bonds.\1\ The UOC, together with the 
+offering announcement for each auction, represents a comprehensive 
+statement of the terms and conditions. This final rule makes conforming 
+changes to the UOC to reflect Treasury's current auction practices.
+---------------------------------------------------------------------------
+
+    \1\ The UOC was published as a final rule in January 1993. See 
+58 FR 412, January 5, 1993. The circular, as amended, is codified at 
+31 CFR part 356.
+---------------------------------------------------------------------------
+
+I. Treasury Bills Description
+
+    The UOC currently describes Treasury bills as being ``issued at a 
+discount.'' \2\ Under certain market conditions, however, an auction 
+can result in Treasury bills being issued at par (in essence yielding 
+zero percent).\3\ Treasury bill offering announcements,\4\ starting in 
+December 2008, clarified, in a footnote, that ``Treasury bills will be 
+issued at a discount or at par.'' In keeping with Treasury's practice 
+of incorporating the terms and conditions of Treasury auctions into the 
+UOC, the description of Treasury bills at 31 CFR 356.5(a)(1) is being 
+modified to state that Treasury bills may be ``issued at a discount or 
+at par, depending upon the auction results.''
+---------------------------------------------------------------------------
+
+    \2\ 31 CFR 356.5(a)(1).
+    \3\ The 4-week bill auctions conducted on December 9, 16, and 
+23, 2008, resulted in Treasury bills being issued at par. See 
+Treasury securities auction 2008 press releases for 4-week bills at: 
+<a href="http://treasurydirect.gov/instit/annceresult/press/preanre/2008/2008_4week.htm">http://treasurydirect.gov/instit/annceresult/press/preanre/2008/2008_4week.htm</a>.
+    \4\ Id.
+---------------------------------------------------------------------------
+
+II. Competitive Bid Format
+
+    Treasury is adding a sentence to each of the descriptions of the 
+competitive bid formats for Treasury bills and Treasury fixed-principal 
+securities in 31 CFR 356.12 to clarify that the rate or yield bid must 
+be a positive number or zero.\5\
+---------------------------------------------------------------------------
+
+    \5\ 31 CFR 356.12(c)(1)(i) and (ii).
+---------------------------------------------------------------------------
+
+III. Guaranteed Bids
+
+    The UOC contains several provisions to regulate bidders \6\ in a 
+Treasury auction. We are eliminating a provision at 31 CFR 356.14(a) 
+related to ``guaranteed bid'' arrangements in Treasury auctions that is 
+no longer needed. Specifically, we are eliminating the provision in 31 
+CFR 356.14(a) that states, ``If a bid from a depository institution or 
+a dealer fulfills a guarantee to a customer to sell a specified amount 
+of securities at an agreed-upon price, or a price fixed in terms of an 
+agreed-upon standard, then the bid is a bid of that depository 
+institution or dealer. It is not a customer bid.'' This particular 
+provision dates back to 1995 when Treasury conducted multiple-price 
+auctions, which are auctions in which each successful competitive 
+bidder pays the price equivalent to the yield or rate that it bid. 
+Prior to the close for submission of competitive bids, certain dealers 
+were entering into arrangements to guarantee their customers \7\ a 
+price conditioned on the outcome of the auction (e.g., the weighted 
+average yield determined in the auction).\8\ This provision was added 
+in response to and intended to address that specific practice. In 1998, 
+Treasury shifted to single-price auctions for all Treasury marketable 
+securities, which are auctions in which all successful bidders pay the 
+same price regardless of the yields or rates they each bid.\9\ Because 
+Treasury no longer conducts multiple-price auctions, the provision is 
+no longer needed or effective. Treasury expects any depository 
+institution or dealer guaranteeing bids in a single-price auction to 
+reexamine this practice, confirm that the bidder has been properly 
+identified on the bid, and raise any questions with Treasury staff. 
+Questions related to particular facts and circumstances may be directed 
+to the Government Securities Regulations Staff at the telephone number 
+listed above.
+---------------------------------------------------------------------------
+
+    \6\ The UOC defines a ``bidder'' at 31 CFR 356.2 to include 
+persons and entities who offer to purchase Treasury securities in an 
+auction through a depository institution or dealer.
+    \7\ See definition of ``customer'' at 31 CFR 356.2.
+    \8\ See 60 FR 13906, March 15, 1995. The ``guarantee bid'' 
+provision was subsequently moved from the definition of ``bid'' in 
+31 CFR 356.2 to 31 CFR 356.14(a) when the UOC was converted to plain 
+language in 2004. See 69 FR 45202, July 28, 2004.
+    \9\ See November 1998 Quarterly Refunding Statement remarks by 
+Gary Gensler, Treasury Assistant Secretary for Financial Markets 
+(October 28, 1998) <a href="http://www.treas.gov/press/releases/rr2782.htm">http://www.treas.gov/press/releases/rr2782.htm</a>.
+---------------------------------------------------------------------------
+
+    Treasury expects transparency in the submission of all auction 
+bids, including those for customers, to maintain the integrity of the 
+auction process. All auction participants, including bidders, 
+customers, and submitters must comply with Treasury's auction rules. 
+This rule makes no changes to the general UOC requirements of 31 CFR 
+356.12 bidding restrictions, 31 CFR 356.13 net long position reporting, 
+31 CFR 356.14 proper identification of customers, 31 CFR 356.16 
+certifications, and 31 CFR 356.24 confirmations required from any 
+customer awarded a par amount equal to or greater than $750 million.
+
+IV. Proration Example
+
+    On March 20, 2008, Treasury amended the UOC to lower the minimum 
+and multiple par amounts for which bidders may bid in all Treasury 
+marketable securities auctions from $1,000 to $100.\10\ We are updating 
+the example in 31 CFR 356.21(a) of the proration of auction awards at 
+the highest accepted yield or discount rate to reflect the $100 minimum 
+and multiple bid amounts.
+---------------------------------------------------------------------------
+
+    \10\ See 73 FR 14937, March 20, 2008.
+---------------------------------------------------------------------------
+
+V. Settlement Notification
+
+    The UOC includes certain notification requirements of auction 
+awards. We are making a nonsubstantive change to the
+
+[[Page 26086]]
+
+first sentence in 31 CFR 356.24(c) to conform to the language in 31 CFR 
+356.24(a).
+
+VI. Web Site References
+
+    Information regarding Treasury's marketable securities auctions can 
+be found on or accessed by way of the Bureau of the Public Debt's Web 
+site. The Web site has changed and it can now be accessed at <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a> instead of its previous address, <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a>. Therefore, we are updating the references to 
+the Web site at 31 CFR 356.23(a) and 31 CFR 356.31(a) accordingly.
+
+Procedural Requirements
+
+    This final rule only makes conforming changes to the UOC and, 
+therefore, does not meet the criteria for a ``significant regulatory 
+action'' pursuant to Executive Order 12866. Because this rule relates 
+to public contracts and procedures for United States securities, the 
+notice, public comment, and delayed effective date provisions of the 
+Administrative Procedure Act are inapplicable, pursuant to 5 U.S.C. 
+553(a)(2).
+    As no notice of proposed rulemaking is required, the provisions of 
+the Regulatory Flexibility Act (5 U.S.C. 601, et seq.) do not apply.
+    There is no new collection of information contained in this final 
+rule, and, therefore, the Paperwork Reduction Act does not apply. The 
+Office of Management and Budget has approved the collections of 
+information already contained in 31 CFR part 356, under control number 
+1535-0112. Under the Paperwork Reduction Act, an agency may not conduct 
+or sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid OMB control number.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+0
+For the reasons set forth in the preamble, 31 CFR part 356 is amended 
+as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+
+0
+2. Section 356.5 is amended by revising paragraph (a)(1) to read as 
+follows:
+
+
+Sec.  356.5  What types of securities does the Treasury auction?
+
+* * * * *
+    (a) * * *
+    (1) Are issued at a discount or at par, depending upon the auction 
+results;
+* * * * *
+
+0
+3. Section 356.12 is amended by revising paragraphs (c)(1)(i) and (ii) 
+to read as follows:
+
+
+Sec.  356.12  What are the different types of bids and do they have 
+specific requirements or restrictions?
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (i) Treasury bills. A competitive bid must show the discount rate 
+bid, expressed with three decimals in .005 increments. The third 
+decimal must be either a zero or a five, for example, 5.320 or 5.325. 
+We will treat any missing decimals as zero, for example, a bid of 5.32 
+will be treated as 5.320. The rate bid may be a positive number or 
+zero.
+    (ii) Treasury fixed-principal securities. A competitive bid must 
+show the yield bid, expressed with three decimals, for example, 4.170. 
+We will treat any missing decimals as zero, for example, a bid of 4.1 
+will be treated as 4.100. The yield bid may be a positive number or 
+zero.
+* * * * *
+
+0
+4. Section 356.14 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.14  What are the requirements for submitting bids for 
+customers?
+
+    (a) Institutions that may submit bids for customers. Only 
+depository institutions or dealers may submit bids for customers (see 
+definitions at Sec.  356.2), or for customers of intermediaries, under 
+the requirements set out in this section.
+* * * * *
+
+0
+5. Section 356.21 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.21  How are awards at the high yield or discount rate 
+calculated?
+
+    (a) Awards to submitters. We generally prorate bids at the highest 
+accepted yield or discount rate under Sec.  356.20(a)(2) of this part. 
+For example, if 80.15% is the announced percentage at the highest yield 
+or discount rate, we award 80.15% of the amount of each bid at that 
+yield or rate. A bid for $100 million at the highest accepted yield or 
+discount rate would be awarded $80,150,000 in this example. We always 
+make awards for at least the minimum to bid, and above that amount we 
+make awards in the appropriate multiple to bid. For example, Treasury 
+bills may be issued with a minimum to bid of $100 and multiples to bid 
+of $100. Say we accept an $18,000 bid at the high discount rate, and 
+the percent awarded at the high discount rate is 88.27%. We would award 
+$15,900 to that bidder, which is an upward adjustment from $15,888.60 
+($18,000 x .8827) to the nearest multiple of $100. If we were to award 
+4.65% of bids at the highest accepted rate, for example, the award for 
+a $100 bid at that rate would be $100, rather than $4.65, in order to 
+meet the minimum to bid for a bill issue.
+* * * * *
+
+0
+6. Section 356.23 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.23  How are the auction results announced?
+
+    (a) After the conclusion of the auction, we will announce the 
+auction results through a press release that is available on our Web 
+site at <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a>.
+* * * * *
+
+0
+7. Section 356.24 is amended by revising paragraph (c) to read as 
+follows:
+
+
+Sec.  356.24  Will I be notified directly of my awards and, if I am 
+submitting bids for others, do I have to provide confirmations?
+
+* * * * *
+    (c) Notification of awards and settlement amounts to a depository 
+institution having an autocharge agreement with a submitter or a 
+clearing corporation. We will provide notice to each depository 
+institution that has entered into an autocharge agreement with a 
+submitter or a clearing corporation of the amount to be charged, on the 
+issue date, to the institution's funds account at the Federal Reserve 
+Bank servicing the institution. We will provide this notification no 
+later than the day after the auction.
+* * * * *
+
+0
+8. Section 356.31 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.31  How does the STRIPS program work?
+
+    (a) General. Notes or bonds may be ``stripped''--divided into 
+separate principal and interest components. These components must be 
+maintained in the commercial book-entry system. Stripping is done at 
+the option of the holder, and may occur at any time from issuance until 
+maturity. We provide the CUSIP numbers and payment dates for the 
+principal and interest components in auction announcements and on our
+
+[[Page 26087]]
+
+Web site at <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a>.
+* * * * *
+
+Gary Grippo,
+Acting Fiscal Assistant Secretary.
+[FR Doc. E9-12787 Filed 5-28-09; 4:15 pm]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

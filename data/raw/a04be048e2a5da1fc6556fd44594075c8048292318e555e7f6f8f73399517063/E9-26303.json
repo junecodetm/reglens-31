@@ -1,0 +1,112 @@
+{
+  "abstract": "This final rule describes the rules applicable to the offset of Federal nontax payments to collect delinquent debts owed to States pursuant to reciprocal agreements between the Secretary of the Treasury and the States. In addition to providing for the offset of Federal nontax payments, the reciprocal agreements provide for the offset of State payments to collect delinquent, nontax Federal debts. The offsets described in this rule are processed by the Treasury Offset Program (TOP), which the Department of the Treasury's Financial Management Service (FMS) established to centralize the process by which Federal payments are withheld or reduced (in other words, offset) to collect delinquent debts.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2009/11/03/E9-26303.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "74 FR 56719",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective November 3, 2009.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "E9-26303",
+  "effective_on": "2009-11-03",
+  "end_page": 56721,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2009/11/03/E9-26303.xml",
+  "html_url": "https://www.federalregister.gov/documents/2009/11/03/E9-26303/administrative-offset-under-reciprocal-agreements-with-states",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E9-26303?publication_date=2009-11-03",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2009-11-03/E9-26303/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 3,
+  "page_views": {
+    "count": 714,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-03/pdf/E9-26303.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2009-11-03",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/03/E9-26303.txt",
+  "regulation_id_number_info": {
+    "1510-AB23": {
+      "html_url": "https://www.federalregister.gov/regulations/1510-AB23/administrative-offset-under-reciprocal-agreements-with-states",
+      "issue": "200904",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Administrative Offset Under Reciprocal Agreements With States",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=200904&RIN=1510-AB23&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1510-AB23"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2009-11-03T17:42:17Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 56719,
+  "subtype": null,
+  "title": "Administrative Offset Under Reciprocal Agreements With States",
+  "toc_doc": "Administrative Offset Under Reciprocal Agreements with States",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Black lung benefits",
+    "Child support",
+    "Claims",
+    "Credit",
+    "Disability benefits",
+    "Loan programs",
+    "Privacy",
+    "Railroad retirement",
+    "Railroad unemployment insurance",
+    "Supplemental Security Income (SSI)",
+    "Taxes",
+    "Wages"
+  ],
+  "type": "Rule",
+  "volume": 74
+}

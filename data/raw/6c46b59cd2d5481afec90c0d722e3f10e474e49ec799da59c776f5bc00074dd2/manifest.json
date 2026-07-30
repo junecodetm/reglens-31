@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2011/04/01/2011-7739.txt",
+  "fetched_at": "2026-07-30T14:09:25.136769+00:00",
+  "sha256": "6c46b59cd2d5481afec90c0d722e3f10e474e49ec799da59c776f5bc00074dd2",
+  "content_type": "text/plain",
+  "filename": "2011-7739.txt"
+}

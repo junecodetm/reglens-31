@@ -1,0 +1,560 @@
+<html>
+<head>
+<title>Federal Register, Volume 87 Issue 157 (Tuesday, August 16, 2022)</title>
+</head>
+<body><pre>
+[Federal Register Volume 87, Number 157 (Tuesday, August 16, 2022)]
+[Rules and Regulations]
+[Pages 50246-50250]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2022-17117]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+[Docket No. Fiscal-2021-0007]
+RIN 1530-AA21
+
+
+Debt Collection Authorities Under the Debt Collection Improvement 
+Act of 1996
+
+AGENCY: Bureau of the Fiscal Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule amends the regulations of the Department of 
+the Treasury (``Treasury''), Bureau of the Fiscal Service (``Fiscal 
+Service''), regarding the Treasury Offset Program (``TOP'') and the 
+Cross-Servicing program. The primary reason for amending the regulation 
+is to inform the public about how Fiscal Service will use Social 
+Security numbers in mailings, as required by the Social Security Number 
+Fraud Prevention Act of 2017, which requires Fiscal Service to have 
+final regulations in place by September 15, 2022.
+
+DATES: This rule is effective September 15, 2022.
+
+FOR FURTHER INFORMATION CONTACT: Tawanna Edmonds, Director, Receivables 
+Management & Debt Services Division, Debt Management Services, Bureau 
+of the Fiscal Service at (202) 874-6810.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Legal Authorities. The Debt Collection Improvement Act of 1996 
+(``DCIA''), Public Law 104-134, 110 Stat. 1321-358 et seq. (April 26, 
+1996), authorized Federal agencies to refer Federal nontax debt to 
+Treasury for collection services, among other things. See 31 U.S.C. 
+3711(g). The DCIA authorized Federal disbursing officials to withhold 
+eligible Federal nontax payments to pay the payee's delinquent nontax 
+debt owed to the United States. See 31 U.S.C. 3716(c). The DCIA also 
+provided that Federal nontax payments may be offset to collect 
+delinquent debt owed to States, including past-due support, and that 
+payments made by States may be offset to collect delinquent nontax debt 
+owed to the United States. See 31 U.S.C. 3716(h). Further, Federal tax 
+refund payments may be offset to collect nontax debt owed to the United 
+States and debt owed to States, including past-due support. See 26 
+U.S.C. 6402, 31 U.S.C. 3720A, and 42 U.S.C. 664.
+
+[[Page 50247]]
+
+    Cross-Servicing program. Fiscal Service administers the Cross-
+Servicing program, through which it provides delinquent nontax debt 
+collection services to Federal agencies under 31 U.S.C. 3711(g).
+    Centralized Receivables Service. Fiscal Service administers the 
+Centralized Receivables Service, or CRS, through which it provides 
+invoicing and early delinquent debt collection services to Federal 
+agencies under 31 U.S.C. 3711(g).
+    Treasury Offset Program. Fiscal Service administers a centralized 
+offset program, known as the Treasury Offset Program, or TOP, through 
+which it offsets payments to collect debts.
+    Revision of Regulations. Fiscal Service promulgated 31 CFR 285.12 
+to implement 31 U.S.C. 3711(g). Among other things, the regulation 
+codified at 31 CFR 285.12 describes the procedures and criteria for 
+transferring delinquent debt to Treasury. It also explains the 
+statutory exceptions to this requirement and the standards under which 
+the Secretary of the Treasury (``Secretary'') will determine whether to 
+grant exemptions to this requirement.
+    Fiscal Service promulgated 31 CFR part 285, subpart A to implement 
+the centralized offset of payments through TOP, pursuant to the Debt 
+Collection Improvement Act of 1996.
+    On March 2, 2022, Fiscal Service published a Notice of Proposed 
+Rulemaking (``NPRM'') at 87 FR 11660 to revise the regulations codified 
+at 31 CFR part 285, subpart A, and 31 CFR 285.12 (the ``existing 
+regulations''). The primary reason for revising these regulations is to 
+inform the public about how Fiscal Service will use Social Security 
+numbers in mailings, as required by the Social Security Number Fraud 
+Prevention Act of 2017, which requires Fiscal Service to have final 
+regulations in place by September 15, 2022. The revisions also add 
+definitions for previously undefined terms and reword certain 
+provisions for clarity, consistent with the requirements of the Plain 
+Writing Act of 2010 and Executive Order 12866 (Sept. 1993). This final 
+rule implements the revisions proposed by the NPRM, without change, 
+except to correct a typographical error by moving ``and'' from the end 
+of Sec.  285.3(m)(2) to the end of Sec.  285.3(m)(3).
+
+II. Analysis of Comments
+
+    Fiscal Service received comments from two non-profit organizations 
+in response to the NPRM.
+    One comment addressed the definition of ``legally enforceable'' and 
+suggested that debts should not be referred to Fiscal Service for 
+collection until administrative appeals and other challenges are 
+resolved. As stated in the NPRM, the term ``legally enforceable'' is 
+used in the existing regulations, and the description of the meaning of 
+that term in the existing regulations is in Sec.  285.12(c)(3). The 
+definition of this term, as proposed by the NPRM, is consistent with 
+the existing meaning. The proposed definition provides agencies with 
+necessary flexibility to determine when it is appropriate to refer 
+debts to Fiscal Service's Cross-Servicing program. The Cross-Servicing 
+program collects a wide variety of debts (ranging from defaulted loans 
+and benefit overpayments to complex audit disallowances and enforcement 
+findings), and the appropriate level of review before determining a 
+debt to be ``legally enforceable'' can differ significantly depending 
+on the type of debt. Each agency is best equipped to determine the 
+appropriate level of review for its debts.
+    The comment also expressed concern that ``in the absence of some 
+independent prohibition, agencies will be required to refer debts to'' 
+the Cross-Servicing program. Fiscal Service does not agree that this is 
+a necessary consequence of the statement in the NPRM that a pending 
+appeal does not preclude the agency from referring a debt to the Cross-
+Servicing program. Some agencies provide debtors with dispute 
+opportunities beyond what is required by Fiscal Service's rules. Only 
+after the agency provides at least the level of due process required by 
+Fiscal Service's rules may the agency refer the debt to the Cross-
+Servicing program. An agency would not be required to refer the debt to 
+the Cross-Servicing program if it had not yet completed its required 
+reviews. Moreover, agencies may suspend debt collection activity 
+(including referring debts to the Cross-Servicing program) if the 
+debtor has requested a waiver or review of the debt. 31 CFR 903.2. As 
+such, Fiscal Service does not believe any change is necessary to the 
+definition of ``legally enforceable.''
+    One comment urged Fiscal Service to preserve and expand all 
+existing provisions that allow for suspension of collection. This 
+comment is outside the scope of this NPRM, as it addresses possible 
+changes to a separate regulation, specifically 31 CFR 903.2. 
+Nevertheless, for clarity, Fiscal Service notes that nothing proposed 
+by the NPRM is intended to narrow the existing provisions that allow 
+for the suspension of collection under 31 U.S.C. 3711(a)(3) and the 
+associated regulations, including 31 CFR 903.2.
+    One comment asserted that the NPRM does not sufficiently address 
+the current debt collection system's impact on communities of color and 
+recommended that Fiscal Service suspend the operation of TOP until 
+``critical issues are resolved.'' This comment is outside the scope of 
+the targeted changes proposed by the NPRM. Nevertheless, Fiscal Service 
+notes that it is conducting an equity review in a separate forum. See 
+Treasury's Equity Action Plan: One Year Progress Report (April 2022), 
+available at <a href="https://home.treasury.gov/system/files/136/Treasury-EquityActionPlan-OneYearProgress.pdf">https://home.treasury.gov/system/files/136/Treasury-EquityActionPlan-OneYearProgress.pdf</a>.
+    One comment recommended that Fiscal Service consider limiting the 
+amounts that can be collected through offset of benefit and tax refund 
+payments. This comment is outside the scope of the targeted changes 
+proposed by the NPRM. This comment also made various recommendations 
+regarding the collection of student loan debts owed to the Department 
+of Education. Fiscal Service does not have regulatory responsibilities 
+over student loan debts and would not be authorized or empowered to 
+implement some of the recommended changes.
+    One comment stated that Fiscal Service should exempt means-tested 
+tax credits from offset. This comment is outside the scope of the 
+targeted changes proposed by the NPRM. Moreover, Fiscal Service lacks 
+the statutory authority to exempt federal tax payments from offset. The 
+Secretary has limited authority to exempt federal nontax payments from 
+offset under 31 U.S.C. 3716(c)(3)(B), including means-tested payments. 
+The Secretary has no such authority with regard to federal tax 
+payments.
+    One comment asserted that Fiscal Service should increase the dollar 
+threshold for debts that agencies must refer for collections. This 
+comment is outside the scope of the changes contemplated by the NPRM. 
+Nevertheless, Treasury notes that a change to the regulation to 
+accomplish this change is not required, as the existing regulation set 
+the threshold at more than $25, ``or such other amount as Fiscal 
+Service may determine.'' 31 CFR 285.5(d)(3)(i)(C), 285.12(c)(4). Fiscal 
+Service can, at any time it deems appropriate, increase this threshold 
+without the need for regulatory action, through its regular guidance 
+for or communications with its creditor agencies. Moreover, under 31 
+CFR 903.3(a)(3), agencies may terminate collection when the costs of 
+collection are anticipated to exceed the amount recoverable. 
+Termination of collection action would excuse the agencies from
+
+[[Page 50248]]
+
+the general requirement to refer debts to the Cross-Servicing program 
+or the Treasury Offset Program. Relatedly, 31 CFR 901.10 states that 
+agencies should periodically evaluate the cost-effectiveness of 
+collection techniques and establish guideline with respect to points at 
+which costs of further collection efforts are likely to exceed 
+recoveries. Collection costs in this regard are likely to be a 
+significant factor for small dollar debts.
+    One comment urged Fiscal Service to look at all its regulations 
+impacting debt collection to mitigate harm to debtors and to advance 
+racial equity including, for example, its administrative wage 
+garnishment regulation. This comment is out of scope and is not 
+addressed here.
+
+III. Procedural Analyses
+
+    This rule is not a significant rule for purposes of Executive Order 
+12866 and has not been reviewed by the Office of Management and Budget.
+    Pursuant to the Regulatory Flexibility Act (5 U.S.C. 601 et seq.), 
+it is hereby certified that the rule will not have a significant 
+economic impact on a substantial number of small entities because this 
+rule only impacts persons who receive payments from Federal agencies or 
+States and who are delinquent on debts owed to Federal agencies or 
+States. Accordingly, a regulatory flexibility analysis under the 
+Regulatory Flexibility Act is not required.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Child welfare, Claims, Credit, Debts, Disability benefits, 
+Federal employees, Garnishment of wages, Hearing and appeal procedures, 
+Income taxes, Loan programs, Payments, Privacy, Railroad retirement, 
+Railroad unemployment insurance, Salaries, Social Security benefits, 
+Supplemental Security Income, Taxes, Unemployment compensation, 
+Veteran's benefits, Wages.
+
+    For the reasons set forth in this preamble, Fiscal Service amends 
+31 CFR part 285 as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. In Sec.  285.1, add paragraph (q) to read as follows:
+
+
+Sec.  285.1  Collection of past-due support by administrative offset.
+
+* * * * *
+    (q) Social Security numbers. Fiscal Service will ensure that an 
+individual's Social Security number will not be visible on the outside 
+of any package it sends by mail. In addition, Fiscal Service generally 
+will redact or partially redact Social Security numbers in documents it 
+sends by mail; however, to administer administrative offset, Fiscal 
+Service (and other disbursing officials) may include Social Security 
+numbers in mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In notices, including notices to the debtor or payee that an 
+offset has or will occur, when the Social Security number is (or is 
+embedded in) a creditor agency's account number, debt identification 
+number, or debtor identification number;
+    (3) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's offset activities; and
+    (4) When required by law.
+
+0
+3. In Sec.  285.3, add paragraph (m) to read as follows:
+
+
+Sec.  285.3  Offset of tax refund payments to collect past-due support.
+
+* * * * *
+    (m) Social Security numbers. Fiscal Service will ensure that an 
+individual's Social Security number will not be visible on the outside 
+of any package it sends by mail. In addition, Fiscal Service generally 
+will redact or partially redact Social Security numbers in documents it 
+sends by mail; however, to administer the tax refund offset program, 
+Fiscal Service (and other disbursing officials) may include Social 
+Security numbers in mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In notices, including notices to the debtor or payee that an 
+offset has or will occur, when the Social Security number is (or is 
+embedded in) a creditor agency's account number, debt identification 
+number, or debtor identification number;
+    (3) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's offset activities; and
+    (4) When required by law.
+
+0
+4. In Sec.  285.5, add paragraph (l) to read as follows:
+
+
+Sec.  285.5  Centralized offset of Federal payments to collect nontax 
+debts owed to the United States.
+
+* * * * *
+    (l) Social Security numbers. Fiscal Service will ensure that an 
+individual's Social Security number will not be visible on the outside 
+of any package it sends by mail. In addition, Fiscal Service generally 
+will redact or partially redact Social Security numbers in documents it 
+sends by mail; however, to administer the Treasury Offset Program, 
+Fiscal Service (and other disbursing officials) may include Social 
+Security numbers in mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In notices, including notices to the debtor or payee that an 
+offset has or will occur, when the Social Security number is (or is 
+embedded in) a creditor agency's account number, debt identification 
+number, or debtor identification number;
+    (3) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's offset activities; and
+    (4) When required by law.
+
+0
+5. In Sec.  285.6, add paragraph (n) to read as follows:
+
+
+Sec.  285.6  Administrative offset under reciprocal agreements with 
+states.
+
+* * * * *
+    (n) Social Security numbers. Fiscal Service will ensure that an 
+individual's Social Security number will not be visible on the outside 
+of any package it sends by mail. In addition, Fiscal Service generally 
+will redact or partially redact Social Security numbers in documents it 
+sends by mail; however, to administer administrative offset, Fiscal 
+Service (and other disbursing officials) may include Social Security 
+numbers in mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In notices, including notices to the debtor or payee that an 
+offset has or will occur, when the Social Security number is (or is 
+embedded in) a creditor agency's account number, debt identification 
+number, or debtor identification number;
+    (3) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's offset activities; and
+    (4) When required by law.
+
+0
+6. In Sec.  285.8, add paragraph (k) to read as follows:
+
+
+Sec.  285.8  Offset of tax refund payments to collect certain debts 
+owed to States.
+
+* * * * *
+    (k) Social Security numbers. Fiscal Service will ensure that an 
+individual's
+
+[[Page 50249]]
+
+Social Security number will not be visible on the outside of any 
+package it sends by mail. In addition, Fiscal Service generally will 
+redact or partially redact Social Security numbers in documents it 
+sends by mail; however, to administer the tax refund offset program, 
+Fiscal Service (and other disbursing officials) may include Social 
+Security numbers in mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In notices, including notices to the debtor or payee that an 
+offset has or will occur, when the Social Security number is (or is 
+embedded in) a creditor agency's account number, debt identification 
+number, or debtor identification number;
+    (3) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's offset activities; and
+    (4) When required by law.
+
+0
+7. Section 285.12(a) is amended by:
+0
+a. Removing the words ``an agency'' and ``An agency'' wherever they 
+appear and adding in their place the words ``a Federal agency'' and ``A 
+Federal agency'', respectively;
+0
+b. Removing the words ``the agency'' and ``the agency's'' wherever they 
+appear and adding in their place the words ``the Federal agency'' and 
+``the Federal agency's'', respectively;
+0
+c. In paragraph (a):
+0
+i. Removing the definition for ``Agency'',
+0
+ii. Adding in alphabetical order definitions for ``Centralized 
+Receivables Service,'' ``Cross-Servicing program,'' and ``Days 
+delinquent'';
+0
+iii. Removing the words ``Secretary of the Treasury'' and adding in 
+their place the words ``Secretary'' in the definition for ``Debt 
+collection center'';
+0
+iv. Adding in alphabetical order definitions for ``Debtor,'' 
+``Delinquent or past-due,'' ``Federal agency,'' and ``Legally 
+enforceable''; and
+0
+v. Removing the words ``a Federal agency'' and adding in their place 
+the words ``the United States or a Federal agency'' in the definition 
+for ``Person'';
+0
+d. Revising paragraphs (b), (c), and (d)(1)(iii);
+0
+e. Removing the word ``or'' at the end of paragraph (d)(1)(v);
+0
+f. Redesignating paragraph (d)(1)(vi) as paragraph (d)(1)(vii);
+0
+g. Adding a new paragraph (d)(1)(vi);
+0
+h. Revising paragraphs (d)(4);
+0
+i. Adding (d)(5) introductory text;
+0
+j. Removing paragraph (d)(6);
+0
+k. Removing and reserving paragraph (e);
+0
+l. In paragraph (i), removing the words ``delegatee'' and ``agency'' 
+and adding in their place the words ``delegate'' and ``the debt'', 
+respectively;
+0
+m. Revising paragraph (j); and
+0
+n. Adding paragraph (k).
+    The revisions and additions read as follows:
+
+
+Sec.  285.12  Transfer of debts to Treasury for collection.
+
+    (a) * * *
+    Centralized Receivables Service means the program through which 
+Fiscal Service provides servicing, pursuant to 31 U.S.C. 3711(g), for 
+Federal nontax debt from the point at which a creditor agency 
+establishes a debt until the debt is paid, otherwise resolved, or 
+referred to the Cross-Servicing program for further action.
+* * * * *
+    Cross-Servicing program means the program through which Fiscal 
+Service provides delinquent nontax debt collection services pursuant to 
+31 U.S.C. 3711(g).
+    Days delinquent refers to the number of days that a debt has been 
+in a delinquent status. For administrative debts (e.g., debts arising 
+from fines, penalties, and overpayments), the first day of delinquency 
+generally is the date of the creditor agency's initial written demand 
+for payment. For debts that arise from the extension of credit through 
+direct loans, loan guarantees, or insurance, the date of delinquency 
+generally is the due date specified in the applicable agreement or 
+instrument.
+* * * * *
+    Debtor means a person who owes a debt.
+    Delinquent or past-due refers to the status of a debt and means a 
+debt has not been paid by the date specified in the creditor agency's 
+initial written demand for payment, or other applicable agreement or 
+instrument, unless other payment arrangements satisfactory to the 
+creditor agency have been made.
+    Federal agency means a department, agency, court, court 
+administrative office, or instrumentality in the executive, judicial, 
+or legislative branch of the Federal Government, including government 
+corporations.
+* * * * *
+    Legally enforceable refers to a characteristic of a debt and means 
+there has been a final agency determination that the debt, in the 
+amount stated, is due, and there are no legal bars to collection. A 
+debt would not be legally enforceable, for example, if the debt is:
+    (1) The subject of a pending administrative review required by a 
+statute or regulation that prohibits collection action during the 
+review process; or
+    (2) Governed by a statute that precludes collection.
+    (b) In general. Fiscal Service and other debt collection centers 
+may take debt collection action on behalf of one or more Federal 
+agencies or a unit or subagency thereof. Fiscal Service provides these 
+services through its Cross-Servicing program and its Centralized 
+Receivables Service.
+* * * * *
+    (c) Mandatory transfer of debts to Fiscal Service's Cross-Servicing 
+program. (1) A debt is considered eligible for transfer to the Cross-
+Servicing program only if it is past due and is legally enforceable.
+    (2) Except as set forth in paragraphs (c)(3) and (d) of this 
+section, a creditor agency must transfer any eligible debt that is over 
+$25 (or such other amount as Fiscal Service may determine) to the 
+Cross-Servicing program by no later than 120 days delinquent if the 
+creditor agency relies on the Cross-Servicing program to submit the 
+transferred debts for centralized offset on the creditor agency's 
+behalf or, otherwise, by no more than 180 days delinquent.
+    (3) If a final agency determination resulting from an 
+administrative appeal or review process is not made until after the 
+time specified in paragraph (c)(2) of this section, the creditor agency 
+must transfer such debt to the Cross-Servicing program within 30 days 
+after the date of the final decision.
+    (4) For accounting and reporting purposes, the debt remains on the 
+books and records of the Federal agency, which transferred the debt.
+    (5) On behalf of the creditor agency, Fiscal Service will take 
+appropriate action to collect or compromise the transferred debt, or to 
+suspend or terminate collection action thereon. Appropriate action to 
+collect a debt may include referral to another debt collection center, 
+a private collection contractor, or the Department of Justice for 
+litigation. The creditor agency must advise Fiscal Service, in writing, 
+of any specific statutory or regulatory requirements pertaining to its 
+debt and will agree, in writing, to a collection strategy, which 
+includes parameters for entering into compromise and repayments 
+agreements with debtors.
+* * * * *
+    (d) * * *
+    (1) * * *
+    (iii) Is at a private collection contractor if the debt has been 
+referred to a private collection contractor for a period of time 
+determined by the Secretary;
+* * * * *
+    (vi) Is being serviced and/or collected in accordance with 
+applicable statutes
+
+[[Page 50250]]
+
+and/or regulations by third parties, such as private lenders or 
+guaranty agencies; or
+* * * * *
+    (4) A debt is being collected by internal offset if a creditor 
+agency expects the debt to be collected in full within three (3) years 
+from the date of delinquency through the withholding of funds payable 
+to the debtor by the creditor agency, or if the creditor agency has 
+issued notice to the debtor of the creditor agency's intent to offset 
+such funds.
+    (5) The Secretary may exempt classes of debt from mandatory 
+referral.
+* * * * *
+    (j) Fees. Fiscal Service and other debt collection centers may 
+charge Federal agencies fees sufficient to cover the full cost of 
+providing debt collection services authorized by this section. Fiscal 
+Service and other debt collection centers may calculate fees in any 
+manner designed to cover up to the full cost of providing these 
+services, including based on a percentage of collections received on 
+account of a debt while it was being serviced under this section or a 
+flat fee based on actions taken under this section by Fiscal Service or 
+another debt collection center with regard to a debt or group of debts. 
+Such fees may be determined based on overall program costs and need not 
+be based on costs related to the collection of a specific debt. Fiscal 
+Service and debt collection centers are authorized to retain fees from 
+amounts collected and may deposit and use such fees in accordance with 
+31 U.S.C. 3711(g). Fees charged by Fiscal Service and other debt 
+collection centers may be added to the debt as an administrative cost 
+if authorized under 31 U.S.C. 3717(e).
+    (k) Social Security numbers. When conducting activities for or 
+related to its Centralized Receivables Service or Cross-Servicing 
+program, Fiscal Service will ensure that an individual's Social 
+Security number will not be visible on the outside of any package it 
+sends by physical mail or in the subject line of an email. In addition, 
+Fiscal Service generally will redact or partially redact Social 
+Security numbers in documents it sends by mail; however, to administer 
+these programs, Fiscal Service may include Social Security numbers in 
+mailed documents, including, for example:
+    (1) In interoffice and interagency communications;
+    (2) In communications with private collection contractor and agents 
+that assist Fiscal Service in its debt collection activities;
+    (3) In notices and letters, including demand letters and notices to 
+employers regarding wage garnishment, when the Social Security number 
+is (or is embedded in) a creditor agency's account number, debt 
+identification number, or debtor identification number;
+    (4) In notices to employers regarding wage garnishment;
+    (5) In response to a request of a debtor or a debtor's 
+representative for records of Fiscal Service's collection activities; 
+and
+    (6) When required by law.
+
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2022-17117 Filed 8-15-22; 8:45 am]
+BILLING CODE 4810-AS-P
+
+
+</pre></body>
+</html>

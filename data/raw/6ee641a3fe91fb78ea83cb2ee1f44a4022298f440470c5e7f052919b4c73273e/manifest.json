@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1999/12/20/99-32679.txt",
+  "fetched_at": "2026-07-30T14:10:38.017803+00:00",
+  "sha256": "6ee641a3fe91fb78ea83cb2ee1f44a4022298f440470c5e7f052919b4c73273e",
+  "content_type": "text/plain",
+  "filename": "99-32679.txt"
+}

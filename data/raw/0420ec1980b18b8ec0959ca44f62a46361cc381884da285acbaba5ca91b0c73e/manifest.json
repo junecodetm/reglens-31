@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2005/11/29/05-23333.txt",
+  "fetched_at": "2026-07-30T14:09:20.749577+00:00",
+  "sha256": "0420ec1980b18b8ec0959ca44f62a46361cc381884da285acbaba5ca91b0c73e",
+  "content_type": "text/plain",
+  "filename": "05-23333.txt"
+}

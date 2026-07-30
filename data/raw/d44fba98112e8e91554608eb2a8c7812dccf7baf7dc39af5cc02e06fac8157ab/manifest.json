@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2005/06/13/05-11637.txt",
+  "fetched_at": "2026-07-30T14:09:18.830085+00:00",
+  "sha256": "d44fba98112e8e91554608eb2a8c7812dccf7baf7dc39af5cc02e06fac8157ab",
+  "content_type": "text/plain",
+  "filename": "05-11637.txt"
+}

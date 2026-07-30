@@ -1,0 +1,131 @@
+{
+  "abstract": "The Office of Foreign Assets Control (OFAC) of the U.S. Department of the Treasury is issuing this final rule, \"Economic Sanctions Enforcement Guidelines,\" as enforcement guidance for persons subject to the requirements of U.S. sanctions statutes, Executive orders, and regulations. This rule was published as an interim final rule with request for comments on September 8, 2008. This final rule sets forth the Enforcement Guidelines that OFAC will follow in determining an appropriate enforcement response to apparent violations of U.S. economic sanctions programs that OFAC enforces. These Enforcement Guidelines are published as an Appendix to the Reporting, Procedures and Penalties Regulations.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2009/11/09/E9-26754.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    }
+  ],
+  "citation": "74 FR 57593",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This final rule is effective November 9, 2009.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "E9-26754",
+  "effective_on": "2009-11-09",
+  "end_page": 57608,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2009/11/09/E9-26754.xml",
+  "html_url": "https://www.federalregister.gov/documents/2009/11/09/E9-26754/economic-sanctions-enforcement-guidelines",
+  "images": {
+    "ER09NO09.016": {
+      "large": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_large.png",
+      "medium": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_medium.png",
+      "original_size": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_original_size.png"
+    }
+  },
+  "images_metadata": {
+    "ER09NO09.016": {
+      "large": {
+        "content_type": "image/png",
+        "height": 799,
+        "identifier": "ER09NO09.016",
+        "sha": "7b47305c442a85da8f47d2d6e2452425",
+        "size": 36144,
+        "url": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_large.png",
+        "width": 823
+      },
+      "medium": {
+        "content_type": "image/png",
+        "height": 481,
+        "identifier": "ER09NO09.016",
+        "sha": "f4b3bfc009c020b8005eea3f3e01c464",
+        "size": 17015,
+        "url": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_medium.png",
+        "width": 495
+      },
+      "original_size": {
+        "content_type": "image/png",
+        "height": 1813,
+        "identifier": "ER09NO09.016",
+        "sha": "02b709876fc994b25f0d96441007c6ac",
+        "size": 30332,
+        "url": "https://img.federalregister.gov/ER09NO09.016/ER09NO09.016_original_size.png",
+        "width": 1867
+      }
+    }
+  },
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E9-26754?publication_date=2009-11-09",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2009-11-09/E9-26754/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 16,
+  "page_views": {
+    "count": 3335,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-11-09/pdf/E9-26754.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2009-11-09",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/11/09/E9-26754.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2009-11-09T17:50:26Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC_FRDOC_0001",
+    "docket_id": "OFAC_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted OFAC Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 57593,
+  "subtype": null,
+  "title": "Economic Sanctions Enforcement Guidelines",
+  "toc_doc": "Economic Sanctions Enforcement Guidelines",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Insurance",
+    "Penalties",
+    "Reporting and recordkeeping requirements",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 74
+}

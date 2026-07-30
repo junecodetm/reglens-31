@@ -1,0 +1,109 @@
+{
+  "abstract": "The Office of Foreign Assets Control (\"OFAC\") of the U.S. Department of the Treasury is revising the Reporting, Procedures and Penalties Regulations (the \"RPPR\") to make a technical change in order to remove a reference to the Government of Sudan that was used prior to the promulgation of Executive Order 13067 and the Sudanese Sanctions Regulations. OFAC is also amending the Sudanese Sanctions Regulations, (the \"SSR\"). The amendments to the SSR include the issuance of two general licenses, effective June 13, 2005. One general license authorizes the operation of accounts in U.S. financial institutions under certain circumstances for individuals ordinarily resident in Sudan. The other general license authorizes U.S. depository institutions, U.S. registered brokers and dealers in securities, and U.S. registered money transmitters to process transfers of funds constituting noncommercial, personal remittances to or from Sudan or for or on behalf of individuals ordinarily resident in Sudan. Other amendments to the SSR include the removal of two regulatory provisions and the revision of a provision regarding reexportation of U.S.-origin goods, technology or software by non-U.S. persons, and another revision of to reflect changes in OFAC's procedure for imposing civil penalties.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2005/06/13/05-11637.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 538,
+      "title": 31
+    }
+  ],
+  "citation": "70 FR 34060",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective Date: June 13, 2005.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "05-11637",
+  "effective_on": "2005-06-13",
+  "end_page": 34064,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2005/06/13/05-11637.xml",
+  "html_url": "https://www.federalregister.gov/documents/2005/06/13/05-11637/reporting-procedures-and-penalties-regulations-and-sudanese-sanctions-regulations",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/05-11637?publication_date=2005-06-13",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2005-06-13/05-11637/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 5,
+  "page_views": {
+    "count": 274,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2005-06-13/pdf/05-11637.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2005-06-13",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2005/06/13/05-11637.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-11-12T16:39:56Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 34060,
+  "subtype": null,
+  "title": "Reporting, Procedures and Penalties Regulations and Sudanese Sanctions Regulations",
+  "toc_doc": "Reporting, procedures and penalties regulations",
+  "toc_subject": "Sudanese sanctions:",
+  "topics": [
+    "Administrative practice and procedure",
+    "Agricultural commodities",
+    "Banks, banking",
+    "Blocking of assets",
+    "Drugs",
+    "Exports",
+    "Foods",
+    "Foreign trade",
+    "Humanitarian aid",
+    "Imports",
+    "Information",
+    "Investments",
+    "Medical devices",
+    "Penalties",
+    "Reporting and recordkeeping requirements",
+    "Services",
+    "Specially Designated Nationals",
+    "Sudan",
+    "Terrorism",
+    "Transportation"
+  ],
+  "type": "Rule",
+  "volume": 70
+}
