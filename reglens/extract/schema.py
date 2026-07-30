@@ -57,6 +57,13 @@ class RunMeta(BaseModel):
     prompt_sha256: str
     input_sha256: str
     temperature: float = 0.0
+    runtime: str = "unknown"
+    """Inference runtime and version, e.g. ``ollama/0.30.7``.
+
+    The runtime is a real input to the output: an upgrade silently changed
+    structured-output behaviour once already, and a determinism record that
+    names only the model cannot distinguish that from a model change.
+    """
 
 
 def prompt_sha256(system_prompt: str, user_template: str) -> str:
