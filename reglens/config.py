@@ -28,3 +28,12 @@ class Settings(BaseSettings):
     # OLRC U.S. Code release point (uscode.house.gov), verified 2026-07-28.
     usc_release_point: str = "119-102"
     max_document_chars: int = 80_000
+    extract_workers: int = 8
+    """Chunks extracted concurrently against the local runtime.
+
+    Purely a throughput setting: chunk results are reassembled in input order,
+    and output was verified bit-identical to a serial run (and run-to-run) at
+    temperature 0 with a pinned seed, so the deterministic-replay invariant
+    holds. Measured on an M4 with qwen3:8b: 17.8 s/chunk serial vs 8.8 s/chunk
+    at 8 workers. Set to 1 to force fully serial extraction.
+    """

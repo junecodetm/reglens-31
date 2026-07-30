@@ -1,9 +1,15 @@
 """Pipeline: a real quote survives the gate with offsets; a fabricated one is counted rejected."""
 
+import time
 from pathlib import Path
 
 from reglens.config import Settings
-from reglens.extract.run import discover_documents, gate_document, run_pipeline
+from reglens.extract.run import (
+    discover_documents,
+    extract_obligations,
+    gate_document,
+    run_pipeline,
+)
 from reglens.extract.schema import (
     ExtractedObligation,
     ExtractionResult,
@@ -95,6 +101,50 @@ def test_run_pipeline_writes_claims_json(tmp_path: Path) -> None:
     extractions = run_pipeline(settings, FakeProvider())
     assert len(extractions) == 1
     assert (tmp_path / "processed" / "claims.json").is_file()
+
+
+class OrderedProvider:
+    """Returns one obligation naming its chunk, with a jittered delay per chunk.
+
+    The delay is inversely proportional to the chunk's position, so later chunks
+    finish FIRST under concurrency — any implementation that appends results as
+    they complete produces the wrong order and fails the test.
+    """
+
+    def __init__(self, chunk_count: int) -> None:
+        self._chunk_count = chunk_count
+
+    def extract(self, document_text: str) -> ExtractionResult:
+        marker = document_text.strip().split(" ", maxsplit=1)[0]
+        time.sleep(0.02 * (self._chunk_count - int(marker.split("-")[1])))
+        return ExtractionResult(
+            obligations=[
+                ExtractedObligation(
+                    quote=marker,
+                    obligation_type=ObligationType.REQUIREMENT,
+                    affected_party="party",
+                    summary=f"From {marker}.",
+                    effective_date=None,
+                )
+            ]
+        )
+
+    def run_meta(self, input_sha256: str) -> RunMeta:
+        return RunMeta(model_tag="ordered", prompt_sha256="0" * 64, input_sha256=input_sha256)
+
+
+def test_concurrent_extraction_preserves_chunk_order() -> None:
+    """Determinism: output must not depend on which chunk finishes first."""
+    chunk_count = 6
+    # Each paragraph exceeds chunk_text's 4000-char budget, so every one becomes its own chunk.
+    text = "\n\n".join(f"chunk-{index} " + "x" * 4200 for index in range(chunk_count))
+    provider = OrderedProvider(chunk_count)
+
+    serial = extract_obligations(provider, text, workers=1)
+    concurrent = extract_obligations(provider, text, workers=chunk_count)
+
+    assert [o.quote for o in serial] == [o.quote for o in concurrent]
+    assert [o.quote for o in concurrent] == [f"chunk-{i}" for i in range(chunk_count)]
 
 
 class CountingProvider(FakeProvider):

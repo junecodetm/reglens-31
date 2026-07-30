@@ -8,11 +8,10 @@ fabrication scan and quote gate in ``conformance.py`` then reject any draft
 whose narrative invents facts or unverifiable quotes.
 """
 
-import httpx
 from pydantic import BaseModel, Field
 
 from reglens.config import Settings
-from reglens.extract.llm import neutralize_delimiters
+from reglens.extract.llm import chat_json, neutralize_delimiters
 
 SYSTEM_PROMPT = """You write neutral, factual opening text for a U.S. federal \
 rule DRAFT SKELETON. You describe only what the cited CFR part covers, based \
@@ -75,27 +74,19 @@ def generate_narrative(
     model output never falls through to draft generation.
     """
     user_prompt = render_user_prompt(part, heading, authority, doc_type)
-    response = httpx.post(
-        f"{settings.ollama_base_url}/api/chat",
-        json={
-            "model": settings.model_tag,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
-            "format": Narrative.model_json_schema(),
-            "stream": False,
-            "think": False,
-            "options": {
-                "temperature": TEMPERATURE,
-                "seed": SEED,
-                "num_ctx": NUM_CTX,
-                "num_predict": NUM_PREDICT,
-            },
+    content = chat_json(
+        settings.ollama_base_url,
+        model=settings.model_tag,
+        system_prompt=SYSTEM_PROMPT,
+        user_prompt=user_prompt,
+        schema=Narrative.model_json_schema(),
+        options={
+            "temperature": TEMPERATURE,
+            "seed": SEED,
+            "num_ctx": NUM_CTX,
+            "num_predict": NUM_PREDICT,
         },
         timeout=600.0,
     )
-    response.raise_for_status()
-    content: str = response.json()["message"]["content"]
     # Fail-closed: schema-invalid output raises rather than passing unvalidated.
     return Narrative.model_validate_json(content)

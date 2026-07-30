@@ -103,6 +103,46 @@ def parse_obligations(content: str) -> list[ExtractedObligation]:
     return obligations
 
 
+def chat_json(
+    base_url: str,
+    *,
+    model: str,
+    system_prompt: str,
+    user_prompt: str,
+    schema: dict[str, Any],
+    options: dict[str, Any],
+    timeout: float,
+) -> str:
+    """POST one schema-constrained chat completion and return its raw content.
+
+    The single place the local runtime is spoken to, so every caller gets the
+    same generation-schema treatment (see :func:`generation_schema`) and network
+    I/O stays inside this module per docs/STANDARDS.md. Callers pass their own
+    ``options`` verbatim, so per-caller context and token budgets are preserved.
+
+    Failure mode: HTTP errors propagate; the returned string is unvalidated and
+    every caller must validate it before use.
+    """
+    response = httpx.post(
+        f"{base_url}/api/chat",
+        json={
+            "model": model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "format": generation_schema(schema),
+            "stream": False,
+            "think": False,
+            "options": options,
+        },
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    content: str = response.json()["message"]["content"]
+    return content
+
+
 def load_system_prompt() -> str:
     """The pinned system prompt shipped with the package."""
     return (resources.files("reglens.extract") / "prompts" / "system.txt").read_text()

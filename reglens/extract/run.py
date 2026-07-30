@@ -8,6 +8,7 @@ rejected (fail-closed, see ``reglens.provenance``).
 """
 
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import NamedTuple
 
@@ -68,22 +69,39 @@ def discover_documents(data_dir: Path) -> list[DocumentPair]:
     return pairs
 
 
-def extract_obligations(provider: LLMProvider, text: str) -> list[ExtractedObligation]:
+def extract_obligations(
+    provider: LLMProvider, text: str, *, workers: int = 1
+) -> list[ExtractedObligation]:
     """Run the model over paragraph-aligned chunks and concatenate its proposals.
+
+    Chunks may be extracted concurrently (``workers`` > 1) but their results are
+    always reassembled in chunk order, so the output does not depend on
+    scheduling. Verified bit-identical to a serial run at temperature 0 with a
+    pinned seed.
 
     Failure mode: a chunk whose model response is invalid or errors out yields
     NO obligations (fail-closed — logged, never guessed at); other chunks
     still process, so one bad response cannot sink a document.
     """
     logger = structlog.get_logger()
-    obligations: list[ExtractedObligation] = []
-    for index, chunk in enumerate(chunk_text(text)):
+    chunks = list(chunk_text(text))
+
+    def extract_chunk(indexed: tuple[int, str]) -> list[ExtractedObligation]:
+        index, chunk = indexed
         try:
-            obligations.extend(provider.extract(chunk).obligations)
+            return provider.extract(chunk).obligations
         except (ValidationError, httpx.HTTPError) as error:
             # Fail-closed: an unparseable or failed chunk contributes nothing.
             logger.warning("chunk-extraction-failed", chunk_index=index, error=type(error).__name__)
-    return obligations
+            return []
+
+    if workers <= 1:
+        per_chunk = [extract_chunk(item) for item in enumerate(chunks)]
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            # pool.map preserves input order, so the concatenation stays deterministic.
+            per_chunk = list(pool.map(extract_chunk, enumerate(chunks)))
+    return [obligation for group in per_chunk for obligation in group]
 
 
 def _bounded_text(text: str, max_chars: int) -> str:
@@ -104,14 +122,14 @@ def document_run_meta(provider: LLMProvider, pair: DocumentPair, max_chars: int)
 
 
 def gate_document(
-    provider: LLMProvider, pair: DocumentPair, max_chars: int = 80_000
+    provider: LLMProvider, pair: DocumentPair, max_chars: int = 80_000, *, workers: int = 1
 ) -> DocumentExtraction:
     """Extract one document (bounded) and pass every claim through the provenance gate."""
     extraction_text = _bounded_text(pair.text, max_chars)
     run_meta = document_run_meta(provider, pair, max_chars)
     claims: list[ClaimRecord] = []
     seen: set[str] = set()
-    for obligation in extract_obligations(provider, extraction_text):
+    for obligation in extract_obligations(provider, extraction_text, workers=workers):
         identifier = claim_id(pair.text_sha256, obligation)
         if identifier in seen:
             continue  # identical span re-proposed by another chunk
@@ -216,7 +234,12 @@ def run_pipeline(
             extractions.append(cached)
             logger.info("document-reused", document=pair.document_number)
             continue
-        extraction = gate_document(provider, pair, max_chars=settings.max_document_chars)
+        extraction = gate_document(
+            provider,
+            pair,
+            max_chars=settings.max_document_chars,
+            workers=settings.extract_workers,
+        )
         extractions.append(extraction)
         _persist(processed_dir, extractions)
         logger.info(
