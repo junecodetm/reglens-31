@@ -19,7 +19,7 @@ from reglens.config import Settings
 from reglens.extract.chunk import chunk_text
 from reglens.extract.llm import LLMProvider, input_sha256
 from reglens.extract.records import ClaimRecord, DocumentExtraction, claim_id
-from reglens.extract.schema import ExtractedObligation
+from reglens.extract.schema import ExtractedObligation, RunMeta
 from reglens.ingest.snapshot import read_manifest
 from reglens.provenance import verify_span
 
@@ -94,12 +94,21 @@ def _bounded_text(text: str, max_chars: int) -> str:
     return text[: cut if cut > 0 else max_chars]
 
 
+def document_run_meta(provider: LLMProvider, pair: DocumentPair, max_chars: int) -> RunMeta:
+    """The determinism record a run of ``pair`` would produce, without calling the model.
+
+    Shared by :func:`gate_document` and the reuse check so the two can never
+    disagree about what identifies a run.
+    """
+    return provider.run_meta(input_sha256(_bounded_text(pair.text, max_chars)))
+
+
 def gate_document(
     provider: LLMProvider, pair: DocumentPair, max_chars: int = 80_000
 ) -> DocumentExtraction:
     """Extract one document (bounded) and pass every claim through the provenance gate."""
     extraction_text = _bounded_text(pair.text, max_chars)
-    run_meta = provider.run_meta(input_sha256(extraction_text))
+    run_meta = document_run_meta(provider, pair, max_chars)
     claims: list[ClaimRecord] = []
     seen: set[str] = set()
     for obligation in extract_obligations(provider, extraction_text):
@@ -147,16 +156,66 @@ def _persist(processed_dir: Path, extractions: list[DocumentExtraction]) -> None
     (processed_dir / "claims.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
 
 
-def run_pipeline(settings: Settings, provider: LLMProvider) -> list[DocumentExtraction]:
+def load_persisted(processed_dir: Path) -> dict[str, DocumentExtraction]:
+    """Previously extracted documents, keyed by source-text SHA-256.
+
+    Failure mode: a missing or unparseable claims.json yields an empty mapping,
+    so a corrupt checkpoint costs re-extraction rather than wrong results.
+    """
+    claims_path = processed_dir / "claims.json"
+    if not claims_path.is_file():
+        return {}
+    try:
+        payload = json.loads(claims_path.read_text())
+        extractions = [DocumentExtraction.model_validate(item) for item in payload]
+    except (json.JSONDecodeError, ValidationError):
+        return {}
+    return {extraction.document_sha256: extraction for extraction in extractions}
+
+
+def reusable_extraction(
+    persisted: dict[str, DocumentExtraction], pair: DocumentPair, expected_run: RunMeta
+) -> DocumentExtraction | None:
+    """A prior extraction of ``pair`` iff it is provably the same run, else None.
+
+    Reuse requires the source SHA to match and EVERY persisted claim to carry an
+    identical run record (model tag, prompt hash, input hash, temperature), so a
+    changed model or prompt invalidates the cache automatically. Failure mode: a
+    document with no persisted claims is never reused — an empty result carries
+    no run record, so its provenance cannot be established and it is re-extracted
+    (fail-closed).
+    """
+    previous = persisted.get(pair.text_sha256)
+    if previous is None or not previous.claims:
+        return None
+    if any(claim.run != expected_run for claim in previous.claims):
+        return None
+    return previous
+
+
+def run_pipeline(
+    settings: Settings, provider: LLMProvider, *, force: bool = False
+) -> list[DocumentExtraction]:
     """Extract + gate every discovered document; persist to data/processed/claims.json.
 
-    Checkpoints after every document so a long run interrupted midway still
-    leaves a valid, self-consistent claims.json on disk.
+    Idempotent: a document whose source SHA, model tag and prompt hash already
+    appear in claims.json is reused rather than re-inferred, so re-running over
+    an unchanged corpus is a no-op and an interrupted run resumes where it
+    stopped. ``force=True`` re-extracts everything. Checkpoints after every
+    document so a long run interrupted midway still leaves a valid,
+    self-consistent claims.json on disk.
     """
     logger = structlog.get_logger()
     processed_dir = settings.data_dir / "processed"
+    persisted = {} if force else load_persisted(processed_dir)
     extractions: list[DocumentExtraction] = []
     for pair in discover_documents(settings.data_dir):
+        expected_run = document_run_meta(provider, pair, settings.max_document_chars)
+        cached = reusable_extraction(persisted, pair, expected_run)
+        if cached is not None:
+            extractions.append(cached)
+            logger.info("document-reused", document=pair.document_number)
+            continue
         extraction = gate_document(provider, pair, max_chars=settings.max_document_chars)
         extractions.append(extraction)
         _persist(processed_dir, extractions)
@@ -166,4 +225,5 @@ def run_pipeline(settings: Settings, provider: LLMProvider) -> list[DocumentExtr
             accepted=extraction.accepted_count,
             rejected=extraction.rejected_count,
         )
+    _persist(processed_dir, extractions)
     return extractions

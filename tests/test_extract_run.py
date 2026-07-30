@@ -95,3 +95,78 @@ def test_run_pipeline_writes_claims_json(tmp_path: Path) -> None:
     extractions = run_pipeline(settings, FakeProvider())
     assert len(extractions) == 1
     assert (tmp_path / "processed" / "claims.json").is_file()
+
+
+class CountingProvider(FakeProvider):
+    """FakeProvider that records how many times the model was actually called."""
+
+    def __init__(self, model_tag: str = "fake") -> None:
+        self.calls = 0
+        self._model_tag = model_tag
+
+    def extract(self, document_text: str) -> ExtractionResult:
+        self.calls += 1
+        return super().extract(document_text)
+
+    def run_meta(self, input_sha256: str) -> RunMeta:
+        return RunMeta(model_tag=self._model_tag, prompt_sha256="0" * 64, input_sha256=input_sha256)
+
+
+def test_rerun_over_unchanged_corpus_is_a_no_op(tmp_path: Path) -> None:
+    """The idempotency claim in docs/ARCHITECTURE.md: same input SHA, no re-inference."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    claims_path = tmp_path / "processed" / "claims.json"
+
+    first = CountingProvider()
+    run_pipeline(settings, first)
+    assert first.calls > 0
+    after_first = claims_path.read_text()
+
+    second = CountingProvider()
+    run_pipeline(settings, second)
+    assert second.calls == 0, "unchanged document must not be re-inferred"
+    assert claims_path.read_text() == after_first, "reuse must be byte-identical"
+
+
+def test_force_re_extracts(tmp_path: Path) -> None:
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, CountingProvider())
+
+    forced = CountingProvider()
+    run_pipeline(settings, forced, force=True)
+    assert forced.calls > 0
+
+
+def test_changed_model_tag_invalidates_the_cache(tmp_path: Path) -> None:
+    """A different model must never silently reuse another model's claims."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, CountingProvider(model_tag="fake"))
+
+    other = CountingProvider(model_tag="other-model")
+    run_pipeline(settings, other)
+    assert other.calls > 0
+
+
+class EmptyProvider(FakeProvider):
+    """Yields no obligations, so the persisted document carries no run record."""
+
+    def __init__(self) -> None:
+        self.calls = 0
+
+    def extract(self, document_text: str) -> ExtractionResult:
+        self.calls += 1
+        return ExtractionResult(obligations=[])
+
+
+def test_zero_claim_document_is_never_reused(tmp_path: Path) -> None:
+    """Fail-closed: an empty result has no run record, so its provenance is unverifiable."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, EmptyProvider())
+
+    second = EmptyProvider()
+    run_pipeline(settings, second)
+    assert second.calls > 0
