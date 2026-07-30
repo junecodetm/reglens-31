@@ -10,6 +10,15 @@
 
 **M-25-21 minimum-practices mapping:** AI impact assessment, ongoing monitoring, human oversight, documentation, and public transparency each map to a concrete artifact in `governance/`.
 
+**DHS/ALL/PIA-097 reference alignment (added 2026-07-29).** The OGC-01 inventory row cites DHS/ALL/PIA-097 ("Use of Conditionally Approved Commercial Generative AI Tools") as its associated PIA. PIA-097 is a DHS artifact (retired May 2025) and does not bind this project; it is used here as a reference baseline for commercial-GenAI privacy controls. Crosswalk to RegLens-31's posture:
+- Open-source-only inputs; no PII, classified, or internal data → NO-RESTRICTED-DATA invariant; allow-list of public U.S.-government sources (`docs/DATA_SOURCES.md`).
+- No vendor training on inputs; retention limits; approved-tools-only → satisfied by construction: local-first inference, no commercial GenAI service in the pipeline, zero third-party egress (`docs/SECURITY.md`).
+- Human review before use; never the sole basis for action → HUMAN-IN-THE-LOOP invariant; assistive framing and disclaimers in the UI, README, and model card.
+- Accuracy/factuality verification of outputs → fail-closed provenance gate + eval harness with confidence intervals.
+- Bias/DEIA output review → scope-limited by design: outputs are verbatim-grounded regulatory text containing no individual-level data; incidental statutory references to protected-class benefit programs (e.g., disability and veterans' payments in 31 CFR 285) pass through verbatim — residual risk documented in `governance/ai_impact_assessment.md`.
+- Logging and auditability of use → per-run manifests (model id, prompt hash, input SHA) + structured logs with PII redaction.
+Where a PIA-097 condition governs the commercial-vendor relationship (training opt-outs, vendor retention), the local-only architecture satisfies the underlying privacy objective by eliminating that relationship rather than configuring it.
+
 **OSCAL representation:** `governance/component-definition.json` (OSCAL 1.1.3) expressing control implementations, validated by `oscal-cli validate` in CI. FedRAMP RFC-0024 makes structured OSCAL authorization data mandatory on the stated deadlines, so this artifact demonstrates readiness rather than mere documentation.
 
 **Required artifacts (write them out):** `model_card.md`, `data_card.md`, `ai_impact_assessment.md`, `monitoring_plan.md` (drift/staleness triggers + demo-refresh policy), `rollback_plan.md` (revert to last-good static export + pinned model).
