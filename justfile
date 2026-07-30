@@ -17,13 +17,18 @@ demo:
 ingest *docs:
     uv run python -m reglens.ingest {{docs}}
 
+# close the corpus: every FR final rule amending an in-scope part (reglens/corpus.py)
+ingest-corpus:
+    uv run python -m reglens.ingest --corpus
+
 # run local extraction + provenance gate over all snapshots, then rebuild stores
 extract:
     uv run python -m reglens.extract
     uv run python -m reglens.store.database
 
-# OFAC 50% ownership graph — de-scoped from this build (docs/PROGRESS.md; first
-# item in the sanctioned de-scope order). Design + caveats: docs/ENTITY_RESOLUTION.md.
+# Design + caveats: docs/ENTITY_RESOLUTION.md; first item in the sanctioned
+# de-scope order (docs/PROGRESS.md).
+# OFAC 50% ownership graph — DE-SCOPED from this build
 graph:
     @echo "de-scoped: see docs/PROGRESS.md and docs/ENTITY_RESOLUTION.md" && exit 1
 
@@ -63,8 +68,9 @@ ci: check-cost
     uv run pyright
     uv run pytest
 
-# local security suite; pip-audit/osv-scanner/gitleaks/syft/CodeQL run in CI
-# (security.yml) — pip-audit's venv bootstrap SIGABRTs on macOS framework Python
+# pip-audit/osv-scanner/gitleaks/syft/CodeQL run in CI (security.yml) —
+# pip-audit's venv bootstrap SIGABRTs on macOS framework Python
+# local security suite: semgrep, zero-cost allow-list, PII scan
 security:
     uvx --from semgrep semgrep scan --config p/python --error --exclude data --exclude web/node_modules
     uv run python scripts/check_zero_cost.py
@@ -75,8 +81,9 @@ a11y:
     @test -d web/out || just build-web
     sh -c 'python3 -m http.server 8031 -d web/out >/dev/null 2>&1 & S=$!; sleep 1; R=0; for r in "" obligations/ authorities/ drafts/ evaluation/ sources/; do npx --yes pa11y@9.1.1 --standard WCAG2AA "http://localhost:8031/$r" || R=$?; done; kill $S; exit $R'
 
-# OSCAL component-definition — de-scoped from this build (docs/PROGRESS.md; the
-# governance/ cards + assessment + monitoring/rollback plans ARE present).
+# The governance/ cards, impact assessment and monitoring/rollback plans ARE
+# present (docs/PROGRESS.md).
+# OSCAL component-definition validation — DE-SCOPED from this build
 govern:
     @echo "de-scoped: OSCAL validation; governance artifacts live in governance/" && exit 1
 

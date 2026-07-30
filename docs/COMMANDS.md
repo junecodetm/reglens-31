@@ -5,7 +5,8 @@
 ```
 just setup        # uv sync, install pre-commit, pull local model
 just demo         # one-command, no-API-key, offline demo (seeded data) -> opens static site
-just ingest       # snapshot Federal Register + eCFR T31 + OFAC + GLEIF into data/raw/<sha>
+just ingest       # snapshot named Federal Register documents / eCFR parts into data/raw/<sha>
+just ingest-corpus # close the corpus: every FR final rule amending an in-scope part
 just extract      # run local extraction + provenance gate -> parquet
 just graph        # build OFAC 50% ownership graph (seeded Deripaska case guaranteed)
 just authority    # EXTEND-OGC01: authority citations -> USLM resolution -> classification
