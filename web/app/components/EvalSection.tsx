@@ -118,6 +118,7 @@ export function EvalSection({
                   interval: state.data.f1_bootstrap,
                 },
               ]}
+              note="Wilson interval not shown: F1 is not a binomial proportion."
             />
           </div>
 

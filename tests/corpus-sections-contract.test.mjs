@@ -46,7 +46,11 @@ test("new corpus sections retain the required headings and explanatory copy", as
   assert.match(crossRef, /By U\.S\. Code section/);
   assert.match(
     crossRef,
-    /Shared authorities \(cited by more than one part\) appear first\./,
+    /Only U\.S\. Code sections cited by more than one ingested part/,
+  );
+  assert.match(
+    crossRef,
+    /single-part authorities appear in the\s+per-part recap below\./,
   );
 });
 

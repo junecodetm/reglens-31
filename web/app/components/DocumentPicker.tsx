@@ -17,6 +17,15 @@ interface DocumentPickerProps {
   onSelect: (documentNumber: string) => void;
 }
 
+export function formatDocumentOptionLabel(
+  document: Pick<DocumentExtraction, "document_title">,
+): string {
+  return document.document_title.replace(
+    /\(point-in-time (\d{4}-\d{2}-\d{2})\)/,
+    "($1)",
+  );
+}
+
 export function groupDocumentsByCategory(
   documents: DocumentExtraction[],
 ): Array<{ category: string; documents: DocumentExtraction[] }> {
@@ -78,18 +87,38 @@ export function DocumentPicker({
         value={selectedDocumentNumber}
         onChange={(event) => onSelect(event.target.value)}
       >
-        {groups.map((group) => (
-          <optgroup label={group.category} key={group.category}>
-            {group.documents.map((document) => (
-              <option
-                value={document.document_number}
-                key={document.document_number}
-              >
-                {`${document.document_title} — ${document.accepted_count} accepted · ${document.rejected_count} rejected`}
-              </option>
-            ))}
-          </optgroup>
-        ))}
+        {groups.map((group) => {
+          const normalizedLabelCounts = new Map<string, number>();
+
+          for (const document of group.documents) {
+            const optionLabel = formatDocumentOptionLabel(document);
+            normalizedLabelCounts.set(
+              optionLabel,
+              (normalizedLabelCounts.get(optionLabel) ?? 0) + 1,
+            );
+          }
+
+          return (
+            <optgroup label={group.category} key={group.category}>
+              {group.documents.map((document) => {
+                const optionLabel = formatDocumentOptionLabel(document);
+                const visibleOptionLabel =
+                  normalizedLabelCounts.get(optionLabel) === 1
+                    ? optionLabel
+                    : `${optionLabel} — ${document.document_number}`;
+
+                return (
+                  <option
+                    value={document.document_number}
+                    key={document.document_number}
+                  >
+                    {visibleOptionLabel}
+                  </option>
+                );
+              })}
+            </optgroup>
+          );
+        })}
       </select>
     </div>
   );

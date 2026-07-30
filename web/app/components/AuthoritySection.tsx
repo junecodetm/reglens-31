@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
+import { groupAuthoritySections } from "./crossref-utils";
 import type { AuthorityData } from "./reglens-types";
 import { ExpandableGroup } from "./ui/ExpandableGroup";
 import {
@@ -176,10 +177,147 @@ function AuthorityPartDetails({
   onToggleUsc,
   standalone,
 }: AuthorityPartDetailsProps) {
+  const [expandedSilentRanges, setExpandedSilentRanges] = useState<
+    Set<string>
+  >(() => new Set());
   const nonSectionCount = part.citations.filter(
     (citation) => citation.kind !== "usc-section",
   ).length;
+  const sectionGroups = groupAuthoritySections(part);
   const DetailHeading: "h3" | "h5" = standalone ? "h3" : "h5";
+  const RangeHeading: "h4" | "h6" = standalone ? "h4" : "h6";
+
+  function toggleSilentRange(range: string): void {
+    setExpandedSilentRanges((current) => {
+      const next = new Set(current);
+
+      if (next.has(range)) {
+        next.delete(range);
+      } else {
+        next.add(range);
+      }
+
+      return next;
+    });
+  }
+
+  function renderSection(section: ResolvedSection) {
+    const citation = findCitationForSection(part, section);
+    const rawCitation =
+      citation?.raw ??
+      `${section.usc_title} U.S.C. ${section.usc_section}`;
+    const uscIsSelected = isSameUscSelection(
+      selectedUsc,
+      part.part,
+      section,
+    );
+    const textKey = uscTextKey(
+      section.usc_title,
+      section.usc_section,
+    );
+    const panelId = `authority-usc-${part.part}-${section.usc_title}-${domIdSegment(section.usc_section)}`;
+
+    return (
+      <ExpandableGroup
+        as="li"
+        id={panelId}
+        label={
+          <>
+            <span className="display-block text-bold">
+              {uscIsSelected
+                ? "Hide U.S.C. section text"
+                : "Show U.S.C. section text"}
+            </span>
+            <span className="display-block margin-top-1">
+              {rawCitation}
+            </span>
+          </>
+        }
+        expanded={uscIsSelected}
+        onToggle={() => onToggleUsc(part.part, section)}
+        containerId={null}
+        className={null}
+        ariaLabelledby={null}
+        panelId={panelId}
+        panelClassName={null}
+        renderToggle={({
+          expanded,
+          label,
+          onToggle,
+          panelId: controlledPanelId,
+        }) => (
+          <Button
+            type="button"
+            base
+            outline
+            className="width-full text-left"
+            aria-expanded={expanded}
+            aria-controls={controlledPanelId}
+            onClick={onToggle}
+          >
+            {label}
+          </Button>
+        )}
+        beforePanel={
+          <div className="padding-x-1 padding-bottom-2">
+            <p className="margin-y-1">
+              <strong>Heading:</strong> {section.heading}
+            </p>
+            <p className="margin-y-1">
+              <strong>Identifier:</strong>{" "}
+              <code>{section.identifier}</code>
+            </p>
+            <p className="margin-y-1">
+              <span className={CLASSIFICATION_CHIP_CLASS}>
+                Classification: {section.classification}
+              </span>
+            </p>
+            {section.status ? (
+              <p className="margin-y-1">
+                <strong>Status:</strong> {section.status}
+              </p>
+            ) : null}
+            {citation?.from_range ? (
+              <p className="margin-y-1">
+                <strong>Expanded from cited range:</strong>{" "}
+                {citation.from_range}
+              </p>
+            ) : null}
+            <p className="margin-y-1">
+              <strong>Recorded verb passage:</strong>{" "}
+              {section.verb_quote ? (
+                <q>{section.verb_quote}</q>
+              ) : (
+                "None recorded"
+              )}
+            </p>
+            {section.gate_rejected ? (
+              <div className={`${NEUTRAL_NOTICE_CLASS} margin-y-1`}>
+                <p className="margin-y-0">
+                  <strong>Gate rejection recorded.</strong>{" "}
+                  {section.rejection_reason ?? "No reason is recorded."}
+                </p>
+              </div>
+            ) : null}
+          </div>
+        }
+        key={section.identifier}
+      >
+        <TextRequestView
+          state={uscTextState}
+          requestKey={textKey}
+          loadingMessage={`Loading ${section.usc_title} U.S.C. ${section.usc_section} text…`}
+          start={section.verb_start}
+          end={section.verb_end}
+          selectionKey={`usc-${part.part}-${textKey}`}
+          regionLabel={`${section.usc_title} U.S.C. ${section.usc_section} text`}
+          highlightStatus={`Recorded verb passage highlighted for ${section.usc_title} U.S.C. ${section.usc_section}.`}
+          noSpanMessage="No verb passage span is recorded; the full U.S.C. section text is shown."
+          boundsMessage="The recorded verb passage span falls outside the served U.S.C. section text; the full section text is shown without a highlighted passage."
+        />
+      </ExpandableGroup>
+    );
+  }
 
   return (
     <>
@@ -191,128 +329,74 @@ function AuthorityPartDetails({
         {part.resolved.length === 0 ? (
           <p>No resolved U.S.C. sections are recorded.</p>
         ) : (
-          <ul className="claim-list">
-            {part.resolved.map((section, index) => {
-              const citation = findCitationForSection(part, section);
-              const rawCitation =
-                citation?.raw ??
-                `${section.usc_title} U.S.C. ${section.usc_section}`;
-              const uscIsSelected = isSameUscSelection(
-                selectedUsc,
-                part.part,
-                section,
-              );
-              const textKey = uscTextKey(
-                section.usc_title,
-                section.usc_section,
-              );
-              const panelId = `authority-usc-${part.part}-${section.usc_title}-${domIdSegment(section.usc_section)}-${index}`;
+          <div>
+            {sectionGroups.map((group, groupIndex) => {
+              const rangeId = `authority-range-${part.part}-${groupIndex}`;
+              const range = group.range;
+              const silentSectionsAreExpanded =
+                range !== null && expandedSilentRanges.has(range);
 
               return (
-                <ExpandableGroup
-                  as="li"
-                  id={panelId}
-                  label={
-                    <>
-                      <span className="display-block text-bold">
-                        {uscIsSelected
-                          ? "Hide U.S.C. section text"
-                          : "Show U.S.C. section text"}
-                      </span>
-                      <span className="display-block margin-top-1">
-                        {rawCitation}
-                      </span>
-                    </>
-                  }
-                  expanded={uscIsSelected}
-                  onToggle={() => onToggleUsc(part.part, section)}
-                  containerId={null}
-                  className={null}
-                  ariaLabelledby={null}
-                  panelId={panelId}
-                  panelClassName={null}
-                  renderToggle={({
-                    expanded,
-                    label,
-                    onToggle,
-                    panelId,
-                  }) => (
-                    <Button
-                      type="button"
-                      base
-                      outline
-                      className="width-full text-left"
-                      aria-expanded={expanded}
-                      aria-controls={panelId}
-                      onClick={onToggle}
-                    >
-                      {label}
-                    </Button>
-                  )}
-                  beforePanel={
-                    <div className="padding-x-1 padding-bottom-2">
-                      <p className="margin-y-1">
-                        <strong>Heading:</strong> {section.heading}
-                      </p>
-                      <p className="margin-y-1">
-                        <strong>Identifier:</strong>{" "}
-                        <code>{section.identifier}</code>
-                      </p>
-                      <p className="margin-y-1">
-                        <span className={CLASSIFICATION_CHIP_CLASS}>
-                          Classification: {section.classification}
-                        </span>
-                      </p>
-                      {section.status ? (
-                        <p className="margin-y-1">
-                          <strong>Status:</strong> {section.status}
-                        </p>
-                      ) : null}
-                      {citation?.from_range ? (
-                        <p className="margin-y-1">
-                          <strong>Expanded from cited range:</strong>{" "}
-                          {citation.from_range}
-                        </p>
-                      ) : null}
-                      <p className="margin-y-1">
-                        <strong>Recorded verb passage:</strong>{" "}
-                        {section.verb_quote ? (
-                          <q>{section.verb_quote}</q>
-                        ) : (
-                          "None recorded"
-                        )}
-                      </p>
-                      {section.gate_rejected ? (
-                        <div
-                          className={`${NEUTRAL_NOTICE_CLASS} margin-y-1`}
-                        >
-                          <p className="margin-y-0">
-                            <strong>Gate rejection recorded.</strong>{" "}
-                            {section.rejection_reason ??
-                              "No reason is recorded."}
-                          </p>
-                        </div>
-                      ) : null}
-                    </div>
-                  }
-                  key={`${section.identifier}-${index}`}
+                <div
+                  className={groupIndex === 0 ? undefined : "margin-top-3"}
+                  key={range ?? "direct-citations"}
                 >
-                  <TextRequestView
-                    state={uscTextState}
-                    requestKey={textKey}
-                    loadingMessage={`Loading ${section.usc_title} U.S.C. ${section.usc_section} text…`}
-                    start={section.verb_start}
-                    end={section.verb_end}
-                    selectionKey={`usc-${part.part}-${textKey}`}
-                    regionLabel={`${section.usc_title} U.S.C. ${section.usc_section} text`}
-                    highlightStatus={`Recorded verb passage highlighted for ${section.usc_title} U.S.C. ${section.usc_section}.`}
-                    noSpanMessage="No verb passage span is recorded; the full U.S.C. section text is shown."
-                    boundsMessage="The recorded verb passage span falls outside the served U.S.C. section text; the full section text is shown without a highlighted passage."
-                  />
-                </ExpandableGroup>
+                  {range !== null ? (
+                    <RangeHeading
+                      id={`${rangeId}-heading`}
+                      className="margin-bottom-1"
+                    >
+                      Cited range: {range}
+                    </RangeHeading>
+                  ) : null}
+
+                  <ul className="claim-list">
+                    {group.visibleSections.map(renderSection)}
+
+                    {range !== null && group.silentSections.length > 0 ? (
+                      <ExpandableGroup
+                        as="li"
+                        id={rangeId}
+                        label={
+                          silentSectionsAreExpanded
+                            ? `${group.silentSections.length} of ${group.sections.length} sections in this range have no mandatory or discretionary classification and no recorded language — hide them`
+                            : `${group.silentSections.length} of ${group.sections.length} sections in this range have no mandatory or discretionary classification and no recorded language — show them`
+                        }
+                        expanded={silentSectionsAreExpanded}
+                        onToggle={() => toggleSilentRange(range)}
+                        containerId={null}
+                        className={null}
+                        panelClassName={null}
+                        renderToggle={({
+                          expanded,
+                          label,
+                          onToggle,
+                          buttonId,
+                          panelId,
+                        }) => (
+                          <Button
+                            id={buttonId}
+                            type="button"
+                            outline
+                            className="width-full text-left"
+                            aria-expanded={expanded}
+                            aria-controls={panelId}
+                            onClick={onToggle}
+                          >
+                            {label}
+                          </Button>
+                        )}
+                      >
+                        <ul className="claim-list margin-top-2">
+                          {group.silentSections.map(renderSection)}
+                        </ul>
+                      </ExpandableGroup>
+                    ) : null}
+                  </ul>
+                </div>
               );
             })}
-          </ul>
+          </div>
         )}
       </section>
 

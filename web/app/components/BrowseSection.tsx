@@ -3,7 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
-import { encodePathSegments } from "./search-utils";
+import {
+  encodePathSegments,
+  formatPartHeading,
+} from "./search-utils";
 import { ExpandableGroup } from "./ui/ExpandableGroup";
 import {
   computeHighlightSegments,
@@ -233,7 +236,7 @@ export function BrowseSection({
                 return (
                   <ExpandableGroup
                     id={`browse-part-${part.part}`}
-                    label={`31 CFR Part ${part.part} — ${part.heading}`}
+                    label={`31 CFR Part ${part.part} — ${formatPartHeading(part.part, part.heading)}`}
                     expanded={partIsExpanded}
                     onToggle={() => togglePart(part.part)}
                     containerId={null}
@@ -249,9 +252,8 @@ export function BrowseSection({
                     }) => (
                       <Button
                         type="button"
-                        base
                         outline
-                        className="width-full text-left"
+                        className="width-full text-left browse-part-button"
                         aria-expanded={expanded}
                         aria-controls={panelId}
                         onClick={onToggle}

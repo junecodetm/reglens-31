@@ -40,6 +40,7 @@ export function RejectedDetailPane({
       <section
         className="pane source-pane rejected-detail-pane"
         aria-labelledby="rejected-detail-heading"
+        tabIndex={-1}
       >
         <PaneHeading id="rejected-detail-heading">
           Rejection evidence
@@ -77,6 +78,7 @@ export function RejectedDetailPane({
     <section
       className="pane source-pane rejected-detail-pane"
       aria-labelledby="rejected-detail-heading"
+      tabIndex={-1}
     >
       <PaneHeading id="rejected-detail-heading">
         Rejection evidence

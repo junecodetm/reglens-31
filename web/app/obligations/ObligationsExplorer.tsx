@@ -25,6 +25,8 @@ type PageDataState =
 
 type ClaimView = "accepted" | "rejected";
 
+export const CLAIM_PREVIEW_LIMIT = 25;
+
 interface ObligationsExplorerProps {
   standalone?: boolean;
   initialView?: ClaimView;
@@ -56,9 +58,11 @@ export function ObligationsExplorer({
   const [selectedClaim, setSelectedClaim] = useState<ClaimRecord | null>(
     null,
   );
+  const [showAllClaims, setShowAllClaims] = useState(false);
   const [sourceState, setSourceState] = useState<SourceTextState>({
     status: "idle",
   });
+  const explorerRef = useRef<HTMLDivElement>(null);
   const sourceCacheRef = useRef<Map<string, string>>(new Map());
   const { state: rejectedDetailsState, load: loadRejectedDetails } =
     useLazyJson<RejectedDetailsData>("/data/rejected-details.json");
@@ -132,7 +136,41 @@ export function ObligationsExplorer({
 
   useEffect(() => {
     setSelectedClaim(null);
+    setShowAllClaims(false);
   }, [selectedDocumentNumber, view]);
+
+  useEffect(() => {
+    if (
+      selectedClaim === null ||
+      !window.matchMedia("(max-width: 47.99rem)").matches
+    ) {
+      return;
+    }
+
+    const destination =
+      explorerRef.current?.querySelector<HTMLElement>(".source-pane");
+
+    if (destination === undefined || destination === null) {
+      return;
+    }
+
+    const bounds = destination.getBoundingClientRect();
+    const isInViewport =
+      bounds.top < window.innerHeight && bounds.bottom > 0;
+
+    if (isInViewport) {
+      return;
+    }
+
+    const prefersReducedMotion =
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    destination.scrollIntoView({
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+      block: "start",
+    });
+    destination.focus({ preventScroll: true });
+  }, [selectedClaim]);
 
   useEffect(() => {
     if (view === "rejected") {
@@ -244,19 +282,25 @@ export function ObligationsExplorer({
     selectedDocument?.claims.filter((claim) =>
       view === "accepted" ? claim.accepted : !claim.accepted,
     ) ?? [];
+  const displayedClaims = showAllClaims
+    ? visibleClaims
+    : visibleClaims.slice(0, CLAIM_PREVIEW_LIMIT);
+  const claimListId = `obligations-${view}-claims-list`;
 
   function selectDocument(documentNumber: string): void {
     setSelectedClaim(null);
+    setShowAllClaims(false);
     setSelectedDocumentNumber(documentNumber);
   }
 
   function selectView(nextView: ClaimView): void {
     setSelectedClaim(null);
+    setShowAllClaims(false);
     setView(nextView);
   }
 
   return (
-    <div className="two-pane-grid">
+    <div className="two-pane-grid" ref={explorerRef}>
       <section
         className="pane claims-pane"
         aria-label={standalone ? "Extracted obligations" : undefined}
@@ -303,62 +347,80 @@ export function ObligationsExplorer({
               No {view} claims are recorded for this document.
             </p>
           ) : (
-            <ul className="claim-list">
-              {visibleClaims.map((claim) => {
-                const isSelected =
-                  claim.claim_id === selectedClaim?.claim_id;
+            <>
+              <ul className="claim-list" id={claimListId}>
+                {displayedClaims.map((claim) => {
+                  const isSelected =
+                    claim.claim_id === selectedClaim?.claim_id;
 
-                return (
-                  <li key={claim.claim_id}>
-                    <button
-                      type="button"
-                      className="claim-button"
-                      aria-pressed={isSelected}
-                      onClick={() => setSelectedClaim(claim)}
-                    >
-                      <span className="claim-button-topline">
-                        <span className="claim-summary">
-                          {claim.summary}
-                        </span>
-                        {isSelected ? (
-                          <span
-                            className="selected-indicator"
-                            aria-hidden="true"
-                          >
-                            Selected
+                  return (
+                    <li key={claim.claim_id}>
+                      <button
+                        type="button"
+                        className="claim-button"
+                        aria-pressed={isSelected}
+                        onClick={() => setSelectedClaim(claim)}
+                      >
+                        <span className="claim-button-topline">
+                          <span className="claim-summary">
+                            {claim.summary}
                           </span>
-                        ) : null}
-                      </span>
+                          {isSelected ? (
+                            <span
+                              className="selected-indicator"
+                              aria-hidden="true"
+                            >
+                              Selected
+                            </span>
+                          ) : null}
+                        </span>
 
-                      <span className="claim-metadata">
-                        <span
-                          className="obligation-tag"
-                          data-obligation-type={claim.obligation_type}
-                        >
-                          {claim.obligation_type}
-                        </span>
-                        <span>
-                          <span className="metadata-label">
-                            Affected party:
-                          </span>{" "}
-                          {claim.affected_party}
-                        </span>
-                        {claim.effective_date ? (
+                        <span className="claim-metadata">
+                          <span
+                            className="obligation-tag"
+                            data-obligation-type={claim.obligation_type}
+                          >
+                            {claim.obligation_type}
+                          </span>
                           <span>
                             <span className="metadata-label">
-                              Effective:
+                              Affected party:
                             </span>{" "}
-                            <time dateTime={claim.effective_date}>
-                              {claim.effective_date}
-                            </time>
+                            {claim.affected_party}
                           </span>
-                        ) : null}
-                      </span>
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
+                          {claim.effective_date ? (
+                            <span>
+                              <span className="metadata-label">
+                                Effective:
+                              </span>{" "}
+                              <time dateTime={claim.effective_date}>
+                                {claim.effective_date}
+                              </time>
+                            </span>
+                          ) : null}
+                        </span>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+
+              {visibleClaims.length > CLAIM_PREVIEW_LIMIT ? (
+                <button
+                  type="button"
+                  className="usa-button usa-button--outline"
+                  aria-expanded={showAllClaims}
+                  aria-controls={claimListId}
+                  onClick={() =>
+                    setShowAllClaims((current) => !current)
+                  }
+                >
+                  {showAllClaims
+                    ? `Show fewer ${view} claims`
+                    : `Show all ${visibleClaims.length} ${view} claims`}
+                </button>
+              ) : null}
+            </>
           )}
         </div>
       </section>

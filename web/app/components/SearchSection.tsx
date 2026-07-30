@@ -1,9 +1,16 @@
 "use client";
 
-import { FormEvent, useEffect, useRef, useState } from "react";
+import {
+  type FormEvent,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import {
+  countSearchUnitsByType,
   encodePathSegments,
   rankSearchUnits,
   type RankedSearchResult,
@@ -31,6 +38,13 @@ const TYPE_LABELS: Record<SearchUnit["type"], string> = {
   "cfr-section": "CFR section",
   draft: "Draft skeleton",
 };
+
+const EXAMPLE_QUERIES = [
+  "surety bond",
+  "reporting requirement",
+  "31 CFR 210",
+  "skeleton",
+] as const;
 
 async function fetchText(path: string, signal: AbortSignal): Promise<string> {
   const response = await fetch(path, { signal });
@@ -65,7 +79,18 @@ export function SearchSection({
   const [resultTextStates, setResultTextStates] = useState<
     Record<number, ResultTextState>
   >({});
+  const indexedScope = useMemo(() => {
+    if (indexState.status !== "ready") {
+      return null;
+    }
 
+    const index = indexState.data;
+    return countSearchUnitsByType(index);
+  }, [indexState]);
+  const indexedScopeDescription =
+    indexedScope === null
+      ? "extracted claims, U.S. Code sections, CFR sections, and draft skeletons."
+      : `${indexedScope.claim} extracted claims, ${indexedScope.usc} U.S. Code sections, ${indexedScope["cfr-section"]} CFR sections, and ${indexedScope.draft} draft skeletons.`;
   const resultRequestsRef = useRef<Set<number>>(new Set());
   const resultControllersRef = useRef<Map<number, AbortController>>(
     new Map(),
@@ -77,10 +102,7 @@ export function SearchSection({
     };
   }, []);
 
-  async function handleSearch(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const submittedQuery = query;
-
+  async function runSearch(submittedQuery: string) {
     const index =
       indexState.status === "ready" ? indexState.data : await loadIndex();
 
@@ -91,6 +113,11 @@ export function SearchSection({
     setResults(rankSearchUnits(index, submittedQuery));
     setExpandedResults(new Set());
     setHasSearched(true);
+  }
+
+  function handleSearch(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    void runSearch(query);
   }
 
   async function loadResultText(result: RankedSearchResult) {
@@ -209,7 +236,7 @@ export function SearchSection({
       )}
       <p>{SEARCH_INTRO}</p>
 
-      <form className="search-form" onSubmit={(event) => void handleSearch(event)}>
+      <form className="search-form" onSubmit={handleSearch}>
         <label htmlFor="corpus-search-input">Search terms</label>
         <div className="search-form-controls">
           <input
@@ -230,102 +257,140 @@ export function SearchSection({
         </div>
       </form>
 
-      {indexState.status === "loading" ? (
-        <p role="status">Loading the search index…</p>
-      ) : null}
-
-      {indexState.status === "error" ? (
-        <div className="neutral-notice" role="alert">
-          <p>
-            <strong>Search index unavailable.</strong> {indexState.message}
-          </p>
-        </div>
-      ) : null}
-
-      {indexState.status === "ready" && hasSearched ? (
-        results.length === 0 ? (
-          <p>No matches in the ingested corpus for that query.</p>
-        ) : (
-          <ol className="search-results" aria-label="Corpus search results">
-            {results.map((result) => {
-              const { unit, unitIndex } = result;
-              const panelId = `search-result-${unitIndex}-panel`;
-              const isExpanded = expandedResults.has(unitIndex);
-              const textState = resultTextStates[unitIndex];
-
-              return (
-                <ExpandableGroup
-                  as="li"
-                  id={`search-result-${unitIndex}`}
-                  label={
-                    <>
-                      <span className="search-result-heading">
-                        <span className="search-type-badge">
-                          {TYPE_LABELS[unit.type]}
-                        </span>
-                        <span className="text-bold">{unit.label}</span>
-                      </span>
-                      <span className="search-result-snippet">
-                        {unit.snippet}
-                      </span>
-                    </>
-                  }
-                  expanded={isExpanded}
-                  onToggle={() => toggleResult(result)}
-                  containerId={null}
-                  className="search-result"
-                  ariaLabelledby={null}
-                  panelId={panelId}
-                  panelClassName={null}
-                  renderToggle={({
-                    expanded,
-                    label,
-                    onToggle,
-                    panelId: togglePanelId,
-                  }) => (
-                    <Button
-                      type="button"
-                      base
-                      outline
-                      className="width-full text-left"
-                      aria-expanded={expanded}
-                      aria-controls={togglePanelId}
-                      onClick={onToggle}
-                    >
-                      {label}
-                    </Button>
-                  )}
-                  key={unit.id}
+      <div className="search-results-region">
+        {!hasSearched ? (
+          <div className="search-empty-state">
+            <p>Try an example query to explore the ingested corpus.</p>
+            <div
+              className="search-example-queries"
+              role="group"
+              aria-label="Example search queries"
+            >
+              {EXAMPLE_QUERIES.map((exampleQuery) => (
+                <Button
+                  type="button"
+                  outline
+                  disabled={indexState.status === "loading"}
+                  onClick={() => {
+                    setQuery(exampleQuery);
+                    void runSearch(exampleQuery);
+                  }}
+                  key={exampleQuery}
                 >
-                  {textState?.status === "loading" ? (
-                    <p role="status">Loading full text for {unit.label}…</p>
-                  ) : null}
+                  {exampleQuery}
+                </Button>
+              ))}
+            </div>
+            <p className="search-index-scope">
+              <strong>Indexed scope:</strong>{" "}
+              {indexedScopeDescription}
+            </p>
+          </div>
+        ) : null}
 
-                  {textState?.status === "error" ? (
-                    <div className="neutral-notice" role="alert">
-                      <p>
-                        <strong>Result text unavailable.</strong>{" "}
-                        {textState.message}
-                      </p>
-                    </div>
-                  ) : null}
+        {hasSearched ? (
+          <p className="search-index-scope">
+            <strong>Indexed scope:</strong> {indexedScopeDescription}
+          </p>
+        ) : null}
 
-                  {textState?.status === "ready" ? (
-                    <pre
-                      className="source-document"
-                      tabIndex={0}
-                      role="region"
-                      aria-label={`Full text for ${unit.label}`}
-                    >
-                      {textState.text}
-                    </pre>
-                  ) : null}
-                </ExpandableGroup>
-              );
-            })}
-          </ol>
-        )
-      ) : null}
+        {indexState.status === "loading" ? (
+          <p role="status">Loading the search index…</p>
+        ) : null}
+
+        {indexState.status === "error" ? (
+          <div className="neutral-notice" role="alert">
+            <p>
+              <strong>Search index unavailable.</strong> {indexState.message}
+            </p>
+          </div>
+        ) : null}
+
+        {indexState.status === "ready" && hasSearched ? (
+          results.length === 0 ? (
+            <p>No matches in the ingested corpus for that query.</p>
+          ) : (
+            <ol className="search-results" aria-label="Corpus search results">
+              {results.map((result) => {
+                const { unit, unitIndex } = result;
+                const panelId = `search-result-${unitIndex}-panel`;
+                const isExpanded = expandedResults.has(unitIndex);
+                const textState = resultTextStates[unitIndex];
+
+                return (
+                  <ExpandableGroup
+                    as="li"
+                    id={`search-result-${unitIndex}`}
+                    label={
+                      <>
+                        <span className="search-result-heading">
+                          <span className="search-type-badge">
+                            {TYPE_LABELS[unit.type]}
+                          </span>
+                          <span className="text-bold">{unit.label}</span>
+                        </span>
+                        <span className="search-result-snippet">
+                          {unit.snippet}
+                        </span>
+                      </>
+                    }
+                    expanded={isExpanded}
+                    onToggle={() => toggleResult(result)}
+                    containerId={null}
+                    className="search-result"
+                    ariaLabelledby={null}
+                    panelId={panelId}
+                    panelClassName={null}
+                    renderToggle={({
+                      expanded,
+                      label,
+                      onToggle,
+                      panelId: togglePanelId,
+                    }) => (
+                      <Button
+                        type="button"
+                        base
+                        outline
+                        className="width-full text-left"
+                        aria-expanded={expanded}
+                        aria-controls={togglePanelId}
+                        onClick={onToggle}
+                      >
+                        {label}
+                      </Button>
+                    )}
+                    key={unit.id}
+                  >
+                    {textState?.status === "loading" ? (
+                      <p role="status">Loading full text for {unit.label}…</p>
+                    ) : null}
+
+                    {textState?.status === "error" ? (
+                      <div className="neutral-notice" role="alert">
+                        <p>
+                          <strong>Result text unavailable.</strong>{" "}
+                          {textState.message}
+                        </p>
+                      </div>
+                    ) : null}
+
+                    {textState?.status === "ready" ? (
+                      <pre
+                        className="source-document"
+                        tabIndex={0}
+                        role="region"
+                        aria-label={`Full text for ${unit.label}`}
+                      >
+                        {textState.text}
+                      </pre>
+                    ) : null}
+                  </ExpandableGroup>
+                );
+              })}
+            </ol>
+          )
+        ) : null}
+      </div>
     </section>
   );
 }

@@ -212,6 +212,9 @@ export function OverviewContent() {
               <p className="overview-example-summary">
                 {example.accepted.summary}
               </p>
+              <p className="overview-example-caption">
+                {"Excerpt — the highlighted span is shown with surrounding context from the source document."}
+              </p>
               <HighlightedText
                 text={example.accepted.excerpt}
                 start={example.accepted.span_start}
@@ -223,7 +226,7 @@ export function OverviewContent() {
                 boundsMessage="The example span does not match the excerpt."
                 retryWhenVisible={false}
                 showStatus={false}
-                scroll="nearest"
+                scroll="center"
                 scrollBehavior="auto"
               />
               <p>
@@ -244,9 +247,14 @@ export function OverviewContent() {
                 {example.rejected.summary}
               </p>
               {hasClosestPassage(example.rejected) ? (
-                <p className="diff-comparison">
+                <div
+                  className="diff-comparison source-document"
+                  tabIndex={0}
+                  role="region"
+                  aria-label="Rejected quote compared with the closest source passage"
+                >
                   <DiffComparison diff={example.rejected.diff} />
-                </p>
+                </div>
               ) : null}
               <p>
                 <Link href="/obligations#rejected">

@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { Alert } from "@trussworks/react-uswds";
 
+import { MetricCard } from "./ui/MetricCard";
 import { ci, fmt, type MetricInterval } from "./ui/metric-format";
 import { useLazyJson } from "./ui/useLazyJson";
 
@@ -120,6 +121,68 @@ export function Ogc01EvalSection({
           >
             {state.data.provisional_label}
           </Alert>
+
+          <div className="metric-grid">
+            <MetricCard
+              headingLevel={standalone ? "h2" : "h4"}
+              label="Authority-link F1"
+              value={state.data.link_f1}
+              intervals={[
+                {
+                  label: "Cluster-resampling range",
+                  interval: state.data.link_f1_bootstrap,
+                },
+              ]}
+              note="Wilson interval not shown: F1 is not a binomial proportion."
+            />
+            <MetricCard
+              headingLevel={standalone ? "h2" : "h4"}
+              label="Classification accuracy"
+              value={state.data.class_accuracy}
+              intervals={[
+                {
+                  label: "95% Wilson",
+                  interval: state.data.class_accuracy_wilson,
+                },
+                {
+                  label: "Cluster-resampling range",
+                  interval: state.data.class_accuracy_bootstrap,
+                },
+              ]}
+            />
+            <MetricCard
+              headingLevel={standalone ? "h2" : "h4"}
+              label="Marker precision"
+              value={state.data.marker_precision}
+              intervals={[
+                {
+                  label: "95% Wilson",
+                  interval: state.data.marker_precision_wilson,
+                },
+                {
+                  label: "Document-cluster resampling range",
+                  interval: state.data.marker_precision_bootstrap,
+                },
+              ]}
+            />
+            <MetricCard
+              headingLevel={standalone ? "h2" : "h4"}
+              label="Marker recall"
+              value={state.data.marker_recall}
+              intervals={[
+                {
+                  label: "95% Wilson",
+                  interval: state.data.marker_recall_wilson,
+                },
+              ]}
+            />
+            <MetricCard
+              headingLevel={standalone ? "h2" : "h4"}
+              label="Draft conformance"
+              value={state.data.draft_pass_rate}
+              intervals={[]}
+            />
+          </div>
 
           <InternalHeading>
             Authority linking (citation pairs — a census)

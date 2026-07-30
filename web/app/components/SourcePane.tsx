@@ -37,7 +37,11 @@ export function SourcePane({
   const InternalHeading = standalone ? "h3" : "h4";
 
   return (
-    <section className="pane source-pane" aria-labelledby="source-heading">
+    <section
+      className="pane source-pane"
+      aria-labelledby="source-heading"
+      tabIndex={-1}
+    >
       <PaneHeading id="source-heading">Primary source</PaneHeading>
 
       {!selectedClaim ? (

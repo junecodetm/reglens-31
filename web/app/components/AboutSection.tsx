@@ -139,8 +139,11 @@ export function AboutSection({
         </>
       ) : (
         <>
+          <h2 className="about-inventory-context-heading">
+            Why this use case
+          </h2>
           <p>
-            <strong>Why this use case:</strong> of the{" "}
+            Of the{" "}
             {state.data.context.total_use_cases} use cases in the inventory,
             OGC-01 is the only General Counsel entry and one of{" "}
             {state.data.context.high_impact.length} that Treasury designates
@@ -151,11 +154,15 @@ export function AboutSection({
             that combination is why this demonstration mocks up OGC-01 rather
             than any other inventory entry.
           </p>
-          <Table compact fullWidth>
-            <caption>
-              Treasury’s inventory entry for OGC-01 (selected fields, quoted
-              verbatim)
-            </caption>
+          <h3 id="about-inventory-heading">
+            Treasury’s inventory entry for OGC-01 (selected fields, quoted
+            verbatim)
+          </h3>
+          <Table
+            compact
+            fullWidth
+            aria-labelledby="about-inventory-heading"
+          >
             <thead>
               <tr>
                 <th scope="col">Inventory field</th>
@@ -184,9 +191,16 @@ export function AboutSection({
               Treasury AI Use Case Inventory (CSV), home.treasury.gov
             </a>{" "}
             — a U.S. Government work · fetched{" "}
-            {state.data.fetched_at.slice(0, 10)} · snapshot SHA-256{" "}
-            <code>{state.data.sha256}</code>. Selected fields shown; the
-            complete verbatim row ships in{" "}
+            {state.data.fetched_at.slice(0, 10)}.
+          </p>
+          <p>
+            <strong>Snapshot SHA-256</strong>
+            <code className="about-inventory-digest">
+              {state.data.sha256}
+            </code>
+          </p>
+          <p>
+            Selected fields shown; the complete verbatim row ships in{" "}
             <a href="/data/use-case-inventory.json">use-case-inventory.json</a>
             .
           </p>
@@ -194,7 +208,7 @@ export function AboutSection({
       )}
 
       <TraceabilityHeading className="about-traceability-heading">
-        Stated outputs → what this site demonstrates
+        Stated outputs and what this site demonstrates
       </TraceabilityHeading>
       <p>
         Each output and stated purpose the inventory records for OGC-01, and

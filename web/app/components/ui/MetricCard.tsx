@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 import { ci, fmt, type MetricInterval } from "./metric-format";
 
 export interface MetricCardInterval {
@@ -10,6 +12,7 @@ export interface MetricCardProps {
   value: number | null;
   intervals: MetricCardInterval[];
   headingLevel?: "h2" | "h3" | "h4";
+  note?: ReactNode;
 }
 
 export function MetricCard({
@@ -17,6 +20,7 @@ export function MetricCard({
   value,
   intervals,
   headingLevel = "h3",
+  note,
 }: MetricCardProps) {
   const Heading = headingLevel;
 
@@ -36,6 +40,9 @@ export function MetricCard({
           </p>
         );
       })}
+      {note === undefined ? null : (
+        <div className="metric-note">{note}</div>
+      )}
     </div>
   );
 }

@@ -30,8 +30,51 @@ export interface RankedSearchResult {
   unit: SearchUnit;
 }
 
+export type SearchUnitCounts = Record<SearchUnit["type"], number>;
+
 const BM25_K1 = 1.2;
 const BM25_B = 0.75;
+
+export function countSearchUnitsByType(
+  index: SearchIndexData,
+): SearchUnitCounts {
+  return index.units.reduce<SearchUnitCounts>(
+    (counts, unit) => {
+      counts[unit.type] += 1;
+      return counts;
+    },
+    {
+      claim: 0,
+      usc: 0,
+      "cfr-section": 0,
+      draft: 0,
+    },
+  );
+}
+
+export function formatPartHeading(part: number, heading: string): string {
+  const trimmedHeading = heading.trim();
+  const repeatedPartPrefix = new RegExp(
+    `^PART\\s+${part}\\s*(?:[-\\u2012-\\u2015\\u2212]+\\s*)?`,
+    "i",
+  );
+  const withoutRepeatedPart = trimmedHeading
+    .replace(repeatedPartPrefix, "")
+    .trim();
+  const title = withoutRepeatedPart || trimmedHeading;
+  const lowercaseTitle = title.toLocaleLowerCase("en-US");
+  const uppercaseTitle = title.toLocaleUpperCase("en-US");
+  const isAllCaps =
+    title === uppercaseTitle && lowercaseTitle !== uppercaseTitle;
+
+  if (!isAllCaps) {
+    return title;
+  }
+
+  return lowercaseTitle.replace(/\b[a-z]/g, (letter) =>
+    letter.toLocaleUpperCase("en-US"),
+  );
+}
 
 export function tokenizeSearchQuery(query: string): string[] {
   // Python casefold and JS toLowerCase can disagree outside ASCII (e.g. casefold('ß')→'ss'), but neither path yields differing ASCII tokens for this corpus, so index and query tokens agree.

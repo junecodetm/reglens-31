@@ -50,81 +50,115 @@ function Checklist({
   checklist: DraftChecklist;
   standalone: boolean;
 }) {
-  const booleanChecks = [
-    ["Headings in order", checklist.headings_in_order],
-    ["Analysis sections present", checklist.analysis_sections_present],
-    ["Placeholders intact", checklist.placeholders_intact],
+  const checklistChecks = [
+    ["Headings in order", checklist.headings_in_order, "conformance"],
+    [
+      "Analysis sections present",
+      checklist.analysis_sections_present,
+      "conformance",
+    ],
+    ["Placeholders intact", checklist.placeholders_intact, "conformance"],
     [
       "Amendatory instructions parse",
       checklist.amendatory_instructions_parse,
+      "conformance",
     ],
-    ["Set-out text verified", checklist.setout_text_verified],
+    ["Set-out text verified", checklist.setout_text_verified, "conformance"],
     [
       "Narrative fabrication clean",
       checklist.narrative_fabrication_clean,
+      "conformance",
     ],
-    ["Quotes verified", checklist.quotes_verified],
-    ["Overall passed", checklist.passed],
-  ] as const;
-  const apaProceduralChecks = [
-    ["Authority citation present", checklist.authority_citation_present],
+    ["Quotes verified", checklist.quotes_verified, "conformance"],
+    ["Overall passed", checklist.passed, "conformance"],
+    [
+      "Authority citation present",
+      checklist.authority_citation_present,
+      "apa",
+    ],
     [
       "Basis-and-purpose elements present",
       checklist.basis_and_purpose_present,
+      "apa",
     ],
     [
       "Comment-period / effective-date reference",
       checklist.comment_period_reference,
+      "apa",
     ],
     [
       "Amendatory verb forms demonstrated (add / revise / remove-and-reserve)",
       checklist.amendatory_forms_demonstrated,
+      "apa",
     ],
   ] as const;
+  // The aggregate "Overall passed" row stays in the itemized list but is
+  // excluded from the summary count so a single real failure is not
+  // double-counted through the aggregate.
+  const substantiveChecks = checklistChecks.filter(
+    ([label]) => label !== "Overall passed",
+  );
+  const summary = {
+    passed: substantiveChecks.filter(([, value]) => value).length,
+    total: substantiveChecks.length,
+  };
   const Subheading = standalone ? "h3" : "h5";
 
   return (
-    <>
-      <p>
-        <strong>Conformance checklist</strong>
+    <div className="draft-checklist">
+      <p className="draft-checklist-summary">
+        <strong>
+          {`${summary.passed}/${summary.total} checks passed`}
+        </strong>
       </p>
-      <ul
-        className="eval-details"
-        aria-label={`Conformance checklist for ${draftLabel(checklist)}`}
-      >
-        {booleanChecks.map(([label, value]) => (
-          <li key={label}>
-            {label}: <strong>{passFail(value)}</strong>
-          </li>
-        ))}
-        <li>Unverified quote count: {checklist.unverified_quote_count}</li>
-        <li>
-          Fabrication hits:{" "}
-          {checklist.fabrication_hits.length === 0
-            ? "none"
-            : checklist.fabrication_hits.join("; ")}
-        </li>
-      </ul>
 
-      <Subheading>
-        APA procedural elements (structural presence only)
-      </Subheading>
-      <ul
-        className="eval-details"
-        aria-label={`APA procedural elements for ${draftLabel(checklist)}`}
-      >
-        {apaProceduralChecks.map(([label, value]) => (
-          <li key={label}>
-            {label}: <strong>{passFail(value)}</strong>
+      <details className="draft-checklist-details">
+        <summary>Show itemized checklist</summary>
+        <p>
+          <strong>Conformance checklist</strong>
+        </p>
+        <ul
+          className="eval-details"
+          aria-label={`Conformance checklist for ${draftLabel(checklist)}`}
+        >
+          {checklistChecks
+            .filter(([, , group]) => group === "conformance")
+            .map(([label, value]) => (
+              <li key={label}>
+                {label}: <strong>{passFail(value)}</strong>
+              </li>
+            ))}
+          <li>Unverified quote count: {checklist.unverified_quote_count}</li>
+          <li>
+            Fabrication hits:{" "}
+            {checklist.fabrication_hits.length === 0
+              ? "none"
+              : checklist.fabrication_hits.join("; ")}
           </li>
-        ))}
-      </ul>
-      <p>
-        {
-          "These checks verify the structural presence of required elements in the skeleton. They are not a determination of legal sufficiency."
-        }
-      </p>
-    </>
+        </ul>
+
+        <Subheading>
+          APA procedural elements (structural presence only)
+        </Subheading>
+        <ul
+          className="eval-details"
+          aria-label={`APA procedural elements for ${draftLabel(checklist)}`}
+        >
+          {checklistChecks
+            .filter(([, , group]) => group === "apa")
+            .map(([label, value]) => (
+              <li key={label}>
+                {label}: <strong>{passFail(value)}</strong>
+              </li>
+            ))}
+        </ul>
+        <p>
+          {
+            "These checks verify the structural presence of required elements in the skeleton. They are not a determination of legal sufficiency."
+          }
+        </p>
+      </details>
+    </div>
   );
 }
 
@@ -397,19 +431,27 @@ export function DraftsSection({
                           {label}
                         </InternalHeading>
 
-                        <Button
-                          type="button"
-                          base
-                          outline
-                          aria-expanded={expanded}
-                          aria-controls={togglePanelId}
-                          onClick={onToggle}
-                          style={{ width: "100%", textAlign: "left" }}
-                        >
-                          {expanded
-                            ? `Hide draft text for ${label}`
-                            : `Load and show draft text for ${label}`}
-                        </Button>
+                        {expanded ? (
+                          <Button
+                            type="button"
+                            outline
+                            className="width-full text-left"
+                            aria-label={`Hide draft text for ${label}`}
+                            aria-expanded={expanded}
+                            aria-controls={togglePanelId}
+                            onClick={onToggle}
+                          >Hide draft text</Button>
+                        ) : (
+                          <Button
+                            type="button"
+                            outline
+                            className="width-full text-left"
+                            aria-label={`Load and show draft text for ${label}`}
+                            aria-expanded={expanded}
+                            aria-controls={togglePanelId}
+                            onClick={onToggle}
+                          >Load and show draft text</Button>
+                        )}
                       </>
                     )}
                     beforePanel={

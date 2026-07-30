@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { Button, Table } from "@trussworks/react-uswds";
 
 import { buildAuthorityCrossReferences } from "./crossref-utils";
 import type { AuthorityData } from "./reglens-types";
+import { ExpandableGroup } from "./ui/ExpandableGroup";
 import { useLazyJson } from "./ui/useLazyJson";
 
 export const CROSS_REF_INTRO =
@@ -18,6 +20,7 @@ export function CrossRefSection({
   active,
   standalone = false,
 }: CrossRefSectionProps) {
+  const [recapExpanded, setRecapExpanded] = useState(false);
   const { state: authorityState, load: loadAuthorityData } =
     useLazyJson<AuthorityData>("/data/authority.json", {
       requestErrorPrefix: "The authority request returned status ",
@@ -41,6 +44,9 @@ export function CrossRefSection({
     authorityState.status === "ready"
       ? buildAuthorityCrossReferences(authorityState.data)
       : [];
+  const sharedCrossReferences = crossReferences.filter(
+    (reference) => reference.parts.length > 1,
+  );
   const ViewHeading: "h2" | "h4" = standalone ? "h2" : "h4";
   const GroupHeading: "h3" | "h5" = standalone ? "h3" : "h5";
 
@@ -71,7 +77,85 @@ export function CrossRefSection({
 
         {authorityState.status === "ready" ? (
           <div className="cross-ref-views">
-            <section aria-labelledby="cross-ref-by-part-heading">
+            <section aria-labelledby="cross-ref-by-usc-heading">
+              <ViewHeading id="cross-ref-by-usc-heading">
+                By U.S. Code section
+              </ViewHeading>
+              <p>
+                Only U.S. Code sections cited by more than one ingested part
+                are listed here; single-part authorities appear in the
+                per-part recap below.
+              </p>
+
+              {sharedCrossReferences.length === 0 ? (
+                <p>
+                  No U.S. Code section is cited by more than one ingested CFR
+                  part.
+                </p>
+              ) : (
+                <Table
+                  bordered
+                  compact
+                  fullWidth
+                  scrollable
+                  caption="U.S. Code sections cited as authority by two or more ingested CFR parts."
+                >
+                  <thead>
+                    <tr>
+                      <th scope="col">U.S. Code section</th>
+                      <th scope="col">Cited as authority by CFR parts</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {sharedCrossReferences.map((reference) => (
+                      <tr
+                        key={`${reference.uscTitle}:${reference.uscSection}`}
+                      >
+                        <th scope="row">
+                          {reference.uscTitle} U.S.C. §{" "}
+                          {reference.uscSection}
+                        </th>
+                        <td>
+                          {reference.parts
+                            .map((part) => `31 CFR Part ${part}`)
+                            .join(", ")}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              )}
+            </section>
+
+            <ExpandableGroup
+              id="cross-ref-by-part"
+              label="Per-part authority recap"
+              expanded={recapExpanded}
+              onToggle={() => setRecapExpanded((current) => !current)}
+              className="document-group expandable-group margin-top-3"
+              panelClassName={null}
+              renderToggle={({
+                expanded,
+                label,
+                onToggle,
+                buttonId,
+                panelId,
+              }) => (
+                <ViewHeading className="margin-bottom-1">
+                  <Button
+                    id={buttonId}
+                    type="button"
+                    outline
+                    className="width-full text-left"
+                    aria-expanded={expanded}
+                    aria-controls={panelId}
+                    onClick={onToggle}
+                  >
+                    {label}
+                  </Button>
+                </ViewHeading>
+              )}
+            >
               <ViewHeading id="cross-ref-by-part-heading">
                 By CFR part
               </ViewHeading>
@@ -101,35 +185,7 @@ export function CrossRefSection({
                   ) : null}
                 </section>
               ))}
-            </section>
-
-            <section aria-labelledby="cross-ref-by-usc-heading">
-              <ViewHeading id="cross-ref-by-usc-heading">
-                By U.S. Code section
-              </ViewHeading>
-              <p>
-                Shared authorities (cited by more than one part) appear first.
-              </p>
-              <ul className="usa-list">
-                {crossReferences.map((reference) => (
-                  <li
-                    key={`${reference.uscTitle}:${reference.uscSection}`}
-                  >
-                    <p>
-                      <strong>
-                        {reference.uscTitle} U.S.C. § {reference.uscSection}
-                      </strong>
-                    </p>
-                    <p>
-                      Cited as authority by:{" "}
-                      {reference.parts
-                        .map((part) => `31 CFR Part ${part}`)
-                        .join(", ")}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </section>
+            </ExpandableGroup>
           </div>
         ) : null}
       </div>
