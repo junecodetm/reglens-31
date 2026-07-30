@@ -378,3 +378,19 @@ Final gates after the last change: web tests 50/50 + tsc clean; impeccable
 detector clean; pa11y WCAG2AA 7/7 routes clean; just ci green (check-cost,
 ruff, pyright, 171 pytest); static export rebuilt; Playwright walk clean at
 1440/768/375 with zero console errors and same-origin-only requests.
+
+## IA merge pass (2026-07-29): About folded into Overview; six-route nav
+
+Owner-directed: the /about route is gone — AboutSection is embedded-only
+(its original `<h2 id="about">` anchor restored as the page-native target),
+with the former page lead as the section intro, the methodology/governance
+links moved in as an h3, and internal headings demoted (h3/h4) under the
+Overview h1. Hero and footer links now use #about / /#about; the legacy
+"#about" hash needs no forwarder (native anchor); `/about{,/}` 301s to
+/#about via _redirects. Sidebar order is now Overview, Search & browse,
+Extracted obligations, Statutory authority, Draft skeletons, Evaluation.
+README six-page path updated; `just a11y` loops six routes. Implemented by
+Codex; verified independently: build + 51/51 web tests + detector clean;
+Playwright — exact nav order, anchor scroll + focus, single h1, inventory
+quote/table/governance links render, cold-load first Tab still the skip
+link, zero console errors; pa11y WCAG2AA 6/6; just ci green (171 pytest).

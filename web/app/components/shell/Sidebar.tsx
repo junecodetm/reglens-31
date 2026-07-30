@@ -11,12 +11,11 @@ interface NavigationItem {
 
 const NAVIGATION_ITEMS: NavigationItem[] = [
   { label: "Overview", href: "/" },
+  { label: "Search & browse", href: "/sources" },
   { label: "Extracted obligations", href: "/obligations" },
   { label: "Statutory authority", href: "/authorities" },
   { label: "Draft skeletons", href: "/drafts" },
   { label: "Evaluation", href: "/evaluation" },
-  { label: "Search & browse", href: "/sources" },
-  { label: "About & provenance", href: "/about" },
 ];
 
 function normalizePathname(pathname: string): string {

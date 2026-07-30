@@ -79,17 +79,11 @@ const TRACEABILITY: readonly {
   },
 ];
 
-interface AboutSectionProps {
-  standalone?: boolean;
-}
-
-export function AboutSection({
-  standalone = false,
-}: AboutSectionProps) {
+export function AboutSection() {
   const { state, load } = useLazyJson<UseCaseInventory>(
     "/data/use-case-inventory.json",
   );
-  const TraceabilityHeading: "h2" | "h3" = standalone ? "h2" : "h3";
+  const TraceabilityHeading = "h3";
 
   useEffect(() => {
     load();
@@ -97,15 +91,17 @@ export function AboutSection({
 
   return (
     <section
-      className="about-section"
-      aria-labelledby={standalone ? undefined : "about"}
-      aria-label={standalone ? "About this demonstration" : undefined}
+      className="about-section overview-section"
+      aria-labelledby="about"
     >
-      {standalone ? null : (
-        <h2 id="about" tabIndex={-1}>
-          About this demonstration
-        </h2>
-      )}
+      <h2 id="about" tabIndex={-1}>
+        About this demonstration
+      </h2>
+      <p>
+        What OGC-01 is, why this demonstration mocks it up, and exactly which
+        stated output each page implements — quoted verbatim from Treasury's
+        own public record.
+      </p>
       <p>
         RegLens-31 is an independent working mockup of a single publicly
         documented Treasury AI use case: <strong>OGC-01, the “Regulatory
@@ -139,9 +135,9 @@ export function AboutSection({
         </>
       ) : (
         <>
-          <h2 className="about-inventory-context-heading">
+          <h3 className="about-inventory-context-heading">
             Why this use case
-          </h2>
+          </h3>
           <p>
             Of the{" "}
             {state.data.context.total_use_cases} use cases in the inventory,
@@ -154,10 +150,10 @@ export function AboutSection({
             that combination is why this demonstration mocks up OGC-01 rather
             than any other inventory entry.
           </p>
-          <h3 id="about-inventory-heading">
+          <h4 id="about-inventory-heading">
             Treasury’s inventory entry for OGC-01 (selected fields, quoted
             verbatim)
-          </h3>
+          </h4>
           <Table
             compact
             fullWidth
@@ -225,6 +221,48 @@ export function AboutSection({
           </div>
         ))}
       </dl>
+
+      <section
+        className="about-governance-docs"
+        aria-labelledby="about-governance-docs-heading"
+      >
+        <h3 id="about-governance-docs-heading">
+          Methodology &amp; governance documents
+        </h3>
+        <p>
+          The repository carries the full written record behind this
+          demonstration:
+        </p>
+        <ul>
+          <li>
+            <a href="https://github.com/junecodetm/reglens-31#readme">
+              README — setup, approach, tools, and assumptions
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/junecodetm/reglens-31/blob/main/docs/M25-21-CROSSWALK.md">
+              OMB M-25-21 minimum-practices crosswalk (with NIST AI 600-1
+              mappings)
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/junecodetm/reglens-31/tree/main/governance">
+              Model card, data card, AI impact assessment, monitoring &amp;
+              rollback plans
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/junecodetm/reglens-31/blob/main/docs/EVALUATION.md">
+              Evaluation methodology — gold set, annotation protocol,
+              intervals
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </li>
+        </ul>
+      </section>
     </section>
   );
 }

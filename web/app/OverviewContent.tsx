@@ -5,6 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
+import { AboutSection } from "./components/AboutSection";
 import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
 import { recordRouteMount } from "./components/shell/route-mount-state";
 import {
@@ -91,8 +92,12 @@ export function OverviewContent() {
 
   useEffect(() => {
     // Same focus contract as PageHeader: announce the page on client-side
-    // navigation, never steal focus on the initial load.
-    if (recordRouteMount()) {
+    // navigation, while preserving an explicit cross-route About anchor.
+    const hasMountedRouteBefore = recordRouteMount();
+
+    if (window.location.hash === "#about") {
+      document.getElementById("about")?.focus();
+    } else if (hasMountedRouteBefore) {
       headingRef.current?.focus();
     }
     void load();
@@ -149,7 +154,7 @@ export function OverviewContent() {
               It&apos;s a working mockup of a real Treasury AI use case —
               OGC-01, the &ldquo;Regulatory Reform Tool&rdquo; — built
               entirely from public sources. See{" "}
-              <Link href="/about">About this demonstration</Link> for the
+              <Link href="#about">About this demonstration</Link> for the
               source record.
             </p>
           </div>
@@ -286,7 +291,7 @@ export function OverviewContent() {
         <p className="overview-quiet-links">
           Also on this site:{" "}
           <Link href="/sources">Search &amp; browse the corpus</Link> and{" "}
-          <Link href="/about">About &amp; provenance</Link>.
+          <Link href="#about">About &amp; provenance</Link>.
         </p>
       </section>
 
@@ -304,6 +309,8 @@ export function OverviewContent() {
           ))}
         </ol>
       </section>
+
+      <AboutSection />
     </div>
   );
 }

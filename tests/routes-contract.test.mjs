@@ -14,12 +14,11 @@ const DISCLAIMER =
 // route → sole h1 text and sidebar label carrying aria-current on that page.
 const ROUTES = [
   ["", "RegLens-31", "Overview"],
+  ["sources", "Search &amp; browse the corpus", "Search &amp; browse"],
   ["obligations", "Extracted obligations", "Extracted obligations"],
   ["authorities", "Statutory authority", "Statutory authority"],
   ["drafts", "Draft rule skeletons", "Draft skeletons"],
   ["evaluation", "Evaluation (provisional)", "Evaluation"],
-  ["sources", "Search &amp; browse the corpus", "Search &amp; browse"],
-  ["about", "About this demonstration", "About &amp; provenance"],
 ];
 
 function readPage(route) {
@@ -49,14 +48,18 @@ test("every route emits, carries the §333 disclaimer, and has exactly one h1", 
 test("the sidebar marks each page's own link with aria-current", () => {
   for (const [route, , navLabel] of ROUTES) {
     const html = readPage(route);
-    const current = html.match(
-      /<a[^>]*aria-current="page"[^>]*>(.*?)<\/a>/s,
-    );
+    const current = [
+      ...html.matchAll(/<a[^>]*aria-current="page"[^>]*>(.*?)<\/a>/gs),
+    ];
 
-    assert.ok(current, `${route || "/"}: no aria-current link prerendered`);
+    assert.equal(
+      current.length,
+      1,
+      `${route || "/"}: expected exactly one aria-current link`,
+    );
     assert.ok(
-      current[1].includes(navLabel),
-      `${route || "/"}: aria-current should sit on "${navLabel}", got "${current[1].slice(0, 60)}"`,
+      current[0][1].includes(navLabel),
+      `${route || "/"}: aria-current should sit on "${navLabel}", got "${current[0][1].slice(0, 60)}"`,
     );
   }
 });
@@ -82,10 +85,15 @@ test("every route emits exactly one page-lead paragraph, except the Overview", (
   }
 });
 
-test("the Overview keeps the mockup framing, the guided example, and the legacy-hash forwarder", () => {
+test("the Overview keeps the mockup framing, embedded provenance, guided example, and legacy-hash forwarder", () => {
   const html = readPage("");
 
   assert.ok(html.includes("About this demonstration"));
+  assert.ok(html.includes('id="about"'));
+  assert.ok(
+    html.includes("What OGC-01 is, why this demonstration mocks it up"),
+  );
+  assert.ok(html.includes("Methodology &amp; governance documents"));
   assert.ok(html.includes("Regulatory Reform Tool"));
   assert.ok(html.includes("See it work"));
 
@@ -100,7 +108,6 @@ test("the Overview keeps the mockup framing, the guided example, and the legacy-
 
   assert.match(overview, /<LegacyHashRedirect \/>/);
   for (const [hash, target] of [
-    ["#about", "/about"],
     ["#extraction", "/obligations"],
     ["#rejected-claims", "/obligations#rejected"],
     ["#explore", "/sources"],
@@ -112,6 +119,29 @@ test("the Overview keeps the mockup framing, the guided example, and the legacy-
       `legacy hash map should forward ${hash} → ${target}`,
     );
   }
+  assert.doesNotMatch(
+    redirect,
+    /"#about"\s*:/,
+    "#about should remain a native Overview anchor",
+  );
+});
+
+test("the retired About route redirects to the native Overview anchor without emitting a page", () => {
+  assert.ok(
+    !existsSync(join(ROOT, "web", "app", "about", "page.tsx")),
+    "the retired app/about/page.tsx route should not exist",
+  );
+  assert.ok(
+    !existsSync(join(ROOT, "web", "out", "about")),
+    "the static export should not emit out/about",
+  );
+
+  const redirects = readFileSync(
+    join(ROOT, "web", "public", "_redirects"),
+    "utf8",
+  );
+  assert.match(redirects, /^\/about\/ \/#about 301$/m);
+  assert.match(redirects, /^\/about \/#about 301$/m);
 });
 
 test("both evaluation payloads keep the verbatim provisional honesty label", () => {

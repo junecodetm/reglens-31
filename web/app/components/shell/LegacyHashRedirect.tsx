@@ -7,7 +7,6 @@ import { useRouter } from "next/navigation";
 // Mounted only on the Overview route: known legacy hashes forward to the
 // route that now owns the content; unknown hashes are left untouched.
 const LEGACY_HASH_ROUTES: Record<string, string> = {
-  "#about": "/about",
   "#extraction": "/obligations",
   "#rejected-claims": "/obligations#rejected",
   "#explore": "/sources",

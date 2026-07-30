@@ -311,11 +311,27 @@ test("browse headings are deduplicated and title-cased by a client-side formatte
 
 test("about prose has semantic structure, readable measure, and an isolated digest", () => {
   const source = read("app/components/AboutSection.tsx");
+  const normalizedSource = source.replace(/\s+/g, " ");
   const css = read("app/globals.css");
 
+  assert.doesNotMatch(source, /standalone/);
+  assert.match(source, /const TraceabilityHeading = "h3";/);
   assert.match(
     source,
-    /<h3 id="about-inventory-heading">[\s\S]*?Treasury’s inventory entry for OGC-01/,
+    /<h2 id="about" tabIndex=\{-1\}>[\s\S]*?About this demonstration[\s\S]*?<\/h2>/,
+  );
+  assert.ok(
+    normalizedSource.includes(
+      "What OGC-01 is, why this demonstration mocks it up, and exactly which stated output each page implements — quoted verbatim from Treasury's own public record.",
+    ),
+  );
+  assert.match(
+    source,
+    /<h3 className="about-inventory-context-heading">[\s\S]*?Why this use case/,
+  );
+  assert.match(
+    source,
+    /<h4 id="about-inventory-heading">[\s\S]*?Treasury’s inventory entry for OGC-01/,
   );
   const contextHeading = source.indexOf(
     'className="about-inventory-context-heading"',
@@ -325,13 +341,31 @@ test("about prose has semantic structure, readable measure, and an isolated dige
   );
   assert.ok(
     contextHeading >= 0 && contextHeading < inventoryHeading,
-    "the inventory h3 should follow a real h2 section heading",
+    "the inventory h4 should follow a real h3 section heading",
   );
-  assert.ok(
-    source.includes("Stated outputs and what this site demonstrates"),
+  assert.match(
+    source,
+    /<TraceabilityHeading className="about-traceability-heading">[\s\S]*?Stated outputs and what this site demonstrates/,
   );
+  assert.match(
+    source,
+    /<h3 id="about-governance-docs-heading">[\s\S]*?Methodology &amp; governance documents/,
+  );
+  for (const href of [
+    "https://github.com/junecodetm/reglens-31#readme",
+    "https://github.com/junecodetm/reglens-31/blob/main/docs/M25-21-CROSSWALK.md",
+    "https://github.com/junecodetm/reglens-31/tree/main/governance",
+    "https://github.com/junecodetm/reglens-31/blob/main/docs/EVALUATION.md",
+  ]) {
+    assert.ok(source.includes(`href="${href}"`), `missing governance link ${href}`);
+  }
   assert.match(source, /<code className="about-inventory-digest">/);
   assert.match(css, /\.about-section > p[\s\S]*?max-width:\s*72ch;/);
+  assert.match(
+    css,
+    /\.about-section > h3,\s*\.about-section > h4,/,
+    "the demoted inventory h4 should retain the existing About heading style",
+  );
   assert.match(css, /\.eval-details[\s\S]*?max-width:\s*72ch;/);
   assert.match(
     css,

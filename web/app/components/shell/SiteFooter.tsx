@@ -29,7 +29,7 @@ export function SiteFooter() {
         <p>Source data: Federal Register (U.S. public domain).</p>
         <p>
           {FOOTER_ATTRIBUTION}
-          <Link href="/about">About this demonstration</Link>.
+          <Link href="/#about">About this demonstration</Link>.
         </p>
         <p>
           <a href="https://github.com/junecodetm/reglens-31">

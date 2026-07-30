@@ -860,6 +860,7 @@ a:visited {
 }
 
 .about-section > h3,
+.about-section > h4,
 .about-section > .about-traceability-heading {
   margin: 2rem 0 0.5rem;
   color: var(--navy-deep);

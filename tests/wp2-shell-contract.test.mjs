@@ -39,14 +39,13 @@ test("the layout mounts the shared shell chrome in document order", () => {
 test("AppShell and Sidebar expose the requested navigation semantics", () => {
   const appShell = read("app/components/shell/AppShell.tsx");
   const sidebar = read("app/components/shell/Sidebar.tsx");
-  const expectedRoutes = [
-    "/",
-    "/obligations",
-    "/authorities",
-    "/drafts",
-    "/evaluation",
-    "/sources",
-    "/about",
+  const expectedNavigation = [
+    ["Overview", "/"],
+    ["Search & browse", "/sources"],
+    ["Extracted obligations", "/obligations"],
+    ["Statutory authority", "/authorities"],
+    ["Draft skeletons", "/drafts"],
+    ["Evaluation", "/evaluation"],
   ];
 
   assert.match(appShell, /className="app-shell"/);
@@ -71,13 +70,23 @@ test("AppShell and Sidebar expose the requested navigation semantics", () => {
   assert.match(sidebar, /closeButtonRef\.current\?\.focus\(\)/);
   assert.match(sidebar, /event\.key === "Tab"/);
   assert.match(sidebar, /drawerRef\.current\?\.querySelectorAll/);
+  assert.match(
+    sidebar,
+    /normalizedPathname\s*===\s*normalizePathname\(item\.href\)/,
+  );
 
-  for (const route of expectedRoutes) {
+  let previousIndex = -1;
+  for (const [label, route] of expectedNavigation) {
+    const item = `{ label: "${label}", href: "${route}" }`;
+    const itemIndex = sidebar.indexOf(item);
+    assert.ok(itemIndex >= 0, `Sidebar should include ${label} at ${route}`);
     assert.ok(
-      sidebar.includes(`href: "${route}"`),
-      `Sidebar should include ${route}`,
+      itemIndex > previousIndex,
+      `${label} should follow the preceding navigation item`,
     );
+    previousIndex = itemIndex;
   }
+  assert.doesNotMatch(sidebar, /href:\s*"\/about"/);
 });
 
 test("the shared footer preserves the overview attribution copy", () => {
@@ -86,14 +95,14 @@ test("the shared footer preserves the overview attribution copy", () => {
 
   assert.match(footer, /DISCLAIMER_TEXT/);
   assert.match(types, /Independent personal research prototype\. Not affiliated with/);
-  // The attribution's "About this demonstration" is a live link to /about.
+  // The attribution's "About this demonstration" links to Overview from every route.
   assert.match(
     footer,
     /Use-case framing: Treasury AI Use Case Inventory \(U\.S\. Government work\) — see /,
   );
   assert.match(
     footer,
-    /<Link href="\/about">About this demonstration<\/Link>/,
+    /<Link href="\/#about">About this demonstration<\/Link>/,
   );
   assert.match(footer, /Source data: Federal Register \(U\.S\. public domain\)\./);
   assert.match(footer, /Source code &amp; methodology/);
@@ -122,9 +131,33 @@ test("the route template animates only when reduced motion is not requested", ()
   assert.match(template, /clearProps:\s*"all"/);
 });
 
-test("all seven route pages mount their existing section tool", () => {
+test("all six route pages mount their existing section tool", () => {
+  const overview = read("app/OverviewContent.tsx");
+  const pipelineIndex = overview.indexOf('id="overview-pipeline"');
+  const aboutIndex = overview.indexOf("<AboutSection />");
+
+  assert.match(
+    overview,
+    /import \{ AboutSection \} from "\.\/components\/AboutSection";/,
+  );
+  assert.ok(
+    aboutIndex > pipelineIndex,
+    "Overview should mount AboutSection after the pipeline",
+  );
+  assert.doesNotMatch(overview, /<AboutSection[^>]*standalone/);
+  assert.doesNotMatch(overview, /href="\/about"/);
+  assert.match(overview, /window\.location\.hash === "#about"/);
+  assert.match(
+    overview,
+    /document\.getElementById\("about"\)\?\.focus\(\)/,
+    "cross-route /#about navigation should focus the native anchor",
+  );
+  assert.ok(
+    !existsSync(join(WEB_ROOT, "app/about/page.tsx")),
+    "the standalone About route should be removed",
+  );
+
   const singleComponentRoutes = [
-    ["app/about/page.tsx", "About this demonstration", "AboutSection", false],
     [
       "app/obligations/page.tsx",
       "Extracted obligations",
