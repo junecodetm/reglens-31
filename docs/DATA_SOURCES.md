@@ -5,6 +5,29 @@
 | Source | Endpoint (verified) | Auth | Limits | Cadence | License | PII/legal status |
 |---|---|---|---|---|---|---|
 | Federal Register API v1 | `https://www.federalregister.gov/api/v1/documents.json` | None | per_page ≤ 1000; only first 2000 results paginable (use date filters); no key/rate limit for reasonable use | Business days | U.S. Gov public domain | Public rulemaking; no PII concern |
+
+## Corpus inclusion rule (added 2026-07-30)
+
+Which Federal Register documents are in the corpus is decided by a rule expressed
+in code, not by editorial selection. `reglens/corpus.py` names the scope — Title
+31 parts 50, 223, 285, 356 and 501 — and
+`reglens.ingest.federal_register.corpus_document_numbers` returns **every final
+rule the Federal Register's CFR index attributes to any of those parts**,
+paginated and de-duplicated. `just ingest-corpus` re-runs it; the result is
+reproducible rather than dependent on which documents an earlier
+citation-following pass happened to reach.
+
+**Denominator: 132 unique final rules** (per-part: 50 → 31, 223 → 2, 285 → 32,
+356 → 32, 501 → 37; only 2 rules amend more than one in-scope part). All 132 had
+raw text available and none were skipped. The repository additionally retains 20
+documents reached by the earlier citation-following pass that the CFR index does
+not tag, for 152 unique Federal Register documents in total.
+
+**Stated limitation.** The Federal Register's CFR index only tags documents whose
+metadata carries a CFR reference, so some older rules are not reachable by this
+criterion. The corpus is complete *with respect to the stated rule*, not with
+respect to every rule that has ever touched these parts. Only final rules are in
+scope; proposed rules and notices are not.
 | eCFR Title 31 (point-in-time) | eCFR REST API (`https://www.ecfr.gov/...`, see eCFR Developer Resources) + bulk XML `https://www.govinfo.gov/bulkdata/ECFR/title-31` (set Accept header; 406 otherwise) | None | Polite throttle | eCFR daily; govinfo periodic (T31 last built 2026-05-07 per bulk listing) | U.S. Gov; eCFR is an unofficial editorial compilation (only PDF/Text CFR on govinfo are legally official) | Public regulation |
 | OFAC Sanctions List Service | `https://sanctionslistservice.ofac.treas.gov/...` files `SDN_ADVANCED.XML`, `CONS_ADVANCED.XML`, `SDN.CSV`, `CONS_PRIM.CSV`; XML namespace `https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/XML` | None but **User-Agent header REQUIRED (403 without)** | GET only; weekly/bi-weekly updates | On designation | U.S. Gov public | Names of designated persons — public by law; still handle carefully |
 | GLEIF Golden Copy / Concatenated (Level 1 + Level 2 RR-CDF 2.1) | `https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy` + concatenated-files download | None | Full-file + delta files | Golden Copy 3×/day; concatenated daily | Open data (free redistribution) | Corporate reference data; no private-individual PII |
