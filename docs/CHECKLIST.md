@@ -10,7 +10,7 @@
 - [ ] OFAC ownership graph renders the seeded Deripaska (70%→44.95%) case with caveats — **de-scoped** (first item in the sanctioned de-scope order; design retained in docs/ENTITY_RESOLUTION.md).
 - [ ] Governance: OSCAL 1.1.3 validates — **de-scoped**; model/data cards, AI impact assessment, monitoring + rollback plans ARE present in `governance/`.
 - [x] Security: SBOM artifact, CodeQL/Semgrep/gitleaks/pip-audit/osv-scanner green in CI (checksum-verified binaries). Cosign attestation + Scorecard: deferred with SLSA (de-scope order item 3).
-- [x] Accessibility: axe-core zero violations with full keyboard operability verified via the Playwright audit (two consecutive clean passes; 1440/768/375 screenshots); `just a11y` runs pa11y WCAG2AA.
+- [x] Accessibility: axe-core zero violations with full keyboard operability verified via the Playwright audit at 1440/768/375 (re-verified in the 2026-07-29 final pass, including skip-link-first tab order from a cold load); `just a11y` runs pa11y WCAG2AA.
 - [x] Non-affiliation disclaimer in README, site header band + footer, and repo description (31 U.S.C. §333).
 - [x] Data licensing: DATA_LICENSE.md provenance table (OpenSanctions not used in this build; CC-BY-NC term documented for the future ownership module).
 - [x] Zero-cost check passes; no card anywhere; `scripts/check_zero_cost.py` green (real allow-list check: pinned actions, dependency + host allow-lists).

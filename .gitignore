@@ -30,3 +30,6 @@ data/cache/
 
 # TypeScript incremental build artifact
 web/tsconfig.tsbuildinfo
+
+# Stray root re-download of the inventory CSV (canonical copy is content-addressed under data/raw/)
+/Treasury-AI-Use-Case-Inventory.csv

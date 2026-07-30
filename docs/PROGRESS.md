@@ -115,8 +115,8 @@ push; metrics and labels restate automatically from the JSONL.
 
 ## Blueprint-alignment pass (2026-07-29)
 
-Executed against `Treasury GenAI Architecture Blueprint.md` (committed at repo
-root). Owner decisions: committed invariants override the blueprint on every
+Executed against `docs/Treasury GenAI Architecture Blueprint.md` (relocated
+from the repo root in the 2026-07-29 final pass). Owner decisions: committed invariants override the blueprint on every
 conflict; all four implementable feature deltas built; temporal-versioning
 compare skipped and documented. The full reconciliation is
 `docs/BLUEPRINT-ALIGNMENT.md` (realized / neutral equivalent / excluded with
@@ -319,3 +319,62 @@ errors; pa11y WCAG2AA (HTMLCS) all 7 routes clean; settled-DOM axe-core
 4.11 WCAG 2.1 AA zero violations on all 7 routes (pa11y --runner axe
 flags during the 220 ms entrance fade are scan-timing artifacts;
 reduced-motion users get no animation).
+
+## Final pre-submission pass (2026-07-29, /goal — orchestrated audit + fix)
+
+OGC-01 closure: inventory row 60 re-verified against the pinned snapshot
+(fail-closed digest gate); all four EXTEND-OGC01 stages confirmed delivered;
+the only open gap remains the disclosed 0/N human adjudication. DHS/ALL/
+PIA-097 (cited by the OGC-01 row; retired May 2025) added to GOVERNANCE.md
+as a non-binding reference crosswalk — 12 conditions → invariants.
+Neutrality-reviewer FAIL→PASS: the new bullet's "no protected-class content"
+overclaim corrected to disclose the 31 CFR 285 verbatim pass-through.
+
+Per-tab visual pass: seven context-free reviewers (fresh agents, screenshots
++ static HTML only, zero project context) over 11 views × 3 widths; merged
+under hard criteria (reject new deps/routes/non-USWDS/tone; require ≥2
+corroboration or trivial expressibility in existing primitives). Live
+Playwright verification separated real defects from fullPage-capture
+artifacts before any code changed. Rejected on §5 grounds: color-coding the
+classification pill.
+
+Implemented (Codex, gates re-run independently; then validator fixes):
+disclaimer-band icon no longer overlaps the §333 text; authorities
+silent-section collapse (32,075px → 13,749px at 1440) with computed N-of-M
+disclosures; shared-authorities aggregation leads, per-part recap collapsed;
+obligations 25-card progressive disclosure + sticky desktop source pane +
+narrow-width scroll-to-pane on claim selection; shortened document-picker
+labels; drafts checklist behind a computed pass-count badge (aggregate row
+excluded from the count); OGC-01 eval metrics as MetricCard tiles + "Wilson
+interval not shown" F1 notes on both tabs; search empty-state with
+index-derived scope counts; browse part labels deduped/title-cased with
+outline buttons; 72ch prose measure; About semantic headings + isolated
+digest + de-arrowed h2; overview 2×2 module grid, balanced example cards,
+visible diff legend, excerpt caption.
+
+Keyboard defect found by the final walk and fixed: the Overview guided
+example auto-scrolled the document ~214px on cold load (HighlightedText
+block:'nearest' bubbling to the page), so Chromium started sequential focus
+mid-page and the first Tab bypassed the skip link. Fix: panel-scoped
+scroll="center" — the excerpt box centers its highlight internally; the page
+never moves. Re-verified at 1440/375: scrollY 0, first Tab = skip link,
+highlight fills the panel viewport.
+
+Audit loop (author≠blesser): validator (Opus) on the full cumulative diff
+ACCEPT-WITH-FIXES — stale CrossRef prose reworded, drafts aggregate
+double-count excluded, option aria-label dropped (ignored by AT),
+collapse-label wording made classification-accurate; contract tests updated
+to the new strings only. Material cross-check: every displayed metric
+matches site/eval/ogc01-eval JSON exactly.
+
+Hygiene: deleted auth-section.yml (accidental a11y-tree paste) and the three
+stale root audit-*.png (pre-revamp UI, superseded by this pass); stray root
+Treasury-AI-Use-Case-Inventory.csv removed and gitignored (canonical copy
+stays content-addressed under data/raw/); blueprint doc relocated to docs/
+with references fixed; CLAUDE.md §0 map gains EXTEND-OGC01.md + BUILD.md
+rows and corrects the check_zero_cost row (real check, not placeholder).
+
+Final gates after the last change: web tests 50/50 + tsc clean; impeccable
+detector clean; pa11y WCAG2AA 7/7 routes clean; just ci green (check-cost,
+ruff, pyright, 171 pytest); static export rebuilt; Playwright walk clean at
+1440/768/375 with zero console errors and same-origin-only requests.

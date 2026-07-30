@@ -30,7 +30,9 @@ Decomposition is DONE. This table is the index of where each part of the spec li
 | 20 Permissions | `.claude/settings.json` | done |
 | 21 "Do not do this" | `CLAUDE.md` (below) | done |
 | 22 Pre-submission checklist | `docs/CHECKLIST.md` | done |
-| — | `scripts/check_zero_cost.py` | PLACEHOLDER (always exits 0) — real allow-list check is Phase 0 |
+| — | `EXTEND-OGC01.md` (repo root) — OGC-01 extension spec: authority/grounding/draft stages, §5 neutrality rules, eval extension | done |
+| — | `BUILD.md` (repo root) — single-pass build execution prompt; kept as a process-transparency artifact | done |
+| — | `scripts/check_zero_cost.py` | done (real allow-list check: pinned actions, dependency + host allow-lists) |
 
 ## 1. Project purpose & non-goals
 

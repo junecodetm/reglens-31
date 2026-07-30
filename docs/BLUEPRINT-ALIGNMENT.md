@@ -1,6 +1,6 @@
 # Blueprint Alignment — "Treasury GenAI Architecture Blueprint" → RegLens-31
 
-> Written 2026-07-28. Maps every feature in `Treasury GenAI Architecture Blueprint.md` (an
+> Written 2026-07-28. Maps every feature in `docs/Treasury GenAI Architecture Blueprint.md` (an
 > aspirational enterprise product spec) to its realization in this repository, its neutral
 > zero-cost equivalent, or its documented exclusion. Governing decision (owner-confirmed):
 > **the committed invariants win** — CLAUDE.md §2, EXTEND-OGC01 §5 (neutrality framing),
