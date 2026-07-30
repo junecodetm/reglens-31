@@ -68,6 +68,7 @@ ci: check-cost
 security:
     uvx --from semgrep semgrep scan --config p/python --error --exclude data --exclude web/node_modules
     uv run python scripts/check_zero_cost.py
+    uv run python scripts/redact_pii.py --check docs/PROGRESS.md governance/*.md README.md
 
 # pa11y (WCAG2AA) against the built static site
 a11y:
