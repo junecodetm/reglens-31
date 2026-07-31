@@ -1,0 +1,86 @@
+{
+  "abstract": "The Department of the Treasury (\"Treasury,\" \"We,\" or \"Us\") is issuing in final form an amendment to the regulation \"Uniform Offering Circular for the Sale and Issue of Marketable Book- Entry Treasury Bills, Notes, and Bonds.\" This amendment modifies the net long position (\"NLP\") reporting threshold for all Treasury marketable securities auctions. The threshold, currently $1 billion for Treasury bill auctions and $2 billion for Treasury note auctions, is being changed to 35 percent of the offering amount in each auction. This modification will reduce the number of auction bidders that are required to report their NLPs, while ensuring that we can still effectively administer the 35 percent award limit. The amendment also incorporates certain changes in Treasury's marketable securities auction program that have already been implemented. First, the amendment modifies the competitive bid format for auctions of Treasury cash management bills to conform to a policy change that was made in April 2002. The current two-decimal bid format is being changed to three decimals in .005 percent increments, which is the format in all other Treasury bill auctions. Second, the amendment makes several changes to reflect the current treatment in all Treasury marketable securities auctions of bids from Federal Reserve Banks for their own accounts and for the accounts of foreign and international monetary authorities. Specifically, the amendment deletes the defined term \"public offering,\" adds \"offering amount\" as a new defined term, revises the definition of \"bid-to- cover ratio,\" and makes conforming changes within the text of the Uniform Offering Circular. These changes make the terminology consistent between the Uniform Offering Circular and auction offering announcements.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2002/11/12/02-28662.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    }
+  ],
+  "citation": "67 FR 68513",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "December 12, 2002.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Department of the Treasury Circular, Public Debt Series No. 1-93"
+  ],
+  "dockets": [],
+  "document_number": "02-28662",
+  "effective_on": null,
+  "end_page": 68517,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2002/11/12/02-28662.xml",
+  "html_url": "https://www.federalregister.gov/documents/2002/11/12/02-28662/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds-reporting-of-net-long",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/02-28662?publication_date=2002-11-12",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2002-11-12/02-28662/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 5,
+  "page_views": {
+    "count": 123,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2002-11-12/pdf/02-28662.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2002-11-12",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2002/11/12/02-28662.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 68513,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds; Reporting of Net Long Position and Application of the 35 Percent Limit",
+  "toc_doc": "Net long position and application of 35 percent limit; reporting requirements",
+  "toc_subject": "Marketable book-entry Treasury bills, notes, and bonds:",
+  "topics": [
+    "Bonds",
+    "Government securities",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 67
+}

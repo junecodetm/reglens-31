@@ -1,0 +1,417 @@
+<html>
+<head>
+<title>Federal Register, Volume 66 Issue 219 (Tuesday, November 13, 2001)</title>
+</head>
+<body><pre>
+[Federal Register Volume 66, Number 219 (Tuesday, November 13, 2001)]
+[Rules and Regulations]
+[Pages 56759-56761]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 01-28435]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Department of the Treasury Circular, Public Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds; Calculation of Net Long Position and 35 Percent Limit
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final Rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury,'' ``We,'' or 
+``Us'') is issuing in final form an amendment to 31 CFR Part 356 
+(Uniform Offering Circular for the Sale and Issue of Marketable Book-
+Entry Treasury Bills, Notes, and Bonds). This amendment modifies the 
+calculation of the net long position (``NLP'') to be reported in 
+``reopenings,'' which are auctions of additional amounts of previously 
+issued securities. A bidder will have the option of subtracting from 
+the holdings component of the NLP, combined with any STRIPS \1\ 
+principal components of the security being auctioned, an exclusion 
+amount that Treasury will publish in the reopening offering 
+announcement. The purpose of the modification is to ensure that 
+participation in Treasury auctions remains both strong and broad.
+---------------------------------------------------------------------------
+
+    \1\ Separate Trading of Registered Interest and Principal of 
+Securities.
+
+---------------------------------------------------------------------------
+EFFECTIVE DATE: November 13, 2001.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's website at <a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>. It is also available 
+for public inspection and copying at the Treasury Department Library, 
+Room 1428, Main Treasury Building, 1500 Pennsylvania Avenue, N.W., 
+Washington, D.C. 20220. To visit the library, call (202) 622-0990 for 
+an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director), 
+Chuck Andreatta (Senior Financial Advisor), or Lee Grandy (Associate 
+Director), Bureau of the Public Debt, Government Securities Regulations 
+Staff, (202) 691-3632.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular, in 
+conjunction with the offering announcement for each auction, provides 
+the terms and conditions for the sale and issuance in an auction to the 
+public of marketable Treasury bills, notes, and bonds.\2\ One of these 
+terms is the reporting of net long positions, which we use for limiting 
+the amount that we will award to any one bidder in an auction (``the 35 
+percent rule''). In this document, we describe the rationale for this 
+rule, and why we are changing it. We then discuss the public comments 
+that we received in response to the Advance Notice of Proposed 
+Rulemaking (``ANPR'') published on July 25, 2001.\3\ Last, we describe 
+the final amendment.
+---------------------------------------------------------------------------
+
+    \2\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR Part 356.
+    \3\ 61 FR 38600 (July 25, 2001).
+---------------------------------------------------------------------------
+
+I. The 35 Percent Limit and its Rationale
+
+    The 35 percent rule generally limits auction awards for any one 
+competitive bidder to 35 percent of the total amount offered to the 
+public in a particular auction.\4\ This rule ensures that awards in our 
+auctions are distributed to a number of auction participants. This 
+principle of broad distribution is intended to encourage participation 
+by a significant number of competitive bidders in each auction. Broad 
+participation over time keeps our borrowing costs to a minimum and 
+helps ensure that Treasury auctions are fair and competitive.
+---------------------------------------------------------------------------
+
+    \4\ 31 CFR 356.22(b).
+---------------------------------------------------------------------------
+
+    A key component of the 35 percent award limit is the NLP 
+calculation.\5\ Currently, if a bidder has a reportable NLP, we 
+subtract it from the 35 percent award limit in determining the bidder's 
+maximum award amount for each auction.
+---------------------------------------------------------------------------
+
+    \5\ 31 CFR 356.13.
+---------------------------------------------------------------------------
+
+    The NLP is generally the amount of the security being auctioned 
+that a bidder has obtained, or has arranged to obtain, outside of the 
+auction in the secondary market. The term ``net long'' refers to the 
+extent to which an investor has bought (or has agreed to buy) more of a 
+security than it has sold (or has agreed to sell). The specific 
+components of the NLP are intended to capture the various ways that a 
+bidder can acquire a Treasury security. As defined in Sec. 356.13(b), 
+these components are the par amount of:
+    (1) Holdings of outstanding securities with the same CUSIP \6\ 
+number as the security being auctioned;
+---------------------------------------------------------------------------
+
+    \6\ Committee on Uniform Securities Identification Procedures. 
+The CUSIP number is the unique identifying number assigned to each 
+separate security issue and each separate STRIPS component.
+---------------------------------------------------------------------------
+
+    (2) Positions, in the security being auctioned, in
+    (i) When-issued trading,\7\
+---------------------------------------------------------------------------
+
+    \7\ When-issued trading refers to trading in a security that 
+occurs prior to its issuance. Payment and delivery for this trading 
+activity occurs on the day we issue the securities, thus the term 
+``when-issued.'' In the Treasury securities market, when-issued 
+trading can begin as soon as we publicly announce the upcoming 
+auction. When-issued trading aids the distribution process for 
+Treasury securities. Most importantly for the auction process, when-
+issued trading serves as a price-discovery mechanism for competitive 
+bidders.
+---------------------------------------------------------------------------
+
+    (ii) Futures contracts that require delivery of the specific 
+security being auctioned (but not futures contracts for which the 
+security being auctioned is one of several securities that may be 
+delivered, and not futures contracts that are cash-settled),
+    (iii) Forward contracts; and
+    (3) Holdings of STRIPS principal components of the security being 
+auctioned, including when-issued trading positions of such principal 
+components.
+    A competitive bidder is required to report its NLP if the sum of 
+its bids plus its NLP equals or exceeds the NLP reporting threshold, 
+currently $2 billion for Treasury notes and bonds and $1 billion for 
+Treasury bills (unless otherwise stated in the offering 
+announcement).\8\ If a bidder's total bids exceed the reporting 
+threshold but the bidder either has no position or has a net short 
+position, it must report an NLP of zero.
+---------------------------------------------------------------------------
+
+    \8\ 31 CFR 356.10, 356.13(a).
+---------------------------------------------------------------------------
+
+    The application of the NLP reporting requirement and the 35 percent 
+award limit in reopenings has caused us to re-examine the rule. In a 
+reopening, we apply the 35 percent limit to the public offering amount 
+of that specific auction, rather than to the total amount that will be 
+outstanding after the settlement date of the reopening. Because a 
+bidder must include any holdings of the security being auctioned in its 
+NLP calculation, its participation in the reopening may be limited by 
+its holdings. The bidder's award may be reduced--or it may receive no 
+award--even though the bidder's portion of the total amount outstanding 
+of the security may be under 35 percent once we issue the additional 
+amount.
+    Reopenings are now more frequent because in February 2000 we 
+adopted a
+
+[[Page 56760]]
+
+policy of regular reopenings to preserve the liquidity of our longer-
+term securities as our borrowing needs declined.\9\ In addition, we 
+conducted Treasury's first auction of four-week bills on July 31, 2001. 
+These auctions are reopenings of previously issued Treasury bills. 
+Treasury issued a press release on July 23, 2001, that described the 
+net long position reporting requirements and the application of the 35 
+percent award limit for Treasury four-week bill auctions while we 
+considered whether to modify the rule.
+---------------------------------------------------------------------------
+
+    \9\ Treasury Press Release dated February 2, 2000.
+---------------------------------------------------------------------------
+
+    The development of more frequent reopenings makes it an appropriate 
+time to re-examine the application of the NLP and the 35 percent limit 
+in auctions.
+
+II. Comments Received in Response to the Advance Notice of Proposed 
+Rulemaking
+
+    We published an ANPR for public comment on July 25, 2001,\10\ to 
+solicit comments on six alternatives for modifying the calculation of 
+the net long position and the 35 percent award limit. We stated at that 
+time that we believed Alternative 1 to be the most workable. The 
+closing date for comments was September 10, 2001.
+---------------------------------------------------------------------------
+
+    \10\ See supra, note 3.
+---------------------------------------------------------------------------
+
+    We received eight comments in response to the ANPR \11\--six from 
+securities firms, one from a major trade association, and one from the 
+debt management advisory committee of a major trade association. Five 
+of these commenters favored Alternative 1, while three favored 
+Alternative 4.
+---------------------------------------------------------------------------
+
+    \11\ The ANPR and comment letters are available for downloading 
+on the Internet and for inspection and copying at the Treasury 
+Department Library at the addresses provided earlier in this final 
+rule.
+---------------------------------------------------------------------------
+
+    Since all commenters preferred either Alternative 1 or Alternative 
+4, we describe them below. Readers may refer to the ANPR for 
+descriptions of the other alternatives.
+
+Alternative 1: Optional Exclusion Amount for a Portion of a Bidder's 
+Current Holdings
+
+    Under this alternative, a bidder would have the option of 
+subtracting from the current holdings component of the NLP, combined 
+with any STRIPS principal components of the security being auctioned, a 
+published exclusion amount. We would specify in the offering 
+announcement for the reopening the amount of holdings that may be 
+excluded from the NLP calculation. The bidder would be required to 
+include in the NLP calculation any holdings above this announced 
+exclusion amount.
+    For example, suppose we reopen a Treasury note of which $10 billion 
+is already outstanding by offering an additional $9 billion. In the 
+example, suppose the reopening offering announcement specifies that the 
+exclusion amount is $3.5 billion. Also suppose that a bidder already 
+holds $3 billion par of that note, $1 billion of the note's STRIPS 
+principal component, and a when-issued position in that note of $1 
+billion. That bidder would be able to exclude $3.5 billion of its 
+holdings from its NLP calculation for the reopening auction. The 
+bidder's holdings components of the NLP would therefore be $4 billion 
+minus $3.5 billion, or $0.5 billion. This amount, when added to the $1 
+billion when-issued position component, results in a total NLP of $1.5 
+billion.\12\ Since the 35% award limit in the reopening would be $3.15 
+billion (.35  x  $9 billion), the bidder could be awarded up to $1.65 
+billion more of the note in the reopening ($3.15 billion -$1.5 
+billion). If the bidder were to be awarded this amount in the 
+reopening, on the settlement date it would then have a total of $6.65 
+billion, or 35 percent, of the total $19 billion of the note 
+outstanding (assuming there were no other changes in its position).
+---------------------------------------------------------------------------
+
+    \12\ The bidder would report this amount with its bids if the 
+amount, when combined with its bids, equals or exceeds the NLP 
+reporting threshold for the auction. See Sec. 356.13(a).
+---------------------------------------------------------------------------
+
+    Those commenters that preferred Alternative 1 generally believed 
+that it best achieves the goal of fostering broad participation in 
+Treasury auctions while still limiting the potential for excessive 
+concentration of ownership in a particular marketable Treasury 
+security. Two of the commenters who favored Alternative 1 cited 
+Alternative 4 as their second choice. Both of these commenters 
+expressed concern, however, that since Alternative 4 would not include 
+holdings of the security being auctioned in the net long position 
+calculation, that it would not sufficiently limit the potential for 
+excessive concentration of ownership. While one of the commenters 
+acknowledged that Alternative 1 is more complex operationally than 
+Alternative 4, it did not believe the operational difficulties of 
+efficiently reporting the NLP would be so great as to favor Alternative 
+4.
+
+Alternative 4: Continue to Calculate the 35 Percent Limit on the 
+Reopening Public Offering Amount, but Redefine the Net Long Position as 
+Including Only the When-issued Position
+
+    The commenters that preferred Alternative 4 indicated that this 
+alternative would allow for the broadest participation in reopening 
+auctions. They also indicated that this alternative would be easier to 
+implement than Alternative 1 because the net long position calculation 
+would be considerably simpler. Those favoring Alternative 4 also 
+asserted that Treasury has adequate means at its disposal, such as its 
+Large Position Reporting rules \13\ and anti-market manipulation laws, 
+to address undue concentrations of ownership.
+---------------------------------------------------------------------------
+
+    \13\ 17 CFR Part 420.
+---------------------------------------------------------------------------
+
+III. Amendment to the Rule
+
+    After considering the comments we received, we are modifying the 
+NLP calculation for reopenings to provide an optional exclusion amount 
+for a portion of a bidder's holdings (Alternative 1 in the ANPR). We 
+believe this alternative best achieves our goal of fostering broad 
+participation in Treasury auctions.
+    Accordingly, Sec. 356.13(b) of the Uniform Offering Circular (UOC) 
+is restructured and revised. Paragraph (b)(1) has been reorganized so 
+that the ``holdings'' components are listed consecutively and then the 
+``positions'' components are listed. Paragraph (b)(2) now provides that 
+in a reopening a bidder may subtract the published exclusion amount for 
+that security from the sum of: (1) its holdings of the security being 
+auctioned, and (2) its holdings of STRIPS principal components of the 
+security being auctioned.
+    A bidder must include any holdings in excess of the exclusion 
+amount in calculating and reporting the net long position. A bidder may 
+not take advantage of the exclusion amount if its combined holdings are 
+zero or less than zero. For example, a bidder who is ``short'' the 
+security being auctioned, and whose holdings amount is therefore a 
+negative number, cannot make its position more ``short'' by subtracting 
+the exclusion amount. Further, if a bidder takes advantage of the 
+exclusion amount, it must first calculate its combined holdings before 
+subtracting the exclusion amount.
+    In addition, a bidder may use the exclusion amount only up to the 
+amount of its combined holdings. After subtracting the exclusion amount 
+from its combined holdings, the resulting
+
+[[Page 56761]]
+
+amount cannot be included in the NLP calculation as a negative number. 
+In other words, a bidder cannot change a long holdings position to a 
+short position through use of the exclusion amount.
+    We will publish the specific optional exclusion amount in the 
+offering announcement for each particular auction. We expect that the 
+exclusion amount will be approximately 35 percent of the outstanding 
+amount of the particular security (CUSIP) being auctioned, less the 
+amount of the outstanding security held by the Federal Reserve for its 
+own account. However, bidders must carefully read each offering 
+announcement to ensure they are aware of the exact exclusion amount for 
+the auction and other details of the particular offering. As provided 
+in Sec. 356.10, if the provisions of an offering announcement are 
+different from the provisions of the UOC, the announcement takes 
+precedence.
+
+IV. Procedural Requirements
+
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. Although we issued an Advance Notice of 
+Proposed Rulemaking on July 25, 2001 to benefit from public comment, 
+the notice and public procedures requirements of the Administrative 
+Procedure Act do not apply, under 5 U.S.C. 553(a)(2).
+    Since no notice of proposed rulemaking is required, the provisions 
+of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do not apply.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons stated in the preamble, we amend 31 CFR Part 356 as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for Part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+    2. Section 356.13 is amended by revising paragraph (b) to read as 
+follows:
+
+
+Sec. 356.13  Net long position.
+
+* * * * *
+    (b) Determination of net long position. (1) The net long position 
+must be determined as of the designated reporting time, which is one-
+half hour prior to the closing time for receipt of competitive bids. 
+Except as modified in (b)(2) in the event of a reopening, a net long 
+position includes the par amount of:
+    (i) Holdings of outstanding securities with the same CUSIP number 
+as the security being auctioned;
+    (ii) Holdings of STRIPS principal components of the security being 
+auctioned; and
+    (iii) Positions, in the security being auctioned, in
+    (A) When-issued trading, including when-issued trading positions of 
+the STRIPS principal components;
+    (B) Futures contracts that require delivery of the specific 
+security being auctioned (but not futures contracts for which the 
+security being auctioned is one of several securities that may be 
+delivered, and not futures contracts that are cash-settled); and
+    (C) Forward contracts that require delivery of the specific 
+security being auctioned or of the STRIPS principal component of that 
+security.
+    (2) In a reopening (i.e., additional issue) of an outstanding 
+security, a bidder may subtract the published exclusion amount for that 
+security from: its holdings of the outstanding securities (paragraph 
+(b)(1)(i) of this section) combined with its holdings of STRIPS 
+principal components of the security being auctioned (paragraph 
+(b)(1)(ii) of this section). The amount of holdings that may be 
+excluded from the net long position calculation will be specified in 
+the Treasury offering announcement for that auction. A bidder may not 
+take the exclusion if its combined holdings are zero or less than zero. 
+The exclusion is optional for bidders. However, if a bidder takes the 
+exclusion, it must include any holdings in excess of the exclusion 
+amount in calculating its net long position. If the published exclusion 
+amount is greater than the bidder's combined holdings (paragraphs 
+(b)(1)(i) and (ii) of this section), the combined holdings may be 
+calculated as zero, but cannot be included in the calculation as a 
+negative number.
+* * * * *
+
+    Dated: November 7, 2001.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 01-28435 Filed 11-8-01; 1:19 pm]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

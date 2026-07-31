@@ -1,0 +1,104 @@
+{
+  "abstract": "The Department of the Treasury, Financial Management Service, is amending its regulation governing the centralized offset of federal payments to collect nontax debts owed to the United States. The amendment removes the time limitation on the collection of nontax debts by centralized offset, consistent with a change in the statute on which it is based. The statutory change, enacted as part of the Food, Conservation and Energy Act of 2008, allows for the use of centralized offset of federal payments, including federal salary payments, to collect nontax debts owed to the United States irrespective of the amount of time the debt has been outstanding.",
+  "action": "Interim final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2009/06/11/E9-13617.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "74 FR 27707",
+  "comment_url": null,
+  "comments_close_on": "2009-08-10",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This interim final rule is effective June 11, 2009. Comments must be received by August 10, 2009.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "E9-13617",
+  "effective_on": "2009-06-11",
+  "end_page": 27708,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2009/06/11/E9-13617.xml",
+  "html_url": "https://www.federalregister.gov/documents/2009/06/11/E9-13617/debt-collection-authorities-under-the-debt-collection-improvement-act-of-1996",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E9-13617?publication_date=2009-06-11",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2009-06-11/E9-13617/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 614,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-06-11/pdf/E9-13617.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2009-06-11",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/06/11/E9-13617.txt",
+  "regulation_id_number_info": {
+    "1510-AB19": {
+      "html_url": "https://www.federalregister.gov/regulations/1510-AB19/debt-collection-authorities-under-the-debt-collection-improvement-act-of-1996",
+      "issue": "201004",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Debt Collection Authorities Under the Debt Collection Improvement Act of 1996",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=201004&RIN=1510-AB19&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1510-AB19"
+  ],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 27707,
+  "subtype": null,
+  "title": "Debt Collection Authorities Under the Debt Collection Improvement Act of 1996",
+  "toc_doc": "Debt Collection Authorities under the Debt Collection Improvement Act (1996)",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Child support",
+    "Child welfare",
+    "Claims",
+    "Credit",
+    "Disability benefits",
+    "Loan programs",
+    "Privacy",
+    "Railroad retirement",
+    "Railroad unemployment insurance",
+    "Supplemental Security Income (SSI)",
+    "Taxes",
+    "Wages"
+  ],
+  "type": "Rule",
+  "volume": 74
+}

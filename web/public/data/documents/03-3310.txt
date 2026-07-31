@@ -1,0 +1,319 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 28 (Tuesday, February 11, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 28 (Tuesday, February 11, 2003)]
+[Rules and Regulations]
+[Pages 6820-6823]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-3310]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Rules Governing Availability of Information
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control (``OFAC'') of the U.S. 
+Department of the Treasury is issuing a final rule concerning the 
+disclosure of certain civil penalties information. OFAC intends to 
+publish information about civil penalties imposed and informal 
+settlements on a weekly basis. If the publication falls on a holiday, 
+or if required by an emergency, publication may be postponed to the 
+following week.
+
+DATES: This rule is effective February 11, 2003.
+
+FOR FURTHER INFORMATION CONTACT: Chief of Civil Penalties, tel.: 202/
+622-6140, or Chief Counsel, tel. 202/622-2410.
+
+[[Page 6821]]
+
+
+SUPPLEMENTARY INFORMATION: 
+
+Background
+
+    OFAC published a proposed rule on June 19, 2002 (67 FR 41658-59), 
+announcing a new practice of releasing certain civil penalty 
+enforcement information on a routine basis. OFAC received public 
+comments on the proposed rule from thirty-two persons, including 
+financial institutions, law firms, trade associations, individuals, and 
+a public interest group. Six commenters generally supported the 
+proposed rule, and many of these also urged the release of other types 
+of information. Nine commenters generally opposed the proposed rule, 
+particularly the proposal to release the names of entities involved in 
+civil penalty actions. Seventeen additional commenters fell in the 
+middle; most of these commenters opposed releasing the names of 
+entities, but otherwise they supported the proposed rule. OFAC 
+appreciates the very useful comments it received in response to the 
+proposed rule, and it has carefully considered all relevant comments 
+and how best to resolve the issues they raise.
+    Entity Names. Among the commenters expressing reservations with the 
+proposed rule, most opposed the naming of the entities involved in 
+civil penalty actions. Some commenters argued that this information is 
+likely to hurt the reputations of the entities involved, in part 
+because the public may misunderstand the burdens of compliance with the 
+economic sanctions programs OFAC administers. One commenter stated that 
+public identification of foreign companies could trigger legal problems 
+in their home countries, where compliance with U.S. economic sanctions 
+may be prohibited. Some commenters also argued that identifying these 
+entities would deter voluntary disclosures and informal settlements.
+    After considering these comments, OFAC has concluded that, in most 
+instances, the identities of these entities are already available to 
+the public under the Freedom of Information Act (``FOIA''), 5 U.S.C. 
+552. Additionally, other governmental agencies, including some within 
+the Department, periodically publish enforcement actions such as civil 
+penalties assessed. Accordingly, OFAC has determined to publicize the 
+identities of entities involved in civil penalty actions by periodic 
+release under this rule. We believe most of the concerns identified in 
+the public comments can be adequately addressed in the descriptions 
+OFAC will provide, including whether the entity voluntarily disclosed 
+the violation and whether the penalty enforcement action was settled 
+without a finding that a violation occurred.
+    Descriptions of the Violations or Alleged Violations. Some 
+commenters urged OFAC to draw a clear distinction between penalties 
+(which represent a final agency determination that a violation has 
+occurred) and settlements (which do not reflect such a determination) 
+when releasing civil penalties information under this rule. Some also 
+urged OFAC to recognize the entities that have made voluntary 
+disclosures of the violations. OFAC agrees with these points and has 
+revised the final rule accordingly.
+    One commenter urged OFAC also to distinguish between what it 
+characterized as ``minor administrative infractions'' and ``more 
+serious violations.'' OFAC expects that the gravity of each incident 
+should be reflected in the brief description to be provided. On a 
+related point, a different commenter asked that companies be permitted 
+to negotiate how the incident is described in the releases of 
+information under this rule. OFAC envisions providing a very brief, 
+factual description of the violation or alleged violation (e.g., 
+``unauthorized funds transfer to SDN bank'') and will not negotiate 
+this limited description as part of the civil penalty settlement 
+process. However, if an entity wishes to submit a proposed description, 
+OFAC would certainly consider it, placing a premium on accuracy and 
+brevity.
+    Advance Notice; Timing. Some commenters requested that OFAC give 
+companies and other entities advance notice of up to 90 days before 
+releasing information under this rule. One commenter urged that the 
+information be released pursuant to a regular, predictable schedule; 
+another commenter urged release within a day of reaching settlement or 
+imposing a penalty. OFAC intends to release information regarding civil 
+penalty actions on a weekly basis, beginning April 4, 2003. However, 
+the final rule provides for disclosure on a ``routine basis, not less 
+frequently than monthly,'' to afford OFAC some regulatory flexibility 
+in preparing and releasing this information in the prescribed format. 
+In the early implementation stages, OFAC intends to notify affected 
+companies before information pertaining to them is made public under 
+this rule.
+    Some commenters suggested that an entity should be able to avoid 
+disclosure altogether by ``correcting'' the violation during a short 
+period after a penalty is imposed or settlement reached. OFAC believes 
+these commenters may misunderstand the administrative civil penalties 
+process. An export, import, funds transfer, or other transaction that 
+violates the economic sanctions programs OFAC administers cannot be 
+``corrected'' after it occurs. Any prudent person would take steps to 
+prevent future violations, perhaps by investing in an improved 
+compliance program, but these steps do not relieve an entity or 
+individual of responsibility for completed violations.
+    Scope of Application/Adequacy of FOIA. Several commenters urged 
+that the final rule apply only to penalties imposed or settlements 
+reached after today's publication date. Some commenters argued that 
+this rulemaking is altogether unnecessary because FOIA provides 
+adequate procedures for releasing information to the public. OFAC 
+disagrees with both these points and will implement this rule to 
+include settlements and penalties that have occurred since March 2002. 
+All of the information that OFAC would release under this rule is 
+already subject to public release under FOIA. OFAC records on 
+settlements with entities from May 1998 through March 2002 were 
+publicly released under FOIA and have been placed in the Department of 
+the Treasury's electronic reading room <a href="http://www.treas.gov/foia/err_dof.htm">http://www.treas.gov/foia/err_dof.htm</a>. OFAC has found, however, that processing FOIA requests for 
+this type of information on an ad hoc basis is not the most efficient 
+use of its limited resources. In the implementation of this rule, OFAC 
+intends to release information on all penalties imposed and settlements 
+reached since the end of March 2002.
+    Individual Names. In the preamble to the proposed rule, OFAC 
+invited public comments on the potential disclosure of individual 
+names. One commenter urged OFAC to release the identities of 
+individuals whom OFAC penalizes or with whom OFAC reaches settlements. 
+Other commenters opposed releasing the names of company employees who 
+might be implicated in their employer's civil penalty or settlement; 
+one of these commenters argued that any transparency benefits from 
+releasing such employees' identities would be outweighed by the damage 
+to their personal and professional reputations. OFAC is currently 
+studying the issue of releasing individual names, including the names 
+of individuals who were personally the subject of a civil penalties 
+matter. For the present, the final rule provides for the release of 
+information on proceedings against individuals on an aggregate basis, 
+in
+
+[[Page 6822]]
+
+language substantially similar to the proposed rule.
+    Security Risks. Some commenters argued that release of this civil 
+penalties information would provide clues to terrorists or others about 
+which financial institutions have the weakest OFAC compliance programs. 
+OFAC disagrees. The frequency of civil penalty actions does not 
+necessarily correspond to the effectiveness of a financial 
+institution's compliance program; a small community bank should be 
+expected to have fewer incidents than a large financial institution 
+that processes thousands of transactions daily. As noted above, this 
+information about OFAC's civil penalties proceedings is already 
+available to the public under FOIA, and OFAC does not see any 
+substantial security risk in the implementation of this rule.
+    Additional Information. One commenter sought clarification of 
+proposed section 501.805(d)(1)(iii), which provided that OFAC may, 
+``[o]n a case-by-case basis, * * * release additional information 
+concerning a particular civil penalties proceeding.'' This subsection 
+has been relocated to section 501.805(d)(4) in the final rule. Section 
+501.805(d)(4) is intended to clarify that this rule does not restrict 
+OFAC's ability to disclose additional information about a penalty or 
+settlement to the extent authorized by law. For example, the Department 
+of the Treasury occasionally issues press releases to announce the 
+conclusion of noteworthy OFAC civil penalty actions, and these press 
+releases may include more detail than what is contemplated in the 
+routine releases of information under this rule. OFAC does not intend 
+to release any trade secrets or confidential business information it 
+may acquire during the course of a civil penalty action.
+    A few commenters urged OFAC to publish, in the implementation of 
+this rule, additional information unique to each civil penalty action. 
+Some urged publication of an analysis of aggravating and mitigating 
+factors in each case; others urged that we describe what the affected 
+entity could have done to avoid the incident. With respect to 
+settlements, one commenter urged that OFAC explain why it decided to 
+settle a case rather than pursue a penalty. At this time, OFAC does not 
+intend to release these types of information on a regular basis as part 
+of the implementation of this rule. Some of this information would be 
+privileged, and in each case preparing detailed additional information 
+would encumber the prompt and efficient implementation of this rule.
+    Other Comments. OFAC received a wide variety of other comments, 
+including suggestions that OFAC develop free compliance software for 
+banks, add a ``frequently asked questions'' section to its website, and 
+publish its internal civil penalties guidelines. These matters are not 
+addressed in the final rule because they are outside the scope of this 
+rulemaking. We note, however, that OFAC's website does include a 
+``frequently asked questions'' section <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a> and 
+that OFAC's enforcement guidelines are due to be published in the 
+Federal Register in the near future.
+
+Electronic Availability
+
+    This document is available as an electronic file on The Federal 
+Bulletin Board the day of publication in the Federal Register. By 
+modem, dial 202/512-1387 and type ``/GO FAC,'' or call 202/512-1530 for 
+disk or paper copies. This file is available for downloading without 
+charge in ASCII and Adobe Acrobat7 readable (*.PDF) formats. For 
+Internet access, the address for use with the World Wide Web, Telnet, 
+or FTP protocol is <a href="http://fedbbs.access.gpo.gov">fedbbs.access.gpo.gov</a>.
+    This document and additional information concerning OFAC are 
+available from OFAC's website <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a> or via 
+facsimile through OFAC's 24-hour fax-on-demand service, tel: 202/622-
+0077. Comments on this proposed rule may be viewed electronically via 
+OFAC's website.
+
+Regulatory Flexibility Act, Paperwork Reduction Act, and Executive 
+Order 12866
+
+    Pursuant to the Regulatory Flexibility Act, 5 U.S.C. 601 et seq., 
+it is hereby certified that this final rule will not have a significant 
+economic impact on a substantial number of small entities. The rule 
+imposes no regulatory burdens on the public and simply announces that 
+OFAC will publicly release certain information about civil penalties 
+imposed and informal settlements. Accordingly, no regulatory 
+flexibility analysis is required.
+    The Paperwork Reduction Act does not apply because the rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq. A regulatory assessment is not required because this rule is not a 
+``significant regulatory action'' as defined in Executive Order 12866.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Penalties, Reporting and 
+recordkeeping requirements.
+
+    For the reasons set forth in the preamble, 31 CFR Part 501 is 
+amended as follows:
+
+PART 501--REPORTING AND PROCEDURES REGULATIONS
+
+    1. The authority citation continues to read as follows:
+
+    Authority: 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 31 U.S.C. 
+321(b); 50 U.S.C. 1701-1706; 50 U.S.C. App. 1-44.
+
+
+    2. Section 501.805 is amended by adding paragraph (d) to read as 
+follows:
+
+
+Sec.  501.805  Rules governing availability of information.
+
+* * * * *
+    (d) Certain Civil Penalties Information. (1) After the conclusion 
+of a civil penalties proceeding that results in either the imposition 
+of a civil monetary penalty or an informal settlement, OFAC shall make 
+available to the public certain information on a routine basis, not 
+less frequently than monthly, as follows:
+    (i) In each such proceeding against an entity, OFAC shall make 
+available to the public
+    (A) The name and address of the entity involved,
+    (B) The sanctions program involved,
+    (C) A brief description of the violation or alleged violation,
+    (D) A clear indication whether the proceeding resulted in an 
+informal settlement or in the imposition of a penalty,
+    (E) An indication whether the entity voluntarily disclosed the 
+violation or alleged violation to OFAC, and
+    (F) The amount of the penalty imposed or the amount of the agreed 
+settlement.
+    (ii) In such proceedings against individuals, OFAC shall release on 
+an aggregate basis
+    (A) The number of penalties imposed and informal settlements 
+reached,
+    (B) The sanctions programs involved,
+    (C) A brief description of the violations or alleged violations,
+    (D) A clear indication whether the proceedings resulted in informal 
+settlements, in the imposition of penalties, or in administrative 
+hearing requests pursuant to the Trading With the Enemy Act (TWEA), 50 
+U.S.C. 5(b), and
+    (E) The amounts of the penalties imposed and the amounts of the 
+agreed settlements.
+
+[[Page 6823]]
+
+    (2) The medium through which information will be released is OFAC's 
+website at <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>.
+    (3) The information made available pursuant to paragraph (d)(1) of 
+this section shall not include the following:
+    (i) The name of any violator or alleged violator who is an 
+individual.
+    (ii) Records or information obtained or created in the 
+implementation of part 598 of this chapter.
+    (4) On a case-by-case basis, OFAC may release additional 
+information concerning a particular civil penalties proceeding.
+
+    Dated: January 10, 2003.
+R. Richard Newcomb,
+Director, Office of Foreign Assets Control.
+    Approved: January 14, 2003.
+Kenneth E. Lawson,
+Assistant Secretary (Enforcement), Department of the Treasury.
+[FR Doc. 03-3310 Filed 2-6-03; 11:32 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

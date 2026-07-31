@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1995/03/15/95-6394.txt",
+  "fetched_at": "2026-07-30T14:10:12.540970+00:00",
+  "sha256": "c8126363cb6dc40c1468a056981490aaf0fcc0f4612ddaf43d78f85cb00832bc",
+  "content_type": "text/plain",
+  "filename": "95-6394.txt"
+}

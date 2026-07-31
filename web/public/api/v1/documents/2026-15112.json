@@ -1,0 +1,180 @@
+{
+  "document_number": "2026-15112",
+  "document_title": "Updating Website and Contact Information, and Authorizations for Payments for Legal Services",
+  "document_url": "https://www.federalregister.gov/documents/2026/07/27/2026-15112/updating-website-and-contact-information-and-authorizations-for-payments-for-legal-services",
+  "document_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+  "accepted_count": 7,
+  "rejected_count": 1,
+  "total_chars": 54116,
+  "extracted_chars": 54116,
+  "claims": [
+    {
+      "claim_id": "62097a728753eab1",
+      "document_number": "2026-15112",
+      "quote": "An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information unless the collection of information displays a valid control number.",
+      "obligation_type": "prohibition",
+      "affected_party": "agency, person",
+      "summary": "An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information unless the collection of information displays a valid control number.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4148,
+      "end": 4330,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "a5d37d2a9c4a0705",
+      "document_number": "2026-15112",
+      "quote": "If a submitter can provide evidence of unique and extraordinary circumstances that would not allow the submitter to report electronically, such as lack of access to the internet, the submitter may request to submit reports in an alternative manner by contacting OFAC at <a href=\"/cdn-cgi/l/email-protection#38777e797b6a5d48574a4c784c4a5d594b4d4a41165f574e\"><span class=\"__cf_email__\" data-cfemail=\"f8b7beb9bbaa9d88978a8cb88c8a9d998b8d8a81d69f978e\">[email&#160;protected]</span></a>.",
+      "obligation_type": "requirement",
+      "affected_party": "submitter",
+      "summary": "If a submitter can provide evidence of unique and extraordinary circumstances that would not allow the submitter to report electronically, such as lack of access to the internet, the submitter may request to submit reports in an alternative manner by contacting OFAC.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 5772,
+      "end": 6258,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "9994c5cba4157458",
+      "document_number": "2026-15112",
+      "quote": "If a submitter can provide evidence of unique and extraordinary circumstances that would not allow the submitter to use ORS, such as lack of access to the internet, the submitter may request to submit reports in an alternative manner by contacting OFAC at <a href=\"/cdn-cgi/l/email-protection#c8878e898b9aadb8a7babc88bcbaada9bbbdbab1e6afa7be\"><span class=\"__cf_email__\" data-cfemail=\"a5eae3e4e6f7c0d5cad7d1e5d1d7c0c4d6d0d7dc8bc2cad3\">[email&#160;protected]</span></a>.",
+      "obligation_type": "requirement",
+      "affected_party": "submitter",
+      "summary": "If a submitter can provide evidence of unique and extraordinary circumstances that would not allow the submitter to use ORS, such as lack of access to the internet, the submitter may request to submit reports in an alternative manner by contacting OFAC.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 6455,
+      "end": 6927,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "29d8c133e4953a1a",
+      "document_number": "2026-15112",
+      "quote": "Inquiries regarding any such order should be directed to OFAC at <a href=\"https://ofac.treasury.gov/contact-ofac\">https://ofac.treasury.gov/contact-ofac</a>.",
+      "obligation_type": "reporting",
+      "affected_party": "any party",
+      "summary": "Parties must direct inquiries regarding orders to OFAC at the specified contact link.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 7893,
+      "end": 8051,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "b4796ad1c0aa82b2",
+      "document_number": "2026-15112",
+      "quote": "U.S. persons who receive payments pursuant to paragraph (a) of this section must retain for ten years from the date of the relevant payment, and furnish to OFAC on demand, a record that specifies the following for each payment: (1) The individual or entity from whom the funds originated and the amount of funds received; and (2) If applicable: (i) The names of any individuals or entities providing related services to the U.S. person receiving payment in connection with authorized legal services, such as private investigators or expert witnesses; (ii) A general description of the services provided; and (iii) The amount of funds paid in connection with such services.",
+      "obligation_type": "recordkeeping",
+      "affected_party": "U.S. persons",
+      "summary": "U.S. persons who receive payments under this section must retain records for ten years and furnish them to OFAC upon demand.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 13512,
+      "end": 14211,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "98fda0a33f92e088",
+      "document_number": "2026-15112",
+      "quote": "financial institutions are instructed to reject any funds transfer referencing a blocked vessel and must notify OFAC through the OFAC Reporting System, available on OFAC's website, <a href=\"https://ofac.treasury.gov/ofac-reporting-system\">https://ofac.treasury.gov/ofac-reporting-system</a>, with a copy of the payment instructions, that funds have been returned to remitter due to the possible involvement of a blocked vessel in the underlying transaction.",
+      "obligation_type": "reporting",
+      "affected_party": "financial institutions",
+      "summary": "Financial institutions must reject funds transfers referencing blocked vessels and notify OFAC through the OFAC Reporting System with a copy of the payment instructions.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 52834,
+      "end": 53296,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "d978adf936f339bb",
+      "document_number": "2026-15112",
+      "quote": "financial institutions should contact OFAC at <a href=\"https://ofac.treasury.gov/contact-ofac\">https://ofac.treasury.gov/contact-ofac</a> for further instructions should the name of a blocked vessel appear in shipping documents presented under a letter of credit or if noticed in a documentary collection.",
+      "obligation_type": "reporting",
+      "affected_party": "financial institutions",
+      "summary": "Financial institutions should contact OFAC for further instructions if the name of a blocked vessel appears in shipping documents under a letter of credit or documentary collection.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    },
+    {
+      "claim_id": "8fc411001b5c8e67",
+      "document_number": "2026-15112",
+      "quote": "Freight forwarders and shippers may not charter, book cargo on, or otherwise deal with blocked vessels.",
+      "obligation_type": "prohibition",
+      "affected_party": "freight forwarders and shippers",
+      "summary": "Freight forwarders and shippers may not charter, book cargo on, or otherwise deal with blocked vessels.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 53740,
+      "end": 53844,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "754a969bd9e414ec092c57e012a327369eb896efe0a03fc595ee1ba899802895"
+      }
+    }
+  ]
+}

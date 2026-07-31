@@ -4,16 +4,54 @@ import hashlib
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
+import httpx
 import pytest
 
 from reglens.config import Settings
+from reglens.ingest.allowlist import DisallowedSourceError
 from reglens.ingest.snapshot import read_manifest
 from reglens.ingest.uscode import (
     extract_sections,
     fetch_title_zip,
+    recheck_redirects,
     snapshot_sections,
     title_zip_url,
 )
+
+ALLOWED_ORIGIN = "https://uscode.house.gov/download/releasepoints/us/pl/119/102/x.zip"
+
+
+def _redirect_to(location: str) -> httpx.Response:
+    """A 302 shaped exactly as httpx presents it to a response event hook.
+
+    ``next_request`` is deliberately left unset: httpx has not populated it when
+    response hooks run, which is precisely the condition that once made the
+    allow-list re-check a silent no-op.
+    """
+    return httpx.Response(
+        302,
+        headers={"Location": location},
+        request=httpx.Request("GET", ALLOWED_ORIGIN),
+    )
+
+
+def test_recheck_redirects_refuses_a_hop_off_the_allowlist() -> None:
+    with pytest.raises(DisallowedSourceError):
+        recheck_redirects(_redirect_to("https://evil.invalid/payload.zip"))
+
+
+def test_recheck_redirects_resolves_relative_locations() -> None:
+    """A relative Location must be resolved against the origin, not skipped."""
+    recheck_redirects(_redirect_to("/download/releasepoints/us/pl/119/102/other.zip"))
+
+    with pytest.raises(DisallowedSourceError):
+        recheck_redirects(_redirect_to("//evil.invalid/payload.zip"))
+
+
+def test_recheck_redirects_ignores_non_redirects() -> None:
+    ok = httpx.Response(200, request=httpx.Request("GET", ALLOWED_ORIGIN))
+    recheck_redirects(ok)
+
 
 USLM_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
 <uscDoc xmlns="http://xml.house.gov/schemas/uslm/1.0">

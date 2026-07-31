@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>Federal Register, Volume 63 Issue 18 (Wednesday, January 28, 1998)</title>
+</head>
+<body><pre>[Federal Register Volume 63, Number 18 (Wednesday, January 28, 1998)]
+[Rules and Regulations]
+[Pages 4185-4187]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 98-1958]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds (Department of the Treasury Circular, Public Debt Series No. 
+1-93)
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury'' or 
+``Department'') is issuing in final form an amendment to 31 CFR Part 
+356 (Uniform Offering Circular for the Sale and Issue of Marketable 
+Book-Entry Treasury Bills, Notes, and Bonds). This final rule 
+incorporates a change in the timeframe for certain restrictions 
+pertaining to bidders that bid noncompetitively in Treasury auctions. 
+The amendment states that between the date of the offering announcement 
+and the time of the official announcement by the Department of the 
+auction results, a noncompetitive bidder may not hold, at any time, a 
+position for its own account in when-issued trading or in futures or 
+forward contracts in the security being auctioned or enter into any 
+agreement to purchase or sell or otherwise dispose of the securities it 
+is acquiring in the auction.
+
+EFFECTIVE DATE: January 28, 1998.
+
+ADDRESSES: This final rule is available for downloading from the Bureau 
+of the Public Debt's Internet site at the following address: 
+<a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>. It is also available for public inspection 
+and copying at the Treasury Department Library, FOIA Collection, Room 
+5030, Main Treasury Building, 1500 Pennsylvania Avenue, N.W., 
+Washington, D.C., 20220. Persons wishing to visit the library should 
+call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Kerry Lanham (Acting Director) or Lee 
+Grandy (Government Securities Specialist), Bureau of the Public Debt, 
+Government Securities Regulations Staff, (202) 219-3632.
+
+SUPPLEMENTARY INFORMATION: 31 CFR Part 356, also referred to as the 
+uniform offering circular, sets out the terms and conditions for the 
+sale and issuance by the Department of the Treasury to the public of 
+marketable Treasury bills, notes, and bonds. The uniform offering 
+circular, in conjunction with offering announcements, represents a 
+comprehensive statement of those terms
+
+[[Page 4186]]
+
+and conditions. <SUP>1</SUP> This final rule amends paragraph 
+356.12(b)(2), ``Additional restrictions,'' and is applicable to bidders 
+bidding noncompetitively for their own account in Treasury security 
+auctions.
+---------------------------------------------------------------------------
+
+    \1\ The uniform offering circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR Part 356.
+---------------------------------------------------------------------------
+
+    The current rule under paragraph 356.12(b)(2) provides that a 
+bidder may not bid noncompetitively for its own account if, in the 
+security being auctioned, it holds or has held a position in when-
+issued trading or in futures or forward contracts at any time between 
+the date of the offering announcement and the designated closing time 
+for the receipt of competitive tenders in the auction. Further, the 
+paragraph provides that prior to the designated closing time for 
+receipt of competitive bids a noncompetitive bidder may not enter into 
+any agreement to purchase or sell or otherwise dispose of the 
+securities it is acquiring in the auction.
+    The noncompetitive bidding option's objective is to achieve a 
+broader distribution of Treasury securities by allowing relatively 
+small investors, who may not have current market information, to 
+participate successfully in Treasury auctions by providing assurance 
+that they can obtain a limited amount of securities without 
+competition. As stated in the January 1992 Joint Report on the 
+Government Securities Market (``Joint Report''), noncompetitive bidding 
+allows the small investor to purchase securities at a current market 
+yield by eliminating the risk that a prospective investor might bid a 
+yield that is too high and not obtain the securities desired or might 
+bid a yield that is too low and pay too much for the securities. 
+<SUP>2</SUP> The restriction on noncompetitive bidders under current 
+paragraph 356.12(b)(2), which is discussed above, is directed at 
+limiting the noncompetitive bidding option to small, less sophisticated 
+bidders.
+---------------------------------------------------------------------------
+
+    \2\ Department of the Treasury, Securities and Exchange 
+Commission, and Board of Governors of the Federal Reserve System, 
+Joint Report on the Government Securities Market, (January 1992), p. 
+A-2.
+---------------------------------------------------------------------------
+
+    The noncompetitive bidding option is not intended to be used as a 
+substitute for competitive bidding, which is available to all 
+investors. The Joint Report referenced several instances of investors 
+using noncompetitive awards for what appeared to be arbitrage purposes 
+that went against the spirit of the noncompetitive award system. 
+<SUP>3</SUP>
+---------------------------------------------------------------------------
+
+    \3\ See supra note 2, at p. B-50.
+---------------------------------------------------------------------------
+
+    The Department has reexamined the situation where bidders bid 
+noncompetitively for their own accounts in an auction and also enter 
+into positions in the security being auctioned in the when-issued, 
+futures, or forward markets, and has determined that further tightening 
+of the noncompetitive bidding restriction is necessary. The Department 
+views a bidder in an auction who enters into a position in the when-
+issued or futures or forward markets in the same security being 
+auctioned, prior to the time of Treasury's announcement of the auction 
+results as a sophisticated bidder who should be bidding competitively, 
+not noncompetitively.
+    Accordingly, paragraph 356.12(b)(2) of the uniform offering 
+circular is amended to state that between the date of the offering 
+announcement and the time of the official announcement by the 
+Department of the auction results, a noncompetitive bidder may not 
+hold, at any time, a position for its own account in when-issued 
+trading or in futures or forward contracts in the security being 
+auctioned or enter into any agreement to purchase or sell or otherwise 
+dispose of the securities it is acquiring in the auction. The amended 
+paragraph now also states that, for purposes of this paragraph, futures 
+contracts include those: (i) that require delivery of the specific 
+security being auctioned; (ii) for which the security being auctioned 
+is one of several securities that may be delivered; or (iii) that are 
+cash-settled.
+    The Department notes that for the purposes of amended paragraph 
+356.12(b)(2), the meaning of ``futures contracts'' is different, and 
+significantly broader, than it is for the net long position calculation 
+purposes pursuant to paragraph 356.13(b) of this part. For net long 
+position reporting purposes, ``futures contracts'' encompass only those 
+contracts that require delivery of the specific security being 
+auctioned. The different meanings of ``futures contracts'' in 
+paragraphs 356.12(b) and 356.13(b) reflect the different objectives of 
+the two provisions. The net long position reporting requirement in 
+section 356.13 is used to enforce Treasury's policy that no bidder in 
+an auction of a particular security will have acquired more than 35 
+percent of the amount awarded to the public and, accordingly, the focus 
+is on control of the specific security being auctioned. This results in 
+a narrower approach by excluding futures contracts that are cash-
+settled and those requiring delivery of securities other than the 
+specific security being auctioned, since these two types of contracts 
+do not constitute control of the specific security being auctioned. In 
+contrast, the restrictions on noncompetitive bidders at paragraph 
+356.12(b)(2) are intended to limit the noncompetitive bidding option to 
+small, less sophisticated bidders, and therefore, the restrictions 
+encompass a broader range of positions in futures contracts.
+    The modifications to paragraph 356.12(b)(2) extend the applicable 
+deadline for this noncompetitive bidding restriction to the time of the 
+announcement of the auction results, which is later than the designated 
+closing time for receipt of competitive tenders in an auction. After 
+the conclusion of an auction, the Department makes an official 
+announcement of the auction results through a press release. Once 
+Treasury announces the auction results, the various electronic 
+financial wire services (e.g., Dow Jones, Reuters, Bloomberg, Bridge 
+News, Associated Press) quickly disseminate this information, as do 
+other major news and financial publications. Thus, a noncompetitive 
+bidder that wants to know if the auction results have been announced 
+can check for the results over various electronic wire services. Once 
+the official announcement by the Department of the auction results is 
+released, noncompetitive bidders in that particular auction may enter 
+into positions in when-issued trading or in futures or forward 
+contracts for the security just auctioned or may enter into agreements 
+to purchase or sell or otherwise dispose of the securities acquired in 
+the auction.
+    The Department also notes that paragraph 356.15(b) of the uniform 
+offering circular, which sets out the terms of bidding through 
+investment advisers, provides that regardless of whether the bid for a 
+controlled account is in the name of the investment adviser or in the 
+name of the controlled account, the account is subject to the 
+noncompetitive bidding restrictions contained in paragraph 356.12(b). 
+This means that the changes contained in this amendment to the uniform 
+offering circular apply to bidders in an auction that are bidding 
+noncompetitively through an investment adviser, as well as all other 
+noncompetitive bidders in the auction.
+
+Procedural Requirements
+
+    This final rule does not meet the criteria for a ``significant 
+regulatory action'' pursuant to Executive Order 12866.
+    Because this rule relates to public contracts and procedures for 
+United States securities, the notice, public comment, and delayed 
+effective date
+
+[[Page 4187]]
+
+provisions of the Administrative Procedure Act are inapplicable, 
+pursuant to 5 U.S.C. 553(a)(2).
+    As no notice of proposed rulemaking is required, the provisions of 
+the Regulatory Flexibility Act (5 U.S.C. 601, et seq.) do not apply.
+    There is no new collection of information contained in this final 
+rule, and, therefore, the Paperwork Reduction Act does not apply. The 
+collections of information of 31 CFR Part 356 have been previously 
+approved by the Office of Management and Budget under section 3507(d) 
+of the Paperwork Reduction Act of 1995 (44 U.S.C. Chapter 35) under 
+control number 1535-0112. Under this Act, an agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid OMB control number.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons set forth in the preamble, 31 CFR chapter II, 
+subchapter B, part 356, is amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+    2. Section 356.12 is amended by revising paragraph (b)(2) to read 
+as follows:
+
+
+Sec. 356.12  Noncompetitive and competitive bidding.
+
+* * * * *
+    (b) * * *
+    (2) Additional restrictions. Between the date of the offering 
+announcement and the time of the official announcement by the 
+Department of the auction results, a noncompetitive bidder may not 
+hold, at any time, a position for its own account in when-issued 
+trading or in futures or forward contracts in the security being 
+auctioned or enter into any agreement to purchase or sell or otherwise 
+dispose of the securities it is acquiring in the auction. For purposes 
+of this paragraph, futures contracts include those:
+    (i) That require delivery of the specific security being auctioned;
+    (ii) For which the security being auctioned is one of several 
+securities that may be delivered; or
+    (iii) That are cash-settled.
+* * * * *
+    Dated: January 21, 1998.
+Donald V. Hammond,
+Acting Fiscal Assistant Secretary.
+[FR Doc. 98-1958 Filed 1-27-98; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

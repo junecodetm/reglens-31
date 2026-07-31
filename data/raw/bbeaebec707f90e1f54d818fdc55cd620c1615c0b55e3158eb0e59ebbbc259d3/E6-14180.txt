@@ -1,0 +1,828 @@
+<html>
+<head>
+<title>Federal Register, Volume 71 Issue 165 (Friday, August 25, 2006)</title>
+</head>
+<body><pre>
+[Federal Register Volume 71, Number 165 (Friday, August 25, 2006)]
+[Rules and Regulations]
+[Pages 50341-50347]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E6-14180]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AB67
+
+
+Terrorism Risk Insurance Program; TRIA Extension Act 
+Implementation
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this rule 
+in final form as part of its implementation of amendments made to Title 
+I of the Terrorism Risk Insurance Act of 2002 (TRIA or Act) by the 
+Terrorism Risk Insurance Extension Act of 2005 (Extension Act). The Act 
+established a temporary Terrorism Risk Insurance Program (Program) that 
+was scheduled to expire on December 31, 2005, under which the Federal 
+Government shared the risk of insured losses from certified acts of 
+terrorism with commercial property and casualty insurers. The Extension 
+Act extends the Program through December 31, 2007, and makes other 
+changes which are implemented by this rule. In particular, the rule 
+addresses changes to the types of commercial property and casualty 
+insurance covered by the Act, the requirements to satisfy the Act's 
+mandatory availability (``make available'') provision and the operation 
+of the new ``Program Trigger'' provision in section 103(e)(1)(B) of the 
+Act. Treasury published an interim final rule and a cross-referenced 
+proposed rule with a request for comment on May 11, 2006. This final 
+rule finalizes the proposed rule by adopting the text of the interim 
+final rule without revision.
+
+DATES: This final rule is effective September 25, 2006.
+
+FOR FURTHER INFORMATION CONTACT: Howard Leikin, Deputy Director, 
+Terrorism Risk Insurance Program, (202) 622-6770 (not a toll-free 
+number).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+A. Terrorism Risk Insurance Act of 2002
+
+    On November 26, 2002, the President signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and 
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving state 
+insurance regulation and consumer protections.
+    Title I of the Act establishes a temporary federal program of 
+shared public and private compensation for insured commercial property 
+and casualty losses resulting from an act of terrorism which, as 
+defined by the Act, is certified by the Secretary of the Treasury, in 
+concurrence with the Secretary of State and the Attorney General. The 
+Act authorizes Treasury to administer and implement the Terrorism Risk 
+Insurance Program (Program), including the issuance of regulations and 
+procedures.
+    Each entity that meets the Act's definition of insurer (well over 
+2,000 firms) must participate in the Program. The amount of federal 
+payment for an insured loss resulting from an act of terrorism is 
+determined by insurance company deductibles and excess loss sharing 
+with the Federal Government as specified in the Act and Treasury's 
+implementing regulations. An insurer's deductible increases each year 
+of the Program and in Program Year 5, so does its share of the losses 
+in excess of the deductible, thereby reducing the Federal Government's 
+share of compensation for insured losses each year until the Program 
+expires. An insurer's deductible is calculated based on the value of 
+direct earned premiums collected over certain prescribed calendar 
+periods. Once an insurer has met its individual deductible, the federal 
+payments cover a percentage of the insured losses above the deductible, 
+subject to an industry aggregate limit of $100 billion.
+    The Act gives Treasury authority to recoup federal payments made 
+under the Program through policyholder surcharges, up to a maximum 
+annual limit. The Act reduces the Federal share of compensation for 
+insured losses that have been covered under any other federal program. 
+The Act also contains provisions designed to manage litigation arising 
+from or relating to a certified act of terrorism. Section 107 of the 
+Act creates an exclusive federal cause of action, provides for claims 
+consolidation in federal court, and contains a prohibition on federal 
+payments for punitive damages under the Program. The Act provides the 
+United States with the right of subrogation with respect to any payment 
+or claim paid by the United States under the Program.
+
+B. Terrorism Risk Insurance Extension Act of 2005
+
+    The Program was originally set to expire on December 31, 2005. On 
+December 22, 2005, the President signed into law the Terrorism Risk 
+Insurance Extension Act of 2005 (Pub. L. 109-144, 119 Stat. 2660), 
+which extends the Program through December 31, 2007. In doing so, the 
+Extension Act adds Program Year 4 (January 1-December 31, 2006) and 
+Program Year 5 (January 1-December 31, 2007) to the Program. In 
+addition, the Extension Act made other significant changes to TRIA that 
+include:
+    <bullet> A revised definition of ``insurer deductible'' that adds 
+new Program Years 4 and 5 to the definition. The insurer deductible is 
+set as the value of an insurer's direct earned premium for commercial 
+property and casualty insurance (as now defined in the Act) over the 
+immediately preceding calendar year multiplied by 17.5 percent for 
+Program Year 4 and by 20 percent for Program Year 5.
+    <bullet> A revised definition of ``property and casualty 
+insurance'' that now excludes commercial automobile insurance; burglary 
+and theft insurance;
+
+[[Page 50342]]
+
+surety insurance; professional liability insurance; and farmowners 
+multiple peril insurance. Though the definition excludes professional 
+liability insurance, it explicitly retains directors and officers 
+liability insurance.
+    <bullet> Creation of a new Program Trigger for any certified act of 
+terrorism occurring after March 31, 2006, that prohibits payment of 
+Federal compensation by Treasury unless the aggregate industry insured 
+losses resulting from that act of terrorism exceed $50 million for 
+Program Year 4 and $100 million for Program Year 5.
+    <bullet> A change to the Federal share of compensation for insured 
+losses. Subject to the Program Trigger, the Federal share is 90 percent 
+of that portion of the amount of insured losses that exceeds the 
+applicable insurer deductible in Program Year 4 and decreases to 85 
+percent of such amount in Program Year 5.
+    <bullet> Revisions to the recoupment provisions. For purposes of 
+recouping the Federal share of compensation under the Act, the 
+insurance marketplace aggregate retention amount for the two additional 
+years of the Program is increased from the level in Program Year 3. For 
+Program Year 4 the insurance marketplace aggregate retention amount is 
+established as the lesser of $25 billion and the aggregate amount, for 
+all insurers, of insured losses during Program Year 4. The insurance 
+marketplace aggregate retention amount for Program Year 5 is the lesser 
+of $27.5 billion and the aggregate amount, for all insurers, of insured 
+losses during Program Year 5.
+    <bullet> A statutory codification of Treasury's litigation 
+management regulatory requirements in Sec.  50.82 of title 31 of the 
+Code of Federal Regulations (as in effect on July 28, 2004), which 
+requires advance approval by Treasury of proposed settlements of 
+certain causes of action involving insured losses under the Program.
+
+C. The Interim Final Rule
+
+    The interim final rule was published in the Federal Register at 71 
+FR 27564 (May 11, 2006) with a cross-referenced proposed rule published 
+at 71 FR 27573 that would adopt the text of the interim final rule as 
+final. References in the following discussion are to the interim final 
+rule. The interim final rule incorporated certain changes to 31 CFR 
+part 50 required by the amendments to TRIA in the Extension Act, which 
+extended the Program by two years, to December 31, 2007. The changes in 
+the rules included new insurer deductible amounts for each of those 
+Program Years, the extension of mandatory availability requirements, 
+the deletion of certain types of insurance from the definition of 
+property and casualty insurance, and a continued safe harbor for the 
+use of model disclosure forms. The interim final rule also incorporated 
+and clarified statutory changes to the determination of the Federal 
+share of compensation, taking into account the new Program Trigger.
+    This final rule, and the preceding interim final rule, reflect 
+interim guidance previously issued by Treasury in a notice published in 
+the Federal Register on January 5, 2006 (71 FR 648), in order to assist 
+insurers, policyholders, and other interested parties in complying with 
+immediately applicable requirements of the Extension Act. Treasury 
+consulted with the National Association of Insurance Commissioners 
+(NAIC) in developing the interim final rule and has carefully 
+considered the comments submitted in finalizing the interim final rule.
+
+II. Summary of Comments and Final Rule
+
+    Treasury received four comments on the interim final rule.\1\ 
+Comments were submitted by a farm mutual insurer, an insurance company, 
+a farm mutual reinsurer and an insurance industry trade association. 
+The comments raised issues in two areas--farm owners multiple peril 
+insurance and umbrella and excess policies. In addition, one comment 
+commended the Terrorism Risk Insurance Program for addressing issues in 
+the earlier interim guidance that had required clarification. After 
+review and consideration of the comments, Treasury is now promulgating 
+a final rule implementing the Extension Act changes to TRIA. The final 
+rule makes no changes to the interim final rule, but the preamble 
+provides some clarification in response to the issues raised in the 
+comments. The following discussion also summarizes the provisions of 
+the interim final, and now final, rule.\1\
+---------------------------------------------------------------------------
+
+    \1\ We also received one comment from a group of farm mutual 
+insurers after the close of the comment period. We note that this 
+comment raised the same issues contained in one of the four other 
+comments. These issues were addressed in this final rule.
+---------------------------------------------------------------------------
+
+A. Definitions (Sec.  50.5)
+
+    The interim final rule incorporated revised definitions for insurer 
+deductible, Program Years, and property and casualty insurance. The 
+rule also added definitions for professional liability insurance and 
+Program Trigger event.
+    The revisions to the definitions for insurer deductible and Program 
+Years implemented the Extension Act's addition of Program Years 4 
+(calendar year 2006) and 5 (calendar year 2007) and the percentages to 
+be applied to an insurer's direct earned premium for the immediately 
+preceding calendar year in computing insurer deductibles for Program 
+Year 4 (17.5 percent) and Program Year 5 (20 percent).
+    Section 102(12) of TRIA was also amended to exclude additional 
+types of insurance from the definition of property and casualty 
+insurance under the Program. The Act now excludes from the definition 
+commercial automobile insurance, burglary and theft insurance, surety 
+insurance, professional liability insurance (but not directors and 
+officers insurance), and farmowners multiple peril insurance. To the 
+extent the newly excluded types of insurance represent specific lines 
+of business on the NAIC Annual Statement, Treasury is continuing to 
+utilize NAIC line of business definitions in implementing the Act. The 
+newly excluded types of insurance which may correspond to lines of 
+business on the NAIC Annual Statement are: Line 3--Farmowners Multiple 
+Peril; Line 19.3--Commercial Auto No-Fault (personal injury 
+protection); Line 19.4--Other Commercial Auto Liability; Line 21.2--
+Commercial Auto Physical Damage; Line 26--Burglary and Theft; and Line 
+24--Surety. In addition, the interim final rule made clear that these 
+types of insurance are excluded from the definition of property 
+casualty insurance, regardless of how their premiums may be reported.
+    The only type of insurance that is newly excluded from the 
+definition of property and casualty insurance in the Act, but is not a 
+specific line of business on the NAIC Annual Statement, is professional 
+liability insurance, located in new section 102(12)(xi). In the interim 
+final rule, Treasury provided the following definition of 
+``professional liability insurance'':
+    Professional liability insurance means insurance coverage for 
+liability arising out of the performance of professional or business 
+duties related to a specific occupation, with coverage being tailored 
+to the needs of the specific occupation. Examples include abstracters, 
+accountants, insurance adjusters, architects, engineers, insurance 
+agents and brokers, lawyers, real estate agents, stockbrokers and 
+veterinarians. For purposes of this definition, professional liability 
+insurance does not include directors and officers liability insurance.
+    Insurers are to use this definition in identifying policies 
+excluded from the Program, as well as for satisfying the Act's ``make 
+available'' requirement and determining which policies have
+
+[[Page 50343]]
+
+premiums that should be subtracted from Line 17--Other Liability on the 
+NAIC Annual Statement when computing direct earned premium for Program 
+purposes.
+    This definition is derived from the definition of ``Professional 
+Errors and Omissions Liability'' found in the Uniform Property & 
+Casualty Coding Matrix currently utilized by the System for Electronic 
+Rate and Form Filing (SERFF) sponsored by the NAIC.\2\ However, this 
+definition is not meant to limit insurers to the filing code (17.0019) 
+specified under SERFF for ``Professional Errors and Omissions 
+Liability''. Certainly, policies and coverages that employ the SERFF 
+filing code will meet the interim final rule definition of professional 
+liability insurance. Treasury acknowledges that many insurers and 
+insurance support organizations do not utilize the SERFF mechanism for 
+all their form filings. Thus, the definition in the interim final rule 
+was intended to have a broader application than the SERFF filing 
+process and should not be viewed as limited to one particular SERFF 
+filing code.
+---------------------------------------------------------------------------
+
+    \2\ The Matrix can be found on the NAIC Web site at <a href="http://www.naic.org/industry_home.htm">http://www.naic.org/industry_home.htm</a>.
+---------------------------------------------------------------------------
+
+    Directors and officers liability insurance, which is sometimes 
+considered a type of professional liability insurance, is not included 
+in the definition of professional liability insurance. Section 
+102(12)(A) of the Act now explicitly includes directors and officers 
+liability insurance in the definition of property and casualty 
+insurance. This change does not substantively modify the previous 
+definition of property and casualty insurance under the Act, but is a 
+statutory clarification that directors and officers liability insurance 
+is distinct from professional liability insurance. Premium for 
+directors and officers liability insurance may be already included in 
+Line 17--Other Liability on the NAIC Annual Statement, one of the 
+commercial lines of business listed in Treasury's current regulations 
+defining property and casualty insurance (31 CFR 50.5(n)), if not 
+otherwise excluded. Treasury recommends that insurers consult the 
+definition of ``Directors & Officers Liability'' found in the Uniform 
+Property & Casualty Coding Matrix now being utilized by SERFF if 
+further guidance is needed on what constitutes ``Directors & Officers 
+Liability'' insurance.
+    The Extension Act adds a new section 103(e)(1)(B) to TRIA entitled 
+``Program Trigger.'' This new provision directs the Secretary not to 
+compensate insurers under the Program unless the aggregate industry 
+insured losses from a certified act of terrorism exceed certain insured 
+loss or ``trigger'' amounts.\ 3\To implement this provision, the 
+interim final rule added a new definition for ``Program Trigger 
+event''. Such an event is ``a certified act of terrorism that occurs 
+after March 31, 2006, for which the aggregate industry insured losses 
+resulting from such act exceed $50 million with respect to such insured 
+losses occurring in 2006 and $100 million with respect to such insured 
+losses occurring in 2007.'' Unless an act of terrorism is a Program 
+Trigger event, insured losses from that act of terrorism will not be 
+considered in any determination of or calculation leading to any 
+Federal share of compensation under the Act. The Program Trigger is 
+discussed further in ``E. Federal Share of Compensation'' below.
+---------------------------------------------------------------------------
+
+    \3\ Section 103(e)(1)(B) states: ``In the case of a certified 
+act of terrorism occuring after March 31, 2006, no compensation 
+shall be paid by the Secretary under subsection (a), unless the 
+aggregate industry insured losses resulting from such certified act 
+of terrorism exceed--(i) $50,000,000, with respect to such insured 
+losses occurring in Program Year 4; or (ii) $100,000,000, with 
+respect to such insured losses occurring in Program Year 5.''
+---------------------------------------------------------------------------
+
+Farmowners Multiple Peril Insurance
+    The Extension Act revision to TRIA section 102(12) specifically 
+excludes ``farm owners multiple peril insurance'', a particular type of 
+insurance which is also a specific line of business on the NAIC Annual 
+Statement, from the definition of property and casualty insurance. 
+Prior to the issuance of the interim final rule, insurers asked whether 
+monoline farm insurance coverages are similarly excluded. With no clear 
+guidance in the legislative history of the Extension Act on this issue 
+and, guided by the plain meaning of the statute, Treasury issued the 
+interim final rule based on its interpretation that this exclusion is 
+applicable only to multiple peril coverages insuring farm risks. Single 
+peril or monoline coverages insuring farm risks generally would 
+continue to be evaluated based on the line of business on the NAIC 
+Annual Statement (or equivalent reporting system) where the premiums 
+for such coverages are reported. Thus, if the premiums for such 
+monoline coverages are usually reported, or otherwise allocated, to one 
+of the commercial lines of insurance on the NAIC Annual Statement (or 
+equivalent reporting system), unless otherwise excluded by the Act, the 
+monoline coverage would be treated as falling within the definition of 
+property and casualty insurance under Treasury's regulations.
+    Aware of some concerns with this result on the part of some smaller 
+insurance entities, such as farm and county mutuals, Treasury 
+specifically sought comments on the practical implications of this 
+issue and requested the articulation of a basis for any assertion that 
+monoline coverages are excluded from the Program as part of the 
+farmowners multiple peril exclusion.
+    Three commenters addressed the treatment of ``farm owners multiple 
+peril insurance'' in Treasury's interim final rule.
+    One Texas farm mutual insurer indicated it believed the monoline 
+fire policies the insurer issues for farm risks in Texas ``are 
+residential in nature and not commercial''. Texas farm mutuals 
+generally are precluded from writing commercial insurance. To the 
+extent a farm mutual insurer files an NAIC Annual Statement in Texas 
+(not all farm mutuals file an NAIC Annual Statement), the premium for 
+its monoline fire policies is reported on Line 1--Fire of the NAIC 
+Annual Statement (an included line). But the farm mutual insurer 
+explained that the ``Fire'' line of business in Texas includes both 
+personal and commercial lines. The insurer suggested that ``an argument 
+can be made'' that the Texas Department of Insurance looks upon farm 
+mutual policies as being residential policies and not commercial 
+policies, and that these policies should not be subject to TRIA simply 
+because of the line on which they are required to be reported.
+    A Midwest reinsurer of county and town mutuals also raised concerns 
+about Treasury's interpretation of the meaning of ``farm owners 
+multiple peril''. The reinsurer noted that ``the practical implication 
+of Treasury's interpretation is that inclusion of exposures in the 
+Program is made dependent upon the method by which premium is reported 
+and not with regard to the actual exposure being insured.'' The 
+reinsurer further suggested that Treasury's interpretation of the 
+Extension Act was inconsistent with Treasury's earlier treatment of 
+commercial property and casualty insurance \4\ that ``was based on the 
+exposure insured, not on the method of reporting premium.''
+---------------------------------------------------------------------------
+
+    \4\ See 68 FR 9810.
+---------------------------------------------------------------------------
+
+    The third commenter, which reports all farm policy premium under 
+the farm owners multiple peril line of its Annual Statement, even 
+premium for what might be considered monoline policies,
+
+[[Page 50344]]
+
+requested confirmation that under the rules, because of the way its 
+premium is reported, the policy form it uses would be considered farm 
+owners multiple peril insurance.
+    As noted previously, there is no clear guidance in the legislative 
+history of the Extension Act that suggests the meaning of ``farm owners 
+multiple peril insurance'' should be interpreted broadly to include 
+single peril, or monoline, farmowners insurance. Moreover, ``farm 
+owners multiple peril insurance'' is a specific line of business on the 
+NAIC Statement. Since the inception of the Program, Treasury has used 
+Statutory Page 14 of the NAIC Annual Statement as the ``best available 
+point of reference'' \5\ to define what constitutes commercial property 
+and casualty insurance, also applicable as guidance to insurers that do 
+not report via Statutory Page 14 to the NAIC. Treasury's rules 
+generally define property and casualty insurance in terms of specified 
+lines of business on the NAIC Annual Statement. Insurance for which 
+premiums are reported on an excluded line of business is not included 
+in the Program. Insurance for which premiums are reported on an 
+included line of business is included, unless the particular type of 
+insurance is otherwise excluded by the Act.
+---------------------------------------------------------------------------
+
+    \5\ See 68 FR 41257.
+---------------------------------------------------------------------------
+
+    Treasury believes that its earlier guidance on what constitutes 
+commercial property and casualty insurance is consistent with its more 
+recent interpretation of the Extension Act meaning of ``farm owners 
+multiple peril insurance''. However, the preamble discussion of this 
+issue in the interim final rule was fairly brief and we offer 
+additional discussion below.
+    Treasury has maintained that premium reported on the specified 
+commercial lines on Statutory Page 14 of the NAIC Annual Statement is 
+only considered to be commercial premium subject to the Act ``to the 
+extent coverage provided is for commercial property and casualty 
+exposures'' \6\ (and provided it is not otherwise excluded by the Act). 
+The definition of property and casualty insurance in Sec.  50.5(n)(1) 
+provides, in part, that it means ``commercial lines within'' certain 
+specified lines of insurance. We have specifically noted that personal 
+insurance (insurance primarily designed for personal, family or 
+household purposes) that is reported on one of the specified commercial 
+lines of Statutory Page 14 should be excluded from an insurer's 
+calculation of its direct earned premium.\7\ We have likewise applied 
+this analysis in clarifying what constitutes commercial property and 
+casualty insurance coverage for purposes of paying insured losses and 
+determining compliance with the ``make available'' provision of the 
+Act.
+---------------------------------------------------------------------------
+
+    \6\ See 68 FR 9810.
+    \7\ See Sec.  50.5(d)(1)(ii).
+---------------------------------------------------------------------------
+
+    In applying the foregoing to the farm risks described by the farm 
+mutual commenters, if the premium for a monoline policy written by such 
+insurers is reported on one of the specified commercial lines of 
+Statutory Page 14 of the NAIC Annual Statement (Fire, Allied Lines, 
+etc.), the monoline coverage as a general rule is subject to TRIA. 
+However, if the monoline policy only insures a personal insurance 
+exposure (residential dwelling), or is otherwise excluded by the Act, 
+the policy is not commercial property and casualty insurance within the 
+meaning of the Act and is not subject to the Act. To the extent a 
+monoline policy is a hybrid policy that insures both personal and 
+commercial exposures, farm mutual insurers should look to Treasury's 
+treatment of the direct earned premium for hybrid policies as a guide 
+for how to treat the hybrid policy for other purposes under TRIA 
+(determining claims for insured losses, complying with the ``make 
+available'' provision, etc.).\8\
+---------------------------------------------------------------------------
+
+    \8\ See Sec.  50.5(d).
+---------------------------------------------------------------------------
+
+    Consistent with the Extension Act, the interim final rule excludes 
+farm owners multiple peril insurance from the definition of property 
+and casualty insurance. In response to the commenter that raised the 
+question about its policy form, we note that the interim final rule 
+does not directly address policy forms or how various state regulators 
+treat particular forms for NAIC Annual Statement reporting purposes. 
+Treasury assumes that the forms and reporting practices are appropriate 
+under applicable state law. Whatever treatment is afforded particular 
+policies by insurers in compliance with relevant state law is generally 
+the guide for how such policies are treated under Treasury's 
+regulations for what constitutes commercial property and casualty 
+insurance, unless expressly excluded by the Act. Farm policies for 
+which premiums are reported on the farmowners multiperil line are 
+excluded from the Program.
+    Since the concerns of the three commenters related to ``farm owners 
+multiple peril insurance'' are addressed by applying Treasury's 
+previous rulemaking and guidance, no changes have been made to the 
+definition of property and casualty insurance in section 50.5(n)(2) of 
+the interim final rule.
+
+B. Interim Guidance Safe Harbors (Sec.  50.7)
+
+    Section 50.7 of the current regulations provides that ``[a]n 
+insurer will be deemed to be in compliance with the requirements of the 
+Act to the extent the insurer reasonably relied on Interim Guidance 
+prior to the effective date of applicable regulations.'' The interim 
+final rule added ``Interim Guidance IV issued by Treasury on December 
+29, 2005, and published at 71 FR 648 (January 5, 2006)'' to the list of 
+applicable Interim Guidances.
+
+C. Disclosure (Sec. Sec.  50.12 and 50.17)
+
+    The interim final rule incorporated guidance on compliance with 
+disclosure requirements and revised safe harbor language with regard to 
+the use of NAIC model disclosure forms.
+    The Extension Act continues, as a condition for federal payments 
+under the Act, the existing requirements contained in section 103(b) to 
+provide disclosures ``at the time of offer, purchase, and renewal of 
+the policy''. Some insurers faced certain operational difficulties with 
+regard to policies processed in the latter part of Program Year 3 
+(2005) for issuance or renewal effective in 2006. In some cases, 
+policies were issued or renewed in 2006 in a form that already included 
+coverage for terrorism risks, whether or not TRIA was extended. Because 
+TRIA would have sunset as of December 31, 2005, disclosures were not 
+provided with these policies.
+    The Extension Act made no change to the requirement that 
+disclosures are required as a condition for payment of the Federal 
+share of compensation for insured losses. However, given the late date 
+of enactment of the Extension Act, the interim final rule provided in 
+section 50.12(e) that ``[i]f an insurer made available coverage for 
+insured losses in a new policy or policy renewal in Program Year 3 for 
+coverage becoming effective in Program Year 4, but did not provide a 
+disclosure at the time of offer, purchase or renewal, then the insurer 
+must be able to demonstrate to Treasury's satisfaction that it has 
+provided a disclosure as soon as possible following January 1, 2006.''
+    For an insurer to demonstrate to Treasury's satisfaction that it 
+has provided disclosures as soon as possible following January 1, 2006, 
+Treasury expects that an insurer will have provided disclosures by 30 
+days after publication of the interim final rule in the Federal 
+Register (June 10, 2006), barring unforeseen or unusual
+
+[[Page 50345]]
+
+circumstances. If not completed by that time, an insurer will be 
+expected, when submitting a claim for the Federal share of 
+compensation, to demonstrate why such disclosures could not be made by 
+that date and why the insurer should be deemed to be in compliance with 
+the Act's disclosure requirement.
+    Pursuant to 31 CFR 50.17, insurers that have used NAIC Model 
+Disclosure Forms that were in existence on April 18, 2003, were deemed 
+to satisfy the disclosure requirements of section 103(b)(2) of the Act. 
+Although the Extension Act made no change to the requirements for clear 
+and conspicuous disclosure to policyholders of the premium charged for 
+insured losses covered by the Program and of the Federal share of 
+compensation for insured losses under the Program, revisions were made 
+to the Act that required rewording of the NAIC Model Disclosure Forms. 
+The NAIC has since issued revised Model Disclosure Forms, dated January 
+26, 2006, which if used by insurers, will be deemed to satisfy 
+disclosure requirements of the Act and Treasury regulations. The 
+interim final rule continued the safe harbor approach for use of the 
+most current NAIC Model Disclosure forms deemed by Treasury to meet 
+Program requirements. Insurers may also continue to use other forms to 
+comply with the disclosure requirements.
+
+D. Make Available (Sec. Sec.  50.20 and 50.21)
+
+    For Program Year 4 (Calendar 2006) and Program Year 5 (Calendar 
+2007) insurers are required to continue to ``make available'' coverage 
+for insured losses as required by TRIA and Treasury regulations. 
+Amendments to the ``make available'' requirement in section 103(c) of 
+the Act are simply conforming amendments that continue the requirement 
+through Program Years 4 and 5. Thus, insurers issuing or renewing 
+commercial property and casualty insurance policies in Program Years 4 
+and 5 must continue to offer coverage for insured losses resulting from 
+an act of terrorism, as required by section 103(c) of the Act and 31 
+CFR 50.20 to 50.24, if they wish to have their insured loss claims 
+eligible for the Federal share of compensation in the extended Program 
+Years.
+    In its Interim Guidance IV published on January 5, 2006, Treasury 
+addressed the ``make available'' requirement with regard to the 
+transition from Program Year 3, originally the last year of the 
+Program, to the extended Program Years 4 and 5. In that issuance, 
+Treasury noted that the Extension Act made no changes to the ``make 
+available'' requirement for insurers. Treasury provided guidance on how 
+insurers could comply with Program requirements given operational 
+difficulties arising from the Extension Act passage late in the year.
+    In addition Treasury Interim Guidance IV clarified that no 
+additional ``make available'' offer is required if terrorism coverage 
+for the duration of the policy term was offered for policies issued or 
+renewed in 2005. It also explained how an insurer could comply with 
+``make available'' requirements under the following scenarios where:
+    (1) A policy's terrorism coverage expired on December 31, 2005, but 
+the remainder of the policy continued in force in 2006,
+    (2) A policy did not provide terrorism coverage after December 31, 
+2005, but the policyholder had rejected an offer of terrorism coverage 
+for the portion of the policy term prior to December 31, and
+    (3) A policy renewal or application was processed in 2005 for 
+coverage becoming effective in 2006 and the insurer did not ``make 
+available'' terrorism coverage for Program Year 4 as contemplated by 
+the Extension Act.
+    The interim final rule generally incorporated this interim guidance 
+into the TRIA ``make available'' provisions. Section 50.21(b) was added 
+to address the special Program Year 4 requirements for scenarios (1) 
+and (2) above. For scenarios (1) and (3), where an insurer must make an 
+offer of coverage, section 50.21(d) (formerly 50.21(c)) was amended to 
+provide that the insurer must be able to demonstrate to Treasury's 
+satisfaction that it has provided an offer of coverage for insured 
+losses by January 1, 2006, or as soon as possible following that date. 
+In demonstrating to Treasury's satisfaction that it has provided an 
+offer of coverage for insured losses as soon as possible after January 
+1, 2006, Treasury considers January 31, 2006, to be the latest 
+reasonable date for offers of coverage, barring unforeseen or unusual 
+circumstances. If not provided by January 31, 2006, Treasury would 
+expect an insurer to demonstrate why the offer could not be made by 
+that date when submitting a claim for Federal compensation under the 
+Program.
+    The interim final rule incorporated technical amendments to section 
+50.20 that extend the ``make available'' requirements into Program 
+Years 4 and 5. Section 50.20(c) also provided that ``property and 
+casualty insurance coverage for insured losses does not have to be made 
+available beyond December 31, 2007 (the last day of Program Year 5), 
+even if the policy period of insurance coverage for losses from events 
+other than acts of terrorism extends beyond that date''.
+Umbrella and Excess Policies
+    In the Supplementary Information section of the preamble 
+accompanying the interim final rule, Treasury provided guidance 
+regarding the ``make available'' and disclosure requirements for excess 
+or umbrella liability policies in light of the Extension Act's deletion 
+of certain types of insurance from the definition of property and 
+casualty insurance. The guidance reflected earlier rulemaking and that 
+as a general rule, excess or umbrella liability policies are property 
+and casualty insurance within the meaning of TRIA. Section 102(12)(A) 
+of the Act defines the term ``property and casualty insurance'' as 
+meaning commercial lines of property and casualty insurance ``including 
+excess,'' unless otherwise excluded from the definition under Section 
+102(12)(B). Premiums for commercial excess and umbrella insurance 
+policies are normally reported on Line 17--Other Liability in the NAIC 
+Annual Statement.\9\ Although generally reported on a line which is 
+included in the Program, in interim guidance Treasury advised that 
+excess or umbrella insurance is commercial property and casualty 
+insurance only to the extent it provides coverage above primary or 
+underlying coverage that is a type of insurance included in the 
+Program, and not specifically excluded from the definition of property 
+and casualty insurance itself. However, where the commercial property 
+and casualty coverage segment of an excess or umbrella liability policy 
+is merely incidental to the remaining non-TRIA coverage under the 
+policy, an insurer may treat the entire policy as not providing 
+property and casualty insurance within the meaning of TRIA and 
+Treasury's regulations.\10\ In such elections, the TRIA ``make 
+available'' and disclosure requirements will not apply and no losses 
+from the commercial coverage segment of such policies will be paid by 
+Treasury.
+---------------------------------------------------------------------------
+
+    \9\ See 68 FR 59725.
+    \10\ See 31 CFR 50.5(d)(1)(iii): ``For purposes of the Program, 
+commercial coverage combined with coverages that otherwise do not 
+meet the definition of property and casualty insurance is incidental 
+if less than 25 percent of the total direct premium is for such 
+coverage.''
+---------------------------------------------------------------------------
+
+    One comment submitted by an insurance trade organization requested 
+that Treasury give ``due consideration to the possibility that property 
+casualty insurers, in good faith, might have treated commercial 
+umbrella and excess insurance policies differently under the TRIA 
+Extension than the Federal Register guidance''. As an example, the 
+comment states that, ``as premiums from
+
+[[Page 50346]]
+
+these policies are reported on line 17 of the NAIC annual Statement (a 
+line that is included within the Federal program), insurers could have 
+reasonably assumed that those policies would either be included 
+entirely in the program or that the policies would be included unless 
+there was no possibility of a covered claim from the underlying 
+policy''.
+    Treasury acknowledges that, if an insurer, prior to the publication 
+of the interim final rule, relied on the assumptions in the above 
+example in carrying out its ``make available'' and disclosure 
+obligations (if any) the insurer would be considered to be reasonably 
+compliant with Program requirements. However, in no circumstance can 
+losses associated with an underlying coverage that is excluded from the 
+Program form the basis for a claim for the Federal share of 
+compensation.
+    Commenters asked Treasury to reconsider the position that ``excess 
+or umbrella insurance is commercial property and casualty insurance 
+included in the Program only to the extent it provides coverage above 
+primary or underlying coverage that is a type of insurance included in 
+the Program''. One of these comments suggests that ``this position 
+makes some sense within the insurance context of how umbrella/excess 
+and the underlying coverage are typically consistent, [but] one could 
+also make a case for commercial umbrella/excess being totally included 
+under TRIA--even when written over exempted coverages--if the goal was 
+to make the provisions of TRIA apply as broadly as the law will allow 
+and thus encouraging as much terrorism coverage as possible in the 
+marketplace''.
+    Treasury considered and rejected this alternative prior to issuing 
+the interim final rule. After reconsideration based on the comments, we 
+continue to believe that the better interpretation of the statutory 
+authority and intent, given that the Extension Act restricted the types 
+of insurance included under the Program, is as stated in the preamble 
+to the interim final rule. Therefore, no change is being made to the 
+final rule.
+
+E. Federal Share of Compensation (Sec.  50.50)
+
+    The interim final rule added several provisions to section 50.50 to 
+reflect the addition of the new Program Trigger provision to the Act. 
+Under section 103(a) of TRIA, the Secretary is required to pay the 
+Federal share of compensation for insured losses in accordance with 
+section 103(e) of the Act. The Extension Act amended subsection (e) to 
+provide, in part, that no compensation shall be paid by the Secretary 
+under subsection (a) unless the aggregate industry insured losses from 
+a certified act of terrorism occurring after March 31, 2006, exceed 
+certain amounts. This provision was intended to ensure that there would 
+be no Federal compensation unless the aggregate industry losses from an 
+act of terrorism exceed these amounts.
+    The interim final rule incorporated a technical amendment to 
+renumbered Sec.  50.50(a) (formerly 50.50(d)) to provide that the 
+Federal share of compensation in Program Year 5 shall be ``85 percent 
+of that portion of the insurer's aggregate insured losses that exceed 
+its insurer deductible during Program Year 5,'' (subject to any 
+adjustments in Sec.  50.51 and the cap of $100 billion as provided in 
+section 103(e)(2) of the Act). A new provision was also added to 
+renumbered Sec.  50.50(d) (formerly 50.50(a)) that reiterates, as a 
+condition for Federal compensation for insured losses, a basic 
+insurance principle that, ``[t]he insurer offered the coverage for 
+insured losses and the offer was accepted by the insured prior to the 
+occurrence of the loss''.
+    New Sec.  50.50(b) incorporated the Program Trigger limitations on 
+the amount of Federal compensation payable under the Act. To implement 
+these limitations, Sec.  50.50(g) stated that Treasury will determine 
+the amount of aggregate industry insured losses, and that if the 
+aggregate industry insured losses exceed the applicable Program Trigger 
+amounts, Treasury will publish notice in the Federal Register that the 
+act of terrorism is a Program Trigger event. As noted in the previously 
+issued Interim Guidance, Treasury also expects to provide notification 
+through press releases and postings on the TRIP Web site.
+    Section 50.50(c) clarified that in the provisions dealing with 
+claims procedures, subpart F, insured losses or aggregate insured 
+losses for acts of terrorism after March 31, 2006 will be limited to 
+those insured losses resulting from Program Trigger events. This 
+limitation on insured losses controls any determinations of, or 
+calculations leading to, a Federal share of compensation under the Act 
+including any adjustments of the Federal share, and applies to 
+submissions of an insurer in conjunction with Initial Notices of Loss 
+and Certifications of Loss and payments of the Federal share.
+    The Program Trigger provision also has a direct bearing on which 
+insured losses count towards satisfaction of the insurer deductible. In 
+Program Year 4, and similarly, in Program Year 5, only an insurer's 
+insured losses resulting from Program Trigger events in the year will 
+count towards satisfaction of the insurer deductible.
+
+F. Determination of Affiliations (Sec.  50.55)
+
+    Section 50.55 provides that for the purposes of claims procedures 
+and the determination of the Federal share of compensation ``an 
+insurer's affiliates for any Program Year shall be determined by the 
+circumstances existing on the date of occurrence of the act of 
+terrorism that is the first act of terrorism in a Program Year to be 
+certified by the Secretary for that Program Year.'' The purpose of this 
+regulation, when promulgated in 2005, was to clarify the point in time 
+when insurer affiliations would be determined in order to facilitate 
+the calculation of insurer deductibles and the payments of the Federal 
+share of compensation for Program Years in which affiliations could 
+change over time. Since this has meaning only if there is a potential 
+Federal share of compensation, the interim final rule incorporated an 
+amendment clarifying that if the first certified act of terrorism 
+occurs after March 31, 2006, it must also be a Program Trigger event to 
+be used for determining affiliations under the rule.
+
+G. Federal Cause of Action; Approval of Settlements
+
+    The Extension Act added section 107(a)(6) to TRIA, which provides 
+that procedures and requirements established by the Secretary under 31 
+CFR 50.82, as in effect on the date of issuance of that section in 
+final form [July 28, 2004], shall apply to any Federal cause of action 
+described in section 107(a)(1). This provision was added to new Sec.  
+50.85 of the interim final rule.
+    Section 50.82 of the regulations requires insurers to submit to 
+Treasury for advance approval certain proposed settlements involving an 
+insured loss, any part of the payment of which the insurer intends to 
+submit as part of its claim for federal payment under the Program. 
+Thus, Treasury would not expect insurers to submit any proposed 
+settlement if the insured losses would not be eligible for payment, as 
+would be the case if the losses resulted from a post-March 31, 2006 
+certified act that was not a Program Trigger event. However, if there 
+is uncertainty whether or not a certified act will become a Program 
+Trigger event, an insurer may wish to err on the side of caution and 
+submit a proposed settlement for prior approval in order to preserve 
+any subsequent eligibility for Federal compensation for insured losses 
+under the Program. Otherwise the insured will
+
+[[Page 50347]]
+
+be ineligible for later payment if the Program Trigger is reached.
+
+III. Procedural Requirements
+
+Executive Order 12866, ``Regulatory Planning and Review''
+
+    This final rule is a significant regulatory action and has been 
+reviewed by the Office of Management and Budget under the terms of 
+Executive Order 12866.
+
+Regulatory Flexibility Act
+
+    Pursuant to the Regulatory Flexibility Act, 5 U.S.C. 601 et seq., 
+it is hereby certified that the final rule will not have a significant 
+economic impact on a substantial number of small entities. The final 
+rule implements changes prescribed or authorized by the Extension Act. 
+The Act itself requires all insurers receiving direct earned premium 
+for any type of property and casualty insurance, as defined in the 
+Extension Act, to participate in the Program. This includes all 
+insurers regardless of size or sophistication. The Extension Act also 
+defines property and casualty insurance to mean commercial lines of 
+insurance without any reference to size or scope of the insurer or the 
+insured. The disclosure and ``make available'' requirements are 
+required by the Act. The rule allows all insurers, whether large or 
+small, to use existing systems and business practices to demonstrate 
+compliance. Treasury is required to pay the Federal share of 
+compensation to insurers for insured losses subject to the new Program 
+Trigger provisions in the Act. The requirement that insurers seek 
+advance approval of certain settlements is now required by the Act. Any 
+economic impact associated with the final rule flows from the Extension 
+Act and not the final rule. However, the Act and the Program are 
+intended to provide benefits to the U.S. economy and all businesses, 
+including small businesses, by providing a federal reinsurance backstop 
+to commercial property and casualty insurance policyholders and 
+spreading the risk of insured losses resulting from an act of 
+terrorism. Accordingly, a regulatory flexibility analysis is not 
+required.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, the interim final rule revising 
+subparts A, B, C, F, and I of 31 CFR part 50, which was published at 71 
+FR 27564 on May 11, 2006, is adopted as a final rule without change.
+
+    Dated: August 9, 2006.
+Emil W. Henry, Jr.,
+Assistant Secretary of the Treasury.
+ [FR Doc. E6-14180 Filed 8-24-06; 8:45 am]
+BILLING CODE 4811-37-P
+
+
+</pre></body>
+</html>

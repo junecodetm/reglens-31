@@ -25,11 +25,15 @@ logs/
 # Playwright MCP session artifacts (may contain page snapshots)
 .playwright-mcp/
 
-# EXTEND-OGC01: full USLM title zips are cached, never committed
+# Full USLM title zips are cached, never committed
 data/cache/
+
+# Wrangler local cache/state
+.wrangler/
 
 # TypeScript incremental build artifact
 web/tsconfig.tsbuildinfo
 
 # Stray root re-download of the inventory CSV (canonical copy is content-addressed under data/raw/)
 /Treasury-AI-Use-Case-Inventory.csv
+.dev.vars

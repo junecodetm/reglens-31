@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 29 (Monday, February 14, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 29 (Monday, February 14, 2005)]
+[Rules and Regulations]
+[Pages 7403-7405]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-2810]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-ZA01
+
+
+Terrorism Risk Insurance Program; Technical Amendments to ``Make 
+Available'' Provision and ``Insurer Deductible'' Definition
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule as part of its implementation of Title I of the Terrorism 
+Risk Insurance Act of 2002 (Act). The Act established a temporary 
+Terrorism Insurance Program (Program) under which the Federal 
+Government will share the risk of insured loss from certified acts of 
+terrorism with commercial property and casualty insurers until the 
+Program ends on December 31, 2005. This final rule makes minor 
+technical changes to Subpart A of Part 50 of Title 31. One change 
+conforms existing regulations to the June 18, 2004 determination by the 
+Secretary of the Treasury to extend the ``make available'' provisions 
+of section 103(c) of the Act through the third year of the Program 
+(calendar year 2005). A second change clarifies the definition of the 
+insurer deductible for Program Year 3 for certain newly formed insurers 
+to more closely parallel the language of the Act.
+
+DATES: This final rule is effective February 14, 2005.
+
+FOR FURTHER INFORMATION CONTACT: David Brummond, Legal Counsel, or 
+Howard Leikin, Senior Insurance Advisor, Terrorism Risk Insurance 
+Program, (202) 622-6770 (not a toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    On November 26, 2002, the President signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and 
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving state 
+insurance regulation and consumer protections.
+    Title I of the Act establishes a temporary Federal program of 
+shared public and private compensation for insured commercial property 
+and casualty losses resulting from an act of terrorism, which as 
+defined in the Act is certified by the Secretary of the Treasury, in 
+concurrence with the Secretary of State and the Attorney General. The 
+Act authorizes Treasury to administer and implement the Terrorism Risk 
+Insurance Program, and to issue regulations and procedures. The Program 
+provides a Federal reinsurance backstop for three years. The Program 
+ends on December 31, 2005. Thereafter, the Act provides Treasury with 
+certain continuing authority to take actions as necessary to ensure 
+payment, recoupment, adjustments of compensation, and reimbursement for 
+insured losses arising out of any act of terrorism (as defined under 
+the Act) occurring during the period between November 26, 2002, and 
+December 31, 2005.
+    Each entity that meets the definition of ``insurer'' (well over 
+2000 firms) must participate in the Program. The amount of the Federal 
+share of an insured loss resulting from an act of terrorism is to be 
+determined based upon insurance company deductibles and excess loss 
+sharing with the Federal Government, as specified by the Act and the 
+implementing regulations. An insurer's deductible increases each year 
+of the
+
+[[Page 7404]]
+
+Program, thereby reducing the Federal Government's share prior to 
+expiration of the Program. An insurer's deductible is calculated based 
+on a percentage of the value of direct earned premiums collected over 
+certain statutory periods. Once an insurer has met its deductible, the 
+Federal payments cover 90 percent of insured losses above the 
+deductible, subject to an annual industry-aggregate limit of $100 
+billion.
+
+II. The ``Make Available'' Provision
+
+    The mandatory availability or ``make available'' provisions in 
+section 103(c) of the Act require that, for Program Year 1, Program 
+Year 2, and, if so determined by the Secretary, for Program Year 3, all 
+entities that meet the definition of insurer under the Program must 
+make available in all of their commercial property and casualty 
+insurance policies coverage for insured losses resulting from an act of 
+terrorism. This coverage cannot differ materially from the terms, 
+amounts and other coverage limitations applicable to losses arising 
+from events other than acts of terrorism.
+
+A. Secretary Determination
+
+    The Act requires the Secretary of the Treasury to determine, not 
+later than September 1, 2004, whether to extend the make available 
+requirements through Program Year 3, based on factors referenced in 
+section 108(d)(1) of the Act. The factors referred to in section 
+108(d)(1) of the Act are:
+    <bullet> The ``effectiveness of the Program;''
+    <bullet> The ``likely capacity of the property and casualty 
+insurance industry to offer insurance for terrorism risk after 
+termination of the Program;'' and
+    <bullet> The ``availability and affordability of such insurance for 
+various policyholders, including railroads, trucking, and public 
+transit.''
+    On May 5, 2004, Treasury published a request for comments in the 
+Federal Register and solicited comments and information concerning the 
+statutory factors in section 108(d)(1) of the Act to assist the 
+Secretary with the ``make available'' determination. See 69 FR 25168 
+(May 5, 2004). The comment period closed on June 4, 2004, and nearly 
+200 comments were received.
+    On June 18, 2004, the Secretary announced his decision to extend 
+the ``make available'' requirements through Program Year 3. (See <a href="http://www.treas.gov/press/releases/js1734.htm">http://www.treas.gov/press/releases/js1734.htm</a>; <a href="http://www.treas.gov/press/releases/js1735.htm">http://www.treas.gov/press/releases/js1735.htm</a>). This final rule conforms the Act's implementing 
+regulations to reflect the Secretary's determination.
+
+B. The Final Rule
+
+    This final rule amends section 50.20(b), which was previously 
+reserved, and section 50.21 to reflect the Secretary's determination to 
+extend the ``make available'' provisions of section 103(c) of the Act 
+through Program Year 3 (calendar year 2005). The amendment to section 
+50.20(b) also specifically clarifies that insurers are not required to 
+provide coverage for insured losses resulting from acts of terrorism 
+beyond the date the Program expires and the Federal backstop no longer 
+exists.
+
+III. Insurer Deductible--Newly Formed Insurers
+
+    The Act defines ``Insurer Deductible'' in Section 102(7) for the 
+various ``Program Years'' of the Program. Section 102(7)(E) provides 
+that notwithstanding the general rules for each Program Year, if an 
+insurer has not had a full year of operations during the calendar year 
+immediately preceding the applicable Program Year, the ``insurer 
+deductible'' is ``such portion of the direct earned premiums of the 
+insurer as the Secretary determines appropriate, subject to appropriate 
+methodologies established by the Secretary for measuring such direct 
+earned premiums.''
+    The current regulation at Section 50.5(g)(2) provides that for an 
+insurer that came into existence after November 26, 2002, the insurer 
+deductible will be based on data for direct earned premiums for the 
+current Program Year, and that if the insurer has not had a full year 
+of operations during the applicable Program Year, the direct earned 
+premiums for the current Program Year will be annualized.
+    Treasury proposed this rule recognizing that new companies would 
+have limited business operations, that their premium income likely 
+would be somewhat volatile, and that this volatility could persist 
+throughout the life of the Program. 68 FR 9811 (Feb. 28, 2003). Two 
+commenters generally supported Treasury's determination that premiums 
+for new insurers would be annualized in the calculation of their 
+insurer deductible. 68 FR 41263 (July 11, 2004). In revisiting this 
+matter at this point in the Program, however, Treasury has concluded 
+that while the concern about new company premium income volatility 
+remains valid, the Act provides specific guidance in the case where an 
+insurer was not in existence on November 26, 2002 but nevertheless has 
+had a full year of operations in the year preceding Program Year 3, the 
+last year of the Program. The final rule addresses such a circumstance 
+by adding a new section 50.5(g)(3) for Program Year 3 with language 
+that more closely parallels the statutory language of the Act.
+
+Procedural Requirements
+
+    The Act established a Program to provide for loss sharing payments 
+by the Federal Government for insured losses resulting from certified 
+acts of terrorism. The Act became effective immediately upon the date 
+of enactment (November 26, 2002). Treasury has issued and will be 
+issuing additional regulations to implement the Program. This final 
+regulation makes two technical changes. First, it amends section 
+50.20(b) (previously reserved) to reflect the Secretary's decision to 
+extend the ``make available'' provisions of section 103(c) of the Act 
+through Program Year 3 (calendar year 2005). Second, the regulation 
+clarifies the definition of ``insurer deductible'' to more closely 
+parallel the language in the Act. The first change reflects a 
+determination already made and announced. The second change merely 
+clarifies the regulation and conforms it to the language of the Act.
+    For these reasons, Treasury has determined that notice and public 
+comment are unnecessary and contrary to the public interest, pursuant 
+to 5 U.S.C. 553(b)(B) and, pursuant to 5 U.S.C. 553(d)(3), that there 
+is good cause for this final rule to become effective immediately upon 
+publication.
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. Because no notice of proposed rulemaking is 
+required, the provisions of the Regulatory Flexibility Act (5 U.S.C. 
+chapter 6) do not apply. However, the Act and the Program are intended 
+to provide benefits to the U.S. economy and all businesses, including 
+small businesses, by providing a federal reinsurance backstop to 
+commercial property and casualty insurance policyholders and spreading 
+the risk of insured loss resulting from an act of terrorism.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+
+0
+2. Subpart A of part 50 is amended by adding Sec.  50.5(g)(3) to read 
+as follows:
+
+[[Page 7405]]
+
+Sec.  50.5  Definitions.
+
+* * * * *
+    (g) Insurer deductible means:
+* * * * *
+    (3) Notwithstanding paragraph (g)(2) of this section, the insurer 
+deductible for Program Year 3 (January 1, 2005 through December 31, 
+2005) for an insurer that has not had a full year of operations during 
+calendar year 2004 will be based on annualized data for the insurer's 
+direct earned premiums for Program Year 3, multiplied by 15 percent. 
+For an insurer that came into existence after November 26, 2002 and has 
+had a full year of operations during calendar year 2004, the insurer 
+deductible for Program Year 3 is the value of an insurer's direct 
+earned premiums over calendar year 2004, multiplied by 15 percent.
+
+0
+3. Subpart A of part 50 is amended by revising Sec.  50.20(b) to read 
+as follows:
+
+
+Sec.  50.20  General mandatory availability requirements.
+
+* * * * *
+    (b) Program Year 3--calendar year 2005. In accordance with the 
+determination of the Secretary announced June 18, 2004, an insurer must 
+comply with paragraphs (a)(1) and (a)(2) of this section during Program 
+Year 3. Notwithstanding paragraph (a)(2) of this section and Sec.  
+50.23(a), property and casualty insurance coverage for insured losses 
+does not have to be made available beyond December 31, 2005 (the last 
+day of Program Year 3) even if the policy period of insurance coverage 
+for losses from events other than acts of terrorism extends beyond that 
+date.
+
+0
+4. Subpart A of part 50 is amended by revising Sec.  50.21(a) to read 
+as follows:
+
+
+Sec.  50.21  Make available.
+
+    (a) General. The requirement to make available coverage as provided 
+in Sec.  50.20 applies to policies in existence on November 26, 2002, 
+new policies issued and renewals of existing policies during the period 
+beginning on November 26, 2002 and ending on December 31, 2004 (the 
+last day of Program Year 2), and to new policies issued and renewals of 
+existing policies in Program Year 3 (calendar year 2005). The 
+requirement applies at the time an insurer makes the initial offer of 
+coverage as well as at the time an insurer makes an initial offer of 
+renewal of an existing policy.
+* * * * *
+
+    Dated: February 1, 2005.
+Gregory Zerzan,
+Acting Assistant Secretary of the Treasury.
+[FR Doc. 05-2810 Filed 2-11-05; 8:45 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

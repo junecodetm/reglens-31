@@ -1,0 +1,86 @@
+{
+  "abstract": "The Department of the Treasury (Treasury) is amending its regulations to adjust the civil penalty amount provided for under the Terrorism Risk Insurance Act of 2002 (TRIA). This action, including the amount of the adjustment, is required by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.",
+  "action": "Interim final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2016/12/07/2016-29314.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 50,
+      "title": 31
+    }
+  ],
+  "citation": "81 FR 88600",
+  "comment_url": null,
+  "comments_close_on": "2017-01-06",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective date: December 7, 2016. Comment date: Written comments may be submitted on or before January 6, 2017. Early submissions are encouraged.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2016-29314",
+  "effective_on": "2016-12-07",
+  "end_page": 88601,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2016/12/07/2016-29314.xml",
+  "html_url": "https://www.federalregister.gov/documents/2016/12/07/2016-29314/terrorism-risk-insurance-program-adjustment-to-civil-penalty-amount-under-the-terrorism-risk",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2016-29314?publication_date=2016-12-07",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2016-12-07/2016-29314/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 178,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-12-07/pdf/2016-29314.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2016-29314.pdf?1481031953",
+  "publication_date": "2016-12-07",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2016/12/07/2016-29314.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2017-01-07T05:01:37Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=TREAS-TRIP-2016-0005",
+    "docket_id": "TREAS-TRIP-2016-0005",
+    "regulation_id_number": "1505-AC53",
+    "regulatory_plan": {
+      "html_url": "https://www.federalregister.gov/regulations/1505-AC53/terrorism-risk-insurance-program",
+      "title": "Terrorism Risk Insurance Program"
+    },
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Terrorism Risk Insurance Program"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 88600,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program; Adjustment to Civil Penalty Amount Under the Terrorism Risk Insurance Act of 2002",
+  "toc_doc": "Adjustment to Civil Penalty Amount under the Terrorism Risk Insurance Act of 2002",
+  "toc_subject": "Terrorism Risk Insurance Program:",
+  "topics": [
+    "Insurance",
+    "Terrorism"
+  ],
+  "type": "Rule",
+  "volume": 81
+}

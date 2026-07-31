@@ -1,0 +1,77 @@
+{
+  "abstract": "The Department of the Treasury (Treasury) is issuing this rule in final form as part of its implementation of amendments made to Title I of the Terrorism Risk Insurance Act of 2002 (TRIA or Act) by the Terrorism Risk Insurance Extension Act of 2005 (Extension Act). The Act established a temporary Terrorism Risk Insurance Program (Program) that was scheduled to expire on December 31, 2005, under which the Federal Government shared the risk of insured losses from certified acts of terrorism with commercial property and casualty insurers. The Extension Act extends the Program through December 31, 2007, and makes other changes which are implemented by this rule. In particular, the rule addresses changes to the types of commercial property and casualty insurance covered by the Act, the requirements to satisfy the Act's mandatory availability (\"make available\") provision and the operation of the new \"Program Trigger\" provision in section 103(e)(1)(B) of the Act. Treasury published an interim final rule and a cross-referenced proposed rule with a request for comment on May 11, 2006. This final rule finalizes the proposed rule by adopting the text of the interim final rule without revision.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2006/08/25/E6-14180.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 50,
+      "title": 31
+    }
+  ],
+  "citation": "71 FR 50341",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This final rule is effective September 25, 2006.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "E6-14180",
+  "effective_on": "2006-09-25",
+  "end_page": 50347,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2006/08/25/E6-14180.xml",
+  "html_url": "https://www.federalregister.gov/documents/2006/08/25/E6-14180/terrorism-risk-insurance-program-tria-extension-act-implementation",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E6-14180?publication_date=2006-08-25",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2006-08-25/E6-14180/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 7,
+  "page_views": {
+    "count": 494,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2006-08-25/pdf/E6-14180.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2006-08-25",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2006/08/25/E6-14180.txt",
+  "regulation_id_number_info": {
+    "1505-AB67": null
+  },
+  "regulation_id_numbers": [
+    "1505-AB67"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-11-12T19:56:11Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 50341,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program; TRIA Extension Act Implementation",
+  "toc_doc": "Terrorism Risk Insurance Extension Act; implementation",
+  "toc_subject": "Terrorism Risk Insurance Program:",
+  "topics": [],
+  "type": "Rule",
+  "volume": 71
+}

@@ -1,0 +1,95 @@
+{
+  "abstract": "The Debt Collection Improvement Act of 1996 (DCIA) mandated a new eligibility requirement for persons seeking Federal financial assistance, namely that delinquent Federal debtors are ineligible for Federal direct and indirect loan assistance (other than disaster loans). On April 22, 1998, the Financial Management Service issued a notice of proposed rulemaking proposing rules to define when a debt is in delinquent status and when a delinquency is resolved for purposes of determining whether the DCIA bars a person from receiving financial assistance. The notice of proposed rulemaking also proposed rules governing when the Secretary of the Treasury may exempt a class of delinquent debts from affecting a debtor's loan eligibility, and proposed factors for authorized agency officials to consider when deciding whether to waive the DCIA eligibility requirement. This final rule finalizes the proposed rule, with changes, and addresses issues raised in comments received on the notice of proposed rulemaking.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "raw_name": "Barring Delinquent Debtors From Obtaining Federal Loans or Loan"
+    },
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1998/12/08/98-32479.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "63 FR 67754",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "January 7, 1999.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "98-32479",
+  "effective_on": "1999-01-07",
+  "end_page": 67758,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1998/12/08/98-32479/barring-delinquent-debtors-from-obtaining-federal-loans-or-loan-insurance-or-guarantees",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/98-32479?publication_date=1998-12-08",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1998-12-08/98-32479/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 5,
+  "page_views": {
+    "count": 84,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-12-08/pdf/98-32479.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1998-12-08",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/12/08/98-32479.txt",
+  "regulation_id_number_info": {
+    "1510-AA71": {
+      "html_url": "https://www.federalregister.gov/regulations/1510-AA71/barring-delinquent-debtors-from-obtaining-federal-financial-assistance-in-the-form-of-loans-or-loan-",
+      "issue": "199810",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Barring Delinquent Debtors From Obtaining Federal Financial Assistance in the Form of Loans or Loan Guarantees",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=199810&RIN=1510-AA71&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1510-AA71"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-09-21T13:49:00Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 67754,
+  "subtype": null,
+  "title": "Barring Delinquent Debtors From Obtaining Federal Loans or Loan Insurance or Guarantees",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 63
+}

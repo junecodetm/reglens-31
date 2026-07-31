@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2005/09/30/05-19552.txt",
+  "fetched_at": "2026-07-30T14:09:20.323685+00:00",
+  "sha256": "f8467be0a899384722b1b8efa25a99919ddfe58927b8f833062f47301c083d9b",
+  "content_type": "text/plain",
+  "filename": "05-19552.txt"
+}

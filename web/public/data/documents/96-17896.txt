@@ -1,0 +1,559 @@
+<html>
+<head>
+<title>Federal Register, Volume 61 Issue 137 (Tuesday, July 16, 1996)</title>
+</head>
+<body><pre>[Federal Register Volume 61, Number 137 (Tuesday, July 16, 1996)]
+[Rules and Regulations]
+[Pages 37007-37011]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 96-17896]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds (Department of the Treasury Circular, Public Debt Series No. 
+1-93)
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Department'') is issuing an 
+amendment to its regulations governing the sale and issue of marketable 
+book-entry Treasury securities (Uniform Offering Circular for the Sale 
+and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds). 
+The amendment defines the term ``investment adviser'' and contains a 
+new section on bidding through investment advisers. The amendment also 
+makes certain technical and clarifying changes.
+
+EFFECTIVE DATE: The amendment is effective on September 16, 1996.
+
+FOR FURTHER INFORMATION CONTACT: Donald V. Hammond, Assistant Director, 
+Government Securities Regulations Staff, Bureau of the Public Debt 
+(202) 219-3632; or Margaret Marquette, Attorney-Adviser, Office of the 
+Chief Counsel, Bureau of the Public Debt (202) 219-3320.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    31 CFR part 356, also referred to as the uniform offering circular, 
+sets out the terms and conditions for the sale and issuance by the 
+Department of the Treasury to the public of marketable book-entry 
+Treasury bills, notes, and bonds. The uniform offering circular was 
+originally published on January 5, 1993 (58 FR 412), as a comprehensive 
+statement of those terms and conditions. Amendments to the circular 
+were published on June 3, 1994 (59 FR 28773), and March 15, 1995 (60 FR 
+13906). In the time since the rule was
+
+[[Page 37008]]
+
+first published, several questions have arisen about the application of 
+the circular in situations where an investment adviser formulates a bid 
+or otherwise makes bidding decisions for a managed or controlled 
+account. In response, the Department is defining the term ``investment 
+adviser'' and is setting out the specific terms and conditions for 
+bidding through investment advisers.
+    Previously, the treatment of investment advisers was found in a 
+discussion in the preamble to the January 5, 1993, publication. The 
+preamble and rule did not specify how the various provisions of the 
+rule should be applied with respect to accounts that participate in 
+auctions through investment advisers, leaving ambiguous the answers to 
+a number of technical questions. Accordingly, the Department published 
+a proposed amendment on January 5, 1996,<SUP>1 which provided a 
+definition of the term ``investment adviser'' and clarified how the 
+provisions of the uniform offering circular would be applied to bids 
+submitted for accounts that are managed by investment advisers 
+(controlled accounts). Additionally, the existing exclusion for certain 
+controlled accounts on whose behalf an investment adviser is not 
+bidding in an auction was proposed to be substantially modified. The 
+proposed modification would have reduced from $500 million to $10 
+million the dollar threshold applied to the position of a non-
+participating controlled account in determining eligibility for the 
+exclusion.
+---------------------------------------------------------------------------
+
+    \1\ 61 FR 402 (January 5, 1996).
+---------------------------------------------------------------------------
+
+    Though not required to, the Department published the clarifications 
+and changes in proposed form in order to receive the full benefit of 
+input from affected auction participants. The comment period closed on 
+March 5, 1996.
+
+II. Comments Received in Response to the Proposed Rule
+
+    The Department received one comment letter, from the Public 
+Securities Association (PSA), in response to the proposed 
+amendment.<SUP>2 The PSA letter strongly supported the clarifications 
+and guidance that the proposed amendment provided but expressed 
+significant objections to the proposed modification of the exclusion 
+available for non-participating controlled accounts.
+---------------------------------------------------------------------------
+
+    \2\ March 4, 1996, letter from Stephanie Wolf, Assistant General 
+Counsel, Public Securities Association, to Kenneth R. Papaj, 
+Director, Government Securities Regulations Staff, Bureau of the 
+Public Debt.
+---------------------------------------------------------------------------
+
+A. Definition of Investment Adviser
+
+    The PSA supported the definition for the term ``investment 
+adviser,'' which also describes what is meant by the phrase 
+``investment discretion.'' However, the PSA stated that the phrase ``or 
+otherwise exercises control,'' describing investment discretion in the 
+proposed definition, introduces an element of ambiguity. It was noted 
+that the current net long position reporting requirement, which the 
+definition seeks to clarify, uses the phrase ``exercising control'' 
+which has been understood to mean the exercise of investment 
+discretion. With the addition of the definition of the term 
+``investment adviser,'' the commenter believes that inclusion of a 
+general provision such as ``or otherwise exercises control'' raises the 
+question as to what other types of control might exist and is contrary 
+to the intent behind the amendment. The Department agrees and has 
+deleted the phrase from the final definition.
+
+B. Bidding Through Investment Advisers
+
+    The PSA expressed support for the codification and clarification of 
+the manner in which investment advisers may bid for their controlled 
+accounts. The commenter requested that the application of the 
+restriction against noncompetitive and competitive bidding in the same 
+auction be addressed for the situation in which an investment adviser 
+bids both competitively for its own proprietary account and 
+noncompetitively for its controlled accounts in the names of those 
+accounts. As stated in Sec. 356.15(a) of the proposed rule, an 
+investment adviser may bid for a controlled account either in the name 
+of the investment adviser, in which case the adviser is considered the 
+bidder, or in the name of the account, in which case the account is 
+considered the bidder. This means that, for purposes of bidding 
+noncompetitively, an investment adviser that bids for its controlled 
+accounts in the name of the adviser is limited to the maximum allowed 
+bid and award amount for a noncompetitive bid for that auction, e.g., 
+$1 million total in a bill auction. An investment adviser that bids 
+noncompetitively for its controlled accounts in the names of the 
+accounts may bid for each account for the maximum allowed 
+noncompetitive amount, e.g., $1 million for each account in a bill 
+auction. Additionally, the investment adviser may not bid for the 
+controlled account both competitively and noncompetitively in the same 
+auction, regardless of whether the bidding is in the name of the 
+adviser or in the name of the controlled account.
+    The proposed rule did not specifically address, with respect to the 
+restriction against bidding both competitively and noncompetitively in 
+the same auction, the situation in which an investment adviser is 
+bidding for its own account in the same auction that it is bidding for 
+controlled accounts. It is the Department's intention that the 
+proprietary account of an investment adviser be treated in the same 
+manner as that of any other bidder.<SUP>3 In other words, an investment 
+adviser may bid competitively in its own name for its proprietary 
+account so long as it is also not bidding noncompetitively in its own 
+name. Therefore, if a controlled account is being bid for 
+noncompetitively in the name of the account, the investment adviser may 
+bid competitively in its own name for its proprietary account. It may 
+also bid competitively, in the name of the investment adviser or the 
+account, for any controlled accounts that are not being bid for 
+noncompetitively. However, the investment adviser may NOT bid both 
+competitively and noncompetitively in its own name in the same auction, 
+regardless of whether the bids represent its own account or controlled 
+accounts. Also the investment adviser may not bid both competitively 
+and noncompetitively in the same auction for any one controlled 
+account, regardless of whether the bid is in the name of the investment 
+adviser or in the name of the account.
+---------------------------------------------------------------------------
+
+    \3\ An investment adviser, under the bidder definitions, may 
+itself need to be aggregated with its affiliates as part of a larger 
+bidder. The restriction against bidding both noncompetitively and 
+competitively in the same auction is applicable to all the 
+affiliates that are required to be aggregated since they form a 
+single bidder, i.e., if an entity is bidding competitively in an 
+auction, an affiliate of that entity may not bid noncompetitively in 
+the same auction, unless that affiliate has received recognition as 
+a separate bidder.
+---------------------------------------------------------------------------
+
+C. Reporting Net Long Positions
+
+    The proposed rule stated that, in determining if it has reached the 
+$2 billion net long position reporting threshold, an investment adviser 
+must include in its calculation those bids and positions it controls in 
+addition to bids and positions it would otherwise have to include as a 
+bidder. This provision clarified the existing requirement for the 
+calculation of a net long position. The proposal also contained a 
+significant change from the current rule in the amount of a controlled 
+account's position that may be excluded from the investment adviser's 
+net long position calculation. The rule currently allows the adviser to 
+exclude net long positions
+
+[[Page 37009]]
+
+less than $500 million for certain controlled accounts that are not bid 
+for in an auction. The proposal provided for a similar type of 
+exclusion but decreased the amount to $10 million per controlled 
+account.
+    The PSA strongly objected to the proposed change. While 
+understanding the Department's objective of obtaining more information 
+than is currently provided about the positions that an investment 
+adviser may control, the commenter believed that this objective could 
+not justify the cost to auction participants of reporting on controlled 
+accounts at the significantly reduced amount. It was the commenter's 
+opinion that in order to include controlled accounts at a $10 million 
+threshold within the current net long position reporting timeframes, 
+auction participants would have to develop automated systems to track 
+the information. The PSA represented that the cost to develop such 
+systems would be prohibitive and might adversely affect investment 
+advisers' participation in auctions. Accordingly, the PSA recommended 
+that the Department retain the current exclusionary amount or set a 
+lower amount that would not impose such significant costs. The letter 
+did not provide any suggestions for an appropriate alternative amount. 
+Additionally, the commenter did not address the alternative approach 
+for an exclusion discussed in the proposal or offer any other 
+approaches for providing Treasury with better information about the 
+size of a position that an investment adviser might control.
+    The reduction in the exclusionary amount was proposed because the 
+Department believes that a lower amount is necessary to give a more 
+accurate picture of the amount of a security controlled by an 
+investment adviser. The Department is sensitive to the concerns of 
+auction participants about the cost of compliance with the auction 
+rules and recognizes, in particular, that the net long position 
+reporting provisions are costly because of the scope of the aggregation 
+provisions and the short reporting timeframe. Balanced against this 
+compliance cost is the Department's goal of avoiding undue 
+concentrations of ownership or control upon original issue. The net 
+long position report is an essential tool in achieving this goal.
+    In developing the proposal, the Department considered and rejected 
+alternatives, such as providing investment advisers an exclusion based 
+on an aggregate amount rather than separate position amounts in 
+specific accounts, because of a concern that they would be more 
+burdensome or costly for advisers. Nothing in the comment letter would 
+lead the Department to a different conclusion. Therefore, the approach 
+outlined in the proposal is believed to be the best approach for 
+excluding non-participating accounts.
+    However, a cost-effective exclusion threshold needs to be 
+determined. A tradeoff exists between the time and cost necessary for 
+an investment adviser to determine the holdings of non-participating 
+controlled accounts and the meaningfulness of the net long position 
+information submitted with the bid. The higher the exclusion amount the 
+less costly compliance is for the investment adviser, but also the less 
+useful the information is to the Department. The higher the threshold 
+the fewer number of nonparticipating controlled accounts that would be 
+needed to control a significant undisclosed position in the auctioned 
+security. After due consideration of the potential compliance costs 
+versus the usefulness of the net long position report, the Department 
+has determined that an exclusion threshold of $100 million is 
+appropriate. A $100 million threshold is at a high enough level that 
+relatively few managed accounts should be affected, thus minimizing 
+systems and compliance costs, and yet is low enough that Treasury will 
+receive useful information on the control of the security.
+
+D. Other Comments
+
+    The PSA letter briefly discussed the modification that would allow 
+investment advisers to submit bids for their controlled accounts 
+directly to a Federal Reserve Bank or to the Bureau of the Public Debt. 
+The PSA did not object to the proposed change but observed that it had 
+no impact on its membership since its members are all either banks or 
+broker-dealers who are already authorized to submit bids for others 
+directly. The provision allowing an adviser to submit or forward bids 
+in the names of its controlled accounts is an exception to the 
+restriction against anyone other than a depository institution or 
+dealer submitting or forwarding bids for others. The Department 
+reiterates that it is not its intent to authorize an investment adviser 
+that does not also meet the definition of a depository institution or 
+dealer to submit or forward bids for customers. A controlled account is 
+not the same as a customer since, unlike a customer, the beneficial 
+owner of a controlled account is not involved in determining the terms 
+of the auction bid and is generally not aware of the bid until after 
+the fact. (See the definition of ``customer'' in Sec. 356.2 which 
+refers to directing a depository institution or dealer to bid for a 
+specified amount of securities in a specific auction.)
+
+III. Changes from the Proposed Rule
+
+    In Sec. 356.2, the definition of ``investment adviser'' has been 
+modified to delete the phrase ``or otherwise exercises control'' in 
+response to a comment from the PSA. The Department believes that this 
+deletion does not affect the intended meaning of the definition and 
+that the change reduces possible confusion.
+    The language of Sec. 356.15(b) regarding competitive and 
+noncompetitive bidding has not been changed. However, the Department is 
+clarifying that the provision permits an investment adviser to bid 
+competitively for its proprietary account and noncompetitively for one 
+or more controlled accounts in the same auction provided that the 
+noncompetitive bids are in the names of the controlled accounts. The 
+investment adviser would not be permitted to bid both competitively and 
+noncompetitively in the adviser's name in the same auction, regardless 
+of which accounts the bids are for; nor would the adviser be allowed to 
+bid both competitively and noncompetitively for a controlled account. 
+(See Discussion in Section II.B. of this release.)
+    The only change to proposed Sec. 356.15(c) is the dollar level of 
+the exclusion threshold. The $10 million threshold proposed was 
+strongly criticized by auction participants as being at a level so low 
+as to cause them to incur substantial compliance costs which they 
+believed could not be justified by the benefits received by Treasury. 
+Upon due consideration of this comment and further discussions with the 
+commenter, the Department has concluded that a threshold of $100 
+million would be more appropriate. This revised threshold provides 
+sufficient additional information about the size of positions 
+controlled by an investment adviser while not imposing unreasonable 
+costs on affected entities. (See Discussion in Section II.C. of this 
+release.)
+    The proposed changes in Secs. 356.11, 356.13, 356.21, and 356.22, 
+as well as appendix A to part 356, are being adopted as proposed. Other 
+sections have been renumbered as a result of adding new Sec. 356.15. 
+Additionally, Sec. 356.36 has been amended to reflect approval under 
+the Paperwork Reduction Act of the new information collections in 
+Sec. 356.15.
+
+[[Page 37010]]
+
+IV. Procedural Requirements
+
+    The rule does not meet the criteria for a ``significant regulatory 
+action'' pursuant to Executive Order 12866.
+    Although the rule was published in proposed form to secure the 
+benefit of public comment, the notice and public procedures 
+requirements of the Administrative Procedure Act are inapplicable, 
+pursuant to 5 U.S.C. 553(a)(2). As no notice of proposed rulemaking is 
+required, the provisions of the Regulatory Flexibility Act (5 U.S.C. 
+601, et seq.) do not apply.
+    The collection of information contained in this rule, in 
+Sec. 356.15, has been reviewed and approved by the Office of Management 
+and Budget under section 3507(d) of the Paperwork Reduction Act of 1995 
+(44 U.S.C. Chapter 35) under Control Number 1535-0112. Under the Act, 
+an agency may not conduct or sponsor, and a person is not required to 
+respond to, a collection of information unless it displays a valid OMB 
+control number.
+    This information is being collected by the Department in order to 
+determine the amount of a Treasury security controlled by an investment 
+adviser bidding competitively in an auction for that security. The 
+information will be used for the purpose of determining the award to be 
+made as the result of a competitive bid for a security. Responses to 
+the collection of information are required in order for the potential 
+respondent to purchase securities. Information concerning securities 
+holdings and transactions is protected against disclosure under 
+Treasury regulations (31 CFR Part 323) and in certain instances, the 
+Privacy Act. The information may be disclosed only as authorized by 
+law.
+    The burden hours estimated in the notice of proposed rulemaking 
+have been reduced as a result of a change in the final rules that 
+increases the number of accounts that would be eligible for the 
+reporting exclusion. This change was made in response to a comment 
+received from the public.
+    Estimated total annual reporting burden: 100 hours.
+    Estimated average annual burden hours per respondent: 5 hours.
+    Estimated number of respondents: 20.
+    Estimated annual frequency of responses: on occasion.
+    Comments on the accuracy of the estimate for this collection of 
+information or suggestions to reduce the burden should be sent to the 
+Office of Information and Regulatory Affairs of the Office of 
+Management and Budget, Attention: Desk Officer for Department of the 
+Treasury/Bureau of the Public Debt, Washington, D.C. 20503, with copies 
+to the Government Securities Regulations Staff, Bureau of the Public 
+Debt, Room 515, 999 E Street, NW, Washington DC 20239-0001.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons set forth in the preamble, 31 CFR chapter II, 
+subchapter B, part 356, is amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for part 356 is revised to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+    2. Section 356.2 is amended by adding in alphabetical order the 
+definition of ``investment adviser'' to read as follows:
+
+
+Sec. 356.2  Definitions.
+
+* * * * *
+    Investment adviser means any person or entity that has investment 
+discretion for the bids or positions of a person or entity not 
+considered part of the investment adviser under the bidder definitions 
+in Appendix A of this part. Investment discretion includes determining 
+what, how many, and when securities shall be purchased or sold. A 
+person or entity managing investments for itself is not considered an 
+investment adviser for such investments. Where a person is employed or 
+supervised by an entity in connection with his activities as an 
+investment adviser, such person is considered to be part of that 
+entity.
+* * * * *
+    3. Section 356.11(a)(1) is amended by revising the second sentence 
+to read as follows:
+
+
+Sec. 356.11  Submission of bids.
+
+    (a) General.
+    (1) * * * Except as otherwise provided, tenders must be submitted 
+in an approved format, including the use of preassigned identification 
+numbers, where applicable. * * *
+* * * * *
+    4. Section 356.13 is amended by removing paragraph (a)(2) and 
+redesignating paragraph (a)(1) as paragraph (a). The last two sentences 
+of newly redesignated paragraph (a) are revised to read as follows:
+
+
+Sec. 356.13  Net long position.
+
+    (a) Reporting net long positions. * * * In cases where a bidder 
+that is required to report the amount of its net long position has more 
+than one bid, the bidder's total net long position should be reported 
+in connection with only one bid. A bidder that is a customer must 
+report its reportable net long position through only one depository 
+institution or dealer. (See Sec. 356.14(c).)
+* * * * *
+    5. Sections 356.15 and 356.16 are redesignated as Secs. 356.16 and 
+356.17 respectively and new Sec. 356.15 is added to read as follows:
+
+
+Sec. 356.15  Bidding through investment advisers.
+
+    (a) General. Where bids or positions of a person or entity are 
+controlled by an investment adviser, such bids or positions are 
+considered to be a controlled account, separate from the bids and 
+positions of any person or entity with which they would otherwise be 
+associated under the bidder definitions in Appendix A of this part. The 
+investment adviser may bid for controlled accounts by including, in a 
+bid in the adviser's name, amounts that it is investing for the 
+controlled accounts. The investment adviser may also bid for controlled 
+accounts in the names of such accounts. Where bids are in an investment 
+adviser's name, the investment adviser is considered the bidder for 
+such bids and, where bids are in the name of a controlled account, the 
+named controlled account is considered the bidder, for all purposes of 
+this part 356, except as specified in this Sec. 356.15.
+    (b) Noncompetitive and competitive bidding. Regardless of whether 
+the bid for a controlled account is in the name of the investment 
+adviser or in the name of the controlled account, such account may not 
+be bid for both noncompetitively and competitively in the same auction. 
+In addition, such account is subject to the noncompetitive bidding 
+restrictions and award limitations contained in Secs. 356.12(b) and 
+356.22(a).
+    (c) Reporting net long positions. In calculating the amount of its 
+bids and positions for purposes of the net long position reporting 
+requirement found in Sec. 356.13(a), the investment adviser must 
+include, in addition to what would otherwise be included for the 
+investment adviser as a bidder under the bidder definitions, all other 
+competitive bids and positions controlled by the investment adviser. 
+The investment adviser may exclude any net long position less than $100 
+million of any nonproprietary controlled account unless the adviser is
+
+[[Page 37011]]
+
+placing a competitive bid for that account either in the name of the 
+investment adviser or in the name of the account. However, if any net 
+long position less than $100 million of any nonproprietary account not 
+being bid for is excluded, then all net short positions less than $100 
+million of nonproprietary accounts not being bid for must also be 
+excluded. Regardless of whether the investment adviser bids in its own 
+name or in the name of its controlled accounts, if the net long 
+position is reportable, it must be reported as a total in connection 
+with only one bid in accordance with Sec. 356.13(a).
+    (d) Submitting bids for controlled accounts. Notwithstanding the 
+definition of submitter found in Sec. 356.2, and the restriction 
+against submitting bids for others found in Sec. 356.14, an investment 
+adviser may submit bids, whether in the adviser's own name or in the 
+names of its controlled accounts, directly to a Federal Reserve Bank or 
+the Bureau of the Public Debt, in which case the investment adviser is 
+considered a submitter. In the alternative, the investment adviser may 
+forward such bids to a depository institution or dealer.
+    (e) Certifications. By bidding for a controlled account, an 
+investment adviser is deemed to have certified that it is in compliance 
+with this part and the offering announcement governing the sale and 
+issue of the security. Further, the investment adviser is deemed to 
+have certified that the information provided on the tender or provided 
+to a submitter or intermediary with regard to bids for controlled 
+accounts is accurate and complete.
+    (f) Proration of awards. In auctions where bids at the highest 
+accepted yield or discount rate are prorated under Sec. 356.20(a)(2) of 
+this part, investment advisers that submit bids for controlled accounts 
+in the names of such accounts are responsible for prorating awards for 
+their controlled accounts at the same percentage as that announced by 
+the Department. The same prorating rules apply to controlled accounts 
+as apply to submitters. See Sec. 356.21 of this part.
+    6. Section 356.21 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec. 356.21  Proration of awards.
+
+    (a) Awards to submitters. In auctions where bids at the highest 
+accepted yield or discount rate are prorated under Sec. 356.20(a)(2) of 
+this part, the Federal Reserve Banks are responsible for prorating 
+awards for submitters at the percentage announced by the Department. 
+For example, if 80% is the announced percentage at the highest yield or 
+discount rate, then each bid at that rate or yield shall be awarded 80% 
+of the amount bid. Hence, a bid for $100,000 at the highest accepted 
+yield or discount rate would be awarded $80,000. In all cases, awards 
+will be for, at least, the minimum to hold, and awards must be in an 
+appropriate multiple to hold. Awards at the highest accepted yield or 
+rate are adjusted upwards, if necessary, to an appropriate multiple to 
+hold. For example, Treasury bills may be issued with a minimum to hold 
+of $10,000 and multiples of $1,000. Where an $18,000 bid is accepted at 
+the high discount rate, and the percent awarded at the high discount 
+rate was 88%, the award to that bidder would be $16,000, representing 
+an upward adjustment from $15,840 ($18,000  x  .88) to an appropriate 
+multiple to hold. If tenders at the highest accepted rate were prorated 
+at, for example, a rate of 4%, the award for a $100,000 bid would be 
+$10,000, instead of $4,000, in order to meet the minimum to hold for a 
+bill issue.
+* * * * *
+    7. Section 356.22(b) is amended by revising the last sentence to 
+read as follows:
+
+
+Sec. 356.22  Limitation on auction awards.
+
+* * * * *
+    (b) Awards to competitive bidders. * * * When the bids and net long 
+positions of more than one person or entity must be combined as 
+required by Sec. 356.15(c), such combined amount will be used for the 
+purpose of this award limitation.
+    8. Section 356.36 is revised to read as follows:
+
+
+Sec. 356.36  Paperwork Reduction Act approval.
+
+    The collections of information contained in Secs. 356.11, 356.12, 
+356.13, 356.14, and 356.15 and in appendix A of this part have been 
+approved by the Office of Management and Budget under control number 
+1535-0112.
+    9. Appendix A to Part 356 is amended by adding to section (a) a new 
+paragraph between the second and third paragraphs of the introductory 
+text to read as follows:
+
+Appendix A To Part 356--Bidder Definitions
+
+* * * * *
+    (a) Corporation--* * *
+    For the purpose of this part, a business trust, such as a 
+Massachusetts business trust or a Delaware business trust, is 
+considered to be a corporation.
+* * * * *
+    Dated: July 9, 1996.
+John A. Kilcoyne,
+Acting Fiscal Assistant Secretary.
+[FR Doc. 96-17896 Filed 7-15-96; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

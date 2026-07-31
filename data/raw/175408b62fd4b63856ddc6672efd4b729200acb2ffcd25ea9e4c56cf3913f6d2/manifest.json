@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2003/10/17/03-26250.txt",
+  "fetched_at": "2026-07-30T14:09:13.446189+00:00",
+  "sha256": "175408b62fd4b63856ddc6672efd4b729200acb2ffcd25ea9e4c56cf3913f6d2",
+  "content_type": "text/plain",
+  "filename": "03-26250.txt"
+}

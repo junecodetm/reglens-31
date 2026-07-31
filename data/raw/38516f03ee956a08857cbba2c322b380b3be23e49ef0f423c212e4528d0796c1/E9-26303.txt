@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 211 (Tuesday, November 3, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 211 (Tuesday, November 3, 2009)]
+[Rules and Regulations]
+[Pages 56719-56721]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-26303]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AB23
+
+
+Administrative Offset Under Reciprocal Agreements With States
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule describes the rules applicable to the offset 
+of Federal nontax payments to collect delinquent debts owed to States 
+pursuant to reciprocal agreements between the Secretary of the Treasury 
+and the States. In addition to providing for the offset of Federal 
+nontax payments, the reciprocal agreements provide for the offset of 
+State payments to collect delinquent, nontax Federal debts. The offsets 
+described in this rule are processed by the Treasury Offset Program 
+(TOP), which the Department of the Treasury's Financial Management 
+Service (FMS) established to centralize the process by which Federal 
+payments are withheld or reduced (in other words, offset) to collect 
+delinquent debts.
+
+DATES: This rule is effective November 3, 2009.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Dungan, Senior Policy Analyst, 
+at (202) 874-6660, or Tricia Long, Senior Counsel, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    The Debt Collection Improvement Act of 1996 DCIA), Public Law 104-
+134, 110 Stat. 1321-358 et seq. (April 26, 1996), authorized Federal 
+disbursing officials to withhold or reduce eligible Federal payments to 
+pay the payee's delinquent debt owed to the United States. See 31 
+U.S.C. 3716(c). This process is known as ``administrative offset'' or 
+``offset.'' The DCIA also provided that Federal payments may be offset 
+to collect delinquent debts owed to States provided that the States 
+enter into reciprocal agreements with the Secretary of the Treasury and 
+meet certain other qualifications. See 31 U.S.C. 3716(h). Section 
+3716(h) authorizes the Secretary of the Treasury to allow States to 
+participate in administrative offset to collect delinquent State debts 
+so long as the States meet the requirements of 31 U.S.C. 3716(h), 
+including entering into reciprocal agreements with the Secretary of the 
+Treasury. Such reciprocal agreements shall contain any requirements 
+that the Secretary considers appropriate, to facilitate offset and 
+prevent duplicative efforts.
+    On January 11, 2007, FMS issued an interim rule with request for 
+comments that established the reciprocal offset program with States 
+through TOP. See 72 FR 1283. In that interim rule, FMS also described 
+the pilot program that was initiated in June 2007. The purpose of the 
+pilot program was to determine if it is in the best interests of the 
+United States and the States to fully implement reciprocal offsets 
+under this section. FMS invited the States to participate in the pilot 
+program, and two States participated. The purposes of the pilot were to 
+test offset systems and procedures and to evaluate whether the benefits 
+of the program outweigh the costs. In the interim rule, FMS indicated 
+it would consider information gained from the operation of the pilot, 
+in addition to comments received on the interim rule, before issuing a 
+final rule.
+    Based upon the results of the pilot program, FMS has determined 
+that it is in the best interests of the United States to continue with 
+the reciprocal offset program with the States with some changes set 
+forth in this final rule.
+
+II. Discussion of Comments and Results of the Pilot Public Comments
+
+    FMS received comments from one association of auditors, 
+comptrollers, and treasurers. Following is a discussion of the 
+substantive issues raised in the comments.
+
+1. Limitations on Payments Available for Offset To Collect State Debts
+
+    The commenter noted that TOP processes offsets of many payments 
+that are not available for offset to collect State debts. Among those 
+payments are federal tax refunds, social security payments, and federal 
+salary payments. The statute authorizing reciprocal offsets under this 
+section expressly excludes offset of federal tax refunds and social 
+security benefit payments. See 31 U.S.C. 5 3701(d)(1) and 3716(h)(3), 
+respectively. Therefore, offset of those payments is beyond the scope 
+of this rule. In addition, as noted in the interim rule, there are many 
+statutes and regulations that affect federal salary offset, including 
+statutes administered by other federal agencies such as the Office of 
+Personnel Management. See 72 FR 1284. Such laws contain additional 
+requirements for offset of federal salary payments, including the 
+requirement that federal employees have an opportunity for a hearing by 
+an authority not under the control of the creditor agency. See 5 CFR 
+550.1104(d)(7). The additional legal
+
+[[Page 56720]]
+
+requirements also have an impact on operations of both the States and 
+the Federal Government. For these reasons, FMS decided not to include 
+administrative offset of federal salary payments in this rule.
+
+2. Fees
+
+    The commenter noted that the rule provides for FMS to charge a fee 
+to the States to recoup FMS's administrative costs, while not providing 
+for the States to charge 5515 for their administrative costs. The 
+commenter encouraged FMS to include a provision for the States to 
+charge a fee in the reciprocal agreements. The DCIA authorizes FMS to 
+charge creditor agencies a fee sufficient to cover the full cost of 
+implementing administrative offsets. See 31 U.S.C. 3716(c)(4). There is 
+no authority for States to charge FMS a fee or for FMS to pay a fee to 
+the States. Therefore, it would be beyond FMS's authority to include a 
+provision for a fee in this rule or in the reciprocal agreements.
+
+3. State Legislation
+
+    The commenter noted that States may have to pass legislation to 
+allow officials other than the governor to sign a reciprocal agreement 
+and to authorize offset of State payments to collect delinquent federal 
+debts. FMS anticipates that all States wishing to participate in the 
+program authorized by this rule will have to enact legislation. Both of 
+the States participating in the pilot program passed legislation in 
+order to implement the program. FMS worked closely with those States to 
+ensure that the legislative language would be sufficient. FMS will 
+continue to assist participating States in that effort.
+
+4. Requirement for a Reciprocal Agreement
+
+    The commenter expressed concern that use of the program may be 
+hindered by the need for a reciprocal agreement in States where debt 
+collection is not centralized. A reciprocal agreement with the State is 
+a statutory requirement. See 31 U.S.C. 3716(h)(1)(B). This rule, 
+therefore, is only repeating the requirement contained in the statute. 
+To the extent this comment is intended to address any requirements in 
+the reciprocal agreements that the States centralize offset operations, 
+such issues are not within the scope of this rule. Section 
+3716(h)(1)(B) authorizes FMS to include in the reciprocal agreements 
+any requirements which it considers appropriate to facilitate the 
+offset and prevent duplicative efforts. FMS has chosen not to include 
+the detailed operational requirements of the reciprocal agreements in 
+this rule, thus preserving the flexibility to prescribe such terms as 
+may be deemed appropriate in the future. This rule, therefore, only 
+sets forth the basic parameters for the reciprocal agreements between 
+FMS and the States.
+
+Results of the Pilot Program
+
+    The pilot commenced in June 2007. Two States--Maryland and New 
+Jersey--participated. Collection results indicate that the program 
+benefited the States as well as the federal agencies. The 
+implementation costs for each of the two participating States were 
+approximately $1 million. As of July 31, 2008, Maryland had collected 
+over $19 million, and New Jersey had collected over $14 million.
+    The estimated implementation costs for TOP were $230,000 and for 
+the federal agencies were $100,000. As of July 31, 2008, TOP had 
+collected a total of $5,495,163.28 of federal nontax debts from the 
+payments made by Maryland and New Jersey.
+    While the benefit to the States greatly exceeds the benefits to the 
+Federal government, the program is nonetheless a beneficial collection 
+tool for federal agencies. FMS has, therefore, determined that the 
+program should continue.
+    In addition to evaluating the financial benefits of the reciprocal 
+offset program, FMS analyzed the legal requirements for participation 
+in the program. In the interim rule, FMS imposed an extra due process 
+requirement on the States for debts they had submitted for offset under 
+section 285.8 of this part. See paragraph (f) of this section, ``Debts 
+previously submitted by States for tax refund offset.'' Prior to the 
+pilot, if a State had already submitted a debt to TOP for purposes of 
+federal tax refund offset, the State was not required to send out 
+another advance due process notice informing the debtor that additional 
+federal payments would be subject to offset to collect that debt. 
+However, under the interim rule, a State was required to send out a 
+post-offset due process notice if a federal payment was offset under 
+this section. A comparable requirement for post-offset notice was 
+imposed on federal agencies, under the reciprocal agreements, if a 
+State payment was offset to collect a federal debt that had been 
+submitted for offset prior to promulgation of the interim rule.
+    The extra notice required by paragraph (f) of the interim rule is 
+not required by statute. FNS imposed this additional notice requirement 
+solely because the program was new, and it was unknown if there might 
+be significant numbers of debtors who would claim that they would have 
+availed themselves of their due process rights earlier if they had 
+known that State payments would be subject to offset. Such claims did 
+not emerge during the pilot, and the post-offset notice requirement 
+places an unnecessary administrative obligation on States without any 
+resulting benefit to debtors. FMS has therefore determined that this 
+additional notice is no longer necessary. Accordingly, paragraph (f) 
+has been modified to delete the requirement for any post-offset due 
+process notice.
+
+III. Procedural Analysis
+
+Administrative Procedures Act
+
+    FMS has determined that good cause exists to make this final rule 
+effective upon publication without providing the 30-day period between 
+publication and the effective date contemplated by 5 U.S.C. 553(d). The 
+purpose of a delayed effective date is to afford persons affected by a 
+rule a reasonable time to prepare for compliance. This final rule makes 
+only minor changes to the currently effective interim final rule and 
+provides guidance that is expected to facilitate States' participation 
+in the reciprocal offset program. Therefore, FMS believes that good 
+cause exists, and that it is in the public interest, to make this final 
+rule effective upon publication.
+
+Regulatory Planning and Review
+
+    The rule does not meet the criteria for a ``significant regulatory 
+action'' as defined in Executive Order 12866. Therefore, the regulatory 
+review procedures contained therein do not apply.
+
+Regulatory Flexibility Act
+
+    Because no notice of proposed rulemaking was required for this 
+rule, the provisions of the Regulatory Flexibility Act (5 U.S.C. 601 et 
+seq.) do not apply.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Claims, Credit, Debts, Disability benefits, Federal employees, 
+Garnishment of wages, Hearing and appeal procedures, Loan programs, 
+Privacy, Railroad retirement, Railroad unemployment insurance, 
+Salaries, Social Security benefits, Supplemental Security Income (SSI), 
+Taxes, Veteran's benefits, Wages.
+
+[[Page 56721]]
+
+
+0
+For the reasons set forth in the preamble, 31 CFR part 285 is amended 
+as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. Revise Sec.  285.6, paragraph (f), to read as follows:
+
+
+285.6  Administrative offset under reciprocal agreements with states.
+
+* * * * *
+    (f) State debts submitted to FMS for tax refund offset. A State 
+shall be deemed to have complied with the requirements of paragraph 
+(e)(2) of this section with respect to any State debt that the State 
+certified to Treasury for collection pursuant to Sec.  285.8 of this 
+part.
+* * * * *
+
+    Dated: October 23, 2009.
+Richard L. Gregg,
+Acting Fiscal Assistant Secretary.
+[FR Doc. E9-26303 Filed 11-2-09; 8:45 am]
+BILLING CODE 4810-35-M
+
+
+</pre></body>
+</html>

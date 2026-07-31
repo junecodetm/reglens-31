@@ -1,0 +1,117 @@
+{
+  "document_number": "2026-11615",
+  "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 5U and 5V",
+  "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11615/publication-of-venezuela-sanctions-regulations-web-general-licenses-5u-and-5v",
+  "document_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "total_chars": 4549,
+  "extracted_chars": 4549,
+  "claims": [
+    {
+      "claim_id": "7b069901a343c4b3",
+      "document_number": "2026-11615",
+      "quote": "Except as provided in paragraph (b) of this general license, on or after March 20, 2026, all transactions related to, the provision of financing for, and other dealings in the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond that would be prohibited by subsection l(a)(iii) of Executive Order (E.O.) 13835 of May 21, 2018, as amended by E.O. 13857 of January 25, 2019, and incorporated into the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), are authorized.",
+      "obligation_type": "requirement",
+      "affected_party": "parties involved in transactions related to the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond",
+      "summary": "Parties must engage in transactions related to the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond on or after March 20, 2026, as authorized by General License No. 5U.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2351,
+      "end": 2836,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "d0ae9fd180b9b757937ceea7c5237fc364bfc21a75fccd8da1b5c13cd3bc3e39"
+      }
+    },
+    {
+      "claim_id": "b2f5381fbb10339e",
+      "document_number": "2026-11615",
+      "quote": "This general license does not authorize any transactions or activities otherwise prohibited by the VSR, or any other part of 31 CFR chapter V.",
+      "obligation_type": "prohibition",
+      "affected_party": "parties involved in transactions related to the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond",
+      "summary": "Parties must not engage in transactions or activities that are otherwise prohibited by the VSR or any other part of 31 CFR chapter V.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2845,
+      "end": 2989,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "d0ae9fd180b9b757937ceea7c5237fc364bfc21a75fccd8da1b5c13cd3bc3e39"
+      }
+    },
+    {
+      "claim_id": "3d9c85bed5bc16f1",
+      "document_number": "2026-11615",
+      "quote": "Effective February 2, 2026, General License No. 5T, dated December 19, 2025, is replaced and superseded in its entirety by this General License No. 5U.",
+      "obligation_type": "requirement",
+      "affected_party": "parties previously authorized under General License No. 5T",
+      "summary": "Parties previously authorized under General License No. 5T must comply with the terms of General License No. 5U, which supersedes the previous license.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2998,
+      "end": 3151,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "d0ae9fd180b9b757937ceea7c5237fc364bfc21a75fccd8da1b5c13cd3bc3e39"
+      }
+    },
+    {
+      "claim_id": "ed59829c1868f098",
+      "document_number": "2026-11615",
+      "quote": "Except as provided in paragraph (b) of this general license, on or after May 5, 2026, all transactions related to, the provision of financing for, and other dealings in the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond that would be prohibited by subsection l(a)(iii) of Executive Order (E.O.) 13835 of May 21, 2018, as amended by E.O. 13857 of January 25, 2019, and incorporated into the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), are authorized.",
+      "obligation_type": "requirement",
+      "affected_party": "parties involved in transactions related to the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond",
+      "summary": "Parties must engage in transactions related to the Petr[oacute]leos de Venezuela, S.A. 2020 8.5 Percent Bond on or after May 5, 2026, as authorized by General License No. 5V.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3511,
+      "end": 3993,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "d0ae9fd180b9b757937ceea7c5237fc364bfc21a75fccd8da1b5c13cd3bc3e39"
+      }
+    },
+    {
+      "claim_id": "2863e3fbada70f6f",
+      "document_number": "2026-11615",
+      "quote": "Effective March 19, 2026, General License No. 5U, dated February 2, 2026, is replaced and superseded in its entirety by this General License No. 5V.",
+      "obligation_type": "requirement",
+      "affected_party": "parties previously authorized under General License No. 5U",
+      "summary": "Parties previously authorized under General License No. 5U must comply with the terms of General License No. 5V, which supersedes the previous license.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4155,
+      "end": 4305,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "d0ae9fd180b9b757937ceea7c5237fc364bfc21a75fccd8da1b5c13cd3bc3e39"
+      }
+    }
+  ]
+}

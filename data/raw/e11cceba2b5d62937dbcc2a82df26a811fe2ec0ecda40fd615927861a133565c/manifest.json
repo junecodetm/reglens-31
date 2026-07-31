@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1998/08/28/98-23093.txt",
+  "fetched_at": "2026-07-30T14:10:28.922872+00:00",
+  "sha256": "e11cceba2b5d62937dbcc2a82df26a811fe2ec0ecda40fd615927861a133565c",
+  "content_type": "text/plain",
+  "filename": "98-23093.txt"
+}

@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 180 (Thursday, September 17, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 180 (Thursday, September 17, 2015)]
+[Rules and Regulations]
+[Pages 55751-55752]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-23305]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1530-AA02
+
+
+Offset of Tax Refund Payments To Collect Certain Debts Owed to 
+States
+
+AGENCY: Bureau of the Fiscal Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule adopts the interim rule, published in the 
+Federal Register on January 28, 2011, concerning the collection of 
+delinquent State unemployment compensation debts through the offset of 
+overpayments of Federal taxes.
+
+DATES: This rule is effective September 17, 2015.
+
+ADDRESSES: In accordance with the U.S. government's eRulemaking 
+Initiative, the Bureau of the Fiscal Service publishes rulemaking 
+information on <a href="http://www.regulations.gov">http://www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Kobielus, Manager, Treasury 
+Offset Program Debt Policy Branch, Treasury Offset Program Division, 
+Debt Collection Program Management Directorate, Debt Management 
+Services, Bureau of the Fiscal Service, at (202) 874-6810, or Michelle 
+M. Cordeiro, Attorney, Office of Chief Counsel, Bureau of the Fiscal 
+Service, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    This rule implements the authority added by the SSI Extension for 
+Elderly and Disabled Refugees Act of 2008 (``2008 Act''), as amended by 
+the Claims Resolution Act of 2010 (``2010 Act''), to offset 
+overpayments of Federal taxes (referred to as ``tax refund offset'') to 
+collect delinquent state unemployment compensation debts. The 
+Department of the Treasury (``Treasury'') has incorporated the 
+procedures necessary to collect state unemployment compensation debts 
+as part of the Treasury Offset Program, a centralized offset program 
+operated by Treasury's Bureau of the Fiscal Service (``Fiscal 
+Service'').
+    On January 28, 2011, Fiscal Service (then, the Financial Management 
+Service) published an interim rule with request for comments at 76 FR 
+5070, implementing this new authority. Specifically, this rule amended 
+Fiscal Service regulations to include unemployment compensation debts 
+among the types of state debts that may be collected by tax refund 
+offset.
+
+II. Summary of Comments Received and Treasury's Responses
+
+    Treasury sought comments on all aspects of the proposed rule. 
+Treasury received comments from one private company that provides 
+worldwide tax services. The following is a discussion of the 
+substantive issues raised in the comments.
+
+1. Notice
+
+    The commenter suggested that the rule provide guidelines to the 
+states regarding how to notify debtor populations who may be affected 
+by this rule. While this comment is outside the scope of this rule, 
+Fiscal Service notes that this rule requires debtor-specific pre-offset 
+notification (see 31 CFR 285.8(c)(3)(i)). The commenter also suggested 
+that Fiscal Service mandate that states provide a pre-offset notice by 
+certified mail, return receipt requested. In the 2010 Act, Congress 
+explicitly removed this requirement in the case of unemployment 
+compensation debt. Fiscal Service is unaware of any evidence that 
+certified mail is more likely to reach the debtor than is regular first 
+class mail, and notes that the cost of sending a notice by certified 
+mail, return receipt requested, is high relative to sending a notice by 
+regular first class mail. Therefore, Fiscal Service has not adopted 
+this suggestion. As required by statute, however, notice must be sent 
+by certified mail, return receipt requested prior to pursuing Federal 
+tax refund offset to collect delinquent state income tax obligations.
+    The commenter also suggested that Fiscal Service mandate that the 
+notice to the debtor include certain details about the debt. Fiscal 
+Service notes that, prior to submitting a debt to the Treasury Offset 
+Program for tax refund offset purposes, a state is required to certify 
+to Fiscal Service that it has provided the debtor with sufficient due 
+process, including identification of the debt the state seeks to 
+collect by offset. The information that must be provided may differ 
+with the specific circumstances, and states may provide notice beyond 
+what is specifically required by statute and regulation. Because 
+identification of the debt is already required, Fiscal Service has not 
+incorporated this suggestion.
+
+2. Reasonable Efforts
+
+    The commenter suggested that this rule provide specific actions 
+that states should take and state what documentation they should retain 
+to demonstrate that they have made reasonable efforts to collect a debt 
+prior to pursuing Federal tax refund offset. The rule provides detail 
+on what a reasonable effort includes--namely, making written demand on 
+the debtor for payment and following state law and procedure. In 
+addition, the rule was designed to provide flexibility because what 
+constitutes a reasonable effort may differ based on the specific 
+circumstances. Therefore, Fiscal Service believes that providing 
+specific actions that states should take is unnecessary and not 
+practicable and has not adopted this suggestion.
+
+3. Central Repository for Information
+
+    The commenter suggested that debtors be able to obtain information 
+through a centralized location within the Treasury Offset Program Web 
+site and through an automated telephone system on why their payment was 
+offset and on state appeals processes. While this suggestion is outside 
+the scope of this rule, Fiscal Service notes that debtors currently may 
+access certain offset information through an automated telephone 
+system. Fiscal Service further notes that it is exploring other self-
+service options that would permit debtors to obtain information about 
+their own debts.
+
+4. Other Concerns
+
+    The commenter suggested that the description of the required appeal 
+process contain more detail. Fiscal Service is not aware of any 
+additional detail that needs to be included and, therefore, has not 
+made any changes to the rule based on this suggestion.
+    The commenter also suggested that Fiscal Service consider extending 
+the period of dispute to 90 days because debtors are unlikely to have 
+retained records for long periods of time. Fiscal Service notes that 
+several other delinquent debt collection tools provide a due process 
+period of 60 days or fewer, including the offset of Federal nontax 
+payments to collect Federal nontax debts (31 CFR 285.5(d)(6)(ii)(A)); 
+the offset of Federal nontax payments to collect state debts (31 CFR 
+285.6(e)(2)); the offset of Federal tax payments to collect Federal 
+nontax debts (31 CFR 285.2(d)(1)(ii)(B)); and the
+
+[[Page 55752]]
+
+administrative garnishment of wages to collect Federal nontax debts (31 
+U.S.C. 3720D(b)(2)). Moreover, Fiscal Service believes that an 
+additional 30 days is not likely to help debtors locate and produce 
+such records, and is not aware of any evidence that 60 days is 
+insufficient. Given the time period for other debt collection tools, 
+Fiscal Service believes it would be best to leave the interim rule 
+unchanged.
+    The commenter also expressed concern that lifting the 10-year time 
+limitation will create burdens for Treasury's Internal Revenue Service, 
+due to an increase in injured spouse claims. Fiscal Service is unaware 
+of any evidence to support this concern. Fiscal Service further notes 
+that the 10-year limitation was removed by statute.
+Procedural Matters
+    This rule is not a significant regulatory action as defined in 
+Executive Order 12866. Because no notice of proposed rulemaking was 
+required for this rule, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. 601 et seq.) do not apply.
+Federalism
+    This rule has been reviewed under Executive Order 13132, 
+federalism. This rule will not have substantial direct effects on 
+states, on the relationship between the national government and the 
+states, or on distribution of power and responsibilities among the 
+various levels of government. Participation in the program governed by 
+this rule is voluntary for the states; this rule only sets forth the 
+general procedures for state participation. States already participate 
+in offset of tax refunds to collect delinquent state income tax 
+obligations pursuant to 31 CFR 285.8. This rule merely updates the 
+regulations to reflect the statutory change authorizing states to 
+submit additional debts to Treasury Offset Program for collection by 
+tax refund offset. Therefore, in accordance with Executive Order 13132, 
+it is determined that this rule does not have sufficient federalism 
+implications to warrant the preparation of a federalism summary impact 
+statement.
+    For the reasons stated above, the interim rule amending 31 CFR 
+285.8, published at 76 FR 5070, January 28, 2011, is adopted as final 
+without change.
+
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2015-23305 Filed 9-16-15; 8:45 am]
+BILLING CODE 4810-AS-P
+
+
+</pre></body>
+</html>

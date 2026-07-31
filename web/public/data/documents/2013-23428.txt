@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Federal Register, Volume 78 Issue 187 (Thursday, September 26, 2013)</title>
+</head>
+<body><pre>
+[Federal Register Volume 78, Number 187 (Thursday, September 26, 2013)]
+[Rules and Regulations]
+[Pages 59228-59230]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2013-23428]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. Fiscal-BPD-2013-0001]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds; Corrections
+
+AGENCY: Fiscal Service, Treasury.
+
+ACTION: Correcting amendments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury published a document in the 
+Federal Register on July 31, 2013 (78 FR 46426), revising the Uniform 
+Offering Circular to accommodate the public offering of floating rate 
+notes. This document corrects the final regulations by revising an 
+error in some equations and by restating a variable.
+
+DATES: Effective September 26, 2013.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena, Executive Director, 
+or Chuck Andreatta, Associate Director, Government Securities 
+Regulations Staff, Bureau of the Fiscal Service, Department of the 
+Treasury, (202) 504-3632.
+
+SUPPLEMENTARY INFORMATION: This is the third set of corrections. The 
+first set of corrections was published in the Federal Register on 
+August 19, 2013 (78 FR 50335). The second set of corrections was 
+published in the Federal Register on August 27, 2013 (78 FR 52857). 
+This document augments those corrections.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+    Accordingly, 31 CFR part 356 is corrected by making the following 
+correcting amendments:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 
+391.
+
+
+0
+2. In Appendix B to Part 356:
+0
+a. In Section IV, subsection C, in the Formula, remove the first 
+equation
+
+[[Page 59229]]
+
+[GRAPHIC] [TIFF OMITTED] TR26SE13.099
+
+0
+b. In Section IV, subsection C, in the Formula, remove the second 
+equation
+[GRAPHIC] [TIFF OMITTED] TR26SE13.100
+
+and add in its place
+[GRAPHIC] [TIFF OMITTED] TR26SE13.101
+
+0
+c. In Section IV, subsection D, in the Example, revise the first 
+sentence of the introductory text and paragraph (b) to read as set 
+forth below.
+0
+d. In Section IV, subsection E, in the Formula, remove the first 
+equation
+
+[[Page 59230]]
+
+[GRAPHIC] [TIFF OMITTED] TR26SE13.102
+
+0
+e. In Section IV, subsection E, in the Formula, remove the second 
+equation
+[GRAPHIC] [TIFF OMITTED] TR26SE13.103
+
+    The revision reads as follows:
+
+Appendix B to Part 356--Formulas and Tables
+
+* * * * *
+    D. For calculating interest payments:
+    Example:
+    For a new issue of a two-year floating rate note auctioned on 
+July 25, 2012, and issued on July 31, 2012, with a maturity date of 
+July 31, 2014, and a first interest payment date of October 31, 
+2012, calculate the quarterly interest payments (IPi) per 100. * * *
+* * * * *
+    (b) If it is a reopened floating rate note, and the interest 
+payment is the first one after the reopening, then
+[GRAPHIC] [TIFF OMITTED] TR26SE13.104
+
+* * * * *
+
+Richard L. Gregg,
+Fiscal Assistant Secretary.
+[FR Doc. 2013-23428 Filed 9-25-13; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

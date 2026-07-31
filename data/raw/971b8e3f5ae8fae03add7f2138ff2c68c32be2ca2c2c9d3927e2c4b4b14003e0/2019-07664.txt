@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 74 (Wednesday, April 17, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 74 (Wednesday, April 17, 2019)]
+[Rules and Regulations]
+[Pages 15955-15956]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-07664]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of the Secretary of the Treasury
+
+31 CFR Parts 27 and 50
+
+
+Inflation Adjustment of Civil Monetary Penalties
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Department'' or 
+``Treasury'') publishes this final rule to adjust its civil monetary 
+penalties (``CMPs'') for inflation as mandated by the Federal Civil 
+Penalties Inflation Adjustment Act of 1990, as amended by the Federal 
+Civil Penalties Inflation Adjustment Act Improvements Act of 2015 
+(collectively referred to herein as ``the Act''). This rule adjusts 
+CMPs within the jurisdiction of two components of the Department to the 
+maximum amount required by the Act.
+
+DATES: The final rule is effective April 17, 2019.
+
+FOR FURTHER INFORMATION CONTACT: For information regarding the 
+Terrorism Risk Insurance Program's CMPs, contact Richard Ifft, Senior 
+Insurance Regulatory Policy Analyst, Federal Insurance Office, Room 
+1410 MT, Department of the Treasury, 1500 Pennsylvania Avenue NW, 
+Washington, DC 20220, at (202) 622-2922 (not a toll-free number), or 
+Lindsey Baldwin, Senior Policy Analyst, Federal Insurance Office, at 
+(202) 622-3220 (not a toll free number). Persons who have difficulty 
+hearing or speaking may access these numbers via TTY by calling the 
+toll-free Federal Relay Service at (800) 877-8339.
+    For information regarding the Treasury-wide CMP, contact Richard 
+Dodson, Senior Counsel, General Law, Ethics, and Regulation, 202-622-
+9949.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    In order to improve the effectiveness of CMPs and to maintain their 
+deterrent effect, the Federal Civil Penalties Inflation Adjustment Act 
+of 1990, 28 U.S.C. 2461 note (``the Inflation Adjustment Act''), as 
+amended by the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act of 2015 (Pub. L. 114-74) (``the 2015 Act''), requires 
+Federal agencies to adjust each CMP provided by law within the 
+jurisdiction of the agency. The 2015 Act requires agencies to adjust 
+the level of CMPs with an initial ``catch-up'' adjustment through an 
+interim final rulemaking and to make subsequent annual adjustments for 
+inflation, without needing to provide notice and the opportunity for 
+public comment required by 5 U.S.C. 553. The Department's initial 
+catch-up adjustment interim final rules were published on December 7, 
+2016 (Departmental Offices) (81 FR 88600), and for 31 CFR part 27, on 
+February 11, 2019 (84 FR 3105). The Department's 2018 annual adjustment 
+was published on March 19, 2018 (83 FR 11876). The 2015 Act provides 
+that any increase in a CMP shall apply to CMPs that are assessed after 
+the date the increase takes effect, regardless of whether the
+
+[[Page 15956]]
+
+underlying violation predated such increase.\1\
+---------------------------------------------------------------------------
+
+    \1\ However, the increased CMPs apply only with respect to 
+underlying violations occurring after the date of enactment of the 
+2015 Act, i.e., after November 2, 2015.
+---------------------------------------------------------------------------
+
+II. Method of Calculation
+
+    The method of calculating CMP adjustments applied in this final 
+rule is required by the 2015 Act. Under the 2015 Act and the Office of 
+Management and Budget guidance required by the 2015 Act, annual 
+inflation adjustments subsequent to the initial catch-up adjustment are 
+to be based on the percent change between the Consumer Price Index for 
+all Urban Consumers (``CPI-U'') for the October preceding the date of 
+the adjustment and the prior year's October CPI-U. As set forth in 
+Office of Management and Budget Memorandum M-19-04 of December 14, 
+2018, the adjustment multiplier for 2019 is 1.02522. In order to 
+complete the 2019 annual adjustment, each current CMP is multiplied by 
+the 2019 adjustment multiplier. Under the 2015 Act, any increase in CMP 
+must be rounded to the nearest multiple of $1.
+
+Procedural Matters
+
+1. Administrative Procedure Act
+
+    The Federal Civil Penalties Inflation Adjustment Act Improvements 
+Act of 2015 (Section 701(b)) requires agencies, beginning in 2017, to 
+make annual adjustments for inflation to CMPs, without needing to 
+provide notice and the opportunity for public comment and a delayed 
+effective date required by 5 U.S.C. 553. Additionally, the methodology 
+used, effective 2017, for adjusting CMPs for inflation is provided by 
+statute, with no discretion provided to agencies regarding the 
+substance of the adjustments for inflation to CMPs. The Department is 
+charged only with performing ministerial computations to determine the 
+dollar amount of adjustments for inflation to CMPs. Accordingly, prior 
+public notice, an opportunity for public comment, and a delayed 
+effective date are not required for this rule.
+
+2. Regulatory Flexibility Act
+
+    Because no notice of proposed rulemaking is required, the 
+provisions of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do 
+not apply.
+
+3. Executive Order 12866
+
+    This rule is not a significant regulatory action as defined in 
+section 3.f of Executive Order 12866.
+
+4. Paperwork Reduction Act
+
+    The provisions of the Paperwork Reduction Act of 1995, Public Law 
+104-13, 44 U.S.C. Chapter 35, and its implementing regulations, 5 CFR 
+part 1320, do not apply to this rule because there are no new or 
+revised recordkeeping or reporting requirements.
+
+List of Subjects
+
+31 CFR Part 27
+
+    Administrative practice and procedure, Penalties.
+
+31 CFR Part 50
+
+    Insurance, Terrorism.
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, parts 27 and 50 of title 
+31 of the Code of Federal Regulations are amended as follows:
+
+PART 27--CIVIL PENALTY ASSESSMENT FOR MISUSE OF DEPARTMENT OF THE 
+TREASURY NAMES, SYMBOLS, ETC.
+
+0
+1. The authority citation for part 27 continues to read as follows:
+
+    Authority:  31 U.S.C. 321, 333.
+
+0
+2. Amend Sec.  27.3 by revising paragraph (c) to read as follows:
+
+
+Sec.  27.3  Assessment of civil penalties.
+
+* * * * *
+    (c) Civil penalty. An assessing official may impose a civil penalty 
+on any person who violates the provisions of paragraph (a) of this 
+section. The amount of a civil monetary penalty shall not exceed $7,975 
+for each and every use of any material in violation of paragraph (a), 
+except that such penalty shall not exceed $39,873 for each and every 
+use if such use is in a broadcast or telecast.
+* * * * *
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+3. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322, as amended by Pub. L. 109-144, 119 Stat. 2660, 
+Pub. L. 110-160, 121 Stat. 1839 and Pub. L. 114-1, 129 Stat. 3 (15 
+U.S.C. 6701 note); Pub. L. 114-74, 129 Stat. 601, Title VII (28 
+U.S.C. 2461 note).
+
+0
+4. Amend Sec.  50.83 by revising paragraph (a) to read as follows:
+
+
+Sec.  50.83  Adjustment of civil monetary penalty amount.
+
+    (a) Inflation adjustment. Any penalty under the Act and the 
+regulations in this part may not exceed the greater of $1,394,837 and, 
+in the case of any failure to pay, charge, collect or remit amounts in 
+accordance with the Act or the regulations in this part such amount in 
+dispute.
+* * * * *
+
+David Dwyer,
+Executive Secretary.
+[FR Doc. 2019-07664 Filed 4-16-19; 8:45 am]
+ BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1996/10/22/96-26376.txt",
+  "fetched_at": "2026-07-30T14:10:13.942882+00:00",
+  "sha256": "56f3d390e24c586eaca6dd5f210c8f576421ce5590ac6cdcd907590baf70a329",
+  "content_type": "text/plain",
+  "filename": "96-26376.txt"
+}

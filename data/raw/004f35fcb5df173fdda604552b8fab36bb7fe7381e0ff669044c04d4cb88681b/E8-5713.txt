@@ -1,0 +1,310 @@
+<html>
+<head>
+<title>Federal Register, Volume 73 Issue 55 (Thursday, March 20, 2008)</title>
+</head>
+<body><pre>
+[Federal Register Volume 73, Number 55 (Thursday, March 20, 2008)]
+[Rules and Regulations]
+[Pages 14937-14939]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E8-5713]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 08-01]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds--Minimum and Multiple Amounts Eligible for STRIPS, Legacy 
+Treasury Direct, and Certification Requirements
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury'' or ``We'') is 
+issuing in final form amendments to the Uniform Offering Circular for 
+the Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and 
+Bonds. The first change lowers the minimum and multiple par amounts of 
+Treasury marketable notes, bonds, and Treasury inflation-protected 
+securities (TIPS) that may be stripped from $1,000 to $100. The second 
+change eliminates the provisions allowing depository institutions and 
+dealers to submit customer bids in Treasury marketable securities 
+auctions for securities that will be held in Legacy Treasury Direct. 
+The third change eliminates the requirement that submitters that submit 
+bids by computer provide a written certification that they are in 
+compliance with the auction rules. Finally, this final rule adds 
+technical clarification to the calculation of accrued interest for 
+Treasury bonds and notes.
+
+DATES: Effective Date: This rule is effective on March 20, 2008.
+    Applicability Date: The changes to 31 CFR 356.31 apply to all 
+Treasury marketable securities eligible for stripping (notes, bonds, 
+plus TIPS issued after January 15, 1985) outstanding on and after April 
+7, 2008.
+    Applicability Date: The change to 31 CFR Part 356, Appendix B, 
+Section I, Paragraph C applies to all Treasury notes, bonds, and TIPS 
+issued on or after the date of the first Treasury marketable securities 
+auction with a $100 minimum purchase amount announced through an 
+offering announcement.
+    Applicability Date: The changes to 31 CFR 356.2, 356.4, 356.16, 
+356.17 and 356.25 apply to all auctions of Treasury marketable 
+securities beginning with the first Treasury marketable securities 
+auction with a $100 minimum purchase amount announced through an 
+offering announcement.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Web site at <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a> or from the 
+Electronic Code of Federal Regulations (e-CFR) Web site at <a href="http://www.gpoaccess.gov/ecfr">http://www.gpoaccess.gov/ecfr</a>. It is also available for public inspection and 
+copying at the Treasury Department Library, Room 1428, Main Treasury 
+Building, 1500 Pennsylvania Avenue, NW., Washington, DC 20220. To visit 
+the library, call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director), 
+Chuck Andreatta (Associate Director), or Aaron Gregg (Government 
+Securities Specialist), Bureau of the Public Debt, Government 
+Securities Regulations Staff, (202) 504-3632 or e-mail us at 
+<a href="/cdn-cgi/l/email-protection#d0b7bfa6a3b5b3a2b5b790b2a0b4fea4a2b5b1a3feb7bfa6"><span class="__cf_email__" data-cfemail="3f5850494c5a5c4d5a587f5d4f5b114b4d5a5e4c11585049">[email&#160;protected]</span></a>. Policy Information: Karthik Ramanathan 
+(Director), Department of the Treasury, Office of Debt Management, 
+(202) 622-2042 or e-mail at <a href="/cdn-cgi/l/email-protection#187c7d7a6c36757976797f7d757d766c587c77366c6a7d796b367f776e"><span class="__cf_email__" data-cfemail="4d29282f3963202c232c2a28202823390d292263393f282c3e632a223b">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular (UOC), in 
+conjunction with the announcement for each auction, provides the terms 
+and conditions for the sale and issuance to the public of marketable 
+Treasury bills, notes, bonds and TIPS.\1\
+---------------------------------------------------------------------------
+
+    \1\ The Uniform Offering Circular was first published as a final 
+rule on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR part 356. A final rule converting the UOC to 
+plain language and making certain other minor changes was published 
+on July 28, 2004 (69 FR 45202).
+
+---------------------------------------------------------------------------
+
+[[Page 14938]]
+
+    This final rule revises 31 CFR 356.31 of the UOC, which describes 
+the terms and conditions for STRIPS (Separate Trading of Registered 
+Interest and Principal of Securities). The STRIPS program allows 
+holders of book-entry (electronic) Treasury notes, bonds, and TIPS to 
+separate those securities into their separate principal and interest 
+components. Holders then can hold or trade these components separately 
+as zero-coupon securities. Currently, the minimum par amount of notes, 
+bonds, and TIPS that may be stripped is $1,000,\2\ and any higher par 
+amount to be stripped must be in a multiple of $1,000.
+---------------------------------------------------------------------------
+
+    \2\ See 65 FR 66174 (November 3, 2000) for a previous UOC 
+amendment to minimum and multiple par amounts that may be stripped.
+---------------------------------------------------------------------------
+
+    On August 1, 2007, Treasury announced that it was considering 
+lowering the minimum and multiple par amounts that bidders may bid for 
+in Treasury marketable securities auctions from $1,000 to $100 to put 
+Treasury securities within the reach of all individual investors.\3\ On 
+October 31, 2007, Treasury announced that it will lower the minimum 
+purchase amounts for Treasury auctions from $1,000 to $100 after the 
+release of the new auction processing system.\4\ This will also allow 
+holders to hold and transfer all outstanding Treasury bills, notes, 
+bonds, and TIPS in minimum and multiple par amounts of $100. The 
+announced change does not require a change to the UOC because it will 
+be incorporated in each auction announcement.\5\
+---------------------------------------------------------------------------
+
+    \3\ See August 2007 Quarterly Refunding Statement by Anthony W. 
+Ryan, Treasury Assistant Secretary for Financial Markets (August 1, 
+2007) <a href="http://www.treas.gov/press/releases/hp515.htm">http://www.treas.gov/press/releases/hp515.htm</a>.
+    \4\ See November 2007 Quarterly Refunding Statement by Anthony 
+W. Ryan, Treasury Assistant Secretary for Financial Markets (October 
+31, 2007) <a href="http://www.treas.gov/press/releases/hp655.htm">http://www.treas.gov/press/releases/hp655.htm</a>.
+    \5\ See 31 CFR 356.2, which defines ``minimum to bid'' and 
+``multiple to bid'' as ``the smallest amount of a security that may 
+be bid for in an auction as stated in the auction announcement'' and 
+``the smallest additional amount of a security that may be bid for 
+in an auction as stated in the auction announcement,'' respectively.
+---------------------------------------------------------------------------
+
+    This final rule makes the minimum and multiple par amounts of 
+Treasury notes, bonds, and TIPS eligible to be stripped consistent with 
+the lower minimum and multiple par amounts that bidders may bid for in 
+marketable Treasury securities auctions. The change to the minimum and 
+multiple par amounts eligible to be stripped (31 CFR 356.31) will apply 
+on April 7, 2008, and thereafter to all outstanding Treasury marketable 
+securities eligible for stripping (notes, bonds, plus TIPS issued after 
+January 15, 1985).
+    The final rule also eliminates the provisions allowing depository 
+institutions and dealers to submit customer bids in Treasury marketable 
+securities auctions for securities that will be held in Legacy Treasury 
+Direct (31 CFR 356.2, 356.4, 356.17, and 356.25). This functionality is 
+not available in the new Treasury Automated Auction Processing System 
+(TAAPS). Our experience has been that the volume of such bids has been 
+so low that it does not justify continuing to provide the service in 
+the new TAAPS. Investors will still be able to submit their own bids 
+directly to Legacy Treasury Direct.
+    This final rule also eliminates the requirement that submitters 
+that submit bids by computer provide a written certification that they 
+are in compliance with the auction rules, because it is unnecessary in 
+view of other requirements. The current UOC states that, by submitting 
+bids or other information in an auction, submitters are deemed to have 
+certified that they are in compliance with the auction rules; that the 
+information provided regarding any bids for their own account is 
+accurate and complete; and that the information provided with regard to 
+any bids for customers accurately and completely reflects information 
+provided by those customers or their intermediaries (31 CFR 356.16(a)). 
+The new TAAPS will also state on the login screen that, by bidding in 
+an auction, bidders are certifying that they will comply with the 
+auction rules.
+    In addition, this final rule adds language to Appendix B, Section 
+I, Paragraph C of the UOC to specify how we calculate accrued interest 
+for a par amount of securities less than $1,000.
+
+Procedural Requirements
+
+    This final rule is not a significant regulatory action for purposes 
+of E.O. 12866. The notice and public procedures requirements of the 
+Administrative Procedure Act do not apply, under 5 U.S.C. 553(a)(2).
+    Since a notice of proposed rulemaking is not required, the 
+provisions of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do 
+not apply.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+0
+For the reasons stated in the preamble, 31 CFR part 356 is amended as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. Amend Sec.  356.2 to revise the definition of ``Autocharge 
+agreement'' to read as follows:
+
+
+Sec.  356.2  What definitions do I need to know to understand this 
+part?
+
+* * * * *
+    Autocharge agreement means an agreement in a format acceptable to 
+Treasury between a submitter or clearing corporation and a depository 
+institution that authorizes us to:
+    (1) Deliver awarded securities to the book-entry securities account 
+of a designated depository institution in the commercial book-entry 
+system, and
+    (2) Charge a funds account of a designated depository institution 
+for the settlement amount of the securities.
+* * * * *
+0
+3. Amend Sec.  356.4 to revise paragraph (c) as follows:
+
+
+Sec.  356.4  What are the book-entry systems in which auctioned 
+Treasury securities may be issued?
+
+* * * * *
+    (c) Legacy Treasury Direct. In this system, we maintain the book-
+entry securities of account holders directly on the records of the 
+Bureau of the Public Debt, Department of the Treasury. Bids for 
+securities to be held in Legacy Treasury Direct are submitted directly 
+to us. From time to time, Treasury may announce that certain securities 
+to be offered will not be eligible for purchase or holding in Legacy 
+Treasury Direct.
+
+
+Sec.  356.16  [Amended]
+
+0
+4. In Sec.  356.16, remove paragraph (a)(4).
+0
+5. Amend Sec.  356.17 to revise paragraph (c)(1) to read as follows:
+
+
+Sec.  356.17  How and when do I pay for securities awarded in an 
+auction?
+
+* * * * *
+    (c) * * *
+    (1) Bidding and payment by computer or by telephone. If you are 
+bidding by computer or by telephone, you must pay for any securities 
+awarded to you by debit entry to a deposit account.
+* * * * *
+0
+6. Amend Sec.  356.25 to revise paragraph (b) to read as follows:
+
+[[Page 14939]]
+
+Sec.  356.25  How does the settlement process work?
+
+* * * * *
+    (b) Payment by authorized charge to a funds account. Where the 
+submitter's method of payment is an authorized charge to the funds 
+account of a depository institution as provided for in Sec.  356.17 
+(d), we will charge the settlement amount to the specified funds 
+account on the issue date.
+* * * * *
+0
+7. Amend Sec.  356.31 to revise paragraphs (b)(1) and (c)(1) to read as 
+follows:
+
+
+Sec.  356.31  How does the STRIPS program work?
+
+* * * * *
+    (b) * * *
+    (1) Minimum par amounts required for STRIPS. The minimum par amount 
+of a fixed-principal security that may be stripped is $100. Any par 
+amount to be stripped above $100 must be in a multiple of $100.
+* * * * *
+    (c) * * *
+    (1) Minimum par amounts required for STRIPS. The minimum par amount 
+of an inflation-protected security that may be stripped is $100. Any 
+par amount to be stripped above $100 must be in a multiple of $100.
+* * * * *
+0
+8. Amend Appendix B to part 356 by revising Section I, Paragraph C, 
+Subparagraph 4, to read as follows:
+
+Appendix B to Part 356--Formulas and Tables
+
+* * * * *
+
+C. Accrued Interest
+
+* * * * *
+    4. We round all accrued interest computations to five decimal 
+places for a $1,000 par amount, using normal rounding procedures. We 
+calculate accrued interest for a par amount of securities greater 
+than $1,000 by applying the appropriate multiple to accrued interest 
+payable for a $1,000 par amount, rounded to five decimal places. We 
+calculate accrued interest for a par amount of securities less than 
+$1,000 by applying the appropriate fraction to accrued interest 
+payable for a $1,000 par amount, rounded to five decimal places.
+* * * * *
+
+Gary Grippo,
+Acting Fiscal Assistant Secretary.
+ [FR Doc. E8-5713 Filed 3-19-08; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

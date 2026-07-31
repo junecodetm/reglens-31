@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2004/09/02/04-19999.txt",
+  "fetched_at": "2026-07-30T14:09:17.618721+00:00",
+  "sha256": "c076a3659f55f1b0bf1d7f65660c5a188184d9274a83493665a131075d00bd71",
+  "content_type": "text/plain",
+  "filename": "04-19999.txt"
+}

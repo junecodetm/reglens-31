@@ -40,6 +40,17 @@ class DocumentExtraction(BaseModel):
     rejected_count: int
     total_chars: int
     extracted_chars: int
+    run: RunMeta | None = None
+    """The run that produced this document, whether or not it yielded any claims.
+
+    Recorded at the document level because provenance is a property of the run,
+    not of its output: a document the model read and found nothing in has a real,
+    checkable run record, and without this field it was indistinguishable from a
+    document never processed at all — so it was re-inferred on every pass and the
+    idempotency guarantee quietly did not hold for it. ``None`` marks a record
+    written before this field existed; it never matches a computed run, so such a
+    document is re-extracted rather than trusted (fail-closed).
+    """
     claims: list[ClaimRecord]
 
 

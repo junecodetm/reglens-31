@@ -1,1 +1,1 @@
-"""Statutory authority linker (EXTEND-OGC01 Stage 1)."""
+"""Statutory authority linker with fail-closed citation resolution."""

@@ -1,0 +1,801 @@
+{
+  "components": {
+    "schemas": {
+      "Claim": {
+        "description": "One extracted obligation and the provenance gate's verdict on it.",
+        "properties": {
+          "accepted": {
+            "description": "True iff the quote verified against the source text.",
+            "title": "Accepted",
+            "type": "boolean"
+          },
+          "affected_party": {
+            "title": "Affected Party",
+            "type": "string"
+          },
+          "claim_id": {
+            "title": "Claim Id",
+            "type": "string"
+          },
+          "document_number": {
+            "title": "Document Number",
+            "type": "string"
+          },
+          "effective_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Effective Date"
+          },
+          "end": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "End"
+          },
+          "obligation_type": {
+            "title": "Obligation Type",
+            "type": "string"
+          },
+          "quote": {
+            "description": "The claimed verbatim span, exactly as the model returned it.",
+            "title": "Quote",
+            "type": "string"
+          },
+          "rejection_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rejection Reason"
+          },
+          "run": {
+            "$ref": "#/components/schemas/RunProvenance"
+          },
+          "start": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Character offset into the source text; null if rejected.",
+            "title": "Start"
+          },
+          "summary": {
+            "description": "Model-written. Not verbatim, and not gate-verified.",
+            "title": "Summary",
+            "type": "string"
+          }
+        },
+        "required": [
+          "claim_id",
+          "document_number",
+          "quote",
+          "obligation_type",
+          "affected_party",
+          "summary",
+          "effective_date",
+          "accepted",
+          "start",
+          "end",
+          "rejection_reason",
+          "run"
+        ],
+        "title": "Claim",
+        "type": "object"
+      },
+      "ClaimPage": {
+        "description": "One materialized page of claims.\n\nPagination is materialized rather than query-driven because this API is\nserved as static files (see docs/ARCHITECTURE.md): ``next`` is a URL, not a\ncursor to be constructed.",
+        "properties": {
+          "claims": {
+            "items": {
+              "$ref": "#/components/schemas/Claim"
+            },
+            "title": "Claims",
+            "type": "array"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Path of the next page, or null on the last page.",
+            "title": "Next"
+          },
+          "page": {
+            "minimum": 1,
+            "title": "Page",
+            "type": "integer"
+          },
+          "page_count": {
+            "minimum": 1,
+            "title": "Page Count",
+            "type": "integer"
+          },
+          "page_size": {
+            "minimum": 1,
+            "title": "Page Size",
+            "type": "integer"
+          },
+          "total": {
+            "minimum": 0,
+            "title": "Total",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "page",
+          "page_count",
+          "page_size",
+          "total",
+          "next",
+          "claims"
+        ],
+        "title": "ClaimPage",
+        "type": "object"
+      },
+      "Corpus": {
+        "description": "What was extracted, out of what was in scope.",
+        "properties": {
+          "accepted_count": {
+            "minimum": 0,
+            "title": "Accepted Count",
+            "type": "integer"
+          },
+          "chars_extracted": {
+            "minimum": 0,
+            "title": "Chars Extracted",
+            "type": "integer"
+          },
+          "chars_in_scope": {
+            "minimum": 0,
+            "title": "Chars In Scope",
+            "type": "integer"
+          },
+          "data_as_of": {
+            "title": "Data As Of",
+            "type": "string"
+          },
+          "documents_extracted": {
+            "minimum": 0,
+            "title": "Documents Extracted",
+            "type": "integer"
+          },
+          "documents_in_scope": {
+            "minimum": 0,
+            "title": "Documents In Scope",
+            "type": "integer"
+          },
+          "max_document_chars": {
+            "description": "Per-document extraction cap for Federal Register documents. The CFR part texts are uncapped; a document's own total_chars/extracted_chars record what the cap actually cost it.",
+            "minimum": 0,
+            "title": "Max Document Chars",
+            "type": "integer"
+          },
+          "model_tags": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Model Tags",
+            "type": "array"
+          },
+          "rejected_count": {
+            "minimum": 0,
+            "title": "Rejected Count",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "data_as_of",
+          "documents_extracted",
+          "documents_in_scope",
+          "chars_extracted",
+          "chars_in_scope",
+          "max_document_chars",
+          "accepted_count",
+          "rejected_count",
+          "model_tags"
+        ],
+        "title": "Corpus",
+        "type": "object"
+      },
+      "Currency": {
+        "description": "Whether the pinned corpus has drifted from the live regulation.",
+        "properties": {
+          "parts": {
+            "items": {
+              "$ref": "#/components/schemas/CurrencyPart"
+            },
+            "title": "Parts",
+            "type": "array"
+          },
+          "snapshot_date": {
+            "description": "The point-in-time date the corpus is pinned to.",
+            "title": "Snapshot Date",
+            "type": "string"
+          },
+          "source_urls": {
+            "description": "The eCFR endpoints this was derived from.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Source Urls",
+            "type": "array"
+          },
+          "total_amended_since_snapshot": {
+            "minimum": 0,
+            "title": "Total Amended Since Snapshot",
+            "type": "integer"
+          },
+          "total_sections": {
+            "minimum": 0,
+            "title": "Total Sections",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "snapshot_date",
+          "total_sections",
+          "total_amended_since_snapshot",
+          "parts",
+          "source_urls"
+        ],
+        "title": "Currency",
+        "type": "object"
+      },
+      "CurrencyPart": {
+        "description": "Amendment currency for one in-scope part, against the pinned snapshot date.",
+        "properties": {
+          "amended_since_snapshot": {
+            "minimum": 0,
+            "title": "Amended Since Snapshot",
+            "type": "integer"
+          },
+          "census_count": {
+            "description": "Sections eCFR's structure index lists.",
+            "minimum": 0,
+            "title": "Census Count",
+            "type": "integer"
+          },
+          "part": {
+            "title": "Part",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "part",
+          "census_count",
+          "amended_since_snapshot"
+        ],
+        "title": "CurrencyPart",
+        "type": "object"
+      },
+      "DocumentCollection": {
+        "description": "Every document with an extraction record in the published sample.",
+        "properties": {
+          "count": {
+            "minimum": 0,
+            "title": "Count",
+            "type": "integer"
+          },
+          "documents": {
+            "items": {
+              "$ref": "#/components/schemas/DocumentSummary"
+            },
+            "title": "Documents",
+            "type": "array"
+          }
+        },
+        "required": [
+          "count",
+          "documents"
+        ],
+        "title": "DocumentCollection",
+        "type": "object"
+      },
+      "DocumentDetail": {
+        "description": "A document together with every claim extracted from it.",
+        "properties": {
+          "accepted_count": {
+            "minimum": 0,
+            "title": "Accepted Count",
+            "type": "integer"
+          },
+          "claims": {
+            "items": {
+              "$ref": "#/components/schemas/Claim"
+            },
+            "title": "Claims",
+            "type": "array"
+          },
+          "document_number": {
+            "title": "Document Number",
+            "type": "string"
+          },
+          "document_sha256": {
+            "title": "Document Sha256",
+            "type": "string"
+          },
+          "document_title": {
+            "title": "Document Title",
+            "type": "string"
+          },
+          "document_url": {
+            "title": "Document Url",
+            "type": "string"
+          },
+          "extracted_chars": {
+            "description": "Characters actually given to the model; may be less than total_chars.",
+            "minimum": 0,
+            "title": "Extracted Chars",
+            "type": "integer"
+          },
+          "rejected_count": {
+            "minimum": 0,
+            "title": "Rejected Count",
+            "type": "integer"
+          },
+          "total_chars": {
+            "description": "Characters in the full source text.",
+            "minimum": 0,
+            "title": "Total Chars",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "document_number",
+          "document_title",
+          "document_url",
+          "document_sha256",
+          "accepted_count",
+          "rejected_count",
+          "total_chars",
+          "extracted_chars",
+          "claims"
+        ],
+        "title": "DocumentDetail",
+        "type": "object"
+      },
+      "DocumentSummary": {
+        "description": "One corpus document and how much of it was extracted.",
+        "properties": {
+          "accepted_count": {
+            "minimum": 0,
+            "title": "Accepted Count",
+            "type": "integer"
+          },
+          "document_number": {
+            "title": "Document Number",
+            "type": "string"
+          },
+          "document_sha256": {
+            "title": "Document Sha256",
+            "type": "string"
+          },
+          "document_title": {
+            "title": "Document Title",
+            "type": "string"
+          },
+          "document_url": {
+            "title": "Document Url",
+            "type": "string"
+          },
+          "extracted_chars": {
+            "description": "Characters actually given to the model; may be less than total_chars.",
+            "minimum": 0,
+            "title": "Extracted Chars",
+            "type": "integer"
+          },
+          "rejected_count": {
+            "minimum": 0,
+            "title": "Rejected Count",
+            "type": "integer"
+          },
+          "total_chars": {
+            "description": "Characters in the full source text.",
+            "minimum": 0,
+            "title": "Total Chars",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "document_number",
+          "document_title",
+          "document_url",
+          "document_sha256",
+          "accepted_count",
+          "rejected_count",
+          "total_chars",
+          "extracted_chars"
+        ],
+        "title": "DocumentSummary",
+        "type": "object"
+      },
+      "Metrics": {
+        "description": "Evaluation metrics, carrying the provisional label verbatim.\n\n``provisional_label`` is a required field in the published contract.",
+        "properties": {
+          "adjudicated_count": {
+            "minimum": 0,
+            "title": "Adjudicated Count",
+            "type": "integer"
+          },
+          "citation_fidelity": {
+            "title": "Citation Fidelity",
+            "type": "number"
+          },
+          "f1": {
+            "title": "F1",
+            "type": "number"
+          },
+          "n_documents": {
+            "minimum": 0,
+            "title": "N Documents",
+            "type": "integer"
+          },
+          "n_provisions": {
+            "minimum": 0,
+            "title": "N Provisions",
+            "type": "integer"
+          },
+          "precision": {
+            "title": "Precision",
+            "type": "number"
+          },
+          "provisional_label": {
+            "title": "Provisional Label",
+            "type": "string"
+          },
+          "recall": {
+            "title": "Recall",
+            "type": "number"
+          },
+          "total_gold_count": {
+            "minimum": 0,
+            "title": "Total Gold Count",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "provisional_label",
+          "precision",
+          "recall",
+          "f1",
+          "citation_fidelity",
+          "n_provisions",
+          "n_documents",
+          "adjudicated_count",
+          "total_gold_count"
+        ],
+        "title": "Metrics",
+        "type": "object"
+      },
+      "RunProvenance": {
+        "description": "Published run metadata for one claim.",
+        "properties": {
+          "chunk_plan_sha256": {
+            "description": "Identity of the chunk sequence the model was shown. The model reads one chunk at a time, so different boundaries are a different run.",
+            "title": "Chunk Plan Sha256",
+            "type": "string"
+          },
+          "input_sha256": {
+            "description": "SHA-256 of the bounded document text supplied to the chunking pipeline.",
+            "title": "Input Sha256",
+            "type": "string"
+          },
+          "model_tag": {
+            "description": "Pinned model identifier, e.g. qwen3:8b.",
+            "title": "Model Tag",
+            "type": "string"
+          },
+          "prompt_sha256": {
+            "description": "SHA-256 of the system + user prompt template.",
+            "title": "Prompt Sha256",
+            "type": "string"
+          },
+          "runtime": {
+            "description": "Inference runtime and version, e.g. ollama/0.30.7. 'unknown' where the producing run predates this field; it is never backfilled.",
+            "title": "Runtime",
+            "type": "string"
+          },
+          "temperature": {
+            "title": "Temperature",
+            "type": "number"
+          }
+        },
+        "required": [
+          "model_tag",
+          "prompt_sha256",
+          "input_sha256",
+          "temperature",
+          "runtime",
+          "chunk_plan_sha256"
+        ],
+        "title": "RunProvenance",
+        "type": "object"
+      },
+      "SectionCollection": {
+        "properties": {
+          "count": {
+            "minimum": 0,
+            "title": "Count",
+            "type": "integer"
+          },
+          "sections": {
+            "items": {
+              "$ref": "#/components/schemas/SectionSummary"
+            },
+            "title": "Sections",
+            "type": "array"
+          }
+        },
+        "required": [
+          "count",
+          "sections"
+        ],
+        "title": "SectionCollection",
+        "type": "object"
+      },
+      "SectionSummary": {
+        "description": "One CFR section span located in the committed part text.",
+        "properties": {
+          "designation": {
+            "title": "Designation",
+            "type": "string"
+          },
+          "end": {
+            "title": "End",
+            "type": "integer"
+          },
+          "heading": {
+            "title": "Heading",
+            "type": "string"
+          },
+          "part": {
+            "title": "Part",
+            "type": "integer"
+          },
+          "start": {
+            "title": "Start",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "part",
+          "designation",
+          "heading",
+          "start",
+          "end"
+        ],
+        "title": "SectionSummary",
+        "type": "object"
+      },
+      "ServiceIndex": {
+        "description": "Entry point: what this API is, what it is not, and where everything lives.",
+        "properties": {
+          "api_version": {
+            "default": "v1",
+            "title": "Api Version",
+            "type": "string"
+          },
+          "corpus": {
+            "$ref": "#/components/schemas/Corpus"
+          },
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "disclaimer": {
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "links": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Relation name to path, for every endpoint.",
+            "title": "Links",
+            "type": "object"
+          },
+          "name": {
+            "const": "RegLens-31 read API",
+            "default": "RegLens-31 read API",
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "description",
+          "disclaimer",
+          "corpus",
+          "links"
+        ],
+        "title": "ServiceIndex",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Read-only static JSON. No authentication, no key, no rate limit, no server: every path below is a file in the same pre-computed export the site itself reads.",
+    "license": {
+      "identifier": "Apache-2.0",
+      "name": "Apache-2.0"
+    },
+    "title": "RegLens-31 read API",
+    "version": "v1"
+  },
+  "openapi": "3.1.1",
+  "paths": {
+    "/claims/page-{page}.json": {
+      "get": {
+        "operationId": "claimPage",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "page",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimPage"
+                }
+              }
+            },
+            "description": "One materialized page of claims across the whole extracted sample."
+          }
+        },
+        "summary": "One materialized page of claims across the whole extracted sample."
+      }
+    },
+    "/currency.json": {
+      "get": {
+        "operationId": "currency",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Currency"
+                }
+              }
+            },
+            "description": "Whether the pinned corpus has drifted from the live regulation."
+          }
+        },
+        "summary": "Whether the pinned corpus has drifted from the live regulation."
+      }
+    },
+    "/documents.json": {
+      "get": {
+        "operationId": "documentCollection",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentCollection"
+                }
+              }
+            },
+            "description": "Every extracted document with its snapshot digest and coverage counts."
+          }
+        },
+        "summary": "Every extracted document with its snapshot digest and coverage counts."
+      }
+    },
+    "/documents/{document_number}.json": {
+      "get": {
+        "operationId": "documentDetail",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "document_number",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocumentDetail"
+                }
+              }
+            },
+            "description": "One document and every claim extracted from it, accepted and rejected alike."
+          }
+        },
+        "summary": "One document and every claim extracted from it, accepted and rejected alike."
+      }
+    },
+    "/index.json": {
+      "get": {
+        "operationId": "serviceIndex",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServiceIndex"
+                }
+              }
+            },
+            "description": "Entry point: what this API is, what it is not, and where everything lives."
+          }
+        },
+        "summary": "Entry point: what this API is, what it is not, and where everything lives."
+      }
+    },
+    "/metrics.json": {
+      "get": {
+        "operationId": "metrics",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Metrics"
+                }
+              }
+            },
+            "description": "Evaluation metrics, carrying the provisional label verbatim."
+          }
+        },
+        "summary": "Evaluation metrics, carrying the provisional label verbatim."
+      }
+    },
+    "/sections.json": {
+      "get": {
+        "operationId": "sectionCollection",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SectionCollection"
+                }
+              }
+            },
+            "description": "CFR section spans located in the committed part texts."
+          }
+        },
+        "summary": "CFR section spans located in the committed part texts."
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "/api/v1"
+    }
+  ]
+}

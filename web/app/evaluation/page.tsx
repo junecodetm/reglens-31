@@ -17,10 +17,9 @@ export default function EvaluationPage() {
         title="Evaluation (provisional)"
         lead={
           <>
-            How often the extractor is right, measured on a labeled sample
-            and reported with confidence intervals — for obligation
-            extraction and for the three modules above. Labels are
-            machine-proposed and marked{" "}
+            Extractor accuracy, measured on a labeled sample and reported with
+            confidence intervals — for obligation extraction and for the three
+            modules above. Labels are machine-proposed and marked{" "}
             <GlossaryTerm term="provisional-label">provisional</GlossaryTerm>{" "}
             until human adjudication completes.
           </>

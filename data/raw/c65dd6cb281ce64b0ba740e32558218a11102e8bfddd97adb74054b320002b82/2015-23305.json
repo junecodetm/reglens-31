@@ -1,0 +1,98 @@
+{
+  "abstract": "This final rule adopts the interim rule, published in the Federal Register on January 28, 2011, concerning the collection of delinquent State unemployment compensation debts through the offset of overpayments of Federal taxes.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2015/09/17/2015-23305.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "80 FR 55751",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective September 17, 2015.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2015-23305",
+  "effective_on": "2015-09-17",
+  "end_page": 55752,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2015/09/17/2015-23305.xml",
+  "html_url": "https://www.federalregister.gov/documents/2015/09/17/2015-23305/offset-of-tax-refund-payments-to-collect-certain-debts-owed-to-states",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2015-23305?publication_date=2015-09-17",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2015-09-17/2015-23305/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 256,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2015-09-17/pdf/2015-23305.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2015-23305.pdf?1442407543",
+  "publication_date": "2015-09-17",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2015/09/17/2015-23305.txt",
+  "regulation_id_number_info": {
+    "1530-AA02": {
+      "html_url": "https://www.federalregister.gov/regulations/1530-AA02/offset-of-tax-refund-payments-to-collect-state-income-tax-obligations-and-unemployment-debts-owed-to",
+      "issue": "201504",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Offset of Tax Refund Payments to Collect State Income Tax Obligations and Unemployment Debts Owed to States",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=201504&RIN=1530-AA02&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1530-AA02"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2015-10-07T06:00:10Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 55751,
+  "subtype": null,
+  "title": "Offset of Tax Refund Payments To Collect Certain Debts Owed to States",
+  "toc_doc": "Offset of Tax Refund Payments to Collect Certain Debts Owed to States",
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 80
+}

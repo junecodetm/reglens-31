@@ -1,0 +1,92 @@
+{
+  "abstract": "This final rule implements the administrative wage garnishment provisions contained in the Debt Collection Improvement Act of 1996 (DCIA). Wage garnishment is a process whereby an employer withholds amounts from an employee's wages and pays those amounts to the employee's creditor in satisfaction of a withholding order. The DCIA authorizes Federal agencies administratively to garnish the disposable pay of an individual to collect delinquent nontax debts owed to the United States in accordance with regulations issued by the Secretary of the Treasury.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1998/05/06/98-11966.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "285",
+      "title": 31
+    }
+  ],
+  "citation": "63 FR 25136",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective June 5, 1998.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "98-11966",
+  "effective_on": "1998-06-05",
+  "end_page": 25142,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1998/05/06/98-11966/administrative-wage-garnishment",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/98-11966?publication_date=1998-05-06",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1998-05-06/98-11966/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 7,
+  "page_views": {
+    "count": 221,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-05-06/pdf/98-11966.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1998-05-06",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/05/06/98-11966.txt",
+  "regulation_id_number_info": {
+    "1510-AA67": {
+      "html_url": "https://www.federalregister.gov/regulations/1510-AA67/administrative-wage-garnishment",
+      "issue": "199804",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Administrative Wage Garnishment",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=199804&RIN=1510-AA67&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1510-AA67"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-09-21T04:18:51Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 25136,
+  "subtype": null,
+  "title": "Administrative Wage Garnishment",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 63
+}

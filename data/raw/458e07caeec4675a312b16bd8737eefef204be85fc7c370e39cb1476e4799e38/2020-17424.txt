@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 155 (Tuesday, August 11, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 155 (Tuesday, August 11, 2020)]
+[Rules and Regulations]
+[Pages 48474-48475]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-17424]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Adjustment of Applicable Schedule Amount
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this final rule to make technical amendments 
+to the
+
+[[Page 48475]]
+
+definition of ``applicable schedule amount'' in its regulations. In 
+recent years, OFAC has adjusted its civil monetary penalties (CMPs) as 
+required by the Federal Civil Penalties Inflation Adjustment Act, as 
+amended by the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act of 2015. While OFAC's ``applicable schedule amount'' 
+values are not civil monetary penalties that are required to be 
+adjusted pursuant to such statute, OFAC is making technical changes to 
+this definition to ensure the applicable schedule amount values 
+continue to correspond appropriately to OFAC's CMPs.
+
+DATES: This rule is effective August 11, 2020.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Licensing, tel.: 202-622-2480; Assistant Director for Regulatory 
+Affairs, tel.: 202-622-4855; or Assistant Director for Sanctions 
+Compliance & Evaluation, tel.: 202-622-2490.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website (<a href="http://www.treasury.gov/ofac">www.treasury.gov/ofac</a>).
+
+Background
+
+    On September 8, 2008, OFAC issued as an interim final rule the 
+``Economic Sanctions Enforcement Guidelines'' (Enforcement Guidelines) 
+as appendix A to the Reporting, Procedures and Penalties Regulations at 
+31 CFR part 501 (73 FR 51933, September 8, 2008). On November 9, 2009, 
+OFAC re-issued as a final rule the Enforcement Guidelines (74 FR 57593, 
+November 9, 2009). OFAC's Enforcement Guidelines provide a general 
+framework for the enforcement of all economic sanctions programs 
+administered by OFAC. Section V.B.2.a.ii. of the Enforcement Guidelines 
+states that the base amount of a proposed civil penalty in a Pre-
+Penalty Notice shall be the ``applicable schedule amount,'' subject to 
+certain caps noted in that section, where the case is deemed non-
+egregious and the apparent violation has come to OFAC's attention by 
+means other than a voluntary self-disclosure. Section I.B. of the 
+Enforcement Guidelines provides a definition of ``applicable schedule 
+amount.''
+    Separately, as required by the Federal Civil Penalties Inflation 
+Adjustment Act (1990 Pub. L. 101-410, 104 Stat. 890; 28 U.S.C. 2461 
+note), as amended by the Federal Civil Penalties Inflation Adjustment 
+Act Improvements Act of 2015 (Pub. L. 114-74, 129 Stat. 599, 28 U.S.C. 
+2461 note) (collectively, the FCPIA Act), OFAC has adjusted its CMPs 
+five times since the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act went into effect on November 2, 2015: An initial 
+catch-up adjustment on August 1, 2016 (81 FR 43070, July 1, 2016), and 
+annual adjustments on February 10, 2017 (82 FR 10434, February 10, 
+2017), March 19, 2018 (83 FR 11876, March 19, 2018), June 14, 2019 (84 
+FR 27714, June 14, 2019), and April 9, 2020 (85 FR 19884, April 9, 
+2020).
+    OFAC's applicable schedule amount values in the Enforcement 
+Guidelines, while not required to be adjusted pursuant to the FCPIA 
+Act, correspond in certain ways with OFAC's CMPs. As a result, to 
+correspond with OFAC's recent CMP adjustments required by the FCPIA 
+Act, OFAC is now amending the definition of ``applicable schedule 
+amount'' in section I.B. of appendix A to 31 CFR part 501, to adjust 
+applicable schedule amount values for transactions valued at $100,000 
+or more. Specifically, OFAC is amending sections I.B.6. and I.B.7., 
+such that in the case of transactions valued at $100,000 or more but 
+less than $200,000, the applicable schedule amount is now $200,000, and 
+in the case of transactions valued at $200,000 or more, the applicable 
+schedule amount is now $307,922, which corresponds with the current 
+maximum CMP amount for a violation of the International Emergency 
+Economic Powers Act (50 U.S.C. 1701-1706, at 1705). These changes are 
+not required pursuant to the FCPIA; however, OFAC is making these 
+changes to ensure the applicable schedule amount values continue to 
+correspond appropriately to OFAC's CMPs as the CMPs are adjusted 
+pursuant to the FCPIA annually. Additionally, OFAC is amending the 
+authorities section of 31 CFR part 501 to shorten citations to conform 
+to Federal Register guidance.
+
+Public Participation
+
+    Because this final rule imposes no obligations on any person, but 
+only amends OFAC's enforcement policy and procedures based on existing 
+substantive rules, provisions of the Administrative Procedure Act (5 
+U.S.C. 553) requiring notice of proposed rulemaking, opportunity for 
+public participation, and delay in effective date are inapplicable. 
+Further, this final rule is not a significant regulatory action for 
+purposes of Executive Order 12866. Accordingly, the provisions of 
+Executive Order 13771 are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The Paperwork Reduction Act does not apply because this rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Exports, Foreign trade, Licensing, Penalties, Sanctions.
+
+    For the reasons set forth in the preamble, the Department of the 
+Treasury's Office of Foreign Assets Control amends 31 CFR part 501 as 
+follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 is revised to read as follows:
+
+    Authority:  8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 22 U.S.C. 2370(a), 
+6009, 6032, 7205; 28 U.S.C. 2461 note; 31 U.S.C. 321(b); 50 U.S.C. 
+1701-1706; 50 U.S.C. 4301-4341; 22 U.S.C. 8501-8551.
+
+Appendix A to Part 501 [Amended]
+
+0
+2. Amend appendix A to part 501 as follows:
+0
+a. In section I.B.6., remove ``$170,000'' in both places it appears and 
+add in its place ``$200,000'' in both places.
+0
+b. In section I.B.7., remove ``$250,000'' and add in its place 
+``$307,922'', and remove ``$170,000'' and add in its place 
+``$200,000''.
+
+    Dated: August 5, 2020.
+Andrea Gacki,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2020-17424 Filed 8-10-20; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

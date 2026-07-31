@@ -1,0 +1,82 @@
+{
+  "abstract": "The Treasury Department is amending the Reporting and Procedures Regulations to modify the procedures for removal of names of blocked persons or vessels from the Office of Foreign Assets Control's list of blocked persons, specially designated nationals, specially designated terrorists, foreign terrorist organizations, specially designated narcotics traffickers, and blocked vessels.",
+  "action": "Final rule; amendment.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1999/02/04/99-2571.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    }
+  ],
+  "citation": "64 FR 5614",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "January 29, 1999.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "99-2571",
+  "effective_on": "1999-01-29",
+  "end_page": 5615,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1999/02/04/99-2571/reporting-and-procedures-regulations-procedure-for-requests-for-removal-from-list-of-blocked-persons",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/99-2571?publication_date=1999-02-04",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1999-02-04/99-2571/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 104,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1999-02-04/pdf/99-2571.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1999-02-04",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1999/02/04/99-2571.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-09-20T23:55:44Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 5614,
+  "subtype": null,
+  "title": "Reporting and Procedures Regulations: Procedure for Requests for Removal from List of Blocked Persons, Specially Designated Nationals, Specially Designated Terrorists, Foreign Terrorist Organizations, Specially Designated Narcotics Traffickers, and Blocked Vessels",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 64
+}

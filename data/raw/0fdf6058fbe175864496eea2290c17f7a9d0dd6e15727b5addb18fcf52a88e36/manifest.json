@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2007/01/18/07-209.txt",
+  "fetched_at": "2026-07-30T14:09:22.842807+00:00",
+  "sha256": "0fdf6058fbe175864496eea2290c17f7a9d0dd6e15727b5addb18fcf52a88e36",
+  "content_type": "text/plain",
+  "filename": "07-209.txt"
+}

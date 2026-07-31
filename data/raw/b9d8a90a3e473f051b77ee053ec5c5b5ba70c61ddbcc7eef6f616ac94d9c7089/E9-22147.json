@@ -1,0 +1,94 @@
+{
+  "abstract": "Treasury recently raised the customer confirmation reporting requirement threshold amount from $750 million to $2 billion for all Treasury marketable securities auctions. This final rule amends Treasury's auction rules to conform to the new $2 billion threshold amount.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2009/09/15/E9-22147.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    }
+  ],
+  "citation": "74 FR 47099",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective Date: Effective September 15, 2009.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. BPD GSRS 09-02"
+  ],
+  "dockets": [],
+  "document_number": "E9-22147",
+  "effective_on": "2009-09-15",
+  "end_page": 47100,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2009/09/15/E9-22147.xml",
+  "html_url": "https://www.federalregister.gov/documents/2009/09/15/E9-22147/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds-customer-confirmation",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/E9-22147?publication_date=2009-09-15",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2009-09-15/E9-22147/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 68,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2009-09-15/pdf/E9-22147.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2009-09-15",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2009/09/15/E9-22147.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2009-09-16T19:03:06Z",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 47099,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds; Customer Confirmation Reporting Requirement Threshold Amount",
+  "toc_doc": "Customer Confirmation Reporting Requirement Threshold Amount",
+  "toc_subject": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds:",
+  "topics": [
+    "Bonds",
+    "Government securities",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 74
+}

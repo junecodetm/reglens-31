@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2000/02/29/00-4672.txt",
+  "fetched_at": "2026-07-30T14:09:08.930619+00:00",
+  "sha256": "cf359961ff2d87e34774d2e36a054c881e0d70dac7bd17912e8ff127922faf3c",
+  "content_type": "text/plain",
+  "filename": "00-4672.txt"
+}

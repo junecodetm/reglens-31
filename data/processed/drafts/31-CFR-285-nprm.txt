@@ -14,7 +14,7 @@ AGENCY: [PLACEHOLDER — attorney to complete]
 
 ACTION: Notice of proposed rulemaking.
 
-SUMMARY: [model-generated] 31 CFR Part 285 establishes authorities for debt collection under the Debt Collection Improvement Act of 1996. This skeleton provides a structural framework for the rule without legal conclusions or policy recommendations.
+SUMMARY: [model-generated] Part 285 of Title 31 of the Code of Federal Regulations addresses debt collection authorities under the Debt Collection Improvement Act of 1996. This draft rule skeleton provides only the structural framework for the part.
 
 DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
@@ -26,7 +26,7 @@ SUPPLEMENTARY INFORMATION:
 
    I. Background
 
-   [model-generated] Part 285 outlines procedures and authorities related to the collection of debts owed to the United States. It implements provisions from various statutes and executive orders to govern debt collection practices.
+   [model-generated] The part is organized under the authority citations listed, which include provisions of the United States Code and an executive order. It outlines the regulatory framework for agencies to exercise debt collection powers as authorized by the cited statutes and order.
 
    [PLACEHOLDER — attorney to complete]
 

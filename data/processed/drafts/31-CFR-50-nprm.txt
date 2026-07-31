@@ -14,7 +14,7 @@ AGENCY: [PLACEHOLDER — attorney to complete]
 
 ACTION: Notice of proposed rulemaking.
 
-SUMMARY: [model-generated] 31 CFR Part 50 establishes the Terrorism Risk Insurance Program, which provides a federal backstop for insurance against terrorist attacks. This skeleton outlines the structure of the regulation without including specific provisions.
+SUMMARY: [model-generated] This draft skeleton outlines the structure for regulations concerning the Terrorism Risk Insurance Program as identified in Part 50 of Title 31 of the Code of Federal Regulations. The document provides only the framework for future rulemaking and does not contain substantive provisions.
 
 DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
@@ -26,7 +26,7 @@ SUPPLEMENTARY INFORMATION:
 
    I. Background
 
-   [model-generated] The Terrorism Risk Insurance Program is designed to ensure the availability of insurance coverage for losses resulting from terrorist attacks. The regulation outlines the framework for administering the program, including eligibility, coverage, and financial mechanisms.
+   [model-generated] Part 50 establishes the regulatory framework for a program that addresses insurance coverage related to terrorism risk. The part is issued under the authority cited from the United States Code and various public laws, and it defines the scope and administration of the program.
 
    [PLACEHOLDER — attorney to complete]
 

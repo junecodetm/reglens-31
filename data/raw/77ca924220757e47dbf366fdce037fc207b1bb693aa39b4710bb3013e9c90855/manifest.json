@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2003/09/11/03-22968.txt",
+  "fetched_at": "2026-07-30T14:09:13.003176+00:00",
+  "sha256": "77ca924220757e47dbf366fdce037fc207b1bb693aa39b4710bb3013e9c90855",
+  "content_type": "text/plain",
+  "filename": "03-22968.txt"
+}

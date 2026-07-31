@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Federal Register, Volume 60 Issue 50 (Wednesday, March 15, 1995)</title>
+</head>
+<body><pre>
+[Federal Register Volume 60, Number 50 (Wednesday, March 15, 1995)]
+[Rules and Regulations]
+[Pages 13906-13907]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 95-6394]
+
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds (Department of the Treasury Circular, Public Debt Series No. 
+1-93)
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Department'') is issuing in 
+final form an amendment to 31 CFR Part 356, published as a final rule 
+on January 5, 1993 (58 FR 412). This amendment clarifies the definition 
+of the term ``bid'' and changes the required format for competitive 
+bids for Treasury notes and bonds from two decimals to three decimals.
+
+EFFECTIVE DATE: February 22, 1995.
+
+FOR FURTHER INFORMATION CONTACT: Michael W. Sunner, Deputy Assistant 
+Commissioner, Office of Financing, Bureau of the Public Debt (202) 219-
+3350, or Margaret Marquette, Attorney-Adviser, Office of the Chief 
+Counsel, Bureau of the Public Debt (202) 219-3320.
+
+SUPPLEMENTARY INFORMATION: 31 CFR Part 356, also referred to as the 
+uniform offering circular, sets out the terms and conditions for the 
+sale and issuance by the Department of the Treasury to the public of 
+marketable Treasury bills, notes, and bonds. The final rule contained 
+herein amends Secs. 356.2 and 356.12 of the uniform offering circular.
+    In Sec. 356.2, the definition of the term ``bid'' has been 
+modified. The Department has become aware that securities dealers may 
+enter into transactions whereby they effectively ``guarantee'' the 
+amount and price of securities their customers will receive following a 
+Treasury auction.<SUP>1 The price guaranteed may be simply an agreed-
+upon price, or it may be a price fixed in terms of an agreed-upon 
+standard, e.g., the weighted average auction price. The dealer may 
+obtain securities to fulfill such a guarantee either through an auction 
+bid or through the when-issued market, or both.
+
+    \1\The guarantee described herein is not intended to refer to a 
+securities dealer submitting or forwarding a noncompetitive bid for 
+a customer.
+---------------------------------------------------------------------------
+
+    The Department views the guarantee described above to be the 
+equivalent of a when-issued trade between the dealer and its customer. 
+Therefore, the Department has determined that, for purposes of 
+Treasury's auction rules, any bid of the dealer to obtain securities to 
+fulfill such a guarantee is a bid for the dealer's own account and not 
+a bid for a customer, as the term customer is defined in the offering 
+circular. This means that the recipient of the guarantee may not be 
+listed as a customer in connection with any bid to fulfill the 
+guarantee. Rather, the depository institution or dealer that has made 
+the guarantee is considered the bidder and must include such amount as 
+part of its own bid. The guaranteeing entity may reflect the guaranteed 
+amount being included in its bid as a short position in calculating its 
+net long position. If the recipient of the guarantee for a specific 
+security also bids for that same security in its own name either 
+directly or through a submitter, it must treat the amount of any 
+guarantee as a long position in calculating its net long position. 
+[[Page 13907]] 
+    The definition of the term ``bid'' in Sec. 356.2 has been expanded 
+to clarify that an offer to purchase a stated par amount of a security 
+by a depository institution or dealer to fulfill a guarantee as 
+described above is a bid for the depository institution's or dealer's 
+own account and not a bid for a customer.
+    In Sec. 356.12, the requirement to express a competitive bid with 
+two decimals has been changed with regard to Treasury notes and bonds. 
+Prior to the publication of this rule, a competitive bid for a note or 
+bond had to show the yield bid, expressed with two decimals. Effective 
+with the publication of this rule, such bids must show the yield bid, 
+expressed with three decimals. The requirement for a competitive bid 
+for a Treasury bill to show the discount rate bid, expressed with two 
+decimals, remains unchanged. Further, the restriction against using 
+fractions still applies to bids for all securities.
+    The change from two decimal places to three decimal places for 
+notes and bonds is being made to encourage greater participation in 
+Treasury auctions.
+
+Procedural Requirements
+
+    This final rule does not meet the criteria for a ``significant 
+regulatory action'' pursuant to Executive Order 12866.
+    Because this rule relates to public contracts and procedures for 
+United States securities, the notice, public comment, and delayed 
+effective date provisions of the Administrative Procedure Act are 
+inapplicable, pursuant to 5 U.S.C. 553(a)(2).
+    As no notice of proposed rulemaking is required, the provisions of 
+the Regulatory Flexibility Act (5 U.S.C. 601, et seq.) do not apply.
+    There are no collections of information required by this final 
+rule, and, therefore, the Paperwork Reduction Act does not apply.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    Dated: March 9, 1995.
+Gerald Murphy,
+Fiscal Assistant Secretary.
+
+    31 CFR Chapter II, Subchapter B, Part 356, is hereby amended as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for Part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.
+
+    2. Section 356.2 is amended by revising the definition of ``bid'' 
+to read as follows:
+
+
+Sec. 356.2  Definitions.
+
+* * * * *
+    Bid means an offer to purchase a stated par amount of securities, 
+either competitively or noncompetitively, in an auction. An offer to 
+purchase a stated par amount of securities submitted by a depository 
+institution or dealer to fulfill a guarantee to sell a specified amount 
+of securities at an agreed-upon price or a price fixed in terms of an 
+agreed-upon standard is a bid of the depository institution or dealer 
+and not a bid of a customer.
+* * * * *
+    3. Section 356.12 is amended by revising paragraph (c)(1) to read 
+as follows:
+
+
+Sec. 356.12  Noncompetitive and competitive bidding.
+
+* * * * *
+    (c) * * *
+    (1) Bid format.
+    (i) Treasury bills. A competitive bid must show the discount rate 
+bid, expressed with two decimals. Fractions may not be used.
+    (ii) Treasury notes and bonds. A competitive bid must show the 
+yield bid, expressed with three decimals. Fractions may not be used.
+* * * * *
+[FR Doc. 95-6394 Filed 3-14-95; 8:45 am]
+BILLING CODE 4810-39-P
+
+</pre></body>
+</html>

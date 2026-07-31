@@ -1,0 +1,86 @@
+{
+  "abstract": "The Debt Collection Improvement Act of 1996 requires the Federal Government to withhold or reduce certain Federal payments to satisfy delinquent nontax debts owed to the United States by the payee. This process is known as ``administrative offset.'' This interim rule establishes the rules governing the administrative offset of Federal benefit payments issued under the Social Security Act (other than Supplemental Security Income), part B of the Black Lung Benefits Act, and any law administered by the Railroad Retirement Board (other than tier 2 benefit payments). This rule affects individuals who receive these types of benefit payments and who owe delinquent nontax debts to the Federal Government.",
+  "action": "Interim rule with request for comments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1998/08/21/98-22394.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 285,
+      "title": 31
+    }
+  ],
+  "citation": "63 FR 44986",
+  "comment_url": null,
+  "comments_close_on": "1998-09-21",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "Effective: August 21, 1998. Comments must be received on or before September 21, 1998.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "98-22394",
+  "effective_on": "1998-08-21",
+  "end_page": 44990,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1998/08/21/98-22394/offset-of-federal-benefit-payments-to-collect-past-due-legally-enforceable-nontax-debt",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/98-22394?publication_date=1998-08-21",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1998-08-21/98-22394/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 5,
+  "page_views": {
+    "count": 83,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1998-08-21/pdf/98-22394.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1998-08-21",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1998/08/21/98-22394.txt",
+  "regulation_id_number_info": {
+    "1510-AA74": null
+  },
+  "regulation_id_numbers": [
+    "1510-AA74"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-09-21T08:56:36Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 44986,
+  "subtype": null,
+  "title": "Offset of Federal Benefit Payments To Collect Past-due, Legally Enforceable Nontax Debt",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 63
+}

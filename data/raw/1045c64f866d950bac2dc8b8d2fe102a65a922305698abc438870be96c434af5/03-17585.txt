@@ -1,0 +1,2018 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 133 (Friday, July 11, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 133 (Friday, July 11, 2003)]
+[Rules and Regulations]
+[Pages 41250-41266]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-17585]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AA96
+
+
+Terrorism Risk Insurance Program
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this rule 
+in final form as part of its implementation of Title I of the Terrorism 
+Risk Insurance Act of 2002 (Act). That Act established a temporary 
+Terrorism Risk Insurance Program (Program) under which the Federal 
+Government will share the risk of insured loss from certified acts of 
+terrorism with commercial property and casualty insurers until the 
+Program sunsets on December 31, 2005. Treasury published an interim 
+final rule with a request for comment on February 28, 2003. That rule 
+set forth the purpose and scope of the Program and key definitions that 
+Treasury will use in implementing the Program. It was the first in a 
+series of regulations that Treasury will be issuing to implement the 
+Program. This final rule generally adopts the interim final rule, but 
+makes revisions in the definition of ``affiliate'' and certain other 
+changes described in the preamble.
+
+DATES: This final rule is effective July 11, 2003.
+
+[[Page 41251]]
+
+
+FOR FURTHER INFORMATION CONTACT: Mario Ugoletti, Deputy Director, 
+Office of Financial Institutions Policy (202) 622-2730, or Martha 
+Ellett or Cynthia Reese, Attorney-Advisors, Office of the Assistant 
+General Counsel (Banking & Finance), (202) 622-0480 ( not toll-free 
+numbers).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+A. Terrorism Risk Insurance Act of 2002
+
+    On November 26, 2002, President Bush signed into law the Terrorism 
+Risk Insurance Act of 2002 (Public Law 107-297, 116 Stat. 2322). The 
+Act was effective immediately. Title I of the Act establishes a 
+temporary federal program of shared public and private compensation for 
+insured commercial property and casualty losses resulting from an act 
+of terrorism as defined in the Act and certified by the Secretary of 
+the Treasury, in concurrence with the Secretary of State and the 
+Attorney General. The Act authorizes Treasury to administer and 
+implement the Terrorism Risk Insurance Program, including the issuance 
+of regulations and procedures. The Program will sunset on December 31, 
+2005.
+    The Act's purposes are to address market disruptions, ensure the 
+continued widespread availability and affordability of commercial 
+property and casualty insurance for terrorism risk and to allow for a 
+transition period for the private markets to stabilize and build 
+capacity while preserving State insurance regulation and consumer 
+protections. The amount of Federal payment for an insured loss 
+resulting from an act of terrorism is to be determined based upon the 
+insurance company deductibles and excess loss sharing with the Federal 
+Government, as specified by the Act. Thus, the Program provides a 
+Federal reinsurance backstop for a temporary period of time. The Act 
+also provides Treasury with authority to recoup Federal payments made 
+under the Program through policyholder surcharges, up to a maximum 
+annual limit.
+    Each entity that meets the definition of ``insurer'' (well over 
+2000 firms) must participate in the Program. From the date of enactment 
+of the Act through the last day of Program Year 2 (December 31, 2004), 
+insurers under the Program must ``make available'' terrorism risk 
+insurance in their commercial property and casualty insurance policies 
+and the coverage must not differ materially from the terms, amounts and 
+other coverage limitations applicable to commercial property and 
+casualty losses arising from events other than acts of terrorism. The 
+Act permits Treasury to extend the ``make available'' requirement into 
+Program Year 3, based on an analysis of factors referenced in the study 
+required by section 108(d)(1) of the Act, and not later than September 
+1, 2004. An insurer's deductible increases each year of the Program, 
+thereby reducing the Federal government's involvement prior to sunset 
+of the Program. An insurer's deductible is based on ``direct earned 
+premiums'' over a statutory Transition Period and the three Program 
+Years. Once an insurer has met its deductible, the Federal payments 
+cover 90 percent of insured losses above the deductible, subject to an 
+aggregate annual cap of $100 billion. The Act prohibits duplicative 
+payments for insured losses that have been covered under any other 
+Federal program.
+    As conditions for federal payment under the Program, insurers must 
+provide clear and conspicuous disclosure to the policyholders of the 
+premium charged for insured losses covered by the Program, and must 
+submit a claim and certain certifications to Treasury. Treasury will be 
+prescribing claims procedures at a later date.
+    The Act also contains specific provisions designed to manage 
+litigation arising from or relating to a certified act of terrorism. 
+Section 107 creates an exclusive federal cause of action, provides for 
+claims consolidation in federal court and contains a prohibition on 
+Federal payments for punitive damages under the Program. This section 
+also provides the United States with the right of subrogation with 
+respect to any payment or claim paid by the United States under the 
+Program.
+
+B. The Interim Final Rule
+
+    The interim final rule established Subpart A of a new Part 50 in 
+Title 31 of the Code of Federal Regulations. Subpart A of new Part 50 
+contains certain general provisions and definitions of Program terms. 
+The definitions contained in the interim final rule provide the 
+foundation for participation by insurers under the Federal reinsurance 
+Program created by the Act.
+    Some of the definitions in the interim final rule were taken 
+virtually verbatim from the Act because they do not need further 
+clarification. For other definitions, the interim final rule generally 
+incorporated previously issued interim guidance provided by Treasury as 
+it pertains to Program terms, for example, the terms ``insurer,'' 
+``affiliate,'' ``property and casualty insurance'' and ``direct earned 
+premium.'' Such interim guidance was published at 67 FR 76206 (December 
+11, 2002), 67 FR 78864 (December 26, 2002) and 68 FR 4544 (January 29, 
+2003). In several areas, the interim final rule made clarifying 
+modifications to, or supplemented, the previously issued interim 
+guidance.
+    In implementing the Program, Treasury has been guided by several 
+goals. First, we strive to implement the Act in a transparent and 
+effective manner that treats comparably those insurers required to 
+participate in the Program and that provides necessary information to 
+policyholders in a useful and efficient manner. Second, Treasury seeks 
+to rely as much as possible on the State insurance regulatory 
+structure. In that regard, Treasury is closely coordinating with the 
+National Association of Insurance Commissioners (NAIC) in implementing 
+definitional and other aspects of the Program. Third, to the extent 
+possible within statutory constraints, Treasury seeks to allow insurers 
+to participate in the Program in a manner consistent with their normal 
+course of business. Finally, given the temporary and transitional 
+nature of the Program, Treasury is guided by the Act's goal for 
+insurers to develop their own capacity, resources and mechanisms for 
+terrorism risk insurance coverage when the Program expires.
+
+II. Summary of Comments and Final Rule
+
+    Treasury received over 40 comments on the interim final rule. 
+Comments were submitted by insurance companies, industry trade 
+associations, the NAIC, two cities, and by two members of Congress. 
+After review and careful consideration of these comments, as well as 
+additional research and consultation with the NAIC, Treasury is now 
+promulgating a final rule concerning TRIA definitions. In general, the 
+final rule reflects the interim final rule. However, revisions and 
+clarifications were made in several areas, based on comments received. 
+For example, revisions were made to the rebuttable presumptions to 
+controlling influence determinations under the definition of 
+``affiliate,'' and clarifications were made to the definitions of 
+``direct earned premium'' and ``commercial property and casualty 
+insurance.'' The final rule, including changes and clarifications, is 
+discussed in the summary below.
+
+A. ``Act of Terrorism'' (Section 50.5.b)
+
+    The interim final rule incorporated the statutory definition of 
+``act of terrorism'' found in section 102(1) of the Act. In that 
+regard, the interim final rule provides that an ``act of terrorism'' 
+for
+
+[[Page 41252]]
+
+purposes of the Program must be certified by the Treasury Secretary, in 
+concurrence with the Secretary of State and the Attorney General of the 
+United States, and must fall within other statutory parameters. The 
+requirements in clauses (i)-(iv) of section 102(1)(A) are conjunctive. 
+An act of terrorism, if it also meets the limitations in section 
+102(1)(B), may be certified if it: is violent or dangerous to human 
+life, property or infrastructure; and has resulted in damage within the 
+United States, or outside the United States in the case of certain air 
+carriers or vessels or if on the premises of a U.S. mission; and has 
+been committed by individual(s) on behalf of any foreign person or 
+foreign interest, as part of an effort to coerce the U.S. civilian 
+population or to influence the policy or affect the conduct of the U.S. 
+government by coercion. Therefore, acts of domestic civil disturbance 
+would not be covered by the Act's definition of ``act of terrorism'' or 
+by the Program.
+    Section 102(1)(B) limits the Secretary's ability to certify an act 
+if committed as part of a course of war declared by Congress, (except 
+for workers'compensation coverage), or if property and casualty 
+insurance losses resulting from the act, in the aggregate, do not 
+exceed a $5,000,000 de minimis threshold. With regard to the first 
+limitation, one commenter raised a question concerning the effect of a 
+declaration of war on an act of terrorism certification. While it is 
+not possible for a regulation to address all potential situations 
+surrounding an act of terrorism determination under the Program, it is 
+Treasury's view that the war exclusion in the Act applies only to acts 
+of terrorism committed in connection with a formal, congressionally 
+declared war. While the phrase ``war declared by the Congress'' is not 
+defined in the Act, Article I, section 8, clause 11 of the Constitution 
+grants Congress the exclusive authority to declare war. Congress has 
+done so on five occasions, the most recent of which occurred in 1941 at 
+the outset of World War II. Most other American military actions have 
+been conducted pursuant to constitutional authorities of the President 
+connected with his role as commander-in-chief, and while many of these 
+have also enjoyed explicit Congressional support, they have not been 
+authorized by a formal declaration of war. For example, the 
+``Authorization for Use of Military Force Against Iraq Resolution of 
+2002,'' (P.L. 107-243) gave the President authority to conduct military 
+operations, but is not a formal declaration of war.
+    With regard to the second statutory limitation on an act of 
+terrorism certification, one commenter asked whether the $5,000,000 
+threshold loss has to be suffered by one insured policyholder. The Act, 
+as reflected in the interim final rule, provides that the de minimis 
+threshold is based on loss ``in the aggregate''. One certified act of 
+terrorism could result in insured losses from several policyholders, 
+none of which alone would amount to $5,000,000, but, in the aggregate, 
+would be in excess of that amount.
+    Section 106(a)(2) of the Act provides that the Act's definition is 
+the exclusive definition of the term ``act of terrorism'' for purposes 
+of compensation for insured losses under the Act. In addition, section 
+102(1)(C) of the Act provides that the Secretary's determination or 
+certification with regard to whether an act is an act of terrorism for 
+purposes of the Program is final and is not subject to judicial review.
+    One commenter urged Treasury to establish a time frame within which 
+the Secretary would be required to make a determination or 
+certification that an ``act of terrorism'' had occurred in order to 
+better assist insurers in responding to inquiries and claims from their 
+policyholders. Treasury understands the desire for certainty of those 
+in the industry who would advocate a definite time frame, and intends 
+to make its determination as promptly as possible after obtaining and 
+evaluating the facts surrounding a possible act of terrorism. However, 
+there is no way to predict future events and ascertain a time frame 
+that would be appropriate for all potential situations. Facts could be 
+immediately available and, after consultation, present a clear basis 
+for a quick determination by the Secretary; conversely, a determination 
+could require more time to gather information and conduct an analysis 
+of the act. Given this inherent uncertainty and the significance of an 
+act of terrorism determination to all aspects of the Program, Treasury 
+does not believe that it would be in the public interest to establish 
+in advance a regulatory time frame that may later prove to be 
+inappropriate or unattainable.
+
+B. ``Affiliate'' Including ``Control'' (Section 50.5(c))
+
+    Approximately one-third of the comments submitted to Treasury on 
+the interim final rule raised questions or concerns with regard to the 
+definition of ``affiliate'', which includes the definition of 
+``control'' in section 50.5(c). Most of these comments raised questions 
+with either procedural or substantive aspects of the rebuttable 
+presumptions of controlling influence in this section. After careful 
+consideration of the comments and further consultation with the NAIC, 
+Treasury has made several revisions in the final rule to address these 
+comments. The regulatory definitions and changes to the interim final 
+rule are set forth below.
+    Section 102(6) of the Act defines an ``insurer'' to include ``any 
+affiliate thereof.'' The definitions of ``affiliate'' and ``control'' 
+are intertwined in the Act. Section 102(2) defines ``affiliate'' to 
+mean ``with respect to any insurer, an entity that controls, is 
+controlled by, or is under common control with the insurer.'' Pursuant 
+to Section 102(3) of the Act, ``control'' exists if
+
+    [sbull] an entity directly or indirectly or acting through 1 or 
+more other persons owns, controls, or has power to vote 25 percent or 
+more of any class of voting securities of the other entity; or
+    [sbull] an entity controls in any manner the election of a majority 
+of the directors or trustees of the other entity; or
+    [sbull] the Secretary determines, after notice and opportunity for 
+hearing, that the entity directly or indirectly exercises a controlling 
+influence over the management or policies of the other entity.
+    Section 50.5(c) of the interim final rule generally incorporates 
+and combines the related statutory definitions of ``affiliate'' and 
+``control.'' In addition, the interim final rule provides that an 
+affiliate must itself meet the definition of ``insurer'' to participate 
+in the Program. (See part E of this preamble for further discussion of 
+``insurer'' definition.) The definitions of affiliate and control are 
+integral to Treasury's implementation of the Program. As discussed 
+further in parts C and F of this preamble, affiliated insurers are 
+treated collectively as one entity by Treasury for purposes of 
+calculating direct earned premiums and an insurer deductible under the 
+Program. Three comments objected to this consolidated treatment as not 
+equitable. However, as noted in the preamble to the interim final rule, 
+this consolidated treatment is in accord with the Act's legislative 
+history and the clear intent of Congress. The Conference Report states 
+that the terms ``affiliate'' and ``control'' were meant ``to ensure 
+that affiliated insurers are treated as a consolidated entity for 
+calculating direct earned premiums.'' H.R. Conf. Rep. No. 107-779 
+(2002).
+    Therefore, for example, if an insurance company meets the 
+definition of an ``insurer'' under section 102(6) as implemented by 
+Treasury, and three out
+
+[[Page 41253]]
+
+of four of the companies it controls also meet the Act's definition of 
+``insurer,'' then the parent company and the three companies it 
+controls that meet the Act's definition of ``insurer'' (the parent 
+company's affiliates) will be treated by Treasury collectively as one 
+insurer for purposes of calculating direct earned premiums and 
+calculating the insurer deductible under the Program. The company that 
+does not meet the definition of ``insurer'' is not included in the 
+Program.
+    In addition, if an entity is under common control with an insurer, 
+and that entity also meets the definition of ``insurer'' under Section 
+102(6) of the Act as implemented by Treasury, then the two insurers are 
+``affiliates'' and Treasury will treat them collectively as one 
+``insurer'' for the Program purposes of consolidating direct earned 
+premiums and calculating the insurer deductible. If their parent 
+company does not meet the definition of ``insurer'' under the Act, then 
+it is not included in the Program.
+Control
+    The statutory definition of ``control'' in section 102(3) contains 
+three categories. Section 102(3)(A) and (B) establish conclusive 
+control under certain circumstances for purposes of the Program. The 
+conclusive control provisions of the Act are contained in the 
+definition of ``affiliate'' in the interim final rule at section 
+50.5(c)(2)(i) and (ii). If a relationship between or among insurers 
+does not fit within the conclusive control provisions, control may 
+still exist for purposes of the Program if Treasury determines, 
+pursuant to section 102(3)(C), that an entity directly or indirectly 
+exercises a controlling influence over the management or policies of 
+another entity. Section 102(3)(C) is contained in the interim final 
+rule at section 50.5(c)(2)(iii). In making a determination of whether 
+controlling influence exists among insurers, section 102(3)(C) of the 
+Act requires Treasury to provide notice and an opportunity for a 
+hearing.
+    The Act's definition of control in section 102(3)(A), (B) and (C) 
+is almost identical to the definition of ``control'' contained in the 
+Bank Holding Company Act (BHCA) at 12 U.S.C. 1841(a)(2) and in the 
+Savings and Loan Holding Company Act (SLHCA) at 12 U.S.C. 1467a, except 
+that the Act does not contain a presumption of no control for holding 
+less than 5 percent of any class of voting securities, nor does the Act 
+provide any of the other explicit statutory exemptions that are 
+provided in the BHCA and SLHCA. The Act's definition of control is also 
+similar to the definition of control in the NAIC's Model Insurance 
+Company Holding Company Act (Model Act) except that the Model Act 
+contains a presumption of control if an entity owns 10 percent of the 
+voting securities of an insurance company instead of the 25 percent 
+conclusive control threshold that is contained in the Act (and in the 
+BHCA and the SLHCA).
+Owns, Controls or has the Power to Vote 25 Percent or More of Voting 
+Securities
+    Under Section 102(3)(A) of the Act, ``an entity has `control' over 
+another entity if the entity directly or indirectly or acting through 1 
+or more persons owns, controls or has the power to vote 25 percent or 
+more of any class of voting securities of the other entity.'' The 
+interim final rule incorporates this statutory definition, but uses the 
+word ``insurer'' instead of ``entity'' to clarify that the definition 
+of control does not include entities that are not insurers.
+    One commenter asked for clarification that an affiliate itself must 
+be an insurer to be treated as part of a consolidated entity with a 
+related insurer. In view of the congressional intent that affiliated 
+insurers be treated as a consolidated entity for purposes of 
+calculating direct earned premiums, there is no reason to include non-
+insurer entities in the definition of ``affiliate'' because these 
+entities do not have ``direct earned premiums'' as defined in the Act. 
+Viewing a group of affiliates with both insurer and non-insurer 
+entities, the direct earned premiums for the group should be no 
+different whether or not the non-insurers are included in the group. 
+For this reason, Treasury has decided to interpret the Act as generally 
+excluding non-insurers from the definitions of affiliate and control at 
+this time. Treasury could revisit this issue if it finds evidence that 
+other corporate structures or arrangements are being used to thwart the 
+goals and purposes of the Program.
+    Five insurance industry commenters took the position that ownership 
+of 25 percent or more of the voting securities of an insurer should not 
+automatically result in control. These commenters asserted that 
+Treasury could and should by regulation change this statutory limit. 
+One commenter referenced the NAIC Model Act language in support of 
+creating a regulatory presumption. As noted above, unlike section 
+102(3)(A), the NAIC Model Act contains a 10 percent statutory 
+presumption not a threshold of conclusive control. Several of these 
+commenters stated that a 25 percent or more conclusive control limit 
+could adversely affect the availability and affordability of coverage, 
+and in particular, would have an adverse effect on their own companies 
+if they were required to aggregate direct earned premiums. These 
+commenters suggested various alternatives for Treasury to use instead 
+of the 25 percent statutory limit. These included substituting other 
+regulatory factors for the 25 percent limit and accepting a state 
+determinations of ``no control'' based on state law even where there is 
+ownership of more than 25 percent.
+    Consistent with the statutory language in section 102(3)(A) and 
+with other statutes containing similar language, Treasury interprets 
+the 25 percent or more direct or indirect ownership of any class of 
+voting securities to be an objective standard establishing conclusive 
+control. Under the plain language of the statute, the 25 percent voting 
+securities threshold is not a presumption, and is not subject to 
+rebuttal. We also note that in addressing the rebuttable presumptions 
+in the interim final rule in connection with section 102(3)(C), several 
+commenters characterized the ownership of 25 percent or more of any 
+class of voting securities threshold in section 102(3)(A), as well as 
+the control provision in section 102(3)(B), as objective standards. For 
+these reasons, Treasury has not made any change in the final rule to 
+the 25 percent threshold in section 50.5(c)(2)(ii) of the interim final 
+rule.
+Controls the Election of a Majority of the Directors or Trustees
+    The interim final rule provides that an insurer controls another 
+insurer for purposes of the Program if the insurer controls in any 
+manner the election of a majority of the directors or trustees of the 
+other insurer. In general, this regulatory provision incorporates the 
+statutory language in section 102(3)(B). For the reasons stated above 
+in connection with section 102(3)(A), Treasury interprets the section 
+102(3)(B) as another objective standard that establishes conclusive 
+control for purposes of the Act. This standard is not a presumption and 
+is not subject to rebuttal.
+Controlling Influence and Rebuttable Presumptions
+    In addition to the conclusive control provisions in section 
+102(3)(A) and (B), the Act defines control to exist if, ``the Secretary 
+determines, after notice and opportunity for hearing, that the entity 
+directly or indirectly exercises a controlling influence over the 
+management or policies of the other entity.'' Section 102(3)(C). In the 
+interim
+
+[[Page 41254]]
+
+final rule, Treasury established several rebuttable presumptions for 
+the purposes of a determination of controlling influence: (1) If a 
+State has determined that an insurer controls another insurer; (2) if 
+an insurer provides 25 percent or more of another insurer's capital (in 
+the case of a stock insurer), policyholder surplus (in the case of a 
+mutual insurer), or corporate capital (in the case of other entities 
+that qualify as insurers); or (3) if an insurer, at any time during a 
+Program Year, supplies 25 percent or more of the underwriting capacity 
+for that year to an insurer that is a syndicate consisting of a group 
+including incorporated and individual unincorporated underwriters.
+    Section 50.5(c)(4) of the interim final rule provided an insurer 
+with an opportunity for an informal hearing to rebut a controlling 
+influence presumption through written submissions and, in addition in 
+Treasury's discretion, by an informal oral presentation. Treasury 
+subsequently issued a notice on March 25, 2003 (68 FR 15039, March 27, 
+2003, ``Interim Guidance IV'') providing further guidance on the 
+procedure for rebutting a presumption of controlling influence.
+    In establishing several rebuttable presumptions in Section 
+50.5(c)(3) of the interim final rule, Treasury had two key goals. One 
+was to provide additional transparency about the factors that Treasury 
+considers indicative of controlling influence to provide greater 
+certainty to insurers prior to a final determination of control and 
+thereby facilitate the calculation of insurer deductibles prior to 
+presentment of a claim.
+    The second was to enhance administrative efficiency given available 
+time and other resources in this temporary Program.
+    With regard to the second goal, we point out that, in the Act, 
+Congress established a temporary backstop program with the expectation 
+that Treasury would not build a large bureaucratic program structure, 
+but instead would leverage off of the state insurance regulatory 
+structure, where possible and appropriate. Unlike state insurance 
+commissioners, or state or federal bank examiners, Treasury does not 
+conduct regular on-site examinations of Program participants, nor does 
+it routinely review acquisitions, mergers or other transactions of such 
+insurers. Thus, Treasury does not have ready access to detailed 
+information on the control relationships of insurers that is generally 
+available to regulators that implement the control provisions of the 
+BHCA, the SLHCA, or state insurance law.
+    At this point, it is unclear to Treasury how many insurers fall 
+outside section 102(3)(A) and (B) but may come within the controlling 
+influence category. Rejecting the imposition of significant new 
+regulatory reporting requirements on the property and casualty 
+insurance industry, Treasury decided to utilize regulatory presumptions 
+to accomplish these two goals and to implement the controlling 
+influence provisions.
+    Treasury received 6 comments, from insurers and from a large 
+insurance industry trade group, taking exception to the rebuttable 
+presumptions as presented in the interim final rule. These commenters 
+objected on procedural and substantive grounds. In addition, one 
+commenter supported, in principle, the rebuttable presumption process.
+    Most of these commenters objected to the reliance on a state law 
+determination of control in the first rebuttable presumption in the 
+interim final rule. They contended that exclusive reliance on a state 
+law determination, for purposes of a rebuttable presumption, was 
+inappropriate given the varying state standards and the differences 
+between the Act's definition of ``control'', and the definition of 
+``control'' in the NAIC Model Law used by most states. Several 
+commenters suggested that Treasury utilize specific guidelines or 
+standards (such as the existence of a management agreement) instead of 
+rebuttable presumptions.
+    After consideration of these comments and the stated administrative 
+goals, Treasury has decided to retain the use of rebuttable 
+presumptions, with modifications. Use of the rebuttable presumptions 
+provides increased certainty and transparency to insurers and others of 
+the factors that Treasury considers indicative of a controlling 
+influence. Rebuttable presumptions have been and are used successfully 
+by other agencies in implementing nearly identical statutory 
+definitions of ``control.'' Rebuttable presumptions also aid efficient 
+implementation of the controlling influence determination process, 
+given that Treasury does not have ready access to relevant information 
+about the financial, managerial, policymaking and corporate structures 
+of insurers. Moreover, a rebuttable presumption is not a final 
+determination of controlling influence by Treasury. Under the final 
+rule, insurers subject to rebuttable presumptions, and others that do 
+not fall within the conclusive control provisions and wish to have a 
+final determination of controlling influence, all have an opportunity 
+for a hearing. Based upon the comments, and further consultation with 
+NAIC, Treasury is revising the rebuttable presumptions to provide more 
+detail and transparency concerning factors that Treasury will consider 
+indicative of controlling influence and is using these factors in the 
+rebuttable presumptions. For example, in response to several comments, 
+no rebuttable presumption relies exclusively on a state law 
+determination of control in the absence of the existence of at least 
+one of the listed control factors. The final rule also adds the 
+existence of at least one of the control factors to the other two 
+presumptions (which are based on the provision of 25 percent corporate 
+capital/ policyholder surplus, or the provision of 25 percent 
+underwriting capacity to another insurer).
+    In the final rule, if an insurer does not come within the 
+conclusive control provisions of section 102(3)(A) or (B) (section 
+50.5(c)(2)(i) or (ii) of the final rule), but at least two of the 
+following control factors exists, then Treasury will presume 
+controlling influence exists prior to a final determination unless and 
+until rebutted by the insurer:
+
+    [sbull] The insurer is one of the two largest shareholders of any 
+class of voting stock;
+    [sbull] The insurer holds more than 35 percent of the combined debt 
+securities and equity of the other insurer;
+    [sbull] The insurer is party to an agreement pursuant to which the 
+insurer possesses a material economic stake in another insurer 
+resulting from a profit-sharing arrangement, use of common names, 
+facilities or personnel, or the provision of essential services to 
+another insurer;
+    [sbull] The insurer is party to an agreement that enables the 
+insurer to influence a material aspect of the management or policies of 
+another insurer;
+    [sbull] The insurer would have the ability, other than through the 
+holding of revocable proxies, to direct the votes of more than 25 
+percent of the other insurer's voting stock in the future upon the 
+occurrence of an event;
+    [sbull] The insurer has the power to direct the disposition of more 
+than 25 percent of a class of voting stock in a manner other than a 
+widely dispersed or public offering;
+    [sbull] The insurer and/or the insurer's representative or nominee 
+constitute more than one member of the other insurer's board of 
+directors;
+    [sbull] The insurer or its nominee or an officer of the insurer 
+serves as the chairman of the board, chairman of the
+
+[[Page 41255]]
+
+executive committee, chief executive officer, chief operating officer, 
+chief financial officer or in any position with similar policymaking 
+authority in another insurer;
+
+    In addition, if a State has determined that an insurer controls 
+another insurer, and at least one of the factors listed above exists, 
+then Treasury will presume controlling influence exists unless and 
+until rebutted by the insurer.
+    Further, if an insurer provides 25 percent or more of another 
+insurer's capital in the case of a stock insurer, policyholder surplus 
+(in the case of a mutual insurer) or corporate capital (in the case of 
+other entities that qualify as insurers), and at least one of the 
+factors listed above exists, then Treasury will presume a controlling 
+influence exists unless and until rebutted by the insurer.
+    Finally, if an insurer, at anytime during the Program Year, 
+supplies 25 percent or more of the underwriting capacity for that year 
+to an insurer that is a syndicate consisting of a group including 
+incorporated and individual unincorporated underwriters, and at least 
+one of the factors in the above list exists, then Treasury will presume 
+a controlling influence unless and until rebutted by the insurer.
+    A few of the commenters objected to the second and third rebuttable 
+presumptions in the interim final rule as inconsistent with the 
+conclusive control provisions in section 102(3)(A) and (B). As a 
+general matter, Treasury is directed by the Act to treat insurers 
+comparably under the Program. Treasury views the provision by an 
+insurer of 25 percent of an insurer's corporate capital (or 
+policyholder surplus), or supplying of 25 percent of an insurer's 
+underwriting capacity for the Program Year, to indicate the functional 
+equivalent of ownership of 25 percent of voting securities. As the 
+administrator of the Program, Treasury also seeks to prevent loopholes 
+in the regulations and elsewhere that may create opportunities to avoid 
+or greatly minimize an insurer deductible merely on the basis of an 
+insurer's unusual corporate structure or arrangement where, in effect, 
+the insurer exercises a controlling influence over another insurer in 
+the same or similar manner as the more traditional corporate structures 
+of other insurers. The controlling influence determination authority in 
+section 102(3)(C) aids Treasury's efforts to treat insurers comparably 
+and helps preserve the goals and effectiveness of the Program. As 
+described below, the final rule provides insurers with an opportunity 
+for a hearing and a final determination on controlling influence.
+Opportunity for Hearing
+    Section 102(3)(C) of the Act authorizes Treasury to make a 
+determination that an insurer directly or indirectly exercises a 
+controlling influence over the management or policies of another 
+insurer, after notice and opportunity for hearing. The statutory 
+language providing an opportunity for hearing does not require a formal 
+hearing on the record. In the interim final rule, Treasury provided an 
+opportunity for an informal hearing to any insurer that (1) does not 
+come within the conclusive control provisions of section 102(3)(A) or 
+(B) and (2) wanted to rebut a presumption of controlling influence. The 
+informal hearing procedure requires an insurer to provide Treasury with 
+relevant facts and circumstances concerning the relationship and in 
+support of the insurer's contention that no controlling influence 
+exists. The procedure also allows a supplementary oral presentation by 
+the insurer, if deemed necessary by Treasury. Based on the information 
+provided by the insurer, including any oral presentation, the factors 
+listed in the regulation and other relevant facts and circumstances, 
+Treasury would then make a final determination of whether a controlling 
+influence exists.
+    A few commenters contended that Section 554 of the Administrative 
+Procedure Act (``APA''), 5 U.S.C. Sec.  554, requires Treasury to hold 
+a formal hearing for insurers challenging determinations of entity 
+control under section 102(3) of the Act. We do not agree. The APA's 
+formal hearing requirements apply when a hearing on the record is 
+required by statute. ``While the exact phrase `on the record' is not an 
+absolute prerequisite to the application of formal hearing procedures, 
+the Supreme Court has made clear that these provisions do not apply, 
+unless Congress has clearly indicated that the `hearing' required by 
+the statute must be trial-type hearing on the record.'' U.S. Lines Inc. 
+v. Federal Maritime Commission, 584 F. 2d 519 (D.C. Cir 1978) (citing 
+United State v. Florida East Coast R. Co., 410 U.S. 224, 234-38 
+(1973)). The D.C. Circuit added that, in that case, the statute did not 
+provide for a hearing ``on the record,'' and nothing in the terms of 
+the statute or in its legislative history indicated that a trial-type 
+hearing was intended. Id. Similarly, section 102(3)(C) of the Act does 
+not require a hearing on the record and nothing in the language or 
+history of the Act indicates that Congress intended Treasury to 
+establish procedures and apparatus for formal trial-type hearings on 
+the issue of controlling influence for purposes of this temporary 
+Program.
+    In response to the comments received, the final rule revises the 
+interim final rule to provide greater transparency in the controlling 
+influence determination process. The final rule includes regulatory 
+notice of specific factors that Treasury considers indicative of a 
+controlling influence, and the rebuttable presumptions in the interim 
+final rule are revised to avoid reliance on state law determinations 
+without other indicia of control. The final rule affords insurers an 
+opportunity to request an informal hearing in which an insurer may 
+submit all relevant information on the issue of controlling influence, 
+whether to rebut a presumption or to otherwise obtain a final 
+controlling influence determination from Treasury. As in the interim 
+final rule, the final rule allows an oral presentation, where deemed 
+necessary by Treasury to supplement the written submission. Treasury 
+will base its final determination on the factors set forth in the final 
+rule, on information provided to Treasury by the insurer and on other 
+relevant facts and circumstances. Although the final rule sets no 
+deadline for an insurer to request a hearing, Treasury encourages 
+insurers that do not come within the conclusive control provisions but 
+that are in a relationship or arrangement in which the control factors 
+apply or exist to request a hearing as soon as possible if they wish to 
+rebut the regulatory presumptions of controlling influence and obtain a 
+final determination from Treasury of whether the relationship involves 
+a controlling influence (and therefore control).
+    Separately from the issuance of the interim final rule, Treasury 
+solicited comment on a pro rata allocation method for control 
+determinations under section 102(3)(C) of the Act, in situations in 
+which multiple insurers each provide 25 percent or more of the capital 
+of a stock insurer, policyholder surplus of a mutual insurer or 
+corporate capital of other entities that meet the definition of insurer 
+under the Act and in the interim final rule. The pro rata approach 
+under consideration by Treasury would allocate premium on a pro rata 
+basis in situations where there are multiple 25 percent owners. This 
+approach is still under consideration by Treasury and may be proposed 
+in connection with claims procedures.
+    Treasury anticipates proposing within claims procedures at a later 
+date that the controlling insurer will be the insurer that will be 
+required to file any claim with Treasury for Federal payment under the 
+Program and that this insurer
+
+[[Page 41256]]
+
+will receive the Federal payment that is to be distributed within the 
+consolidated insurer group in accordance with distribution of risk 
+within the consolidated insurer group.
+    Treasury also solicited comment on various means to ensure the 
+prompt distribution of the federal payment as appropriate to ensure 
+that the purposes of the Program are not thwarted or evaded, and that 
+the ultimate risk bearing entities are treated in an equitable manner, 
+within the Act's requirements. Treasury will propose means of 
+distribution of the federal payment in connection with the claims 
+procedures at a later date.
+
+C. Direct Earned Premium (Section 50.5.d) and Property and Casualty 
+Insurance (Section 50.5.l)
+
+    The Act requires that ``commercial property and casualty 
+insurance'' that falls within the scope of ``insured loss'' and that is 
+written by an ``insurer,'' is part of the Program, and thus eligible 
+for Federal payments and also subject to other provisions of the Act. 
+Losses arising from a certified act of terrorism that do not meet these 
+requirements are not eligible for Federal payments under the Program. 
+For those losses that are eligible, the amount of Federal payment that 
+an insurer may receive is subject to the insurer's ``insurer 
+deductible,'' which is determined by a calculation based on the 
+insurer's ``direct earned premium''.
+    In the interim final rule, Treasury initially looked to the Act's 
+definition to ascertain the scope of commercial property and casualty 
+insurance for purposes of the Program. Section 102(12) of the Act 
+expressly includes several lines of insurance: excess insurance, 
+workers' compensation insurance and surety insurance. It also expressly 
+excludes several additional lines of insurance: (i) Federal crop 
+insurance issued or reinsured under the Federal Crop Insurance Act or 
+any other type of crop or livestock insurance that is privately issued 
+or reinsured; (ii) private mortgage insurance as defined in the 
+Homeowners Protection Act or title insurance; (iii) financial guaranty 
+insurance issued by monoline financial guaranty insurance corporations; 
+(iv) insurance for medical malpractice; (v) health or life insurance 
+including group life insurance; (vi) flood insurance provided under the 
+National Flood Insurance Act of 1968; and (vii) reinsurance or 
+retrocessional reinsurance.
+    In addition to these specific statutory inclusions and exclusions, 
+Treasury needed to develop a uniform regulatory definition of 
+commercial property and casualty insurance for purposes of the Program. 
+Insurance is generally regulated by State law in the United States. 
+After consulting with the NAIC and others, Treasury found no uniform or 
+consistent definition of ``commercial property and casualty insurance'' 
+among the States that could provide guidance or be used for purposes of 
+the Program. In some States, a line of insurance may be considered as 
+commercial; and, in other States, the same line of insurance may be 
+considered as a personal line.
+    The closest reference point that Treasury found for a uniform 
+definition was the NAIC's Annual Statement's Exhibit of Premiums and 
+Losses (``Statutory Page 14''). Therefore, the interim final rule 
+incorporated the interim guidance issued at 67 FR 76206 that designated 
+those commercial lines reported on specified lines of Statutory Page 14 
+as commercial property and casualty lines of coverage to be included in 
+the Program (subject to the Act's specific inclusions and exclusions). 
+The lines so specified were: Line 1 (Fire); Line 2.1 (Allied Lines); 
+Line 3 (Farmowners Multiple Peril); Line 5.1 (Commercial Multiple 
+Peril--non-liability portion); Line 5.2 (Commercial Multiple Peril--
+liability portion); Line 8 (Ocean Marine); Line 9 (Inland Marine); Line 
+16 (Workers' Compensation); Line 17 (Other Liability); Line 18 
+(Products Liability); Line 19.3 (Commercial Auto No Fault--personal 
+injury protection); Line 19.4 (Other Commercial Auto Liability); Line 
+21.2 (Commercial Auto Physical Damage); Line 22 (Aircraft--all perils); 
+Line 24 (Surety); Line 26 (Burglary and Theft); and Line 27 (Boiler and 
+Machinery). In making this determination Treasury considered the Act's 
+definition of ``commercial property and casualty insurance'' and how it 
+relates to the lines of coverage listed on Statutory Page 14, the 
+Program structure, and what would be necessary to effectively 
+administer the Program. In developing the interim final rule, Treasury 
+consulted with the NAIC and others regarding State law and premium 
+reports filed with insurance regulators in the respective States and 
+with the NAIC.
+    Section 102(4) of the Act defines ``direct earned premium'' to mean 
+direct earned premium (DEP) for property and casualty insurance issued 
+by any ``insurer'' for losses within the scope of ``insured loss.'' The 
+interim final rule also clarified that premium information on the 
+specified lines of Statutory Page 14 should be included in calculating 
+an insurer's DEP only to the extent that coverage under the Program is 
+provided for commercial property and casualty exposures. Therefore, 
+policies (or portions of policies) not eligible for Federal payments 
+under the Program, such as personal lines or other lines of coverage 
+(such as medical malpractice) specifically excluded by the Act, should 
+not go into the calculation of an insurer's DEP. Treasury's approach is 
+designed to maintain a close correlation between the lines of 
+commercial property and casualty insurance eligible for the Federal 
+payments under the Program, and the amount of premiums for those 
+coverages that actually go into calculating an insurer's DEP under the 
+Program.
+    Many policies have combined risk coverage (hybrid policies). Under 
+some hybrid policies, some of the risks or lines are covered by the 
+definition of commercial property and casualty insurance under the 
+Program and some are not covered. To address these situations, the 
+interim final rule allows (but does not require) an insurer to allocate 
+a portion of the premium (i.e. that portion for covered lines or risks) 
+in calculating an insurer's DEP under the Program. If an insurer does 
+not choose to allocate its hybrid policy premiums in this manner, then 
+the entire DEP reported on the specific lines of Statutory Page 14 must 
+go into its DEP calculation, and also, potentially, into the recoupment 
+base for that insurer. Treasury has not yet issued rules or procedures 
+governing any potential recoupment under section 103(e)(7) of the Act 
+or concerning the surcharges required by section 103(e)(8) of the Act. 
+However, it is Treasury's expectation that an insurer's policies (or 
+portions of policies) that go into calculating an insurer's DEP would 
+be the same policies (or portions of policies) that go into determining 
+an insurer's recoupment base.
+    Instead of issuing a new reporting requirement or mandating a 
+specific allocation formula for hybrid policies, Treasury has suggested 
+several methods that insurers may use in adjusting and calculating 
+their DEP under the Program:
+
+    (1) For policies with predominant personal line coverages, but 
+where the premiums might also cover a portion for coverage of 
+commercial risks, Treasury indicated that a policy would be 
+considered personal, and not included in DEP, if the commercial 
+portion was incidental (less than 25 percent of the total premium). 
+If the commercial coverage portion represented more than 25 percent 
+of the total premium, then the company should allocate the 
+appropriate portion of the premium as commercial to be included in 
+DEP.
+    (2) For policies written by insurers required to participate in 
+the Program, but for which the premiums are not reported on 
+Statutory Page 14 (e.g. certain county or town
+
+[[Page 41257]]
+
+mutuals), the interim final rule suggested other methods by which 
+adjustments could be made by the insurer to calculate its DEP. 
+Specific methods were suggested in the interim final rule for county 
+or town mutual insurers, eligible surplus line insurers, and 
+federally approved insurers.
+Included Versus Excluded Lines of Coverage in General
+    Several commenters were uncertain about whether the interim final 
+rule's list of commercial lines as reported on the specified lines of 
+Statutory Page 14 was exclusive or merely illustrative. Their 
+uncertainty appears to arise from use of the word ``includes'' in 
+section 50.5(l) of the interim final rule that property and casualty 
+insurance (``includes commercial lines within the following lines of 
+insurance.'') These commenters suggested that Treasury clarify whether 
+it intended for the list to be exclusive, or identify those lines of 
+business that are excluded.
+    As previously noted, Treasury consulted with the NAIC and others 
+concerning the definition of commercial property and casualty 
+insurance. Finding no uniform or consistent definition of the term, 
+Treasury determined that the NAIC's Statutory Page 14, provided the 
+best available point of reference--not only for identifying the lines 
+of coverage for the Program, but also for guidance in determining an 
+insurer's DEP for those lines of coverage. Treasury intended that the 
+list of specified lines on Statutory Page 14 would be exclusive, and 
+premiums reported on other lines would not be part of the Program. The 
+final rule revises the previous language to clarify this.
+    In its comment on the interim final rule, the NAIC suggested 
+Treasury should add the following language from the Act: ``* * * or any 
+other type of crop or livestock insurance that is privately issued or 
+reinsured'' to section 50.5(l)(2)(i) of the interim final rule. The 
+NAIC commented that such an addition would prevent any uncertainty 
+concerning the treatment of crop or livestock coverage that is not part 
+of the Program.
+    In developing the interim final rule, Treasury understood based on 
+available information that privately issued or reinsured crop or 
+livestock insurance was reported under Multiple Peril Crop insurance on 
+Line 2.2 of Statutory Page 14. It is now Treasury's understanding, 
+based on additional information from the NAIC, that privately issued or 
+reinsured crop or livestock insurance is generally reported as Allied 
+Lines insurance on Line 2.1 of Statutory Page 14. Therefore, in the 
+final rule, Treasury has added the specific statutory language and the 
+appropriate reporting lines of Statutory Page 14 to section 
+50.5(l)(2)(i) of the final rule.
+    The Act and interim final rule exclude Federal flood insurance 
+which is a line of single peril natural disaster insurance. Similarly, 
+the interim final rule excluded earthquake insurance reported on 
+Statutory Page 14. Treasury received no comments on the interim final 
+rule regarding the treatment of any single peril natural disaster 
+insurance. However, in light of information subsequently received in 
+response to Treasury's proposed rule concerning state residual market 
+insurance entities, Treasury is considering issuing a proposed rule 
+specifically requesting comment on the inclusion or exclusion in the 
+Program definition of commercial property and casualty insurance of 
+other single peril natural disaster insurance, such as stand alone, 
+single peril wind insurance, if reported on included lines of Statutory 
+Page 14.
+Personal Lines
+    One commenter asserted that Treasury's determination that 
+commercial coverage is incidental if its applicable premium is less 
+than 25 percent of a hybrid personal/commercial lines policy premium 
+would have adverse effects, suggesting that this could cause insurers 
+to force incidental coverages off such personal policies, such as 
+Homeowners insurance. Others commented that the incidental rule should 
+only be used as a threshold calculation, or that insurers should be 
+allowed to allocate personal/commercial hybrid policy premiums 
+according to their normal business methods and procedures. One 
+commenter contended that Homeowners policies should not be included in 
+the Program regardless of the percentage of commercial premium, and 
+that allocation of commercial/personal premium would not be appropriate 
+for Farmowners or Farm Properties policies since they are both 
+considered by some states to be commercial lines.
+    As discussed above, Treasury has suggested methods for the 
+allocation of commercial portions of premiums in hybrid policies in an 
+attempt to aid insurers by simplifying the adjustment and calculation 
+of an insurer's DEP. If the appropriate premium was included in the DEP 
+and the other required conditions for Federal payment are met, 
+commercial portions of hybrid policies are covered by the Program. The 
+25 percent incidental provision was included in the interim final rule 
+by Treasury to provide a threshold, so that those insurers that did not 
+want to calculate an actual allocation of premiums on small incidental 
+amounts of coverage, and did not intend to perfect their right to 
+recover Federal payment on claims paid on such incidental commercial 
+coverage, could then exclude those premiums from their DEP calculation 
+if they wished to do so. In order to clarify this in the final rule, 
+and to make it clear that an insurer can chose to allocate premiums 
+below that amount, Treasury has modified the language in section 
+50.5(d)(1)(i-iv) of the interim final rule.
+Personal Versus Commercial Lines
+    Four commenters asked for clarification with regard to whether 
+coverage for one to four family rental units is personal or commercial 
+insurance. One pointed out that such coverage is generally written 
+under a Dwelling Properties insurance policy (which is considered to be 
+a personal line). However, in other situations, under four family 
+rental units are written as a commercial coverage. Treasury's 
+designation in section 50.5(l)(1) of the interim final rule of the 
+specific lines of commercial coverage from Statutory Page 14 was made, 
+in part, to provide greater clarity for insurers in cases where various 
+States may not treat certain types of coverage consistently as 
+commercial coverage. In general, it is our understanding that premium 
+income for one to four family rental unit insurance coverage generated 
+from policies insuring property owned for business purposes (e.g. to 
+generate income for the property owner) is reported on Lines 1 (Fire) 
+2.1 (Allied Lines) and 17 (Other Liability) of Statutory Page 14. Based 
+on section 50.5(l)(1) of the final rule, such insurance coverage would 
+be considered commercial property and casualty insurance coverage that 
+is included in the Program. Treasury also addressed the issue of 
+personal lines in the context of adjustments to DEP in section 
+50.5(d)(1) of the interim final rule and through adjustments to that 
+section in the final rule. To the extent that one to four family rental 
+units have a personal coverage component, the suggested methods of 
+adjusting and calculating the appropriate DEP may be used by an 
+insurer.
+    Another commenter stated that farm residences should be considered 
+commercial. For purposes of the Program, Treasury does not agree, but 
+considers any owner occupied residence to be basically a personal 
+coverage. Therefore, where a farm residence is covered in a hybrid farm 
+policy, the suggested methods of adjusting and
+
+[[Page 41258]]
+
+calculating the appropriate DEP can be utilized.
+Other Non-Covered Lines
+    One commenter suggested that Treasury consider extending the 
+commercial/personal allocation to other hybrid contracts containing 
+premiums for excluded lines of coverage such as Medical Malpractice in 
+combination with Hospital General Liability coverage. Such insurance 
+lines are not within the scope of the definition of commercial property 
+and casualty insurance of the Act and are not included in the Program. 
+Therefore, premiums in hybrid policies applicable to those exceptions 
+do not need to be included in an insurer's DEP. Any allocation of 
+premium for such exclusions should be calculated by insurers either 
+using methods suggested by Treasury, or other similar methods in 
+accordance with the insurer's normal business methods and procedures.
+    Another commenter suggested that Treasury should exclude premiums 
+reported on the specified lines on Statutory Page 14, but earned from 
+retroactive insurance programs such as certain Novations, Adverse 
+Development Cover, or Loss Portfolio Transfer Programs. Retroactive 
+insurance is insurance covering only events that occurred prior to the 
+inception date of the policy, but there appears to be no 
+differentiation in the Statutory Page 14 reporting to indicate that 
+such premiums relate to risks from prior years. Treasury takes the 
+position that such retroactive premiums are not within the time period 
+of the definition of ``insured losses'' if they are associated with 
+losses that occurred prior to enactment and the effective date of the 
+Act (November 26, 2002). Such premium income may be removed in an 
+insurer's calculation of its DEP. Treasury has modified the language in 
+the final rule (section 50.5(d)(1)(i-iv) of the interim final rule) to 
+clarify the nature of the allocation provisions with regard to hybrid 
+policies and other policies with coverage of losses outside the scope 
+of insured losses under the Program.
+Fidelity Insurance
+    Treasury did not include Line 23 (Fidelity) of Statutory Page 14 in 
+its list of specified lines considered to be commercial ``property and 
+casualty insurance'' covered under the Act in its initial interim 
+guidance or in its interim final rule. Comments were received from five 
+different commenters, two in support of Treasury's position, and three 
+in opposition.
+    One of the commenters advocating the inclusion of fidelity 
+insurance argued that it can also have a distinct property component as 
+in cases where coverage is provided for the destruction of money and 
+securities, such as those held in bank or corporate vaults. The 
+commenter pointed out that it had losses associated with fidelity 
+policies arising from the September 11 terrorist attacks totaling some 
+$20 million due to the destruction of cash on the premises of its 
+insured. Another commenter emphasized that fidelity has always been 
+considered by state regulators, insurers, and policyholders to be a 
+commercial property and casualty line.
+    Those opposed to the inclusion of fidelity insurance contend that 
+it is a line of insurance that by itself faces low exposure to 
+terrorism losses. One commenter had indicated previously that it had 
+provided terrorism coverage for all of its fidelity policies prior to 
+the Act, but needed to confirm whether fidelity insurance was covered 
+under the Program in order to know how much reinsurance coverage would 
+be needed to cover its deductible exposure. Commenters also pointed out 
+that if Treasury were to reverse itself and now include fidelity 
+insurance as a covered line, problems associated with the timing of the 
+disclosure requirements and other issues would need to be addressed.
+    After considering the comments, Treasury has determined that 
+fidelity insurance is not covered under the Act, and thus has not 
+inserted Line 23 (Fidelity) in the specified lines on Statutory Page 14 
+that make up commercial property and casualty insurance covered under 
+the Act. In making the overall determination of what lines of coverage 
+are included and excluded in the definition of property and casualty 
+insurance, Treasury relied on specific guidance provided by Congress in 
+section 102(12) of the Act. Section 102(12)(A) expressly includes 
+excess insurance, workers' compensation insurance, and surety 
+insurance. Traditional surety insurance and fidelity insurance share a 
+similar characteristic in that they guarantee against losses associated 
+with the performance of third parties. Treasury maintains the position 
+that if Congress had intended fidelity insurance to be covered, it 
+would have specifically included it as it did surety insurance. 
+Treasury relied on a similar rationale for excluding group accident 
+coverage, a line of coverage that shares some of the same risk 
+characteristics as workers' compensation coverage, from the list of 
+specified lines on Statutory Page 14 that make up commercial property 
+and casualty insurance covered under the Act.
+    Through the comment process, Treasury has been made aware that the 
+traditional fidelity insurance coverage has been expanded in recent 
+years by some insurers to include coverage to non-employee 
+``insiders,'' as well as to property coverage for loss of firm assets, 
+including cash, due to crime. Although Treasury is making no change to 
+the interim final rule definition with regard to fidelity in the final 
+rule, Treasury will continue to evaluate this wrap-around or hybrid-
+type coverage which could include other types of coverage that are 
+generally covered by the Act, but not reported as such. In this regard, 
+Treasury will evaluate whether and how the designation of included and 
+excluded lines has affected the availability of coverage for terrorism 
+insurance risk, and whether any further change in the Program might be 
+warranted.
+Other DEP-Related Comments
+    On behalf of county or town mutual insurers that do not report on 
+Statutory Page 14, one commenter suggested that Treasury's suggestion 
+that they convert direct premium or other types of payments such as 
+assessments or contributions into DEP, would lead to inconsistencies in 
+the Program because states have varying reporting requirements. The 
+result would be that DEPs would vary significantly from state to state, 
+which would be ``bad from a public policy perspective, but leaves 
+insurers on uncertain ground despite their best good faith efforts at 
+compliance.'' Treasury has consulted with the NAIC on this issue and we 
+understand that the NAIC plans to develop a recommended conversion 
+method that States in turn could recommend to county or town mutual 
+insurers.
+    Another commenter requested that Treasury give insurers assurance 
+that ``fronted'' premiums received by an insurer would not be included 
+in DEP and thus raise its deductible, if the insurer assuming the risk 
+(captive or otherwise) is also an insurer under the Program. The 
+commenter explained that ``fronting'' is a credit enhancement procedure 
+that is sometimes employed by business customers and their insurers to 
+expand available insurance capacity, and is recognized by state 
+regulators. However, fronting arrangements are not addressed in the 
+Act, and the Act does not appear to provide any basis to exclude 
+``fronted'' premiums from DEP. If one insurer ``fronts'' for another by 
+receiving premiums but passes the risk to another,
+
+[[Page 41259]]
+
+it remains the ``insurer'' under the Act and the premiums it receives 
+become part of its DEP. This is not unlike situations where primary 
+insurers report DEP on policies that they subsequently reinsure, and 
+reinsurance is specifically excluded from the Act. Therefore, Treasury 
+will not provide assurance that fronted premiums will not be included 
+in DEP.
+
+D. Insured Loss (Section 50.5.e)
+
+    Treasury incorporated the statutory definition of ``insured loss'' 
+found in section 102(5) of the Act in section 50.5(e)(1) of the interim 
+final rule. Section 50.5(e)(2) of the interim final rule clarified the 
+meaning of insured loss as it relates to section 102(5)(B) of that Act 
+as follows:
+    (i) A loss that occurs to an air carrier (as defined in 49 U.S.C. 
+40102), to a United States flag vessel, or a vessel based principally 
+in the United States, on which United States income tax is paid and 
+whose insurance coverage is subject to regulation in the United States, 
+is not an insured loss under section 102(5)(B) of the Act unless it is 
+incurred by the air carrier or vessel outside the United States.
+    (ii) An insured loss to an air carrier or vessel outside the United 
+States under section 102(5)(B) of the Act does not include losses 
+covered by third party insurance contracts that are separate from the 
+insurance coverage provided to the air carrier or vessel.
+    One commenter took exception to Treasury's clarification that such 
+extraterritorial insured third party losses to United States air 
+carriers and vessels are not insured losses, and cited legislative 
+history of the Act to indicate an intent on the part of Congress to 
+provide extraterritorial coverage to United States air carriers and 
+vessels without limitation.
+    After reviewing the comments including the legislative history 
+cited by the commenter, Treasury has determined not to change the 
+position it took in the interim final rule. Therefore, for purposes of 
+the Program, an insured loss is ``any'' loss, including a third party 
+liability loss, if it occurs within the geographic boundaries of the 
+United States; but, if the loss occurs outside of the geographic 
+boundaries of the United States (extraterritorial) to a United States 
+air carrier or vessel, then only that portion of the loss ``to'' that 
+air carrier or vessel is an insured loss eligible for the backstop. To 
+further clarify, ``to'' in this context means insured losses that are 
+incurred by United States air carriers and vessels (e.g., through 
+United States air carriers' or vessels' property and liability 
+insurance coverage), not losses that are incurred by other entities 
+that are covered by third party insurance contracts that are separate 
+from the insurance coverage provided to the air carrier or vessel.
+    Treasury's position is consistent with how third party liability 
+losses are generally treated under the Program (including how such 
+losses are treated for foreign air carriers and foreign flag vessels) 
+in that such losses would be considered insured losses if they are 
+incurred within the geographic scope of the United States. The 
+extension of coverage provided to United States air carriers and 
+vessels under the Act is related directly to those entities and their 
+potential insurance exposures, which are fully covered under the 
+interim final rule. Treasury does not believe that granting broader 
+third party indemnification on an extraterritorial basis and creating 
+greater exposure for United States taxpayers is consistent with 
+congressional intent for the Program.
+
+E. Insurer (Section 50.5.f)
+
+    The interim final rule incorporated the statutory definition of 
+``insurer'' as generally reflected in previously issued interim 
+guidance that was published at 67 FR 78864. In accordance with section 
+103(a)(3) of the Act, each entity that meets the definition of 
+``insurer'' under the Act as implemented by Treasury must participate 
+in the Program. To participate in the Program, an entity, including an 
+``affiliate'' of an insurer (see further discussion in part B of this 
+preamble), must itself meet all of the requirements of section 
+102(6)(A) and (B) and, as the Treasury may prescribe, (C). This means 
+that to be an insurer, an entity must: (1) Fall within one of the 
+categories in section 102(6)(A) described below; (2) receive direct 
+earned premiums as required by section 102(6)(B); and (3) meet any 
+additional criteria established by Treasury pursuant to section 
+102(6)(C).
+    The categories of insurers in Section 102(6)(A) that were directly 
+addressed in the interim final rule include:
+
+    (i) Licensed or admitted to engage in the business of providing 
+primary or excess insurance in any State (``State'' includes the 
+District of Columbia and territories of the United States);
+    (ii) Not so licensed or admitted, but is an eligible surplus 
+line carrier listed on the Quarterly Listing of Alien Insurers of 
+the National Association of Insurance Commissioners;
+    (iii) Approved for the purpose of offering property and casualty 
+insurance by a Federal agency in connection with maritime, energy or 
+aviation activity; and
+    (iv) A State residual market insurance entity or State workers' 
+compensation fund.
+
+    The interim final rule provides that an entity that falls within 
+two categories will be considered by Treasury to fall within the first 
+category that it meets under section 102(6)(A)(i)-(iv). All entities 
+that are licensed or admitted by a State's insurance regulatory 
+authority, such as captive insurers, risk retention groups, and farm 
+and county mutuals, fall under section 102(6)(A)(i).
+    The interim final rule also specified that the scope of insurance 
+coverage (insured losses) under the Program for federally approved 
+insurers under section 102(6)(A)(iii) is only to the extent of federal 
+approval of the commercial property and casualty insurance coverage 
+approved by the Federal agency in connection with maritime, energy or 
+aviation activity. Therefore, insured losses under other insurance 
+coverage that may be offered by a federally approved insurer under 
+section 102(6)(A)(iii) would not be covered by the Program.
+    In addition to falling within a category in section 102(6)(A), an 
+``insurer'' must meet the requirements in section 102(6)(B) unless 
+statutorily excepted. Therefore, an ``insurer'' must receive ``direct 
+earned premiums'' (as defined) on any type of commercial property and 
+casualty insurance (as defined). In addition, an ``insurer'' must meet 
+any additional criteria prescribed by Treasury under section 102(6)(C). 
+The interim final rule did not prescribe additional criteria under 
+section 102(6)(C). However, under a separate notice of proposed 
+rulemaking published at 68 FR 9814 Treasury solicited public comment on 
+whether the Secretary should prescribe other criteria for certain 
+insurers pursuant to the authority provided by section 102(6)(C) and, 
+if so, what criteria Treasury should prescribe.
+Captive Insurers
+    Treasury received six comments that addressed the treatment of 
+captive insurers under the Program. The majority of these objected to 
+Treasury's mandatory inclusion of captive insurers as a State licensed 
+or approved insurer under Section 102(6)(A)(i). These commenters 
+suggested that captives should be allowed to opt-in to the Program as 
+opposed to being mandatory participants. In support of this position, 
+commenters offered the following points: many captive insurers were 
+created to operate outside of the traditional insurance marketplace, 
+and thus they should not be treated as other insurance companies; some 
+types of commercial coverage provided by
+
+[[Page 41260]]
+
+captive insurers may have little or no exposure to terrorism risk, thus 
+captive insurers should not be subject to the Act's potential 
+recoupment provisions; and mandatory participation requirements for 
+captives, in particular the Act's potential recoupment provisions, 
+could negatively affect the formation of domestic captives as companies 
+may find setting up off-shore captives to be advantageous.
+    Treasury received one comment letter in support of treating State 
+licensed or admitted captive insurers as mandatory participants under 
+the Program. Treasury also received a comment letter from the NAIC that 
+described a split view on the part of State regulators over mandatory 
+participation requirements for state-licensed or admitted captive 
+insurers. Although the NAIC's comments included some of the points 
+noted above, the NAIC also acknowledged that allowing opt-in treatment 
+for captive insurers could allow for adverse selection and could set a 
+bad precedent as other entities would seek similar treatment. In 
+addition, the NAIC noted that ``when pressed for a decision regarding 
+whether a complete inclusion is better than a complete exclusion for 
+captives, regulators generally agree that inclusion is preferable.''
+    Treasury disagrees with the suggestion in some comments that 
+captive insurers should be provided with opt-in treatment. Requiring 
+mandatory participation for State licensed or admitted captive insurers 
+is in accord with the plain language of section 102(6)(A)(i) where no 
+distinction is made regarding types of State licensed or admitted 
+insurers. This treatment also furthers other statutory objectives such 
+as ensuring that policyholders have widespread access to the terrorism 
+risk insurance benefits of the Program, and spreading potential costs 
+of the Program associated with any federal loss-sharing payments. For 
+example, the cost spreading provisions in connection with recoupment as 
+required by section 103(e)(7) and in connection with surcharges as 
+required by section 103(e)(8) are to be applied to all commercial 
+property and casualty policyholders.
+    As it relates to the overall administration of the Program, 
+allowing for opt-in treatment would create the potential for adverse 
+selection within the Program as those captive insurers that perceived 
+themselves to have higher risk to terrorism would likely opt-in to the 
+Program while others with lower perceived risks would likely opt-out of 
+the Program. A major consequence of this type of action would be the 
+potential policyholder recoupment base would be reduced, which in turn 
+would increase the potential recoupment costs on the policyholders of 
+other mandatory participants in the Program.
+    Treasury does not support the view set forth by some of the 
+commenters that limited risk exposure to terrorism of the coverage 
+provided by some captive insurers is a reason to provide for an opt-in 
+option. This same type of argument could be made by any number of 
+insurers and policyholders that feel they have limited risk exposure to 
+terrorism. Because the recoupment base applies to all commercial 
+property and casualty policyholders, potentially limited risk exposure 
+to terrorism is not a valid reason to limit participation under the 
+Program.
+    Treasury also finds little or no support for assertions that the 
+potential recoupment provisions of the Act would have an adverse effect 
+on U.S. domestic captive jurisdictions. It should be noted that any 
+such recoupment would only be imposed in the case of a terrorist event 
+that triggers Federal payments under the Program, and that any 
+potential recoupment is limited to a maximum 3 percent of premium 
+surcharge in any given year. Although it is possible that certain 
+state-licensed or admitted captive insurers would find these potential 
+costs unattractive and search out other jurisdications, other state-
+licensed or admitted captive insurers would recognize the benefits of 
+Program participation. Therefore, the ultimate effect on any particular 
+captive insurance jurisdiction is difficult to quantify.
+    In addition to the general comments on providing captive insurers 
+opt-in treatment under the Program, two members of Congress offered the 
+view that, in the case of captives, the Act must be read in the context 
+of section 103(f). This section authorizes (but does not require) 
+Treasury to apply the provisions of the Act to ``other'' classes or 
+types of captive insurers. These commenters believe that the use of the 
+word ``other'' in section 103(f) is a grammatical error in the Act and, 
+for that reason, they contend that Treasury's interim final rule does 
+not reflect the intent of Congress to create a process through which 
+captive insurers could be integrated into the Program on an opt-in 
+basis.
+    As previously noted, Section 102(6)(A)(i) of the Act mandates 
+participation by insurers that are ``licensed or admitted'' by a State 
+to engage in the business of providing property and casualty insurance. 
+Following this state-licensed or admitted category in the definition of 
+``insurer'', is a category for ``any other entity described in Section 
+103(f), to the extent provided in the rules of the Secretary issued 
+under section 103(f).'' (emphasis added). Section 103(f) of the Act 
+gives discretionary authority to the Secretary to add to the Program, 
+``other classes or types of captive insurers * * *'' (emphasis added). 
+A key principle of statutory construction is that words in a statute 
+must be read to have meaning unless the reading of those words produces 
+an absurd result. The bar for interpreting words in a statute to be a 
+legislative error is extremely high. If the words in a statute can be 
+construed as having a rational meaning, then the rules of statutory 
+construction preclude an interpretation that they were enacted by 
+Congress in error.
+    In this case, the word ``other'' in these two provisions can be 
+easily construed as referring to captives other than those that are 
+State-licensed or admitted. Adopting the interpretation of legislative 
+error suggested by the two commenters would require the conclusion that 
+Congress erred in two places in the Act. In addition, we found nothing 
+in the Act's language or legislative history that would support 
+treating state-licensed or admitted captives differently from other 
+state-licensed or admitted insurers for purposes of the Program. For 
+these reasons, the definition of ``insurer'' in the final rule, as in 
+the interim final rule, includes those entities, including any 
+captives, that are state-licensed or admitted. Therefore, if a captive 
+is not state licensed or admitted, then it is not in the Program, 
+unless subsequently brought in by any rules issued under section 
+103(f).
+Pooling Arrangements and Joint Underwriting Associations
+    Treasury received comments requesting clarification on how 
+insurance pooling arrangements, such as joint underwriting 
+associations, are treated under the Act. These commenters found the 
+interim final rule and previously issued interim guidance to be unclear 
+with regard to (a) whether such entities are insurers under the Act, 
+and (b) if they are insurers, the category of insurer under which they 
+would belong (e.g., State licensed or admitted, or federally approved). 
+These commenters suggested that Treasury either clarify that State 
+authorized joint underwriting associations are State licensed and 
+admitted insurers under the Act, or directly inform a joint 
+underwriting association of its status under the Act. Some commenters 
+also
+
+[[Page 41261]]
+
+suggested that Treasury's treatment of federally approved insurers (see 
+next section) should be broadened to include all types of coverage 
+provided by this category of insurers.
+    The issue of Treasury's treatment of federally approved insurers 
+is, for the most part, separable from the fundamental question of 
+whether joint underwriting associations are State licensed or admitted 
+insurers. With regard to joint underwriting associations operating in 
+the United States, if such entities are considered to be State licensed 
+or approved insurers, then they must participate in the Program as 
+insurers in this category under the Act. The federally approved issue 
+is not reached in this situation.
+    Treasury acknowledges that certain joint underwriting associations 
+and other entities may not fit neatly within what is traditionally 
+thought of as the ``State licensed or admitted'' market. To provide 
+more clarity in the category of ``State licensed or admitted,'' the 
+final rule provides that, with regard to joint underwriting 
+associations and other pooling arrangements, such entities must meet 
+all three of the following criteria to be an insurer under the Program:
+
+    [sbull] An entity must have gone through a process to be licensed 
+or admitted to engage in the business of providing primary or excess 
+insurance that is administered by the State's insurance regulator. If 
+such a process differs from what a State's insurance regulator 
+generally applies to insurance companies, such a process should be 
+similar in scope and content;
+    [sbull] An entity must generally be subject to State insurance 
+regulation (including financial reporting requirements) applicable to 
+insurance companies within the State; and
+    [sbull] An entity must be managed independently from other insurers 
+that are participating in the Program.
+    If a joint underwriting association, pooling arrangement or other 
+entity is still uncertain of its status as State licensed or admitted 
+insurers under the Program, such entities are encouraged to provide 
+Treasury with an explanation of their particular circumstances and how 
+the criteria listed above apply or do not apply. After reviewing this 
+information, Treasury will directly contact such entities regarding 
+their status under the Program. These Treasury decisions also will be 
+made available to the public.
+Federally Approved Insurers
+    Treasury received fifteen comments regarding Treasury's treatment 
+of federally approved insurers in the interim final rule. Under the 
+interim final rule, the scope of insurance coverage (``insured 
+losses'') for federally approved insurers is only to the extent of 
+federal approval of the commercial property and casualty insurance 
+coverage approved by the Federal Agency in connection with maritime, 
+energy or aviation activity. Most of these commenters contended that 
+Treasury's interpretation regarding the scope of insurance coverage 
+under the Program for federally approved insurers was too narrow and 
+that such an interpretation was counter to the intent of Congress.
+    The maritime shipping industry and their mutually owned insurance 
+companies (International Group of Protection and Indemnity Clubs) 
+raised particular concerns that Treasury's interpretation regarding 
+federally approved insurers would unduly limit access to the Program 
+for the United States and world shipping fleets. As it relates to the 
+maritime industry, the United States Maritime Administration (MARAD) 
+has in place various mechanisms to approve underwriters providing 
+insurance coverage for vessels built or operated with subsidy or 
+covered by vessel obligation guarantees issued pursuant to Title XI of 
+the Merchant Marine Act, 1936, as amended. (46 U.S.C. 1271-1279). 
+Commenters noted that vessels built with Title XI subsidies or 
+guarantees make up a small portion of the United States flag fleet. 
+Therefore, to the extent that the portion of United States flag fleet 
+not subject to MARAD insurance approval was relying solely on federally 
+approved insurers for their insurance coverage, such vessels would 
+currently have limited access to federal payments under the Program. 
+Commenters also noted that a similar situation exists to the extent 
+that foreign flag vessels are currently relying on federally approved 
+insurers for their insurance coverage.
+    MARAD has set forth eligibility criteria for underwriters of marine 
+hull insurance at 46 CFR 249.4 and 249.5. Broadly speaking, to be 
+eligible under the MARAD program an insurer must be: licensed to do 
+business in the United States; an underwriter at Lloyd's; a member 
+company of the Institute of London Underwriters; or specifically 
+approved by MARAD. There is a fair degree of overlap between MARAD's 
+eligibility criteria for Marine Hull insurers and the definition of 
+``insurer'' under the Act. Under sections 102(6)(A)(i-iv), the Act 
+includes entities that are State licensed or admitted and entities that 
+are listed on the Quarterly Listing of Alien Insurers of the NAIC as 
+``insurers'' under the Act. These insurers participate in the Program 
+for all coverages that fall within the definition of ``commercial 
+property and casualty'' within the scope of the definition of ``insured 
+loss'' under the Act. Thus, insurers that fall within the first three 
+of MARAD's eligibility criteria are for the most part already eligible 
+insurers under the Act (although there may be some uncertainty 
+regarding the Institute of London Underwriters as it is our 
+understanding that this group has merged with another organization to 
+form the International Underwriting Association). For insurers that 
+MARAD specifically approves as Marine Hull underwriters, based on the 
+most recently available lists (NAIC's Quarterly Listing of Alien 
+Insurers--April 1, 2003, and MARAD Approval List--May 16, 2003), 13 out 
+of the 18 MARAD approved insurers were listed on the NAIC's Quarterly 
+Listing of Alien Insurers, and 1 of the 5 insurers that were not 
+currently on the NAIC's Quarterly Listing of Alien Insurers was on the 
+list in recent years. Thus, as it relates to Marine Hull underwriters, 
+Treasury's interpretation with regard to federally approved insurers 
+does not appear to have caused major disruptions in insurance coverage. 
+Treasury also notes that we did not receive any comments directly from 
+Marine Hull underwriters objecting to the treatment of federally 
+approved insurers.
+    MARAD, as part of its general insurance information and 
+requirements, also accepts the International Group of Protection and 
+Indemnity Clubs (International Group) as providers of liability 
+coverage. The International Group is made up of 13 independent 
+Protection and Indemnity Clubs. Each club is independently owned by its 
+ship-owner members. The International Group allows for the individual 
+clubs to share claims, purchase reinsurance as a group, and coordinate 
+on maritime public policy issues. Unlike the case with MARAD-approved 
+hull insurance underwriters, of the 13 members of the International 
+Group only two qualify as eligible insurers under the Act in a category 
+separate from the federally approved insurer category. Hence, the bulk 
+of the comments Treasury received from the maritime community focused 
+on the treatment of the International Group under the interim final 
+rule.
+    Treasury also received similar comments from the offshore oil and 
+gas drilling industry objecting to the interim final rule's 
+interpretation regarding the participation of federally approved 
+insurers under the Act. The Department of Interior's Minerals 
+Management Service approves insurance coverage as one method covered 
+offshore facilities can use for demonstrating oil spill
+
+[[Page 41262]]
+
+financial responsibility, and the Minerals Management Service has 
+procedures in place (30 CFR 253.29) regarding eligibility criteria 
+under their program. To further understand the oil and gas drilling 
+industry's concerns, the Minerals Management Service provided Treasury 
+with a list of insurers that had been approved to provide coverage 
+under the oil spill financial responsibility program. Treasury, in 
+consultation with the NAIC, identified 102 out of 105 insurers that 
+were approved by the Minerals Management Service as being eligible 
+participants under the Act because they either were State licensed or 
+admitted or were on the NAIC's Quarterly Listing of Alien Insurers. 
+Thus, as it relates to insurance coverage for offshore drilling 
+interests, Treasury's interpretation with regard to federally approved 
+insurers does not appear to have caused disruptions in insurance 
+coverage. Treasury did not receive any comments from insurers providing 
+coverage for offshore drilling interests objecting to the treatment of 
+federally approved insurers.
+    Treasury also received comments regarding the treatment of 
+federally approved insurers under the Department of Labor's authority 
+to authorize workers' compensation coverage under the Longshore and 
+Harbor Worker's Act (33 U.S.C. 901) and its extensions. The Department 
+of Labor authorizes both insurance carriers (20 CFR 703.101) and self-
+insurers (20 CFR 703.301) for the purpose of meeting the requirements 
+of the Longshore and Harbor Worker's Act. Insurers that are authorized 
+under 20 CFR 703.101 clearly meet the criteria of section 50.5(f)(1)(C) 
+of being ``approved or accepted for the purpose of offering property 
+and casualty insurance by a Federal agency in connection with maritime, 
+energy, or aviation activity.'' In this regard a key element is that 
+such insurers are ``offering'' insurance coverage.
+    In contrast, the Department of Labor and other Federal agencies may 
+approve self insurance as an acceptable means of meeting the financial 
+requirements or responsibilities of their respective programs. In this 
+regard, self insurance is just another means of establishing financial 
+responsibility and is not a substitute for the requirement that 
+insurance is being ``offered.'' Thus, self insurance arrangements 
+approved by Federal agencies are not included under section 
+50.5(f)(1)(C). However, Treasury may consider self insurance 
+arrangements for inclusion in the Program through Treasury's general 
+authority to consider such arrangements under section 102(6)(A)(v) of 
+the Act, which is also described in section 50.5(f)(1)(E) of the 
+interim final rule. Treasury has not yet taken any action regarding the 
+inclusion of self insurance arrangements under the Act.
+    In addition to the general concerns noted above regarding the 
+treatment of federally approved insurers, airline insurance pools and 
+other commenters (e.g., those addressing issues related to nuclear 
+insurers) noted that Federal approval may be for amounts of insurance 
+coverage that is less than what is normally provided by the insurance 
+industry. For example, commenters noted that standard airline liability 
+limits are $1.5 billion, while the Federal Aviation Administration's 
+required liability coverage is much lower. Likewise, commenters noted 
+that policy limits on nuclear property coverage generally exceed the 
+mandated requirements of $1.06 billion per licensee.
+    After consideration of these comments by the maritime industry and 
+their mutually owned insurance companies and others, Treasury has 
+decided not to make any changes to the interim final rule's treatment 
+of federally approved insurers for the following reasons.
+    First, the interim final rule's treatment of federally approved 
+insurers is in accord with the statutory language of the Act in section 
+102(6)(A)(iii) (``approved for the purpose of offering property and 
+casualty insurance by a Federal agency in connection with maritime, 
+energy or aviation activity''). While some commenters pointed to 
+congressional intent supporting a broader interpretation, no express 
+language in the Act's legislative history supports this view. Moreover, 
+Treasury's treatment of federally approved insurers in the interim 
+final rule is consistent with the underlying reason for the Federal 
+government providing Federal agencies with the authority to approve 
+insurers. In general, the Federal government provides agencies with 
+approval authority to address important national interests or to 
+protect the Federal government's interests. For example, the Federal 
+government requires that airlines maintain a minimum amount of 
+liability insurance coverage. In contrast, the Federal government has 
+no similar overall liability requirements for ocean going vessels, but 
+such vessels are required to demonstrate financial responsibility for 
+oil spills. As an example of protecting the Federal government's 
+interest, MARAD approves insurance coverage for vessels that were built 
+with a government subsidy or guarantee. MARAD could have been granted 
+broader insurance approval authority than just federally subsidized 
+vessels if there were a clear national interest in ensuring that all 
+ocean going vessels in U.S. waters had adequate overall liability 
+insurance coverage.
+    Second, Treasury's treatment of federally approved insurers is 
+consistent with Treasury's consideration of a pre-existing nexus (for 
+example, the nexus of State-licensing or NAIC approval for listing on 
+the Quarterly Listing of Alien Insurers) to be very important to the 
+effective and efficient administration of the Program. Some commenters 
+criticized Treasury for not more fully explaining the importance of 
+this consideration.
+    The following three key factors highlight the importance of a pre-
+existing regulatory nexus or structure for the administration of the 
+Program.
+    Ongoing Data Requirements. As Program administrator, Treasury has 
+chosen not to impose new ongoing data reporting requirements on 
+insurers. That does not mean that validating and collecting certain 
+data is not important to the Program. The calculation of an insurer's 
+DEP forms the basis for an insurer calculating its deductible under the 
+Program, and in the event that insurers would submit a claim for 
+payment under the Program, Treasury would expect to validate an 
+insurer's calculation of its deductible. Treasury believes that the 
+existing ongoing data reporting requirements of the State insurance 
+regulators and the consolidated reporting requirements as implemented 
+by the NAIC form a sound basis for the administration of the Program. 
+Therefore, there was not a pressing need to implement new ongoing data 
+reporting requirements through Treasury (and to create additional 
+paperwork burdens for the insurance industry) for this temporary 
+government Program.
+    However, such ongoing data is useful and important, especially as 
+it relates to foreign insurers that are providing coverage on global 
+risk policies. Global risk polices (e.g., such as those provided to 
+ocean going vessels) have historically not allocated premium income to 
+reflect the scope of insured losses covered under the Act, which is a 
+key measure in calculating an insurer's deductible. Treasury has 
+determined to utilize data collected by the NAIC from insurers on the 
+Quarterly Listing of Alien Insurers that captures the amount of premium 
+income related to the scope of insured loss under the Act. Federal 
+agencies approving insurers under section 102(6)(A)(iii), while 
+generally having some type of financial criteria for
+
+[[Page 41263]]
+
+approving insurers, do not have in place any type of ongoing data 
+reporting requirements similar to that of the NAIC.
+    Ability to Impose Surcharges or Take Enforcement Actions. Many of 
+the insurers approved by Federal agencies may be outside the direct 
+jurisdiction of the United States. Treasury has little leverage vis a 
+vis these insurers and this could make it difficult for Treasury to 
+impose surcharges in the case of any recoupment under the Act or to 
+take enforcement actions if needed. In contrast, if an insurer on the 
+NAIC's Quarterly Listing of Alien Insurers is not in compliance with 
+provisions of the Act, the insurer could suffer the consequences of 
+losing its NAIC listing for poor character, which in turn could 
+adversely affect its U.S. business operations. It is possible that a 
+Federal agency could also revoke approval for noncompliance with 
+provisions of the Act. However, the limited nature of a Federal 
+agency's approval authority could somewhat lessen the impact of any 
+such action and Treasury has no authority to require such action by 
+another federal agency.
+    Comparability Among Federally Approved Insurers. Treasury strongly 
+believes that all federally approved insurers should be treated in a 
+similar manner that is consistent with the statute. For example, such 
+consistency implies that the mandatory participation requirements of 
+the Act should be applied to all federally approved insurers in a 
+similar fashion. In that regard, Treasury would find it difficult to 
+justify one group of federally approved insurers having broader access 
+to the Program than the current interim final rule provides, while 
+other groups stayed with the current approach in the interim final 
+rule.
+    Treasury has considered carefully the concerns raised by commenters 
+regarding the interim final rule's treatment of federally approved 
+insurers. At this time, Treasury has decided that no changes to the 
+rule are warranted. It appears that many of the insurers that have been 
+approved by a Federal agency also qualify to participate in the Program 
+based on other criteria. Treasury also notes that obtaining a listing 
+on the NAIC's Quarterly Listing of Alien Insurers is an option that 
+insurers can employ if they are not satisfied with the treatment of 
+federally approved insurers under the interim final rule. Obtaining 
+such a listing would satisfy the concerns we noted above, while at the 
+same time imposing limited burden on insurers. It is our understanding 
+that perhaps the major obstacle to obtaining a listing is setting up 
+the necessary trust fund.
+    Treasury will continue to evaluate this issue as the Program 
+matures. While Treasury does not plan on making any changes to the 
+treatment of federally approved insurers at this time, Treasury would 
+be open to considering alternatives if the three key factors listed 
+above `` ongoing data reporting requirements, ability to impose 
+surcharges or take enforcement actions, and comparability among 
+federally approved insurers--could be addressed.
+Other Insurer Criteria
+    Under a separate notice of proposed rulemaking published at 68 FR 
+9814 Treasury solicited public comment on whether the Secretary should 
+prescribe other criteria for certain insurers pursuant to the authority 
+provided by section 102(6)(C) and, if so, what criteria Treasury should 
+prescribe. Specifically, Treasury solicited comment on whether criteria 
+should be developed to prevent newly formed insurance companies from 
+participating in the Program if such companies were established for the 
+purpose of evading the Act's deductible requirements.
+    A few commenters raised concerns that developing such criteria 
+could limit the development of new structures to provide terrorism risk 
+insurance coverage. One commenter acknowledged the concerns raised by 
+Treasury and supported the interim final rule's treatment of the 
+deductible requirements for newly formed insurance companies in section 
+50.5(g)(2) as an appropriate safeguard. Another commenter suggested a 
+set of general criteria that Treasury could look to as it considers 
+this issue. As Treasury noted in the preamble to interim final rule, we 
+are seeking to balance the goals of encouraging new sources of capital 
+in the market for terrorism risk insurance while also maintaining the 
+integrity of the Program. Treasury is not proposing any additional 
+criteria at this time, but we will continue to monitor developments in 
+the market for terrorism risk insurance and the market's response to 
+the Act.
+    Treasury also solicited comments on whether additional criteria 
+should be proposed for federally approved insurers. Some commenters 
+suggested that additional financial criteria could be applied if 
+necessary, while one commenter suggested that the Act does not give 
+Treasury the authority to regulate insurance. Given that the final rule 
+retains the interim final rule's treatment of federally approved 
+insurers, the scope of potential problems related to the financial 
+integrity of such insurers is somewhat limited. Thus, Treasury is not 
+proposing any additional criteria at this time, but we will continue to 
+study and monitor this issue.
+
+F. Insurer Deductible (Section 50.5.g)
+
+    The interim final rule incorporated the statutory definition of 
+``insurer deductible'' found in section 102(7) of the Act and set forth 
+a procedure specifying how newly formed insurance companies would 
+calculate their deductible under the Program. In particular, the 
+interim final rule specified that for an insurer that came into 
+existence after November 26, 2002, the insurer deductible will be based 
+on data for direct earned premiums for the current Program Year. If the 
+insurer has not had a full year of operations during the applicable 
+Program Year, the direct earned premiums for the current Program Year 
+will be annualized to determine the insurer deductible.
+    The two commenters who addressed this issue both indicated support 
+for Treasury's determination that premiums for new insurers would be 
+annualized in the calculation of their insurer deductible, and the 
+language of the interim final rule is incorporated without change into 
+the final rule.
+
+III. Procedural Requirements
+
+    The Act established a Program to provide for loss sharing payments 
+by the Federal Government for insured losses resulting from certified 
+acts of terrorism. The Act became effective immediately upon the date 
+of enactment (November 26, 2002). Preemptions of terrorism risk 
+exclusions in policies, mandatory participation provisions, disclosure 
+and other requirements and conditions for federal payment contained in 
+the Act applied immediately to those entities that come within the 
+Act's definition of ``insurer.'' Treasury has issued and will be 
+issuing additional regulations to implement the Program. This final 
+rule provides critical information concerning the definitions of 
+Program terms that lays the groundwork for Treasury's implementation of 
+the Program. No one can predict if, or when, an act of terrorism may 
+occur. There is an urgent need for Treasury, as Program administrator, 
+to lay the groundwork for Program implementation through regulations to 
+provide clarity and certainty concerning which entities are required to 
+participate in the Program; the scope and conditions of Program 
+coverage; and other implementation issues that immediately affect 
+insurers, their policyholders, State regulators and other interested 
+parties. This includes the need to supplement, or modify as
+
+[[Page 41264]]
+
+necessary, the previously issued interim final rule.
+    Accordingly, pursuant to 5 U.S.C. 553(d)(3), Treasury has 
+determined that there is good cause for the final rule to become 
+effective immediately upon publication.
+    This final rule is a significant regulatory action and has been 
+reviewed by the Office of Management and Budget under the terms of 
+Executive Order 12866.
+    It is hereby certified that this final rule will not have a 
+significant economic impact on a substantial number of small entities. 
+The Act requires all licensed or admitted insurers to participate in 
+the Program. This includes all insurers regardless of size or 
+sophistication. The Act also defines property and casualty insurance to 
+mean commercial lines without any reference to the size or scope of the 
+commercial entity. Although the Act affects small insurers, the 
+proposed rule also gives insurers flexibility in calculating their 
+direct earned premium for policies that have both commercial and 
+personal exposures, and it provides a safe harbor to exclude policies 
+that have incidental coverage for commercial purposes. Accordingly, any 
+economic impact associated with the proposed rule flows from the Act 
+and not the proposed rule. However, the Act and the Program are 
+intended to provide benefits to the U. S. economy and all businesses, 
+including small businesses, by providing a federal reinsurance backstop 
+to commercial property and casualty insurance policyholders and 
+spreading the risk of insured loss resulting from an act of terrorism.
+    The collection of information contained in Sec.  50.8 of this final 
+rule has been reviewed and approved by the Office of Management and 
+Budget (OMB) in accordance with the requirements of the Paperwork 
+Reduction Act (44 U.S.C. 3507(j)) under control number 1505-0190. An 
+agency may not conduct or sponsor, and a person is not required to 
+respond to, a collection of information unless it displays a valid 
+control number assigned by OMB.
+    This information is required in order for Treasury to determine 
+whether an insurer has rebutted a presumption that the insurer 
+exercises a controlling influence over the management or policies of 
+another insurer. The collection of information is mandatory with 
+respect to an insurer seeking to rebut a presumption. The estimated 
+average burden associated with the collection of information in this 
+final rule is 40 hours per respondent.
+    Comments concerning the accuracy of this burden estimate and 
+suggestions for reducing this burden should be directed to the Office 
+of Financial Institutions Policy, Room 3160 Annex, Department of the 
+Treasury, 1500 Pennsylvania Ave., NW., Washington, DC 20220 and to OMB, 
+Attention: Desk Officer for the Department of the Treasury, Office of 
+Information and Regulatory Affairs, Washington, DC 20503.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, the interim final rule adding 31 CFR 
+Part 50, which was published at 68 FR 9804 on February 28, 2003, is 
+adopted as a final rule with the following changes:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for 31 CFR Part 50 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+0
+2. Section 50.2 is added to read as follows:
+
+
+Sec.  50.2  Responsible office.
+
+    The office responsible for the administration of the Terrorism Risk 
+Insurance Act in the Department of the Treasury is the Terrorism Risk 
+Insurance Program Office. The Treasury Assistant Secretary for 
+Financial Institutions prescribes the regulations under the Act.
+
+0
+3. Section 50.5(c), (d)(1), (f)(1), and (l) are revised to read as 
+follows:
+
+
+Sec.  50.5  Definitions.
+
+* * * * *
+    (c)(1) Affiliate means, with respect to an insurer, any entity that 
+controls, is controlled by, or is under common control with the 
+insurer. An affiliate must itself meet the definition of insurer to 
+participate in the Program.
+    (2) For purposes of paragraph (c)(1) of this section, an insurer 
+has control over another insurer for purposes of the Program if:
+    (i) The insurer directly or indirectly or acting through one or 
+more other persons owns, controls, or has power to vote 25 percent or 
+more of any class of voting securities of the other insurer;
+    (ii) The insurer controls in any manner the election of a majority 
+of the directors or trustees of the other insurer; or
+    (iii) The Secretary determines, after notice and opportunity for 
+hearing, that an insurer directly or indirectly exercises a controlling 
+influence over the management or policies of the other insurer, even if 
+there is no control as defined in paragraph (c)(2)(i) or (c)(2)(ii) of 
+this section.
+    (3) An insurer described in paragraph (c)(2)(i) or (c)(2)(ii) of 
+this section is conclusively deemed to have control.
+    (4) For purposes of a determination of controlling influence under 
+paragraph (c)(2)(iii) of this section, if an insurer is not described 
+in paragraph (c)(2)(i) or (c)(2)(ii) of this section, the following 
+rebuttable presumptions will apply:
+    (i) If an insurer controls another insurer under any State law, and 
+at least one of the factors listed in paragraph (c) (4)(iv) of this 
+section applies, there is a rebuttable presumption that the insurer 
+that has control under State law exercises a controlling influence over 
+the management or policies of the other insurer for purposes of 
+paragraph (c)(2)(iii) of this section.
+    (ii) If an insurer provides 25 percent or more of another insurer's 
+capital (in the case of a stock insurer), policyholder surplus (in the 
+case of a mutual insurer), or corporate capital (in the case of other 
+entities that qualify as insurers), and at least one of the factors 
+listed in paragraph (c)(4)(iv) of this section applies, there is a 
+rebuttable presumption that the insurer providing such capital, 
+policyholder surplus, or corporate capital exercises a controlling 
+influence over the management or policies of the receiving insurer for 
+purposes of paragraph (c)(2)(iii) of this section.
+    (iii) If an insurer, at any time during a Program Year, supplies 25 
+percent or more of the underwriting capacity for that year to an 
+insurer that is a syndicate consisting of a group including 
+incorporated and individual unincorporated underwriters, and at least 
+one of the factors in paragraph (c)(4)(iv) of this section applies, 
+there is a rebuttable presumption that the insurer exercises a 
+controlling influence over the syndicate for purposes of paragraph 
+(c)(2)(iii) of this section.
+    (iv) If paragraphs (c)(4)(i) through (c)(4)(iii) of this section 
+are not applicable, but two or more of the following factors apply to 
+an insurer, with respect to another insurer, there is a rebuttable 
+presumption that the insurer exercises a controlling influence over the 
+management or policies of the other insurer for purposes of paragraph 
+(c)(2)(iii) of this section:
+    (A) The insurer is one of the two largest shareholders of any class 
+of voting stock;
+    (B) The insurer holds more than 35 percent of the combined debt 
+securities and equity of the other insurer;
+
+[[Page 41265]]
+
+    (C) The insurer is party to an agreement pursuant to which the 
+insurer possesses a material economic stake in the other insurer 
+resulting from a profit-sharing arrangement, use of common names, 
+facilities or personnel, or the provision of essential services to the 
+other insurer;
+    (D) The insurer is party to an agreement that enables the insurer 
+to influence a material aspect of the management or policies of the 
+other insurer;
+    (E) The insurer would have the ability, other than through the 
+holding of revocable proxies, to direct the votes of more than 25 
+percent of the other insurer's voting stock in the future upon the 
+occurrence of an event;
+    (F) The insurer has the power to direct the disposition of more 
+than 25 percent of a class of voting stock of the other insurer in a 
+manner other than a widely dispersed or public offering;
+    (G) The insurer and/or the insurer's representative or nominee 
+constitute more than one member of the other insurer's board of 
+directors; or
+    (H) The insurer or its nominee or an officer of the insurer serves 
+as the chairman of the board, chairman of the executive committee, 
+chief executive officer, chief operating officer, chief financial 
+officer or in any position with similar policymaking authority in the 
+other insurer.
+    (5) An insurer that is not described in paragraph (c)(2)(i) or 
+(c)(2)(ii) of this section may request a hearing in which the insurer 
+may rebut a presumption of controlling influence under paragraph 
+(c)(4)(i) through (c)(4)(iv) of this section or otherwise request a 
+determination of controlling influence by presenting and supporting its 
+position through written submissions to Treasury, and in Treasury's 
+discretion, through informal oral presentations, in accordance with the 
+procedure in Sec.  50.8.
+    (d) * * *
+    (l) State licensed or admitted insurers. For a State licensed or 
+admitted insurer that reports to the NAIC, direct earned premium is the 
+premium information for commercial property and casualty insurance 
+coverage reported by the insurer on column 2 of the NAIC Exhibit of 
+Premiums and Losses of the Annual Statement (commonly known as 
+Statutory Page 14). (See definition of property and casualty 
+insurance).
+    (i) Premium information as reported to the NAIC should be included 
+in the calculation of direct earned premiums for purposes of the 
+Program only to the extent of commercial property and casualty coverage 
+issued by the insurer against an insured loss under the Program.
+    (ii) Premiums for personal property and casualty insurance coverage 
+(coverage primarily designed to cover personal, family or household 
+risk exposures, with the exception of coverage written to insure 1 to 4 
+family rental dwellings owned for the business purpose of generating 
+income for the property owner) or for insurance coverage for any loss 
+that would not be an insured loss under the Program, should be excluded 
+in the calculation of direct earned premiums for purposes of the 
+Program.
+    (iii) Personal property and casualty insurance coverage that 
+includes incidental coverage for commercial purposes is primarily 
+personal coverage, and therefore premiums may be fully excluded by an 
+insurer from the calculation of direct earned premium. For purposes of 
+the Program, commercial coverage is incidental if less than 25 percent 
+of the total direct earned premium is attributable to commercial 
+coverage. Property and casualty insurance coverage for any loss that 
+would not be an insured loss under the Program that includes incidental 
+coverage for an insured loss under the Program is primarily non-Program 
+coverage, and therefore premiums may be fully excluded by an insurer 
+from the calculation of direct earned premium. For purposes of the 
+Program, coverage for an insured loss is incidental if less than 25 
+percent of the total direct earned premium is attributable to such 
+coverage.
+    (iv) If a property and casualty insurance policy covers both 
+commercial and personal risk exposures, insurers may allocate the 
+premiums in accordance with the proportion of risk between commercial 
+and personal components in order to ascertain direct earned premium. If 
+a property and casualty insurance policy covers risk exposures for both 
+insured losses and losses that would not be insured losses under the 
+Program, insurers may allocate the premiums in accordance with the 
+proportion of risk between the insured loss and non-insured loss 
+components in order to ascertain direct earned premium.
+* * * * *
+    (f) Insurer means any entity, including any affiliate of the 
+entity, that meets the following requirements:
+    (1)(i) The entity must fall within at least one of the following 
+categories:
+    (A) It is licensed or admitted to engage in the business of 
+providing primary or excess insurance in any State, (including, but not 
+limited to, State licensed captive insurance companies, State licensed 
+or admitted risk retention groups, and State licensed or admitted farm 
+and county mutuals), and, if a joint underwriting association, pooling 
+arrangement, or other similar entity, then the entity must:
+    (1) Have gone through a process of being licensed or admitted to 
+engage in the business of providing primary or excess insurance that is 
+administered by the State's insurance regulator, which process 
+generally applies to insurance companies or is similar in scope and 
+content to the process applicable to insurance companies;
+    (2) Be generally subject to State insurance regulation, including 
+financial reporting requirements, applicable to insurance companies 
+within the State; and
+    (3) Be managed independently from other insurers participating in 
+the Program;
+    (B) It is not licensed or admitted to engage in the business of 
+providing primary or excess insurance in any State, but is an eligible 
+surplus line carrier listed on the Quarterly Listing of Alien Insurers 
+of the NAIC, or any successor to the NAIC;
+    (C) It is approved or accepted for the purpose of offering property 
+and casualty insurance by a Federal agency in connection with maritime, 
+energy, or aviation activity, but only to the extent of such federal 
+approval of commercial property and casualty insurance coverage offered 
+by the insurer in connection with maritime, energy, or aviation 
+activity;
+    (D) It is a State residual market insurance entity or State 
+workers' compensation fund; or
+    (E) As determined by the Secretary, it falls within any other class 
+or type of captive insurer or other self-insurance arrangement by a 
+municipality or other entity, to the extent provided in Treasury 
+regulations issued under section 103(f) of the Act.
+    (ii) If an entity falls within more than one category described in 
+paragraph (f)(1)(i) of this section, the entity is considered to fall 
+within the first category within which it falls for purposes of the 
+Program.
+* * * * *
+    (l) Property and casualty insurance means commercial lines of 
+property and casualty insurance, including excess insurance, workers' 
+compensation insurance, and surety insurance, and
+    (1) Means commercial lines within only the following lines of 
+insurance from the NAIC's Exhibit of Premiums and Losses (commonly 
+known as Statutory Page 14): Line 1--Fire; Line 2.1--Allied Lines; Line 
+3--Farmowners Multiple Peril; Line 5.1--Commercial
+
+[[Page 41266]]
+
+Multiple Peril (non-liability portion); Line 5.2--Commercial Multiple 
+Peril (liability portion); Line 8--Ocean Marine; Line 9--Inland Marine; 
+Line 16--Workers' Compensation; Line 17--Other Liability; Line 18--
+Products Liability; Line 19.3--Commercial Auto No-Fault (personal 
+injury protection); Line 19.4--Other Commercial Auto Liability; Line 
+21.2--Commercial Auto Physical Damage; Line 22--Aircraft (all perils); 
+Line 24--Surety; Line 26--Burglary and Theft; and Line 27--Boiler and 
+Machinery; and
+    (2) Does not include:
+    (i) Federal crop insurance issued or reinsured under the Federal 
+Crop Insurance Act (7 U.S.C. 1501 et seq.), or any other type of crop 
+or livestock insurance that is privately issued or reinsured (including 
+crop insurance reported under either Line 2.1--Allied Lines or Line 
+2.2--Multiple Peril (Crop) of the NAIC's Exhibit of Premiums and Losses 
+(commonly known as Statutory Page 14);
+    (ii) Private mortgage insurance (as defined in section 2 of the 
+Homeowners Protection Act of 1988 (12 U.S.C. 4901) or title insurance;
+    (iii) Financial guaranty insurance issued by monoline financial 
+guaranty insurance corporations;
+    (iv) Insurance for medical malpractice;
+    (v) Health or life insurance, including group life insurance;
+    (vi) Flood insurance provided under the National Flood Insurance 
+Act of 1968 (42 U.S.C. 4001 et seq.) or earthquake insurance reported 
+under Line 12 of the NAIC's Exhibit of Premiums and Losses (commonly 
+known as Statutory Page 14); or
+    (vii) Reinsurance or retrocessional reinsurance.
+* * * * *
+
+0
+4. Section 50.8 is added to Subpart A to read as follows:
+
+
+Sec.  50.8  Procedure for requesting determinations of controlling 
+influence.
+
+    (a) An insurer or insurers not having control over another insurer 
+under Sec.  50.5(c)(2)(i) or (c)(2)(ii) may make a written submission 
+to Treasury to rebut a presumption of controlling influence under Sec.  
+50.5(c)(4)(i) through (iv) or otherwise to request a determination of 
+controlling influence. Such submissions shall be made to the Terrorism 
+Risk Insurance Program Office, Department of the Treasury, Suite 2110, 
+1425 New York Ave NW, Washington, D.C. 20220. The submission should be 
+entitled, ``Controlling Influence Submission,'' and should provide the 
+full name and address of the submitting insurer(s) and the name, title, 
+address and telephone number of the designated contact person(s) for 
+such insurer(s).
+    (b) Treasury will review submissions and determine whether Treasury 
+needs additional written or orally presented information. In its 
+discretion, Treasury may schedule a date, time and place for an oral 
+presentation by the insurer(s).
+    (c) An insurer or insurers must provide all relevant facts and 
+circumstances concerning the relationship(s) between or among the 
+affected insurers and the control factors in Sec.  50.5(c)(4)(i) 
+through (iv); and must explain in detail any basis for why the insurer 
+believes that no controlling influence exists (if a presumption is 
+being rebutted) in light of the particular facts and circumstances, as 
+well as the Act's language, structure and purpose. Any confidential 
+business or trade secret information submitted to Treasury should be 
+clearly marked. Treasury will handle any subsequent request for 
+information designated by an insurer as confidential business or trade 
+secret information in accordance with Treasury's Freedom of Information 
+Act regulations at 31 C.F.R. Part 1.
+    (d) Treasury will review and consider the insurer submission and 
+other relevant facts and circumstances. Unless otherwise extended by 
+Treasury, within 60 days after receipt of a complete submission, 
+including any additional information requested by Treasury, and 
+including any oral presentation, Treasury will issue a final 
+determination of whether one insurer has a controlling influence over 
+another insurer for purposes of the Program. The determination shall 
+set forth Treasury's basis for its determination.
+    (e) This Sec.  50.8 supersedes the Interim Guidance issued by 
+Treasury in a notice published on March 27, 2003 (68 FR 15039).
+
+
+(Approved by the Office of Management & Budget under control number 
+1505-0190)
+
+
+0
+5. Section 50.9 is added to Subpart A to read as follows:
+
+
+Sec.  50.9  Procedure for requesting general interpretations of 
+statute.
+
+    Persons actually or potentially affected by the Act or regulations 
+in this Part may request an interpretation of the Act or regulations by 
+writing to the Terrorism Risk Insurance Program Office, Suite 2110, 
+Department of the Treasury, 1425 New York Ave NW, Washington, DC 20220, 
+giving a detailed explanation of the facts and circumstances and the 
+reason why an interpretation is needed. A requester should segregate 
+and mark any confidential business or trade secret information clearly. 
+Treasury in its discretion will provide written responses to requests 
+for interpretation. Treasury reserves the right to decline to provide a 
+response in any case. Except in the case of any confidential business 
+or trade secret information, Treasury will make written requests for 
+interpretations and responses publicly available at the Treasury 
+Department Library, on the Treasury Web site, or through other means as 
+soon as practicable after the response has been provided. Treasury will 
+handle any subsequent request for information that had been designated 
+by a requester as confidential business or trade secret information in 
+accordance with Treasury's Freedom of Information Act regulations at 31 
+CFR Part 1.
+
+    Dated: July 7, 2003.
+Wayne A. Abernathy,
+Assistant Secretary of the Treasury.
+[FR Doc. 03-17585 Filed 7-10-03; 8:45 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

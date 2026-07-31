@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 177 (Tuesday, September 15, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 177 (Tuesday, September 15, 2009)]
+[Rules and Regulations]
+[Pages 47099-47100]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-22147]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 09-02]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds; Customer Confirmation Reporting Requirement Threshold Amount
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Treasury recently raised the customer confirmation reporting 
+requirement threshold amount from $750 million to $2 billion for all 
+Treasury marketable securities auctions. This final rule amends 
+Treasury's auction rules to conform to the new $2 billion threshold 
+amount.
+
+DATES: Effective Date: Effective September 15, 2009.
+
+ADDRESSES: This final rule is available on the Bureau of the Public 
+Debt's Web site at: <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a>. It is also available 
+for public inspection and copying at the Treasury Department Library, 
+Room 1428, Main Treasury Building, 1500 Pennsylvania Avenue, NW., 
+Washington, DC, 20220. To visit the library, one can call (202) 622-
+0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena, Lee Grandy, or Kevin 
+Hawkins, Department of the Treasury, Bureau of the Public Debt, 
+Government Securities Regulations Staff, (202) 504-3632.
+
+SUPPLEMENTARY INFORMATION: The Department of the Treasury 
+(``Treasury,'' ``we,'' or ``us'') is issuing an amendment to 31 CFR 
+356.24(d) of the Uniform Offering Circular for the Sale and Issue of 
+Marketable Book-Entry Treasury Bills, Notes, and Bonds (``UOC'' or 
+``auction rules'') \1\ to raise the threshold amount for the customer 
+confirmation reporting requirement from $750 million to $2 billion. In 
+a press release on June 25, 2009, we announced that this new threshold 
+amount would be effective beginning with auctions conducted on June 29, 
+2009.\2\ Beginning with the Treasury auctions announced on June 25, 
+2009, we stated the new threshold amount in each Treasury auction 
+offering announcement.\3\ This final rule amends the UOC to conform to 
+the new $2 billion threshold amount.\4\ Treasury is also restructuring, 
+without making any substantive changes, the current Sec.  356.24(d) to 
+make clearer which provisions apply to customers and which apply to 
+submitters and intermediaries.
+---------------------------------------------------------------------------
+
+    \1\ The UOC was published as a final rule on January 5, 1993, at 
+58 FR 412, and is codified, as amended, at 31 CFR part 356. The UOC, 
+together with the offering announcement for each auction, sets out 
+the terms and conditions for the sale and issuance by Treasury to 
+the public of marketable book-entry Treasury bills, notes, and 
+bonds.
+    \2\ Public Debt News Release on June 25, 2009, which is 
+available at the Bureau of the Public Debt's Web site at: <a href="http://www.treasurydirect.gov/instit/annceresult/press/preanre/2009/BPD_SPL_20090625_1.pdf">http://www.treasurydirect.gov/instit/annceresult/press/preanre/2009/BPD_SPL_20090625_1.pdf</a>.
+    \3\ See June 25, 2009 Treasury offering announcements for the 
+91-day, 182-day, and 364-day Treasury bills. As noted in Sec.  
+356.10, if anything in the auction announcement differs from the 
+UOC, the auction announcement will control.
+    \4\ Once this final rule becomes effective, we will no longer 
+include the customer confirmation threshold amount in each specific 
+offering announcement.
+---------------------------------------------------------------------------
+
+    Starting in 1992, Treasury required customers \5\ that were awarded 
+a par amount of $500 million or more in a Treasury auction to provide 
+written confirmation of their awarded bids, including the name of the 
+submitter that submitted the bids on their behalf.\6\ The confirmation 
+must also include a statement with specific information related to the 
+customer's net long position.\7\ The customer must send the 
+confirmation no later than 10 a.m. on the day following the auction. 
+The UOC requires that the confirmation be in writing and signed by the 
+customer or by an authorized representative.\8\ Treasury established 
+the customer confirmation reporting requirement in order to verify the 
+authenticity of large customer bids that resulted in securities being 
+awarded. Treasury subsequently raised the customer confirmation 
+reporting requirement threshold amount in Sec.  356.24(d) from $500 
+million to $750 million, effective on January 1, 2007.\9\ Treasury 
+auction offering amounts, on average, are substantially higher than 
+when we last raised the customer confirmation reporting requirement 
+threshold amount in 2007. For this reason, on June 25, 2009, Treasury 
+again raised the customer confirmation threshold, from $750 million to 
+$2 billion.\10\ We now amend the UOC to reflect that change.
+---------------------------------------------------------------------------
+
+    \5\ ``Customer'' is already defined in the UOC as a bidder that 
+directs a depository institution or dealer to submit or forward a 
+bid for a specific amount of securities in a specific auction on the 
+bidder's behalf. Sec.  356.2.
+    \6\ Sec.  356.24(d). See Department of the Treasury, Securities 
+and Exchange Commission and Board of Governors of the Federal 
+Reserve System, Joint Report on the Government Securities Market 7-
+8. (January 1992).
+    \7\ Sec.  356.24(d).
+    \8\ If an authorized representative signs the confirmation, it 
+must include the capacity in which the representative is acting. Id.
+    \9\ 71 FR 76150, December 20, 2006. Treasury also added e-mail 
+as an acceptable method for customers to send confirmations.
+    \10\ See note 2, supra.
+---------------------------------------------------------------------------
+
+    We have restructured Sec.  356.24(d) to make clearer which 
+provisions apply to customers and which apply to submitters and 
+intermediaries. The new subparagraph (d)(1) states the customer
+
+[[Page 47100]]
+
+requirements, including the new threshold amount in (d)(1)(i). 
+Subparagraph (d)(2) applies to submitters and intermediaries.
+    Also, Treasury is making one change to the text in the new Sec.  
+356.24(d)(1)(ii)(A), formerly in Sec.  356.24(d)(1), to clarify that 
+the customer must provide a confirmation of all of its awarded bids, 
+including the name of ``each'' submitter that submitted bids on the 
+customer's behalf. In other words, if more than one submitter submitted 
+bids for a customer, then that customer must still confirm all of its 
+awarded bids, provided the total amount of the awarded bids is $2 
+billion or more.
+    We are making an additional change to the language in the new Sec.  
+356.24(d)(1)(i), formerly in Sec.  356.24(d), to clarify that the 
+customer must provide confirmation of the awarded bid(s) on the ``next 
+business'' day following the auction.\11\
+---------------------------------------------------------------------------
+
+    \11\ ``Business day'' is already defined in the UOC as any day 
+on which the Federal Reserve Banks are open for business. Sec.  
+356.2.
+---------------------------------------------------------------------------
+
+Regulatory Analysis and Review
+
+    Executive Order 12866. This rule is not a significant regulatory 
+action pursuant to Executive Order 12866.
+    Administrative Procedure Act (APA). Because this rule relates to 
+United States securities, which are contracts between Treasury and the 
+owner of the security, this rule falls within the contract exception to 
+the APA, 5 U.S.C. 553(a)(2). As a result, the notice, public comment, 
+and delayed effective date provisions of the APA are inapplicable to 
+this rule.
+    Regulatory Flexibility Act. The provisions of the Regulatory 
+Flexibility Act, 5 U.S.C. 601 et seq., do not apply to this rule 
+because, pursuant to 5 U.S.C. 553(a)(2), it is not required to be 
+issued with notice and opportunity for public comment.
+    Paperwork Reduction Act (PRA). There is no new collection of 
+information contained in this final rule that would be subject to the 
+PRA, 44 U.S.C. 3501 et seq. Under the PRA, an agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid OMB control number. The Office 
+of Management and Budget already has approved all collections of 
+information in 31 CFR part 356, under OMB control number 1535-0112.
+    Congressional Review Act (CRA). This rule is not a major rule 
+pursuant to the CRA, 5 U.S.C. 801 et seq., because it is a minor 
+amendment to the reporting requirements Treasury places on customers 
+submitting bids in Treasury marketable securities auctions. This rule 
+actually requires less reporting and therefore, is not expected to lead 
+to any of the results listed in 5 U.S.C. 804(2).
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+
+0
+For the reasons set forth in the preamble, 31 CFR part 356 is amended 
+as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. Revise Sec.  356.24(d) to read as follows:
+
+
+Sec.  356.24  Will I be notified directly of my awards and, if I am 
+submitting bids for others, do I have to provide confirmations?
+
+* * * * *
+    (d) Customer confirmation--(1) Customer requirements--(i) When and 
+how must a customer confirm its awards? Any customer awarded a par 
+amount of $2 billion or more in an auction must send us a confirmation 
+in written form or via e-mail containing the information in paragraph 
+(d)(1)(ii) of this section. The confirmation must be sent no later than 
+10 a.m. Eastern Time on the next business day following the auction. If 
+sent in written form, the confirmation must be signed by the customer 
+or authorized representative. Confirmations sent by e-mail must be sent 
+by the customer or authorized representative. Confirmations signed or 
+sent by an authorized representative must include the capacity in which 
+the representative is acting.
+    (ii) What must the customer include in its confirmation? The 
+information the customer must provide is:
+    (A) A confirmation of the awarded bid(s), including the name of 
+each submitter that submitted the bid(s) on the customer's behalf, and
+    (B) A statement indicating whether the customer had a reportable 
+net long position as defined in Sec.  356.13. If a position had to be 
+reported, the statement must provide the amount of the position and the 
+name of the submitter that the customer requested to report the 
+position.
+    (2) Submitter or intermediary requirements. A submitter or 
+intermediary submitting or forwarding bids for a customer must notify 
+the customer of the customer confirmation reporting requirement if we 
+award the customer $2 billion or more as a result of those bids.
+
+Richard L. Gregg,
+Acting Fiscal Assistant Secretary.
+[FR Doc. E9-22147 Filed 9-14-09; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

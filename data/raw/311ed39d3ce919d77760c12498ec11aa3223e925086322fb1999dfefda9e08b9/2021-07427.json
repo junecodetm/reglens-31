@@ -1,0 +1,98 @@
+{
+  "abstract": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is issuing this final rule to make a technical amendment to the definition of \"applicable schedule amount\" in its regulations. In recent years, OFAC has adjusted its civil monetary penalties (CMPs) as required by the Federal Civil Penalties Inflation Adjustment Act, as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015. While OFAC's \"applicable schedule amount\" values are not civil monetary penalties that are required to be adjusted pursuant to such statute, OFAC is making a technical change to this definition to ensure the applicable schedule amount values continue to correspond appropriately to OFAC's CMPs.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2021/04/12/2021-07427.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "501",
+      "title": 31
+    }
+  ],
+  "citation": "86 FR 18895",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This rule is effective April 12, 2021.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2021-07427",
+  "effective_on": "2021-04-12",
+  "end_page": 18896,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2021/04/12/2021-07427.xml",
+  "html_url": "https://www.federalregister.gov/documents/2021/04/12/2021-07427/adjustment-of-applicable-schedule-amount",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2021-07427?publication_date=2021-04-12",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2021-04-12/2021-07427/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 2,
+  "page_views": {
+    "count": 608,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2021-04-12/pdf/2021-07427.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2021-07427.pdf?1617972330",
+  "publication_date": "2021-04-12",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2021/04/12/2021-07427.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "agency_id": "OFAC",
+    "checked_regulationsdotgov_at": "2021-04-13T03:30:08Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC_FRDOC_0001",
+    "docket_id": "OFAC_FRDOC_0001",
+    "document_id": "OFAC_FRDOC_0001-1272",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted OFAC Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 18895,
+  "subtype": null,
+  "title": "Adjustment of Applicable Schedule Amount",
+  "toc_doc": "Adjustment of Applicable Schedule Amount",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Blocking of assets",
+    "Exports",
+    "Foreign trade",
+    "Penalties"
+  ],
+  "type": "Rule",
+  "volume": 86
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/api/v1/documents/E8-5713.json",
+  "fetched_at": "2026-07-30T14:10:47.658466+00:00",
+  "sha256": "cde76d443b28a034da6383f6aacd8a6d6269aa26d291173b8cd202b28b3767e9",
+  "content_type": "application/json",
+  "filename": "E8-5713.json"
+}

@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Federal Register, Volume 81 Issue 127 (Friday, July 1, 2016)</title>
+</head>
+<body><pre>
+[Federal Register Volume 81, Number 127 (Friday, July 1, 2016)]
+[Rules and Regulations]
+[Pages 43069-43070]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2016-15248]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds
+
+AGENCY: Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury is making non-substantive 
+technical corrections to its marketable securities auction rules.
+
+DATES: Effective July 1, 2016.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena, Kurt Eidemiller, or 
+Kevin
+
+[[Page 43070]]
+
+Hawkins, Government Securities Regulations Staff, Bureau of the Fiscal 
+Service, Department of the Treasury, (202) 504-3632 or email us at 
+<a href="/cdn-cgi/l/email-protection#e1868e97928482938486a187889282808dcf9593848092949398cf868e97"><span class="__cf_email__" data-cfemail="c2a5adb4b1a7a1b0a7a582a4abb1a1a3aeecb6b0a7a3b1b7b0bbeca5adb4">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: We are making non-substantive technical 
+corrections to Sec. Sec.  356.2, 356.31, and appendix B to part 356. 
+The amendments re-designate cross references to other parts of the 
+rules, revise the introductory text of a paragraph, and restate a 
+variable.
+
+Procedural Requirements
+
+    Administrative Procedure Act. Because this final rule relates to 
+public contracts and procedures for United States securities, the 
+notice, public comment, and delayed effective date provisions of the 
+Administrative Procedure Act are inapplicable, pursuant to 5 U.S.C. 
+553(a)(2).
+
+List of Subjects in 31 CFR Part 356
+
+    Banks, banking, Bonds, Federal Reserve System, Government 
+securities, Reporting and recordkeeping requirements, Securities.
+
+Text of Amendments
+
+    Accordingly, 31 CFR part 356 is amended by making the following 
+technical amendments:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL 
+SERVICE SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 
+391.
+
+
+Sec.  356.2  [Amended]
+
+0
+2. Section 356.2 is amended in the last sentence of the definition of 
+``accrued interest'' by removing the reference to ``paragraph C'' and 
+adding in its place ``paragraph D'' and in the last sentence of 
+paragraph (2) in the definition of ``adjusted value'' by removing the 
+reference to ``section IV'' and adding in its place ``section V.''
+
+
+Sec.  356.31  [Amended]
+
+0
+3. Section 356.31 is amended in the last sentences of paragraphs 
+(c)(3)(i) and (iii) by removing the reference to ``section IV'' and 
+adding in its place ``section V.''
+
+0
+4. Appendix B to part 356 is amended by removing two paragraphs of 
+introductory text following the table of contents and adding one 
+paragraph in its place, and revising Section IV, subsection D, 
+paragraphs (a), (b), and (c) to read as follows:
+
+Appendix B to Part 356--Formulas and Tables
+
+* * * * *
+    The examples in this appendix are given for illustrative 
+purposes only and are in no way a prediction of interest rates on 
+any bills, notes, or bonds issued under this part. In some of the 
+following examples, we use intermediate rounding for ease in 
+following the calculations.
+* * * * *
+    IV. * * *
+    D. * * *
+    [GRAPHIC] [TIFF OMITTED] TR01JY16.004
+    
+* * * * *
+
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2016-15248 Filed 6-30-16; 8:45 am]
+BILLING CODE 4810-AS-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

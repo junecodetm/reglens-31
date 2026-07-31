@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2003/10/28/03-27074.txt",
+  "fetched_at": "2026-07-30T14:09:14.251010+00:00",
+  "sha256": "7adb3b3227bfc08699591f47a5853980d7f1d6b1829ef8ce4f093d26767f8133",
+  "content_type": "text/plain",
+  "filename": "03-27074.txt"
+}

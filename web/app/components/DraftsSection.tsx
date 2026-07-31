@@ -1,23 +1,76 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  type FormEvent,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { Button } from "@trussworks/react-uswds";
 
+import {
+  assembleSkeleton,
+  checkLiveDraft,
+  type LiveDraftChecklist,
+  requestLiveDraft,
+} from "./draft-live";
 import type { ConformanceData } from "./reglens-types";
 import { ExpandableGroup } from "./ui/ExpandableGroup";
 import { useLazyJson } from "./ui/useLazyJson";
-
-type DraftTextState =
-  | { status: "loading" }
-  | { status: "ready"; text: string }
-  | { status: "error"; message: string };
+import { useLazyTextMap } from "./ui/useLazyText";
 
 type DraftChecklist = ConformanceData["checklists"][number];
+type DraftDocType = DraftChecklist["doc_type"];
+
+interface DraftInputs {
+  parts: Array<{
+    part: number;
+    heading: string;
+    authority: string;
+  }>;
+  doc_types: string[];
+}
+
+type LiveDraftState =
+  | { status: "idle" }
+  | { status: "loading" }
+  | {
+      status: "ready";
+      assembled: string;
+      checklist: LiveDraftChecklist;
+      model: string;
+    }
+  | {
+      status: "fallback";
+      message: string;
+      part: number;
+      docType: DraftDocType;
+    };
 
 interface DraftsSectionProps {
   active: boolean;
   standalone?: boolean;
 }
+
+interface DraftParametersPanelProps {
+  active: boolean;
+  standalone: boolean;
+  onShowCommittedDraft: (part: number, docType: DraftDocType) => void;
+}
+
+const LIVE_CHECKS = [
+  ["Headings in order", "headings_in_order"],
+  ["Analysis sections present", "analysis_sections_present"],
+  ["Placeholders intact", "placeholders_intact"],
+  ["Narrative fabrication clean", "narrative_fabrication_clean"],
+  ["Quotes verified", "quotes_verified"],
+] as const;
+
+const RATE_LIMIT_NOTICE =
+  "The shared free-tier generation limit is momentarily exhausted. The committed, fully conformance-gated draft for these parameters is shown instead.";
+const UNAVAILABLE_NOTICE =
+  "Live generation is unavailable. The committed, fully conformance-gated draft for these parameters is shown instead.";
 
 function draftKey(checklist: DraftChecklist): string {
   return `${checklist.part}-${checklist.doc_type}`;
@@ -32,6 +85,28 @@ function draftLabel(checklist: DraftChecklist): string {
   return `31 CFR Part ${checklist.part} — ${documentType}`;
 }
 
+function draftTextPath(part: number, docType: DraftDocType): string {
+  return `/data/drafts/31-CFR-${encodeURIComponent(String(part))}-${encodeURIComponent(docType)}.txt`;
+}
+
+function draftTemplatePath(part: number, docType: DraftDocType): string {
+  return `/data/draft-templates/31-CFR-${encodeURIComponent(String(part))}-${encodeURIComponent(docType)}.txt`;
+}
+
+function authorityPartPath(part: number): string {
+  return `/data/authority-parts/31-CFR-${encodeURIComponent(String(part))}.txt`;
+}
+
+async function fetchPlainText(path: string): Promise<string> {
+  const response = await fetch(path);
+
+  if (!response.ok) {
+    throw new Error(`Request failed with status ${response.status}.`);
+  }
+
+  return response.text();
+}
+
 function passFail(value: boolean): "pass" | "fail" {
   return value ? "pass" : "fail";
 }
@@ -41,6 +116,327 @@ function formatPassRate(value: number): string {
     style: "percent",
     maximumFractionDigits: 1,
   }).format(value);
+}
+
+function DraftParametersPanel({
+  active,
+  standalone,
+  onShowCommittedDraft,
+}: DraftParametersPanelProps) {
+  const { state: inputState, load: loadInputs } =
+    useLazyJson<DraftInputs>("/data/draft-inputs.json", {
+      requestErrorPrefix: "Request failed with status ",
+      fallbackErrorMessage: "The draft parameters could not be loaded.",
+    });
+  const [part, setPart] = useState<number | null>(null);
+  const [docType, setDocType] = useState<DraftDocType>("nprm");
+  const [policyGoal, setPolicyGoal] = useState("");
+  const [liveResult, setLiveResult] = useState<LiveDraftState>({
+    status: "idle",
+  });
+  const submissionRef = useRef(0);
+
+  useEffect(() => {
+    if (active) {
+      void loadInputs();
+    }
+  }, [active, loadInputs]);
+
+  useEffect(
+    () => () => {
+      submissionRef.current += 1;
+    },
+    [],
+  );
+
+  if (inputState.status !== "ready") {
+    return null;
+  }
+
+  const supportedDocTypes = inputState.data.doc_types.filter(
+    (value): value is DraftDocType =>
+      value === "nprm" || value === "final",
+  );
+  const selectedPart =
+    part !== null &&
+    inputState.data.parts.some((item) => item.part === part)
+      ? part
+      : (inputState.data.parts[0]?.part ?? null);
+  const selectedDocType = supportedDocTypes.includes(docType)
+    ? docType
+    : (supportedDocTypes[0] ?? null);
+  const selectedPartRecord =
+    inputState.data.parts.find((item) => item.part === selectedPart) ??
+    null;
+  const PanelHeading = standalone ? "h2" : "h4";
+
+  function resetLiveResult(): void {
+    submissionRef.current += 1;
+    setLiveResult({ status: "idle" });
+  }
+
+  function showFallback(
+    selectedPartValue: number,
+    selectedDocTypeValue: DraftDocType,
+    rateLimited: boolean,
+  ): void {
+    const message = rateLimited ? RATE_LIMIT_NOTICE : UNAVAILABLE_NOTICE;
+    setLiveResult({
+      status: "fallback",
+      message,
+      part: selectedPartValue,
+      docType: selectedDocTypeValue,
+    });
+    onShowCommittedDraft(selectedPartValue, selectedDocTypeValue);
+  }
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (selectedPart === null || selectedDocType === null) {
+      return;
+    }
+
+    const submission = submissionRef.current + 1;
+    submissionRef.current = submission;
+    setLiveResult({ status: "loading" });
+
+    const response = await requestLiveDraft(
+      selectedPart,
+      selectedDocType,
+      policyGoal,
+    );
+
+    if (submissionRef.current !== submission) {
+      return;
+    }
+
+    if (!response.ok) {
+      showFallback(selectedPart, selectedDocType, response.rateLimited);
+      return;
+    }
+
+    try {
+      const [template, partText] = await Promise.all([
+        fetchPlainText(draftTemplatePath(selectedPart, selectedDocType)),
+        fetchPlainText(authorityPartPath(selectedPart)),
+      ]);
+
+      if (submissionRef.current !== submission) {
+        return;
+      }
+
+      const assembled = assembleSkeleton(
+        template,
+        response.summary,
+        response.supplementary_intro,
+      );
+      const checklist = checkLiveDraft(
+        assembled,
+        `${response.summary}\n${response.supplementary_intro}`,
+        partText,
+      );
+      setLiveResult({
+        status: "ready",
+        assembled,
+        checklist,
+        model: response.model,
+      });
+    } catch {
+      if (submissionRef.current === submission) {
+        showFallback(selectedPart, selectedDocType, false);
+      }
+    }
+  }
+
+  const failedChecks =
+    liveResult.status === "ready"
+      ? LIVE_CHECKS.filter(
+          ([, property]) => !liveResult.checklist[property],
+        ).map(([label]) => label)
+      : [];
+
+  return (
+    <section
+      className="bg-base-lightest border border-base-lighter radius-md padding-2 margin-bottom-4"
+      aria-labelledby="draft-parameters-heading"
+    >
+      <PanelHeading id="draft-parameters-heading" className="margin-top-0">
+        Draft parameters
+      </PanelHeading>
+
+      <form onSubmit={handleSubmit}>
+        <div className="grid-row grid-gap">
+          <div className="tablet:grid-col-6">
+            <label className="usa-label" htmlFor="draft-part">
+              CFR part
+            </label>
+            <select
+              className="usa-select"
+              id="draft-part"
+              name="draft-part"
+              value={selectedPart ?? ""}
+              onChange={(event) => {
+                setPart(Number(event.currentTarget.value));
+                resetLiveResult();
+              }}
+            >
+              {inputState.data.parts.map((item) => (
+                <option key={item.part} value={item.part}>
+                  31 CFR part {item.part} — {item.heading}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <fieldset className="usa-fieldset tablet:grid-col-6">
+            <legend className="usa-legend">Document type</legend>
+            <div className="usa-radio">
+              <input
+                className="usa-radio__input"
+                id="draft-document-type-nprm"
+                name="draft-document-type"
+                type="radio"
+                value="nprm"
+                checked={selectedDocType === "nprm"}
+                disabled={!supportedDocTypes.includes("nprm")}
+                onChange={() => {
+                  setDocType("nprm");
+                  resetLiveResult();
+                }}
+              />
+              <label
+                className="usa-radio__label"
+                htmlFor="draft-document-type-nprm"
+              >
+                NPRM
+              </label>
+            </div>
+            <div className="usa-radio">
+              <input
+                className="usa-radio__input"
+                id="draft-document-type-final"
+                name="draft-document-type"
+                type="radio"
+                value="final"
+                checked={selectedDocType === "final"}
+                disabled={!supportedDocTypes.includes("final")}
+                onChange={() => {
+                  setDocType("final");
+                  resetLiveResult();
+                }}
+              />
+              <label
+                className="usa-radio__label"
+                htmlFor="draft-document-type-final"
+              >
+                Final rule
+              </label>
+            </div>
+          </fieldset>
+        </div>
+
+        {selectedPartRecord ? (
+          <p className="margin-top-2 margin-bottom-0">
+            <strong>Authority:</strong> {selectedPartRecord.authority}
+          </p>
+        ) : null}
+
+        <label className="usa-label" htmlFor="draft-policy-objective">
+          Policy objective (optional)
+        </label>
+        <textarea
+          className="usa-textarea"
+          id="draft-policy-objective"
+          name="draft-policy-objective"
+          maxLength={500}
+          value={policyGoal}
+          aria-describedby="draft-policy-objective-count"
+          onChange={(event) => {
+            setPolicyGoal(event.currentTarget.value);
+            resetLiveResult();
+          }}
+        />
+        <p
+          className="text-base-dark margin-top-05"
+          id="draft-policy-objective-count"
+        >
+          {policyGoal.length} / 500 characters
+        </p>
+
+        <Button
+          type="submit"
+          disabled={
+            selectedPart === null ||
+            selectedDocType === null ||
+            liveResult.status === "loading"
+          }
+        >
+          Generate opening narrative (live)
+        </Button>
+      </form>
+
+      <div className="margin-top-3" aria-live="polite">
+        {liveResult.status === "loading" ? (
+          <p>Generating the opening narrative…</p>
+        ) : null}
+
+        {liveResult.status === "fallback" ? (
+          <div className="border border-base-lighter bg-base-lightest padding-2 radius-sm">
+            <p className="margin-top-0">{liveResult.message}</p>
+            <p className="margin-bottom-0">
+              <a
+                href={`#draft-${liveResult.part}-${liveResult.docType}`}
+              >
+                Go to the committed draft entry.
+              </a>
+            </p>
+          </div>
+        ) : null}
+
+        {liveResult.status === "ready" ? (
+          <>
+            <p>
+              Live model output ({liveResult.model}) — checked by the
+              in-browser subset of the conformance gate. Not an agency
+              document. Not legal advice.
+            </p>
+            <ul
+              className="add-list-reset display-flex flex-wrap gap-1"
+              aria-label="Live conformance subset checks"
+            >
+              {LIVE_CHECKS.map(([label, property]) => (
+                <li key={property}>
+                  <span className="usa-tag bg-base-lighter text-ink text-normal">
+                    {label}: {passFail(liveResult.checklist[property])}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {failedChecks.length > 0 ? (
+              <div className="border-left-1 border-error padding-left-2 margin-top-2">
+                <p>
+                  <strong>Checks requiring review:</strong>{" "}
+                  {failedChecks.join(", ")}.
+                </p>
+              </div>
+            ) : null}
+          </>
+        ) : null}
+      </div>
+
+      {liveResult.status === "ready" ? (
+        <pre
+          className="source-document"
+          tabIndex={0}
+          role="region"
+          aria-label={`Live draft text generated by ${liveResult.model}`}
+        >
+          {liveResult.assembled}
+        </pre>
+      ) : null}
+    </section>
+  );
 }
 
 function Checklist({
@@ -171,6 +567,14 @@ function GenerationProvenance({
   const key = draftKey(checklist);
   const buttonId = `draft-${key}-provenance-button`;
   const panelId = `draft-${key}-provenance-panel`;
+  const decodingKnobs = [
+    ["temperature", checklist.dossier.temperature],
+    ["seed", checklist.dossier.seed],
+    ["context", checklist.dossier.num_ctx],
+    ["prediction tokens", checklist.dossier.num_predict],
+    ["max tokens", checklist.dossier.max_tokens],
+    ["reasoning effort", checklist.dossier.reasoning_effort],
+  ].filter(([, value]) => value !== null && value !== undefined);
 
   return (
     <div>
@@ -187,42 +591,55 @@ function GenerationProvenance({
       </Button>
 
       <div id={panelId} aria-labelledby={buttonId} hidden={!isExpanded}>
-        <p>
-          <strong>Model:</strong> {checklist.dossier.model}
-        </p>
-        <p>
-          <strong>Decoding:</strong> temperature{" "}
-          {checklist.dossier.temperature}, seed {checklist.dossier.seed}, context{" "}
-          {checklist.dossier.num_ctx}, max tokens{" "}
-          {checklist.dossier.num_predict}
-        </p>
-        <p>
-          <strong>System prompt SHA-256:</strong>{" "}
-          <code className="provenance-digest">
-            {checklist.dossier.system_prompt_sha256}
-          </code>
-        </p>
-        <p>
-          <strong>User prompt SHA-256:</strong>{" "}
-          <code className="provenance-digest">
-            {checklist.dossier.prompt_sha256}
-          </code>
-        </p>
-        <p>
-          <strong>Source part snapshot SHA-256 (context of record; not sent to the model):</strong>{" "}
-          <code className="provenance-digest">
-            {checklist.dossier.input_sha256}
-          </code>
-        </p>
-        <p>
-          <strong>Model-generated fields:</strong>{" "}
-          {checklist.dossier.narrative_fields.join(", ")}
-        </p>
-        <p>
-          {
-            "Model, decoding parameters, and SHA-256 digests of the prompts sent to the model and of the source part snapshot of record. Everything else in the skeleton is deterministic template output."
-          }
-        </p>
+        <dl>
+          <div>
+            <dt>Model</dt>
+            <dd>{checklist.dossier.model}</dd>
+          </div>
+          <div>
+            <dt>Provider</dt>
+            <dd>{checklist.dossier.provider ?? "local"}</dd>
+          </div>
+          <div>
+            <dt>Decoding</dt>
+            <dd>
+              {decodingKnobs
+                .map(([label, value]) => `${label} ${String(value)}`)
+                .join(", ")}
+            </dd>
+          </div>
+          <div>
+            <dt>System prompt SHA-256</dt>
+            <dd>
+              <code className="provenance-digest">
+                {checklist.dossier.system_prompt_sha256}
+              </code>
+            </dd>
+          </div>
+          <div>
+            <dt>User prompt SHA-256</dt>
+            <dd>
+              <code className="provenance-digest">
+                {checklist.dossier.prompt_sha256}
+              </code>
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Source part snapshot SHA-256 (context of record; not sent to the
+              model)
+            </dt>
+            <dd>
+              <code className="provenance-digest">
+                {checklist.dossier.input_sha256}
+              </code>
+            </dd>
+          </div>
+          <div>
+            <dt>Model-generated fields</dt>
+            <dd>{checklist.dossier.narrative_fields.join(", ")}</dd>
+          </div>
+        </dl>
       </div>
     </div>
   );
@@ -239,15 +656,15 @@ export function DraftsSection({
     requestErrorPrefix: "Request failed with status ",
     fallbackErrorMessage: "The draft conformance data could not be loaded.",
   });
+  const {
+    stateFor: stateForDraft,
+    load: requestDraftText,
+  } = useLazyTextMap<string>({
+    requestErrorPrefix: "Request failed with status ",
+    fallbackErrorMessage: "The draft text could not be loaded.",
+  });
   const [expandedDrafts, setExpandedDrafts] = useState<Set<string>>(
     () => new Set(),
-  );
-  const [draftTextStates, setDraftTextStates] = useState<
-    Record<string, DraftTextState>
-  >({});
-  const draftRequestsRef = useRef<Set<string>>(new Set());
-  const draftControllersRef = useRef<Map<string, AbortController>>(
-    new Map(),
   );
 
   useEffect(() => {
@@ -256,66 +673,68 @@ export function DraftsSection({
     }
   }, [active, loadConformance]);
 
+  const showCommittedDraft = useCallback(
+    (part: number, docType: DraftDocType) => {
+      const key = `${part}-${docType}`;
+
+      setExpandedDrafts((current) => {
+        if (current.has(key)) {
+          return current;
+        }
+
+        const next = new Set(current);
+        next.add(key);
+        return next;
+      });
+      void requestDraftText(key, draftTextPath(part, docType));
+
+      const hash = `#draft-${key}`;
+      window.history.replaceState(null, "", hash);
+      window.requestAnimationFrame(() => {
+        const heading = document.getElementById(`draft-${key}-heading`);
+        heading?.scrollIntoView({ behavior: "auto", block: "start" });
+        heading?.focus({ preventScroll: true });
+      });
+    },
+    [requestDraftText],
+  );
+
   useEffect(() => {
-    return () => {
-      draftControllersRef.current.forEach((controller) => controller.abort());
-    };
-  }, []);
-
-  async function loadDraft(checklist: DraftChecklist, key: string) {
-    const draftTextState = draftTextStates[key];
-
-    if (
-      (draftTextState !== undefined && draftTextState.status !== "error") ||
-      draftRequestsRef.current.has(key)
-    ) {
+    if (conformanceState.status !== "ready") {
       return;
     }
 
-    const controller = new AbortController();
-    draftRequestsRef.current.add(key);
-    draftControllersRef.current.set(key, controller);
-    setDraftTextStates((current) => ({
-      ...current,
-      [key]: { status: "loading" },
-    }));
+    const checklists = conformanceState.data.checklists;
 
-    try {
-      const response = await fetch(
-        `/data/drafts/31-CFR-${encodeURIComponent(String(checklist.part))}-${encodeURIComponent(checklist.doc_type)}.txt`,
-        { signal: controller.signal },
+    function showDraftFromHash(): void {
+      const match = /^#draft-(\d+)-(nprm|final)$/.exec(
+        window.location.hash,
       );
 
-      if (!response.ok) {
-        throw new Error(`Request failed with status ${response.status}.`);
+      if (!match) {
+        return;
       }
 
-      const text = await response.text();
+      const part = Number(match[1]);
+      const docType = match[2] as DraftDocType;
 
-      if (!controller.signal.aborted) {
-        setDraftTextStates((current) => ({
-          ...current,
-          [key]: { status: "ready", text },
-        }));
+      if (
+        checklists.some(
+          (checklist) =>
+            checklist.part === part && checklist.doc_type === docType,
+        )
+      ) {
+        showCommittedDraft(part, docType);
       }
-    } catch (error: unknown) {
-      if (!controller.signal.aborted) {
-        setDraftTextStates((current) => ({
-          ...current,
-          [key]: {
-            status: "error",
-            message:
-              error instanceof Error
-                ? error.message
-                : "The draft text could not be loaded.",
-          },
-        }));
-      }
-    } finally {
-      draftRequestsRef.current.delete(key);
-      draftControllersRef.current.delete(key);
     }
-  }
+
+    showDraftFromHash();
+    window.addEventListener("hashchange", showDraftFromHash);
+
+    return () => {
+      window.removeEventListener("hashchange", showDraftFromHash);
+    };
+  }, [conformanceState, showCommittedDraft]);
 
   function handleDraftToggle(checklist: DraftChecklist) {
     const key = draftKey(checklist);
@@ -334,7 +753,10 @@ export function DraftsSection({
     });
 
     if (willExpand) {
-      void loadDraft(checklist, key);
+      void requestDraftText(
+        key,
+        draftTextPath(checklist.part, checklist.doc_type),
+      );
     }
   }
 
@@ -357,6 +779,12 @@ export function DraftsSection({
       {!standalone ? <h3 id="drafts-heading">Draft rule skeletons</h3> : null}
 
       <div id="drafts-section-panel">
+        <DraftParametersPanel
+          active={active}
+          standalone={standalone}
+          onShowCommittedDraft={showCommittedDraft}
+        />
+
         {conformanceState.status === "loading" ? (
           <p role="status">Loading draft conformance data…</p>
         ) : null}
@@ -406,7 +834,7 @@ export function DraftsSection({
                 const headingId = `draft-${key}-heading`;
                 const panelId = `draft-${key}-panel`;
                 const draftIsExpanded = expandedDrafts.has(key);
-                const draftTextState = draftTextStates[key];
+                const draftTextState = stateForDraft(key);
 
                 return (
                   <ExpandableGroup
@@ -415,7 +843,7 @@ export function DraftsSection({
                     expanded={draftIsExpanded}
                     onToggle={() => handleDraftToggle(checklist)}
                     as="article"
-                    containerId={null}
+                    containerId={`draft-${key}`}
                     className="document-group"
                     ariaLabelledby={headingId}
                     panelId={panelId}
@@ -427,7 +855,7 @@ export function DraftsSection({
                       panelId: togglePanelId,
                     }) => (
                       <>
-                        <InternalHeading id={headingId}>
+                        <InternalHeading id={headingId} tabIndex={-1}>
                           {label}
                         </InternalHeading>
 

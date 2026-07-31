@@ -1,7 +1,5 @@
 import { Alert } from "@trussworks/react-uswds";
 
-import { DISCLAIMER_TEXT } from "./reglens-types";
-
 export function DisclaimerBand() {
   return (
     <aside className="disclaimer-band" aria-label="Important disclaimer">
@@ -12,7 +10,9 @@ export function DisclaimerBand() {
           slim
           className="disclaimer-alert"
         >
-          {DISCLAIMER_TEXT}
+          Independent research prototype. Not a U.S. government website; not
+          legal advice. The complete disclaimer appears in the footer of every
+          page.
         </Alert>
       </div>
     </aside>

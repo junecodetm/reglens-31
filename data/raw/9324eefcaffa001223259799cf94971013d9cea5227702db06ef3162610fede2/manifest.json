@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2003/04/18/03-9611.txt",
+  "fetched_at": "2026-07-30T14:09:15.649850+00:00",
+  "sha256": "9324eefcaffa001223259799cf94971013d9cea5227702db06ef3162610fede2",
+  "content_type": "text/plain",
+  "filename": "03-9611.txt"
+}

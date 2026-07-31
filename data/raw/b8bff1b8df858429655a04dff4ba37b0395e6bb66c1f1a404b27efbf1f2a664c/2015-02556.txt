@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 25 (Friday, February 6, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 25 (Friday, February 6, 2015)]
+[Rules and Regulations]
+[Pages 6656-6657]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-02556]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+
+Interim Guidance Concerning the Terrorism Risk Insurance Program 
+Reauthorization Act of 2015
+
+AGENCY: Department of the Treasury, Departmental Offices.
+
+ACTION: Notice of interim guidance.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice provides interim guidance concerning the Terrorism 
+Risk Insurance Program (Program) under the Terrorism Risk Insurance Act 
+of 2002, as amended (TRIA). In this notice, the Department of the 
+Treasury (Treasury) addresses issues that have arisen under Treasury's 
+regulations for the Program (Program regulations) due to the enactment 
+of the Terrorism Risk Insurance Program Reauthorization Act of 2015 
+(2015 Reauthorization Act).
+
+DATES: February 4, 2015.
+
+FOR FURTHER INFORMATION CONTACT: Kevin K. Meehan, Policy Advisor, 
+Federal Insurance Office, 202-622-7009; Thomas E. Scanlon, Senior 
+Counsel, Office of General Counsel (Banking and Finance), 202-622-8170.
+
+SUPPLEMENTARY INFORMATION: This notice provides interim guidance 
+addressing the application of certain provisions of TRIA \1\ and the 
+Program regulations \2\ following enactment of the 2015 Reauthorization 
+Act.\3\
+---------------------------------------------------------------------------
+
+    \1\ 15 U.S.C. 6701, note.
+    \2\ 31 CFR part 50.
+    \3\ Public Law 114-1, 129 Stat. 3.
+---------------------------------------------------------------------------
+
+    Treasury expects to issue a proposal to amend the Program 
+regulations; this interim guidance may be relied upon by members of the 
+public until superseded by the Program regulations, as amended, or by 
+subsequent guidance.\4\
+---------------------------------------------------------------------------
+
+    \4\ 31 CFR 50.7.
+---------------------------------------------------------------------------
+
+I. Background
+
+    TRIA was enacted following the attacks on September 11, 2001, to 
+address disruptions in the market for terrorism risk insurance, to help 
+ensure the continued widespread availability and affordability of 
+commercial property and casualty insurance for terrorism risk, and to 
+allow for the private markets to stabilize and build insurance capacity 
+to absorb any future losses for terrorism events. Title I of TRIA 
+creates the Program, requires insurers to ``make available'' terrorism 
+risk insurance for commercial property and casualty losses resulting 
+from certified acts of terrorism (insured losses), and provides for 
+shared public and private compensation for such insured losses. 
+Pursuant to TRIA, the Secretary of the Treasury administers the 
+Program. The Federal Insurance Office assists the Secretary of the 
+Treasury in administering the Program.
+    The Program was originally scheduled to terminate on December 31, 
+2005; however, the Terrorism Risk Insurance Extension Act of 2005 \5\ 
+extended the Program through December 31, 2007, and the Terrorism Risk 
+Insurance Program Reauthorization Act of 2007 \6\ further extended the 
+Program through December 31, 2014. On January 12, 2015, the President 
+signed into law the 2015 Reauthorization Act; Section 101 of that Act 
+amends the Program's termination date to December 31, 2020.
+---------------------------------------------------------------------------
+
+    \5\ Public Law 109-144, 119 Stat. 2660.
+    \6\ Public Law 110-160, 121 Stat. 1839.
+---------------------------------------------------------------------------
+
+II. Interim Guidance
+
+    Treasury considers the Program regulations to be in effect, except 
+to the extent that any provision of the Program regulations is 
+inconsistent with TRIA, as amended by the 2015 Reauthorization Act. In 
+the case of an inconsistency, the provision(s) of TRIA, as amended by 
+the 2015 Reauthorization Act, shall apply. Furthermore, Treasury 
+recognizes that the 2015 Reauthorization Act introduces ambiguities 
+regarding application of certain sections of the Program regulations. 
+This interim guidance is designed to address certain requirements under 
+the Program
+
+[[Page 6657]]
+
+regulations and TRIA, as amended by the 2015 Reauthorization Act.
+
+Interim Guidance One (Documentation)
+
+    Due to requirements under state law regulating rates and forms, an 
+insurer may need additional time to provide disclosures and offers of 
+coverage for insured losses in compliance with the Program regulations 
+and TRIA, as amended by the 2015 Reauthorization Act. An insurer should 
+provide disclosures and offers that comply with the Program regulations 
+and TRIA, as amended by the 2015 Reauthorization Act, as soon as 
+possible and not later than April 13, 2015.
+
+Interim Guidance Two (Form of Disclosure)
+
+    Section 50.17(c) of the Program regulations provides that an 
+insurer may use NAIC Model Disclosure Form No. 1 or NAIC Model 
+Disclosure Form No. 2, or other disclosures that meet the requirements 
+of the Program regulations. NAIC Model Disclosure Form No. 1 and NAIC 
+Model Disclosure Form No. 2, as amended in 2015, are consistent with 
+the disclosure requirements of the Program regulations and TRIA, as 
+amended by the 2015 Reauthorization Act.
+
+Interim Guidance Three (Timing of Disclosure)
+
+    As amended by the 2015 Reauthorization Act, TRIA no longer requires 
+an insurer to provide to a policyholder certain disclosures at the time 
+of a policy's ``purchase,'' but still requires the insurer to provide 
+such disclosures at the time of ``offer'' and ``renewal.'' The timing 
+of an insurer's disclosures may conform with either subpart B of the 
+Program regulations or Section 103(b)(2) of TRIA, as amended by the 
+2015 Reauthorization Act.
+
+Interim Guidance Four (Content of Disclosure)
+
+    An insurer that offered coverage for insured losses prior to 
+January 12, 2015, using the then-current NAIC Model Disclosure Form No. 
+1, NAIC Model Disclosure Form No. 2, or other disclosures consistent 
+with the Program regulations, is not required to provide a revised 
+disclosure to the policyholder. Subject to Interim Guidance One, 
+disclosures on or after January 12, 2015 provided in connection with a 
+new or mid-term offer of coverage for insured losses should be based on 
+the requirements of the Program regulations and TRIA, as amended by the 
+2015 Reauthorization Act.
+
+Interim Guidance Five (New Offers of Coverage)
+
+    (a) Except as described herein, Treasury expects that an insurer 
+will make a new offer of coverage for insured losses with respect to 
+any in-force policy that does not provide coverage for insured losses.
+    (b) An insurer is not expected to make a new offer of coverage for 
+insured losses if--
+    (i) the policy incorporates a conditional exclusion or change of 
+terms and conditions relating to coverage for insured losses and, 
+because the Program is in effect, the insurer forbears effective 
+January 1, 2015 (or as of the effective date of the policy, if later) 
+on the exercise of the conditional exclusion or change in terms and 
+conditions. Not later than April 13, 2015, an insurer should provide to 
+the policyholder written notice of the insurer's forbearance or written 
+notice of the insurer's withdrawal of any previous exercise of the 
+conditional exclusion or change in terms and conditions. In the written 
+notice, the insurer should state that the insurer's forbearance or 
+withdrawal, as applicable, is effective January 1, 2015 (or as of the 
+effective date of the policy, if later); or
+    (ii) the policyholder declined coverage for insured losses, so long 
+as the insurer's offer did not materially differ in price from that 
+which the insurer would have offered following enactment of the 2015 
+Reauthorization Act.
+    (c) If a policyholder declined coverage for insured losses but the 
+insurer's offer did materially differ in price from that which the 
+insurer would have offered following enactment of the 2015 
+Reauthorization Act, then the insurer should consider making a new 
+offer to that policyholder.
+
+Paperwork Reduction Act
+
+    In accordance with the Paperwork Reduction Act,\7\ the information 
+collections contained in this document have been approved by the Office 
+of Management and Budget (OMB) under control number 1505/0197. Any 
+agency may not conduct or sponsor and a person is not required to 
+respond to a collection of information unless it displays a valid OMB 
+control number.
+---------------------------------------------------------------------------
+
+    \7\ 44 U.S.C. 3501 et seq.
+
+    Dated: February 4, 2015.
+Michael T. McRaith,
+Director, Federal Insurance Office.
+[FR Doc. 2015-02556 Filed 2-4-15; 4:15 pm]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

@@ -57,6 +57,24 @@ class RunMeta(BaseModel):
     prompt_sha256: str
     input_sha256: str
     temperature: float = 0.0
+    runtime: str = "unknown"
+    """Inference runtime and version, e.g. ``ollama/0.30.7``.
+
+    The runtime is a real input to the output: an upgrade silently changed
+    structured-output behaviour once already, and a determinism record that
+    names only the model cannot distinguish that from a model change.
+    """
+    chunk_plan_sha256: str = "unknown"
+    """Identity of the chunk sequence the model was shown (``chunk.chunk_plan_sha256``).
+
+    The model reads one chunk at a time, so where the boundaries fall is a real
+    input to the output. Without this field a change to the chunker leaves the
+    reuse key unchanged and stale results are silently kept — which is exactly
+    what happened when paragraph-only splitting was replaced. ``"unknown"``
+    marks a record produced before the field existed; it is never backfilled,
+    and it can never match a computed plan, so such a document is re-extracted
+    rather than trusted (fail-closed).
+    """
 
 
 def prompt_sha256(system_prompt: str, user_template: str) -> str:

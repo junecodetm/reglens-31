@@ -1,0 +1,115 @@
+{
+  "abstract": "The Treasury Department's Office of Foreign Assets Control (\"OFAC\") is issuing a final rule to amend the Reporting, Procedures and Penalties Regulations, Iraqi Sanctions Regulations, Foreign Terrorist Organizations Sanctions Regulations, and Foreign Narcotics Kingpin Sanctions Regulations (collectively, the \"Regulations\") to implement the requirement of the Federal Civil Penalties Inflation Adjustment Act of 1990 to adjust for inflation the maximum amounts of the civil monetary penalties that may be assessed under the Regulations.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2003/10/28/03-27074.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 575,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 597,
+      "title": 31
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 598,
+      "title": 31
+    }
+  ],
+  "citation": "68 FR 61359",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "October 23, 2003.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "03-27074",
+  "effective_on": null,
+  "end_page": 61362,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2003/10/28/03-27074.xml",
+  "html_url": "https://www.federalregister.gov/documents/2003/10/28/03-27074/reporting-procedures-and-penalties-regulations-iraqi-sanctions-regulations-foreign-terrorist",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/03-27074?publication_date=2003-10-28",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2003-10-28/03-27074/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 4,
+  "page_views": {
+    "count": 198,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2003-10-28/pdf/03-27074.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2003-10-28",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2003/10/28/03-27074.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 61359,
+  "subtype": null,
+  "title": "Reporting, Procedures and Penalties Regulations; Iraqi Sanctions Regulations; Foreign Terrorist Organizations Sanctions Regulations; Foreign Narcotics Kingpin Sanctions Regulations",
+  "toc_doc": "Reporting, procedures, and penalties regulations; Iraqi sanctions and foreign terrorist organizations sanctions regulations, etc.; civil monetary penalties",
+  "toc_subject": "Federal Civil Penalties Inflation Adjustment Act; implementation:",
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Blocking of assets",
+    "Exports",
+    "Foreign trade",
+    "Humanitarian aid",
+    "Imports",
+    "Iran",
+    "Iraq",
+    "Oil imports",
+    "Penalties",
+    "Petroleum",
+    "Reporting and recordkeeping requirements",
+    "Specially Designated Nationals",
+    "Terrorism",
+    "Travel restrictions"
+  ],
+  "type": "Rule",
+  "volume": 68
+}

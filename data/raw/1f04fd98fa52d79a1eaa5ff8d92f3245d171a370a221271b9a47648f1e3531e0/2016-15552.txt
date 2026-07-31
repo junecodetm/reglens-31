@@ -1,0 +1,1215 @@
+<html>
+<head>
+<title>Federal Register, Volume 81 Issue 127 (Friday, July 1, 2016)</title>
+</head>
+<body><pre>
+[Federal Register Volume 81, Number 127 (Friday, July 1, 2016)]
+[Rules and Regulations]
+[Pages 43070-43077]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2016-15552]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501, 535, 536, 537, 538, 539, 541, 542, 543, 544, 546, 
+547, 548, 549, 560, 561, 566, 576, 588, 592, 593, 594, 595, 597, 
+and 598.
+
+
+Implementation of the Federal Civil Penalties Inflation 
+Adjustment Act
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Interim final rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this interim final rule to amend its 
+regulations for the relevant sanctions programs it administers to 
+implement the Federal Civil Penalties Inflation Adjustment Act of 1990, 
+as amended by the Debt Collection Improvement Act of 1996 and the 
+Federal Civil Penalties Inflation Adjustment Act Improvements Act of 
+2015. In particular, this rule adjusts for inflation the maximum amount 
+of the civil monetary penalties that may be assessed under relevant 
+OFAC regulations, including by making conforming changes to OFAC's 
+``Economic Sanctions Enforcement Guidelines.''
+
+DATES: This rule is effective August 1, 2016. Comments must be received 
+on or before August 1, 2016.
+
+ADDRESSES: You may submit comments by any of the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">www.regulations.gov</a>. Follow the 
+instructions on the Web site for submitting comments.
+    Fax: Attn: Request for Comments (Amendments to OFAC Regulations to 
+Implement the Federal Civil Penalties Inflation Adjustment Act) 202-
+622-1657.
+    Mail: Attn: Request for Comments (Amendments to OFAC Regulations to 
+Implement the Federal Civil Penalties Inflation Adjustment Act), Office 
+of Foreign Assets Control, Department of the Treasury, 1500 
+Pennsylvania Avenue NW, Freedman's Bank Building, Washington, DC 20220.
+
+[[Page 43071]]
+
+    Instructions: All submissions received must include the agency name 
+and the Federal Register Doc. number that appears at the end of this 
+document. All comments, including attachments and other supporting 
+materials, will become part of the public record and subject to public 
+disclosure. Sensitive personal information, such as account numbers or 
+Social Security numbers, should not be included. Comments generally 
+will not be edited to remove any identifying or contact information.
+
+FOR FURTHER INFORMATION CONTACT: The Department of the Treasury's 
+Office of Foreign Assets Control: Assistant Director for Enforcement, 
+tel.: 202-622-2430; Assistant Director for Licensing, tel.: 202-622-
+2480, Assistant Director for Regulatory Affairs, tel.: 202-622-4855, 
+Assistant Director for Sanctions Compliance & Evaluation, tel.: 202-
+622-2490; or the Department of the Treasury's Office of the Chief 
+Counsel (Foreign Assets Control), Office of the General Counsel, tel.: 
+202-622-2410.
+
+SUPPLEMENTARY INFORMATION: 
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available from OFAC's Web site (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+
+Background
+
+    Section 4 of the Federal Civil Penalties Inflation Adjustment Act 
+(1990 Pub. L. 101-410, 104 Stat. 890; 28 U.S.C. 2461 note), as amended 
+by the Debt Collection Improvement Act of 1996 (Pub. L. 104-134, 110 
+Stat. 1321-373) and the Federal Civil Penalties Inflation Adjustment 
+Act Improvements Act of 2015 (Pub. L. 114-74, 129 Stat. 599, 28 U.S.C. 
+2461 note) (collectively, the FCPIA Act), requires each federal agency 
+with statutory authority to assess civil monetary penalties (CMPs) to 
+adjust CMPs for inflation according to a formula described in section 5 
+of the FCPIA Act. One purpose of the FCPIA Act is to ensure that CMPs 
+continue to maintain their deterrent effect through periodic cost-of-
+living based adjustments.
+    The FCPIA Act directs agencies to adjust the level of CMPs for 
+inflation annually, with an initial ``catch up'' adjustment effective 
+no later than August 1, 2016. Catch-up adjustments will be based on the 
+percent change between the Consumer Price Index for all Urban Consumers 
+(CPI-U) for the month of October in the year of the last non-FCPIA-Act-
+based adjustment and the October 2015 CPI-U. In accordance with the 
+FCPIA Act, however, the amount of the CMP catch-up adjustment shall not 
+exceed 150 percent of the corresponding level in effect on November 2, 
+2015 (the ``maximum adjustment''). Annual inflation adjustments will be 
+based on the percent change between the October CPI-U preceding the 
+date of the adjustment and the prior year's October CPI-U. The FCPIA 
+Act requires agencies to round all CMP levels to the nearest dollar 
+after applying the multiplier.
+    In order to complete the catch-up adjustment, the FCPIA Act directs 
+agencies to use as a starting point for each CMP the year and 
+corresponding amount(s) for which the maximum CMP level or range of 
+minimum and maximum CMPs was established or last adjusted, whichever is 
+later, other than pursuant to the FCPIA Act. The catch-up calculations 
+therefore exclude prior inflationary adjustments under the FCPIA Act.
+    On February 24, 2016, the Office of Management and Budget issued 
+written guidance providing agencies with CPI-U related multipliers to 
+use when adjusting the CMP level or range of CMP levels based on the 
+year the CMP was established or last adjusted by statute or regulation. 
+(Memorandum for the Heads of Executive Departments and Agencies: 
+Implementation of the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act of 2015 (OMB Guidance)).
+    The adjusted civil penalty amounts described in this rule are 
+applicable only to civil penalties assessed after August 1, 2016, whose 
+associated violations occurred after November 2, 2015, the date of 
+enactment of the Federal Civil Penalties Inflation Adjustment Act 
+Improvements Act. Therefore, violations occurring on or before November 
+2, 2015, and assessments made prior to August 1, 2016 whose associated 
+violations occurred after November 2, 2015, will continue to be subject 
+to the civil monetary penalty amounts set forth in OFAC's existing 
+regulations.
+    OFAC currently is authorized to impose CMPs pursuant to five 
+statutes: the Trading With the Enemy Act (50 U.S.C. 4315) (TWEA); the 
+International Emergency Economic Powers Act (50 U.S.C. 1705) (IEEPA); 
+the Antiterrorism and Effective Death Penalty Act of 1996 (Pub. L. 104-
+132, 110 Stat. 1250; 18 U.S.C. 2339B) (AEDPA); the Foreign Narcotics 
+Kingpin Designation Act (Pub. L. 106-120, 113 Stat. 1632; 21 U.S.C. 
+1901-1908) (FNKDA); and the Clean Diamond Trade Act (Pub. L. 108-19, 
+117 Stat. 631; 19 U.S.C. 3901-3913) (CDTA). The maximum CMPs under the 
+statutes were last adjusted or set by statute as follows: TWEA in 1992; 
+IEEPA in 2007; AEDPA in 1996; FNKDA in 1999, and CDTA in 2003.
+    TWEA. The maximum TWEA-based CMP was established at $50,000 in 1992 
+by the National Defense Authorization Act for Fiscal Year 1993 (Pub. L. 
+102-484, 106 Stat. 2315, 50 U.S.C. 4315). Although there were two 
+subsequent adjustments, bringing the current maximum CMP to $65,000, 
+those adjustments were made pursuant to the FCPIA Act and therefore 
+will not be considered for purposes of determining the new maximum CMP. 
+Pursuant to the OMB Guidance, the relevant inflation factor is 1.67728. 
+Multiplying the CMP amount of $50,000 by the inflation factor of 
+1.67728 and rounding to the nearest dollar results in $83,864. This 
+would be an increase of $33,864. Pursuant to the FCPIA Act, the maximum 
+adjustment amount is 150% of $65,000 (the CMP in effect on November 2, 
+2015), or $97,500. The increase does not exceed the maximum adjustment. 
+Therefore, the maximum TWEA-based CMP effective August 1, 2016 is 
+increased to the inflation-adjusted amount of $83,864 per violation.
+    IEEPA. The maximum IEEPA-based CMP of the greater of $250,000 or 
+twice the amount of the underlying transaction was set in 2007 by the 
+International Emergency Economic Powers Enhancement Act (Pub. L. 110-
+96, 121 Stat. 1011; 50 U.S.C. 1705 note). Pursuant to the OMB Guidance, 
+the relevant inflation factor is 1.13833. Multiplying the current 
+penalty amount of $250,000 by the inflation factor of 1.13833 and 
+rounding to the nearest dollar amount results in a maximum penalty 
+amount of the greater of $284,582 or twice the amount of the underlying 
+transaction per violation. This would be an increase of $34,582. 
+Pursuant to the FCPIA Act, the maximum adjustment is 150% of $250,000 
+(the CMP in effect on November 2, 2015), or $375,000. The increase does 
+not exceed the maximum adjustment. Therefore, the maximum IEEPA CMP 
+effective August 1, 2016 is increased to the inflation-adjusted amount 
+of $284,582 or twice the amount of the underlying transaction per 
+violation. The FCPIA Act applies only to CMPs that are for a specific 
+monetary amount as provided by Federal law. Accordingly, the 
+alternative IEEPA CMP of twice the amount of the underlying transaction 
+remains unchanged.
+    AEDPA. The maximum AEDPA-based CMP of the greater of $50,000 or 
+twice the amount of which a financial institution was required to 
+retain possession or control was set by statute in 1996 (Pub. L. 104-
+132, 110 Stat.
+
+[[Page 43072]]
+
+1250; 18 U.S.C. 2339B). Although there was one subsequent adjustment, 
+bringing the current maximum CMP to $55,000, that adjustment was made 
+pursuant to the FCPIA Act and therefore will not be considered in the 
+new maximum CMP calculation. Pursuant to the OMB Guidance, the relevant 
+inflation factor is 1.50245. Multiplying the CMP amount of $50,000 by 
+the inflation factor of 1.50245 and rounding to the nearest dollar 
+results in $75,122. This would be an increase of $20,122. Pursuant to 
+the FCPIA Act, the maximum adjustment is 150% of $55,000 (the CMP in 
+effect on November 2, 2015), or $82,500. The increase does not exceed 
+the maximum adjustment. Therefore, the maximum AEDPA-based CMP per 
+violation effective August 1, 2016 is increased to the inflation-
+adjusted amount of the greater of $75,122 or twice the amount of which 
+a financial institution was required to retain possession or control. 
+The FCPIA Act applies only to CMPs that are for a specific monetary 
+amount as provided by Federal law. Accordingly, the alternative AEDPA 
+CMP of twice the amount of which a financial institution was required 
+to retain possession or control remains unchanged.
+    FNKDA. The maximum FNKDA-based CMP of $1,000,000 was set in 1999 by 
+the Intelligence Authorization Act for Fiscal Year 2000 (Pub. L. 106-
+120, 113 Stat. 1632; 21 U.S.C. 1901-1908). Although there was one 
+subsequent adjustment, bringing the current maximum CMP to $1,075,000, 
+that adjustment was made pursuant to the FCPIA Act and therefore will 
+not be considered in the new maximum CMP calculation. Pursuant to OMB 
+Guidance, the relevant inflation factor is 1.41402. Multiplying the CMP 
+of $1,000,000 by the inflation factor of 1.41402 and rounding to the 
+nearest dollar results in $1,414,020. This would be an increase of 
+$414,020. Pursuant to the FCPIA Act, the maximum adjustment is 150% of 
+$1,075,000 (the CMP in effect on November 2, 2015), or $1,612,500. The 
+increase does not exceed the maximum adjustment. Therefore, as of 
+August 1, 2016, the maximum FNKDA-based CMP is increased to the 
+inflation-adjusted amount of $1,414,020 per violation.
+    CDTA. The maximum CDTA-based CMP of $10,000 was set by statute in 
+2003. (Pub. L. 108-19, 117 Stat. 631; 19 U.S.C. 3901-3913). Pursuant to 
+the OMB Guidance, the relevant inflation factor is 1.28561. Multiplying 
+the current penalty of $10,000 by the inflation factor of 1.28561 and 
+rounding to the nearest dollar results in $12,856. This would be an 
+increase of $2,856. Pursuant to the FCPIA Act, the maximum adjustment 
+is 150% of $10,000 (the CMP in effect on November 2, 2015), or $15,000. 
+The increase does not exceed the maximum adjustment. Therefore, the 
+maximum CDTA-based CMP effective August 1, 2016 is increased to the 
+inflation-adjusted amount of $12,856 per violation.
+    The table below summarizes the changes to the penalty amounts:
+
+------------------------------------------------------------------------
+                                                       Penalty amount
+           Statute              Existing penalty     effective August 1,
+                                     amount                 2016
+------------------------------------------------------------------------
+TWEA........................  $65,000.............  $83,864.
+IEEPA.......................  The greater of        The greater of
+                               $250,000 or twice     $284,582 or twice
+                               the amount of the     the amount of the
+                               underlying            underlying
+                               transaction.          transaction.
+AEDPA.......................  The greater of        The greater of
+                               $55,000 or twice      $75,122 or twice
+                               the amount of which   the amount of which
+                               a financial           a financial
+                               institution was       institution was
+                               required to retain    required to retain
+                               possession or         possession or
+                               control.              control.
+FNKDA.......................  $1,075,000..........  $1,414,020.
+CDTA........................  $10,000.............  $12,856.
+------------------------------------------------------------------------
+
+    The regulations for many of the sanctions programs administered by 
+OFAC, as well as the Reporting, Procedures and Penalties Regulations 
+and the Economic Sanctions Enforcement Guidelines appended thereto, 
+contain references to the current penalty amounts. This interim final 
+rule revises the relevant parts of 31 CFR chapter V to update these 
+amounts. The authority sections of the relevant parts are not being 
+amended at this time.
+    This interim final rule also makes certain technical and conforming 
+changes to the Enforcement Guidelines. For example, OFAC is removing 
+one of the examples of a blocked transaction appearing at 31 CFR 
+501.604(b) because it refers to conduct that is no longer prohibited 
+following the issuance of Executive Order 13350 of July 29, 2004.
+
+Effective Date
+
+    The FCPIA Act requires agencies to make adjustments for inflation 
+to CMPs and to provide new CMPs through an interim final rulemaking to 
+be published by July 1, 2016. The FCPIA Act further provides that the 
+adjustments for inflation shall take effect no later than August 1, 
+2016.
+
+Procedural Requirements
+
+Notice and Comment
+
+    As required by the FCPIA Act, these amendments are being published 
+as an interim final rule with an effective date of August 1, 2016. 
+Although other notice and comment procedures are not required, OFAC 
+invites comments on this notice.
+
+Regulatory Flexibility Act
+
+    Because no notice of proposed rulemaking is required for this rule, 
+the Regulatory Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The Paperwork Reduction Act does not apply because this rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq.
+
+List of Subjects for 31 CFR Parts 501, 535, 536, 537, 538, 539, 
+541, 542, 543, 544, 546, 547, 548, 549, 560, 561, 566, 576, 588, 
+592, 593, 594, 595, 597, and 598
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Exports, Foreign trade, Licensing, Penalties, Sanctions.
+    For the reasons set forth in the preamble, 31 CFR chapter V is 
+amended as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 22 U.S.C. 2370(a), 
+6009, 6032, 7205; 28 U.S.C. 2461 note; 31 U.S.C. 321(b); 50 U.S.C. 
+1701-1706; 50 U.S.C. App. 1-44.
+
+[[Page 43073]]
+
+Subpart C--Reports
+
+
+Sec.  501.604  [Amended]
+
+0
+2. Amend Sec.  501.604 by removing paragraph (b)(2) and redesignating 
+paragraphs (b)(3) through (5) as paragraphs (b)(2) through (4), 
+respectively.
+
+Subpart D--Trading With the Enemy Act (TWEA) Penalties
+
+0
+3. Amend Sec.  501.701 by adding a note to paragraph (a)(1) and 
+revising paragraph (a)(3) to read as follows:
+
+
+Sec.  501.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note 1 to paragraph (a)(1): As of August 1, 2016, TWEA provides 
+for a maximum civil penalty not to exceed $83,864.
+
+* * * * *
+    (3) The Secretary of the Treasury may impose a civil penalty of not 
+more than $83,864 per violation on any person who violates any license, 
+order, or regulation issued under TWEA.
+
+    Note to paragraph (a)(3): The current civil penalty cap may be 
+adjusted for inflation pursuant to the Federal Civil Penalties 
+Inflation Adjustment Act of 1990 (Pub. L. 101-410, as amended, 28 
+U.S.C. 2461 note).
+
+* * * * *
+
+0
+4. Amend appendix A to part 501 by revising section V.B.2.a to read as 
+follows:
+
+Appendix A to Part 501--Economic Sanctions Enforcement Guidelines
+
+* * * * *
+
+V. Civil Penalties
+
+* * * * *
+    B. * * *
+    2. * * *
+    a. Base Category Calculation
+    i. In a non-egregious case, if the apparent violation is disclosed 
+through a voluntary self-disclosure by the Subject Person, the base 
+amount of the proposed civil penalty in the Pre-Penalty Notice shall be 
+one-half of the transaction value, capped at a maximum base amount of 
+$142,291 per violation, except where the statutory maximum penalty 
+applicable to the apparent violation is less than $284,582, in which 
+case the base amount of the proposed civil penalty in the Pre-Penalty 
+Notice shall be capped at one-half the statutory maximum penalty 
+applicable to the apparent violation.
+    ii. In a non-egregious case, if the apparent violation comes to 
+OFAC's attention by means other than a voluntary self-disclosure, the 
+base amount of the proposed civil penalty in the Pre-Penalty Notice 
+shall be the ``applicable schedule amount,'' as defined above. For 
+apparent violations where the statutory maximum penalty applicable to 
+the apparent violation is $284,582 or greater, the maximum base amount 
+shall be capped at $284,582. For apparent violations where the 
+statutory maximum penalty applicable to the apparent violation is less 
+than $284,582, the maximum base amount shall be capped at the statutory 
+maximum penalty amount applicable to the apparent violation.
+    iii. In an egregious case, if the apparent violation is disclosed 
+through a voluntary self-disclosure by a Subject Person, the base 
+amount of the proposed civil penalty in the Pre-Penalty Notice shall be 
+one-half of the applicable statutory maximum penalty applicable to the 
+violation.
+    iv. In an egregious case, if the apparent violation comes to OFAC's 
+attention by means other than a voluntary self-disclosure, the base 
+amount of the proposed civil penalty in the Pre-Penalty Notice shall be 
+the applicable statutory maximum penalty amount applicable to the 
+violation.
+
+    Note to paragraph (a): As of August 1, 2016, the applicable 
+statutory maximum civil penalty per violation for each statute 
+enforced by OFAC is as follows: International Emergency Economic 
+Powers Act (IEEPA)--greater of $284,582 or twice the amount of the 
+underlying transaction; Trading with the Enemy Act (TWEA)--$83,864; 
+Foreign Narcotics Kingpin Designation Act (FNKDA)--$1,414,020; 
+Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA)--
+greater of $75,122 or twice the amount of which a financial 
+institution was required to retain possession or control; and Clean 
+Diamond Trade Act (CDTA)--$12,856. The civil penalty amounts 
+authorized under these statutes are subject to adjustment pursuant 
+to the Federal Civil Penalties Inflation Adjustment Act of 1990 
+(Pub. L. 101-410, as amended, 28 U.S.C. 2461 note).
+
+    The following matrix represents the base amount of the proposed 
+civil penalty for each category of violation:
+[GRAPHIC] [TIFF OMITTED] TR01JY16.000
+
+
+[[Page 43074]]
+
+
+* * * * *
+
+PART 535--IRANIAN ASSETS CONTROL REGULATIONS
+
+0
+5. The authority citation for part 535 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 18 U.S.C. 2332d; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; E.O. 12170, 44 FR 
+65729, 3 CFR, 1979 Comp., p. 457; E.O. 12205, 45 FR 24099, 3 CFR, 
+1980 Comp., p. 248; E.O. 12211, 45 FR 26685, 3 CFR, 1980 Comp., p. 
+253; E.O. 12276, 46 FR 7913, 3 CFR, 1981 Comp., p. 104; E.O. 12279, 
+46 FR 7919, 3 CFR, 1981 Comp., p. 109; E.O. 12280, 46 FR 7921, 3 
+CFR, 1981 Comp., p. 110; E.O. 12281, 46 FR 7923, 3 CFR, 1981 Comp., 
+p. 112; E.O. 12282, 46 FR 7925, 3 CFR, 1981 Comp., p. 113; E.O. 
+12283, 46 FR 7927, 3 CFR, 1981 Comp., p. 114; and E.O. 12294, 46 FR 
+14111, 3 CFR, 1981 Comp., p. 139.
+
+Subpart G--Penalties.
+
+0
+6. Revise the note to paragraph (a)(1) of Sec.  535.701 to read as 
+follows:
+
+
+Sec.  535.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 536--NARCOTICS TRAFFICKING SANCTIONS REGULATIONS
+
+0
+7. The authority citation for part 536 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011; E.O. 12978, 60 FR 54579, 3 CFR, 1995 
+Comp., p. 415; E.O. 13286, 68 FR 10619, 3 CFR, 2003 Comp., p. 166.
+
+Subpart G--Penalties
+
+0
+8. Revise the note to paragraph (a)(1) of Sec.  536.701 to read as 
+follows:
+
+
+Sec.  536.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 537--BURMESE SANCTIONS REGULATIONS
+
+0
+9. The authority citation for part 537 continues read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Sec. 570, Pub. L. 104-208, 110 Stat. 3009; Pub. L. 110-96, 121 Stat. 
+1011 (50 U.S.C. 1701 note); Pub. L. 110-286, 122 Stat. 2632 (50 
+U.S.C. 1701 note); E.O. 13047, 62 FR 28301, 3 CFR, 1997 Comp., p. 
+202; E.O. 13310, 68 FR 44853, 3 CFR, 2003 Comp., p. 241; E.O. 13448, 
+72 FR 60223, 3 CFR, 2007 Comp., p. 304; E.O. 13464, 73 FR 24491, 3 
+CFR, 2008 Comp., p. 189; E.O. 13619, 77 FR 41243, 3 CFR, 2012 Comp., 
+p. 279; E.O. 13651, 78 FR 48793 (August 9, 2013); Determination No. 
+2009-11, 74 FR 3957, 3 CFR, 2009 Comp., p. 330.
+
+Subpart G--Penalties
+
+0
+10. Revise the note to paragraph (a)(1) of Sec.  537.701 to read as 
+follows:
+
+
+Sec.  537.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 538--SUDANESE SANCTIONS REGULATIONS
+
+0
+11. The authority citation for part 538 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 18 U.S.C. 2339B, 2332d; 31 U.S.C. 
+321(b); 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 
+890 (28 U.S.C. 2461 note); 22 U.S.C. 7201-7211; Pub. L. 109-344, 120 
+Stat. 1869; Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13067, 62 FR 59989, 3 CFR, 1997 Comp., p. 230; E.O. 13412, 71 
+FR 61369, 3 CFR, 2006 Comp., p. 244.
+
+Subpart G--Penalties
+
+0
+12. Revise the note to paragraph (a)(1) of Sec.  538.701 to read as 
+follows:
+
+
+Sec.  538.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1):  As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 539--WEAPONS OF MASS DESTRUCTION TRADE CONTROL REGULATIONS
+
+0
+13. The authority citation for part 539 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 22 U.S.C. 2751-2799aa-2; 31 U.S.C. 
+321(b); 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 
+890 (28 U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; E.O. 
+12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13094, 63 FR 
+40803, 3 CFR, 1998 Comp., p. 200.
+
+Subpart G--Penalties
+
+0
+14. Revise the note to paragraph (a)(1) of Sec.  539.701 to read as 
+follows:
+
+
+Sec.  539.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 541--ZIMBABWE SANCTIONS REGULATIONS
+
+0
+15. The authority citation for part 541 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13288, 68 
+FR 11457, 3 CFR, 2003 Comp., p. 186; E.O. 13391, 70 FR 71201, 3 CFR, 
+2005 Comp., p. 206; E.O. 13469, 73 FR 43841, 3 CFR, 2008 Comp., p. 
+1025.
+
+Subpart G--Penalties
+
+0
+16. Revise the note to paragraph (a)(1) of Sec.  541.701 to read as 
+follows:
+
+
+Sec.  541.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 542--SYRIAN SANCTIONS REGULATIONS
+
+0
+17. The authority citation for part 542 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 18 U.S.C. 2332d; 22 
+U.S.C. 287c; 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 
+Stat. 890 (28 U.S.C. 2461 note); Pub. L. 110-
+
+[[Page 43075]]
+
+96, 121 Stat. 1011 (50 U.S.C. 1701 note); E.O. 13338, 69 FR 26751, 3 
+CFR, 2004 Comp., p. 168; E.O. 13399, 71 FR 25059, 3 CFR, 2006 Comp., 
+p. 218; E.O. 13460, 73 FR 8991, 3 CFR 2008 Comp., p. 181; E.O. 
+13572, 76 FR 24787, 3 CFR 2011 Comp., p. 236; E.O. 13573, 76 FR 
+29143, 3 CFR 2011 Comp., p. 241; E.O. 13582, 76 FR 52209, 3 CFR 2011 
+Comp., p. 264; E.O. 13606, 77 FR 24571, 3 CFR 2012 Comp., p. 243.
+
+Subpart G--Penalties
+
+0
+18. Revise the note to paragraph (a)(1) of Sec.  542.701 to read as 
+follows:
+
+
+Sec.  542.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 543--COTE D'IVOIRE SANCTIONS REGULATIONS
+
+0
+19. The authority citation for part 543 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13396, 71 FR 7389, 3 CFR, 2006 Comp., p. 209.
+
+Subpart G--Penalties
+
+0
+20. Revise the note to paragraph (a)(1) of Sec.  543.701 to read as 
+follows:
+
+
+Sec.  543.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 544--WEAPONS OF MASS DESTRUCTION PROLIFERATORS SANCTIONS 
+REGULATIONS
+
+0
+21. The authority citation for part 544 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Public Law 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Public Law 110-96, 121 Stat. 1011; E.O. 12938, 59 FR 59099, 3 CFR, 
+1994 Comp., p. 950; E.O. 13094, 63 FR 40803, 3 CFR, 1998 Comp., p. 
+200; E.O. 13382, 70 FR 38567, 3 CFR, 2005 Comp., p. 170.
+
+Subpart G--Penalties
+
+0
+22. Revise the note to paragraph (a)(1) of Sec.  544.701 to read as 
+follows:
+
+
+Sec.  544.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 546--DARFUR SANCTIONS REGULATIONS
+
+0
+23. The authority citation for part 546 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13067, 62 FR 59989, 3 CFR, 1997 Comp., p. 230; E.O. 13400, 71 
+FR 25483, 3 CFR, 2006 Comp., p. 220.
+
+Subpart G--Penalties
+
+0
+24. Revise the note to paragraph (a)(1) of Sec.  546.701 to read as 
+follows:
+
+
+Sec.  546.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 547--DEMOCRATIC REPUBLIC OF THE CONGO SANCTIONS REGULATIONS
+
+0
+25. The authority citation for part 547 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13413, 71 FR 64105, 3 CFR, 2006 Comp., p. 247.
+
+Subpart G--Penalties
+
+0
+26. Revise the note to paragraph (a)(1) of Sec.  547.701 to read as 
+follows:
+
+
+Sec.  547.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 548--BELARUS SANCTIONS REGULATIONS
+
+0
+27. The authority citation for part 548 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13405, 71 
+FR 35485; 3 CFR, 2007 Comp., p. 231.
+
+Subpart G--Penalties
+
+0
+28. Revise the note to paragraph (a)(1) of Sec.  548.701 to read as 
+follows:
+
+
+Sec.  548.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 549--LEBANON SANCTIONS REGULATIONS
+
+0
+29. The authority citation for part 549 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13441, 72 
+FR 43499, 3 CFR, 2008 Comp., p. 232.
+
+Subpart G--Penalties
+
+0
+30. Revise the note to paragraph (a)(1) of Sec.  549.701 to read as 
+follows:
+
+
+Sec.  549.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1):  As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 560--IRANIAN TRANSACTIONS AND SANCTIONS REGULATIONS
+
+0
+31. The authority citation for part 560 continues to read as follows:
+
+
+[[Page 43076]]
+
+
+    Authority:  3 U.S.C. 301; 18 U.S.C. 2339B, 2332d; 22 U.S.C. 
+2349aa-9; 22 U.S.C. 7201-7211; 31 U.S.C. 321(b); 50 U.S.C. 1601-
+1651, 1701-1706; Public Law 101-410, 104 Stat. 890 (28 U.S.C. 2461 
+note); Public Law 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+Public Law 111-195, 124 Stat. 1312 (22 U.S.C. 8501-8551); Public Law 
+112-81, 125 Stat. 1298 (22 U.S.C. 8513a); Public Law 112-158, 126 
+Stat. 1214 (22 U.S.C. 8701-8795); E.O. 12613, 52 FR 41940, 3 CFR, 
+1987 Comp., p. 256; E.O. 12957, 60 FR 14615, 3 CFR, 1995 Comp., p. 
+332; E.O. 12959, 60 FR 24757, 3 CFR, 1995 Comp., p. 356; E.O. 13059, 
+62 FR 44531, 3 CFR, 1997 Comp., p. 217; E.O. 13599, 77 FR 6659, 3 
+CFR, 2012 Comp., p. 215; E.O. 13628, 77 FR 62139, 3 CFR, 2012 Comp., 
+p. 314.
+
+Subpart G--Penalties
+
+0
+32. Revise the note to paragraph (a)(1) of Sec.  560.701 to read as 
+follows:
+
+
+Sec.  560.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1):  As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 561--IRANIAN FINANCIAL SANCTIONS REGULATIONS
+
+0
+33. The authority citation for part 561 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 111-
+195, 124 Stat. 1312 (22 U.S.C. 8501-8551); Pub. L. 112-81, 125 Stat. 
+1298 (22 U.S.C. 8513a); Pub. L. 112-158, 126 Stat. 1214 (22 U.S.C. 
+8701-8795); E.O. 12957, 60 FR 14615, 3 CFR, 1995 Comp., p. 332; E.O. 
+13553, 75 FR 60567, 3 CFR, 2010 Comp., p. 253; E.O. 13599, 77 FR 
+6659, February 8, 2012; E.O. 13622, 77 FR 45897, August 2, 2012; 
+E.O. 13628, 77 FR 62139, October 12, 2012.
+
+Subpart G--Penalties
+
+0
+34. Revise the note to paragraph (a) of Sec.  561.701 to read as 
+follows:
+
+
+Sec.  561.701  Penalties.
+
+    (a) * * *
+
+    Note to paragraph (a): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 566--HIZBALLAH FINANCIAL SANCTIONS REGULATIONS
+
+0
+35. The authority citation for part 566 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 114-
+102.
+
+Subpart G--Penalties
+
+0
+36. Revise the note to paragraph (a) of Sec.  566.701 to read as 
+follows:
+
+
+Sec.  566.701  Penalties.
+
+    (a) * * *
+
+    Note to paragraph (a):  As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+PART 576--IRAQ STABILIZATION AND INSURGENCY SANCTIONS REGULATIONS
+
+0
+37. The authority citation for part 576 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 110-96, 121 Stat. 1011; E.O. 
+13303, 68 FR 31931, 3 CFR, 2003 Comp., p. 227; E.O. 13315, 68 FR 
+52315, 3 CFR, 2003 Comp., p. 252; E.O. 13350, 69 FR 46055, 3 CFR, 
+2004 Comp., p. 196; E.O. 13364, 69 FR 70177, 3 CFR, 2004 Comp., p. 
+236; E.O. 13438, 72 FR 39719, 3 CFR, 2007 Comp., p. 224.
+
+Subpart G--Penalties
+
+0
+38. Revise the note to paragraph (a)(1) of Sec.  576.701 to read as 
+follows:
+
+
+Sec.  576.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 588--WESTERN BALKANS STABILIZATION REGULATIONS
+
+0
+39. The authority citation for part 588 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13219, 66 
+FR 34777, 3 CFR, 2001 Comp., p. 778; E.O. 13304, 68 FR 32315, 3 CFR, 
+2004 Comp. p. 229.
+
+Subpart G--Penalties
+
+0
+40. Revise the note to paragraph (a)(1) of Sec.  588.701 to read as 
+follows:
+
+
+Sec.  588.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 592--ROUGH DIAMONDS CONTROL REGULATIONS
+
+0
+41. The authority citation for part 592 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); Pub. L. 108-19, 117 
+Stat. 631 (19 U.S.C. 3901-3913); E.O. 13312, 68 FR 45151 3 CFR, 2003 
+Comp., p. 246.
+
+Subpart F--Penalties
+
+0
+42. Amend Sec.  592.601 by revising paragraphs (a) introductory text, 
+(a)(1), and (b) to read as follows:
+
+
+Sec.  592.601  Penalties.
+
+    (a) Section 8 of the Clean Diamond Trade Act (the Act) (Pub. L. 
+108-19, 117 Stat. 631, 19 U.S.C. 3901-3913) provides that:
+    (1) A civil penalty not to exceed the amount set forth in section 8 
+of the Act may be imposed on any person who violates, or attempts to 
+violate, any order or regulation issued under the Act;
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is $12,856.
+
+* * * * *
+    (b) Adjustments to penalty amounts. (1) The civil penalties 
+provided in the Act are subject to adjustment pursuant to the Federal 
+Civil Penalties Inflation Adjustment Act of 1990 (Pub. L. 101-410, as 
+amended, 28 U.S.C. 2461 note).
+    (2) The criminal penalties provided in the Act are subject to 
+increase pursuant to 18 U.S.C. 3571.
+* * * * *
+
+PART 593--FORMER LIBERIAN REGIME OF CHARLES TAYLOR SANCTIONS 
+REGULATIONS
+
+0
+43. The authority citation for part 593 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat.
+
+[[Page 43077]]
+
+1011; E.O. 13348, 69 FR 44885, 3 CFR, 2004 Comp., p. 189.
+
+Subpart G--Penalties
+
+0
+44. Revise the note to paragraph (a)(1) of Sec.  593.701 to read as 
+follows:
+
+
+Sec.  593.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of IEEPA is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 594--GLOBAL TERRORISM SANCTIONS REGULATIONS
+
+0
+45. The authority citation for part 594 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; E.O. 13224, 66 FR 
+49079, 3 CFR, 2001 Comp., p. 786; E.O. 13268, 67 FR 44751, 3 CFR, 
+2002 Comp., p. 240; E.O. 13284, 68 FR 4075, 3 CFR, 2003 Comp., p. 
+161; E.O. 13372, 70 FR 8499, 3 CFR, 2006 Comp., p. 159.
+
+Subpart G--Penalties
+
+0
+46. Revise the note to paragraph (a)(1) of Sec.  594.701 to read as 
+follows:
+
+
+Sec.  594.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 595--TERRORISM SANCTIONS REGULATIONS
+
+0
+47. The authority citation for part 595 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011; E.O. 12947, 60 FR 5079, 3 CFR, 1995 
+Comp., p. 319; E.O. 13099, 63 FR 45167, 3 CFR, 1998 Comp., p. 208; 
+E.O. 13372, 70 FR 8499, 3 CFR, 2006 Comp., p. 159.
+
+Subpart G--Penalties
+
+0
+48. Revise the note to paragraph (a)(1) of Sec.  595.701 to read as 
+follows:
+
+
+Sec.  595.701  Penalties.
+
+    (a) * * *
+    (1) * * *
+
+    Note to paragraph (a)(1): As of August 1, 2016, the applicable 
+maximum civil penalty per violation of the Act is the greater of 
+$284,582 or an amount that is twice the amount of the transaction 
+that is the basis of the violation with respect to which the penalty 
+is imposed.
+
+* * * * *
+
+PART 597--FOREIGN TERRORIST ORGANIZATIONS SANCTIONS REGULATIONS
+
+0
+49. The authority citation for part 597 continues to read as follows:
+
+    Authority: 31 U.S.C. 321(b); Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 104-132, 110 Stat. 1214, 1248-53 (8 
+U.S.C. 1189, 18 U.S.C. 2339B).
+
+Subpart G--Penalties
+
+0
+50. Revise paragraph (b) of Sec.  597.701 to read as follows:
+
+
+Sec.  597.701  Penalties.
+
+* * * * *
+    (b)(1) Pursuant to 18 U.S.C. 2339B(b), except as authorized by the 
+Secretary of the Treasury, any financial institution that knowingly 
+fails to retain possession of or maintain control over funds in which a 
+foreign terrorist organization or its agent has an interest, or to 
+report the existence of such funds in accordance with these 
+regulations, shall be subject to a civil penalty in an amount that is 
+the greater of the amount set forth in 18 U.S.C. 2339B(b) per 
+violation, or twice the amount of which the financial institution was 
+required to retain possession or control.
+    (2) The civil penalties provided in 18 U.S.C. 2339B(b) are subject 
+to adjustment pursuant to the Federal Civil Penalties Inflation 
+Adjustment Act of 1990 (Pub. L. 101-410, as amended, 28 U.S.C. 2461 
+note).
+
+    Note to paragraph (b): As of August 1, 2016, the applicable 
+maximum civil penalty per violation is $75,122 or twice the amount 
+of which a financial institution was required to retain possession 
+or control.
+
+* * * * *
+
+PART 598--FOREIGN NARCOTICS KINGPIN SANCTIONS REGULATIONS
+
+0
+51. The authority citation for part 598 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 21 U.S.C. 1901-1908; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note).
+
+Subpart G--Penalties.
+
+0
+52. Amend Sec.  598.701 by revising paragraphs (a)(3) and (b) to read 
+as follows:
+
+
+Sec.  598.701  Penalties.
+
+    (a) * * *
+    (3) A civil penalty not to exceed the amount set forth in section 
+807 of the Foreign Narcotics Kingpin Designation Act (21 U.S.C. 1901-
+1908) per violation may be imposed by the Secretary of the Treasury on 
+any person who violates any license, order, rule, or regulation issued 
+in compliance with the provisions of the Foreign Narcotics Kingpin 
+Designation Act.
+
+    Note to paragraph (a)(3): As of August 1, 2016, the maximum 
+civil penalty is $1,414,020 per violation.
+
+    (b) Adjustments to penalty amounts. (1) The current civil penalty 
+cap may be adjusted for inflation pursuant to the Federal Civil 
+Penalties Inflation Adjustment Act of 1990 (Pub. L. 101-410, as 
+amended, 28 U.S.C. 2461 note).
+    (2) The criminal penalties provided in this part are subject to 
+increase pursuant to 18 U.S.C. 3571.
+* * * * *
+
+John E. Smith,
+Acting Director, Office of Foreign Assets Control.
+[FR Doc. 2016-15552 Filed 6-30-16; 8:45 am]
+ BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

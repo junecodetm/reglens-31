@@ -1,10 +1,8 @@
-# Git Workflow & Commit Conventions
+# Repository Workflow
 
-> Decomposed from CLAUDE.md §7 (2026-07-28).
+- Create a short-lived branch and submit all changes to `main` through a pull request.
+- Use Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, or `test:`).
+- Squash-merge each approved pull request after all required CI checks pass.
+- Commit signing is outside the project scope and is not required.
 
-- Trunk-based with short-lived branches; PRs required even solo (CI must pass).
-- Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, `test:`).
-- Signed commits (`git config commit.gpgsign true`); protected `main`; squash merge.
-- Semantic versioning; tag releases `vMAJOR.MINOR.PATCH`; each GitHub Release carries the SBOM + cosign attestation + large Parquet assets.
-- Every PR runs: ruff, pyright, pytest, the security suite, a11y, and the **eval regression gate** (must not regress F1 below the committed baseline minus tolerance).
-- Include `CONTRIBUTING.md` and a short `CODE_OF_CONDUCT.md` (Contributor Covenant) — cheap signal, high credibility.
+Pull-request CI enforces Python formatting and linting, strict type checking, tests, deterministic export replay, the zero-cost invariant, the web build and test suite, disclaimer and framing checks, design-quality checks, evaluation regression gates, CodeQL, dependency and secret scans, Semgrep, and SBOM generation. Local commands are documented in [COMMANDS.md](COMMANDS.md).

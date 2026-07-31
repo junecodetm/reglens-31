@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/api/v1/documents/2022-18076.json",
+  "fetched_at": "2026-07-30T14:09:57.276207+00:00",
+  "sha256": "4abf41d1441d92e9694405222fddacd6059132f2ec2d342711542599b1045617",
+  "content_type": "application/json",
+  "filename": "2022-18076.json"
+}

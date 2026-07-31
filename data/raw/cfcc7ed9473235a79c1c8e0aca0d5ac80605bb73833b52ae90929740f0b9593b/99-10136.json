@@ -1,0 +1,92 @@
+{
+  "abstract": "The Debt Collection Improvement Act of 1996 (DCIA) requires Federal agencies to transfer any nontax debt that is over 180 days delinquent to the Department of the Treasury for debt collection action. This is known as ``cross-servicing.'' On April 2, 1998, the Financial Management Service (FMS) published an interim rule, with request for comments, which established the procedures and criteria for transferring delinquent debt to the Department of the Treasury for cross-servicing, explained the statutory exceptions to this requirement, and established standards by which the Secretary of the Treasury will determine whether to grant exemptions. The interim rule also required that agencies refer debts to private collection contractors and to debt collection centers in accordance with procedures established by the FMS. This final rule adopts the interim rule, with changes, and addresses issues raised in the comments received in response to the interim rule. In addition, this rule includes a technical amendment to the final rule published on May 6, 1998 concerning administrative wage garnishment.",
+  "action": "Final rule; adoption of interim rule with changes.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/1999/04/28/99-10136.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "285",
+      "title": 31
+    }
+  ],
+  "citation": "64 FR 22906",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "May 28, 1999.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "99-10136",
+  "effective_on": "1999-05-28",
+  "end_page": 22909,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": null,
+  "html_url": "https://www.federalregister.gov/documents/1999/04/28/99-10136/transfer-of-debts-to-treasury-for-collection",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/99-10136?publication_date=1999-04-28",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-1999-04-28/99-10136/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 4,
+  "page_views": {
+    "count": 203,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-1999-04-28/pdf/99-10136.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "1999-04-28",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/1999/04/28/99-10136.txt",
+  "regulation_id_number_info": {
+    "1510-AA68": {
+      "html_url": "https://www.federalregister.gov/regulations/1510-AA68/transfer-of-debts-to-treasury-for-collection",
+      "issue": "199904",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Transfer of Debts to Treasury for Collection",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=199904&RIN=1510-AA68&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1510-AA68"
+  ],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-09-21T03:47:55Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 22906,
+  "subtype": null,
+  "title": "Transfer of Debts to Treasury for Collection",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 64
+}

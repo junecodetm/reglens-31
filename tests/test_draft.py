@@ -1,11 +1,14 @@
 """Skeleton template + conformance gates: structure passes, fabrication rejects."""
 
+from pathlib import Path
+
 import pytest
 
 from reglens.authority.records import PartAuthority
 from reglens.config import Settings
 from reglens.draft import run as draft_run
 from reglens.draft.conformance import (
+    DraftChecklist,
     DraftDossier,
     check_draft,
     scan_fabrication,
@@ -324,13 +327,16 @@ def test_dossier_hashes_are_stable_for_fixed_inputs() -> None:
 
     assert first == second
     assert first.model_dump() == {
+        "provider": "local",
         "model": "test-model",
         "temperature": 0.0,
         "seed": 31,
         "num_ctx": 8192,
         "num_predict": 1024,
+        "max_tokens": None,
+        "reasoning_effort": None,
         "system_prompt_sha256": (
-            "ef408e47cc32a465f7ef59b3af141401ab5d4a1108aa54b4a3c4f4e92e47e1c3"
+            "016620abd0b61716d597266e2b981bbf0fbc7a0a1dd49a3aa7fa8cf718117069"
         ),
         "prompt_sha256": "a6773124a38781150dee6263f0967c02ba088e60641c3da561432a4aa68dc9e6",
         "input_sha256": PART_TEXT_SHA256,
@@ -383,3 +389,86 @@ def test_empty_setout_region_fails_closed() -> None:
         dossier=TEST_DOSSIER,
     )
     assert not checklist.setout_text_verified and not checklist.passed
+
+
+def reusable_checklist_fixture(
+    *,
+    dossier: DraftDossier = TEST_DOSSIER,
+    passed: bool = True,
+) -> DraftChecklist:
+    return DraftChecklist(
+        part=501,
+        doc_type="nprm",
+        headings_in_order=True,
+        analysis_sections_present=True,
+        placeholders_intact=True,
+        amendatory_instructions_parse=True,
+        amendatory_forms_demonstrated=True,
+        authority_citation_present=True,
+        basis_and_purpose_present=True,
+        comment_period_reference=True,
+        setout_text_verified=True,
+        narrative_fabrication_clean=passed,
+        quotes_verified=True,
+        unverified_quote_count=0,
+        fabrication_hits=[] if passed else ["test-failure"],
+        dossier=dossier,
+        passed=passed,
+    )
+
+
+def conformance_report_fixture(checklist: DraftChecklist) -> draft_run.ConformanceReport:
+    return draft_run.ConformanceReport(
+        checklists=[checklist],
+        generated=1,
+        accepted=int(checklist.passed),
+        rejected=int(not checklist.passed),
+        pass_rate=1.0 if checklist.passed else 0.0,
+        total_unverified_quotes=checklist.unverified_quote_count,
+        rejected_drafts=[] if checklist.passed else ["31-CFR-501-nprm.txt"],
+    )
+
+
+def test_reusable_checklist_returns_exact_matching_checklist(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setattr(draft_run, "DRAFTS_DIR", tmp_path)
+    (tmp_path / "31-CFR-501-nprm.txt").write_text("existing draft")
+    checklist = reusable_checklist_fixture()
+    report = conformance_report_fixture(checklist)
+
+    reused = draft_run.reusable_checklist(report, TEST_DOSSIER, 501, "nprm")
+
+    assert reused is checklist
+
+
+def test_reusable_checklist_rejects_changed_dossier() -> None:
+    checklist = reusable_checklist_fixture(passed=False)
+    report = conformance_report_fixture(checklist)
+    changed_dossier = TEST_DOSSIER.model_copy(update={"model": "changed-model"})
+
+    reused = draft_run.reusable_checklist(report, changed_dossier, 501, "nprm")
+
+    assert reused is None
+
+
+def test_reusable_checklist_rejects_missing_passed_draft(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setattr(draft_run, "DRAFTS_DIR", tmp_path)
+    checklist = reusable_checklist_fixture()
+    report = conformance_report_fixture(checklist)
+
+    reused = draft_run.reusable_checklist(report, TEST_DOSSIER, 501, "nprm")
+
+    assert reused is None
+
+
+@pytest.fixture(autouse=True)
+def _default_draft_tests_to_local_provider(  # pyright: ignore[reportUnusedFunction] — autouse fixture
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Keep implicit-provider tests isolated from a developer's dotenv file."""
+    monkeypatch.setenv("REGLENS_DRAFT_PROVIDER", "local")

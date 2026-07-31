@@ -1,0 +1,1254 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 189 (Friday, September 30, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 189 (Friday, September 30, 2005)]
+[Rules and Regulations]
+[Pages 57437-57445]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-19552]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Parts 356, 357, and 363
+
+[Docket No. BPD-CC-05-2]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds (Department of the Treasury Circular, Public Debt Series No. 
+1-93); Regulations Governing Book-Entry Treasury Bonds, Notes and Bills 
+Held in Legacy Treasury Direct[supreg]; Regulations Governing 
+Securities Held in TreasuryDirect[supreg]
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: TreasuryDirect is an account-based, book-entry, online system 
+for purchasing, holding, and conducting transactions in Treasury 
+securities. To date, the system has only been available for the 
+purchase and holding of savings bonds and certificates of indebtedness. 
+The Department of the Treasury (hereinafter referred to as ``Treasury'' 
+or ``We'') is amending Regulations Governing Securities Held in 
+TreasuryDirect to add marketable Treasury securities to the securities 
+that may be purchased and held in TreasuryDirect and to provide the 
+terms and conditions for marketable Treasury securities held in the 
+system. We are amending Regulations Governing Book-Entry Treasury 
+Bonds, Notes and Bills Held in Legacy Treasury Direct to provide for 
+the transfer of securities between Legacy Treasury Direct and 
+TreasuryDirect. We are also amending the Uniform Offering Circular for 
+the Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and 
+Bonds to make the changes necessary to
+
+[[Page 57438]]
+
+accommodate participation in Treasury marketable securities auctions 
+for securities to be held in either the TreasuryDirect or the Legacy 
+Treasury Direct[supreg] system. We are also eliminating the ability to 
+bid competitively through Legacy Treasury Direct. These final 
+amendments benefit individual investors by allowing them to purchase, 
+hold and conduct transactions in marketable Treasury securities through 
+the TreasuryDirect system.
+
+DATES: Effective Date: September 30, 2005.
+
+ADDRESSES: You can download this final rule at the following Internet 
+addresses: <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a> or <a href="http://www.gpoaccess.gov/ecfr">http://www.gpoaccess.gov/ecfr</a>.
+
+FOR FURTHER INFORMATION CONTACT: 
+Elisha Whipkey, Director, Division of Program Administration, Office of 
+Securities Operations, Bureau of the Public Debt, at (304) 480-6319 or 
+<a href="/cdn-cgi/l/email-protection#e98c85809a8188c79e818099828c90a98b998dc79d9b8c889ac78e869f"><span class="__cf_email__" data-cfemail="c2a7aeabb1aaa3ecb5aaabb2a9a7bb82a0b2a6ecb6b0a7a3b1eca5adb4">[email&#160;protected]</span></a> for information on the TreasuryDirect and 
+Legacy Treasury Direct systems.
+Chuck Andreatta, Associate Director, Government Securities Regulations 
+Staff, Bureau of the Public Debt, at (202) 504-3632 or 
+<a href="/cdn-cgi/l/email-protection#d0b7bfa6a3b5b3a2b5b790b2a0b4fea4a2b5b1a3feb7bfa6"><span class="__cf_email__" data-cfemail="13747c65607670617674537163773d67617672603d747c65">[email&#160;protected]</span></a> for information on Treasury marketable 
+securities auction rules (31 CFR part 356).
+Susan Klimas, Attorney-Adviser, Dean Adams, Assistant Chief Counsel, 
+Edward Gronseth, Deputy Chief Counsel, Office of the Chief Counsel, 
+Bureau of the Public Debt, at (304) 480-8692 or 
+<a href="/cdn-cgi/l/email-protection#bbc8cec8dad595d0d7d2d6dac8fbd9cbdf95cfc9dedac895dcd4cd"><span class="__cf_email__" data-cfemail="43303630222d6d282f2a2e2230032133276d37312622306d242c35">[email&#160;protected]</span></a> for information on regulations governing 
+TreasuryDirect and Legacy Treasury Direct (31 CFR parts 357 and 363).
+
+SUPPLEMENTARY INFORMATION: 
+    TreasuryDirect[supreg] is an account-based, online, book-entry 
+system for purchasing, holding, and conducting transactions in Treasury 
+securities. Currently, book-entry Series EE and Series I savings bonds 
+and certificates of indebtedness are offered for purchase. In addition, 
+definitive savings bonds may be converted to book-entry savings bonds 
+through TreasuryDirect and held in the system. We are issuing this 
+amendment to 31 CFR parts 363, 357, and 356 to provide for the purchase 
+and holding of marketable Treasury securities in TreasuryDirect.
+    31 CFR Part 363. We are amending 31 CFR part 363, Regulations 
+Governing Securities Held in TreasuryDirect, to add marketable Treasury 
+securities to the securities that may be held in the TreasuryDirect 
+system.\1\ The previous subpart F is redesignated as subpart H, and a 
+new subpart F has been added to address the unique terms and conditions 
+for holding marketable Treasury securities in TreasuryDirect. The 
+provisions in subpart B, which apply to all securities held in 
+TreasuryDirect, will apply to marketable Treasury securities as well. 
+Therefore, the current provisions in subpart B relating to rules of the 
+system, registrations, administrative and judicial proceedings, and 
+decedents' estates, that are applicable to all securities in 
+TreasuryDirect, will apply to marketable Treasury securities.
+---------------------------------------------------------------------------
+
+    \1\ The governing regulations for the TreasuryDirect system, 31 
+CFR part 363, were originally published as a final rule October 17, 
+2002 (67 FR 64275). The regulations were subsequently amended May 8, 
+2003 (68 FR 24793); January 16, 2004 (69 FR 2506); August 16, 2004 
+(69 FR 50307); March 23, 2005 (70 FR 14940); and September 30, 2005. 
+The TreasuryDirect system was first referred to as New Treasury 
+Direct to distinguish it from an older system for holding book-entry 
+Treasury bills, notes and bonds directly with Treasury, also known 
+as TreasuryDirect. The regulations for the older system are found at 
+31 CFR part 357. The name of the newer system was changed in the 
+most recent amendment to the TreasuryDirect regulations, and at the 
+same time the name of the older system was changed to Legacy 
+Treasury Direct.
+---------------------------------------------------------------------------
+
+    A TreasuryDirect account owner can submit a noncompetitive bid for 
+eligible marketable Treasury securities online through his or her 
+account. Marketable Treasury securities that are eligible for purchase 
+through a TreasuryDirect account are those that are available for 
+purchase through the TreasuryDirect Web site. Any registration provided 
+in subpart B for securities held in TreasuryDirect is available for 
+marketable Treasury securities.
+    Upon the purchase of a marketable Treasury security, there will be 
+a period of 45 calendar days after the issue date of the security, or 
+the term of the security, whichever is less, during which the security 
+may not be transferred. This holding period is to prevent a loss to 
+Treasury in the event of a returned or unauthorized debit. In addition, 
+and for a similar reason, we are amending subpart D, relating to 
+certificates of indebtedness, to provide for a holding period of 5 
+business days after a debit entry for the purchase of a certificate of 
+indebtedness. During this holding period the certificate of 
+indebtedness may only be redeemed to purchase a new security and may 
+not be redeemed for cash.
+    This final rule provides for the transfer of marketable Treasury 
+securities among the commercial book-entry system, the Legacy Treasury 
+Direct system, and the TreasuryDirect system. Online transfers 
+available for marketable Treasury securities are transfers between 
+TreasuryDirect accounts, transfers to other book-entry systems, and 
+transfers to our agent for sale on the open market (Sell Direct), in 
+increments of $1000. Any eligible marketable book-entry Treasury bill, 
+note, or bond may be transferred into and held in a TreasuryDirect 
+account.
+    Under the provisions of this amendment, an account owner may 
+reinvest a matured security held in TreasuryDirect by directing that 
+the redemption proceeds of the security be used to purchase a 
+certificate of indebtedness, and then using the redemption proceeds of 
+the certificate of indebtedness to purchase a new marketable Treasury 
+security.
+    The process in TreasuryDirect for handling undeliverable payments 
+of either principal or interest will benefit both investors and 
+Treasury. Undeliverable proceeds will be used to purchase a certificate 
+of indebtedness in the name of the account owner. The account owner can 
+then directly access the certificate of indebtedness online through the 
+account, rather than having to contact Treasury to make arrangements 
+for delivery of the payment.
+    A four-business day closed book period will be in effect prior to 
+the date a marketable security payment is made. This means that certain 
+transactions made during the closed book period will be delayed until 
+after the closed book period is completed and the payment is made.
+
+    31 CFR Part 357. We are amending 31 CFR part 357, Regulations 
+Governing Book-Entry Treasury Bonds, Notes and Bills Held in Legacy 
+Treasury Direct, to provide that marketable Treasury securities may be 
+transferred between Legacy Treasury Direct and TreasuryDirect.
+    31 CFR Part 356. 31 CFR part 356, also referred to as the Uniform 
+Offering Circular (UOC), sets out the terms and conditions for the sale 
+and issuance to the public of marketable Treasury bills, notes, and 
+bonds. The UOC, in conjunction with offering announcements, represents 
+a comprehensive statement of those terms and conditions.\2\
+---------------------------------------------------------------------------
+
+    \2\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 411). The circular, as amended, is 
+codified at 31 CFR part 356. A final rule converting the UOC to 
+plain language and making certain other minor changes was published 
+in the Federal Register on July 28, 2004 (69 FR 45202).
+---------------------------------------------------------------------------
+
+    This amendment makes changes to the UOC to allow bidders to bid for 
+marketable Treasury securities to be issued in either the 
+TreasuryDirect or
+
+[[Page 57439]]
+
+Legacy Treasury Direct direct-holding systems. The amendment 
+accommodates the differences between the systems, such as the methods 
+of payment. The amendment makes one substantive change, described 
+below, which is that competitive bidding will no longer be allowed for 
+securities to be held in Legacy Treasury Direct.
+    Competitive bidding will not be allowed for securities to be held 
+in either the new TreasuryDirect system or in Legacy Treasury Direct. 
+Although competitive bidding has been allowed since Legacy Treasury 
+Direct was first implemented in 1986, our experience has been that the 
+volume of such bids has been so low that it does not justify continuing 
+to provide the service. Accordingly, Sec.  356.12 has been amended to 
+stipulate that it will not be a feature of either system going forward.
+
+Procedural Requirements
+
+    This final rule does not meet the criteria for a ``significant 
+regulatory action'' as defined in Executive Order 12866. Therefore, a 
+regulatory assessment is not required.
+    Because this final rule relates to matters of public contract and 
+procedures for United States securities, notice and public procedure 
+and delayed effective date requirements are inapplicable, pursuant to 5 
+U.S.C. 553(a)(2).
+    As no notice of proposed rulemaking is required, the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.) does not apply.
+    We ask for no new collections of information in this final rule. 
+Therefore, the Paperwork Reduction Act (44 U.S.C. 3507) does not apply.
+
+List of Subjects
+
+31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+31 CFR Part 357
+
+    Banks, Banking, Bonds, Electronic funds transfers, Government 
+securities, Reporting and recordkeeping requirements.
+
+31 CFR Part 363
+
+    Bonds, Electronic funds transfer, Federal Reserve system, 
+Government securities, Securities.
+
+0
+Accordingly, for the reasons set out in the preamble, 31 CFR chapter 
+II, subchapter B, is amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. Amend part 356 by revising ``TreasuryDirect'' or ``Legacy Treasury 
+Direct'' to read ``TreasuryDirect [supreg]'' or ``Legacy Treasury 
+Direct[supreg]'' the first time they appear in each section or section 
+heading in the part.
+
+0
+3. Section 356.2 is amended by revising the definitions of ``Autocharge 
+agreement,'' ``Book-entry security,'' Security and ``TreasuryDirect,'' 
+and by adding in alphabetical order the definitions of ``Certificate of 
+indebtedness'' and ``Legacy Treasury Direct'' to read as follows:
+
+
+Sec.  356.2  What definitions do I need to know to understand this 
+part?
+
+* * * * *
+    Autocharge agreement means an agreement in a format acceptable to 
+Treasury between a submitter or clearing corporation and a depository 
+institution that authorizes us to:
+    (1) Deliver awarded securities to:
+    (i) The book-entry securities account of a designated depository 
+institution in the commercial book-entry system, or
+    (ii) An account in Legacy Treasury Direct, and
+    (2) Charge a funds account of a designated depository institution 
+for the settlement amount of the securities.
+* * * * *
+    Book-entry security means a security that is issued and maintained 
+as an accounting entry or electronic record in either the commercial 
+book-entry system or in one of Treasury's two direct-hold systems--
+TreasuryDirect or Legacy Treasury Direct. (See Sec.  356.4.)
+* * * * *
+    Certificate of indebtedness means a one-day non-interest-bearing 
+security that may be held in TreasuryDirect and that automatically 
+matures and is rolled over each day until its owner requests that it be 
+redeemed.
+* * * * *
+    Legacy Treasury Direct means a non-Internet-based book-entry system 
+maintained by Treasury for purchasing and holding marketable Treasury 
+securities directly with Treasury. (See 31 CFR part 357.)
+* * * * *
+    Security means a Treasury bill, note, or bond, each as described in 
+this part. Security also means any other obligation we issue that is 
+subject to this part according to its auction announcement. Security 
+includes an interest or principal component under the STRIPS program, 
+as well as a certificate of indebtedness in an investor's 
+TreasuryDirect account.
+* * * * *
+    TreasuryDirect means the book-entry, online system maintained by 
+Treasury for purchasing and holding marketable Treasury securities, 
+nonmarketable savings bonds, and certificates of indebtedness directly 
+with Treasury. (See 31 CFR part 363.)
+* * * * *
+
+0
+4. Section 356.4 is amended by revising the introductory text and 
+paragraph (b), and by adding a new paragraph (c) to read as follows:
+
+
+Sec.  356.4  What are the book-entry systems in which auctioned 
+Treasury securities may be issued?
+
+    There are three book-entry securities systems--the commercial book-
+entry system, TreasuryDirect, and Legacy Treasury Direct--into which we 
+issue marketable Treasury securities. We maintain and transfer 
+securities in these three book-entry systems at their par amount. Par 
+amounts of Treasury inflation-protected securities do not include 
+adjustments for inflation. Securities may be transferred from one 
+system to the other. See Department of the Treasury Circular, Public 
+Debt Series No. 2-86, as amended (31 CFR part 357) and 31 CFR part 363.
+* * * * *
+    (b) TreasuryDirect. In this system, account holders maintain 
+accounts in a book-entry, online system directly on the records of the 
+Bureau of the Public Debt, Department of the Treasury. Bids for 
+securities to be held in TreasuryDirect are submitted through the 
+Internet.
+    (c) Legacy Treasury Direct. In this system, we maintain the book-
+entry securities of account holders directly on the records of the 
+Bureau of the Public Debt, Department of the Treasury. Bids for 
+securities to be held in Legacy Treasury Direct are generally submitted 
+directly to us, although such bids may also be forwarded to us by a 
+depository institution or dealer.
+
+0
+5. Section 356.5 is amended by revising the introductory text to read 
+as follows:
+
+
+Sec.  356.5  What types of securities does the Treasury auction?
+
+    We offer securities under this part exclusively in book-entry form 
+and as direct obligations of the United States
+
+[[Page 57440]]
+
+issued under Chapter 31 of Title 31 of the United States Code. The 
+securities are subject to the terms and conditions in this part, the 
+regulations in 31 CFR part 363 (for securities held in TreasuryDirect), 
+the regulations in 31 CFR part 357 (for securities held in the 
+commercial book-entry system and Legacy Treasury Direct), and the 
+auction announcements. When we issue additional securities with the 
+same CUSIP number as outstanding securities, we consider them to be the 
+same securities as the outstanding securities.
+* * * * *
+
+0
+6. Section 356.11 is amended by revising the first sentence of 
+paragraph (a)(1), by revising paragraph (c), and by adding a new 
+paragraph (d) to read as follows:
+
+
+Sec.  356.11  How are bids submitted in an auction?
+
+    (a) General. (1) All bids must be submitted using an approved 
+method, which depends on whether you are requesting us to issue the 
+awarded securities in the commercial book-entry system, in 
+TreasuryDirect, or in Legacy Treasury Direct (See Sec.  356.4). * * *
+* * * * *
+    (c) TreasuryDirect. You must submit your bids through your 
+established book-entry, online TreasuryDirect account. You may reinvest 
+the proceeds of maturing securities held in TreasuryDirect by directing 
+that the proceeds be used to purchase a certificate of indebtedness in 
+your TreasuryDirect account and by using the proceeds of your 
+certificate of indebtedness to pay for the securities.
+    (d) Legacy Treasury Direct. (1) If you are a submitter and the 
+awarded securities are to be issued in Legacy Treasury Direct, you may 
+submit bids by using one of our approved methods, e.g., computer, 
+automated telephone service, or paper forms. You may also reinvest the 
+proceeds of maturing securities into new securities through the same 
+methods.
+    (2) If you are submitting bids by paper form, you must use forms 
+authorized by the Bureau of the Public Debt and provide the requested 
+information. We have the option of accepting or rejecting bids on any 
+other form. You are responsible for ensuring that we receive bids in 
+paper form on time. A noncompetitive bid is on time if:
+    (i) We receive it on or before the issue date, and
+    (ii) The envelope it arrived in bears evidence, such as a U.S. 
+Postal Service cancellation, that it was mailed prior to the auction 
+date.
+    (3) If you are submitting a bid by computer or automated telephone 
+service you must be an established Legacy Treasury Direct account 
+holder with a Taxpayer Identification Number.
+    (4) In contingency situations, such as a power outage, we may 
+accept bids by other means, provided, that in all cases the bids are 
+submitted prior to the relevant bidding deadline by an established 
+Legacy Treasury Direct account holder.
+
+0
+7. Section 356.12 is amended by revising paragraphs (b)(1) and (c)(3) 
+to read as follows:
+
+
+Sec.  356.12  What are the different types of bids and do they have 
+specific requirements or restrictions?
+
+* * * * *
+    (b) Noncompetitive bids. (1) Maximum bid. You may not bid 
+noncompetitively for more than $5 million. The maximum bid limitation 
+does not apply if you are bidding solely through either a 
+TreasuryDirect or a Legacy Treasury Direct reinvestment request. A 
+request for reinvestment of securities maturing in either 
+TreasuryDirect or Legacy Treasury Direct is a noncompetitive bid.
+* * * * *
+    (c) * * *
+    (3) Additional restrictions. You may not bid competitively in an 
+auction in which you are bidding noncompetitively. You may not bid 
+competitively for securities to be bought through either TreasuryDirect 
+or Legacy Treasury Direct.
+
+0
+8. Section 356.17 is amended by redesignating paragraphs (b) and (c) as 
+paragraphs (c) and (d), respectively, adding new paragraph (b) and 
+revising newly redesignated paragraphs (c) and (d) to read as follows:
+
+
+Sec.  356.17  How and when do I pay for securities awarded in an 
+auction?
+
+* * * * *
+    (b) TreasuryDirect. You must pay for your awarded securities by a 
+debit entry to a deposit account that you are authorized to debit or by 
+using the redemption proceeds of your certificate of indebtedness held 
+in your TreasuryDirect account. Payment by debit entry occurs on the 
+settlement date for the actual settlement amount due. (See Sec.  
+356.25.)
+    (c) Legacy Treasury Direct. Unless you make other provisions, you 
+must pay by debit entry to a deposit account that you are authorized to 
+debit or submit payment with your bids. Payment by debit entry occurs 
+on the settlement date for the actual settlement amount due. (See Sec.  
+356.25.) If you are paying with a check or with maturing securities, 
+you must pay separately for any premium, accrued interest, or inflation 
+adjustment as soon as you receive your Payment Due Notice.
+    (1) Bidding and payment by computer or by telephone. If you are 
+bidding by computer or by telephone, you must pay for any securities 
+awarded to you by debit entry to a deposit account. If a depository 
+institution or dealer is submitting your bids for securities to be held 
+in Legacy Treasury Direct, payment may be either by debit entry to a 
+deposit account or by allowing us to charge the Federal Reserve Bank 
+funds account of a depository institution.
+    (2) Bidding and payment by paper form. If you are mailing bids to 
+us on a paper form, you may either enclose your payment with the form 
+or pay for any securities awarded to you by debit entry to a deposit 
+account. For bills, you may pay by depository institution (cashier's or 
+teller's) check, certified check, or currently dated Treasury or fiscal 
+agency check made payable to you. For notes or bonds, in addition to 
+the payment options for bills, you may also pay by personal check. If 
+you submit a personal check, make it payable to Legacy Treasury Direct 
+and mail it with the bid to the Federal Reserve Bank handling your 
+account. In your payment amount you must include the par amount and any 
+announced accrued interest and/or inflation adjustment.
+    (3) Payment by maturing securities. You may use maturing securities 
+held in Legacy Treasury Direct as payment for reinvestments into new 
+securities that we are offering, as long as we receive the appropriate 
+transaction request on time.
+    (d) Commercial book-entry system. Unless you make other provisions, 
+payment of the settlement amount must be by charge to the funds account 
+of a depository institution at a Federal Reserve Bank.
+
+0
+9. Section 356.22 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.22  Does the Treasury have any limitations on auction awards?
+
+    (a) Awards to noncompetitive bidders. The maximum award to any 
+noncompetitive bidder is $5 million. This limit does not apply to 
+bidders bidding solely through TreasuryDirect or Legacy Treasury Direct 
+reinvestment requests.
+* * * * *
+
+0
+10. Section 356.25 is amended by revising paragraphs (a) and (b), 
+redesignating paragraph (c) as paragraph (d), adding a new paragraph 
+(c), and revising newly redesignated paragraph (d) to read as follows:
+
+[[Page 57441]]
+
+Sec.  356.25  How does the settlement process work?
+
+* * * * *
+    (a) Payment by debit entry to a deposit account. If you are paying 
+by debit entry to a deposit account as provided for in Sec.  356.17 (b) 
+and (c), we will charge the settlement amount to the specified account 
+on the issue date.
+    (b) Payment by authorized charge to a funds account. Where the 
+submitter's method of payment is an authorized charge to the funds 
+account of a depository institution as provided for in Sec.  356.17 
+(c)(1) and (d), we will charge the settlement amount to the specified 
+funds account on the issue date.
+    (c) Payment through a certificate of indebtedness. If you are 
+paying with the redemption proceeds of your certificate of indebtedness 
+as provided for in Sec.  356.17(b), we will redeem the certificate of 
+indebtedness for the settlement amount of the security and apply the 
+proceeds on the issue date.
+    (d) Payment with bids. If you paid the par amount with your bids as 
+provided for in Sec.  356.17 (c)(2), you may have to pay an additional 
+amount, or we may have to pay an amount to you, as follows:
+    (1) When we owe an amount to you. If the amount you paid is more 
+than the settlement amount, we will refund the balance to you after the 
+auction. This will generally occur if you submit payment with your 
+bids. A typical example would be an auction where the price is a 
+discount from par and there is no accrued interest.
+    (2) When you must remit an additional amount. If the settlement 
+amount is more than the amount you paid, we will notify you of the 
+additional amount due. You may owe us such an additional amount if the 
+auction calculations result in a premium or if accrued interest or an 
+inflation adjustment is due. If your securities are to be held in 
+TreasuryDirect, we will collect this amount through the same payment 
+method that you previously authorized for the transaction. If your 
+securities are to be held in Legacy Treasury Direct, you will be 
+responsible for remitting this additional amount immediately.
+
+0
+11. Section 356.30 is amended by redesignating current paragraph (c)(2) 
+as paragraph (c)(3) and by adding a new paragraph (c)(2) and revising 
+newly redesignated paragraph (c)(3) to read as follows:
+
+
+Sec.  356.30  When does the Treasury pay principal and interest on 
+securities?
+
+* * * * *
+    (c) * * *
+    (2) TreasuryDirect. We discharge our payment obligations when we 
+make payment to a depository institution for credit to the account 
+specified by the owner of the security, when we make payment for a 
+certificate of indebtedness to be issued and held in the owner's 
+account, or when we make payment according to the instructions of the 
+security's owner or the owner's legal representative.
+    (3) Legacy Treasury Direct. We discharge our payment obligations 
+when we make payment to a depository institution for credit to the 
+account specified by the owner of the security, or when we make payment 
+according to the instructions of the security's owner or the owner's 
+legal representative.
+
+PART 357--REGULATIONS GOVERNING BOOK-ENTRY TREASURY BONDS, NOTES 
+AND BILLS HELD IN LEGACY TREASURY DIRECT[supreg]
+
+0
+12. The authority citation for part 357 continues to read as follows:
+
+    Authority: 31 U.S.C. chapter 31; 12 U.S.C. 391; 5 U.S.C. 301.
+
+
+0
+13. Amend part 357 by revising ``TreasuryDirect'' or ``Legacy Treasury 
+Direct'' to read ``TreasuryDirect [supreg]'' or ``Legacy Treasury 
+Direct [supreg]'' the first time they appear in each section or section 
+heading in the part.
+
+0
+14. Amend 357.0 by revising paragraph (a) to read as follows:
+
+
+Sec.  357.0  Book-entry systems.
+
+    (a) Treasury securities. Treasury securities are maintained in one 
+of the following book-entry systems:
+    (1) Commercial book-entry system. The commercial book-entry system 
+is the book-entry system in which Treasury securities are held in a 
+tiered system through securities intermediaries such as financial 
+institutions or brokerage firms. A Treasury security is maintained in 
+the commercial book-entry system if it is credited by a Federal Reserve 
+Bank to a Participant's Securities Account. The regulations governing 
+the commercial book-entry system are found at subpart B of this part, 
+and are referred to as Treasury/Reserve Automated Debt Entry System 
+(TRADES).
+    (2) Legacy Treasury Direct. The Legacy Treasury Direct system is a 
+non-Internet-based book-entry system maintained by Treasury for 
+purchasing and holding marketable Treasury securities as book-entry 
+products. A Treasury security is maintained in Legacy Treasury Direct 
+if it is credited to a Legacy Treasury Direct account as described in 
+Sec.  357.20 of this part. Treasury securities are held directly by the 
+Department of the Treasury in accounts maintained in the investor's 
+name. A Legacy Treasury Direct account may be accessed through a 
+designated Federal Reserve Bank or the Bureau of the Public Debt. See 
+subpart C of this part for rules pertaining to Legacy Treasury Direct.
+    (3) TreasuryDirect. TreasuryDirect is a book-entry, online system 
+maintained by the Department of the Treasury for purchasing and holding 
+eligible marketable Treasury securities, United States Savings Bonds, 
+and certificates of indebtedness in electronic form as a computer 
+record on the books of Treasury. The regulations governing 
+TreasuryDirect are found at 31 CFR part 363.
+* * * * *
+
+0
+15. Amend Sec.  357.2 by revising the definitions of ``Book-entry 
+security'' and ``Original issue,'' in alphabetical order, to read as 
+follows:
+
+
+Sec.  357.2  Definitions.
+
+* * * * *
+    Book-entry security means a Treasury security maintained as a 
+computer record in the commercial book-entry system, Legacy Treasury 
+Direct, or TreasuryDirect.
+* * * * *
+    Original issue means Treasury's offering of a marketable Treasury 
+security to the public and its issuance in book-entry form to be 
+maintained in the commercial book-entry system, Legacy Treasury Direct, 
+or TreasuryDirect.
+* * * * *
+
+0
+16. Amend Sec.  357.22 by revising the second sentence in paragraph 
+(a), the fourth sentence in paragraph (a), the first sentence of 
+paragraph (a)(1), and paragraph (a)(3) to read as follows:
+
+
+Sec.  357.22  Transfers.
+
+    (a) General. * * * A security may be transferred among accounts in 
+Legacy Treasury Direct, the commercial book-entry system, and 
+TreasuryDirect. * * * The Department may delay transfer of a newly 
+purchased security from a Legacy Treasury Direct account to an account 
+in commercial book entry or TreasuryDirect for a period not to exceed 
+(30) calendar days from the date of issue.
+    (1) Identification of securities to be transferred. The owner must 
+identify the securities to be transferred, in the manner required by 
+the transaction request. * * *
+* * * * *
+    (3) When transfer effective.
+
+[[Page 57442]]
+
+    (i) Transfer within Legacy Treasury Direct or to Legacy Treasury 
+Direct from the commercial book-entry system or TreasuryDirect. A 
+transfer of a security within Legacy Treasury Direct, or to Legacy 
+Treasury Direct from another book-entry system, is effective when an 
+appropriate entry is made in the name of the transferee on the Legacy 
+Treasury Direct records.
+    (ii) Transfer from Legacy Treasury Direct to the commercial book-
+entry system. A transfer of a security from Legacy Treasury Direct to 
+the commercial book-entry system is effective as provided in Subpart B. 
+If a transfer cannot be completed, and the security is sent back to 
+Legacy Treasury Direct, the Department will redeposit the security in 
+the original account.
+    (iii) Transfer from Legacy Treasury Direct to TreasuryDirect. A 
+transfer of a security from Legacy Treasury Direct to TreasuryDirect is 
+effective as provided in 31 CFR part 363. If the transfer cannot be 
+completed, the Department will redeposit the security in the original 
+account.
+* * * * *
+
+PART 363--REGULATIONS GOVERNING SECURITIES HELD IN TREASURYDIRECT
+
+0
+17. The authority citation for part 363 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 12 U.S.C. 391; 31 U.S.C. 3102, et seq.; 
+31 U.S.C. 3121, et seq.
+
+
+0
+18. Amend part 363 by revising ``TreasuryDirect'' or ``Legacy Treasury 
+Direct'' to read ``TreasuryDirect[supreg]'' or ``Legacy Treasury 
+Direct[supreg]'' the first time they appear in each section or section 
+heading in the part.
+
+
+Sec.  363.3  [Removed and reserved]
+
+0
+19. Remove and reserve Sec.  363.3.
+
+0
+20. Revise Sec.  363.4 to read as follows:
+
+
+Sec.  363.4  How is TreasuryDirect different from the Legacy Treasury 
+Direct system and the commercial book-entry system?
+
+    (a) TreasuryDirect. TreasuryDirect is a book-entry, online system 
+maintained by Treasury for purchasing, holding and conducting permitted 
+transactions in eligible Treasury securities in electronic form as a 
+computer record on the books of Treasury. TreasuryDirect currently 
+provides for the purchase and holding of eligible book-entry savings 
+bonds, certificates of indebtedness, and eligible marketable Treasury 
+securities.
+    (b) Legacy Treasury Direct. The Legacy Treasury Direct system is a 
+non-Internet-based book-entry system maintained by Treasury for 
+purchasing, holding, and conducting permitted transactions in eligible 
+marketable Treasury securities as book-entry products. The terms and 
+conditions for the Legacy Treasury Direct system are found at 31 CFR 
+part 357, subpart C.
+    (c) Commercial book-entry system. The commercial book-entry system 
+is the book-entry system in which Treasury securities are held in a 
+tiered system through securities intermediaries such as financial 
+institutions or brokerage firms. The regulations governing the 
+commercial book-entry system are found at 31 CFR part 357, subpart B, 
+and may be referred to in that part as Treasury/Reserve Automated Debt 
+Entry System (TRADES).
+
+0
+21. Amend Sec.  363.5 by redesignating paragraphs (a) and (b) as 
+paragraphs (b) and (c), adding paragraph (a), and revising the newly 
+redesignated paragraph (c), to read as follows:
+
+
+Sec.  363.5  How do I contact Public Debt?
+
+    (a) You may use the ``Contact Us'' feature within TreasuryDirect to 
+communicate information to us over a secure Internet connection.
+* * * * *
+    (c) Letters should be addressed to: Bureau of the Public Debt, 
+TreasuryDirect, P.O. Box 5312, Parkersburg, WV 26106-5312.
+
+0
+22. Amend Sec.  363.6 by removing the definition of ``Depository 
+financial institution,'' adding the definitions of ``Commercial book-
+entry system,'' ``Financial institution,'' ``Legacy Treasury Direct 
+system,'' ``Marketable Treasury security,'' ``Sell Direct,'' and 
+``Tender'' in alphabetical order and revising the definition of 
+``Certificate of Indebtedness'' and ``Transfer,'' to read as follows:
+
+
+Sec.  363.6  What special terms do I need to know to understand this 
+part?
+
+* * * * *
+    Certificate of Indebtedness is a one-day non-interest-bearing 
+security held within your primary or linked account, including a minor 
+account for which you are the custodian, that automatically matures and 
+is rolled over each day until you request that it be redeemed.
+    Commercial book-entry system refers to the book-entry system in 
+which you hold your Treasury securities in a tiered system through 
+securities intermediaries such as financial institutions or brokerage 
+firms. (See Sec.  363.4.)
+* * * * *
+    Financial institution, or depository financial institution, means 
+an entity described in 12 U.S.C. 461 (b)(1)(A)(i)-(vi).
+* * * * *
+    Legacy Treasury Direct system is a non-Internet-based book-entry 
+system maintained by Treasury since 1986 for purchasing and holding 
+marketable Treasury securities directly with Treasury as book-entry 
+products. (See Sec.  363.4.)
+* * * * *
+    Marketable Treasury security refers to a Treasury bill, note, or 
+bond that is negotiable and transferable, that is, may be bought and 
+sold in the secondary market.
+* * * * *
+    Sell Direct[reg] is a service in which Treasury, through our agent, 
+will sell your marketable Treasury security held in TreasuryDirect or 
+Legacy Treasury Direct on the open market for a fee.
+* * * * *
+    Tender means an offer, or bid, to purchase a marketable Treasury 
+security.
+* * * * *
+    Transfer is a transaction to move a security, or a portion of a 
+security, from one account to another within TreasuryDirect, or to move 
+a marketable Treasury security to or from a TreasuryDirect account and 
+an account in Legacy Treasury Direct or the commercial book-entry 
+system.
+* * * * *
+
+0
+23. Amend Sec.  363.10 by revising the heading, paragraph (a)(2), and 
+the last sentence of paragraph (b)(1) to read as follows:
+
+
+Sec.  363.10  What is a TreasuryDirect account?
+
+* * * * *
+    (a) * * *
+    (2) Gifts of savings bonds that have not yet been delivered;
+* * * * *
+    (b) * * *
+    (1) * * * You may also buy and deliver gift savings bonds from your 
+custom account.
+* * * * *
+
+0
+24. Amend Sec.  363.21 by revising the heading, and paragraphs (a), 
+(b), (c), (d), and (e) to read as follows:
+
+
+Sec.  363.21  What transactions can I perform online through my 
+TreasuryDirect account?
+
+* * * * *
+    (a) You can purchase, transfer, and change the registration of an 
+eligible Treasury security, including a transfer of a marketable 
+security for a Sell Direct transaction;
+    (b) You can redeem a savings bond;
+    (c) You can deliver a gift savings bond to the account of the 
+recipient;
+    (d) You can grant and revoke the right to view an eligible security 
+to a
+
+[[Page 57443]]
+
+secondary owner or beneficiary named on the security, if the secondary 
+owner or beneficiary is a TreasuryDirect account owner;
+    (e) You, as the primary owner, can grant certain transaction rights 
+to the secondary owner, and you can also revoke those rights. The 
+secondary owner can exercise those rights, provided they have not been 
+revoked, if the secondary owner is a TreasuryDirect account owner;
+* * * * *
+
+0
+25. Amend Sec.  363.22 by revising paragraph (c) to read as follows:
+
+
+Sec.  363.22  Who has the right to conduct online transactions in book-
+entry securities?
+
+* * * * *
+    (c) Primary owner with secondary owner form of registration. (1) 
+The primary owner can conduct any permitted transaction in a security 
+held in the primary owner's TreasuryDirect account. (See Sec.  
+363.20(e)).
+    (2) If the primary owner has given the secondary owner the right to 
+conduct transactions in a security, and has not revoked that right, 
+then the secondary owner can conduct transactions in the security. 
+Transactions that may be conducted by the secondary owner include 
+transferring a marketable security, including a transfer for a Sell 
+Direct transaction, redeeming a savings bond, and changing the 
+destination of interest and redemption payments for marketable 
+securities.
+* * * * *
+
+0
+26. Amend Sec.  363.26 by revising paragraph (a) and adding paragraph 
+(c), to read as follows:
+
+
+Sec.  363.26  What is a transfer?
+
+    (a) A transfer is a transaction to:
+    (1) Move a Treasury security, or a portion of a Treasury security, 
+from one account to another within TreasuryDirect ;
+    (2) Move a marketable Treasury security to or from a TreasuryDirect 
+account and an account in Legacy Treasury Direct or the commercial 
+book-entry system.
+* * * * *
+    (c) Gift delivery is not a transfer. A transfer does not include 
+delivery of a gift savings bond from the donor to the recipient. This 
+is referred to as a delivery.
+
+0
+27. Amend Sec.  363.27 by:
+0
+a. Redesignating paragraphs (a) through (f) as paragraphs (b) through 
+(g);
+0
+b. Adding a new paragraph (a) to read as set forth below; and
+0
+c. Revising the first sentence of the newly redesignated paragraph 
+(e)(2), and revising the newly redesignated paragraphs (e)(3), (e)(4), 
+(e)(6), and (e)(7), to read as follows:
+
+
+Sec.  363.27  What do I need to know about accounts for minors who have 
+not had a legal guardian appointed by a court?
+
+    (a) We do not permit a minor to purchase securities.
+* * * * *
+    (e) * * *
+    (2) The custodian may redeem savings bonds on behalf of the minor 
+through the minor's account. * * *
+    (3) The custodian may not purchase gift savings bonds from the 
+minor's account.
+    (4) The custodian may transfer a security to another TreasuryDirect 
+account, provided the account is a linked account bearing the name and 
+taxpayer identification number of the minor. The custodian can transfer 
+a marketable Treasury security to an account in Legacy Treasury Direct 
+or the commercial book-entry system, and may request a Sell Direct 
+transaction.
+* * * * *
+    (6) Gift savings bonds may be delivered to the minor's account.
+    (7) The custodian may grant rights to view and conduct transactions 
+in the security as may be permitted by Sec.  363.22.
+* * * * *
+
+0
+28. Revise Sec. Sec.  363.36, 363.37, and 363.38 to read as follows:
+
+
+Sec.  363.36  What securities can I purchase and hold in my 
+TreasuryDirect account?
+
+    You can purchase and hold eligible Treasury securities in your 
+account. Eligible securities are Series EE and Series I savings bonds, 
+certificates of indebtedness, and marketable Treasury securities that 
+are available for purchase through the TreasuryDirect Web site. In 
+addition, you can hold converted savings bonds and eligible marketable 
+Treasury securities that have been transferred from the Legacy Treasury 
+Direct system or the commercial book-entry system.
+
+
+Sec.  363.37  How do I purchase and make payment for eligible Treasury 
+securities through my TreasuryDirect account?
+
+    (a) Online purchase. Purchases of eligible Treasury securities 
+through your TreasuryDirect account must be made online.
+    (b) Payment for savings bonds and marketable Treasury securities. 
+You can pay for eligible savings bonds and marketable Treasury 
+securities by either a debit to your designated account at a United 
+States financial institution using the ACH method, or by using the 
+redemption proceeds of your certificate of indebtedness.
+    (c) Payment for certificate of indebtedness. You can pay for a 
+certificate of indebtedness by a direct deposit from your financial 
+institution or employer to your TreasuryDirect account using the ACH 
+method; by a debit from your designated account at a financial 
+institution using the ACH method, but the amount of the debit is 
+limited to $1000 or less; or by using the proceeds of maturing 
+securities held in your Treasury Direct account.
+
+
+Sec.  363.38  What happens if my financial institution returns an ACH 
+debit?
+
+    If your designated financial institution returns an ACH debit, we 
+reserve the right to reinitiate the debit at our option. We also 
+reserve the right to reverse the transaction, thereby removing the 
+security from your TreasuryDirect account. If the ACH return occurs 
+after the security has been redeemed, transferred, or has matured and 
+the proceeds paid, we reserve the right to reverse previously processed 
+security transactions. We are not responsible for any fees your 
+financial institution may charge relating to returned ACH debits.
+
+0
+29. Revise Sec.  363.40 to read as follows:
+
+
+Sec.  363.40  How are payments of principal and interest made?
+
+    (a) Payment of a savings bond that has reached final maturity. We 
+will purchase a certificate of indebtedness in your TreasuryDirect 
+account using the proceeds of a matured savings bond.
+    (b) Payments of interest and principal (except a savings bond that 
+has reached final maturity). (1) We provide two methods of receiving 
+payments of principal and interest:
+    (i) Payment to your account at a financial institution by the ACH 
+method, or
+    (ii) Payment to your TreasuryDirect account to purchase a 
+certificate of indebtedness.
+    (2) You may select different payment destinations for principal and 
+interest for a marketable Treasury security. You may change your 
+payment destination at any time, unless the security is in the closed 
+book period. (See Sec.  363.210.)
+    (3) If we are unable to deliver a payment, we will use the payment 
+to purchase a certificate of indebtedness in your TreasuryDirect 
+account.
+
+0
+30. Amend Sec.  363.44 by revising paragraph (a)(1) to read as follows:
+
+[[Page 57444]]
+
+Sec.  363.44  What happens when a TreasuryDirect account owner dies and 
+the estate is entitled to securities held in the account?
+
+    (a) Estate is being administered. (1) For an estate that is being 
+administered, the legal representative of the estate may request 
+payment of securities, if the securities are eligible for payment, to 
+the estate or to the persons entitled, or may:
+    (i) Request transfer of securities to the TreasuryDirect account of 
+the persons entitled, if the securities are eligible for transfer;
+    (ii) Request transfer of marketable Treasury securities to the 
+commercial book-entry system; or
+    (iii) Request a Sell Direct transaction.
+* * * * *
+
+
+Sec. Sec.  363.80-363.81  [Removed and reserved]
+
+0
+31. Remove and reserve Sec.  363.80 and Sec.  363.81.
+
+
+Sec.  363.82  [Redesignated]
+
+0
+32. Redesignate Sec.  363.82 as Sec.  363.101.
+
+
+Sec.  363.82  [Added and reserved]
+
+0
+32a. Add and reserve new Sec. 363.82.
+
+0
+33. Add Sec.  363.100 to read as follows:
+
+
+Sec.  363.100  What are the rules for purchasing and delivering gift 
+savings bonds to minors?
+
+    (a) A TreasuryDirect account owner can purchase a savings bond as a 
+gift with a minor as the recipient.
+    (b) An account owner can deliver a bond purchased as a gift to a 
+minor. The account owner must deliver the security to the minor's 
+linked account. Once delivered, the bond will be under the control of 
+the custodian of the minor's account. (See Sec.  363.27.)
+
+0
+34. Revise the newly redesignated Sec.  363.101 to read as follows:
+
+
+Sec.  363.101  Can an account owner transfer a book-entry savings bond 
+to a minor?
+
+    An account owner can transfer a book-entry savings bond held in 
+TreasuryDirect to a minor as a gift or pursuant to one of the specified 
+exceptions in Sec.  363.55(a).
+
+0
+35. Amend Sec.  363.138 by revising paragraph (c) to read as follows:
+
+
+Sec.  363.138  How do I purchase a certificate of indebtedness?
+
+* * * * *
+    (c) through the Buy Direct[supreg] function of your TreasuryDirect 
+account, in which you direct us to debit funds from your account at a 
+financial institution to purchase a certificate of indebtedness. This 
+method is limited to an amount no greater than $1000 per transaction. 
+When you use the Buy Direct function to debit funds to purchase all or 
+a portion of a certificate of indebtedness, you will not be permitted 
+to schedule a redemption for cash from your certificate of indebtedness 
+within five business days after the date of the debit entry; or
+* * * * *
+
+0
+36. Revise Sec.  363.142 to read as follows:
+
+
+Sec.  363.142  Can I redeem my certificate of indebtedness for cash?
+
+    You can redeem part or all of the value of your certificate of 
+indebtedness at any time, with one exception: if you purchased all or a 
+portion of your certificate of indebtedness through a debit using the 
+ACH method, you may not schedule a redemption from your certificate of 
+indebtedness within five business days after the date of the debit 
+entry.
+
+0
+37. Redesignate Subpart F as Subpart H.
+
+0
+38. Redesignate Sec.  363.200 through Sec.  363.202 as Sec.  363.250 
+through Sec.  363.252.
+
+0
+39. Add a new subpart F to read as follows:
+Subpart F--Marketable Treasury Securities
+Sec.
+363.200 What Treasury securities does this subpart govern?
+363.201 What other regulations govern book-entry marketable book-
+entry Treasury bills, notes, and bonds?
+363.202 What marketable Treasury securities may I purchase and hold 
+through my TreasuryDirect account?
+363.203 After I purchase my marketable Treasury security in 
+TreasuryDirect, is there a period of time during which I may not 
+transfer the security?
+363.204 What registrations are available for my marketable Treasury 
+securities held in TreasuryDirect?
+363.205 How do I reinvest the proceeds of a maturing security held 
+in TreasuryDirect?
+363.206 How can I transfer my marketable Treasury security into my 
+TreasuryDirect account from another book-entry system?
+363.207 Can I transfer my marketable Treasury security from my 
+TreasuryDirect account to another TreasuryDirect account?
+363.208 Can I transfer my marketable Treasury security from my 
+TreasuryDirect account to an account in another book-entry system?
+363.209 How can I direct that my marketable Treasury security be 
+sold on the open market (Sell Direct[supreg])?
+363.210 Is there any period of time during which I will be unable to 
+process certain transactions regarding my security?
+363.211-363.249 [Reserved]
+Subpart F--Marketable Treasury Securities
+
+
+Sec.  363.200  What Treasury securities does this subpart govern?
+
+    This subpart provides the rules for holding marketable Treasury 
+bills, notes, and bonds in book-entry form in TreasuryDirect.
+
+
+Sec.  363.201  What other regulations govern book-entry marketable 
+book-entry Treasury bills, notes, and bonds?
+
+    (a) 31 CFR part 356 governs the sale and issue of marketable book-
+entry Treasury securities on or after March 1, 1993, whether held in 
+TreasuryDirect, Legacy Treasury Direct, or the commercial book-entry 
+system.
+    (b) 31 CFR part 357 governs holding marketable book-entry Treasury 
+bills, notes, and bonds in the Legacy Treasury Direct system and in the 
+commercial book-entry system.
+
+
+Sec.  363.202  What marketable Treasury securities may I purchase and 
+hold through my TreasuryDirect account?
+
+    (a) Purchase. You may purchase any marketable Treasury security 
+that is available for purchase through the TreasuryDirect Web site.
+    (b) Hold. You may transfer into the system and maintain in your 
+TreasuryDirect account any eligible marketable book-entry Treasury 
+bill, note, or bond.
+
+
+Sec.  363.203  After I purchase my marketable Treasury security in 
+TreasuryDirect, is there a period of time during which I may not 
+transfer the security?
+
+    Once you purchase a marketable Treasury security in TreasuryDirect, 
+you may not transfer that security for a period of 45 calendar days 
+after the issue date of the security, or the term of the security, 
+whichever is less.
+
+
+Sec.  363.204  What registrations are available for my marketable 
+Treasury securities held in TreasuryDirect?
+
+    You may register your marketable Treasury securities in any form of 
+registration permitted by Sec.  363.20 of this part.
+
+
+Sec.  363.205  How do I reinvest the proceeds of a maturing security 
+held in TreasuryDirect?
+
+    You can reinvest the proceeds of a maturing security held in 
+TreasuryDirect by first directing that the proceeds from the maturing 
+security be used to purchase a certificate of indebtedness in your 
+account, and then using the redemption proceeds of your certificate of 
+indebtedness to purchase another security. Any purchase using the 
+proceeds from a certificate of indebtedness is considered a 
+reinvestment.
+
+[[Page 57445]]
+
+Sec.  363.206  How can I transfer my marketable Treasury security into 
+my TreasuryDirect account from another book-entry system?
+
+    (a) Legacy Treasury Direct to TreasuryDirect. 31 CFR part 357, 
+subpart C, governs the transfer of a marketable book-entry Treasury 
+security from your Legacy Treasury Direct account into TreasuryDirect.
+    (b) Commercial book-entry system to TreasuryDirect. You may 
+transfer your marketable Treasury security from the commercial book-
+entry system by contacting the financial institution or broker that 
+handles your commercial book-entry account.
+    (c) Form of registration upon transfer to TreasuryDirect. When your 
+security is transferred into your TreasuryDirect account, it will be 
+transferred into your account in your name in the sole owner form of 
+registration, regardless of the form of registration prior to the 
+transfer. After the transfer is completed, you can change the 
+registration to any form of registration permitted by Sec.  363.20.
+    (d) Amounts transferred. You can only transfer in increments of 
+$1000.
+
+
+Sec.  363.207  Can I transfer my marketable Treasury security from my 
+TreasuryDirect account to another TreasuryDirect account?
+
+    After the initial 45-calendar day holding period for your 
+marketable Treasury security (see Sec.  363.203) you can transfer your 
+security to another TreasuryDirect account in increments of $1000.
+
+
+Sec.  363.208  Can I transfer my marketable Treasury security from my 
+TreasuryDirect account to an account in another book-entry system?
+
+    After the initial 45-calendar day holding period for your 
+marketable Treasury security (see Sec.  363.203) you can transfer your 
+security to an account in Legacy Treasury Direct or to an account in 
+the commercial book-entry system in increments of $1000.
+
+
+Sec.  363.209  How can I direct that my marketable Treasury security be 
+sold on the open market (Sell Direct[supreg])?
+
+    (a) Sell Direct. We offer a service, referred to as Sell Direct, in 
+which we will sell your marketable Treasury security for you on the 
+open market at your request. We will transfer your security to an 
+account in the commercial book-entry system maintained by our agent, 
+and will sell the security on your behalf. By authorizing the transfer 
+and sale of the security, you agree to accept the price received by our 
+agent. If our agent is unable to obtain at least one price quote for 
+the security, the security will be returned to your TreasuryDirect 
+account.
+    (b) Fee. We charge a fee for each security sold on your behalf. By 
+authorizing the sale of the security, you authorize our agent to deduct 
+the fee from the proceeds of the sale. If our agent is unable to 
+complete the sale, no fee will be charged. The amount of the fee is 
+published in the Federal Register.
+    (c) Definitions. The following definitions will help you understand 
+this section and the confirmation that you will receive after the sale 
+is completed.
+    (1) The trade date is the date that your security is sold.
+    (2) A security, for the purpose of this section, is any amount 
+represented by a separate CUSIP number (see definition of CUSIP in 31 
+CFR part 356).
+    (3) The settlement date is the date that the proceeds of the sale 
+are released to the financial institution that you designated to 
+receive the proceeds.
+    (4) The yield to maturity, or yield, is the annualized rate of 
+return to maturity on a fixed principal security expressed as a 
+percentage. For an inflation-indexed security, yield means real yield, 
+as defined in 31 CFR part 356.
+    (d) On the settlement date, our agent will release the settlement 
+proceeds, less the fee, to the account at the financial institution 
+that you designated.
+    (e) When the transaction is complete, our agent will send you a 
+confirmation. The confirmation will include the price, trade date, 
+settlement date, settlement amount or net amount, transaction fee, and 
+yield to maturity.
+    (f) We are not liable for changes in market conditions affecting 
+the price received for the security, or for any loss that you may incur 
+as a result of the sale or the inability of our agent to complete the 
+sale.
+    (g) We reserve the right to terminate the Sell Direct[supreg] 
+service at any time.
+
+
+Sec.  363.210  Is there any period of time during which I will be 
+unable to process certain transactions regarding my security?
+
+    A closed book period will be in effect for four business days prior 
+to the date a marketable security interest or redemption payment is 
+made. This means that certain transactions made during the closed book 
+period will be delayed until after the closed book period is completed 
+and the payment is made. You will be unable to transfer the security, 
+change the payment destination, change the registration of the 
+security, or use Treasury's Sell Direct[supreg] service during this 
+closed book period.
+
+
+Sec. Sec.  363.211-363.249  [Added and reserved]
+
+0
+40. Add and reserve Sec. Sec. 363.211 through 363.249 in subpart F.
+
+Subpart G--[Added and reserved]
+
+0
+41. Add and reserve Subpart G.
+
+    Dated: September 26, 2005.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 05-19552 Filed 9-27-05; 12:41 pm]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

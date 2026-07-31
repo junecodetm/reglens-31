@@ -1,0 +1,119 @@
+{
+  "abstract": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is issuing this interim final rule to amend the Reporting, Procedures and Penalties Regulations (the \"Regulations\"), to require electronic filing of certain submissions to OFAC and to describe and modify certain reporting requirements related to blocked property and rejected transactions. In particular, the rule would require use of the electronic OFAC Reporting System for submission of reports related to blocked property and rejected transactions, remove the mail option for certain other types of OFAC submissions, describe reports OFAC may require from financial institutions for transactions that meet specified criteria, and add a reporting requirement for any blocked property that is unblocked or transferred. Additionally, OFAC is clarifying the scope of the reporting requirement for rejected transactions, in part to respond to comments received on the interim final rule OFAC published on June 21, 2019 to amend the Regulations. Further, OFAC is modifying the procedures for requests relating to property that is blocked in error and updating the Regulations with respect to the availability of information under the Freedom of Information Act (FOIA) for certain categories of records. OFAC is also clarifying that persons may submit a petition for administrative reconsideration to seek removal of a person or property from the List of Specially Designated Nationals and Blocked Persons or any other list of sanctioned persons maintained by OFAC. OFAC is also adding a description of reports OFAC may require financial institutions to provide about transactions that meet specified criteria to aid in the identification of blocked property. Finally, OFAC is making several technical and conforming edits. OFAC is soliciting public comments for 30 days on this interim final rule.",
+  "action": "Interim final rule; request for comments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2024/05/10/2024-10033.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "501",
+      "title": 31
+    }
+  ],
+  "citation": "89 FR 40372",
+  "comment_url": null,
+  "comments_close_on": "2024-06-10",
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This interim final rule is effective August 8, 2024. Written comments may be submitted on or before June 10, 2024.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [
+    {
+      "agency_name": "OFAC",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 9,
+          "comment_end_date": "2024-06-11",
+          "comment_start_date": "2024-05-10",
+          "comment_url": "https://www.regulations.gov/commenton/OFAC-2024-0002-0001",
+          "id": "OFAC-2024-0002-0001",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2024-09-03T17:01:19.806-04:00"
+        }
+      ],
+      "id": "OFAC-2024-0002",
+      "supporting_documents": [],
+      "supporting_documents_count": 0,
+      "title": "Reporting, Procedures and Penalties Regulations"
+    }
+  ],
+  "document_number": "2024-10033",
+  "effective_on": "2024-08-08",
+  "end_page": 40378,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2024/05/10/2024-10033.xml",
+  "html_url": "https://www.federalregister.gov/documents/2024/05/10/2024-10033/reporting-procedures-and-penalties-regulations",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2024-10033?publication_date=2024-05-10",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2024-05-10/2024-10033/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 7,
+  "page_views": {
+    "count": 4820,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-05-10/pdf/2024-10033.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2024-10033.pdf?1715172315",
+  "publication_date": "2024-05-10",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/05/10/2024-10033.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "agency_id": "OFAC",
+    "checked_regulationsdotgov_at": "2024-06-16T01:00:06Z",
+    "comments_count": 9,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=OFAC-2024-0002",
+    "docket_id": "OFAC-2024-0002",
+    "document_id": "OFAC-2024-0002-0001",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Reporting, Procedures and Penalties Regulations"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 40372,
+  "subtype": null,
+  "title": "Reporting, Procedures and Penalties Regulations",
+  "toc_doc": "Reporting, Procedures and Penalties Regulations",
+  "toc_subject": null,
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Exports",
+    "Foreign trade",
+    "Licensing and registration",
+    "Penalties",
+    "Reporting and recordkeeping requirements"
+  ],
+  "type": "Rule",
+  "volume": 89
+}

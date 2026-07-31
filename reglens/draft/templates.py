@@ -7,10 +7,10 @@ substance is either gate-verified set-out text or a visible placeholder.
 Failure mode: none here — this module is deterministic string assembly; all
 rejection logic lives in ``conformance.py`` (fail-closed there).
 
-The generator produces STRUCTURE; the human produces SUBSTANCE
-(EXTEND-OGC01 Stage 3.3). Every required analysis renders as a visible
-placeholder block. The skeleton never names an issuing agency, invents a
-docket/RIN/contact/date, or proposes any substantive amendment.
+The generator produces STRUCTURE; the human produces SUBSTANCE. Every required
+analysis renders as a visible placeholder block. The skeleton never names an
+issuing agency, invents a docket/RIN/contact/date, or proposes any substantive
+amendment.
 """
 
 from reglens.authority.records import PartAuthority
@@ -28,8 +28,8 @@ PREAMBLE_CAPTIONS: tuple[str, ...] = (
     "SUPPLEMENTARY INFORMATION:",
 )
 
-# Required-analysis sections stubbed (never fabricated) per Stage 3.2. The
-# E.O. 14192 stub mirrors the field structure of reginfo.gov's "Table 1.
+# Required-analysis sections are always rendered as placeholders. The E.O.
+# 14192 stub mirrors the field structure of reginfo.gov's "Table 1.
 # 14192 actions and costs/cost-savings by agency" (snapshotted PDF) — no
 # xlsx workbook exists, so the in-PDF table's fields are the template.
 ANALYSIS_SECTIONS: tuple[str, ...] = (

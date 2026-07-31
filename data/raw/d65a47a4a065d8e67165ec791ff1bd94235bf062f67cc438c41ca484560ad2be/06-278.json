@@ -1,0 +1,86 @@
+{
+  "abstract": "The Office of Foreign Assets Control (\"OFAC\") of the U.S. Department of the Treasury is issuing this interim final rule, \"Economic Sanctions Enforcement Procedures for Banking Institutions,\" along with a request for comments. This interim final rule supercedes OFAC's proposed rule of January 29, 2003,\\1\\ to the extent that the proposed rule applies to \"banking institutions,\" as defined below. These administrative procedures are published as an appendix to the Reporting, Procedures and Penalties Regulations, 31 CFR Part 501. ---------------------------------------------------------------------------",
+  "action": "Interim final rule with request for comments.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 203,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+      "name": "Foreign Assets Control Office",
+      "parent_id": 497,
+      "raw_name": "Office of Foreign Assets Control",
+      "slug": "foreign-assets-control-office",
+      "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2006/01/12/06-278.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 501,
+      "title": 31
+    }
+  ],
+  "citation": "71 FR 1971",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "The interim final rule is effective for enforcement cases involving banking institutions commencing on or after February 13,",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "06-278",
+  "effective_on": "2006-02-13",
+  "end_page": 1976,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2006/01/12/06-278.xml",
+  "html_url": "https://www.federalregister.gov/documents/2006/01/12/06-278/economic-sanctions-enforcement-procedures-for-banking-institutions",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/06-278?publication_date=2006-01-12",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2006-01-12/06-278/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 6,
+  "page_views": {
+    "count": 526,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2006-01-12/pdf/06-278.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2006-01-12",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2006/01/12/06-278.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {
+    "checked_regulationsdotgov_at": "2011-11-12T17:48:18Z"
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 1971,
+  "subtype": null,
+  "title": "Economic Sanctions Enforcement Procedures for Banking Institutions",
+  "toc_doc": "Banking institutions; economic sanctions enforcement procedures",
+  "toc_subject": "Reporting, procedures, and penalties regulations:",
+  "topics": [
+    "Administrative practice and procedure",
+    "Banks, banking",
+    "Reporting and recordkeeping requirements"
+  ],
+  "type": "Rule",
+  "volume": 71
+}

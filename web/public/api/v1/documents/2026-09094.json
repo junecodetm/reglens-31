@@ -1,0 +1,201 @@
+{
+  "document_number": "2026-09094",
+  "document_title": "Publication of Iranian Transactions and Sanctions Regulations Web General Licenses",
+  "document_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09094/publication-of-iranian-transactions-and-sanctions-regulations-web-general-licenses",
+  "document_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+  "accepted_count": 7,
+  "rejected_count": 2,
+  "total_chars": 12292,
+  "extracted_chars": 12292,
+  "claims": [
+    {
+      "claim_id": "1bf252b5bbadc75a",
+      "document_number": "2026-09094",
+      "quote": "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, January 18, 2026, provided that any payment to a blocked person must be made into a blocked interest-bearing account located in the United States: [[Page 24723]]",
+      "obligation_type": "reporting",
+      "affected_party": "parties subject to Executive Order 13902",
+      "summary": "Transactions prohibited by Executive Order 13902 that are incident and necessary to certain activities involving blocked persons or vessels are authorized until January 18, 2026, with the condition that payments to blocked persons must be made into blocked interest-bearing accounts in the United States.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "ad5bf88442b4a440",
+      "document_number": "2026-09094",
+      "quote": "(1) The safe docking and anchoring in any port, excluding ports located in Iran or the Russian Federation or Venezuela, or under the control of the Government of Iran or the Government of the Russian Federation or the Government of Venezuela, of the blocked vessels listed in the Annex to this general license (the ``Blocked Vessels'');",
+      "obligation_type": "requirement",
+      "affected_party": "blocked vessels",
+      "summary": "Safe docking and anchoring in specified ports.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3121,
+      "end": 3461,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "e1ea3cef53c636c2",
+      "document_number": "2026-09094",
+      "quote": "(2) The preservation of the health or safety of the crew of any of the Blocked Vessels;",
+      "obligation_type": "requirement",
+      "affected_party": "blocked vessels",
+      "summary": "Preservation of the health or safety of the crew.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3466,
+      "end": 3554,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "e737851568a2c540",
+      "document_number": "2026-09094",
+      "quote": "(3) Emergency repairs of any of the Blocked Vessels or environmental mitigation or protection activities relating to any of the Blocked Vessels; or",
+      "obligation_type": "requirement",
+      "affected_party": "blocked vessels",
+      "summary": "Emergency repairs or environmental mitigation/protection activities.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3559,
+      "end": 3708,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "ba0a1b7324e140cb",
+      "document_number": "2026-09094",
+      "quote": "(4) The delivery and offloading of cargo involving the Blocked Vessels, provided that the cargo is not of Iranian-origin and was loaded on or before December 18, 2025, and that the delivery and offloading of cargo does not occur at any port located in Iran or the Russian Federation or Venezuela, or under the control of the Government of Iran or the Government of the Russian Federation or the Government of Venezuela.",
+      "obligation_type": "requirement",
+      "affected_party": "blocked vessels",
+      "summary": "Delivery and offloading of cargo with specified conditions.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3713,
+      "end": 4138,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "f4183ef6c50ee001",
+      "document_number": "2026-09094",
+      "quote": "(1) The entry into any new commercial contracts involving the property or interests in property of any blocked persons, including the blocked persons described in paragraph (a) of this general license, except as authorized by paragraph (a); or",
+      "obligation_type": "prohibition",
+      "affected_party": "parties",
+      "summary": "Prohibition on entering new commercial contracts involving blocked persons.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4425,
+      "end": 4671,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "84d3470d5c2bc0ac",
+      "document_number": "2026-09094",
+      "quote": "(2) Any transactions or activities prohibited by E.O. 13902, except as authorized by paragraph (a) of this general license, or any transaction or activity prohibited by any other E.O. or any part of 31 CFR chapter V, including any transaction or activity involving Iran, the Government of Iran, or Iranian-origin goods or services that is prohibited by the Iranian Transactions and Sanctions Regulations (31 CFR part 560).",
+      "obligation_type": "prohibition",
+      "affected_party": "parties",
+      "summary": "Prohibition on transactions or activities prohibited by E.O. 13902 or other regulations.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4676,
+      "end": 5104,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "dac9c9addf32a258",
+      "document_number": "2026-09094",
+      "quote": "all transactions prohibited by Executive Order (E.O.) 13902 that are ordinarily incident and necessary to one or more of the following activities involving the blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest, are authorized through 12:01 a.m. eastern standard time, February 22, 2026, provided that any payment to a blocked person must be made into a blocked interest-bearing account located in the United States: (1) The safe docking and anchoring in any port, excluding ports located in Iran or the Russian Federation or Venezuela, or under the control of the Government of Iran or the Government of the Russian Federation or the Government of Venezuela, of the blocked vessels listed in the Annex to this general license (the ``Blocked Vessels''); (2) The preservation of the health or safety of the crew of any of the Blocked Vessels; (3) Emergency repairs of any of the Blocked Vessels or environmental mitigation or protection activities relating to any of the Blocked Vessels; or (4) The delivery and offloading of cargo involving the Blocked Vessels, provided that the cargo is not of Iranian-origin and was loaded on or before January 23, 2026, and that the delivery and offloading of cargo does not occur at any port located in Iran or the Russian Federation or Venezuela, or under the control of the Government of Iran or the Government of the Russian Federation or the Government of Venezuela.",
+      "obligation_type": "requirement",
+      "affected_party": "blocked vessels or blocked persons listed in the Annex to this general license, and any entity in which the listed blocked persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest",
+      "summary": "Transactions prohibited by E.O. 13902 that are ordinarily incident and necessary to the listed activities are authorized through February 22, 2026, provided that any payment to a blocked person must be made into a blocked interest-bearing account located in the United States.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    },
+    {
+      "claim_id": "f2060e1f8439feea",
+      "document_number": "2026-09094",
+      "quote": "The authorization in paragraph (a) of this general license includes services such as vessel management, crewing, bunkering, piloting, registration, flagging, insurance, classification, and salvage.",
+      "obligation_type": "requirement",
+      "affected_party": "parties involved in the activities listed in paragraph (a)",
+      "summary": "The authorization includes services such as vessel management, crewing, bunkering, piloting, registration, flagging, insurance, classification, and salvage.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4170,
+      "end": 4370,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0cc0b48d98654163c931a7fab26499d111bbc9b2c9fabf21887402cfb27e134b"
+      }
+    }
+  ]
+}

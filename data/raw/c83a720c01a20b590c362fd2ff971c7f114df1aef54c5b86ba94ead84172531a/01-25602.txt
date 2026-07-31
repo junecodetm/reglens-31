@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>Federal Register, Volume 66 Issue 197 (Thursday, October 11, 2001)</title>
+</head>
+<body><pre>
+[Federal Register Volume 66, Number 197 (Thursday, October 11, 2001)]
+[Rules and Regulations]
+[Pages 51867-51868]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 01-25602]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AA87
+
+
+Administrative Wage Garnishment
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This rule makes technical amendments to the regulations issued 
+by the Department of the Treasury concerning implementation of the 
+administrative wage garnishment provisions of the Debt Collection 
+Improvement Act of 1996.
+
+DATES: This rule is effective October 11, 2001.
+
+FOR FURTHER INFORMATION CONTACT: Gerry Isenberg, Financial Program 
+Specialist, Debt Management Services, at (202) 874-6660, or Ronda Kent, 
+Senior Attorney, at (202) 874-6680, Financial Management Service, 
+Department of the Treasury, 401 14th Street SW, Washington, DC 20227. 
+This document is available for downloading from the Financial 
+Management Service web site at the following address:
+<a href="http://www.fms.treas.gov/debt">http://www.fms.treas.gov/debt</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    On May 6, 1998, the Department of the Treasury's Financial 
+Management Service (FMS) issued a final rule (63 FR 25136) concerning 
+implementation of the administrative wage garnishment provisions in 
+section 31001(o) of the Debt Collection Improvement Act of 1996 (DCIA), 
+Pub. L. 104-134, 110 Stat. 1321-358 (Apr. 26, 1996), codified at 31 
+U.S.C. 3720D. FMS published a technical amendment to the rule on April 
+28, 1999 (64 FR 22905), which deleted the requirement that Federal 
+agencies issue an administrative wage garnishment order on agency 
+letterhead. The requirement to issue the order on a form prescribed by 
+the Secretary of the Treasury remains unchanged. This rule makes 
+further technical amendments to the regulations concerning 
+administrative wage garnishment, which are codified at 31 CFR 285.11.
+
+Technical Amendments
+
+Section 285.11(b)  Scope
+
+    In Sec. 285.11(b)(3), the citation to the Federal Claims Collection 
+Standards (FCCS) is updated to reflect the revised FCCS published on 
+November 22, 2000 (65 FR 70390). The revised FCCS are found at 31 CFR 
+parts 900-904.
+
+Section 285.11(c)  Definitions
+
+    In Sec. 285.11(c), the term ``certificate of service'' is replaced 
+with the term ``evidence of service.'' Conforming changes are made in 
+Secs. 285.11(e)(3) and 285.11(g)(3). Unlike a certificate of service, 
+evidence of service does not need to be in the form of a document 
+signed by an agency official. The purpose of evidence of service is the 
+same as that of the certificate of service, that is, to retain evidence 
+that a document has been sent to the debtor or employer for wage 
+garnishment purposes. Evidence of service may be retained 
+electronically or otherwise, so long as the manner of retention is 
+sufficient for evidentiary purposes.
+
+Section 285.11(g)  Wage Garnishment Order
+
+    Section 285.11(g)(1) is amended to clarify the time frame within 
+which an agency is required to issue a wage garnishment order after 
+sending notice to the debtor of the agency's intent to do so. While 
+agencies are encouraged to issue the wage garnishment order within the 
+30 day time period suggested, nothing in this rule is intended to imply 
+that any wage garnishment order issued after such 30 day period is 
+invalid.
+    Section 285.11(g)(2) is amended to allow the wage garnishment order 
+to contain either the signature of, or the image of the signature of, 
+the agency official authorized to issue the wage garnishment order. For 
+purposes of this rule, the lack of an original signature on the wage 
+garnishment order does not necessarily prove that the agency did not 
+authorize the wage garnishment order. Evidence of such approval to 
+garnish a debtor's wages may be retained by the agency electronically 
+or otherwise, so long as the manner of retention is sufficient for 
+evidentiary purposes. Employers must comply with a wage garnishment 
+order that contains an original, or image of an original, signature.
+
+Regulatory Analysis
+
+    This rule is not a significant regulatory action as defined in 
+Executive Order 12866. Because no notice of proposed rulemaking is 
+required for this rule, the provisions of the Regulatory Flexibility 
+Act do not apply.
+
+Special Analysis
+
+    FMS is promulgating this final rule without opportunity for prior 
+public comment and without a delayed effective date pursuant to the 
+Administrative Procedure Act, 5 U.S.C. 553 (the ``APA''). FMS has 
+determined that a comment period and a delayed effective date are 
+unnecessary because nothing in this rule impacts the rights or 
+obligations of debtors or changes the authorities under which Federal 
+agencies collect debt.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Claims, Debts, Garnishment 
+of wages, Hearing and appeal procedures, Salaries, Wages.
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, 31 CFR 285.11 is amended 
+as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+    1. The authority citation for part 285 continues to read as 
+follows:
+
+
+[[Page 51868]]
+
+
+    Authority: 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 3711, 3716, 
+3720A, 3720B, 3720D; E.O. 13019; 3 CFR, 1996 Comp., p. 216.
+
+
+    2. Section 285.11 is amended by revising paragraphs (b)(3), (c), 
+(e)(3), and (g) to read as follows:
+
+
+285.11  Administrative wage garnishment.
+
+* * * * *
+    (b) Scope.
+* * * * *
+    (3) Nothing in this section precludes the compromise of a debt or 
+the suspension or termination of collection action in accordance with 
+applicable law. See, for example, the Federal Claims Collection 
+Standards (FCCS), 31 CFR parts 900-904.
+* * * * *
+    (c) Definitions. As used in this section the following definitions 
+shall apply:
+    Agency means a department, agency, court, court administrative 
+office, or instrumentality in the executive, judicial, or legislative 
+branch of the Federal Government, including government corporations. 
+For purposes of this section, agency means either the agency that 
+administers the program that gave rise to the debt or the agency that 
+pursues recovery of the debt.
+    Business day means Monday through Friday. For purposes of 
+computation, the last day of the period will be included unless it is a 
+Federal legal holiday.
+    Day means calendar day. For purposes of computation, the last day 
+of the period will be included unless it is a Saturday, a Sunday, or a 
+Federal legal holiday.
+    Debt or claim means any amount of money, funds or property that has 
+been determined by an appropriate official of the Federal Government to 
+be owed to the United States by an individual, including debt 
+administered by a third party as an agent for the Federal Government.
+    Delinquent nontax debt means any nontax debt that has not been paid 
+by the date specified in the agency's initial written demand for 
+payment, or applicable agreement, unless other satisfactory payment 
+arrangements have been made. For purposes of this section, the terms 
+``debt'' and ``claim'' are synonymous and refer to delinquent nontax 
+debt.
+    Debtor means an individual who owes a delinquent nontax debt to the 
+United States.
+    Disposable pay means that part of the debtor's compensation 
+(including, but not limited to, salary, bonuses, commissions, and 
+vacation pay) from an employer remaining after the deduction of health 
+insurance premiums and any amounts required by law to be withheld. For 
+purposes of this section, ``amounts required by law to be withheld'' 
+include amounts for deductions such as social security taxes and 
+withholding taxes, but do not include any amount withheld pursuant to a 
+court order.
+    Employer means a person or entity that employs the services of 
+others and that pays their wages or salaries. The term employer 
+includes, but is not limited to, State and local Governments, but does 
+not include an agency of the Federal Government.
+    Evidence of service means information retained by the agency 
+indicating the nature of the document to which it pertains, the date of 
+mailing of the document, and to whom the document is being sent. 
+Evidence of service may be retained electronically so long as the 
+manner of retention is sufficient for evidentiary purposes.
+    Garnishment means the process of withholding amounts from an 
+employee's disposable pay and the paying of those amounts to a creditor 
+in satisfaction of a withholding order.
+    Withholding order means any order for withholding or garnishment of 
+pay issued by an agency, or judicial or administrative body. For 
+purposes of this section, the terms ``wage garnishment order'' and 
+``garnishment order'' have the same meaning as ``withholding order.''
+* * * * *
+    (e) Notice requirements.
+* * * * *
+    (3) The agency will retain evidence of service indicating the date 
+of mailing of the notice.
+* * * * *
+    (g) Wage garnishment order. (1) Unless the agency receives 
+information that the agency believes justifies a delay or cancellation 
+of the withholding order, the agency should send, by first class mail, 
+a withholding order to the debtor's employer:
+    (i) Within 30 days after the debtor fails to make a timely request 
+for a hearing (i.e., within 15 business days after the mailing of the 
+notice described in paragraph (e)(1) of this section), or,
+    (ii) If a timely request for a hearing is made by the debtor, 
+within 30 days after a final decision is made by the agency to proceed 
+with garnishment, or,
+    (iii) As soon as reasonably possible thereafter.
+    (2) The withholding order sent to the employer under paragraph 
+(g)(1) of this section shall be in a form prescribed by the Secretary 
+of the Treasury. The withholding order shall contain the signature of, 
+or the image of the signature of, the head of the agency or his/her 
+delegatee. The order shall contain only the information necessary for 
+the employer to comply with the withholding order. Such information 
+includes the debtor's name, address, and social security number, as 
+well as instructions for withholding and information as to where 
+payments should be sent.
+    (3) The agency will retain evidence of service indicating the date 
+of mailing of the order.
+* * * * *
+
+    Dated: September 28, 2001.
+Richard L. Gregg,
+Commissioner.
+[FR Doc. 01-25602 Filed 10-11-01; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

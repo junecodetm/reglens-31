@@ -1,0 +1,757 @@
+<html>
+<head>
+<title>Federal Register, Volume 71 Issue 8 (Thursday, January 12, 2006)</title>
+</head>
+<body><pre>
+[Federal Register Volume 71, Number 8 (Thursday, January 12, 2006)]
+[Rules and Regulations]
+[Pages 1971-1976]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 06-278]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Economic Sanctions Enforcement Procedures for Banking 
+Institutions
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Interim final rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control (``OFAC'') of the U.S. 
+Department of the Treasury is issuing this interim final rule, 
+``Economic Sanctions Enforcement Procedures for Banking Institutions,'' 
+along with a request for comments. This interim final rule supercedes 
+OFAC's proposed rule of January 29, 2003,\1\ to the extent that the 
+proposed rule applies to ``banking institutions,'' as defined below. 
+These administrative procedures are published as an appendix to the 
+Reporting, Procedures and Penalties Regulations, 31 CFR Part 501.
+---------------------------------------------------------------------------
+
+    \1\ 68 FR 4422-4429 (2003).
+
+DATES: The interim final rule is effective for enforcement cases 
+involving banking institutions commencing on or after February 13, 
+---------------------------------------------------------------------------
+2006. Written comments may be submitted on or before March 13, 2006.
+
+ADDRESSES: You may submit comments by any of the following methods:
+    <bullet> Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. 
+Follow the instructions for submitting comments.
+    <bullet> Agency Web site: <a href="http://www.treas.gov/offices/enforcement/ofac/comment.html">http://www.treas.gov/offices/enforcement/ofac/comment.html</a>.
+    <bullet> Fax: Assistant Director of Records, (202) 622-1657.
+    <bullet> Mail: Assistant Director of Records, ATTN: Request for 
+Comments (Enforcement Procedures), Office of Foreign Assets Control, 
+Department of the Treasury, 1500 Pennsylvania Avenue, NW., Washington, 
+DC 20220.
+
+[[Page 1972]]
+
+    Instructions: All submissions received must include the agency name 
+and the FR Doc. number that appears at the end of this document. 
+Comments received will be posted without change to <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>, including any personal information provided.
+
+FOR FURTHER INFORMATION CONTACT: Assistant Director of Records, (202) 
+622-2500 (not a toll-free call).
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available from OFAC's Web site (<a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>) or via 
+facsimile through a 24-hour fax-on-demand service, tel.: 202/622-0077.
+
+Procedural Requirements
+
+    Because this interim final rule imposes no obligations on any 
+person, but instead simply explains OFAC's enforcement practices based 
+on existing substantive and procedural rules, prior notice and public 
+procedure are not required pursuant to 5 U.S.C. 553(b)(A). Because no 
+notice of proposed rulemaking is required, the provisions of the 
+Regulatory Flexibility Act (5 U.S.C. chapter 6) do not apply. Finally, 
+this interim final rule is not a significant regulatory action for 
+purposes of Executive Order 12866.
+    Although a prior notice of proposed rulemaking is not required, 
+OFAC is soliciting comments on this interim final rule in order to 
+consider how it might make improvements in its enforcement procedures 
+in the future. Comments must be submitted in writing. The addresses and 
+deadline for submitting comments appear near the beginning of this 
+notice. OFAC will not accept comments accompanied by a request that all 
+or part of the submission be treated confidentially because of its 
+business proprietary nature or for any other reason. All comments 
+received by the deadline will be a matter of public record and will be 
+made available on OFAC's Web site: <a href="http://www.treas.gov/offices/enforcement/ofac/index.html">http://www.treas.gov/offices/enforcement/ofac/index.html</a>.
+
+Background
+
+    On January 29, 2003, OFAC published, as a proposed rule, Economic 
+Sanctions Enforcement Guidelines. Though this proposed rule has not 
+been finalized, OFAC has used the Guidelines as a general framework for 
+its enforcement actions. OFAC has decided that the enforcement 
+procedures with respect to banking institutions should be modified and 
+is publishing enforcement procedures for these entities as an interim 
+final rule. OFAC is also requesting comments on this interim final 
+rule.
+    In conjunction with issuing this interim final rule, OFAC is 
+withdrawing the January 29, 2003 proposed rule to the extent it applies 
+to banking institutions, as defined herein. For purposes of this 
+interim rule, ``banking institutions'' means depository institutions 
+regulated or supervised by one of the regulators that belongs to the 
+Federal Financial Institutions Examination Council (``FFIEC''), i.e., 
+the Board of Governors of the Federal Reserve System, the Federal 
+Deposit Insurance Corporation, the National Credit Union 
+Administration, the Office of the Comptroller of the Currency, and the 
+Office of Thrift Supervision. Please note that a depository institution 
+may be a ``banking institution,'' as that term is defined in OFAC 
+regulations, see, e.g., 31 CFR 500.314, 515.314, but not a ``banking 
+institution'' for purposes of these enforcement procedures. Because 
+this interim final rule only applies to enforcement procedures for 
+banking institutions, as defined herein, OFAC plans to issue guidance 
+on its enforcement procedures for other types of institutions and other 
+sectors in the future.
+    OFAC is publishing enforcement procedures for banking institutions 
+because of their unique role in the implementation of OFAC sanctions 
+programs and the nature of the transactions in which such institutions 
+engage. The new enforcement procedures take into account that each 
+banking institution's situation is different and that its compliance 
+program should be tailored to its unique circumstances. This includes 
+an analysis of its size, business volume, customer base, and product 
+lines.
+    In order to implement this new approach, OFAC has been working and 
+will continue to work in partnership with the federal banking 
+regulators. OFAC worked with FFIEC members to develop standards to 
+evaluate compliance programs at banking institutions. In June 2005, the 
+FFIEC released its Bank Secrecy Act Anti-Money Laundering Examination 
+Manual. Portions of this manual relate to compliance with various OFAC 
+sanctions programs. In addition, working with FFIEC members, OFAC has 
+developed risk matrices, which may be used by depository institutions 
+as ``best practices.'' \2\ The matrices provide a guide for evaluating 
+a banking institution's risk of encountering accounts or transactions 
+subject to OFAC regulations and for determining the quality of an 
+institution's compliance program. As indicated in the FFIEC examination 
+manual, the banking regulators evaluate a banking institution's overall 
+OFAC compliance program using a similar methodology.
+---------------------------------------------------------------------------
+
+    \2\ These matrices can be found in Annex A to the interim final 
+rule and can be accessed online at <a href="http://www.treas.gov/offices/enforcement/ofac/faq/matrix.pdf">http://www.treas.gov/offices/enforcement/ofac/faq/matrix.pdf</a>.
+---------------------------------------------------------------------------
+
+    Also, in administering its enforcement authority with respect to 
+various sanctions statutes, Executive orders, and regulations, OFAC 
+will provide the federal banking regulators with information related to 
+apparent violations or compliance concerns as it becomes aware of them. 
+In turn, OFAC will receive information from the banking regulators, 
+including, for those institutions with apparent violations, evaluations 
+of the sufficiency of each such institution's implementation of 
+policies, procedures, and systems for ensuring OFAC compliance.
+    Prior to taking enforcement actions, OFAC generally will review 
+apparent violations by a particular institution over a period of time, 
+rather than evaluating each apparent violation independently. However, 
+in regard to what appears to be a particularly egregious violation, 
+OFAC may evaluate the situation as it presents itself and take prompt 
+enforcement action.
+    Under the revised procedures, OFAC will periodically evaluate a 
+banking institution's apparent OFAC-related violations in the context 
+of the institution's overall OFAC compliance program and specific OFAC 
+compliance record. OFAC will not conduct such a review if there are no 
+apparent violations. The information reviewed will include but not 
+necessarily be limited to: the evaluation of the banking institution's 
+OFAC compliance program by its primary federal banking regulator; the 
+institution's history of OFAC compliance; the circumstances surrounding 
+any apparent violation, including what appear to be patterns or 
+weaknesses in an institution's compliance program and whether they 
+indicate negligence or a fundamental flaw in the compliance effort or 
+system and whether they were voluntarily disclosed; enforcement 
+information provided by the institution to OFAC; the number of 
+transactions or accounts that the institution handled improperly during 
+the period under review and its responses to any administrative 
+subpoenas that OFAC sent with regard to those transactions or accounts; 
+the number of transactions successfully blocked or rejected by the 
+banking institution during the period; the actions taken by the banking 
+institution to correct any violations and to ensure
+
+[[Page 1973]]
+
+that similar violations do not happen again; and other relevant 
+information available to OFAC at the time of the evaluation.
+    After a review of apparent violations, OFAC will contact the 
+banking institution, either by phone, in-person, or in writing, 
+regarding OFAC's preliminary assessment of the appropriate action with 
+respect to the institution. OFAC's staff will discuss the results of 
+its review with the institution, including any patterns or weaknesses 
+in an institution's compliance program. With respect to particular 
+transactions, the discussion will cover the actions taken by the 
+banking institution to ensure that similar transactions do not take 
+place in the future and the adequacy of responses to any administrative 
+subpoenas OFAC has sent with regard to the transactions. OFAC will 
+indicate the intended administrative action to be taken for each 
+transaction or set of related transactions that appear to constitute 
+violations of OFAC-administered sanctions programs.
+    Once OFAC has reached a decision, it will notify the institution in 
+writing as to its proposed action with regard to each apparent 
+violation during the period under review. OFAC will provide a copy of 
+this letter to the institution's primary federal banking regulator. In 
+the event that OFAC has notified the institution of its intent to 
+pursue a civil penalty with regard to any or all of the apparent 
+violations, existing civil penalty procedures under OFAC regulations 
+will be followed. These include the opportunity for informal settlement 
+prior to formal initiation of penalty action through the issuance of a 
+prepenalty notice.
+    In subsequent periodic reviews relating to the institution's 
+apparent violations, all prior actions and decisions taken by OFAC, 
+including cases in which the decision is to take no action, will be 
+considered in deciding what action to take.
+    In addition to detailing these new procedures, the interim final 
+rule clarifies that, for a banking institution, a voluntary disclosure, 
+a factor that OFAC considers in its enforcement decisions, does not 
+include a disclosure when another party is required to file a report 
+concerning the same transaction. This is the case whether or not the 
+other party actually files a report. However, OFAC considers reporting 
+of violations important for its compliance and enforcement programs and 
+will consider such reports by a banking institution a mitigating factor 
+in its enforcement decisions even if they do not meet the definition of 
+``voluntary disclosure'' contained in these enforcement procedures. 
+While reports that are not voluntary disclosures will generally not be 
+accorded the same importance as voluntary disclosures, OFAC will give 
+such cooperation due consideration.
+    Though this interim final rule becomes effective in 30 days, OFAC 
+is soliciting comments for a 60-day period with a view to improving its 
+enforcement procedures.
+    In particular, commenters are invited to address how much 
+significance, separately or collectively, OFAC should attribute in its 
+enforcement decisions to such factors as a banking regulator's 
+assessments of a banking institution's compliance program, a banking 
+institution's historical OFAC compliance record, and a comparison of 
+that record to similarly situated banking institutions.
+    Also, this interim final rule does not apply to entities regulated 
+by the Securities and Exchange Commission (``SEC'') and the Commodity 
+Futures Trading Commission (``CFTC''), such as broker-dealers, mutual 
+funds, investment advisers, hedge fund advisers, futures commission 
+merchants, commodity trading advisers, and commodity pool operators, 
+even if such legal entities are affiliated with a banking institution. 
+OFAC plans to issue separate enforcement procedures for SEC- and CFTC-
+regulated entities in recognition that the regulatory regimes 
+administered by the SEC and the CFTC are significantly different from 
+the regime administered by federal banking regulators. Commenters are 
+asked to address whether there is current information about the 
+compliance programs of SEC- and CFTC-regulated entities that OFAC could 
+use in a similar manner to the way compliance information will be used 
+for making enforcement decisions for banks. Commenters are also 
+requested to provide any suggestions concerning how the enforcement 
+procedures described in this interim final rule should be modified for 
+entities regulated by the SEC or CFTC.
+    OFAC also plans to issue enforcement procedures for certain 
+financial sector entities regulated by state government agencies but 
+not by federal financial regulators. This sector includes entities that 
+are similar to federally-regulated banking institutions, such as 
+certain credit unions and banks not insured by an agency of the U.S. 
+Government, and it includes some money service businesses. Commenters 
+are asked for suggestions concerning how the enforcement procedures in 
+the interim final rule should be modified for the purpose of providing 
+separate enforcement procedures for these entities.
+    The interim final rule does not apply to other financial sector 
+entities, such as insurance companies (including property and casualty, 
+life, and reinsurance lines of business), pension funds, finance 
+companies, mortgage bankers, and government-sponsored enterprises. 
+Commenters are asked for their suggestions on how enforcement 
+procedures should be modified to apply to these other financial sector 
+entities and whether and how enforcement procedures for financial 
+sector firms should vary depending on the regulatory regime, if any, to 
+which various financial sector firms are subject.
+    Commenters are also requested to provide suggestions concerning 
+appropriate enforcement procedures for non-financial sectors, such as 
+import-export businesses, the computer and software industries, and e-
+commerce.
+    These procedures apply to banking institutions that may be part of 
+a larger corporate structure, with a parent holding company. Commenters 
+are asked how OFAC should consider for enforcement purposes complex 
+corporate structures, which may include entities regulated by the Board 
+of Governors of the Federal Reserve System, the Office of the 
+Comptroller of the Currency, the Office of Thrift Supervision, the SEC, 
+and the CFTC. Other affiliates, such as insurance companies, may be 
+regulated by state regulators; some affiliates may be subject to the 
+jurisdiction of foreign regulators; and some entities may not have a 
+functional regulator. Such complicated structures pose challenges for 
+assessing compliance programs and making determinations about 
+enforcement actions when there are violations. Commenters are invited 
+to address the proper enforcement approach for complicated holding 
+company structures.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Reporting 
+and recordkeeping requirements.
+
+0
+For the reasons set forth in the preamble, 31 CFR part 501 is amended 
+as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for Part 501 continues to read as follows:
+
+    Authority: 18 U.S.C. 2332d; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 
+22 U.S.C. 2370(a); 31 U.S.C. 321(b); 50 U.S.C. 1701-
+
+[[Page 1974]]
+
+1706; 50 U.S.C. App. 1-44; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); E.O. 9193, 7 FR 5205, 3 CFR, 1938-1943 Comp., p. 1174; 
+E.O. 9989, 13 FR 4891, 3 CFR, 1943-1948 Comp., p. 748; E.O. 12854, 
+58 FR 36587, 3 CFR, 1993 Comp., p. 614.
+
+
+0
+2. Part 501 is amended by adding the following appendix A, with 
+annexes, to read as follows:
+
+Appendix A to Part 501--Economic Sanctions Enforcement Procedures for 
+Banking Institutions
+
+    Note: This appendix provides a general procedural framework for 
+the enforcement of all economic sanctions programs administered by 
+the Office of Foreign Assets Control (``OFAC'') only as they relate 
+to banking institutions, as defined herein.
+
+I. Definitions
+
+    A. Banking regulator means the Board of Governors of the Federal 
+Reserve System, the Federal Deposit Insurance Corporation, the 
+National Credit Union Administration, the Office of the Comptroller 
+of the Currency, or the Office of Thrift Supervision.
+    B. Banking institution, for purposes of this appendix to Part 
+501, means a depository institution supervised or regulated by a 
+banking regulator.
+    C. OFAC means the Department of the Treasury's Office of Foreign 
+Assets Control.
+    D. Voluntary disclosure means notification to OFAC of an 
+apparent sanctions violation by the banking institution that has 
+committed it. However, such notification to OFAC is not deemed a 
+voluntary disclosure if OFAC has previously received information 
+concerning the conduct from another source, including, but not 
+limited to, a regulatory or law enforcement agency or another 
+person's blocking or funds transfer rejection report.
+    Notification by a banking institution is also not a voluntary 
+disclosure if another person's blocking or funds transfer rejection 
+report is required to be filed, whether or not this required filing 
+is made. Responding to an administrative subpoena or other inquiry 
+from OFAC is not a voluntary disclosure. The submission of a license 
+request is not a voluntary disclosure unless it is accompanied by a 
+separate disclosure.
+
+II. Enforcement of Economic Sanctions in General
+
+    A. OFAC Civil Investigation and Enforcement Action. OFAC is 
+responsible for civil investigation and enforcement with respect to 
+economic sanctions violations committed by banking institutions. In 
+these efforts, OFAC may coordinate with banking regulators. OFAC 
+investigations may lead to one or more of the following: an 
+administrative subpoena, an order to cease and desist, a blocking 
+order, an evaluative letter summarizing concerns, or a civil penalty 
+proceeding. In addition to or instead of such actions, if the 
+banking institution involved is currently acting pursuant to an OFAC 
+license, that license may be suspended or revoked.
+    B. OFAC's Evaluation of Violative Conduct. The level of 
+enforcement action undertaken by OFAC involving a banking 
+institution depends on the nature of the apparent violation, the 
+enforcement objectives, and the foreign policy goals of the 
+particular sanctions program involved. In evaluating whether to 
+initiate a civil penalty action, OFAC determines whether there is 
+reason to believe that a violation of the relevant regulations, 
+statutes, or Executive orders has occurred. In making determinations 
+about the disposition of apparent violations by banking 
+institutions, including evaluative letters and civil penalties, OFAC 
+will consider information provided by the banking institution and 
+its banking regulator concerning the institution's compliance 
+program and the adequacy of that program based on its OFAC risk 
+profile. Further information about the evaluation of compliance 
+programs commensurate with the risk profile of a banking institution 
+and a description of a sound OFAC compliance program are provided in 
+Annexes A and B.
+    C. Criminal Investigations and Prosecutions. If the evidence 
+suggests that a banking institution has committed a willful 
+violation of a substantive prohibition or requirement, OFAC may 
+refer those cases to other federal law enforcement agencies for 
+criminal investigation. Cases that an investigative agency has 
+referred to the Department of Justice for criminal prosecution also 
+may be subject to OFAC civil penalty action.
+
+III. Periodic Institutional Review
+
+    A. Except for those significant violations for which prompt 
+action, such as a civil penalty proceeding or referral to other 
+federal law enforcement agencies, is appropriate, OFAC will review 
+institutions with violations or suspected violations on a periodic 
+basis. OFAC will review each such institution's apparent violations 
+over a period of time deemed appropriate in light of the number and 
+severity of apparent violations and the institution's OFAC 
+compliance history.
+    B. Upon completing this review, OFAC will preliminarily 
+determine the type of enforcement action it will pursue for each 
+apparent violation or related apparent violations. OFAC will then 
+seek comment from the banking institution and ask it to provide 
+additional information with regard to the apparent violation or 
+violations. OFAC also will ask the institution to explain what 
+actions led to the apparent violation or violations and what 
+actions, if any, it has taken to overcome the deficiencies in its 
+systems that led to the apparent improper handling of the 
+transactions or accounts. Depending on the number and complexity of 
+the apparent violations, OFAC may grant up to 30 days for a banking 
+institution to respond and may grant further extensions at its sole 
+discretion where it determines this is appropriate. Upon receipt of 
+the institution's response, OFAC will decide whether to pursue the 
+intended administrative action or whether some other action would 
+serve the same purpose.
+    C. OFAC will subsequently send the banking institution a letter 
+detailing its findings and further actions, if any, concerning the 
+apparent violations. OFAC will provide the banking institution's 
+primary banking regulator with a copy of this letter.
+
+IV. Factors Affecting Administrative Action
+
+    In making its decision as to administrative action, if any, OFAC 
+will consider a number of factors, including, but not limited to, 
+the following:
+    A. The institution's history of sanctions violations.
+    B. The size of the institution and the number of OFAC-related 
+transactions handled correctly compared to the number and nature of 
+transactions handled incorrectly.
+    C. The quality and effectiveness of the banking institution's 
+overall OFAC compliance program, as determined by the institution's 
+primary banking regulator and by its history of compliance with OFAC 
+regulations.
+    D. Whether the apparent violation or violations in question are 
+the result of systemic failures at the banking institution or are 
+atypical in nature.
+    E. The voluntary disclosure to OFAC of the apparent violation or 
+violations by the banking institution.
+    F. Providing OFAC a report of, or useful enforcement information 
+concerning, the apparent violation or violations. Providing a 
+report, but not a voluntary disclosure, of the apparent violation or 
+violations will generally be accorded less weight as a mitigating 
+factor than would provision of a voluntary disclosure.
+    G. The deliberate effort to hide or conceal from OFAC or to 
+mislead OFAC concerning an apparent violation or violations or its 
+OFAC compliance program.
+    H. An analysis of current or potential sanctions harm as a 
+result of a violation or series of related violations. This analysis 
+will focus both on the specifics of the apparent violation or 
+violations and the institution's compliance effort.
+    I. Technical, computer, or human error.
+    J. Applicability of a statute of limitations and any waivers 
+thereof.
+    K. Actions taken by the banking institution to correct the 
+problems that led to the apparent violation or violations.
+    L. The level of OFAC action that will best lead to enhanced 
+compliance by the banking institution.
+    M. The level of OFAC action that will best serve to encourage 
+enhanced compliance by others.
+    N. Evidence that a transaction or transactions could have been 
+licensed by OFAC under an existing licensing policy.
+    O. Whether other U.S. government agencies have taken enforcement 
+action.
+    P. Qualification of the banking institution as a small business 
+or organization for the purposes of the Small Business Regulatory 
+Enforcement Fairness Act, as determined by reference to the 
+applicable regulations of the Small Business Administration.
+
+V. License Suspension and Revocation
+
+    In addition to or in lieu of other administrative actions, OFAC 
+authorization to engage in a transaction or transactions pursuant to 
+a general or specific license may
+
+[[Page 1975]]
+
+be suspended or revoked with respect to a banking institution for 
+reasons including, but not limited to, the following:
+    A. The banking institution has made or caused to be made in any 
+license application, or in any report required pursuant to a 
+license, any statement that was, at the time and in light of the 
+circumstances under which it was made, false or misleading with 
+respect to any material fact, or it has omitted to state in any 
+application or report any material fact that was required;
+    B. The banking institution has failed to file timely reports or 
+comply with the recordkeeping requirements of a general or specific 
+license;
+    C. The banking institution has violated any provision of the 
+statutes enforced by OFAC or the rules or regulations issued under 
+any such provision or relevant Executive orders and such violation 
+or violations are significant and merited civil penalty or other 
+enforcement action;
+    D. The banking institution is reasonably believed to have 
+counseled, commanded, induced, procured, or knowingly aided or 
+abetted the violation of any provision of any legal authority 
+referred to in paragraph C;
+    E. Based on the information available to it, OFAC considers the 
+banking institution's compliance program inadequate; or
+    F. The banking institution has committed any other act or 
+omission that demonstrates unfitness to conduct the transactions 
+authorized by the general or specific license.
+
+VI. Civil Penalties
+
+    The procedures for addressing the actions of banking 
+institutions that OFAC decides merit civil penalty treatment are 
+provided in the regulations governing the particular sanctions 
+program involved, or, in the case of sanctions regulations issued 
+pursuant to the Trading with the Enemy Act, in this Part. The 
+factors listed in Section IV will be considerations in the civil 
+penalty process.
+
+                      Annex A.--OFAC Risk Matrices
+ [The following matrices can be used by banking institutions to evaluate
+ their compliance programs. Matrix A is from the FFIEC Bank Secrecy Act
+ Anti-Money Laundering Examination Manual published in 2005, Appendix M
+             (``Quantity of Risk Matrix--OFAC Procedures'')]
+------------------------------------------------------------------------
+             Low                    Moderate                High
+------------------------------------------------------------------------
+                                Matrix A
+------------------------------------------------------------------------
+Stable, well-known customer   Customer base         A large, fluctuating
+ base in a localized           changing due to       client base in an
+ environment.                  branching, merger     international
+                               or acquisition in     environment.
+                               the domestic market.
+Few high-risk customers;      A moderate number of  A large number of
+ these may include             high-risk customers.  high-risk
+ nonresident aliens, foreign                         customers.
+ customers (including
+ accounts with U.S. powers
+ of attorney) and foreign
+ commercial customers.
+No overseas branches and no   Overseas branches or  Overseas branches or
+ correspondent accounts with   correspondent         multiple
+ foreign banks.                accounts with         correspondent
+                               foreign banks.        accounts with
+                                                     foreign banks.
+No electronic banking (e-     The bank offers       The bank offers a
+ banking) services offered,    limited e-banking     wide array of e-
+ or products available are     products and          banking products
+ purely informational or non-  services.             and services (i.e.,
+ transactional.                                      account transfers,
+                                                     e-bill payment, or
+                                                     accounts opened via
+                                                     the Internet).
+Limited number of funds       A moderate number of  A high number of
+ transfers for customers and   funds transfers,      customer and non-
+ non-customers, limited        mostly for            customer funds
+ third-party transactions,     customers.            transfers,
+ and no international funds    Possibly, a few       including
+ transfers.                    international funds   international funds
+                               transfers from        transfers.
+                               personal or
+                               business accounts.
+No other types of             Limited other types   A high number of
+ international transactions,   of international      other types of
+ such as trade finance,        transactions.         international
+ cross-border ACH, and                               transactions.
+ management of sovereign
+ debt.
+No history of OFAC actions.   A small number of     Multiple recent
+ No evidence of apparent       recent actions        actions by OFAC,
+ violation or circumstances    (i.e., actions        where the bank has
+ that might lead to a          within the last       not addressed the
+ violation.                    five years) by        issues, thus
+                               OFAC, including       leading to an
+                               notice letters, or    increased risk of
+                               civil money           the bank
+                               penalties, with       undertaking similar
+                               evidence that the     violations in the
+                               bank addressed the    future.
+                               issues and is not
+                               at risk of similar
+                               violations in the
+                               future.
+-----------------------------
+    Matrix B. This matrix consists of additional factors that may be
+ considered by banking institutions in assessing compliance programs in
+     addition to Appendix M of the FFIEC Bank Secrecy Act Anti-Money
+                     Laundering Examination Manual.
+------------------------------------------------------------------------
+Management has fully          Management exhibits   Management does not
+ assessed the bank's level     a reasonable          understand, or has
+ of risk based on its          understanding of      chosen to ignore,
+ customer base and product     the key aspects of    key aspects of OFAC
+ lines. This understanding     OFAC compliance and   compliance risk.
+ of risk and strong            its commitment is     The importance of
+ commitment to OFAC            generally clear and   compliance is not
+ compliance is                 satisfactorily        emphasized or
+ satisfactorily communicated   communicated          communicated
+ throughout the organization.  throughout the        throughout the
+                               organization, but     organization.
+                               it may lack a
+                               program
+                               appropriately
+                               tailored to risk.
+The board of directors, or    The board has         The board has not
+ board committee, has          approved an OFAC      approved an OFAC
+ approved an OFAC compliance   compliance program    compliance program,
+ program that includes         that includes most    or policies,
+ policies, procedures,         of the appropriate    procedures,
+ controls, and information     policies,             controls, and
+ systems that are adequate,    procedures,           information systems
+ and consistent with the       controls, and         are significantly
+ bank's OFAC risk profile.     information systems   deficient.
+                               necessary to ensure
+                               compliance, but
+                               some weaknesses are
+                               noted.
+Staffing levels appear        Staffing levels       Management has
+ adequate to properly          appear generally      failed to provide
+ execute the OFAC to           adequate, but some    appropriate
+ properly execute the OFAC     deficiencies are      staffing levels to
+ compliance program.           noted.                handle workload.
+Authority and accountability  Authority and         Authority and
+ for OFAC compliance are       accountability are    accountability for
+ clearly defined and           defined, but some     compliance have not
+ enforced, including the       refinements are       been clearly
+ designations of a qualified   needed. A qualified   established. No
+ OFAC officer.                 OFAC officer has      OFAC compliance
+                               been designated.      officer, or an
+                                                     unqualified one,
+                                                     has been appointed.
+                                                     The role of the
+                                                     OFAC officer is
+                                                     unclear.
+
+[[Page 1976]]
+
+ 
+Training is appropriate and   Training is           Training is sporadic
+ effective based on the        conducted and         and does not cover
+ bank's risk profile, covers   management provides   important
+ applicable personnel, and     adequate resources    regulatory and risk
+ provides necessary up-to-     given the risk        areas.
+ date information and          profile of the
+ resources to ensure           organization;
+ compliance.                   however, some ares
+                               are not covered
+                               within the training
+                               program.
+The institution employs       The institution       The institution does
+ strong quality control        employs limited       not employ quality
+ methods.                      quality control       control quality
+                               methods.              control methods.
+------------------------------------------------------------------------
+
+Annex B--Sound Banking Institution OFAC Compliance Programs
+
+    A. Identification of High Risk Business Areas. A fundamental 
+element of a sound OFAC compliance program rests on a banking 
+institution's assessment of its specific product lines and 
+identification of the high-risk areas for OFAC transactions. As OFAC 
+sanctions reach into virtually all types of commercial and banking 
+transactions, no single area will likely pass review without 
+consideration of some type of OFAC compliance measure. Relevant 
+areas to consider in a risk assessment include, but are not limited 
+to, the following: retail operations, loans and other extensions of 
+credit (open and closed-ended; on and off-balance sheet, including 
+letters of credit), funds transfers, trust, private and 
+correspondent banking, international, foreign offices, over-the-
+counter derivatives, internet banking, safe deposit, payable through 
+accounts, money service businesses, and merchant credit card 
+processing.
+    B. Internal Controls. An effective OFAC compliance program 
+should include internal controls for identifying suspect accounts 
+and transactions and reporting to OFAC. Internal controls should 
+include the following elements:
+    1. Flagging and Review of Suspect Transactions and Accounts. A 
+banking institution's policies and procedures should address how it 
+will flag and review transactions and accounts for possible OFAC 
+violations, whether conducted manually, through interdiction 
+software, or a combination of both methods. For screening purposes, 
+a banking institution should clearly define procedures for comparing 
+names provided on the OFAC list with the names in its files or on 
+the transaction and for flagging transactions or accounts involving 
+sanctioned countries. In high-risk and high-volume areas in 
+particular, a banking institution's interdiction filter should be 
+able to flag close name derivations for review. New accounts should 
+be compared with the OFAC lists prior to allowing transactions. 
+Established accounts, once scanned, should be compared regularly 
+against OFAC updates.
+    2. Updating the Compliance Program. A banking institution's 
+compliance program should also include procedures for maintaining 
+current lists of blocked countries, entities, and individuals and 
+for disseminating such information throughout the institution's 
+domestic operations and its offshore offices, branches and, for 
+purposes of the sanctions programs under the Trading with the Enemy 
+Act, foreign subsidiaries.
+    3. Reporting. A compliance program should also include 
+procedures for handling transactions that are validly blocked or 
+rejected under the various sanctions programs. These procedures 
+should cover the reporting of blocked and rejected items to OFAC as 
+provided in Sec.  501.603 of this Part and the annual report of 
+blocked property required by Sec.  501.604 of this Part.
+    4. Management of blocked accounts. An audit trail should be 
+maintained in order to reconcile all blocked funds. A banking 
+institution is responsible for tracking the amount of blocked funds, 
+the ownership of those funds, interest paid on those funds, and the 
+release of blocked funds pursuant to license.
+    5. Maintaining License Information. Sound compliance procedures 
+dictate that a banking institution maintain copies of customers' 
+OFAC specific licenses on file. This will allow a banking 
+institution to verify whether a customer is initiating a legal 
+transaction. If it is unclear whether a particular transaction is 
+authorized by a license, a banking institution should confirm this 
+with OFAC. Maintaining copies of licenses will also be useful if 
+another banking institution in the payment chain requests 
+verification of a license's validity. In the case of a transaction 
+performed under general license (or, in some cases, a specific 
+license), it is sound compliance for a banking institution to obtain 
+a statement from the licensee that the transaction is in accordance 
+with the terms of the license, assuming the banking institution does 
+not know or have reason to know that the statement is false.
+    C. Testing. Except for a banking institution with a very low 
+OFAC risk profile, a banking institution should have a periodic test 
+of its OFAC program performed by its internal audit department or by 
+outside auditors, consultants, or other qualified independent 
+parties. The frequency of the independent test should be consistent 
+with the institution's OFAC risk profile; however, an in-depth audit 
+of each department in the banking institution might reasonably be 
+conducted at least once a year. The person(s) responsible for 
+testing should conduct an objective, comprehensive evaluation of 
+OFAC policies and procedures. The audit scope should be 
+comprehensive and sufficient to assess OFAC compliance risks across 
+the spectrum of all the institution's activities. If violations are 
+discovered, they should be promptly reported to both OFAC and the 
+banking institution's banking regulator.
+    D. Responsible Individuals. It is sound compliance procedure for 
+an institution to designate a qualified individual or individuals to 
+be responsible for the day-to-day compliance of its OFAC program, 
+including at least one individual responsible for the oversight of 
+blocked funds. This individual or these individuals should be fully 
+knowledgeable about OFAC statutes, regulations, and relevant 
+Executive orders.
+    E. Training. A banking institution should provide adequate 
+training for all appropriate employees. The scope and frequency of 
+the training should be consistent with the OFAC risk profile and the 
+particular employee's responsibilities.
+
+    Dated: December 22, 2005.
+Robert W. Werner,
+Director, Office of Foreign Assets Control.
+    Approved: December 23, 2005.
+Stuart A. Levey,
+Under Secretary of the Treasury, Office of Terrorism and Financial 
+Intelligence.
+[FR Doc. 06-278 Filed 1-11-06; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

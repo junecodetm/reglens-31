@@ -1,4 +1,4 @@
-"""Fixed reference-document snapshots for EXTEND-OGC01.
+"""Fixed reference-document snapshots for drafting and governance checks.
 
 Inputs: none (the reference set is pinned below). Outputs: content-addressed
 snapshots of the Document Drafting Handbook PDF and the two reginfo.gov

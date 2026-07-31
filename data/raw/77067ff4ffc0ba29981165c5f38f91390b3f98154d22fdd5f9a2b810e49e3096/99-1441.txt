@@ -1,0 +1,602 @@
+<html>
+<head>
+<title>Federal Register, Volume 64 Issue 15 (Monday, January 25, 1999)</title>
+</head>
+<body><pre>[Federal Register Volume 64, Number 15 (Monday, January 25, 1999)]
+[Rules and Regulations]
+[Pages 3632-3637]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 99-1441]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Department of the Treasury Circular, Public Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury'' or 
+``Department'') is issuing in final form an amendment to 31 CFR Part 
+356 (Uniform Offering Circular for the Sale and Issue of Marketable 
+Book-Entry Treasury Bills, Notes, and Bonds). This amendment 
+incorporates certain changes in the Department's marketable securities 
+auction program that have been made over the last several months. The 
+amendment defines the term ``bid-to-cover ratio'' and adds the term to 
+the listing of information that the Department provides in its official 
+auction results announcements. The amendment also updates an example of 
+the proration of auction awards and the sample offering announcements 
+to reflect the change in minimum bid amounts to $1,000 for all 
+marketable
+
+[[Page 3633]]
+
+Treasury securities auctions. The amendment replaces the example of a 
+3-year note with a 5-year note in the sample highlights of the 
+quarterly financing offering announcement. Further, the amendment makes 
+various revisions to reflect the expansion of uniform or single-price 
+auctions to all marketable Treasury securities. Finally, this amendment 
+makes minor, unrelated technical corrections by restating terms in 
+several equations in Appendix B.
+
+EFFECTIVE DATE: January 25, 1999.
+
+ADDRESSES: This final rule is available for downloading from the Bureau 
+of the Public Debt's Internet site at the following address: 
+<a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>. It is also available for public inspection 
+and copying at the Treasury Department Library, FOIA Collection, Room 
+5030, Main Treasury Building, 1500 Pennsylvania Avenue, N.W., 
+Washington, D.C., 20220. Persons wishing to visit the library should 
+call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Kerry Lanham (Acting Director), Chuck 
+Andreatta or Kurt Eidemiller (Senior Financial Advisors), Department of 
+the Treasury, Bureau of the Public Debt, Government Securities 
+Regulations Staff, (202) 219-3632.
+
+SUPPLEMENTARY INFORMATION: 31 CFR Part 356, also referred to as the 
+uniform offering circular, sets out the terms and conditions for the 
+sale and issuance by the Department of the Treasury to the public of 
+marketable Treasury bills, notes, and bonds. The uniform offering 
+circular, in conjunction with offering announcements, represents a 
+comprehensive statement of those terms and conditions. <SUP>1</SUP> 
+This final amendment provides for several changes to the uniform 
+offering circular. It adds a definition of the term ``bid-to-cover 
+ratio'' in Sec. 356.2 and revises Sec. 356.23 by incorporating the term 
+in the list of information included in auction results press releases; 
+reflects in Sec. 356.21 and Exhibit A the changes to $1,000 minimum bid 
+amounts for all marketable Treasury securities auctions; replaces in 
+Exhibit A the example of a 3-year note with a 5-year note in the sample 
+highlights of the quarterly financing offering announcement; modifies 
+the definition of ``noncompetitive bid'' in Sec. 356.2 and revises 
+Secs. 356.20 and 356.23 and Exhibit A to reflect the Department's 
+expansion of single-price auctions to all marketable Treasury 
+securities auctions; and makes several minor, unrelated technical 
+corrections in the equations provided in Appendix B.
+---------------------------------------------------------------------------
+
+    \1\ The uniform offering circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR Part 356.
+---------------------------------------------------------------------------
+
+    After the conclusion of a marketable Treasury security auction, the 
+Department makes an official announcement of the auction results 
+through a press release. On June 1, 1998, the Department began 
+providing the ``bid-to-cover ratio'' in all of its auction results 
+press releases. This is the ratio of the total par amount of 
+competitive and noncompetitive bids by the public divided by the total 
+par amount of the securities awarded to the public. The press and some 
+market participants use this figure as an indicator of the bidding 
+interest and, therefore, the ``success'' of the auction.
+    The number is carried to two decimal places, using normal rounding. 
+For example, if the total amount bid by the public <SUP>2</SUP> is 
+$24.985561 billion, and the amount awarded to the public is $10.013049 
+billion, the bid-to-cover ratio is 24.985561/10.013049 = 2.495, or 
+2.50.
+---------------------------------------------------------------------------
+
+    \2\  For the calculation of the bid-to-cover ratio, the amount 
+bid by and awarded to the public excludes any bids or awards for 
+accounts of foreign and international monetary authorities at 
+Federal Reserve Banks or for the account of the Federal Reserve 
+Banks.
+---------------------------------------------------------------------------
+
+    By providing the bid-to-cover ratio on the press release, the 
+Department hopes to speed up the dissemination of auction results 
+information to the market. This procedural change, however, should not 
+be viewed as an endorsement by the Department of the bid-to-cover ratio 
+as an analytical method that is superior to other methods for analyzing 
+the results of a marketable Treasury security auction.
+    Accordingly, Sec. 356.2 of the uniform offering circular is amended 
+by adding the definition of the term ``bid-to-cover ratio.'' In 
+addition, Sec. 356.23 is reformatted and revised by adding the bid-to-
+cover ratio to the listing of information that the Department provides 
+on the auction results press releases.
+    This final amendment also revises relevant sections of the uniform 
+offering circular to reflect the Department's decision to reduce the 
+minimum bid amounts (and minimum to hold amounts) to $1,000 for all 
+marketable Treasury securities auctions. All Treasury bills, notes, and 
+bonds are now issued and transferred in increments of $1,000. As 
+announced at the August 1998 quarterly refunding press conference, this 
+reduction in the minimum amounts ``puts Treasury bills and short-term 
+notes within the reach of small investors.'' Prior to this, Treasury 
+bills had minimum bid amounts of $10,000, and Treasury notes with 
+maturities of four years or less required minimum bid amounts of 
+$5,000. Notes with longer maturities and 30-year bonds have for a long 
+time been available in $1,000 minimum purchase amounts. Accordingly, an 
+example describing the Department's proration of certain auction awards 
+in Sec. 356.21 and the highlights of the sample offering announcements 
+listed in Exhibit A are revised to reflect this change.
+    In addition, the highlights of the sample quarterly financing 
+offering announcement, in Exhibit A, are updated to reflect the 
+Department's decision to issue 5-year notes quarterly, instead of 
+monthly, while discontinuing the issuance of 3-year notes as announced 
+at the quarterly refunding press conference in May 1998.
+    The Department announced at its November 1998 quarterly refunding 
+press conference on October 28, 1998 that, effective November 2, 1998 
+all future auctions of marketable Treasury securities will use the 
+uniform or single-price auction method. Previously, Treasury bills and 
+certain Treasury notes and bonds had been auctioned using a multiple-
+price auction method. As announced at this quarterly refunding press 
+conference, the Department believes ``that using uniform-price auctions 
+will promote improved efficiency in the markets, and will reduce the 
+costs of financing the Federal debt.'' Accordingly, the existing 
+definition of ``noncompetitive bid'' in Sec. 356.2 is revised and 
+respective 356.20 and 356.23 and the sample offering announcements, in 
+Exhibit A, have been modified to reflect this change. The uniform 
+offering circular, however, will continue to define and describe 
+multiple-price auctions as it has historically done, although this 
+method is not currently used. Finally, this amendment also makes 
+several unrelated and minor technical corrections in the equations of 
+Appendix B.
+
+Procedural Requirements
+
+    This final rule does not meet the criteria for a ``significant 
+regulatory action'' pursuant to Executive Order 12866. Because this 
+rule relates to public contracts and procedures for United States 
+securities, the notice, public comment, and delayed effective date 
+provisions of the Administrative Procedure Act are inapplicable, 
+pursuant to 5 U.S.C. 553(a)(2). As no notice of proposed rulemaking is 
+required, the provisions of the Regulatory Flexibility Act (5 U.S.C. 
+601, et seq.) do not apply. There is no new collection of information 
+contained in
+
+[[Page 3634]]
+
+this final rule, and, therefore, the Paperwork Reduction Act does not 
+apply. The collections of information of 31 CFR Part 356 have been 
+previously approved by the Office of Management and Budget under 
+Sec. 3507(d) of the Paperwork Reduction Act of 1995 (44 U.S.C. Chapter 
+35) under control number 1535-0112. Under this Act, an agency may not 
+conduct or sponsor, and a person is not required to respond to, a 
+collection of information unless it displays a valid OMB control 
+number.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    Dated: January 12, 1999.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+
+    For the reasons set forth in the preamble, 31 CFR Chapter II, 
+Subchapter B, Part 356, is amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+    2. Section 356.2 is amended by adding in alphabetical order the 
+definition of ``Bid-to-cover ratio'' and by revising the definition of 
+``Noncompetitive bid'' to read as follows:
+
+
+Sec. 356.2  Definitions.
+
+* * * * *
+    Bid-to-cover ratio means the total par amount of securities bid for 
+by the public divided by the total par amount of securities awarded to 
+the public. The bid-to-cover ratio excludes any bids or awards for 
+accounts of foreign and international monetary authorities at Federal 
+Reserve Banks and for the account of the Federal Reserve Banks.
+* * * * *
+    Noncompetitive bid means, for a single-price auction, a bid to 
+purchase securities at the highest yield or discount rate of awards to 
+competitive bidders. For a multiple-price auction, a noncompetitive bid 
+means a bid to purchase securities at the weighted average yield or 
+discount rate of awards to competitive bidders.
+* * * * *
+    3. Section 356.20 is amended by revising paragraph (b) to read as 
+follows:
+
+
+Sec. 356.20  Determination of auction awards.
+
+* * * * *
+    (b) Determining the interest rate for new note and bond issues. The 
+interest rate established as a result of the auction will be set at a 
+1/8 of one percent increment. For single-price auctions, the interest 
+rate established produces the price closest to, but not above, par when 
+evaluated at the yield awarded to successful competitive bidders. For 
+multiple-price auctions, the interest rate established produces the 
+price closest to, but not above, par when evaluated at the weighted-
+average yield of awards to successful competitive bidders.
+* * * * *
+    4. Section 356.21 is amended by revising the last three sentences 
+in paragraph (a) to read as follows:
+
+
+Sec. 356.21  Proration of awards.
+
+    (a) Awards to submitters. * * * For example, Treasury bills may be 
+issued with a minimum to hold of $1,000 and multiples of $1,000. Where 
+an $18,000 bid is accepted at the high discount rate, and the percent 
+awarded at the high discount rate is 88%, the award to that bidder will 
+be $16,000, representing an upward adjustment from $15,840 ($18,000 x 
+.88) to an appropriate multiple to hold. If tenders at the highest 
+accepted discount rate are prorated at, for example, a rate of 4%, the 
+award for a $10,000 bid will be $1,000, instead of $400, in order to 
+meet the minimum to hold for a bill issue.
+* * * * *
+    5. Section 356.23 is revised to read as follows:
+
+
+Sec. 356.23  Announcing auction results.
+
+    (a) After the conclusion of the auction, the Department will make 
+an official announcement of the auction results through a press 
+release.
+    (b) The press release will include such information as:
+    (1) The amounts of bids recognized and accepted;
+    (2) The range of accepted yields or discount rates;
+    (3) The proration percentage;
+    (4) The interest rate for a note or bond;
+    (5) A breakdown of the amounts of noncompetitive and competitive 
+bids recognized and accepted from the public;
+    (6) The amounts recognized and accepted from the Federal Reserve 
+Banks for their own account and for foreign and international monetary 
+authorities;
+    (7) The minimum par amount required to strip a note or bond;
+    (8) The bid-to-cover ratio; and
+    (9) other information that the Department may decide to include.
+
+Appendix B to Part 356--[Amended]
+
+    6. In Appendix B to Part 356, section II, paragraph F is amended by 
+replacing the term v<INF>n</INF> (v with subscript n) throughout the 
+paragraph with the term v<SUP>n</SUP> (v with superscript n or, 
+alternatively, v to the nth power).
+    7. In Appendix B to Part 356, section V, paragraph A is amended by 
+revising the first equation under the resolution to read as follows:
+* * * * *
+
+V. Computation of Purchase Price, Discount Rate, and Investment Rate 
+(Coupon-Equivalent Yield) for Treasury Bills
+
+    A. Conversion of the discount rate to a purchase price for 
+Treasury bills of all maturities:
+* * * * *
+    Resolution:
+
+    P=100 [(1--dr)/360]
+* * * * *
+    8. Exhibit A to Part 356 is amended by revising Sections I through 
+III to read as follows:
+
+Exhibit A to Part 356--Sample Announcements of Treasury Offerings to 
+the Public
+
+* * * * *
+
+I. Treasury Quarterly Financing Announcement
+
+For release when authorized at press conference February 5, 20XX
+Contact: Office of Financing, 202/XXX-XXXX
+
+Treasury February Quarterly Financing
+
+    The Treasury will auction $16,000 million of 5-year notes, 
+$12,000 million of 10-year notes, and $10,000 million of 30-year 
+bonds to refund $26,996 million of publicly-held securities maturing 
+February 15, 20XX, and to raise about $11,004 million of new cash.
+    In addition to the public holdings, Government accounts and 
+Federal Reserve Banks, for their own accounts, hold $1,795 million 
+of the maturing securities, which may be refunded by issuing 
+additional amounts of the new securities.
+    The maturing securities held by the public include $1,654 
+million held by Federal Reserve Banks as agents for foreign and 
+international monetary authorities. Amounts bid for these accounts 
+by Federal Reserve Banks will be added to the offering.
+    All of the auctions being announced today will be conducted in 
+the single-price auction format. All competitive and noncompetitive 
+awards will be at the highest yield of accepted competitive tenders.
+    The 5-year and 10-year notes and the 30-year bond being offered 
+today are eligible for the STRIPS program.
+    Tenders will be received at Federal Reserve Banks and Branches 
+and at the Bureau of the Public Debt, Washington, D.C. This offering 
+of Treasury securities is governed by the terms and conditions set 
+forth in the Uniform
+
+[[Page 3635]]
+
+Offering Circular for the Sale and Issue of Marketable Book-Entry 
+Treasury Bills, Notes, and Bonds (31 CFR Part 356, as amended).
+Details about the notes and bond are given in the attached offering 
+highlights.
+
+Attachment
+
+                                 Highlights of Treasury Offerings to the Public
+                                       [February 20XX Quarterly Financing]
+----------------------------------------------------------------------------------------------------------------
+ 
+----------------------------------------------------------------------------------------------------------------
+Offering Amount...............  $16,000 million.  $12,000 million.  $10,000 million.
+Description of Offering:
+    Term and type of security.  5-year notes....  10-year notes...  30 year bonds.
+    Series....................  U-20XX..........  B-20XX..........  Bonds of February 20XX.
+    CUSIP number..............  912827XX X......  912827XX X......  912810XX X.
+    Auction date..............  February 11,      February 12,      February 13, 20XX.
+                                 20XX.             20XX.
+    Issue date................  February 18,      February 18,      February 18, 20XX.
+                                 20XX.             20XX.
+    Dated date................  February 15,      February 15,      February 15, 20XX.
+                                 20XX.             20XX.
+    Maturity date.............  February 15,      February 15,      February 15, 20XX.
+                                 20XX.             20XX.
+    Interest rate.............  Determined based  Determined based  Determined based on the highest accepted
+                                 on the highest    on the highest    competitive bid.
+                                 accepted          accepted
+                                 competitive bid.  competitive bid.
+      Yield...................  Determined at     Determined at     Determined at auction.
+                                 auction.          auction.
+    Interest payment dates....  August 15 and     August 15 and     August 15 and February 15.
+                                 February 15.      February 15.
+    Minimum bid amount and      $1,000..........  $1,000..........  $1,000.
+     multiples.
+    Accrued interest payable    Determined at     Determined at     Determined at auction.
+     by investor.                auction.          auction.
+    Premium or discount.......  Determined at     Determined at     Determined at auction.
+                                 auction.          auction.
+STRIPS Information:
+    Minimum amount required...  Determined at     Determined at     Determined at auction.
+                                 auction.          auction.
+    Corpus CUSIP number.......  912820XX X......  912820XX X......  912803XX X.
+    Due dates and CUSIP         Not applicable..  Not applicable..  February 15, 20XX--912833 XX X.
+     numbers for additional
+     TINTs.
+----------------------------------------------------------------------------------------------------------------
+
+
+The following rules apply to
+ all securities mentioned
+ above:
+ 
+Submission of Bids:
+    Noncompetitive bids......  Accepted in full up to $5,000,000 at the
+                                highest accepted yield.
+    Competitive bids.........  (1) Must be expressed as a yield with
+                                three decimals in increments of .001%,
+                                e.g., 7.123%.
+                               (2) Net long position for each bidder
+                                must be reported when the sum of the
+                                total bid amount, at all yields, and the
+                                net long position is $2 billion or
+                                greater.
+                               (3) Net long position must be determined
+                                as of one half-hour prior to the closing
+                                time for receipt of competitive tenders.
+Maximum Recognized Bid at a    35% of public offering.
+ Single Yield.
+Maximum Award................  35% of public offering.
+Receipt of Tenders:
+    Noncompetitive tenders...  Prior to 12:00 noon Eastern Standard time
+                                on auction day.
+    Competitive tenders......  Prior to 1:00 p.m. Eastern Standard time
+                                on auction day.
+Payment Terms................  By charge to a funds account at a Federal
+                                Reserve Bank on issue date, or payment
+                                of full par amount with tender. Treasury
+                                Direct customers can use the Pay Direct
+                                feature which authorizes a charge to
+                                their account of record at their
+                                financial institution on issue date.
+------------------------------------------------------------------------
+
+II. Treasury Weekly Bill Announcement
+
+Embargoed Until 2:30 p.m. April 15, 20XX
+Contact: Office of Financing, 20/XXX-XXXX
+
+Treasury Offers 13-Week and 26-Week Bills
+
+    The Treasury will auction two series of Treasury bills totaling 
+approximately $16,000 million, to refund $13,469 million of publicly 
+held securities maturing November 19, 1998 and to raise about $2,531 
+million of new cash.
+    In addition to the public holdings, Federal Reserve Banks for 
+their own accounts hold $7,442 million of the maturing bills, which 
+may be refunded at the highest discount rate of accepted competitive 
+tenders. Amounts issued to these accounts will be in addition to the 
+offering amount.
+    The maturing bills held by the public include $1,991 million 
+held by Federal Reserve Banks as agents for foreign and 
+international monetary authorities, which may be refunded within the 
+offering amount at the highest discount rate of accepted competitive 
+tenders. Additional amounts may be issued for such accounts if the 
+aggregate amount of new bids exceeds the aggregate amount of 
+maturing bills.
+    The 13- and 26-week bill auctions will be conducted in the 
+single-price auction format.
+    Tenders for the bills will be received at Federal Reserve Banks 
+and Branches and at the Bureau of the Public Debt, Washington, D.C. 
+This offering of Treasury securities is governed by the terms and 
+conditions set forth in the Uniform Offering Circular for the Sale 
+and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds 
+(31 CFR Part 356, as amended).
+    Details about each of the new securities are given in the 
+attached offering highlights.
+
+Attachment
+
+                      Highlights of Treasury Offerings of Bills To be Issued April 24, 20XX
+----------------------------------------------------------------------------------------------------------------
+ 
+Offering Amount..................  $8,000 million...............................  $8,000 million.
+Description of Offering:
+    Term and type of security....  91-day bill..................................  182-day bill.
+    CUSIP number.................  912795 XX X..................................  912795 XX X.
+
+[[Page 3636]]
+
+ 
+    Auction date.................  April 21, 20XX...............................  April 21, 20XX.
+    Issue date...................  April 24, 20XX...............................  April 24, 20XX.
+    Maturity date................  July 24, 20XX................................  October 23, 20XX.
+    Original issue date..........  July 25, 20XX................................  April 24, 20XX.
+    Currently outstanding........  $31,725 million..............................  ..............................
+    Minimum bid amount and         $1,000.......................................  $1,000
+     multiples.
+----------------------------------------------------------------------------------------------------------------
+
+
+ 
+ 
+The following rules apply to all securities mentioned
+ above:
+ 
+Submission of Bids:
+    Noncompetitive bids................................  Accepted in full up to $1,000,000 at the highest
+                                                          discount rate of accepted competitive bids.
+    Competitive bids...................................  (1) Must be expressed as a discount rate with three
+                                                          decimals in increments of .005%, e.g., 7.100%, 7.105%.
+                                                          (2) Net long position for each bidder must be reported
+                                                          when the sum of the total bid amount, at all discount
+                                                          rates, and the net long position is $1 billion or
+                                                          greater.
+                                                          (3) Net long position must be determined as of one
+                                                          half-hour prior to the closing time for receipt of
+                                                          competitive tenders.
+Maximum Recognized Bid at a Single Yield...............  35% of public offering.
+Maximum Award:                                           35% of public offering.
+Receipt of Tenders:
+    Noncompetitive tenders.............................  Prior to 12:00 noon Eastern Daylight Saving time on
+                                                          auction day
+    Competitive tenders................................  Prior to 1:00 p.m. Eastern Daylight Saving time on
+                                                          auction day
+Payment Terms..........................................  By charge to a funds account at a Federal Reserve Bank
+                                                          on issue date, or payment of full par amount with
+                                                          tender. Treasury Direct customers can use the Pay
+                                                          Direct feature which authorizes a charge to their
+                                                          account of record at their financial institution on
+                                                          issue date.
+----------------------------------------------------------------------------------------------------------------
+
+III. Treasury Cash Management Bill Announcement
+
+Embargoed until 2:30 p.m. February 25, 20XX
+Contact: Office of Financing 202/XXX-XXXX
+
+Treasury to Auction Cash Management Bills
+
+    The Treasury will auction approximately $23,000 million of 45-
+day Treasury cash management bills to be issued March 3, 20XX.
+    Competitive and noncompetitive tenders will be received at all 
+Federal Reserve Banks and Branches. Tenders will not be accepted for 
+bills to be maintained on the book-entry records of the Department 
+of the Treasury (Treasury Direct). Tenders will not be received at 
+the Bureau of the Public Debt, Washington, D.C.
+    Additional amounts of the bills may be issued to Federal Reserve 
+Banks as agents for foreign and international monetary authorities 
+at the highest discount rate of accepted competitive tenders.
+    The 45-day cash management bill will be conducted in the single-
+price auction format. All competitive and noncompetitive awards will 
+be at the highest discount rate of accepted competitive tenders.
+    This offering of Treasury securities is governed by the terms 
+and conditions set forth in the Uniform Offering Circular for the 
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and 
+Bonds (31 CFR Part 356, as amended).
+
+    Note: Competitive bids in cash management bill auctions must be 
+expressed as a discount rate with two decimals, e.g., 7.10%.
+
+    Details about the new security are given in the attached 
+offering highlights.
+
+Attachment
+
+     Highlights of Treasury Offering of 45-Day Cash Management Bill
+------------------------------------------------------------------------
+ 
+Offering Amount..............  $23,000 million.
+Description of Offering:
+    Term and type of security  45-day Cash Management Bill.
+    CUSIP number.............  912795 XX X.
+    Auction date.............  February 27, 20XX.
+    Issue date...............  March 3, 20XX.
+    Maturity date............  April 17, 20XX.
+    Original issue date......  October 17, 20XX.
+    Currently outstanding....  $24,724 million.
+    Minimum bid amount and     $1,000.
+     multiples.
+Submission of Bids:
+    Noncompetitive bids......  Accepted in full up to $1,000,000 at the
+                                highest accepted discount rate.
+    Competitive bids.........  (1) Must be expressed as a discount rate
+                                with two decimals in increments of .01%,
+                                e.g., 7.12%.
+                               (2) Net long position for each bidder
+                                must be reported when the sum of the
+                                total bid amount, at all discount rates,
+                                and the net long position is $1 billion
+                                or greater.
+                               (3) Net long position must be determined
+                                as of one half-hour prior to the closing
+                                time for receipt of competitive tenders.
+Maximum Recognized Bid at a    35% of public offering.
+ Single Yield.
+Maximum Award................  35% of public offering.
+
+[[Page 3637]]
+
+ 
+Receipt of Tenders:
+    Noncompetitive tenders...  Prior to 11:00 a.m. Eastern Standard time
+                                on auction day.
+    Competitive tenders......  Prior to 11:30 a.m. Eastern Standard time
+                                on auction day.
+Payment Terms................  By charge to a funds account at a Federal
+                                Reserve Bank on issue date, or payment
+                                of full par amount with tender.
+------------------------------------------------------------------------
+
+* * * * *
+[FR Doc. 99-1441 Filed 1-22-99; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

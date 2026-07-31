@@ -12,7 +12,7 @@ export default function DraftsPage() {
     <>
       <PageHeader
         title="Draft rule skeletons"
-        lead="A demonstration of automated rule-drafting: each entry follows the federal Document Drafting Handbook's required structure, with a fail-closed check confirming every required section is present and every quoted regulatory passage matches its source verbatim. The model writes only two narrative fields; everything else is deterministic or independently verified."
+        lead="Each draft follows the structure required by the federal Document Drafting Handbook, verified by a fail-closed conformance check. The model writes only two labeled narrative fields; every other section is deterministic template output, and every quoted regulatory passage must match its source verbatim."
       />
       <DraftsSection active standalone />
     </>

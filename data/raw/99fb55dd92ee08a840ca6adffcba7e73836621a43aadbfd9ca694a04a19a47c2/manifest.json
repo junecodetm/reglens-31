@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2005/02/14/05-2810.txt",
+  "fetched_at": "2026-07-30T14:09:21.140272+00:00",
+  "sha256": "99fb55dd92ee08a840ca6adffcba7e73836621a43aadbfd9ca694a04a19a47c2",
+  "content_type": "text/plain",
+  "filename": "05-2810.txt"
+}

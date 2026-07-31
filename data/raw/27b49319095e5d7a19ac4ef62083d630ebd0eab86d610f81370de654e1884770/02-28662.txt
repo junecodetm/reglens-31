@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>Federal Register, Volume 67 Issue 218 (Tuesday, November 12, 2002)</title>
+</head>
+<body><pre>
+[Federal Register Volume 67, Number 218 (Tuesday, November 12, 2002)]
+[Rules and Regulations]
+[Pages 68513-68517]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 02-28662]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Department of the Treasury Circular, Public Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds; Reporting of Net Long Position and Application of the 35 
+Percent Limit
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Department of the 
+Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury,'' ``We,'' or 
+``Us'') is issuing in final form an amendment to the regulation 
+``Uniform Offering Circular for the Sale and Issue of Marketable Book-
+Entry Treasury Bills, Notes, and Bonds.'' This amendment modifies the 
+net long position (``NLP'') reporting threshold for all Treasury 
+marketable securities auctions. The threshold, currently $1 billion for 
+Treasury bill auctions and $2 billion for Treasury note auctions, is 
+being changed to 35 percent of the offering amount in each auction. 
+This modification will reduce the number of auction bidders that are 
+required to report their NLPs, while ensuring that we can still 
+effectively administer the 35 percent award limit.
+    The amendment also incorporates certain changes in Treasury's 
+marketable securities auction program that have already been 
+implemented. First, the amendment modifies the competitive bid format 
+for auctions of Treasury cash management bills to conform to a policy 
+change that was made in April 2002. The current two-decimal bid format 
+is being changed to three decimals in .005 percent increments, which is 
+the format in all other Treasury bill auctions.
+    Second, the amendment makes several changes to reflect the current 
+treatment in all Treasury marketable securities auctions of bids from 
+Federal Reserve Banks for their own accounts and for the accounts of 
+foreign and international monetary authorities. Specifically, the 
+amendment deletes the defined term ``public offering,'' adds ``offering 
+amount'' as a new defined term, revises the definition of ``bid-to-
+cover ratio,'' and makes conforming changes within the text of the 
+Uniform Offering Circular. These changes make the terminology 
+consistent between the Uniform Offering Circular and auction offering 
+announcements.
+
+EFFECTIVE DATE: December 12, 2002.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Web site at <a href="http://www.publicdebt.treas.gov">www.publicdebt.treas.gov</a>. It is also 
+available for public inspection and copying at the Treasury Department 
+Library, Room 1428, Main Treasury Building, 1500 Pennsylvania Avenue, 
+NW., Washington, DC 20220. To visit the library, call (202) 622-0990 
+for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director), 
+Chuck Andreatta (Senior Financial Advisor), or Lee Grandy (Associate 
+Director), Bureau of the Public Debt,
+
+[[Page 68514]]
+
+Government Securities Regulations Staff, (202) 691-3632.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular, in 
+conjunction with the offering announcement for each auction, provides 
+the terms and conditions for the sale and issuance to the public of 
+marketable Treasury bills, notes, and bonds.\1\ In this document, we 
+provide some background on the NLP and its reporting requirements. Next 
+we discuss the public comments we received in response to an Advance 
+Notice of Proposed Rulemaking (``ANPR'') regarding NLP reporting, 
+published on April 29, 2002.\2\ We then describe the final amendment.
+---------------------------------------------------------------------------
+
+    \1\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The Uniform Offering Circular, as 
+amended, is codified at 31 CFR Part 356.
+    \2\ 67 FR 20934 (April 29, 2002).
+---------------------------------------------------------------------------
+
+I. Background on Net Long Position Reporting
+
+    One of the requirements of the Treasury auction process is the 
+reporting of NLPs, which we use to limit the amount that we will award 
+to any one bidder in an auction (``the 35 percent rule''). This rule 
+ensures that awards in our auctions are distributed to a number of 
+auction participants. This goal of broad distribution is intended to 
+encourage participation by a significant number of competitive bidders 
+in each auction. Broad participation keeps our borrowing costs to a 
+minimum, helps ensure that Treasury auctions are fair and competitive, 
+and makes it less likely that ownership of Treasury securities will 
+become overly concentrated.
+    A bidder in an auction must report its NLP if, in the security 
+being auctioned, the bidder's NLP plus its bids in the auction meet or 
+exceed a certain dollar-amount threshold as stated in the security's 
+offering announcement. The NLP reporting threshold currently is $1 
+billion for Treasury bills and $2 billion for Treasury notes. In 
+addition, if the sum of a bidder's bids equals or exceeds the NLP 
+reporting threshold, but the bidder has no position or has a net short 
+position, it must report an NLP of zero. A bidder must determine its 
+NLP as of one-half hour prior to the deadline for receipt of 
+competitive bids. If a bidder meets or exceeds the reporting threshold 
+as of the NLP determination time in the auction offering announcement, 
+the bidder must report its NLP prior to the competitive bidding 
+deadline.
+    The NLP is generally the amount of the security being auctioned 
+that a bidder has obtained, or has arranged to obtain, outside of the 
+auction in the secondary market. The components of the NLP are intended 
+to capture the various ways that a bidder can acquire a Treasury 
+security.\3\ The term ``net long'' refers to the extent to which an 
+investor has bought (or has agreed to buy) more of a security than it 
+has sold (or has agreed to sell). For example, if an investor has 
+bought $900 million of a security in the when-issued market, and it has 
+sold $300 million of the same security in the when-issued market, it 
+has a net long position of $600 million in that security, assuming it 
+has no other positions.
+---------------------------------------------------------------------------
+
+    \3\ See 31 CFR 356.13(b) for details on the components of the 
+NLP. See also the amendment to the Uniform Offering Circular 
+published on November 13, 2001 (66 FR 56759), which provided an 
+optional exclusion amount in the NLP calculation for reopenings.
+---------------------------------------------------------------------------
+
+    We published an ANPR for public comment on April 29, 2002,\4\ to 
+solicit comments on four alternatives for addressing the half-hour time 
+lag between the time as of which the NLP is calculated (the ``NLP as-of 
+time'') and the competitive bidding deadline. It was pointed out in the 
+ANPR that, because a bidder's NLP can change significantly during this 
+time period, the reported NLP may not provide an accurate, or even 
+approximate, measure of a bidder's position at the time that a bidder 
+actually submits its bids. As a result, a bidder's award may be cut 
+back to the 35 percent award limit based on NLP information that no 
+longer reflects the bidder's actual NLP. Conversely, a bidder's award 
+may not be cut back if it builds a large position in the security being 
+auctioned between the NLP as-of time and the competitive bidding 
+deadline. We also stated in the ANPR that we were more fundamentally 
+reconsidering the rule. In addition, we invited comments on potential 
+changes to the NLP reporting threshold amount, and indicated that we 
+were considering changes in this area regardless of whether or not we 
+implement any modifications to the NLP as-of reporting timeframes.
+---------------------------------------------------------------------------
+
+    \4\ See supra, note 2.
+---------------------------------------------------------------------------
+
+    The four alternatives were as follows:
+    Alternative 1: Reduce the half-hour interval between the NLP as-of 
+time and the competitive bidding deadline.
+    Alternative 2: Make the NLP as-of time the same as the competitive 
+bidding deadline, with the NLP reporting time to follow (for example, 
+one-half hour later). Bidders would be responsible for ensuring that 
+their bids plus their positions, if they are net long, do not exceed 
+the 35 percent award limit.
+    Alternative 3: Eliminate the NLP reporting requirement, and either 
+maintain or reduce the 35 percent limit. Treasury would rely on its 
+Large Position Reporting rules \5\ and other mechanisms to monitor the 
+market and address concentrations of ownership.
+---------------------------------------------------------------------------
+
+    \5\ 17 CFR 420.
+---------------------------------------------------------------------------
+
+    Alternative 4: Retain both the 35 percent limit and the NLP as-of 
+and reporting timeframes as they exist now.
+    Potential change to NLP reporting threshold amount. Regarding this 
+potential change, we stated in the ANPR that we are considering 
+changing the NLP reporting threshold from $1 billion for Treasury bills 
+and $2 billion for Treasury notes to the actual 35 percent award limit 
+for each auction. This rule change would apply to all marketable 
+Treasury securities auctions. We also stated that we would provide the 
+35 percent award limit on the auction offering announcement in each 
+auction. Bidders whose bids plus NLPs equal or exceed the limit would 
+be required to report their positions. For example, if the 35 percent 
+award limit for a particular auction is $3 billion, and the total of a 
+bidder's bids is $2.5 billion and its NLP is $1 billion, the bidder 
+would have to report its $1 billion NLP. Bidders whose bids plus NLPs 
+do not equal or exceed the limit would not be required to report any 
+positions. Bidders whose total bids equal or exceed the limit but 
+either have no position or a net short position would not have to 
+report a zero as their NLP.
+
+II. Comments Received in Response to the Advance Notice of Proposed 
+Rulemaking
+
+    We received one comment in response to the ANPR, which was from The 
+Bond Market Association (TBMA).\6\ The commenter recommended that we 
+make three changes to the NLP rules.
+---------------------------------------------------------------------------
+
+    \6\ The ANPR and comment letter, dated June 27, 2002, are 
+available for downloading on the Internet, and for inspection and 
+copying at the Treasury Department Library at the addresses provided 
+earlier in this final rule.
+---------------------------------------------------------------------------
+
+    First, TBMA supported Alternative 1 by advocating reducing the 
+half-hour interval between the NLP as-of time and the competitive 
+bidding deadline. Specifically, the commenter suggested requiring 
+bidders to calculate their NLPs as of 12:40 p.m. rather than 12:30 p.m. 
+TBMA stated that this modification would take advantage of 
+technological advances by dealers while still ensuring the accuracy of 
+submitted bids and NLPs. The commenter pointed out a disadvantage of 
+this alternative, which is, ``Because auction support staff will have 
+less time to work with, there is certainly the possibility that 
+Treasury
+
+[[Page 68515]]
+
+may initially see a small spike in the number of NLP submission 
+errors.'' The commenter opposed providing bidders with less than 20 
+minutes to determine, verify and report their NLPs, primarily because 
+``moving the time up further would put substantial strain on existing 
+personnel,'' particularly for those securities dealers with numerous 
+domestic and foreign affiliates.
+    Second, TBMA strongly supported modifying the NLP reporting 
+thresholds for bill and note auctions to 35 percent of the issuance 
+amount, because it would ``better capture only those bidders that are 
+most likely to exceed the 35 percent limit.'' The commenter maintained 
+that the current reporting thresholds are ``unnecessarily low'' and 
+that, ``Any benefit Treasury derives from maintaining a low reporting 
+threshold is outweighed by the additional bidder submission errors that 
+result.''
+    Third, TBMA recommended that we discontinue requiring bidders to 
+report a zero NLP when their bids equal or exceed the applicable 
+reporting threshold but they have either no net long position or a net 
+short position. The commenter advocated that such bidders be given the 
+choice of either reporting a zero NLP or leaving the field blank. TBMA 
+acknowledged that, ``requiring bidders to report their negative NLP as 
+zero does theoretically act as a check that a bidder realized that it 
+was over the threshold.'' However, TBMA asserted that inadvertent 
+failures by bidders to report a zero have resulted in ``serious 
+violation letters'' from Treasury, where in fact such instances are ``a 
+technical violation of the auction rules that in no way could have 
+impacted the results of the auction.''
+    In addition to the modifications it favored, TBMA also advised 
+against adopting either Alternative 2 or 3. In particular, TBMA argued 
+against post-auction reporting of NLPs (Alternative 2), primarily 
+because it would discourage aggressive bidding since ``large bidders 
+would have to allow themselves a substantial `margin for error' with 
+respect to the 35 percent rule.''
+
+III. Amendment to the Rule
+
+Net Long Position Reporting Threshold
+
+    After considering the comment letter we received, we are modifying 
+the NLP reporting threshold to 35 percent of the offering amount in 
+each auction. We agree with the commenter that this change will more 
+precisely apply only to those bidders whose bids are most likely to 
+equal or exceed the 35 percent award limit in an auction. Accordingly, 
+Sec.  356.13(a) is revised to reflect that the net long position 
+reporting threshold amount will be 35 percent of the offering amount. 
+The NLP reporting threshold will be provided on the offering 
+announcement for each auction.
+    We are not considering any other changes to the NLP reporting 
+requirement at this time. The NLP as-of reporting time will continue to 
+be one half-hour prior to the deadline for receiving competitive bids. 
+We agree with TBMA that shortening this time interval could result in 
+an increase in NLP reporting errors. Since shortening the time interval 
+to 20 minutes would still leave a significant time period in which 
+bidders' positions in the securities being auctioned could change 
+significantly prior to the deadline for receiving competitive bids, we 
+believe that the disadvantages of a likely increase in NLP reporting 
+errors outweigh the benefits of a shorter time period for calculating 
+and reporting NLPs.
+    We also have decided to maintain the requirement for bidders to 
+report an NLP of zero when their bids equal or exceed the applicable 
+reporting threshold but they have either no net long position or a net 
+short position. We believe that this requirement acts as an important 
+check to ensure that bidders with very large bids in an auction 
+calculated their NLPs for possible reporting in the auction.
+
+Conforming Technical Changes
+
+    We are also making a conforming technical change to Sec.  
+356.12(c)(1)(i) of the auction rules to reflect that competitive bids 
+in all cash management bill auctions must now be expressed as a 
+discount rate with three decimals in increments of .005 percent, for 
+example, 3.100%, 3.105%.\7\ This change will make the competitive bid 
+format for cash management bills the same as for all other types of 
+Treasury bills. This change will enable competitive bidders to better 
+fine-tune their bids in cash management bill auctions.
+---------------------------------------------------------------------------
+
+    \7\ Treasury announced this policy change in a Press Release 
+dated April 2, 2002, that announced several offerings of cash 
+management bills. Subsequent cash management bill offering 
+announcements also stated this bidding requirement. The offering 
+announcement governs in cases where it is inconsistent with the 
+Uniform Offering Circular. (See Sec.  356.10)
+---------------------------------------------------------------------------
+
+    We are deleting from Sec.  356.12 the defined term ``public 
+offering'' and adding the defined term ``offering amount.'' In the 
+past, ``public offering'' had a different meaning from ``offering 
+amount'' as used on the offering announcement because of the treatment 
+of amounts bid by the Federal Reserve's System Open Market Account 
+(SOMA) and by foreign and international monetary authorities (FIMA). In 
+March 1997, Treasury announced that awards to SOMA in Treasury bill 
+auctions would be treated as additions to the announced offering 
+amount, the same treatment as for note and bond auctions.\8\ Since 
+February 2001, when specific noncompetitive bidding and award 
+limitations were placed on FIMA accounts,\9\ awards to FIMA accounts 
+are made within the offering amount, as are those to the public in 
+general. Since these changes, the treatment of FIMA and SOMA is 
+consistent for all Treasury securities auctions. Awards to SOMA are 
+made in addition to the offering amount; FIMA awards are within the 
+offering amount.
+---------------------------------------------------------------------------
+
+    \8\ Treasury Press Release dated March 18, 1997.
+    \9\ The policy change was announced in a Treasury Press Release 
+dated November 14, 2000, and became effective on February 1, 2001.
+---------------------------------------------------------------------------
+
+    The definition of ``public offering'' in Sec.  356.2 is no longer 
+accurate to the extent that the definition continues to exclude FIMA 
+bids up to the amount of maturing securities in those accounts. Since 
+there is no longer any difference in the meaning of ``public offering'' 
+and ``offering amount,'' and the offering announcements use the term 
+``offering amount,'' we are deleting the term ``public offering'' and 
+adding the term ``offering amount'' to the Uniform Offering Circular, 
+and making conforming changes within the text. One of these conforming 
+changes is to the definition of ``bid-to-cover ratio,'' which 
+previously excluded both SOMA and FIMA bids and awards, and now only 
+excludes SOMA bids and awards.
+    Finally, this amendment incorporates technical changes in 
+Sec. Sec.  356.20 and 356.21 to conform to our policy for prorating 
+competitive bids at the highest accepted yield or discount rate. In the 
+weekly bill auctions of April 30, 2001, we changed the rounding 
+convention for the allocation percentage from rounding up to the next 
+whole percentage point to rounding up to the next hundredth of a whole 
+percentage point.
+
+IV. Procedural Requirements
+
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. Although we issued an Advance Notice of 
+Proposed Rulemaking on April 29, 2002, to benefit from public comment, 
+the notice and public procedures requirements of the Administrative 
+Procedure Act do not apply, under 5 U.S.C. 553(a)(2).
+    Since no notice of proposed rulemaking is required, the provisions
+
+[[Page 68516]]
+
+of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do not apply.
+    The collections of information in this final rule amendment have 
+been previously approved by the Office of Management and Budget in 
+accordance with the Paperwork Reduction Act of 1995. This final rule is 
+technical in nature and imposes no additional burdens on auction 
+bidders.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+
+    For the reasons stated in the preamble, 31 CFR Part 356 is amended 
+as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+    1. The authority citation for Part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+    2. Section 356.2 is amended by removing the definition of ``Public 
+offering,'' revising the definition of ``Bid-to-cover ratio,'' and 
+adding the defined term ``Offering amount'' between the defined terms 
+``Noncompetitive bid'' and ``Par'' to read as follows:
+
+
+Sec.  356.2  Definitions.
+
+* * * * *
+    Bid-to-cover ratio means the total par amount of securities bid for 
+by the public divided by the total par amount of securities awarded to 
+the public. The bid-to-cover ratio excludes any bids or awards for the 
+account of the Federal Reserve Banks.
+* * * * *
+    Offering amount means the par amount of securities offered to the 
+public for purchase in an auction, as specified in the offering 
+announcement.
+* * * * *
+
+    3. Section 356.12 is amended by revising paragraphs (c)(1)(i) and 
+(c)(2) to read as follows:
+
+
+Sec.  356.12  Noncompetitive and competitive bidding.
+
+* * * * *
+    (c) Competitive. * * *
+    (1) Bid format--(i) Treasury bills. A competitive bid must show the 
+discount rate bid, expressed with three decimals in .005 percent 
+increments. The third decimal must be either a zero or a five, e.g., 
+5.320 or 5.325. Fractions may not be used.
+* * * * *
+    (2) Maximum recognized bid. There is no limitation on the maximum 
+dollar amount that a bidder may bid for competitively, either at one 
+yield or discount rate, or at different yields or discount rates. 
+However, a competitive bid at a single yield or discount rate that 
+exceeds 35 percent of the offering amount will be reduced to that 
+amount. For example, if the offering amount is $10 billion, the maximum 
+bid amount that will be recognized at any one yield or discount rate 
+from any bidder is $3.5 billion. (See Sec.  356.22 for award 
+limitations.)
+
+    4. Section 356.13 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.13  Net long position.
+
+    (a) Reporting net long positions. When bidding competitively, a 
+bidder must report the amount of its net long position when the total 
+of all of its bids in an auction plus the bidder's net long position in 
+the security being auctioned equals or exceeds the net long position 
+reporting threshold amount. The net long position reporting threshold 
+amount for any particular security will be stated in the offering 
+announcement for that security. (See Sec.  356.10.) That amount will be 
+35 percent of the offering amount, unless otherwise stated in the 
+offering announcement. If the bidder either has no position or has a 
+net short position and the total of all of its bids equals or exceeds 
+the net long position reporting threshold amount, a net long position 
+of zero must be reported. In cases where a bidder that is required to 
+report the amount of its net long position has more than one bid, the 
+bidder's total net long position should be reported in connection with 
+only one bid. A bidder that is a customer must report its reportable 
+net long position through only one depository institution or dealer. 
+(See Sec.  356.14(c).)
+* * * * *
+
+    5. Section 356.20 is amended by revising paragraph (a) to read as 
+follows:
+
+
+Sec.  356.20  Determination of auction awards.
+
+    (a) Determining the range and amount of accepted competitive bids--
+(1) Accepting bids. Determinations of awards in auctions are made after 
+the closing time for receipt of bids. In determining auction awards, 
+all noncompetitive bids received by the closing time specified in the 
+offering announcement are accepted in full. Then competitive bids are 
+accepted, starting with those at the lowest yields or discount rates 
+through successively higher yields or discount rates, up to the amount 
+required to meet the offering amount. Bids at the highest accepted 
+yield or discount rate will be prorated (as described in paragraph 
+(a)(2) of this section), if necessary. If the amount of noncompetitive 
+bids would absorb most or all of the offering amount, competitive bids 
+will be accepted in an amount determined by Treasury to be sufficient 
+to provide a fair determination of the yield or discount rate for the 
+securities being auctioned.
+    (2) Accepting bids at the high yield or discount rate. When the 
+total amount of bids at the highest accepted yield or discount rate 
+exceeds the amount of the offering amount remaining after acceptance of 
+noncompetitive bids and competitive bids at the lower yields or 
+discount rates, a percentage of the bids received at the highest 
+accepted yield or discount rate will be awarded. This proration is 
+performed for the purpose of awarding a par amount of securities close 
+to the offering amount. The percentage is derived by dividing the 
+remaining par amount needed to fill the offering amount by the par 
+amount of the bids recognized at the high yield or rate and rounding up 
+to the next hundredth of a whole percentage point, for example, 17.13%.
+* * * * *
+
+    6. Section 356.21 is amended by revising paragraph (a) and the 
+second sentence of paragraph (b) to read as follows:
+
+
+Sec.  356.21  Proration of awards.
+
+    (a) Awards to submitters. In auctions where bids at the highest 
+accepted yield or discount rate are prorated under Sec.  356.20(a)(2) 
+of this part, the Federal Reserve Banks are responsible for prorating 
+awards for submitters at the percentage announced by the Department. 
+For example, if 80.15% is the announced percentage at the highest yield 
+or discount rate, then each bid at that rate or yield shall be awarded 
+80.15% of the amount bid. Hence, a bid for $100,000,000 at the highest 
+accepted yield or discount rate would be awarded $80,150,000. In all 
+cases, awards will be for at least the minimum to hold, and awards must 
+be in an appropriate multiple to hold. Awards at the highest accepted 
+yield or rate are adjusted upwards, if necessary, to an appropriate 
+multiple to hold. For example, Treasury bills may be issued with a 
+minimum to hold of $1,000 and multiples of $1,000. Where an $18,000 bid 
+is accepted at the high discount rate, and the percent awarded at the 
+high discount rate is 88.27%, the award to that bidder will be $16,000, 
+representing an upward adjustment from $15,888.60 ($18,000 x .8827) to 
+an appropriate multiple to hold. If tenders at the
+
+[[Page 68517]]
+
+highest accepted discount rate are prorated at, for example, a rate of 
+4.65%, the award for a $10,000 bid will be $1,000, instead of $465, in 
+order to meet the minimum to hold for a bill issue.
+    (b) Awards to customers.* * * For example, if 80.15% is the 
+announced percentage at the highest yield or discount rate, then each 
+customer bid at that rate or yield shall be awarded 80.15%.* * *
+
+    7. Section 356.22 is amended by revising paragraph (b) to read as 
+follows:
+
+
+Sec.  356.22  Limitation on auction awards.
+
+* * * * *
+    (b) Awards to competitive bidders. The maximum award that will be 
+made to any bidder is 35 percent of the offering amount less the 
+bidder's net long position as reportable under Sec.  356.13. For 
+example, in a note auction with a $10 billion offering amount, a bidder 
+with a reported net long position of $1 billion could receive a maximum 
+auction award of $2.5 billion. When the bids and net long positions of 
+more than one person or entity must be combined as required by Sec.  
+356.15(c), such combined amount will be used for the purpose of this 
+award limitation.
+
+    Dated: November 5, 2002.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 02-28662 Filed 11-8-02; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

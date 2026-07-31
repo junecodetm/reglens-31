@@ -1,0 +1,54 @@
+{
+  "document_number": "2026-11592",
+  "document_title": "Publication of Cyber-Related Sanctions Regulations Web General License 2",
+  "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11592/publication-of-cyber-related-sanctions-regulations-web-general-license-2",
+  "document_sha256": "485c1105db314a9d0d0455d1d321a2ab013fa1d16db08a1923e980e1b8a6970a",
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "total_chars": 3081,
+  "extracted_chars": 3081,
+  "claims": [
+    {
+      "claim_id": "bec7435a68085f0f",
+      "document_number": "2026-11592",
+      "quote": "Except as provided in paragraph (b) of this general license, all transactions prohibited by the Cyber-Related Sanctions Regulations, 31 CFR part 578 (CRSR), involving Anco Water Supply Co. Ltd. or any entity in which Anco Water Supply Co. Ltd. owns, directly or indirectly, a 50 percent or greater interest, and that are ordinarily incident and necessary to the treatment or distribution of drinking water, are authorized.",
+      "obligation_type": "requirement",
+      "affected_party": "Anco Water Supply Co. Ltd. and entities with 50% or greater ownership",
+      "summary": "Transactions related to the treatment and distribution of drinking water involving Anco Water Supply Co. Ltd. or entities with 50% or greater ownership are authorized, except as specified in paragraph (b).",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2119,
+      "end": 2547,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "485c1105db314a9d0d0455d1d321a2ab013fa1d16db08a1923e980e1b8a6970a",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "477d5b6c712f83a057f37c34679d1e3ad6c596217f8fedc2d1605f61258908a2"
+      }
+    },
+    {
+      "claim_id": "c92f7358f6720b55",
+      "document_number": "2026-11592",
+      "quote": "This general license does not authorize any transactions otherwise prohibited by the CRSR, including transactions involving any person blocked pursuant to the CRSR other than the blocked persons described in paragraph (a) of this general license, unless separately authorized.",
+      "obligation_type": "prohibition",
+      "affected_party": "Persons blocked pursuant to the CRSR",
+      "summary": "Transactions involving persons blocked under the CRSR, except those described in paragraph (a), are not authorized unless separately authorized.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2556,
+      "end": 2836,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "485c1105db314a9d0d0455d1d321a2ab013fa1d16db08a1923e980e1b8a6970a",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "477d5b6c712f83a057f37c34679d1e3ad6c596217f8fedc2d1605f61258908a2"
+      }
+    }
+  ]
+}

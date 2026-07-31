@@ -1,0 +1,662 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 201 (Friday, October 17, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 201 (Friday, October 17, 2003)]
+[Rules and Regulations]
+[Pages 59715-59720]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-26250]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AA99
+
+
+Terrorism Risk Insurance Program; State Residual Market Insurance 
+Entities
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule as part of its implementation of Title I of the Terrorism 
+Risk Insurance Act of 2002 (Act). The Act established a temporary 
+Terrorism Risk Insurance Program (Program) under which the Federal 
+Government will share the risk of insured loss from certified acts of 
+terrorism with commercial property and casualty insurers until the 
+Program ends on December 31, 2005. Treasury published a proposed rule 
+with a request for comment on April 18, 2003. This rule is issued 
+pursuant to section 103(d)(1) of the Act, which directs Treasury to 
+issue regulations that apply the provisions of the Act specifically to 
+State residual market insurance entities and State workers' 
+compensation funds. This rule is the third final rule in a series of 
+regulations that Treasury is issuing to implement the Program.
+
+DATES: This final rule is effective October 17, 2003.
+
+FOR FURTHER INFORMATION CONTACT: Mario Ugoletti, Deputy Director, 
+Office of Financial Institutions Policy (202) 622-2730, or Martha 
+Ellett or Cynthia Reese, Attorney-Advisors, Office of the Assistant 
+General Counsel (Banking & Finance), (202) 622-0480, or C. Christopher 
+Ledoux, Senior Attorney,
+
+[[Page 59716]]
+
+Terrorism Risk Insurance Program (202) 622-6770 (not toll-free 
+numbers).
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+A. Terrorism Risk Insurance Act of 2002
+
+    On November 26, 2002, President Bush signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and 
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving State 
+insurance regulation and consumer protections.
+    Title I of the Act establishes a temporary Federal program of 
+shared public and private compensation for insured commercial property 
+and casualty losses resulting from an act of terrorism, which as 
+defined in the Act is certified by the Secretary of the Treasury, in 
+concurrence with the Secretary of State and the Attorney General. The 
+Act authorizes Treasury to administer and implement the Terrorism Risk 
+Insurance Program, including the issuance of regulations and 
+procedures. The Program will end on December 31, 2005.
+    Each entity that meets the definition of ``insurer'' (well over 
+2000 firms) must participate in the Program. The amount of Federal 
+payment for an insured loss resulting from an act of terrorism is to be 
+determined based upon the insurance company deductibles and excess loss 
+sharing with the Federal Government, as specified by the Act and the 
+implementing regulations. An insurer's deductible increases each year 
+of the Program, thereby reducing the Federal Government's share prior 
+to expiration of the Program. An insurer's deductible is calculated 
+based on the value of ``direct earned premiums'' collected over certain 
+statutory periods. Once an insurer has met its individual deductible, 
+the Federal payments cover 90 percent of insured losses above the 
+deductible, subject to an industry-aggregate limit of $100 billion.
+    The Program provides a Federal reinsurance backstop for three 
+years. The Act provides Treasury with authority to recoup Federal 
+payments made under the Program through policyholder surcharges, up to 
+a maximum annual limit. The Act also prohibits duplicative payments for 
+insured losses that have been covered under any other Federal program.
+    The mandatory availability or ``make available'' provisions in 
+section 103(c) of the Act require that, for Program Year 1 and Program 
+Year 2 and, if so determined by Treasury, in Program Year 3, all 
+entities that meet the definition of insurer under the Program must 
+make available in all of their property and casualty insurance policies 
+coverage for insured losses resulting from an act of terrorism. This 
+coverage can not differ materially from the terms amounts and other 
+coverage limitations arising from events other than acts of terrorism.
+    As conditions for Federal payment under the Program, insurers must 
+provide clear and conspicuous disclosure to the policyholders of the 
+premium charged for insured losses covered by the Program and the 
+Federal share of compensation for insured losses under the Program. In 
+addition, the Act requires that insurers must submit a claim and 
+certain certifications to Treasury. Treasury will engage in rulemaking 
+to prescribe claims procedures for the Program at a later date.
+    The Act also contains specific provisions designed to manage 
+litigation arising from or relating to a certified act of terrorism. 
+Section 107 creates an exclusive Federal cause of action, provides for 
+claims consolidation in Federal court and contains a prohibition on 
+Federal payments for punitive damages under the Program. The Act 
+provides the United States with the right of subrogation with respect 
+to any payment or claim paid by the United States under the Program.
+1. Three Year Program
+    The duration of the Program is three years. The Act was signed into 
+law on November 26, 2002, and section 108(a) of the Act provides that, 
+``[t]he Program shall terminate on December 31, 2005.'' Thereafter, the 
+Act provides Treasury with certain continuing authority to take actions 
+as necessary to ensure payment, recoupment, adjustments of compensation 
+and reimbursement for insured losses arising out of any act of 
+terrorism occurring during the period between November 26, 2002, and 
+December 31, 2005. The duration of the Program and the Program's 
+termination date should not be confused with the make available 
+requirements contained in section 103(c) of the Act. As reflected in 
+both the interim final and final rules, the make available requirements 
+in section 103(c) of the Act apply to all insurers, through the end of 
+Program Year 2. However, the Secretary of the Treasury may determine, 
+not later than September 1, 2004, to extend the make available 
+requirements through Program Year 3, based on factors referenced in 
+section 108(d)(1) of the Act. Regardless of whether the make available 
+requirements of section 103 are extended, the Program and the Act's 
+Federal backstop for insured losses for acts of terrorism continue 
+through December 31, 2005.
+2. Program Implementation Goals
+    In implementing the Program, Treasury is guided by several goals. 
+First, Treasury strives to implement the Act in a transparent and 
+effective manner that treats comparably those insurers required to 
+participate in the Program and provides necessary information to 
+policyholders in a useful and efficient manner. Second, in accord with 
+the Act's stated purposes, Treasury seeks to rely as much as possible 
+on the State insurance regulatory structure. In that regard, Treasury 
+has coordinated the implementation of all aspects of the Program with 
+the National Association of Insurance Commissioners (NAIC). Third, to 
+the extent possible within statutory constraints, Treasury seeks to 
+allow insurers to participate in the Program in a manner consistent 
+with procedures used in their normal course of business. Finally, given 
+the temporary and transitional nature of the Program, Treasury is 
+guided by the Act's goal for insurers to develop their own capacity, 
+resources, and mechanisms for terrorism insurance coverage when the 
+Program expires.
+
+B. The Proposed Rule
+
+    The proposed rule proposed to amend subpart D of part 50 in title 
+31 of the Code of Federal Regulations by adding sections 50.30, 50.33, 
+50.35, and 50.36. Subpart A of part 50 addresses the scope and purpose 
+of the Program, key definitions and certain general provisions and was 
+finalized and published in the Federal Register at 68 FR 41250 (July 
+11, 2003) (as amended at 68 FR 48280 (August 13, 2003)). Subparts B and 
+C were established by an interim final rule published in the Federal 
+Register at 68 FR 19301 (Apr. 18, 2003) and were recently finalized. 
+Subpart B incorporates and clarifies certain conditions for Federal 
+payment contained in section 103(b) of the Act that require insurers to 
+provide certain clear and conspicuous disclosures to their 
+policyholders with regard to terrorism risk insurance for insured 
+losses under the Program. Subpart C clarifies requirements in section 
+103(c) of the Act that insurers ``make available,'' in all of their 
+commercial property and casualty insurance policies, coverage for 
+insured losses
+
+[[Page 59717]]
+
+resulting from an act of terrorism as defined by section 102(1) of the 
+Act. In this regard, section 103(c) requires insurers to make such 
+terrorism risk coverage available at terms, amounts and other coverage 
+limitations that do not differ materially from those applicable to 
+losses arising from events other than from acts of terrorism. Subpart 
+D, as directed by section 103(d)(1) of the Act, applies the provisions 
+of the Act to State residual market insurance entities and State 
+workers' compensation funds. In the preamble to the proposed rule, 
+Treasury requested comment on application of the disclosure 
+requirements of the Act to State residual market insurance entities and 
+State workers' compensation funds. As part of this rulemaking, Treasury 
+is amending section 50.19 of subpart B, which was previously reserved, 
+to apply the disclosure requirements to those entities.
+    The various rules reflect earlier interim guidance notices, issued 
+by Treasury soon after the Act's enactment date, and designed to assist 
+insurers, policyholders, and other interested parties in complying with 
+immediately applicable and time-sensitive requirements.\1\ In 
+finalizing this rule, Treasury carefully considered the comments 
+submitted and consulted with the NAIC.
+---------------------------------------------------------------------------
+
+    \1\ These interim guidance notices were published in the Federal 
+Register at 67 FR 76206 (Dec. 11, 2002); 67 FR 78864 (Dec. 26, 2002) 
+and at 68 FR 4544 (Jan. 29, 2003). Treasury also issued a fourth 
+interim guidance at 68 FR 15039 (Mar. 27, 2003), which has 
+subsequently been superceded by a new provision in the final rule 
+for Subpart A, published at 68 FR 41250 (July 11, 2003). The interim 
+guidance and all regulations can also be located on Treasury's 
+Terrorism Risk Insurance Program Web site at <a href="http://www.treasury.gov/trip">www.treasury.gov/trip</a>.
+---------------------------------------------------------------------------
+
+II. Summary of Comments and Final Rule
+
+    Treasury received four comments on the proposed rule. Comments were 
+submitted by a group of insurance trade associations, the Ohio Bureau 
+of Workers' Compensation, and a State residual market insurance entity. 
+After review and careful consideration of these comments, as well as 
+additional research and consultation with the NAIC, Treasury is now 
+promulgating a final rule applying the Act to State residual market 
+insurance entities and State workers' compensation funds (referred to 
+collectively as ``residual market mechanisms'' where appropriate). 
+Treasury has made no changes to the proposed rule. Treasury is, 
+however, adding specific disclosure provisions by amending section 
+50.19. The final rule and amendment to section 50.19, including 
+clarifications, are discussed in the summary of comments below.
+
+A. Mandatory Participation by Residual Market Mechanisms (Section 
+50.30)
+
+    In subpart D of this final rule, Treasury is setting forth 
+regulations specific to the participation of residual market mechanisms 
+in the Program. Section 102(6) of the Act specifically includes State 
+residual market insurance entities and State workers' compensation 
+funds as insurers that are required to participate in the Program. As 
+we stated in the notice of proposed rulemaking (published in the 
+Federal Register at 68 FR 19309 on April 18, 2003), Treasury considers 
+the Act's terms ``State residual market insurance entities'' and 
+``State workers' compensation funds'' to encompass all State 
+legislatively-created residual market mechanisms that facilitate the 
+availability of primary and excess commercial property and casualty 
+insurance coverage for risks that face difficulties in obtaining such 
+coverage from the voluntary market. This includes--but is not limited 
+to--residual market mechanisms associated with the provision of 
+commercial property, commercial liability, workers' compensation, and 
+commercial automobile coverage. Sections 50.30(a) and (b) of this final 
+rule, taken together, provide that residual market mechanisms are 
+insurers under the Program, even if they do not receive direct earned 
+premiums, and thus are mandatory participants in the Program.
+1. List of Residual Market Mechanisms
+    In its second notice of interim guidance (67 FR 78864), Treasury 
+first published a list of entities that Treasury, in consultation with 
+the NAIC, identified as residual market mechanisms required to 
+participate in the Program and that provide commercial property and 
+casualty insurance, as defined by the Act and regulations. The list is 
+not exclusive. A residual market mechanism should not assume that 
+because it is not listed on Treasury's List of State Residual Market 
+Mechanisms it is not required to participate in the Program. All State 
+residual market insurance entities and State workers' compensation 
+funds are insurers that must participate in the Program. See sections 
+50.5(f)(1)(D) and 50.4. Treasury's list was merely intended to provide 
+guidance and certainty to those entities on the list as well as to 
+foster transparency in the Program.
+    In the notice of interim guidance, Treasury encouraged residual 
+market mechanisms that were not included on the list to notify 
+Treasury. Since the publication of that notice of interim guidance, 
+Treasury has continued to work with the NAIC to revise the List of 
+State Residual Market Mechanisms. Section 50.30(c) of this final rule 
+explains that Treasury will maintain and continue to update this list 
+from time to time, as necessary. Treasury's list will be publicly 
+available at <a href="http://www.treasury.gov/trip">www.treasury.gov/trip</a>, along with the procedures for 
+providing comments and updates.
+    Treasury, in consultation with the NAIC, has considered the 
+following characteristics in identifying residual market mechanisms 
+that should be included on Treasury's list:
+    [sbull] Was the mechanism created by a state legislature?
+    [sbull] Does the mechanism provide commercial property and casualty 
+insurance to policyholders, either directly or through servicing 
+carriers?
+    [sbull] Does the mechanism seek to make available commercial 
+property and casualty insurance for risks that are ``distressed'' or 
+``hard to place'' in the voluntary market?
+    [sbull] How does the mechanism share or allocate its profits and 
+losses from its operations?
+    [sbull] Does the mechanism meet the requirements of Sec.  50.5(f)?
+2. State Workers' Compensation Reinsurance Pools
+    Treasury received a comment from the Minnesota Workers' 
+Compensation Reinsurance Association (``WCRA''), a State workers'' 
+compensation reinsurance pool, that requested the Secretary exercise 
+his discretion under section 103(f) of the Act (which mentions State 
+workers' compensation reinsurance pools) and include such pools in the 
+Program. Treasury is not making a section 103(f) determination at this 
+time. However, looking beyond the commenter's name to its function, 
+Treasury has determined that the commenter fits within the residual 
+market mechanism category under section 103(d) of the Act, as explained 
+below.
+    The WCRA is a State-mandated reinsurance pool from which workers' 
+compensation insurers are required by State law to purchase excess 
+reinsurance. WCRA also provides workers' compensation insurance 
+directly to self-insured employers. While section 102(12)(vii) of the 
+Act expressly excludes reinsurance from the definition of property and 
+casualty insurance covered by the Program, Treasury believes that an 
+insurance arrangement between a self-insured and
+
+[[Page 59718]]
+
+an insurer, or a pool of insurers, is more like direct primary or 
+excess property and casualty insurance versus traditional reinsurance 
+(i.e., an insurer reinsuring another insurer).
+    After consulting with the NAIC and considering the characteristics 
+described above, Treasury considers WCRA to be similar to a residual 
+market mechanism. WCRA is a legislatively-established risk pool that 
+issues insurance directly to policyholders, which risks are hard to 
+place in the voluntary insurance market. WCRA also has a procedure 
+through which it shares or allocates its profits and losses with 
+private sector insurers. Therefore, for these reasons, Treasury has 
+added WCRA to its List of State Residual Market Mechanisms and its 
+participation in the Program is confirmed. If any other State workers' 
+compensation reinsurance pool believes that it shares the 
+characteristics of a residual market mechanism and believes it should 
+be included on the list, under section 50.9, the reinsurance pool 
+should submit a request for an interpretation of the application of 
+these regulations to its particular circumstance.
+
+B. Allocation of Premium (Sections 50.33 through 50.36)
+
+    Section 103(d)(2) of the Act divides residual market mechanisms 
+into two broad classes for purposes of their treatment as insurers 
+under the Program: (1) entities that do not share profits and losses 
+with private sector insurance companies; and (2) entities that do share 
+profits and losses with private sector insurance companies.
+    Section 103(d)(2)(A) provides that ``a State residual market 
+insurance entity that does not share its profits and losses with 
+private sector insurers shall be treated as a separate insurer.'' For 
+State residual market insurance entities that fall under section 
+103(d)(2)(A) of the Act or for State workers' compensation funds, 
+section 50.33 of the final rule provides that these mechanisms follow 
+the regulations set forth in sections Sec.  50.5(d)(1) or Sec.  
+50.5(d)(2) for the purposes of calculating the appropriate measure of 
+direct earned premium. Residual market mechanisms functioning in this 
+manner are thus treated as risk bearers in the same manner as private 
+sector insurers. Treasury received a comment from a group of trade 
+associations that endorsed this approach. These provisions of the 
+proposed rule are adopted without change.
+    Section 103(d)(2)(B) of the Act provides that ``a State residual 
+market insurance entity that shares its profits and losses with private 
+sector insurers shall not be treated as a separate insurer, and shall 
+report to each private sector insurance participant its share of the 
+insured losses of the entity, which shall be included in each private 
+sector insurer's insured losses.'' Section 103(d)(3) of the Act 
+provides that ``any insurer that participates in sharing profits and 
+losses of a State residual market insurance entity shall include in its 
+calculations or premiums any premiums distributed to the insurer by the 
+State residual market insurance entity.'' Residual market insurance 
+mechanisms functioning in this manner are thus treated as risk 
+apportioning entities and not risk bearing entities. Proposed section 
+50.35 reflected this treatment and also provided that these entities 
+should continue to report, in accordance with normal business 
+practices, to each participant insurer its share of premium income and 
+insured losses, which is to be included respectively in the participant 
+insurer's direct earned premium and insured loss calculations. Treasury 
+received a comment from a group of trade associations that supported 
+this approach. This provision of the proposed rule is adopted without 
+change.
+    Section 50.36 of the proposed rule further addressed the 
+calculation of direct earned premium based on the allocation of premium 
+income shared between the residual market mechanism and its servicing 
+carriers or participant insurers. Favorable comments were received on 
+this provision, which is adopted without change.
+
+C. Other Issues
+
+State Residual Market Mechanisms and Natural Disaster Insurance
+    Treasury received a comment from a residual market mechanism that 
+issues commercial policies that provide coverage only for the peril of 
+wind. The commenter requested that Treasury modify section 50.5(l) of 
+the regulations to exclude commercial single peril wind insurance from 
+the provisions of the Act. The commenter analogized single peril wind 
+insurance to that of flood insurance and earthquake insurance, which 
+are not included in the Program. See section 50.5(l)(1). Upon 
+consideration of the comment, Treasury is not revising section 50.5(l). 
+However, as stated in the preamble to the final rule published July 11, 
+2003, Treasury may later request comment on the exclusion from the 
+Program definition of commercial property and casualty insurance 
+single-peril natural disaster insurance currently included in the 
+Program.
+
+D. Disclosure Requirements (Section 50.19)
+
+    Subpart B of 31 CFR part 50 sets forth regulations that address, 
+inter alia, the clear and conspicuous disclosures that all insurers are 
+required by the Act to provide to policyholders. Section 50.19 of 
+subpart B, entitled Disclosure by State residual market insurance 
+entities and State workers' compensation funds, had been reserved 
+pending this rulemaking. This final rule amends 50.19 to address how 
+residual market mechanisms are to comply with the Act's disclosure 
+requirements.
+    Section 102(6) of the Act specifically includes residual market 
+mechanisms as insurers that are required to participate in the Program. 
+As a condition for Federal payment under the Program, section 103(b)(2) 
+of the Act requires that insurers provide clear and conspicuous 
+disclosure to policyholders of the premium charged for insured losses 
+covered by the Program and the Federal share of compensation under the 
+Program. Section 103(d) of the Act directed the Secretary of the 
+Treasury to issue regulations as soon as practicable that apply the 
+provisions of the Act (including the disclosure requirements) to 
+residual market mechanisms.
+    On December 18, 2002, Treasury issued a second notice of interim 
+guidance (67 FR 78864). In this notice of interim guidance Treasury 
+indicated it would temporarily waive the disclosure requirements for 
+those insurers that: (1) are State residual market insurance entities 
+and State workers' compensation funds; and (2) have insufficient 
+information to issue the disclosures, until Treasury issued regulations 
+as required under section 103(d) to apply the provisions of the Act to 
+these entities. Thus, the waiver provided a safe harbor pending the 
+issuance of this final rule. We expected residual market mechanisms to 
+have provided the disclosures if they possessed sufficient information 
+to do so.
+    In the preamble to the proposed rule, Treasury stated that it was 
+still evaluating the applicability of the disclosure requirements to 
+certain insurers in this category and asked for public comment. 
+Treasury received two comments on this issue. One comment deferred the 
+issue to Treasury. Another commenter requested that Treasury exempt 
+State workers' compensation funds from the disclosure requirements. The 
+commenter argued that the burden and cost associated with providing the 
+disclosures outweighs the goals of such
+
+[[Page 59719]]
+
+notice, especially where the fund does not charge additional premium 
+for insured losses.
+    Section 103(b) of the Act requires that insurers make certain 
+disclosures to policyholders as a condition for federal payment under 
+the Act. Section 50.10 of the regulations states, in part, that an 
+insurer must provide clear and conspicuous disclosure to the 
+policyholder of: (1) the premium charged for insured losses covered by 
+the Program; and (2) the Federal share of compensation for insured 
+losses under the Program. Congress required this disclosure in order 
+``to enhance the competitiveness of the marketplace by better enabling 
+consumers to comparison shop for terrorism insurance coverage, and to 
+make policyholders better aware that the Federal government will be 
+sharing the costs of such coverage with insurers thereby reducing the 
+insurers' exposure.'' H.R. Conf. Rep. No. 107-779, at 24 (2002).
+    After consideration of the comment and the relevant provisions of 
+the Act, and following consultation with NAIC and additional study of 
+the issue, Treasury is applying disclosure provisions to residual 
+market mechanisms that have not yet issued disclosures to 
+policyholders. Thus, Treasury is issuing regulations relating to the 
+disclosures required of State residual market insurance entities and 
+State workers' compensation funds by amending section 50.19 of subpart 
+B in this final rule. These regulations supercede the earlier interim 
+guidance referenced above and the safe-harbor provided in that guidance 
+will no longer be available to these insurers.
+    Section 50.19 generally follows the regulations applicable to all 
+other insurers. In order to provide residual market insurance 
+mechanisms with sufficient time to come into compliance (if they are 
+not already), section 50.19 provides a 90-day safe harbor. For policies 
+in force on October 17, 2003, or issued or renewed on or before January 
+15, 2004, the disclosure is required by the Act but the condition for 
+Federal payment is waived with regard to those policies until January 
+15, 2004. In section 50.12(c), Treasury has provided that ``an insurer 
+may provide disclosure using normal business practices, including forms 
+and methods of communication used to communicate similar policyholder 
+information to policyholders.'' Section 50.19(b) extends this rule to 
+State residual market insurance entities and State workers' 
+compensation funds and clarifies that while disclosures may be made by 
+the residual market mechanism, the individual insurers that participate 
+in the residual market, or the servicing carriers (depending on their 
+normal business practices), the ultimate responsibility for ensuring 
+that the disclosure requirements have been met rests with the insurer 
+that will be filing any claim. In accordance with other requirements of 
+subpart B, disclosure must be clear and conspicuous, made on a separate 
+line item in the policy at the time of offer, purchase, and renewal of 
+the policy.
+
+III. Procedural Requirements
+
+    The Act established a Program to provide for loss sharing payments 
+by the Federal Government for insured losses resulting from certified 
+acts of terrorism. The Act became effective immediately upon the date 
+of enactment (November 26, 2002). Preemptions of terrorism risk 
+exclusions in policies, mandatory participation provisions, disclosure 
+and other requirements and conditions for Federal payment contained in 
+the Act applied immediately to those entities that come within the 
+Act's definition of ``insurer.''
+    This rule amends subpart D to part 50 in title 31 that addresses 
+how the Program applies to State residual market insurance entities and 
+State workers' compensation funds. This rule also amends section 50.19 
+of subpart B. This rule is intended to respond to section 103(d)(1) of 
+the Act, which directs Treasury to issue regulations that apply the 
+provisions of the Act to State residual market insurance entities and 
+State workers' compensation funds. Given the importance of applying 
+regulations to State residual market insurance entities and State 
+workers' compensation funds, there is an urgent need to issue 
+immediately effective regulations.
+    Accordingly, pursuant to 5 U.S.C. 553(d)(3), Treasury has 
+determined that there is good cause for the final rule to become 
+effective immediately upon publication.
+    This final rule is a significant regulatory action and has been 
+reviewed by the Office of Management and Budget under the terms of 
+Executive Order 12866.
+    Pursuant to the Regulatory Flexibility Act (5 U.S.C. chapter 6), it 
+is hereby certified that this proposed rule will not have a significant 
+economic impact on a substantial number of small entities. The Act 
+itself requires State residual market insurance entities and State 
+workers' compensation funds to participate in the Program, and these 
+entities or funds are generally not small entities.
+    The Act itself requires all licensed or admitted insurers to 
+participate in the Program. This includes all insurers regardless of 
+size or sophistication. Although insurers that participate in sharing 
+profits and losses of a State residual market insurance entity or State 
+workers' compensation fund may include small entities, the proposed 
+rule is based on existing business practices of residual market 
+entities in determining the impact on participating insurers. The Act 
+also defines property and casualty insurance to mean commercial lines 
+without any reference to the size or scope of the commercial entity. 
+Accordingly, any economic impact associated with the proposed rule 
+flows from the Act and not the proposed rule. However, the Act and the 
+Program are intended to provide benefits to the U.S. economy and all 
+businesses, including small businesses, by providing a Federal 
+reinsurance backstop to commercial property and casualty insurance 
+policyholders and spreading the risk of insured loss resulting from an 
+act of terrorism. Accordingly, a regulatory flexibility analysis is not 
+required.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, 31 CFR part 50 is amended as follows:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C 6701 note).
+
+
+0
+2. Section 50.19 of subpart B is revised to read as follows:
+
+
+Sec.  50.19  1General disclosure requirements for State residual market 
+insurance entities and State worker's compensation funds.
+
+    (a) Policies in force on October 17, 2003, or renewed or issued on 
+or before January 15, 2004. For policies in force on October 17, 2003, 
+or renewed or issued on or before January 15, 2004, the disclosure 
+required by section 103(b) of the Act as a condition for Federal 
+payment is waived for those State residual market insurance entities 
+and State workers' compensation funds that since November 26, 2002, 
+have not provided disclosures to policyholders, until January 15, 2004, 
+after which disclosures are to be made to policyholders for policies 
+then in force and subsequently issued.
+
+[[Page 59720]]
+
+    (b) Residual Market Mechanism Disclosure. A State residual market 
+insurance entity or State workers' compensation fund may provide the 
+disclosures required by this subpart B to policyholders using normal 
+business practices, including forms and methods of communication used 
+to communicate similar policyholder information to policyholders. The 
+disclosures may be made by the State residual market insurance entity 
+or State workers' compensation fund itself, the individual insurers 
+that participate in the State residual market insurance entity or a 
+State workers' compensation fund, or its servicing carriers. The 
+ultimate responsibility for ensuring that the disclosure requirements 
+have been met rests with the insurer filing a claim under the Program.
+    (c) Other requirements. Except as provided in this section, all 
+other disclosure requirements set out in this subpart B apply to State 
+residual insurance market entities and State workers' compensation 
+funds.
+    (d) Prior safe harbor superseded. This section supersedes the 
+disclosure safe harbor provisions found at paragraph C.4 of the Interim 
+Guidance issued by Treasury in a notice published on December 18, 2002, 
+and published at 67 FR 78864 (December 26, 2002).
+
+0
+3. Subpart D of part 50 is amended by adding Sec. Sec.  50.30, 50.33, 
+50.35, and 50.36 to read as follows:
+
+
+Sec.  50.30  General participation requirements.
+
+    (a) Insurers. As defined in Sec.  50.5(f), all State residual 
+market insurance entities and State workers' compensation funds are 
+insurers under the Program even if such entities do not receive direct 
+earned premiums.
+    (b) Mandatory Participation. State residual market insurance 
+entities and State workers' compensation funds that meet the 
+requirements of Sec.  50.5(f) are mandatory participants in the Program 
+subject to the rules issued in this Subpart.
+    (c) Identification. Treasury will release and maintain a list of 
+State residual market insurance entities and State workers' 
+compensation funds at <a href="http://www.treasury.gov/trip">www.treasury.gov/trip</a>. Procedures for providing 
+comments and updates to that list will be posted with the list.
+
+
+Sec.  50.33  Entities that do not share profits and losses with private 
+sector insurers.
+
+    (a) Treatment. A State residual market insurance entity or a State 
+workers' compensation fund that does not share profits and losses with 
+a private sector insurer is deemed to be a separate insurer under the 
+Program.
+    (b) Premium calculation. A State residual market insurance entity 
+or a State workers' compensation fund that is deemed to be a separate 
+insurer should follow the guidelines specified in Sec.  50.5(d)(1) or 
+50.5(d)(2) for the purposes of calculating the appropriate measure of 
+direct earned premium.
+
+
+Sec.  50.35  Entities that share profits and losses with private sector 
+insurers.
+
+    (a) Treatment. A State residual market insurance entity or a State 
+workers' compensation fund that shares profits and losses with a 
+private sector insurer is not deemed to be a separate insurer under the 
+Program.
+    (b) Premium and loss calculation. A State residual market insurance 
+entity or a State workers' compensation fund that is not deemed to be a 
+separate insurer should continue to report, in accordance with normal 
+business practices, to each participant insurer its share of premium 
+income and insured losses, which shall then be included respectively in 
+the participant insurer's direct earned premium or insured loss 
+calculations.
+
+
+Sec.  50.36  Allocation of premium income associated with entities that 
+do share profits and losses with private sector insurers.
+
+    (a) Servicing Carriers. For purposes of this Subpart, a servicing 
+carrier is an insurer that enters into an agreement to place and 
+service insurance contracts for a State residual market insurance 
+entity or a State workers' compensation fund and to cede premiums 
+associated with such insurance contracts to the State residual market 
+insurance entity or State workers' compensation fund. Premiums written 
+by a servicing carrier on behalf of a State residual market insurance 
+entity or State workers' compensation fund that are ceded to such an 
+entity or fund shall not be included as direct earned premium (as 
+described in Sec.  50.5(d)(1) or 50.5(d)(2)) of the servicing carrier.
+    (b) Participant Insurers. For purposes of this Subpart, a 
+participant insurer is an insurer that shares in the profits and losses 
+of a State residual market insurance entity or a State workers' 
+compensation fund. Premium income that is distributed to or assumed by 
+participant insurers in a State residual market insurance entity or 
+State workers' compensation fund (whether directly or as quota share 
+insurers of risks written by servicing carriers), shall be included in 
+direct earned premium (as described in Sec.  50.5(d)(1) or 50.5(d)(2)) 
+of the participant insurer.
+
+    Dated: October 1, 2003.
+Wayne A. Abernathy,
+Assistant Secretary of the Treasury.
+[FR Doc. 03-26250 Filed 10-16-03; 8:45 am]
+BILLING CODE 4811-15-P
+
+
+</pre></body>
+</html>

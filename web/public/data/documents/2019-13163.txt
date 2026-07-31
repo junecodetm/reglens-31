@@ -1,0 +1,917 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 120 (Friday, June 21, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 120 (Friday, June 21, 2019)]
+[Rules and Regulations]
+[Pages 29055-29062]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-13163]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Reporting, Procedures and Penalties Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Interim final rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this interim final rule to amend the 
+Reporting, Procedures and Penalties Regulations (the Regulations) to 
+provide updated instructions and incorporate new requirements for 
+parties filing reports on blocked property, unblocked property, or 
+rejected transactions. In addition, OFAC is revising the licensing 
+procedures section of the Regulations to include information regarding 
+OFAC's electronic license application procedures and to provide 
+additional instructions regarding applications for the release of 
+blocked funds. OFAC also is clarifying the rules governing the 
+availability of information under the Freedom of Information Act (FOIA) 
+for information that is submitted to OFAC pursuant to the Regulations. 
+Finally, OFAC is making numerous technical and conforming edits 
+throughout the Regulations.
+
+DATES: This interim final rule is effective June 21, 2019. Written 
+comments may be submitted on or before July 22, 2019.
+
+ADDRESSES: You may submit comments by any of the following methods:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. Follow the 
+instructions on the website for submitting comments. Refer to Docket 
+Number OFAC-2019-0003.
+    Fax: Attn: Request for Comments (Amendments to OFAC's Reporting, 
+Procedures and Penalties Regulations) 202-622-1759.
+    Mail: Attn: Request for Comments (Amendments to OFAC's Reporting, 
+Procedures and Penalties Regulations), Office of Foreign Assets 
+Control, U.S. Department of the Treasury, 1500 Pennsylvania Avenue NW, 
+Freedman's Bank Building, Washington, DC 20220. Refer to Docket Number 
+OFAC-2019-0003.
+    Instructions: All submissions received must include the agency name 
+and the Federal Register Doc. number that appears at the end of this 
+document. All comments, including attachments and other supporting 
+materials, will become part of the public record and subject to public 
+disclosure. Sensitive personal information, such as account numbers or 
+Social Security numbers, should not be included. Comments generally 
+will not be edited to remove any identifying or contact information.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Licensing, tel.: 202-622-2480, Assistant Director for Regulatory 
+Affairs, tel.: 202-622-4855, Assistant Director for Sanctions 
+Compliance & Evaluation, tel.: 202-622-2490; or the Department of the 
+Treasury's Office of the Chief Counsel (Foreign Assets Control), Office 
+of the General Counsel, tel.: 202-622-2410.
+
+SUPPLEMENTARY INFORMATION: 
+
+Background
+
+    The Regulations set forth standard reporting and recordkeeping 
+requirements and license application and other procedures relevant to 
+the economic sanctions programs administered by OFAC. OFAC is updating 
+six sections of the Regulations.
+
+Reports on Blocked and Unblocked Property
+
+    OFAC is revising Sec.  501.603 of the Regulations, which covers 
+reports on blocked property, to provide greater detail regarding the 
+information required to be provided to OFAC in connection with blocking 
+reports and to expand this section to cover reports on the release of 
+property from blocked status (i.e., unblocked property), as well as to 
+make certain technical and conforming changes related thereto. As a 
+general matter, in the past, when a submitter has not provided 
+sufficient information to identify blocked or unblocked property and to 
+determine the authority or authorities under which it was blocked or 
+unblocked, OFAC has requested follow up information from the submitter, 
+sometimes requiring multiple requests. OFAC is expanding the 
+information listed in Sec.  501.603 that is required to be submitted in 
+reports on blocked property in an effort to clarify what information is 
+needed to reduce the need for follow up requests from OFAC and in order 
+to lessen the overall reporting burden for submitters.
+    Initial blocking reports. The expanded instructions for initial 
+blocking reports require submitters to include the following 
+information: (1) The name and address of the person holding the blocked 
+property and a contact person from whom additional information may be 
+obtained; (2) a description of any transaction associated with the 
+blocking, including certain identifying information; (3) the associated 
+sanctions target(s) whose property is blocked or a reference to the 
+relevant written communication from OFAC if there is no associated 
+target or that target is unknown; (4) a description of the property 
+that is the subject of the blocking and its location; (5) the date the 
+property was blocked; (6) the actual, or if unknown, estimated value of 
+the property in U.S. Dollars; (7) the legal authority or authorities 
+under which the
+
+[[Page 29056]]
+
+property is blocked and the action taken with respect to the property 
+(e.g., that the property has been deposited into a new or existing 
+blocked, interest-bearing account); and (8) a copy of any payment or 
+transfer instructions or other relevant documentation.
+    Annual reports of blocked property. In the case of annual reports 
+of blocked property, Sec.  501.603 will require submitters to include 
+the following information: (1) The name and address of the person 
+holding the blocked property and a contact from whom additional 
+information may be obtained; (2) the number of accounts or items 
+reported in the annual report; (3) the associated sanctions target(s) 
+whose property is blocked or a reference to the relevant written 
+communication from OFAC if there is no associated target or that target 
+is unknown; (4) a description of the property that is the subject of 
+the blocking and its location; (5) the date the property was blocked; 
+(6) the actual, or if unknown, estimated value of the property in U.S. 
+Dollars; and (7) the legal authority or authorities under which the 
+property is blocked.
+    Annual report format. OFAC is revising Sec.  501.603(b)(2) to 
+provide additional information regarding the required format for 
+submitting annual reports of blocked property. Specifically, reports 
+must be submitted either using the most recent version of Form TDF 90-
+22.50, Annual Report of Blocked Property, or by another official 
+reporting option, including electronic, as specified by OFAC on its 
+website. OFAC is updating Form TDF 90-22.50 in connection with the 
+amendment of the Regulations to align the form with the revised 
+requirements of the Regulations. The changes to Form TDF 90-22.50 are 
+also being made in an effort to reduce the need for follow up requests 
+from OFAC in order to lessen the overall reporting burden for 
+submitters. Requests to submit the information required pursuant to 
+Sec.  501.603(b)(2) in an alternate format will be considered by OFAC 
+on a case-by-case basis. OFAC is adding a new requirement for 
+submitters of annual reports of blocked property who maintain blocked 
+funds in omnibus accounts, requiring that annual reports contain a 
+disaggregated list showing each blocked asset contained within the 
+omnibus account. This new requirement to include disaggregated 
+information in the annual reports begins with the 2020 annual reports, 
+which are due no later than September 30, 2020.
+    Reports on property that is unblocked. OFAC is incorporating into 
+Sec.  501.603 certain requirements regarding reports on the release of 
+property from blocked status (i.e., property that is unblocked). These 
+reports are only due when specifically required by OFAC, such as when 
+they are made a condition of a general or specific license, and must be 
+filed within 10 business days from the date such property is unblocked 
+or as otherwise specified by OFAC. When a report is required, Sec.  
+501.603(b)(3) will now require submitters to include the following 
+information: (1) The name and address of the person holding the 
+property immediately prior to the property's release from blocked 
+status and a contact from whom additional information may be obtained; 
+(2) the associated sanctions target(s) whose property had been 
+previously blocked or a reference to the relevant written communication 
+from OFAC if there is no associated target or that target is unknown; 
+(3) a description of the property and its location immediately prior to 
+its release from blocked status, including certain required identifying 
+information; (4) the date the property was unblocked; (5) the actual, 
+or if unknown, estimated value of the property that was released from 
+blocked status in U.S. Dollars; (6) the legal authority or authorities 
+under which the property was unblocked; and (7) when available, a copy 
+of the original blocking report filed with OFAC pursuant to Sec.  
+501.603(b)(1). OFAC is making several technical and conforming changes 
+throughout Sec.  501.603 to reflect these additional requirements.
+    Electronic submission of reports. OFAC is revising Sec.  501.603 to 
+allow for the submission of all reports on blocked or unblocked 
+property by email, U.S. mail, or any other official reporting option, 
+including electronic, as specified by OFAC on its website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>). OFAC strongly prefers to receive reports made 
+pursuant to this section by email or any other official electronic 
+reporting option, as specified by OFAC on its website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+    Rules regarding the availability of information. Finally, OFAC is 
+adding a new paragraph to Sec.  501.603 to clarify the rules regarding 
+the availability of information, under the FOIA. Specifically, 
+information provided to OFAC pursuant to Sec.  501.603 is subject to 
+the FOIA and, generally, will be released upon the receipt of a valid 
+FOIA request, unless OFAC determines that such information should be 
+withheld in accordance with an applicable FOIA exemption.
+
+Reports on Rejected Transactions
+
+    OFAC is revising Sec.  501.604, which covers reports on rejected 
+transactions, to: Clarify that this section applies broadly to all 
+rejected transactions (and not only to rejected funds transfers); 
+provide greater detail regarding the information to be provided to OFAC 
+in connection with reports on rejected transactions; where to report 
+such information; and make certain technical and conforming changes.
+    Clarification of scope of transactions to be reported. OFAC is 
+replacing references to ``rejected funds transfers'' with references to 
+``rejected transactions'' and is adding a definition for the term 
+``transactions'' in order to provide additional clarity. Rejected 
+transactions covered under this revised section include rejected 
+transactions related to wire transfers, trade finance, securities, 
+checks, foreign exchange, and goods or services. OFAC also has made a 
+number of technical and conforming changes throughout Sec.  501.604 to 
+clarify that rejected transaction reporting is not limited to rejected 
+funds transfers.
+    Information to be included in reports. OFAC is also revising Sec.  
+501.604 to provide expanded instructions on the information to be 
+submitted in reports on rejected transactions. As a general matter, in 
+the past, when a submitter has not provided sufficient information to 
+identify a transaction and the authority or authorities under which the 
+transaction was rejected, OFAC has requested follow up information from 
+the submitter, sometimes requiring multiple requests. OFAC is expanding 
+its instructions on the information to be submitted in reports on 
+rejected transactions in an effort to reduce the need for follow up 
+requests from OFAC and in order to lessen the overall reporting burden 
+for submitters. Submitters must now include the following information: 
+(1) The name and address of the person that rejected the transaction 
+and a contact from whom additional information may be obtained; (2) a 
+description of the rejected transaction, including certain required 
+identifying information; (3) if applicable, the associated sanctions 
+target(s) whose involvement in the transaction has resulted in the 
+transaction being rejected and its location, if known; (4) the date the 
+transaction was rejected; (5) the actual, or if unknown, estimated 
+value of the property in U.S. Dollars; (6) the legal authority or 
+authorities under which the transaction was rejected; and (7) a copy of 
+any related payment or transfer instructions or other relevant 
+documentation.
+    Electronic submission of reports. OFAC is revising Sec.  501.604 to 
+allow for the submission of rejected transaction reports by email, U.S. 
+mail, or any other official reporting option, including
+
+[[Page 29057]]
+
+electronic, as specified by OFAC on its website ((<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>). OFAC strongly prefers to receive reports made 
+pursuant to this section by email or any other official electronic 
+reporting option, as specified by OFAC on its website ((<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+    Rules regarding the availability of information. Finally, OFAC is 
+adding a new paragraph to Sec.  501.604 to clarify the rules regarding 
+the availability of information pursuant to the FOIA. Specifically, 
+information provided to OFAC pursuant to Sec.  501.604 is subject to 
+the FOIA and, generally, will be released upon the receipt of a valid 
+FOIA request, unless OFAC determines that such information should be 
+withheld in accordance with an applicable FOIA exemption.
+
+Licensing Procedures
+
+    OFAC is revising Sec.  501.801, which describes licensing 
+procedures, to include information regarding OFAC's electronic license 
+application procedures and to make a number of technical and conforming 
+changes. Specifically, OFAC is revising Sec.  501.801 to require that 
+applications for specific licenses to engage in any transactions 
+otherwise prohibited pursuant to 31 CFR chapter V or sanctions programs 
+administered by OFAC be filed through OFAC's Reporting and License 
+Application Forms page (<a href="https://licensing.ofac.treas.gov/">https://licensing.ofac.treas.gov/</a>) or by mail. 
+Applications for the unblocking of funds must be submitted by one of 
+these means using Form TD-F 90-22.54, ``Application for the Release of 
+Blocked Funds,'' or in another format that contains all of the 
+information requested in Form TD-F 90-22.54. Form TD-F 90-22.54 may be 
+obtained from OFAC's Reporting and License Application Forms page. OFAC 
+also is revising this section to remove the provision governing 
+registration for non-governmental organizations, as this process has 
+been phased out in favor of standard licensing procedures. In addition, 
+OFAC is revising this section to clarify the rules governing the 
+availability, under the FOIA, of information submitted to OFAC pursuant 
+to Sec.  501.801.
+
+Other Technical and Conforming Changes
+
+    OFAC is revising Sec.  501.602, which covers reports to be 
+furnished on demand, to provide additional clarity by adding references 
+to electronic documents, and adding a new paragraph defining the term 
+``document'' for purposes of this section. OFAC is adding a new 
+requirement that any persons providing documents to OFAC pursuant to 
+Sec.  501.602 must produce the documents in a usable format agreed upon 
+by OFAC. To provide guidance as to what will be considered a usable 
+format, OFAC is also adding a reference in the regulations to newly 
+updated guidance regarding data delivery standards and the submission 
+of documents, which is available on OFAC's website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+    In addition, OFAC is revising paragraph (a) of Sec.  501.701, which 
+describes penalties for willful violations of the Trading with the 
+Enemy Act (TWEA). Specifically, OFAC is adjusting the penalties as 
+required by Section 107(a)(4) of the Comprehensive Iran Sanctions, 
+Accountability, and Divestment Act of 2010 (Pub. L. 111-195, 124 Stat. 
+1312) (CISADA).
+    Finally, OFAC is revising Sec.  501.806, which describes procedures 
+for unblocking funds believed to have been blocked due to mistaken 
+identity, to require a party who believes that funds have been blocked 
+due to mistaken identity send requests to release funds to OFAC in 
+writing either by U.S. mail or electronically to OFAC's reports email 
+address (<a href="/cdn-cgi/l/email-protection#fab5bcbbb9889f8a95888eba8e889f9b898f8883d49d958c"><span class="__cf_email__" data-cfemail="3e71787f7d4c5b4e514c4a7e4a4c5b5f4d4b4c4710595148">[email&#160;protected]</span></a>). OFAC is also making a number of 
+technical and conforming changes to this section.
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+
+Public Participation
+
+    These amendments are being published as an interim final rule with 
+an effective date of June 21, 2019. Because the amendment of the 
+Regulations is a rule of agency procedure and because it involves a 
+foreign affairs function, the provisions of Executive Order 12866 and 
+the Administrative Procedure Act (5 U.S.C. 553) requiring notice of 
+proposed rulemaking, opportunity for public participation, and delay in 
+effective date, as well as the provisions of Executive Order 13771, are 
+inapplicable. Because no notice of proposed rulemaking is required for 
+this rule, the Regulatory Flexibility Act (5 U.S.C. 601-612) does not 
+apply. Although notice and comment procedures are not required, OFAC 
+invites comments on this interim final rule.
+
+Paperwork Reduction Act
+
+    Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), 
+the collections of information related to the existing Regulations have 
+been previously approved by the Office of Management and Budget under 
+control number 1505-0164. This interim final rule modifies certain of 
+the collections of information under the Regulations. Specifically, in 
+Sec.  501.603, OFAC is modifying the information to be collected and 
+the format and means of submission for reports on blocked property--
+both initial reports and annual reports--and is adding requirements 
+regarding the information to be collected and the format and means of 
+submission for reports on previously blocked property that has been 
+unblocked. In Sec.  501.604, OFAC is modifying the information to be 
+collected and the format and means of submission for reports on 
+rejected transactions. OFAC is also clarifying the breadth of the 
+existing requirement for reporting on rejected funds transfers.
+    These modifications to the collections of information under the 
+Regulations, and certain forms available as a means to report such 
+information, have been submitted to the Office of Management and Budget 
+(OMB) for review and approval under control number 1505-0164.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless the collection of 
+information displays a valid control number.
+    The likely respondents and record-keepers affected by these 
+collections of information collections contained in part 501 are 
+financial institutions, business organizations, nonprofit 
+organizations, individuals, and legal representatives.
+    Since OFAC's last filing, OFAC has reviewed and revised its 
+methodology to more accurately estimate the reporting burden as set 
+forth below. The burden of the recordkeeping requirement imposed by 
+501.601 is minimal because the records required to be maintained should 
+already be maintained under standard business practice.
+    Based on a general review of its databases and using OFAC's 
+enhanced methodology and updated data, OFAC's estimate for the number 
+of unique reporting respondents is approximately 6,900. The estimated 
+total annual reporting burden is approximately 14,850 hours. 
+Accordingly, the estimated annual hourly burden per respondent is 
+approximately 2.2 hours. The estimated annual frequency of responses is 
+between 1 and 3,300, varying greatly by entity depending on the size, 
+nature, and scope of business activities of each respondent. The 
+estimated total number of responses per year is approximately 31,601 
+responses.
+
+[[Page 29058]]
+
+OFAC assesses that there is an average time estimate for reports 
+associated with forms ranging from 15 minutes to 2 hours and for 
+reports associated with general licenses and other miscellaneous 
+reports ranging from 1 to 5 hours.
+    Comments are invited on: (a) Whether this collection of information 
+is necessary for the proper performance of the functions of the agency, 
+including whether the information has practical utility; (b) the 
+accuracy of the agency's estimate of the burden of the collection of 
+information; (c) ways to enhance the quality, utility, and clarity of 
+the information to be collected; (d) ways to minimize the burden of the 
+collection of information on respondents, including through the use of 
+automated collection techniques and other forms of information 
+technology; and (e) the estimated capital or start-up costs of the 
+operation, maintenance, and/or purchase of services to provide 
+information. Comments concerning the above information and the accuracy 
+of these burden estimates, and suggestions for reducing this burden, 
+should be directed to OMB, Attention: Desk Officer for the Department 
+of the Treasury, Office of Information and Regulatory Affairs (OIRA), 
+Washington, DC 20503 or by email to: <a href="/cdn-cgi/l/email-protection#6c23253e2d333f190e01051f1f0503022c03010e4209031c420b031a"><span class="__cf_email__" data-cfemail="e5aaacb7a4bab69087888c96968c8a8ba58a8887cb808a95cb828a93">[email&#160;protected]</span></a>, with 
+a copy to Chief of Records, Attention: Request for Comments, Office of 
+Foreign Assets Control, Department of the Treasury, 1500 Pennsylvania 
+Avenue NW, Freedman's Bank Building, Washington, DC 20220. Any such 
+comments should be submitted not later than July 22, 2019. All comments 
+on these collections of information will be a matter of public record.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign trade, Reporting and recordkeeping requirements.
+
+    For the reasons set forth in the preamble, the Department of the 
+Treasury's Office of Foreign Assets Control amends 31 CFR part 501 to 
+read as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 is revised as follows:
+
+    Authority:  8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 22 U.S.C. 2370(a), 
+6009, 6032, 7205; 28 U.S.C. 2461 note; 31 U.S.C. 321(b); 50 U.S.C. 
+1701-1706; 50 U.S.C. 4301-4341341; Pub. L. 111-195, 124 Stat. 1312 
+(22 U.S.C. 8501-8551).
+
+Subpart C--Reports
+
+0
+2. Revise Sec.  501.602 to read as follows:
+
+
+Sec.  501.602   Reports to be furnished on demand.
+
+    (a) Every person is required to furnish under oath, in the form of 
+reports or otherwise, from time to time and at any time as may be 
+required by the Office of Foreign Assets Control, complete information 
+relative to any act or transaction, regardless of whether such act or 
+transaction is effected pursuant to license or otherwise, subject to 
+the provisions of this chapter or relative to any property in which any 
+foreign country or any national thereof has or had any interest of any 
+nature whatsoever, direct or indirect. The Office of Foreign Assets 
+Control may require that such reports include the production of any 
+books, contracts, letters, papers, or other hard copy or electronic 
+documents relating to any such act, transaction, or property, in the 
+custody or control of the persons required to make such reports. 
+Reports with respect to transactions may be required either before, 
+during, or after such transactions. Except as provided in parts 596 and 
+597, the Office of Foreign Assets Control may, through any person or 
+agency, conduct investigations, hold hearings, administer oaths, 
+examine witnesses, receive evidence, take depositions, and require by 
+subpoena the attendance and testimony of witnesses and the production 
+of any books, contracts, letters, papers, and other hard copy or 
+electronic documents relating to any matter under investigation, 
+regardless of whether any report has been required or filed in 
+connection therewith.
+    (b) For purposes of paragraph (a) of this section, the term 
+``document'' includes any written, recorded, or graphic matter or other 
+means of preserving thought or expression (including in electronic 
+format), and all tangible things stored in any medium from which 
+information can be processed, transcribed, or obtained directly or 
+indirectly, including correspondence, memoranda, notes, messages, 
+contemporaneous communications such as text and instant messages, 
+letters, emails, spreadsheets, metadata, contracts, bulletins, diaries, 
+chronological data, minutes, books, reports, examinations, charts, 
+ledgers, books of account, invoices, air waybills, bills of lading, 
+worksheets, receipts, printouts, papers, schedules, affidavits, 
+presentations, transcripts, surveys, graphic representations of any 
+kind, drawings, photographs, graphs, video or sound recordings, and 
+motion pictures or other film.
+    (c) Persons providing documents to OFAC pursuant to this section 
+must produce documents in a usable format agreed upon by OFAC. For 
+guidance, see OFAC's data delivery standards available on OFAC's 
+website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>).
+
+    Note 1 to Sec.  501.602:  See subpart F of part 597 for the 
+relationship between this section and part 597.
+
+
+0
+3. Revise Sec.  501.603 to read as follows:
+
+
+Sec.  501.603   Reports on blocked and unblocked property.
+
+    (a) Who must report--(1) Holders of blocked property. Any U.S. 
+person (or person subject to U.S. jurisdiction), including a financial 
+institution, holding property blocked pursuant to this chapter or 
+releasing property from blocked status (i.e., unblocking property) 
+pursuant to this chapter shall submit the relevant reports described in 
+this section to the Office of Foreign Assets Control (OFAC). This 
+requirement applies to all U.S. persons (or persons subject to U.S. 
+jurisdiction) who have or have had in their possession or control any 
+property blocked pursuant to this chapter, including financial 
+institutions that receive and block payments or transfers.
+    (2) Primary responsibility to report. A report may be filed on 
+behalf of a holder of blocked property or a releaser of property from 
+blocked status by an attorney, agent, or other person. Primary 
+responsibility for reporting, however, rests with the actual holder or 
+releaser of the property, or the person exercising control over 
+property located outside the United States, with the following 
+exceptions: Primary responsibility for reporting any trust assets rests 
+with the trustee; and primary responsibility for reporting real 
+property rests with any U.S. co-owner, legal representative, agent, or 
+property manager in the United States. No person is excused from filing 
+a report by reason of the fact that another person has submitted a 
+report with regard to the same property, except upon actual knowledge 
+of the report filed by such other person.
+    (3) Financial institution. For purposes of this section, the term 
+``financial institution'' includes a banking institution, domestic 
+bank, United States depository institution, financial institution, or 
+U.S. financial institution, as those terms are defined in the 
+applicable part of this chapter.
+    (b) What must be reported--(1) Initial blocking reports--(i) When 
+reports are
+
+[[Page 29059]]
+
+due. Reports shall be filed within 10 business days from the date that 
+property becomes blocked.
+    (ii) Required information to be reported. Initial reports on 
+blocked property shall include the following:
+    (A) The name and address of the person holding the property blocked 
+pursuant to this chapter (i.e., the person filing the report on blocked 
+property, such as a financial institution), and the name, telephone 
+number, and email address of a contact from whom additional information 
+may be obtained;
+    (B) A description of any transaction associated with the blocking, 
+including: The type of transaction; any persons, including financial 
+institutions, participating in the transaction and their respective 
+locations (e.g., if relevant, customers, beneficiaries, originators, 
+letter of credit applicants, and their banks; intermediary banks; 
+correspondent banks; issuing banks; and advising or confirming banks); 
+and any reference numbers, dates, or other information necessary to 
+identify the transaction;
+    (C) The associated sanctions target(s) whose property is blocked 
+(such as a Specially Designated National or other blocked person), the 
+location(s) of the target(s) (if known), and, if not evident, a 
+narrative description of the interest(s) of the target(s) in the 
+property; if there is no target or the target is not known, include a 
+reference to the relevant written communication from OFAC pursuant to 
+which the blocking action was taken;
+    (D) A description of the property that is the subject of the 
+blocking and its location in the United States or otherwise, including 
+any relevant account numbers and account types, check numbers, 
+reference numbers, dates, or other information necessary to identify 
+the property;
+    (E) The date the property was blocked;
+    (F) The actual, or if unknown, estimated value of the property in 
+U.S. Dollars. If the blocked property represents an outstanding loan, a 
+credit card receivable, or other property with a negative balance, the 
+amount blocked should be reported as $0.00 (zero) with the amount owed 
+reflected in a narrative description. Blocked trade finance documents 
+should also be reported as $0.00 (zero) with the value of the shipment 
+reflected in a narrative description. Transactions blocked in foreign 
+currencies must be reported in U.S. Dollars with the foreign currency 
+amount and notional exchange rate in the narrative;
+    (G) The legal authority or authorities under which the property is 
+blocked and any action taken with respect to the property (e.g., that 
+the property has been deposited into a new or existing blocked, 
+interest-bearing account that is labeled as such and is established in 
+the name of, or contains a means of clearly identifying the interest 
+of, the person subject to blocking pursuant to the requirements of this 
+chapter). This may include a reference to the sanctions program 
+(current programs are listed here: <a href="http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx">www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx</a>), the applicable part of 
+this chapter (e.g., 31 CFR part 515, 31 CFR part 544), an Executive 
+order (E.O.) (e.g., E.O. 13224, E.O. 13599), or a statute (e.g., 
+Foreign Narcotics Kingpin Designation Act). (Note: For this purpose, 
+the term ``SDN'' is generic and cannot be used to identify the legal 
+authority for blocking property); and
+    (H) A copy of any payment or transfer instructions, check, letter 
+of credit, accompanying bill of lading, invoice, or any other relevant 
+documentation received in connection with any related transaction.
+    (2) Annual reports of blocked property--(i) When reports are due. A 
+report on all blocked property held as of June 30 of the current year 
+shall be filed annually by September 30.
+    (ii) Required information to be reported. Annual reports on blocked 
+property shall include the following:
+    (A) The name and address of the person holding the property blocked 
+pursuant to this chapter (i.e., the person filing the report on blocked 
+property, such as a financial institution), and the name, telephone 
+number, and email address of a contact from whom additional information 
+may be obtained;
+    (B) The number of accounts or items reported in the annual report;
+    (C) Beginning with the annual report due no later than September 
+30, 2020, and for each subsequent reporting year, the associated 
+sanctions target(s) whose property is blocked, such as a Specially 
+Designated National or other blocked person, the location(s) of the 
+target(s), if known, and, if not evident, a narrative description of 
+the interest(s) of the target(s) in the transaction; if there is no 
+target or the target is not known, include a reference to the relevant 
+written communication from OFAC pursuant to which the blocking action 
+was taken;
+    (D) A description of the property that is the subject of the 
+blocking and its location in the United States or otherwise, including 
+any relevant account numbers and account types, check numbers, 
+reference numbers, dates, or other information necessary to identify 
+the property;
+    (E) The date the property was blocked;
+    (F) The actual, or if unknown, estimated value of the property in 
+U.S. Dollars as of June 30. If a June 30 value date is not available 
+and a value date other than June 30 is reported, so indicate. If the 
+blocked property represents an outstanding loan, a credit card 
+receivable, or other property with a negative balance, the amount 
+blocked should be reported as $0.00 (zero) with the amount owed 
+reflected in a narrative description. Blocked trade finance documents 
+should also be reported as $0.00 (zero) with the value of the shipment 
+reflected in a narrative description. Transactions blocked in foreign 
+currencies must be reported in U.S. Dollars with the foreign currency 
+amount and notional exchange rate in the narrative; and
+    (G) The legal authority or authorities under which the property is 
+blocked. This may include a reference to the sanctions program (current 
+programs are listed here: <a href="http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx">www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx</a>), the applicable part of this chapter 
+(e.g., 31 CFR part 515, 31 CFR part 544), an Executive order (E.O.) 
+(e.g., E.O. 13224, E.O. 13599), or a statute (e.g., Foreign Narcotics 
+Kingpin Designation Act). (Note: For this purpose, the term ``SDN'' is 
+generic and cannot be used to identify the legal authority for blocking 
+property).
+    (iii) Format of annual reports. Annual reports shall be submitted 
+to OFAC either using the most recent version of Form TDF 90-22.50, 
+Annual Report of Blocked Property, or by another official reporting 
+option, including electronic, as specified by OFAC on its website 
+(<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>). While blocked funds may be maintained 
+in omnibus accounts, the annual reports must contain a disaggregated 
+list showing each blocked asset contained within the omnibus account. 
+Form TDF 90-22.50 may be obtained directly from OFAC by downloading the 
+form from the OFAC Reporting and License Application Forms page on 
+OFAC's website (<a href="https://www.treasury.gov/resource-center/sanctions/Pages/forms-index.aspx">https://www.treasury.gov/resource-center/sanctions/Pages/forms-index.aspx</a>). Requests to submit the information required 
+pursuant to Sec.  501.603(b)(2)(ii) in an alternative format developed 
+by the reporter are invited and will be considered by OFAC on a case-
+by-case basis. A copy of reports submitted pursuant to Sec.  
+501.603(b)(2) shall be retained for the submitter's records.
+    (3) Unblocking reports--(i) When reports are due. These reports are 
+only due when specifically required by OFAC, such as when they are made 
+a
+
+[[Page 29060]]
+
+condition of a general or specific license, and shall be filed within 
+10 business days from the date property is unblocked.
+    (ii) Required information to be reported. Reports on the release of 
+property from blocked status (i.e., property that is unblocked) shall 
+include the following:
+    (A) The name and address of the person holding the property 
+immediately prior to the property's release from blocked status (i.e., 
+the person filing the unblocking report, such as a financial 
+institution), and the name, telephone number, and email address of a 
+contact from whom additional information may be obtained;
+    (B) The associated sanctions target(s) whose property had been 
+previously blocked and was released from blocked status, such as a 
+Specially Designated National or other blocked person, the location(s) 
+of the target(s), if known, and, if not evident, a narrative 
+description of the interest(s) of the target(s) in the previously 
+blocked property or transaction; if there is no target or the target is 
+not known, include a reference to the relevant written communication 
+from OFAC pursuant to which the blocking action was taken;
+    (C) A description of the property that has been unblocked and its 
+location in the United States or otherwise immediately prior to its 
+release from blocked status, including any relevant account numbers and 
+account types, check numbers, reference numbers, dates, or other 
+information necessary to identify the property;
+    (D) The date the property was unblocked;
+    (E) The actual value of the property that was released from blocked 
+status in U.S. Dollars. If the property represented an outstanding 
+loan, a credit card receivable, or other property with a negative 
+balance, the amount unblocked should be reported as $0.00 (zero) with 
+the amount owed reflected in a narrative description. Trade finance 
+documents should also be reported as $0.00 (zero) with the value of the 
+shipment reflected in a narrative description. Transactions that were 
+previously blocked in foreign currencies and were unblocked in a 
+foreign currency must be reported in U.S. Dollars with the foreign 
+currency amount and notional exchange rate in the narrative;
+    (F) The legal authority or authorities under which the property was 
+unblocked. This may include, for example, reference to a specific or 
+general license under an applicable part of this chapter or an E.O.; 
+and
+    (G) A copy of the original blocking report filed with OFAC pursuant 
+to Sec.  501.603(b)(1), when available.
+    (c) Reports on retained funds pursuant to Sec.  596.504(b) of this 
+chapter. The reporting requirements set forth in this section are 
+applicable to any person retaining funds pursuant to Sec.  596.504(b) 
+or releasing such funds.
+    (d) Where to report. All reports under this section shall be 
+submitted to OFAC using one of the following methods: Email: 
+<a href="/cdn-cgi/l/email-protection#561910171524332639242216222433372523242f78313920"><span class="__cf_email__" data-cfemail="a9e6efe8eadbccd9c6dbdde9dddbccc8dadcdbd087cec6df">[email&#160;protected]</span></a>; U.S. mail: Office of Foreign Assets Control, 
+Sanctions Compliance and Evaluation Division, U.S. Department of the 
+Treasury, 1500 Pennsylvania Avenue, NW, Freedman's Bank Building, 
+Washington, DC 20220; or any other official reporting option, including 
+electronic, as specified by OFAC on its website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>). OFAC strongly prefers to receive reports made 
+pursuant to this section by email or any other official electronic 
+reporting option, as specified by OFAC on its website.
+    (e) Rules governing availability of information. OFAC records are 
+made available to the public in accordance with the Freedom of 
+Information Act (FOIA) (5 U.S.C. 552) and the provisions of 31 CFR part 
+1. See 31 CFR 1.5 for provisions pertaining to business information. 
+Reports on blocked and unblocked property and the information required 
+to be reported to OFAC pursuant to this section are subject to the 
+FOIA. Information provided to OFAC pursuant to this section generally 
+will be released upon the receipt of a valid FOIA request, unless OFAC 
+determines that such information should be withheld in accordance with 
+an applicable FOIA exemption.
+
+0
+4. Revise Sec.  501.604 to read as follows:
+
+
+Sec.  501.604   Reports on rejected transactions.
+
+    (a) Who must report--(1) Persons rejecting transactions. Any U.S. 
+person (or person subject to U.S. jurisdiction), including a financial 
+institution, that rejects a transaction that is not blocked under the 
+provisions of this chapter, but where processing or engaging in the 
+transaction would nonetheless violate a provision contained in this 
+chapter, shall submit a report to the Office of Foreign Assets Control 
+(OFAC).
+    (2) Financial institution. For purposes of this section, the term 
+``financial institution'' includes a banking institution, domestic 
+bank, United States depository institution, financial institution, or 
+U.S. financial institution, as those terms are defined in the 
+applicable part of this chapter.
+    (3) Transaction. The term transaction includes transactions related 
+to wire transfers, trade finance, securities, checks, foreign exchange, 
+and goods or services.
+    (b) Required information to be reported. Reports on rejected 
+transactions shall include the following:
+    (1) The name and address of the person that rejected the 
+transaction pursuant to this chapter (i.e., the person filing the 
+report on the rejected transaction, such as a financial institution), 
+and the name and telephone number of a contact from whom additional 
+information may be obtained;
+    (2) A description of the rejected transaction, including the type 
+of transaction; any persons, including financial institutions, 
+participating in the transaction and their respective locations (e.g., 
+customers, beneficiaries, originators, letter of credit applicants, and 
+their banks; intermediary banks; correspondent banks; issuing banks; 
+and advising or confirming banks); a description of the property that 
+is the subject of the transaction; and any reference numbers, account 
+numbers, dates, or other information necessary to identify the 
+transaction;
+    (3) If applicable, the associated sanctions target(s) whose 
+involvement in the transaction has resulted in the transaction being 
+rejected, the location(s) of the associated sanctions target(s), if 
+known, and, if not evident, a narrative description of the interest(s) 
+of the target(s) in the transaction;
+    (4) The date the transaction was rejected;
+    (5) The actual, or if unknown, estimated value of the property in 
+U.S. Dollars. Rejected trade documents should be reported as $0.00 
+(zero) with the value of the shipment reflected in a narrative 
+description. Rejected transactions in foreign currencies must be 
+reported in U.S. Dollars with the foreign currency amount and notional 
+exchange rate in a narrative description;
+    (6) The legal authority or authorities under which the transaction 
+was rejected. This may include a reference to the sanctions program 
+(current programs are listed here: <a href="http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx">www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx</a>), the applicable part of 
+this chapter (e.g., 31 CFR part 515, 31 CFR part 544), an Executive 
+Order (E.O.) (e.g., E.O. 13224, E.O. 13599), or a statute (e.g., 
+Foreign Narcotics Kingpin Designation Act). (Note: For this purpose, 
+the term ``SDN'' is generic and cannot be used to identify the legal 
+authority or authorities for rejecting transactions); and
+
+[[Page 29061]]
+
+    (7) A copy of any related payment or transfer instructions, check, 
+letter of credit, accompanying bill of lading, invoice, or any other 
+relevant documentation received in connection with the transaction.
+    (c) When reports are due. Reports shall be filed within 10 business 
+days of the rejected transaction prohibited by the provisions of this 
+chapter.
+    (d) Where to report. Reports under this section shall be submitted 
+to OFAC using one of the following methods: Email: 
+<a href="/cdn-cgi/l/email-protection#81cec7c0c2f3e4f1eef3f5c1f5f3e4e0f2f4f3f8afe6eef7"><span class="__cf_email__" data-cfemail="632c2522201106130c111723171106021016111a4d040c15">[email&#160;protected]</span></a>; U.S. mail: Office of Foreign Assets Control, 
+Sanctions Compliance and Evaluation Division, U.S. Department of the 
+Treasury, 1500 Pennsylvania Avenue, NW, Freedman's Bank Building, 
+Washington, DC 20220; or any other official reporting option, including 
+electronic, as specified by OFAC on its website (<a href="http://www.treasury.gov/ofac">http://www.treasury.gov/ofac</a>). OFAC strongly prefers to receive reports made 
+pursuant to this section by email or any other official electronic 
+reporting option, as specified by OFAC on its website.
+    (e) Rules governing availability of information. OFAC records are 
+made available to the public in accordance with the Freedom of 
+Information Act (FOIA) (5 U.S.C. 552) and the provisions of 31 CFR part 
+1. See 31 CFR 1.5 for provisions pertaining to business information. 
+Reports on rejected transactions and the information required to be 
+reported to OFAC pursuant to this section are subject to the FOIA. 
+Information provided to OFAC pursuant to this section generally will be 
+released upon the receipt of a valid FOIA request, unless OFAC 
+determines that such information should be withheld in accordance with 
+an applicable FOIA exemption.
+
+Subpart D--Trading With the Enemy Act (TWEA) Penalties
+
+0
+5. Amend Sec.  501.701 by revising paragraph (a)(1) to read as follows:
+
+
+Sec.  501.701   Penalties.
+
+    (a) * * *
+    (1) Persons who willfully violate any provision of TWEA or any 
+license, rule, or regulation issued thereunder, and persons who 
+willfully violate, neglect, or refuse to comply with any order of the 
+President issued in compliance with the provisions of TWEA shall, upon 
+conviction, be fined not more than $1,000,000 or, if an individual, be 
+imprisoned for not more than 20 years, or both.
+* * * * *
+
+Subpart E--Procedures
+
+0
+6. Revise Sec.  501.801 to read as follows:
+
+
+Sec.  501.801   Licensing.
+
+    (a) General licenses. General licenses may be issued authorizing, 
+under appropriate terms and conditions, certain types of transactions 
+that are subject to the prohibitions contained in this chapter. General 
+licenses also may be issued authorizing, under appropriate terms and 
+conditions, certain types of transactions that are subject to 
+prohibitions contained in economic sanctions programs the 
+implementation and administration of which have been delegated to the 
+Director of the Office of Foreign Assets Control (OFAC) but which are 
+not yet codified in this chapter. General licenses are set forth in 
+subpart E of each part contained in this chapter or made available on 
+OFAC's website: <a href="https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx">https://www.treasury.gov/resourcecenter/sanctions/Programs/Pages/Programs.aspx</a>. It is the policy of OFAC not to grant 
+applications for specific licenses authorizing transactions to which 
+the provisions of a general license are applicable. Persons availing 
+themselves of certain general licenses may be required to file reports 
+and statements in accordance with the instructions specified in those 
+licenses. Failure to file timely all required information in such 
+reports or statements may nullify the authorization otherwise provided 
+by the general license and result in apparent violations of the 
+applicable prohibitions that may be subject to OFAC enforcement action.
+    (b) Specific licenses--(1) General course of procedure. 
+Transactions subject to the prohibitions contained in this chapter, or 
+to prohibitions the implementation and administration of which have 
+been otherwise delegated to the OFAC Director, that are not authorized 
+by general license may be effected only under specific license.
+    (2) Applications for specific licenses. Applications for specific 
+licenses to engage in any transactions prohibited by or pursuant to 
+this chapter, or sanctions programs that have been otherwise delegated 
+to the OFAC Director for implementation and administration, must be 
+signed, either manually or electronically, and filed through OFAC's 
+Reporting and License Application Forms page (<a href="https://licensing.ofac.treas.gov/">https://licensing.ofac.treas.gov/</a>) or, if that option is unavailable, by mail, 
+addressed to the Office of Foreign Assets Control, Licensing Division, 
+U.S. Department of the Treasury, 1500 Pennsylvania Avenue NW, 
+Freedman's Bank Building, Washington, DC 20220. Applications for the 
+unblocking of funds may be submitted via OFAC's Reporting and License 
+Application Forms page (<a href="https://licensing.ofac.treas.gov/">https://licensing.ofac.treas.gov/</a>) or, if that 
+option is unavailable, by using Form TD-F 90-22.54, ``Application for 
+the Release of Blocked Funds,'' or via a submission that otherwise 
+contains all of the information provided for in Form TD-F 90-22.54. 
+Form TD-F 90-22.54 may be obtained from OFAC's Reporting and License 
+Application Forms page, or by mail at the address above.
+    (i) Additional conditions. Applicants should submit only one copy 
+of a specific license application to OFAC; submitting multiple copies 
+may result in processing delays. Any person having an interest in a 
+transaction or proposed transaction may file an application for a 
+specific license authorizing such a transaction.
+    (ii) Information to be supplied. The applicant must supply all 
+information specified by relevant instructions (available on OFAC's 
+Reporting and License Application Forms page at <a href="https://licensing.ofac.treas.gov">https://licensing.ofac.treas.gov</a>) and/or forms, and must fully disclose the 
+names of all parties who are concerned with or interested in the 
+proposed transaction. If the application is filed by an agent, the 
+agent must disclose the name of his or her principal(s). Such documents 
+as may be relevant shall be attached to each application as a part of 
+such application, whether filed electronically or by mail, except that 
+documents previously filed with OFAC may, where appropriate, be 
+incorporated by reference in such application. Applicants may be 
+required to furnish such further information as is deemed necessary to 
+assist OFAC in making a determination. Any applicant or other party in 
+interest desiring to present additional information may do so at any 
+time before or after OFAC makes its decision with respect to the 
+application. In unique circumstances, OFAC may determine that an oral 
+presentation regarding a license application would assist in OFAC's 
+review of the issues involved. Any requests to make such an oral 
+presentation must be submitted in writing to the attention of the 
+Director, but are rarely granted.
+    (3) Issuance of specific license. Specific licenses normally will 
+be issued by OFAC. Specific licenses also may be issued by the 
+Secretary of the Treasury acting directly or through any specifically 
+designated person, agency, or instrumentality.
+    (4) Reports under specific licenses. As a condition for the 
+issuance of any specific license, the licensee may be
+
+[[Page 29062]]
+
+required to file reports with respect to the transactions authorized by 
+the specific license in such form and at such times and places as may 
+be prescribed in the license or otherwise. Reports should be sent in 
+accordance with the instructions provided in the applicable specific 
+license.
+    (5) Effect of denial. The denial of a specific license does not 
+preclude the reconsideration of an application or the filing of a 
+further application. The applicant or any other party in interest may 
+at any time request, by written correspondence, reconsideration of the 
+denial of an application on the basis of new facts or changed 
+circumstances.
+    (6) Rules governing availability of information. OFAC records are 
+made available to the public in accordance with the Freedom of 
+Information Act (FOIA) (5 U.S.C. 552) and the provisions of 31 CFR part 
+1. See 31 CFR 1.5 for provisions pertaining to business information. 
+License applications submitted to OFAC and specific licenses issued by 
+OFAC are subject to the FOIA and generally will be released upon the 
+receipt of a valid FOIA request, unless OFAC determines that such 
+information should be withheld in accordance with an applicable FOIA 
+exemption.
+
+    Note 1 to paragraph (b)(6):  OFAC views information submitted in 
+furtherance of an application for a specific license pursuant to 
+this paragraph (b) to be required information for purposes of 
+Exemption 4 of the FOIA.
+
+
+0
+7. Amend Sec.  501.806 by revising paragraph (b) to read as follows:
+
+
+Sec.  501.806   Procedures for unblocking funds believed to have been 
+blocked due to mistaken identity.
+
+* * * * *
+    (b) Requests to release funds which a party believes to have been 
+blocked due to mistaken identity must be made in writing and addressed 
+to the Office of Foreign Assets Control, Sanctions Compliance & 
+Evaluation Division, U.S. Department of the Treasury, 1500 Pennsylvania 
+Avenue NW, Freedman's Bank Building, Washington, DC 20220, or sent by 
+email to the Sanctions Compliance & Evaluation Division at 
+<a href="/cdn-cgi/l/email-protection#662920272514031609141226121403071513141f48010910"><span class="__cf_email__" data-cfemail="743b3235370611041b060034000611150701060d5a131b02">[email&#160;protected]</span></a>.
+* * * * *
+
+    Dated: June 17, 2019.
+Andrea Gacki,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2019-13163 Filed 6-20-19; 8:45 am]
+ BILLING CODE 4810-AL-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

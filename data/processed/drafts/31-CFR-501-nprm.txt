@@ -14,7 +14,7 @@ AGENCY: [PLACEHOLDER — attorney to complete]
 
 ACTION: Notice of proposed rulemaking.
 
-SUMMARY: [model-generated] 31 CFR Part 501 establishes reporting, procedural, and penalty regulations related to various statutory authorities. This skeleton provides a structural framework for the regulation without including specific legal conclusions or policy recommendations.
+SUMMARY: [model-generated] Part 501 of Title 31 of the Code of Federal Regulations establishes reporting, procedures, and penalties regulations. This draft skeleton outlines the organizational framework for the rulemaking without substantive content.
 
 DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
@@ -26,7 +26,7 @@ SUPPLEMENTARY INFORMATION:
 
    I. Background
 
-   [model-generated] Part 501 encompasses regulations related to reporting requirements, procedural guidelines, and penalties under multiple statutory authorities. The part outlines the framework for implementing these requirements and procedures across different legal contexts.
+   [model-generated] The part is authorized by a range of statutes cited in its authority section, which collectively empower the development of reporting requirements, procedural rules, and penalty provisions. The skeleton serves as a structural template for an upcoming notice of proposed rulemaking.
 
    [PLACEHOLDER — attorney to complete]
 

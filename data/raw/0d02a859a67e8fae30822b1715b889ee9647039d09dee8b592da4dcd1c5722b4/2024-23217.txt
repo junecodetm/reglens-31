@@ -1,0 +1,443 @@
+<html>
+<head>
+<title>Federal Register, Volume 89 Issue 195 (Tuesday, October 8, 2024)</title>
+</head>
+<body><pre>
+[Federal Register Volume 89, Number 195 (Tuesday, October 8, 2024)]
+[Rules and Regulations]
+[Pages 81358-81361]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2024-23217]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Reporting, Procedures and Penalties Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this final rule to amend the Reporting, 
+Procedures and Penalties Regulations (the ``Regulations''). OFAC 
+published an interim final rule with a request for comments on May 10, 
+2024 (``May 2024 Interim Final Rule''). In this final rule, OFAC 
+responds to public comments submitted in response to the May 2024 
+Interim Final Rule and amends the Regulations to add three exceptions 
+to the reporting requirement for any blocked property that is unblocked 
+or transferred.
+
+DATES: This final rule is effective November 7, 2024.
+
+FOR FURTHER INFORMATION CONTACT: Assistant Director for Licensing, 202-
+622-2480; Assistant Director for Regulatory Affairs, 202-622-4855; 
+Assistant Director for Compliance, 202-622-2490.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    The Regulations (31 CFR part 501), originally issued August 25, 
+1997 (62 FR 45098), set forth standard reporting and recordkeeping 
+requirements, license application procedures, and other procedures 
+relevant to the economic sanctions programs administered by OFAC. On 
+May 10, 2024 (89 FR 40372), OFAC published an interim final rule, 
+effective on August 8, 2024, amending the Regulations with a request 
+for comment. Public comments on the interim final rule were due by June 
+10, 2024.
+    In the May 2024 Interim Final Rule, OFAC amended the Regulations to 
+require electronic filing of certain submissions to OFAC and to 
+describe and modify certain reporting requirements related to blocked 
+property and rejected transactions. In particular, the rule required 
+the use of the electronic OFAC Reporting System (ORS) for submission of 
+reports related to blocked property and rejected transactions, removed 
+the mail option for certain other types of OFAC submissions, described 
+reports OFAC may require from financial institutions for transactions 
+that meet specified criteria, and added a reporting requirement for any 
+blocked property that is unblocked or transferred. Additionally, OFAC 
+clarified the scope of the reporting requirement for rejected 
+transactions, in part to respond to comments received on an interim 
+final rule OFAC published on June 21, 2019 (84 FR 29055), to amend the 
+Regulations.
+    Among other changes, the May 2024 Interim Final Rule modified the 
+procedures for requests relating to property that is blocked in error, 
+updated the Regulations with respect to the availability of information 
+under the Freedom of Information Act (FOIA) for certain categories of 
+records, and clarified that persons may submit a petition for 
+administrative reconsideration to seek removal of a person or property 
+from the List of Specially Designated Nationals and Blocked Persons 
+(``SDN List'') or any other list of sanctioned persons maintained by 
+OFAC. OFAC also added a description of reports OFAC may require 
+financial institutions to provide about transactions that meet 
+specified criteria to aid in the identification of blocked property. 
+Finally, OFAC made several technical and conforming edits.
+    As described further below, OFAC is responding to comments received 
+on five sections of the Regulations: Sec. Sec.  501.601, 501.602, 
+501.603, 501.604, and 501.806.
+
+Overview of Comments on the Interim Final Rule
+
+    During the public comment period, OFAC received written submissions 
+on the interim final rule. All comments received by the end of the 
+comment period are available on the public rulemaking docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+    OFAC considered each relevant comment submitted on the May 2024 
+Interim Final Rule and made certain revisions in this rule in response 
+to the comments. Some of the comments were general in nature, for 
+example, supporting OFAC's efforts and approach with respect to aspects 
+of the May 2024 Interim Final Rule. In contrast, another commentor 
+suggested that OFAC retract the interim final rule altogether either to 
+give time to incorporate the comments received or to give financial 
+institutions more time to incorporate the changes into their sanctions-
+related programs, systems, and policies and procedures. Some comments 
+requested clarification of specific provisions, deadlines for certain 
+OFAC determinations, modifications to reporting requirements, and a 
+delay for the general requirements to use the ORS. One commenter 
+questioned whether OFAC has the authority to require persons that 
+submitted an erroneous blocking report to request OFAC's permission to 
+release funds that never should have been blocked (e.g., if a financial 
+institution mistakenly blocked the funds of a U.S. person based on a 
+``false hit'' name match with a name that appears on the SDN List).
+
+Summary of Comments and Changes From the Interim Final Rule
+
+Reports of Unblocked or Transferred Blocked Property
+
+    In the May 2024 Interim Final Rule, OFAC revised Sec.  
+501.603(b)(3)(i) to require reports within 10 business days of when 
+blocked property is unblocked or transferred, including pursuant to a 
+valid order issued by a U.S. Government
+
+[[Page 81359]]
+
+agency or U.S. court, as set out in that paragraph. This amendment 
+enables OFAC to ascertain the current status of blocked and unblocked 
+property. Filers must submit reports pursuant to this section 
+electronically, either via email to <a href="/cdn-cgi/l/email-protection#d79891969485b2a7b8a5a397a3a5b2b6a4a2a5aef9b0b8a1"><span class="__cf_email__" data-cfemail="2c636a6d6f7e495c435e586c585e494d5f595e55024b435a">[email&#160;protected]</span></a> or via ORS. 
+Additionally, in revised Sec.  501.603(d)(1), OFAC expanded the 
+retention requirement previously in Sec.  501.603(b)(2)(iii) for Annual 
+Reports of Blocked Property to extend to initial reports of blocked 
+property. In the May 2024 Interim Final Rule, OFAC indicated that 
+reports need not be submitted for credits of interest payments that 
+would not be transfers of blocked property or debits to blocked 
+accounts for normal service charges, in each case as authorized 
+pursuant to OFAC sanctions.
+    A commenter asked OFAC to modify Sec.  501.603(b)(3)(i) to require 
+reporting: (1) on an annual basis for any unblocking pursuant to an 
+action taken by OFAC, such as a specific license or general license; 
+and (2) within 10 business days only when unblocking is done pursuant 
+to an action not taken by OFAC, such as a court order. Another 
+commenter requested that OFAC amend Sec.  501.603 to clarify that no 
+reporting to OFAC is required should unblocking occur as the result of 
+OFAC removing a person from OFAC's SDN List or the termination of a 
+sanctions program. A third commenter asked whether funds that become 
+unblocked pursuant to a specific license--but are subsequently returned 
+to a financial institution by recipients--are still considered 
+unblocked assets. The commenter also asked if financial institutions 
+have 10 business days from the day a specific license is issued by OFAC 
+to submit an unblocking report, or 10 business days from the day the 
+property is unblocked by the institution. Commenters also requested 
+that OFAC clarify that internal transfers, such as authorized 
+administrative transfers between blocked accounts or transfers of 
+blocked property within the same financial institution, are not subject 
+to the new reporting requirement. One commenter requested clarity on 
+what ``transfers'' mean in the context of Sec.  501.603(b). The 
+commenter also asked whether ``OFAC licenses to unblock property 
+expire.'' One commenter asked whether OFAC will issue guidance on the 
+information it expects parties to provide as part of an unblocked 
+property report.
+    In response to these comments, OFAC is amending Sec.  
+501.603(b)(3)(i) to clarify that reports need not be submitted pursuant 
+to that section for: (1) authorized transfers of funds or credit by a 
+financial institution between blocked accounts in its branches or 
+offices or authorized debits for normal service charges; (2) blocked 
+property that is unblocked or transferred pursuant to a general or 
+specific license, unless the license includes a condition that requires 
+the submission of an unblocking report; or (3) blocked property that is 
+unblocked pursuant to OFAC's removal of a person from the SDN List. 
+OFAC is implementing these changes to reduce the reporting burden on 
+the public for unblockings about which OFAC generally does not have a 
+strong interest in obtaining additional information or for which 
+information is received via other reporting channels, while still 
+allowing for tracking the status of blocked property. OFAC declines to 
+make additional changes to Sec.  501.603(b)(3)(i) in order to retain 
+the ability to ascertain the current status of blocked and unblocked 
+property. No changes were made to the rule in response to the remaining 
+comments. OFAC considered the remaining comments, but the comments 
+related to individual scenarios or requested specific guidance that 
+were not within the intended scope of the rule. OFAC has provided 
+guidance on its website related to filing an initial report of blocked 
+property and an annual report of blocked property.
+
+Reports of Rejected Transactions
+
+    In the May 2024 Interim Final Rule, OFAC amended Sec.  501.604(a) 
+to clarify the scope of the term ``transaction'' for purposes of that 
+section by specifying that the term includes transactions related to 
+securities, checks, or foreign exchange, as well as sales or purchases 
+of goods or services, thereby clarifying that securities, checks, 
+foreign exchange, and goods and services are not in and of themselves 
+transactions, when not provided as part of a transaction. OFAC 
+confirmed that the reporting requirement in Sec.  501.604(a) applies to 
+all U.S. persons, as identified in the relevant parts of this chapter 
+(or in the case of part 515, persons subject to U.S. jurisdiction), not 
+only U.S. financial institutions. OFAC amended Sec.  501.604(b) to 
+clarify that the information required therein must be reported only to 
+the extent the information is available to the filer at the time the 
+transaction was rejected.
+    One commenter stated that the revisions to the definition of 
+``transaction'' do not provide sufficient clarity on the scope and 
+types of actions that need to be reported to OFAC by non-financial 
+institutions, including when during a transaction the reporting 
+obligation arises. The commenter requested that the definition of 
+``transaction'' be further revised so that it encompasses only the act 
+of instructing, or otherwise attempting, a transfer of value or a 
+payment. OFAC declines to revise the Regulations in response to this 
+comment because, based on the agency's experience evaluating rejected-
+transaction reports received over the last five years, it appears that 
+financial institutions and non-financial institutions are able to 
+identify rejected transactions with sufficient clarity to report them 
+to OFAC.
+    OFAC will assess whether any clarification, modification or 
+guidance related to Sec.  501.604(a) would be appropriate in the 
+future, and welcomes further feedback as we assess whether any 
+clarification, modification, or guidance related to Sec.  501.604(a) is 
+appropriate in the future.
+
+Requests for a Compliance Release of Property Blocked Due To Mistaken 
+Identity or Other Similar Errors
+
+    In the May 2024 Interim Final Rule, OFAC revised the procedures at 
+Sec.  501.806 for requesting release of funds blocked due to ``mistaken 
+identity'' to extend to a broader category of any property blocked due 
+to ``typographical or similar errors leading to blocking.'' OFAC also 
+narrowed the procedures so they are available only to the person that 
+mistakenly blocked the property. In these cases, the person that 
+mistakenly blocked the property may request a ``Compliance Release'' 
+from OFAC's Compliance Division. Others may continue to request 
+unblocking of property through license applications submitted to OFAC's 
+Licensing Division.
+    Commenters asked OFAC to clarify the circumstances that fall under 
+the ``similar error'' category of bad blocks. One commenter asked OFAC 
+to establish a deadline by which OFAC will respond to compliance 
+release requests (e.g., 30 days). Two commenters requested that OFAC 
+continue to allow any party to a transaction that results in the 
+blocking of funds to submit a request to OFAC for release of the funds, 
+and not to limit the procedures for a compliance release in Sec.  
+501.806 to persons that mistakenly blocked the property (in the vast 
+majority of circumstances, a financial institution). Furthermore, one 
+commenter questioned whether OFAC had the authority to require persons 
+to request permission from OFAC to release funds that never should have 
+been blocked, especially if no foreign country or national thereof has 
+any interest in such funds (e.g., if a financial institution blocked 
+the funds of a U.S.
+
+[[Page 81360]]
+
+person based on a false-hit name match with an SDN). One commenter also 
+asked OFAC to implement a process allowing a financial institution that 
+blocks funds in error to unblock those funds upon notice to OFAC, 
+without submitting a compliance release request. One commenter 
+indicated that in past practice a party could submit to OFAC a notice 
+withdrawing its erroneous blocking report explaining its error and 
+proceed with a contemplated transaction.
+    No changes were made to the rule in response to these comments. 
+OFAC does not require persons to use the compliance release procedures 
+in Sec.  501.806 for unblocking property believed to have been blocked 
+and reported in error due to mistaken identity or typographical or 
+similar errors. Persons can treat the property that was blocked in 
+error as not blocked in the event they determine that there was never 
+any valid blockable interest in the property, provided that they notify 
+OFAC of the change. OFAC plans to issue guidance regarding unblocking 
+property believed to have been blocked and reported in error due to 
+mistaken identity or typographical or similar errors. OFAC encourages 
+persons to develop screening and due-diligence procedures that 
+appropriately identify blocked property and, as needed, use the process 
+to request a compliance release, which can provide OFAC an opportunity 
+to confirm the factual assessment and help avoid situations where a 
+transaction is erroneously processed or released in violation of U.S. 
+economic sanctions laws. OFAC also encourages financial institutions to 
+conduct an investigation to determine whether a match is a true hit 
+prior to blocking property, consistent with longstanding OFAC guidance. 
+In addition, OFAC declined to specify a deadline for responding to 
+requests for a compliance release because each request is different and 
+may require a different review timeline. Finally, OFAC declined to make 
+the compliance-release procedure available to any party to a blocked 
+asset transaction because specific licensing procedures remain 
+available to those additional parties for release of the blocked funds.
+
+OFAC Reporting System (ORS)
+
+    In the May 2024 Interim Final Rule, OFAC generally required filers 
+to use ORS for submission to OFAC of initial reports of blocked 
+property and Annual Reports of Blocked Property pursuant to Sec.  
+501.603(b)(1) and (2) and reports of rejected transactions pursuant to 
+Sec.  501.604(d).
+    Commenters indicated that OFAC should not mandate the use of ORS 
+until OFAC resolves its functionality and reliability. Similarly, one 
+commenter requested more engagement with OFAC regarding ORS due to 
+issues when using the reporting system. The commenter asked whether ORS 
+will be updated to allow for filing reports on unblocked property and 
+whether OFAC will issue guidance on what information it expects persons 
+to provide as part of a report of unblocked property.
+    No changes were made to the rule in response to these comments. 
+OFAC has not experienced issues with the functionality and reliability 
+of ORS and agrees it would be reasonable for OFAC to engage with the 
+public on identified issues when using the ORS and work to resolve 
+them. OFAC already works closely with filers to address any issues in 
+the ORS system, provide guidance and user guides, and answer questions. 
+This final rule does not incorporate any proposed changes to unblocking 
+reports, because the May 2024 Interim Final Rule did not require such 
+reports to be filed through ORS and already sets out the information 
+required for such reports. However, OFAC is planning to develop an 
+unblocking and transfer form in ORS and will notify the public once 
+this feature is deployed.
+
+Instruction To Report Certain Transactions
+
+    In the May 2024 Interim Final Rule, OFAC added a note to Sec.  
+501.602 to describe reports OFAC may require financial institutions to 
+provide about accounts or transactions that meet specified criteria to 
+aid in the identification of blocked property. If OFAC has reason to 
+believe an account or transaction (or class of transactions) may 
+involve the property or interests in property of a blocked person, OFAC 
+may instruct the financial institution to report transactions that meet 
+specified criteria and to notify OFAC prior to processing such 
+transactions. Upon review, OFAC may determine that a reported 
+transaction involves the property or interests in property of a blocked 
+person and may take further action.
+    A commenter recommended that OFAC implement a deadline for a 
+determination as to whether a transaction is blocked (e.g., within 10 
+business days) to help manage customer expectations while waiting for 
+determination on transactions that may involve a blocked interest and 
+make the process more predictable for banks and their customers.
+    No changes were made to the rule in response to this comment due to 
+the volume of notifications OFAC may receive and the transaction-
+specific analysis required for each determination. In addition, the 
+benefits of managing customer expectations are outweighed by the 
+national security and foreign policy risks of releasing blocked 
+property. Customers may also reach out to OFAC's Compliance Division 
+with questions about the status of their funds.
+
+Recordkeeping Requirements
+
+    Section 501.601 requires every person engaging in any transaction 
+subject to the provisions of chapter V of title 31 of the Code of 
+Federal Regulations to keep a full and accurate record of each such 
+transaction engaged in, regardless of whether such transaction is 
+conducted pursuant to a license or otherwise, and make such record 
+available for examination for at least five years after the date of 
+such transaction. The 21st Century Peace through Strength Act, Public 
+Law 118-50, div. D, signed into law on April 24, 2024, extended the 
+statutes of limitation for civil and criminal violations of economic 
+sanctions programs under the International Emergency Economic Powers 
+Act, 50 U.S.C. 1701 et seq., or the Trading With the Enemy Act, 50 
+U.S.C. 4301 et seq., from five to 10 years.
+    A commenter indicated that OFAC should provide ample notice to the 
+public prior to revising the recordkeeping requirement from five to 10 
+years. On September 12, 2024, OFAC issued a separate interim final rule 
+updating the records and recordkeeping requirements in Sec.  501.601, 
+with a delayed effective date and an opportunity to provide comments 
+(89 FR 74832).
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>.
+
+Public Participation
+
+    Because the amendment of the Regulations is a rule of agency 
+procedure and involves a foreign affairs function, the provisions of 
+Executive Order 12866 of September 30, 1993, ``Regulatory Planning and 
+Review'' (58 FR 51735, October 4, 1993), as amended, and the 
+Administrative Procedure Act (5 U.S.C. 553) requiring notice of 
+proposed rulemaking and opportunity for public participation are 
+inapplicable. Because no notice of proposed rulemaking is required for 
+this rule, the Regulatory Flexibility Act (5 U.S.C. 601-612) does not 
+apply.
+
+[[Page 81361]]
+
+Paperwork Reduction Act
+
+    Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), 
+the collections of information related to this rule have been approved 
+by the Office of Management and Budget under control number 1505-0164. 
+An agency may not conduct or sponsor, and a person is not required to 
+respond to, a collection of information unless the collection of 
+information displays a valid control number.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Foreign trade, Reporting and recordkeeping requirements.
+
+    For the reasons set forth in the preamble, the interim rule 
+amending 31 CFR part 501, which was published May 10, 2024 (89 FR 
+40372), is adopted as final with the following change:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority:  8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 
+7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; 
+Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).
+
+Subpart C--Reports
+
+0
+2. Amend Sec.  501.603 by revising and republishing paragraph (b)(3)(i) 
+to read as follows:
+
+
+Sec.  501.603  Reports of blocked, unblocked, or transferred blocked 
+property.
+
+* * * * *
+    (b) * * *
+    (3) * * *
+    (i) When reports are due. Except as provided in paragraphs 
+(b)(3)(i)(A) through (D) of this section, reports shall be submitted to 
+OFAC within 10 business days from the date blocked property is 
+unblocked or transferred. For example, such reports must be filed when 
+blocked property is unblocked or transferred pursuant to a valid order 
+from a U.S. Government agency or U.S. court, including pursuant to a 
+valid judicial order issued pursuant to section 201(a) of the Terrorism 
+Risk Insurance Act (Pub. L. 107-297, 116 Stat. 2322, 28 U.S.C. 1610 
+note) or a valid order of forfeiture by any U.S. Government agency or 
+U.S. court. Reports do not need to be filed under this section for:
+    (A) Authorized debits to blocked accounts for normal service 
+charges;
+    (B) Authorized transfers of funds or credit by a financial 
+institution between blocked accounts in its branches or offices;
+    (C) Unblocking or transfer of blocked property that is explicitly 
+authorized by a specific or general license, unless the specific or 
+general license includes a condition requiring the submission of a 
+separate unblocking report; or
+    (D) Unblocking of blocked property pursuant to OFAC's removal of a 
+person from OFAC's List of Specially Designated Nationals and Blocked 
+Persons (SDN List).
+* * * * *
+
+Lisa M. Palluconi,
+Acting Director, Office of Foreign Assets Control.
+[FR Doc. 2024-23217 Filed 10-7-24; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -57,7 +57,7 @@ const TRACEABILITY: readonly {
     module: "Draft rule skeletons",
     href: "/drafts",
     detail:
-      "Deterministic Document Drafting Handbook structure with a fail-closed conformance gate: the model writes only two labeled narrative fields, and any set-out regulatory text must verify verbatim against the source or the draft is rejected.",
+      "Proposed and final-rule skeletons for every in-scope part, with a parameterized drafting interface (part, rule type, optional policy objective) and optional live narrative generation. Structure is deterministic Document Drafting Handbook form behind a fail-closed conformance gate: the model writes only labeled narrative fields, and any set-out regulatory text must verify verbatim against the source or the draft is rejected.",
     linkText: "Open: Draft rule skeletons",
   },
   {
@@ -98,28 +98,22 @@ export function AboutSection() {
         About this demonstration
       </h2>
       <p>
-        What OGC-01 is, why this demonstration mocks it up, and exactly which
-        stated output each page implements — quoted verbatim from Treasury's
-        own public record.
+        RegLens-31 is an independent working mockup of one publicly documented
+        Treasury AI use case: <strong>OGC-01, the “Regulatory Reform
+        Tool”</strong> listed by the Office of the General Counsel in the U.S.
+        Department of the Treasury’s public AI Use Case Inventory. Built from
+        public primary sources only, it demonstrates what each of OGC-01’s
+        stated outputs can look like when every claim must survive a verbatim,
+        fail-closed provenance check.
       </p>
       <p>
-        RegLens-31 is an independent working mockup of a single publicly
-        documented Treasury AI use case: <strong>OGC-01, the “Regulatory
-        Reform Tool”</strong> listed by the Office of the General Counsel in
-        the U.S. Department of the Treasury’s public AI Use Case Inventory.
-        That inventory entry is the only public description of OGC-01. This
-        site demonstrates — from public primary sources only — what each of
-        its stated outputs can look like when every claim must survive a
-        verbatim, fail-closed provenance check.
-      </p>
-      <p>
-        This site is a mockup, not the OGC-01 system: it has no connection to
-        it, uses no Treasury-internal information, and is not affiliated
-        with, endorsed by, or representing the U.S. Department of the
-        Treasury (31 U.S.C. § 333). Where the inventory describes OGC-01 in
-        deregulatory terms, this demonstration implements deliberately
-        neutral analogs — it makes no deregulatory recommendations, nominates
-        no rules or statutes for change, and draws no legal conclusions.
+        It is a mockup, not the OGC-01 system: it has no connection to it,
+        uses no Treasury-internal information, and is not affiliated with,
+        endorsed by, or representing the U.S. Department of the Treasury
+        (31 U.S.C. § 333). Where the inventory describes OGC-01 in
+        deregulatory terms, this demonstration implements deliberately neutral
+        analogs — it makes no recommendations, nominates no rules for change,
+        and draws no legal conclusions.
       </p>
 
       {state.status === "loading" || state.status === "idle" ? (
@@ -221,6 +215,47 @@ export function AboutSection() {
           </div>
         ))}
       </dl>
+
+      <section
+        className="about-read-api"
+        aria-labelledby="about-read-api-heading"
+      >
+        <h3 id="about-read-api-heading">Read the data as an API</h3>
+        <p>
+          Everything on this site is also published as static JSON under{" "}
+          <code>/api/v1/</code>, described by an OpenAPI 3.1 document. It is
+          read-only, needs no key, and is generated at build time from the same
+          artifacts these pages render — so it cannot disagree with them.
+        </p>
+        <ul>
+          <li>
+            <a href="/api/v1/index.json">
+              <code>/api/v1/index.json</code>
+            </a>{" "}
+            — entry point; links every collection and reports the corpus scope
+          </li>
+          <li>
+            <a href="/api/v1/documents.json">
+              <code>/api/v1/documents.json</code>
+            </a>{" "}
+            — every extracted document with its snapshot digest and coverage
+          </li>
+          <li>
+            <a href="/api/v1/claims/page-1.json">
+              <code>/api/v1/claims/page-1.json</code>
+            </a>{" "}
+            — accepted and rejected claims with full provenance, paginated
+          </li>
+        </ul>
+        <p>
+          The full description, including the currency and metrics endpoints, is
+          at{" "}
+          <a href="/api/v1/openapi.json">
+            <code>/api/v1/openapi.json</code>
+          </a>
+          .
+        </p>
+      </section>
 
       <section
         className="about-governance-docs"

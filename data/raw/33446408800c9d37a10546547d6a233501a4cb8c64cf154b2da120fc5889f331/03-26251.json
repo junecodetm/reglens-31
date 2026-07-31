@@ -1,0 +1,81 @@
+{
+  "abstract": "The Department of the Treasury (Treasury) is issuing this final rule concerning disclosures and mandatory availability requirements as part of its implementation of Title I of the Terrorism Risk Insurance Act of 2002 (Act). The final rule incorporates and clarifies conditions for federal payment, set forth in section 103(b) of the Act, that require insurers to make certain disclosures to policyholders. It also incorporates and clarifies the section 103(c) requirements that insurers \"make available\" in their commercial property and casualty policies terrorism risk insurance coverage for insured losses resulting from certified acts of terrorism under the Act. Treasury issued an interim final rule and proposed rule with request for comment. This final rule, which is the second in a series of regulations that Treasury is issuing to implement the Program, adopts the interim final rule with several modifications as discussed below.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2003/10/17/03-26251.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 50,
+      "title": 31
+    }
+  ],
+  "citation": "68 FR 59720",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This final rule is effective October 17, 2003.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "03-26251",
+  "effective_on": "2003-10-17",
+  "end_page": 59727,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2003/10/17/03-26251.xml",
+  "html_url": "https://www.federalregister.gov/documents/2003/10/17/03-26251/terrorism-risk-insurance-program-disclosures-and-mandatory-availability-requirements",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/03-26251?publication_date=2003-10-17",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2003-10-17/03-26251/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 8,
+  "page_views": {
+    "count": 69,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2003-10-17/pdf/03-26251.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2003-10-17",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2003/10/17/03-26251.txt",
+  "regulation_id_number_info": {
+    "1505-AA98": {
+      "html_url": "https://www.federalregister.gov/regulations/1505-AA98/terrorism-risk-insurance-program",
+      "issue": "200304",
+      "priority_category": "Other Significant",
+      "title": "Terrorism Risk Insurance Program",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=200304&RIN=1505-AA98&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1505-AA98"
+  ],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": true,
+  "signing_date": null,
+  "start_page": 59720,
+  "subtype": null,
+  "title": "Terrorism Risk Insurance Program; Disclosures and Mandatory Availability Requirements",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 68
+}

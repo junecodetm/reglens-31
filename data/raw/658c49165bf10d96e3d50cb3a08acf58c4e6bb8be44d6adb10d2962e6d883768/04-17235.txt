@@ -1,0 +1,1287 @@
+<html>
+<head>
+<title>Federal Register, Volume 69 Issue 144 (Wednesday, July 28, 2004)</title>
+</head>
+<body><pre>
+[Federal Register Volume 69, Number 144 (Wednesday, July 28, 2004)]
+[Rules and Regulations]
+[Pages 44932-44942]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 04-17235]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AB08
+
+
+Terrorism Risk Insurance Program; Litigation Management
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule concerning litigation management as part of its 
+implementation of Title I of the Terrorism Risk Insurance Act of 2002 
+(Act). That Act established a temporary Terrorism Insurance Program 
+(Program) under which the Federal Government will share with commercial 
+property and casualty insurers the risk of insured losses from 
+certified acts of terrorism that occur on or before the date the 
+Program ends, on December 31, 2005. This final rule is the latest in a 
+series of regulations that Treasury has issued to implement the Program 
+and finalizes a proposed rule concerning litigation management related 
+to insured losses under the Program.
+
+DATES: This final rule is effective August 27, 2004.
+
+FOR FURTHER INFORMATION CONTACT: David Brummond, Legal Counsel, or C. 
+Christopher Ledoux, Senior Attorney, Terrorism Risk Insurance Program, 
+(202) 622-6770 (not a toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+A. Terrorism Risk Insurance Act of 2002
+
+    On November 26, 2002, the President signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and 
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving State 
+insurance regulation and consumer protections.
+    Title I of the Act establishes a temporary federal program of 
+shared public and private compensation for insured commercial property 
+and casualty losses resulting from an act of terrorism, which as 
+defined in the Act is certified by the Secretary of the Treasury, in 
+concurrence with the Secretary of State and the Attorney General. The 
+Act authorizes Treasury to administer and implement the Terrorism Risk 
+Insurance Program, including the issuance of regulations and 
+procedures. The Act provides that the Program ends on December 31, 
+2005. The Act also provides Treasury with certain continuing authority 
+to take actions as necessary to ensure payment, recoupment, adjustments 
+of compensation, and reimbursement for insured losses arising out of 
+any act of terrorism (as defined under the Act) occurring during the 
+period between November 26, 2002, and December 31, 2005.
+
+[[Page 44933]]
+
+    Each entity that meets the definition of ``insurer'' (well over 
+2000 firms) must participate in the Program. The amount of federal 
+payment for an insured loss resulting from an act of terrorism is to be 
+determined based upon insurance company deductibles and excess loss 
+sharing with the Federal Government, as specified by the Act and the 
+implementing regulations. An insurer's deductible increases each year 
+of the Program, thereby reducing the Federal Government's share prior 
+to expiration of the Program. An insurer's deductible is calculated 
+based on a percentage of the value of direct earned premiums collected 
+over certain statutory periods. Once an insurer has met its individual 
+deductible, the federal payments cover 90 percent of insured losses 
+above the deductible, subject to an annual industry-aggregate limit of 
+$100 billion.
+    The Program provides a federal reinsurance backstop for three 
+years. The Act provides Treasury with authority to recoup federal 
+payments made under the Program through policyholder surcharges, up to 
+a maximum annual limit. The Act also prohibits duplicative payments for 
+insured losses that have been covered under any other federal program.
+    The mandatory availability or ``make available'' provisions in 
+section 103(c) of the Act require that, for Program Year 1, Program 
+Year 2, and, if so determined by the Secretary of the Treasury, for 
+Program Year 3, all entities that meet the definition of insurer under 
+the Program must make available in all of their property and casualty 
+insurance policies coverage for insured losses resulting from an act of 
+terrorism. This coverage cannot differ materially from the terms, 
+amounts and other coverage limitations applicable to losses arising 
+from events other than acts of terrorism. On June 18, 2004, the 
+Secretary of the Treasury announced his determination to extend the 
+make available requirements through Program Year 3.
+    As conditions for federal payment under the Program, insurers must 
+provide clear and conspicuous disclosure to policyholders of the 
+premium charged for insured losses covered by the Program and the 
+Federal share of compensation for insured losses under the Program. In 
+addition, the Act requires that insurers submit claims and make certain 
+certifications to Treasury. Treasury has recently published in the 
+Federal Register a final rule concerning claims for Federal payment 
+under the Program. See 69 FR 39296 (June 29, 2004).
+    Section 107 of the Act also contains specific provisions designed 
+to manage litigation arising out of or resulting from a certified act 
+of terrorism. If the Secretary determines that an act of terrorism 
+under section 102 has occurred, section 107 establishes an exclusive 
+Federal cause of action and remedy for property damage, personal 
+injury, or death arising out of or relating to the act of terrorism. 
+Section 107 also preempts certain State causes of action and provides 
+that amounts awarded in actions for property damage, personal injury, 
+or death that are attributable to punitive damages shall not count as 
+``insured losses'' (and thus shall not be paid) under the Program. The 
+Act also gives the United States the right of subrogation with respect 
+to any payment or claim paid by the United States under the Program. In 
+connection with the implementation of the litigation management 
+provisions of the Act, the President directed the Secretary to use his 
+authority under the Act to propose a rule that would require insurers 
+to obtain Treasury's advance approval before settling certain Federal 
+causes of action described in section 107 of the Act. See 38 Weekly 
+Comp. Pres. Doc. 2097 (Nov. 25, 2002); 2002 WL 14548111 (Dec. 2, 2002) 
+(also accessible at <a href="http://www.treasury.gov/trip">http://www.treasury.gov/trip</a>).
+    Throughout the implementation of the Program, Treasury has been 
+guided by several goals. First, Treasury strives to implement the Act 
+in a transparent and effective manner that treats comparably those 
+insurers required to participate in the Program and provides necessary 
+information to policyholders in a useful and efficient manner. Second, 
+in accord with the Act's stated purposes, Treasury seeks to rely as 
+much as possible on the State insurance regulatory structure. In that 
+regard, Treasury has coordinated the implementation of aspects of the 
+Program with the National Association of Insurance Commissioners 
+(NAIC). Third, to the extent possible within statutory constraints, 
+Treasury seeks to allow insurers to participate in the Program in a 
+manner consistent with procedures used in their normal course of 
+business. Finally, given the temporary and transitional nature of the 
+Program, Treasury is guided by the Act's goal that insurers develop 
+their own capacity, resources, and mechanisms for terrorism insurance 
+coverage when the Program expires.
+
+B. Previously Issued Regulations
+
+    To assist insurers, policyholders, and other interested parties in 
+complying with immediately applicable requirements of the Act, Treasury 
+issued interim guidance to be relied upon by insurers until superseded 
+by regulations. These notices of interim guidance have now been 
+superseded by final regulations. The scope of the Program, key 
+definitions, and other provisions laying the groundwork for Program 
+implementation are at Subparts A, B, and C of 31 CFR part 50 (68 FR 
+41250; 68 FR 59720). Treasury's final rule applying provisions of the 
+Act to State residual market insurance entities and State workers' 
+compensation funds is at Subpart D of 31 CFR Part 50 (68 FR 59715). The 
+final rule setting forth procedures for filing claims for payment of 
+the Federal share of compensation for insured losses is at Subpart F of 
+31 CFR part 50, and Subpart G of 31 CFR part 50 contains the final rule 
+concerning information to be retained as related to the handling and 
+settlement of claims to enable Treasury to perform financial and claim 
+audits (both at 69 FR 39296).
+
+C. The Proposed Rule (Litigation Management)
+
+    Treasury published a proposed litigation management rule in the 
+Federal Register at 69 FR 25341 on May 6, 2004 to implement the 
+provisions in section 107 of the Act. The proposed litigation 
+management rule required insurers to seek Treasury's advance approval 
+of settlements of certain Federal causes of action involving insured 
+losses and proposed clarifications of litigation management aspects 
+related to the Program.
+
+II. Summary of Comments and Final Rule
+
+    Treasury received four comments about the proposed rule; however, 
+one of these comments was jointly submitted by an ad hoc industry 
+working group that included insurance industry organizations, insurance 
+companies, and property-casualty insurance industry trade associations 
+and their member companies.\1\ Comments were also received from a large 
+commercial property-casualty insurance company; a large market of 
+London-based insurers and reinsurers; and a real estate industry 
+association. In addition, Treasury received a copy of a published 
+Procedural Order from the Judicial Panel on Multidistrict
+
+[[Page 44934]]
+
+Litigation, which adopted certain procedures for litigation under the 
+Act.
+---------------------------------------------------------------------------
+
+    \1\ The trade associations are: American Insurance Association 
+(``AIA''), the American Association of State Compensation Insurance 
+Funds (``AASCIF''), Council of Insurance Agents & Brokers 
+(``CIAB''), The Financial Services Roundtable (``FSR''), Independent 
+Insurance Agents & Brokers of America (``IIABA''), National 
+Association of Mutual Insurance Companies (``NAMIC''), National 
+Association of Professional Insurance Agents (``PIA''), Property 
+Casualty Insurers Association of America (``PCI''), Reinsurance 
+Association of America (``RAA''), and Surety Association of America 
+(``SAA'').
+---------------------------------------------------------------------------
+
+    In general, the proposed rule was received quite favorably by the 
+real estate industry trade group, which commented that the rule would 
+screen proposed settlements against litigation abuse and fulfill 
+Congress's intent that taxpayer funds are not used to pay punitive 
+damage claims. In contrast, the joint comment from the ad hoc industry 
+working group criticized aspects of the proposed rule as described more 
+fully below and urged that the settlement approval provisions be 
+dropped, or alternatively, that changes be made to them in the final 
+rule. Two other commenters provided suggested changes and 
+clarifications to certain aspects of the proposed rule.
+    After review and careful consideration of all comments, Treasury 
+has decided to promulgate a final rule with several modifications and 
+clarifications as discussed below.
+
+A. Exclusive Federal Cause of Action and Remedy (Section 50.80)
+
+    Section 107(a)(1) states that ``[i]f the Secretary makes a 
+determination pursuant to section 102 that an act of terrorism has 
+occurred, there shall exist a Federal cause of action for property 
+damage, personal injury, or death arising out of or resulting from such 
+act of terrorism, which shall be the exclusive cause of action and 
+remedy for claims for property damage, personal injury, or death 
+arising out of or relating to such act of terrorism, except as provided 
+in paragraph (b).'' Section 107(b) provides that nothing in the 
+litigation management provisions of section 107 shall in any way limit 
+the liability of any government, organization, or person who knowingly 
+participates in, conspires to commit, aids and abets, or commits any 
+act of terrorism certified as such under the Act. Section 50.80 of the 
+proposed rule was based on these provisions of the Act.
+    Section 50.80(a) of the proposed rule provided that ``[u]pon 
+certification of an act of terrorism pursuant to section 102,'' there 
+shall exist a Federal cause of action. The ad hoc industry working 
+group raised a concern that the proposed language differed from that of 
+the Act. The comment expressed concern that the proposed rule's use of 
+the word ``upon'' instead of ``if'' could be interpreted to mean that 
+the exclusive Federal cause of action accrues at the time of 
+certification rather than at the time of occurrence of the event later 
+certified.
+    In response to this comment Treasury is slightly modifying section 
+50.80 of the final rule to clarify intent and to more closely mirror 
+the statutory language by changing the word ``upon'' to ``if'' in 
+section 50.80(a) of the final rule.
+    The ad hoc industry working group also addressed section 50.80(b) 
+of the proposed rule, which was based on section 107(e). Section 107(e) 
+provides that the litigation management provisions of section 107 only 
+apply to actions for property damage, personal injury, or death that 
+arise out of or result from acts of terrorism that occur or occurred 
+during the effective period of the Program. Section 50.80(b) of the 
+proposed rule described the effective period of the Program ``as set 
+forth in section 108 of the Act.'' Section 108(a) establishes only the 
+Program's termination date and not the ``effective period.'' The ad hoc 
+industry working group expressed concern that the proposed rule may 
+create uncertainty as to whether the Secretary has authority to certify 
+after the termination date an act that occurs on or before the 
+termination of the Program. After considering this comment, Treasury 
+made a technical correction to section 50.80(b) of the final rule to 
+conform to the precise language of the Act.
+
+B. Preemption of State Causes of Action (Section 50.81)
+
+    Section 107(a)(2) preempts all State causes of action for property 
+damage, personal injury, or death arising out of or resulting from an 
+act of terrorism that are otherwise available under State law, except 
+as provided in paragraph (b) of the Act (i.e., not affecting the 
+liability of any government, organization, or person who knowingly 
+participates in, conspires to commit, aids and abets, or commits any 
+act of terrorism). The ad hoc industry working group pointed out that 
+the language of the proposed rule differed from that in the Act. 
+Section 107(a)(2) states that ``[a]ll State causes of action of any 
+kind for property damage, personal injury, or death arising out of or 
+resulting from an act of terrorism that are otherwise available under 
+State law are hereby preempted, * * *.'' Tracking the time at which the 
+exclusive Federal cause of action comes into existence, section 50.81 
+of the proposed rule stated that ``upon certification'' of an act of 
+terrorism, all State causes of action for property damage, personal 
+injury, or death arising out of or resulting from an act of terrorism 
+were preempted. The comment explained that the Act itself preempts 
+State causes of action.
+    Treasury agrees that the Act preempts all State causes of action 
+for property damage, personal injury, or death ``arising out of or 
+resulting from an act of terrorism,'' but such causes of action can 
+only be identified as ``arising out of or resulting from an act of 
+terrorism'' after an act is certified by the Secretary as an ``act of 
+terrorism.'' Because the certification is inextricably linked to the 
+classification of the causes of action to which the preemption applies, 
+the proposed rule described the preemption as being dependent upon the 
+certification of an act of terrorism by the Secretary. After 
+considering the comment, Treasury determined to revise section 50.81 to 
+mirror the language in section 107(a)(2).
+
+C. Program Procedures for Notifying the Judicial Panel on Multidistrict 
+Litigation
+
+    Section 107(a)(4) provides that for each act of terrorism certified 
+by the Secretary pursuant to section 102, the Judicial Panel on 
+Multidistrict Litigation (Judicial Panel) shall designate one district 
+court or, if necessary, multiple district courts of the United States 
+that shall have original and exclusive jurisdiction over all actions 
+for any claim (including any claim for loss of property, personal 
+injury, or death) relating to or arising out of an act of terrorism. 
+The Act also provides that the Judicial Panel is to designate the 
+district court or courts not later than 90 days after the occurrence of 
+an act of terrorism.
+    In the proposed rule, Treasury recognized that it is the 
+Secretary's certification of an act of terrorism that triggers the 
+existence of the exclusive Federal cause of action and the need for the 
+Judicial Panel to designate a district court or courts for the 
+consolidation of actions. Treasury expressed an intent to notify the 
+Judicial Panel as soon as practicable following any certification of an 
+act of terrorism and invited comments on other appropriate operational 
+procedures.
+    On June 1, 2004, the Judicial Panel issued a Procedural Order in In 
+re Terrorism Risk Insurance Act of 2002 Litigation,--F.R.D.--, 2004 WL 
+1252476 (Jud. Pan. Mult. Lit. June 1, 2004) (also accessible at <a href="http://www.treasury.gov/trip">http://www.treasury.gov/trip</a>). As reflected in its Order, the Panel stated 
+that the 90-day period for the Judicial Panel to designate the court or 
+courts, as prescribed in section 107(a)(4) of the Act, begins on the 
+date the Secretary certifies the act of terrorism. Also, pursuant to 
+its cited rulemaking authority under 28 U.S.C. 1407(f) and in response 
+to the proposed rule, the Judicial Panel adopted procedures for 
+litigation under the Act. The Order directs all interested parties to 
+notify the Judicial Panel of their suggestions regarding what district 
+court or courts should be designated within 20 days of
+
+[[Page 44935]]
+
+the date of certification. In addition, the Judicial Panel orders the 
+Secretary, on the date the Secretary certifies an act of terrorism, to 
+notify: (1) The public about the Judicial Panel's Order (through 
+general media channels, such as Internet and press releases to 
+broadcast and print media, ``augmented by direct notice to the parties 
+in any already existing litigation known to the Treasury Secretary'') 
+and (2) the Clerk of the Judicial Panel that such public notice has 
+occurred.
+    As the Judicial Panel's Order establishes the procedures Treasury 
+and others are to follow once an act is certified as an act of 
+terrorism, there is no need for Treasury to set out procedural 
+requirements in the final rule.
+
+D. Failure To Litigate in Federal Court Pursuant to the Act
+
+    In implementing the section 107(a) provisions concerning exclusive 
+jurisdiction, Treasury solicited comment in the preamble to the 
+proposed rule on whether it would be appropriate or necessary to 
+promulgate a rule to facilitate the filing and transfer of civil 
+actions involving Federal causes of action to the Federal district 
+court(s) designated by the Judicial Panel. Such a rule could provide 
+that any amounts awarded in any civil action relating to or arising out 
+of an act of terrorism that are not awarded by the district court or 
+courts designated by the Judicial Panel would be ineligible for 
+compensation under the Program, regardless of whether the amounts 
+awarded would otherwise be insured losses covered by commercial 
+property and casualty insurance issued by an insurer.
+    The ad hoc industry working group commented that such a rule was 
+unnecessary and suggested that cases pending in non-designated courts 
+would be removed to Federal court or dismissed and any awards by non-
+designated courts would be a legal nullity. Another commenter 
+representing a market of London-based insurers and reinsurers suggested 
+that if such a rule where adopted, an exception be made for court 
+awards made (and paid by insurers) prior to the certification of an act 
+of terrorism and presumably before a Federal district court is 
+designated. After considering the issue and comments, Treasury has 
+decided not to address this issue at this time, but will continue to 
+study the issue to determine if any further clarification or procedures 
+are needed.
+
+E. Treasury's Advance Approval of Settlements (Section 50.82)
+
+    Sections 50.82 and 50.83 of the proposed rule provided for the 
+advance approval of settlements of certain Federal causes of action 
+arising out of or resulting from certified acts of terrorism. As noted 
+earlier, Treasury received a memorandum from the President related to 
+this issue. The President's Memorandum directed the Secretary to 
+propose a rule requiring insurers to obtain the advance approval of 
+Treasury of any proposed settlements of causes of action described in 
+section 107 of the Act arising out of or resulting from an act of 
+terrorism.
+    The proposed rule required advance approval by Treasury of proposed 
+settlements of certain causes of action described in section 107, to 
+the extent liability for such causes of action is covered by or paid, 
+in whole or in part, by an insurer pursuant to coverage for insured 
+losses under the Program. As proposed, such settlements were only 
+required to be submitted for advance approval if the insurer intends to 
+submit the settlement as part of its claim for federal payment under 
+the Program.
+    A real estate industry association supported the rule as proposed, 
+which it described as important procedures for scrutinizing proposed 
+settlements and ``excellent rules for implementing Congress's charge 
+that TRIA funds are not used to fund punitive damage claims.'' As 
+described below, other commenters disagreed.
+1. Rulemaking Authority
+    As a threshold matter, the ad hoc industry working group contended 
+that the advance approval of settlements requirement exceeded 
+Treasury's rulemaking authority. They provided no specific support for 
+this position. The working group comment advocated elimination of the 
+settlement pre-approval requirements in their entirety or other 
+alternatives described below.
+    For the reasons stated in the preamble to the proposed rule, 
+Treasury believes that it has the requisite legal authority to 
+promulgate this rule, including the settlement approval provisions. See 
+69 FR 25341, 25344. The Act authorizes Treasury to administer the 
+Program, investigate and audit claims, and pay the Federal share of 
+compensation for insured losses. (see section 104(a)). Under section 
+104(a)(2) the Secretary is authorized to prescribe regulations to 
+administer and implement the Program effectively. More specifically, 
+under section 103(b)(3), Treasury is authorized to prescribe reasonable 
+procedures concerning insurers' processing of claims for insured 
+losses. Treasury believes that the procedures that this rule adds to 
+the insurers' claims process are necessary in order to administer and 
+implement the Program effectively. Pursuant to its administrative 
+authority under the Act and to protect the interests of the United 
+States, Treasury is finalizing sections 50.82 and 50.83 of the proposed 
+rule, but with modifications as described below.
+2. General Objections to the Rule
+    One insurer that commented criticized the proposed rule (and the 
+claims regulations found in Subpart F) generally as being a departure 
+from the more traditional ``follow the fortunes'' (sometimes also 
+referred to as ``follow the settlements'') approach employed by 
+reinsurers. The ad hoc industry working group raised this point as 
+well. That group stated that through the proposed rule, Treasury would 
+be substituting its judgment for that of the insurer in settling claims 
+while introducing tremendous complexities into the claims process and 
+that the regulations governing claims procedures (Subpart F) provide 
+sufficient safeguards and already expose insurers to the risk of having 
+an already settled cause of action denied.
+    To fulfill the purposes of the Act and its role as administrator, 
+Treasury expects to be notified of covered settlements, to review them, 
+and to make its objections (if any) known to the insurer. Treasury has 
+tried to tailor its review and requests for information, as much as 
+possible and with some exceptions, to the type of information typically 
+gathered by the insurer as part of the claims adjustment process.
+    The ad hoc industry working group also stated that the rule does 
+not reflect reinsurance best practices and is not modeled after the 
+customary business practices of insurers and reinsurers. As we have 
+often stated, Treasury seeks to administer the Program in a manner 
+consistent with procedures insurers use in the normal course of 
+business to the extent possible within statutory constraints. Given the 
+unique characteristics of this Federal Program, the settlement approval 
+aspects of this rule are appropriate. Though the Program is often 
+thought of as being similar to an excess-of-loss quota share reinsurer, 
+the Program is truly a Federal financial backstop funded by public 
+monies which, unlike a traditional reinsurer, does not share in 
+premiums and can recoup its payments as prescribed in section 103(e)(7) 
+of the Act. Reinsurers evaluate and choose the insurers they reinsure, 
+consider the claims handling and loss experience of
+
+[[Page 44936]]
+
+their reinsureds, and reassess those relationships during renewal 
+audits. Treasury does not have a similar private market relationship 
+with insurers. Moreover, Treasury does not believe that it has strayed 
+inappropriately from reinsurance practices. Treasury is aware that some 
+reinsurance treaties contain claims-cooperation clauses that allow 
+reinsurers to receive early notification and the discretionary right to 
+associate in the control, defense, and litigation of claims.
+    The ad hoc industry working group comment also stated that the 
+proposed rule would expose insurers to bad faith claims and/or 
+violations of State unfair claims practices standards which generally 
+require them to promptly settle claims. The working group comment 
+contends that the rule as proposed could expose insurers to liability 
+for extra-contractual obligations (i.e., punitive or exemplary damages) 
+and/or damages in excess of policy limits if imposed by a court due to 
+the insurer's delay or failure to settle because of Treasury's actions 
+under this rule. The comment also pointed out that, by operation of 
+sections 50.50(a) and 50.5(e)(4)(ii) and (iii) of the claims procedures 
+regulations, Treasury does not share in extra-contractual or excess of 
+policy limits type damages. If Treasury promulgates a final rule, the 
+ad hoc industry working group suggested that Treasury should also share 
+in these damages; pay one hundred percent of any liability of the 
+insurer above the amount the insurer proposed settling the cause of 
+action; or grant insurers qualified immunity from state law claims 
+standards.
+    Treasury believes the hypothetical scenario suggested by the ad hoc 
+industry working group in its comment may be overstated. First, the 
+rule envisions a settlement approval process that normally will occur 
+within 30 days. The information sought is that typically assembled by 
+the insurer's claim professionals in handling and adjusting claims and 
+should not delay settlements. Settlements can still be effectuated 
+promptly and the additional processes required by this rule seem 
+unlikely to lead to the types of inordinate delays typically associated 
+with bad faith damages being awarded or State regulatory actions being 
+brought. Insurers could inform the State regulatory officials and court 
+that they are following Federal regulation and nothing in this rule 
+prevents an insurer from settling a cause of action without or despite 
+Treasury's pre-approval, doing so only precludes compensation under the 
+Program. Treasury declines to adopt the ad hoc working group's 
+suggestions.
+3. Thresholds for Pre-Approval of Certain Proposed Settlements
+    The proposed rule required an insurer to seek Treasury's advance, 
+written approval where an insurer (directly or through its insured) 
+intends to settle a Federal cause of action involving third-party 
+claims (by a third-party against an insured and/or the insurer) for 
+property damage, personal injury, or death arising out of or resulting 
+from an act of terrorism when--
+    <bullet> All or part of the settlement amount is expected to be 
+part of the insurer's claim for federal payment under the Program; and
+    <bullet> Any portion of the proposed settlement amount that is 
+attributable to liability for personal injury or death is $1 million or 
+more, or that is attributable to liability for property damage 
+(including loss of use) is $5 million or more, regardless of the number 
+of third-party claims being settled.
+    In the preamble to the proposed rule, Treasury specifically 
+requested comments on these monetary thresholds. The real estate 
+industry association supported the thresholds as proposed. Another 
+suggested that the thresholds were too low and that they should be 
+raised to $10 million for both property and casualty claims. Upon 
+consideration of the views of the commenters and Treasury's further 
+assessment of the administrative costs and operational issues 
+associated with the advance approval of too large a number of 
+settlements, Treasury has decided to adjust the monetary thresholds set 
+out in paragraphs (a)(1) and (2) of section 50.82 of the final rule. As 
+now finalized, insurers will be required to submit for advance approval 
+by Treasury settlements where the amount attributable to the insured's 
+liability for personal injury or death is $2 million or more, or that 
+is attributable to liability for property damage is $10 million or 
+more.
+    Treasury is setting these monetary thresholds (below which an 
+insurer is not required to seek pre-approval by Treasury) pursuant to 
+section 104(a)(2) of the Act which authorizes the Secretary to 
+prescribe regulations to administer and implement the Program 
+effectively. In balancing between the need to protect the interests of 
+the United States with the effective administration of the Program, 
+Treasury believes it appropriate to raise the thresholds. In addition, 
+Treasury notes that settlements that are reviewed and approved (or 
+deemed approved), or that are not required to be submitted for prior 
+approval, are all still subject to later Treasury review, like any 
+other claim, at the point of claim submission by the insurer or at the 
+time of any audit (see Subparts F and G).
+    In raising the settlement thresholds in section 50.82(a) of the 
+final rule, Treasury expressly retains the right to require insurers to 
+submit for pre-approval any settlement of a Federal cause of action 
+that comes to its attention, on a case-by-case basis, even if the 
+settlement amount attributable to liability for property damage, 
+personal injury, or death is below the applicable threshold. 
+Accordingly, Treasury is modifying section 50.82 of the final rule to 
+add a new paragraph (b) which states that Treasury may request that an 
+insurer submit for review and advance approval proposed settlements of 
+Federal causes of action for property damage, personal injury, or 
+death, where the settlement amounts are below the monetary thresholds 
+identified in section 50.82(a)(1) and (2).
+    Several commenters asked for clarification covering different, but 
+related aspects concerning what is included in calculating the 
+thresholds. In response, Treasury provides the following additional 
+clarifications:
+    <bullet> Any portion of the proposed settlement amount that is 
+attributable to an insured loss or losses is aggregated per third-party 
+claimant, regardless of the number of causes of action or insured 
+losses being settled (section 50.82(a)(1) and (2) are being revised to 
+reflect the ``per third-party claimant'' qualification);
+    <bullet> The thresholds include self-insured retentions (no change 
+to the rule is necessary);
+    <bullet> Defense costs are not included in the thresholds. They are 
+reviewed as loss adjustment expenses under sections 50.50(a) and 
+50.5(e)(4) of the regulations; and
+    <bullet> The pre-approval process does apply to Federal causes of 
+action settled before the insurer has exceeded its insurer deductible 
+under the Act. See section 102(7); 103(e)(1)(A). This is because under 
+the claims procedures rule, insured losses are submitted on an 
+aggregate basis without identification as to which insured losses are 
+assigned to meeting the insurer deductible. See section 50.51(a) of 
+Subpart F.
+    One commenter, representing a market of London-based insurers and 
+reinsurers commented that it read the proposed settlement pre-approval 
+requirements as being limited to settlements of filed legal actions. As 
+Treasury stated in the preamble to its proposed rule (69 FR at 25344-
+45), the
+
+[[Page 44937]]
+
+settlement pre-approval requirements, which are now being finalized, 
+apply to Federal causes of action regardless of whether a lawsuit has 
+actually been filed or an arbitration commenced with respect to the 
+claim. This is because, as we explained in the preamble to the proposed 
+rule, ``a `cause of action' is a group of operative facts giving rise 
+to one or more bases for one person to sue and obtain a remedy in court 
+from another person.''
+    Commenters generally favored the proposed rule's limitation on the 
+pre-approval requirements to causes of action brought by third-party 
+claimants against insureds. As stated in the preamble to the proposed 
+rule, the prior approval requirement extends only to settlements for 
+insured losses arising from third-party claims against an insured for 
+property damage, personal injury or death against a commercial insured. 
+Coverage disputes involving contract rights are not included in the 
+scope of the causes of actions requiring advanced settlement approval 
+by Treasury. Such disputes involve causes of action that are based on 
+contract law, not on property damage, personal injury, or death, and 
+are not subject to prior approval by Treasury. Several commenters 
+suggested that Treasury include this important distinction in the rule 
+itself. After consideration of these comments, Treasury has clarified 
+in section 50.82(a) of the final rule that the advance approval 
+requirements apply to any proposed agreement to settle or compromise 
+any Federal cause of action for property damage, personal injury, or 
+death, asserted by a third-party or parties against an insured.
+4. Factors To Be Reviewed by Treasury
+    In determining whether to approve a proposed settlement, section 
+50.82(b) of the proposed rule (now being re-designated in the final 
+rule as subparagraph (c)) identified the factors (in addition to those 
+listed in section 50.50 of Subpart F) that Treasury would consider. 
+These factors included the nature of the insured loss, the facts and 
+circumstances surrounding the loss, and, as applicable, other related 
+factors, as well as any other information requested by Treasury. The 
+real estate industry association stated that the proposed rule 
+``provides commendable detail in requiring specific information to be 
+communicated in submissions of proposed settlement for pre-approval by 
+Treasury.''
+    The ad hoc industry working group suggested that if the proposed 
+rule is adopted, Treasury should limit the pre-approval of proposed 
+settlements to a review that only would consider whether punitive 
+damages were included in the settlement. Alternatively, the working 
+group comment suggested eliminating section 50.83 and modifying section 
+50.82 to require insurers to provide Treasury ``notice'' that the 
+settlement is not an ex gratia payment (i.e., a payment not required 
+under the terms of the insurance policy); does not include settlement 
+of a claim for punitive damages; and is not the result of fraud, 
+collusion, bad faith, or dishonesty. In addition, the working group 
+comment suggested the insurer notify Treasury that the insurer has 
+complied with applicable State laws governing claims practices; 
+determined that liability of the insured is clear; and has agreed to 
+settlement based on merits and terms and conditions of the policy, 
+without regard to the submission as part of its claim for the Federal 
+share of compensation. These factors are generally covered through 
+application of the claims procedures rule. See section 50.50(a). 
+Accordingly, Treasury has decided to not revise the rule as suggested.
+    The real estate industry association wanted the factors expanded to 
+include all information considered by the insurer's claims adjuster; 
+that settlements also are reviewed for ``excessiveness''; and that 
+Treasury should receive detailed statement explaining how any proposed 
+settlement ensures that punitive damages are not included. Treasury 
+believes the listed factors are sufficient. In addition, section 
+50.82(c)(5) allows Treasury to consider any other criteria that 
+Treasury may consider appropriate, depending on the facts and 
+circumstances surrounding the settlement. The commenter's suggestions 
+are the type of additional information that could be requested 
+(pursuant to 50.83(d)(12) of the final rule) and evaluated in certain 
+circumstances, but certainly not all, and therefore, Treasury declines 
+to add them by specific reference at this time.
+    Other comments were directed specifically to some of the factors, 
+described below.
+a. Ensuring That the Settlement Is an Insured Loss Covered Under the 
+Insurance Policy (Section 50.82(c)(1))
+    Among the factors the proposed rule listed as relevant to 
+Treasury's consideration of proposed settlements, section 50.82(c)(1) 
+stated that Treasury would consider whether the proposed settlement 
+compensates for a loss that is an insured loss under the terms and 
+conditions of the underlying commercial property and casualty insurance 
+policy. The ad hoc industry working group pointed out that this is 
+already part of the claims review process under the claims procedures 
+rule in Subpart F and doing a coverage analysis at the pre-approval 
+stage may cause delay in insurers paying claims.
+    In consideration of this comment, Treasury is revising the final 
+rule to state that Treasury will review whether the ``proposed 
+settlement compensates for a third-party's loss, the liability for 
+which is an insured loss under the terms and conditions of the 
+underlying commercial property and casualty insurance policy, as 
+certified by the insurer pursuant to Sec.  50.83(d)(2).'' As a result, 
+Treasury is changing section 50.83(d)(2) of the final rule to require 
+the insurer to provide to Treasury as part of the approval submission 
+process a certification by the insurer that the settlement is for a 
+third-party's loss, the liability of which is an insured loss under the 
+terms and conditions of the underlying commercial property and casualty 
+insurance policy. The revisions clarify that the loss is that of a 
+third-party, the liability for which is an insured loss, as suggested 
+by an insurer who commented that the rule, left unchanged, could be 
+misread to capture first-party settlements.
+b. Ensuring That Settlement Amounts Shared With the Program Do Not 
+Include Payment of Punitive Damages (Section 50.82(c)(2))
+    Section 107(a)(5) provides that any amounts awarded in actions 
+under section 107(a)(1) of the Act (exclusive Federal cause of action 
+for property damage, personal injury, or death arising out of or 
+resulting from an act of terrorism) that are attributable to punitive 
+damages shall not count as insured losses under the Act. Because 
+section 107(a)(5) of the Act does not consider punitive damages 
+``insured losses'' under the Act, the Federal Government will not 
+compensate an insurer for such damages. See also sections 50.5(e)(4)(i) 
+of Subpart A (definition of ``insured loss'') and 50.50(a) of Subpart 
+I.
+    Consistent with the claims procedures rule, this proposed rule 
+stated that a factor Treasury would consider in approving a proposed 
+settlement is whether the settlement excludes punitive damages, 
+regardless of how the parties to the settlement agreement characterize 
+the payment. An insurer shall be required to identify any portion of a 
+proposed settlement amount that is attributable to punitive damages, or 
+that is intended to compromise a claim or demand for punitive damages 
+in a cause of action for which punitive damages
+
+[[Page 44938]]
+
+could be awarded. And Treasury will review proposed settlements to 
+determine whether all or part of the settlement amount is intended to 
+compromise an actual or threatened claim for punitive or exemplary 
+damages, even if the settlement does not indicate that the payment 
+includes punitive or exemplary damages.
+    The real estate industry association stated that, ``[o]ne of the 
+best elements of the NPRM [Notice of Proposed Rulemaking] is its 
+detailed discussion of steps that will be taken to ensure that 
+settlements do not include indemnity for punitive damages claims.'' The 
+ad hoc industry working group suggested that the proposed rule be 
+modified to require the review of amounts ``attributable to an award of 
+punitive or exemplary damages,'' presumably following the literal 
+language of section 107(a)(5) of the Act. The working group stated that 
+while claims for punitive damages are made routinely, actual awards are 
+rare. Without the modification, the working group comment suggested, 
+Treasury's review would be highly subjective, involve substantial legal 
+and factual analysis, and create inordinate delay, yet would promise 
+little value. After review of these comments, Treasury is finalizing 
+the rule as proposed in order to ensure that punitive damages are not 
+awarded through settlements.
+    Several commenters requested that Treasury explain how it would 
+determine what portion of a proposed settlement might be attributable 
+to a claim for punitive damages when the settlement does not indicate 
+that the payment includes such damages. No methods of review were 
+suggested by these comments. The real estate industry association, 
+however, suggested that Treasury could require and receive a detailed 
+statement from the insurer (under section 50.83) explaining how any 
+proposed settlement ensures that punitive damages are not included. 
+Treasury considered the comments and decided that a requirement for the 
+insurer to identify any portion of a proposed settlement amount that is 
+attributable to punitive damages (or that is intended to compromise a 
+claim or demand for punitive damages) is sufficient.
+c. Ensuring That Settlement Amounts Shared With the Program Have 
+Accounted For Compensation Received by Third-Parties From Other Federal 
+Programs (Section 50.82(c)(3))
+    Section 50.82(b)(3) of the proposed rule (now re-designated as 
+paragraph (c)(3) in the final rule) stated that a factor Treasury would 
+consider in approving a proposed settlement is whether the settlement 
+amount offset amounts received from the United States pursuant to any 
+other Federal program. Section 103(e)(1)(B) of the Act states, ``The 
+Federal share of compensation for insured losses under the Program 
+shall be reduced by the amount of compensation provided by the Federal 
+Government to any person under any other Federal program for those 
+insured losses. See also section 50.51(b) of Subpart I. The ad hoc 
+industry working group objected to Treasury's consideration of this as 
+part of the settlement approval process because, as explained by the 
+working group, an insurer generally does not have the ability under the 
+terms and conditions of a property and casualty insurance policy to 
+reduce the value of a claim by such collateral source amounts. Treasury 
+is adopting this requirement in the final rule because it is required 
+under the Act to adjust the Federal share of compensation by these 
+amounts, Treasury is in effect asking, as a practical versus 
+contractual matter, whether the insurer has already taken collateral 
+source payments into consideration in arriving at the settlement amount 
+(i.e., would the settlement have been higher but for the compensation 
+from the other Federal Program?). Section 50.82(c)(3) of the final rule 
+is finalized as proposed, without change.
+d. Review of Impact of Professional Fees and Expenses on Settlement 
+Amount (50.82(c)(4))
+    Another factor Treasury proposed to take into account in reviewing 
+proposed settlements was the amount of attorneys' fees and other legal 
+expenses paid out of the settlement proceeds. The proposed rule was 
+based on Treasury's concern about inflated, unsupported insured losses. 
+In order to address this concern, Treasury proposed to evaluate whether 
+attorneys' fees and expenses in connection with the settlement were 
+unreasonable or inappropriate, in whole or in part, and whether they 
+caused the insured losses under the underlying commercial property and 
+casualty insurance policy to be overstated.
+    Another commenter asked if review of attorneys' fees included 
+review of defense attorneys' fees and expenses? Such costs would not be 
+reviewed at the pre-approval stage but would be reviewed as part of the 
+insurer's claim for loss adjustment expenses. See sections 50.50(a) and 
+50.5(e)(3).
+    In the preamble to our proposed rule, we described how Treasury 
+would examine the appropriateness of attorneys' fees and expenses, 
+generally by considering such factors as those weighed by Federal 
+courts regarding the reasonableness of attorneys' fees and expenses. 
+The real estate industry association praised this approach.
+    Many of the comments addressed this section of the proposed rule. 
+The ad hoc industry working group contended that the review of 
+attorneys' fees contained in the proposed rule was unnecessary because 
+bar association ethics rules (prohibiting unreasonable fees) and 
+procedural review by courts (presumably over settlements of filed legal 
+actions) are a sufficient check on legal fees that may inflate the 
+settlement amounts paid by insurers.
+    In light of some of the comments and upon further consideration, 
+Treasury has decided to revise section 50.82(c)(4) of the final rule to 
+more clearly focus on the issue of whether insured losses have been 
+inflated. Under the final rule, Treasury will consider whether the 
+settlement amount has been inflated by such things as unjustified 
+professional fees and expenses of attorneys, experts, and other 
+professionals. The intent is to focus on whether such fees or other 
+expenses have caused the settlement amount to exceed the value of the 
+insured loss as compared to similar losses. In order to apply this 
+revision to the pre-approval submission and in response to a request 
+for clarification by a commenter, Treasury is also making a related 
+revision to section 50.83(d)(7) to clarify that insurers are to submit 
+to Treasury the net amount to be received by the third-party after the 
+payment of professional fees and expenses. Section 50.83(d)(7) is 
+revised to now require that insurers inform Treasury of ``[t]he amount 
+to be paid that will compensate for any items such as fees and expenses 
+of attorneys, experts, and other professionals for their services and 
+expenses related to the insured loss and/or settlement and the net 
+amount to be received by the third-party after such payment.''
+    Some commenters explained that insurers might not always be able to 
+obtain this information. Treasury understands the possible difficulty 
+in obtaining information but believes the insurer is in the best 
+position to obtain this information and it is hoped that a third-party 
+would provide such information to the insurer knowing that it is a 
+requirement upon which Treasury's approval, and in turn the insurer's 
+eventual agreement to finalize the settlement, may depend. Insurers 
+should recognize that the factors listed in section 50.82(c) will be 
+viewed as a whole, with different emphasis on different factors 
+depending on the particulars of the cause of action. If an
+
+[[Page 44939]]
+
+insurer cannot obtain the information required by section 50.82(c)(4), 
+it should simply indicate that fact to Treasury, as well as what 
+attempts it made to discover the information. An insurer could also 
+provide its best estimate based on its prior business experience of 
+what professionals charge under the circumstances of the particular 
+claim. Having provided such guidance, Treasury has decided to not 
+change the rule.
+5. Settlement Without Treasury's Approval
+    Under section 50.82(d) of the rule, if an insurer settles a cause 
+of action after Treasury has rejected the proposed settlement, or if an 
+insurer settles a cause of action without seeking Treasury's approval 
+in advance, as required by section 50.82(a), the insurer will not be 
+entitled to the Federal share of the amount paid as part of its claim 
+for federal payment unless the insurer can demonstrate, to the 
+satisfaction of the Treasury, extenuating circumstances. Also, the 
+insurer shall not be entitled to include the paid settlement amount as 
+an insured loss in its aggregate insured losses (whether or not those 
+aggregate insured losses exceed the insurer deductible) for purposes of 
+calculating the Federal share of compensation due to the insurer under 
+the Program.
+    In its proposed rule, Treasury requested comments on how frequently 
+claims are received by commercial property and casualty insurers under 
+commercial liability policies where the insured settles directly with a 
+claimant and then notifies the insurer after the settlement has been 
+consummated. No one commented on the frequency of such situations or 
+the size of claims usually involved. The ad hoc industry working group 
+cited situations under the law of three states that may allow an 
+insured to settle causes of action without the knowledge or consent of 
+their insurer. The working group comment suggested one possible 
+approach to address these situations is to specifically state in the 
+rule that settlements without insurer consent are ``extenuating 
+circumstances'' that will not preclude Federal compensation of the 
+insurer's payment of the settlement or indemnification of the insured.
+    Although there may be situations where this does occur, perhaps 
+under relevant State law, Treasury prefers to evaluate each situation 
+when it occurs, based on the particular circumstances as presented by 
+the insurer. Accordingly, Treasury is not changing the rule and adopts 
+section 50.82(d), as proposed, as final.
+
+F. Procedures for Requesting Approval of Settlements (Section 50.83)
+
+    Section 50.83 of the proposed rule set out a procedure for an 
+insurer to submit proposed settlements for advance approval by 
+Treasury. Generally, within 30 days after Treasury's receipt of a 
+complete notice of the proposed settlement and an insurer's request 
+that the proposed settlement be approved, Treasury may issue a written 
+response and either approve or disapprove the proposed settlement, in 
+whole or in part. If Treasury does not issue a written response within 
+30 days after its receipt of a complete notice (or within the time as 
+extended in writing by Treasury), the request for advance approval of 
+the settlement will be deemed approved under section 50.83(c). (The 
+settlement will still be subject to review under the claims procedures 
+rule.)
+    The majority of the comments either supported or did not object to 
+the within 30-day pre-approval review process. The ad hoc industry 
+working group suggested that 30 days is too long. Treasury emphasizes 
+that the rule anticipates a decision by Treasury within 30 days, and 
+through the ``deemer'' provision, no later than 30 days. While it is 
+true, as a comment noted, that the ``deemer'' provision allows Treasury 
+to extend the 30-day period, Treasury expects such instances to not be 
+common. Treasury is aware of its responsibility to manage the Program 
+effectively and efficiently and will employ its best efforts to 
+administer the pre-approval process in an expedient manner. For reasons 
+stated previously in the proposed rule preamble, Treasury is not 
+changing the 30-day time period in the rule. See 69 FR 25341, 25346.
+    Several commenters pointed out that the process does not envision 
+any type of expedited review of settlements where the agreements in 
+principal may be reached shortly before a Federal cause of action is 
+about to be tried. The commenters suggest Treasury consider approaches 
+to accommodate such situations. Treasury has made no change to the 
+proposed rule. Treasury expects that attorneys representing the 
+insureds will advise the Federal district court about Treasury's 
+approval role.
+    Section 50.83 of the proposed rule also outlined minimum 
+information Treasury thought might be relevant and useful in 
+considering whether to approve a proposed settlement. One comment was 
+supportive of the proposed rule. Others, primarily representing or 
+themselves insurers, believed the rule requested too much information 
+which would be burdensome on insurers and cause substantial delay. 
+Comments were received on the various items, some of which have 
+resulted in some modifications, which are now discussed.
+    In careful consideration of the insurer's comments, Treasury has 
+changed the section 50.83(d) of the final rule in the following ways in 
+order to ensure that Treasury is preliminarily only seeking the minimum 
+information required by Treasury:
+    <bullet> As explained earlier in the discussion of section 
+50.82(c)(1) (ensuring that the settlement is of an insured loss under 
+the terms and conditions of the insurance policy), the final rule now 
+adds a revised requirement at paragraph (d)(2) to 50.83, requiring a 
+certification by the insurer that the settlement is for a third-party's 
+loss, the liability for which is an insured loss under the terms and 
+conditions of the underlying commercial property and casualty insurance 
+policy. This revision is being made because Treasury needs less 
+information since it will no longer be performing a complete review of 
+the insurer's coverage analysis as part of the pre-approval process, as 
+originally proposed;
+    <bullet> Paragraph (d)(4) of section 50.83 of the final rule now 
+requires a statement from the insurer or its attorney in support of the 
+settlement rather than a more onerous one recommending the settlement 
+and requiring the basis for the recommendation;
+    <bullet> As explained earlier in the discussion of section 
+50.82(c)(4) and the proposed review of attorneys' fees and expenses, 
+paragraph (d)(7) of section 50.83 of the final rule is revised to call 
+for the amount to be paid out of the settlement proceeds that in turn 
+will compensate professionals for their services and expenses related 
+to the insured loss and/or settlement and the net amount to be received 
+by the third-party claimant. In addition to conforming to the changes 
+made to 50.82(c)(4), this paragraph now combines (and clarifies) 
+section 50.82(d)(6) and (7) of the proposed rule;
+    <bullet> Relevant agreements called for in the proposed rule are 
+now, under section 50.83(d)(10) of the final rule, only required to be 
+submitted if requested by Treasury; and
+    <bullet> Paragraph (d)(12) of section 50.83 is clarified to assure 
+insurers that Treasury will request and require only such other 
+information that is related to the insured loss and that it deems 
+necessary to evaluate the proposed settlement.
+    Treasury has decided not to adopt several of the other suggestions 
+by the commenters, such as: Treasury receive the same information 
+submitted to a
+
+[[Page 44940]]
+
+claims officer who approves the settlement on behalf of the insurer; a 
+statement of risks and disadvantages of settlement with an assessment 
+of the strengths and weaknesses of the claim; and a disclosure whether 
+coverage is disputed and other coverage issues. It was also suggested 
+that the submissions for approval be verified under oath. For the 
+reasons stated earlier, Treasury declines to adopt the suggestions 
+except that, for the reasons stated earlier, it will require 
+certification of the insurer's coverage determination under section 
+50.83(a)(2) of the final rule.
+    Finally, the ad hoc industry working group commented that the 
+proposed rule did not include provisions to protect confidential or 
+privileged information submitted to Treasury under section 50.83. Any 
+issues relating to the protection or disclosure of confidential or 
+privileged information are adequately addressed through the procedures 
+and exceptions (e.g., exception (b)(4) and (5)) applicable under the 
+Freedom of Information Act, 5 U.S.C. 552, and Treasury's FOIA 
+regulations at 31 CFR part 1, subpart A. Insurers wishing to protect 
+such information should follow those procedures, including labeling the 
+information pursuant to those regulations.
+
+G. Right of Subrogation (Section 50.84)
+
+    Section 107(c) provides that the United States shall have the right 
+of subrogation with respect to any payment or claim paid by the United 
+States under the Act. In section 50.85 of the proposed rule, Treasury 
+proposed a requirement that insurers take steps to preserve the Federal 
+Government's rights of subrogation under section 107(c).
+    The ad hoc industry working group claimed that the requirement to 
+preserve the subrogation rights of the United States conflicts with 
+claims procedures rule that allows insurers to use business judgment in 
+deciding whether to pursue subrogation opportunities. See Section 
+50.51(a). Treasury believes there is no conflict. Under the claims 
+procedures rule, when an insurer pursues subrogation opportunities, the 
+outcome inures to the benefit of the United States through an 
+adjustment to the Federal share of compensation. As we stated at 60 FR 
+39296, 39300 (June 29, 2004), if an insurer decides to forego 
+subrogation, the United States itself can pursue those opportunities. 
+This does not conflict with section 50.84 of the final rule, which is 
+designed to ensure that insurers do not waive subrogation rights and to 
+prevent the very situation the working group identified when it stated, 
+``waiver of subrogation rights often takes place in settlement.'' 
+Treasury is not changing the rule on the basis of this comment. Given 
+the language in section 107, insurers are prohibited from negotiating 
+away the Federal Government's subrogation rights.
+    The group of London-based insurers and reinsurers pointed out that 
+the proposed rule required insurers to ``take all steps necessary to 
+preserve the subrogation rights of the United States.'' The commenter 
+explains that it is not clear what affirmative steps insurers must take 
+to preserve these rights. The commenter suggested revising the rule to 
+instead require that insurers avoid taking action that would prejudice 
+the Federal Government's right of subrogation. Treasury is accepting 
+this commenter's suggestion and is changing the language of section 
+50.84 accordingly.
+
+H. Management of Pre-Certification Litigation and Related Issues
+
+    Several commenters pointed out that the proposed rule does not 
+address causes of action settled and/or paid after the occurrence of an 
+event not yet, but later certified by the Secretary pursuant to section 
+102 of the Act as an ``act of terrorism.'' The comments raised issues 
+that may warrant further study and consideration and Treasury has 
+decided not to address this issue at this time.
+
+I. Time Between Occurrence and Certification of an Event as an Act of 
+Terrorism
+
+    The ad hoc industry working group raised the issue of the time it 
+may take for the Secretary to certify an event as an act of terrorism 
+pursuant to section 102 of the Act. As previously explained in the 
+preamble to other regulations, Treasury believes it unwise and 
+inappropriate to establish a set time frame within which the Secretary 
+would be required to make a certification that an ``act of terrorism'' 
+had occurred. See 68 FR 41250, 41252 (July 11, 2003). The ad hoc 
+industry working group comment requested that Treasury promulgate a 
+rule allowing for: (1) A ``conditional'' determination if the facts 
+strongly lead to a conclusion of foreign or domestic involvement; or 
+(2) a regulatory provision acknowledging the possibility of a delayed 
+certification and urging state regulatory consideration of that 
+possibility; or (3) qualified immunity where there is a delay in the 
+certification process. Treasury declines to adopt these suggestions.
+
+III. Procedural Requirements
+
+Executive Order 12866, ``Regulatory Planning and Review''
+
+    This rule is a significant regulatory action for purposes of 
+Executive Order 12866, ``Regulatory Planning and Review,'' and has been 
+reviewed by the Office of Management and Budget (OMB).
+
+Regulatory Flexibility Act
+
+    Pursuant to the Regulatory Flexibility Act, 5 U.S.C. 601 et seq., 
+it is hereby certified that this rule will not have a significant 
+economic impact on a substantial number of small entities. Accordingly, 
+a regulatory flexibility analysis is not required. The rule establishes 
+requirements for advance approval of settlements when claims are to be 
+submitted for insured losses. There is no impact on small insurers 
+unless an act of terrorism occurs and federal compensation is sought by 
+small insurers entitled to reimbursement for their insured losses. If 
+an act of terrorism occurs and Federal payment is sought through a 
+claim, the rule's impact on small insurers is likely to be minimal 
+because most of the information that would have to be submitted in 
+connection with Treasury approval of settlements largely duplicates 
+information already contained in an insurer claim file or an attorney 
+case file. Moreover, the $2 million and $10 million thresholds for the 
+submission of settlements to Treasury for approval is likely further to 
+minimize burdens on small insurers.
+
+Paperwork Reduction Act
+
+    The collection of information contained in this rule has been 
+approved by the OMB in accordance with the requirements of the 
+Paperwork Reduction Act, 44 U.S.C. 3507(d) and assigned OMB Control 
+Number 1505-0196. An agency may not conduct or sponsor, and a person is 
+not required to respond to, a collection of information unless it 
+displays a valid control number assigned by OMB.
+    The collection of information is the notice of proposed settlement 
+in section 50.83 that insurers must submit to implement the settlement 
+approval process prescribed by section 50.82. The information will be 
+used by Treasury to evaluate the reasonableness of proposed settlements 
+in order to approve them in advance. The submission of specified 
+information in connection with a proposed settlement is mandatory for 
+any insurer that seeks payment of a Federal share of compensation.
+    The burden associated with this collection of information is 
+estimated to
+
+[[Page 44941]]
+
+be 4 hours with respect to each claim. Comments on the accuracy of this 
+estimate and suggestions on how to reduce this burden should be sent to 
+the Terrorism Risk Insurance Program, Room 2100, 1425 New York Avenue, 
+NW., Washington, DC 20220 and to the Desk Officer for the Department of 
+the Treasury, Office of Information and Regulatory Affairs, Office of 
+Management and Budget, Washington, DC 20503.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, 31 CFR part 50 is amended as follows:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+
+0
+2. Subpart I of part 50 is added to read as follows:
+Sec.
+50.80 Federal cause of action and remedy.
+50.81 State causes of action preempted.
+50.82 Advance approval of settlements.
+50.83 Procedure for requesting approval of proposed settlements.
+50.84 Subrogation.
+
+Subpart I--Federal Cause of Action; Approval of Settlements
+
+
+Sec.  50.80  Federal cause of action and remedy.
+
+    (a) General. If the Secretary certifies an act as an act of 
+terrorism pursuant to section 102 of the Act, there shall exist a 
+Federal cause of action for property damage, personal injury, or death 
+arising out of or resulting from such act of terrorism, pursuant to 
+section 107 of the Act, which shall be the exclusive cause of action 
+and remedy for claims for property damage, personal injury, or death 
+arising out of or relating to such act of terrorism, except as provided 
+in paragraph (c) of this section.
+    (b) Effective period. The exclusive Federal cause of action and 
+remedy described in paragraph (a) of this section shall exist only for 
+causes of action for property damage, personal injury, or death that 
+arise out of or result from acts of terrorism that occur or occurred 
+during the effective period of the Program.
+    (c) Rights not affected. Nothing in section 107 of the Act or this 
+Subpart shall in any way:
+    (1) Limit the liability of any government, organization, or person 
+who knowingly participates in, conspires to commit, aids and abets, or 
+commits any act of terrorism;
+    (2) Affect any party's contractual right to arbitrate a dispute; or
+    (3) Affect any provision of the Air Transportation Safety and 
+System Stabilization Act (Pub. L. 107-42; 49 U.S.C. 40101 note).
+
+
+Sec.  50.81  State causes of action preempted.
+
+    All State causes of action of any kind for property damage, 
+personal injury, or death arising out of or resulting from an act of 
+terrorism that are otherwise available under State law are preempted, 
+except that, pursuant to section 107(b) of the Act, nothing in this 
+section shall limit in any way the liability of any government, 
+organization, or person who knowingly participates in, conspires to 
+commit, aids and abets, or commits the act of terrorism certified by 
+the Secretary.
+
+
+Sec.  50.82  Advance approval of settlements.
+
+    (a) Mandatory submission of settlements for advance approval. An 
+insurer shall submit to Treasury for advance approval any proposed 
+agreement to settle or compromise any Federal cause of action for 
+property damage, personal injury, or death, asserted by a third-party 
+or parties against an insured, involving an insured loss, all or part 
+of the payment of which the insurer intends to submit as part of its 
+claim for Federal payment under the Program, when:
+    (1) Any portion of the proposed settlement amount that is 
+attributable to an insured loss or losses involving personal injury or 
+death in the aggregate is $2 million or more per third-party claimant, 
+regardless of the number of causes of action or insured losses being 
+settled; or
+    (2) Any portion of the proposed settlement amount that is 
+attributable to an insured loss or losses involving property damage 
+(including loss of use) in the aggregate is $10 million or more per 
+third-party claimant, regardless of the number of causes of action or 
+insured losses being settled.
+    (b) Discretionary review of other settlements. Notwithstanding 
+paragraph (a), Treasury may require that an insurer submit for review 
+and advance approval any proposed agreement to settle or compromise any 
+Federal cause of action for property damage, personal injury, or death, 
+asserted by a third-party or parties against an insured, involving an 
+insured loss, all or part of the payment of which the insurer intends 
+to submit as part of its claim for Federal payment under the Program 
+where the settlement amounts are below the applicable monetary 
+thresholds identified in paragraphs (a)(1) and (2) of this section.
+    (c) Factors. In determining whether to approve a proposed 
+settlement, Treasury will consider the nature of the loss, the facts 
+and circumstances surrounding the loss, and other factors such as 
+whether:
+    (1) The proposed settlement compensates for a third-party's loss, 
+the liability for which is an insured loss under the terms and 
+conditions of the underlying commercial property and casualty insurance 
+policy, as certified by the insurer pursuant to Sec.  50.83(d)(2);
+    (2) Any amount of the proposed settlement is attributable to 
+punitive or exemplary damages intended to punish or deter (whether or 
+not specifically so described as such damages);
+    (3) The settlement amount offsets amounts received from the United 
+States pursuant to any other Federal program;
+    (4) The settlement amount does not include any items such as fees 
+and expenses of attorneys, experts, and other professionals that have 
+caused the insured losses under the underlying commercial property and 
+casualty insurance policy to be overstated; and
+    (5) Any other criteria that Treasury may consider appropriate, 
+depending on the facts and circumstances surrounding the settlement, 
+including the information contained in Sec.  50.83.
+    (d) Settlement without seeking advance approval or despite 
+disapproval. If an insurer settles a cause of action or agrees to the 
+settlement of a cause of action without submitting the proposed 
+settlement for Treasury's advance approval in accordance with paragraph 
+(a) or (b) of this section, and in accordance with Sec.  50.83 or 
+despite Treasury's disapproval of the proposed settlement, the insurer 
+will not be entitled to include the paid settlement amount (or portion 
+of the settlement amount, to the extent partially disapproved) in its 
+aggregate insured losses for purposes of calculating the Federal share 
+of compensation of its insured losses, unless the insurer can 
+demonstrate, to the satisfaction of Treasury, extenuating 
+circumstances.
+
+
+Sec.  50.83  Procedure for requesting approval of proposed settlements.
+
+    (a) Submission of notice. Insurers must request advance approval of 
+a proposed settlement by submitting a notice of the proposed settlement 
+and other required information in writing to the Terrorism Risk 
+Insurance Program Office or its designated representative. The address 
+where notices are to be submitted will be available at <a href="http://www.treasury.gov/trip">http://www.treasury.gov/trip</a> following any
+
+[[Page 44942]]
+
+certification of an act of terrorism pursuant to section 102(1) of the 
+Act.
+    (b) Complete notice. Treasury will review requests for advance 
+approval and determine whether additional information is needed to 
+complete the notice.
+    (c) Treasury response or deemed approval. Within 30 days after 
+Treasury's receipt of a complete notice, or as extended in writing by 
+Treasury, Treasury may issue a written response and indicate its 
+partial or full approval or rejection of the proposed settlement. If 
+Treasury does not issue a response within 30 days after Treasury's 
+receipt of a complete notice, unless extended in writing by Treasury, 
+the request for advance approval is deemed approved by Treasury. Any 
+settlement is still subject to review under the claim procedures 
+pursuant to Sec.  50.50.
+    (d) Notice format. A notice of a proposed settlement should be 
+entitled, ``Notice of Proposed Settlement--Request for Approval,'' and 
+should provide the full name and address of the submitting insurer and 
+the name, title, address, and telephone number of the designated 
+contact person. An insurer must provide all relevant information, 
+including the following, as applicable:
+    (1) A brief description of the insured's underlying claim, the 
+insured's loss, the amount of the claim, the operative policy terms, 
+defenses to coverage, and all damages sustained;
+    (2) A certification by the insurer that the settlement is for a 
+third-party's loss the liability for which is an insured loss under the 
+terms and conditions of the underlying commercial property and casualty 
+insurance policy;
+    (3) An itemized statement of all damages by category (i.e., actual, 
+economic and non-economic loss, punitive damages, etc.);
+    (4) A statement from the insurer or its attorney in support of the 
+settlement.;
+    (5) The total dollar amount of the proposed settlement;
+    (6) Indication as to whether the settlement was negotiated by 
+counsel;
+    (7) The amount to be paid that will compensate for any items such 
+as fees and expenses of attorneys, experts, and other professionals for 
+their services and expenses related to the insured loss and/or 
+settlement and the net amount to be received by the third-party after 
+such payment;
+    (8) The amount received from the United States pursuant to any 
+other Federal program for compensation of insured losses related to an 
+act of terrorism;
+    (9) The proposed terms of the written settlement agreement, 
+including release language and subrogation terms;
+    (10) If requested by Treasury, other relevant agreements, 
+including:
+    (i) Admissions of liability or insurance coverage;
+    (ii) Determinations of the number of occurrences under a commercial 
+property and casualty insurance policy;
+    (iii) The allocation of paid amounts or amounts to be paid to 
+certain policies, or to specific policy, coverage and/or aggregate 
+limits; and
+    (iv) Any other agreement that may affect the payment or amount of 
+the Federal share of compensation to be paid to the insurer;
+    (11) A statement indicating whether the proposed settlement has 
+been approved by the Federal court or is subject to such approval and 
+whether such approval is expected or likely; and
+    (12) Such other information that is related to the insured loss as 
+may be requested by Treasury that it deems necessary to evaluate the 
+proposed settlement.
+
+
+Sec.  50.84  Subrogation.
+
+    An insurer shall not waive its rights of subrogation under its 
+property and casualty insurance policy and preserve the subrogation 
+right of the United States as provided by section 107(c) of the Act by 
+not taking any action that would prejudice the United States' right of 
+subrogation.
+
+    Dated: July 23, 2004.
+Wayne A. Abernathy,
+Assistant Secretary of the Treasury.
+[FR Doc. 04-17235 Filed 7-26-04; 9:22 am]
+BILLING CODE 4810-42-P
+
+
+</pre></body>
+</html>

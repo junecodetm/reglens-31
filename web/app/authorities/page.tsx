@@ -18,15 +18,15 @@ export default function AuthoritiesPage() {
         title="Statutory authority"
         lead={
           <>
-            Every regulation must cite the statute that authorizes it. This
-            page traces each ingested CFR part&apos;s cited authority into
-            the U.S. Code, classifies each citation&apos;s language as{" "}
+            Every regulation must cite the statute that authorizes it. This page
+            traces each ingested part&apos;s cited authority into the U.S. Code
+            and classifies each citation&apos;s language as{" "}
             <GlossaryTerm term="mandatory-discretionary-silent-unresolved">
               mandatory, discretionary, silent, or unresolved
             </GlossaryTerm>
-            , shows which statutes several parts share, and lists two
-            families of textual markers found in rule preambles — presented
-            with equal weight, describing the published text only.
+            . It also shows which statutes several parts share and lists two
+            families of textual markers found in rule preambles — presented with
+            equal weight, describing the published text only.
           </>
         }
       />

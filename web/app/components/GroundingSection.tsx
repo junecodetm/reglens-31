@@ -15,18 +15,13 @@ import {
   HighlightedText,
 } from "./ui/HighlightedText";
 import { useLazyJson } from "./ui/useLazyJson";
+import { useLazyTextMap } from "./ui/useLazyText";
 
-const BAND_DEFINITION =
+export const BAND_DEFINITION =
   "Bands report TEXTUAL-MARKER DENSITY only (listed phrase families per 1,000 words; none=0, low≤0.2, moderate≤0.6, elevated>0.6), applied identically to both marker families. They describe phrase frequency in the published document text and are not a prediction of any judicial outcome or a statement about any regulation's validity.";
 
 type GroundingRule = GroundingData["rules"][number];
 type GroundingMarker = GroundingRule["markers"][number];
-
-type DocumentViewState =
-  | { status: "idle" }
-  | { status: "loading"; documentNumber: string }
-  | { status: "ready"; documentNumber: string; text: string }
-  | { status: "error"; documentNumber: string; message: string };
 
 interface SelectedMarker {
   documentNumber: string;
@@ -90,19 +85,19 @@ export function GroundingSection({
       requestErrorPrefix: "Request returned status ",
       fallbackErrorMessage: "The grounding data could not be loaded.",
     });
+  const {
+    stateFor: stateForDocument,
+    load: requestDocumentText,
+  } = useLazyTextMap<string>({
+    requestErrorPrefix: "Request returned status ",
+    fallbackErrorMessage:
+      "The published document text could not be loaded.",
+  });
   const [expandedRuleNumber, setExpandedRuleNumber] = useState<string | null>(
     null,
   );
   const [selectedMarker, setSelectedMarker] =
     useState<SelectedMarker | null>(null);
-  const [documentView, setDocumentView] = useState<DocumentViewState>({
-    status: "idle",
-  });
-
-  const documentCacheRef = useRef<Map<string, string>>(new Map());
-  const documentControllersRef = useRef<Map<string, AbortController>>(
-    new Map(),
-  );
   const selectedMarkerRef = useRef<SelectedMarker | null>(null);
 
   const sortedRules = useMemo(() => {
@@ -116,12 +111,14 @@ export function GroundingSection({
       ? groundingState.data.band_definition
       : BAND_DEFINITION;
 
-  const readyText =
+  const documentView =
     selectedMarker !== null &&
-    documentView.status === "ready" &&
-    documentView.documentNumber === selectedMarker.documentNumber
-      ? documentView.text
+    selectedMarkerRef.current?.documentNumber ===
+      selectedMarker.documentNumber
+      ? stateForDocument(selectedMarker.documentNumber)
       : null;
+  const readyText =
+    documentView?.status === "ready" ? documentView.text : null;
   const highlightResult =
     selectedMarker !== null && readyText !== null
       ? computeHighlightSegments(
@@ -141,21 +138,9 @@ export function GroundingSection({
     }
   }, [active, loadGroundingData]);
 
-  useEffect(() => {
-    const documentControllers = documentControllersRef.current;
-
-    return () => {
-      for (const controller of documentControllers.values()) {
-        controller.abort();
-      }
-      documentControllers.clear();
-    };
-  }, []);
-
   function clearSelectedMarker() {
     selectedMarkerRef.current = null;
     setSelectedMarker(null);
-    setDocumentView({ status: "idle" });
   }
 
   function toggleRule(documentNumber: string) {
@@ -169,68 +154,12 @@ export function GroundingSection({
     clearSelectedMarker();
   }
 
-  async function loadDocument(selection: SelectedMarker) {
+  function loadDocument(selection: SelectedMarker) {
     const documentNumber = selection.documentNumber;
-    const cachedText = documentCacheRef.current.get(documentNumber);
-    if (cachedText !== undefined) {
-      setDocumentView({
-        status: "ready",
-        documentNumber,
-        text: cachedText,
-      });
-      return;
-    }
-
-    const pendingController =
-      documentControllersRef.current.get(documentNumber);
-    if (pendingController) {
-      setDocumentView({ status: "loading", documentNumber });
-      return;
-    }
-
-    const controller = new AbortController();
-    documentControllersRef.current.set(documentNumber, controller);
-    setDocumentView({ status: "loading", documentNumber });
-
-    try {
-      const response = await fetch(
-        `/data/documents/${encodeURIComponent(documentNumber)}.txt`,
-        { signal: controller.signal },
-      );
-      if (!response.ok) {
-        throw new Error(`Request returned status ${response.status}.`);
-      }
-
-      const text = await response.text();
-      documentCacheRef.current.set(documentNumber, text);
-
-      if (
-        !controller.signal.aborted &&
-        selectedMarkerRef.current?.documentNumber === documentNumber
-      ) {
-        setDocumentView({ status: "ready", documentNumber, text });
-      }
-    } catch (error: unknown) {
-      if (
-        !controller.signal.aborted &&
-        selectedMarkerRef.current?.documentNumber === documentNumber
-      ) {
-        setDocumentView({
-          status: "error",
-          documentNumber,
-          message:
-            error instanceof Error
-              ? error.message
-              : "The published document text could not be loaded.",
-        });
-      }
-    } finally {
-      if (
-        documentControllersRef.current.get(documentNumber) === controller
-      ) {
-        documentControllersRef.current.delete(documentNumber);
-      }
-    }
+    void requestDocumentText(
+      documentNumber,
+      `/data/documents/${encodeURIComponent(documentNumber)}.txt`,
+    );
   }
 
   function toggleMarker(
@@ -274,13 +203,13 @@ export function GroundingSection({
         </h3>
       ) : null}
 
-      <div
-        className="bg-base-lightest border-left-05 border-base padding-2 margin-bottom-2"
+      <p
+        className="neutral-notice"
         role="note"
         aria-label="Textual-marker density definition"
       >
-        <p className="margin-y-0">{displayedBandDefinition}</p>
-      </div>
+        {displayedBandDefinition}
+      </p>
 
       <div
         id="grounding-content"
@@ -306,9 +235,9 @@ export function GroundingSection({
         {groundingState.status === "ready" ? (
           <>
             <p>
-              Rule records: {sortedRules.length}. Gate rejections:{" "}
-              {groundingState.data.total_gate_rejections}. Table order:
-              document number.
+              {sortedRules.length} rule records and{" "}
+              {groundingState.data.total_gate_rejections} gate rejections,
+              listed by document number.
             </p>
 
             <Table
@@ -462,7 +391,8 @@ export function GroundingSection({
                                         className="margin-top-2"
                                       >
                                         {markerSelected &&
-                                        (documentView.status === "idle" ||
+                                        (documentView === null ||
+                                          documentView.status === "idle" ||
                                           documentView.status === "loading") ? (
                                           <p role="status">
                                             Loading published document text…
@@ -470,8 +400,8 @@ export function GroundingSection({
                                         ) : null}
 
                                         {markerSelected &&
-                                        documentView.status === "error" &&
-                                        documentView.documentNumber ===
+                                        documentView?.status === "error" &&
+                                        documentView.key ===
                                           rule.document_number ? (
                                           <div
                                             className="bg-base-lightest border-2px border-base padding-2 radius-md"

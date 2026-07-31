@@ -23,7 +23,7 @@ Obligations on a government actor ("The Secretary shall publish…") are TRUE wi
 
 1. Mixed provisions (obligation + other content): TRUE if any operative duty is present; type = the dominant duty.
 2. Conditional duties ("if X, the person must Y") are TRUE.
-3. When genuinely uncertain after applying rules 1–2, label FALSE and say why in `rationale` (favors precision of the gold positives; flagged for adjudication either way).
+3. When genuinely uncertain after applying rules 1–2, label FALSE and state the reason in `rationale`. This rule favors precision among positive labels; the record remains subject to adjudication.
 
 ## Record format (JSONL, one object per provision)
 
@@ -33,14 +33,15 @@ Obligations on a government actor ("The Secretary shall publish…") are TRUE wi
  "rationale": "operative 'must file' duty", "proposed_by": "<model>", "adjudicated": false}
 ```
 
-`adjudicated` is ALWAYS `false` at proposal time. Machine proposals are not ground truth until a human adjudicates them (BUILD.md §4); metrics computed against un-adjudicated labels are labeled **Provisional**.
+`adjudicated` is always `false` at proposal time. Machine proposals are not reference labels until a human adjudicates them. [CHECKLIST.md](CHECKLIST.md) records scope decisions, and [ADJUDICATE.md](ADJUDICATE.md) records the live adjudication counts. Until adjudication is complete, every related metric must display `Provisional — machine-proposed labels, human-adjudicated: N/M`, with the applicable counts substituted for `N/M`.
 
----
+Reported Cohen's kappa is **CROSS-MODEL agreement between two different frontier models**. It is never human inter-annotator agreement.
 
-# §OGC-01 addendum — authority, links, and grounding-marker annotation
+## OGC-01 addendum: authority, links, and grounding-marker annotation
 
-Same protocol as above (two blind proposal passes by different models; frozen;
-`adjudicated: false` until a human rules). Three tasks:
+The addendum uses the same protocol: two blind proposal passes by two different
+frontier models, followed by a frozen proposal set. `adjudicated` remains
+`false` until human adjudication. The addendum covers three tasks:
 
 ## A. Operative-grant classification (U.S.C. sections)
 
@@ -53,9 +54,9 @@ Classify whether THE SECTION ITSELF grants rulemaking authority:
 - **discretionary** — the section PERMITS it: "may prescribe/issue/promulgate …",
   "is authorized to prescribe …", "may by regulation", "under such regulations
   as … may prescribe".
-- **silent** — no rulemaking grant. **Edge decision:** "under regulations
-  prescribed by the Secretary" *presupposes* authority granted elsewhere and is
-  NOT a grant → silent. Negations ("shall not", "may not") are not grants.
+- **silent** — no rulemaking grant. "Under regulations prescribed by the
+  Secretary" presupposes authority granted elsewhere and is therefore silent.
+  Negations ("shall not", "may not") are not grants.
 - **Precedence:** if both mandatory and discretionary grants appear, the label
   is mandatory.
 - `verb_quote` must be a verbatim contiguous substring of the section text
@@ -64,7 +65,7 @@ Classify whether THE SECTION ITSELF grants rulemaking authority:
 ## B. Citation-pair enumeration (authority lines)
 
 From the verbatim authority line alone, enumerate every codified U.S.C.
-(title, section) pair: expand ranges by hand; "et seq." contributes only its
+(title, section) pair: expand ranges explicitly; "et seq." contributes only its
 anchor; letter suffixes ("3720A", "287c") kept exactly; subsection cites
 ("321(b)") recorded at section level. EXCLUDE "note", "Pub. L.", "E.O.", and
 "Stat." citations — they are coverage categories, not codified-section pairs.

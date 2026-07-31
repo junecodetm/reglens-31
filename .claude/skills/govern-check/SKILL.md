@@ -1,5 +1,5 @@
 ---
 name: govern-check
-description: Validate the OSCAL component-definition and refresh the NIST AI RMF / M-25-21 crosswalk.
+description: Verify the governance artifacts under governance/ exist and are non-empty, and that the NIST AI RMF / M-25-21 crosswalk in docs/GOVERNANCE.md still matches them.
 ---
-Run `oscal-cli validate governance/component-definition.json` (OSCAL 1.1.3). Ensure model_card, data_card, ai_impact_assessment, monitoring_plan, rollback_plan exist and are non-empty.
+Ensure governance/model_card.md, data_card.md, ai_impact_assessment.md, monitoring_plan.md, and rollback_plan.md exist and are non-empty, and that docs/GOVERNANCE.md's crosswalk references them accurately. OSCAL component-definition validation is de-scoped (docs/CHECKLIST.md) — do not add it.

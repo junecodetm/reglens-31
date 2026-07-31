@@ -1,7 +1,8 @@
 # OGC-01 Alignment — What This Repo Demonstrates, and What It Deliberately Does Not Do
 
-> EXTEND-OGC01 §5.5. Intended reader: a skeptical attorney. The Limitations
-> section below is the most important section in this repository.
+> Intended reader: a skeptical attorney. The Limitations section below is the
+> most important section in this repository, and the Framing Constraints
+> section is the standing brief for the blocking neutrality review.
 
 ## What OGC-01 is
 
@@ -44,13 +45,54 @@ them.
    deference-reliance AND grounding-strength — plus two per-rule facts (whether
    the rule predates *Loper Bright*; whether the text cites *Chevron*). Bands
    report textual-marker density only, with the definition printed beside them.
-3. **Draft rule skeletons.** Document Drafting Handbook–conformant NPRM/final
-   skeletons whose structure is deterministic, whose only model-generated text
-   is a labeled narrative opening, and whose every required analysis renders as
-   a visible `[PLACEHOLDER — attorney to complete]` block. A structural
+3. **Draft rule skeletons, parameterized.** Document Drafting Handbook–
+   conformant skeletons for every in-scope part in both NPRM and final-rule
+   form, whose structure is deterministic, whose only model-generated text is
+   a labeled narrative opening, and whose every required analysis renders as a
+   visible `[PLACEHOLDER — attorney to complete]` block. A structural
    conformance checker (heading order, amendatory-instruction grammar, intact
-   placeholders, fabrication scan, zero unverifiable quotes) rejects — does not
-   caveat — any failing draft.
+   placeholders, fabrication scan, zero unverifiable quotes) rejects — does
+   not caveat — any failing draft. The /drafts page additionally accepts
+   parameters (part, rule type, an optional policy objective) and can generate
+   the narrative opening live through a same-origin endpoint; live output is
+   checked by an in-browser subset of the same gate, labeled as such, and
+   falls back to the committed, fully gated drafts on any failure.
+4. **Per-part review memoranda.** For each part, the assembled retrieval
+   evidence — authority classifications and both marker families — plus a
+   short model-written narrative that restates that evidence. The narrative is
+   gated deterministically (no numerals, no quotations, no fabrication
+   patterns, both marker families named) and labeled model-generated; every
+   number shown comes from the deterministic evidence, never from the model.
+
+## Framing constraints — non-negotiable
+
+This repo analyzes a politically contested subject and will be read by
+attorneys. Every one of these is a hard requirement, not a preference, and the
+`neutrality-reviewer` agent's sole brief is compliance with them:
+
+1. **No legal conclusions, ever.** Output is retrieval and structure. The tool
+   flags text for attorney review; it does not evaluate legality.
+2. **Cite the operative legal context neutrally.** *Loper Bright*, *Corner
+   Post*, E.O. 14219, E.O. 14192, and the April 2025 repeal memorandum are
+   cited as **the legal environment the tool must serve** — the same way
+   OGC-01's own record frames it. No endorsement, no criticism, no adjectives.
+3. **Two-sided by construction.** Grounding-strength markers ship in the same
+   release as deference-reliance markers, in the same view, with equal visual
+   weight.
+4. **Disclaimers, above the fold, on every page:** not affiliated with, endorsed
+   by, or produced for the U.S. Department of the Treasury or any agency
+   (31 U.S.C. §333); not legal advice; no attorney-client relationship;
+   model-generated fields visibly marked as such.
+5. **This document states plainly** what OGC-01 is (citing the public
+   inventory), what this repo demonstrates, and — explicitly — what it
+   deliberately does not do.
+6. **Never claim any capability the eval does not support.** Precision of
+   0.434 is reported as 0.434.
+
+Also categorically out of scope: case-outcome prediction of any kind,
+cost-benefit estimation with invented numbers, any ranked "repeal candidates"
+list, and scope expansion into 31 CFR Ch. V (substantive sanctions programs)
+or Ch. X (BSA/AML).
 
 ## Limitations — what this tool deliberately does not do
 
@@ -87,9 +129,9 @@ them.
    restricted data.
 8. **Evaluation labels are provisional.** Gold labels are machine-proposed and
    carry the label "Provisional — machine-proposed labels, human-adjudicated:
-   0/N" until human adjudication; cross-model agreement (kappa) is reported and
-   is not human inter-annotator agreement. Metrics are reported as measured —
-   including the unflattering ones.
+   N/M" until human adjudication; reported kappa is CROSS-MODEL agreement
+   between two different frontier models, not human inter-annotator agreement.
+   Metrics are reported as measured — including the unflattering ones.
 9. **The authority-linking evaluation is a census, not a sample.** All citation
    pairs from the five in-scope parts are evaluated; one part (501) dominates
    the pair count, and the clustered bootstrap runs over only five part-level
@@ -103,7 +145,14 @@ them.
     core provenance normalization is NFKC + whitespace and does not fold
     them). This is the only normalization difference, documented here and in
     `reglens/draft/conformance.py`.
-12. **Not affiliated with the U.S. Department of the Treasury** or any agency
+12. **Live draft narratives pass a subset of the gate.** The in-browser checks
+    (`web/app/components/draft-live.ts`) cover heading order, analysis-section
+    and placeholder integrity, the fabrication scan, and verbatim quote
+    verification against the shipped part text; the full build-time gate —
+    including set-out verification against cited U.S.C. section text — runs
+    only on the committed drafts. The UI labels live output as
+    subset-checked and never presents it as a fully gated draft.
+13. **Not affiliated with the U.S. Department of the Treasury** or any agency
     (31 U.S.C. §333); not legal advice; no attorney-client relationship. This
     is an independent technical demonstration built solely from public data.
 

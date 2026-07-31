@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2001/10/11/01-25602.txt",
+  "fetched_at": "2026-07-30T14:09:09.415281+00:00",
+  "sha256": "c83a720c01a20b590c362fd2ff971c7f114df1aef54c5b86ba94ead84172531a",
+  "content_type": "text/plain",
+  "filename": "01-25602.txt"
+}

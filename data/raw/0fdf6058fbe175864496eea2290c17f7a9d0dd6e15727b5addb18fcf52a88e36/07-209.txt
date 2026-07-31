@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>Federal Register, Volume 72 Issue 11 (Thursday, January 18, 2007)</title>
+</head>
+<body><pre>
+[Federal Register Volume 72, Number 11 (Thursday, January 18, 2007)]
+[Rules and Regulations]
+[Pages 2192-2193]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 07-209]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 06-03]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes and 
+Bonds--Securities Eligible for Purchase in Legacy Treasury Direct
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule provides that the Department of the Treasury 
+may announce that certain marketable Treasury securities to be offered 
+will not be eligible for purchase or holding in the Legacy Treasury 
+Direct system. Treasury is issuing this amendment to the auction rules 
+because the Legacy Treasury Direct system will eventually be phased 
+out.
+
+DATES: Effective January 18, 2007.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Web site at <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a> or from the 
+Electronic Code of Federal Regulations (e-CFR) Web site at <a href="http://www.gpoaccess.gov/ecfr">http://www.gpoaccess.gov/ecfr</a>. It is also available for public inspection and 
+copying at the Treasury Department Library, Room 1428, Main Treasury 
+Building, 1500 Pennsylvania Avenue, NW., Washington, DC 20220. To visit 
+the library, call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director) 
+or Chuck Andreatta (Associate Director), Bureau of the Public Debt, 
+Government Securities Regulations Staff, (202) 504-3632 or e-mail us at 
+<a href="/cdn-cgi/l/email-protection#395e564f4a5c5a4b5c5e795b495d174d4b5c584a175e564f"><span class="__cf_email__" data-cfemail="8aede5fcf9efe9f8efedcae8faeea4fef8efebf9a4ede5fc">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular (``UOC''), in 
+conjunction with the announcement for each auction, provides the terms 
+and conditions for the sale and issuance in an auction to the public of 
+marketable Treasury bills, notes and bonds.\1\ There are three book-
+entry securities systems--the commercial book-entry system, 
+TreasuryDirect [supreg], and Legacy Treasury Direct [supreg]--into 
+which we issue marketable Treasury securities.\2\ The current UOC 
+generally authorizes purchases of all types of marketable Treasury 
+securities in any of the three book-entry systems. The Legacy Treasury 
+Direct system, which was implemented in 1986, will eventually be phased 
+out, leaving only the newer, on-line TreasuryDirect system as the 
+system for purchasing marketable Treasury securities directly on the 
+records of the Bureau of the Public Debt, Department of the 
+Treasury.\3\ The commercial book-entry system will remain an option for 
+all securities for those investors who want to purchase and hold their 
+securities through a depository institution or dealer.
+---------------------------------------------------------------------------
+
+    \1\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 412). The circular, as amended, is 
+codified at 31 CFR part 356. A final rule converting the UOC to 
+plain language and making certain other minor changes was published 
+in the Federal Register on July 28, 2004 (69 FR 45202).
+    \2\ On September 30, 2005, Treasury issued a final amendment to 
+the UOC to make the changes necessary to accommodate participation 
+in Treasury marketable auctions for securities to be held in either 
+the TreasuryDirect or the Legacy Treasury Direct system (70 FR 
+57347).
+    \3\ Legacy Treasury Direct was called TreasuryDirect from 1986 
+to 2005. The regulations for Legacy Treasury Direct are found at 31 
+CFR part 357. The regulations for TreasuryDirect are found at 31 CFR 
+part 363.
+---------------------------------------------------------------------------
+
+    As we begin phasing out Legacy Treasury Direct, we plan to 
+discontinue the practice of generally allowing all marketable Treasury 
+securities being offered by Treasury to be purchased and held in this 
+system. This final rule amendment states explicitly that we may 
+announce that certain marketable securities to be offered will not be 
+eligible for purchase or holding in Legacy Treasury Direct. Any such 
+restriction will be included in that security's offering announcement. 
+This change will not affect any outstanding securities currently held 
+in Legacy Treasury Direct.
+
+Procedural Requirements
+
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. The notice and public procedures and delayed 
+effective date requirements of the Administrative Procedure Act do not 
+apply, under 5 U.S.C. 533(a)(2).
+    Since a notice of proposed rulemaking is not required, the 
+provisions of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do 
+not apply.
+    The Office of Management and Budget previously approved the 
+collections of information in this final amendment in accordance with 
+the Paperwork Reduction Act under control number
+
+[[Page 2193]]
+
+1535-0112. We are not making substantive changes to these requirements 
+that would impose additional burdens on auction bidders.
+
+ List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+0
+For the reasons stated in the preamble, 31 CFR part 356 is amended as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+0
+2. Amend Sec.  356.4 by revising the introductory paragraph and 
+paragraph (c) to read as follows:
+
+
+Sec.  356.4   What are the book-entry systems in which auctioned 
+Treasury securities may be issued?
+
+    There are three book-entry securities systems--the commercial book-
+entry system, TreasuryDirect[supreg], and legacy Treasury 
+Direct[supreg]--into which we issue marketable Treasury securities. We 
+may obtain and transfer securities in these three book-entry systems at 
+their par amount. Par amounts of Treasury inflation-protected 
+securities do not include adjustments for inflation. Securities may be 
+transferred from one system to the other, unless the securities are not 
+eligible to be held in the receiving system. See Department of the 
+Treasury Circular, Public Debt Series No. 2-86, as amended (part 357 of 
+this chapter) and part 363 of this chapter.
+* * * * *
+    (c) Legacy Treasury Direct. In this system, we maintain the book-
+entry securities of account holders directly on the records of the 
+Bureau of the Public Debt, Department of the Treasury. Bids for 
+securities to beheld in Legacy Treasury Direct are generally submitted 
+directly to us, although such bids may also be forwarded to us by a 
+depository institution or dealer. From time to time, Treasury may 
+announce that certain securities to be offered will not be eligible for 
+purchase or holding in Legacy Treasury Direct.
+
+    Dated: January 12, 2007.
+Donald V. Hammond,
+Fiscal Assistant Security.
+[FR Doc. 07-209 Filed 1-16-07; 1:47 pm]
+BILLING CODE 4810-39-M
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

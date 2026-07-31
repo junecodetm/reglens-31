@@ -1,0 +1,86 @@
+{
+  "abstract": "The Department of the Treasury (\"Treasury,\" \"We,\" or \"Us\") is issuing in final form an amendment to 31 CFR Part 356 (Uniform Offering Circular for the Sale and Issue of Marketable Book- Entry Treasury Bills, Notes, and Bonds). This amendment modifies the calculation of the net long position (\"NLP\") to be reported in \"reopenings,\" which are auctions of additional amounts of previously issued securities. A bidder will have the option of subtracting from the holdings component of the NLP, combined with any STRIPS \\1\\ principal components of the security being auctioned, an exclusion amount that Treasury will publish in the reopening offering announcement. The purpose of the modification is to ensure that participation in Treasury auctions remains both strong and broad. ---------------------------------------------------------------------------",
+  "action": "Final Rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2001/11/13/01-28435.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 356,
+      "title": 31
+    }
+  ],
+  "citation": "66 FR 56759",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "November 13, 2001.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Department of the Treasury Circular, Public Debt Series No. 1-93"
+  ],
+  "dockets": [],
+  "document_number": "01-28435",
+  "effective_on": null,
+  "end_page": 56761,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2001/11/13/01-28435.xml",
+  "html_url": "https://www.federalregister.gov/documents/2001/11/13/01-28435/sale-and-issue-of-marketable-book-entry-treasury-bills-notes-and-bonds-calculation-of-net-long",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/01-28435?publication_date=2001-11-13",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2001-11-13/01-28435/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 3,
+  "page_views": {
+    "count": 146,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2001-11-13/pdf/01-28435.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": null,
+  "publication_date": "2001-11-13",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2001/11/13/01-28435.txt",
+  "regulation_id_number_info": {},
+  "regulation_id_numbers": [],
+  "regulations_dot_gov_info": {},
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": null,
+  "signing_date": null,
+  "start_page": 56759,
+  "subtype": null,
+  "title": "Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, and Bonds; Calculation of Net Long Position and 35 Percent Limit",
+  "toc_doc": "Securities auctions; net long position and 35 percent award limit; calculation",
+  "toc_subject": "Marketable book-entry Treasury bills, notes, and bonds:",
+  "topics": [
+    "Bonds",
+    "Government securities",
+    "Securities"
+  ],
+  "type": "Rule",
+  "volume": 66
+}

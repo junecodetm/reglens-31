@@ -1,0 +1,255 @@
+{
+  "count": 25,
+  "documents": [
+    {
+      "document_number": "2026-09090",
+      "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 47, 48, 49, and 50",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09090/publication-of-venezuela-sanctions-regulations-web-general-licenses-47-48-49-and-50",
+      "document_sha256": "815581e4b1534d43cc100f622b77a79120419d156a0c9f79db3398013e9f23af",
+      "accepted_count": 21,
+      "rejected_count": 6,
+      "total_chars": 17410,
+      "extracted_chars": 17410
+    },
+    {
+      "document_number": "2026-09092",
+      "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 46, 46A, and 46B",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09092/publication-of-venezuela-sanctions-regulations-web-general-licenses-46-46a-and-46b",
+      "document_sha256": "91fc29f6a0bb4135fa3504c354b2aa0c02620757367d86802328a7a5b8a9c96e",
+      "accepted_count": 24,
+      "rejected_count": 3,
+      "total_chars": 20832,
+      "extracted_chars": 20832
+    },
+    {
+      "document_number": "2026-09094",
+      "document_title": "Publication of Iranian Transactions and Sanctions Regulations Web General Licenses",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09094/publication-of-iranian-transactions-and-sanctions-regulations-web-general-licenses",
+      "document_sha256": "8d953ac55194fc1708ff4c9f0e8f5454170febf051c6b2de7770d2387bbbf65c",
+      "accepted_count": 7,
+      "rejected_count": 2,
+      "total_chars": 12292,
+      "extracted_chars": 12292
+    },
+    {
+      "document_number": "2026-10036",
+      "document_title": "Real Estate Lending Escrow Accounts",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/19/2026-10036/real-estate-lending-escrow-accounts",
+      "document_sha256": "dca641cb69e3037d9c21e57c476cce1024e2a8bfa47c9ad1aed109cc2dd4d0da",
+      "accepted_count": 45,
+      "rejected_count": 13,
+      "total_chars": 73457,
+      "extracted_chars": 73457
+    },
+    {
+      "document_number": "2026-10037",
+      "document_title": "Preemption Determination: State Interest-on-Escrow Laws",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/19/2026-10037/preemption-determination-state-interest-on-escrow-laws",
+      "document_sha256": "16470c79a3dd6aa8f28cb2bc965b6e800a81f15c7a4ec6da5ad681b39e1e7ef0",
+      "accepted_count": 32,
+      "rejected_count": 18,
+      "total_chars": 83118,
+      "extracted_chars": 79906
+    },
+    {
+      "document_number": "2026-10116",
+      "document_title": "Returns Relating to Sales or Exchanges of Certain Partnership Interests",
+      "document_url": "https://www.federalregister.gov/documents/2026/05/20/2026-10116/returns-relating-to-sales-or-exchanges-of-certain-partnership-interests",
+      "document_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+      "accepted_count": 16,
+      "rejected_count": 4,
+      "total_chars": 18877,
+      "extracted_chars": 18877
+    },
+    {
+      "document_number": "2026-11140",
+      "document_title": "Federal Independent Dispute Resolution Operations",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/04/2026-11140/federal-independent-dispute-resolution-operations",
+      "document_sha256": "b9c8d9ce453a06bc5ced68af8d8cd1bfa42381aa2a33a9ced96bd711d4ba8125",
+      "accepted_count": 45,
+      "rejected_count": 18,
+      "total_chars": 1364747,
+      "extracted_chars": 79387
+    },
+    {
+      "document_number": "2026-11592",
+      "document_title": "Publication of Cyber-Related Sanctions Regulations Web General License 2",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11592/publication-of-cyber-related-sanctions-regulations-web-general-license-2",
+      "document_sha256": "485c1105db314a9d0d0455d1d321a2ab013fa1d16db08a1923e980e1b8a6970a",
+      "accepted_count": 2,
+      "rejected_count": 0,
+      "total_chars": 3081,
+      "extracted_chars": 3081
+    },
+    {
+      "document_number": "2026-11601",
+      "document_title": "Publication of International Criminal Court-Related Sanctions Regulations Web General License 11",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11601/publication-of-international-criminal-court-related-sanctions-regulations-web-general-license-11",
+      "document_sha256": "09a69bc1286d6b148853ecf7d489bdac66e20ec2fbb052e9caf497aab5e3bb14",
+      "accepted_count": 2,
+      "rejected_count": 0,
+      "total_chars": 3610,
+      "extracted_chars": 3610
+    },
+    {
+      "document_number": "2026-11614",
+      "document_title": "Publication of Iran-Related Web General Licenses U and V",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11614/publication-of-iran-related-web-general-licenses-u-and-v",
+      "document_sha256": "16adfc80899e323db25923e98f530e928b2cd70a91b1604335a73eb354fe1edd",
+      "accepted_count": 5,
+      "rejected_count": 1,
+      "total_chars": 7718,
+      "extracted_chars": 7718
+    },
+    {
+      "document_number": "2026-11615",
+      "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 5U and 5V",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11615/publication-of-venezuela-sanctions-regulations-web-general-licenses-5u-and-5v",
+      "document_sha256": "1b0388b0e8847b3f2b7445b3c46c76477b352a5bd1bdd27a605488d4469a87f6",
+      "accepted_count": 5,
+      "rejected_count": 0,
+      "total_chars": 4549,
+      "extracted_chars": 4549
+    },
+    {
+      "document_number": "2026-11616",
+      "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 48A and 49A",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11616/publication-of-venezuela-sanctions-regulations-web-general-licenses-48a-and-49a",
+      "document_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+      "accepted_count": 7,
+      "rejected_count": 2,
+      "total_chars": 18535,
+      "extracted_chars": 18535
+    },
+    {
+      "document_number": "2026-11761",
+      "document_title": "Publication of the List of Medical Devices Requiring Specific Authorization for the North Korea Sanctions Regulations",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11761/publication-of-the-list-of-medical-devices-requiring-specific-authorization-for-the-north-korea",
+      "document_sha256": "247d2c8e74e9ed6f59c484caf37229129d5f12ecdae324de439003cce5ea7d9f",
+      "accepted_count": 3,
+      "rejected_count": 0,
+      "total_chars": 5604,
+      "extracted_chars": 5604
+    },
+    {
+      "document_number": "2026-12787",
+      "document_title": "Financial Data Transparency Act Joint Data Standards",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/25/2026-12787/financial-data-transparency-act-joint-data-standards",
+      "document_sha256": "5ec8e222fec5661c2d6d3abdfacffc3dd6d8f28c2e7da68fc5f381f12e2c5661",
+      "accepted_count": 23,
+      "rejected_count": 11,
+      "total_chars": 197066,
+      "extracted_chars": 77507
+    },
+    {
+      "document_number": "2026-13830",
+      "document_title": "Information Reporting and Transfer for Valuable Consideration Rules for Section 1035 Exchanges of Life Insurance and Certain Other Life Insurance Contract Transactions",
+      "document_url": "https://www.federalregister.gov/documents/2026/07/09/2026-13830/information-reporting-and-transfer-for-valuable-consideration-rules-for-section-1035-exchanges-of",
+      "document_sha256": "34c4dfb9d3d48411d94f2f87b661655be4968b1ac974ba3d40e9d134c8c6bc40",
+      "accepted_count": 35,
+      "rejected_count": 11,
+      "total_chars": 61106,
+      "extracted_chars": 61106
+    },
+    {
+      "document_number": "2026-13851",
+      "document_title": "Charitable Remainder Annuity Trust Listed Transaction",
+      "document_url": "https://www.federalregister.gov/documents/2026/07/09/2026-13851/charitable-remainder-annuity-trust-listed-transaction",
+      "document_sha256": "30d20a4210880b9275d9e868fdd5f50ff111485971be4e336d90a888df71949b",
+      "accepted_count": 22,
+      "rejected_count": 7,
+      "total_chars": 19742,
+      "extracted_chars": 19742
+    },
+    {
+      "document_number": "2026-13925",
+      "document_title": "Revising Qualified Domestic Trust Regulations Under Section 2056A To Update Outdated References and Procedures",
+      "document_url": "https://www.federalregister.gov/documents/2026/07/10/2026-13925/revising-qualified-domestic-trust-regulations-under-section-2056a-to-update-outdated-references-and",
+      "document_sha256": "0567c515867182efa4a2647e9152765539e8fb7b3b080eea49957da2db5f0670",
+      "accepted_count": 52,
+      "rejected_count": 13,
+      "total_chars": 53211,
+      "extracted_chars": 53211
+    },
+    {
+      "document_number": "2026-15008",
+      "document_title": "Revising Qualified Domestic Trust Regulations Under Section 2056A To Update Outdated References and Procedures; Correction",
+      "document_url": "https://www.federalregister.gov/documents/2026/07/24/2026-15008/revising-qualified-domestic-trust-regulations-under-section-2056a-to-update-outdated-references-and",
+      "document_sha256": "45659430ae87e1436c39d8a23e7178c1f5702bd2ae3a5f73071f15847a068ee8",
+      "accepted_count": 0,
+      "rejected_count": 0,
+      "total_chars": 3253,
+      "extracted_chars": 3253
+    },
+    {
+      "document_number": "2026-15112",
+      "document_title": "Updating Website and Contact Information, and Authorizations for Payments for Legal Services",
+      "document_url": "https://www.federalregister.gov/documents/2026/07/27/2026-15112/updating-website-and-contact-information-and-authorizations-for-payments-for-legal-services",
+      "document_sha256": "52ae0f153d3f30a1574b563c7c5364cd56f632a59ec250b94f75ce20de156fb5",
+      "accepted_count": 7,
+      "rejected_count": 1,
+      "total_chars": 54116,
+      "extracted_chars": 54116
+    },
+    {
+      "document_number": "31-CFR-223",
+      "document_title": "31 CFR Part 223 (point-in-time 2026-07-01)",
+      "document_url": "https://www.ecfr.gov/current/title-31/part-223",
+      "document_sha256": "3be0750516f615dc85992c480478a67afe8c0639954a2c4bc23ccbc3660762f3",
+      "accepted_count": 140,
+      "rejected_count": 10,
+      "total_chars": 65429,
+      "extracted_chars": 65429
+    },
+    {
+      "document_number": "31-CFR-285",
+      "document_title": "31 CFR Part 285 (point-in-time 2026-07-01)",
+      "document_url": "https://www.ecfr.gov/current/title-31/part-285",
+      "document_sha256": "c3defc1a8595167202fa204646f0cbf5f08137f5c5db788c1f49b2da78e76e14",
+      "accepted_count": 303,
+      "rejected_count": 18,
+      "total_chars": 184301,
+      "extracted_chars": 184301
+    },
+    {
+      "document_number": "31-CFR-356",
+      "document_title": "31 CFR Part 356 (point-in-time 2026-07-01)",
+      "document_url": "https://www.ecfr.gov/current/title-31/part-356",
+      "document_sha256": "092037024490d693dff5deb8e10fd4795570d819128c782c008b52de80bc3371",
+      "accepted_count": 173,
+      "rejected_count": 13,
+      "total_chars": 168989,
+      "extracted_chars": 168989
+    },
+    {
+      "document_number": "31-CFR-50",
+      "document_title": "31 CFR Part 50 (point-in-time 2026-07-01)",
+      "document_url": "https://www.ecfr.gov/current/title-31/part-50",
+      "document_sha256": "2b90cb8e1afdcaa27e6f76529f89fbe516cd1944e379367b707749cdc13d3187",
+      "accepted_count": 210,
+      "rejected_count": 13,
+      "total_chars": 132245,
+      "extracted_chars": 132245
+    },
+    {
+      "document_number": "31-CFR-501",
+      "document_title": "31 CFR Part 501 (point-in-time 2026-07-01)",
+      "document_url": "https://www.ecfr.gov/current/title-31/part-501",
+      "document_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+      "accepted_count": 329,
+      "rejected_count": 41,
+      "total_chars": 201253,
+      "extracted_chars": 201253
+    },
+    {
+      "document_number": "C1-2026-10036",
+      "document_title": "Real Estate Lending Escrow Accounts",
+      "document_url": "https://www.federalregister.gov/documents/2026/06/29/C1-2026-10036/real-estate-lending-escrow-accounts",
+      "document_sha256": "3e813e5076f54a84f96382e917fda8e94f948501ce12ebac6d52d7cd3be5adf9",
+      "accepted_count": 0,
+      "rejected_count": 0,
+      "total_chars": 1607,
+      "extracted_chars": 1607
+    }
+  ]
+}

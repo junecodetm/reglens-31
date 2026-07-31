@@ -1,0 +1,934 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 201 (Friday, October 17, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 201 (Friday, October 17, 2003)]
+[Rules and Regulations]
+[Pages 59720-59727]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-26251]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AA98
+
+
+Terrorism Risk Insurance Program; Disclosures and Mandatory 
+Availability Requirements
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule concerning disclosures and mandatory availability 
+requirements as part of its implementation of Title I of the Terrorism 
+Risk Insurance Act of 2002 (Act). The final rule incorporates and 
+clarifies conditions for federal payment, set forth in section 103(b) 
+of the Act, that require insurers to make certain disclosures to 
+policyholders. It also incorporates and clarifies the section 103(c) 
+requirements that insurers ``make available'' in their commercial 
+property and casualty policies terrorism risk insurance coverage for 
+insured losses resulting from certified acts of terrorism under the 
+Act. Treasury issued an interim final rule and proposed rule with 
+request for comment. This final rule, which is the second in a series 
+of regulations that Treasury is issuing to implement the Program, 
+adopts the interim final rule with several modifications as discussed 
+below.
+
+DATES: This final rule is effective October 17, 2003.
+
+FOR FURTHER INFORMATION CONTACT: Mario Ugoletti, Deputy Director, 
+Office of Financial Institutions Policy (202) 622-2730, or Martha 
+Ellett or Cynthia Reese, Attorney-Advisors, Office of the Assistant 
+General Counsel (Banking & Finance), (202) 622-0480, or C. Christopher 
+Ledoux, Senior Attorney, Terrorism Risk Insurance Program (202) 622-
+6770 (not toll-free numbers).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+A. Terrorism Risk Insurance Act of 2002
+
+    On November 26, 2002, President Bush signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and
+
+[[Page 59721]]
+
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving State 
+insurance regulation and consumer protections.
+    Title I of the Act establishes a temporary federal program of 
+shared public and private compensation for insured commercial property 
+and casualty losses resulting from an act of terrorism which, as 
+defined by the Act, is certified by the Secretary of the Treasury, in 
+concurrence with the Secretary of State and the Attorney General. The 
+Act authorizes Treasury to administer and implement the Terrorism Risk 
+Insurance Program, including the issuance of regulations and 
+procedures. The Program will end on December 31, 2005.
+    Each entity that meets the Act's definition of ``insurer'' (well 
+over 2000 firms) must participate in the Program. The amount of federal 
+payment for an insured loss resulting from an act of terrorism is to be 
+determined, based upon the insurance company deductibles and excess 
+loss sharing with the Federal Government, as specified by the Act and 
+the implementing regulations. An insurer's deductible increases each 
+year of the Program, thereby reducing the Federal Government's 
+involvement prior to expiration of the Program. An insurer's deductible 
+is calculated based on the value of ``direct earned premiums'' 
+collected over certain statutory periods. Once an insurer has met its 
+individual deductible, the federal payments cover 90 percent of the 
+insured losses above the deductible, subject to an industry-aggregate 
+limit of $100 billion.
+    The Program provides a federal reinsurance backstop for three 
+years. The Act gives Treasury authority to recoup federal payments made 
+under the Program through policyholder surcharges, up to a maximum 
+annual limit. The Act also prohibits duplicative federal payments for 
+insured losses that have been covered under any other federal program.
+    The mandatory availability or ``make available'' provisions in 
+section 103(c) of the Act require that, for Program Year 1 and Program 
+Year 2 and, if so determined by Treasury, in Program Year 3, all 
+entities that meet the Act's definition of insurer must make available, 
+in all of their property and casualty insurance policies, coverage for 
+insured losses resulting from an act of terrorism. This coverage can 
+not differ materially from the terms, amounts, and other coverage 
+limitations applicable to losses arising from events other than acts of 
+terrorism.
+    As conditions for federal payment under the Program, clear and 
+conspicuous disclosures must be provided by insurers to the 
+policyholders of the premium charged for insured losses covered by the 
+Program and the federal share of compensation for insured losses under 
+the Program. In addition, the Act requires that insurers submit a claim 
+to Treasury for federal payment as well as certain certifications. 
+Treasury will engage in rulemaking to prescribe claims procedures for 
+the Program at a later date.
+    The Act also contains provisions designed to manage litigation 
+arising from or relating to a certified act of terrorism. Section 107 
+of the Act creates an exclusive federal cause of action, provides for 
+claims consolidation in federal court, and contains a prohibition on 
+federal payments for punitive damages under the Program. The Act 
+provides the United States with the right of subrogation with respect 
+to any payment or claim paid by the United States under the Program.
+1. Three Year Program
+    The duration of the Program is three years. The Act was signed into 
+law on November 26, 2002 and section 108(a) of the Act provides that, 
+``[t]he Program shall terminate on December 31, 2005.'' Thereafter, the 
+Act provides Treasury with certain continuing authority to take actions 
+as necessary to ensure payment, recoupment, adjustments of compensation 
+and reimbursement for insured losses arising out of any act of 
+terrorism occurring during the period between November 26, 2002 and 
+December 31, 2005. The duration of the Program and the Program's 
+termination date should not be confused with the make available 
+requirements contained in section 103(c). As reflected in both the 
+interim final and final rules, the make available requirements in 
+section 103(c) of the Act apply to all insurers, through the end of 
+Program Year 2. However, the Secretary of the Treasury may determine, 
+not later than September 1, 2004, to extend the make available 
+requirements through Program Year 3, based on factors referenced in 
+section 108(d)(1) of the Act. Regardless of whether the make available 
+requirements of section 103 are extended, the Program and the Act's 
+federal backstop for insured losses for acts of terrorism continue 
+through December 31, 2005.
+2. Program Implementation Goals
+    In implementing the Program, Treasury is guided by several goals. 
+First, Treasury strives to implement the Act in a transparent and 
+effective manner that treats comparably those insurers required to 
+participate in the Program and provides necessary information to 
+policyholders. Second, in accord with the Act's stated purposes, 
+Treasury seeks to rely as much as possible on the State insurance 
+regulatory structure. In that regard, Treasury has closely coordinated 
+its implementation of all aspects of the Program with the National 
+Association of Insurance Commissioners (NAIC). Third, to the extent 
+possible within statutory constraints, Treasury seeks to allow insurers 
+to participate in the Program in a manner consistent with procedures 
+used in their normal course of business. Finally, given the temporary 
+and transitional nature of the Program, Treasury is guided by the Act's 
+goal for insurers to develop their own capacity, resources, and 
+mechanisms for terrorism insurance coverage when the Program expires on 
+December 31, 2005.
+
+B. The Interim Final Rule
+
+    The interim final rule was published in the Federal Register at 68 
+FR 19302 (April 18, 2003). It added sections 50.10 through 50.14 and 
+50.17 through 50.19 to Subpart B, and sections 50.20, 50.21, 50.23, and 
+50.24 to Subpart C of Part 50 in Title 31, Code of Federal Regulations. 
+Subpart A of Part 50, which addresses the scope and purpose of the 
+Program, key definitions and certain general provisions, was finalized 
+and published in the Federal Register at 68 FR 41250 (July 11, 2003) 
+and subsequently revised at 68 FR 48280 (August 13, 2003). Subpart B 
+incorporates and clarifies certain conditions for federal payment 
+contained in section 103(b) of the Act that require insurers to make 
+certain clear and conspicuous disclosures to their policyholders with 
+regard to terrorism risk insurance for insured losses under the 
+Program. Subpart C incorporates and clarifies requirements in section 
+103(c) of the Act that insurers ``make available,'' in all of their 
+commercial property and casualty insurance policies, coverage for 
+insured losses resulting from an act of terrorism as defined by section 
+102(1) of the Act. In this regard, section 103(c) requires insurers to 
+make such terrorism risk coverage available at terms, amounts, and 
+other coverage limitations that do not differ materially from those 
+applicable to losses arising from events other than from acts of 
+terrorism.
+
+[[Page 59722]]
+
+    This final rule (and the preceding interim final rule) reflect 
+earlier interim guidance, issued by Treasury in notices that were 
+published soon after the Act's enactment date, and were designed to 
+assist insurers, policyholders and other interested parties in 
+complying with immediately applicable and time-sensitive 
+requirements.\1\ In finalizing the interim final rule, Treasury 
+carefully considered the comments submitted and consulted with the 
+NAIC.
+---------------------------------------------------------------------------
+
+    \1\ These interim guidance notices were published in the Federal 
+Register at 67 FR 76206 (Dec. 11, 2002); 67 FR 78864 (Dec. 26, 2002) 
+and at 68 FR 4544 (Jan. 29, 2003). Treasury also issued a fourth 
+interim guidance at 68 FR 15039 (Mar. 27, 2003), which has 
+subsequently been superceded by a new provision in the final rule 
+for Subpart A, published at 68 FR 41250 (July 11, 2003). The interim 
+guidance and all regulations can also be located on Treasury's 
+Terrorism Risk Insurance Program Web site at <a href="http://www.treasury.gov/trip">http://www.treasury.gov/trip</a>.
+---------------------------------------------------------------------------
+
+II. Summary of Comments and Final Rule
+
+    Treasury received 12 comments on the interim final rule. Comments 
+were submitted by individual insurance companies and their legal 
+counsel, by insurance and mortgage banker industry trade associations, 
+by a coalition of trade and professional associations and by the 
+American Academy of Actuaries. After review and careful consideration 
+of these comments, as well as additional research and consultation with 
+the NAIC, Treasury is now promulgating a final rule concerning the 
+Act's disclosure and make available requirements. The final rule makes 
+few changes to the interim final rule. Clarifications were made in 
+several areas based on comments received. These clarifications are 
+discussed in the summary of comments below.
+
+A. Disclosures
+
+1. General Disclosure Requirements (Section 50.10)
+    Section 103(b) of the Act requires insurers to make certain 
+disclosures to policyholders as a condition for federal payment under 
+the Act. The general disclosure requirements of section 50.10 of the 
+interim final rule incorporate the Act's requirements. This section of 
+the final rule is unchanged from the interim final rule. Section 50.10 
+states, in part, that an insurer must provide clear and conspicuous 
+disclosure to the policyholder of: (1) The premium charged for insured 
+losses covered by the Program; and (2) the federal share of 
+compensation for insured losses under the Program. As discussed below, 
+the disclosure provisions are a condition for federal payment under the 
+Act and a mechanism through which Congress sought to enhance 
+competition and comparison shopping in the purchase of terrorism risk 
+insurance and to increase awareness of the federal contribution to the 
+Program.
+    One commenter, a mortgage banking trade association, urged Treasury 
+to revise the interim final rule to specifically require insurers to 
+notify lenders, securitizers, and servicers of commercial mortgages 
+(collectively referred to in this preamble as mortgage finance 
+providers) of the terrorism coverage options offered under the Act. The 
+commenter also requested that the interim final rule be changed to 
+require insurers to provide notice to these mortgage finance providers 
+of their borrowers' acceptance or rejection of the terrorism risk 
+insurance coverage made available by the insurer. In support of these 
+suggested revisions, the commenter stated that mortgage finance 
+providers are having difficulty determining ``whether most of the 
+properties in their portfolios carry adequate terrorism risk insurance 
+as required by loan documents.'' The commenter also asserts that the 
+absence of these suggested extensions to the current regulatory 
+disclosure requirements produces inefficiencies in the commercial real 
+estate and capital markets, including information gaps that may have an 
+adverse effect on economic growth and on the condition of key financial 
+institutions.
+    In a careful evaluation of whether the suggested revisions to the 
+interim final rule were appropriate, Treasury first reviewed the scope 
+of the disclosure provisions of section 103(b) of the Act and then 
+considered the legislative history concerning those disclosure 
+requirements. Treasury also considered whether there were alternative 
+ways in which these mortgage finance providers may obtain the insurance 
+coverage information they seek from their borrowers. Treasury consulted 
+with the NAIC concerning definitions in various state laws and typical 
+industry business practices and standards. For the reasons discussed 
+below, Treasury is not extending the disclosure requirement in the 
+interim final rule as suggested by the commenter.
+    Section 103(b) requires that clear and conspicuous disclosure of 
+certain information be provided by insurers to ``policyholders.'' The 
+Conference Report to the Act states that Congress required the 
+disclosures in section 103(b) in order, ``to enhance the 
+competitiveness of the marketplace by better enabling consumers to 
+comparison shop for terrorism insurance coverage, and to make 
+policyholders better aware that the Federal government will be sharing 
+the costs of such coverage with insurers thereby reducing the insurers' 
+exposure.'' H.R. Conf. Rep. No. 107-779, at 24 (2002). Neither the 
+language in section 103(b) of the Act, nor the congressional intent of 
+these disclosures as explained in the Conference Report, requires that 
+these disclosures be made to mortgage finance providers or other 
+entities that are not policyholders. Similarly, there is no third party 
+notification requirement in the Act concerning whether a policyholder 
+has, or has not, elected to purchase terrorism risk insurance coverage. 
+The stated legislative intent of the disclosures is to enhance 
+comparison shopping and Program awareness by policyholders.
+    For purposes of the Program, policyholder refers to the ``person'' 
+to whom the insurer issues a commercial property and casualty insurance 
+policy and who has apparent authority to negotiate, determine or modify 
+the terms of the insurance contract. In this regard, the Act and 
+Treasury's regulations require insurers to disclose information about 
+the premium and the federal share of compensation to policyholders at 
+the time of offer, purchase, and renewal.
+    In its comment, the association also expressed a concern that, 
+``under notice provisions to the mortgagee contained in existing 
+insurance policies, a partial cancellation of coverage for terrorism 
+(as opposed to a cancellation of the entire policy) may be deemed by 
+the insurers as an endorsement of the policy that does not require the 
+insurer to send notice to the mortgage lender.'' Thus, the commenter is 
+concerned that mortgage finance providers may not be notified if there 
+is a subsequent change in the policy with regard to terrorism risk 
+insurance. However, the commenter also acknowledges that the failure of 
+mortgage finance providers to obtain such notice appears to be due to 
+the drafting of notice provisions in policies.
+    Treasury considered whether there were other, perhaps more 
+appropriate ways, in which mortgage finance providers could obtain the 
+information they seek from their borrowers instead of through the 
+expansion of the statutory disclosure requirements under this temporary 
+Program. Treasury understands that mortgage finance providers generally 
+may obtain the information about the status of a borrower's coverage 
+for terrorism risks (whether the losses are those covered by the 
+Program or broader in scope) through their underwriting requirements 
+and/or by contract. For example, loan documents generally require that 
+borrowers provide appropriate insurance coverage
+
+[[Page 59723]]
+
+information to their mortgage finance providers, including information 
+on terrorism risk insurance coverage. In its comment, the association 
+acknowledged this, but stated that these requirements are frequently 
+ignored by borrowers and costly to enforce. In Treasury's view, the 
+issue appears to be one of contract negotiation, monitoring and 
+enforcement by the parties rather than of regulation under the Program.
+    In this regard, we also understand that ACORD, an independent, 
+nonprofit insurance group comprised of insurance company, reinsurance 
+company and financial service institution affiliated members that 
+assists in the cooperative development and implementation of insurance 
+(and related financial services) standards, has agreed to work with 
+mortgage finance providers to revise standard insurance certificates. 
+The goal of this market driven effort is to better facilitate access by 
+the mortgage finance providers to the insurance coverage information 
+concerning terrorism risk insurance and other types of insurance 
+coverage.
+    Based on our review of section 103(b) and of the legislative intent 
+of the disclosure requirements as described in the Conference Report, 
+and our understanding of industry practice and ongoing initiatives, as 
+indicated by the commenter and in consultations with NAIC, Treasury is 
+not expanding the reach of the disclosure to policyholder requirements 
+set forth in the interim final rule.
+2. Clear and Conspicuous Disclosure (Section 50.12)
+    As stated above, section 50.10 reflects the requirement in section 
+103(b) of the Act that the insurer must provide ``clear and conspicuous 
+disclosure'' to the policyholder of the premium charged and the federal 
+share of payments for insured losses under the Program. Section 50.12 
+of the interim final rule addresses the meaning of ``clear and 
+conspicuous'' disclosure for purposes of the Program. Except as noted 
+below with respect to section 50.12(d), this final rule adopts interim 
+section 50.12 without change.
+    Section 50.12(a) of the interim final rule provides that whether a 
+disclosure is clear and conspicuous depends on the totality of the 
+facts and circumstances. Consistent with the Program implementation 
+goals, the interim final rule does not specify an exclusive form or 
+means of satisfying the statutory disclosure requirements, nor does it 
+prescribe precise language, typeface, or font for the disclosures. In 
+interim guidance issued by Treasury soon after enactment of the Act, 
+Treasury deemed certain NAIC model forms to be an acceptable, 
+nonexclusive way in which an insurer could satisfy the disclosure 
+requirement. (These model forms are available at the Program's Web 
+site: <a href="http://www.treasury.gov/trip">http://www.treasury.gov/trip</a>). Treasury stated that insurers 
+could modify the NAIC model forms to meet individual circumstances, or 
+use other forms, as long as the modifications met the statutory 
+standards. This interim guidance was incorporated into the interim 
+final rule and is now in the final rule, which also provides a safe 
+harbor (see section 50.17). Insurers may continue to use certain NAIC 
+model forms if appropriate or they may develop other disclosure forms 
+that meet the requirements of the Act and the regulations. Treasury 
+received one comment on section 50.12(a) of the interim final rule, 
+which was supportive of Treasury's approach. Section 50.12(a) of the 
+interim final rule is adopted without change.
+    Section 50.12(b) of the interim final rule provides that, in 
+describing the premium charged for insured losses covered by the 
+Program, an insurer may refer to it as a portion or percentage of an 
+annual premium, if consistent with normal business practice; but, may 
+not describe this premium in a manner that would be misleading in the 
+context of the Program, such as by characterizing it as a 
+``surcharge.'' It is inappropriate and misleading to use the term 
+``surcharge'' in the disclosures because surcharge is a term used in 
+section 103(e)(8) of the Act in connection with the statutorily 
+required recoupment.
+    Treasury received two comments on this provision. One commenter, an 
+association of insurance brokers and agents, strongly supported 
+Treasury's position. This commenter believed the use of the term 
+``surcharge'' in disclosing the premium, ``threatened both to undermine 
+the ability of consumers to properly evaluate their coverage needs and 
+to call into question the legitimacy of the Program.'' An insurance 
+industry association commented that the group had ``no objection'' to 
+this section in the interim final rule. Section 50.12(b) of the interim 
+final rule is adopted without change.
+    Section 50.12(c) of the interim final rule allows insurers to make 
+the required disclosures using normal business practices, including 
+forms and methods of communication used to communicate similar 
+policyholder information to policyholders. The comments generally 
+supported this approach, which is adopted without change.
+    Section 50.12(d) of the interim final rule provides further 
+guidance on the use of an agent to provide the required disclosures to 
+policyholders. The interim final rule refers to an insurance broker or 
+other intermediary acting as agent for the insurer, if the insurer 
+normally communicates with a policyholder in this fashion. An insurance 
+industry association commenter suggested that, in view of the diverse 
+treatment of the legal status of insurance brokers under the laws of 
+the various States, unnecessary confusion may result from the use of 
+terms such as ``agent'' and ``broker'' with varying implications in 
+different jurisdictions. The commenter suggested that the final rule 
+instead use the term ``producer.'' Treasury agrees with this 
+suggestion, but emphasizes that if the insurer elects to make the 
+required disclosure through a producer or other intermediary, 
+regardless of on whose behalf the producer or other intermediary is 
+acting, the insurer remains responsible for ensuring that the 
+disclosures are provided by the producer or other intermediary to 
+policyholders in accordance with the Act. Accordingly, Treasury is 
+modifying section 50.12(d) consistent with this comment.
+    Section 50.12(e) of the interim final rule provides generally that 
+an insurer may demonstrate that it has satisfied the requirement to 
+provide clear and conspicuous disclosure through use of appropriate 
+systems and normal business practices that demonstrate a practice of 
+compliance. Although no comments explicitly addressed this provision, 
+the comments generally supported the overall approach in section 50.12. 
+Section 50.12(e) is adopted without change.
+    Section 50.12(f) of the interim final rule provides that an insurer 
+must certify that it has complied with the requirement to provide 
+disclosure to the policyholder on all policies that form the basis for 
+the underlying claim(s) submitted by the insurer for federal payment 
+under the Program. One commenter believed the language of section 
+50.12(f) itself was clear, but stated that the corresponding discussion 
+in the preamble to the interim final rule was not as clear and 
+requested further clarification in the final rule.
+    This final rule adopts section 50.12(f) of the interim final rule 
+without change. Section 50.12(f) requires that, on all policies that 
+form the basis for any claim that the insurer submits for federal 
+payment for insured losses under the Program, an insurer must certify 
+that it has complied with requirements to make disclosures to
+
+[[Page 59724]]
+
+those policyholders covered by the policies. These insured losses are 
+used in determining whether an insurer has met its insurer deductible 
+under the Program. If an insurer chooses not to provide disclosures on 
+a block of policies covered by the Program, the insurer will not 
+receive federal payment for any claims it may submit to Treasury for 
+insured losses covered by such policies because the required 
+disclosures--a condition for federal payment--were not made. The 
+insurer could submit a claim for federal payment under the Program on 
+another block of policies, as long as the insurer made the required 
+disclosures to those policyholders, and otherwise met all other 
+conditions for payment of those insured losses. Treasury will initiate 
+a future rulemaking concerning claims and certification procedures for 
+purposes of the Program.
+    The following example provides further clarification of section 
+50.12(f). A surety insurer may satisfy the Act's make available 
+requirement by providing terrorism risk insurance coverage under the 
+Program to a block of notary public bond policyholders at no cost. The 
+surety insurer may decide not to provide disclosure notices to those 
+policyholders because it considers the expense of making the 
+disclosures as being greater than the benefit of receiving the federal 
+payments under the Program. Therefore, the insurer would be liable for 
+any insured losses on the notary public bonds, but would not be 
+eligible to receive any federal payment under the Program backstop on 
+such losses because a condition for federal payment (making the 
+requisite disclosures to policyholders) was not met. However, if the 
+insurer provides the required disclosures to policyholders insured 
+under a separate block of construction bond policies, the failure to 
+make disclosures to the notary public bond policyholders would not 
+prevent the insurer from certifying that it provided the required 
+disclosure to policyholders insured under the construction bond 
+policies for which the insurer was seeking federal payment for insured 
+losses under the Program. The insured losses under the construction 
+bond policies ``form the basis'' for a claim submitted for federal 
+payment; the insured losses under the notary public bonds do not. 
+Regardless of whether disclosures are provided, direct earned premiums 
+on the notary public bonds would be included in the calculation of the 
+insurer deductible for purposes of the Program and such notary public 
+bond policyholders would be subject to any subsequent recoupment. The 
+insurer's calculation of insured losses under the Program for purposes 
+of meeting its insurer deductible would include only those losses on 
+the construction bonds.
+    Section 50.12(f) relates to other aspects of the Program in the 
+following ways. First, regardless of whether an insurer intends to 
+submit a claim for federal payment, all insurers must comply with the 
+make available requirements of section 103(c) of the Act and in the 
+regulations. Second, in calculating its direct earned premium and 
+insurer deductible under the Program, an insurer must include premium 
+income from all policies for commercial property and casualty insurance 
+for losses occurring at certain locations (see section 50.5(d)), 
+whether or not the insurer made the required disclosures. Third, an 
+insurer may submit a claim for federal payment only for those ``insured 
+losses'' on policies on which the insurer made required disclosures to 
+policyholders. Finally, all commercial property and casualty insurance 
+policies are subject to the Act's surcharge provisions, regardless of 
+whether the insurer made the disclosures. Accordingly, if an insurer 
+fails to provide the disclosure notices to its policyholders, the 
+insurer will not have met conditions for federal payment and will not 
+be eligible for federal payment for insured losses under those 
+policies. The insurer, however, will continue to be subject to the make 
+available requirements, and the insurer and its policyholders will 
+continue to be subject to the surcharge provisions under the Act and 
+the Program.
+3. Separate Line Item (Section 50.14)
+    Section 50.14 of the interim final rule incorporates interim 
+guidance previously issued by Treasury that deems an insurer to be in 
+compliance with the requirement of providing disclosure on a ``separate 
+line item in the policy'' under section 50.10(d), and in compliance 
+with section 103(b)(2)(C) of the Act, if the insurer makes the 
+disclosure: (1) on the declarations page of the policy; (2) elsewhere 
+within the policy itself; or (3) in any rider or endorsement that is 
+made a part of the policy. In addition to the clear and conspicuous 
+requirement, the Act requires that the separate line item disclosure be 
+``in the policy.''
+    Rather than require insurers to rewrite all of their policies, 
+Treasury has determined that the disclosure is sufficient if made on 
+the declarations page or within any rider or endorsement that is made a 
+part of the policy. One commenter suggested revising the interim final 
+rule to clarify that other documents could be used. This commenter 
+contended this would make it clear that compliance is not dependent on 
+the name or title of the document, but rather on the fact that such 
+disclosure document is made part of the policy. Treasury agrees and is 
+amending section 50.14(c) accordingly.
+
+B. Mandatory Availability
+
+1. General Mandatory Availability Requirements (Sections 50.20 and 
+50.21)
+    Sections 103(c)(1)(A) and (B) of the Act require an insurer (as 
+defined by the Act and the implementing regulations) to make available, 
+in all of its property and casualty insurance policies, coverage for 
+insured losses; and to make available property and casualty insurance 
+coverage for insured losses that does not differ materially from the 
+terms, amounts, and other coverage limitations applicable to losses 
+arising from events other that acts of terrorism. The make available 
+requirements apply during the period beginning on the first day of the 
+Transition Period and ending on the last day of Program Year 2 unless 
+the make available requirements are extended by the Secretary through 
+Program Year 3. The duration and possible extension of the make 
+available requirements in section 103(c) should not be confused with 
+the established three-year duration of the Program as provided by 
+section 108 of the Act.
+2. Policies in Existence on November 26, 2002
+    Section 50.21(a) of the interim final rule states, in part, that 
+the make available requirement of the Act applies to insurance policies 
+in existence on November 26, 2002 (the date of enactment of the Act). 
+One commenter suggested this provision may not be technically correct. 
+The commenter reasoned that the make available requirement applies at 
+the time of initial offer of coverage and that for policies in 
+existence on November 26, 2002, the initial offer of coverage had 
+already occurred, and, further, that only section 105 (voiding of 
+terrorism exclusions) is applicable for policies in existence at the 
+time of enactment.
+    It is Treasury's view that the make available requirement applies 
+to policies in existence on November 26, 2002. Section 103(c)(1)(A) of 
+the Act mandates that beginning on the first day of the Transition 
+Period (defined in section 102(11) as of the date of enactment), an 
+insurer shall make available coverage for insured losses in all of its 
+property and casualty insurance policies. Section 105 of the Act, in 
+effect, made coverage
+
+[[Page 59725]]
+
+available upon enactment of the Act by voiding any exclusions within 
+insurance policies that were in existence on November 26, 2002. Because 
+the make available requirement and the process in section 105 of the 
+Act for voiding terrorism risk insurance exclusions and offering 
+coverage are generally consistent for commercial property and casualty 
+policies in effect on November 26, 2002, Treasury has decided that no 
+additional clarification is needed. See below for a discussion of the 
+``initial offer of coverage'' provision in the rule.
+3. Initial Offer of Coverage
+    Section 50.21(a) of the interim final rule provides that the make 
+available requirement also applies to new policies issued and renewals 
+of existing policies during the period beginning on November 26, 2002 
+and ending on December 31, 2004 (the last day of Program Year 2) and, 
+if the requirement is extended by the Secretary, to new policies issued 
+and renewals of existing policies in Program Year 3 (calendar year 
+2005). The last line of 50.21(a) states that the ``requirement applies 
+at the time an insurer makes the initial offer of coverage.''
+    One commenter, an insurance trade association, proposed revising 
+the interim final rule by adding language to the end of section 50.21 
+stating that the make available requirement applies at the time an 
+insurer makes the initial offer of coverage ``and at no other time.'' 
+The commenter suggested this revision because of a concern that a 
+policyholder may try to purchase terrorism risk insurance coverage 
+during a policy period (for example, upon a heightened state of terror 
+alert) despite having rejected an initial offer of coverage by an 
+insurer.
+    In context, Treasury believes the requirement in section 50.21(a) 
+is clear. It is Treasury's view that by offering the coverage at the 
+time of initial offer, the insurer has satisfied the make available 
+requirement. However, the commenter's suggested change would limit the 
+make available requirement more narrowly than intended by Treasury. 
+This is because the initial offer of coverage is not the only time when 
+the make available requirement applies. Treasury did not intend section 
+50.21 of the interim final rule to be read to mean that, as long as an 
+insurer makes coverage available through an initial offer, the insurer 
+has no further obligation to make coverage available to the 
+policyholder during the Program's duration (e.g., at initial offer of 
+renewal or in a new policy.) An insurer must make the coverage 
+available, not only at the time of initial offer, but also upon offer 
+of policy renewal.
+    It is Treasury's view that an insurer need not make coverage 
+available to a policyholder who did not accept an initial offer of 
+coverage and later demands the coverage be added to the same policy 
+during the policy period (i.e., through endorsement). In such a 
+situation, the policyholder is not left without options; a policyholder 
+can cancel its policy and solicit a new offer or proposal for 
+insurance. Treasury is modifying section 50.21(a) to clarify the make 
+available requirement applies at the time an insurer makes the initial 
+offer of coverage as well as at the time an insurer makes an initial 
+offer of renewal of an existing policy.
+    This insurance association commenter also suggested that Treasury 
+consider changing the rule to eliminate the requirement that an insurer 
+make available coverage through an initial offer. Instead, the 
+commenter proposed that an insurer only be required to simply disclose 
+that coverage is available for purchase and to invite policyholders to 
+contact the insurer for an offer or quote, if desired. The commenter 
+suggested that insurers could still make a formal offer of coverage if 
+consistent with their normal business practice, but an offer would not 
+be required. Treasury is not adopting this suggestion, which is 
+inconsistent with the purposes of the statutory provisions.
+4. Umbrella-Type Policies
+    An insurance industry trade association commenter raised several 
+questions about the applicability of the make available requirement for 
+insured losses through commercial property and casualty umbrella 
+insurance. In response, Treasury emphasizes that commercial property 
+and casualty umbrella insurance is included in the Program because it 
+falls within the Program's definition of commercial property and 
+casualty insurance. Therefore, an insurer that offers such umbrella 
+insurance coverage is subject to the make available requirements.
+    Section 102(12) of the Act defines commercial lines of property and 
+casualty insurance to specifically include ``excess insurance.'' 
+Section 50.5(l) of the regulations further defines commercial property 
+and casualty insurance with reference to certain lines of insurance 
+business reported on NAIC's Annual Statement's Exhibit of Premiums and 
+Losses, commonly known as Statutory Page 14. Commercial property and 
+casualty umbrella insurance is reported on Statutory Page 14 and not 
+otherwise excluded. Such umbrella policies are within the definition of 
+``commercial property and casualty insurance.'' If the umbrella policy 
+issuer is an insurer under the Act, it must participate in the Program 
+and it is subject to the Act's requirements.
+    Accordingly, insurers that issue commercial property and casualty 
+insurance through umbrella policies are subject to the make available 
+requirements of the Program. This means that they must (1) make 
+available in all of their commercial property and casualty insurance 
+policies coverage for insured losses and (2) make available such 
+coverage for insured losses that does not differ materially from the 
+terms, amounts, and other coverage limitations applicable to losses 
+arising from events other than acts of terrorism.
+    The commenter also stated that some policyholders have declined 
+insurance coverage for losses caused by an act of terrorism from their 
+primary insurance carriers, electing instead to have such losses 
+covered by the ``drop down'' coverage afforded through their 
+(presumably less expensive) umbrella insurance policies. To prevent 
+what the commenter characterizes as policyholder ``gaming,'' the 
+commenter suggests that ``Treasury permit an umbrella insurer, in 
+accordance with normal business practice, to refuse to drop down where 
+the insured intentionally elected to forego primary coverage for acts 
+of terrorism.''
+    Although Treasury understands that certain provisions of the Act 
+may not fit neatly with typical business practices of umbrella policy 
+underwriters and other insurers, Treasury has determined to not revise 
+the interim final rule as suggested because it may create a situation 
+that appears to excuse an insurer from fulfilling its contractual 
+obligation to pay a policyholder's claim for an insured loss that 
+otherwise may be covered by the terms and conditions of a policy 
+covered by the Program. Instead, it is Treasury's view that the 
+commenter's concern is more appropriately addressed by the insurer that 
+issues the umbrella policy, for example, through the insurer's 
+underwriting procedures, pricing, and/or policy drafting. Therefore, an 
+umbrella insurer could draft policy language that excludes from ``drop 
+down'' coverage any losses arising from perils for which insurance was 
+available from the primary or underlying insurer but was intentionally 
+not purchased by the policyholder, provided: (1) The language does not 
+differ materially from the terms and other coverage limitations 
+applicable to losses arising from events other than acts of terrorism 
+and (2) the
+
+[[Page 59726]]
+
+exclusion is otherwise permitted by State law.
+    Another commenter raised similar questions with regard to 
+Difference-In-Conditions (DIC) commercial property and casualty 
+insurance. DIC insurance is included within the Program definition of 
+commercial property and casualty insurance. DIC insurance is reported 
+by insurers on commercial lines of Statutory Page 14 included in the 
+Program (see section 50.5(l)). DIC insurance policies generally provide 
+coverage for certain risks not covered by other policies. The commenter 
+suggested that DIC commercial property and casualty insurance should 
+not be included in the Program. The commenter contended that the Act 
+and section 50.23 mean that all underlying commercial property and 
+casualty policies must provide for--and cannot exclude--insured losses 
+caused by an act of terrorism, and thus DIC coverage will never be 
+triggered.
+    Treasury does not agree. As stated above with regard to umbrella 
+polices, the Act requires all insurers under the Program to make 
+available commercial property and casualty coverage for insured losses 
+under the Program. If the issuer of a DIC commercial property and 
+casualty insurance policy is an insurer as defined under the Program, 
+then the DIC insurer must comply with the requirements of the Act and 
+Treasury's implementing regulations, including those concerning the 
+make available requirements. Insurers can exclude coverage for insured 
+losses if the policyholder declines or elects not to purchase the 
+coverage. If a DIC insurer's policyholder declines or elects not to 
+purchase terrorism risk insurance coverage in an underlying policy, the 
+Act requires that the DIC insurer must make available terrorism risk 
+insurance for insured losses as part of the DIC policy. As with 
+umbrella policies, Treasury recognizes that certain provisions of the 
+Act may not fit neatly within typical business practices of DIC 
+insurers but it is Treasury's view that the commenter's concern is more 
+appropriately addressed through DIC underwriting procedures, pricing or 
+policy drafting. Thus, in the final rule, Treasury is making no change 
+to section 50.21 to provide special treatment to DIC or umbrella 
+insurance policies.
+5. Limitations on Types of Risk (Section 50.23)
+    Section 103(c)(1)(B) of the Act provides that insurers under the 
+Program ``shall make available property and casualty insurance coverage 
+for insured losses that does not differ materially from the terms, 
+amounts, and other coverage limitations applicable to losses arising 
+from events other than acts of terrorism.'' Sections 50.20 through 
+50.24 of the interim final rule reflect the statutory language and 
+previously issued interim guidance. Section 50.23(b) addresses 
+limitations on types of risk and provides that if an insurer does not 
+cover all types of commercial property and casualty risks, then it is 
+not required to cover the excluded risks in satisfying the make 
+available requirements. For example, if an insurer does not cover all 
+types of commercial property and casualty risk, either because the 
+insurer is outside of direct State regulatory oversight, or because a 
+State permits certain exclusions for certain types of losses, such as 
+nuclear, biological, or chemical events, then the insurer is not 
+required to make such coverage available. In addition, Section 50.24 
+addresses the applicability of State law.
+    A comment, submitted by a coalition of trade and professional 
+associations expressed concern about the make available provisions in 
+the interim final regulation. The commenter contended that the interim 
+final rule's deference to State law exclusions for certain types of 
+losses is not consistent with the purposes of the Act. The commenter 
+also stated that the purpose of the Act was to put policyholders back 
+to the level of coverage (or availability) that existed prior to 
+September 11, 2001. Although acknowledging that whether a policyholder 
+purchases terrorism risk insurance may be related to the price of the 
+coverage, the commenter suggested that a lack of coverage for 
+biological and chemical perils may adversely affect the policyholder's 
+decision to purchase terrorism risk insurance.
+    After carefully considering the concerns expressed by the commenter 
+and reviewing the purposes of the Act, Treasury is not making any 
+change in the make available requirement as set forth in the interim 
+final rule for the following reasons. First, it is Treasury's view that 
+the make available requirement in the interim final rule, including the 
+deference to state law exclusions, is fully consistent with the 
+purposes of the Act. As stated in Section 101(b), the purposes of the 
+Act include establishment of a temporary federal Program to ``allow for 
+a transitional period for the private markets to stabilize, resume 
+pricing of such insurance and build capacity to absorb any future 
+losses, while preserving State insurance regulation and consumer 
+protections.'' In addition, other provisions of the Act, such as 
+section 106, generally support narrow State law preemption, consistent 
+with the McCarran Ferguson Act. Moreover, throughout the implementation 
+process, Treasury has followed Congress's direction to consult with the 
+NAIC, and in that regard, has relied to the greatest extent possible on 
+the existing State regulatory structure for this temporary Program.
+    Second, based on information provided by the NAIC, it is Treasury's 
+understanding that, even prior to September 11, 2001, insurers offered 
+limited coverage for nuclear reaction or radiation or radioactive 
+contamination, however caused, in commercial property and casualty 
+insurance. In addition, deference to existing State law as it relates 
+to the make available requirement does not mean that all losses 
+associated with a nuclear, biological or chemical event would be 
+excluded under the Program. Even with State exclusions, there may be 
+commercial property and casualty insurance coverage in certain 
+circumstances for certain biological, chemical or nuclear events. 
+Moreover, the make available requirements in the interim final rule do 
+not limit an insurer's ability to provide coverage for nuclear, 
+biological, or chemical exposures as part of the Program, if the 
+insurer chooses to offer such coverage. If an insurer provided such 
+coverage in a commercial property and casualty policy, and met its 
+insurer deductible and other conditions for federal payment, the 
+insurer would receive federal payment under the Program for a claim 
+filed based on that policy.
+    Third, the availability of terrorism risk insurance is affected by 
+the affordability of such insurance. Neither the Act nor the Program 
+mandates particular pricing. Therefore even if the ``make available'' 
+requirement were applied in markets where exclusions are permitted, 
+insurers would be able to price the coverage as appropriate, within any 
+constraints, if any, imposed by the particular State. In such cases, if 
+insurers believed they had insufficient capacity or that they lacked 
+the ability to adequately evaluate the risks associated with a nuclear, 
+biological, or chemical event, the corresponding price for such 
+coverage along with the overall price for terrorism coverage could 
+remain relatively high as insurers sought to build greater capacity and 
+to account for greater uncertainty associated with these types of 
+events.
+
+III. Procedural Requirements
+
+    The Act established a Program to provide for loss sharing payments 
+by the Federal Government for insured losses resulting from certified 
+acts of terrorism. The Act became effective immediately
+
+[[Page 59727]]
+
+upon the date of enactment (November 26, 2002). Preemptions of 
+terrorism risk exclusions in policies, mandatory participation 
+provisions, disclosure and other requirements, and conditions for 
+federal payment contained in the Act applied immediately to those 
+entities that came within the Act's definition of ``insurer.''
+    The disclosure requirements are statutory conditions for federal 
+payment under the Program. The disclosure requirements were effective 
+immediately upon enactment and remain ongoing requirements that apply 
+to new and renewed policies throughout the life of the Program. In the 
+event of an act of terrorism resulting in insured losses under the 
+Program, insurers must certify, and Treasury must ascertain, that these 
+disclosure requirements have been met before federal payment is made. 
+Similarly, the make available requirements are important elements of 
+the Act. These requirements were effective immediately upon enactment 
+and applied to policies in effect at that time. The make available 
+requirements will continue to apply to new and renewed policies through 
+the end of 2004 (and if the requirements are extended by the Secretary, 
+through 2005). Given the significance of the disclosure and make 
+available requirements to policyholders and insurers, there is an 
+urgent need to issue immediately effective regulations. This includes 
+the need to clarify, as necessary, the previously issued interim final 
+rule. Moreover, because the changes are in the nature of 
+clarifications, there should be no operational impact on insurers and 
+no need for a delayed effective date.
+    Accordingly, pursuant to 5 U.S.C. 553(d)(3), Treasury has 
+determined that there is good cause for this final rule to become 
+effective immediately upon publication.
+    This final rule is a significant regulatory action and has been 
+reviewed by the Office of Management and Budget under the terms of 
+Executive Order 12866.
+    It is hereby certified that this final rule will not have a 
+significant economic impact on a substantial number of small entities. 
+The Act requires all licensed or admitted insurers to participate in 
+the Program. This includes all insurers regardless of size or 
+sophistication. The Act also defines property and casualty insurance 
+without any reference to the size or scope of the commercial entity. 
+The disclosure and make available requirements are required by the Act. 
+The final rule allows all insurers, whether large or small, to use 
+existing systems and business practices to demonstrate compliance. 
+Accordingly, any economic impact associated with the final rule flows 
+from the Act and not the final rule. However, the Act and the Program 
+are intended to provide benefits to the U.S. economy and all 
+businesses, including small businesses, by providing a federal 
+reinsurance backstop to commercial property and casualty insurers and 
+their policyholders and by spreading the risk of insured loss resulting 
+from an act of terrorism.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism risk insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, the interim final rule amending 
+Subparts B and C of 31 CFR Part 50, which was published at 68 FR 19302 
+on April 18, 2003, is adopted as a final rule with the following 
+changes:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for 31 CFR Part 50 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+0
+2. Section 50.12(d) of Subpart B is revised to read as follows:
+
+
+Sec.  50.12  Clear and conspicuous disclosure.
+
+* * * * *
+    (d) Use of producer. If an insurer normally communicates with a 
+policyholder through an insurance producer or other intermediary, an 
+insurer may provide disclosures through such producer or other 
+intermediary. If an insurer elects to make the disclosures through an 
+insurance producer or other intermediary, the insurer remains 
+responsible for ensuring that the disclosures are provided by the 
+insurance producer or other intermediary to policyholders in accordance 
+with the Act.
+* * * * *
+
+0
+3. Section 50.14 of Subpart B is revised to read as follows:
+
+
+Sec.  50.14  Separate line item.
+
+    An insurer is deemed to be in compliance with the requirement of 
+providing disclosure on a ``separate line item in the policy'' under 
+Sec.  50.10(d) if the insurer makes the disclosure:
+    (a) On the declarations page of the policy;
+    (b) Elsewhere within the policy itself; or
+    (c) In any rider or endorsement, or other document that is made a 
+part of the policy.
+
+0
+4. Section 50.18(b)(2) of Subpart B is revised to read as follows:
+
+
+Sec.  50.18  Disclosure required by reinstatement provision
+
+* * * * *
+    (b) * * *
+    (2) The insurer provided notice at least 30 days before any such 
+reinstatement of the increased premium for such terrorism coverage and 
+the rights of the insured with respect to such coverage, including the 
+date upon which the exclusion would be reinstated if no payment is 
+received, and the insured fails to pay any increased premium charged by 
+the insurer for providing such terrorism coverage.
+
+0
+5. Section 50.21(a) of Subpart C is revised to read as follows:
+
+
+Sec.  50.21  Make available.
+
+    (a) General. The requirement to make available coverage as provided 
+in Sec.  50.20 applies to policies in existence on November 26, 2002, 
+new policies issued and renewals of existing policies during the period 
+beginning on November 26, 2002 and ending on December 31, 2004 (the 
+last day of Program Year 2), and if the requirement is extended by the 
+Secretary, to new policies issued and renewals of existing policies in 
+Program Year 3 (calendar year 2005). The requirement applies at the 
+time an insurer makes the initial offer of coverage as well as at the 
+time an insurer makes an initial offer of renewal of an existing 
+policy.
+* * * * *
+
+    Dated: October 1, 2003.
+Wayne A. Abernathy,
+Assistant Secretary of the Treasury.
+[FR Doc. 03-26251 Filed 10-16-03; 8:45 am]
+BILLING CODE 4811-15-P
+
+
+</pre></body>
+</html>

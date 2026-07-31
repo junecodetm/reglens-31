@@ -1,0 +1,376 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 208 (Tuesday, October 28, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 208 (Tuesday, October 28, 2003)]
+[Rules and Regulations]
+[Pages 61359-61362]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-27074]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501, 575, 597, and 598
+
+
+Reporting, Procedures and Penalties Regulations; Iraqi Sanctions 
+Regulations; Foreign Terrorist Organizations Sanctions Regulations; 
+Foreign Narcotics Kingpin Sanctions Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Treasury Department's Office of Foreign Assets Control 
+(``OFAC'') is issuing a final rule to amend the Reporting, Procedures 
+and Penalties Regulations, Iraqi Sanctions Regulations, Foreign 
+Terrorist Organizations Sanctions Regulations, and Foreign Narcotics 
+Kingpin Sanctions Regulations (collectively, the ``Regulations'') to 
+implement the requirement of the Federal Civil Penalties Inflation 
+Adjustment Act of 1990 to adjust for inflation the maximum amounts of 
+the civil monetary penalties that may be assessed under the 
+Regulations.
+
+EFFECTIVE DATE: October 23, 2003.
+
+FOR FURTHER INFORMATION CONTACT: Chief, Civil Penalties Division, tel. 
+202/622-6140, or Chief Counsel, tel. 202/
+
+[[Page 61360]]
+
+622-2410, Office of Foreign Assets Control, Department of the Treasury, 
+Washington, DC 20220
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic and Facsimile Availability
+
+    This file is available for download without charge in ASCII and 
+Adobe Acrobat readable (*.PDF) formats at GPO Access. GPO Access 
+supports HTTP, FTP, and Telnet at <a href="http://fedbbs.access.gpo.gov">fedbbs.access.gpo.gov</a>. It may also be 
+accessed by modem dialup at 202/512-1387 followed by typing ``/GO/
+FAC.'' Paper copies of this document can be obtained by calling the 
+Government Printing Office at 202-512-1530. Additional information 
+concerning the programs of the Office of Foreign Assets Control is 
+available for download from the Office's Internet Home Page at: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a> or via FTP at <a href="http://ofacftp.treas.gov">ofacftp.treas.gov</a>. Facsimiles of 
+information are available through the Office's 24-hour fax-on-demand 
+service: call 202/622-0077 using a fax machine, a fax modem, or (within 
+the United States) a touch-tone telephone.
+
+Background
+
+    Section 4 of the Federal Civil Penalties Inflation Adjustment Act 
+of 1990 (``FCPIA Act'') (Pub. L. 101-410, 104 Stat. 890; 28 U.S.C. 2461 
+note), as amended by the Debt Collection Improvement Act of 1996 
+(``DCIA'') (Pub. L. 104-134, 110 Stat. 1321-373; 31 U.S.C. 3701 note)), 
+requires each Federal agency with statutory authority to assess civil 
+monetary penalties (``CMPs'') to adjust those CMPs for inflation 
+according to a formula described in section 5 of the FCPIA Act. One 
+purpose of the FCPIA Act is to ensure that CMPs continue to maintain 
+their deterrent effect through periodic cost-of-living based 
+adjustments. The DCIA amended the FCPIA Act to require that each 
+agency, to the extent necessary, issue regulations at least every four 
+years to adjust its CMPs for inflation.
+    Section 5 of the FCPIA Act requires that each CMP having a 
+specified or maximum monetary amount provided for by Federal law be 
+increased by the percentage by which the Consumer Price Index for all 
+urban consumers (``CPI''), published by the Department of Labor, for 
+the month of June of the calendar year preceding the adjustment exceeds 
+the CPI for the month of June of the calendar year in which the amount 
+of the CMP was last set or adjusted pursuant to law. The statute 
+includes a mechanism for rounding penalty increases and limits the 
+first inflation adjustment of a CMP to 10 percent of such penalty.
+    With regard to rounding, the FCPIA Act sets out penalty ranges, 
+from amounts less than or equal to $100 to amounts greater than 
+$200,000, and provides different dollar multiples for rounding the 
+increase in each penalty range. Specifically, section 5(a) of the FCPIA 
+Act requires that any increase in a CMP be rounded to the nearest 
+multiple of:
+    1. $10 in the case of penalties less than or equal to $100;
+    2. $100 in the case of penalties greater than $100 but less than or 
+equal to $1,000;
+    3. $1,000 in the case of penalties greater than $1,000 but less 
+than or equal to $10,000;
+    4. $5,000 in the case of penalties greater than $10,000 but less 
+than or equal to $100,000;
+    5. $10,000 in the case of penalties greater than $100,000 but less 
+than or equal to $200,000; and
+    6. $25,000 in the case of penalties greater than $200,000.
+    OFAC currently is authorized to impose CMPs pursuant to five 
+statutes: The Trading with the Enemy Act (``TWEA'') (50 U.S.C. App. 
+16); the International Emergency Economics Powers Act (``IEEPA'') (50 
+U.S.C. 1705); the Iraq Sanctions Act of 1990 (``ISA'') (Pub. L. 101-
+513, 104 Stat. 2049; 50 U.S.C. 1701 note); the Antiterrorism and 
+Effective Death Penalty Act of 1996 (``AEDPA'') (18 U.S.C. 2339B); and 
+the Foreign Narcotics Kingpin Designation Act (``FNKDA'') (21 U.S.C. 
+1906). The current maximum CMP for each of the first four statutes was 
+last adjusted or set by statute in 1996. The current maximum CMP under 
+the FNKDA was set when the statute was enacted in 1999 and has not yet 
+been adjusted for inflation.
+    With regard to those CMPs last adjusted or set by statute in 1996, 
+the CPI value increased from 156.7 for June 1996 to 179.9 for June 
+2002, resulting in an inflation factor of 1.148 (i.e., a 14.8 percent 
+increase). The CMP inflation factor for the FNKDA is 1.082 (i.e., an 
+8.2 percent increase), calculated using the CPI values of 166.2 for 
+June 1999 and 179.9 for June 2002.
+    The original maximum CMP of $50,000 under TWEA was adjusted for 
+inflation to $55,000 in 1996. Multiplying the current penalty of 
+$55,000 by the factor of 1.148 results in $63,140, an increase of 
+$8,140. When that number is rounded to the nearest multiple of $5,000, 
+as required by the FCPIA Act, the maximum TWEA-based CMP per violation 
+is increased to the inflation-adjusted amount of $65,000.
+    The original maximum CMP of $10,000 under IEEPA was adjusted for 
+inflation to $11,000 in 1996. Multiplying the current penalty of 
+$11,000 by the factor of 1.148 results in $12,628, an increase of 
+$1,628. When that number is rounded to the nearest multiple of $5,000, 
+as required by the FCPIA Act, the maximum IEEPA-based CMP per violation 
+remains $11,000.
+    The original maximum CMP of $250,000 under ISA was adjusted for 
+inflation to $275,000 in 1996. Multiplying the current penalty of 
+$275,000 by the factor of 1.148 results in $315,700, an increase of 
+$40,700. When that number is rounded to the nearest multiple of 
+$25,000, as required by the FCPIA Act, the maximum ISA-based CMP per 
+violation is increased to the inflation-adjusted amount of $325,000.
+    The maximum CMP of $50,000 under AEDPA was set by statute in 1996 
+and has not previously been adjusted for inflation. Multiplying the 
+current penalty of $50,000 by the factor of 1.148 results in $57,400, 
+an increase of $7,400. When that number is rounded to the nearest 
+multiple of $5,000, as required by the FCPIA Act, the maximum AEDPA-
+based CMP per violation is increased to the inflation-adjusted amount 
+of $55,000.
+    The maximum CMP of $1,000,000 under FNKDA was set by statute in 
+1999 and has not previously been adjusted for inflation. Multiplying 
+the current penalty of $1,000,000 by the factor of 1.082 results in 
+$1,082,000, an increase of $82,000. When that number is rounded to the 
+nearest multiple of $25,000, as required by the FCPIA Act, the maximum 
+FNKDA-based CMP per violation is increased to the inflation-adjusted 
+amount of $1,075,000.
+
+Executive Order 12866, Administrative Procedure Act, Regulatory 
+Flexibility Act, and Paperwork Reduction Act
+
+    Because the regulations involve a foreign affairs function, 
+Executive Order 12866 and the provisions of the Administrative 
+Procedure Act (5 U.S.C. 553) requiring notice of proposed rulemaking, 
+opportunity for public participation, and delay in effective date, are 
+inapplicable. Additionally, advance notice, public comment, and delayed 
+effectiveness are unnecessary because the regulations merely reflect 
+adjustments in penalty rates required by law and do not substantively 
+alter the existing regulatory framework or in any way affect the terms 
+under which civil penalties are assessed by OFAC. Because no notice of 
+proposed rulemaking is required for this rule, the Regulatory 
+Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+[[Page 61361]]
+
+    The Paperwork Reduction Act does not apply because the rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq.
+
+List of Subjects
+
+31 CFR Part 501
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Foreign trade, Licensing, Penalties, Reporting and 
+recordkeeping requirements, Sanctions.
+
+31 CFR Part 575
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Exports, Foreign trade, Humanitarian aid, Imports, Iran, Iraq, 
+Oil imports, Penalties, Petroleum, Petroleum products, Reporting and 
+recordkeeping requirements, Sanctions, Specially designated nationals, 
+Terrorism, Travel restrictions.
+
+31 CFR Part 597
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Foreign terrorist organizations, Penalties, Reporting and 
+recordkeeping requirements, Sanctions, Terrorism, Transfer of Assets.
+
+31 CFR Part 598
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Narcotics trafficking, Penalties, Reporting and recordkeeping 
+requirements, Sanctions, Significant foreign narcotics traffickers, 
+Specially designated narcotics trafficker, Transfer of Assets.
+
+0
+For the reasons set forth in the preamble, 31 CFR chapter V is amended 
+as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority: 18 U.S.C. 2332d; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 
+22 U.S.C. 2370(a); 31 U.S.C. 321(b); 50 U.S.C. 1701-1706; 50 U.S.C. 
+App. 1-44; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+E.O. 9193, 7 FR 5205, 3 CFR, 1938-1943 Comp., p. 1174; E.O. 9989, 13 
+FR 4891, 3 CFR, 1943-1948 Comp., p. 748; E.O. 12854, 58 FR 36587, 3 
+CFR, 1993 Comp., p. 614.
+
+Subpart D--Trading With the Enemy Act (TWEA) Penalties
+
+0
+2. Section 501.701 is amended by revising paragraph (a)(3) to read as 
+follows:
+
+
+Sec.  501.701  Penalties
+
+    (a) * * *
+    (3) The Secretary of the Treasury may impose a civil penalty of not 
+more than $65,000 per violation on any person who violates any license, 
+order, or regulation issued under TWEA.
+
+    Note to paragraph (a)(3). The current $65,000 civil penalty cap 
+may be adjusted for inflation pursuant to the Federal Civil 
+Penalties Inflation Adjustment Act of 1990.
+
+* * * * *
+
+PART 575--IRAQI SANCTIONS REGULATIONS
+
+0
+1. The authority citation for part 575 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 18 U.S.C. 2332d; 22 U.S.C. 287c; Pub. 
+L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 31 U.S.C. 321(b); 
+50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-513, 104 Stat. 2047-2055 
+(50 U.S.C. 1701 note); E.O. 12722, 55 FR 31803, 3 CFR, 1990 Comp., 
+p. 294; E.O. 12724, 55 FR 33089, 3 CFR, 1990 Comp., p. 297; E.O. 
+12817, 57 FR 48433, 3 CFR, 1992 Comp., p. 317; E.O. 13290, 68 FR 
+14307, March 20, 2003.
+
+Subpart G--Penalties
+
+0
+2. Section 575.701 is amended by revising paragraph (a) introductory 
+text and paragraph (a)(1) to read as follows:
+
+
+Sec.  575.701  Penalties.
+
+    (a) Section 586E of the Iraq Sanctions Act of 1990 (Public Law 101-
+513, 104 Stat. 2049; 50 U.S.C. 1701 note), as adjusted pursuant to the 
+Federal Civil Penalties Inflation Adjustment Act of 1990 (Public Law 
+101-410, as amended, 28 U.S.C. 2461 note), provides that, 
+notwithstanding section 206 of the International Emergency Economic 
+Powers Act (50 U.S.C. 1705) and section 5(b) of the United Nations 
+Participation Act of 1945 (22 U.S.C. 287c(b)):
+    (1) A civil penalty of not to exceed $325,000 per violation may be 
+imposed on any person who, after the enactment of this Act, violates or 
+evades or attempts to violate or evade Executive Order Number 12722, 
+12723, 12724, or 12725, or any license, order, or regulation issued 
+under any such Executive Order;
+
+    Note to paragraph (a)(1). The current $325,000 civil penalty cap 
+may be adjusted for inflation pursuant to the Federal Civil 
+Penalties Inflation Adjustment Act of 1990.
+
+* * * * *
+
+PART 597--FOREIGN TERRORIST ORGANIZATIONS SANCTIONS REGULATIONS
+
+0
+1. The authority citation for part 597 is revised to read as follows:
+
+    Authority: 31 U.S.C. 321(b); Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 104-132, 110 Stat. 1214, 1248-53 (8 
+U.S.C. 1189, 18 U.S.C. 2339B).
+
+Subpart G--Penalties
+
+0
+2. Section 597.701 is amended by revising paragraph (b) to read as 
+follows:
+
+
+Sec.  597.701  Penalties.
+
+* * * * *
+    (b) Attention is directed to 18 U.S.C. 2339B(b), as added by Public 
+Law 104-132, 110 Stat. 1250-1253, section 303, which, as adjusted 
+pursuant to the Federal Civil Penalties Inflation Adjustment Act of 
+1990 (Pub. L. 101-410, as amended, 28 U.S.C. 2461 note), provides that, 
+except as authorized by the Secretary of the Treasury, any financial 
+institution that knowingly fails to retain possession of or maintain 
+control over funds in which a foreign terrorist organization or its 
+agent has an interest, or to report the existence of such funds in 
+accordance with these regulations, shall be subject to a civil penalty 
+in an amount that is the greater of $55,000 per violation, or twice the 
+amount of which the financial institution was required to retain 
+possession or control.
+
+    Note to paragraph (b). The current $55,000 civil penalty cap may 
+be adjusted for inflation pursuant to the Federal Civil Penalties 
+Inflation Adjustment Act of 1990.
+
+* * * * *
+
+PART 598--FOREIGN NARCOTICS KINGPIN SANCTIONS REGULATIONS
+
+0
+1. The authority citation for part 598 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 21 U.S.C. 1901-1908; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note).
+
+Subpart G--Penalties.
+
+0
+2. Section 598.701 is amended by revising paragraph (a) introductory 
+text and paragraph (a)(3) to read as follows:
+
+
+Sec.  598.701  Penalties.
+
+    (a) Attention is directed to section 807 of the Foreign Narcotics 
+Kingpin Designation Act, which is applicable to violations of the 
+provisions of any license, rule, or regulation issued by or pursuant to 
+the direction or authorization of the Secretary of Treasury pursuant to 
+this part or otherwise under that Act. Section 807 of the Foreign 
+Narcotics Kingpin Designation Act, as adjusted pursuant to the Federal 
+Civil Penalties Inflation Adjustment Act of 1990 (Public Law
+
+[[Page 61362]]
+
+101-410, as amended, 28 U.S.C. 2461 note), provides that:
+* * * * *
+    (3) A civil penalty not to exceed $1,075,000 per violation may be 
+imposed by the Secretary of the Treasury on any person who violates any 
+license, order, rule, or regulation issued in compliance with the 
+provisions of the Foreign Narcotics Kingpin Designation Act.
+
+    Note to paragraph (a)(3). The current $1,075,000 civil penalty 
+cap may be adjusted for inflation pursuant to the Federal Civil 
+Penalties Inflation Adjustment Act of 1990.
+
+* * * * *
+
+    Dated: October 1, 2003.
+R. Richard Newcomb,
+Director, Office of Foreign Assets Control.
+    Approved: October 15, 2003.
+Juan C. Zarate,
+Deputy Assistant Secretary (Terrorist Financing and Financial Crimes), 
+Department of the Treasury.
+[FR Doc. 03-27074 Filed 10-23-03; 2:56 pm]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

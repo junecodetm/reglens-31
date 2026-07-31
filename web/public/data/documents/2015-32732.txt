@@ -1,0 +1,296 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 250 (Wednesday, December 30, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 250 (Wednesday, December 30, 2015)]
+[Rules and Regulations]
+[Pages 81463-81465]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-32732]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AA10
+
+
+Offset of Tax Refund Payments To Collect Past-Due Support
+
+AGENCY: Bureau of the Fiscal Service, Fiscal Service, Treasury.
+
+ACTION: Interim final rule with request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury), Bureau of the 
+Fiscal Service (Fiscal Service), is amending its regulation governing 
+the offset of tax refund payments to collect past-due support 
+obligations. This rule will limit the time period during which Treasury 
+may recover certain tax refund offset collections from States, when the 
+States have already forwarded such funds to custodial parents as 
+required or as authorized by applicable laws. This change will limit 
+the time period during which Treasury may require States to return the 
+offset funds to six months from the date of such collection, if 
+Treasury has determined that the underlying refund was not due to the 
+taxpayer.
+
+DATES: Effective Date.
+    This interim final rule is effective January 1, 2016.
+    Comment date. Comments must be received by February 29, 2016.
+
+ADDRESSES: You can download this interim rule at the following Web 
+site: <a href="http://www.fms.treas.gov/debt">http://www.fms.treas.gov/debt</a>. You may also inspect and copy this 
+interim rule at: Treasury Department Library, Freedom of Information 
+Act (FOIA) Collection, Room 1428, Main Treasury Building, 1500 
+Pennsylvania Avenue NW., Washington, DC 20220. Before visiting, you 
+must call (202) 622-0990 for an appointment.
+    In accordance with the U.S. government's eRulemaking Initiative, 
+Fiscal Service publishes rulemaking information on <a href="http://www.regulations.gov">www.regulations.gov</a>. 
+<a href="http://Regulations.gov">Regulations.gov</a> offers the public the ability to comment on, search, 
+and view publicly available rulemaking materials, including comments 
+received on rules.
+
+Instructions for Comment Submission
+
+    Comments on this rule, identified by docket FISCAL-2014-0005, 
+should only be submitted using the following methods:
+    <bullet> Federal eRulemaking Portal: <a href="http://www.regulations.gov">www.regulations.gov</a>. Follow 
+the instructions on the Web site for submitting comments. Fiscal 
+Service recommends using this method to submit comments since mail can 
+be subject to delays caused by security screening.
+    <bullet> Mail: Thomas Kobielus, Manager, Treasury Offset Program 
+Division, Debt Management Services, Bureau of the Fiscal Service, 401 
+14th Street SW., Room 220B, Washington, DC 20227. Please note that mail 
+may be delayed due to security screening.
+    The fax and email methods of submitting comments on rules to Fiscal 
+Service have been discontinued.
+    All submissions received must include the agency name (``Bureau of 
+the Fiscal Service'') and docket number FISCAL-2014-0005 for this 
+rulemaking.
+
+[[Page 81464]]
+
+In general, comments received will be published on <a href="http://Regulations.gov">Regulations.gov</a> 
+without change, including any business or personal information 
+provided. Comments received, including attachments and other supporting 
+materials, are part of the public record and subject to public 
+disclosure. Do not disclose any information in your comment or 
+supporting materials that you consider confidential or inappropriate 
+for public disclosure.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Kobielus, Manager, at (202) 
+874-6810, or Tricia Long, Senior Counsel, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    When a tax refund payment is issued and offset through the Treasury 
+Offset Program (TOP) to collect a delinquent child support debt owed by 
+the taxpayer, the taxpayer receives the benefit of the payment in the 
+form of a credit on the amount of debt owed. If the Internal Revenue 
+Service (IRS) subsequently determines that the taxpayer was not 
+entitled to that tax refund, the taxpayer is accordingly not entitled 
+to the credit on the debt owed. Currently, IRS has unlimited time 
+during which to require Fiscal Service to recover such erroneous offset 
+funds from the Federal or State agency which collected the funds. 
+Fiscal Service requires return of monies representing the offset from 
+State agencies notwithstanding the fact that the State agency may have 
+already forwarded such funds to the custodial parent.
+    States submit past-due support obligations to TOP both for 
+collection of support debts which have been assigned to the State 
+pursuant to 42 U.S.C. 608(a)(3) and on behalf of custodial parents, 
+pursuant to 42 U.S.C. 654(4). Collections for support debts collected 
+on behalf of custodial parents pursuant to 42 U.S.C. 654(4) are 
+required by 42 U.S.C. 657 to be forwarded by the States to the 
+custodial parent. By regulation, any of those collections resulting 
+from tax refund offsets must be forwarded within 30 calendar days of 
+initial receipt (unless the refund offset is based upon a joint return, 
+in which case, the State has six months). See 45 CFR 302.32(b)(3)(ii). 
+States also collect money as reimbursement for public assistance paid 
+to the family. States have the option, as authorized by 42 U.S.C. 657, 
+to forward such collections to custodial parents. Therefore, in many 
+cases, the States no longer have the funds in their possession to 
+return to Treasury. Under current procedures, States are required to 
+pay Treasury from their own funds, or Treasury may retain such amounts 
+from subsequent offset collections made on behalf of the States. This 
+rule will impose a six-month limit upon Treasury for seeking recoupment 
+from States for erroneous offset funds which have been forwarded to 
+custodial parents pursuant to 42 U.S.C. 657.
+    Following implementation of this rule, IRS and Fiscal Service will 
+continue to work with the Federal Office of Child Support Enforcement 
+(OCSE) and State child support agencies to assess the impact of this 
+interim final rule and to identify potential improvements in the tax 
+offset process, including the practice of recouping from States 
+erroneous offset funds that have been forwarded to custodial parents. 
+Once sufficient data respecting implementation of this new rule is 
+available, but in no case later than 2 years, Treasury will work with 
+OCSE to consider further reduction in the time limit placed upon it for 
+seeking recoupment from States.
+    The six-month limitation in this rule applies only to the offset of 
+tax refund payments to collect past-due support obligations when States 
+have forwarded the collected funds to the custodial parent. This rule 
+does not apply when States have retained the funds. This rule does not 
+apply to any other type of debt being collected by tax refund offset 
+under 31 CFR part 285. This rule does not affect Treasury's rights to 
+seek recovery of the erroneous offset funds from any person through any 
+other means permitted by law.
+    Fiscal Service developed this interim final rule in consultation 
+with the IRS and the Department of Health and Human Services (HHS) and 
+appreciates their assistance. As required by 42 U.S.C. 664(b)(1), HHS 
+has approved this interim final rule.
+
+II. Procedural Analyses
+
+Request for Comment on Plain Language
+
+    Executive Order 12866 requires each agency in the Executive branch 
+to write regulations that are simple and easy to understand. We invite 
+comment on how to make this interim rule clearer. For example, you may 
+wish to discuss: (1) Whether we have organized the material to suit 
+your needs; (2) whether the requirements of the rule are clear; or (3) 
+whether there is something else we could do to make this rule easier to 
+understand.
+
+Regulatory Planning and Review
+
+    The interim rule does not meet the criteria for a ``significant 
+regulatory action'' as defined in Executive Order 12866. Therefore, the 
+regulatory review procedures contained therein do not apply.
+
+Regulatory Flexibility Act Analysis
+
+    It is hereby certified that the interim rule will not have a 
+significant economic impact on a substantial number of small entities. 
+This rule merely provides a time frame for Treasury to require States 
+to return collections. Moreover, the provisions contained in this 
+interim rule impose no additional costs to small entities. Accordingly, 
+a regulatory flexibility analysis under the Regulatory Flexibility Act 
+(5 U.S.C. 601 et seq.) is not required.
+
+Unfunded Mandates Act of 1995
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995, 2 U.S.C. 
+1532 (Unfunded Mandates Act), requires that an agency prepare a 
+budgetary impact statement before promulgating any rule likely to 
+result in a Federal mandate that may result in the expenditure by 
+state, local, and tribal governments, in the aggregate, or by the 
+private sector, of $100 million or more in any one year. If a budgetary 
+impact statement is required, section 205 of the Unfunded Mandates Act 
+also requires the agency to identify and consider a reasonable number 
+of regulatory alternatives before promulgating the rule. We have 
+determined that this interim rule will not result in expenditures by 
+state, local, and tribal governments, in the aggregate, or by the 
+private sector, of $100 million or more in any one year. Accordingly, 
+we have not prepared a budgetary impact statement or specifically 
+addressed any regulatory alternatives.
+
+Federalism
+
+    This rule has been reviewed under Executive Order (EO) 13132, 
+Federalism. This rule relieves the States of an obligation to return 
+funds to the Federal Government after a certain time period when the 
+States have already forwarded the funds to custodial parents, as 
+required or authorized by applicable laws, and they no longer have such 
+funds. Treasury, with assistance from the Office of Child Support 
+Enforcement at the Department of Health and Human Services, consulted 
+with the States when developing this interim rule. Therefore, in 
+accordance with Executive Order 13132, it is determined that this rule 
+does not have sufficient federalism implications to warrant the 
+preparation of a federalism summary impact statement.
+
+[[Page 81465]]
+
+Administrative Procedure Act
+
+    This rule is being issued without prior public notice and comment 
+because under 5 U.S.C. 553(b) good cause exists to determine that prior 
+notice and comment rulemaking is unnecessary and contrary to the public 
+interest. The policy being implemented through this rule imposes a time 
+limitation on Treasury for recovering erroneous offset funds from 
+States that have forwarded such funds onto families. It relieves the 
+States of the burden of having to pay such amounts to Treasury from 
+their own funds and does not adversely affect the rights of the public.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Child support, Child 
+welfare, Claims, Credits, Debts, Disability benefits, Federal 
+employees, Garnishment of wages, Hearing and appeal procedures, Loan 
+programs, Privacy, Railroad retirement, Railroad unemployment 
+insurance, Salaries, Social Security benefits, Supplemental Security 
+Income (SSI), Taxes, Veterans' benefits, Wages.
+
+    For the reasons set forth in the preamble, 31 CFR part 285 is 
+amended as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+     Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 3720E; 42 U.S.C. 664; E.O. 
+13019, 61 FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. Amend Sec.  285.3 as follows:
+0
+a. Revise paragraph (g).
+0
+b. Redesignate paragraphs (h) through (k) as paragraphs (i) through 
+(l), respectively.
+0
+c. Add a new paragraph (h).
+    The revision and addition read as follows:
+
+
+Sec.  285.3  Offset of tax refund payments to collect past-due support.
+
+* * * * *
+    (g) Disposition of amounts collected. Fiscal Service will transmit 
+amounts collected for debts, less fees charged under paragraph (i) of 
+this section, to HHS or to the appropriate State. If IRS notifies 
+Fiscal Service that a tax refund payment that was offset was erroneous 
+or otherwise not due to the taxpayer, Fiscal Service will notify HHS or 
+the appropriate State that the tax refund payment was not eligible for 
+offset. Subject to paragraph (h) of this section, Fiscal Service may 
+deduct the amount of the erroneous offset funds from amounts payable to 
+HHS or the State, as the case may be; or, upon Fiscal Service's 
+request, the State shall return promptly to the affected taxpayer or 
+Fiscal Service an amount equal to the amount of the erroneous funds 
+(unless the State previously has forwarded such amounts, or any portion 
+of such amounts, to the affected taxpayer). HHS and States shall notify 
+Fiscal Service any time HHS or a State returns an erroneous offset 
+payment to an affected taxpayer. Fiscal Service and HHS, or the 
+appropriate State, will adjust their debtor records accordingly.
+    (h) Time limitation. If IRS notifies Fiscal Service on or after 
+January 1, 2016, that a tax refund payment that was offset was 
+erroneous or otherwise not due to the taxpayer, Fiscal Service shall 
+not deduct the amount of the erroneous offset funds from amounts due to 
+HHS or the State, or otherwise demand return of the offset funds from 
+the State pursuant to paragraph (g) of this section, if the date of 
+IRS's notification to Fiscal Service in paragraph (g) is more than six 
+months after the date the tax refund was offset (i.e., the tax refund 
+payment date); and the State has already forwarded the funds as 
+required or authorized by 42 U.S.C. 657. This paragraph does not apply 
+to paragraph (f) of this section.
+
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2015-32732 Filed 12-29-15; 8:45 am]
+ BILLING CODE 4810-AS-P
+
+
+</pre></body>
+</html>

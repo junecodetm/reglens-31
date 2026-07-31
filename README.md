@@ -1,79 +1,88 @@
 # RegLens-31
 
-A solo-built, zero-cost, auditable prototype that ingests U.S. federal regulatory data and extracts structured, individually source-verified regulatory obligations — with a real evaluation harness and governance-as-code. Every extracted claim carries a verbatim source span; a deterministic, fail-closed provenance gate rejects any claim it cannot prove against the primary source. Inference runs entirely locally on Apple Silicon: no third-party AI data egress.
+RegLens-31 is a zero-cost, auditable prototype that ingests public U.S. federal regulatory material and extracts structured, individually source-verified obligations. It combines local-only extraction, statutory-authority classification, two-sided *Loper Bright* marker retrieval, parameterized rule drafting, review memoranda, evaluation with uncertainty intervals, and governance controls. The project is an independent working mockup aligned to Treasury AI use case OGC-01, not the OGC-01 system; it uses no Treasury-internal information, makes no deregulatory recommendation, and draws no legal conclusion.
 
-The site is an **independent working mockup aligned to U.S. Treasury AI use case OGC-01** ("Regulatory Reform Tool" — the only General Counsel entry, and one of four high-impact entries, in Treasury's [public AI Use Case Inventory](https://home.treasury.gov/data/ai_inventory)). The site's "About this demonstration" section on the Overview page quotes the inventory row verbatim from a content-addressed snapshot and maps each stated output to the module demonstrating its neutral equivalent. It is a mockup, not the OGC-01 system: no connection, no Treasury-internal information, no deregulatory recommendations.
+**Live site:** [https://reglens-31.pages.dev](https://reglens-31.pages.dev)
 
-**Live demo:** https://reglens-31.pages.dev — a pre-computed static export; loads cold with no backend and no API key. Six pages in narrative order: an Overview that shows one real accepted claim (with its highlighted source span), one real rejection (with a word-level diff against the closest source passage), and ends with the "About this demonstration" provenance section; **Search & browse**; **Extracted obligations** (document picker, accepted/rejected toggle, and per-rejection evidence); **Statutory authority** (citations / shared authorities / grounding markers as tabs); **Draft skeletons**; and **Evaluation**. Every page opens with a plain-language lead, and jargon carries click-to-expand definitions.
+The deployed site is a pre-computed static export. Its core pages and read API require no backend, account, or API key.
 
-## Demo
+## Quickstart
 
-**Zero-friction path (clean clone):**
-
-```
-just setup   # uv sync + npm install + pull the pinned local model (network, one time)
-just demo    # serve the pre-built static site locally — offline, no API key
+```sh
+just setup  # install Python/web dependencies and the pinned local model
+just demo   # serve the committed static export
 ```
 
-The demo makes no network calls: all data ships as static assets. `just extract` re-runs the local pipeline end-to-end (requires Ollama with `qwen3:8b`).
+No API key is required. After the one-time setup downloads, `just demo` operates fully offline.
 
-## What the reviewer is looking at
+Live drafting is optional. To enable the Groq-backed drafting workflow, place the following values in the gitignored `.env` file:
 
-1. **Obligation extraction with a fail-closed provenance gate** (`reglens/provenance.py`). A local model (qwen3:8b via Ollama, temperature 0, JSON-schema-constrained) proposes obligations with verbatim quotes; a deterministic normalizer (character-wise NFKC + whitespace collapse, documented in the module) accepts a claim only if its quote is an exact substring of the source — and maps it back to exact highlight offsets. Anything unverifiable is **rejected and counted, never hidden**: the UI banner shows the rejection count, and a transparency section lists every rejected claim with its reason.
-2. **Evaluation with honest uncertainty** (`reglens/eval/`). Provision-level P/R/F1 against a 251-provision gold set with 95% Wilson intervals, clustered (by-document) bootstrap intervals, ICC/design-effect-adjusted effective n, and Cohen's kappa. Gold labels are machine-proposed and explicitly labeled **Provisional** until human-adjudicated (`docs/ADJUDICATE.md`); the adjudicated count is wired to the versioned JSONL, so the label restates itself as adjudication proceeds. A CI gate re-runs the eval from committed fixtures at $0 and fails on F1 regression or any citation-fidelity defect.
-3. **Security & governance as code**: SHA-pinned least-privilege workflows, CodeQL + semgrep + gitleaks + pip-audit + osv-scanner, CycloneDX SBOM, a runtime data-source allow-list, and a zero-cost invariant checker that fails the build if a non-allow-listed dependency, action, or external host appears.
-4. **OGC-01 extension — authority, grounding, drafting** (EXTEND-OGC01; mapped to Treasury AI use case OGC-01 "Regulatory Reform Tool" in [docs/OGC01-ALIGNMENT.md](docs/OGC01-ALIGNMENT.md)):
-   - **Statutory authority linker** (`reglens/authority/`): each part's authority citation parsed with exact spans, every cited U.S.C. section resolved against a pinned OLRC USLM release point, and the operative grant classified {mandatory, discretionary, silent, unresolved} by a published deterministic pattern table — the verbatim statutory verb phrase is gate-verified, unresolvable citations fail closed, and note/Pub. L./E.O. citations are a separate coverage category.
-   - **Two-sided grounding signal** (`reglens/grounding/`): exact gate-verified marker spans in two equal-weight families (deference-reliance AND grounding-strength) plus neutral per-rule facts; bands are textual-marker density only — retrieval, never prediction.
-   - **Draft rule skeletons** (`reglens/draft/`): DDH-conformant NPRM/final skeletons — deterministic structure, visible `[PLACEHOLDER — attorney to complete]` blocks for every required analysis, a labeled model-generated narrative, and a conformance checker (fabrication scan + quote gate) that rejects rather than caveats.
-   - Governance crosswalk: [docs/M25-21-CROSSWALK.md](docs/M25-21-CROSSWALK.md) (OMB M-25-21 §4(b) minimum practices + NIST AI 600-1 Confabulation/Information Integrity).
-5. **OGC-01 mockup framing, on the Overview page** (`web/app/components/AboutSection.tsx` + `reglens/use_case_inventory.py`): the "About this demonstration" section of the Overview quotes Treasury's OGC-01 inventory row verbatim from a pinned, content-addressed snapshot of the official CSV (provenance shown: source URL, fetch date, SHA-256), states why this use case was chosen with numbers computed from the snapshot rather than hand-typed, and links each inventory-stated output to the module page that demonstrates it — with the source file's "Looper Bright" typo reproduced verbatim and flagged [sic].
-6. **Blueprint-alignment additions** ([docs/BLUEPRINT-ALIGNMENT.md](docs/BLUEPRINT-ALIGNMENT.md) maps an aspirational enterprise blueprint to what is realized, its neutral equivalent, or its documented exclusion):
-   - **Client-side lexical search** over claims, U.S. Code sections, CFR sections, and drafts — a precomputed static inverted index (`reglens/search_index.py`), BM25-scored in the browser, exact-term matching, no backend and no model involvement.
-   - **Hierarchy browser**: Title 31 → part → section navigation (`reglens/structure.py` splits each part's exact published text into offset-validated section spans).
-   - **Authority cross-references**: each part ↔ its cited U.S. Code sections, both directions, shared authorities surfaced — retrieval only, not an impact analysis.
-   - **APA procedural checklist + per-draft provenance dossier**: named structural checks (authority citation, basis-and-purpose elements, comment-period/effective-date reference, all three OFR amendatory verb forms) and a replay dossier per draft (model, decoding parameters, prompt/system/input SHA-256).
-
-## Setup & run
-
-```
-just setup       # uv sync, web npm install, ollama pull qwen3:8b
-just ingest      # snapshot Federal Register + eCFR Title 31 sources (allow-listed only)
-just extract     # local extraction + provenance gate -> data/processed/claims.json
-just authority   # authority citations -> USLM resolution -> classification
-just grounding   # two-sided grounding-marker retrieval
-just draft       # DDH rule skeletons + conformance gates
-just eval        # metrics + Wilson/bootstrap CIs (core + OGC-01) -> web/public/data/
-just build-web   # export data + Next.js static export -> web/out
-just demo        # serve web/out locally, fully offline
-just ci          # lint + types + tests + zero-cost check
+```dotenv
+REGLENS_GROQ_API_KEY=your_key
+REGLENS_DRAFT_PROVIDER=groq
 ```
 
-Full command surface: [docs/COMMANDS.md](docs/COMMANDS.md).
+Extraction remains local-only. The pinned Groq free-tier model is limited to the short draft and memorandum narrative stages and the optional live drafting endpoint.
 
-## Approach, tools, and assumptions
+## Capabilities
 
-- **Approach:** provenance-gated extraction as an auditable correctness floor (citation grounding is a commodity; running the check deterministically, fail-closed, and locally is the point), local-first inference as a data-sovereignty posture, and evaluation/governance as first-class deliverables. Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/EVALUATION.md](docs/EVALUATION.md), [docs/GOVERNANCE.md](docs/GOVERNANCE.md), [docs/SECURITY.md](docs/SECURITY.md).
-- **Tools:** Python 3.13 + uv + ruff + pyright strict + pydantic v2; Ollama (qwen3:8b, temp 0, JSON-schema `format`); Next.js 15 static export + react-uswds; GitHub Actions + Cloudflare Pages (free tiers, no card anywhere). Audited stack: [docs/STACK.md](docs/STACK.md).
-- **Assumptions & falsification tests:** [docs/BUILD_PLAN.md](docs/BUILD_PLAN.md). Deviations are recorded in [docs/PROGRESS.md](docs/PROGRESS.md).
-- **Determinism:** content-addressed raw snapshots (SHA-256), pinned model tag, temperature 0, fixed seed, recorded prompt/input hashes; re-running a step on the same input SHA is a no-op.
+- **Provenance-gated extraction.** A schema-constrained local model proposes obligations with verbatim quotations. `reglens/provenance.py` accepts a claim only when the normalized quotation is an exact source substring and maps it back to exact display offsets. Unverifiable claims are rejected, counted, and exposed for review.
 
-## Honest limitations
+- **Statutory-authority classification.** `reglens/authority/` resolves cited U.S.C. sections against pinned OLRC USLM text and classifies the operative grant as mandatory, discretionary, silent, or unresolved. Classification spans are verified against the source; unresolved or unverifiable citations fail closed.
 
-- **Gold labels are provisional.** Machine-proposed, human adjudication in progress; every metric carries the label until done. The reported kappa is agreement between two different frontier models (frozen proposal passes) applying the written guidelines — not human inter-annotator agreement, which awaits adjudication.
-- **Extraction coverage is bounded.** Very long documents are extracted up to a disclosed per-document cap; `total_chars`/`extracted_chars` are recorded per document.
-- **Local-model extraction accuracy is a known hard problem** — which is exactly why the provenance gate (precision floor) and the eval harness (honest measurement) exist.
-- Prototype scope: assistive, human-in-the-loop; not a sanctions-screening product, not legal advice.
-- The OFAC 50% Rule ownership-graph module was de-scoped from this build (see docs/PROGRESS.md); the entity-resolution analysis and its caveats remain documented in [docs/ENTITY_RESOLUTION.md](docs/ENTITY_RESOLUTION.md).
-- **The OGC-01 extension makes no legal conclusions and predicts nothing.** Classification is deterministic pattern retrieval with measured accuracy; marker bands are phrase-frequency facts; skeletons contain structure, not substance. The full limitations list — the most important section for that work — is [docs/OGC01-ALIGNMENT.md](docs/OGC01-ALIGNMENT.md).
+- **Two-sided *Loper Bright* markers.** `reglens/grounding/` retrieves deference-reliance and grounding-strength markers with equal weight. Counts, density bands, and rule facts describe text for attorney review; they do not predict validity or judicial outcomes.
 
-## Demo staleness
+- **Review memoranda.** `reglens/memo.py` assembles deterministic evidence for each in-scope part and adds a clearly labeled model-generated narrative. Narrative gates require both marker families and reject quotations, numerals, and fabrication patterns; deterministic evidence remains available if prose is rejected.
 
-The deployed demo is a pre-computed static export of a dated snapshot (the "data as of" date is shown in the site footer); it does not update live. Refresh/retirement policy: `governance/monitoring_plan.md`.
+- **Parameterized drafting.** The drafting grid covers five parts crossed with NPRM and final-rule formats. Every committed draft passes structural, placeholder-integrity, quotation, fabrication, authority, and set-out checks. The optional `/api/draft` endpoint accepts a part, rule type, and bounded policy objective, applies an in-browser gate subset, and falls back to the committed conformance-gated draft when generation is unavailable or rate-limited.
 
-## Data sources & licensing
+- **Evaluation with uncertainty.** `reglens/eval/` reports provision-level precision, recall, and F1 with 95% Wilson and document-clustered bootstrap intervals, ICC/design effect, citation fidelity, and Cohen's kappa. Results carry the label **Provisional — machine-proposed labels, human-adjudicated: 0/251** until adjudication changes the versioned count. Reported kappa is cross-model agreement between two different frontier models applying the written guidelines, never human inter-annotator agreement.
 
-Only the allow-listed public sources in [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) are ever fetched (enforced at runtime by `reglens/ingest/allowlist.py`). This build uses the Federal Register API and eCFR Title 31 (U.S. Government public domain). Code is Apache-2.0 ([LICENSE](LICENSE)); data provenance and attribution: [DATA_LICENSE.md](DATA_LICENSE.md).
+- **Static read API.** The same exported artifacts used by the site are published as typed JSON under [`/api/v1/`](https://reglens-31.pages.dev/api/v1/index.json), with a generated [OpenAPI 3.1 document](https://reglens-31.pages.dev/api/v1/openapi.json). The API includes corpus metadata, documents, materialized claim pages, CFR sections, currency data, and evaluation metrics.
+
+- **Review interface.** The site provides source-span inspection, accepted/rejected evidence, filters for obligation type and affected party, free-text filtering, authority cross-references, review signals, memorandum panels, corpus search, and eCFR currency information.
+
+## Operating boundaries
+
+- The corpus contains every Federal Register final rule identified by the stated CFR-index rule for the five in-scope parts, subject to the documented pre-1994 metadata limitation. `reglens/corpus.py` defines the local extraction sample as the five part texts and in-scope Federal Register documents published in 2026. Completion of that sample and regeneration of its derived artifacts are submission gates in [docs/CHECKLIST.md](docs/CHECKLIST.md).
+
+- The extraction contract reads the five CFR part texts in full and caps Federal Register inputs at 80,000 characters for tractability. Completed records carry total and extracted character counts for display.
+
+- Local-model extraction accuracy remains a material limitation. The provenance gate establishes a citation-fidelity floor but does not establish semantic correctness; the evaluation harness measures the remaining errors.
+
+- Machine-proposed evaluation labels are not ground truth. Human adjudication is incomplete, and human inter-annotator agreement is not reported.
+
+- Authority classes and marker bands are retrieval outputs, not legal determinations. The project does not perform judicial-outcome prediction, produce ranked repeal lists, or identify legal vulnerability.
+
+- The deployed corpus is a dated static snapshot. Currency reporting compares the five ingested parts with eCFR amendment data and does not measure Federal Register staleness or the legal significance of an amendment.
+
+- Live draft output passes only the documented in-browser subset of the full conformance gate. It is labeled accordingly; failures and shared free-tier quota exhaustion return the committed, fully gated draft.
+
+- The static API has no runtime query engine. Filtering and pagination are materialized during export.
+
+- The OFAC 50% ownership graph is de-scoped. Its entity-resolution design and limitations remain in `docs/ENTITY_RESOLUTION.md`; the project is not a sanctions-screening system.
+
+## Data sources and licensing
+
+Runtime allow-list enforcement limits ingestion to the public sources documented in [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), including Federal Register, eCFR, OLRC U.S. Code release points, and pinned federal drafting and governance references.
+
+Code is licensed under [Apache-2.0](LICENSE). [DATA_LICENSE.md](DATA_LICENSE.md) records source provenance and data terms. OpenSanctions data is not used in this build; its CC-BY-NC 4.0 non-commercial restriction and attribution requirement remain documented because the de-scoped entity-resolution design evaluates it as a possible source.
+
+## Documentation
+
+- [Architecture and data flow](docs/ARCHITECTURE.md)
+- [Command surface](docs/COMMANDS.md)
+- [Security and threat model](docs/SECURITY.md)
+- [Technology stack and zero-cost controls](docs/STACK.md)
+- [Data sources and exclusions](docs/DATA_SOURCES.md)
+- [Evaluation methodology](docs/EVALUATION.md)
+- [Annotation and adjudication protocol](docs/ANNOTATION_GUIDELINES.md)
+- [Governance mapping](docs/GOVERNANCE.md)
+- [OGC-01 alignment and framing constraints](docs/OGC01-ALIGNMENT.md)
+- [Blueprint realization map](docs/BLUEPRINT-ALIGNMENT.md)
+- [M-25-21 crosswalk](docs/M25-21-CROSSWALK.md)
+- [Submission checklist and scope decisions](docs/CHECKLIST.md)
+- [Contribution workflow](CONTRIBUTING.md)
 
 ## Disclaimer
 

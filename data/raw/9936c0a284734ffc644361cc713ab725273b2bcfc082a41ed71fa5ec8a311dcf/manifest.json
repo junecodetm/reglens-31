@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "ecfr-currency",
+  "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=285",
+  "fetched_at": "2026-07-30T17:57:09.047613+00:00",
+  "sha256": "9936c0a284734ffc644361cc713ab725273b2bcfc082a41ed71fa5ec8a311dcf",
+  "content_type": "application/json",
+  "filename": "ecfr-versions-31-285.json"
+}

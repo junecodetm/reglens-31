@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 import { AboutSection } from "./components/AboutSection";
+import { CorpusScope } from "./components/CorpusScope";
 import { LegacyHashRedirect } from "./components/shell/LegacyHashRedirect";
 import { recordRouteMount } from "./components/shell/route-mount-state";
 import {
@@ -32,25 +33,25 @@ const MODULE_CARDS: readonly TaskCard[] = [
     title: "Extracted obligations",
     href: "/obligations",
     description:
-      "Every regulatory obligation the extractor found, organized by document — see the exact source sentence behind each one, and every claim the provenance gate rejected, with proof.",
+      "Extracted obligations organized by document, each linked to its verbatim source sentence, with every rejected claim displayed as evidence.",
   },
   {
     title: "Statutory authority",
     href: "/authorities",
     description:
-      "What statute authorizes each regulation, whether that statute's language is mandatory or discretionary, and the textual markers found in rule preambles — presented two-sided, with no conclusions drawn.",
+      "Each regulation's cited statutory authority resolved into the U.S. Code and classified, with two families of preamble markers presented at equal weight.",
   },
   {
     title: "Draft rule skeletons",
     href: "/drafts",
     description:
-      "Document Drafting Handbook–structured drafts with a fail-closed conformance gate; the model writes only two labeled narrative fields, everything else is deterministic scaffolding or verbatim-verified text.",
+      "Document Drafting Handbook–structured skeletons for every in-scope part and rule type, each checked by a fail-closed conformance gate.",
   },
   {
     title: "Evaluation",
     href: "/evaluation",
     description:
-      "How accurate the extractor is, measured against a labeled sample and reported with confidence intervals — including the modules above. Labels are machine-proposed and marked provisional.",
+      "Extractor accuracy measured on a labeled sample and reported with confidence intervals; labels are machine-proposed and marked provisional.",
   },
 ];
 
@@ -77,7 +78,7 @@ const PIPELINE_STEPS: readonly { name: string; detail: string }[] = [
   {
     name: "Publish",
     detail:
-      "A pre-computed static export — the deployed site never calls a backend, a model, or an API key.",
+      "A pre-computed static export: every page renders without a live service, and the one optional live call — draft narrative generation — falls back to the committed drafts.",
   },
 ];
 
@@ -144,15 +145,15 @@ export function OverviewContent() {
               RegLens-31
             </h1>
             <p>
-              This tool reads real Treasury regulations, extracts the
-              specific obligations inside them — who must do what — and
-              proves each one against the government&apos;s own published
-              text before showing it to you. Anything it can&apos;t prove is
-              rejected and shown as evidence, not hidden.
+              RegLens-31 reads published Treasury regulations and extracts the
+              specific obligations they impose — who must do what. Every extracted
+              claim is checked against the government&apos;s published text; a claim
+              that fails the check is rejected, counted, and shown with the
+              comparison.
             </p>
             <p>
-              It&apos;s a working mockup of a real Treasury AI use case —
-              OGC-01, the &ldquo;Regulatory Reform Tool&rdquo; — built
+              The tool is an independent demonstration of one documented Treasury AI
+              use case — OGC-01, the &ldquo;Regulatory Reform Tool&rdquo; — built
               entirely from public sources. See{" "}
               <Link href="#about">About this demonstration</Link> for the
               source record.
@@ -182,6 +183,8 @@ export function OverviewContent() {
         </div>
       </header>
 
+      <CorpusScope />
+
       <section
         className="overview-section overview-example"
         aria-labelledby="overview-example"
@@ -190,7 +193,7 @@ export function OverviewContent() {
         <h2 id="overview-example">
           See it work: one accepted claim, one rejected claim
         </h2>
-        <p>Every number above comes from real extractions like these two.</p>
+        <p>The totals above are computed from extractions such as these two.</p>
 
         {exampleState.status === "loading" ||
         exampleState.status === "idle" ? (
@@ -212,7 +215,7 @@ export function OverviewContent() {
               aria-label="An accepted claim"
             >
               <p className="overview-example-label">
-                Accepted — the quote below is verbatim in the source
+                Accepted — the quoted text appears verbatim in the source
               </p>
               <p className="overview-example-summary">
                 {example.accepted.summary}
@@ -246,7 +249,8 @@ export function OverviewContent() {
               aria-label="A rejected claim"
             >
               <p className="overview-example-label">
-                Rejected — the model got this wrong, here&apos;s the proof
+                Rejected — the quoted text does not appear in the source; the
+                comparison shows the difference
               </p>
               <p className="overview-example-summary">
                 {example.rejected.summary}

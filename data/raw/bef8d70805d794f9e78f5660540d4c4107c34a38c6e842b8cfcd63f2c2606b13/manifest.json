@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1997/10/08/97-26787.txt",
+  "fetched_at": "2026-07-30T14:10:21.254440+00:00",
+  "sha256": "bef8d70805d794f9e78f5660540d4c4107c34a38c6e842b8cfcd63f2c2606b13",
+  "content_type": "text/plain",
+  "filename": "97-26787.txt"
+}

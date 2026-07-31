@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/api/v1/documents/98-23093.json",
+  "fetched_at": "2026-07-30T14:10:27.954714+00:00",
+  "sha256": "6c8ff684d889722db63b55bd6a335ab050b5dce706b70b2ea3fa86af3ce41a7d",
+  "content_type": "application/json",
+  "filename": "98-23093.json"
+}

@@ -1,0 +1,1862 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 215 (Monday, November 9, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 215 (Monday, November 9, 2009)]
+[Rules and Regulations]
+[Pages 57593-57608]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-26754]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Economic Sanctions Enforcement Guidelines
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control (OFAC) of the U.S. 
+Department of the Treasury is issuing this final rule, ``Economic 
+Sanctions Enforcement Guidelines,'' as enforcement guidance for persons 
+subject to the requirements of U.S. sanctions statutes, Executive 
+orders, and regulations. This rule was published as an interim final 
+rule with request for comments on September 8, 2008. This final rule 
+sets forth the Enforcement Guidelines that OFAC will follow in 
+determining an appropriate enforcement response to apparent violations 
+of U.S. economic sanctions programs that OFAC enforces. These 
+Enforcement Guidelines are published as an Appendix to the Reporting, 
+Procedures and Penalties Regulations.
+
+DATES: This final rule is effective November 9, 2009.
+
+FOR FURTHER INFORMATION CONTACT: Elton Ellison, Assistant Director, 
+Civil Penalties, (202) 622-6140 (not a toll-free call).
+
+SUPPLEMENTARY INFORMATION: 
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available from OFAC's Web site (<a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>) or via 
+facsimile through a 24-hour fax-on-demand service, tel.: (202) 622-
+0077.
+
+Procedural Requirements
+
+    Because this final rule imposes no obligations on any person, but 
+only explains OFAC's enforcement policy and procedures based on 
+existing substantive rules, prior notice and public comment are not 
+required pursuant to 5 U.S.C. 553(b)(A). Because no notice of proposed 
+rulemaking is required, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. chapter 6) do not apply. This final rule is not a 
+significant regulatory action for purposes of Executive Order 12866.
+    Although a prior notice of proposed rulemaking was not required, 
+OFAC solicited comments on this final rule in order to consider how it 
+might make improvements to these Guidelines. OFAC received a total of 
+11 comments.
+    The collections of information related to the Reporting, Procedures 
+and Penalties Regulations have been previously approved by the Office 
+of Management and Budget (OMB) under control number 1505-0164. A small 
+adjustment to that collection was submitted to OMB in order to take 
+into account the voluntary self-disclosure process set forth in the 
+Guidelines. An agency may not conduct or sponsor, and a person is not 
+required to respond to, a collection of information unless it displays 
+a valid control number assigned by OMB. This collection of information 
+is referenced in subpart I of Part I, subpart G of part III and subpart 
+B of part V of these Guidelines, which will constitute the new Appendix 
+to part 501. The referenced subparts explain that the voluntary self-
+disclosure of an apparent violation to OFAC will be considered in 
+determining the appropriate agency response to the apparent violation 
+and, in cases where a civil monetary penalty is deemed appropriate, the 
+penalty amount. As set forth in subpart B of part V of the Guidelines, 
+an apparent violation involving a voluntary self-disclosure will result 
+in a base penalty amount at least 50 percent less than the base penalty 
+amount in similar cases that do not involve a voluntary self-
+disclosure. This provides an incentive for persons who have or may have 
+violated economic sanctions laws to voluntarily provide OFAC 
+information that it can use to better implement its economic sanctions 
+programs. The submitters who will likely seek to avail themselves of 
+the benefits of voluntary self-disclosure are businesses, other 
+entities, and individuals who find that they have or may have violated 
+a sanctions prohibition and wish to disclose their actual or potential 
+violation.
+    The estimated total annual reporting and/or recordkeeping burden: 
+1,250 hours. The estimated annual burden per respondent/record keeper: 
+10 hours. Estimated number of respondents and/or record keepers: 125. 
+Estimated annual frequency of responses: Once or less, given that OFAC 
+expects that persons who voluntarily self disclose their violations 
+will take better care to avoid future violations.
+
+[[Page 57594]]
+
+Background
+
+    The primary mission of OFAC is to administer and enforce economic 
+sanctions against targeted foreign countries and regimes, terrorists 
+and terrorist organizations, weapons of mass destruction proliferators, 
+narcotic traffickers, and others, in furtherance of U.S. national 
+security, foreign policy, and economic objectives. OFAC acts under 
+Presidential national emergency powers, as well as specific 
+legislation, to prohibit transactions and block (or ``freeze'') assets 
+subject to U.S. jurisdiction. Economic sanctions are designed to 
+deprive the target of the use of its assets and to deny it access to 
+the U.S. financial system and the benefits of trade, transactions, and 
+services involving U.S. markets, businesses, and individuals. These 
+same authorities have also been used to protect certain assets subject 
+to U.S. jurisdiction and to further important U.S. nonproliferation 
+goals.
+    OFAC administers and enforces economic sanctions programs pursuant 
+to Presidential and statutory authorities. OFAC is responsible for 
+civil investigation and enforcement of economic sanctions violations 
+committed by Subject Persons, as defined in the Guidelines. Where 
+appropriate, OFAC may coordinate its investigative and enforcement 
+activities with federal, state, local and/or foreign regulators and/or 
+law enforcement agencies. Active enforcement of these programs is a 
+crucial element in preserving and advancing the national security, 
+foreign policy, and economic objectives that underlie these 
+initiatives. Among other things, penalties, both civil and criminal, 
+are intended to serve as a deterrent to conduct that undermines the 
+goals of sanctions programs.
+    On January 29, 2003, OFAC published, as a proposed rule, generally 
+applicable Economic Sanctions Enforcement Guidelines, as well as a 
+proposed Appendix to the Cuban Assets Control Regulations (CACR) 
+providing a schedule of proposed civil monetary penalties for certain 
+violations of the CACR (Cuba Penalty Schedule). Though this proposed 
+rule was not finalized, OFAC used the generally applicable guidelines 
+set forth therein as a general framework for its enforcement actions 
+and the Cuban Penalty Schedule as a framework for the imposition of 
+civil monetary penalties for the violations of the CACR described 
+therein. On January 12, 2006, OFAC published, as an interim final rule, 
+Economic Sanctions Enforcement Procedures for Banking Institutions, 
+which withdrew the January 29, 2003, proposed rule to the extent that 
+it applied to banking institutions, as defined in the interim final 
+rule.
+    On October 16, 2007, the President signed into law the 
+International Emergency Economic Powers Enhancement Act (Enhancement 
+Act),\1\ substantially increasing the maximum penalties for violations 
+of the International Emergency Economic Powers Act (IEEPA),\2\ a 
+principal statutory authority for most OFAC sanctions programs. The 
+increased maximum penalty amounts set forth in the Enhancement Act, as 
+well as its application to pending cases involving apparent violations 
+of IEEPA, prompted the development of new Guidelines for determining an 
+appropriate enforcement response to apparent violations of sanctions 
+programs enforced by OFAC, and, in cases involving civil monetary 
+penalties, for determining the amount of any civil monetary penalty.
+---------------------------------------------------------------------------
+
+    \1\ Public Law 110-96, 121 Stat. 1011 (October 16, 2007) 
+(amending 50 U.S.C. 1705).
+    \2\ 50 U.S.C. 1701-06.
+---------------------------------------------------------------------------
+
+    On September 8, 2008, OFAC published an interim final rule (73 FR 
+51933) setting forth Economic Sanctions Enforcement Guidelines as 
+enforcement guidance for persons subject to the requirements of U.S. 
+sanctions statutes, Executive orders, and regulations. The Guidelines 
+set forth in the interim final rule superseded the enforcement 
+procedures for banking institutions set forth in the interim final rule 
+of January 12, 2006, which was withdrawn, as well as the proposed 
+guidelines set forth in the proposed rule of January 29, 2003, which 
+was also withdrawn, with the exception of the Cuba Penalty Schedule. 
+(Those withdrawn enforcement procedures and guidelines continue to 
+apply to the categories of cases identified in, and as provided in, 
+OFAC's November 27, 2007 Civil Penalties--Interim Policy and OFAC's 
+October 28, 2008 Civil Penalties--Revised Interim Policy, both of which 
+are available on OFAC's Web site, <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>. Those 
+Interim Policies provide that the withdrawn enforcement procedures 
+generally apply to cases (a) in which a Pre-Penalty Notice was mailed 
+before October 16, 2007, when the Enhancement Act became law; (b) where 
+a tentative settlement amount had been communicated and memorialized; 
+(c) where a party agreed to a tolling or waiver of the statute of 
+limitations, which otherwise would have expired before October 16, 
+2007; and (d) in which a Pre-Penalty Notice was mailed, or a settlement 
+tentatively reached, prior to the September 8, 2008, publication of the 
+interim final rule.) In all cases in which a Pre-Penalty Notice has 
+been issued prior to the publication of this final rule, the case will 
+continue to be processed in accordance with the enforcement guidelines 
+pursuant to which such Pre-Penalty Notice was issued. The interim final 
+rule also solicited comments on the Guidelines set forth therein.
+    OFAC hereby publishes an amended version of the Enforcement 
+Guidelines as a final rule. These Enforcement Guidelines are published 
+as an Appendix to the Reporting, Procedures and Penalties Regulations, 
+31 CFR part 501. Except as noted above, the Guidelines set forth herein 
+are applicable to all persons subject to any of the sanctions programs 
+administered by OFAC. The Guidelines set forth in this final rule are 
+not applicable to penalty or enforcement actions by other agencies 
+based on the same underlying course of conduct, the disposition of 
+goods seized by Customs and Border Protection, or the release of 
+blocked property by OFAC.
+    The Guidelines set forth in this final rule are applicable to all 
+enforcement matters currently pending before OFAC or that will come 
+before OFAC in the future, whether such matters fall under IEEPA or any 
+of the other statutes pursuant to which OFAC is authorized to enforce 
+sanctions (including, but not limited to, the Trading With the Enemy 
+Act), with the exception of those categories of cases set forth in 
+OFAC's November 27, 2007 Civil Penalties--Interim Policy and OFAC's 
+October 28, 2008 Civil Penalties--Revised Interim Policy. The 
+Guidelines reflect the factors that OFAC will consider in determining 
+the appropriate enforcement response to an apparent violation of an 
+OFAC sanctions program, and those factors are consistent across 
+programs. The civil penalty provisions of the Guidelines take into 
+account the maximum penalties available under the various statutes 
+pursuant to which OFAC is authorized to enforce its sanctions programs.
+
+Summary of Comments
+
+    OFAC received eleven sets of comments on the interim final rule, 
+from the following organizations: The American Bar Association, the 
+Association of Corporate Credit Unions, the American Insurance 
+Association, the British Bankers' Association, the Clearing House 
+Association, the Credit Union National Association, the Industry 
+Coalition on Technology Transfer, the Institute of International
+
+[[Page 57595]]
+
+Bankers, the National Foreign Trade Council, the Securities Industry 
+and Financial Markets Association, and a joint submission from the 
+American Bankers Association and the Bankers Association for Finance 
+and Trade.\3\
+---------------------------------------------------------------------------
+
+    \3\ Several of the comments were received after the November 7, 
+2008, deadline for submission of comments. Those comments are 
+nevertheless addressed herein.
+---------------------------------------------------------------------------
+
+    Eight comments addressed the definition of voluntary self-
+disclosure. Although the final rule slightly amends this definition, it 
+does not do so in the ways suggested by the comments. Six comments 
+questioned a perceived move away from risk-based compliance, based on 
+OFAC's withdrawal of the 2006 interim final rule setting forth Economic 
+Sanctions Enforcement Procedures for Banking Institutions, and the risk 
+matrices that were issued as an annex to that interim final rule. In 
+response, OFAC is reissuing a slightly edited and consolidated risk 
+matrix as an annex to the Enforcement Guidelines and clarifying that 
+the adequacy of a Subject Person's risk-based compliance program will 
+be considered among the General Factors considered by OFAC. Five 
+comments noted that OFAC should not consider a Subject Person's 
+entering into or refusing to enter into an agreement tolling the 
+statute of limitations in an assessment of the Subject Person's 
+cooperation with OFAC. In response, OFAC is amending the Guidelines to 
+make clear that while entering into a tolling agreement may be a basis 
+for mitigating the enforcement response or lowering the penalty amount, 
+a Subject Person's refusal to enter into such an agreement will not be 
+considered against the Subject Person. Two comments simply commended 
+OFAC on the Guidelines. Other comments addressed other aspects of the 
+Guidelines.
+
+Specific Responses to Comments
+
+    The comments received, OFAC's response to those comments, and 
+OFAC's revisions to the Guidelines in response to the comments are 
+summarized below.
+
+1. Voluntary Self-disclosure
+
+    a. Third-Party Notifications. Many of the comments that addressed 
+the definition of voluntary self-disclosure expressed concern about the 
+interim final rule definition's exclusion of apparent violations where 
+``a third party is required to notify OFAC of the apparent violation or 
+a substantially similar apparent violation because a transaction was 
+blocked or rejected by that third party (regardless of whether or when 
+OFAC actually receives such notice from the third party and regardless 
+of whether the Subject Person was aware of the third party's 
+disclosure).'' The comments argued that the definition should not 
+exclude such self-initiated notifications to OFAC, and that OFAC should 
+focus instead on the good faith of the party making the disclosure, 
+regardless of whether another party was obligated to report the 
+apparent violation. The comments argued that broadening the definition 
+of voluntary self-disclosure will benefit OFAC by encouraging such 
+disclosures and providing OFAC with additional information regarding 
+apparent violations.
+    OFAC has considered these comments but believes that the 
+recommended alternative approach would be difficult to administer in a 
+meaningful manner. Accordingly, OFAC has determined to maintain the 
+exclusion for apparent violations that a third party is required to and 
+does report to OFAC as a result of the third party having blocked or 
+rejected a transaction in accordance with OFAC's regulations. The 
+purpose of mitigating the enforcement response in voluntary self-
+disclosure cases is to encourage the notification to OFAC of apparent 
+violations of which OFAC would not otherwise have learned. In those 
+cases where a third party is required to, and does, report an apparent 
+violation to OFAC, OFAC is aware of the violation and there is no need 
+to provide incentives for such notification. In addition, OFAC's 
+administrative subpoena authority, 31 CFR 501.602, generally provides 
+the basis for OFAC to require the production of whatever additional 
+information it may require to assess its enforcement response to the 
+apparent violation. In those cases, therefore, there is no need to 
+further incentivize disclosure to OFAC. Moreover, OFAC believes that 
+the ``good faith'' standard suggested in the comments would be 
+administratively unworkable, as OFAC would be unable to ascertain the 
+good or bad faith of Subject Persons making disclosures of apparent 
+violations. A bright line rule generally defining a voluntary self-
+disclosure based on whether OFAC would otherwise have learned of the 
+apparent violation is more readily administrable.
+    Consistent with the premise that in those cases where OFAC would 
+otherwise not have learned of the apparent violation a notification to 
+OFAC should be deemed a voluntary self-disclosure, and in response to 
+the suggestion made in one comment, OFAC is amending this aspect of the 
+definition of ``voluntary self-disclosure'' by deleting the words 
+``whether or'' from that part of the definition in the interim final 
+rule that provided that notification to OFAC of an apparent violation 
+would not be considered a voluntary self-disclosure ``regardless of 
+whether or when OFAC actually receives such notice from the third party 
+* * *.'' Thus, the final rule provides that such notifications shall 
+not be considered voluntary self-disclosures ``regardless of when OFAC 
+receives such notice from the third party * * *.'' The change is 
+intended to make clear that in the event that a third party that is 
+required to report an apparent violation to OFAC fails to do so, and 
+the Subject Person notifies OFAC of the apparent violation in a manner 
+otherwise consistent with a voluntary self-disclosure, the notification 
+will be considered a voluntary self-disclosure. In those cases where 
+the third party does notify OFAC before a final enforcement response to 
+the apparent violation, the Subject Person's notification will not be 
+considered a voluntary self-disclosure even if the Subject Person's 
+notification precedes the third party's notification. This is 
+consistent with the notion that voluntary self-disclosure does not 
+apply where OFAC would have learned of the apparent violation in any 
+event--in this case, from the subsequent required disclosure by the 
+third party.
+    Interestingly, different industry sectors all commented that this 
+provision of the definition would unfairly target their industry. Thus, 
+the banking industry commented that financial institutions are 
+disproportionately affected by this exclusion, a trade group commented 
+that this exclusion ``define[s] the entire import-export sector out 
+of'' the definition, and the securities industry commented that as a 
+result of this exclusion most filings by securities firms would not be 
+considered voluntary self-disclosures. The fact that these different 
+industries believe that the definition unfairly targets them weakens 
+the force of the argument as to each. In any event, the argument does 
+not address the underlying basis for the rule: The purpose of treating 
+certain notifications as voluntary self-disclosures is to bring to 
+OFAC's attention apparent violations of which it otherwise would not 
+have learned.
+    OFAC stresses that the final rule provides (as did the interim 
+final rule), that ``[i]n cases involving substantial cooperation with 
+OFAC but no voluntary self-disclosure as defined herein, including 
+cases in which an apparent violation is reported to OFAC by a third 
+party but the Subject Person provides substantial additional
+
+[[Page 57596]]
+
+information regarding the apparent violation and/or other related 
+violations, the base penalty amount generally will be reduced between 
+25 and 40 percent.'' In addition, a Subject Person's cooperation with 
+OFAC--including whether the Subject Person provided OFAC with all 
+relevant information regarding an apparent violation (whether or not 
+voluntarily self-disclosed), and whether the Subject Person researched 
+and disclosed to OFAC relevant information regarding any other apparent 
+violations caused by the same course of conduct--is a General Factor to 
+be considered in assessing OFAC's enforcement response to the apparent 
+violation. These provisions are intended to reward voluntary 
+disclosures of all relevant information and address the concerns raised 
+by the comments. The provisions make clear that a Subject Person's 
+cooperation with OFAC can have a substantial impact on the nature of 
+OFAC's enforcement response to an apparent violation, even in cases 
+that do not meet the definition of ``voluntary self-disclosure'' set 
+forth in the final rule.
+    Several comments noted that failure to treat self-initiated 
+notifications to OFAC in the circumstances discussed above as voluntary 
+self-disclosures causes unwarranted reputational harm to the 
+institutions involved. OFAC does not believe that this concern provides 
+a sufficient basis to alter the definition of voluntary self-disclosure 
+discussed above. In response to this comment, OFAC has amended the 
+final rule to expressly provide that, where appropriate, substantial 
+cooperation by a Subject Person in OFAC's investigation will be 
+publicly noted.
+    b. Material Completeness. Several comments also suggested that the 
+definition's exclusion of disclosures that are materially incomplete is 
+unfair because a party may not have had time to complete its 
+investigation or access supplementary material before OFAC learns of an 
+apparent violation from another source. The definition of voluntary 
+self-disclosure set forth in the interim final rule, and retained in 
+this final rule, excludes only those notifications where ``the 
+disclosure (when considered along with supplemental information 
+provided by the Subject Person) is materially incomplete'' (emphasis 
+added). Similarly, the definition provides that ``[i]n addition to 
+notification, a voluntary self-disclosure must include, or be followed 
+within a reasonable period of time by, a report of sufficient detail to 
+afford a complete understanding of an apparent violation's 
+circumstances, and should also be followed by responsiveness to any 
+follow-up inquiries by OFAC.'' (emphasis added). The definition thus 
+expressly contemplates that a Subject Person may notify OFAC of an 
+apparent violation before it has completed its investigation or 
+accessed all of the supplementary material necessary for a complete 
+disclosure. So long as that information is provided to OFAC within a 
+reasonable period of time after the initial notification of the 
+apparent violation, and assuming the other aspects of the definition 
+are met, the disclosure would still constitute a voluntary self-
+disclosure. OFAC therefore concludes that this aspect of the definition 
+already accommodates these comments and does not need to be changed.
+    c. Good Faith. OFAC likewise has considered and rejected the 
+suggestion that the definition of voluntary self-disclosure not exclude 
+disclosures that include false or misleading information or that are 
+made without management authorization, when the disclosure is made in 
+good faith. As noted above, the good faith standard is not readily 
+administrable. OFAC believes that disclosures that contain false or 
+misleading information should not receive the substantial benefit 
+accorded to voluntary self-disclosures. In such cases, OFAC will 
+consider the totality of the circumstances in determining whether the 
+false or misleading information warrants negation of a finding of 
+voluntary self-disclosure. When the Subject Person is an entity, 
+disclosures made without the authorization of the entity's senior 
+management do not reflect disclosure by the entity but rather by a 
+third party. A finding of voluntary self-disclosure by the Subject 
+Person is not warranted in whistleblower cases. Nor does OFAC believe 
+that a whistleblower should be required to first notify the entity's 
+senior management, as one comment suggested.
+    d. Regulatory Suggestion. One comment suggested that OFAC delete 
+the word ``suggestion'' from that part of the definition of voluntary 
+self-disclosure that excludes a disclosure that ``is not self-initiated 
+(including when the disclosure results from a suggestion or order of a 
+federal or state agency or official),'' on the ground that the term 
+``suggestion'' produces a subjective standard. While OFAC recognizes 
+the concern expressed in the comment, in many instances federal or 
+state regulators do not formally order institutions to report an 
+apparent violation to OFAC. The use of the phrase ``suggestion'' in 
+this context is intended to capture those instances in which a Subject 
+Person's regulator, or another government agency or official, directs, 
+instructs, tells, or otherwise suggests to the Subject Person that it 
+notify OFAC of the apparent violation. In such cases, the notification 
+to OFAC by the Subject Person is not properly considered self-initiated 
+and OFAC likely would have learned of the apparent violation from the 
+other government agency or official in the event that the Subject 
+Person did not itself notify OFAC.
+    e. Timing of Notification. OFAC has also considered the comment 
+that offered an alternative definition of voluntary self-disclosure 
+that would have treated as a voluntary self-disclosure any notification 
+to OFAC of an apparent violation prior to the time that OFAC issued a 
+Pre-Penalty Notice, and suggested other changes to the definition. OFAC 
+does not believe that the suggested changes are warranted. A Pre-
+Penalty Notice is typically issued once OFAC has completed an 
+investigation into an apparent violation, and such investigation often 
+involves the issuance of administrative subpoenas to the Subject 
+Person. Affording voluntary self-disclosure credit to disclosures made 
+after the issuance of such a subpoena would reward Subject Persons who 
+did not disclose the apparent violation to OFAC until after OFAC had 
+learned of it from other sources, and it would not accord with the 
+purpose of mitigating the enforcement response in voluntary self-
+disclosure cases, which is to encourage the notification to OFAC of 
+apparent violations of which OFAC would not otherwise have learned.
+    f. Suspicious Activity Report Filing. One comment asked that OFAC 
+clarify that the filing of a Suspicious Activity Report (SAR) by a 
+Subject Person pursuant to the Bank Secrecy Act has no impact on 
+whether a subsequent notification to OFAC of an apparent violation, 
+presumably based on the same transaction that is the subject of the 
+SAR, constitutes a voluntary self-disclosure. The filing of a SAR does 
+not itself preclude a determination of voluntary self-disclosure for a 
+subsequent self-disclosure to OFAC of the same transaction, except to 
+the extent that OFAC has learned of the apparent violation prior to the 
+filing of the self-disclosure.
+    g. What to Report. One comment requested clarification regarding 
+the circumstances in which the mere possibility that a violation exists 
+should cause an institution to make a voluntary self-disclosure. The 
+comment noted that the alleged uncertainty surrounding this
+
+[[Page 57597]]
+
+issue creates a strong incentive for an institution to err on the side 
+of reporting transactions that likely do not constitute a violation. 
+OFAC does not believe that additional guidance is necessary or 
+warranted. The Guidelines define an ``apparent violation'' as an actual 
+or possible violation of U.S. economic sanctions laws, and they define 
+a voluntary self-disclosure as a self-initiated notification to OFAC of 
+an apparent violation (subject to the other provisions of the 
+definition). The Subject Person determines whether to report an 
+apparent violation to OFAC. Such a notification to OFAC need not 
+constitute an admission that the conduct at issue actually constitutes 
+a violation in order to be considered a voluntary self-disclosure. To 
+the extent that the Guidelines as written provide an incentive for 
+``over-reporting'' to OFAC of possible violations, OFAC does not view 
+that as a problem that needs to be addressed. To the contrary, OFAC 
+would prefer that Subject Persons report a transaction or conduct that 
+is ultimately determined to not be a violation, rather than that they 
+elect not to report conduct that does constitute a violation.
+    h. Other OFAC Modifications. Finally, OFAC has made two additional 
+changes to the definition of voluntary self-disclosure. The first 
+change is to make clear that a self-initiated notification to OFAC that 
+is made at the same time as another government agency learns of the 
+apparent violation (through the Subject Person's disclosure to that 
+other agency or otherwise) does qualify as a voluntary self-disclosure 
+if the other aspects of the definition are met. This change is intended 
+to cover voluntary self-disclosures made simultaneously to OFAC and 
+another government agency. OFAC has thus substituted the phrase ``prior 
+to or at the same time'' for the phrase ``prior to'' in the operative 
+sentence of the definition, which now reads:
+
+    ``Voluntary self-disclosure means self-initiated notification to 
+OFAC of an apparent violation by a Subject Person that has 
+committed, or otherwise participated in, an apparent violation of a 
+statute, Executive order, or regulation administered or enforced by 
+OFAC, prior to or at the same time that OFAC, or any other federal, 
+state, or local government agency or official, discovers the 
+apparent violation or another substantially similar apparent 
+violation.''
+
+    OFAC has also added the following sentence to the definition of 
+voluntary self-disclosure:
+
+    ``Notification of an apparent violation to another government 
+agency (but not to OFAC) by a Subject Person, which is considered a 
+voluntary self-disclosure by that agency, may be considered a 
+voluntary self-disclosure by OFAC, based on a case-by-case 
+assessment of the facts and circumstances.''
+
+    This is intended to clarify that OFAC may treat a voluntary self-
+disclosure to another government agency as a voluntary self-disclosure 
+to OFAC when the circumstances so warrant.
+
+2. Risk-Based Compliance
+
+    Six comments questioned whether OFAC intended to move away from the 
+risk-based compliance approach reflected in the 2006 Economic Sanctions 
+Enforcement Procedures for Banking Institutions, which, along with 
+their appended risk matrices, were withdrawn by the interim final rule. 
+In no way has OFAC moved away from considering an institution's risk-
+based compliance program in assessing the appropriate enforcement 
+response to an apparent violation. The final rule clarifies this by 
+making explicit reference to risk-based compliance in its discussion of 
+General Factor E, which focuses on a Subject Person's compliance 
+program, and by re-promulgating with minor edits and in consolidated 
+form, as an annex to the final rule, the risk matrices that had 
+originally been promulgated as an annex to the 2006 Enforcement 
+Procedures. By these changes, OFAC intends to reflect that it will 
+continue to apply the same risk-based principles it has been applying 
+in assessing the overall adequacy of a Subject Person's compliance 
+program.
+    Two comments argued that in the case of banks, OFAC's focus should 
+be more narrowly focused on the bank's fault or the nature of its 
+compliance program. OFAC has considered these comments, but believes 
+that all of the General Factors are as applicable to banks as they are 
+to other Subject Persons. Those Factors account for both fault and the 
+nature and existence of a compliance program, but they also account for 
+other criteria that are relevant to a determination of an appropriate 
+enforcement response to an apparent violation. For example, the degree 
+of harm caused by an apparent violation is as relevant and important a 
+factor to consider in cases involving banks as it is in other cases. 
+OFAC thus disagrees with the comment that asserted that less weight 
+should be afforded to the harm to sanctions programs objectives and a 
+greater emphasis placed on risk-based compliance. The harm to sanctions 
+program objectives is as valid and relevant a consideration as an 
+institution's risk-based compliance program, and the Final Guidelines 
+appropriately account for consideration of both factors.
+    One comment expressed concern about the absence of a process to 
+periodically evaluate an institution's violations in the context of its 
+overall OFAC compliance program and OFAC compliance record. The 
+Guidelines, however, expressly provide for consideration of both an 
+institution's OFAC compliance program and its overall compliance record 
+over time in a number of places. For example, the Guidelines provide 
+for consideration of a Subject Person's compliance program in General 
+Factor E, which, as noted above, has been clarified to make explicit 
+reference to risk-based compliance. The Guidelines also provide that in 
+considering the individual characteristics of a Subject Person (General 
+Factor D), OFAC will consider ``[t]he total volume of transactions 
+undertaken by the Subject Person on an annual basis, with attention 
+given to the apparent violations as compared with the total volume.'' 
+This provision of the Guidelines is intended to allow for the 
+consideration of any apparent violation in the context of a Subject 
+Person's overall compliance record.
+    Another comment addressing risk-based compliance asserted that the 
+Guidelines reflect ``OFAC's stated intention to apply penalties on 
+every erroneous transaction.'' The Guidelines do not so state; to the 
+contrary, they expressly note that ``OFAC will give careful 
+consideration to the appropriateness of issuing a cautionary letter or 
+Finding of Violation in lieu of the imposition of a civil monetary 
+penalty.'' Another comment suggested that OFAC should state that it 
+will not assess penalties based on minor or isolated compliance 
+deficiencies. OFAC believes that the process set forth in the 
+Guidelines for determining its enforcement response to an apparent 
+violation is appropriate and that it would not be appropriate to make 
+broader, categorical statements of its enforcement policy based on the 
+minor or isolated nature of an apparent violation. The General Factors 
+already account for the consideration of the minor or isolated nature 
+of an apparent violation in determining whether a civil monetary 
+penalty is warranted.
+
+3. Cooperation and Tolling Agreements
+
+    Five comments argued that OFAC should not consider whether a 
+Subject Person agreed to waive the statute of limitations or enter into 
+a tolling agreement in assessing the Subject Person's cooperation with 
+OFAC. The comments argued that it was unfair and contrary to public 
+policy to consider this as a factor. One comment suggested
+
+[[Page 57598]]
+
+that the provision should either be dropped or its consideration 
+limited to cases where late discovery by or notification to OFAC 
+threatens resolution within the five year statute of limitations period 
+and that tolling agreements should be limited to extending the period 
+for no more than five years from discovery of the apparent violation by 
+OFAC.
+    OFAC has carefully considered these comments. The interim final 
+rule addressed both waivers of the statute of limitations and tolling 
+agreements. It is not OFAC's general practice to seek outright waivers 
+of the statute of limitations, and the final rule eliminates any 
+reference to statute of limitations waivers.
+    OFAC agrees that a Subject Person's refusal to enter into a tolling 
+agreement should not be considered an aggravating factor in assessing a 
+Subject Person's cooperation or otherwise. At the same time, a tolling 
+agreement can be of significant value to OFAC, especially in cases 
+where OFAC does not learn of an apparent violation at or near the time 
+it occurs, in particularly complex cases, or in cases in which a 
+Subject Person has requested and received additional time to respond to 
+a request for information from OFAC. Accordingly, OFAC believes it 
+appropriate to consider a Subject Person's entering into a tolling 
+agreement in a positive light and as a basis for mitigating the 
+enforcement response or lowering the penalty amount. The final rule 
+thus clarifies that while a Subject Person's willingness to enter into 
+a tolling agreement may be considered a mitigating factor, a Subject 
+Person's unwillingness to enter into such an agreement will not be 
+considered against the Subject Person.
+
+4. Penalty Calculation
+
+    Two comments addressed the calculation of the base penalty amount 
+under the Guidelines.
+    a. Disparity in Base Penalty Amounts. One comment suggested that 
+the applicable schedule amounts, which are applicable to cases 
+involving non-egregious apparent violations that are not voluntarily 
+self-disclosed to OFAC, be changed to lessen the disparity in the base 
+penalty amount between such cases and non-egregious cases that are 
+voluntarily self-disclosed.\4\ OFAC has considered this suggestion but 
+believes that the applicable schedule amounts, which provide for a 
+gradated series of penalties based on the underlying transaction value, 
+reflect an appropriate starting point for the penalty calculation in 
+non-egregious cases not involving a voluntary self-disclosure. As 
+currently structured, the base penalty calculation ensures that the 
+base penalty for a voluntarily self-disclosed case will always be one-
+half or less than one-half of the base penalty for a similar case that 
+is not voluntarily self-disclosed. This is intended to serve as an 
+additional incentive for voluntary self-disclosure.
+---------------------------------------------------------------------------
+
+    \4\ The base penalty amount for a non-egregious case involving a 
+voluntary self-disclosure equals one-half of the transaction value, 
+capped at $125,000 for an apparent violation of IEEPA and $32,500 
+for an apparent violation of TWEA.
+---------------------------------------------------------------------------
+
+    b. Other Penalty Issues. A second comment made a number of 
+suggestions regarding the penalty calculation. OFAC has considered each 
+of these suggestions, which are discussed below.
+    i. Egregious Cases. First, this comment suggested that OFAC reduce 
+the base penalty amount for egregious cases by 50 percent and clarify 
+the extent to which that amount may be increased by aggravating 
+factors. Reducing the base penalty amount for egregious cases would not 
+adequately reflect the seriousness with which OFAC views such cases. As 
+set forth in the preamble to the interim final rule, OFAC anticipates 
+that the majority of enforcement cases will fall in the non-egregious 
+category.
+    ii. Specified Reduction for Remediation. Second, this comment 
+suggested that OFAC provide for remedial measures as a mitigating 
+factor and state the extent to which such actions generally will reduce 
+the base penalty amount (e.g., 10-25%). The Guidelines expressly 
+recognize a Subject Person's remedial response as one of the General 
+Factors OFAC will consider in determining its enforcement response to 
+an apparent violation. OFAC does not believe it appropriate to identify 
+a specific range of mitigation for remedial measures, which can vary 
+widely in their nature and scope. The Guidelines envision a holistic 
+examination of the facts and circumstances surrounding an apparent 
+violation in determining a proposed penalty amount. With the exception 
+of first offenses and substantial cooperation, OFAC does not believe it 
+appropriate to provide a specified mitigation percentage for the 
+existence of potentially mitigating factors.
+    iii. Specified Reduction for Cooperation. Third, the comment 
+suggested that OFAC specify that substantial cooperation in voluntary 
+self-disclosure cases would reduce the base penalty amount by 25% to 
+40% (as would occur in cases that do not involve a voluntary self-
+disclosure). This suggestion appears to misapprehend the purpose of the 
+provision of the Guidelines that provides for such a reduction in non-
+voluntarily self-disclosed cases. The reduction in the base penalty 
+amount for cases involving substantial cooperation but no voluntary 
+self-disclosure is intended to approximate the significant mitigation 
+provided for voluntary self-disclosure cases in the base penalty amount 
+itself. This reduction is intended to afford parties whose conduct was 
+reported to OFAC by others (for example, through a blocking or reject 
+report) the opportunity to obtain, by providing substantial 
+cooperation, much (but not all) of the benefit they would have obtained 
+had they voluntarily self-disclosed the apparent violation. Subject 
+Persons who have voluntarily self-disclosed their apparent violations 
+to OFAC are already benefiting from a significantly reduced base 
+penalty amount. Moreover, a voluntary self-disclosure must include, or 
+be followed within a reasonable period of time by, a report of 
+sufficient detail to afford a complete understanding of an apparent 
+violation's circumstances, and should also be followed by 
+responsiveness to any follow-up inquiries by OFAC. OFAC recognizes that 
+in some instances an additional reduction in the base penalty amount 
+based on substantial cooperation may be warranted in cases involving 
+voluntary self-disclosure, but that additional reduction may be less 
+than 25 to 40 percent.
+    iv. Specified Additional Adjustments. Fourth, the comment suggested 
+that OFAC specify that further adjustments to the base penalty amount 
+may be made depending on the relevance of the other General Factors, 
+including in particular the existence and nature of a compliance 
+program and permissibility of the conduct under applicable foreign law. 
+The Guidelines already expressly provide that the base penalty amount 
+may be adjusted to reflect applicable General Factors, including the 
+existence and nature of a compliance program. The suggestion that the 
+penalty be adjusted in light of the permissibility of the conduct under 
+applicable foreign law is addressed below under the heading 
+``Compliance With Foreign Law.''
+    v. Emphasize Number vs. Value of Transactions. Fifth, the comment 
+suggested that OFAC clarify that when considering ``apparent violations 
+as compared with the total volume'' of transactions undertaken by a 
+Subject Person, the focus will be on the number rather than the value 
+of transactions. OFAC does not believe that such a clarification is 
+warranted. While in many cases the overall number of transactions, as 
+compared to the number of apparent violations, will be the
+
+[[Page 57599]]
+
+appropriate measure of a Subject Person's overall compliance program, 
+there may be cases where the relative value of the transactions is the 
+more appropriate metric. OFAC will address this issue on a case-by-case 
+basis, as appropriate.
+    vi. First Violations. Finally, the comment suggested that OFAC 
+clarify that, for purposes of the reduction of the penalty amount by up 
+to 25% for cases involving a Subject Person's first violation, OFAC 
+will consider the entire set of ``substantially similar violations'' at 
+issue in a case as a single ``first violation,'' and thus provide the 
+penalty reduction for all transactions at issue, and not just for the 
+first of the substantially similar violations. OFAC intends that in 
+enforcement cases addressing a set of ``substantially similar 
+violations,'' the penalty reduction for a Subject Person's first 
+violation will generally apply to the entire set of ``substantially 
+similar violations'' and not solely to the first of those violations. 
+OFAC has added the following sentence to the final rule to clarify 
+this: ``A group of substantially similar apparent violations addressed 
+in a single Pre-Penalty Notice shall be considered as a single 
+violation for purposes of this subsection.'' In addition, OFAC has 
+clarified that an apparent violation generally will be considered a 
+``first violation'' if the Subject Person has not received a penalty 
+notice or Finding of Violation from OFAC in the five years preceding 
+the date of the transaction giving rise to the apparent violation, and 
+that in those cases where a prior penalty notice or Finding of 
+Violation within the preceding five years involved conduct of a 
+substantially different nature from the apparent violation at issue, 
+OFAC may still consider the apparent violation at issue a ``first 
+violation.''
+
+5. General Factors
+
+    A number of comments either identified additional proposed General 
+Factors that OFAC should consider or suggested the deletion of General 
+Factors as inappropriate for OFAC's consideration.
+    a. Compliance With Foreign Law. Two comments suggested that, in 
+cases concerning conduct occurring outside the United States, OFAC 
+should consider whether the conduct in question is permissible under 
+the applicable law of another jurisdiction. OFAC does not agree that 
+the permissibility of conduct under the applicable laws of another 
+jurisdiction should be a factor in assessing an apparent violation of 
+U.S. laws. In cases where the applicable laws of another jurisdiction 
+require conduct prohibited by OFAC sanctions (or vice versa), OFAC will 
+consider the conflict under General Factor K, which provides for the 
+consideration of relevant factors on a case-by-case basis. OFAC notes 
+that Subject Persons can seek a license from OFAC to engage in 
+otherwise prohibited transactions and that the absence of such a 
+license request will be considered in assessing an apparent violation 
+where conflict of laws is raised by the Subject Person.
+    b. Reliance on Advice from OFAC. Three comments suggested that OFAC 
+should explicitly state that good faith reliance on advice from the 
+OFAC hotline (two comments) or on a reasoned analysis of OFAC 
+regulations with the assistance of private counsel (one comment) should 
+be considered in assessing an appropriate enforcement response. Subject 
+Persons are encouraged to seek written guidance from OFAC on complex 
+matters for the sake of clarity. Good faith reliance on substantiated 
+advice received from the OFAC hotline or from counsel is subsumed 
+within OFAC's consideration of whether a Subject Person willfully or 
+recklessly violated the law.
+    c. Relevance of Future Compliance/Deterrence. One comment suggested 
+that OFAC should eliminate General Factor J, which focuses on the 
+impact that administrative action may have on promoting future 
+compliance with U.S. economic sanctions by the Subject Person and 
+similar Subject Persons, arguing that OFAC's enforcement response 
+should focus solely on the Subject Person's culpability. OFAC rejects 
+this argument, as the purpose of enforcement action includes raising 
+awareness, increasing compliance, and deterring future violations, and 
+not merely punishment of prior conduct.
+    d. Reason to Know. One comment suggested that OFAC should eliminate 
+the ``reason to know'' provision of General Factor B, which focuses on 
+the Subject Person's awareness of the conduct giving rise to the 
+apparent violation. OFAC rejects this suggestion as it would invite 
+Subject Persons to act with willful blindness. OFAC believes the 
+``reason to know'' formulation is consistent with general legal 
+principles and appropriate for consideration.
+    e. Responsibility for Employees. One comment suggested that OFAC 
+should make clear that actions of ``rogue employees,'' including 
+supervisors or managers, will not be attributed to organizations so 
+long as a reasonable compliance program was in place. OFAC rejects this 
+suggestion. The actions of employees may be properly attributable to 
+their organizations, depending on the facts and circumstances of the 
+particular case. Among the factors OFAC will consider in determining 
+whether such actions are attributable to an organization are the 
+position of the employee in question, the nature of the conduct 
+(including how long it lasted), who else was or should have been aware 
+of the conduct, and the existence and nature of a compliance program 
+intended to identify and stop such conduct.
+    f. Sanctions History. One comment suggested that cautionary 
+letters, warning letters, and evaluative letters should not be 
+considered when assessing a Subject Person's sanctions violations 
+history. OFAC believes that such prior letters are appropriate to 
+consider in determining an appropriate enforcement response. In 
+addition, such letters evidence the Subject Person's awareness of OFAC 
+sanctions generally. OFAC has amended the final rule to refer to 
+``sanctions history'' instead of ``sanctions violations history'' to 
+make clear that consideration is not limited to prior formal 
+determinations of sanctions violations.
+    OFAC has also amended the final rule to note that, as a general 
+matter, consideration of a Subject Person's sanctions history will be 
+limited to the five years preceding the transaction giving rise to the 
+apparent violation. As explained above, a five-year limitation has also 
+been incorporated into the provision providing that in cases involving 
+a Subject Person's first violation, the base penalty amount generally 
+will be reduced up to 25 percent, so that ``first violation'' is 
+understood as the first violation in the five years preceding the 
+transaction giving rise to the apparent violation. In certain cases, 
+however, such as those involving enforcement responses to substantially 
+similar apparent violations, it may be appropriate to consider 
+sanctions history outside the five-year period.
+    g. Transition Period for Foreign Acquisitions. One comment 
+suggested that the Guidelines should provide a transition period for 
+cases in which a Subject Person acquires an entity outside the United 
+States not previously subject to OFAC requirements. OFAC does not 
+believe that such a provision is warranted. U.S. persons acquiring 
+entities outside the United States should consider OFAC compliance as 
+part of their due diligence review of the acquisition.
+
+6. Provision of Information to OFAC
+
+    Four comments focused on possible impediments to fully complying 
+with an OFAC request for information. Three of
+
+[[Page 57600]]
+
+these comments raised concerns about foreign laws that may prohibit the 
+provision of requested information to OFAC. OFAC does not believe that 
+these comments warrant a change to the text of the interim final rule. 
+As discussed above with respect to conflict-of-laws situations, OFAC 
+will give due consideration to applicable restrictions of foreign law 
+regarding the provision of information to OFAC on a case-by-case basis. 
+OFAC expects that Subject Persons will provide to OFAC a detailed 
+explanation of any allegedly applicable foreign law and the steps 
+undertaken by the Subject Person to avail themselves of all legal means 
+to provide the requested information.
+    One comment raised concerns about information protected by the 
+attorney-client privilege or the attorney work product doctrine. OFAC 
+generally does not expect Subject Persons to provide privileged or 
+protected information in response to a request for information or 
+otherwise. OFAC does, however, expect Subject Persons who withhold 
+responsive information on the grounds of the attorney-client or other 
+privilege or the work product doctrine to properly invoke such 
+privilege or protection and to identify such withheld information on a 
+privilege log, in accordance with any instructions accompanying 
+requests for information and ordinary legal practice. OFAC has 
+clarified the provision of the Guidelines providing for penalties for 
+failure to respond to a request for information by eliminating the 
+reference to ``failure to furnish the requested information'' and 
+instead referring to a ``failure to comply'' with a request for 
+information. The revised language is intended to make clear that OFAC 
+will not seek penalties in those cases where responsive information is 
+withheld on the basis of an apparently applicable and properly invoked 
+privilege.
+
+7. Penalty/Finding of Violation Process
+
+    Several comments made suggestions regarding OFAC's penalty process. 
+One comment suggested that OFAC should offer Subject Persons a meeting 
+before issuing a Pre-Penalty Notice, and another comment suggested that 
+OFAC provide a process by which to appeal a final enforcement decision. 
+OFAC does not believe that the adoption of either suggestion is 
+warranted. In most cases, OFAC will have communicated with the Subject 
+Person (by means of issuing a request for information or receiving a 
+disclosure) prior to issuance of the Pre-Penalty Notice. Moreover, the 
+Pre-Penalty Notice does not constitute final agency action and 
+specifically affords a Subject Person the opportunity to respond to the 
+allegations and proposed penalty set forth therein with additional 
+information or argument.
+    OFAC also does not believe that an administrative appeal process is 
+warranted. In cases involving civil monetary penalties, the Pre-Penalty 
+Process just described affords a Subject Person sufficient opportunity 
+to present its case to OFAC before a Penalty Notice is issued. In cases 
+involving a Finding of Violation, the Guidelines provide that a Finding 
+of Violation will afford the Subject Person an opportunity to respond 
+to OFAC's determination that a violation has occurred before the 
+finding is made final. No other actions by OFAC constitute formal 
+determinations of violation, and no administrative appeal process is 
+therefore necessary in such cases.\5\
+---------------------------------------------------------------------------
+
+    \5\ The Trading With the Enemy Act and its implementing 
+regulations, 31 CFR part 501, subpart D, provide for Administrative 
+Law Judge hearings on penalty determinations. Nothing in the 
+Guidelines affects the applicability of those provisions.
+---------------------------------------------------------------------------
+
+8. Other Comments
+
+    One comment suggested that OFAC should be sensitive to the views of 
+non-U.S. regulators. The Guidelines explain that OFAC may seek 
+information from a regulated institution's foreign regulator, and may 
+take into account the views of a foreign regulator with respect to a 
+Subject Person's compliance program where relevant. Nor do the 
+Guidelines preclude other consideration of foreign regulators' views. 
+Accordingly, OFAC believes that no additional changes are necessary in 
+this regard.
+    One comment suggested that the definition of ``transaction value'' 
+needs clarification because it does not allocate responsibility in 
+multiparty transactions, and this comment suggested certain edits to 
+the definition with the goal of clarifying that transaction value will 
+be determined based on a Subject Person's role in the transaction. OFAC 
+has considered this comment but determined that no change is needed to 
+the definition of transaction value. The current definition provides 
+sufficient flexibility to allow for the determination of an appropriate 
+transaction value in a wide variety of circumstances, including 
+multiparty transactions where the differing roles of the parties may 
+result in differing transaction values.
+    One comment suggested that there should be two sets of guidelines, 
+one for financial institutions and one for entities focused on trade in 
+goods, arguing that these types of entities maintain different business 
+models. OFAC considered such an approach when developing the 
+Guidelines, but determined that a single set of Guidelines, providing 
+general factors and sufficient flexibility, was a better approach. The 
+Guidelines as crafted do not dictate a particular outcome in any 
+particular case, but rather are intended to identify those factors most 
+relevant to OFAC's enforcement decision and to guide the agency's 
+exercise of its discretion. Because the General Factors are equally 
+applicable to all sectors, and because the Guidelines provide 
+sufficient flexibility to allow for the consideration of the factors 
+most relevant to a particular Subject Person, OFAC does not believe 
+that particularized sets of Guidelines for particular business models 
+are warranted or necessary.
+
+OFAC Edits
+
+    In addition to the changes made in response to public comments and 
+the additional changes to the definition of voluntary self-disclosure 
+described above, OFAC has made several other changes to the Guidelines. 
+First, OFAC has clarified the base penalty amounts for transactions 
+subject to the Trading With the Enemy Act (TWEA), which presently has a 
+$65,000 statutory maximum penalty. In non-egregious cases involving 
+apparent violations of TWEA, where the apparent violation is disclosed 
+through a voluntary self-disclosure by the Subject Person (i.e., Box 
+``1'' on the penalty matrix), the base amount of the proposed civil 
+penalty shall be capped at a maximum of $32,500 per violation. This 
+correction is necessary to ensure that in such cases the base amount of 
+the proposed civil penalty is no more than one-half the base penalty 
+amount for a similar transaction that is not voluntarily self-
+disclosed.
+    OFAC is also clarifying that for non-egregious transactions under 
+TWEA that are not voluntarily self-disclosed, the base amount of the 
+civil penalty shall be capped at $65,000. The Guidelines already 
+provide for this by capping base penalty amounts at the applicable 
+statutory maximum; this change is intended simply to clarify this 
+point. Similarly, OFAC is clarifying that, in egregious cases, the base 
+penalty calculation will be based on the ``applicable'' statutory 
+maximum, in an effort to signal that the base penalty in such cases 
+will differ for transactions under IEEPA (where the statutory maximum 
+equals the greater of $250,000 or an amount that is twice the value of 
+the transaction), TWEA (where the statutory maximum equals $65,000), or 
+other applicable statutes.
+
+[[Page 57601]]
+
+    OFAC has also amended the Guidelines to provide for a penalty of up 
+to $50,000 for a failure to maintain records in conformance with the 
+requirements of OFAC regulations. This change is intended to ensure 
+that penalties for a failure to maintain records are commensurate with 
+penalties for a failure to comply with a requirement to furnish 
+information.
+    The Guidelines are also amended to make clear that for apparent 
+violations identified in the Cuba Penalty Schedule, 68 FR 4422, 4429 
+(Jan. 29, 2003), for which a civil monetary penalty has been deemed 
+appropriate, the base penalty amount shall equal the amount set forth 
+in the Schedule for such a violation, except that the base penalty 
+amount shall be reduced by 50% in cases of voluntary self-disclosure. 
+This is intended to clarify the interplay between the penalty amounts 
+set forth in the Cuba Penalty Schedule and the base penalty calculation 
+process set forth in the Guidelines.
+    OFAC has eliminated the reference to the Cuba Travel Service 
+Provider Circular in Part IV of the Guidelines, as that Circular has 
+been amended to include a reference to the Guidelines, which now govern 
+apparent violations by licensed Travel Service Providers.
+    OFAC has also changed references to ``conduct, activity, or 
+transaction'' to ``conduct'' throughout the Guidelines. This change is 
+not intended to have substantive effect, but rather to provide greater 
+consistency in terminology within the Guidelines. OFAC understands the 
+term ``conduct'' to encompass ``activities'' and ``transactions,'' and 
+notes the definition of an ``apparent violation'' is based on the term 
+``conduct.''
+    Finally, in General Factor H, concerning the timing of the apparent 
+violation in relation to the imposition of sanctions, OFAC has changed 
+the word ``soon'' to ``immediately'' so that the relevant provision 
+reads: ``the timing of the apparent violation in relation to the 
+adoption of the applicable prohibitions, particularly if the apparent 
+violation took place immediately after relevant changes to the 
+sanctions program regulations or the addition of a new name to OFAC's 
+List of Specially Designated Nationals and Blocked Persons (SDN 
+List).'' This change is intended to more accurately reflect the purpose 
+of General Factor H and to convey that mitigation as a result of 
+changes to sanctions program regulations or additions to the SDN List 
+is unlikely to be applicable other than in the time period immediately 
+following such changes or additions.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, Banking, Insurance, 
+Money service business, Penalties, Reporting and recordkeeping 
+requirements, Securities.
+
+0
+For the reasons set forth in the preamble, 31 CFR part 501 is amended 
+as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority:  8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 22 U.S.C. 2370(a), 
+6009, 6032, 7205; 28 U.S.C. 2461 note; 31 U.S.C. 321(b); 50 U.S.C. 
+1701-1706; 50 U.S.C. App. 1-44.
+
+
+0
+2. Part 501 is amended by revising Appendix A to Part 501 to read as 
+follows:
+
+Appendix A to Part 501--Economic Sanctions Enforcement Guidelines.
+
+    Note:  This appendix provides a general framework for the 
+enforcement of all economic sanctions programs administered by the 
+Office of Foreign Assets Control (OFAC).
+
+I. Definitions
+
+    A. Apparent violation means conduct that constitutes an actual 
+or possible violation of U.S. economic sanctions laws, including the 
+International Emergency Economic Powers Act (IEEPA), the Trading 
+With the Enemy Act (TWEA), the Foreign Narcotics Kingpin Designation 
+Act, and other statutes administered or enforced by OFAC, as well as 
+Executive orders, regulations, orders, directives, or licenses 
+issued pursuant thereto.
+    B. Applicable schedule amount means:
+    1. $1,000 with respect to a transaction valued at less than 
+$1,000;
+    2. $10,000 with respect to a transaction valued at $1,000 or 
+more but less than $10,000;
+    3. $25,000 with respect to a transaction valued at $10,000 or 
+more but less than $25,000;
+    4. $50,000 with respect to a transaction valued at $25,000 or 
+more but less than $50,000;
+    5. $100,000 with respect to a transaction valued at $50,000 or 
+more but less than $100,000;
+    6. $170,000 with respect to a transaction valued at $100,000 or 
+more but less than $170,000;
+    7. $250,000 with respect to a transaction valued at $170,000 or 
+more, except that where the applicable schedule amount as defined 
+above exceeds the statutory maximum civil penalty amount applicable 
+to an apparent violation, the applicable schedule amount shall equal 
+such applicable statutory maximum civil penalty amount.
+    C. OFAC means the Department of the Treasury's Office of Foreign 
+Assets Control.
+    D. Penalty is the final civil penalty amount imposed in a 
+Penalty Notice.
+    E. Proposed penalty is the civil penalty amount set forth in a 
+Pre-Penalty Notice.
+    F. Regulator means any Federal, State, local or foreign official 
+or agency that has authority to license or examine an entity for 
+compliance with federal, state, or foreign law.
+    G. Subject Person means an individual or entity subject to any 
+of the sanctions programs administered or enforced by OFAC.
+    H. Transaction value means the dollar value of a subject 
+transaction. In export and import cases, the transaction value 
+generally will be the domestic value in the United States of the 
+goods, technology, or services sought to be exported from or 
+imported into the United States, as demonstrated by commercial 
+invoices, bills of lading, signed Customs declarations, or similar 
+documents. In cases involving seizures by U.S. Customs and Border 
+Protection (CBP), the transaction value generally will be the 
+domestic value as determined by CBP. If the apparent violation at 
+issue is a prohibited dealing in blocked property by a Subject 
+Person, the transaction value generally will be the dollar value of 
+the underlying transaction involved, such as the value of the 
+property dealt in or the amount of the funds transfer that a 
+financial institution failed to block or reject. Where the 
+transaction value is not otherwise ascertainable, OFAC may consider 
+the market value of the goods or services that were the subject of 
+the transaction, the economic benefit conferred on the sanctioned 
+party, and/or the economic benefit derived by the Subject Person 
+from the transaction, in determining transaction value. For purposes 
+of these Guidelines, ``transaction value'' will not necessarily have 
+the same meaning, nor be applied in the same manner, as that term is 
+used for import valuation purposes at 19 CFR 152.103.
+    I. Voluntary self-disclosure means self-initiated notification 
+to OFAC of an apparent violation by a Subject Person that has 
+committed, or otherwise participated in, an apparent violation of a 
+statute, Executive order, or regulation administered or enforced by 
+OFAC, prior to or at the same time that OFAC, or any other federal, 
+state, or local government agency or official, discovers the 
+apparent violation or another substantially similar apparent 
+violation. For these purposes, ``substantially similar apparent 
+violation'' means an apparent violation that is part of a series of 
+similar apparent violations or is related to the same pattern or 
+practice of conduct. Notification of an apparent violation to 
+another government agency (but not to OFAC) by a Subject Person, 
+which is considered a voluntary self-disclosure by that agency, may 
+be considered a voluntary self-disclosure by OFAC, based on a case-
+by-case assessment. Notification to OFAC of an apparent violation is 
+not a voluntary self-disclosure if: a third party is required to and 
+does notify OFAC of the apparent violation or a substantially 
+similar apparent violation because a transaction was blocked or 
+rejected by that third party (regardless of when OFAC receives such
+
+[[Page 57602]]
+
+notice from the third party and regardless of whether the Subject 
+Person was aware of the third party's disclosure); the disclosure 
+includes false or misleading information; the disclosure (when 
+considered along with supplemental information provided by the 
+Subject Person) is materially incomplete; the disclosure is not 
+self-initiated (including when the disclosure results from a 
+suggestion or order of a federal or state agency or official); or, 
+when the Subject Person is an entity, the disclosure is made by an 
+individual in a Subject Person entity without the authorization of 
+the entity's senior management. Responding to an administrative 
+subpoena or other inquiry from, or filing a license application 
+with, OFAC is not a voluntary self-disclosure. In addition to 
+notification, a voluntary self-disclosure must include, or be 
+followed within a reasonable period of time by, a report of 
+sufficient detail to afford a complete understanding of an apparent 
+violation's circumstances, and should also be followed by 
+responsiveness to any follow-up inquiries by OFAC. (As discussed 
+further below, a Subject Person's level of cooperation with OFAC is 
+an important factor in determining the appropriate enforcement 
+response to an apparent violation even in the absence of a voluntary 
+self-disclosure as defined herein; disclosure by a Subject Person 
+generally will result in mitigation insofar as it represents 
+cooperation with OFAC's investigation.)
+
+II. Types of Responses to Apparent Violations
+
+    Depending on the facts and circumstances of a particular case, 
+an OFAC investigation may lead to one or more of the following 
+actions:
+    A. No Action. If OFAC determines that there is insufficient 
+evidence to conclude that a violation has occurred and/or, based on 
+an analysis of the General Factors outlined in Section III of these 
+Guidelines, concludes that the conduct does not rise to a level 
+warranting an administrative response, then no action will be taken. 
+In those cases in which OFAC is aware that the Subject Person has 
+knowledge of OFAC's investigation, OFAC generally will issue a 
+letter to the Subject Person indicating that the investigation is 
+being closed with no administrative action being taken. A no-action 
+determination represents a final determination as to the apparent 
+violation, unless OFAC later learns of additional related violations 
+or other relevant facts.
+    B. Request Additional Information. If OFAC determines that 
+additional information regarding the apparent violation is needed, 
+it may request further information from the Subject Person or third 
+parties, including through an administrative subpoena issued 
+pursuant to 31 CFR 501.602. In the case of an institution subject to 
+regulation where OFAC has entered into a Memorandum of Understanding 
+(MOU) with the Subject Person's regulator, OFAC will follow the 
+procedures set forth in such MOU regarding consultation with the 
+regulator. Even in the absence of an MOU, OFAC may seek relevant 
+information about a regulated institution and/or the conduct 
+constituting the apparent violation from the institution's federal, 
+state, or foreign regulator. Upon receipt of information determined 
+to be sufficient to assess the apparent violation, OFAC will decide, 
+based on an analysis of the General Factors outlined in Section III 
+of these Guidelines, whether to pursue further enforcement action or 
+whether some other response to the apparent violation is 
+appropriate.
+    C. Cautionary Letter: If OFAC determines that there is 
+insufficient evidence to conclude that a violation has occurred or 
+that a Finding of Violation or a civil monetary penalty is not 
+warranted under the circumstances, but believes that the underlying 
+conduct could lead to a violation in other circumstances and/or that 
+a Subject Person does not appear to be exercising due diligence in 
+assuring compliance with the statutes, Executive orders, and 
+regulations that OFAC enforces, OFAC may issue a cautionary letter, 
+which may convey OFAC's concerns about the underlying conduct and/or 
+the Subject Person's OFAC compliance policies, practices and/or 
+procedures. A cautionary letter represents a final enforcement 
+response to the apparent violation, unless OFAC later learns of 
+additional related violations or other relevant facts, but does not 
+constitute a final agency determination as to whether a violation 
+has occurred.
+    D. Finding of Violation: If OFAC determines that a violation has 
+occurred and considers it important to document the occurrence of a 
+violation and, based on an analysis of the General Factors outlined 
+in Section III of these Guidelines, concludes that the Subject 
+Person's conduct warrants an administrative response but that a 
+civil monetary penalty is not the most appropriate response, OFAC 
+may issue a Finding of Violation that identifies the violation. A 
+Finding of Violation may also convey OFAC's concerns about the 
+violation and/or the Subject Person's OFAC compliance policies, 
+practices and/or procedures, and/or identify the need for further 
+compliance steps to be taken. A Finding of Violation represents a 
+final enforcement response to the violation, unless OFAC later 
+learns of additional related violations or other relevant facts, and 
+constitutes a final agency determination that a violation has 
+occurred. A Finding of Violation will afford the Subject Person an 
+opportunity to respond to OFAC's determination that a violation has 
+occurred before that determination becomes final. In the event a 
+Subject Person so responds, the initial Finding of Violation will 
+not constitute a final agency determination that a violation has 
+occurred. In such cases, after considering the response received, 
+OFAC will inform the Subject Person of its final enforcement 
+response to the apparent violation.
+    E. Civil Monetary Penalty. If OFAC determines that a violation 
+has occurred and, based on an analysis of the General Factors 
+outlined in Section III of these Guidelines, concludes that the 
+Subject Person's conduct warrants the imposition of a monetary 
+penalty, OFAC may impose a civil monetary penalty. Civil monetary 
+penalty amounts will be determined as discussed in Section V of 
+these Guidelines. The imposition of a civil monetary penalty 
+constitutes a final agency determination that a violation has 
+occurred and represents a final civil enforcement response to the 
+violation. OFAC will afford the Subject Person an opportunity to 
+respond to OFAC's determination that a violation has occurred before 
+a final penalty is imposed.
+    F. Criminal Referral. In appropriate circumstances, OFAC may 
+refer the matter to appropriate law enforcement agencies for 
+criminal investigation and/or prosecution. Apparent sanctions 
+violations that OFAC has referred for criminal investigation and/or 
+prosecution also may be subject to OFAC civil penalty or other 
+administrative action.
+    G. Other Administrative Actions. In addition to or in lieu of 
+other administrative actions, OFAC may also take the following 
+administrative actions in response to an apparent violation:
+    1. License Denial, Suspension, Modification, or Revocation. OFAC 
+authorizations to engage in a transaction (including the release of 
+blocked funds) pursuant to a general or specific license may be 
+withheld, denied, suspended, modified, or revoked in response to an 
+apparent violation.
+    2. Cease and Desist Order. OFAC may order the Subject Person to 
+cease and desist from conduct that is prohibited by any of the 
+sanctions programs enforced by OFAC when OFAC has reason to believe 
+that a Subject Person has engaged in such conduct and/or that such 
+conduct is ongoing or may recur.
+
+III. General Factors Affecting Administrative Action
+
+    As a general matter, OFAC will consider some or all of the 
+following General Factors in determining the appropriate 
+administrative action in response to an apparent violation of U.S. 
+sanctions by a Subject Person, and, where a civil monetary penalty 
+is imposed, in determining the appropriate amount of any such 
+penalty:
+    A. Willful or Reckless Violation of Law: a Subject Person's 
+willfulness or recklessness in violating, attempting to violate, 
+conspiring to violate, or causing a violation of the law. Generally, 
+to the extent the conduct at issue is the result of willful conduct 
+or a deliberate intent to violate, attempt to violate, conspire to 
+violate, or cause a violation of the law, the OFAC enforcement 
+response will be stronger. Among the factors OFAC may consider in 
+evaluating willfulness or recklessness are:
+    1. Willfulness. Was the conduct at issue the result of a 
+decision to take action with the knowledge that such action would 
+constitute a violation of U.S. law? Did the Subject Person know that 
+the underlying conduct constituted, or likely constituted, a 
+violation of U.S. law at the time of the conduct?
+    2. Recklessness. Did the Subject Person demonstrate reckless 
+disregard for U.S. sanctions requirements or otherwise fail to 
+exercise a minimal degree of caution or care in avoiding conduct 
+that led to the apparent violation? Were there warning signs that 
+should have alerted the Subject Person that an action or failure to 
+act would lead to an apparent violation?
+    3. Concealment. Was there an effort by the Subject Person to 
+hide or purposely obfuscate its conduct in order to mislead OFAC, 
+Federal, State, or foreign regulators, or other
+
+[[Page 57603]]
+
+parties involved in the conduct about an apparent violation?
+    4. Pattern of Conduct. Did the apparent violation constitute or 
+result from a pattern or practice of conduct or was it relatively 
+isolated and atypical in nature?
+    5. Prior Notice. Was the Subject Person on notice, or should it 
+reasonably have been on notice, that the conduct at issue, or 
+similar conduct, constituted a violation of U.S. law?
+    6. Management Involvement. In cases of entities, at what level 
+within the organization did the willful or reckless conduct occur? 
+Were supervisory or managerial level staff aware, or should they 
+reasonably have been aware, of the willful or reckless conduct?
+    B. Awareness of Conduct at Issue: the Subject Person's awareness 
+of the conduct giving rise to the apparent violation. Generally, the 
+greater a Subject Person's actual knowledge of, or reason to know 
+about, the conduct constituting an apparent violation, the stronger 
+the OFAC enforcement response will be. In the case of a corporation, 
+awareness will focus on supervisory or managerial level staff in the 
+business unit at issue, as well as other senior officers and 
+managers. Among the factors OFAC may consider in evaluating the 
+Subject Person's awareness of the conduct at issue are:
+    1. Actual Knowledge. Did the Subject Person have actual 
+knowledge that the conduct giving rise to an apparent violation took 
+place? Was the conduct part of a business process, structure or 
+arrangement that was designed or implemented with the intent to 
+prevent or shield the Subject Person from having such actual 
+knowledge, or was the conduct part of a business process, structure 
+or arrangement implemented for other legitimate reasons that made it 
+difficult or impossible for the Subject Person to have actual 
+knowledge?
+    2. Reason to Know. If the Subject Person did not have actual 
+knowledge that the conduct took place, did the Subject Person have 
+reason to know, or should the Subject Person reasonably have known, 
+based on all readily available information and with the exercise of 
+reasonable due diligence, that the conduct would or might take 
+place?
+    3. Management Involvement. In the case of an entity, was the 
+conduct undertaken with the explicit or implicit knowledge of senior 
+management, or was the conduct undertaken by personnel outside the 
+knowledge of senior management? If the apparent violation was 
+undertaken without the knowledge of senior management, was there 
+oversight intended to detect and prevent violations, or did the lack 
+of knowledge by senior management result from disregard for its 
+responsibility to comply with applicable sanctions laws?
+    C. Harm to Sanctions Program Objectives: the actual or potential 
+harm to sanctions program objectives caused by the conduct giving 
+rise to the apparent violation. Among the factors OFAC may consider 
+in evaluating the harm to sanctions program objectives are:
+    1. Economic or Other Benefit to the Sanctioned Individual, 
+Entity, or Country: the economic or other benefit conferred or 
+attempted to be conferred to sanctioned individuals, entities, or 
+countries as a result of an apparent violation, including the 
+number, size, and impact of the transactions constituting an 
+apparent violation(s), the length of time over which they occurred, 
+and the nature of the economic or other benefit conferred. OFAC may 
+also consider the causal link between the Subject Person's conduct 
+and the economic benefit conferred or attempted to be conferred.
+    2. Implications for U.S. Policy: the effect that the 
+circumstances of the apparent violation had on the integrity of the 
+U.S. sanctions program and the related policy objectives involved.
+    3. License Eligibility: whether the conduct constituting the 
+apparent violation likely would have been licensed by OFAC under 
+existing licensing policy.
+    4. Humanitarian activity: whether the conduct at issue was in 
+support of a humanitarian activity.
+    D. Individual Characteristics: the particular circumstances and 
+characteristics of a Subject Person. Among the factors OFAC may 
+consider in evaluating individual characteristics are:
+    1. Commercial Sophistication: the commercial sophistication and 
+experience of the Subject Person. Is the Subject Person an 
+individual or an entity? If an individual, was the conduct 
+constituting the apparent violation for personal or business 
+reasons?
+    2. Size of Operations and Financial Condition: the size of a 
+Subject Person's business operations and overall financial 
+condition, where such information is available and relevant. 
+Qualification of the Subject Person as a small business or 
+organization for the purposes of the Small Business Regulatory 
+Enforcement Fairness Act, as determined by reference to the 
+applicable regulations of the Small Business Administration, may 
+also be considered.
+    3. Volume of Transactions: the total volume of transactions 
+undertaken by the Subject Person on an annual basis, with attention 
+given to the apparent violations as compared with the total volume.
+    4. Sanctions History: the Subject Person's sanctions history, 
+including OFAC's issuance of prior penalties, findings of violations 
+or cautionary, warning or evaluative letters, or other 
+administrative actions (including settlements). As a general matter, 
+OFAC will only consider a Subject Person's sanctions history for the 
+five years preceding the date of the transaction giving rise to the 
+apparent violation.
+    E. Compliance Program: the existence, nature and adequacy of a 
+Subject Person's risk-based OFAC compliance program at the time of 
+the apparent violation, where relevant. In the case of an 
+institution subject to regulation where OFAC has entered into a 
+Memorandum of Understanding (MOU) with the Subject Person's 
+regulator, OFAC will follow the procedures set forth in such MOU 
+regarding consultation with the regulator with regard to the quality 
+and effectiveness of the Subject Person's compliance program. Even 
+in the absence of an MOU, OFAC may take into consideration the views 
+of federal, state, or foreign regulators, where relevant. Further 
+information about risk-based compliance programs for financial 
+institutions is set forth in the annex hereto.
+    F. Remedial Response: the Subject Person's corrective action 
+taken in response to the apparent violation. Among the factors OFAC 
+may consider in evaluating the remedial response are:
+    1. The steps taken by the Subject Person upon learning of the 
+apparent violation. Did the Subject Person immediately stop the 
+conduct at issue?
+    2. In the case of an entity, the processes followed to resolve 
+issues related to the apparent violation. Did the Subject Person 
+discover necessary information to ascertain the causes and extent of 
+the apparent violation, fully and expeditiously? Was senior 
+management fully informed? If so, when?
+    3. In the case of an entity, whether the Subject Person adopted 
+new and more effective internal controls and procedures to prevent a 
+recurrence of the apparent violation. If the Subject Person did not 
+have an OFAC compliance program in place at the time of the apparent 
+violation, did it implement one upon discovery of the apparent 
+violations? If it did have an OFAC compliance program, did it take 
+appropriate steps to enhance the program to prevent the recurrence 
+of similar violations? Did the entity provide the individual(s) 
+responsible for the apparent violation with additional training, 
+and/or take other appropriate action, to ensure that similar 
+violations do not occur in the future?
+    4. Where applicable, whether the Subject Person undertook a 
+thorough review to identify other possible violations.
+    G. Cooperation with OFAC: the nature and extent of the Subject 
+Person's cooperation with OFAC. Among the factors OFAC may consider 
+in evaluating cooperation with OFAC are:
+    1. Did the Subject Person voluntarily self-disclose the apparent 
+violation to OFAC?
+    2. Did the Subject Person provide OFAC with all relevant 
+information regarding an apparent violation (whether or not 
+voluntarily self-disclosed)?
+    3. Did the Subject Person research and disclose to OFAC relevant 
+information regarding any other apparent violations caused by the 
+same course of conduct?
+    4. Was information provided voluntarily or in response to an 
+administrative subpoena?
+    5. Did the Subject Person cooperate with, and promptly respond 
+to, all requests for information?
+    6. Did the Subject Person enter into a statute of limitations 
+tolling agreement, if requested by OFAC (particularly in situations 
+where the apparent violations were not immediately notified to or 
+discovered by OFAC, in particularly complex cases, and in cases in 
+which the Subject Person has requested and received additional time 
+to respond to a request for information from OFAC)? If so, the 
+Subject Person's entering into a tolling agreement will be deemed a 
+mitigating factor. Note: a Subject Person's refusal to enter into a 
+tolling agreement will not be considered by OFAC as an aggravating 
+factor in assessing a Subject Person's cooperation or otherwise 
+under the Guidelines.
+    Where appropriate, OFAC will publicly note substantial 
+cooperation provided by a Subject Person.
+    H. Timing of apparent violation in relation to imposition of 
+sanctions: the timing of the
+
+[[Page 57604]]
+
+apparent violation in relation to the adoption of the applicable 
+prohibitions, particularly if the apparent violation took place 
+immediately after relevant changes in the sanctions program 
+regulations or the addition of a new name to OFAC's List of 
+Specially Designated Nationals and Blocked Persons (SDN List).
+    I. Other enforcement action: other enforcement actions taken by 
+federal, state, or local agencies against the Subject Person for the 
+apparent violation or similar apparent violations, including whether 
+the settlement of alleged violations of OFAC regulations is part of 
+a comprehensive settlement with other federal, state, or local 
+agencies.
+    J. Future Compliance/Deterrence Effect: the impact 
+administrative action may have on promoting future compliance with 
+U.S. economic sanctions by the Subject Person and similar Subject 
+Persons, particularly those in the same industry sector.
+    K. Other relevant factors on a case-by-case basis: such other 
+factors that OFAC deems relevant on a case-by-case basis in 
+determining the appropriate enforcement response and/or the amount 
+of any civil monetary penalty. OFAC will consider the totality of 
+the circumstances to ensure that its enforcement response is 
+proportionate to the nature of the violation.
+
+IV. Civil Penalties for Failure To Comply With a Requirement To Furnish 
+Information or Keep Records
+
+    As a general matter, the following civil penalty amounts shall 
+apply to a Subject Person's failure to comply with a requirement to 
+furnish information or maintain records:
+    A. The failure to comply with a requirement to furnish 
+information pursuant to 31 CFR 501.602 may result in a penalty in an 
+amount up to $20,000, irrespective of whether any other violation is 
+alleged. Where OFAC has reason to believe that the apparent 
+violation(s) that is the subject of the requirement to furnish 
+information involves a transaction(s) valued at greater than 
+$500,000, a failure to comply with a requirement to furnish 
+information may result in a penalty in an amount up to $50,000, 
+irrespective of whether any other violation is alleged. A failure to 
+comply with a requirement to furnish information may be considered a 
+continuing violation, and the penalties described above may be 
+imposed each month that a party has continued to fail to comply with 
+the requirement to furnish information. OFAC may also seek to have a 
+requirement to furnish information judicially enforced. Imposition 
+of a civil monetary penalty for failure to comply with a requirement 
+to furnish information does not preclude OFAC from seeking such 
+judicial enforcement of the requirement to furnish information.
+    B. The late filing of a required report, whether set forth in 
+regulations or in a specific license, may result in a civil monetary 
+penalty in an amount up to $2,500, if filed within the first 30 days 
+after the report is due, and a penalty in an amount up to $5,000 if 
+filed more than 30 days after the report is due. If the report 
+relates to blocked assets, the penalty may include an additional 
+$1,000 for every 30 days that the report is overdue, up to five 
+years.
+    C. The failure to maintain records in conformance with the 
+requirements of OFAC's regulations or of a specific license may 
+result in a penalty in an amount up to $50,000.
+
+V. Civil Penalties
+
+    OFAC will review the facts and circumstances surrounding an 
+apparent violation and apply the General Factors for Taking 
+Administrative Action in Section III above in determining whether to 
+initiate a civil penalty proceeding and in determining the amount of 
+any civil monetary penalty. OFAC will give careful consideration to 
+the appropriateness of issuing a cautionary letter or Finding of 
+Violation in lieu of the imposition of a civil monetary penalty.
+
+A. Civil Penalty Process
+
+    1. Pre-Penalty Notice. If OFAC has reason to believe that a 
+sanctions violation has occurred and believes that a civil monetary 
+penalty is appropriate, it will issue a Pre-Penalty Notice in 
+accordance with the procedures set forth in the particular 
+regulations governing the conduct giving rise to the apparent 
+violation. The amount of the proposed penalty set forth in the Pre-
+Penalty Notice will reflect OFAC's preliminary assessment of the 
+appropriate penalty amount, based on information then in OFAC's 
+possession. The amount of the final penalty may change as OFAC 
+learns additional relevant information. If, after issuance of a Pre-
+Penalty Notice, OFAC determines that a penalty in an amount that 
+represents an increase of more than 10 percent from the proposed 
+penalty set forth in the Pre-Penalty Notice is appropriate, or if 
+OFAC intends to allege additional violations, it will issue a 
+revised Pre-Penalty Notice setting forth the new proposed penalty 
+amount and/or alleged violations.
+    a. In general, the Pre-Penalty Notice will set forth the 
+following with respect to the specific violations alleged and the 
+proposed penalties:
+    i. Description of the alleged violations, including the number 
+of violations and their value, for which a penalty is being 
+proposed;
+    ii. Identification of the regulatory or other provisions alleged 
+to have been violated;
+    iii. Identification of the base category (defined below) 
+according to which the proposed penalty amount was calculated and 
+the General Factors that were most relevant to the determination of 
+the proposed penalty amount;
+    iv. The maximum amount of the penalty to which the Subject 
+Person could be subject under applicable law; and
+    v. The proposed penalty amount, determined in accordance with 
+the provisions set forth in these Guidelines.
+    b. The Pre-Penalty Notice will also include information 
+regarding how to respond to the Pre-Penalty Notice including:
+    i. A statement that the Subject Person may submit a written 
+response to the Pre-Penalty Notice by a date certain addressing the 
+alleged violation(s), the General Factors Affecting Administrative 
+Action set forth in Section III of these Guidelines, and any other 
+information or evidence that the Subject Person deems relevant to 
+OFAC's consideration.
+    ii. A statement that a failure to respond to the Pre-Penalty 
+Notice may result in the imposition of a civil monetary penalty.
+    2. Response to Pre-Penalty Notice. A Subject Person may submit a 
+written response to the Pre-Penalty Notice in accordance with the 
+procedures set forth in the particular regulations governing the 
+conduct giving rise to the apparent violation. Generally, the 
+response should either agree to the proposed penalty set forth in 
+the Pre-Penalty Notice or set forth reasons why a penalty should not 
+be imposed or, if imposed, why it should be a lesser amount than 
+proposed, with particular attention paid to the General Factors 
+Affecting Administrative Action set forth in Section III of these 
+Guidelines. The response should include all documentary or other 
+evidence available to the Subject Person that supports the arguments 
+set forth in the response. OFAC will consider all relevant materials 
+submitted.
+    3. Penalty Notice. If OFAC receives no response to a Pre-Penalty 
+Notice within the time prescribed in the Pre-Penalty Notice, or if 
+following the receipt of a response to a Pre-Penalty Notice and a 
+review of the information and evidence contained therein OFAC 
+concludes that a civil monetary penalty is warranted, a Penalty 
+Notice generally will be issued in accordance with the procedures 
+set forth in the particular regulations governing the conduct giving 
+rise to the violation. A Penalty Notice constitutes a final agency 
+determination that a violation has occurred. The penalty amount set 
+forth in the Penalty Notice will take into account relevant 
+additional information provided in response to a Pre-Penalty Notice. 
+In the absence of a response to a Pre-Penalty Notice, the penalty 
+amount set forth in the Penalty Notice will generally be the same as 
+the proposed penalty set forth in the Pre-Penalty Notice.
+    4. Referral to Financial Management Division. The imposition of 
+a civil monetary penalty pursuant to a Penalty Notice creates a debt 
+due the U.S. Government. OFAC will advise Treasury's Financial 
+Management Division upon the imposition of a penalty. The Financial 
+Management Division may take follow-up action to collect the penalty 
+assessed if it is not paid within the prescribed time period set 
+forth in the Penalty Notice. In addition or instead, the matter may 
+be referred to the U.S. Department of Justice for appropriate action 
+to recover the penalty.
+    5. Final Agency Action. The issuance of a Penalty Notice 
+constitutes final agency action with respect to the violation(s) for 
+which the penalty is assessed.
+
+B. Amount of Civil Penalty
+
+    1. Egregious case. In those cases in which a civil monetary 
+penalty is deemed appropriate, OFAC will make a determination as to 
+whether a case is deemed ``egregious'' for purposes of the base 
+penalty calculation. This determination will be based on an analysis 
+of the applicable General Factors. In making the egregiousness
+
+[[Page 57605]]
+
+determination, OFAC generally will give substantial weight to 
+General Factors A (``willful or reckless violation of law''), B 
+(``awareness of conduct at issue''), C (``harm to sanctions program 
+objectives'') and D (``individual characteristics''), with 
+particular emphasis on General Factors A and B. A case will be 
+considered an ``egregious case'' where the analysis of the 
+applicable General Factors, with a focus on those General Factors 
+identified above, indicates that the case represents a particularly 
+serious violation of the law calling for a strong enforcement 
+response. A determination that a case is ``egregious'' will be made 
+by the Director or Deputy Director.
+    2. Pre-Penalty Notice. The penalty amount proposed in a Pre-
+Penalty Notice shall generally be calculated as follows, except that 
+neither the base amount nor the proposed penalty will exceed the 
+applicable statutory maximum amount: \6\
+---------------------------------------------------------------------------
+
+    \6\ For apparent violations identified in the Cuba Penalty 
+Schedule, 68 Fed. Reg. 4429 (Jan. 29, 2003), for which a civil 
+monetary penalty has been deemed appropriate, the base penalty 
+amount shall equal the amount set forth in the Schedule for such 
+violation, except that the base penalty amount shall be reduced by 
+50% in cases of voluntary self-disclosure.
+---------------------------------------------------------------------------
+
+a. Base Category Calculation
+
+    i. In a non-egregious case, if the apparent violation is 
+disclosed through a voluntary self-disclosure by the Subject Person, 
+the base amount of the proposed civil penalty in the Pre-Penalty 
+Notice shall be one-half of the transaction value, capped at a 
+maximum base amount of $125,000 per violation (except in the case of 
+transactions subject to the Trading With the Enemy Act, in which 
+case the base amount of the proposed civil penalty will be capped at 
+the lesser of $125,000 or one-half of the maximum statutory penalty 
+under TWEA, which at the time of publication of these Guidelines 
+equaled $32,500 per violation).
+    ii. In a non-egregious case, if the apparent violation comes to 
+OFAC's attention by means other than a voluntary self-disclosure, 
+the base amount of the proposed civil penalty in the Pre-Penalty 
+Notice shall be the ``applicable schedule amount,'' as defined above 
+(capped at a maximum base amount of $250,000 per violation, or, in 
+the case of transactions subject to the Trading With the Enemy Act, 
+capped at the lesser of $250,000 or the maximum statutory penalty 
+under TWEA, which at the time of publication of these Guidelines 
+equaled a maximum of $65,000 per violation).
+    iii. In an egregious case, if the apparent violation is 
+disclosed through a voluntary self-disclosure by a Subject Person, 
+the base amount of the proposed civil penalty in the Pre-Penalty 
+Notice shall be one-half of the applicable statutory maximum penalty 
+applicable to the violation.
+    iv. In an egregious case, if the apparent violation comes to 
+OFAC's attention by means other than a voluntary self-disclosure, 
+the base amount of the proposed civil penalty in the Pre-Penalty 
+Notice shall be the applicable statutory maximum penalty amount 
+applicable to the violation.
+    The following matrix represents the base amount of the proposed 
+civil penalty for each category of violation:
+
+[[Page 57606]]
+
+[GRAPHIC] [TIFF OMITTED] TR09NO09.016
+
+b. Adjustment for Applicable Relevant General Factors
+
+    The base amount of the proposed civil penalty may be adjusted to 
+reflect applicable General Factors for Administrative Action set 
+forth in Section III of these Guidelines. Each factor may be 
+considered mitigating or aggravating, resulting in a lower or higher 
+proposed penalty amount. As a general matter, in those cases where 
+the following General Factors are present, OFAC will adjust the base 
+proposed penalty amount in the following manner:
+    i. In cases involving substantial cooperation with OFAC but no 
+voluntary self-disclosure as defined herein, including cases in 
+which an apparent violation is reported to OFAC by a third party but 
+the Subject Person provides substantial additional information 
+regarding the apparent violation and/or other related violations, 
+the base penalty amount generally will be reduced between 25 and 40 
+percent. Substantial cooperation in cases involving voluntary self-
+disclosure may also be considered as a further mitigating factor.
+    ii. In cases involving a Subject Person's first violation, the 
+base penalty amount generally will be reduced up to 25 percent. An 
+apparent violation generally will be considered a ``first 
+violation'' if the Subject Person has not received a penalty notice 
+or Finding of Violation from OFAC in the five years preceding the 
+date of the transaction giving rise to the apparent violation. A 
+group of substantially similar apparent violations addressed in a 
+single Pre-Penalty Notice shall be considered as a single violation 
+for purposes of this subsection. In those cases where a prior 
+penalty notice or Finding of Violation within the preceding five 
+years involved conduct of a substantially different nature from the 
+apparent violation at issue, OFAC may consider the apparent 
+violation at issue a ``first violation.'' In determining the extent 
+of any mitigation for a first violation, OFAC may consider any prior 
+OFAC enforcement action taken with respect to the Subject Person, 
+including any cautionary, warning or evaluative letters issued, or 
+any civil monetary settlements entered into with OFAC.
+    In all cases, the proposed penalty amount will not exceed the 
+applicable statutory maximum.
+    In cases involving a large number of apparent violations, where 
+the transaction value of all apparent violations is either unknown 
+or would require a disproportionate allocation of resources to 
+determine, OFAC may estimate or extrapolate the transaction value of 
+the total universe of apparent violations in determining the amount 
+of any proposed civil monetary penalty.
+    3. Penalty Notice. The amount of the proposed civil penalty in 
+the Pre-Penalty Notice will be the presumptive starting point for 
+calculation of the civil penalty amount in the Penalty Notice. OFAC 
+may adjust the penalty amount in the Penalty Notice based on:
+    a. Evidence presented by the Subject Person in response to the 
+Pre-Penalty Notice,
+
+[[Page 57607]]
+
+or otherwise received by OFAC with respect to the underlying 
+violation(s); and/or
+    b. Any modification resulting from further review and 
+reconsideration by OFAC of the proposed civil monetary penalty in 
+light of the General Factors for Administrative Action set forth in 
+Section III above.
+    In no event will the amount of the civil monetary penalty in the 
+Penalty Notice exceed the proposed penalty set forth in the Pre-
+Penalty Notice by more than 10 percent, or include additional 
+alleged violations, unless a revised Pre-Penalty Notice has first 
+been sent to the Subject Person as set forth above. In the event 
+that OFAC determines upon further review that no penalty is 
+appropriate, it will so inform the Subject Person in a no-action 
+letter, a cautionary letter, or a Finding of Violation.
+
+C. Settlements
+
+    A settlement does not constitute a final agency determination 
+that a violation has occurred.
+    1. Settlement Process. Settlement discussions may be initiated 
+by OFAC, the Subject Person or the Subject Person's authorized 
+representative. Settlements generally will be negotiated in 
+accordance with the principles set forth in these Guidelines with 
+respect to appropriate penalty amounts. OFAC may condition the entry 
+into or continuation of settlement negotiations on the execution of 
+a tolling agreement with respect to the statute of limitations.
+    2. Settlement Prior to Issuance of Pre-Penalty Notice. Where 
+settlement discussions occur prior to the issuance of a Pre-Penalty 
+Notice, the Subject Person may request in writing that OFAC withhold 
+issuance of a Pre-Penalty Notice pending the conclusion of 
+settlement discussions. OFAC will generally agree to such a request 
+as long as settlement discussions are continuing in good faith and 
+the statute of limitations is not at risk of expiring.
+    3. Settlement Following Issuance of Pre-Penalty Notice. If a 
+matter is settled after a Pre-Penalty Notice has been issued, but 
+before a final Penalty Notice is issued, OFAC will not make a final 
+determination as to whether a sanctions violation has occurred. In 
+the event no settlement is reached, the period specified for written 
+response to the Pre-Penalty Notice remains in effect unless 
+additional time is granted by OFAC.
+    4. Settlements of Multiple Apparent Violations. A settlement 
+initiated for one apparent violation may also involve a 
+comprehensive or global settlement of multiple apparent violations 
+covered by other Pre-Penalty Notices, apparent violations for which 
+a Pre-Penalty Notice has not yet been issued by OFAC, or previously 
+unknown apparent violations reported to OFAC during the pendency of 
+an investigation of an apparent violation.
+
+Annex
+
+    The following matrix can be used by financial institutions to 
+evaluate their compliance programs:
+
+                                                OFAC Risk Matrix
+----------------------------------------------------------------------------------------------------------------
+                 Low                                Moderate                                High
+----------------------------------------------------------------------------------------------------------------
+Stable, well-known customer base in   Customer base changing due to         A large, fluctuating client base in
+ a localized environment.              branching, merger, or acquisition     an international environment.
+                                       in the domestic market.
+Few high-risk customers; these may    A moderate number of high-risk        A large number of high-risk
+ include nonresident aliens, foreign   customers.                            customers.
+ customers (including accounts with
+ U.S. powers of attorney), and
+ foreign commercial customers.
+No overseas branches and no           Overseas branches or correspondent    Overseas branches or multiple
+ correspondent accounts with foreign   accounts with foreign banks.          correspondent accounts with foreign
+ banks.                                                                      banks.
+No electronic services (e.g., e-      The institution offers limited        The institution offers a wide array
+ banking) offered, or products         electronic (e.g., e-banking)          of electronic (e.g., e-banking)
+ available are purely informational    products and services.                products and services (i.e.,
+ or non-transactional.                                                       account transfers, e-bill payment,
+                                                                             or accounts opened via the
+                                                                             Internet).
+Limited number of funds transfers     A moderate number of funds            A high number of customer and non-
+ for customers and non-customers,      transfers, mostly for customers.      customer funds transfers, including
+ limited third-party transactions,     Possibly, a few international funds   international funds transfers.
+ and no international funds            transfers from personal or business
+ transfers.                            accounts.
+No other types of international       Limited other types of international  A high number of other types of
+ transactions, such as trade           transactions.                         international transactions.
+ finance, cross-border ACH, and
+ management of sovereign debt.
+No history of OFAC actions. No        A small number of recent actions      Multiple recent actions by OFAC,
+ evidence of apparent violation or     (i.e., actions within the last five   where the institution has not
+ circumstances that might lead to a    years) by OFAC, including notice      addressed the issues, thus leading
+ violation.                            letters, or civil money penalties,    to an increased risk of the
+                                       with evidence that the institution    institution undertaking similar
+                                       addressed the issues and is not at    violations in the future.
+                                       risk of similar violations in the
+                                       future.
+Management has fully assessed the     Management exhibits a reasonable      Management does not understand, or
+ institution's level of risk based     understanding of the key aspects of   has chosen to ignore, key aspects
+ on its customer base and product      OFAC compliance and its commitment    of OFAC compliance risk. The
+ lines. This understanding of risk     is generally clear and                importance of compliance is not
+ and strong commitment to OFAC         satisfactorily communicated           emphasized or communicated
+ compliance is satisfactorily          throughout the organization, but it   throughout the organization.
+ communicated throughout the           may lack a program appropriately
+ organization.                         tailored to risk.
+The board of directors, or board      The board has approved an OFAC        The board has not approved an OFAC
+ committee, has approved an OFAC       compliance program that includes      compliance program, or policies,
+ compliance program that includes      most of the appropriate policies,     procedures, controls, and
+ policies, procedures, controls, and   procedures, controls, and             information systems are
+ information systems that are          information systems necessary to      significantly deficient.
+ adequate, and consistent with the     ensure compliance, but some
+ institution's OFAC risk profile.      weaknesses are noted.
+Staffing levels appear adequate to    Staffing levels appear generally      Management has failed to provide
+ properly execute the OFAC             adequate, but some deficiencies are   appropriate staffing levels to
+ compliance program.                   noted.                                handle workload.
+Authority and accountability for      Authority and accountability are      Authority and accountability for
+ OFAC compliance are clearly defined   defined, but some refinements are     compliance have not been clearly
+ and enforced, including the           needed. A qualified OFAC officer      established. No OFAC compliance
+ designation of a qualified OFAC       has been designated.                  officer, or an unqualified one, has
+ officer.                                                                    been appointed. The role of the
+                                                                             OFAC officer is unclear.
+
+[[Page 57608]]
+
+ 
+Training is appropriate and           Training is conducted and management  Training is sporadic and does not
+ effective based on the                provides adequate resources given     cover important regulatory and risk
+ institution's risk profile, covers    the risk profile of the               areas or is nonexistent.
+ applicable personnel, and provides    organization; however, some areas
+ necessary up-to-date information      are not covered within the training
+ and resources to ensure compliance.   program.
+The institution employs strong        The institution employs limited       The institution does not employ
+ quality control methods.              quality control methods.              quality control methods.
+----------------------------------------------------------------------------------------------------------------
+
+
+    Dated: November 2, 2009.
+Adam J. Szubin,
+Director, Office of Foreign Assets Control.
+[FR Doc. E9-26754 Filed 11-6-09; 8:45 am]
+BILLING CODE 4811-45-P
+
+
+</pre></body>
+</html>

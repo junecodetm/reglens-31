@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 247 (Monday, December 28, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 247 (Monday, December 28, 2009)]
+[Rules and Regulations]
+[Pages 68537-68538]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-30550]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 285
+
+RIN 1510-AB20
+
+
+Offset of Tax Refund Payments To Collect Past-Due, Legally 
+Enforceable Nontax Debt
+
+AGENCY: Financial Management Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury, Financial Management Service 
+(FMS), is amending its regulation governing the centralized offset of 
+tax refund payments to collect nontax debts owed to the United States. 
+The amendment authorizes the offset of Federal tax refunds irrespective 
+of the amount of time the debt has been outstanding.
+
+DATES: This rule is effective December 28, 2009.
+
+FOR FURTHER INFORMATION CONTACT: Thomas Dungan, Senior Policy Analyst, 
+at (202) 874-6660, or Tricia Long, Senior Counsel, at (202) 874-6680.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    The Food, Conservation and Energy Act of 2008, Public Law 110-234, 
+Section 14219, 22 Stat. 923 (2008) (``the Act'') amended the Debt 
+Collection Act of 1982 (as amended by the Debt Collection Improvement 
+Act of 1996) to authorize the offset of Federal nontax payments (for 
+example, contract and salary payments) to collect delinquent Federal 
+debt without regard to the amount of time the debt has been delinquent. 
+Prior to this change, nontax payments could be offset only to collect 
+debt that was delinquent for a period of less than ten years.
+    There is no similar time limitation in the statutes authorizing 
+offset of Federal tax refund payments to collect Federal nontax debts 
+(see 26 U.S.C. 6402(a) and 31 U.S.C. 3720A). However, Treasury had 
+imposed a time limitation on collection of debts by tax refund offset 
+in order to create uniformity in the way that it offset payments. Now 
+that the ten-year limitation has been eliminated for the offset of 
+nontax payments, the rationale for including a ten-year limitation for 
+the offset of tax refund payments no longer applies. Therefore, on June 
+11, 2009, Treasury issued a notice of proposed rulemaking proposing to 
+remove the limitations period by explicitly stating that no time 
+limitation shall apply. See 74 FR 27730. The proposed rule explained 
+that by removing the time limitation, all Federal nontax debts, 
+including debts that were ineligible for collection by offset prior to 
+the removal of the limitations period, may now be collected by tax 
+refund offset.
+    Additionally, to avoid any undue hardship, Treasury proposed the 
+addition of a notice requirement applicable to debts that were 
+previously ineligible for collection by offset because they had been 
+outstanding for more than ten years. For such debts, creditor agencies 
+must certify to FMS that a notice of intent to offset was sent to the 
+debtor after the debt became ten years delinquent. This notice of 
+intent to offset is meant to alert the debtor that any debt the 
+taxpayer owes to the United States may now be collected by offset, even 
+if it is greater than ten years delinquent. It also allows the debtor 
+additional opportunities to dispute the debt, enter into a repayment 
+agreement or otherwise avoid offset. This requirement will apply even 
+in a case where notice was sent prior to the debt becoming ten years 
+old. This requirement applies only with respect to debts that were 
+previously ineligible for collection by offset because of the previous 
+time limitation. Accordingly, it does not apply with respect to debts 
+that could be collected by offset without regard to any time limitation 
+prior to this regulatory change--for example, Department of Education 
+student loan debts.
+
+II. Discussion of Comments
+
+Public Comments
+
+    FMS published a Notice of Proposed Rulemaking with request for 
+comments on June 11, 2009 at 74 FR 27730. Accordingly, FMS is issuing 
+this Final Rule after a review of the comments received.
+    FMS received two comments on the proposed rule. One commenter 
+expressed general support for the rule.
+    The second commenter questioned whether the rule should be 
+promulgated if the rule extended the time limitation on the collection 
+of debts owed to entities receiving Federal financial relief in times 
+of economic crisis. The commenter expressed concern that such a rule 
+would have a larger negative impact on the economy than indicated in 
+the notice of proposed rulemaking. This rule, however, only applies to 
+the collection of nontax debts owed to the United States. It does not 
+apply to debts owed to private entities receiving Federal assistance. 
+Therefore, this rule will not have the effect anticipated by the 
+commenter.
+    FMS did not make any changes to the proposed rule based on the 
+comments received.
+
+III. Regulatory Analysis
+
+Special Analysis
+
+    FMS has determined that good cause exists to make this final rule 
+effective upon publication without providing the 30-day period between 
+publication and the effective date contemplated by 5 U.S.C. 553(d). The 
+purpose of a delayed effective date is to afford persons affected by a 
+rule a reasonable time to prepare for compliance. Treasury has been 
+collecting delinquent Federal nontax through tax refund offset since 
+1986. This final rule only provides guidance that is expected to 
+facilitate Federal agencies' participation in the tax refund offset 
+program with respect to debts that were outstanding more than ten years 
+prior to the effective date of this rule. Therefore, FMS believes that 
+good cause exists, and that it is in
+
+[[Page 68538]]
+
+the public interest, to make this final rule effective upon 
+publication.
+
+Regulatory Planning and Review
+
+    The rule does not meet the criteria for a ``significant regulatory 
+action'' as defined in Executive Order 12866. Therefore, the regulatory 
+review procedures contained therein do not apply.
+
+Regulatory Flexibility Act Analysis
+
+    It is hereby certified that the rule will not have a significant 
+economic impact on a substantial number of small entities. The rule 
+only affects the time that a delinquent nontax debt may be collected. 
+Accordingly, a regulatory flexibility analysis under the Regulatory 
+Flexibility Act (5 U.S.C. 601 et seq.) is not required.
+
+Unfunded Mandates Act
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995, 2 U.S.C. 
+1532 (Unfunded Mandates Act), requires that the agency prepare a 
+budgetary impact statement before promulgating any rule likely to 
+result in a Federal mandate that may result in the expenditure by 
+State, local, and tribal governments, in the aggregate, or by the 
+private sector, of $100 million or more in any one year. If a budgetary 
+impact statement is required, section 205 of the Unfunded Mandates Act 
+also requires the agency to identify and consider a reasonable number 
+of regulatory alternatives before promulgating the rule. We have 
+determined that the rule will not result in expenditures by State, 
+local, and tribal governments, in the aggregate, or by the private 
+sector, of $100 million or more in any one year. Accordingly, we have 
+not prepared a budgetary impact statement or specifically addressed any 
+regulatory alternatives.
+
+List of Subjects in 31 CFR Part 285
+
+    Administrative practice and procedure, Black lung benefits, Child 
+support, Claims, Credit, Debts, Disability benefits, Federal employees, 
+Garnishment of wages, Hearing and appeal procedures, Loan programs, 
+Privacy, Railroad retirement, Railroad unemployment insurance, 
+Salaries, Social Security benefits, Supplemental Security Income (SSI), 
+Taxes, Veteran's benefits, Wages.
+
+0
+For the reasons set forth in the preamble, 31 CFR part 285 is amended 
+as follows:
+
+PART 285--DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION 
+IMPROVEMENT ACT OF 1996
+
+0
+1. The authority citation for part 285 continues to read as follows:
+
+    Authority:  5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 
+3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 
+FR 51763, 3 CFR, 1996 Comp., p. 216.
+
+
+0
+2. In Sec.  285.2, remove paragraph (d)(1)(ii), redesignate paragraphs 
+(d)(1)(iii) through (d)(1)(v) as paragraphs (d)(1)(ii) through 
+(d)(1)(iv), respectively, and add paragraph (d)(6) as follows:
+
+
+Sec.  285.2  Offset of tax refund payments to collect past-due, legally 
+enforceable nontax debt.
+
+* * * * *
+    (d) * * *
+    (6)(i) Creditor agencies may submit debts to FMS for collection by 
+tax refund offset irrespective of the amount of time the debt has been 
+outstanding. Accordingly, all nontax debts, including debts that were 
+delinquent for ten years or longer prior to January 27, 2010 may be 
+collected by tax refund offset.
+    (ii) For debts outstanding more than ten years on or before January 
+27, 2010, creditor agencies must certify to FMS that the notice of 
+intent to offset described in paragraph (d)(1)(ii)(B) of this section 
+was sent to the debtor after the debt became ten years delinquent. This 
+requirement will apply even in a case where notice was also sent prior 
+to the debt becoming ten years delinquent, but does not apply to any 
+debt that could be collected by offset without regard to any time 
+limitation prior to January 27, 2010.
+* * * * *
+
+    Dated: December 18, 2009.
+Richard L. Gregg,
+Acting Fiscal Assistant Secretary.
+[FR Doc. E9-30550 Filed 12-24-09; 8:45 am]
+BILLING CODE 4810-35-P
+
+
+</pre></body>
+</html>

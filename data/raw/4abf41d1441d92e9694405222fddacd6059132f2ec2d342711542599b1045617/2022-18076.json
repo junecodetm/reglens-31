@@ -1,0 +1,123 @@
+{
+  "abstract": "The Department of the Treasury (\"Treasury\"), Bureau of the Fiscal Service (\"Fiscal Service\") is correction a final rule that appeared in the Federal Register on August 16, 2022. The document amends the regulations of the Treasury, Fiscal Service, regarding the Treasury Offset Program (\"TOP\") and the Cross-Servicing program. The primary reason for amending the regulation is to inform the public about how Fiscal Service will use Social Security numbers in mailings, as required by the Social Security Number Fraud Prevention Act of 2017, which requires Fiscal Service to have final regulations in place by September 15, 2022.",
+  "action": "Final rule; correction.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 585,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/585",
+      "name": "Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "Fiscal Service",
+      "slug": "fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2022/08/23/2022-18076.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "285",
+      "title": 31
+    }
+  ],
+  "citation": "87 FR 51611",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This correction is effective September 15, 2022.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. Fiscal-2021-0007"
+  ],
+  "dockets": [
+    {
+      "agency_name": "FISCAL",
+      "documents": [
+        {
+          "allow_late_comments": null,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2022-08-23",
+          "comment_url": "https://www.regulations.gov/commenton/FISCAL_FRDOC_0001-0130",
+          "id": "FISCAL_FRDOC_0001-0130",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2023-02-27T21:22:18.546-05:00"
+        }
+      ],
+      "id": "FISCAL_FRDOC_0001",
+      "supporting_documents": [],
+      "supporting_documents_count": 0,
+      "title": "Recently Posted FISCAL Rules and Notices."
+    }
+  ],
+  "document_number": "2022-18076",
+  "effective_on": "2022-09-15",
+  "end_page": 51611,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2022/08/23/2022-18076.xml",
+  "html_url": "https://www.federalregister.gov/documents/2022/08/23/2022-18076/debt-collection-authorities-under-the-debt-collection-improvement-act-of-1996-correction",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2022-18076?publication_date=2022-08-23",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2022-08-23/2022-18076/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 1,
+  "page_views": {
+    "count": 246,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2022-08-23/pdf/2022-18076.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2022-18076.pdf?1661172313",
+  "publication_date": "2022-08-23",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2022/08/23/2022-18076.txt",
+  "regulation_id_number_info": {
+    "1530-AA21": {
+      "html_url": "https://www.federalregister.gov/regulations/1530-AA21/transfer-of-debts-to-treasury-for-collection",
+      "issue": "202204",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Transfer of Debts to Treasury for Collection",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202204&RIN=1530-AA21&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1530-AA21"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "FISCAL",
+    "checked_regulationsdotgov_at": "2023-02-28T02:22:17Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "document_id": "FISCAL_FRDOC_0001-0130",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 51611,
+  "subtype": null,
+  "title": "Debt Collection Authorities Under the Debt Collection Improvement Act of 1996; Correction",
+  "toc_doc": "Debt Collection Authorities under the Debt Collection Improvement Act of 1996; Correction",
+  "toc_subject": null,
+  "topics": [],
+  "type": "Rule",
+  "volume": 87
+}

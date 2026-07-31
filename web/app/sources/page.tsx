@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { BrowseSection } from "../components/BrowseSection";
+import { CurrencySection } from "../components/CurrencySection";
 import { SearchSection } from "../components/SearchSection";
 import { PageHeader } from "../components/shell/PageHeader";
 import { ViewTabs } from "../components/ui/ViewTabs";
@@ -32,6 +33,7 @@ export default function SourcesPage() {
           },
         ]}
       />
+      <CurrencySection />
     </>
   );
 }

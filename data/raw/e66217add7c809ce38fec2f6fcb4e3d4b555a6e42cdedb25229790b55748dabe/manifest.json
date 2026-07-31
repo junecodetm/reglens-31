@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "federal_register",
+  "url": "https://www.federalregister.gov/documents/full_text/text/1997/05/08/97-12017.txt",
+  "fetched_at": "2026-07-30T14:10:16.843059+00:00",
+  "sha256": "e66217add7c809ce38fec2f6fcb4e3d4b555a6e42cdedb25229790b55748dabe",
+  "content_type": "text/plain",
+  "filename": "97-12017.txt"
+}

@@ -1,0 +1,847 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 115 (Friday, June 14, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 115 (Friday, June 14, 2019)]
+[Rules and Regulations]
+[Pages 27714-27719]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-12475]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501, 510, 535, 536, 539, 541, 542, 544, 546, 547, 548, 
+549, 560, 561, 566, 576, 583, 584, 588, 592, 594, 595, 597, and 598
+
+
+Inflation Adjustment of Civil Monetary Penalties
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this final rule to adjust certain civil 
+monetary penalties (CMPs) for inflation pursuant to the Federal Civil 
+Penalties Inflation Adjustment Act of 1990, as amended by the Debt 
+Collection Improvement Act of 1996 and the Federal Civil Penalties 
+Inflation Adjustment Act Improvements Act of 2015.
+
+DATES: Effective: June 14, 2019.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Licensing, 202-622-2480; Assistant Director for Regulatory Affairs, 
+202-622-4855; Assistant Director for Sanctions Compliance & Evaluation, 
+202-622-2490; or the Department of the Treasury's Office of the Chief 
+Counsel (Foreign Assets Control), Office of the General Counsel, 202-
+622-2410.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available from OFAC's website (<a href="http://www.treasury.gov/ofac">www.treasury.gov/ofac</a>).
+
+Background
+
+    Section 4 of the Federal Civil Penalties Inflation Adjustment Act 
+(1990 Pub. L. 101-410, 104 Stat. 890; 28 U.S.C. 2461 note), as amended 
+by the Debt Collection Improvement Act of 1996 (Pub. L. 104-134, 110 
+Stat. 1321-373) and the Federal Civil Penalties Inflation Adjustment 
+Act Improvements Act of 2015 (Pub. L. 114-74, 129 Stat. 599, 28 U.S.C. 
+2461 note) (collectively, the FCPIA Act), requires each federal agency 
+with statutory authority to assess civil monetary penalties (CMPs) to 
+adjust CMPs annually for inflation according to a formula described in 
+section 5 of the FCPIA Act. One purpose of the FCPIA Act is to ensure 
+that CMPs continue to maintain their deterrent effect through periodic 
+cost-of-living based adjustments.
+    OFAC has adjusted its CMPs three times since the Federal Civil 
+Penalties Inflation Adjustment Act Improvements Act went into effect on 
+November 2, 2015: An initial catch-up adjustment on August 1, 2016 (81 
+FR 43070, July 1, 2016), and annual adjustments on February 10, 2017 
+(82 FR 10434, February 10, 2017), and March 19, 2018 (83 FR 11876, 
+March 19, 2018).
+
+[[Page 27715]]
+
+Method of Calculation
+
+    The method of calculating CMP adjustments applied in this final 
+rule is required by the FCPIA Act. Under the FCPIA Act and the Office 
+of Management and Budget guidance required by the FCPIA Act, annual 
+inflation adjustments subsequent to the initial catch-up adjustment are 
+to be based on the percent change between the Consumer Price Index for 
+all Urban Consumers (``CPI-U'') for the October preceding the date of 
+the adjustment and the prior year's October CPI-U. As set forth in 
+Office of Management and Budget Memorandum M-19-04 of December 14, 
+2018, the adjustment multiplier for 2019 is 1.02522. In order to 
+complete the 2019 annual adjustment, each current CMP is multiplied by 
+the 2019 adjustment multiplier. Under the FCPIA Act, any increase in 
+CMP must be rounded to the nearest multiple of $1.
+
+New Penalty Amounts
+
+    OFAC currently is authorized to impose CMPs pursuant to five 
+statutes: The Trading With the Enemy Act (50 U.S.C. 4301-4341, at 4315) 
+(TWEA); the International Emergency Economic Powers Act (50 U.S.C. 
+1701-1706, at 1705) (IEEPA); the Antiterrorism and Effective Death 
+Penalty Act of 1996 (Pub. L. 104-132, 110 Stat. 1212-1319, at 1250; 18 
+U.S.C. 2339B) (AEDPA); the Foreign Narcotics Kingpin Designation Act 
+(Pub. L. 106-120, 113 Stat. 1626-1636, at 1632; 21 U.S.C. 1901-1908, at 
+1906) (FNKDA); and the Clean Diamond Trade Act (Pub. L. 108-19, 117 
+Stat. 631-637, at 634; 19 U.S.C. 3901-3913, at 3907) (CDTA).
+    The table below summarizes the existing and new maximum CMP 
+amounts.
+
+------------------------------------------------------------------------
+                                                            Maximum CMP
+                                             Existing         amount
+                 Statute                    maximum CMP   effective June
+                                              amount         14, 2019
+------------------------------------------------------------------------
+TWEA....................................         $86,976         $89,170
+IEEPA...................................         295,141         302,584
+AEDPA...................................          77,909          79,874
+FNKDA...................................       1,466,485       1,503,470
+CDTA....................................          13,333          13,669
+------------------------------------------------------------------------
+
+    In addition to updating these maximum CMP amounts, OFAC is also 
+updating a reference to one-half the IEEPA maximum CMP from $147,571 to 
+$151,292.
+
+Public Participation
+
+    Because the amended regulations involve a foreign affairs function, 
+the provisions of Executive Order 12866 and the Administrative 
+Procedure Act (5 U.S.C. 553) requiring notice of proposed rulemaking, 
+opportunity for public participation, and delay in effective date, as 
+well as the provisions of Executive Order 13771, are inapplicable. 
+Because no notice of proposed rulemaking is required for this rule, the 
+Regulatory Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The Paperwork Reduction Act does not apply because this rule does 
+not impose information collection requirements that would require the 
+approval of the Office of Management and Budget under 44 U.S.C. 3501 et 
+seq.
+
+List of Subjects in 31 CFR Parts 501, 510, 535, 536, 539, 541, 542, 
+544, 546, 547, 548, 549, 560, 561, 566, 576, 583, 584, 588, 592, 
+594, 595, 597, and 598
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Exports, Foreign trade, Licensing, Penalties, Sanctions.
+
+    For the reasons set forth in the preamble, the Department of the 
+Treasury's Office of Foreign Assets Control amends 31 CFR chapter V as 
+follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 22 U.S.C. 2370(a), 
+6009, 6032, 7205; 28 U.S.C. 2461 note; 31 U.S.C. 321(b); 50 U.S.C. 
+1701-1706; 50 U.S.C. App. 1-44.
+
+Subpart D--Trading With the Enemy Act (TWEA) Penalties
+
+
+Sec.  501.701   [Amended]
+
+0
+2. Amend Sec.  501.701 as follows:
+0
+a. Remove the note to paragraph (a)(1).
+0
+b. In paragraph (a)(3), remove ``$86,976'' and add in its place 
+``$89,170''.
+
+0
+3. Amend appendix A to part 501 as follows:
+0
+a. In paragraph V.B.2.a.i., remove ``$147,571'' and add in its place 
+``$151,292'', and remove ``$295,141'' and add in its place 
+``$302,584''.
+0
+b. In paragraph V.B.2.a.ii., remove ``$295,141'' in all three locations 
+where it appears, and add in its place in all three locations 
+``$302,584''.
+0
+c. Redesignate the note to paragraph (a) of section V.B.2.a. as 
+paragraph V.B.2.a.v.
+0
+d. Revise newly redesignated paragraph V.B.2.a.v.
+0
+e. Designate the undesignated paragraph after newly redesignated 
+paragraph V.B.2.a.v., which starts with ``The following Matrix 
+represents the base amount of the proposed civil penalty'' and contains 
+a table titled ``Base Penalty Matrix,'' as V.B.2.a.vi.
+    f. Revise newly redesignated paragraph V.B.2.a.vi.
+    The revisions read as follows:
+
+Appendix A to Part 501--Economic Sanctions Enforcement Guidelines
+
+* * * * *
+    V. * * *
+    B. * * *
+    2. * * *
+    a. * * *
+    v. The applicable statutory maximum civil penalty per violation 
+for each statute enforced by OFAC is as follows: International 
+Emergency Economic Powers Act (IEEPA)--greater of $302,584 or twice 
+the amount of the underlying transaction; Trading with the Enemy Act 
+(TWEA)--$89,170; Foreign Narcotics Kingpin Designation Act (FNKDA)--
+$1,503,470; Antiterrorism and Effective Death Penalty Act of 1996 
+(AEDPA)--greater of $79,874 or twice the amount of which a financial 
+institution was required to retain possession or control; and Clean 
+Diamond Trade Act (CDTA)--$13,669. The civil penalty amounts 
+authorized under these statutes are subject to adjustment pursuant 
+to the Federal Civil Penalties Inflation Adjustment Act of 1990 
+(Pub. L. 101-410, as amended, 28 U.S.C. 2461 note).
+    vi. The following matrix represents the base amount of the 
+proposed civil penalty for each category of violation:
+
+[[Page 27716]]
+
+[GRAPHIC] [TIFF OMITTED] TR14JN19.000
+
+* * * * *
+
+PART 510--NORTH KOREA SANCTIONS REGULATIONS
+
+0
+4. The authority citation for part 510 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+Pub. L. 114-122, 130 Stat. 93 (22 U.S.C. 9201-9255); Pub. L. 115-44, 
+131 Stat 886 (22 U.S.C. 9201 note); E.O. 13466, 73 FR 36787, June 
+27, 2008, 3 CFR, 2008 Comp., p. 195; E.O. 13551, 75 FR 53837, 
+September 1, 2010; E.O. 13570, 76 FR 22291, April 20, 2011; E.O. 
+13687, 80 FR 819, January 6, 2015; E.O. 13722, 81 FR 14943, March 
+18, 2016; E.O. 13810, 82 FR 44705, September 25, 2017.
+
+Subpart G--Penalties
+
+
+Sec.  510.701  [Amended]
+
+0
+5. Amend Sec.  510.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate Note 1 to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 535--IRANIAN ASSETS CONTROL REGULATIONS
+
+0
+6. The authority citation for part 535 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 18 U.S.C. 2332d; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; E.O. 12170, 44 FR 
+65729, 3 CFR, 1979 Comp., p. 457; E.O. 12205, 45 FR 24099, 3 CFR, 
+1980 Comp., p. 248; E.O. 12211, 45 FR 26685, 3 CFR, 1980 Comp., p. 
+253; E.O. 12276, 46 FR 7913, 3 CFR, 1981 Comp., p. 104; E.O. 12279, 
+46 FR 7919, 3 CFR, 1981 Comp., p. 109; E.O. 12280, 46 FR 7921, 3 
+CFR, 1981 Comp., p. 110; E.O. 12281, 46 FR 7923, 3 CFR, 1981 Comp., 
+p. 112; E.O. 12282, 46 FR 7925, 3 CFR, 1981 Comp., p. 113; E.O. 
+12283, 46 FR 7927, 3 CFR, 1981 Comp., p. 114; and E.O. 12294, 46 FR 
+14111, 3 CFR, 1981 Comp., p. 139.
+
+Subpart G--Penalties
+
+
+Sec.  535.701  [Amended]
+
+0
+7. Amend Sec.  535.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 536--NARCOTICS TRAFFICKING SANCTIONS REGULATIONS
+
+0
+8. The authority citation for part 536 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011; E.O. 12978, 60 FR 54579, 3 CFR, 1995 
+Comp., p. 415; E.O. 13286, 68 FR 10619, 3 CFR, 2003 Comp., p. 166.
+
+Subpart G--Penalties
+
+
+Sec.  536.701  [Amended]
+
+0
+9. Amend Sec.  536.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 539--WEAPONS OF MASS DESTRUCTION TRADE CONTROL REGULATIONS
+
+0
+10. The authority citation for part 539 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 22 U.S.C. 2751-2799aa-2; 31 U.S.C. 
+321(b); 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 
+890 (28 U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; E.O. 
+12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13094, 63 FR 
+40803, 3 CFR, 1998 Comp., p. 200.
+
+Subpart G--Penalties
+
+
+Sec.  539.701  [Amended]
+
+0
+11. Amend Sec.  539.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+
+[[Page 27717]]
+
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 541--ZIMBABWE SANCTIONS REGULATIONS
+
+0
+12. The authority citation for part 541 continues to read as follows:
+
+    Authority: 3. U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13288, 68 
+FR 11457, 3 CFR, 2003 Comp., p. 186; E.O. 13391, 70 FR 71201, 3 CFR, 
+2005 Comp., p. 206; E.O. 13469, 73 FR 43841, 3 CFR, 2008 Comp., p. 
+1025
+
+Subpart G--Penalties
+
+
+Sec.  541.701  [Amended]
+
+0
+13. Amend Sec.  541.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 542--SYRIAN SANCTIONS REGULATIONS
+
+0
+14. The authority citation for part 542 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 18 U.S.C. 2332d; 22 
+U.S.C. 287c; 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 
+Stat. 890 (28 U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 
+U.S.C. 1701 note); E.O. 13338, 69 FR 26751, 3 CFR, 2004 Comp., p. 
+168; E.O. 13399, 71 FR 25059, 3 CFR, 2006 Comp., p. 218; E.O. 13460, 
+73 FR 8991, 3 CFR 2008 Comp., p. 181; E.O. 13572, 76 FR 24787, 3 CFR 
+2011 Comp., p. 236; E.O. 13573, 76 FR 29143, 3 CFR 2011 Comp., p. 
+241; E.O. 13582, 76 FR 52209, 3 CFR 2011 Comp., p. 264; E.O. 13606, 
+77 FR 24571, 3 CFR 2012 Comp., p. 243.
+
+Subpart G--Penalties
+
+
+Sec.  542.701  [Amended]
+
+0
+15. Amend Sec.  542.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 544--WEAPONS OF MASS DESTRUCTION PROLIFERATORS SANCTIONS 
+REGULATIONS
+
+0
+16. The authority citation for part 544 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Public Law 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Public Law 110-96, 121 Stat. 1011; E.O. 12938, 59 FR 59099, 3 CFR, 
+1994 Comp., p. 950; E.O. 13094, 63 FR 40803, 3 CFR, 1998 Comp., p. 
+200; E.O. 13382, 70 FR 38567, 3 CFR, 2005 Comp., p. 170.
+
+Subpart G--Penalties
+
+
+Sec.  544.701  [Amended]
+
+0
+17. Amend Sec.  544.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 546--DARFUR SANCTIONS REGULATIONS
+
+0
+18. The authority citation for part 546 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13067, 62 FR 59989, 3 CFR, 1997 Comp., p. 230; E.O. 13400, 71 
+FR 25483, 3 CFR, 2006 Comp., p. 220.
+
+Subpart G--Penalties
+
+
+Sec.  546.701  [Amended]
+
+0
+19. Amend Sec.  546.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 547--DEMOCRATIC REPUBLIC OF THE CONGO SANCTIONS REGULATIONS
+
+0
+20. The authority citation for part 547 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 
+2461 note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); 
+E.O. 13413, 71 FR 64105, 3 CFR, 2006 Comp., p. 247; E.O. 13671, 79 
+FR 39949, 3 CFR, 2015 Comp., p. 280.
+
+Subpart G--Penalties
+
+
+Sec.  547.701  [Amended]
+
+0
+21. Amend Sec.  547.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate Note 1 to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 548--BELARUS SANCTIONS REGULATIONS
+
+0
+22. The authority citation for part 548 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13405, 71 
+FR 35485; 3 CFR, 2007 Comp., p. 231.
+
+Subpart G--Penalties
+
+
+Sec.  548.701   [Amended]
+
+0
+23. Amend Sec.  548.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 549--LEBANON SANCTIONS REGULATIONS
+
+0
+24. The authority citation for part 549 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13441, 72 
+FR 43499, 3 CFR, 2008 Comp., p. 232.
+
+Subpart G--Penalties
+
+
+Sec.  549.701   [Amended]
+
+0
+25. Amend Sec.  549.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 560--IRANIAN TRANSACTIONS AND SANCTIONS REGULATIONS
+
+0
+26. The authority citation for part 560 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 18 U.S.C. 2339B, 2332d; 22 U.S.C. 
+2349aa-9; 22 U.S.C. 7201-7211; 31 U.S.C. 321(b); 50 U.S.C. 1601-
+1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 
+note); Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 
+111-195, 124 Stat. 1312 (22 U.S.C. 8501-8551); Pub. L. 112-81, 125 
+Stat. 1298 (22 U.S.C. 8513a); Pub. L. 112-158, 126 Stat. 1214 (22 
+U.S.C. 8701-8795); E.O. 12613, 52 FR 41940, 3 CFR, 1987 Comp., p. 
+256; E.O. 12957, 60 FR 14615, 3 CFR, 1995 Comp., p. 332; E.O. 12959, 
+60 FR 24757, 3 CFR, 1995 Comp., p. 356; E.O. 13059, 62 FR 44531, 3 
+CFR, 1997 Comp., p. 217; E.O. 13599, 77 FR 6659, 3 CFR, 2012 Comp., 
+p. 215; E.O. 13846, 83 FR 38939.
+
+[[Page 27718]]
+
+Subpart G--Penalties
+
+
+Sec.  560.701   [Amended]
+
+0
+27. Amend Sec.  560.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 561--IRANIAN FINANCIAL SANCTIONS REGULATIONS
+
+0
+28. The authority citation for part 561 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 111-
+195, 124 Stat. 1312 (22 U.S.C. 8501-8551); Pub. L. 112-81, 125 Stat. 
+1298 (22 U.S.C. 8513a); Pub. L. 112-158, 126 Stat. 1214 (22 U.S.C. 
+8701-8795); E.O. 12957, 60 FR 14615, 3 CFR, 1995 Comp., p. 332; E.O. 
+13553, 75 FR 60567, 3 CFR, 2010 Comp., p. 253; E.O. 13599, 77 FR 
+6659, February 8, 2012; E.O. 13622, 77 FR 45897, August 2, 2012; 
+E.O. 13628, 77 FR 62139, October 12, 2012.
+
+Subpart G--Penalties
+
+
+Sec.  561.701   [Amended]
+
+0
+29. Amend Sec.  561.701 as follow:
+0
+a. Redesignate the note to paragraph (a) as paragraph (a)(4).
+0
+b. In newly redesignated paragraph (a)(4), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 566--HIZBALLAH FINANCIAL SANCTIONS REGULATIONS
+
+0
+30. The authority citation for part 566 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 114-
+102.
+
+Subpart G--Penalties
+
+
+Sec.  566.701   [Amended]
+
+0
+31. Amend Sec.  566.701 as follows:
+0
+a. Redesignate paragraphs (b) through (e) as paragraphs (c) through 
+(f).
+0
+b. Redesignate the note to paragraph (a) as paragraph (b).
+0
+c. In newly redesignated paragraph (b), remove ``$295,141'' and add in 
+its place ``$302,584''.
+
+PART 576--IRAQ STABILIZATION AND INSURGENCY SANCTIONS REGULATIONS
+
+0
+32. The authority citation for part 576 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 110-96, 121 Stat. 1011; E.O. 
+13303, 68 FR 31931, 3 CFR, 2003 Comp., p. 227; E.O. 13315, 68 FR 
+52315, 3 CFR, 2003 Comp., p. 252; E.O. 13350, 69 FR 46055, 3 CFR, 
+2004 Comp., p. 196; E.O. 13364, 69 FR 70177, 3 CFR, 2004 Comp., p. 
+236; E.O. 13438, 72 FR 39719, 3 CFR, 2007 Comp., p. 224; E.O. 13668, 
+79 FR 31019, 3 CFR, 2014 Comp., p. 248.
+
+Subpart G--Penalties
+
+
+Sec.  576.701   [Amended]
+
+0
+33. Amend Sec.  576.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 583--GLOBAL MAGNITSKY SANCTIONS REGULATIONS
+
+0
+34. The authority citation for part 583 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 114-
+328, Title XII, Subtitle F, 130 Stat. 2533 (22 U.S.C. 2656 note); 
+E.O. 13818, 82 FR 60839, December 26, 2017.
+
+0
+35. In Sec.  583.701, add paragraph (c) to read as follows:
+
+
+Sec.  583.701   Penalties and Findings of Violation.
+
+* * * * *
+    (c) IEEPA provides for a maximum civil penalty not to exceed the 
+greater of $302,584 or an amount that is twice the amount of the 
+transaction that is the basis of the violation with respect to which 
+the penalty is imposed.
+
+PART 584--MAGNITSKY ACT SANCTIONS REGULATIONS
+
+0
+36. The authority citation for part 584 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); Pub. L. 112-
+208, 126 Stat. 1502 (22 U.S.C. 5811 note).
+
+
+Sec.  584.701   [Amended]
+
+0
+37. Amend Sec.  584.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 588--WESTERN BALKANS STABILIZATION REGULATIONS
+
+0
+38. The authority citation for part 588 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011 (50 U.S.C. 1705 note); E.O. 13219, 66 
+FR 34777, 3 CFR, 2001 Comp., p. 778; E.O. 13304, 68 FR 32315, 3 CFR, 
+2004 Comp. p. 229.
+
+Subpart G--Penalties
+
+
+Sec.  588.701   [Amended]
+
+0
+39. Amend Sec.  588.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 592--ROUGH DIAMONDS CONTROL REGULATIONS
+
+0
+40. The authority citation for part 592 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); Pub. L. 108-19, 117 
+Stat. 631 (19 U.S.C. 3901-3913); E.O. 13312, 68 FR 45151 3 CFR, 2003 
+Comp., p. 246.
+
+Subpart F--Penalties
+
+
+Sec.  592.601   [Amended]
+
+0
+41. Amend Sec.  592.601 as follows:
+0
+a. Redesignate paragraphs (a)(2) and (3) as paragraphs (a)(3) and (4).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2) remove ``$13,333'' and add in 
+its place ``$13,669''.
+
+PART 594--GLOBAL TERRORISM SANCTIONS REGULATIONS
+
+0
+42. The authority citation for part 594 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 110-96, 121 Stat. 1011; Pub. L. 115-44, 
+131 Stat. 886 (22 U.S.C. 9401 et seq.), E.O. 13224, 66 FR 49079, 3 
+CFR, 2001 Comp., p. 786; E.O. 13268, 67 FR 44751, 3 CFR, 2002 Comp., 
+p. 240; E.O. 13284, 68 FR 4075, 3 CFR, 2003 Comp., p. 161; E.O. 
+13372, 70 FR 8499, 3 CFR, 2006 Comp., p. 159.
+
+Subpart G--Penalties
+
+
+Sec.  594.701   [Amended]
+
+0
+43. Amend Sec.  594.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+
+[[Page 27719]]
+
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 595--TERRORISM SANCTIONS REGULATIONS
+
+0
+44. The authority citation for part 595 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note); 
+Pub. L. 110-96, 121 Stat. 1011; E.O. 12947, 60 FR 5079, 3 CFR, 1995 
+Comp., p. 319; E.O. 13099, 63 FR 45167, 3 CFR, 1998 Comp., p. 208; 
+E.O. 13372, 70 FR 8499, 3 CFR, 2006 Comp., p. 159.
+
+Subpart G--Penalties
+
+
+Sec.  595.701   [Amended]
+
+0
+45. Amend Sec.  595.701 as follows:
+0
+a. Redesignate paragraph (a)(2) as paragraph (a)(3).
+0
+b. Redesignate the note to paragraph (a)(1) as paragraph (a)(2).
+0
+c. In newly redesignated paragraph (a)(2), remove ``$295,141'' and add 
+in its place ``$302,584''.
+
+PART 597--FOREIGN TERRORIST ORGANIZATIONS SANCTIONS REGULATIONS
+
+0
+46. The authority citation for part 597 continues to read as follows:
+
+    Authority:  31 U.S.C. 321(b); Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); Pub. L. 104-132, 110 Stat. 1214, 1248-53 (8 
+U.S.C. 1189, 18 U.S.C. 2339B).
+
+Subpart G--Penalties
+
+
+Sec.  597.701   [Amended]
+
+0
+47. Amend Sec.  597.701 as follows:
+0
+a. Redesignate the note to paragraph (b) as paragraph (b)(3).
+0
+b. In newly redesignated paragraph (b)(3), remove ``$77,909'' and add 
+in its place ``$79,874''.
+
+PART 598--FOREIGN NARCOTICS KINGPIN SANCTIONS REGULATIONS
+
+0
+48. The authority citation for part 598 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 21 U.S.C. 1901-1908; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890 (28 U.S.C. 2461 note).
+
+Subpart G--Penalties
+
+
+Sec.  598.701   [Amended]
+
+0
+49. Amend Sec.  598.701 as follows:
+0
+a. Redesignate the note to paragraph (a)(3) as paragraph (a)(4).
+0
+b. In newly redesignated paragraph (a)(4), remove ``$1,466,485'' and 
+add in its place ``$1,503,470''.
+
+    Dated: June 7, 2019.
+Andrea Gacki,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2019-12475 Filed 6-13-19; 8:45 am]
+ BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

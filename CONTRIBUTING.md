@@ -1,5 +1,5 @@
 # Contributing
 
-This is a solo portfolio prototype, but it runs like a real repo: trunk-based development, Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, `test:`), and CI (lint, strict types, tests, security suite, eval regression gate) must be green before merge. Workflow details: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
+Create a short-lived branch, use a Conventional Commit message (`feat:`, `fix:`, `docs:`, `chore:`, `ci:`, or `test:`), and submit the change through a pull request. All required CI checks must pass before squash merge. Commit signing is outside the project scope and is not required. See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) for the enforced gates and local commands.
 
-Bug reports and suggestions are welcome via GitHub issues. Please do not submit data from restricted sources (see the exclusion list in [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)) — such issues will be deleted.
+Submit bug reports and suggestions through GitHub issues. Do not include data from restricted sources; the exclusions are listed in [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md). Issues containing restricted-source data will be removed.

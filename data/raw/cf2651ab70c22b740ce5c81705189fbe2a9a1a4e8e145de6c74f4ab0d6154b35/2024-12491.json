@@ -1,0 +1,125 @@
+{
+  "abstract": "This final rule amends the regulations of the Department of the Treasury, Bureau of the Fiscal Service (Treasury), regarding the corporate Federal surety bond program (the program). Treasury is amending its regulations to allow for recognition of additional companies as reinsurers. Treasury is also amending its regulations to incorporate requirements, previously published in supplemental guidance documents, for surety companies to submit information that Treasury uses to perform financial analysis of these companies. Treasury is also reorganizing the existing regulations to modernize and improve their structure.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "id": 497,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+      "name": "Treasury Department",
+      "parent_id": null,
+      "raw_name": "DEPARTMENT OF THE TREASURY",
+      "slug": "treasury-department",
+      "url": "https://www.federalregister.gov/agencies/treasury-department"
+    },
+    {
+      "id": 196,
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/196",
+      "name": "Bureau of the Fiscal Service",
+      "parent_id": 497,
+      "raw_name": "BUREAU OF THE FISCAL SERVICE",
+      "slug": "bureau-of-the-fiscal-service",
+      "url": "https://www.federalregister.gov/agencies/bureau-of-the-fiscal-service"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2024/06/10/2024-12491.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": "223",
+      "title": 31
+    }
+  ],
+  "citation": "89 FR 48827",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [],
+  "dates": "This final rule is effective August 9, 2024.",
+  "disposition_notes": null,
+  "docket_ids": [
+    "Docket No. FISCAL-2021-0006"
+  ],
+  "dockets": [
+    {
+      "agency_name": "FISCAL",
+      "documents": [
+        {
+          "allow_late_comments": false,
+          "comment_count": 0,
+          "comment_end_date": null,
+          "comment_start_date": "2024-06-10",
+          "comment_url": "https://www.regulations.gov/commenton/FISCAL_FRDOC_0001-0209",
+          "id": "FISCAL_FRDOC_0001-0209",
+          "regulations_dot_gov_open_for_comment": false,
+          "updated_at": "2024-09-03T17:04:31.184-04:00"
+        }
+      ],
+      "id": "FISCAL_FRDOC_0001",
+      "supporting_documents": [],
+      "supporting_documents_count": 0,
+      "title": "Recently Posted FISCAL Rules and Notices."
+    }
+  ],
+  "document_number": "2024-12491",
+  "effective_on": "2024-08-09",
+  "end_page": 48838,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2024/06/10/2024-12491.xml",
+  "html_url": "https://www.federalregister.gov/documents/2024/06/10/2024-12491/surety-companies-doing-business-with-the-united-states",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2024-12491?publication_date=2024-06-10",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2024-06-10/2024-12491/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 12,
+  "page_views": {
+    "count": 2176,
+    "last_updated": "2026-07-30 08:15:03 -0400"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-06-10/pdf/2024-12491.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2024-12491.pdf?1717764319",
+  "publication_date": "2024-06-10",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2024/06/10/2024-12491.txt",
+  "regulation_id_number_info": {
+    "1530-AA20": {
+      "html_url": "https://www.federalregister.gov/regulations/1530-AA20/amendment-to-surety-bond-regulations",
+      "issue": "202404",
+      "priority_category": "Substantive, Nonsignificant",
+      "title": "Amendment to Surety Bond Regulations",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202404&RIN=1530-AA20&operation=OPERATION_EXPORT_XML"
+    }
+  },
+  "regulation_id_numbers": [
+    "1530-AA20"
+  ],
+  "regulations_dot_gov_info": {
+    "agency_id": "FISCAL",
+    "checked_regulationsdotgov_at": "2024-06-11T12:00:13Z",
+    "comments_count": 0,
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=FISCAL_FRDOC_0001",
+    "docket_id": "FISCAL_FRDOC_0001",
+    "document_id": "FISCAL_FRDOC_0001-0209",
+    "regulation_id_number": null,
+    "supporting_documents": [],
+    "supporting_documents_count": 0,
+    "title": "Recently Posted FISCAL Rules and Notices."
+  },
+  "regulations_dot_gov_url": null,
+  "schema_version": 1,
+  "significant": false,
+  "signing_date": null,
+  "start_page": 48827,
+  "subtype": null,
+  "title": "Surety Companies Doing Business With the United States",
+  "toc_doc": "Surety Companies Doing Business with the United States",
+  "toc_subject": null,
+  "topics": [
+    "Surety bonds"
+  ],
+  "type": "Rule",
+  "volume": 89
+}

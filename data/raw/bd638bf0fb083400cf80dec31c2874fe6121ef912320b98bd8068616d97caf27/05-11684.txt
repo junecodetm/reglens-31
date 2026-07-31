@@ -1,0 +1,395 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 113 (Tuesday, June 14, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 113 (Tuesday, June 14, 2005)]
+[Rules and Regulations]
+[Pages 34348-34351]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-11684]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AB09
+
+
+Terrorism Risk Insurance Program: Additional Claims Issues; 
+Insurer Affiliates
+
+AGENCY: Departmental Offices, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule as part of its implementation of title I of the Terrorism 
+Risk Insurance Act of 2002 (Act). The Act established a temporary 
+Terrorism Insurance Program (Program) under which the Federal 
+Government will share the risk of insured loss from certified acts of 
+terrorism with commercial property and casualty insurers until the 
+Program ends on December 31, 2005. This final rule clarifies that, for 
+purposes of calculating direct earned premium and insurer deductibles 
+and meeting the requirements for claiming the Federal share of 
+compensation for insured losses for any Program Year, an insurer's 
+affiliates will be determined based on the insurer's circumstances as 
+of the date of occurrence of the act of terrorism that is the first act 
+of terrorism certified by the Secretary for that Program Year.
+
+DATES: This final rule is effective July 14, 2005.
+
+FOR FURTHER INFORMATION CONTACT: Howard Leikin, Senior Insurance 
+Advisor, or David Brummond, Legal Counsel, Terrorism Risk Insurance 
+Program, (202) 622-6770 (not a toll-free number).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    On November 26, 2002, the President signed into law the Terrorism 
+Risk Insurance Act of 2002 (Pub. L. 107-297, 116 Stat. 2322). The Act 
+was effective immediately. The Act's purposes are to address market 
+disruptions, ensure the continued widespread availability and 
+affordability of commercial property and casualty insurance for 
+terrorism risk, and to allow for a transition period for the private 
+markets to stabilize and build capacity while preserving state 
+insurance regulation and consumer protections. Title I of the Act 
+establishes a temporary Federal program of shared public and private 
+compensation for insured commercial property and casualty losses 
+resulting from an act of terrorism, which as defined in the Act is 
+certified by the Secretary of the Treasury, in concurrence with the 
+Secretary of State and the Attorney General. The Act authorizes 
+Treasury to administer and implement the Terrorism Risk Insurance 
+Program, and to issue regulations and procedures. The Program provides 
+a Federal reinsurance backstop for three years. The Program ends on 
+December 31, 2005. Thereafter, the Act provides Treasury with certain 
+continuing authority to take actions as necessary to ensure payment, 
+recoupment, adjustments of compensation, and reimbursement for insured 
+losses arising out of any act of terrorism (as defined under the Act) 
+occurring during the period between
+
+[[Page 34349]]
+
+November 26, 2002, and December 31, 2005.
+    Each entity that meets the definition of ``insurer'' (well over 
+2000 firms) must participate in the Program. The amount of the Federal 
+share of compensation for an insured loss resulting from an act of 
+terrorism is to be determined based upon insurance company deductibles 
+and excess loss sharing with the Federal Government, as specified by 
+the Act and the implementing regulations. An insurer's deductible 
+increases each year of the Program, thereby reducing the Federal 
+Government's share prior to expiration of the Program. An insurer's 
+deductible is calculated based on a percentage of the value of direct 
+earned premiums collected over certain statutory periods. Once an 
+insurer has met its deductible, the Federal payments cover 90 percent 
+of insured losses above the deductible, subject to an annual industry-
+aggregate limit of $100 billion.
+
+II. Proposed Rule and Overview of Comments
+
+    Under the Act and regulations, ``affiliates'' are treated 
+collectively as one insurer for purposes of calculating the insurer 
+deductible for a Program Year. Treasury issued a proposed rule on 
+insurer affiliations, with a request for comment, on January 18, 2005 
+(70 FR 2830). The proposed rule would have clarified subpart F of 31 
+CFR part 50, the claims procedures for insurers seeking the Federal 
+share of compensation for insured losses. The proposed rule added new 
+section 50.55, which provided that for purposes of subpart F, an 
+insurer's affiliates for any Program Year are to be determined based on 
+the insurer's circumstances as of the date of the first certified act 
+of terrorism in that Program Year. This clarification was needed 
+because affiliations of insurers may change over the course of a 
+Program Year and there may be more than one certified act of terrorism 
+in a Program Year. After careful consideration of comments on the 
+proposed rule, Treasury is now issuing this final rule.
+    Treasury received one comment on the proposed rule from an ad hoc 
+industry working group that included members from eight national 
+property-casualty insurance trade associations, collectively 
+representing insurers, reinsurers and producers. The commenter 
+disagreed with the proposed rule, asserting that adoption of the 
+``fixed'' affiliate status approach would lead to unintended compliance 
+and administrative consequences for the industry and Treasury in the 
+event of multiple terrorist acts during a Program Year. The working 
+group recommended that Treasury adopt a regulation that would: ``(a) 
+tie Treasury or insurer action (e.g., reporting, claim payment) 
+pursuant to TRIA to an insurer's affiliate status as of the date of 
+that action; and (b) determine an insurer's TRIA deductible based on 
+affiliate status as of the date of each certified terrorism event in 
+any given Program Year.''
+    Treasury appreciates the concerns raised by the commenter and has 
+thoroughly reviewed the material provided. With the potential for 
+changes in insurer affiliations during the year, an annual deductible 
+presents implementation problems no matter how a final rule is 
+constructed. However, the Act defines an insurer deductible on a 
+Program Year basis. As further explained below in response to specific 
+concerns, Treasury believes that, overall, fixing affiliations as of 
+one event in a Program Year presents a more comprehensive solution to 
+all of the potential implementation problems. After reviewing the 
+comment provided, however, Treasury is modifying the proposed rule in 
+certain respects to clarify and improve how the regulation would be 
+applied. Specifically, the final rule provides that an insurer's 
+affiliates are determined by the circumstances existing on the date of 
+occurrence of the act of terrorism that is the first act of terrorism 
+in a Program Year to be certified by the Secretary for that Program 
+Year. In addition, based on the comment presented, Treasury intends to 
+provide for enough flexibility in its administration of the claims and 
+payment process to accommodate, where possible, particular insurer 
+circumstances.
+    To assist in explaining its position, the commenter constructed 
+several hypothetical scenarios which served to illustrate the concerns 
+with the proposed rule.
+    1. The industry working group presented Treasury with an example to 
+illustrate how deductible and Federal share calculations would be 
+applied with its suggested approach to affiliations, i.e., considered 
+as of each certified act. In Treasury's view, the suggested approach of 
+calculation of the deductible at each event essentially produces an 
+approach that blends a ``per event'' methodology with a methodology 
+based on insurer affiliations as of the last certified act of terrorism 
+in a Program Year. As more specifically explained in (a)-(d) below, 
+after careful review of the example, Treasury continues to believe that 
+the first certified act of terrorism must be the point in time that 
+establishes insurer affiliations.
+    (a) The working group's approach relies on Treasury having to 
+assume how the Federal payments for a first event are distributed 
+within the insurer group in order to determine the appropriate 
+deductible applicable to the new configuration of affiliations as of a 
+second event. Specifically, the example provided assumes that Federal 
+payments are allocated among affiliates in proportion to their share of 
+the total insured losses of their insurer group. This may not be the 
+way payments are actually allocated.
+    (b) The example presents a simplified scenario where all claims 
+from a first certified act of terrorism have been settled and paid 
+prior to an insurer seeking the Federal share for claims arising from a 
+second certified act. In a real situation it is much more likely that 
+claims from the first event will continue to be submitted even as 
+claims from the second event are presented. Thus, in such a scenario, 
+it is unclear what deductible should be applied for losses arising out 
+of the first event. Treasury anticipates that the administrative burden 
+in processing such a mixture of claims exceeds the reasonable 
+capabilities of the reporting and processing systems.
+    (c) The working group's approach shifts deductible amounts based on 
+the direct earned premium for an individual insurer within an insurer 
+group to another insurer group as affiliations change. The suggested 
+methodology for determining the group deductible for the new 
+affiliation at the time of a subsequent certified act of terrorism can 
+lead to duplicative application of deductible amounts within a single 
+Program Year. This is contrary to the Act's requirement of applying a 
+single calendar year deductible to the insured losses of insurers.
+    (d) As noted above, the Act requires the application of a single 
+calendar year deductible to the insured losses of each insurer. Since 
+Treasury has no separate contracts with insurers, there is less 
+flexibility in dealing with the allocations and calculations proposed 
+by the commenter than what the commenter suggests. The working group's 
+approaches to allocating the deductible and to calculating the Federal 
+share seem more appropriate as items subject to negotiation in crafting 
+the terms of a merger or acquisition agreement than a Federal 
+rulemaking.
+    2. The working group noted that pursuant to the proposed rule, in a 
+Program Year with multiple certified acts of terrorism, even a minimal 
+first event involving insured losses for only one insurer would fix 
+affiliations for the entire industry. The working group also
+
+[[Page 34350]]
+
+noted that the order in which events are actually certified as acts of 
+terrorism may be different than the order in which such events 
+occurred. Consequently, the proposed rule could result in claims 
+reporting and Federal payments being made under a set of affiliations 
+that does not match the affiliations that were in place at the time of 
+the first act of terrorism in a Program Year.
+    Treasury has extensively reviewed both of these concerns. Having 
+concluded that calculating the insurer deductible and processing the 
+Federal share of compensation requires insurer affiliations to be fixed 
+at a single point in a Program Year, Treasury examined how, within that 
+constraint, the commenter's two concerns could be addressed. To address 
+the first concern, i.e., minimal first event fixing affiliations for 
+the entire industry, Treasury reconsidered the alternative discussed in 
+the preamble of the proposed rule of establishing affiliations as of 
+the first event for which an insurer, or any affiliates, actually had 
+insured losses. In reexamining this alternative in conjunction with 
+addressing the second concern, i.e., the order in which acts of 
+terrorism are certified may be different than the order in which the 
+acts occur, it became apparent that crafting a final rule that would 
+address both concerns raised by the working group resulted in an overly 
+complex process for determining affiliations. Treasury has concluded 
+that it is more important to clarify that the first certified act of 
+terrorism will be based on the certification date, not the occurrence 
+date of the underlying act giving rise to certification. This will 
+allow for the expeditious processing of claims for the Federal share 
+without having to depend on a certification being made for a prior 
+terrorist event that may still be under investigation. For the final 
+rule, Treasury has thus clarified the regulation to provide generally 
+that an insurer's affiliations are determined by the circumstances on 
+the date of occurrence of the act that is the first act of terrorism 
+certified by the Secretary for the Program Year. This is illustrated in 
+the following example.
+    A possible act of terrorism occurs in March for which 
+investigations begin. In the meantime a second terrorist event occurs 
+in September that is readily identifiable as an act of terrorism under 
+the Act and is certified by the Secretary in October. The March event 
+is certified by the Secretary in November. In this case, the first 
+certified act used to determine affiliations for the Program Year would 
+be the September terrorist event. Affiliations would be fixed for the 
+entire Program Year as of the occurrence date of the act of terrorism 
+in September.
+    3. The working group stated that the proposed rule would not treat 
+insurers equitably because as affiliations change, the effective 
+deductible for an insurer deviates from the Act's mandated 15 percent 
+for Program Year 3. Treasury disagrees that the proposed or final rule 
+results in inequitable treatment of insurers. The working group's 
+example calculations, based on its hypothetical scenarios, purport to 
+show that the proposed rule results in the insurer deductible deviating 
+from the mandated 15 percent of ``direct earned premium'' (DEP) for a 
+second act of terrorism. This point is based on the premise that the 
+deductible can vary as of each event based on the affiliations at the 
+time of each event. This is not possible with an annual deductible as 
+mandated by the Act. The commenter's proposal would result in the re-
+computation of deductibles and payments for losses for the entire 
+Program Year based on affiliations as of the last act of terrorism in 
+the Program Year. The same logic used in the example could then be 
+applied to the prior event to show that now the deductible in that 
+first event deviated from the required 15 percent insurer deductible. 
+Treasury's rule applies the deductible, set at 15 percent of DEP for 
+the affiliated structure at the time of the first terrorism event, 
+consistently throughout the Program Year.
+    4. The working group asserted that complications would arise from 
+the proposed rule's impact on producers because disclosure requirements 
+may have been met by sending the disclosures through producers. The 
+commenter noted that the proposed rule's ``fictional'' affiliations 
+could require an agent to assist an insurer in certifying compliance 
+with the Act's notice requirements where the agent no longer has any 
+legal relationship with the insurer. Treasury appreciates the concern 
+raised by producers that they may be called upon to assist an insurer 
+in certifying compliance. The issue that is raised, however, is not 
+related to the Program's proposed treatment of affiliations, but is 
+rooted in the fact that affiliations may change over time, even in the 
+aftermath of a single event or independent of any event. Treasury 
+expects an insurer to be able to certify that disclosures have been 
+made and that records are available for audit, if necessary. Treasury 
+has recognized that insurers may or may not carry out their disclosure 
+responsibilities through producers. Whatever approach is taken is an 
+insurer decision on how to comply with the Act's disclosure 
+requirements. In any case, Treasury believes the decision to call upon 
+producers to certify or otherwise document insurer compliance with the 
+Program's disclosure requirements is a prerogative of the insurer.
+
+III. Final Rule
+
+    The final rule adds new section 50.55 and provides that for the 
+purposes of subpart F (Claims Procedures), an insurer's affiliates for 
+any Program Year shall be determined by the circumstances existing on 
+the date of occurrence of the act of terrorism that is the first act of 
+terrorism in a Program Year to be certified by the Secretary. The final 
+rule also includes a technical change to the definition of 
+``affiliate'' in section 50.5(c) to provide a cross-reference to 
+section 50.55.
+    This final rule provides additional guidance to insurers on how 
+affiliations will be viewed for purposes of calculating the insurer 
+deductible under the Act and otherwise meeting requirements of subpart 
+F. By clarifying insurer rights and obligations that were cited as 
+concerns by the working group, this rulemaking makes available 
+information relevant to insurers evaluating and addressing risks 
+associated with corporate restructuring. Treasury recognizes that claim 
+submissions and Federal payments for insured losses may continue for 
+years following a certified act of terrorism. Consequently, over time, 
+processing difficulties may arise from a change in an insurer's 
+affiliation status whether or not more than one certified act of 
+terrorism occurs in a Program Year. Within the scope of this rule and 
+other constraints on Treasury in administering the claims process, 
+Treasury will strive for ease of operations. This could, for example, 
+involve recognition of alternative reporting structures where there is 
+no impact on insurer deductibles and/or the amount of the Federal share 
+of compensation owed to affected insurers. Treasury may make 
+adjustments in its procedures, promulgate revised rules, or on a case-
+by-case basis enter into agreements with the involved parties to 
+address administrative difficulties arising from changes in insurer 
+affiliations once insured losses have been incurred.
+
+IV. Procedural Requirements
+
+    Executive Order 12866, ``Regulatory Planning and Review''. This 
+rule is not a significant regulatory action for purposes of Executive 
+Order 12866, ``Regulatory Planning and Review,'' and therefore has not 
+been reviewed by the Office of Management and Budget.
+
+[[Page 34351]]
+
+    Regulatory Flexibility Act. Pursuant the Regulatory Flexibility 
+Act, 5 U.S.C. 601 et seq., it is hereby certified that the final rule 
+will not have a significant economic impact on a substantial number of 
+small entities. Treasury is required to pay the Federal share of 
+compensation to insurers for insured losses in accordance with the Act. 
+A condition of Federal payment is that the insurer must submit to 
+Treasury, in accordance with procedures established by Treasury, a 
+claim for payment and certain certifications. The Act itself requires 
+all insurers receiving direct earned premium for any type of property 
+and casualty insurance, as defined in the Act, to participate in the 
+Program. This includes all insurers regardless of size or 
+sophistication. The Act also defines property and casualty insurance to 
+mean commercial lines of insurance without any reference to size or 
+scope of the insurer or the insured. Accordingly, any economic impact 
+associated with the proposed rule flows from the Act and not the 
+proposed rule. The rule merely clarifies the point in time at which 
+insurer affiliations are determined for purposes of the Program. A 
+regulatory flexibility analysis is thus not required.
+
+List of Subjects in 31 CFR Part 50
+
+    Terrorism Risk Insurance.
+
+Authority and Issuance
+
+0
+For the reasons set forth above, 31 CFR is amended as follows:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322 (15 U.S.C. 6701 note).
+
+
+0
+2. Section 50.5 of subpart A is amended by adding paragraph (c)(6) to 
+read as follows:
+
+
+Sec.  50.5  Definitions.
+
+* * * * *
+    (c) * * *
+    (6) See Sec.  50.55 of this part for determination of an insurer's 
+affiliates for purposes of subpart F.
+* * * * *
+
+0
+3. Subpart F of part 50 is amended by adding Sec.  50.55 to read as 
+follows:
+
+
+Sec.  50.55  Determination of Affiliations.
+
+    For the purposes of subpart F, an insurer's affiliates for any 
+Program Year shall be determined by the circumstances existing on the 
+date of occurrence of the act of terrorism that is the first act of 
+terrorism in a Program Year to be certified by the Secretary for that 
+Program Year.
+
+    Dated: June 8, 2005.
+Gregory Zerzan,
+Acting Assistant Secretary of the Treasury.
+[FR Doc. 05-11684 Filed 6-13-05; 8:45 am]
+BILLING CODE 4810-02-P
+
+
+</pre></body>
+</html>
