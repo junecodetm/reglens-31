@@ -77,7 +77,8 @@ jobs:
       # only — it never exists in the static bundle. Idempotent per deploy;
       # an empty value is harmless (the function answers 503 + fallback).
       - name: write-groq-secret-manifest
-        run: printf '{"GROQ_API_KEY": "%s"}\n' "$GROQ_API_KEY" > groq-secret.json
+        run: |
+          printf '{"GROQ_API_KEY": "%s"}\n' "$GROQ_API_KEY" > groq-secret.json
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       - uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.0
