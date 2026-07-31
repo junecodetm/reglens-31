@@ -1,5 +1,5 @@
 export const DISCLAIMER_TEXT =
-  "Independent personal research prototype. Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury or any U.S. government agency (31 U.S.C. § 333). Not legal advice; no attorney-client relationship. Outputs are assistive only — verify every obligation against the primary source.";
+  "Independent personal research prototype. Not affiliated with, endorsed by, or representing the U.S. Department of the Treasury or any U.S. government agency (31 U.S.C. § 333). Not legal advice; no attorney-client relationship. Outputs are assistive only — verify every obligation against the primary source. Model-generated fields are labeled as such.";
 
 export type ObligationType =
   | "requirement"
@@ -49,9 +49,30 @@ export interface DocumentExtraction {
 export interface SiteData {
   accepted_count: number;
   rejected_count: number;
-  document_count: number;
+  /** Documents the local model was actually run over — the stated sample. */
+  documents_extracted: number;
+  /** Every document the corpus inclusion rule committed, extracted or not. */
+  documents_in_scope: number;
+  chars_extracted: number;
+  chars_in_scope: number;
+  /** Per-document extraction cap for Federal Register documents; parts are uncapped. */
+  max_document_chars: number;
   model_tags: string[];
   data_as_of: string;
+}
+
+export interface CurrencyPartData {
+  part: number;
+  census_count: number;
+  amended_since_snapshot: number;
+}
+
+export interface CurrencyData {
+  schema_version: number;
+  snapshot_date: string;
+  total_sections: number;
+  total_amended_since_snapshot: number;
+  parts: CurrencyPartData[];
 }
 
 export type SourceTextState =
@@ -209,11 +230,14 @@ export interface GroundingData {
 }
 
 export interface DraftDossier {
+  provider?: string;
   model: string;
   temperature: number;
   seed: number;
-  num_ctx: number;
-  num_predict: number;
+  num_ctx: number | null;
+  num_predict: number | null;
+  max_tokens?: number | null;
+  reasoning_effort?: string | null;
   system_prompt_sha256: string;
   prompt_sha256: string;
   input_sha256: string;

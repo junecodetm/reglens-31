@@ -1,58 +1,92 @@
-# DESIGN.md — RegLens-31 front-end
+# RegLens-31 Front-End Design
 
 ## System
-USWDS 3 via @trussworks/react-uswds. All new UI composes USWDS primitives and the
-existing custom-property palette. Do not introduce a second design language.
 
-## Color (exhaustive — no new colors)
+The front end is a Next.js static export built with USWDS 3 through
+`@trussworks/react-uswds`. The interface uses USWDS primitives and the shared
+custom-property palette; it does not introduce a separate design language.
+
+The application uses a multi-route shell with a persistent desktop sidebar and
+an accessible mobile navigation drawer. Each route provides a focused task
+view within the same shell.
+
+## Color
+
+The core design tokens are:
+
 | Token | Value | Use |
 |---|---|---|
-| `--ink` | #172b3a | body text |
-| `--navy` | #153651 | header band, sidebar accents |
-| `--navy-deep` | #0b273d | header gradient stop / deep chrome |
-| `--blue` | #005ea8 | links, active/current indicators, focus accents |
-| `--blue-dark` | #00477f | link hover/active |
-| `--canvas` | #f4f7f9 | page background |
-| `--surface` | #ffffff | cards, panes, tables |
-| `--line` | #b8c7d1 | 1px borders, dividers |
-| `--soft-blue` | #e7f2fa | selected/highlight fills, claim-pulse start |
-| `--gold` | #ffbe2e | disclaimer band accent, sparing emphasis only |
+| `--ink` | `#172b3a` | Body text |
+| `--muted-ink` | `#465b69` | Secondary text |
+| `--navy` | `#153651` | Sidebar and page-heading accents |
+| `--navy-deep` | `#0b273d` | Header, footer, and mobile overlay |
+| `--blue` | `#005ea8` | Links, current indicators, and focus accents |
+| `--blue-dark` | `#00477f` | Link hover and active states |
+| `--canvas` | `#f4f7f9` | Page background |
+| `--surface` | `#ffffff` | Cards, panes, and tables |
+| `--line` | `#b8c7d1` | Structural borders and dividers |
+| `--soft-blue` | `#e7f2fa` | Selection, highlight, and pulse fills |
+| `--gold` | `#ffbe2e` | Header, footer, disclaimer, and focus accents |
 
-Rules: neutral navy/blue/gold only — NO red/green semantic coloring of analytical
-results (EXTEND-OGC01 §5). Contrast ≥4.5:1 body text, ≥3:1 large text. No gradient
-text, no glass/blur effects, borders 1px max (the 4px `usa-current` left bar is the
-sole USWDS-conventional exception).
+USWDS utilities and component-specific styles supply secondary neutral,
+categorical, and error colors. The interface does not use red/green treatment
+to imply regulatory validity, risk, acceptance, or repeal priority, consistent
+with the "Framing constraints" in `../docs/OGC01-ALIGNMENT.md`. Accepted and
+rejected counts use the same neutral treatment. Obligation-type badges use
+categorical hues, and runtime errors use the conventional error palette.
+
+Body text maintains at least 4.5:1 contrast and large text at least 3:1.
+Structural dividers are 1px. Controls and error notices may use 2px borders;
+the 4px `usa-current` navigation bar is the USWDS current-item indicator. The
+design does not use gradient text, glass effects, or blur effects.
 
 ## Typography
-- Body/UI: "Source Sans Pro Web", system fallbacks. Line-height 1.55.
-- Display (hero/page h1): "Merriweather Web", Georgia, serif.
-- Mono: "Roboto Mono Web" — ONLY for actual code, SHA-256 digests, and verbatim
-  regulatory/source text. Never decorative.
-- Body measure 65–75ch. Obvious scale steps between h1/h2/h3 at every breakpoint;
-  display capped well under 6rem (current clamp max 3rem). No kickers that rob the
-  heading of standalone meaning — headings must stand independently.
 
-## Spacing & layout
-- Tight groupings, generous separation: related controls cluster; sections separate
-  with clearly larger gaps. More space above headings than below.
-- App shell: sidebar (sticky, own scroll) + `minmax(0,1fr)` content column. Prose
-  keeps 65–75ch; two-pane comparisons and data tables may use full width.
-- Touch targets ≥44×44px (menu button, drawer close, all tap targets).
+- Body and interface text use "Source Sans Pro Web" with system fallbacks and
+  a 1.55 line height.
+- Hero and page-level headings use "Merriweather Web" with Georgia and serif
+  fallbacks. Responsive page headings do not exceed 3.25rem.
+- "Roboto Mono Web" is limited to code, SHA-256 digests, and verbatim
+  regulatory or source text.
+- Prose measures approximately 65–75 characters. Heading levels use visibly
+  distinct sizes, and each heading has standalone meaning.
 
-## Components
-- USWDS patterns first (Button, Table, Alert-style notices already in globals.css).
-- Every interactive element has hover, focus-visible, disabled, loading, error, and
-  empty states; keyboard operable; visible focus ring never clipped.
-- Error copy names the problem and the recovery path ("The X request returned status
-  N." + retry affordance where applicable).
+## Spacing and layout
 
-## Motion (GSAP; purposeful only)
-- Tokens: `DUR = {fast:.15, base:.22, slow:.3}`, `EASE = "power2.out"`, `STAGGER = .05`.
-- Budget: page entrance 220ms fade/8px rise; overview card stagger 50ms steps;
-  count-up 600ms; claim-highlight pulse 300ms background fade from `--soft-blue`.
-- Exits faster than entrances. Transform/opacity only (plus the pulse's background
-  fade). No scroll-jacking, no parallax, no ScrollTrigger, no layout-driving
-  property animation.
-- Everything inside `gsap.matchMedia().add("(prefers-reduced-motion: no-preference)")`;
-  DOM authored in final state so reduced-motion users and raw static HTML see the
-  finished layout with zero animation.
+- Related controls remain grouped; larger gaps separate sections. Headings
+  receive more space above than below.
+- The desktop shell uses a sticky, independently scrolling sidebar and a
+  `minmax(0, 1fr)` content column. At the mobile breakpoint, the sidebar
+  becomes a focus-trapped drawer and the content expands to one column.
+- Prose remains within the standard reading measure. Two-pane comparisons and
+  data tables may use the available content width.
+- Menu controls, drawer controls, navigation links, and other tap targets are
+  at least 44px by 44px.
+
+## Components and states
+
+- USWDS `Button`, `Table`, and `Alert` components provide the base patterns.
+  Shared application components cover tabs, document selection, expandable
+  groups, glossary definitions, metric cards, highlights, and text diffs.
+- Data-backed views define visible loading, error, and empty states.
+- Interactive controls are keyboard operable and expose state through native
+  semantics or ARIA attributes. Focus indicators remain visible and unclipped.
+- Error messages identify the failed request or resource and provide a
+  recovery action when retry is possible.
+
+## Motion
+
+- Motion tokens are `DUR = { fast: 0.15, base: 0.22, slow: 0.3 }`,
+  `EASE = "power2.out"`, and `STAGGER = 0.05`.
+- Route entrances use a 220ms opacity transition with an 8px rise. Overview
+  cards use a 220ms opacity transition with a 12px rise and 50ms stagger.
+  Count-up motion lasts 600ms, and a located claim receives a 300ms background
+  pulse from `--soft-blue`.
+- Movement uses transforms and opacity; the claim pulse changes only the
+  background color. The design excludes scroll-jacking, parallax,
+  `ScrollTrigger`, and layout-property animation.
+- Route and card motion runs inside `gsap.matchMedia()` for
+  `prefers-reduced-motion: no-preference`. Count-up and pulse helpers return
+  without animation when reduced motion is requested. The DOM is authored in
+  its final state so reduced-motion users and static HTML receive the complete
+  layout.

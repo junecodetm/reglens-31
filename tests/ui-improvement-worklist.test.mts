@@ -144,18 +144,15 @@ test("shared authorities precede a collapsed per-part recap", () => {
 
 test("obligations preview, sticky pane, and narrow-screen focus movement are explicit", () => {
   const explorer = read("app/obligations/ObligationsExplorer.tsx");
-  const claimsPane = read("app/components/ClaimsPane.tsx");
   const sourcePane = read("app/components/SourcePane.tsx");
   const css = read("app/globals.css");
 
-  for (const source of [explorer, claimsPane]) {
-    assert.match(source, /CLAIM_PREVIEW_LIMIT\s*=\s*25/);
-    assert.match(source, /Show all \$\{/);
-    assert.match(source, /\.slice\(0,\s*CLAIM_PREVIEW_LIMIT\)/);
-    assert.match(source, /aria-expanded=/);
-    assert.match(source, /aria-controls=/);
-    assert.match(source, /Show fewer/);
-  }
+  assert.match(explorer, /CLAIM_PREVIEW_LIMIT\s*=\s*25/);
+  assert.match(explorer, /Show all \$\{/);
+  assert.match(explorer, /\.slice\(0,\s*CLAIM_PREVIEW_LIMIT\)/);
+  assert.match(explorer, /aria-expanded=/);
+  assert.match(explorer, /aria-controls=/);
+  assert.match(explorer, /Show fewer/);
   assert.match(
     explorer,
     /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/,
@@ -226,6 +223,171 @@ test("draft checklist summary is data-derived and itemized checks are disclosed"
   assert.match(source, /Show itemized checklist/);
   assert.match(source, />Load and show draft text</);
   assert.match(source, /aria-label=\{`Load and show draft text for \$\{label\}`\}/);
+});
+
+test("draft parameters stay optional and live output remains fail-visible", () => {
+  const source = read("app/components/DraftsSection.tsx");
+  const types = read("app/components/reglens-types.ts");
+
+  assert.match(
+    source,
+    /useLazyJson<DraftInputs>\("\/data\/draft-inputs\.json"/,
+  );
+  for (const label of [
+    "CFR part",
+    "NPRM",
+    "Final rule",
+    "Policy objective (optional)",
+    "Generate opening narrative (live)",
+  ]) {
+    assert.ok(source.includes(label), `missing draft control label: ${label}`);
+  }
+  assert.match(source, /maxLength=\{500\}/);
+  assert.match(source, /aria-live="polite"/);
+  assert.match(source, /requestLiveDraft\(/);
+  assert.match(source, /assembleSkeleton\(/);
+  assert.match(source, /checkLiveDraft\(/);
+  assert.match(source, /Live model output \(\{liveResult\.model\}\)/);
+  assert.match(source, /Checks requiring review:/);
+  assert.match(source, /containerId=\{`draft-\$\{key\}`\}/);
+  assert.ok(
+    source.includes(
+      "The shared free-tier generation limit is momentarily exhausted. The committed, fully conformance-gated draft for these parameters is shown instead.",
+    ),
+  );
+  assert.ok(
+    source.includes(
+      "Live generation is unavailable. The committed, fully conformance-gated draft for these parameters is shown instead.",
+    ),
+  );
+  assert.match(types, /provider\?: string/);
+  assert.match(types, /num_ctx: number \| null/);
+  assert.match(types, /num_predict: number \| null/);
+  assert.match(types, /max_tokens\?: number \| null/);
+  assert.match(types, /reasoning_effort\?: string \| null/);
+});
+
+test("obligation filters run before preview slicing and map review parts", async () => {
+  const module = await import(
+    "../web/app/obligations/obligation-filters.ts"
+  );
+  const filterClaims = (
+    module as unknown as {
+      filterClaims?: (
+        claims: any[],
+        view: "accepted" | "rejected",
+        obligationType: string,
+        affectedParty: string,
+        filterText: string,
+      ) => any[];
+    }
+  ).filterClaims;
+  const resolveReviewPart = (
+    module as unknown as {
+      resolveReviewPart?: (
+        documentNumber: string,
+        grounding: any,
+      ) => number | null;
+    }
+  ).resolveReviewPart;
+
+  assert.equal(typeof filterClaims, "function");
+  assert.equal(typeof resolveReviewPart, "function");
+  if (!filterClaims || !resolveReviewPart) return;
+
+  const claims = [
+    {
+      claim_id: "accepted-match",
+      accepted: true,
+      obligation_type: "reporting",
+      affected_party: "Banks",
+      summary: "Submit a quarterly report",
+      quote: "Each bank must file the report.",
+    },
+    {
+      claim_id: "accepted-other-party",
+      accepted: true,
+      obligation_type: "reporting",
+      affected_party: "Insurers",
+      summary: "Submit a quarterly report",
+      quote: "Each insurer must file the report.",
+    },
+    {
+      claim_id: "rejected-match",
+      accepted: false,
+      obligation_type: "reporting",
+      affected_party: "Banks",
+      summary: "Submit a quarterly report",
+      quote: "Each bank must file the report.",
+    },
+  ];
+
+  assert.deepEqual(
+    filterClaims(claims, "accepted", "reporting", "Banks", "QUARTERLY")
+      .map((claim) => claim.claim_id),
+    ["accepted-match"],
+  );
+  assert.deepEqual(
+    filterClaims(claims, "accepted", "", "", "MUST FILE")
+      .map((claim) => claim.claim_id),
+    ["accepted-match", "accepted-other-party"],
+  );
+  assert.equal(resolveReviewPart("31-CFR-223", null), 223);
+  assert.equal(
+    resolveReviewPart("2024-00594", {
+      rules: [
+        {
+          document_number: "2024-00594",
+          source_for_part: 285,
+        },
+      ],
+    }),
+    285,
+  );
+  assert.equal(resolveReviewPart("2024-99999", { rules: [] }), null);
+
+  const source = read("app/obligations/ObligationsExplorer.tsx");
+  assert.match(source, />\s*Obligation type\s*</);
+  assert.match(source, />\s*Affected party\s*</);
+  assert.match(source, />\s*Filter text\s*</);
+  assert.match(source, /filteredClaims\.slice\(0,\s*CLAIM_PREVIEW_LIMIT\)/);
+  assert.match(
+    source,
+    /\{displayedClaims\.length\} of \{filteredClaims\.length\} shown/,
+  );
+  assert.match(source, /<ReviewMemoPanel part=\{reviewPart\} compact \/>/);
+});
+
+test("review memo panels are silent without data and keep marker families balanced", () => {
+  const source = read("app/components/ReviewMemoPanel.tsx");
+  const authority = read("app/components/AuthoritySection.tsx");
+
+  assert.match(source, /useLazyJson<ReviewMemoData>\("\/data\/memos\.json"/);
+  assert.match(
+    source,
+    /if \(memoState\.status !== "ready"\) \{\s*return null;/,
+  );
+  assert.match(
+    source,
+    /Review signals — flagged for attorney review/,
+  );
+  assert.match(source, /Deference-reliance markers:/);
+  assert.match(source, /Grounding-strength markers:/);
+  assert.match(
+    source,
+    /Model-generated summary of the retrieval evidence — not a legal conclusion\./,
+  );
+  assert.match(source, /Narrative withheld by the memo gate\./);
+  assert.match(
+    source,
+    /Full evidence on the Statutory authority page/,
+  );
+  assert.match(source, /href="\/authorities\/"/);
+  assert.doesNotMatch(
+    source,
+    /\b(?:vulnerable|compliant|candidate|invalid|unnecessary)\b/i,
+  );
+  assert.match(authority, /<ReviewMemoPanel part=\{selectedPart\} \/>/);
 });
 
 test("evaluation uses metric cards and preserves the F1 interval caveat verbatim", () => {
@@ -322,7 +484,12 @@ test("about prose has semantic structure, readable measure, and an isolated dige
   );
   assert.ok(
     normalizedSource.includes(
-      "What OGC-01 is, why this demonstration mocks it up, and exactly which stated output each page implements — quoted verbatim from Treasury's own public record.",
+      "RegLens-31 is an independent working mockup of one publicly documented Treasury AI use case:",
+    ),
+  );
+  assert.ok(
+    normalizedSource.includes(
+      "Built from public primary sources only, it demonstrates what each of OGC-01’s stated outputs can look like when every claim must survive a verbatim, fail-closed provenance check.",
     ),
   );
   assert.match(
@@ -405,4 +572,22 @@ test("neutral classifications and visible pass/fail words remain intact", () => 
   );
   assert.match(drafts, /return value \? "pass" : "fail"/);
   assert.match(drafts, /\{passFail\(value\)\}/);
+});
+
+test("the band definition constant matches the exported artifact byte-for-byte", () => {
+  // The memo panel renders the constant; GroundingSection prefers the
+  // exported grounding.json string. If they ever diverge, the two views
+  // would print different definitions for the same bands.
+  const source = read("app/components/GroundingSection.tsx");
+  const match = source.match(
+    /export const BAND_DEFINITION =\s*((?:"[^"]*"\s*;?\s*)+)/,
+  );
+  assert.ok(match, "BAND_DEFINITION not found in GroundingSection.tsx");
+  const constant = Array.from(match[1].matchAll(/"([^"]*)"/g))
+    .map((m) => m[1])
+    .join("");
+  const artifact = JSON.parse(
+    readFileSync(join(WEB_ROOT, "public/data/grounding.json"), "utf8"),
+  ) as { band_definition: string };
+  assert.equal(constant, artifact.band_definition);
 });

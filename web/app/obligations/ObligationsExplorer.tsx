@@ -1,18 +1,24 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 
 import { DocumentPicker } from "../components/DocumentPicker";
 import { RejectedDetailPane } from "../components/RejectedDetailPane";
+import { ReviewMemoPanel } from "../components/ReviewMemoPanel";
 import {
   type ClaimRecord,
   type DocumentExtraction,
+  type GroundingData,
   type RejectedDetailsData,
   type SiteData,
   type SourceTextState,
 } from "../components/reglens-types";
 import { SourcePane } from "../components/SourcePane";
 import { useLazyJson } from "../components/ui/useLazyJson";
+import {
+  filterClaims,
+  resolveReviewPart,
+} from "./obligation-filters";
 
 type PageDataState =
   | { status: "loading" }
@@ -59,15 +65,29 @@ export function ObligationsExplorer({
     null,
   );
   const [showAllClaims, setShowAllClaims] = useState(false);
+  const [obligationTypeFilter, setObligationTypeFilter] = useState("");
+  const [affectedPartyFilter, setAffectedPartyFilter] = useState("");
+  const [filterText, setFilterText] = useState("");
   const [sourceState, setSourceState] = useState<SourceTextState>({
     status: "idle",
   });
+  const obligationTypeFilterId = useId();
+  const affectedPartyFilterId = useId();
+  const filterTextId = useId();
   const explorerRef = useRef<HTMLDivElement>(null);
   const sourceCacheRef = useRef<Map<string, string>>(new Map());
   const { state: rejectedDetailsState, load: loadRejectedDetails } =
     useLazyJson<RejectedDetailsData>("/data/rejected-details.json");
+  const { state: groundingState, load: loadGroundingData } =
+    useLazyJson<GroundingData>("/data/grounding.json");
   const selectedClaimDocumentNumber =
     selectedClaim?.document_number ?? null;
+  const groundingData =
+    groundingState.status === "ready" ? groundingState.data : null;
+  const reviewPart = resolveReviewPart(
+    selectedDocumentNumber,
+    groundingData,
+  );
 
   useEffect(() => {
     const controller = new AbortController();
@@ -138,6 +158,23 @@ export function ObligationsExplorer({
     setSelectedClaim(null);
     setShowAllClaims(false);
   }, [selectedDocumentNumber, view]);
+
+  useEffect(() => {
+    setObligationTypeFilter("");
+    setAffectedPartyFilter("");
+    setFilterText("");
+  }, [selectedDocumentNumber]);
+
+  useEffect(() => {
+    if (
+      selectedDocumentNumber === "" ||
+      resolveReviewPart(selectedDocumentNumber, null) !== null
+    ) {
+      return;
+    }
+
+    void loadGroundingData();
+  }, [loadGroundingData, selectedDocumentNumber]);
 
   useEffect(() => {
     if (
@@ -278,24 +315,55 @@ export function ObligationsExplorer({
     ) ?? null;
   const acceptedCount = selectedDocument?.accepted_count ?? 0;
   const rejectedCount = selectedDocument?.rejected_count ?? 0;
-  const visibleClaims =
+  const allDocumentClaims = selectedDocument?.claims ?? [];
+  const statusClaims =
     selectedDocument?.claims.filter((claim) =>
       view === "accepted" ? claim.accepted : !claim.accepted,
     ) ?? [];
+  const obligationTypes = Array.from(
+    new Set(allDocumentClaims.map((claim) => claim.obligation_type)),
+  ).sort((left, right) => left.localeCompare(right));
+  const affectedPartiesByKey = new Map<string, string>();
+
+  for (const claim of allDocumentClaims) {
+    const normalizedParty = claim.affected_party.trim().toLowerCase();
+
+    if (!affectedPartiesByKey.has(normalizedParty)) {
+      affectedPartiesByKey.set(normalizedParty, claim.affected_party);
+    }
+  }
+
+  const affectedParties = Array.from(affectedPartiesByKey.values()).sort(
+    (left, right) =>
+      left.localeCompare(right, undefined, { sensitivity: "base" }),
+  );
+  const filteredClaims = filterClaims(
+    allDocumentClaims,
+    view,
+    obligationTypeFilter,
+    affectedPartyFilter,
+    filterText,
+  );
   const displayedClaims = showAllClaims
-    ? visibleClaims
-    : visibleClaims.slice(0, CLAIM_PREVIEW_LIMIT);
+    ? filteredClaims
+    : filteredClaims.slice(0, CLAIM_PREVIEW_LIMIT);
   const claimListId = `obligations-${view}-claims-list`;
 
-  function selectDocument(documentNumber: string): void {
+  function resetClaimSelectionAndPreview(): void {
     setSelectedClaim(null);
     setShowAllClaims(false);
+  }
+
+  function selectDocument(documentNumber: string): void {
+    resetClaimSelectionAndPreview();
+    setObligationTypeFilter("");
+    setAffectedPartyFilter("");
+    setFilterText("");
     setSelectedDocumentNumber(documentNumber);
   }
 
   function selectView(nextView: ClaimView): void {
-    setSelectedClaim(null);
-    setShowAllClaims(false);
+    resetClaimSelectionAndPreview();
     setView(nextView);
   }
 
@@ -320,6 +388,10 @@ export function ObligationsExplorer({
           onSelect={selectDocument}
         />
 
+        {reviewPart !== null ? (
+          <ReviewMemoPanel part={reviewPart} compact />
+        ) : null}
+
         <div
           className="view-toggle"
           role="group"
@@ -341,10 +413,75 @@ export function ObligationsExplorer({
           </button>
         </div>
 
+        <div className="margin-bottom-2">
+          <label className="usa-label" htmlFor={obligationTypeFilterId}>
+            Obligation type
+          </label>
+          <select
+            className="usa-select"
+            id={obligationTypeFilterId}
+            value={obligationTypeFilter}
+            onChange={(event) => {
+              setObligationTypeFilter(event.target.value);
+              resetClaimSelectionAndPreview();
+            }}
+          >
+            <option value="">All types</option>
+            {obligationTypes.map((obligationType) => (
+              <option value={obligationType} key={obligationType}>
+                {obligationType}
+              </option>
+            ))}
+          </select>
+
+          <label className="usa-label" htmlFor={affectedPartyFilterId}>
+            Affected party
+          </label>
+          <select
+            className="usa-select"
+            id={affectedPartyFilterId}
+            value={affectedPartyFilter}
+            onChange={(event) => {
+              setAffectedPartyFilter(event.target.value);
+              resetClaimSelectionAndPreview();
+            }}
+          >
+            <option value="">All parties</option>
+            {affectedParties.map((affectedParty) => (
+              <option
+                value={affectedParty}
+                key={affectedParty.trim().toLowerCase()}
+              >
+                {affectedParty}
+              </option>
+            ))}
+          </select>
+
+          <label className="usa-label" htmlFor={filterTextId}>
+            Filter text
+          </label>
+          <input
+            className="usa-input"
+            id={filterTextId}
+            type="search"
+            value={filterText}
+            onChange={(event) => {
+              setFilterText(event.target.value);
+              resetClaimSelectionAndPreview();
+            }}
+          />
+        </div>
+
+        <p className="margin-top-0" role="status">
+          {displayedClaims.length} of {filteredClaims.length} shown
+        </p>
+
         <div className="document-groups">
-          {visibleClaims.length === 0 ? (
+          {filteredClaims.length === 0 ? (
             <p className="empty-state">
-              No {view} claims are recorded for this document.
+              {statusClaims.length === 0
+                ? `No ${view} claims are recorded for this document.`
+                : `No ${view} claims match the selected filters.`}
             </p>
           ) : (
             <>
@@ -405,7 +542,7 @@ export function ObligationsExplorer({
                 })}
               </ul>
 
-              {visibleClaims.length > CLAIM_PREVIEW_LIMIT ? (
+              {filteredClaims.length > CLAIM_PREVIEW_LIMIT ? (
                 <button
                   type="button"
                   className="usa-button usa-button--outline"
@@ -417,7 +554,7 @@ export function ObligationsExplorer({
                 >
                   {showAllClaims
                     ? `Show fewer ${view} claims`
-                    : `Show all ${visibleClaims.length} ${view} claims`}
+                    : `Show all ${filteredClaims.length} ${view} claims`}
                 </button>
               ) : null}
             </>

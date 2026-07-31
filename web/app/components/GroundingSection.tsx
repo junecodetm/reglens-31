@@ -17,7 +17,7 @@ import {
 import { useLazyJson } from "./ui/useLazyJson";
 import { useLazyTextMap } from "./ui/useLazyText";
 
-const BAND_DEFINITION =
+export const BAND_DEFINITION =
   "Bands report TEXTUAL-MARKER DENSITY only (listed phrase families per 1,000 words; none=0, low≤0.2, moderate≤0.6, elevated>0.6), applied identically to both marker families. They describe phrase frequency in the published document text and are not a prediction of any judicial outcome or a statement about any regulation's validity.";
 
 type GroundingRule = GroundingData["rules"][number];
@@ -203,13 +203,13 @@ export function GroundingSection({
         </h3>
       ) : null}
 
-      <div
-        className="bg-base-lightest border-left-05 border-base padding-2 margin-bottom-2"
+      <p
+        className="neutral-notice"
         role="note"
         aria-label="Textual-marker density definition"
       >
-        <p className="margin-y-0">{displayedBandDefinition}</p>
-      </div>
+        {displayedBandDefinition}
+      </p>
 
       <div
         id="grounding-content"
@@ -235,9 +235,9 @@ export function GroundingSection({
         {groundingState.status === "ready" ? (
           <>
             <p>
-              Rule records: {sortedRules.length}. Gate rejections:{" "}
-              {groundingState.data.total_gate_rejections}. Table order:
-              document number.
+              {sortedRules.length} rule records and{" "}
+              {groundingState.data.total_gate_rejections} gate rejections,
+              listed by document number.
             </p>
 
             <Table

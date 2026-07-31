@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import siteSnapshot from "../../../public/data/site.json";
+import { CurrencyNote } from "../CurrencySection";
 import {
   DISCLAIMER_TEXT,
   type SiteData,
@@ -18,20 +19,16 @@ export function SiteFooter() {
       <div className="content-bound footer-content">
         <p>{DISCLAIMER_TEXT}</p>
         <p>
-          Data as of{" "}
-          <time dateTime={site.data_as_of}>{site.data_as_of}</time> —
-          pre-computed static snapshot; no live backend, no API keys.
+          Data as of <time dateTime={site.data_as_of}>{site.data_as_of}</time> —
+          a pre-computed static snapshot; no page depends on a live service.
+          Source data: Federal Register (U.S. public domain). Extraction:{" "}
+          {site.model_tags.join(", ")} running locally at temperature 0.
         </p>
-        <p>
-          Extraction: {site.model_tags.join(", ")} running locally at
-          temperature 0.
-        </p>
-        <p>Source data: Federal Register (U.S. public domain).</p>
+        <CurrencyNote />
         <p>
           {FOOTER_ATTRIBUTION}
-          <Link href="/#about">About this demonstration</Link>.
-        </p>
-        <p>
+          <Link href="/#about">About this demonstration</Link> ·{" "}
+          <a href="/api/v1/index.json">Static read API (JSON)</a> ·{" "}
           <a href="https://github.com/junecodetm/reglens-31">
             Source code &amp; methodology
             <span aria-hidden="true"> ↗</span>

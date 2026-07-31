@@ -65,9 +65,20 @@ test("draft checklist includes APA structural checks and generation provenance",
     "Amendatory verb forms demonstrated (add / revise / remove-and-reserve)",
     "These checks verify the structural presence of required elements in the skeleton. They are not a determination of legal sufficiency.",
     "Generation provenance",
-    "Model-generated fields:",
-    "Model, decoding parameters, and SHA-256 digests of the prompts sent to the model and of the source part snapshot of record. Everything else in the skeleton is deterministic template output.",
+    "Model-generated fields",
+    "System prompt SHA-256",
+    "User prompt SHA-256",
+    // Truncated before the closing paren: the full dt label wraps across
+    // source lines, and this check matches raw source text.
+    "Source part snapshot SHA-256 (context of record",
   ]) {
     assert.ok(drafts.includes(text), `Missing required DraftsSection copy: ${text}`);
   }
+
+  // The scope-of-model-authorship disclosure lives in the page lead.
+  const draftsPage = await read("web/app/drafts/page.tsx");
+  assert.ok(
+    draftsPage.includes("deterministic template output"),
+    "Missing required drafts lead copy: deterministic template output",
+  );
 });

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@trussworks/react-uswds";
 
 import { groupAuthoritySections } from "./crossref-utils";
+import { ReviewMemoPanel } from "./ReviewMemoPanel";
 import type { AuthorityData } from "./reglens-types";
 import { ExpandableGroup } from "./ui/ExpandableGroup";
 import {
@@ -669,6 +670,10 @@ export function AuthoritySection({
                 );
               })}
             </div>
+
+            {selectedPart !== null ? (
+              <ReviewMemoPanel part={selectedPart} />
+            ) : null}
           </>
         ) : null}
       </div>
