@@ -19,12 +19,12 @@ A checked item has repository or deployed evidence. Unchecked items require the 
 
 - [x] Complete the local extraction sample and run the final rebuild so published corpus counts and derived artifacts are regenerated from one claims file. All 25 sampled documents are extracted under a single recorded runtime; a bare re-run reuses every document and leaves `claims.json` byte-identical.
 - [x] Confirm that the published draft grid contains all 10 combinations: five parts × NPRM/final, each accepted by the full conformance gate. The rebuild reports 10/10 accepted with zero unverified quotes.
-- [ ] Verify the deployed `/api/draft` path with the pinned Groq free tier, including successful generation, the subset-check label, quota handling, and fallback to a committed fully gated draft.
+- [x] Verify the deployed `/api/draft` path with the pinned Groq free tier, including successful generation, the subset-check label, quota handling, and fallback to a committed fully gated draft. Verified on the deployed site: a live narrative returned with the model identified and the in-browser subset-check label; every failure path returns a typed fallback to the committed drafts.
 - [x] Confirm that review memoranda for all five in-scope parts are exported and displayed with deterministic evidence, equal treatment of both marker families, and a gated model-generated narrative or explicit narrative rejection. The rebuild reports 5/5 narratives accepted; display is covered by the browser contract tests.
 - [x] Confirm that the obligations dashboard filters by acceptance status, obligation type, affected party, and free text before preview limits are applied, and that neutral review signals remain available. Covered by the routes-contract browser tests against the built export.
 - [x] Re-run evaluation and confirm the live adjudication counts, intervals, citation fidelity, and cross-model kappa in the exported site and static API. Citation fidelity is 1.000 and the provisional labels carry the current adjudication counts.
 - [x] Run the complete CI, browser contract, and WCAG 2.1 AA accessibility checks against the rebuilt static export. All local gates pass: lint, strict types, 294 Python tests, 81 browser contract tests, and pa11y WCAG 2.1 AA on all six routes.
-- [ ] Deploy the rebuilt export and complete a cold-load smoke test of every route, the static API, source-span interaction, rejection evidence, filters, memoranda, and drafting fallback.
+- [x] Deploy the rebuilt export and complete a cold-load smoke test of every route, the static API, source-span interaction, rejection evidence, filters, memoranda, and drafting fallback. Completed against the deployed site: all six routes render cold, the static API serves, span highlighting and rejection comparisons work, filters change the visible list, memoranda display with neutral labels, and the browser console reports zero errors.
 
 ## Scope decisions
 
