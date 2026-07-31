@@ -1,0 +1,54 @@
+{
+  "document_number": "2026-11601",
+  "document_title": "Publication of International Criminal Court-Related Sanctions Regulations Web General License 11",
+  "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11601/publication-of-international-criminal-court-related-sanctions-regulations-web-general-license-11",
+  "document_sha256": "09a69bc1286d6b148853ecf7d489bdac66e20ec2fbb052e9caf497aab5e3bb14",
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "total_chars": 3610,
+  "extracted_chars": 3610,
+  "claims": [
+    {
+      "claim_id": "0207ccf86bb3095e",
+      "document_number": "2026-11601",
+      "quote": "Except as provided in paragraph (b) of this general license, all transactions prohibited by the International Criminal Court-Related Sanctions Regulations (ICCSR), 31 CFR part 528, that are ordinarily incident and necessary to the wind down of any transaction involving one or more of the following blocked persons are authorized through 12:01 a.m. eastern standard time, January 17, 2026, provided that any payment to a blocked person is made into a blocked interest-bearing account located in the United States, in accordance with the ICCSR: (1) Gocha Lordkipanidze; (2) Erdenebalsuren Damdin; or (3) Any entity in which one or more of the above persons own, directly or indirectly, individually or in the aggregate, a 50 percent or greater interest.",
+      "obligation_type": "requirement",
+      "affected_party": "parties involved in transactions with blocked persons",
+      "summary": "Transactions prohibited by the International Criminal Court-Related Sanctions Regulations that are necessary to wind down transactions involving specified blocked persons are authorized until January 17, 2026, provided payments are made into blocked interest-bearing accounts located in the United States.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2299,
+      "end": 3072,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "09a69bc1286d6b148853ecf7d489bdac66e20ec2fbb052e9caf497aab5e3bb14",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0f9518f83786f7ee34c088c7ad627c0561c8c69fe79583a52f137a4581a5c9dd"
+      }
+    },
+    {
+      "claim_id": "0563366f488d7dda",
+      "document_number": "2026-11601",
+      "quote": "This general license does not authorize any transactions otherwise prohibited by the ICCSR, including transactions involving any person blocked pursuant to the ICCSR other than the blocked persons described in paragraph (a) of this general license, unless separately authorized.",
+      "obligation_type": "prohibition",
+      "affected_party": "parties involved in transactions with blocked persons",
+      "summary": "This general license does not authorize transactions otherwise prohibited by the ICCSR involving persons blocked under the ICCSR other than those specified in paragraph (a), unless separately authorized.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 3081,
+      "end": 3363,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "09a69bc1286d6b148853ecf7d489bdac66e20ec2fbb052e9caf497aab5e3bb14",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "0f9518f83786f7ee34c088c7ad627c0561c8c69fe79583a52f137a4581a5c9dd"
+      }
+    }
+  ]
+}

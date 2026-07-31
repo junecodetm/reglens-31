@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_id": "ecfr-currency",
+  "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=501",
+  "fetched_at": "2026-07-30T17:57:09.103933+00:00",
+  "sha256": "abf35dc292120b47e7a72f905048e95b305aa00fbd4889e1ff25a8c7dba1de99",
+  "content_type": "application/json",
+  "filename": "ecfr-structure-31-501.json"
+}

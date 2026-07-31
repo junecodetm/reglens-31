@@ -1,0 +1,282 @@
+{
+  "page": 18,
+  "page_count": 18,
+  "page_size": 100,
+  "total": 1713,
+  "next": null,
+  "claims": [
+    {
+      "claim_id": "a4dafd1fc22f3200",
+      "document_number": "31-CFR-501",
+      "quote": "In cases involving substantial cooperation with OFAC but no voluntary self-disclosure as defined herein, including cases in which an apparent violation is reported to OFAC by a third party but the Subject Person provides substantial additional information regarding the apparent violation and/or other related violations, the base penalty amount generally will be reduced between 25 and 40 percent.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "A Subject Person must cooperate with OFAC to receive a reduced civil penalty, even if there is no voluntary self-disclosure.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 190809,
+      "end": 191207,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "284164f32b7ab421",
+      "document_number": "31-CFR-501",
+      "quote": "In cases involving a Subject Person's first violation, the base penalty amount generally will be reduced up to 25 percent.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "A Subject Person must demonstrate that the apparent violation is their first violation to receive a potential reduction in the civil penalty.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 191336,
+      "end": 191458,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "d6d909917cb10d09",
+      "document_number": "31-CFR-501",
+      "quote": "In all cases, the proposed penalty amount will not exceed the applicable statutory maximum.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "The proposed penalty amount must not exceed the applicable statutory maximum penalty.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 192429,
+      "end": 192520,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "99ff08994edd972b",
+      "document_number": "31-CFR-501",
+      "quote": "OFAC may estimate or extrapolate the transaction value of the total universe of apparent violations in determining the amount of any proposed civil monetary penalty.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "OFAC may estimate or extrapolate the transaction value of the total universe of apparent violations in determining the amount of any proposed civil monetary penalty.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 192726,
+      "end": 192891,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "f6cbff47fc4982b2",
+      "document_number": "31-CFR-501",
+      "quote": "The amount of the proposed civil penalty in the Pre-Penalty Notice will be the presumptive starting point for calculation of the civil penalty amount in the Penalty Notice.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "The amount of the proposed civil penalty in the Pre-Penalty Notice will be the presumptive starting point for calculation of the civil penalty amount in the Penalty Notice.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 192911,
+      "end": 193083,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "7a89ff71832ba94c",
+      "document_number": "31-CFR-501",
+      "quote": "In no event will the amount of the civil monetary penalty in the Penalty Notice exceed the proposed penalty set forth in the Pre-Penalty Notice by more than 10 percent, or include additional alleged violations, unless a revised Pre-Penalty Notice has first been sent to the Subject Person as set forth above.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "In no event will the amount of the civil monetary penalty in the Penalty Notice exceed the proposed penalty set forth in the Pre-Penalty Notice by more than 10 percent, or include additional alleged violations, unless a revised Pre-Penalty Notice has first been sent to the Subject Person as set forth above.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 193523,
+      "end": 193831,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "726bc46b052a70af",
+      "document_number": "31-CFR-501",
+      "quote": "OFAC may condition the entry into or continuation of settlement negotiations on the execution of a tolling agreement with respect to the statute of limitations.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "OFAC may condition the entry into or continuation of settlement negotiations on the execution of a tolling agreement with respect to the statute of limitations.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 194426,
+      "end": 194586,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "a468dfb3339fcb60",
+      "document_number": "31-CFR-501",
+      "quote": "Where settlement discussions occur prior to the issuance of a Pre-Penalty Notice, the Subject Person may request in writing that OFAC withhold issuance of a Pre-Penalty Notice pending the conclusion of settlement discussions.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "Where settlement discussions occur prior to the issuance of a Pre-Penalty Notice, the Subject Person may request in writing that OFAC withhold issuance of a Pre-Penalty Notice pending the conclusion of settlement discussions.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 194642,
+      "end": 194867,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "cab51ab8cf72f98c",
+      "document_number": "31-CFR-501",
+      "quote": "OFAC will generally agree to such a request as long as settlement discussions are continuing in good faith and the statute of limitations is not at risk of expiring.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "OFAC will generally agree to such a request as long as settlement discussions are continuing in good faith and the statute of limitations is not at risk of expiring.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 194868,
+      "end": 195033,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "672d5e0723ee5b50",
+      "document_number": "31-CFR-501",
+      "quote": "OFAC will not make a final determination as to whether a sanctions violation has occurred.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "OFAC will not make a final determination as to whether a sanctions violation has occurred.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 195202,
+      "end": 195292,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "d0efd0353b6cd602",
+      "document_number": "31-CFR-501",
+      "quote": "A settlement initiated for one apparent violation may also involve a comprehensive or global settlement of multiple apparent violations covered by other Pre-Penalty Notices, apparent violations for which a Pre-Penalty Notice has not yet been issued by OFAC, or previously unknown apparent violations reported to OFAC during the pendency of an investigation of an apparent violation.",
+      "obligation_type": "reporting",
+      "affected_party": "Subject Person",
+      "summary": "A settlement initiated for one apparent violation may also involve a comprehensive or global settlement of multiple apparent violations covered by other Pre-Penalty Notices, apparent violations for which a Pre-Penalty Notice has not yet been issued by OFAC, or previously unknown apparent violations reported to OFAC during the pendency of an investigation of an apparent violation.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 195509,
+      "end": 195891,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "3950e3b30c7f2517",
+      "document_number": "31-CFR-501",
+      "quote": "No overseas branches and no correspondent accounts with foreign banks Overseas branches or correspondent accounts with foreign banks Overseas branches or multiple correspondent accounts with foreign banks. No electronic services ( e.g., e-banking) offered, or products available are purely informational or non-transactional The institution offers limited electronic ( e.g., e-banking) products and services The institution offers a wide array of electronic ( e.g., e-banking) products and services ( i.e., account transfers, e-bill payment, or accounts opened via the Internet). Limited number of funds transfers for customers and non-customers, limited third-party transactions, and no international funds transfers A moderate number of funds transfers, mostly for customers. Possibly, a few international funds transfers from personal or business accounts A high number of customer and non-customer funds transfers, including international funds transfers. No other types of international transactions, such as trade finance, cross-border ACH, and management of sovereign debt Limited other types of international transactions A high number of other types of international transactions. No history of OFAC actions. No evidence of apparent violation or circumstances that might lead to a violation A small number of recent actions ( i.e., actions within the last five years) by OFAC, including notice letters, or civil money penalties, with evidence that the institution addressed the issues and is not at risk of similar violations in the future Multiple recent actions by OFAC, where the institution has not addressed the issues, thus leading to an increased risk of the institution undertaking similar violations in the future. Management has fully assessed the institution's level of risk based on its customer base and product lines. This understanding of risk and strong commitment to OFAC compliance is satisfactorily communicated throughout the organization Management exhibits a reasonable understanding of the key aspects of OFAC compliance and its commitment is generally clear and satisfactorily communicated throughout the organization, but it may lack a program appropriately tailored to risk Management does not understand, or has chosen to ignore, key aspects of OFAC compliance risk. The importance of compliance is not emphasized or communicated throughout the organization. The board of directors, or board committee, has approved an OFAC compliance program that includes policies, procedures, controls, and information systems that are adequate, and consistent with the institution's OFAC risk profile The board has approved an OFAC compliance program that includes most of the appropriate policies, procedures, controls, and information systems necessary to ensure compliance, but some weaknesses are noted The board has not approved an OFAC compliance program, or policies, procedures, controls, and information systems are significantly deficient. Staffing levels appear adequate to properly execute the OFAC compliance program Staffing levels appear generally adequate, but some deficiencies are noted Management has failed to provide appropriate staffing levels to handle workload. Authority and accountability for OFAC compliance are clearly defined and enforced, including the designation of a qualified OFAC officer Authority and accountability are defined, but some refinements are needed. A qualified OFAC officer has been designated Authority and accountability for compliance have not been clearly established. No OFAC compliance officer, or an unqualified one, has been appointed. The role of the OFAC officer is unclear.",
+      "obligation_type": "reporting",
+      "affected_party": "institution",
+      "summary": "The institution must report its compliance with OFAC regulations, including its risk assessment, compliance program, staffing levels, and the role of the OFAC officer.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 196489,
+      "end": 200145,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    },
+    {
+      "claim_id": "3c8abbdb768c70b1",
+      "document_number": "31-CFR-501",
+      "quote": "Training is appropriate and effective based on the institution's risk profile, covers applicable personnel, and provides necessary up-to-date information and resources to ensure compliance Training is conducted and management provides adequate resources given the risk profile of the organization; however, some areas are not covered within the training program Training is sporadic and does not cover important regulatory and risk areas or is nonexistent. The institution employs strong quality control methods The institution employs limited quality control methods The institution does not employ quality control methods. [74 FR 57601, Nov. 9, 2009, as amended at 81 FR 43073, July 1, 2016; 82 FR 10435, Feb. 10, 2017; 83 FR 11877, Mar. 19, 2018; 84 FR 27715, June 14, 2019; 85 FR 19885, Apr. 9, 2020; 85 FR 48475, Aug. 11, 2020; 85 FR 54914, Sept. 3, 2020; 86 FR 14536, Mar. 17, 2021; 86 FR 18896, Apr. 12, 2021; 87 FR 3206, Jan. 21, 2022; 87 FR 7370, Feb. 9, 2022; 88 FR 2231, Jan. 13, 2023; 88 FR 23340, Apr. 17, 2023; 89 FR 2140, Jan. 12, 2024; 90 FR 3689, Jan. 15, 2025; 89 FR 74834, Sept. 13, 2024]",
+      "obligation_type": "reporting",
+      "affected_party": "institution",
+      "summary": "The institution must ensure that training is appropriate, effective, and covers applicable personnel, providing necessary up-to-date information and resources to ensure compliance. Management must provide adequate resources based on the institution's risk profile. The institution must employ strong quality control methods.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 200146,
+      "end": 201253,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "afedd6bd60901014494c4dde27ebffc3b9c5e6a4c2e74f03a0dbb81be6a7d3b2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "2524e6d620d49010f8c29b54851b84996b3f9fa62247d1d1435892e09c745210"
+      }
+    }
+  ]
+}

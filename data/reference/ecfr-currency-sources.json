@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-01",
+  "sources": [
+    {
+      "kind": "versions",
+      "part": 50,
+      "sha256": "7234521fd6b1c4034e2224c6797d658628a8e506fbd4e6e91664206a63ab6aa3",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=50"
+    },
+    {
+      "kind": "structure",
+      "part": 50,
+      "sha256": "27f854673bd8c652ac4671f260041390c74c32eb44b57e4522d9004a45e5ef1d",
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=50"
+    },
+    {
+      "kind": "versions",
+      "part": 223,
+      "sha256": "c7437606726477538f2f75eb8dbc69359007b1de60fba5bafa75c8a8efd5f7f2",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=223"
+    },
+    {
+      "kind": "structure",
+      "part": 223,
+      "sha256": "348dfed0d8a7e0e6ebf8355b3b5c5bdf05d53ecc5f3c87b6916d5b650def655a",
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=223"
+    },
+    {
+      "kind": "versions",
+      "part": 285,
+      "sha256": "9936c0a284734ffc644361cc713ab725273b2bcfc082a41ed71fa5ec8a311dcf",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=285"
+    },
+    {
+      "kind": "structure",
+      "part": 285,
+      "sha256": "b68d88f0390757f7bdb4b524813f19753ab8b6850d06074cb9a0823fae67b88f",
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=285"
+    },
+    {
+      "kind": "versions",
+      "part": 356,
+      "sha256": "4ba42844b83866f2a976a74691dcc42ed94cd16b36388af4a888e25c0bf0c295",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=356"
+    },
+    {
+      "kind": "structure",
+      "part": 356,
+      "sha256": "38f18e3836d023291c44319420792ccfda4d0e9c3ef1687564518648ac5606ea",
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=356"
+    },
+    {
+      "kind": "versions",
+      "part": 501,
+      "sha256": "445bd76f2e30d4aef6129f071a3bf502a02e639d04ec83d3e36e1d790e3fb3f4",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=501"
+    },
+    {
+      "kind": "structure",
+      "part": 501,
+      "sha256": "abf35dc292120b47e7a72f905048e95b305aa00fbd4889e1ff25a8c7dba1de99",
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=501"
+    }
+  ]
+}

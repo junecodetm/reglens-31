@@ -1,9 +1,13 @@
 {
-  "accepted_count": 950,
-  "data_as_of": "2026-07-29",
-  "document_count": 25,
+  "accepted_count": 1508,
+  "chars_extracted": 1368017,
+  "chars_in_scope": 7175669,
+  "data_as_of": "2026-07-30",
+  "documents_extracted": 25,
+  "documents_in_scope": 157,
+  "max_document_chars": 80000,
   "model_tags": [
     "qwen3:8b"
   ],
-  "rejected_count": 163
+  "rejected_count": 205
 }

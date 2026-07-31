@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>Federal Register, Volume 76 Issue 40 (Tuesday, March 1, 2011)</title>
+</head>
+<body><pre>
+[Federal Register Volume 76, Number 40 (Tuesday, March 1, 2011)]
+[Rules and Regulations]
+[Pages 11079-11080]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2011-4455]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 11-01; Department of the Treasury Circular, Public 
+Debt Series No. 1-93]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds; Minimum Interest Rate
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule amends Treasury's marketable securities 
+auction rules to establish a minimum interest rate of \1/8\ of one 
+percent for all new Treasury note and bond issues.
+
+DATES: Effective April 1, 2011.
+
+ADDRESSES: This final rule is available on the Bureau of the Public 
+Debt's Web site at: <a href="http://www.treasurydirect.gov">http://www.treasurydirect.gov</a>. It is also available 
+for public inspection and copying at the Treasury Department Library, 
+Room 1428, Main Treasury Building, 1500 Pennsylvania Avenue, NW., 
+Washington, DC 20220. To visit the library, call (202) 622-0990 for an 
+appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena, Chuck Andreatta, or 
+Kevin Hawkins, Department of the Treasury, Bureau of the Public Debt,
+
+[[Page 11080]]
+
+Government Securities Regulations Staff, (202) 504-3632.
+
+SUPPLEMENTARY INFORMATION: The Department of the Treasury (``Treasury'' 
+or ``We'') is issuing an amendment to 31 CFR 356.20(b) of the Uniform 
+Offering Circular for the Sale and Issue of Marketable Book-Entry 
+Treasury Bills, Notes, and Bonds \1\ (``UOC'' or ``Auction Rules'') to 
+establish a minimum interest rate of \1/8\ of one percent (i.e., 0.125 
+percent) for all new marketable Treasury note and bond issues. This 
+amendment is not applicable to reopenings.\2\ In this rule we discuss 
+how Treasury determines the interest rate for new note and bond issues, 
+the reason for establishing a minimum interest rate, and the final 
+amendment to the UOC.
+---------------------------------------------------------------------------
+
+    \1\ See 58 FR 412, January 5, 1993. The circular, as amended, is 
+codified at 31 CFR part 356. The UOC, together with the offering 
+announcement for each auction, sets out the terms and conditions for 
+the sale and issuance by the Treasury to the public of marketable 
+book-entry Treasury bills, notes, and bonds.
+    \2\ The term reopening is defined at 31 CFR 356.2 as the auction 
+of an additional amount of an outstanding security.
+---------------------------------------------------------------------------
+
+I. Determining the Interest Rate for New Treasury Note and Bond Issues
+
+    In determining the interest rate for new note and bond issues, 
+Treasury sets the interest rate at a \1/8\ of one percent increment. 
+The interest rate we establish produces the price closest to, but not 
+above, par that corresponds to the yield awarded to successful 
+competitive bidders.\3\ The interest rate in turn is used to establish 
+the amount of the semi-annual interest payment that note and bond 
+investors receive.\4\
+---------------------------------------------------------------------------
+
+    \3\ For example, the two-year note auction conducted on December 
+29, 2005, resulted in a yield of 4.404 percent. The interest rate 
+was set at 4\3/8\ percent with a price of 99.944505. See <a href="http://www.treasurydirect.gov/instit/annceresult/press/preanre/2005/ofk1229051.pdf">http://www.treasurydirect.gov/instit/annceresult/press/preanre/2005/ofk1229051.pdf</a>.
+    \4\ See Appendix B to part 356--Formulas and Tables.
+---------------------------------------------------------------------------
+
+II. Establishing a Minimum Interest Rate
+
+    In an extremely low interest rate environment, a note or bond 
+auction could result in an interest rate lower than Treasury's \1/8\ of 
+one percent interest rate increment. If that were to happen, under the 
+current methodology the new security would be issued with a zero 
+percent interest rate and would have no semi-annual interest payments. 
+Treasury is amending the UOC because we believe it is preferable that 
+Treasury notes and bonds pay regular, semi-annual interest payments.
+
+III. Amendment to the Rule
+
+    Accordingly, Treasury is amending paragraph (b) of 31 CFR 356.20 to 
+state that if a Treasury note or bond auction results in a yield lower 
+than 0.125 percent, the interest rate will be set at \1/8\ of one 
+percent with the price adjusted accordingly (i.e., at a premium). This 
+change applies to all new marketable Treasury note and bond issues: 
+Treasury fixed-principal \5\ (also referred to as nominal) notes and 
+bonds as well as Treasury inflation-protected notes and bonds.
+---------------------------------------------------------------------------
+
+    \5\ We use the term ``fixed-principal'' to distinguish such 
+securities from ``inflation-protected'' securities. We refer to 
+fixed-principal notes and fixed-principal bonds as ``notes'' and 
+``bonds'' in official Treasury publications, such as auction 
+announcements and auction results press releases, as well as in the 
+auction system.
+---------------------------------------------------------------------------
+
+Procedural Requirements
+
+    Executive Order 12866. This final rule is not a ``significant 
+regulatory action'' pursuant to Executive Order 12866.
+    Administrative Procedure Act (APA). Because this rule relates to 
+public contracts and procedures for United States securities, the 
+notice, public comment, and delayed effective date provisions of the 
+Administrative Procedure Act are inapplicable, pursuant to 5 U.S.C. 
+553(a)(2).
+    Regulatory Flexibility Act. As no notice of proposed rulemaking is 
+required, the provisions of the Regulatory Flexibility Act (5 U.S.C. 
+601, et seq.) do not apply.
+    Paperwork Reduction Act. There is no new collection of information 
+contained in this final rule, and, therefore, the Paperwork Reduction 
+Act does not apply. The Office of Management and Budget has approved 
+the collections of information already contained in 31 CFR part 356, 
+under control number 1535-0112. Under the Paperwork Reduction Act, an 
+agency may not conduct or sponsor, and a person is not required to 
+respond to, a collection of information unless it displays a valid OMB 
+control number.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+    For the reasons set forth in the preamble, 31 CFR part 356 is 
+amended as follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 
+391.
+
+
+0
+2. Section 356.20 is amended by revising the introductory text of 
+paragraph (b) to read as follows:
+
+
+Sec.  356.20  How does the Treasury determine auction awards?
+
+* * * * *
+    (b) Determining the interest rate for new note and bond issues. We 
+set the interest rate at a \1/8\ of one percent increment. If a 
+Treasury note or bond auction results in a yield lower than 0.125 
+percent, the interest rate will be set at \1/8\ of one percent, and 
+successful bidders' award prices will be calculated accordingly (see 
+appendix B to this part for formulas).
+* * * * *
+
+Richard L. Gregg,
+Fiscal Assistant Secretary.
+[FR Doc. 2011-4455 Filed 2-28-11; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

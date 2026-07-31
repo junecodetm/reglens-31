@@ -1,0 +1,75 @@
+{
+  "document_number": "2026-11761",
+  "document_title": "Publication of the List of Medical Devices Requiring Specific Authorization for the North Korea Sanctions Regulations",
+  "document_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11761/publication-of-the-list-of-medical-devices-requiring-specific-authorization-for-the-north-korea",
+  "document_sha256": "247d2c8e74e9ed6f59c484caf37229129d5f12ecdae324de439003cce5ea7d9f",
+  "accepted_count": 3,
+  "rejected_count": 0,
+  "total_chars": 5604,
+  "extracted_chars": 5604,
+  "claims": [
+    {
+      "claim_id": "e5e529b17d1f0bef",
+      "document_number": "2026-11761",
+      "quote": "The exportation or re-exportation of these excluded medical devices to North Korea requires specific authorization from OFAC.",
+      "obligation_type": "reporting",
+      "affected_party": "parties exporting or reexporting medical devices to North Korea",
+      "summary": "Exportation or re-exportation of excluded medical devices to North Korea requires specific authorization from OFAC.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 1305,
+      "end": 1432,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "247d2c8e74e9ed6f59c484caf37229129d5f12ecdae324de439003cce5ea7d9f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "167c210d975229cf46e17f64fa6276b11582a282c8d9260ef135861d630aae2b"
+      }
+    },
+    {
+      "claim_id": "d8d5a2d6a95606d9",
+      "document_number": "2026-11761",
+      "quote": "The text of the List is provided below.",
+      "obligation_type": "recordkeeping",
+      "affected_party": "parties exporting or reexporting medical devices to North Korea",
+      "summary": "The text of the List is provided below.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2879,
+      "end": 2918,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "247d2c8e74e9ed6f59c484caf37229129d5f12ecdae324de439003cce5ea7d9f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "167c210d975229cf46e17f64fa6276b11582a282c8d9260ef135861d630aae2b"
+      }
+    },
+    {
+      "claim_id": "595cf63f73badd25",
+      "document_number": "2026-11761",
+      "quote": "The list below comprises the List of Medical Devices Requiring Specific Authorization as identified in 31 CFR 510.521(b)(3)(ii).",
+      "obligation_type": "recordkeeping",
+      "affected_party": "parties exporting or reexporting medical devices to North Korea",
+      "summary": "The list below comprises the List of Medical Devices Requiring Specific Authorization as identified in 31 CFR 510.521(b)(3)(ii).",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2999,
+      "end": 3128,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "247d2c8e74e9ed6f59c484caf37229129d5f12ecdae324de439003cce5ea7d9f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "167c210d975229cf46e17f64fa6276b11582a282c8d9260ef135861d630aae2b"
+      }
+    }
+  ]
+}

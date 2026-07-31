@@ -1,0 +1,432 @@
+{
+  "document_number": "2026-10116",
+  "document_title": "Returns Relating to Sales or Exchanges of Certain Partnership Interests",
+  "document_url": "https://www.federalregister.gov/documents/2026/05/20/2026-10116/returns-relating-to-sales-or-exchanges-of-certain-partnership-interests",
+  "document_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+  "accepted_count": 16,
+  "rejected_count": 4,
+  "total_chars": 18877,
+  "extracted_chars": 18877,
+  "claims": [
+    {
+      "claim_id": "60197902015d0531",
+      "document_number": "2026-10116",
+      "quote": "a partnership is required to file a return if there is an exchange described in section 751(a) of the Code of any interest in the partnership during any calendar year.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "Partnership must file a return if there is a section 751(a) exchange of any interest in the partnership during any calendar year.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 1695,
+      "end": 1864,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "a5d1e74a7d49f121",
+      "document_number": "2026-10116",
+      "quote": "the return must state the name and address of the transferee and transferor in the section 75,1(a) exchange and such other information as the Secretary may by regulations prescribe.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "The return must include the name and address of the transferee and transferor in the section 751(a) exchange, along with other information as prescribed by the Secretary.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "7b1702722de0a2f8",
+      "document_number": "2026-10116",
+      "quote": "Section 1.6050K-1(b) requires the Form 8308 to include the following information: (1) the names, addresses, and taxpayer identification numbers of the transferee and transferor in the exchange and of the partnership filing the return; (2) the date of the exchange; and (3) such other information as may be required by Form 8308 or its instructions.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must include specific information on Form 8308, including names, addresses, taxpayer identification numbers, and the date of the exchange.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4108,
+      "end": 4461,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "a06c5224fa466d8d",
+      "document_number": "2026-10116",
+      "quote": "Section 1.6050K-1(f)(1) requires a partnership to file Form 8308 as an attachment to its Form 1065, U.S. Return of Partnership Income, for the partnership's taxable year that includes the last day of the calendar year in which the section 751(a) exchange took place.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must file Form 8308 as an attachment to its Form 1065 for the taxable year that includes the last day of the calendar year in which the section 751(a) exchange occurred.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4462,
+      "end": 4731,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "0535e342b0f2fc4d",
+      "document_number": "2026-10116",
+      "quote": "Section 6050K(b) requires a partnership to provide certain information to transferors and transferees that are parties to a section 751(a) exchange on or before January 31 of the year following the calendar year of the section 751(a) exchange.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must provide certain information to transferors and transferees involved in a section 751(a) exchange by January 31 of the year following the calendar year of the exchange.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4736,
+      "end": 4982,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "60415fb0c5cd70bb",
+      "document_number": "2026-10116",
+      "quote": "Section 6050K(c)(1) provides that the transferor of the partnership interest must notify the partnership of any exchange described in section 6050K(a).",
+      "obligation_type": "reporting",
+      "affected_party": "transferor",
+      "summary": "The transferor of a partnership interest must notify the partnership of any exchange described in section 6050K(a).",
+      "effective_date": null,
+      "accepted": true,
+      "start": 5199,
+      "end": 5352,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "103a41cf366a156b",
+      "document_number": "2026-10116",
+      "quote": "Section 6050K(c)(2) provides that a partnership is not required to make a return under section 6050K with respect to any exchange until the partnership is notified of such exchange.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership is not required to make a return under section 6050K with respect to any exchange until it is notified of the exchange.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "4d542648dcc78504",
+      "document_number": "2026-10116",
+      "quote": "Section 1.6050K-1(c)(1) clarifies that each partnership that is required to file a Form 8308 must furnish a statement to the transferor and transferee by the later of (1) January 31 of the year following the calendar year in which the section 751(a) exchange occurs, or (2) 30 days after the partnership receives notice of the exchange as specified under section 6050K(c) and Sec.  1.6050K-1(e).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership required to file Form 8308 must furnish a statement to the transferor and transferee by the later of January 31 of the year following the calendar year of the exchange or 30 days after receiving notice of the exchange.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 5534,
+      "end": 5934,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "188a6528cc8df2ea",
+      "document_number": "2026-10116",
+      "quote": "Section 1.6050K-1(c)(2) required a partnership to furnish to a transferor partner the information necessary for the transferor to make the transferor partner's required statement in Sec.  1.751-1(a)(3).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must furnish to a transferor partner the information necessary for the transferor to make the required statement under Sec. 1.751-1(a)(3).",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "a01ebd9a8deb2bf4",
+      "document_number": "2026-10116",
+      "quote": "Section 1.751-1(a)(3) requires a transferor partner in a section 751(a) exchange to submit with the transferor partner's income tax return for the taxable year in which the sale or exchange occurs a statement separately stating the date of the sale or exchange, the amount of any gain or loss attributable to section 751 property, and the amount of any gain or loss attributable to capital gain or loss on the sale of the partnership interest.",
+      "obligation_type": "reporting",
+      "affected_party": "transferor partner",
+      "summary": "A transferor partner in a section 751(a) exchange must submit a statement with their income tax return, detailing the date of the exchange, gain or loss attributable to section 751 property, and gain or loss attributable to capital gain or loss on the sale of the partnership interest.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 6385,
+      "end": 6835,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "4d7c91229de793df",
+      "document_number": "2026-10116",
+      "quote": "Part IV of Form 8308 requires a partnership to report, among other items, the partnership's gain or loss from a deemed sale under section 751 and the transferor partner's share of such amount.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "Part IV of Form 8308 requires a partnership to report its gain or loss from a deemed sale under section 751 and the transferor partner's share of such amount.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 6875,
+      "end": 7070,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "67f820aa84d4adf9",
+      "document_number": "2026-10116",
+      "quote": "a partnership would be required to furnish the information reported on only Parts I, II, and III of Form 8308, or a statement that includes the same information, to the transferor and transferee in a section 751(a) exchange by the later of (1) January 31 of the year following the calendar year in which the section 75,1(a) exchange occurred, or (2) 30 days after the partnership has received notice of the exchange as specified under section 6050K and Sec.  1.6050K-1.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must furnish information from Parts I, II, and III of Form 8308 or a statement with the same information to the transferor and transferee in a section 751(a) exchange by the later of January 31 of the following year or 30 days after receiving notice of the exchange.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "9d580111ea923eb7",
+      "document_number": "2026-10116",
+      "quote": "a partnership would be required to file the completed Form 8308, including Part IV, as an attachment to its Form 1065, for the taxable year of the partnership that includes the last day of the calendar year in which the section 751(a) exchange took place.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must file a completed Form 8308, including Part IV, as an attachment to its Form 1065 for the taxable year that includes the last day of the calendar year in which the section 751(a) exchange occurred.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 9592,
+      "end": 9851,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "827555ab5fb479f2",
+      "document_number": "2026-10116",
+      "quote": "the partnership will also continue to be required to report the information required of the transferor in Sec.  1.751-1(a)(3) to the transferor (including the information required in Part IV of the Form 8308), in the Schedule K-1 (Form 1065), Partner's Share of Income, Deductions, Credits, etc., issued to the transferor partner as provided by the Form and Instructions to the Schedule K-1 (Form 1065).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must report the information required of the transferor in Sec. 1.751-1(a)(3), including information from Part IV of Form 8308, to the transferor in the Schedule K-1 (Form 1065) issued to the transferor partner.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 10136,
+      "end": 10545,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "5e64ec0fd51eb72e",
+      "document_number": "2026-10116",
+      "quote": "the partnership will be providing to the IRS the information included on a substitute statement furnished in lieu of a Form 8308 under Sec.  1.6050K-1(c)(1).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "A partnership must provide the IRS with the information included on a substitute statement furnished in lieu of a Form 8308 under Sec. 1.6050K-1(c)(1).",
+      "effective_date": null,
+      "accepted": true,
+      "start": 10639,
+      "end": 10798,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "939ef55d3d9c1c78",
+      "document_number": "2026-10116",
+      "quote": "Every partnership required to file a return under paragraph (a) of this section must furnish to each person whose name is required to be set forth in such return a written statement on or before January 31 of the calendar year following the calendar year in which the section 751(a) exchange occurred to which the return under paragraph (a) of this section relates (or, if later, 30 days after the partnership is notified of the exchange as defined in paragraph (e) of this section).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "Partnership must furnish a written statement to each person whose name is required to be set forth in the return on or before January 31 of the calendar year following the calendar year in which the section 751(a) exchange occurred.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 17116,
+      "end": 17606,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "b2515bfbd8cfdf2a",
+      "document_number": "2026-10116",
+      "quote": "The partnership must use a copy of the Form 8308, filled out in accordance with the instructions accompanying the form, as a statement unless the Form 8308 contains information with respect to more than one section 751(a) exchange (see paragraph (a)(3) of this section).",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "Partnership must use a copy of Form 8308, filled out in accordance with the instructions, as a statement unless the form contains information with respect to more than one section 751(a) exchange.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 17607,
+      "end": 17881,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "9dd787313cca814a",
+      "document_number": "2026-10116",
+      "quote": "If the partnership does not use a copy of Form 8308 as a statement, the statement shall include the information required to be shown on Form 8308 with respect to the section 751(a) exchange to which the person to whom the statement is furnished is a party.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "If the partnership does not use Form 8308, the statement must include the information required to be shown on Form 8308 with respect to the section 751(a) exchange to which the person is a party.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 17882,
+      "end": 18141,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "ea4ccd7ce9229698",
+      "document_number": "2026-10116",
+      "quote": "The information shown on the statement will be supplied to the Internal Revenue Service",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "The information shown on the statement will be supplied to the Internal Revenue Service.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 18186,
+      "end": 18274,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    },
+    {
+      "claim_id": "21259bfd95101ce3",
+      "document_number": "2026-10116",
+      "quote": "Paragraphs (c)(1) introductory text and (c)(1)(i) of this section apply to returns filed for taxable years ending on or after May 20, 2026. Paragraph (c)(2) of this section applies to returns filed on or after November 30, 2020. Paragraph (d)(3) of this section applies to transfers that occur on or after November 30, 2020.",
+      "obligation_type": "reporting",
+      "affected_party": "partnership",
+      "summary": "Paragraphs (c)(1) introductory text and (c)(1)(i) apply to returns filed for taxable years ending on or after May 20, 2026. Paragraph (c)(2) applies to returns filed on or after November 30, 2020. Paragraph (d)(3) applies to transfers that occur on or after November 30, 2020.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 18314,
+      "end": 18643,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "87e107437aceb53da8100a22cd3579ba72d4ee9ca8f1e316bce8f90585a20bc2",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "03704127769cd5bf71c6ed2ca56161a80a5c12e26c3b794be990768366dfca54"
+      }
+    }
+  ]
+}

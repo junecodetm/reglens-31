@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 54 (Friday, March 21, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 54 (Friday, March 21, 2025)]
+[Rules and Regulations]
+[Pages 13286-13287]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-04864]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501 and 515
+
+
+Reporting, Procedures and Penalties Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this final rule to adopt, without change, an 
+interim final rule to amend the Reporting, Procedures and Penalties 
+Regulations (the ``Regulations''), extending certain recordkeeping 
+requirements from five to 10 years, consistent with the statute of 
+limitations for violations of certain sanctions administered by OFAC.
+
+DATES: Effective March 21, 2025.
+
+FOR FURTHER INFORMATION CONTACT: Assistant Director for Licensing, 202-
+622-4570; Assistant Director for Regulatory Affairs, 202-622-4855; 
+Assistant Director for Compliance, 202-622-2490 or <a href="https://ofac.treasury.gov/contact-ofac">https://ofac.treasury.gov/contact-ofac</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    On April 24, 2024, the President signed into law the 21st Century 
+Peace through Strength Act, Public Law 118-50, div. D (the ``Act''). 
+Section 3111 of the Act extended from five years to 10 years the 
+statute of limitations for civil and criminal violations of the 
+International Emergency Economic Powers Act, 50 U.S.C. 1701 et seq. 
+(IEEPA), and the Trading with the Enemy Act, 50 U.S.C. 4301 et seq. 
+(TWEA).
+    On September 13, 2024, OFAC published an interim final rule (89 FR 
+74832, September 13, 2024) with a 30-day public comment period to 
+solicit public comments on amending the Regulations to extend from five 
+to 10 years the recordkeeping requirements codified at 31 CFR 501.601, 
+paragraph IV.B of appendix A to part 501, and 515.572, consistent with 
+the statute of limitations for violations of certain sanctions 
+prohibitions administered by OFAC. OFAC received three relevant written 
+submissions on the proposed rule, which are available on the public 
+rulemaking docket at <a href="https://www.regulations.gov">https://www.regulations.gov</a>. OFAC considered each 
+submission but made no revisions in this rule in response to the 
+comments.
+    The first comment was general in nature, for example, supporting 
+OFAC's efforts to extend recordkeeping requirements for certain 
+transactions from five to 10 years, consistent with the statute of 
+limitations for violations of certain sanctions administered by OFAC. 
+That comment also stated that the rule has a broad scope and sought 
+additional guidance on the applicability of the rule.
+    The second comment suggested that OFAC postpone enacting the new 
+recordkeeping requirements to give stakeholders more time to acquire 
+additional resources and storage capacity and to adjust their current 
+recordkeeping practices to conform to the new recordkeeping 
+requirements of OFAC. However, OFAC believes that it has provided 
+sufficient time for recordkeepers to adjust because the relevant 
+statute was signed into law in April 2024, and OFAC published the 
+interim final rule with a six-month delay in effective date (March 12, 
+2025).
+    Finally, the third comment noted that financial institutions 
+subject to European Union (EU) regulations on anti-money laundering and 
+counter-terrorism financing may face difficulties in complying with 
+this new 10-year recordkeeping requirement. Specifically, the comment 
+states that article 40 of EU Directive 2015/849, on the prevention of 
+the use of the financial system for the purposes of money laundering or 
+terrorist financing, mandates that records of transactions must be 
+deleted five years after the end of a business relationship with 
+regular clients, or after the transaction for occasional clients, 
+because this data is considered ``personal'' by EU authorities. OFAC is 
+mindful that this may create instances in which there is potential 
+tension between EU and U.S. retention requirements and has accounted 
+for potential conflict of laws issues in assessing apparent violations 
+in General Factor K of OFAC's Enforcement Guidelines. See 74 FR 57593.
+    Based on the rationale set forth in the interim final rule and this 
+final rule, OFAC is adopting the interim final rule with no changes.
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>.
+
+Public Participation
+
+    Because the amendment of the Regulations is a rule of agency 
+procedure and involves a foreign affairs function, the provisions of 
+Executive Order 12866 of September 30, 1993, ``Regulatory Planning and 
+Review'' (58 FR 51735, October 4, 1993), as amended, and the 
+Administrative Procedure Act (5 U.S.C. 553) requiring
+
+[[Page 13287]]
+
+notice of proposed rulemaking, opportunity for public participation, 
+and delay in effective date are inapplicable. Because no notice of 
+proposed rulemaking is required for this rule, the Regulatory 
+Flexibility Act (5 U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), 
+the collections of information related to 31 CFR 501.601, paragraph 
+IV.B of appendix A to part 501, and Sec.  515.572 have been previously 
+approved by the Office of Management and Budget (OMB) under control 
+number 1505-0164. This final rule modifies the requirements for 
+recordkeeping under these sections by increasing the period for 
+recordkeeping to 10 years from five years to align with a statutory 
+amendment. On September 12, 2024, OFAC issued a Federal Register notice 
+and requests for comments on this information collection, as well as an 
+unrelated consolidation of certain OFAC information collections under 
+OMB control number 1505-0164, and received no public comments. The 
+request has been submitted to OMB for review. An agency may not conduct 
+or sponsor, and a person is not required to respond to, a collection of 
+information unless the collection of information displays a valid 
+control number.
+
+List of Subjects
+
+31 CFR Part 501
+
+    Administrative practice and procedure, Banks, Banking, Exports, 
+Foreign trade, Licensing and registration, Penalties, Reporting and 
+recordkeeping requirements.
+
+31 CFR Part 515
+
+    Administrative practice and procedure, Banks, Banking, Cuba, 
+Exports, Foreign trade, Imports, Licensing and registration, Penalties, 
+Reporting and recordkeeping requirements.
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+PART 515--CUBAN ASSETS CONTROL REGULATIONS
+
+0
+Accordingly, the interim final rule amending 31 CFR parts 501 and 515 
+published at 89 FR 74832 on September 13, 2024, is adopted as final 
+without change.
+
+Lisa M. Palluconi,
+Acting Director, Office of Foreign Assets Control.
+[FR Doc. 2025-04864 Filed 3-19-25; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

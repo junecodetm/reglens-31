@@ -1,45 +1,37 @@
 {
   "accepted": {
-    "claim_id": "fe677d4f490f99b2",
-    "document_number": "31-CFR-223",
-    "document_title": "31 CFR Part 223 (point-in-time 2026-07-01)",
-    "excerpt": "only insures or reinsures risks of its parent, affiliated, or controlled unaffiliated business, or is deemed by Treasury to be primarily engaged in self-insurance. [89 FR 48831, June 10, 2024]\n\n§ 223.2 Application for certificate of authority. (a) Application for issuance of certificate of authority. Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location, and in the manner, specified online at https://www.fiscal.treasury.gov/surety-bonds/. The company shall file the following data with Treasury, and shall transmit therewith the fee in accordance with the provisions of\n\n§ 223.22: (1) Payment of the application fee in accordance with the provisions of\n\n§ 223.22; (2) A written request for a certificate of authority, signed by an officer",
-    "quote": "Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location, and in the manner, specified online at https://www.fiscal.treasury.gov/surety-bonds/.",
-    "span_end": 582,
-    "span_start": 302,
-    "summary": "Every company not currently holding a certificate of authority wishing to apply for a certificate of authority shall submit an application to Treasury, c/o Surety Bonds Program, to the location and in the manner specified online."
+    "claim_id": "f5b026804c7ae3a2",
+    "document_number": "2026-09090",
+    "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 47, 48, 49, and 50",
+    "excerpt": "petro;\n    (2) Any transaction involving a person located in or organized \nunder the laws of the Islamic Republic of Iran, the Democratic People's \nRepublic of Korea, the Republic of Cuba, or any entity that is owned or \ncontrolled, directly or indirectly, by or in a joint venture with such \npersons;\n    (3) The unblocking of any property blocked pursuant to the VSR, \nexcept as provided in paragraph (a); or\n    (4) Any transaction involving a blocked vessel.\n    (c) Any person that exports, reexports, sells, resells, or supplies \nU.S.-origin diluents to Venezuela pursuant to this general license must \nprovide a detailed report to <a href=\"/cdn-cgi/l/email-protection#86d5e7e8e5f2efe9e8f5d9efe8e4e9fec6f5f2e7f2e3a8e1e9f0\"><span",
+    "quote": "(3) The unblocking of any property blocked pursuant to the VSR, except as provided in paragraph (a); or",
+    "span_end": 410,
+    "span_start": 306,
+    "summary": "The unblocking of any property blocked pursuant to the VSR, except as provided in paragraph (a), is prohibited."
   },
   "rejected": {
-    "claim_id": "33961b9a82254639",
-    "closest_end": 56225,
-    "closest_quote": "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than 30 days after the date of service of the Penalty Notice; (2)",
-    "closest_start": 56014,
+    "claim_id": "92e403c2833a2adf",
+    "closest_end": 8650,
+    "closest_quote": "indirectly, by or in a joint venture with such persons; (3) The unblocking of any property blocked pursuant to the VSR;",
+    "closest_start": 8527,
     "diff": [
       [
-        "equal",
-        "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than"
-      ],
-      [
         "model",
-        "3,0"
+        "(b) This general license does not authorize:"
       ],
       [
         "source",
-        "30"
+        "indirectly, by or in a joint venture with such persons;"
       ],
       [
         "equal",
-        "days after the date of service of the Penalty Notice;"
-      ],
-      [
-        "source",
-        "(2)"
+        "(3) The unblocking of any property blocked pursuant to the VSR;"
       ]
     ],
-    "document_number": "31-CFR-501",
-    "document_title": "31 CFR Part 501 (point-in-time 2026-07-01)",
-    "quote": "The Penalty Notice shall inform the respondent: (1) Of the respondent's right to submit a written request for an administrative hearing not later than 3,0 days after the date of service of the Penalty Notice;",
-    "similarity": 0.9881,
-    "summary": "The Penalty Notice must inform the respondent of their right to submit a written request for an administrative hearing within 30 days."
+    "document_number": "2026-09090",
+    "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 47, 48, 49, and 50",
+    "quote": "(b) This general license does not authorize: (3) The unblocking of any property blocked pursuant to the VSR;",
+    "similarity": 0.652,
+    "summary": "The unblocking of any property blocked pursuant to the VSR is prohibited."
   }
 }

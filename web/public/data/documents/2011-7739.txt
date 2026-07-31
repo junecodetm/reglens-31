@@ -1,0 +1,433 @@
+<html>
+<head>
+<title>Federal Register, Volume 76 Issue 63 (Friday, April 1, 2011)</title>
+</head>
+<body><pre>
+[Federal Register Volume 76, Number 63 (Friday, April 1, 2011)]
+[Rules and Regulations]
+[Pages 18062-18064]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2011-7739]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Parts 306, 356, 357, and 363
+
+
+U.S. Securities; Sale and Issue of Marketable Book-Entry Treasury 
+Bills, Notes, and Bonds; Book-Entry Treasury Bonds, Notes and Bills 
+Held in Treasury/Reserve Automated Debt Entry System (TRADES) and 
+Legacy Treasury Direct; Securities Held in TreasuryDirect
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In order to reduce costs and duplication of systems, the 
+Department of the Treasury (Treasury) is limiting options available in 
+its Legacy Treasury Direct system. New customer accounts will no longer 
+be opened and transfers of securities from other book-entry systems 
+will no longer be accepted. Treasury also intends to limit the 
+securities that will be available for purchase or reinvestment in 
+existing accounts.
+
+DATES: Effective date: May 1, 2011.
+
+ADDRESSES: You can download this Final Rule at the following Internet 
+addresses: <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a>, <a href="http://www.gpo.gov">http://www.gpo.gov</a>, or 
+<a href="http://www.regulations.gov">http://www.regulations.gov</a>.
+
+FOR FURTHER INFORMATION CONTACT:
+    Elisha Whipkey, Director, Division of Program Administration, 
+Office of Retail Securities, Bureau of the Public Debt, at (304) 480-
+6319 or <a href="/cdn-cgi/l/email-protection#3e5b52574d565f104956574e555b477e5c4e5a104a4c5b5f4d10595148"><span class="__cf_email__" data-cfemail="afcac3c6dcc7ce81d8c7c6dfc4cad6efcddfcb81dbddcacedc81c8c0d9">[email&#160;protected]</span></a>.
+    Lisa Martin, Attorney-Adviser; Mary Schaffer, Attorney-Adviser; 
+Edward Gronseth, Deputy Chief Counsel, Office of the Chief Counsel, 
+Bureau of the Public Debt, at (304) 480-8692 or 
+<a href="/cdn-cgi/l/email-protection#25494c56440b484457514c4b654755410b51574044560b424a53"><span class="__cf_email__" data-cfemail="a0ccc9d3c18ecdc1d2d4c9cee0c2d0c48ed4d2c5c1d38ec7cfd6">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Legacy Treasury Direct [supreg] is a book-
+entry, non-Internet-based system established in 1986 for customers to 
+buy, hold, and conduct permitted transactions in eligible marketable 
+Treasury securities directly with Treasury rather than indirectly 
+through an intermediary such as a dealer or a depository institution 
+(51 FR 18260-01 (May 16, 1986) (codified at 31 CFR part 357)). Legacy 
+Treasury Direct customers conduct transactions in paper form, although 
+certain transactions can be made through an Internet interface or 
+through an automated phone system.
+    In 2002, Treasury launched TreasuryDirect [supreg], an Internet-
+based system for purchasing, holding, and conducting permitted 
+transactions in eligible Treasury securities in book-entry form 
+directly with Treasury rather than indirectly through an intermediary 
+(67 FR 64276-01 (Oct. 17, 2002) (codified at 31 CFR part 363)). 
+TreasuryDirect allows customers to invest in both savings bonds and 
+marketable Treasury securities--Treasury bills, notes, bonds, and 
+inflation-protected securities (TIPS)--using one Web-based account. In 
+TreasuryDirect, customers can purchase securities and manage their 
+holdings online and can conduct most transactions without assistance.
+    When TreasuryDirect was implemented, the goal was to provide an up-
+to-date system that would eventually become Treasury's only system for 
+holding marketable securities directly with Treasury. It remains 
+Treasury's long-term plan to consolidate all retail sales of marketable 
+Treasury securities in one system to avoid duplication of services and 
+to create an all-electronic, cost-effective environment for holding 
+marketable Treasury securities directly with Treasury. By gradually 
+eliminating redundant systems and eventually consolidating all 
+directly-held marketable securities into one system, Treasury will 
+realize savings in administrative costs, and customers will be able to 
+manage their accounts independently.
+    As a step toward achieving this goal, Treasury will no longer 
+accept the establishment of new accounts in Legacy Treasury Direct or 
+transfers of marketable securities into existing Legacy Treasury Direct 
+accounts, effective May 1, 2011. Concurrently, Treasury intends to 
+limit the opportunities for purchasing and reinvesting in new 
+securities in Legacy Treasury Direct by reducing the number of 
+securities offered for auction that are eligible to be held in Legacy 
+Treasury Direct. Treasury further intends to discontinue all offerings 
+of securities eligible to be held in Legacy Treasury Direct by November 
+2012.
+    For now, customers with existing Legacy Treasury Direct accounts 
+can continue to hold and make permitted transactions in securities in 
+those accounts. Current Legacy Treasury Direct account holders will be 
+encouraged to transfer their holdings to accounts in TreasuryDirect. 
+Customers will be provided with information about creating 
+TreasuryDirect accounts and the transfer process, and assistance will 
+be available for those choosing to make the transition to 
+TreasuryDirect.
+
+Procedural Requirements
+
+    Executive Order 12866. This rule is not a significant regulatory 
+action pursuant to Executive Order 12866.
+    Administrative Procedure Act (APA). Because this rule relates to 
+United States securities, which are contracts between Treasury and the 
+owner of the security, this rule falls within the contract exception to 
+the APA, 5 U.S.C. 553(a)(2). As a result, the notice, public comment, 
+and delayed effective date provisions of the APA are inapplicable to 
+this rule.
+    Regulatory Flexibility Act. The provisions of the Regulatory 
+Flexibility Act, 5 U.S.C. 601 et seq., do not apply to this rule 
+because, pursuant to 5 U.S.C. 553(a)(2), it is not required to be 
+issued with notice and opportunity for public comment.
+    Paperwork Reduction Act (PRA). There is no new collection of 
+information contained in this final rule that would be subject to the 
+PRA, 44 U.S.C. 3501 et seq. Under the PRA, an agency may not conduct or 
+sponsor, and a person is not required to respond to, a collection of 
+information unless it displays a valid OMB control number. The Office 
+of Management and Budget already has approved all collections of 
+information for these parts (OMB No. 1535-0059, OMB No. 1535-0112, OMB 
+No. 1535-0068, and OMB No. 1535-0138).
+    Congressional Review Act (CRA). This rule is not a major rule 
+pursuant to the CRA, 5 U.S.C. 801 et seq., because it is a minor 
+amendment that is expected to decrease costs for taxpayers; therefore, 
+this rule is not expected to lead to any of the results listed in 5 
+U.S.C. 804(2). This rule may take immediate effect after we submit a 
+copy of it to Congress and the Comptroller General.
+
+[[Page 18063]]
+
+List of Subjects
+
+31 CFR Part 306
+
+    Government securities.
+
+31 CFR Part 356
+
+    Bonds, Federal Reserve system, Government securities, Securities.
+
+31 CFR Part 357
+
+    Banks, Banking, Bonds, Electronic funds transfers, Government 
+securities, Reporting and recordkeeping requirements.
+
+31 CFR Part 363
+
+    Bonds, Electronic funds transfer, Federal Reserve system, 
+Government securities, Securities.
+
+    Accordingly, for the reasons set out in the preamble, 31 CFR 
+Chapter II, Subchapter B, is amended as follows:
+
+PART 306--GENERAL REGULATIONS GOVERNING U.S. SECURITIES
+
+0
+1. The authority citation for part 306 continues to read as follows:
+
+    Authority: 31 U.S.C. Chapter 31; 5 U.S.C. 301; 12 U.S.C. 391.
+
+
+0
+2. Revise Sec.  306.23 to read as follows:
+
+
+Sec.  306.23  Securities eligible to be held in the Legacy Treasury 
+Direct[supreg] Book-entry Securities System.
+
+    (a) Eligible issues. The Secretary has published in the Federal 
+Register notices describing Treasury issues of bonds and notes issued 
+before August 1, 1986, that are eligible for conversion to the Legacy 
+Treasury Direct book-entry securities system.
+    (b) Conversion of Registered Security to book-entry form to be held 
+in Legacy Treasury Direct. To convert a registered security to book-
+entry form to be held in Legacy Treasury Direct, the owner must contact 
+the Bureau of the Public Debt, P.O. Box 426, Parkersburg, West Virginia 
+26106-0426, for instructions. A security that has been converted to 
+book-entry form in Legacy Treasury Direct shall be subject to subpart C 
+and other applicable portions of 31 CFR part 357, and the provisions of 
+31 CFR part 306 shall no longer apply.
+    (c) Securities held under subpart O of this part may not be 
+transferred to Legacy Treasury Direct.
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+3. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.
+
+0
+4. Amend Sec.  356.2 to revise the definition of ``Book-entry 
+security'' to read as follows:
+
+
+Sec.  356.2  What definitions do I need to know to understand this 
+part?
+
+* * * * *
+    Book-entry security means a security that is issued or maintained 
+as an accounting entry or electronic record in either the commercial 
+book-entry system or in one of Treasury's two direct-hold systems--
+TreasuryDirect[supreg] or Legacy Treasury Direct[supreg]. (See Sec.  
+356.4.)
+* * * * *
+
+0
+5. Amend Sec.  356.4 by revising the heading and the first three 
+sentences of the introductory text to read as follows:
+
+
+Sec.  356.4  What are the book-entry systems in which auctioned 
+Treasury securities may be issued or maintained?
+
+    There are three book-entry securities systems--the commercial book-
+entry system, TreasuryDirect[supreg], and Legacy Treasury 
+Direct[supreg]--into which we issue marketable Treasury securities. We 
+maintain and transfer securities in these three book-entry systems 
+(except that securities may not be transferred into the Legacy Treasury 
+Direct system) at their par amount. Par amounts of Treasury inflation-
+protected securities do not include adjustments for inflation. 
+Securities may be transferred from one system to the other (except that 
+securities may not be transferred into the Legacy Treasury Direct 
+system), unless the securities are not eligible to be held in the 
+receiving system. * * *
+* * * * *
+
+PART 357--REGULATIONS GOVERNING BOOK-ENTRY TREASURY BONDS, NOTES 
+AND BILLS HELD IN TREASURY/RESERVE AUTOMATED DEBT ENTRY SYSTEM 
+(TRADES) AND LEGACY TREASURY DIRECT
+
+0
+6. The authority citation for part 357 continues to read as follows:
+
+    Authority: 31 U.S.C. chapter 31; 5 U.S.C. 301; 12 U.S.C. 391.
+
+
+0
+7. Amend Sec.  357.0 by revising paragraph (b) and removing paragraph 
+(c) to read as follows:
+
+
+Sec.  357.0  Book-entry systems.
+
+* * * * *
+    (b) Transferability between Legacy Treasury Direct and other 
+systems. A Treasury security maintained in Legacy Treasury Direct may 
+be transferred to an account in TRADES or to an account in 
+TreasuryDirect in accordance with Sec.  357.22(a). Securities may not 
+be transferred to Legacy Treasury Direct from other systems.
+
+
+Sec.  357.2  [Amended]
+
+0
+8. Amend Sec.  357.2 by removing the words ``to be maintained in the 
+commercial book-entry system, Legacy Treasury Direct, or 
+TreasuryDirect'' from the definition of ``Original issue''.
+
+0
+9. Amend Sec.  357.20 by:
+0
+a. Revising the first sentence and removing the second and third 
+sentences of paragraph (c);
+0
+b. Revising paragraphs (1)(a) and (b) of footnote 1 to paragraph (e); 
+and
+0
+c. Adding paragraph (h) to read as follows:
+
+
+Sec.  357.20  Securities account in Legacy Treasury Direct[supreg].
+
+* * * * *
+    (c) Account master record. In order for a security to be maintained 
+in Legacy Treasury Direct, the account owner must have previously 
+established an account master record, except that a new account may be 
+established for the conversion of a definitive security pursuant to 31 
+CFR 306.23. * * *
+* * * * *
+    (e) * * *
+    \1\ * * *
+    (1) * * *
+    (a) If a bill was deposited in Legacy Treasury Direct at original 
+issue, the price shown will be the issue price.
+    (b) If a bill was transferred to Legacy Treasury Direct from 
+TRADES, the price shown will be that included in the transfer wire or 
+supplied subsequently by the bill owner. If a price was not furnished, 
+the price shown will be the weighted average price of the bill of the 
+longest maturity having the identical CUSIP number.
+* * * * *
+    (h) Closing an account. If a Legacy Treasury Direct account has no 
+holdings, we reserve the right to close the account.
+
+0
+10. Amend Sec.  357.21 by revising the next to last sentence of 
+paragraph (b)(2)(i)(A) to read as follows:
+
+
+Sec.  357.21  Registration.
+
+* * * * *
+    (b) * * *
+    (2) * * *
+    (i) * * *
+    (A) Without right of survivorship. * * * Any registration which 
+purports, by its terms, to preclude the right of survivorship, or any 
+registration in the names of two persons without indicating whether 
+survivorship rights attach (other than a registration under paragraph 
+(b)(2)(ii) of this section), will
+
+[[Page 18064]]
+
+be presumed to be ownership without right of survivorship. * * *
+* * * * *
+
+0
+11. Amend Sec.  357.22 by revising the second sentence of paragraph (a) 
+and revising paragraph (a)(3)(i) to read as follows:
+
+
+Sec.  357.22  Transfers.
+
+    (a) General. * * * A security may be transferred from an account in 
+Legacy Treasury Direct[supreg] to an account in the commercial book-
+entry system or to an account in TreasuryDirect[supreg]. * * *
+* * * * *
+    (3) When transfer effective--(i) Transfer within Legacy Treasury 
+Direct. A transfer of a security within Legacy Treasury Direct is 
+effective when an appropriate entry is made in the name of the 
+transferee on the Legacy Treasury Direct records.
+* * * * *
+
+0
+12. Amend Sec.  357.32 by revising the first two sentences to read as 
+follows:
+
+
+Sec.  357.32  Submission of transaction requests; further information.
+
+    Transaction requests and requests for forms and information may be 
+submitted to any Federal Reserve Bank currently serving as a Treasury 
+Retail Securities Site or to the Bureau of the Public Debt, Legacy 
+Treasury Direct[supreg], P.O. Box 426, Parkersburg, West Virginia 
+26106-0426. A list of the Federal Reserve Banks currently serving as 
+Treasury Retail Securities Sites is available upon request to the 
+Bureau. * * *
+
+PART 363--REGULATIONS GOVERNING SECURITIES HELD IN TREASURYDIRECT
+
+0
+13. The authority citation for part 363 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 12 U.S.C. 391; 31 U.S.C. 3102, et seq.; 
+31 U.S.C. 3121, et seq.
+
+
+0
+14. Amend Sec.  363.4 by revising the heading and the first sentence in 
+paragraph (b) to read as follows:
+
+
+Sec.  363.4  How is TreasuryDirect[supreg] different from the Legacy 
+Treasury Direct[supreg] system and the commercial book-entry system?
+
+* * * * *
+    (b) Legacy Treasury Direct. The Legacy Treasury Direct system is a 
+non-Internet-based book-entry system maintained by Treasury for holding 
+and conducting permitted transactions in eligible marketable Treasury 
+securities as book-entry products. * * *
+* * * * *
+0
+15. Amend Sec.  363.6 by revising the definitions of ``Legacy Treasury 
+Direct'' and ``Transfer'' to read as follows:
+
+
+Sec.  363.6  What special terms do I need to know to understand this 
+part?
+
+* * * * *
+    Legacy Treasury Direct[supreg] system is a non-Internet-based book-
+entry system maintained by Treasury since 1986 for holding and 
+conducting permitted transactions in marketable Treasury securities 
+directly with Treasury as book-entry products. (See Sec.  363.4.)
+* * * * *
+    Transfer is a transaction to move a security, or a portion of a 
+security, to or from a TreasuryDirect account. (See Sec.  363.26.)
+* * * * *
+
+0
+16. Amend Sec.  363.26 by revising paragraph (a)(2) and adding 
+paragraph (a)(3) to read as follows:
+
+
+Sec.  363.26  What is a transfer?
+
+    (a) * * *
+    (2) Move a marketable Treasury security to or from a TreasuryDirect 
+account and an account in the commercial book-entry system;
+    (3) Move a marketable Treasury security to a TreasuryDirect account 
+from a Legacy Treasury Direct[supreg] account.
+* * * * *
+
+
+Sec.  363.27  [Amended]
+
+0
+17. Amend Sec.  363.27 by removing the words ``Legacy Treasury Direct 
+or'' from the second sentence of paragraph (e)(4).
+
+
+Sec.  363.208  [Amended]
+
+0
+18. Amend Sec.  363.208 by removing the words ``to an account in Legacy 
+Treasury Direct or''.
+
+Richard L. Gregg,
+Fiscal Assistant Secretary.
+[FR Doc. 2011-7739 Filed 3-31-11; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

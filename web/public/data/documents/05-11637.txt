@@ -1,0 +1,619 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 112 (Monday, June 13, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 112 (Monday, June 13, 2005)]
+[Rules and Regulations]
+[Pages 34060-34064]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-11637]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501 and 538
+
+
+Reporting, Procedures and Penalties Regulations and Sudanese 
+Sanctions Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of Foreign Assets Control (``OFAC'') of the U.S. 
+Department of the Treasury is revising the Reporting, Procedures and 
+Penalties Regulations (the ``RPPR'') to make a technical change in 
+order to remove a reference to the Government of Sudan that was used 
+prior to the promulgation of Executive Order 13067 and the Sudanese 
+Sanctions Regulations.
+    OFAC is also amending the Sudanese Sanctions Regulations, (the 
+``SSR''). The amendments to the SSR include the issuance of two general 
+licenses, effective June 13, 2005. One general license authorizes the 
+operation of accounts in U.S. financial institutions under certain 
+circumstances for individuals ordinarily resident in Sudan. The other 
+general license authorizes U.S. depository institutions, U.S. 
+registered brokers and dealers in securities, and U.S. registered money 
+transmitters to process transfers of funds constituting noncommercial, 
+personal remittances to or from Sudan or for or on behalf of 
+individuals ordinarily resident in Sudan. Other amendments to the SSR 
+include the removal of two regulatory provisions and the revision of a 
+provision regarding reexportation of U.S.-origin goods, technology or 
+software by non-U.S. persons, and another revision of to reflect 
+changes in OFAC's procedure for imposing civil penalties.
+
+DATES: Effective Date: June 13, 2005.
+
+FOR FURTHER INFORMATION CONTACT: Chief of Compliance Programs, tel.: 
+202/622-2490, Chief of Civil Penalties, tel.: 202/622-6140, Chief of 
+Licensing, tel.: 202/622-2480, Chief of Policy Planning and Program 
+Management, tel.: 202/622-4855, or Chief Counsel, tel.: 202/622-2410, 
+Office of Foreign Assets Control, Department of the Treasury, 
+Washington, DC 20220.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic and Facsimile Availability
+
+    This file is available for download without charge in ASCII and 
+Adobe Acrobat readable (*.PDF) formats at GPO Access. GPO Access 
+supports HTTP, FTP, and Telnet at <a href="http://fedbbs.access.gpo.gov">fedbbs.access.gpo.gov</a>. It may also be 
+accessed by modem dialup at 202/512-1387 followed by typing ``/GO/
+FAC.'' Paper copies of this document can be obtained by calling the 
+Government Printing Office at 202-512-1530. Additional information 
+concerning the programs of the Office of Foreign Assets Control is 
+available for download from the Office's Internet Home Page at: <a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a> or via FTP at <a href="http://ofacftp.treas.gov">ofacftp.treas.gov</a>. Facsimiles of 
+information are available through the Office's 24-hour fax-on-demand 
+service: call 202/622-0077 using a fax machine, a fax modem, or (within 
+the United States) a touch-tone telephone.
+
+Background
+
+    On November 3, 1997, President Clinton, invoking the authority, 
+inter alia, of the International Emergency Economic Powers Act (50 
+U.S.C. 1701-1706), issued Executive Order 13067 (62 FR 59989, November 
+5, 1997). The order declared a national emergency with respect to the 
+policies and actions of the Government of Sudan, ``including continued 
+support for international terrorism; ongoing efforts to destabilize 
+neighboring governments; and the prevalence of human rights violations, 
+including slavery and the denial of religious freedom.'' To deal with 
+this national emergency, Executive Order 13067 imposed trade sanctions 
+with respect to Sudan and blocked all property and interests in 
+property of the Government of Sudan in the United States or within the 
+possession or control of U.S. persons. The Sudanese Sanctions 
+Regulations, 31 CFR part 538 (the ``SSR''), implement Executive Order 
+13067.
+
+[[Page 34061]]
+
+    The Reporting, Procedures and Penalties Regulations, 31 CFR part 
+501 (the ``RPPR''), set forth uniform reporting and procedural 
+requirements applicable to all OFAC sanctions programs. OFAC is 
+amending the RPPR to make a technical change to Sec.  501.604 by 
+removing a reference to the Government of Sudan from that section. 
+Section 501.604(b) uses the Government of Sudan in an example of 
+transactions involving funds transfers that are rejected, but not 
+blocked. This example, however, was published before the issuance of 
+Executive Order 13067 and OFAC's promulgation of the SSR. Executive 
+Order 13067 and the SSR require U.S. financial institutions to block 
+unlicensed funds transfers involving the Government of Sudan.
+    OFAC is also amending provisions of the SSR dealing with the 
+transfer of funds to Sudan. First, the SSR are being amended by the 
+removal of Sec.  538.413, an interpretive provision stating that the 
+transfer of funds to Sudan from the United States does not constitute 
+an exportation of services pursuant to Sec.  538.205. As a result of 
+the removal of Sec.  538.413, money transmittal services to Sudan are 
+prohibited except as otherwise authorized.
+    Second, to authorize a means by which noncommercial, personal 
+transmittals of money to Sudan may take place in a manner consistent 
+with Executive Order 13067, OFAC is amending the SSR by issuing a 
+general license, effective June 13, 2005. This general license, new 
+Sec.  538.528, authorizes U.S. depository institutions, U.S. registered 
+brokers and dealers in securities, and U.S. registered money 
+transmitters to process transfers of funds constituting noncommercial, 
+personal remittances under certain circumstances to or from Sudan or 
+for or on behalf of individuals ordinarily resident in Sudan. The 
+general license does not authorize transfers if the underlying 
+transaction is otherwise prohibited by subpart B of the SSR. 
+Definitions of ``U.S. depository institution,'' ``U.S. registered 
+broker or dealer in securities,'' and ``U.S. registered money 
+transmitter'' are added to subpart C of the SSR to clarify the scope of 
+the general license.
+    Third, Sec.  538.412, an interpretive provision stating that the 
+operation of accounts in financial institutions for private Sudanese 
+persons does not constitute the exportation of a service to Sudan, is 
+removed from subpart D of the SSR. The content of this section appears 
+in revised form in subpart E as a new general license, Sec.  538.527, 
+effective June 13, 2005. Section 538.527 authorizes the operation of 
+accounts in U.S. financial institutions for individuals ordinarily 
+resident in Sudan, provided that transactions through the accounts are 
+of a personal nature. The section does not authorize account 
+transactions for use in supporting or operating a business; nor does it 
+authorize transfers of funds to Sudan or to or for the benefit of 
+individuals ordinarily resident in Sudan unless authorized by Sec.  
+538.528. The section also does not authorize transactions that are 
+otherwise prohibited by subpart B of the SSR.
+    In addition to the changes described above, Sec.  538.507 of the 
+SSR is also revised to clarify the circumstances under which the 
+reexportation of goods, technology or software of U.S. origin to Sudan 
+or the Government of Sudan by a non-U.S. person is authorized.
+    Finally, Sec. Sec.  538.701-.704 of the SSR are amended to reflect 
+changes in OFAC's procedure for imposing or settling civil penalties. 
+Sections 538.701-.704 set forth the procedure by which civil penalties 
+will be issued or settled, as well as guidelines for responding to a 
+prepenalty notice. The amendments do not affect the maximum penalty 
+amounts that the SSR authorize.
+
+Public Participation
+
+    Because the Regulations involve a foreign affairs function, the 
+provisions of Executive Order 12866 and the Administrative Procedure 
+Act (5 U.S.C. 553) (the ``APA'') requiring notice of proposed 
+rulemaking, opportunity for public participation, and delay in 
+effective date are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply. However, OFAC encourages interested 
+persons who wish to comment to do so in writing by any of the following 
+methods:
+    <bullet> Agency Web site: <a href="http://www.treas.gov/offices/enforcement/ofac/comment.html">http://www.treas.gov/offices/enforcement/ofac/comment.html</a>.
+    <bullet> Fax: Chief of Records, 202/622-1657.
+    <bullet> Mail: Chief of Records, Attn: Request for Comments, Office 
+of Foreign Assets Control, Department of the Treasury, 1500 
+Pennsylvania Avenue, NW., Washington, DC 20220.
+    OFAC will not accept public comments in languages other than 
+English or accompanied by a request that a part or all of the 
+submission be treated confidentially because of its business 
+proprietary nature or for any other reason. OFAC will return any such 
+submission to the originator. All public comments on these Regulations 
+will be a matter of public record. Copies of the public record 
+concerning these Regulations will be made available not sooner than 
+September 12, 2005 and will be obtainable from OFAC's Web site (<a href="http://www.treas.gov/ofac">http://www.treas.gov/ofac</a>). If that service is unavailable, written requests 
+for copies may be sent to: Office of Foreign Assets Control, U.S. 
+Department of the Treasury, 1500 Pennsylvania Ave., NW., Washington, DC 
+20220, Attn: Chief, Records Division.
+
+Paperwork Reduction Act
+
+    The collections of information related to 31 CFR part 501 and 31 
+CFR part 538 are contained in 31 CFR part 501 (the ``Reporting, 
+Procedures and Penalties Regulations''). Pursuant to the Paperwork 
+Reduction Act of 1995 (44 U.S.C. 3507), those collections of 
+information have been approved by the Office of Management and Budget 
+under control number 1505-0164. An agency may not conduct or sponsor, 
+and a person is not required to respond to, a collection of information 
+unless the collection of information displays a valid control number.
+
+List of Subjects
+
+31 CFR Part 501
+
+    Administrative practice and procedure, Banks, Banking, Blocking of 
+assets, Information, Investments, Loans, Penalties, Reporting and 
+recordkeeping requirements, Services, Specially designated nationals, 
+Sudan, Terrorism.
+
+31 CFR Part 538
+
+    Administrative practice and procedure, Agricultural commodities, 
+Banks, Banking, Blocking of assets, Drugs, Exports, Foods, Foreign 
+trade, Humanitarian aid, Imports, Information, Investments, Loans, 
+Medical devices, Medicine, Penalties, Reporting and recordkeeping 
+requirements, Services, Specially designated nationals, Sudan, 
+Terrorism, Transportation.
+
+
+0
+For the reasons set forth in the Preamble, 31 CFR parts 501 and 538 are 
+amended as follows:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority: 21 U.S.C. 1901-1908; 22 U.S.C. 287c; 31 U.S.C. 
+321(b); 50 U.S.C. 1701-1706; 50 U.S.C. App. 1-44.
+
+
+0
+2. Section 501.604 is amended by revising paragraph (b) (3) to read as 
+follows:
+
+
+Sec.  501.604  Reports by U.S. financial institutions on rejected funds 
+transfers.
+
+* * * * *
+    (b) * * *
+
+[[Page 34062]]
+
+    (3) Transferring unlicensed gifts or charitable donations from the 
+Government of Syria to a U.S. person;
+
+PART 538--SUDANESE SANCTIONS REGULATIONS
+
+0
+3. The authority citation for part 538 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 18 U.S.C. 2339B, 
+2332d; 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 106-387, 114 Stat. 
+1549; E.O. 13067, 62 FR 59989, 3 CFR, 1997 Comp., p. 230.
+
+Subpart C--General Definitions
+
+0
+4. Section 538.317 is added to subpart C as follows:
+
+
+Sec.  538.317  U.S. depository institution.
+
+    The term U.S. depository institution means any entity (including 
+its foreign branches) organized under the laws of the United States or 
+of any jurisdiction within the United States, or any agency, office or 
+branch located in the United States of a foreign entity, that is 
+engaged primarily in the business of banking (for example, banks, 
+savings banks, savings associations, credit unions, trust companies and 
+United States bank holding companies) and is subject to regulation by 
+federal or state banking authorities.
+
+0
+5. Section 538.318 is added to subpart C as follows:
+
+
+Sec.  538.318  U.S. registered broker or dealer in securities.
+
+    The term U.S. registered broker or dealer in securities means any 
+U.S. citizen, permanent resident alien, or entity organized under the 
+laws of the United States or of any jurisdiction within the United 
+States, including its foreign branches, or any agency, office or branch 
+of a foreign entity located in the United States, that:
+    (a) Is a ``broker'' or ``dealer'' in securities within the meanings 
+set forth in the Securities Exchange Act of 1934;
+    (b) Holds or clears customer accounts; and
+    (c) Is registered with the Securities and Exchange Commission under 
+the Securities Exchange Act of 1934.
+
+0
+3. Section 538.319 is added to subpart C as follows:
+
+
+Sec.  538.319  U.S. registered money transmitter.
+
+    The term U.S. registered money transmitter means any U.S. citizen, 
+permanent resident alien, or entity organized under the laws of the 
+United States or of any jurisdiction within the United States, 
+including its foreign branches, or any agency, office or branch of a 
+foreign entity located in the United States, that is a money 
+transmitter, as defined in 31 CFR 103.11(uu)(5), that is registered 
+pursuant to 31 CFR 103.41.
+
+Subpart D--Interpretations
+
+
+Sec.  538.412  [Removed]
+
+0
+7. Section 538.412 is removed from subpart D.
+
+
+Sec.  538.413  [Removed]
+
+0
+8. Section 538.413 is removed from subpart D.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+0
+9. Section 538.507 is revised to read as follows:
+
+
+Sec.  538.507  Reexports by non-U.S. persons.
+
+    (a) Goods and technology subject to export license application 
+requirements under other United States regulations. The reexportation 
+to Sudan or the Government of Sudan by a non-U.S. person of any goods 
+or technology exported from the United States, the exportation of which 
+to Sudan is subject to export or reexport license application 
+requirements, is authorized under this section provided that the goods 
+or technology:
+    (1) Have been incorporated into another product outside the United 
+States and constitute 10 percent or less by value of that product 
+exported from a third country; or
+    (2) Have been substantially transformed outside the United States.
+
+
+    Note to paragraph (a) of Sec.  538.507: Notwithstanding the 
+authorization set forth in paragraph (a), a non-U.S. person's 
+reexportation of goods, technology or software of U.S. origin that 
+are subject to the Export Administration Regulations (15 CFR parts 
+730 through 774) may require specific authorization from the 
+Department of Commerce, Bureau of Industry and Security.
+
+
+    (b) Goods and technology not subject to export license application 
+requirements under other United States regulations. The reexportation 
+to Sudan or the Government of Sudan by a non-U.S. person of any goods 
+or technology of U.S. origin, the exportation of which to Sudan is not 
+subject to any export license application requirements under any other 
+United States regulations, is authorized under this section.
+
+
+    Note to paragraph (b) of Sec.  538.507: However, the 
+reexportation by non-U.S. persons of U.S.-origin goods, technology 
+or software classified as EAR99 under the Export Administration 
+Regulations (15 CFR parts 730 through 774) may require specific 
+authorization from the Department of Commerce, Bureau of Industry 
+and Security. See, for example, the end-use and end-user 
+restrictions set forth in 15 CFR part 744.
+
+
+
+0
+10. Section 538.527 is added to subpart E to read as follows:
+
+
+Sec.  538.527  Operation of accounts.
+
+    The operation of an account in a U.S. financial institution for an 
+individual ordinarily resident in Sudan who is not included within the 
+term ``Government of Sudan,'' as defined in Sec.  538.305, is 
+authorized, provided that transactions processed through the account:
+    (a) Are of a personal nature and not for use in supporting or 
+operating a business;
+    (b) Do not involve transfers directly or indirectly to Sudan or for 
+the benefit of individuals ordinarily resident in Sudan unless 
+authorized by Sec.  538.528; and
+    (c) Are not otherwise prohibited by this part.
+
+0
+11. Section 538.528 is added to subpart E to read as follows:
+
+
+Sec.  538.528  Noncommercial, personal remittances.
+
+    (a) U.S. depository institutions, U.S. registered brokers or 
+dealers in securities, and U.S. registered money transmitters are 
+authorized to process transfers of funds to or from Sudan or for or on 
+behalf of an individual ordinarily resident in Sudan who is not 
+included within the term ``Government of Sudan,'' as defined in Sec.  
+538.305, in cases in which the transfer involves a noncommercial, 
+personal remittance, provided the transfer is not by, to, or through a 
+person who is included within the term ``Government of Sudan,'' as 
+defined in Sec.  538.305. Noncommercial, personal remittances do not 
+include charitable donations to or for the benefit of an entity or 
+funds transfers for use in supporting or operating a business.
+
+
+    Note to paragraph (a) of Sec.  538.528: The institutions 
+identified in paragraph (a) may transfer charitable donations made 
+by U.S. persons to nongovernmental organizations in Sudan registered 
+pursuant to Sec.  538.521, provided that the transfer is made 
+pursuant to Sec.  538.521 and the terms of the registration.
+
+
+    (b) The transferring institutions identified in paragraph (a) of 
+this section may rely on the originator of a funds transfer with regard 
+to compliance with paragraph (a), provided that the transferring 
+institution does not know or have reason to know that the funds 
+transfer is not in compliance with paragraph (a).
+    (c) This section does not authorize transactions with respect to 
+property blocked pursuant to Sec.  538.201.
+
+[[Page 34063]]
+
+Subpart G--Penalties
+
+0
+12. Section 538.701(c) is amended by revising paragraph (c) as follows:
+
+
+Sec.  538.701  Penalties.
+
+* * * * *
+    (c) Attention is also directed to 18 U.S.C. 1001, which provides 
+that whoever, in any matter within the jurisdiction of the executive, 
+legislative, or judicial branch of the United States, knowingly and 
+willfully falsifies, conceals or covers up by any trick, scheme, or 
+device a material fact, or makes any materially false, fictitious or 
+fraudulent statement or representation or makes or uses any false 
+writing or document knowing the same to contain any materially false, 
+fictitious or fraudulent statement or entry, shall be fined under title 
+18, United States Code, or imprisoned not more than five years, or 
+both.
+
+0
+13. Section 538.702 is revised to read as follows:
+
+
+Sec.  538.702  Prepenalty notice.
+
+    (a) When required. If the Director of the Office of Foreign Assets 
+Control has reason to believe that there has occurred a violation of 
+any provision of this part or a violation of the provisions of any 
+license, ruling, regulation, order, direction or instruction issued by 
+or pursuant to the direction or authorization of the Secretary of the 
+Treasury pursuant to this part or otherwise under the International 
+Emergency Economic Powers Act, and the Director determines that further 
+proceedings are warranted, the Director shall notify the alleged 
+violator of the agency's intent to impose a monetary penalty by issuing 
+a prepenalty notice. The prepenalty notice shall be in writing. The 
+prepenalty notice may be issued whether or not another agency has taken 
+any action with respect to the matter.
+    (b) Contents of notice.--(1) Facts of violation. The prepenalty 
+notice shall describe the violation, specify the laws and regulations 
+allegedly violated, and state the amount of the proposed monetary 
+penalty.
+    (2) Right to respond. The prepenalty notice also shall inform the 
+respondent of the respondent's right to make a written presentation 
+within the applicable 30-day period set forth in Sec.  538.703 as to 
+why a monetary penalty should not be imposed or why, if imposed, the 
+monetary penalty should be in a lesser amount than proposed.
+    (c) Informal settlement prior to issuance of prepenalty notice. At 
+any time prior to the issuance of a prepenalty notice, an alleged 
+violator may request in writing that, for a period not to exceed sixty 
+(60) days, the agency withhold issuance of the prepenalty notice for 
+the exclusive purpose of effecting settlement of the agency's potential 
+civil monetary penalty claims. In the event the Director grants the 
+request, under terms and conditions within the Director's discretion, 
+the Office of Foreign Assets Control will agree to withhold issuance of 
+the prepenalty notice for a period not to exceed 60 days and will enter 
+into settlement negotiations with respect to the potential civil 
+monetary penalty claim.
+
+0
+14. Section 538.703 is revised to read as follows:
+
+
+Sec.  538.703  Response to prepenalty notice; informal settlement.
+
+    (a) Deadline for response. The respondent may submit a response to 
+the prepenalty notice within the applicable 30-day period set forth in 
+this paragraph. The Director may grant, at the Director's discretion, 
+an extension of time in which to submit a response to the prepenalty 
+notice. The failure to submit a response within the applicable time 
+period set forth in this paragraph shall be deemed to be a waiver of 
+the right to respond.
+    (1) Computation of time for response. A response to the prepenalty 
+notice must be postmarked or date-stamped by the U.S. Postal Service 
+(or foreign postal service, if mailed abroad) or courier service 
+provider (if transmitted to OFAC by courier) on or before the 30th day 
+after the postmark date on the envelope in which the prepenalty notice 
+was mailed. If the respondent refused delivery or otherwise avoided 
+receipt of the prepenalty notice, a response must be postmarked or 
+date-stamped on or before the 30th day after the date on the stamped 
+postal receipt maintained at the Office of Foreign Assets Control. If 
+the prepenalty notice was personally delivered to the respondent by a 
+non-U.S. Postal Service agent authorized by the Director, a response 
+must be postmarked or date-stamped on or before the 30th day after the 
+date of delivery.
+    (2) Extensions of time for response. If a due date falls on a 
+federal holiday or weekend, that due date is extended to include the 
+following business day. Any other extensions of time will be granted, 
+at the Director's discretion, only upon the respondent's specific 
+request to the Office of Foreign Assets Control.
+    (b) Form and method of response. The response must be submitted in 
+typewritten form and signed by the respondent or a representative 
+thereof. The response need not be in any particular form. A copy of the 
+written response may be sent by facsimile, but the original also must 
+be sent to the Office of Foreign Assets Control Civil Penalties 
+Division by mail or courier and must be postmarked or date-stamped, in 
+accordance with paragraph (a) of this section.
+    (c) Contents of response. A written response must contain 
+information sufficient to indicate that it is in response to the 
+prepenalty notice and must identify the Office of Foreign Assets 
+Control identification number listed on the prepenalty notice.
+    (1) A written response must include the respondent's full name, 
+address, telephone number, and facsimile number, if available, or those 
+of the representative of the respondent.
+    (2) A written response should either admit or deny each specific 
+violation alleged in the prepenalty notice and also state if the 
+respondent has no knowledge of a particular violation. If the written 
+response fails to address any specific violation alleged in the 
+prepenalty notice, that alleged violation shall be deemed to be 
+admitted.
+    (3) A written response should include any information in defense, 
+evidence in support of an asserted defense, or other factors that the 
+respondent requests the Office of Foreign Assets Control to consider. 
+Any defense or explanation previously made to the Office of Foreign 
+Assets Control or any other agency must be repeated in the written 
+response. Any defense not raised in the written response will be 
+considered waived. The written response also should set forth the 
+reasons why the respondent believes the penalty should not be imposed 
+or why, if imposed, it should be in a lesser amount than proposed.
+    (d) Failure to respond. Where OFAC receives no response to a 
+prepenalty notice within the applicable time period set forth in 
+paragraph (a) of this section, a penalty notice generally will be 
+issued, taking into account the mitigating and/or aggravating factors 
+present in the record. If there are no mitigating factors present in 
+the record, or the record contains a preponderance of aggravating 
+factors, the proposed prepenalty amount generally will be assessed as 
+the final penalty.
+    (e) Informal settlement. In addition to or as an alternative to a 
+written response to a prepenalty notice, the respondent or respondent's 
+representative may contact the Office of Foreign Assets Control's Civil 
+Penalties Division as advised in the prepenalty notice to propose the 
+settlement of allegations contained in the prepenalty notice and 
+related matters. However, the requirements set forth in paragraph (g) 
+of this section as
+
+[[Page 34064]]
+
+to oral communication by the representative must first be fulfilled. In 
+the event of settlement at the prepenalty stage, the claim proposed in 
+the prepenalty notice will be withdrawn, the respondent will not be 
+required to take a written position on allegations contained in the 
+prepenalty notice, and the Office of Foreign Assets Control will make 
+no final determination as to whether a violation occurred. The amount 
+accepted in settlement of allegations in a prepenalty notice may vary 
+from the civil penalty that might finally be imposed in the event of a 
+formal determination of violation. In the event no settlement is 
+reached, the time limit specified in paragraph (a) of this section for 
+written response to the prepenalty notice will remain in effect, unless 
+additional time is granted by the Office of Foreign Assets Control.
+    (f) Guidelines. Guidelines for the imposition or settlement of 
+civil penalties by the Office of Foreign Assets Control have been 
+codified in the Appendix to 31 CFR part 501, the Reporting, Procedures 
+and Penalties Regulations.
+    (g) Representation. A representative of the respondent may act on 
+behalf of the respondent, but any oral communication with the Office of 
+Foreign Assets Control prior to a written submission regarding the 
+specific allegations contained in the prepenalty notice must be 
+preceded by a written letter of representation, unless the prepenalty 
+notice was served upon the respondent in care of the representative.
+
+0
+15. Section 538.704 is revised to read as follows:
+
+
+Sec.  538.704  Penalty imposition or withdrawal.
+
+    (a) No violation. If, after considering any response to the 
+prepenalty notice and any relevant facts, the Director of the Office of 
+Foreign Assets Control determines that there was no violation by the 
+respondent named in the prepenalty notice, the Director shall notify 
+the respondent in writing of that determination and of the cancellation 
+of the proposed monetary penalty.
+    (b) Violation.--(1) If, after considering any written response to 
+the prepenalty notice, or default in the submission of a written 
+response, and any relevant facts, the Director of the Office of Foreign 
+Assets Control determines that there was a violation by the respondent 
+named in the prepenalty notice, the Director is authorized to issue a 
+written penalty notice to the respondent of the determination of the 
+violation and the imposition of the monetary penalty.
+    (2) The penalty notice shall inform the respondent that payment or 
+arrangement for installment payment of the assessed penalty must be 
+made within 30 days of the date of mailing of the penalty notice by the 
+Office of Foreign Assets Control.
+    (3) The penalty notice shall inform the respondent of the 
+requirement to furnish the respondent's taxpayer identification number 
+pursuant to 31 U.S.C. 7701 and that such number will be used for 
+purposes of collecting and reporting on any delinquent penalty amount.
+    (4) The issuance of the penalty notice finding a violation and 
+imposing a monetary penalty shall constitute final agency action. The 
+respondent has the right to seek judicial review of that agency action 
+in federal district court.
+
+    Dated: April 26, 2005.
+Robert W. Werner,
+Director, Office of Foreign Assets Control.
+
+    Approved: May 9, 2005.
+Juan C. Zarate,
+Assistant Secretary (Terrorist Financing and Financial Crimes), 
+Department of the Treasury.
+[FR Doc. 05-11637 Filed 6-8-05; 3:22 pm]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Federal Register, Volume 78 Issue 160 (Monday, August 19, 2013)</title>
+</head>
+<body><pre>
+[Federal Register Volume 78, Number 160 (Monday, August 19, 2013)]
+[Rules and Regulations]
+[Page 50335]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: C1-2013-18178]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. Fiscal-BPD-2013-0001]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds
+
+Correction
+
+    In rule document 2013-18178 appearing on pages 46426-46445 in the 
+issue of July 31, 2013, make the following corrections:
+
+Appendix B to Part 356 [Corrected]
+
+    1. On page 46437, in the first column, in the third line from the 
+bottom, ``a1 = 100 x max(r + s, 0)/360'' should read ``ai = 100 x max(r 
++ s, 0)/360''.
+    2. On the same page, in the second column, in the sixth line from 
+the bottom, ``a1'' should read ``ai''.
+    3. On the same page, in the same column, in the third line from the 
+bottom, ``T<INF>1</INF>'' should read ``Ti''.
+    4. On the same page, in the third column, in the seventh line above 
+Table 3, ``0.004278267 + 0.00472818'' should read ``0.004278267 + 
+0.004472818''.
+    5. On page 46438, in the first column, in the third line, 
+``Ti<INF>-1</INF>'' should read ``Ti - Ti<INF>-</INF><INF>1</INF>''.
+    6. On the same page, in the same column, in the ninth line, ``Ai = 
+61 x 0.000625077 = 0.038129697'' should read ``A1 = 61 x 0.000625077 = 
+0.038129697''.
+    7. One the same page, in the second column, in the fourth line, 
+``Bi = 1 + (r + m) x (Ti - <INF>1</INF>)/360'', should read ``Bi = 1 + 
+(r + m) x (Ti - Ti<INF>-1</INF>)/360''.
+    8. On page 46441, in Table 6, in the second column, in the first 
+line, ``<INF>TO</INF> - T<INF>-1</INF> = 31'' should read ``T0 - 
+T<INF>-<INF>1</INF></INF> = 31''.
+    9. On the same page, in the second column, the tenth line above 
+Table 4, ``Ti<INF>-1</INF> and T1'' should read ``Ti<INF>-1</INF> and 
+Ti''.
+
+[FR Doc. C1-2013-18178 Filed 8-16-13; 8:45 am]
+BILLING CODE 1505-01-D
+
+
+</pre></body>
+</html>

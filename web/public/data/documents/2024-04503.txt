@@ -1,0 +1,753 @@
+<html>
+<head>
+<title>Federal Register, Volume 89 Issue 44 (Tuesday, March 5, 2024)</title>
+</head>
+<body><pre>
+[Federal Register Volume 89, Number 44 (Tuesday, March 5, 2024)]
+[Rules and Regulations]
+[Pages 15740-15743]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2024-04503]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Parts 501, 510, 535, 536, 547, 548, 551, 552, 553, 558, 561, 
+566, 570, 578, 588, 589, 590, 592, 594, 597, 598
+
+
+Updating Contact Information and Grammatical Terminology in OFAC 
+Regulations
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is adopting a final rule to update contact information 
+and grammatical terminology in existing regulations.
+
+DATES: This rule is effective March 5, 2024.
+
+FOR FURTHER INFORMATION CONTACT: OFAC: Assistant Director for 
+Licensing, 202-622-2480; Assistant Director for Regulatory Affairs, 
+202-622-4855; or Assistant Director for Compliance, 202-622-2490.
+
+SUPPLEMENTARY INFORMATION:
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>.
+
+Background
+
+    In this document, OFAC is updating 20 parts of 31 CFR Chapter V and 
+an Appendix to update the name of an OFAC office and an email address 
+and is updating two parts to remove options for mail submissions. OFAC 
+is also amending four parts to make gender language more inclusive, 
+replacing instances of ``his'' (when not part of the phrase ``his or 
+hers'') with ``theirs,'' and replacing ``he'' (when not part of the 
+phrase ``he or she'') with ``they.'' Finally, OFAC is making changes in 
+the authorities citations of 31 CFR part 594 and an Appendix to more 
+specifically reference the relevant statutory authorities in each 
+citation.
+
+Public Participation
+
+    Because the amendment of the Regulations is a rule of agency 
+procedure and because it involves a foreign affairs function, the 
+provisions of E.O. 12866 of September 30, 1993, ``Regulatory Planning 
+and Review'' (58 FR 51735, October 4, 1993), as amended, and the 
+Administrative Procedure Act (5 U.S.C. 553) requiring notice of 
+proposed rulemaking, opportunity for public participation, and delay in 
+effective date are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    The collections of information related to the regulations being 
+amended in this rule are contained in 31 CFR part 501 (the ``Reporting, 
+Procedures and Penalties Regulations''). Pursuant to the Paperwork 
+Reduction Act of 1995 (44 U.S.C. 3507), those collections of 
+information have been approved by the Office of Management and Budget 
+under control number 1505-0164. An agency may not conduct or sponsor, 
+and a person is not required to respond to, a collection of information 
+unless the collection of information displays a valid control number.
+
+List of Subjects in 31 CFR Parts 501, 510, 535, 536, 547, 548, 551, 
+552, 553, 558, 561, 566, 570, 578, 588, 589, 590, 592, 594, 597, 
+598
+
+    Administrative practice and procedure, Banks, banking, Blocking of 
+assets, Credit, Foreign trade, Penalties, Reporting and recordkeeping 
+requirements, Sanctions, Securities, Services.
+
+    For the reasons set forth in the preamble, OFAC is issuing the 
+following amendments:
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority:  8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 
+7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; 
+Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).
+
+Subpart C--Reports
+
+
+Sec.  501.603  [Amended]
+
+0
+2. Amend Sec.  501.603 in paragraph (d) by removing the phrase 
+``Sanctions Compliance and Evaluation'' and adding in its place the 
+word ``Compliance''.
+
+
+Sec.  501.604  [Amended]
+
+0
+3. Amend Sec.  501.604 in paragraph (d) by removing the phrase 
+``Sanctions Compliance and Evaluation'' and adding in its place the 
+word ``Compliance''.
+
+Subpart E--Procedures
+
+
+Sec.  501.806  [Amended]
+
+0
+4. Amend Sec.  501.806 in paragraph (b) by removing the phrase 
+``Sanctions Compliance & Evaluation'' in both places it ocurrs and 
+adding in its place the word ``Compliance''.
+
+PART 510--NORTH KOREA SANCTIONS REGULATIONS
+
+0
+5. The authority citation for part 510 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c, 9201-9255; Pub. L. 101-410, 104 Stat. 
+890, as amended (28 U.S.C. 2461 note); Pub. L. 115-44, 131 Stat. 886 
+(codified in scattered
+
+[[Page 15741]]
+
+sections of 22 U.S.C.); E.O. 13466, 73 FR 36787, 3 CFR, 2008 Comp., 
+p. 195; E.O. 13551, 75 FR 53837, 3 CFR., 2010 Comp., p. 242; E.O. 
+13570, 76 FR 22291, 3 CFR, 2011 Comp., p. 233; E.O. 13687, 80 FR 
+819, 3 CFR, 2015 Comp., p. 259; E.O. 13722, 81 FR 14943, 3 CFR, 2016 
+Comp., p. 446; E.O. 13810, 82 FR 44705, 3 CFR, 2017 Comp., p. 379.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  510.519  [Amended]
+
+0
+6. Amend Sec.  510.519 in paragraph (b)(2) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Compliance Division''.
+
+Subpart G--Penalties and Finding of Violation
+
+
+Sec.  510.702  [Amended]
+
+0
+7. Amend Sec.  510.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 535--IRANIAN ASSETS CONTROL REGULATIONS
+
+0
+8. The authority citation for part 535 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 18 U.S.C. 2332d; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); E.O. 12170, 44 FR 65729, 3 CFR, 1979 
+Comp., p. 457; E.O. 12205, 45 FR 24099, 3 CFR, 1980 Comp., p. 248; 
+E.O. 12211, 45 FR 26685, 3 CFR, 1980 Comp., p. 253; E.O. 12276, 46 
+FR 7913, 3 CFR, 1981 Comp., p. 104; E.O. 12279, 46 FR 7919, 3 CFR, 
+1981 Comp., p. 109; E.O. 12280, 46 FR 7921, 3 CFR, 1981 Comp., p. 
+110; E.O. 12281, 46 FR 7923, 3 CFR, 1981 Comp., p. 112; E.O. 12282, 
+46 FR 7925, 3 CFR, 1981 Comp., p. 113; E.O. 12283, 46 FR 7927, 3 
+CFR, 1981 Comp., p. 114; E.O. 12294, 46 FR 14111, 3 CFR, 1981 Comp., 
+p. 139.
+
+Subpart G--Penalties
+
+
+Sec.  535.702  [Amended]
+
+0
+9. Amend Sec.  535.702 as follows:
+0
+a. In paragraphs (a) and (b)(2), remove the word ``his'' and add in its 
+place the word ``their''; and
+0
+b. In paragraph (a), remove the word ``he'' and add in its place the 
+word ``they''.
+
+
+Sec.  535.704  [Amended]
+
+0
+10. Amend Sec.  535.704 in paragraphs (a) and (b) by removing the word 
+``he'' and adding in its place the word ``they''.
+
+PART 536--NARCOTICS TRAFFICKING SANCTIONS
+
+0
+11. The authority citation for part 536 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); E.O. 12978, 60 FR 54579, 3 CFR, 1995 Comp., p. 415; E.O. 
+13286, 68 FR 10619, 3 CFR, 2003 Comp., p. 166.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+0
+12. Amend Sec.  536.510 by revising paragraph (b)(2) to read:
+
+
+Sec.  536.510  Certain transactions for the expenses of maintaining 
+blocked tangible property.
+
+* * * * *
+    (b) * * *
+    (2) The reports, which must reference this section, are to be 
+submitted to OFAC via email to <a href="/cdn-cgi/l/email-protection#4c030a0d0f1e293c233e380c383e292d3f393e35622b233a"><span class="__cf_email__" data-cfemail="1a555c5b59487f6a75686e5a6e687f7b696f6863347d756c">[email&#160;protected]</span></a>.
+
+Subpart G--Penalties
+
+
+Sec.  536.702  [Amended]
+
+0
+13. Amend Sec.  536.702 in paragraph (a) by removing the word ``his'' 
+and adding in its place the word ``their'' and removing the word ``he'' 
+and adding in its place the word ``they''.
+
+PART 547--DEMOCRATIC REPUBLIC OF THE CONGO SANCTIONS REGULATIONS
+
+0
+14. The authority citation for part 547 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); E.O. 13413, 71 FR 64105, 3 CFR, 2006 
+Comp., p. 247; E.O. 13671, 79 FR 39949, 3 CFR, 2015 Comp., p. 280.
+
+Subpart G--Penalties and Finding of Violation
+
+
+Sec.  547.702  [Amended]
+
+0
+15. Amend Sec.  547.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 548--BELARUS SANCTIONS REGULATIONS
+
+0
+16. The authority citation for part 548 continues to read as follows:
+
+    Authority:  3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); E.O. 13405, 71 FR 35485, 3 CFR, 2006 Comp., p. 231; E.O. 
+14038, 86 FR 43905, 3 CFR, 2021 Comp., p. 626.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  548.702  [Amended]
+
+0
+17. Amend Sec.  548.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  548.705  [Amended]
+
+0
+18. Amend Sec.  548.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 551--SOMALIA SANCTIONS REGULATIONS
+
+0
+19. The authority citation for part 551 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); E.O. 13536, 75 FR 19869, 3 CFR, 2010 
+Comp., p. 203; E.O. 13620, 77 FR 43483, 3 CFR, 2012 Comp., p. 281.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  551.702  [Amended]
+
+0
+20. Amend Sec.  551.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 552--YEMEN SANCTIONS REGULATIONS
+
+0
+21. The authority citation for part 552 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); E.O. 13611, 77 FR 29533, 3 CFR, 2012 Comp., p. 260.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  552.702  [Amended]
+
+0
+22. Amend Sec.  551.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 553--CENTRAL AFRICAN REPUBLIC SANCTIONS REGULATIONS
+
+0
+23. The authority citation for part 553 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890, as
+
+[[Page 15742]]
+
+amended (28 U.S.C. 2461 note); E.O. 13667, 79 FR 28387, 3 CFR, 2014 
+Comp., p. 243.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  553.702  [Amended]
+
+0
+24. Amend Sec.  553.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  553.705  [Amended]
+
+0
+25. Amend Sec.  553.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 558--SOUTH SUDAN SANCTIONS REGULATIONS
+
+0
+26. The authority citation for part 558 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); E.O. 13664, 79 FR 19283, 3 CFR, 2014 Comp., p. 238.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  558.702  [Amended]
+
+0
+27. Amend Sec.  558.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  558.705  [Amended]
+
+0
+28. Amend Sec.  558.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 561--IRANIAN FINANCIAL SANCTIONS REGULATIONS
+
+0
+29. The authority citation for part 561 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 8501-8551, 8701-8795; Pub. L. 101-410, 104 
+Stat. 890, as amended (28 U.S.C. 2461 note); E.O. 12957, 60 FR 
+14615, 3 CFR, 1995 Comp., p. 332; E.O. 13553, 75 FR 60567, 3 CFR, 
+2010 Comp., p. 253; E.O. 13599, 77 FR 6659, 3 CFR, 2012 Comp., p. 
+215; E.O. 13846, 83 FR 38939, 3 CFR, 2018 Comp., p. 854; E.O. 13871, 
+84 FR 20761, 3 CFR, 2019 Comp., p. 309.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  561.504  [Amended]
+
+0
+30. Amend Sec.  561.504 in paragraph (b) by removing the phrase 
+``Sanctions, Compliance & Evaluations'' and adding in its place the 
+word ``Compliance''.
+
+PART 566--HIZBALLAH FINANCIAL SANCTIONS REGULATIONS
+
+0
+31. The authority citation for part 566 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); Pub. L. 114-102, 129 Stat. 2205 (50 U.S.C. 1701 note); 
+Pub. L. 115-272, 132 Stat. 4144 (50 U.S.C. 1701 note).
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  566.504  [Amended]
+
+0
+32. Amend Sec.  566.504 in paragraph (b) by removing the phrase 
+``Sanctions, Compliance & Evaluation'' and adding in its place the word 
+``Compliance''.
+
+PART 570--LIBYAN SANCTIONS REGULATIONS
+
+0
+33. The authority citation for part 570 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); E.O. 13566, 76 FR 11315, 3 CFR, 2011 
+Comp., p. 222; E.O. 13726, 81 FR 23559, 3 CFR, 2016 Comp., p. 454.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  570.514  [Amended]
+
+0
+34. Amend Sec.  570.514 in paragraph (c) by removing the phrase 
+``Sanctions Compliance and Evaluation'' and adding in its place the 
+word ``Compliance''.
+
+
+Sec.  570.515  [Amended]
+
+0
+35. Amend Sec.  570.515 in paragraph (b) by removing the phrase 
+``Sanctions Compliance and Evaluation'' and adding in its place the 
+word ``Compliance''.
+
+
+Sec.  570.516  [Amended]
+
+0
+36. Amend Sec.  570.516 in paragraph (b) by removing the phrase 
+``Sanctions Compliance and Evaluation'' and adding in its place the 
+word ``Compliance''.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  570.702  [Amended]
+
+0
+37. Amend Sec.  570.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  570.705  [Amended]
+
+0
+38. Amend Sec.  570.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 578--CYBER-RELATED SANCTIONS REGULATIONS
+
+0
+39. The authority citation for part 578 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); Pub. L. 115-44, 131 Stat. 886 (codified in scattered 
+sections of 22 U.S.C.); E.O. 13694, 80 FR 18077, 3 CFR 2015 Comp., 
+p. 297; E.O. 13757, 82 FR 1, 3 CFR 2016 Comp., p. 659.
+
+Subpart G--Penalties and Findings of Violation
+
+Sec.  578.702 [Amended]
+
+0
+40. Amend Sec.  578.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  578.705  [Amended]
+
+0
+41. Amend Sec.  578.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 588--WESTERN BALKANS STABILIZATION REGULATIONS
+
+0
+42. The authority citation for part 588 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; 22 U.S.C. 287c; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); E.O. 13219, 66 FR 34777, 3 CFR, 2001 
+Comp., p. 778; E.O. 13304, 68 FR 32315, 3 CFR, 2004 Comp., p. 229; 
+E.O. 14033, 86 FR 43905, 3 CFR, 2022 Comp., p. 591.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  588.702  [Amended]
+
+0
+43. Amend Sec.  588.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  588.705  [Amended]
+
+0
+44. Amend Sec.  588.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+[[Page 15743]]
+
+PART 589--UKRAINE-/RUSSIA-RELATED SANCTIONS REGULATIONS
+
+0
+45. The authority citation for part 589 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 22 U.S.C. 8901-8910, 8921-8930; 31 
+U.S.C. 321(b); 50 U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 
+Stat. 890, as amended (28 U.S.C. 2461 note); Pub. L. 115-44, 131 
+Stat. 886 (codified in scattered sections of 22 U.S.C.); E.O. 13660, 
+79 FR 13493, 3 CFR, 2014 Comp., p. 226; E.O. 13661, 79 FR 15535, 3 
+CFR, 2014 Comp., p. 229; E.O. 13662, 79 FR 16169, 3 CFR, 2014 Comp., 
+p. 233; E.O. 13685, 79 FR 77357, 3 CFR, 2014 Comp., p. 313.
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  589.521  [Amended]
+
+0
+46. Amend Sec.  589.521 in paragraph (b)(2) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Compliance Division''.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  589.702  [Amended]
+
+0
+47. Amend Sec.  589.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  589.705  [Amended]
+
+0
+48. Amend Sec.  589.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 590--TRANSNATIONAL CRIMINAL ORGANIZATIONS SANCTIONS 
+REGULATIONS
+
+0
+49. The authority citation for part 590 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 31 U.S.C. 321(b); 50 U.S.C. 1601-1651, 
+1701-1706; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 
+2461 note); E.O. 13581, 76 FR 44757, 3 CFR, 2011 Comp., p. 260; E.O. 
+13863, 84 FR 10255, 3 CFR, 2019 Comp., p. 267.
+
+Subpart G--Penalties and Findings of Violation
+
+
+Sec.  590.702  [Amended]
+
+0
+50. Amend Sec.  590.702 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+
+Sec.  590.705  [Amended]
+
+0
+51. Amend Sec.  590.705 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 592--ROUGH DIAMONDS CONTROL REGULATIONS
+
+0
+52. The authority citation for part 592 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 19 U.S.C. 3901-3913; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note); 
+E.O. 13312, 68 FR 45151, 3 CFR, 2003 Comp., p. 246.
+
+Subpart F--Penalties
+
+
+Sec.  592.602  [Amended]
+
+0
+53. Amend Sec.  592.602 in paragraph (b)(3) by removing the phrase 
+``Office of Compliance and Enforcement'' and adding in its place the 
+phrase ``Enforcement Division''.
+
+PART 594--GLOBAL TERRORISM SANCTIONS REGULATIONS
+
+0
+54. The authority citation for part 594 is revised to read as follows:
+
+    Authority: 3 U.S.C. 301; 22 U.S.C. 287c; 31 U.S.C. 321(b); 50 
+U.S.C. 1601-1651, 1701-1706; Pub. L. 101-410, 104 Stat. 890, as 
+amended (28 U.S.C. 2461 note); Pub. L. 114-102, 129 Stat. 2205, as 
+amended (50 U.S.C. 1701 note); Title I, Pub. L. 115-44, 131 Stat 886 
+(22 U.S.C. 9404-9411); Pub. L. 115-348, 132 Stat. 5055 (50 U.S.C. 
+1701 note); E.O. 13224, 66 FR 49079, 3 CFR, 2001 Comp., p. 786; E.O. 
+13268, 67 FR 44751, 3 CFR 2002 Comp., p. 240; E.O. 13284, 68 FR 
+4075, 3 CFR, 2003 Comp., p. 161; E.O. 13372, 70 FR 8499, 3 CFR, 2006 
+Comp., p. 159; E.O. 13886, 84 FR 48041, 3 CFR, 2019 Comp., p. 356.
+
+Subpart B--Prohibitions
+
+
+Sec.  594.201  [Amended]
+
+0
+55. Amend Sec.  594.201 in note 1 to Sec.  594.201 by removing the 
+phrase ``Sanctions Compliance & Evaluation'' and adding in its place 
+the word ``Compliance''.
+
+Subpart G--Penalties
+
+
+Sec.  594.702  [Amended]
+
+0
+56. Amend Sec.  594.702 in paragraph (c) by removing the word ``his'' 
+and adding in its place the word ``their''.
+
+
+Sec.  594.703  [Amended]
+
+0
+57. Amend Sec.  594.703 in paragraph (a) by removing the word ``his'' 
+and adding in its place the word ``their''.
+
+PART 597--FOREIGN TERRORIST ORGANIZATIONS SANCTIONS REGULATIONS
+
+0
+58. The authority citation for part 597 continues to read as follows:
+
+    Authority: 8 U.S.C. 1189; 18 U.S.C. 2339B; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).
+
+Subpart C--General Definitions
+
+
+Sec.  597.305  [Amended]
+
+0
+59. Amend Sec.  597.305 by removing the word ``his'' and adding in its 
+place the word ``their''.
+
+PART 598--FOREIGN NARCOTICS KINGPIN SANCTIONS REGULATIONS
+
+0
+60. The authority citation for part 598 continues to read as follows:
+
+    Authority: 3 U.S.C. 301; 21 U.S.C. 1901-1908; 31 U.S.C. 321(b); 
+Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).
+
+Subpart E--Licenses, Authorizations, and Statements of Licensing 
+Policy
+
+
+Sec.  598.511  [Amended]
+
+0
+61. Amend Sec.  598.511 by revising paragraph (b)(2) to read:
+* * * * *
+    (b) * * *
+    (2) The reports, which must reference this section, are to be 
+submitted to OFAC via email to <a href="/cdn-cgi/l/email-protection#6b242d2a28390e1b04191f2b1f190e0a181e1912450c041d"><span class="__cf_email__" data-cfemail="014e4740425364716e73754175736460727473782f666e77">[email&#160;protected]</span></a>.
+
+Appendix A to Chapter V--Information Pertaining to the Specially 
+Designated Nationals and Blocked Persons List
+
+0
+62. The authority citation for appendix A to chapter V is revised to 
+read as follows:
+
+    Authority: 3 U.S.C. 301; 8 U.S.C. 1182, 1189; 18 U.S.C. 2339B; 
+21 U.S.C. 1901-1908; 22 U.S.C. 287c; 31 U.S.C. 321(b); 22 U.S.C. 
+9201-9255; 22 U.S.C. 10101-10103; 50 U.S.C. App. 1-44; Pub. L. 110-
+286, 122 Stat. 2632 (50 U.S.C. 1701 note); Pub. L. 111-195, 124 
+Stat. 1312 (22 U.S.C. 8501-8551); Pub. L.112-81, 125 Stat. 1298 (22 
+U.S.C. 8513a); Pub. L. 112-158, 126 Stat. 1214 (22 U.S.C. 8701-
+8795); Pub. L. 112-208, 126 Stat. 1502 (22 U.S.C. 5811 note); Pub. 
+L. 113-278, 128 Stat. 3011 (50 U.S.C. 1701 note); Pub. L. 114-102, 
+129 Stat. 2205 (50 U.S.C. 1701 note); Pub. L. 114-194, 130 Stat. 674 
+(50 U.S.C. 1701 note); Pub. L. 115-44, 131 Stat. 886 (codified in 
+scattered sections of 22 U.S.C.).
+
+Appendix A to Chapter V [Amended]
+
+0
+63. Amend appendix A to chapter V in the second paragraph and notes 5 
+and 7 by removing the phrase ``Sanctions Compliance & Evaluation'' and 
+adding in its place the word ``Compliance''.
+
+Bradley T. Smith,
+Director, Office of Foreign Assets Control.
+[FR Doc. 2024-04503 Filed 3-1-24; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

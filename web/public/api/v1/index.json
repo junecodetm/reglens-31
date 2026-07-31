@@ -1,0 +1,28 @@
+{
+  "name": "RegLens-31 read API",
+  "api_version": "v1",
+  "description": "Static, read-only JSON for every artifact the RegLens-31 site renders: provenance-gated regulatory obligations, the CFR section structure they were extracted from, corpus currency against eCFR, and evaluation metrics.",
+  "disclaimer": "RegLens-31 is an independent prototype. It is not affiliated with, endorsed by, or an official product of the U.S. Department of the Treasury. Every claim is assistive and must be verified against the primary source.",
+  "corpus": {
+    "data_as_of": "2026-07-30",
+    "documents_extracted": 25,
+    "documents_in_scope": 157,
+    "chars_extracted": 1368017,
+    "chars_in_scope": 7175669,
+    "max_document_chars": 80000,
+    "accepted_count": 1508,
+    "rejected_count": 205,
+    "model_tags": [
+      "qwen3:8b"
+    ]
+  },
+  "links": {
+    "claims": "/api/v1/claims/page-1.json",
+    "currency": "/api/v1/currency.json",
+    "documents": "/api/v1/documents.json",
+    "metrics": "/api/v1/metrics.json",
+    "openapi": "/api/v1/openapi.json",
+    "sections": "/api/v1/sections.json",
+    "self": "/api/v1/index.json"
+  }
+}

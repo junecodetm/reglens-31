@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "review_note": "Review memoranda restate retrieval evidence for attorney review. They make no legal conclusion and are not a statement about any regulation's validity. Both marker families use the same evidence schema, and every numeric count shown is computed from the retrieval artifacts. The model-generated narrative is barred from containing digits.",
+  "memos": [
+    {
+      "part": 50,
+      "part_heading": "PART 50—TERRORISM RISK INSURANCE PROGRAM",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-297, 116 Stat. 2322, as amended by Pub. L. 109-144, 119 Stat. 2660, Pub. L. 110-160, 121 Stat. 1839, Pub. L. 114-1, 129 Stat. 3, and Pub. L. 116-94, 133 Stat. 2534 (15 U.S.C. 6701 note); Pub. L. 114-74, 129 Stat. 601, Title VII (28 U.S.C. 2461 note).",
+      "citations": [
+        {
+          "citation": "5 U.S.C. 301",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations"
+        },
+        {
+          "citation": "31 U.S.C. 321",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations"
+        }
+      ],
+      "unresolved_citations": 0,
+      "non_section_citations": 2,
+      "markers": {
+        "preamble_rules": 1,
+        "deference_count": 1,
+        "grounding_count": 11,
+        "deference_band": "low",
+        "grounding_band": "moderate",
+        "coverage_note": null
+      },
+      "narrative": "The statutory authority for this part includes two citations that are classified as discretionary. No unresolved citations were found against the pinned statutory text. The preamble analysis identified a low density of deference-reliance markers and a moderate density of grounding-strength markers. Both marker families were given equal consideration in the retrieval. The coverage of the analysis was complete.",
+      "narrative_rejected": false,
+      "rejection_reasons": [],
+      "dossier": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": null,
+        "num_predict": null,
+        "max_tokens": 1024,
+        "reasoning_effort": "low",
+        "system_prompt_sha256": "db371ea48a206022944592dcea12f6f32e5b214bef44e7cc8d7ccae7c2faa212",
+        "prompt_sha256": "a797c2db33078f5dc3858006950429fe07197e51a2dd5908bcd36f576bb13392"
+      }
+    },
+    {
+      "part": 223,
+      "part_heading": "PART 223—SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 9304-9308.",
+      "citations": [
+        {
+          "citation": "5 U.S.C. 301",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations"
+        },
+        {
+          "citation": "31 U.S.C. 9304",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 9305",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 9306",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 9307",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 9308",
+          "classification": "silent",
+          "verb_quote": null
+        }
+      ],
+      "unresolved_citations": 0,
+      "non_section_citations": 0,
+      "markers": {
+        "preamble_rules": 0,
+        "deference_count": 0,
+        "grounding_count": 0,
+        "deference_band": "none",
+        "grounding_band": "none",
+        "coverage_note": "No machine-readable preamble was available for this part's source rule; marker retrieval could not run (recorded, not synthesized)."
+      },
+      "narrative": "The statutory authority for this part includes one citation classified as discretionary and several citations classified as silent. All cited sections were resolved against the statutory text, with no unresolved citations. No preamble markers were retrieved for either deference-reliance or grounding-strength families because a machine-readable preamble was not available.",
+      "narrative_rejected": false,
+      "rejection_reasons": [],
+      "dossier": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": null,
+        "num_predict": null,
+        "max_tokens": 1024,
+        "reasoning_effort": "low",
+        "system_prompt_sha256": "db371ea48a206022944592dcea12f6f32e5b214bef44e7cc8d7ccae7c2faa212",
+        "prompt_sha256": "048876d01d597c1cfdfb7032759ab8d5ee9234e6e54afff81497da56051381b0"
+      }
+    },
+    {
+      "part": 285,
+      "part_heading": "PART 285—DEBT COLLECTION AUTHORITIES UNDER THE DEBT COLLECTION IMPROVEMENT ACT OF 1996",
+      "authority_text": "Authority: 5 U.S.C. 5514; 26 U.S.C. 6402; 31 U.S.C. 321, 3701, 3711, 3716, 3719, 3720A, 3720B, 3720D; 42 U.S.C. 664; E.O. 13019, 61 FR 51763, 3 CFR, 1996 Comp., p. 216.",
+      "citations": [
+        {
+          "citation": "5 U.S.C. 5514",
+          "classification": "mandatory",
+          "verb_quote": "shall establish and maintain an interagency consortium to implement centralized salary offset computer matching, and promulgate regulations"
+        },
+        {
+          "citation": "26 U.S.C. 6402",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations"
+        },
+        {
+          "citation": "31 U.S.C. 321",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations"
+        },
+        {
+          "citation": "31 U.S.C. 3701",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 3711",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such rules"
+        },
+        {
+          "citation": "31 U.S.C. 3716",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such rules"
+        },
+        {
+          "citation": "31 U.S.C. 3719",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations"
+        },
+        {
+          "citation": "31 U.S.C. 3720A",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations"
+        },
+        {
+          "citation": "31 U.S.C. 3720B",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 3720D",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations"
+        },
+        {
+          "citation": "42 U.S.C. 664",
+          "classification": "mandatory",
+          "verb_quote": "shall issue regulations"
+        }
+      ],
+      "unresolved_citations": 0,
+      "non_section_citations": 1,
+      "markers": {
+        "preamble_rules": 1,
+        "deference_count": 0,
+        "grounding_count": 2,
+        "deference_band": "none",
+        "grounding_band": "moderate",
+        "coverage_note": null
+      },
+      "narrative": "The authority citations for this part include statutes that are classified as mandatory, discretionary, and silent. The mandatory classifications apply to several of the cited statutes, while a few are identified as discretionary and a couple as silent. No unresolved citations were found against the pinned statutory text. The preamble analysis revealed no deference or reliance markers, but identified a moderate presence of grounding strength markers. Both marker families were considered with equal emphasis in the review.",
+      "narrative_rejected": false,
+      "rejection_reasons": [],
+      "dossier": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": null,
+        "num_predict": null,
+        "max_tokens": 1024,
+        "reasoning_effort": "low",
+        "system_prompt_sha256": "db371ea48a206022944592dcea12f6f32e5b214bef44e7cc8d7ccae7c2faa212",
+        "prompt_sha256": "1aa545717ae49261201d3259427c213239b9d47fd9efa5220aed8ad544d1f531"
+      }
+    },
+    {
+      "part": 356,
+      "part_heading": "PART 356—SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, FISCAL SERVICE SERIES NO. 1-93)",
+      "authority_text": "Authority: 5 U.S.C. 301; 31 U.S.C. 3102, et seq.; 12 U.S.C. 391.",
+      "citations": [
+        {
+          "citation": "5 U.S.C. 301",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe regulations"
+        },
+        {
+          "citation": "31 U.S.C. 3102",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations"
+        },
+        {
+          "citation": "12 U.S.C. 391",
+          "classification": "silent",
+          "verb_quote": null
+        }
+      ],
+      "unresolved_citations": 0,
+      "non_section_citations": 0,
+      "markers": {
+        "preamble_rules": 1,
+        "deference_count": 0,
+        "grounding_count": 0,
+        "deference_band": "none",
+        "grounding_band": "none",
+        "coverage_note": null
+      },
+      "narrative": "The statutory authority for this part includes three citations, each classified by its verb phrase: one is discretionary, one is mandatory, and one is silent. No unresolved citations were identified against the pinned statutory text. The preamble analysis found no deference-reliance markers and no grounding-strength markers. Both marker families were examined with equal weight, and none were present in the scanned rulemaking material.",
+      "narrative_rejected": false,
+      "rejection_reasons": [],
+      "dossier": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": null,
+        "num_predict": null,
+        "max_tokens": 1024,
+        "reasoning_effort": "low",
+        "system_prompt_sha256": "db371ea48a206022944592dcea12f6f32e5b214bef44e7cc8d7ccae7c2faa212",
+        "prompt_sha256": "0076adcd3dd4720361d3c3919ee21a6410f731d393384c44fe572dd3b42ba01a"
+      }
+    },
+    {
+      "part": 501,
+      "part_heading": "PART 501—REPORTING, PROCEDURES AND PENALTIES REGULATIONS",
+      "authority_text": "Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701-1706, 4301-4341; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 note).",
+      "citations": [
+        {
+          "citation": "8 U.S.C. 1189",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "18 U.S.C. 2332d",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "18 U.S.C. 2339B",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3901",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3902",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3903",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3904",
+          "classification": "mandatory",
+          "verb_quote": "shall as necessary issue such proclamations, regulations"
+        },
+        {
+          "citation": "19 U.S.C. 3905",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3906",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3907",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3908",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3909",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3910",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3911",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3912",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "19 U.S.C. 3913",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1901",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1902",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1903",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1904",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1905",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as he may prescribe"
+        },
+        {
+          "citation": "21 U.S.C. 1906",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1907",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "21 U.S.C. 1908",
+          "classification": "mandatory",
+          "verb_quote": "shall establish rules"
+        },
+        {
+          "citation": "22 U.S.C. 287c",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations"
+        },
+        {
+          "citation": "22 U.S.C. 2370",
+          "classification": "mandatory",
+          "verb_quote": "shall adopt regulations"
+        },
+        {
+          "citation": "22 U.S.C. 6009",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 6032",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 7205",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8501",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8511",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8512",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations"
+        },
+        {
+          "citation": "22 U.S.C. 8513",
+          "classification": "mandatory",
+          "verb_quote": "shall prescribe regulations"
+        },
+        {
+          "citation": "22 U.S.C. 8514",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8515",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8516",
+          "classification": "discretionary",
+          "verb_quote": "may prescribe such regulations"
+        },
+        {
+          "citation": "22 U.S.C. 8517",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8518",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8519",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8531",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8532",
+          "classification": "mandatory",
+          "verb_quote": "shall be construed to abridge the authority of a State to issue and enforce rules"
+        },
+        {
+          "citation": "22 U.S.C. 8541",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8542",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8543",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8544",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "22 U.S.C. 8551",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "31 U.S.C. 321",
+          "classification": "discretionary",
+          "verb_quote": "may— (1) prescribe regulations"
+        },
+        {
+          "citation": "50 U.S.C. 1701",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 1702",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as he may prescribe"
+        },
+        {
+          "citation": "50 U.S.C. 1703",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 1704",
+          "classification": "discretionary",
+          "verb_quote": "may issue such regulations"
+        },
+        {
+          "citation": "50 U.S.C. 1705",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 1706",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4301",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4302",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4303",
+          "classification": "mandatory",
+          "verb_quote": "rules and regulations, and with such exemptions, as shall be prescribed"
+        },
+        {
+          "citation": "50 U.S.C. 4304",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4305",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as he may prescribe"
+        },
+        {
+          "citation": "50 U.S.C. 4306",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4307",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as the President may prescribe"
+        },
+        {
+          "citation": "50 U.S.C. 4308",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4309",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4310",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4311",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4312",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4313",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4314",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4315",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4316",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4317",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4318",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4319",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4320",
+          "classification": "discretionary",
+          "verb_quote": "under such rules and regulations as the President may prescribe"
+        },
+        {
+          "citation": "50 U.S.C. 4321",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4322",
+          "classification": "discretionary",
+          "verb_quote": "under such regulations as the Secretary of the Treasury may prescribe"
+        },
+        {
+          "citation": "50 U.S.C. 4323",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4324",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4325",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4326",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4327",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4328",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4329",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4330",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4331",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4332",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4333",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4334",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4335",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4336",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4337",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4338",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4339",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4340",
+          "classification": "silent",
+          "verb_quote": null
+        },
+        {
+          "citation": "50 U.S.C. 4341",
+          "classification": "silent",
+          "verb_quote": null
+        }
+      ],
+      "unresolved_citations": 34,
+      "non_section_citations": 1,
+      "markers": {
+        "preamble_rules": 1,
+        "deference_count": 0,
+        "grounding_count": 0,
+        "deference_band": "none",
+        "grounding_band": "none",
+        "coverage_note": null
+      },
+      "narrative": "The authority citations for this part include a mix of mandatory, discretionary and silent classifications across the various statutes. Several statutory references could not be resolved against the pinned statutory text. The preamble analysis revealed no deference‑reliance markers and no grounding‑strength markers. Both marker families were examined with equal weight but showed no presence. This summary reflects the retrieved evidence without legal conclusions.",
+      "narrative_rejected": false,
+      "rejection_reasons": [],
+      "dossier": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "temperature": 0.0,
+        "seed": 31,
+        "num_ctx": null,
+        "num_predict": null,
+        "max_tokens": 1024,
+        "reasoning_effort": "low",
+        "system_prompt_sha256": "db371ea48a206022944592dcea12f6f32e5b214bef44e7cc8d7ccae7c2faa212",
+        "prompt_sha256": "511f70d59816712a424e1e7537a7c8760dfc446a2b9858574d5d255ba41d4c58"
+      }
+    }
+  ],
+  "generated": 5,
+  "accepted": 5,
+  "rejected": 0,
+  "model_note": "Narratives are model-generated (pinned model groq:openai/gpt-oss-120b at temperature 0) and pass deterministic gates: no numerals, no quotations, no fabrication patterns, both marker families named."
+}

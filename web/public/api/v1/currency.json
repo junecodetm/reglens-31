@@ -1,0 +1,44 @@
+{
+  "snapshot_date": "2026-07-01",
+  "total_sections": 185,
+  "total_amended_since_snapshot": 3,
+  "parts": [
+    {
+      "part": 50,
+      "census_count": 62,
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 223,
+      "census_count": 21,
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 285,
+      "census_count": 11,
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 356,
+      "census_count": 26,
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 501,
+      "census_count": 65,
+      "amended_since_snapshot": 3
+    }
+  ],
+  "source_urls": [
+    "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=223",
+    "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=285",
+    "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=356",
+    "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=50",
+    "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=501",
+    "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=223",
+    "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=285",
+    "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=356",
+    "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=50",
+    "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=501"
+  ]
+}

@@ -1,0 +1,1030 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-01",
+  "sources": [
+    {
+      "kind": "versions",
+      "part": 50,
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=50",
+      "sha256": "7234521fd6b1c4034e2224c6797d658628a8e506fbd4e6e91664206a63ab6aa3"
+    },
+    {
+      "kind": "structure",
+      "part": 50,
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=50",
+      "sha256": "27f854673bd8c652ac4671f260041390c74c32eb44b57e4522d9004a45e5ef1d"
+    },
+    {
+      "kind": "versions",
+      "part": 223,
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=223",
+      "sha256": "c7437606726477538f2f75eb8dbc69359007b1de60fba5bafa75c8a8efd5f7f2"
+    },
+    {
+      "kind": "structure",
+      "part": 223,
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=223",
+      "sha256": "348dfed0d8a7e0e6ebf8355b3b5c5bdf05d53ecc5f3c87b6916d5b650def655a"
+    },
+    {
+      "kind": "versions",
+      "part": 285,
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=285",
+      "sha256": "9936c0a284734ffc644361cc713ab725273b2bcfc082a41ed71fa5ec8a311dcf"
+    },
+    {
+      "kind": "structure",
+      "part": 285,
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=285",
+      "sha256": "b68d88f0390757f7bdb4b524813f19753ab8b6850d06074cb9a0823fae67b88f"
+    },
+    {
+      "kind": "versions",
+      "part": 356,
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=356",
+      "sha256": "4ba42844b83866f2a976a74691dcc42ed94cd16b36388af4a888e25c0bf0c295"
+    },
+    {
+      "kind": "structure",
+      "part": 356,
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=356",
+      "sha256": "38f18e3836d023291c44319420792ccfda4d0e9c3ef1687564518648ac5606ea"
+    },
+    {
+      "kind": "versions",
+      "part": 501,
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?part=501",
+      "sha256": "445bd76f2e30d4aef6129f071a3bf502a02e639d04ec83d3e36e1d790e3fb3f4"
+    },
+    {
+      "kind": "structure",
+      "part": 501,
+      "url": "https://www.ecfr.gov/api/versioner/v1/structure/2026-07-01/title-31.json?part=501",
+      "sha256": "abf35dc292120b47e7a72f905048e95b305aa00fbd4889e1ff25a8c7dba1de99"
+    }
+  ],
+  "parts": [
+    {
+      "part": 50,
+      "census_count": 62,
+      "sections": [
+        {
+          "identifier": "50.1",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.2",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.3",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.4",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.5",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.6",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.7",
+          "latest_amendment_date": "2018-05-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.8",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.10",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.11",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.12",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.13",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.14",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.15",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.16",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.17",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.20",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.21",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.22",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.23",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.30",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.31",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.32",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.33",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.50",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.51",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.52",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.53",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.54",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.60",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.61",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.62",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.63",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.70",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.71",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.72",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.73",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.74",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.75",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.76",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.80",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.81",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.82",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.83",
+          "latest_amendment_date": "2025-06-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.90",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.91",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.92",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.93",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.94",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.95",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.96",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.100",
+          "latest_amendment_date": "2017-10-11",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.101",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.102",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.103",
+          "latest_amendment_date": "2021-07-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.104",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.110",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.111",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.112",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.113",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.114",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "50.115",
+          "latest_amendment_date": "2017-01-17",
+          "amended_since_snapshot": false
+        }
+      ],
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 223,
+      "census_count": 21,
+      "sections": [
+        {
+          "identifier": "223.1",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.2",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.3",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.4",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.5",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.6",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.7",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.8",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.9",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.10",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.11",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.12",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.13-223.14",
+          "latest_amendment_date": "2025-08-04",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.15",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.16",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.17",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.18",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.19",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.20",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.21",
+          "latest_amendment_date": "2025-08-04",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "223.22",
+          "latest_amendment_date": "2024-08-09",
+          "amended_since_snapshot": false
+        }
+      ],
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 285,
+      "census_count": 11,
+      "sections": [
+        {
+          "identifier": "285.1",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.2",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.3",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.4",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.5",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.6",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.7",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.8",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.11",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.12",
+          "latest_amendment_date": "2022-09-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "285.13",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        }
+      ],
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 356,
+      "census_count": 26,
+      "sections": [
+        {
+          "identifier": "356.0",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.1",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.2",
+          "latest_amendment_date": "2023-08-22",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.3",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.4",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.5",
+          "latest_amendment_date": "2025-08-04",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.10",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.11",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.12",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.13",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.14",
+          "latest_amendment_date": "2023-08-22",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.15",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.16",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.17",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.20",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.21",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.22",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.23",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.24",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.25",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.30",
+          "latest_amendment_date": "2022-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.31",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.32",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.33",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.34",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "356.35",
+          "latest_amendment_date": "2016-09-02",
+          "amended_since_snapshot": false
+        }
+      ],
+      "amended_since_snapshot": 0
+    },
+    {
+      "part": 501,
+      "census_count": 65,
+      "sections": [
+        {
+          "identifier": "501.101",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.301",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.601",
+          "latest_amendment_date": "2025-03-12",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.602",
+          "latest_amendment_date": "2026-07-27",
+          "amended_since_snapshot": true
+        },
+        {
+          "identifier": "501.603",
+          "latest_amendment_date": "2026-07-27",
+          "amended_since_snapshot": true
+        },
+        {
+          "identifier": "501.604",
+          "latest_amendment_date": "2026-07-27",
+          "amended_since_snapshot": true
+        },
+        {
+          "identifier": "501.605",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.606",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.700",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.701",
+          "latest_amendment_date": "2025-01-15",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.702",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.703",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.704",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.705",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.706",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.707",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.708",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.709",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.710",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.711",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.712",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.713",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.714",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.715",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.716",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.717",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.718",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.719",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.720",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.721",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.722",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.723",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.724",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.725",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.726",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.727",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.728",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.729",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.730",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.731",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.732",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.733",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.734",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.735",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.736",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.737",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.738",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.739",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.740",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.741",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.742",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.743",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.744",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.745",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.746",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.747",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.801",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.802",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.803",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.804",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.805",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.806",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.807",
+          "latest_amendment_date": "2024-08-08",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.808",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        },
+        {
+          "identifier": "501.901",
+          "latest_amendment_date": "2016-12-23",
+          "amended_since_snapshot": false
+        }
+      ],
+      "amended_since_snapshot": 3
+    }
+  ],
+  "total_sections": 185,
+  "total_amended_since_snapshot": 3
+}

@@ -1,0 +1,462 @@
+<html>
+<head>
+<title>Federal Register, Volume 70 Issue 98 (Monday, May 23, 2005)</title>
+</head>
+<body><pre>
+[Federal Register Volume 70, Number 98 (Monday, May 23, 2005)]
+[Rules and Regulations]
+[Pages 29454-29456]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 05-10218]
+
+
+
+[[Page 29454]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 356
+
+[Docket No. BPD GSRS 05-02]
+
+
+Sale and Issue of Marketable Book-Entry Treasury Bills, Notes, 
+and Bonds--Bidder Definitions
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (``Treasury,'' ``We,'' or 
+``Us'') is issuing in final form an amendment to 31 CFR part 356 
+(Uniform Offering Circular for the Sale and Issue of Marketable Book-
+Entry Treasury Bills, Notes, and Bonds) by modifying its definitions of 
+different types of bidders in Treasury marketable securities auctions. 
+This final amendment allows a certain business relationship between two 
+entities that currently would be treated as a single bidder under the 
+auction rules to be treated as separate bidders. Specifically, the 
+amendment states that an entity that is more than 50-percent-owned by a 
+corporation or partnership is not deemed to be an affiliate of the 
+corporation or partnership if the ownership is for investment purposes 
+only and certain other conditions are met. The amendment updates the 
+auction rules to acknowledge a business practice that currently is not 
+accommodated in the rules.
+
+DATES: Effective July 22, 2005.
+
+ADDRESSES: You may download this final rule from the Bureau of the 
+Public Debt's Web site at <a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a> or from the 
+Electronic Code of Federal Regulations (e-CFR) Web site at <a href="http://www.gpoaccess.gov/ecfr">http://www.gpoaccess.gov/ecfr</a>. It is also available for public inspection and 
+copying at the Treasury Department Library, Room 1318, Main Treasury 
+Building, 1500 Pennsylvania Avenue, NW., Washington, DC 20220. To visit 
+the library, call (202) 622-0990 for an appointment.
+
+FOR FURTHER INFORMATION CONTACT: Lori Santamorena (Executive Director) 
+or Chuck Andreatta (Associate Director), Bureau of the Public Debt, 
+Government Securities Regulations Staff, (202) 504-3632 or e-mail us at 
+<a href="/cdn-cgi/l/email-protection#44232b32372127362123042634206a30362125376a232b32"><span class="__cf_email__" data-cfemail="11767e67627472637476517361753f65637470623f767e67">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: The Uniform Offering Circular (UOC), in 
+conjunction with the announcement for each auction, provides the terms 
+and conditions for the sale and issuance in an auction to the public of 
+marketable Treasury bills, notes and bonds.\1\ For the most part, these 
+terms and conditions apply to ``bidders'' \2\ in an auction.\3\ In this 
+document, we provide some background on the bidder definitions in 
+Appendix A of the UOC. Then we discuss why certain ``merchant banking'' 
+relationships should be excluded from the definition of an 
+``affiliate'' in the ``Corporation'' and ``Partnership'' bidder 
+categories. Next we discuss the public comment we received in response 
+to a proposed rule amendment of the bidder definitions published on 
+September 8, 2004.\4\ We then describe the final amendment.
+---------------------------------------------------------------------------
+
+    \1\ The Uniform Offering Circular was published as a final rule 
+on January 5, 1993 (58 FR 411). The circular, as amended, is 
+codified at 31 CFR part 356. A final rule converting the UOC to 
+plain language and making certain other minor changes was published 
+in the Federal Register on July 28, 2004 (69 FR 45202).
+    \2\ See Sec.  356.2 and Appendix A of 31 CFR part 356.
+    \3\ For example, we will not award more than 35 percent of an 
+auction's offering amount to any particular competitive bidder to 
+help ensure broad distribution of Treasury securities at original 
+issuance. See Sec.  356.22(b).
+    \4\ 69 FR 54251 (September 8, 2004).
+---------------------------------------------------------------------------
+
+I. Background
+
+    Appendix A of the UOC provides bidder definitions that describe the 
+categories of bidders eligible to bid in Treasury auctions. We provide 
+these definitions so that persons and entities can use them to 
+determine whether they are considered to be one bidder or more than one 
+bidder for the purpose of bidding in auctions, and for compliance 
+purposes.
+    Two of the bidder categories in Appendix A are ``Corporations'' and 
+``Partnerships.'' We consider a corporation or partnership and all of 
+its ``affiliates''--in other words, the entire corporate or partnership 
+structure--collectively to be one bidder. Using the ``Corporation'' 
+category as an example, Appendix A defines an ``affiliate'' as ``any:
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by the corporation;
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by any other affiliate of the corporation;
+    <bullet> Person or entity that owns, directly or indirectly, more 
+than 50 percent of the corporation;
+    <bullet> Person or entity that owns, directly or indirectly, more 
+than 50 percent of any other affiliate of the corporation; or
+    <bullet> Entity, a majority of whose board of directors or a 
+majority of whose general partners are directors or officers of the 
+corporation, or of any affiliate of the corporation.'' \5\
+---------------------------------------------------------------------------
+
+    \5\ The ``Partnership'' category uses the same definition of 
+``affiliate'' except that ``partnership'' is used in place of 
+``corporation.''
+---------------------------------------------------------------------------
+
+    The more-than-50-percent ownership standard is an important part of 
+the definition because it implies at least potential, if not actual, 
+control of an entity.
+    Appendix A also provides a mechanism by which a major 
+organizational component (for example, a parent or a subsidiary), or 
+group of components, in a corporate or partnership structure may obtain 
+recognition by us as a bidder separate from the larger corporate or 
+partnership structure. Separate-bidder status may be sought for a 
+variety of reasons, the most common being that it simplifies the 
+process of net long position reporting that applies to large 
+competitive bidders.\6\
+---------------------------------------------------------------------------
+
+    \6\ See Sec.  356.13. A bidder must report its net long position 
+when the total of all of its bids in an auction plus its net long 
+position in the security being auctioned equals or exceeds the net 
+long position reporting threshold amount stated in the offering 
+announcement, generally 35 percent of the offering amount.
+---------------------------------------------------------------------------
+
+    To obtain recognition as a separate bidder, each component or group 
+of components must request such recognition from us, provide a 
+description of the component or group and its position within the 
+corporate or partnership structure, meet certain criteria, and provide 
+a certification that it has policies or procedures in place designed to 
+prevent any improper exchanges of information about participation in an 
+auction or in any way acting together with respect to participating in 
+an auction.\7\ As previously noted, these requests for separate-bidder 
+status come from the component or group of components seeking to be 
+separated from the larger corporation or partnership structure. In 
+general, these entities requesting separate-bidder status are financial 
+in nature and are likely to participate in Treasury auctions.
+---------------------------------------------------------------------------
+
+    \7\ See Appendix A, section II.
+---------------------------------------------------------------------------
+
+II. Discussion
+
+    We have become aware that a business relationship, commonly 
+referred to as ``merchant banking,'' can under certain circumstances 
+make technical compliance with the auction rules impractical. In this 
+business relationship, a corporation or partnership typically makes 
+investments in other commercial enterprises, not for the purpose of 
+actually engaging in the business of the enterprise, but rather to seek 
+a return on the investment. Usually these other commercial enterprises 
+are
+
+[[Page 29455]]
+
+not financial in nature, although they may, on occasion, purchase and 
+hold Treasury securities.
+    It is during those instances when a corporation's or partnership's 
+investment in another enterprise causes its ownership percentage to 
+exceed 50 percent that the complications can arise. For example, if the 
+corporation or partnership is a large enough bidder in Treasury 
+securities auctions that it has to calculate and possibly report its 
+net long position, under the auction rules it is supposed to contact 
+the acquired enterprise and find out if it has any position in the 
+security being auctioned. This can be impractical since the net long 
+position must be calculated as of one-half hour prior to the deadline 
+for competitive bidding and enterprises acquired through merchant 
+banking activities generally do not participate in Treasury securities 
+auctions.
+    We believe entities acquired through merchant-banking activities 
+pose much less potential for acting in concert with their acquiring 
+corporation or partnership in regard to transactions in, and holdings 
+of, Treasury securities. Corporations or partnerships invest in such 
+entities generally to seek a return on investment and not to engage in 
+the business of the entity, they do not exercise any control over or 
+make operational or investment decisions for such entities and, in 
+general, such entities are not engaged in the securities business and 
+generally do not participate in Treasury securities auctions. 
+Therefore, we believe the public interest is served by allowing the 
+exclusion of merchant-banking activities from a corporate or 
+partnership structure, as described below.
+
+III. Comments Received in Response to the Proposed Rule
+
+    On September 8, 2004, we published a proposed rule amendment \8\ in 
+which we proposed that an entity that is more than 50-percent-owned by 
+a corporation or partnership be deemed not to be an affiliate of the 
+corporation or partnership if the ownership is for investment purposes 
+only. Such entities would be deemed to be separate bidders from the 
+corporation or partnership that owns them.
+---------------------------------------------------------------------------
+
+    \8\ 69 FR 54251 (September 8, 2004).
+---------------------------------------------------------------------------
+
+    Because majority ownership still carries the potential for the 
+acquiring corporation or partnership to exercise management control of 
+the acquired entity, we further proposed that any corporations or 
+partnerships that intend to make use of this proposed change in the 
+bidder definitions notify us in advance in writing. This written 
+communication would have included a certification that the corporation 
+or partnership does not exercise any control over or make operational 
+or investment decisions for such acquired entities, and that it has 
+written policies in place to prevent any inappropriate exchange of 
+information concerning participation in Treasury marketable securities 
+auctions. We did not intend, however, to prevent a corporation or 
+partnership from submitting bids on behalf of acquired entities, as 
+long as the corporation or partnership met these certification 
+requirements, and the transaction was otherwise in compliance with the 
+regulations.
+    We received one comment letter on the proposed rule amendment, from 
+The Bond Market Association (``TBMA''), which supported the 
+proposal.\9\ ``The Association fully supports the objective of the Rule 
+Proposal because it makes the administrative burden of complying with 
+the NLP reporting requirements much more reasonable for firms that 
+engage in merchant banking or private equity investment activities,'' 
+TBMA commented.
+---------------------------------------------------------------------------
+
+    \9\ Treasury's proposed rule amendment and TBMA's comment 
+letter, dated November 23, 2004, are available for downloading from 
+<a href="http://www.publicdebt.treas.gov">http://www.publicdebt.treas.gov</a> and for inspection and copying at 
+the Treasury Department Library at the address provided earlier in 
+this final rule.
+---------------------------------------------------------------------------
+
+    TBMA asserted, however, that the proposed required certification 
+was overly broad given the purpose of the rule. Specifically, TBMA said 
+that it was concerned with the certification language that states that 
+``the bidder does not exercise any control over or make operational or 
+investment decisions for the entity (emphasis added).'' TBMA contended 
+that this language was too broad given that the certification's purpose 
+was to ensure that the entities involved will not act in concert with 
+respect to a Treasury securities auction. Merchant-banking firms 
+reserve the right, TBMA pointed out, ``to influence or control certain 
+material operations and investment decisions of their merchant banking 
+and private equity-type investments. These include occasionally firing 
+senior management of the company, approving the purchase of another 
+company by the investment and making a decision to sell the company or 
+partnership to another company.'' \10\
+---------------------------------------------------------------------------
+
+    \10\ Ibid.
+---------------------------------------------------------------------------
+
+IV. Analysis
+
+    We agree with TBMA's comment. We do not intend to restrict 
+merchant-banking firms' ability to exercise non-routine influence or 
+control over operational or management aspects of their investments, or 
+even over investments that are not related to Treasury securities. 
+After considering the comment letter received, we are amending the 
+proposed certification to specify that the corporation or partnership 
+does not routinely exercise operational or management control over 
+entities acquired through merchant-banking activities. In addition, we 
+are adding a new certification statement that the corporation or 
+partnership does not exercise any control over investment decisions of 
+such entities regarding U.S. Treasury securities.
+    This final rule becomes effective July 22, 2005. This will provide 
+sufficient time for corporations or partnerships that intend to make 
+use of the change in the bidder definitions to notify us in writing and 
+submit the required certifications. In the meantime, we do not expect 
+any such corporations or partnerships to change their current practices 
+regarding the reporting of positions of majority-owned entities.
+
+Procedural Requirements
+
+    This final rule is not a significant regulatory action for purposes 
+of Executive Order 12866. Although we issued a proposed rule on 
+September 8, 2004, to benefit from public comment, the notice and 
+public procedures requirements of the Administrative Procedure Act do 
+not apply, under 5 U.S.C. 553(a)(2).
+    Since a notice of proposed rulemaking is not required, the 
+provisions of the Regulatory Flexibility Act (5 U.S.C. 601 et seq.) do 
+not apply.
+    The Office of Management and Budget previously approved the 
+collections of information in this final amendment in accordance with 
+the Paperwork Reduction Act under control number 1535-0112. We are not 
+making substantive changes to these requirements that would impose 
+additional burdens on auction bidders.
+
+List of Subjects in 31 CFR Part 356
+
+    Bonds, Federal Reserve System, Government Securities, Securities.
+
+
+0
+For the reasons stated in the preamble, 31 CFR part 356 is amended as 
+follows:
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK--ENTRY TREASURY BILLS, 
+NOTES, AND BONDS (DEPARTMENT OF THE TREASURY CIRCULAR, PUBLIC DEBT 
+SERIES NO. 1-93)
+
+0
+1. The authority citation for part 356 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+
+[[Page 29456]]
+
+
+
+0
+2. In Appendix A to Part 356, amend section I by revising the 
+introductory text and paragraphs (a) and (b) to read as follows:
+
+Appendix A to Part 356--Bidder Categories
+
+I. Categories of Eligible Bidders
+
+    We describe below various categories of bidders eligible to bid 
+in Treasury auctions. You may use them to determine whether we 
+consider you and other persons or entities to be one bidder or more 
+than one bidder for auction bidding and compliance purposes. For 
+example, we use these definitions to apply the competitive and 
+noncompetitive award limitations and for other requirements. 
+Notwithstanding these definitions, we consider any persons or 
+entities that intentionally act together with respect to bidding in 
+a Treasury auction to collectively be one bidder. Even if an auction 
+participant does not fall under any of the categories listed below, 
+it is our intent that no auction participant receives a larger 
+auction award by acquiring securities through others than it could 
+have received had it been considered one of these types of bidders.
+    (a) Corporation--We consider a corporation to be one bidder. A 
+corporation includes all of its affiliates, which may be persons, 
+partnerships, or other entities. We consider a business trust, such 
+as a Massachusetts or Delaware business trust, to be a corporation. 
+We use the term ``corporate structure'' to refer to the collection 
+of affiliates that we consider collectively to be one bidder. An 
+affiliate is any:
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by the corporation;
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by any other affiliate of the corporation;
+    <bullet> Person or entity that owns, directly or indirectly, 
+more than 50 percent of the corporation;
+    <bullet> Person or entity that owns, directly or indirectly, 
+more than 50 percent of any other affiliate of the corporation; or
+    <bullet> Entity, a majority of whose board of directors or a 
+majority of whose general partners are directors or officers of the 
+corporation, or of any affiliate of the corporation.
+    An entity that is more than 50-percent owned as described in 
+this definition is not an affiliate, however, if:
+    <bullet> The purpose of such ownership is to seek a return on 
+investment and not to engage in the business of the entity;
+    <bullet> The owner does not routinely exercise operational or 
+management control over the entity;
+    <bullet> The owner does not exercise any control over investment 
+decisions of the entity regarding U.S. Treasury securities;
+    <bullet> The corporation has written policies or procedures, 
+including ongoing compliance monitoring processes, that are designed 
+to prevent it from acting together with the entity regarding 
+participation in Treasury auctions or investment strategies 
+regarding Treasury securities being auctioned; and
+    <bullet> The corporation submits notice and certification to us, 
+as provided in this appendix A.
+    A corporation that plans to make use of this exception to the 
+definition of ``affiliate'' must inform us of this fact in writing 
+and provide the following certification:
+    [Name of corporation] hereby certifies that, with regard to any 
+entity of which it owns more than 50 percent as defined in appendix 
+A to 31 CFR part 356, but for which the purpose of such ownership is 
+to seek a return on investment and not to engage in the business of 
+the entity:
+    <bullet> We do not routinely exercise operational or management 
+control over the entity;
+    <bullet> We do not exercise any control over investment 
+decisions of the entity regarding U.S. Treasury securities;
+    <bullet> We have written policies or procedures, including 
+ongoing compliance monitoring processes, that are designed to 
+prevent the corporation from acting together with the entity 
+regarding participation in Treasury auctions or investment 
+strategies regarding Treasury securities being auctioned; and
+    <bullet> We will continue to meet the terms of this 
+certification until we notify the Treasury of a change.
+    (b) Partnership--We consider a partnership to be one bidder if 
+it is a partnership for which the Internal Revenue Service has 
+assigned a tax-identification number. A partnership includes all of 
+its affiliates, which may be persons, corporations, general partners 
+acting on behalf of the partnership, or other entities. We use the 
+term ``partnership structure'' to refer to the collection of 
+affiliates that we consider collectively to be one bidder. We may 
+consider a partnership structure that contains one or more 
+corporations as a ``partnership'' or a ``corporation,'' but not 
+both.
+    An affiliate is any:
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by the partnership;
+    <bullet> Entity that is more than 50-percent owned, directly or 
+indirectly, by any other affiliate of the partnership;
+    <bullet> Person or entity that owns, directly or indirectly, 
+more than 50 percent of the partnership;
+    <bullet> Person or entity that owns, directly or indirectly, 
+more than 50 percent of any other affiliate of the partnership; or
+    <bullet> Entity, a majority of whose general partners or a 
+majority of whose board of directors are general partners or 
+directors of the partnership or of any affiliate of the partnership.
+    An entity that is more than 50-percent owned as described in 
+this definition is not an affiliate, however, if:
+    <bullet> The purpose of such ownership is to seek a return on 
+investment and not to engage in the business of the entity;
+    <bullet> The owner does not routinely exercise operational or 
+management control over the entity;
+    <bullet> The owner does not exercise any control over investment 
+decisions of the entity regarding U.S. Treasury securities;
+    <bullet> The partnership has written policies or procedures, 
+including ongoing compliance monitoring processes, that are designed 
+to prevent it from acting together with the entity regarding 
+participation in Treasury auctions or investment strategies 
+regarding Treasury securities being auctioned; and
+    <bullet> The partnership submits notice and certification to us, 
+as provided in this appendix A.
+    A partnership that plans to make use of this exception to the 
+definition of ``affiliate'' must inform us of this fact in writing 
+and provide the following certification:
+    [Name of partnership] hereby certifies that, with regard to any 
+entity of which it owns more than 50 percent as defined in appendix 
+A to 31 CFR part 356, but for which the purpose of such ownership is 
+to seek a return on investment and not to engage in the business of 
+the entity:
+    <bullet> We do not routinely exercise operational or management 
+control over the entity;
+    <bullet> We do not exercise any control over investment 
+decisions of the entity regarding U.S. Treasury securities;
+    <bullet> We have written policies or procedures, including 
+ongoing compliance monitoring processes, that are designed to 
+prevent the partnership from acting together with the entity 
+regarding participation in Treasury auctions or investment 
+strategies regarding Treasury securities being auctioned; and
+    <bullet> We will continue to meet the terms of this 
+certification until we notify the Treasury of a change.
+* * * * *
+
+    Dated: May 17, 2005.
+Donald V. Hammond,
+Fiscal Assistant Secretary.
+[FR Doc. 05-10218 Filed 5-20-05; 8:45 am]
+BILLING CODE 4810-39-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

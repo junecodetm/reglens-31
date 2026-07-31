@@ -1,0 +1,308 @@
+<html>
+<head>
+<title>Federal Register, Volume 61 Issue 165 (Friday, August 23, 1996)</title>
+</head>
+<body><pre>[Federal Register Volume 61, Number 165 (Friday, August 23, 1996)]
+[Rules and Regulations]
+[Pages 43636-43638]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 96-21488]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Parts 306, 350, 356, and 358
+
+
+Conforming Book-entry Changes
+
+AGENCY: Bureau of the Public Debt, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury is publishing final regulations 
+to conform existing miscellaneous regulatory provisions to new 
+regulations governing book-entry Treasury Bonds, Notes and Bills that 
+are being published as a separate rulemaking document on this date. The 
+changes are technical and non-substantive.
+
+EFFECTIVE DATE: January 1, 1997.
+
+FOR FURTHER INFORMATION CONTACT:
+Walter T. Eccard, Chief Counsel (202) 219-3320, or Cynthia E. Reese, 
+Deputy Chief Counsel, (202) 219-3320. Copies of the final regulations 
+are being made available for downloading from the Bureau of the Public 
+Debt home page at the following address: <a href="http://www.ustreas.gov/
+treasury/bureaus/pubdebt/pubdebt.html">http://www.ustreas.gov/
+treasury/bureaus/pubdebt/pubdebt.html</a>.
+
+SUPPLEMENTARY INFORMATION: In a separate publication in this Federal 
+Register, the Department of the Treasury is publishing a final rule 
+that, on and after the effective date, will govern Treasury bonds, 
+notes, and bills (Treasury securities) in book-entry form held in the 
+commercial book-entry system (31 CFR Part 357). That rule incorporates 
+by reference recent and significant changes in commercial law 
+addressing the holding of securities in book-entry form through 
+intermediaries. The rule replaces existing Treasury regulations that 
+contain outdated legal concepts.
+    In this rulemaking document, existing Treasury regulations are 
+being amended to conform to the changes in Part 357. No other changes 
+of a substantive nature are being made. These various technical changes 
+are summarized below.
+
+Part 306
+
+    Subpart O of Part 306 contains the provisions governing book-entry 
+Treasury securities that have been in effect for over twenty years. 
+Almost all of these provisions, including those dealing with transfer 
+and pledge, are being supplanted by the new regulations in 31 CFR Part 
+357, Subpart B (the ``TRADES'' regulations). The only provisions that 
+will continue to have any force on and after the effective date are 
+those dealing with the procedures for withdrawal of securities from 
+book-entry. Those provisions only apply to securities issued before 
+August 15, 1986, which were offered in definitive (certificated) form.
+    In revised Sec. 306.115, a new definition of ``Eligible book-entry 
+Treasury security'' has been added and the definition of ``Definitive 
+Treasury security'' is being retained, but otherwise the definitions in 
+31 CFR Sec. 357.3 will apply. Revised Sec. 306.117 contains the rules 
+for withdrawal of Eligible book-entry Treasury securities for 
+conversion to definitive form. It is based on provisions in former 
+Secs. 306.118(d) and (f) and 306.119. All other provisions of current 
+Subpart O are covered by TRADES or are obsolete.
+
+Part 350
+
+    This Part contained the regulations governing Treasury bills that 
+were offered exclusively in book-entry form, beginning in 1976.\1\ 
+Subpart C of Part 350, which related to direct access Treasury bill 
+accounts, was superseded by the TREASURY DIRECT regulations in Part 
+357, Subpart C. Subpart B of Part 350, which related to Treasury bills 
+held in the commercial book-entry system, was applicable until 
+promulgation in 1993 of the uniform offering circular, 31 CFR Part 356 
+(Sale and Issue of Book-Entry Treasury Bills, Notes, and Bonds, 
+Department of the Treasury Circular, Public Debt Series No. 1-93). 
+Under Secs. 356.3 and 356.5, Treasury bills were made subject to 31 CFR 
+Part 306 and 357. Because Treasury bills have a maturity of no longer 
+than one year, there are currently no unmatured Treasury bills subject 
+to Part 350. Therefore, Part 350 is being removed.
+---------------------------------------------------------------------------
+
+    \1\ (Subpart D of Part 350 provided for issuance of definitive 
+bills on an exception basis for a limited period of time.)
+---------------------------------------------------------------------------
+
+Part 356
+
+    All of the changes in this Part either replace references to 31 CFR 
+Part 306 with Part 357, or add references to TRADES.
+
+Part 358
+
+    One change is being made to Section 358.3 to delete language that 
+will no longer apply as a result of the publication of TRADES.
+
+Procedural Requirements
+
+    This rulemaking does not meet the criteria for a ``significant 
+regulatory
+
+[[Page 43637]]
+
+action'' pursuant to Executive Order 12866. The notice and public 
+comment procedures requirements of the Administrative Procedure Act are 
+inapplicable, pursuant to 5 U.S.C. 553(a)(2). As no notice of proposed 
+rulemaking is required, the provisions of the Regulatory Flexibility 
+Act (5 U.S.C. 601, et seq.) do not apply.
+    There are no collections of information contained in this 
+rulemaking. Therefore, the Paperwork Reduction Act does not apply.
+
+List of Subjects in 31 CFR Parts 306, 350, 356, and 358
+
+    Bonds, Federal Reserve System, Government securities, Securities.
+    For the reasons set forth in the preamble and under the authority 
+of 31 U.S.C. 3121, 31 CFR chapter II is amended as follows:
+
+PART 306--GENERAL REGULATIONS GOVERNING U.S. SECURITIES
+
+    1. The authority citation for part 306 continues to read as 
+follows:
+
+    Authority: 31 U.S.C. chapter 31; 5 U.S.C. 301; 12 U.S.C. 391.
+
+    2. Section 306.115 is revised to read as follows:
+
+
+Sec. 306.115  Definition of terms.
+
+    For the purposes of this subpart, the definitions provided in 31 
+CFR 357.3 are applicable, with the following additions:
+    Definitive Treasury security means a Treasury bond, note, 
+certificate of indebtedness, or bill issued under 31 U.S.C. chapter 31 
+in engraved or printed form.
+    Eligible book-entry Treasury security means a security maintained 
+in TRADES that was originally issued prior to August 15, 1986, which by 
+the terms of its offering circular is available in either definitive or 
+book-entry form.
+    3. Section 306.116 is removed and Sec. 306.117 is redesignated as 
+Sec. 306.116 and revised to read as follows:
+
+
+Sec. 306.116  Scope and effect of book-entry procedure.
+
+    (a) Except as provided in Sec. 306.117, the provisions of 31 CFR 
+part 357, subparts A, B, and D apply.
+    (b) This subpart is effective January 1, 1997.
+    4. Section 306.118 is removed and Sec. 306.119 is redesignated as 
+Sec. 306.117 and revised to read as follows:
+
+
+Sec. 306.117  Withdrawal of eligible book-entry Treasury securities for 
+conversion to definitive form.
+
+    (a) Eligible book-entry Treasury securities may be withdrawn from 
+TRADES by requesting delivery of like definitive Treasury securities.
+    (b) A Reserve bank shall, upon receipt of appropriate instructions 
+to withdraw eligible book-entry Treasury securities from book-entry 
+form in TRADES, convert such securities into definitive Treasury 
+securities and deliver them in accordance with such instructions; no 
+such conversion shall affect existing interests in such Treasury 
+securities.
+    (c) All requests for withdrawal of eligible book-entry Treasury 
+securities must be made prior to the maturity or date of call of the 
+securities.
+    (d) Treasury securities which are to be delivered upon withdrawal 
+may be issued in either registered or bearer form, to the extent 
+permitted by the applicable offering circular.
+    5. Sections 306.120, Sec. 306.121, Sec. 306.122, and the Appendix 
+to subpart 0 are removed.
+
+PART 350--REGULATIONS GOVERNING BOOK-ENTRY BILLS--[REMOVED]
+
+    6. Part 350 is removed.
+
+PART 356--SALE AND ISSUE OF MARKETABLE BOOK-ENTRY TREASURY BILLS, 
+NOTES, AND BONDS
+
+    7. The authority citation for part 356 continues to read as 
+follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 3102 et seq.; 12 U.S.C. 391.
+
+    8. Section 356.2 is amended by adding the following definition in 
+alphabetical order:
+
+
+Sec. 356.2  Definitions.
+
+* * * * *
+    TRADES means the Treasury/Reserve Automated Debt Entry System.
+* * * * *
+    9. Section 356.3 is amended by revising the introductory text and 
+the first sentence of paragraph (a) to read as follows:
+
+
+Sec. 356.3  Book-entry securities and systems.
+
+    Securities issued subject to this part shall be held in either of 
+two systems for maintaining book-entry securities, as described. 
+Securities may be transferred from one system to the other in 
+accordance with Treasury regulations governing book-entry Treasury 
+bills, notes and bonds. See Department of the Treasury Circular, Public 
+Debt Series No. 2-86, as amended (31 CFR part 357).
+    (a) Treasury/Reserve Automated Debt Entry System (TRADES). TRADES 
+is established, maintained and operated by the Federal Reserve Banks 
+acting as fiscal agents of the United States, pursuant to 12 U.S.C. 
+391. * * *
+* * * * *
+    10. Section 356.5 is amended by revising the first two sentences in 
+its introductory text to read as follows:
+
+
+Sec. 356.5  Description of securities.
+
+    Securities offered pursuant to this part are offered exclusively in 
+book-entry form and are direct obligations of the United States, issued 
+under chapter 31 of title 31 of the United States Code. The securities 
+are subject to the terms and conditions set forth in this part, as well 
+as the regulations governing book-entry Treasury bills, notes, and 
+bonds (31 CFR part 357) and the offering announcements, all to the 
+extent applicable. * * *
+* * * * *
+    11. Section 356.11 is amended by revising the first sentence of 
+paragraph (a)(2) to read as follows:
+
+
+Sec. 356.11  Submission of bids.
+
+    (a) * * *
+    (2) If the awarded securities are to be issued in TRADES, a 
+submitter must have on file at a Federal Reserve Bank a certificate 
+listing those persons who are authorized to submit tenders on its 
+behalf. * * *
+* * * * *
+    12. Section 356.17(b) is revised to read as follows:
+
+
+Sec. 356.17  Responsibility for payment.
+
+* * * * *
+    (b) TRADES. For securities held in TRADES, payment of the par 
+amount and announced accrued interest, if any, must be submitted with 
+the tender unless provision has been made for payment by charge to the 
+funds account of a depository institution.
+* * * * *
+    13. Section 356.31 is amended by revising the first sentences of 
+both paragraphs (a) and (c) and all of paragraph (d) to read as 
+follows:
+
+
+Sec. 356.31  STRIPS.
+
+    (a) General. A note or bond may be designated in the offering 
+announcement as eligible for the STRIPs program. At the option of the 
+holder, and generally at any time from its issue date until its call or 
+maturity, any such security may be ``stripped'' i.e., divided into 
+separate principal and interest components maintained in TRADES. * * *
+* * * * *
+    (c) Reconstituting a security. Stripped interest and principal 
+components may be reconstituted, i.e. restored to their fully 
+constituted form, and maintained in TRADES. * * *
+
+[[Page 43638]]
+
+    (d) Applicable regulations. Unless otherwise provided in this part, 
+notes and bonds stripped into their STRIPS components are governed by 
+subparts A, B and D of part 357 of this chapter.
+
+PART 358--REGULATIONS GOVERNING CUBES (COUPONS UNDER BOOK-ENTRY 
+SAFEKEEPING)
+
+    14. The authority citation for part 358 continues to read as 
+follows:
+
+    Authority: 31 U.S.C. chapter 31; 12 U.S.C. 391.
+
+    15. Section 358.3 is revised to read as follows:
+
+
+Sec. 358.3  Governing regulations.
+
+    CUBES are deemed to be securities for purposes of subparts A, B, 
+and D of part 357 of this chapter.
+
+    Dated: August 16, 1996.
+Gerald Murphy,
+Fiscal Assistant Secretary.
+[FR Doc. 96-21488 Filed 8-20-96; 1:29 pm]
+BILLING CODE 4810-39-P
+
+
+</pre></body>
+</html>

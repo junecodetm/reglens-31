@@ -1,0 +1,1498 @@
+<html>
+<head>
+<title>Federal Register, Volume 79 Issue 200 (Thursday, October 16, 2014)</title>
+</head>
+<body><pre>
+[Federal Register Volume 79, Number 200 (Thursday, October 16, 2014)]
+[Rules and Regulations]
+[Pages 61992-62003]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2014-24460]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Fiscal Service
+
+31 CFR Part 223
+
+RIN 1510-AB27
+
+
+Surety Companies Doing Business With the United States
+
+AGENCY: Bureau of the Fiscal Service, Fiscal Service, Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury, Bureau of the Fiscal Service 
+(Treasury) administers the Federal corporate surety program. Treasury 
+issues certificates of authority to qualified sureties to underwrite 
+and reinsure Federal bond obligations. Bonds underwritten by Treasury-
+certified sureties satisfy bonding requirements, provided such bonds 
+are accepted by the agency bond-approving official. Treasury is 
+amending its regulation to expressly provide that an agency may decline 
+to accept a bond underwritten by a Treasury-certified surety for cause, 
+provided the agency satisfies the requirements specified in the final 
+rule. Treasury is also revising the procedures it uses to adjudicate 
+any complaint received from an agency requesting that a surety's 
+certificate of authority be revoked.
+
+DATES: This rule is effective December 15, 2014.
+
+ADDRESSES: You can download this rule at the following Web site: <a href="http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm">http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm</a>. You 
+may also inspect and copy this rule at: Treasury Department Library, 
+1500 Pennsylvania Avenue NW., Washington, DC 20220.
+    Before visiting, you must call (202) 622-0990 for an appointment.
+    In accordance with the federal eRulemaking Initiative, the Bureau 
+of the Fiscal Service publishes rulemaking information on <a href="http://www.regulations.gov">http://www.regulations.gov</a>.
+    <a href="http://Regulations.gov">Regulations.gov</a> offers the public the ability to comment on, 
+search, and view publicly available rulemaking materials, including 
+comments received on rules.
+
+FOR FURTHER INFORMATION CONTACT: Melvin Saunders, Manager, Surety Bond 
+Branch, Bureau of the Fiscal Service, at (202) 874-6850 or 
+<a href="/cdn-cgi/l/email-protection#b2dfd7dec4dbdc9cc1d3c7dcd6d7c0c1f2d4dbc1d1d3de9cc6c0d7d3c1c7c0cb9cd5ddc4"><span class="__cf_email__" data-cfemail="7a171f160c131454091b0f141e1f08093a1c1309191b16540e081f1b090f0803541d150c">[email&#160;protected]</span></a>, or James J. Regan, Senior Counsel, 
+Bureau of the Fiscal Service, at (202) 874-6680 or 
+<a href="/cdn-cgi/l/email-protection#5a303b373f2974283f3d3b341a3c3329393b36742e283f3b292f2823743d352c"><span class="__cf_email__" data-cfemail="365c575b534518445351575876505f4555575a18424453574543444f18515940">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: On March 17, 2011, Treasury published a 
+notice of proposed rulemaking (NPRM) at 76 FR 14592, requesting comment 
+on a proposed amendment to 31 CFR part 223 (Part 223), which implements 
+the requirements of 31 U.S.C. 9304-9308.
+    The NPRM proposed two main amendments to Part 223. First, under 
+NPRM Sec.  223.17, Treasury proposed to clarify the circumstances under 
+which a Federal agency bond-approving official could decline to accept 
+a bond underwritten by a Treasury-certified surety. Second, under NPRM 
+Sec.  223.20, Treasury proposed to clarify the procedures and standard 
+of review to be used by Treasury in adjudicating any complaint 
+submitted by an agency to Treasury requesting that a surety's 
+certificate be revoked.
+    After consideration of the comments received, Treasury is amending 
+its
+
+[[Page 61993]]
+
+regulation to expressly provide that an agency has discretion to 
+decline to accept a bond underwritten by a Treasury-certified surety 
+for cause, provided the agency satisfies the requirements specified in 
+the final rule. Treasury is also revising the procedures it uses to 
+adjudicate any complaint received from an agency requesting that a 
+surety's certificate of authority be revoked.
+
+I. Summary of Comments Received and Treasury's Responses
+
+    Treasury sought comments on all aspects of the proposed rule. 
+Treasury received 14 comment letters from a cross-section of entities 
+and individuals associated with the surety industry. Five of these 
+comment letters were submitted by surety companies, four by surety 
+trade associations, three by law firms, and two by individuals. The two 
+individuals work for immigration bonding companies or bonding agencies, 
+but the letters were submitted in their individual capacities.
+    Thirteen of the commenters submitted comments that were opposed to 
+the NPRM, as written, with several commenters suggesting the NPRM be 
+withdrawn. The commenters who suggested the NPRM be withdrawn expressed 
+the opinion that the current statutes and regulations are adequate to 
+address the collection and performance issues that are of concern to 
+Treasury.
+    One comment from a national trade association representing 
+construction subcontractors, specialty trade contractors, and 
+suppliers, supported the NPRM. This commenter emphasized that 
+subcontractors working on Federal construction projects ``rely on the 
+payment bonds'' underwritten by Treasury-certified sureties to ensure 
+their final payment. This commenter emphasized that the Federal 
+Government's extra oversight of this issue ``will increase the value of 
+this important payment assurance to subcontractors.''
+
+A. Comments on Proposed Sec.  223.17 and Treasury's Responses
+
+    1. Several commenters expressed the opinion that proposed Sec.  
+223.17 conflicts with 31 U.S.C. 9305(e). Section 9305(e) provides that: 
+``A surety corporation providing a surety bond under section 9304 of 
+this title [31 U.S.C. 9304] may not provide any additional bond under 
+that section if--(1) the corporation does not pay a final judgment or 
+order against it on the bond; and (2) no appeal or stay of the judgment 
+or order is pending 30 days after the judgment or order is entered.'' 
+These commenters suggest that section 9305(e) provides the only 
+circumstances under which an agency can decline to accept a bond from a 
+surety.
+    Section 223.17 does not conflict with section 9305(e). Section 
+9305(e) sets the statutory standard under which a surety's certificate 
+of authority to write any additional bond for any agency is revoked by 
+operation of law for failure to pay a final court judgment or order. In 
+contrast, Sec.  223.17, as articulated in the final rule, clarifies the 
+scope of an agency's existing authority to decline to accept a 
+particular bond or bonds from a surety.
+    Under 31 U.S.C. 9304(b), and its predecessor derivations, Congress 
+expressly conditioned acceptance of a bond on the approval of a Federal 
+agency bond-approving official. This provision authorizes agencies to 
+decline to accept bonds underwritten by Treasury-certified sureties. In 
+enacting this provision, Congress expressed the general intent that 
+Treasury-certification status does not provide a guarantee to a surety 
+that its bonds will be accepted by an agency in all cases. Federal 
+courts have also recognized that agencies have the discretion to 
+decline acceptance of bonds from Treasury-certified sureties. See, 
+e.g., Concord Casualty & Surety Co. v. United States, 69 F.2d 78 (2d 
+Cir. 1934); American Druggists Ins. Co. v. Bogart, 707 F.2d 1229 (11th 
+Cir. 1983).
+    Several commenters appeared to suggest that a certificate, once 
+granted, gives a surety the right to have its bonds approved in all 
+cases, unless the surety's authority to write bonds is revoked by court 
+order or judgment under 31 U.S.C. 9305(e). This view is incorrect as it 
+fails to give effect to the intent of Congress under section 9304(b).
+    Moreover, a court judgment or order meeting the requirements of 
+section 9305(e) precludes the surety from writing any Federal bond for 
+any agency. In contrast, Sec.  223.17 authorizes an agency official to 
+decline bonds presented by a Treasury-certified surety to that agency 
+for cause. The Treasury-certified surety is still authorized to present 
+additional bonds to other agencies.
+    2. Several commenters expressed the view that Federal agencies 
+often err in making administrative determinations that bond obligations 
+are due and owing. These commenters believe that a court is the proper 
+arbiter of bond disputes because agency administrative practices are 
+allegedly deficient.
+    Treasury recognizes the importance of fair and accurate 
+administrative processes. However, Treasury does not believe it is 
+necessary or appropriate to require an agency to reduce every surety 
+claim to judgment, or submit a surety revocation complaint to Treasury 
+in every instance, in order to facilitate equitable and efficient 
+resolution of surety performance and collection concerns at the agency 
+level.
+    Under final rule Sec.  223.17(b), a surety company is provided a 
+series of protections before an agency can decline to accept its bonds. 
+First, the agency must provide advance written notice to the surety and 
+provide the surety with the opportunity to rebut the agency's reasons 
+for declination and the opportunity to cure. Second, the agency must 
+consider any submission by the surety and issue a written determination 
+that the bonds should not be accepted. Third, the agency must issue a 
+regulation pursuant to notice and comment rulemaking that articulates 
+the agency's procedures and for cause standards for declining bonds. 
+Treasury believes that these requirements will improve any agency 
+practices that are allegedly deficient and will provide certified 
+surety companies with adequate due process protections before their 
+bonds can be declined by a particular agency.
+    If a surety is not satisfied with the agency bond-approving 
+official's decision to decline bonds, the surety may petition a court 
+of competent jurisdiction to stay or enjoin the agency's written 
+determination to decline additional bonds from that surety. Sec.  
+223.17(b)(5)(i).
+    3. Several commenters expressed concern that ``administratively 
+final bond obligation'' was not defined in the NPRM for purposes of 
+governing the exercise of agency discretion under Sec.  223.17. One 
+commenter suggested this lack of definition could lead to inconsistent 
+definitions, procedures, and decisions across agencies.
+    Treasury believes that this determination should be left to the 
+agency that is requiring the bond. Accordingly, final rule Sec.  
+223.17(b)(3) requires the agency to define in its regulation when a 
+bond obligation becomes administratively final under the agency's 
+procedures.
+    4. Several commenters expressed concern that an agency bond-
+approving official could decline additional bonds based on a single 
+bond obligation. One commenter stated the standard was coercive because 
+it could force a surety to capitulate to the agency's demand for 
+payment even if the surety has a good defense on a bond claim. One 
+commenter expressed concern that the proposed rule would allow an 
+agency to decline bonds for a ``single, immaterial, or insignificant 
+delinquency'' rather than requiring that the declination be
+
+[[Page 61994]]
+
+limited to a situation where the surety is ``significantly delinquent 
+either in the number of outstanding bills or dollar amounts thereof.''
+    Treasury expects that agencies will act in good faith when 
+exercising their authority to decline bonds. The agency must provide 
+the Treasury-certified surety with extensive administrative due process 
+protections, as specified in Sec.  223.17(b), prior to declining bonds 
+from that surety.
+    5. Several commenters engaged in one agency's immigration surety 
+bond business alleged that the agency does not afford sureties with 
+adequate due process in determining when a bond obligation is 
+administratively final and that the agency has a high administrative 
+error rate in declaring bond obligations due. One commenter stated that 
+giving that agency's bond-approving official the discretion not to 
+accept additional bonds under the standards articulated in the proposed 
+rule would give the agency unfettered discretion.
+    Treasury does not believe it would be appropriate to comment 
+specifically on the allegations made by these commenters on a 
+particular agency's alleged internal processes. We do emphasize, 
+however, that Treasury believes that a fair and equitable 
+administrative process is essential.
+    Our response to Comment #2 summarizes the due process protections 
+afforded to sureties under the final rule. The final rule ensures a 
+fair and equitable administrative process, and expressly provides that 
+each agency may exercise the discretion to decline additional bonds 
+under Sec.  223.17(b), only in accordance with the specified 
+requirements.
+    6. One commenter raised a concern that permitting agencies to 
+define additional ``for cause'' reasons to decline bonds in agency-
+specific regulations, as provided in proposed Sec.  223.17, would 
+provide extraordinary leverage to agencies that already have allegedly 
+flawed administrative processes. Another commenter raised a concern 
+with the proposed ``for cause'' provision because of its inherent 
+``lack of specificity and consistency, as well as the potential for 
+misapplication and mis-implementation'' across disparate agencies.
+    ``For cause'' includes circumstances when a surety has failed to 
+pay or satisfy an administratively final bond obligation due the 
+agency. Other ``for cause'' reasons for declining bonds will depend on 
+the particular needs and concerns of each agency. The final rule under 
+Sec.  223.17(b)(3) requires an agency to issue a regulation subject to 
+notice and comment rulemaking before declining any bonds. This 
+requirement will ensure that surety companies have the opportunity to 
+comment on the ``for cause'' reasons proposed by each agency.
+    7. Two commenters suggested the proposed rule would upset, or 
+undermine, the surety bond contract tripartite relationship in which 
+the surety (secondary obligor) agrees to be answerable to the obligee 
+(Federal agency) for the debt or default of the principal (primary 
+obligor). One of these commenters expressed concern that the proposed 
+rule focuses on the obligation of the secondary obligor (the surety) 
+without first affording the primary obligor (the principal) the right 
+to have its position adjudicated. The commenter suggested this focus 
+could yield inconsistent results if the surety satisfies the Federal 
+agency's bond demand and the principal is required to indemnify the 
+surety, but the principal later defeats the Federal agency's default 
+claim in court.
+    The final rule in Sec.  223.17(b)(3) requires the agency to 
+articulate its procedures and for cause standards for declining bonds 
+in a regulation subject to notice and comment rulemaking before it can 
+decline bonds from a particular surety. That agency regulation must 
+define when a bond obligation is administratively final. The terms of 
+the final rule do not alter existing tripartite bond contract 
+obligations, but reasonably balance the interests of the parties in 
+determining when additional bonds presented to an agency may be 
+declined.
+    8. As stated in the NPRM, Federal courts have affirmed that section 
+9304(b) affords agency bond-approving officials discretion to decline 
+to accept a bond underwritten by a Treasury-certified surety, 
+consistent with the due process standards articulated in the proposed 
+rule. See, e.g., Concord Casualty & Surety Co. v. United States, 69 
+F.2d 78 (2d Cir. 1934); American Druggists Ins. Co. v. Bogart, 707 F.2d 
+1229 (11th Cir. 1983). One commenter stated that these cases, in dicta, 
+merely stand for the proposition that a bond-approving official could 
+disapprove a particular undertaking in a particular case. One commenter 
+stated this authority is not a basis for the NPRM to authorize agencies 
+to bar a surety on a blanket basis.
+    Treasury has broad administrative authority over certificate of 
+authority matters. See Concord, 69 F.2d at 80-81 (The ``supervision, 
+conduct, and responsibility'' of sureties operating under Treasury-
+issued certificates of authority is placed with Treasury). In the final 
+rule, Treasury, in the exercise of its discretion, has decided that 
+agency bond-approving officials may decline bonds from a Treasury-
+certified surety under section 9304(b) for cause. The agency must issue 
+a regulation specifying the procedures and for cause standards for 
+declining bonds. The Concord and American Druggists cases provide 
+roadmaps for agencies to decline bonds in particular cases, in the 
+absence of specific Treasury guidance. These cases do not limit, and in 
+fact expressly recognize, Treasury's plenary authority to regulate 
+certificates of authority that it issues.
+    9. One commenter stated that 31 U.S.C. 9305(d)(1) clearly and 
+unambiguously provides that Treasury may revoke the authority of a 
+surety corporation to do new business if the Secretary decides the 
+corporation is insolvent or is in violation of sections 9304, 9305, 
+9306. The commenter stated that none of these three sections 
+``authorize a Government agency to reject a bond issued by a surety who 
+has an outstanding unpaid bond obligation that the agency contends is 
+due and owing.''
+    As explained in the discussion under Comment #1, the discretion of 
+a Federal agency to decline additional bonds underwritten by a 
+Treasury-certified surety, consistent with the requirements of 
+Sec. Sec.  223.16 and 223.17 in the final rule, is authorized under 31 
+U.S.C. 9304(b).
+    10. Several commenters expressed the view that the proposed 
+amendment to part 223 is not necessary as Treasury, in the NPRM, stated 
+it has only recognized a problem with sureties in ``anomalous and 
+rare'' cases. One commenter expressed the view that the proposed 
+changes are excessive and punitive to sureties. Another commenter 
+suggested the proposed changes would create more strife by compelling 
+litigation and parallel administrative practices. This commenter stated 
+``if the surety has independently investigated the merits of a claim 
+and proceeded in a manner consistent with the outcome of its 
+investigation [e.g., denied the agency's claim], it has acted 
+responsibly and properly, even if it is ultimately determined in 
+subsequent litigation that the surety's decision was incorrect.'' In 
+general, these commenters suggested that the government has adequate 
+recourse against sureties, as sureties are precluded from writing 
+additional bonds if they have not paid a final judgment under the 
+standards of 31 U.S.C. 9305(e).
+    In the NPRM Treasury stated that the regulatory amendment was 
+necessary to facilitate the prompt resolution of bond disputes between 
+Federal agencies and
+
+[[Page 61995]]
+
+sureties. Treasury noted that, in a limited number of cases, sureties 
+appear to have simply ignored agency final decisions for extended 
+periods of time. Treasury stated these ``anomalous and rare'' cases 
+represented an unwelcome burden on the Treasury and the public fisc.
+    The NPRM proposed to address this concern. Treasury is particularly 
+concerned with situations where a surety underwrites high-volume, low-
+dollar bonds, and hundreds, even thousands, of bond cases remain 
+unresolved for extended periods of time. The commenters appear to 
+suggest that a Treasury certificate, once granted, gives a surety the 
+unilateral authority to decline every agency bond demand with impunity 
+based on the surety's own internal investigations. These commenters 
+suggest that the agency's recourse is to reduce each bond claim to a 
+judgment; otherwise, the agency is compelled to continue doing business 
+with that surety in all cases.
+    We disagree with this position. In our view, permitting an agency 
+to decline additional bonds under certain circumstances, as provided in 
+the final rule, may reduce litigation as the agency and surety will 
+have the proper incentive to resolve disputes at the administrative 
+level. Moreover, the discretion afforded to agencies under Sec.  
+223.17(b) is consistent with, and gives effect to, 31 U.S.C. 9304(b).
+    11. One commenter expressed concern that the proposed rule would 
+enable an agency to reject bonds from a Treasury-certified surety in 
+accordance with standards in an agency-specific rule or regulation. 
+Another commenter expressed concern that agency-specific standards 
+could lead to inconsistent definitions, procedures, and decisions 
+across agencies.
+    The agency regulations on declining bonds will be subject to notice 
+and comment rulemaking. Surety companies will have the opportunity to 
+express their concerns directly to the agencies during this process.
+    12. One commenter expressed concern that an agency's decision to 
+decline payment and performance bonds on a project under proposed Sec.  
+223.17, after the agency has already accepted a project bid bond 
+underwritten by that same surety, could present contract complications, 
+including a claim on the bid bond, because the principal may not be 
+able to obtain a replacement surety in time.
+    We agree with the commenter that this sequence of events could 
+present unintended contract complications. The final rule has been 
+amended under Sec.  223.17(b)(5)(ii) to provide that an agency's 
+authority to decline bonds does not apply to otherwise acceptable 
+payment and performance contract bonds, when the agency has already 
+accepted a bid bond from the same surety on the particular project.
+    13. One commenter recommended proposed Sec.  223.17(b)(3) be 
+amended to require that an agency post notice of any proposed 
+declination of bonds in the Federal Register within five days of the 
+date the agency gives the surety written notice of its intention to 
+decline bonds. This commenter also recommended that the proposed 
+declination by the agency be posted by Treasury as an on-line 
+supplement to Department Circular 570.
+    Section 223.17(b)(4), as provided in the final rule, encourages 
+agencies ``to use best efforts to ensure that persons conducting 
+business with the agency are aware that bonds underwritten by the 
+particular certified company will not be accepted.'' Treasury believes 
+each agency is in the best position to determine how this information 
+should be provided to principals who may be seeking to do business with 
+the agency. We do not believe it is appropriate to publish this 
+information in Department Circular 570, as the surety will still be 
+certified by Treasury to write bonds for any other agency.
+    14. One commenter asked whether the scope of an agency's authority 
+to decline additional bonds under proposed Sec.  223.17 is intended to 
+permit the agency to also require the replacement of bonds previously 
+accepted by that agency.
+    Section 223.17, in the final rule, is prospective and is not 
+intended to require a principal to obtain replacement bonds that have 
+already been accepted. In contrast, when Treasury revokes the authority 
+of a surety to underwrite bonds for any agency, under 31 U.S.C. 
+9305(b)-(d) and 31 CFR 223.18-223.20, agencies are advised that they 
+should secure new bonds for bonds currently in force if a significant 
+amount of liability remains outstanding, and that continuous bonds 
+should not be renewed.
+    15. Several commenters expressed concern that the proposed rule 
+would require a surety to obtain injunctive relief in court in order to 
+prevent the agency from declining additional bonds under the authority 
+of Sec.  223.17. One of these commenters expressed concern that this 
+standard would permit an agency to impose sanctions which eliminate the 
+obligation of the agency to prove its claim in court, i.e., reduce the 
+claim to final judgment. Another commenter recommended that the agency 
+not be permitted to decline additional bonds until the time to seek 
+judicial review has expired or the judicial review has been completed. 
+Another commenter noted that the injunctive relief requirement would 
+result in a need to file and engage in inefficient fast-track 
+litigation.
+    As noted above in our response to Comment #10, Treasury is of the 
+view that permitting an agency to decline additional bonds, subject to 
+a court of competent jurisdiction granting the surety injunctive 
+relief, as provided in the final rule, may reduce litigation as the 
+agency and surety will have the proper incentive to resolve disputes at 
+the administrative level.
+    16. One commenter expressed concern that the ``willful conduct'' 
+exception in the proposed rule would provide an agency too much 
+discretion in deciding whether to permit the surety to cure its 
+noncompliance to avoid non-acceptance of its bonds by the agency.
+    Under Sec.  223.17(b)(1)(iv), as provided in the final rule, a 
+surety has the opportunity to cure its noncompliance to avoid non-
+acceptance of its bonds by the agency. The ``willful conduct'' 
+exception under Sec.  223.20(g), as proposed and in the final rule, 
+whereby a surety does not have the opportunity to cure its 
+noncompliance in specified circumstances, only applies to Treasury 
+revocation actions. Agencies do not have authority to exercise the 
+``willful conduct'' cure exception.
+    17. One commenter suggested that an agency's proposed decision to 
+decline bonds should be submitted to an independent Administrative Law 
+Judge under 5 U.S.C. 556, due to what the commenter describes as the 
+serious nature of the action, the impact on the principal and surety, 
+costs, and potential delays.
+    The formal adjudication requirements under the Administrative 
+Procedure Act only apply in cases ``required by statute to be 
+determined on the record after an opportunity for an agency hearing.'' 
+5 U.S.C. 554(a) and 556(a). The authority for an agency to decline 
+additional bonds is established under 31 U.S.C. 9304(b) and 31 CFR 
+223.17(b). Section 556 procedures are not required because the surety 
+statutes, 31 U.S.C. 9304-9308, do not require a formal adjudication to 
+be determined on the record after an opportunity for a hearing.
+    18. One commenter suggested the proposed rule should be amended to 
+provide guidance on Treasury's role in assuring that the standards in 
+the rule and in an agency's rules and processes, meet minimum due 
+process standards.
+    Treasury's final rule establishes requirements that apply to all 
+agencies that exercise discretion under
+
+[[Page 61996]]
+
+Sec.  223.17(b) to decline bonds from Treasury-certified sureties.
+
+B. Comments on Proposed Sec.  223.20 and Treasury's Responses
+
+    19. Several commenters expressed concern that under proposed Sec.  
+223.20 Treasury would not conduct a de novo review of an agency's 
+administratively final decision (that the surety owes a past-due bond 
+obligation) when adjudicating the agency's complaint requesting that 
+the surety's certificate be revoked. The NPRM specified that Treasury 
+would review whether the agency's administratively final decision (that 
+the surety owes a past-due bond obligation) was reasonable, based on a 
+consideration of relevant factors, and did not involve a clear error of 
+judgment. The commenters expressed concern this standard of review 
+would not provide sufficient opportunity for the surety to present its 
+case to Treasury.
+    Treasury has amended Sec.  223.20(f) in the final rule to provide 
+that revocation complaints submitted to Treasury will be adjudicated by 
+determining whether the default is clear and whether the company's 
+failure to pay or satisfy the bonds is based on inadequate grounds. 
+This standard of review retains, in large part, the existing standard 
+under current 31 CFR 223.18. This change addresses the concerns raised 
+by these commenters, and ensures that each surety has a meaningful 
+opportunity to present its position to Treasury before a revocation is 
+made. Matthews v. Eldridge, 424 U.S. 319, 333 (1976) (Fundamental due 
+process is satisfied when an individual is given the opportunity to be 
+heard at a ``meaningful time and in a meaningful manner'').
+    The final rule under Sec.  223.20(a)(1) requires that an agency 
+submitting a revocation complaint to Treasury certify that the bond 
+obligation that is the subject of the complaint is administratively 
+final under the agency's regulations or other authorities. In contrast 
+to Sec.  223.17 (which requires an agency to publish a regulation), 
+this means that an agency has the discretion to submit a revocation 
+complaint to Treasury without promulgating a regulation, as long as the 
+bond obligation is administratively final under agency authorities and 
+practices. This flexibility is appropriate due, in part, to the array 
+of due process protections afforded to sureties by Treasury under Sec.  
+223.20.
+    Treasury anticipates that its revocation decisions under Sec.  
+223.20(f) will be subject to judicial review under the ``arbitrary, 
+capricious, an abuse of discretion, or otherwise not in accordance with 
+law'' standard set forth in 5 U.S.C. 706(2)(A). This is the judicial 
+review standard of informal agency actions, including agency 
+adjudications where no hearing or formal evidentiary standard is 
+required by statute. Camp v. Pitts, 411 U.S. 138, 142 (1973); Castillo 
+v. Army & Air Force Exchange Serv., 849 F.2d 199, 203, n. 1 (5th Cir. 
+1988) (reasoning that the arbitrary and capricious test of section 
+706(2)(A) is the appropriate standard for review of an administrative 
+decision when an informal hearing is held or required, but not pursuant 
+to statute).
+    20. Several commenters stated Treasury can only revoke a surety's 
+certificate of authority to write Federal bonds if the surety fails to 
+pay a final judgment on a bond that has not been stayed or appealed 
+under 31 U.S.C. 9305(e). One commenter stated that proposed Sec.  
+223.20 was an impermissible attempt to amend 31 U.S.C. 9305(e).
+    As detailed above in our responses to Comments #1 and #8, Congress 
+granted to Treasury the administrative authority and responsibility to 
+issue, regulate, and revoke certificates of authority to write Federal 
+bonds. This broad authority is codified in 31 U.S.C. 9305(a)-(d). 
+Section 9305(e) sets a statutory revocation standard that applies by 
+operation of law when a surety fails to pay a final court judgment or 
+order, without substantive review of the underlying dispute by 
+Treasury. It does not preclude Treasury, as licensor, from establishing 
+an administrative revocation standard based on its independent 
+authority to do so under section 9305(a)-(d). Treasury's existing 
+administrative revocation standards have been codified in regulations 
+for many decades. For example, the source authorities for current 31 
+CFR 223.18-223.20 were published in the Federal Register as early as 
+1969, 1973, and 1977. Here, Treasury, in the reasonable exercise of its 
+administrative discretion, has decided to update its existing 
+administrative revocation standard under 31 CFR 223.20, as provided in 
+the final rule.
+    21. Proposed Sec.  223.20(c) provided that Treasury, on receipt of 
+an agency complaint meeting the stated requirements, will notify the 
+surety that its certificate ``will'' be revoked in the absence of a 
+satisfactory explanation. One commenter suggested this provision should 
+be amended to provided that Treasury ``may'' revoke the certificate, 
+which is the standard provided in the current regulation.
+    The final rule has been amended under Sec.  223.20(c) to provide 
+that Treasury will notify the surety of the agency complaint, and the 
+notice will afford the surety the opportunity to address the complaint 
+and demonstrate its qualifications to retain its certificate. The 
+resolution of the complaint by Treasury is governed by Sec.  223.20.
+    22. One commenter expressed concern that the formal rules of 
+evidence and the formal adjudication standards provided by the 
+Administrative Procedure Act would not apply to the informal hearing 
+afforded to a surety under proposed Sec.  223.20(f) and (h)(6) and (7).
+    The formal adjudication standards under the Administrative 
+Procedure Act only apply in cases ``required by statute to be 
+determined on the record after an opportunity for an agency hearing.'' 
+5 U.S.C. 554(a). As discussed in our response to Comment #17, the 
+surety statutes, 31 U.S.C. 9304-9308, do not require a formal 
+adjudication to be determined on the record after an opportunity for a 
+hearing.
+    23. Several commenters suggested that the administrative revocation 
+standards under proposed Sec.  223.20 should be amended to provide a 
+surety more due process before Treasury makes a revocation decision. 
+Some commenters suggested the final rule be amended to provide the 
+surety an opportunity for a trial-like evidentiary hearing in Sec.  
+223.20 revocation actions.
+    Fundamental due process is satisfied when an individual is given 
+notice and the opportunity to be heard at a ``meaningful time and in a 
+meaningful manner.'' Matthews v. Eldridge, 424 U.S. 319, 333 (1976). 
+Section 223.20 in the final rule provides a panoply of due process 
+protections to ensure compliance with this standard. Before Treasury 
+commences a revocation action, the agency must certify to Treasury that 
+the bond obligations that are the subject of the complaint are 
+administratively final under the agency's regulations or other 
+authorities. Sec.  223.20(a)(1). The agency must submit documentation 
+to Treasury supporting the complaint. Sec.  223.20(b). In addition, the 
+agency must certify that the surety's obligation to pay the bonds has 
+not been stayed or enjoined by a court of competent jurisdiction. Sec.  
+223.20(a)(3).
+    Upon receipt of the complaint, Treasury notifies the surety of the 
+facts and conduct referenced in the complaint, and provides the surety 
+the opportunity to demonstrate its qualifications to retain its 
+certificate. Sec.  223.20(c). Treasury affords the surety the 
+opportunity to request an informal hearing. Sec.  223.20(h)(1). If an 
+informal hearing is requested, Treasury provides the surety with 
+written notice of the time and place of the hearing, directs
+
+[[Page 61997]]
+
+the surety to bring all documents necessary and relevant to support its 
+position, offers the surety the opportunity to be represented by 
+counsel at the hearing, and affords the surety the opportunity to 
+present any relevant material and to examine the administrative record. 
+Sec.  223.20(h)(2), (3) and (4). The complaining agency may be 
+requested to send a representative to the hearing to present any 
+relevant material. Sec.  223.20(h)(5). The Treasury Reviewing Official 
+is authorized to require the submission of additional documentation 
+from the complaining agency and the surety to ensure appropriate 
+consideration of relevant factual or legal issues. Sec.  223.20(h)(6). 
+The Treasury Reviewing Official prepares a written recommendation to 
+the Treasury Deciding Official setting forth findings and a recommended 
+disposition. Sec.  223.20(h)(10). The Treasury Deciding Official makes 
+the final decision based on the specified administrative record, which 
+includes documentation submitted by the surety. Sec.  223.20(h)(10).
+    Due process is flexible ``and calls for such procedural protections 
+as the particular situation demands.'' Matthews, 424 U.S. at 334 
+(internal citations omitted). A surety's protected interest in its 
+certificate of authority to write Federal bonds ``is indeed narrow.'' 
+American Druggists Ins. Co. v. Bogart, 707 F.2d 1229, 1235 (11th Cir. 
+1983). Given this narrow interest, rudimentary due process requires 
+``notice reasonably calculated to apprise the surety of the charge of 
+unreliability, and an opportunity to rebut that charge.'' Id. at 1237. 
+The protections in Sec.  223.20, as provided in the final rule, are 
+more than adequate to satisfy the process required.
+
+C. General Comments on the NPRM and Treasury's Responses
+
+    24. One trade association, whose members underwrite Federal bonds 
+on which the Customs and Border Protection (CBP) agency is the obligee, 
+expressed the opinion that CBP-specific authorities set a higher 
+standard for actionable surety delinquency and due process standards 
+than the proposed rule. The commenter suggested that Treasury should 
+adopt the CBP standards, or clarify that the Treasury final rule does 
+not take precedence over CBP standards in the context of customs bonds.
+    CBP has promulgated, under its own specific authority, a regulation 
+that governs when CBP is authorized to decline additional customs bonds 
+from a surety when a surety is in default on a customs bond. See, e.g., 
+19 U.S.C. 66, 1623, 1624; 19 CFR 113.38. Given the CBP specific 
+authority, the Treasury final rule under Sec.  223.17(b) does not 
+supersede or take precedence over the CBP regulation. However, Treasury 
+declines to accept the CBP standards for government-wide application; 
+therefore, CBP surety bond regulations do not apply to surety bonds 
+presented to, or accepted by, other agencies.
+    25. The trade association whose members write Federal customs bonds 
+on which the CBP agency is the obligee, recommended that the final rule 
+enhance the CBP-specific regulation in several ways.
+    Treasury is not in a position to amend a CBP-specific regulation, 
+and declines to do so. Instead, Treasury has considered whether the 
+suggestions made by this commenter are appropriate for the Treasury 
+regulation and has amended the final rule, as appropriate.
+    26. Two commenters suggested the proposed rule was a ``significant 
+regulatory action'' which should be subject to additional regulatory 
+review procedures under Executive Order 12866. One of these commenters 
+suggested if an agency declines to accept bonds from a Treasury-
+certified surety, or if Treasury revokes a surety's certificate, it 
+will have an effect on the economy of $100 million or more, depending 
+on which surety is involved.
+    Treasury has determined that the proposed regulation will not have 
+an effect on the economy of $100 million or more because of the rule's 
+limited scope. Federal bond-approving officials already have statutory 
+authority under 31 U.S.C. 9304(b) to determine which bonds proffered by 
+Treasury-certified sureties are acceptable. Section 223.17(b) of the 
+final rule provides that an agency bond-approving official may decline 
+bonds from a Treasury-certified surety for cause, provided the due 
+process standards are met. This provision does not impact a Treasury-
+certified surety's authority to underwrite bonds that are presented to 
+other Federal agencies for acceptance. Under final rule 31 CFR 
+223.17(b)(5)(i), the agency declination authority does not apply when 
+the ``for cause'' basis or reason has been stayed or enjoined by a 
+court of competent jurisdiction. In addition, Treasury already has 
+existing authority under current 31 CFR 223.18 to revoke a surety's 
+certificate of authority based on a complaint received from an agency; 
+see also 31 U.S.C. 9305(d)(1) (example of Treasury's revocation 
+authority). The final rule under 31 CFR 223.20 updates the procedures 
+used by Treasury to adjudicate agency revocation complaints. Final rule 
+31 CFR 223.20(a)(3) requires an agency submitting a revocation 
+complaint to Treasury to certify that the bond obligations which are 
+the subject of the complaint have not been stayed or enjoined by a 
+court of competent jurisdiction.
+    27. One commenter suggested that the NPRM 60-day comment period 
+should be extended to ensure a sufficient number of responses are 
+received.
+    The publication of the NPRM in the Federal Register, including the 
+60-day notice and comment period, resulted in the submission of 14 
+comment letters to Treasury. These letters, which were submitted by 
+individuals and a cross-section of the industry, included substantive 
+and thorough comments on a broad range of issues associated with the 
+proposed rule. The 60-day notice and comment period gave interested 
+parties the opportunity to participate in the rulemaking, consistent 
+with 5 U.S.C. 553(b)(c).
+    28. One commenter expressed concern that Federal contractors would 
+be impacted by the revocation of surety certificates of authority under 
+the NPRM. This commenter emphasized that it takes time for a 
+contractor, particularly a small and emerging contractor, to develop a 
+relationship with a surety, and if a surety's certificate is revoked 
+under the terms of the proposed rule, such a contractor may not be able 
+to find a replacement in time to qualify for Federal work. This 
+commenter noted this could cause the contractor to fail and may have 
+the effect of lessening competition on agency contracts.
+    Treasury certifies sureties for the primary purpose of ensuring 
+that a Federal agency's position is protected in the event of a default 
+by a principal. This purpose is not furthered by a surety that fails to 
+satisfy bond obligation(s), or whose certificate of authority is 
+revoked by Treasury, as provided in Sec.  223.20. Section 
+223.17(b)(5)(ii) of the final rule mitigates against undue impact on 
+Federal contractors by providing that an agency's authority to decline 
+additional bonds does not apply to proffered payment and performance 
+contract bonds, when the agency has already accepted a bid bond from 
+the principal on the same project. Moreover, the surety is given the 
+right to cure to avoid agency declination of bonds under Sec.  
+223.17(b)(1)(iv), and, in general, is given the right to cure to avoid 
+revocation of its certificate by Treasury under Sec.  223.20(e)(2).
+    29. One commenter requested the opportunity to provide testimony on 
+the NPRM if Treasury conducts hearings on the proposed revisions.
+
+[[Page 61998]]
+
+    The 60-day notice and comment period gave interested parties the 
+opportunity to participate in the rulemaking, consistent with 5 U.S.C. 
+553(b)(c). Treasury received 14 comment letters from individuals and a 
+cross-section of the industry. These letters included substantive and 
+thorough comments on a broad range of issues associated with the 
+proposed rule. Treasury has considered and addressed these comments, as 
+reflected in the final rule, and Treasury does not believe it would be 
+further informed by conducting a hearing on the NPRM. A hearing is not 
+required. 5 U.S.C. 553(b)(c).
+
+II. Section-by-Section Analysis
+
+Section 223.1
+
+    Revised Sec.  223.1 states, in plain language, that Part 223 
+governs the issuance and revocation of certificates of authority of 
+surety companies to do business with the United States as sureties on, 
+or reinsurers of, Federal surety bond obligations, and the acceptance 
+of such obligations. The final rule deletes archaic language and 
+clarifies that the U.S. Department of the Treasury, Bureau of the 
+Fiscal Service (Treasury), acts on behalf of the Secretary of the 
+Treasury in performing these duties.
+
+Section 223.2
+
+    Revised Sec.  223.2 provides that applications for certificates of 
+authority should be submitted to Treasury at the location, and in the 
+manner, specified online at <a href="http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm">http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm</a>, as amended from time to time.
+
+Section 223.3
+
+    Section 223.3(a) establishes, in part, the requirements that must 
+be met by an applicant company in order to be issued a certificate of 
+authority by Treasury. Revised Sec.  223.3(a) restates such 
+requirements in plain language. In addition, the final rule clarifies 
+that any certificate issued by Treasury is expressly subject to 
+continued compliance by the surety with all statutory requirements and 
+the other conditions referenced in this part.
+
+Section 223.4
+
+    Revised Sec.  223.4 provides that no company will be issued a 
+certificate of authority by Treasury unless it maintains on deposit 
+with the insurance commissioner of the State in which it is 
+incorporated, or other specified State official, legal investments 
+having a current market value of $100,000 or more, for the protection 
+of claimants, including the surety's policyholders in the United 
+States. Revised Sec.  223.4 adds a sentence requiring a company to 
+submit to Treasury with its initial application for a certificate of 
+authority, and annually thereafter, a written statement signed by the 
+State official attesting to the current market value of the deposit and 
+that the legal investments remain on deposit with the State.
+
+Section 223.8
+
+    Section 223.8 requires Treasury-certified sureties to file annual 
+and quarterly financial reports to Treasury for review. Revised Sec.  
+223.8(a) updates the specified Treasury official to whom these reports 
+should be submitted. Revised Sec.  223.8(a) specifies that the reports 
+must be submitted using the annual and quarterly statement blanks 
+adopted by the National Association of Insurance Commissioners.
+
+Section 223.9
+
+    Section 223.9 establishes the criteria by which Treasury values the 
+assets and liabilities of a company for certificate of authority 
+purposes. Revised Sec.  223.9 provides that Treasury will allow credit 
+for reinsurance in all classes of risk if the reinsuring company holds 
+a certificate of authority from Treasury, or has been recognized as an 
+admitted reinsurer by Treasury. Revised Sec.  223.9 clarifies that this 
+credit for reinsurance will be allowed only if the reinsurer is in 
+continued compliance with all certificate of authority requirements.
+
+Section 223.11
+
+    Revised Sec.  223.11(b) provides that a surety can underwrite a 
+Federal bond in excess of its underwriting limitation if the excess 
+amount is reinsured by a company holding a certificate of authority 
+issued by Treasury, provided the specified reinsurance requirements are 
+met. Revised Sec.  223.11(b) states that the requisite reinsurance bond 
+forms are available on the General Services Administration Web site at 
+<a href="http://www.gsa.gov">www.gsa.gov</a>.
+
+Section 223.12
+
+    Section 223.12 establishes the application requirements and 
+standards for a company to be recognized by Treasury as an admitted 
+reinsurer (except on excess risks running to the United States) for 
+surety companies doing business with the United States. When a 
+Treasury-certified surety cedes non-Federal risks to an admitted 
+reinsurer, Treasury will credit the surety for the ceded reinsurance 
+when valuing its assets and liabilities, provided applicable 
+requirements are met. Revised Sec.  223.12 updates the specified 
+Treasury official to whom applications and reports pertaining to 
+admitted reinsurer status should be submitted.
+
+Section 223.16
+
+    Revised Sec.  223.16 adds two new sentences to the end of this 
+subpart. These sentences clarify that Treasury-certified companies have 
+the opportunity to present their bonds to an agency bond-approving 
+official for acceptance, but that the actual acceptance of a bond by an 
+agency bond-approving official is subject to revised Sec.  223.17.
+
+Section 223.17
+
+    Revised Sec.  223.17(a) provides that a Treasury-certified company 
+may present its bonds to any agency bond-approving official for 
+acceptance, and that such bond-approving official may accept such 
+bonds.
+    Revised Sec.  223.17(b)(1) provides that an agency bond-approving 
+official may decline bonds from a Treasury-certified surety for cause, 
+provided the agency gives advance written notice to the agency.
+    Revised 223.17(b)(2) provides that the agency may decline bonds 
+after consideration of any submission by the company and after a 
+written determination by the agency to decline the bonds that is 
+consistent with agency authorities.
+    Revised Sec.  223.17(b)(3) requires the agency to issue a 
+regulation articulating the agency's procedures and for cause standards 
+for declining to accept bonds. The regulation should define when a bond 
+obligation becomes administratively final under the agency's 
+procedures.
+    Revised Sec.  223.17(b)(4) encourages agencies to ensure that 
+persons conducting business with the agency are aware that bonds from a 
+particular certified company will not be accepted.
+    Revised Sec.  223.17(b)(5) provides that the agency's authority to 
+decline bonds does not apply to bonds where the underlying obligation 
+or other for cause reason that forms the basis for the declination has 
+been stayed or enjoined by a court of competent jurisdiction, or to 
+payment and performance contract bonds when the agency has already 
+accepted a bid bond from the company on a particular project.
+    Revised Sec.  223.17(b)(6) provides that an agency bond-approving 
+official may decline a bond from a Treasury-certified surety without 
+advance notice to the surety if the bond is not executed in proper 
+form, or is not in the correct penal sum amount, or is otherwise 
+technically deficient.
+
+[[Page 61999]]
+
+Section 223.18
+
+    Revised Sec.  223.18 states that revocation of a surety's 
+certificate of authority by Treasury can occur in two ways. First, 
+Treasury can initiate a revocation proceeding on its own initiative 
+under final rule Sec.  223.19 when it has reason to believe that a 
+surety is not complying with 31 U.S.C. 9304-9308 and/or Part 223. 
+Second, Treasury can initiate a revocation proceeding under final rule 
+Sec.  223.20 upon receipt of a complaint from an agency meeting the 
+requirements of that section.
+
+Section 223.19
+
+    Revised Sec.  223.19 states the process by which Treasury initiates 
+proceedings on its own accord to revoke a surety's certificate of 
+authority for failure to meet the requirements of 31 U.S.C. 9304-9308 
+and/or Part 223.
+
+Section 223.20
+
+    Revised Sec.  223.20 specifies the process for an agency to submit 
+a complaint to Treasury requesting that a certified surety's 
+certificate of authority be revoked for failure to pay or satisfy one 
+or more administratively final bond obligations. Under revised Sec.  
+223.20(a)(1), the agency submitting the complaint to Treasury must 
+certify that the bond obligations that are the subject of the complaint 
+are administratively final under the agency's regulations or other 
+authorities. The agency must also certify to Treasury that the 
+obligation to pay or satisfy the bond obligations has not been stayed 
+or enjoined by a court. Sec.  223.20(a)(3).
+    Revised Sec.  223.20(c) and (d) afford the surety the opportunity 
+to demonstrate its qualifications to retain its certificate, and 
+establish the role of the Treasury Reviewing Official and the Treasury 
+Deciding Official in the adjudicative process.
+    Revised Sec.  223.20(f) provides that revocation complaints will be 
+adjudicated by Treasury based on a determination whether the default is 
+clear and whether the surety's failure to pay or satisfy the bonds is 
+based on inadequate grounds.
+    Revised Sec.  223.20(h) retains the right of a surety to request an 
+informal hearing before Treasury makes its revocation decision. The 
+final rule specifies the procedures under which such an informal 
+hearing would be conducted. Under the final rule, the formal 
+adjudication standards of the Administrative Procedure Act (APA), 5 
+U.S.C. 554, 556, 557 do not apply to the informal hearing or 
+adjudication process.
+    In the event that Treasury sustains the agency's complaint and 
+makes a decision that the surety's certificate should be revoked, 
+revised Sec.  223.20(e)(2) provides a surety will be afforded an 
+opportunity to cure the noncompliance to avoid decertification, unless 
+its noncompliance is ``willful.'' Revised Sec.  223.20(g) articulates 
+the scope and application of the willful exception to the cure 
+opportunity.
+
+Section 223.21
+
+    Revised Sec.  223.21 provides that a surety whose certificate of 
+authority has been revoked or not renewed by Treasury can apply for 
+reissuance of a certificate of authority after one year. Among other 
+things, such a surety must demonstrate as a condition of reinstatement 
+that the basis for the non-renewal or revocation of its certificate has 
+been eliminated. Under revised Sec.  223.21 the determination of 
+whether the basis for the non-renewal or revocation has been eliminated 
+or effectively cured will be made by Treasury in its discretion.
+
+                  Derivation Chart for Revised Part 223
+------------------------------------------------------------------------
+                       Old section                          New section
+------------------------------------------------------------------------
+                                                                  223.17
+223.17..................................................          223.18
+                                                                  223.19
+223.18..................................................          223.20
+223.19..................................................          223.20
+223.20..................................................          223.20
+223.21..................................................          223.21
+223.22..................................................          223.22
+------------------------------------------------------------------------
+
+III. Procedural Analysis
+
+Regulatory Planning and Review
+
+    The final rule does not meet the criteria for a ``significant 
+regulatory action'' as defined in Executive Order 12866. Therefore, the 
+regulatory review procedures contained therein do not apply.
+
+Regulatory Flexibility Act Analysis
+
+    It is hereby certified that the final rule will not have a 
+significant economic impact on a substantial number of small entities. 
+Treasury-certified sureties have an existing obligation to make payment 
+on bond obligations to ensure acceptance of their bonds by agency bond-
+approving officials under 31 U.S.C. 9304(b). The rule merely codifies 
+this existing obligation in the regulation and clarifies that Federal 
+agencies can decline to accept bonds underwritten by Treasury-certified 
+sureties for cause. In addition, the final rule revises the existing 
+procedures and standard of review that will be used by Treasury in 
+adjudicating revocation complaints submitted by agencies. Accordingly, 
+a regulatory flexibility analysis under the Regulatory Flexibility Act 
+(5 U.S.C. 601 et seq.) is not required.
+
+Unfunded Mandates Act of 1995
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995, 2 U.S.C. 
+1532 (Unfunded Mandates Act), requires that the agency prepare a 
+budgetary impact statement before promulgating any rule likely to 
+result in a Federal mandate that may result in the expenditure by 
+State, local, and tribal governments, in the aggregate, or by the 
+private sector, of $100 million or more in any one year. If a budgetary 
+impact statement is required, section 205 of the Unfunded Mandates Act 
+also requires the agency to identify and consider a reasonable number 
+of regulatory alternatives before promulgating the rule. We have 
+determined that the final rule will not result in expenditures by 
+State, local, and tribal governments, or by the private sector, of $100 
+million or more in any one year. Accordingly, we have not prepared a 
+budgetary impact statement or specifically addressed any regulatory 
+alternatives.
+
+List of Subjects in 31 CFR Part 223
+
+    Administrative practice and procedure, Surety bonds.
+
+    For the reasons set out in the preamble, 31 CFR part 223 is amended 
+to read as follows:
+
+PART 223--SURETY COMPANIES DOING BUSINESS WITH THE UNITED STATES
+
+0
+1. Revise the authority citation for part 223 to read as follows:
+
+    Authority:  5 U.S.C. 301; 31 U.S.C. 9304-9308.
+
+
+0
+2. Revise Sec.  223.1 to read as follows:
+
+
+Sec.  223.1  Certificate of authority.
+
+    The regulations in this part will govern the issuance by the 
+Secretary of the Treasury, acting through the U.S. Department of the 
+Treasury, Bureau of the Fiscal Service (Treasury), of certificates of 
+authority to bonding companies to do business with the United States as 
+sureties on, or reinsurers of, Federal surety bonds (hereinafter 
+``bonds'' or ``obligations'') under the authority of 31 U.S.C. 9304-
+9308 and this part, and the acceptance of such obligations. The 
+regulations in this part also govern the revocation of certificates.
+
+0
+3. Revise Sec.  223.2 to read as follows:
+
+
+Sec.  223.2  Application for certificate of authority.
+
+    Every company wishing to apply for a certificate of authority shall 
+submit an
+
+[[Page 62000]]
+
+application to the Bureau of the Fiscal Service, U.S. Department of the 
+Treasury, c/o Surety Bond Branch, to the location, and in the manner, 
+specified online at <a href="http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm">http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm</a>, as amended from time to time. In accordance 
+with 31 U.S.C. 9305(a), the application will include a copy of the 
+applicant's charter or articles of incorporation and a financial 
+statement, signed and sworn to by its president and secretary, showing 
+its assets and liabilities. A fee shall be transmitted with the 
+application in accordance with the provisions of Sec.  223.22(a)(i).
+
+0
+4. In Sec.  223.3, revise paragraph (a) to read as follows:
+
+
+Sec.  223.3  Issuance of certificates of authority.
+
+    (a)(1)(i) A company submitting an application to be issued a 
+certificate of authority by Treasury to underwrite and reinsure Federal 
+surety bonds must include all required data and information, as 
+determined by Treasury in its discretion, for the application to be 
+complete and ready for review. Upon receipt of a complete application, 
+Treasury will evaluate the submission to determine whether the 
+applicant company:
+    (A) Is duly authorized under its charter or articles of 
+incorporation to conduct the business referenced under 31 U.S.C. 
+9304(a)(2);
+    (B) Has paid-up capital of at least $250,000 in cash or its 
+equivalent;
+    (C) Is solvent and financially and otherwise qualified to conduct 
+the business referenced under 31 U.S.C. 9304(a)(2); and
+    (D) Is able and willing to carry out its contracts.
+    (ii) In making the determination whether a company meets these 
+requirements, Treasury will evaluate the application as a whole, the 
+required financial statement(s) submitted by the company, the company's 
+charter or articles of incorporation, the past history of the company, 
+and any further evidence or information that Treasury may require the 
+company to submit (at the company's expense).
+    (2) If Treasury determines, in its discretion, that the applicant 
+company meets all of these requirements, Treasury will issue a 
+certificate of authority to the company authorizing it to underwrite 
+and reinsure Federal bonds. The certificate of authority will be 
+effective for a term that expires on the last day of the next June. All 
+such statutory requirements and regulatory requirements under this part 
+are continuing obligations, and any certificate is issued expressly 
+subject to continuing compliance with such requirements. The 
+certificate of authority will be renewed annually on the first day of 
+July, provided the company remains qualified under the law, the 
+regulations in this part, and other pertinent Treasury requirements, 
+and the company submits the fee required under Sec.  223.22 by March 
+1st of each year to the address and/or account specified by Treasury.
+* * * * *
+
+0
+5. In Sec.  223.4, add a sentence to the end of the section to read as 
+follows:
+
+
+Sec.  223.4  Deposits.
+
+    * * * The company shall submit to Treasury with its initial 
+application for a certificate of authority, and annually thereafter, a 
+written statement signed by such State official attesting to the 
+current market value of the deposit (not less than $100,000) and that 
+the legal investments remain on deposit with the State under the terms 
+specified.
+
+0
+6. In Sec.  223.8, revise paragraph (a) to read as follows:
+
+
+Sec.  223.8  Financial reports.
+
+    (a) Every company certified under this part will be required to 
+file with the designated Treasury official annual and quarterly 
+statements of its financial condition using the annual and quarterly 
+statement form blanks adopted by the National Association of Insurance 
+Commissioners. The annual and quarterly statements will be signed and 
+sworn to by the company president and secretary. The timeframes and 
+process for submitting the required annual and quarterly statements to 
+Treasury are provided in Treasury's current Annual Letter to Executive 
+Heads of Surety Companies.
+* * * * *
+
+0
+7. In Sec.  223.9, revise the last sentence to read as follows:
+
+
+Sec.  223.9  Valuation of assets and liabilities.
+
+    * * * Credit will be allowed for reinsurance in all classes of 
+risks if the reinsuring company holds a certificate of authority from 
+the Secretary of the Treasury, provided such reinsuring company is in 
+continuing compliance with all certificate of authority requirements, 
+or has been recognized as an admitted reinsurer in accord with Sec.  
+223.12.
+
+0
+8. In Sec.  223.11, revise paragraph (b)(1) to read as follows:
+
+
+Sec.  223.11  Limitation of risk: protective methods.
+
+* * * * *
+    (b) Reinsurance. (1) In respect to bonds running to the United 
+States, liability in excess of the underwriting limitation shall be 
+reinsured within 45 days from the date of execution and delivery of the 
+bond with one or more companies holding a certificate of authority from 
+the Secretary of the Treasury. Such reinsurance shall not be in excess 
+of the underwriting limitation of the reinsuring company. Where 
+reinsurance is contemplated, Federal agencies may accept a bond from 
+the direct writing company in satisfaction of the total bond 
+requirement even though it may exceed the direct writing company's 
+underwriting limitation. Within the 45 day period, the direct writing 
+company shall furnish to the Federal agency any necessary reinsurance 
+agreements. However, a Federal agency may, at its discretion, require 
+that reinsurance be obtained within a lesser period than 45 days, and 
+may require completely executed reinsurance agreements to be provided 
+before making a final determination that any bond is acceptable. 
+Reinsurance may protect bonds required to be furnished to the United 
+States by the Miller Act (40 U.S.C. 3131, as amended) covering 
+contracts for the construction, alteration, or repair of any public 
+building or public work of the United States, as well as other types of 
+Federal bonds. Use of reinsurance or coinsurance to protect such bonds 
+is at the discretion of the direct writing company. Reinsurance shall 
+be executed on reinsurance agreement forms: Standard Form 273 
+(Reinsurance Agreement for a Miller Act Performance Bond), Standard 
+Form 274 (Reinsurance Agreement for a Miller Act Payment Bond), and 
+Standard Form 275 (Reinsurance Agreement in Favor of the United States 
+for other types of Federal bonds). These Standard Forms are available 
+on the General Services Administration Web site at <a href="http://www.gsa.gov">www.gsa.gov</a>.
+* * * * *
+
+0
+9. In Sec.  223.12, revise paragraph (a) introductory text, paragraph 
+(a)(5), paragraph (b) introductory text, and paragraph (c) to read as 
+follows:
+
+
+Sec.  223.12  Recognition as reinsurer.
+
+    (a) Application by U.S. company. Any company organized under the 
+laws of the United States or of any State thereof, wishing to apply for 
+recognition as an admitted reinsurer (except on excess risks running to 
+the United States) of surety companies doing business with the United 
+States, shall file the following data with the designated Treasury 
+official, and shall transmit
+
+[[Page 62001]]
+
+therewith the fee in accordance with the provisions of Sec.  223.22:
+* * * * *
+    (5) Such other evidence as Treasury may determine is necessary to 
+establish that the company is solvent and able to meet the continuing 
+obligation to carry out its contracts.
+    (b) Application by a U.S. branch. A U.S. branch of an alien company 
+applying for such recognition shall file the following data with the 
+designated Treasury official, and shall transmit therewith the fee in 
+accordance with the provisions of Sec.  223.22:
+* * * * *
+    (c) Financial reports. Each company recognized as an admitted 
+reinsurer shall file with the designated Treasury official, on or 
+before the first day of March of each year, its financial statement and 
+such additional evidence as the Secretary of the Treasury determines 
+necessary to establish that the requirements of this section are being 
+met. A fee shall be transmitted with the foregoing data, in accordance 
+with the provisions of Sec.  223.22.
+
+0
+10. Revise Sec.  223.16 to read as follows:
+
+
+Sec.  223.16  List of certificate holding companies.
+
+    A list of qualified companies is published annually as of July 1 in 
+Department Circular No. 570, Companies Holding Certificates of 
+Authority as Acceptable Sureties on Federal Bonds and as Acceptable 
+Reinsuring Companies, with information as to underwriting limitations, 
+areas in which listed sureties are licensed to transact surety business 
+and other details. If the Secretary of the Treasury shall take any 
+exceptions to the financial statements submitted by a company, he or 
+she shall, before issuing Department Circular 570, give a company due 
+notice of such exceptions. Copies of the Circular are available at 
+<a href="http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/c570.htm">http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/c570.htm</a>, or 
+from the designated Treasury official, upon request. Bonds underwritten 
+by certified companies on the Department Circular No. 570 list may be 
+presented to an agency bond-approving official for acceptance. 
+Selection of a particular qualified company from among all companies 
+holding certificates of authority is discretionary with the principal 
+required to furnish the bond, but the acceptance of a bond by an agency 
+bond-approving official is subject to Sec.  223.17.
+
+
+Sec. Sec.  223.18 through 223.20  [Removed]
+
+0
+11. Remove Sec. Sec.  223.18, 223.19, and 223.20.
+
+
+Sec.  223.17  [Redesignated as Sec.  223.18]
+
+0
+12. Redesignate Sec.  223.17 as Sec.  223.18.
+
+0
+13. Add a new Sec.  223.17 to read as follows:
+
+
+Sec.  223.17  Acceptance and non-acceptance of bonds.
+
+    (a) Acceptance of bonds. A bond underwritten by a certified company 
+on the Sec.  223.16 Department Circular No. 570 list may be presented 
+to any agency-bond approving official for acceptance, and such agency 
+bond-approving official may accept such bonds.
+    (b) Non-acceptance of bonds. (1) An agency bond-approving official 
+may decline to accept bonds underwritten by a certified company for 
+cause, but only if the company has been given advance written notice by 
+such agency. The advance written notice shall:
+    (i) State the intention of the agency to decline bonds underwritten 
+by the company;
+    (ii) State the reasons for or cause of the proposed declination of 
+such bonds;
+    (iii) Provide the opportunity for the company to rebut the stated 
+reasons or cause; and
+    (iv) Provide the company the opportunity to cure the stated reasons 
+or cause.
+    (2) The agency may decline to accept bonds underwritten by the 
+company if, after consideration of any submission by the company or 
+failure of the company to respond to the agency's notice, the agency 
+issues a written determination that the bonds should not be accepted, 
+consistent with agency authorities.
+    (3) The agency shall articulate its procedures and for cause 
+standards for declining to accept bonds in an agency regulation prior 
+to declining any bonds in specific cases. The agency regulation should 
+be subject to notice and comment rulemaking. ``For cause'' includes, 
+but is not limited to, circumstances when a surety has not paid or 
+satisfied an administratively final bond obligation due the agency. The 
+agency regulation should define when a bond obligation becomes 
+administratively final under the agency's procedures. Existing agency 
+rules or regulations that substantially comply with, or that are 
+consistent with, the requirement to articulate procedures and standards 
+in advance meet the requirements of this paragraph.
+    (4) Agencies that decline bonds under this section are encouraged 
+to use best efforts to ensure that persons conducting business with the 
+agency are aware that bonds underwritten by the particular certified 
+company will not be accepted.
+    (5) The agency's authority to decline bonds under this section does 
+not apply:
+    (i) When the underlying obligation or other for cause reason that 
+forms the basis for the agency's written determination to decline bonds 
+under paragraph (b)(2) of this section, or the agency written 
+determination to decline bonds, has been stayed or enjoined by a court 
+of competent jurisdiction, or
+    (ii) To otherwise acceptable payment and performance contract 
+bonds, when the agency has already accepted a project bid bond on a 
+contract before making the written determination under paragraph (b)(2) 
+of this section.
+    (6) Notwithstanding any provision of this section, an agency bond-
+approving official may decline a bond from a Treasury-certified surety 
+without advance notice if the bond is not executed in proper form, or 
+is not in the correct penal sum amount, or is otherwise technically 
+deficient on its face.
+
+0
+14. Revise newly redesignated Sec.  223.18 to read as follows:
+
+
+Sec.  223.18  Revocation.
+
+    (a) A revocation proceeding against a Treasury-certified company 
+can be initiated by Treasury in either of two ways:
+    (1) Treasury, of its own accord, under Sec.  223.19, may initiate 
+revocation proceedings against the company when it has reason to 
+believe that the company is not complying with 31 U.S.C. 9304-9308 and/
+or the regulations under this part, or
+    (2) Treasury, under Sec.  223.20, may initiate revocation 
+proceedings against the company upon receipt of a complaint from an 
+agency that the company has not paid or satisfied one or more 
+administratively final bond obligations due the agency.
+    (b) A revocation of a company's certificate of authority under 
+Sec.  223.19 or Sec.  223.20 precludes the company from underwriting or 
+reinsuring additional bonds for any agency, and therefore revokes the 
+company's opportunity to have its bonds presented to any agency bond-
+approving official for acceptance.
+
+0
+15. Add new Sec.  223.19 to read as follows:
+
+
+Sec.  223.19  Treasury-initiated revocation proceedings.
+
+    Whenever Treasury has reason to believe that a company is not 
+complying with the requirements of 31 U.S.C. 9304-9308 and/or the 
+regulations under this part, including but not limited to a failure to 
+satisfy corporate and financial standards, Treasury shall:
+    (a) Notify the company of the facts or conduct which indicate such 
+non-compliance, and provide the company an opportunity to respond, and
+
+[[Page 62002]]
+
+    (b) Revoke a company's certificate of authority after providing 
+notice to the company if:
+    (1) The company does not respond satisfactorily to Treasury's 
+notification of non-compliance, or
+    (2) The company, provided an opportunity to demonstrate or achieve 
+compliance, fails to do so.
+
+0
+16. Add new Sec.  223.20 to read as follows:
+
+
+Sec.  223.20  Revocation proceedings initiated by Treasury upon receipt 
+of an agency complaint.
+
+    (a) Agency complaint. If an agency determines that a company has 
+not promptly made full payment or fully satisfied one or more bond 
+obligations naming the agency as obligee, the head of the agency, or 
+his or her designee, may submit a written complaint to the designated 
+Treasury official (with executive oversight over the Treasury surety 
+program, at the Assistant Commissioner level or equivalent), requesting 
+that the company's certificate of authority be revoked for 
+nonperformance. Under such complaint, the agency shall certify that:
+    (1) The bond obligations that are the subject of the complaint are 
+administratively final under the agency's regulations or other 
+authorities;
+    (2) The company has not paid or satisfied those bond obligations; 
+and
+    (3) The company's obligation to pay or satisfy the bond obligations 
+has not been stayed or enjoined by a court of competent jurisdiction.
+    (b) Documentation of complaint. The agency shall include in its 
+complaint copies of the bonds, and documentation indicating that, for 
+each such bond provided:
+    (1) The agency has determined the principal is in default on the 
+obligation covered by the bond, consistent with agency authorities, or 
+if the default has been litigated, documentation indicating a court of 
+competent jurisdiction has determined the principal is in default;
+    (2) The agency made a written demand with the company on the bond 
+requesting payment or satisfaction on its own behalf, consistent with 
+agency authorities, or on behalf of laborers, materialmen, or suppliers 
+(on payment bonds), based on the default status of the principal;
+    (3) The agency afforded the company the opportunity to request 
+administrative review within the agency contesting the agency's demand 
+on the bond;
+    (4) The agency made a final administrative determination that the 
+bond obligation was due after the completion of such administrative 
+review, or after the time period for the company to request 
+administrative review within the agency has expired;
+    (5) The agency provided the company the opportunity to enter into a 
+written agreement to pay or satisfy the bond; and
+    (6) The company has not made full payment or fully satisfied the 
+demand, and the claim on the bond is past due.
+    (c) Notice to company. On receipt of a complaint meeting the 
+requirements of paragraphs (a) and (b) of this section, Treasury will 
+notify the company of the agency complaint. The notice will require the 
+company to submit a written explanatory response to Treasury within 20 
+business days of the date of the notice. The notice will advise the 
+company of the facts and conduct referenced in the complaint. Treasury 
+will attach a copy of the incoming complaint to the notice. The notice 
+will afford the company the opportunity to address the complaint and 
+demonstrate its qualifications to retain its certificate of authority.
+    (d) Reviewing official and deciding official. The designated 
+Treasury official (with executive oversight over the Treasury surety 
+program, at the Assistant Commissioner level or equivalent) will 
+appoint a Treasury Reviewing Official to conduct a review of the agency 
+complaint referenced in paragraphs (a) and (b) of this section, and the 
+company response referenced in paragraph (c) of this section, to 
+determine whether revocation of the company's certificate of authority 
+is warranted. To ensure appropriate consideration of relevant factual 
+or legal issues, the Reviewing Official is authorized to require the 
+submission of additional documentation from the complaining agency and 
+the company. Upon completion of such review, the Reviewing Official 
+shall prepare a written Recommendation Memorandum addressed to the 
+designated Treasury official setting forth findings and a recommended 
+disposition. The designated Treasury official will be the Deciding 
+Official who will make the final decision whether the company's 
+certificate of authority to write and reinsure bonds should be revoked 
+based on the administrative record. The administrative record consists 
+of the agency complaint referenced in paragraphs (a) and (b) of this 
+section, the company response referenced in paragraph (c) of this 
+section, any other documentation submitted to, or considered by, the 
+Reviewing Official, and the Reviewing Official's Recommendation 
+Memorandum.
+    (e) Final decision. (1) If the Deciding Official's final decision 
+is that revocation is not warranted, the company and the agency will be 
+notified of the basis of this decision and the complaint against the 
+company will be dismissed.
+    (2) If the Deciding Official's final decision is that the company's 
+certificate of authority shall be revoked, the Deciding Official will 
+notify the company and the agency of the revocation decision and the 
+basis for such decision. Except as provided in paragraph (g) of this 
+section, the notice will afford the company an opportunity to cure its 
+noncompliance by paying or satisfying the bonds (including payment of 
+any interest, penalties, and fees) forming the basis of the final 
+decision within 20 business days. If the company cures its 
+noncompliance within 20 business days, the complaint against the 
+company will be deemed moot and the company will retain its certificate 
+of authority to write Federal bonds. If the company does not cure its 
+noncompliance within 20 business days, the company's certificate of 
+authority shall be revoked by Treasury without further notice.
+    (f) Standard of review. In reviewing whether the revocation of the 
+company's certificate of authority is warranted under this section, the 
+Reviewing Official will recommend, and the Deciding Official will 
+determine, whether the default is clear and whether the company's 
+failure to pay or satisfy the bonds is based on inadequate grounds.
+    (g) Consideration of willful conduct. The company is not entitled 
+to an opportunity to cure its noncompliance if its conduct in failing 
+to carry out its contracts is willful. For purposes of this regulation, 
+``willful'' means a careless or reckless disregard of a known legal 
+obligation to satisfy an administratively final bond obligation. In 
+considering whether a company's conduct is willful, the Deciding 
+Official may consider whether:
+    (1) An agency has filed a prior complaint with Treasury requesting 
+that the company's certificate be revoked for a substantially similar 
+bond obligation;
+    (2) The company asserted substantially similar defenses to such 
+bond obligation;
+    (3) Such defenses were considered by the agency under pertinent 
+authorities and dismissed;
+    (4) Treasury made a final decision that revocation of the company's 
+certificate was justified; and
+    (5) Other pertinent factors.
+    (h) Informal hearing. (1) If a company that is the subject of a 
+complaint under paragraph (a) and (b) of this section believes the 
+opportunity to make known
+
+[[Page 62003]]
+
+its views, as provided for under paragraph (c) of this section, is 
+inadequate, it may, within 20 business days of the date of the notice 
+required by paragraph (c), request, in writing, that an informal 
+hearing be convened.
+    (2) As soon as possible after a written request for an informal 
+hearing is received, the Reviewing Official shall convene an informal 
+hearing, at such time and place as he or she deems appropriate, for the 
+purpose of determining whether the company's certificate of authority 
+should be revoked.
+    (3) The company shall be advised, in writing, of the time and place 
+of the informal hearing and shall be directed to bring all documents, 
+records and other information as it may find necessary and relevant to 
+support its position.
+    (4) The company may be represented by counsel and shall have a fair 
+opportunity to present any relevant material and to examine the 
+administrative record.
+    (5) The complaining agency may be requested by the Reviewing 
+Official to send a representative to the hearing to present any 
+relevant material, and the agency representative may examine the 
+administrative record.
+    (6) The Reviewing Official is authorized to require the submission 
+of additional documentation from the complaining agency and the company 
+to ensure appropriate consideration of relevant factual or legal 
+issues.
+    (7) Formal rules of evidence will not apply at the informal 
+hearing.
+    (8) The formal adjudication standards under the Administrative 
+Procedure Act, 5 U.S.C. 554, 556, 557 do not apply to the informal 
+hearing or adjudication process.
+    (9) Treasury may promulgate additional procedural guidance 
+governing the conduct of informal hearings. This additional procedural 
+guidance may be contained in the Annual Letter to Executive Heads of 
+Surety Companies referenced in Sec.  223.9, the Treasury Financial 
+Manual, or other Treasury publication or correspondence.
+    (10) Upon completion of the informal hearing, the Reviewing 
+Official shall prepare a written Recommendation Memorandum addressed to 
+the Deciding Official setting forth findings and a recommended 
+disposition. The Deciding Official will make the final decision whether 
+the company's certificate of authority to write and reinsure Federal 
+bonds should be revoked based on the administrative record. The 
+administrative record consists of the Federal agency complaint 
+referenced in paragraphs (a) and (b) of this section, the company 
+response referenced in paragraph (c), any other documentation submitted 
+to, considered by, or entered into the administrative record by the 
+Reviewing Official, the hearing transcript, and the Reviewing 
+Official's Recommendation Memorandum.
+    (11) The provisions of paragraphs (e), (f), and (g) of this section 
+shall apply to the adjudication of the agency complaint when an 
+informal hearing is conducted.
+
+0
+17. Revise Sec.  223.21 to read as follows:
+
+
+Sec.  223.21  Reinstatement.
+
+    If, after one year from the date of the non-renewal or the 
+revocation of its certificate of authority under this part, a company 
+can demonstrate that the basis for the non-renewal or revocation has 
+been cured, as determined by Treasury in its discretion, and that it 
+can comply with, and does meet, all continuing requirements for 
+certification under 31 U.S.C. 9304-9308 and this part, the company may 
+submit an application to Treasury for reinstatement or reissuance of a 
+certificate of authority, which will be granted without prejudice, 
+provided all such requirements are met.
+
+0
+18. In Sec.  223.22, revise paragraph (c) to read as follows:
+
+
+Sec.  223.22  Fees for services of the Treasury Department.
+
+* * * * *
+    (c) Specific fee information may be obtained from the designated 
+Treasury official, or online at <a href="http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm">http://www.fiscal.treasury.gov/fsreports/ref/suretyBnd/surety_home.htm</a>. In addition, a notice of the 
+amount of a fee referred to in paragraphs (a)(1) through (4) of this 
+section will be published in the Federal Register as each change in 
+such fee is made.
+
+    Dated: October 2, 2014.
+David A. Lebryk,
+Fiscal Assistant Secretary.
+[FR Doc. 2014-24460 Filed 10-15-14; 8:45 am]
+BILLING CODE P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

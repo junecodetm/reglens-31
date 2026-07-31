@@ -1,0 +1,201 @@
+{
+  "document_number": "2026-11616",
+  "document_title": "Publication of Venezuela Sanctions Regulations Web General Licenses 48A and 49A",
+  "document_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11616/publication-of-venezuela-sanctions-regulations-web-general-licenses-48a-and-49a",
+  "document_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+  "accepted_count": 7,
+  "rejected_count": 2,
+  "total_chars": 18535,
+  "extracted_chars": 18535,
+  "claims": [
+    {
+      "claim_id": "4ad112af43cfa0d9",
+      "document_number": "2026-11616",
+      "quote": "Except as provided in paragraph (b) of this general license, all transactions prohibited by the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), including those involving the Government of Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity in which PdVSA owns, directly or indirectly, a 50 percent or greater interest (collectively, ``PdVSA Entities''), that are ordinarily incident and necessary to the provision from the United States or by a U.S. person of goods, technology, software, or services for the exploration, development, or production of oil, gas, or petrochemical products in Venezuela, or for the generation, transmission, storage, or distribution of electricity in Venezuela, are authorized, provided that: (1) Any contract for such transactions with the Government of Venezuela, PdVSA, or PdVSA Entities specify that the laws of the United States or any jurisdiction within the United States govern the contract and that any dispute resolution under the contract occur in the United States; and (2) Any monetary payment to a blocked person, excluding payments for local taxes, permits, or fees, is made into the Foreign Government Deposit Funds, as specified in Executive Order 14373 of January 9, 2026, or any other account as instructed by the U.S. Department of the Treasury.",
+      "obligation_type": "requirement",
+      "affected_party": "U.S. persons",
+      "summary": "U.S. persons must ensure that contracts with the Government of Venezuela, PdVSA, or PdVSA Entities specify that U.S. laws govern the contract and that disputes are resolved in the United States. Additionally, any monetary payment to a blocked person (excluding local taxes, permits, or fees) must be made into the Foreign Government Deposit Funds or another account as instructed by the U.S. Department of the Treasury.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 2165,
+      "end": 3518,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "bbb220929cfc033d",
+      "document_number": "2026-11616",
+      "quote": "This general license does not authorize: (1) Payment terms that are not commercially reasonable, involve debt swaps or payments in gold, or are denominated in digital currency, digital coin, or digital tokens issued by, for, or on behalf of the Government of Venezuela, including the petro; (2) Any transaction involving a person located in or organized under the laws of the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled, directly or indirectly, by or in a joint venture with such persons; (3) The unblocking of any property blocked pursuant to the VSR; (4) Any transaction involving a blocked vessel; (5) The formation of new joint ventures or other entities in Venezuela to explore or produce oil, gas, or petrochemical products or to generate, transmit, store, or distribute electricity; or (6) Any transactions or dealings related to the exportation or reexportation of diluents, directly or indirectly, to Venezuela.",
+      "obligation_type": "prohibition",
+      "affected_party": "any person",
+      "summary": "This general license prohibits certain transactions, including non-commercially reasonable payment terms, transactions with specific countries or entities, unblocking blocked property, transactions involving blocked vessels, formation of new joint ventures in Venezuela, and exportation or reexportation of diluents to Venezuela.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 4726,
+      "end": 5825,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "135445eed0b63a33",
+      "document_number": "2026-11616",
+      "quote": "Any person that exports, reexports, sells, resells, or supplies goods, technology, software, or services pursuant to this general license must provide a detailed report to [email protected] and [email protected] that identifies, for each of these transactions: (1) The parties involved; (2) The goods, technology, software, or services involved, including quantities and values; (3) The dates the transactions occurred; and (4) Any taxes, fees, or other payments provided to the Government of Venezuela.",
+      "obligation_type": "reporting",
+      "affected_party": "any person",
+      "summary": "Any person exporting, reexporting, selling, reselling, or supplying goods, technology, software, or services under this general license must provide a detailed report to specified email addresses, including information on parties involved, goods involved, transaction dates, and taxes or payments to the Government of Venezuela.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "ae47706eb93334a2",
+      "document_number": "2026-11616",
+      "quote": "Reports described in paragraph (c) are due ten days after the execution of the first of such transactions and every 90 days thereafter while such transactions are ongoing.",
+      "obligation_type": "reporting",
+      "affected_party": "any person",
+      "summary": "Reports under paragraph (c) must be submitted ten days after the first transaction and every 90 days thereafter while transactions are ongoing.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 6764,
+      "end": 6937,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "a6b969737cb00a85",
+      "document_number": "2026-11616",
+      "quote": "Effective March 13, 2026, General License No. 48, dated February 10, 2026, is replaced and superseded in its entirety by this General License No. 48A.",
+      "obligation_type": "prohibition",
+      "affected_party": "any person",
+      "summary": "General License No. 48 is replaced and superseded by General License No. 48A effective March 13, 2026.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 6946,
+      "end": 7098,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "33a7fd20974004d2",
+      "document_number": "2026-11616",
+      "quote": "Nothing in this general license relieves any person from compliance with the requirements of other Federal agencies, including the Department of Commerce's Bureau of Industry and Security.",
+      "obligation_type": "prohibition",
+      "affected_party": "any person",
+      "summary": "Compliance with requirements of other Federal agencies, including the Department of Commerce's Bureau of Industry and Security, is not relieved by this general license.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 7137,
+      "end": 7328,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "f2d00e09dfa0e096",
+      "document_number": "2026-11616",
+      "quote": "all transactions prohibited by the Venezuela Sanctions Regulations, 31 CFR part 591 (the VSR), including those involving the Government of Venezuela, Petr[oacute]leos de Venezuela, S.A. (PdVSA), or any entity in which PdVSA owns, directly or indirectly, a 50 percent or greater interest, that are related to the negotiation of and entry into contingent contracts for new investment in oil, gas, petrochemical products, or electricity sector operations in Venezuela, are authorized, provided that the performance of any such contract is made expressly contingent upon separate authorization from the Office of Foreign Assets Control (``conting, contingent contracts'').",
+      "obligation_type": "requirement",
+      "affected_party": "parties involved in transactions with Venezuela, PdVSA, or entities with 50% or greater PdVSA interest",
+      "summary": "Parties must negotiate and enter into contingent contracts for new investment in oil, gas, petrochemical products, or electricity sector operations in Venezuela, provided that the performance of any such contract is made expressly contingent upon separate authorization from the Office of Foreign Assets Control.",
+      "effective_date": null,
+      "accepted": false,
+      "start": null,
+      "end": null,
+      "rejection_reason": "not-a-substring",
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "c2b7f00e86c2b6d4",
+      "document_number": "2026-11616",
+      "quote": "This general license does not authorize: (1) Any transaction involving a person located in the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity that is owned or controlled by or in a joint venture with such persons; (2) The unblocking of any property blocked pursuant to the VSR; or (3) Any transaction involving a blocked vessel.",
+      "obligation_type": "prohibition",
+      "affected_party": "parties involved in transactions with specified countries or entities",
+      "summary": "Parties must not engage in transactions involving persons located in the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, the People's Republic of China, or any entity owned or controlled by or in a joint venture with such persons. They must also not unblock property blocked pursuant to the VSR or engage in transactions involving a blocked vessel.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 13489,
+      "end": 13947,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    },
+    {
+      "claim_id": "c386e275afe9ce8e",
+      "document_number": "2026-11616",
+      "quote": "Note to General License No. 49A. Nothing in this general license relieves any person from compliance with the requirements of other Federal agencies, including the Department of Commerce's Bureau of Industry and Security.",
+      "obligation_type": "requirement",
+      "affected_party": "all persons",
+      "summary": "Persons must comply with the requirements of other Federal agencies, including the Department of Commerce's Bureau of Industry and Security.",
+      "effective_date": null,
+      "accepted": true,
+      "start": 14114,
+      "end": 14338,
+      "rejection_reason": null,
+      "run": {
+        "model_tag": "qwen3:8b",
+        "prompt_sha256": "ebb5bf2a21342f34352d0be887fcdfa514b8b9a3de25f9c63bbf5828c0f03210",
+        "input_sha256": "21d118f1fd34eb3e3e262af74ec6e2f4cf2a1b028bfef0b8d6b95b7dd31ef92f",
+        "temperature": 0.0,
+        "runtime": "ollama/0.32.5",
+        "chunk_plan_sha256": "263345af526c2655f6d6e73e79b3c18bbf3e784ea9416f9bb57de43bea31a678"
+      }
+    }
+  ]
+}

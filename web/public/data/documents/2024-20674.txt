@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>Federal Register, Volume 89 Issue 178 (Friday, September 13, 2024)</title>
+</head>
+<body><pre>
+[Federal Register Volume 89, Number 178 (Friday, September 13, 2024)]
+[Rules and Regulations]
+[Pages 74832-74834]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2024-20674]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of Foreign Assets Control
+
+31 CFR Part 501
+
+
+Reporting, Procedures and Penalties
+
+AGENCY: Office of Foreign Assets Control, Treasury.
+
+ACTION: Interim final rule; request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury's Office of Foreign Assets 
+Control (OFAC) is issuing this interim final rule to amend the 
+Reporting, Procedures and Penalties Regulations (the ``Regulations''), 
+extending recordkeeping requirements for certain transactions from five 
+to 10 years, consistent with the statute of limitations
+
+[[Page 74833]]
+
+for violations of certain sanctions administered by the Office of 
+Foreign Assets Control (OFAC).
+
+DATES: 
+    Effective date: This interim final rule is effective March 12, 
+2025.
+    Comments due date: Written comments may be submitted on or before 
+October 15, 2024.
+
+ADDRESSES: You may submit comments via the following methods, 
+electronic is preferred:
+    Federal eRulemaking Portal: <a href="http://www.regulations.gov">www.regulations.gov</a>. Follow the 
+instructions on the website for submitting comments. Refer to Docket 
+Number OFAC-2024-0004.
+    Mail: Office of Foreign Assets Control, U.S. Department of the 
+Treasury, Treasury Annex/Freedman's Bank Building, 1500 Pennsylvania 
+Avenue NW, Washington, DC 20220. Refer to Docket Number OFAC-2024-0004.
+    Instructions: All submissions received must include the agency name 
+and the Federal Register Doc. number that appears at the end of this 
+document. All comments, including attachments and other supporting 
+materials, will become part of the public record and subject to public 
+disclosure. Sensitive personal information, such as account numbers or 
+Social Security numbers, should not be included. Comments generally 
+will not be edited to remove any identifying or contact information.
+
+FOR FURTHER INFORMATION CONTACT: Assistant Director for Licensing, 202-
+622-2480; Assistant Director for Regulatory Affairs, 202-622-4855; 
+Assistant Director for Compliance, 202-622-2490 or <a href="https://ofac.treasury.gov/contact-ofac">https://ofac.treasury.gov/contact-ofac</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+Background
+
+    On April 24, 2024, the President signed into law the 21st Century 
+Peace through Strength Act, Public Law 118-50, div. D (the ``Act''). 
+Section 3111 of the Act extended from five years to 10 years the 
+statute of limitations for civil and criminal violations of the 
+International Emergency Economic Powers Act, 50 U.S.C. 1701 et seq. 
+(IEEPA), and the Trading with the Enemy Act, 50 U.S.C. 4301 et seq. 
+(TWEA). Prior to the Act's enactment, civil enforcement actions brought 
+by OFAC under IEEPA or TWEA were subject to the five-year statute of 
+limitations set forth in 28 U.S.C. 2462. The new 10-year statute of 
+limitations--codified at 50 U.S.C. 1705(d) and 4315(d)--became 
+effective upon the President's signature of the Act on April 24, 2024. 
+This new 10-year statute of limitations applies to any violation that 
+was not time-barred at the time of its enactment. Consequently, OFAC 
+may now commence an enforcement action for civil violations of IEEPA- 
+or TWEA-based sanctions prohibitions within 10 years of the latest date 
+of the violation if such date was after April 24, 2019. As set forth in 
+the Act, the commencement of a civil enforcement action includes the 
+issuance of a pre-penalty notice or a finding of violation.
+    To match the new statute of limitations period, OFAC is publishing 
+this interim final rule extending from five years to 10 years the 
+recordkeeping requirements codified at 31 CFR 501.601, paragraph IV.B 
+of appendix A to part 501, and 515.572. OFAC is soliciting public 
+comments for 30 days on this interim final rule.
+
+Electronic Availability
+
+    This document and additional information concerning OFAC are 
+available on OFAC's website: <a href="https://ofac.treasury.gov">https://ofac.treasury.gov</a>.
+
+Public Participation
+
+    Because the amendment of the Regulations is a rule of agency 
+procedure and involves a foreign affairs function, the provisions of 
+Executive Order 12866 of September 30, 1993, ``Regulatory Planning and 
+Review'' (58 FR 51735, October 4, 1993), as amended, and the 
+Administrative Procedure Act (5 U.S.C. 553) requiring notice of 
+proposed rulemaking, opportunity for public participation, and delay in 
+effective date are inapplicable. Because no notice of proposed 
+rulemaking is required for this rule, the Regulatory Flexibility Act (5 
+U.S.C. 601-612) does not apply.
+
+Paperwork Reduction Act
+
+    Pursuant to the Paperwork Reduction Act of 1995 (44 U.S.C. 3507), 
+the collections of information related to 31 CFR 501.601, paragraph 
+IV.B of appendix A to part 501, and 515.572 have been previously 
+approved by the Office of Management and Budget (OMB) under control 
+number 1505-0164. This final rule modifies the requirements for 
+recordkeeping under these sections by increasing the period for 
+recordkeeping to 10 years from five years to align with a statutory 
+amendment. This modification to this collection of information, as well 
+as an unrelated consolidation of certain OFAC information collections, 
+will be submitted to OMB for review under control number 1505-0164. 
+Written comments and recommendations for the modified collection can be 
+submitted by visiting <a href="https://www.reginfo.gov/public/do/PRAMain">https://www.reginfo.gov/public/do/PRAMain</a>. Find 
+this document by selecting ``Currently Under Review--Open for Public 
+Comments'' or by using the search function. Comments are welcome and 
+must be received by November 13, 2024.
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless the collection of 
+information displays a valid control number. The likely filers and 
+record-keepers affected by these collections of information contained 
+in 31 CFR part 501 are financial institutions, business organizations, 
+nonprofit organizations, individuals, households, non-governmental 
+organizations, and legal representatives.
+    The burden of the recordkeeping requirement imposed by this rule is 
+minimal because the records required to be maintained are likely 
+maintained under standard business practice. The recent increase in the 
+recordkeeping period to 10 years from five years could impose a 
+temporary incremental burden on recordkeepers while they update their 
+recordkeeping practices and adjust storage requirements to maintain 
+records for a longer period of time. Accordingly, the total burden for 
+this collection is estimated to be:
+    Estimated Number of Respondents: 2,505,086.
+    Frequency of Response: When requested by OFAC.
+    Estimated Total Number of Annual Responses: 2,505,086.
+    Estimated Time per Response: No additional time to retain records 
+for additional time.
+    Comments are invited on: (a) Whether the collection of information 
+is necessary for the proper performance of the functions of the agency, 
+including whether the information has practical utility; (b) the 
+accuracy of the agency's estimate of the burden of the collection of 
+information; (c) ways to enhance the quality, utility, and clarity of 
+the information to be collected; (d) ways to minimize the burden of the 
+collection of information on respondents, including through the use of 
+automated collection techniques or other forms of information 
+technology; and (e) estimates of capital or start-up costs and costs of 
+operation, maintenance, and purchase of services required to provide 
+information.
+
+List of Subjects in 31 CFR Part 501
+
+    Administrative practice and procedure, Banks, Banking, Exports, 
+Foreign trade, Licensing and registration, Penalties, Reporting and 
+recordkeeping requirements.
+
+    For the reasons set forth in the preamble, OFAC amends 31 CFR parts 
+501 and 515 as follows:
+
+[[Page 74834]]
+
+PART 501--REPORTING, PROCEDURES AND PENALTIES REGULATIONS
+
+0
+1. The authority citation for part 501 continues to read as follows:
+
+    Authority: 8 U.S.C. 1189; 18 U.S.C. 2332d, 2339B; 19 U.S.C. 
+3901-3913; 21 U.S.C. 1901-1908; 22 U.S.C. 287c, 2370(a), 6009, 6032, 
+7205, 8501-8551; 31 U.S.C. 321(b); 50 U.S.C. 1701 et seq., 4301-
+4341; Pub. L. 101-410, 104 Stat. 890, as amended (28 U.S.C. 2461 
+note).
+
+Subpart C--Reports
+
+0
+2. Revise and republish Sec.  501.601 to read as follows:
+
+
+Sec.  501.601  Records and recordkeeping requirements.
+
+    Except as otherwise provided, every person engaging in any 
+transaction subject to the provisions of this chapter shall keep a full 
+and accurate record of each such transaction engaged in, regardless of 
+whether such transaction is effected pursuant to license or otherwise, 
+and such record shall be available for examination for at least 10 
+years after the date of such transaction. Except as otherwise provided, 
+every person holding property blocked pursuant to the provisions of 
+this chapter or funds transfers retained pursuant to Sec.  596.504(b) 
+of this chapter shall keep a full and accurate record of such property, 
+and such record shall be available for examination for the period of 
+time that such property is blocked and for at least 10 years after the 
+date such property is unblocked.
+
+0
+3. Revise paragraph IV.B of appendix A to part 501 to read as follows:
+
+Appendix A to Part 501--Economic Sanctions Enforcement Guidelines
+
+* * * * *
+
+IV. * * *
+
+    B. The late filing of a required report, whether set forth in 
+regulations or in a specific license, may result in a civil monetary 
+penalty in an amount up to $3,550, if filed within the first 30 days 
+after the report is due, and a penalty in an amount up to $7,104 if 
+filed more than 30 days after the report is due. If the report 
+relates to blocked assets, the penalty may include an additional 
+$1,422 for every 30 days that the report is overdue, up to 10 years.
+* * * * *
+
+PART 515--CUBAN ASSETS CONTROL REGULATIONS
+
+0
+4. The authority citation for part 515 continues to read as follows:
+
+    Authority: 22 U.S.C. 2370(a), 6001-6010, 7201-7211; 31 U.S.C. 
+321(b); 50 U.S.C. 4301 et seq.; Pub. L. 101-410, 104 Stat. 890 (28 
+U.S.C. 2461 note); 22 U.S.C. 6021-6091; Pub. L. 105-277, 112 Stat. 
+2681; Pub. L. 111-8, 123 Stat. 524; Pub. L. 111-117, 123 Stat. 3034; 
+E.O. 9989, 13 FR 4891, 3 CFR, 1943-1948 Comp., p. 748; Proc. 3447, 
+27 FR 1085, 3 CFR, 1959-1963 Comp., p. 157; E.O. 12854, 58 FR 36587, 
+3 CFR, 1993 Comp., p. 614.
+
+
+0
+5. Revise and republish paragraph (b)(1) of Sec.  515.572 as follows:
+
+
+Sec.  515.572  Provision of travel, carrier, other transportation-
+related, and remittance forwarding services.
+
+* * * * *
+    (b) * * *
+    (1) Persons subject to U.S. jurisdiction providing services 
+authorized pursuant to paragraphs (a)(1) through (4) of this section 
+must retain for at least 10 years from the date of the transaction a 
+certification from each customer indicating the section of this part 
+that authorizes the person to travel or send remittances to Cuba. In 
+the case of a customer traveling under a specific license, the specific 
+license number or a copy of the license must be maintained on file with 
+the person subject to U.S. jurisdiction providing services authorized 
+pursuant to this section.
+* * * * *
+
+Lisa M. Palluconi,
+Acting Director, Office of Foreign Assets Control.
+[FR Doc. 2024-20674 Filed 9-11-24; 8:45 am]
+BILLING CODE 4810-AL-P
+
+
+</pre></body>
+</html>

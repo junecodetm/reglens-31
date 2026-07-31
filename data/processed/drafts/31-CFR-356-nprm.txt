@@ -14,7 +14,7 @@ AGENCY: [PLACEHOLDER — attorney to complete]
 
 ACTION: Notice of proposed rulemaking.
 
-SUMMARY: [model-generated] 31 CFR Part 356 establishes the procedures for the sale and issuance of marketable book-entry Treasury securities. This skeleton provides a structural framework for the rule, outlining the scope and subject matter without legal conclusions or policy recommendations.
+SUMMARY: [model-generated] This draft skeleton outlines the structure for regulations concerning the sale and issue of marketable book entry treasury bills, notes, and bonds. It references the part heading and the cited authority and provides only a framework for further development.
 
 DATES: Comments must be received on or before [PLACEHOLDER — attorney to complete].
 
@@ -26,7 +26,7 @@ SUPPLEMENTARY INFORMATION:
 
    I. Background
 
-   [model-generated] Part 356 governs the processes related to the sale and issuance of Treasury bills, notes, and bonds in a book-entry form. The regulations under this part are designed to facilitate the management and administration of these securities within the Department of the Treasury.
+   [model-generated] The part governs procedures related to the sale and issuance of marketable book entry treasury securities. Its scope is defined by the heading and the statutory authority cited, and this skeleton offers a neutral template for rulemaking.
 
    [PLACEHOLDER — attorney to complete]
 

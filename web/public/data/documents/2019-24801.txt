@@ -1,0 +1,277 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 221 (Friday, November 15, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 221 (Friday, November 15, 2019)]
+[Rules and Regulations]
+[Pages 62450-62452]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-24801]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+31 CFR Part 50
+
+RIN 1505-AC62
+
+
+IMARA Calculation Under the Terrorism Risk Insurance Program
+
+AGENCY: Departmental Offices, Department of the Treasury.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury (Treasury) is issuing this 
+final rule to implement technical changes to program regulations that 
+address the calculation and notification to the public of the Terrorism 
+Risk Insurance Program's (Program) insurance marketplace aggregate 
+retention amount (IMARA) under the Terrorism Risk Insurance Act (Act), 
+as amended. The changes were published in proposed form for public 
+comment on September 6, 2019.
+
+DATES: This rule is effective December 16, 2019.
+
+FOR FURTHER INFORMATION CONTACT: Richard Ifft, Senior Insurance 
+Regulatory Policy Analyst, Federal Insurance Office, 202-622-2922 or 
+Lindsey Baldwin, Senior Policy Analyst, Federal Insurance Office, 202-
+622-3220.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    The Terrorism Risk Insurance Act of 2002 (as amended, the Act or 
+TRIA) \1\ was enacted on November 26, 2002, following the attacks of 
+September 11, 2001, to address disruptions in the
+
+[[Page 62451]]
+
+market for terrorism risk insurance, to help ensure the continued 
+availability and affordability of commercial property and casualty 
+insurance for terrorism risk, and to allow for the private markets to 
+stabilize and build insurance capacity to absorb any future losses for 
+terrorism events.\2\ TRIA requires insurers to ``make available'' 
+terrorism risk insurance for commercial property and casualty losses 
+resulting from certified acts of terrorism (insured losses), and 
+provides for shared public and private compensation for such insured 
+losses. The Program has been reauthorized three times, most recently by 
+the Terrorism Risk Insurance Program Reauthorization Act of 2015 (2015 
+Reauthorization Act).\3\
+---------------------------------------------------------------------------
+
+    \1\ Public Law 107-297, 116 Stat. 2322, codified at 15 U.S.C. 
+6701 note. Because the provisions of TRIA (as amended) appear in a 
+note instead of particular sections of the U.S. Code, the provisions 
+of TRIA are identified by the sections of the law.
+    \2\ TRIA, sec. 101(b).
+    \3\ See Terrorism Risk Insurance Extension Act of 2005, Public 
+Law 109-144, 119 Stat. 2660; Terrorism Risk Insurance Program 
+Reauthorization Act of 2007, Public Law 110-160, 121 Stat. 1839; 
+Terrorism Risk Insurance Program Reauthorization Act of 2015, Public 
+Law 114-1, 129 Stat. 3.
+---------------------------------------------------------------------------
+
+    The Secretary of the Treasury (Secretary) administers the Program. 
+The Federal Insurance Office (FIO) assists the Secretary in 
+administering the Program.\4\ To assist insurers, policyholders, and 
+other interested parties in complying with the applicable requirements 
+of the Act, Treasury has issued regulations implementing the Program. 
+In some instances, Treasury has also issued interim guidance to be 
+relied upon by insurers until superseded by any regulations.\5\ Most 
+recently, Treasury issued regulations implementing the changes to the 
+Program required under the 2015 Reauthorization Act.\6\
+---------------------------------------------------------------------------
+
+    \4\ 31 U.S.C. 313(c)(1)(D).
+    \5\ Treasury summarized the history of prior rulemakings in 
+connection with the Program in a 2016 proposed rulemaking proposing 
+rule changes to implement the 2015 Reauthorization Act. See 81 FR 
+18950 (April 1, 2016) (2016 NPRM).
+    \6\ See 81 FR 88592 (December 7, 2016) (Certification Interim 
+Final Rule); 81 FR 93756 (December 21, 2016) (Program Final Rules 
+Except Certification).
+---------------------------------------------------------------------------
+
+    The Act established an industry marketplace aggregate retention 
+amount (IMARA) as a threshold figure to determine whether any Treasury 
+payments under the Program are subject to mandatory recoupment. Under 
+the Act, if total annual payments by participating insurers are below 
+the IMARA, Treasury must recoup all amounts expended by it up to the 
+IMARA threshold (mandatory recoupment). If total annual payments by 
+participating insurers are above the IMARA, Treasury has the discretion 
+to recoup all expended amounts above the IMARA threshold (discretionary 
+recoupment).\7\
+---------------------------------------------------------------------------
+
+    \7\ See TRIA, sec. 103(e)(7); see also 31 CFR part 50 subpart J 
+(Recoupment and Surcharge Procedures).
+---------------------------------------------------------------------------
+
+    The 2015 Reauthorization Act provided for a schedule of defined 
+IMARA values from calendar year 2015 through calendar year 2019. The 
+2015 Reauthorization Act also provided that for calendar year 2020 and 
+future years the IMARA ``shall be revised to be the amount equal to the 
+annual average of the sum of insurer deductibles for all insurers 
+participating in the Program for the prior 3 calendar years,'' as such 
+sum is determined pursuant to a rule issued by the Secretary.\8\ The 
+rule change adopted in this notice solely addresses the manner in which 
+Treasury calculates the IMARA and the timing of public notification of 
+the IMARA calculation.
+---------------------------------------------------------------------------
+
+    \8\ TRIA, sec. 103(e)(6)(B)(ii) and (e)(6)(C). An insurer's 
+deductible under the Program for any particular year is 20 percent 
+of its direct earned premium subject to the Program during the 
+preceding year. TRIA, sec. 102(7). For example, an insurer's 
+calendar year 2019 Program deductible is 20 percent of its calendar 
+year 2018 direct earned premium.
+---------------------------------------------------------------------------
+
+II. The Proposed Rule
+
+    The proposed rule on which this final rule is based was published 
+in the Federal Register at 84 FR 46907 on September 6, 2019. The 
+proposed rule would make a technical correction to 31 CFR 
+50.4(m)(2)(i), originally implemented in 2016, to clarify that the 
+IMARA calculation is based upon direct earned premium reported to 
+Treasury by insurers in Treasury's annual data call ``in'' the three 
+calendar years prior to the calendar year in question, instead of 
+``for'' the three calendar years prior to the calendar year in 
+question. For example, this would result in a proper calculation of the 
+2020 IMARA by referring to the insurer deductibles for the previous 
+three years (2019, 2018, and 2017), which are based on reported data 
+for calendar years 2018, 2017, and 2016.\9\ In addition, the proposed 
+rule accelerates the notification date of the IMARA calculation by 
+Treasury, from no later than April 30 of the year in question to no 
+later than December 31 of the prior calendar year. That acceleration 
+will improve administrative efficiency and provide greater certainty to 
+insurers and policyholders.
+---------------------------------------------------------------------------
+
+    \9\ The Program rule amended by this final rule was originally 
+proposed in the 2016 NPRM and finalized in the Program Final Rules 
+Except Certification. As explained in the September 2019 notice of 
+proposed rulemaking, although the preamble to the 2016 NPRM 
+correctly explained the methodology for calculating the IMARA in 
+2020 and beyond, as required by the 2015 Reauthorization Act, the 
+language in the Program rule implemented by the Program Final Rules 
+Except Certification is ambiguous as to how the IMARA should be 
+calculated. Under Sec.  50.4(m)(2)(i) of the Program rules as 
+implemented in 2016, the IMARA calculation is to be based on the 
+``direct earned premium reported by insurers to Treasury . . . for 
+the three calendar years prior to the calendar year in question'' 
+(emphasis added.) This language could be interpreted to mean, for 
+example, that the 2020 IMARA would be calculated using direct earned 
+premiums in 2019, 2018, and 2017, rather than using the data 
+reported in 2019, 2018, and 2017 for calendar years 2018, 2017, and 
+2016, as intended. This unintended interpretation would be 
+inconsistent with the methodology specified in the 2015 
+Reauthorization Act and would result in an incorrect IMARA. See 
+generally 84 FR 46907, 46907-08 (Sept. 6, 2019).
+---------------------------------------------------------------------------
+
+III. Summary of Comments and Final Rule
+
+    Treasury received one comment regarding the proposed changes 
+concerning the IMARA calculation and the date of notification of the 
+IMARA calculation to the public. This comment was in favor of both of 
+the proposed changes.\10\ Accordingly, Treasury is issuing this final 
+rule based upon the proposed rule without change.
+---------------------------------------------------------------------------
+
+    \10\ See Comment from Underwriters at Lloyd's, London (Oct. 2, 
+2019), available at <a href="https://www.regulations.gov/docket?D=TREAS-TRIP-2019-0014">https://www.regulations.gov/docket?D=TREAS-TRIP-2019-0014</a>.
+---------------------------------------------------------------------------
+
+IV. Procedural Requirements
+
+    Executive Order 12866, ``Regulatory Planning and Review.'' This 
+rule is not a significant regulatory action for purposes of Executive 
+Order 12866, ``Regulatory Planning and Review,'' and thus has not been 
+reviewed by the Office of Management and Budget (OMB).
+    Regulatory Flexibility Act. Under the Regulatory Flexibility Act, 5 
+U.S.C. 601 et seq., Treasury must consider whether this rule will have 
+a ``significant economic impact on a substantial number of small 
+entities.'' 5 U.S.C. 605(b). In this case, Treasury certifies that this 
+rule will not have a significant economic impact on a substantial 
+number of small entities. The rule provides for a technical change in 
+the manner in which Treasury will calculate a figure relevant to 
+operation of the Program and to better conform it to Congressional 
+requirements. The only other rule change is to provide for earlier 
+notice to insurers of the IMARA calculation than the existing rule. It 
+has no effect on the collection of the data (including data collected 
+from small entities) under the Program rules.
+    Paperwork Reduction Act. The rule does not involve the collection 
+of information and thus has not been submitted to OMB for review under 
+the requirements of the Paperwork Reduction Act, 44 U.S.C. 3507(d). The
+
+[[Page 62452]]
+
+rule only involves the calculation and public notification of the IMARA 
+in connection with the Program based on data collected by Treasury 
+under rules which have already been subject to OMB review and approval 
+under Control No. 1505-0257.
+
+List of Subjects in 31 CFR Part 50
+
+    Insurance, Terrorism.
+
+Authority and Issuance
+
+    For the reasons stated in the preamble, 31 CFR part 50 is amended 
+as follows:
+
+PART 50--TERRORISM RISK INSURANCE PROGRAM
+
+0
+1. The authority citation for part 50 continues to read as follows:
+
+    Authority: 5 U.S.C. 301; 31 U.S.C. 321; Title I, Pub. L. 107-
+297, 116 Stat. 2322, as amended by Pub. L. 109-144, 119 Stat. 2660, 
+Pub. L. 110-160, 121 Stat. 1839 and Pub. L. 114-1, 129 Stat. 3 (15 
+U.S.C. 6701 note) Pub. L. 114-74, 129 Stat. 601, Title VII (28 
+U.S.C. 2461 note).
+
+
+0
+2. Amend Sec.  50.4 by revising paragraphs (m)(2) introductory text, 
+(m)(2)(i), and (m)(3) to read as follows:
+
+
+Sec.  50.4  Definitions.
+
+* * * * *
+    (m) * * *
+    (2) For calendar years beginning with 2020 and any calendar year 
+thereafter as may be necessary, such amount is the lesser of the 
+aggregate amount, for all insurers, of insured losses once there has 
+been a Program Trigger Event during the calendar year and the annual 
+average of the sum of insurer deductibles for all insurers for the 
+prior 3 years, to be calculated by taking:
+    (i) The total amount of direct earned premium reported by insurers 
+to Treasury pursuant to Sec.  50.51 in the three calendar years prior 
+to the calendar year in question, and then dividing that figure by 
+three; and
+* * * * *
+    (3) For calendar year 2020 and each subsequent calendar year, 
+Treasury shall publish in the Federal Register the insurance 
+marketplace aggregate retention amount no later than December 31 of the 
+prior calendar year.
+* * * * *
+
+    Dated: November 7, 2019.
+Bimal Patel,
+Assistant Secretary for Financial Institutions.
+[FR Doc. 2019-24801 Filed 11-14-19; 8:45 am]
+BILLING CODE 4810-25-P
+
+
+</pre></body>
+</html>
