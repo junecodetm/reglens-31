@@ -59,7 +59,7 @@ ALLOWED_HOSTS = {
     "www.gleif.org",
     "data.opensanctions.org",
     "api.fiscaldata.treasury.gov",
-    # EXTEND-OGC01 sources (all free, keyless; docs/DATA_SOURCES.md)
+    # Authority, drafting, and governance sources (free and keyless)
     "uscode.house.gov",
     "www.archives.gov",
     "www.reginfo.gov",
@@ -69,6 +69,9 @@ ALLOWED_HOSTS = {
     "localhost",
     "github.com",
     "reglens-31.pages.dev",
+    # Groq free tier (no card; docs/STACK.md) — draft/memo narratives at build
+    # time and the live drafting endpoint; the key is env-only, never committed.
+    "api.groq.com",
 }
 
 # tests/ is excluded: allow-list tests intentionally contain refused example URLs.

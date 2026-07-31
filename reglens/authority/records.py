@@ -97,7 +97,7 @@ class PartAuthority(BaseModel):
     citations: list[AuthorityCitation]
     resolved: list[ResolvedSection]
     # usc_section cites that could not be found in the pinned USLM release —
-    # fail-closed: recorded, never guessed at (EXTEND-OGC01 §3 Stage 1.3).
+    # Fail-closed: recorded, never guessed at.
     unresolved: list[AuthorityCitation]
     ecfr_url: str
 

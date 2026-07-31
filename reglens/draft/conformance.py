@@ -3,11 +3,11 @@
 Inputs: one generated skeleton, the model-generated narrative fields, and
 the verification corpus (part text, authority line, cited U.S.C. section
 texts). Outputs: a per-draft checklist; a draft failing ANY check is
-REJECTED — never published with a caveat (EXTEND-OGC01 Stage 3.4). Failure
-mode: fail-closed throughout; a check that cannot run counts as failed.
+REJECTED — never published with a caveat. Failure mode: fail-closed
+throughout; a check that cannot run counts as failed.
 
-This checklist is the only honest "accuracy" metric available for
-generation (Stage 3.5): structure is verifiable; substance is the human's.
+The checklist measures verifiable structure. Substantive accuracy remains a
+matter for human review.
 """
 
 import re
@@ -34,8 +34,8 @@ MIN_QUOTE_CHARS = 15
 
 # Fabrication scan over MODEL-GENERATED narrative only: the deterministic
 # template contains no such content by construction (asserted in tests).
-# Any hit rejects the whole draft — a skeleton that silently invents a cost
-# estimate, docket, RIN, date, or contact is a defect (Stage 3.3).
+# Any hit rejects the whole draft because a skeleton that invents a cost
+# estimate, docket, RIN, date, or contact is defective.
 _FABRICATION_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("rin", re.compile(r"\bRIN\s*\d{4}-[A-Z]{2}\d{2}\b")),
     ("docket-id", re.compile(r"\b[A-Z]{2,10}-\d{4}-\d{3,}\b")),
@@ -73,15 +73,21 @@ class DraftDossier(BaseModel):
     exact bytes the model received; ``input_sha256`` is the source CFR part
     snapshot of record, which is NOT itself sent to the model (the prompt
     carries only part number, heading, authority line, and doc type) — the UI
-    labels it accordingly. Output is a JSON-safe dossier; invalid or missing
+    labels it accordingly. Provider-specific knobs are recorded only where
+    they apply: the local runtime records ``num_ctx``/``num_predict``, the
+    hosted provider records ``max_tokens``/``reasoning_effort``; the unused
+    pair is ``None``. Output is a JSON-safe dossier; invalid or missing
     fields raise through Pydantic, so provenance cannot silently degrade.
     """
 
+    provider: str = "local"
     model: str
     temperature: float
     seed: int
-    num_ctx: int
-    num_predict: int
+    num_ctx: int | None
+    num_predict: int | None
+    max_tokens: int | None = None
+    reasoning_effort: str | None = None
     system_prompt_sha256: str
     prompt_sha256: str
     input_sha256: str

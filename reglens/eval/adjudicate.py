@@ -1,7 +1,7 @@
 """Generate docs/ADJUDICATE.md — the human adjudication worklist.
 
 Inputs: the merged gold set and its provisions. Outputs: a numbered Markdown
-worklist in ~20-item evening batches. Failure mode: missing gold files raise;
+worklist in approximately 20-item batches. Failure mode: missing gold files raise;
 the worklist is regenerated, never hand-edited (progress lives in gold.jsonl).
 """
 
@@ -21,8 +21,9 @@ def render_worklist(gold_dir: Path = GOLD_DIR) -> str:
     lines = [
         "# Adjudication Worklist",
         "",
-        f"Progress: **{adjudicated}/{len(gold)} adjudicated.** Labels below are",
-        "machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on them.",
+        f"Provisional — machine-proposed labels, human-adjudicated: {adjudicated}/{len(gold)}.",
+        "Each record identifies its proposing model in `proposed_by`. Machine proposals "
+        "are not ground truth until adjudicated.",
         "",
         "## How to adjudicate an item",
         "",
@@ -38,14 +39,14 @@ def render_worklist(gold_dir: Path = GOLD_DIR) -> str:
     ]
     for index, record in enumerate(gold):
         if index % BATCH_SIZE == 0:
-            evening = index // BATCH_SIZE + 1
+            batch = index // BATCH_SIZE + 1
             lines.append(
-                f"## Evening {evening} (items {index + 1}-{min(index + BATCH_SIZE, len(gold))})"
+                f"## Batch {batch} (items {index + 1}-{min(index + BATCH_SIZE, len(gold))})"
             )
             lines.append("")
         provision = provisions[record.provision_id]
         status = "✅ adjudicated" if record.adjudicated else "⬜ pending"
-        text = " ".join(provision.text.split())
+        text = " ".join(provision.text.replace("\x00", " ").split())
         if len(text) > 400:
             text = text[:400] + "…"
         lines.extend(
@@ -67,7 +68,7 @@ def render_worklist(gold_dir: Path = GOLD_DIR) -> str:
 
 
 def render_ogc01_worklist() -> str:
-    """EXTEND-OGC01 gold sets, appended in the same numbered-worklist format."""
+    """OGC-01 capability gold sets in the same numbered-worklist format."""
     from reglens.eval.ogc01 import (
         GOLD_AUTHORITY,
         GOLD_GROUNDING,
@@ -88,9 +89,10 @@ def render_ogc01_worklist() -> str:
     )
     lines = [
         "",
-        "# EXTEND-OGC01 Adjudication Worklist",
+        "# OGC-01 Capability Adjudication Worklist",
         "",
-        f"Progress: **{adjudicated}/{total} adjudicated.** Same protocol as above:",
+        f"Provisional — machine-proposed labels, human-adjudicated: {adjudicated}/{total}.",
+        "Apply the same protocol as above:",
         'find the record in its JSONL file, correct if needed, set `"adjudicated": true`,',
         "commit; `just eval` restates the metrics and their label automatically.",
         "",
@@ -98,7 +100,8 @@ def render_ogc01_worklist() -> str:
         "`reglens/eval/gold/authority/class_gold.jsonl`",
         "",
         "Check each against the U.S.C. section text (`web/public/data/usc/"
-        "usc-<title>-s<section>.txt`) and docs/ANNOTATION_GUIDELINES.md §OGC-01.",
+        "usc-<title>-s<section>.txt`) and the OGC-01 addendum in "
+        "docs/ANNOTATION_GUIDELINES.md.",
         "",
     ]
     for index, record in enumerate(class_gold):

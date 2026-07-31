@@ -24,13 +24,16 @@ jobs:
       - run: uv run pyright
       - run: uv run pytest
       - run: uv run python scripts/check_zero_cost.py
-      # Replay guard: the published static data must be exactly re-derivable
-      # from the committed snapshots (DETERMINISTIC-REPLAY invariant); any
-      # hand-edit to web/public/data/ fails here.
+      # Replay guard: the published static data AND the static read API must be
+      # exactly re-derivable from the committed snapshots (DETERMINISTIC-REPLAY
+      # invariant); any hand-edit to either tree fails here. The porcelain check
+      # is not redundant — `git diff` cannot see a newly created untracked file,
+      # so without it an added API endpoint would pass unnoticed.
       - name: export-replay-guard
         run: |
           uv run python -m reglens.store.export_web
-          git diff --exit-code web/public/data
+          git diff --exit-code web/public/data web/public/api
+          test -z "$(git status --porcelain web/public/data web/public/api)"
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24

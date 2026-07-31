@@ -193,7 +193,7 @@ def test_example_uses_pinned_claims_and_valid_provenance() -> None:
     claims = _claims_by_id(_load_claims())
     example = _load_example()
 
-    assert example.accepted.claim_id == "fe677d4f490f99b2"
+    assert example.accepted.claim_id == "f5b026804c7ae3a2"
     accepted_claim = claims[example.accepted.claim_id]
     assert accepted_claim.accepted is True
     assert example.accepted.document_number == accepted_claim.document_number
@@ -213,7 +213,7 @@ def test_example_uses_pinned_claims_and_valid_provenance() -> None:
         == accepted_document_text[accepted_claim.start : accepted_claim.end]
     )
 
-    assert example.rejected.claim_id == "33961b9a82254639"
+    assert example.rejected.claim_id == "92e403c2833a2adf"
     rejected_claim = claims[example.rejected.claim_id]
     assert rejected_claim.accepted is False
     assert example.rejected.document_number == rejected_claim.document_number

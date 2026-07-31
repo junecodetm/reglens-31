@@ -1,4 +1,4 @@
-"""Stage 1 pipeline: authority citations → USLM resolution → classification.
+"""Authority-linking pipeline: citations → USLM resolution → classification.
 
 Inputs: the per-part authority snapshots (``ingest_part_authority``) and the
 pinned OLRC USLM release point. Outputs: ``data/processed/authority.json``
@@ -71,9 +71,9 @@ def _resolve_and_classify(section: UscSection, section_sha: str) -> ResolvedSect
             resolved.verb_start = gate.start
             resolved.verb_end = gate.end
         else:
-            # Fail-closed (EXTEND-OGC01 Stage 1.4): a quote that fails the
-            # exact-substring check rejects the classification outright —
-            # it is surfaced in the rejection counter, never downgraded.
+            # Fail-closed: a quote that fails the exact-substring check rejects
+            # the classification outright; it is surfaced in the rejection
+            # counter and never downgraded.
             resolved.gate_rejected = True
             resolved.rejection_reason = gate.reason
     return resolved
@@ -122,7 +122,7 @@ def resolve_part_citations(
 
 
 def build_authority(settings: Settings) -> AuthorityExport:
-    """Run Stage 1 end to end over the in-scope parts."""
+    """Run authority linking end to end over the in-scope parts."""
     from reglens.ingest.snapshot import write_snapshot  # local: the only writer here
 
     date = settings.ecfr_authority_date

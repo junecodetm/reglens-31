@@ -1,4 +1,4 @@
-"""EXTEND-OGC01 evaluation: authority linking, classification, grounding, drafts.
+"""Evaluate authority linking, classification, grounding, and drafting.
 
 Inputs: ``data/processed/{authority,grounding,conformance}.json`` plus the
 frozen proposal passes and (mutable) gold files under
@@ -7,10 +7,10 @@ frozen proposal passes and (mutable) gold files under
 ``--gate`` mode exits non-zero when a gated metric regresses below the
 committed baseline minus tolerance.
 
-Honesty invariants (BUILD.md §4, EXTEND-OGC01 §4): every metric carries the
-Provisional label with the live adjudicated count; kappa is cross-model
-agreement between frozen passes, never human IAA; there is NO metric of the
-form "predicted judicial outcome" anywhere, by design.
+Honesty invariants: every metric carries the Provisional label with the live
+adjudicated count; kappa is cross-model agreement between frozen passes, never
+human IAA; there is NO metric of the form "predicted judicial outcome"
+anywhere, by design.
 """
 
 import argparse

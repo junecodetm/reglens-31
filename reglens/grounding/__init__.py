@@ -1,1 +1,1 @@
-"""Statutory grounding signal (EXTEND-OGC01 Stage 2) — retrieval only."""
+"""Two-sided statutory grounding-marker retrieval."""

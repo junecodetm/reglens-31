@@ -12,6 +12,8 @@ EXPECTED_PART_FILES = {
     "31-CFR-356.txt",
     "31-CFR-501.txt",
 }
+# Sourced from eCFR's authoritative structure index, not hand-counted:
+# tests/test_ecfr_census.py asserts these equal the committed census snapshots.
 EXPECTED_SECTION_COUNTS = {50: 62, 223: 21, 285: 11, 356: 26, 501: 65}
 EXPECTED_REJECTED_CANDIDATES = {50: 0, 223: 1, 285: 0, 356: 0, 501: 0}
 
@@ -190,8 +192,10 @@ def test_all_authority_part_snapshots_split_with_valid_offsets() -> None:
         assert result.text_path == str(path)
         assert result.sections
         assert result.sections[-1].end == len(text)
-        # Pinned coverage: a corpus refresh that silently halves a part's
-        # sections must fail here, not pass quietly.
+        # Coverage: a corpus refresh that silently halves a part's sections
+        # must fail here, not pass quietly. The count itself is NOT authored
+        # here — it comes from eCFR's own structure index, and
+        # tests/test_ecfr_census.py is what checks the parser against it.
         assert len(result.sections) == EXPECTED_SECTION_COUNTS[part]
         # Transparency counter: the only rejected candidate in the committed
         # corpus is part 223's in-text cross-reference line ("§ 223.16

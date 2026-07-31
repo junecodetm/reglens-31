@@ -1,9 +1,14 @@
 """Pipeline: a real quote survives the gate with offsets; a fabricated one is counted rejected."""
 
+import json
 import time
 from pathlib import Path
 
+import pytest
+
 from reglens.config import Settings
+from reglens.extract import run as run_module
+from reglens.extract.chunk import chunk_text
 from reglens.extract.run import (
     discover_documents,
     extract_obligations,
@@ -62,6 +67,7 @@ def _seed_snapshots(tmp_path: Path) -> None:
         url="https://www.federalregister.gov/api/v1/documents/2026-00001.json",
         content=(
             b'{"document_number": "2026-00001", "title": "Test Rule",'
+            b' "publication_date": "2026-01-02",'
             b' "html_url": "https://www.federalregister.gov/documents/2026-00001"}'
         ),
         content_type="application/json",
@@ -136,12 +142,15 @@ class OrderedProvider:
 def test_concurrent_extraction_preserves_chunk_order() -> None:
     """Determinism: output must not depend on which chunk finishes first."""
     chunk_count = 6
-    # Each paragraph exceeds chunk_text's 4000-char budget, so every one becomes its own chunk.
-    text = "\n\n".join(f"chunk-{index} " + "x" * 4200 for index in range(chunk_count))
+    # Each paragraph fits chunk_text's 4000-char budget but two never do, so
+    # every paragraph becomes exactly one chunk.
+    text = "\n\n".join(f"chunk-{index} " + "x" * 3000 for index in range(chunk_count))
+    chunks = chunk_text(text)
+    assert len(chunks) == chunk_count
     provider = OrderedProvider(chunk_count)
 
-    serial = extract_obligations(provider, text, workers=1)
-    concurrent = extract_obligations(provider, text, workers=chunk_count)
+    serial = extract_obligations(provider, chunks, workers=1)
+    concurrent = extract_obligations(provider, chunks, workers=chunk_count)
 
     assert [o.quote for o in serial] == [o.quote for o in concurrent]
     assert [o.quote for o in concurrent] == [f"chunk-{i}" for i in range(chunk_count)]
@@ -211,12 +220,167 @@ class EmptyProvider(FakeProvider):
         return ExtractionResult(obligations=[])
 
 
-def test_zero_claim_document_is_never_reused(tmp_path: Path) -> None:
-    """Fail-closed: an empty result has no run record, so its provenance is unverifiable."""
+def test_a_changed_chunk_plan_invalidates_the_cache(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """The model reads one chunk at a time, so different boundaries are a different run.
+
+    This is the defect the chunk-plan hash exists to catch: before it, replacing
+    the chunker left the reuse key unchanged and stale claims were kept silently.
+    """
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, CountingProvider())
+
+    def finer_chunks(text: str, max_chars: int = 4000) -> list[str]:
+        return chunk_text(text, max_chars=40)
+
+    monkeypatch.setattr(run_module, "chunk_text", finer_chunks)
+    rechunked = CountingProvider()
+    run_pipeline(settings, rechunked)
+
+    assert rechunked.calls > 0, "a re-chunked document must be re-extracted, not reused"
+
+
+def test_a_record_predating_the_chunk_plan_field_is_never_reused(tmp_path: Path) -> None:
+    """Fail-closed on legacy provenance: 'unknown' can never match a computed plan."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, CountingProvider())
+
+    claims_path = tmp_path / "processed" / "claims.json"
+    payload = json.loads(claims_path.read_text())
+    for document in payload:
+        for claim in document["claims"]:
+            claim["run"]["chunk_plan_sha256"] = "unknown"
+    claims_path.write_text(json.dumps(payload))
+
+    legacy = CountingProvider()
+    run_pipeline(settings, legacy)
+    assert legacy.calls > 0
+
+
+def test_a_document_that_yields_no_claims_is_still_reused(tmp_path: Path) -> None:
+    """Idempotency held for every document except the empty ones, until it didn't.
+
+    A document the model read and found nothing in has a real run record — the
+    run that read it. Without a document-level record it looked identical to a
+    document never processed, so it was re-inferred on every pass and the
+    published no-op guarantee was false for it.
+    """
     _seed_snapshots(tmp_path)
     settings = Settings(data_dir=tmp_path)
     run_pipeline(settings, EmptyProvider())
 
     second = EmptyProvider()
     run_pipeline(settings, second)
-    assert second.calls > 0
+    assert second.calls == 0, "a zero-claim document must not be re-inferred"
+
+
+def test_a_zero_claim_record_without_provenance_is_not_reused(tmp_path: Path) -> None:
+    """Fail-closed: a record predating the document-level run field is re-extracted."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, EmptyProvider())
+
+    claims_path = tmp_path / "processed" / "claims.json"
+    payload = json.loads(claims_path.read_text())
+    for document in payload:
+        document["run"] = None
+    claims_path.write_text(json.dumps(payload))
+
+    legacy = EmptyProvider()
+    run_pipeline(settings, legacy)
+    assert legacy.calls > 0
+
+
+def test_a_second_run_leaves_claims_json_byte_identical(tmp_path: Path) -> None:
+    """The replay claim, checked on the artifact rather than on the call count."""
+    _seed_snapshots(tmp_path)
+    settings = Settings(data_dir=tmp_path)
+    claims_path = tmp_path / "processed" / "claims.json"
+
+    run_pipeline(settings, FakeProvider())
+    first = claims_path.read_bytes()
+    run_pipeline(settings, FakeProvider())
+
+    assert claims_path.read_bytes() == first
+
+
+def test_documents_outside_the_sample_are_neither_inferred_nor_invented(tmp_path: Path) -> None:
+    """The sample rule bounds the run; an unsampled document yields no unprovenanced entry."""
+    _seed_snapshots(tmp_path)
+    write_snapshot(
+        tmp_path,
+        source_id="federal_register",
+        url="https://www.federalregister.gov/api/v1/documents/2019-00002.json",
+        content=(
+            b'{"document_number": "2019-00002", "title": "Older Rule",'
+            b' "publication_date": "2019-05-06",'
+            b' "html_url": "https://www.federalregister.gov/documents/2019-00002"}'
+        ),
+        content_type="application/json",
+        filename="2019-00002.json",
+    )
+    write_snapshot(
+        tmp_path,
+        source_id="federal_register",
+        # Snapshots are content-addressed, so the second document needs its own text.
+        url="https://www.federalregister.gov/documents/full_text/text/2019-00002.txt",
+        content=(SOURCE_TEXT + "\n\nBanks must retain these records.").encode(),
+        content_type="text/plain",
+        filename="2019-00002.txt",
+    )
+    settings = Settings(data_dir=tmp_path)
+
+    assert len(discover_documents(tmp_path)) == 2
+    extractions = run_pipeline(settings, FakeProvider())
+
+    assert [extraction.document_number for extraction in extractions] == ["2026-00001"]
+
+    # --all widens the run to the whole corpus.
+    every = {pair.document_number for pair in discover_documents(tmp_path)}
+    widened = run_pipeline(settings, FakeProvider(), documents=every)
+    assert {extraction.document_number for extraction in widened} == every
+
+    # ...and a later default run narrows straight back to the sample. Carrying
+    # the wider result forward would make the published documents_extracted
+    # describe a corpus the stated rule does not select.
+    narrowed = run_pipeline(settings, FakeProvider())
+    assert [extraction.document_number for extraction in narrowed] == ["2026-00001"]
+
+
+def test_targeted_reextraction_carries_other_documents_forward(tmp_path: Path) -> None:
+    """`--documents` is surgical: it must not discard work it did not select."""
+    _seed_snapshots(tmp_path)
+    write_snapshot(
+        tmp_path,
+        source_id="federal_register",
+        url="https://www.federalregister.gov/api/v1/documents/2026-00003.json",
+        content=(
+            b'{"document_number": "2026-00003", "title": "Second Rule",'
+            b' "publication_date": "2026-03-04",'
+            b' "html_url": "https://www.federalregister.gov/documents/2026-00003"}'
+        ),
+        content_type="application/json",
+        filename="2026-00003.json",
+    )
+    write_snapshot(
+        tmp_path,
+        source_id="federal_register",
+        url="https://www.federalregister.gov/documents/full_text/text/2026-00003.txt",
+        content=(SOURCE_TEXT + "\n\nBanks must retain these records.").encode(),
+        content_type="text/plain",
+        filename="2026-00003.txt",
+    )
+    settings = Settings(data_dir=tmp_path)
+    run_pipeline(settings, FakeProvider())
+
+    targeted = CountingProvider()
+    extractions = run_pipeline(settings, targeted, force=True, documents={"2026-00001"})
+
+    assert {extraction.document_number for extraction in extractions} == {
+        "2026-00001",
+        "2026-00003",
+    }
+    assert targeted.calls > 0

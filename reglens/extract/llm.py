@@ -13,6 +13,7 @@ closed, schema-constrained transform (docs/SECURITY.md, prompt injection).
 import hashlib
 import json
 import re
+import time
 from importlib import resources
 from typing import Any, Protocol, cast
 
@@ -30,6 +31,9 @@ from reglens.extract.schema import (
 USER_TEMPLATE = "<document>\n{document}\n</document>"
 
 _UNCOMPILABLE_KEYWORDS = ("maxLength", "minLength")
+
+# Bounded 429 handling for the hosted free tier (see chat_json_openai).
+_RATE_LIMIT_RETRIES = 5
 
 
 _DELIMITER_PATTERN = re.compile(r"<(/?)\s*document\b([^>]*)>", re.IGNORECASE)
@@ -140,6 +144,97 @@ def chat_json(
     )
     response.raise_for_status()
     content: str = response.json()["message"]["content"]
+    return content
+
+
+def strict_schema(schema: dict[str, Any]) -> dict[str, Any]:
+    """A copy of ``schema`` acceptable to strict OpenAI-style structured output.
+
+    Strict mode requires every object node to declare
+    ``additionalProperties: false``; pydantic's ``model_json_schema`` omits it.
+    Length bounds are kept — the grammar limitation worked around in
+    :func:`generation_schema` is specific to the local runtime.
+    """
+    return _add_additional_properties(schema)
+
+
+def _add_additional_properties(node: Any) -> Any:
+    if isinstance(node, dict):
+        out = {
+            key: _add_additional_properties(value)
+            for key, value in cast(dict[str, Any], node).items()
+        }
+        if out.get("type") == "object":
+            out.setdefault("additionalProperties", False)
+        return out
+    if isinstance(node, list):
+        return [_add_additional_properties(item) for item in cast(list[Any], node)]
+    return node
+
+
+def chat_json_openai(
+    base_url: str,
+    *,
+    api_key: str,
+    model: str,
+    system_prompt: str,
+    user_prompt: str,
+    schema: dict[str, Any],
+    temperature: float,
+    seed: int,
+    max_tokens: int,
+    reasoning_effort: str | None,
+    timeout: float,
+) -> str:
+    """POST one schema-constrained completion to an OpenAI-compatible API (Groq).
+
+    The hosted sibling of :func:`chat_json` used by pipeline narrative stages.
+    The optional web endpoint has a separate server-side adapter. The schema is
+    enforced through strict ``response_format``; reasoning output, when the
+    model produces it, arrives in a separate field and never reaches returned
+    content. The model executes no tools and fetches no URLs.
+
+    Failure mode: free-tier admission reserves ``max_tokens`` against the
+    per-minute token budget, so bursts rate-limit — a 429 is retried a bounded
+    number of times honoring ``Retry-After``; persistent 429s and all other
+    HTTP errors propagate. The returned string is unvalidated and every caller
+    must validate it.
+    """
+    payload: dict[str, Any] = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {"name": "response", "strict": True, "schema": strict_schema(schema)},
+        },
+        "temperature": temperature,
+        "seed": seed,
+        "max_completion_tokens": max_tokens,
+        "stream": False,
+    }
+    if reasoning_effort is not None:
+        payload["reasoning_effort"] = reasoning_effort
+    response: httpx.Response | None = None
+    for _ in range(_RATE_LIMIT_RETRIES + 1):
+        response = httpx.post(
+            f"{base_url}/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}"},
+            json=payload,
+            timeout=timeout,
+        )
+        if response.status_code != 429:
+            break
+        try:
+            delay = float(response.headers.get("retry-after", "20"))
+        except ValueError:
+            delay = 20.0
+        time.sleep(min(delay + 1.0, 120.0))
+    assert response is not None  # loop body always assigns
+    response.raise_for_status()
+    content: str = response.json()["choices"][0]["message"]["content"]
     return content
 
 

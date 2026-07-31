@@ -31,7 +31,7 @@ _ALLOWED: tuple[tuple[str, str], ...] = (
     ("data.opensanctions.org", "/datasets/"),
     # Treasury Fiscal Data API (optional secondary demo)
     ("api.fiscaldata.treasury.gov", "/services/api/fiscal_service/"),
-    # EXTEND-OGC01 sources (docs/DATA_SOURCES.md, extension rows):
+    # Authority, drafting, and governance references (docs/DATA_SOURCES.md):
     # OLRC U.S. Code USLM XML release-point downloads
     ("uscode.house.gov", "/download/"),
     # Document Drafting Handbook (Aug 2018 ed., rev. 2.2)

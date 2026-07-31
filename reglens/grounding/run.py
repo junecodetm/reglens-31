@@ -1,10 +1,9 @@
-"""Stage 2 pipeline: marker retrieval over FR documents → grounding.json.
+"""Grounding pipeline: marker retrieval over Federal Register documents.
 
-Inputs: the FR document snapshots already in ``data/raw`` (the 20-rule
-corpus plus the four per-part source preambles). Outputs:
-``data/processed/grounding.json``. Failure mode: a part whose source
-preamble is not retrievable is recorded as a first-class coverage fact
-("preamble unavailable"), fail-closed — never synthesized.
+Inputs: relevant Federal Register snapshots in ``data/raw``. Output:
+``data/processed/grounding.json``. Failure mode: a part whose source preamble
+is not retrievable is recorded as a coverage fact ("preamble unavailable")
+and never synthesized.
 """
 
 from pathlib import Path
@@ -48,7 +47,7 @@ class RuleGrounding(BaseModel):
     title: str
     publication_date: str | None
     source_for_part: int | None = None
-    # Facts (EXTEND-OGC01 Stage 2.4) — recorded, not judged:
+    # Neutral rule facts — recorded, not judged:
     predates_loper_bright: bool | None
     cites_chevron: bool
     word_count: int

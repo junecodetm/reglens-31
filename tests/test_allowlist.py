@@ -13,7 +13,7 @@ ALLOWED_URLS = [
     "https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy",
     "https://data.opensanctions.org/datasets/latest/us_ofac_sdn/entities.ftm.json",
     "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
-    # EXTEND-OGC01 sources
+    # Authority, drafting, and governance sources
     "https://uscode.house.gov/download/releasepoints/us/pl/119/102/xml_usc31@119-102.zip",
     "https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf",
     "https://www.reginfo.gov/public/pdf/eo14192/Accounting_Methods_under_EO_14192.pdf",
@@ -30,7 +30,7 @@ REFUSED_URLS = [
     "https://boiefiling.fincen.gov/anything",  # excluded by invariant 3
     "not a url",
     "",
-    # EXTEND-OGC01 §2 forbidden dependencies stay refused
+    # Categorically excluded dependencies stay refused
     "https://www.courtlistener.com/api/rest/v4/opinions/",
     "https://api.data.gov/regulations/v4/documents",
     "https://uscode.house.gov/browse/prelim@title31",  # outside /download/

@@ -96,3 +96,68 @@ def test_generate_narrative_missing_required_field_raises_validation_error(
             authority="31 U.S.C. 5318",
             doc_type="rule",
         )
+
+
+GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+
+@respx.mock(assert_all_mocked=True)
+def test_generate_narrative_groq_requires_api_key(
+    respx_mock: respx.MockRouter,
+) -> None:
+    with pytest.raises(RuntimeError, match="requires REGLENS_GROQ_API_KEY"):
+        generate_narrative(
+            Settings(draft_provider="groq", groq_api_key=None),
+            part=1010,
+            heading="Scope",
+            authority="31 U.S.C. 5318",
+            doc_type="rule",
+        )
+    assert len(respx_mock.calls) == 0
+
+
+@respx.mock(assert_all_mocked=True)
+def test_generate_narrative_groq_posts_strict_schema(
+    respx_mock: respx.MockRouter,
+) -> None:
+    posted_bodies: list[dict[str, object]] = []
+
+    def model_response(request: Request) -> Response:
+        posted_bodies.append(cast(dict[str, object], json.loads(request.content)))
+        content = json.dumps(
+            {
+                "summary": "A hosted neutral summary.",
+                "supplementary_intro": "A hosted neutral introduction.",
+            }
+        )
+        return Response(
+            200,
+            json={"choices": [{"message": {"content": content}}]},
+        )
+
+    respx_mock.post(GROQ_CHAT_URL).mock(side_effect=model_response)
+
+    narrative = generate_narrative(
+        Settings(draft_provider="groq", groq_api_key="test"),
+        part=1010,
+        heading="Scope",
+        authority="31 U.S.C. 5318",
+        doc_type="rule",
+    )
+
+    assert narrative.summary == "A hosted neutral summary."
+    assert narrative.supplementary_intro == "A hosted neutral introduction."
+    assert len(posted_bodies) == 1
+    response_format = cast(dict[str, object], posted_bodies[0]["response_format"])
+    json_schema = cast(dict[str, object], response_format["json_schema"])
+    assert json_schema["strict"] is True
+    schema = cast(dict[str, object], json_schema["schema"])
+    assert schema["additionalProperties"] is False
+
+
+@pytest.fixture(autouse=True)
+def _default_narrative_tests_to_local_provider(  # pyright: ignore[reportUnusedFunction] — autouse fixture
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Keep implicit-provider tests isolated from a developer's dotenv file."""
+    monkeypatch.setenv("REGLENS_DRAFT_PROVIDER", "local")

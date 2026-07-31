@@ -8,6 +8,8 @@ rejected (fail-closed, see ``reglens.provenance``).
 """
 
 import json
+from collections.abc import Sequence
+from collections.abc import Set as AbstractSet
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import NamedTuple
@@ -17,7 +19,8 @@ import structlog
 from pydantic import ValidationError
 
 from reglens.config import Settings
-from reglens.extract.chunk import chunk_text
+from reglens.corpus import document_char_cap, in_extraction_sample
+from reglens.extract.chunk import chunk_plan_sha256, chunk_text
 from reglens.extract.llm import LLMProvider, input_sha256
 from reglens.extract.records import ClaimRecord, DocumentExtraction, claim_id
 from reglens.extract.schema import ExtractedObligation, RunMeta
@@ -33,6 +36,12 @@ class DocumentPair(NamedTuple):
     url: str
     text_sha256: str
     text: str
+    publication_date: str = ""
+    """ISO publication date from the source metadata; ``""`` when it carries none.
+
+    Read by :func:`reglens.corpus.in_extraction_sample`, which is fail-closed on
+    an absent or malformed value.
+    """
 
 
 def discover_documents(data_dir: Path) -> list[DocumentPair]:
@@ -57,15 +66,29 @@ def discover_documents(data_dir: Path) -> list[DocumentPair]:
                 url=str(meta.get("html_url", "")),
                 text_sha256=sha,
                 text=text,
+                publication_date=str(meta.get("publication_date", "")),
             )
         )
     return pairs
 
 
+def sampled_documents(pairs: Sequence[DocumentPair]) -> frozenset[str]:
+    """The document numbers :func:`reglens.corpus.in_extraction_sample` selects."""
+    return frozenset(
+        pair.document_number
+        for pair in pairs
+        if in_extraction_sample(pair.document_number, pair.publication_date)
+    )
+
+
 def extract_obligations(
-    provider: LLMProvider, text: str, *, workers: int = 1
+    provider: LLMProvider, chunks: list[str], *, workers: int = 1
 ) -> list[ExtractedObligation]:
-    """Run the model over paragraph-aligned chunks and concatenate its proposals.
+    """Run the model over the given chunks and concatenate its proposals.
+
+    Takes chunks rather than text so the caller owns chunking policy once: the
+    sequence hashed into the run record is the same sequence that is sent to the
+    model, not an equivalent one recomputed here.
 
     Chunks may be extracted concurrently (``workers`` > 1) but their results are
     always reassembled in chunk order, so the output does not depend on
@@ -77,7 +100,6 @@ def extract_obligations(
     still process, so one bad response cannot sink a document.
     """
     logger = structlog.get_logger()
-    chunks = list(chunk_text(text))
 
     def extract_chunk(indexed: tuple[int, str]) -> list[ExtractedObligation]:
         index, chunk = indexed
@@ -97,32 +119,59 @@ def extract_obligations(
     return [obligation for group in per_chunk for obligation in group]
 
 
-def _bounded_text(text: str, max_chars: int) -> str:
-    """Cap very long documents at a paragraph boundary; coverage is recorded, not hidden."""
-    if len(text) <= max_chars:
+def _bounded_text(text: str, max_chars: int | None) -> str:
+    """Cap very long documents at a paragraph boundary; coverage is recorded, not hidden.
+
+    ``max_chars=None`` means uncapped — see :func:`reglens.corpus.document_char_cap`
+    for which documents that applies to and why.
+    """
+    if max_chars is None or len(text) <= max_chars:
         return text
     cut = text.rfind("\n\n", 0, max_chars)
     return text[: cut if cut > 0 else max_chars]
 
 
-def document_run_meta(provider: LLMProvider, pair: DocumentPair, max_chars: int) -> RunMeta:
+class DocumentPlan(NamedTuple):
+    """Exactly what one run will send to the model: the bounded text, in chunks."""
+
+    text: str
+    chunks: list[str]
+
+
+def document_plan(pair: DocumentPair, max_chars: int | None) -> DocumentPlan:
+    """Resolve ``pair`` to the text and chunk sequence a run would use."""
+    text = _bounded_text(pair.text, max_chars)
+    return DocumentPlan(text=text, chunks=chunk_text(text))
+
+
+def _plan_run_meta(provider: LLMProvider, plan: DocumentPlan) -> RunMeta:
+    """The determinism record identifying a run of ``plan``."""
+    return provider.run_meta(input_sha256(plan.text)).model_copy(
+        update={"chunk_plan_sha256": chunk_plan_sha256(plan.chunks)}
+    )
+
+
+def document_run_meta(provider: LLMProvider, pair: DocumentPair, max_chars: int | None) -> RunMeta:
     """The determinism record a run of ``pair`` would produce, without calling the model.
 
     Shared by :func:`gate_document` and the reuse check so the two can never
-    disagree about what identifies a run.
+    disagree about what identifies a run. The cap is folded in via the input
+    hash and the chunk boundaries via the chunk-plan hash, so widening a
+    document's cap OR changing the chunker invalidates its cached extraction.
     """
-    return provider.run_meta(input_sha256(_bounded_text(pair.text, max_chars)))
+    return _plan_run_meta(provider, document_plan(pair, max_chars))
 
 
 def gate_document(
-    provider: LLMProvider, pair: DocumentPair, max_chars: int = 80_000, *, workers: int = 1
+    provider: LLMProvider, pair: DocumentPair, max_chars: int | None = 80_000, *, workers: int = 1
 ) -> DocumentExtraction:
     """Extract one document (bounded) and pass every claim through the provenance gate."""
-    extraction_text = _bounded_text(pair.text, max_chars)
-    run_meta = document_run_meta(provider, pair, max_chars)
+    plan = document_plan(pair, max_chars)
+    extraction_text = plan.text
+    run_meta = _plan_run_meta(provider, plan)
     claims: list[ClaimRecord] = []
     seen: set[str] = set()
-    for obligation in extract_obligations(provider, extraction_text, workers=workers):
+    for obligation in extract_obligations(provider, plan.chunks, workers=workers):
         identifier = claim_id(pair.text_sha256, obligation)
         if identifier in seen:
             continue  # identical span re-proposed by another chunk
@@ -157,6 +206,7 @@ def gate_document(
         rejected_count=len(claims) - accepted,
         total_chars=len(pair.text),
         extracted_chars=len(extraction_text),
+        run=run_meta,
         claims=claims,
     )
 
@@ -189,15 +239,19 @@ def reusable_extraction(
 ) -> DocumentExtraction | None:
     """A prior extraction of ``pair`` iff it is provably the same run, else None.
 
-    Reuse requires the source SHA to match and EVERY persisted claim to carry an
-    identical run record (model tag, prompt hash, input hash, temperature), so a
-    changed model or prompt invalidates the cache automatically. Failure mode: a
-    document with no persisted claims is never reused — an empty result carries
-    no run record, so its provenance cannot be established and it is re-extracted
-    (fail-closed).
+    Reuse requires the source SHA to match, the document's own run record to
+    equal ``expected_run``, and every persisted claim to agree with it — so a
+    changed model, prompt, runtime or chunk plan invalidates the cache
+    automatically. Checking the document record as well as the claims is what
+    lets a document that legitimately yielded NO claims be reused: its
+    provenance is the run that read it, not the output of that run.
+
+    Failure mode: fail-closed. A record predating the document-level run field
+    carries ``None``, which never matches, so it is re-extracted rather than
+    trusted.
     """
     previous = persisted.get(pair.text_sha256)
-    if previous is None or not previous.claims:
+    if previous is None or previous.run != expected_run:
         return None
     if any(claim.run != expected_run for claim in previous.claims):
         return None
@@ -205,24 +259,61 @@ def reusable_extraction(
 
 
 def run_pipeline(
-    settings: Settings, provider: LLMProvider, *, force: bool = False
+    settings: Settings,
+    provider: LLMProvider,
+    *,
+    force: bool = False,
+    documents: AbstractSet[str] | None = None,
 ) -> list[DocumentExtraction]:
-    """Extract + gate every discovered document; persist to data/processed/claims.json.
+    """Extract + gate the sampled documents; persist to data/processed/claims.json.
 
-    Idempotent: a document whose source SHA, model tag and prompt hash already
-    appear in claims.json is reused rather than re-inferred, so re-running over
-    an unchanged corpus is a no-op and an interrupted run resumes where it
-    stopped. ``force=True`` re-extracts everything. Checkpoints after every
-    document so a long run interrupted midway still leaves a valid,
-    self-consistent claims.json on disk.
+    Idempotent: a document whose source SHA, model tag, prompt hash, runtime and
+    chunk plan already appear in claims.json is reused rather than re-inferred,
+    so re-running over an unchanged corpus is a no-op and an interrupted run
+    resumes where it stopped. ``force=True`` re-extracts the selected documents.
+    Checkpoints after every document so a long run interrupted midway still
+    leaves a valid, self-consistent claims.json on disk.
+
+    ``documents`` restricts which documents this run may *infer*. It defaults to
+    :func:`reglens.corpus.in_extraction_sample`, so a bare run covers the stated
+    sample and never the whole corpus by surprise; pass every discovered document
+    number to extract the corpus in full (hours of local inference).
+
+    The two modes differ in what they do with documents they did not select, and
+    the difference matters:
+
+    * **Default (the sample).** The output IS the sample — anything outside it
+      is dropped, not carried. Otherwise a previous wider run would leak into
+      this one and the published ``documents_extracted`` would silently describe
+      a corpus nobody asked for.
+    * **Explicit ``documents``.** Targeted re-extraction. Everything else keeps
+      its persisted extraction verbatim, including its original run record,
+      which is never rewritten: a claim always reports the run that actually
+      produced it. A document that is neither selected nor already persisted is
+      dropped (fail-closed: no entry is better than an unprovenanced one).
+
+    Every carry-forward and drop is logged.
     """
     logger = structlog.get_logger()
     processed_dir = settings.data_dir / "processed"
-    persisted = {} if force else load_persisted(processed_dir)
+    persisted = load_persisted(processed_dir)
+    reusable = {} if force else persisted
     extractions: list[DocumentExtraction] = []
-    for pair in discover_documents(settings.data_dir):
-        expected_run = document_run_meta(provider, pair, settings.max_document_chars)
-        cached = reusable_extraction(persisted, pair, expected_run)
+    pairs = discover_documents(settings.data_dir)
+    targeted = documents is not None
+    selected = documents if documents is not None else sampled_documents(pairs)
+    for pair in pairs:
+        if pair.document_number not in selected:
+            carried = persisted.get(pair.text_sha256) if targeted else None
+            if carried is None:
+                logger.info("document-skipped", document=pair.document_number)
+                continue
+            extractions.append(carried)
+            logger.info("document-carried-forward", document=pair.document_number)
+            continue
+        cap = document_char_cap(pair.document_number, settings.max_document_chars)
+        expected_run = document_run_meta(provider, pair, cap)
+        cached = reusable_extraction(reusable, pair, expected_run)
         if cached is not None:
             extractions.append(cached)
             logger.info("document-reused", document=pair.document_number)
@@ -230,7 +321,7 @@ def run_pipeline(
         extraction = gate_document(
             provider,
             pair,
-            max_chars=settings.max_document_chars,
+            max_chars=cap,
             workers=settings.extract_workers,
         )
         extractions.append(extraction)

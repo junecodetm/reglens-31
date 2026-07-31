@@ -1,5 +1,4 @@
 # RegLens-31 command surface — docs/COMMANDS.md
-# Stubbed recipes exit 1 with a pointer to their build phase (docs/BUILD_PLAN.md).
 
 # uv sync + web deps + pull the pinned local model
 setup:
@@ -21,28 +20,46 @@ ingest *docs:
 ingest-corpus:
     uv run python -m reglens.ingest --corpus
 
-# run local extraction + provenance gate over all snapshots, then rebuild stores
+# refresh the eCFR section census + amendment dates the currency comparison uses
+ecfr-currency:
+    uv run python -m reglens.ingest.ecfr_versions
+
+# Which documents are extracted is a rule, not a list
+# (reglens.corpus.in_extraction_sample); pass --all for the whole corpus.
+# local extraction + provenance gate over the sampled documents, then rebuild stores
 extract:
     uv run python -m reglens.extract
     uv run python -m reglens.store.database
 
-# Design + caveats: docs/ENTITY_RESOLUTION.md; first item in the sanctioned
-# de-scope order (docs/PROGRESS.md).
-# OFAC 50% ownership graph — DE-SCOPED from this build
-graph:
-    @echo "de-scoped: see docs/PROGRESS.md and docs/ENTITY_RESOLUTION.md" && exit 1
+# Run this after ANY extraction, including one launched detached, so no stage is
+# left stale: the eval harness reads claims, and the exporters read eval plus the
+# authority/grounding/draft output. Every stage is idempotent.
+# rebuild everything downstream of claims.json, in dependency order, then the site
+rebuild: && build-web
+    uv run python -m reglens.store.database
+    uv run python -m reglens.authority.run
+    uv run python -m reglens.grounding.run
+    uv run python -m reglens.draft.run
+    uv run python -m reglens.memo
+    uv run python -m reglens.eval.harness
+    uv run python -m reglens.eval.ogc01
 
-# EXTEND-OGC01 Stage 1: authority citations -> USLM resolution -> classification
+# statutory authority: citations -> USLM resolution -> classification
 authority:
     uv run python -m reglens.authority.run
 
-# EXTEND-OGC01 Stage 2: two-sided grounding-marker retrieval (deterministic)
+# two-sided grounding-marker retrieval (deterministic)
 grounding:
     uv run python -m reglens.grounding.run
 
-# EXTEND-OGC01 Stage 3: DDH skeletons + conformance gates (local model narrative)
+# DDH skeletons + conformance gates over the full part/doc-type grid
+# (narratives from the configured provider; unchanged combinations reused)
 draft:
     uv run python -m reglens.draft.run
+
+# per-part review memoranda: deterministic evidence + gated model narrative
+memo:
+    uv run python -m reglens.memo
 
 # eval harness over the gold set -> metrics + Wilson/bootstrap CIs ($0, offline)
 eval:
@@ -54,7 +71,7 @@ eval-gate:
     uv run python -m reglens.eval.harness --gate
     uv run python -m reglens.eval.ogc01 --gate
 
-# export data for the UI + Next.js static export -> web/out
+# export site data + the static read API (web/public/api/v1) + Next.js export -> web/out
 build-web:
     uv run python -m reglens.store.export_web
     # Stale incremental state breaks builds after route deletions — always build fresh.
@@ -73,19 +90,15 @@ ci: check-cost
 # local security suite: semgrep, zero-cost allow-list, PII scan
 security:
     uvx --from semgrep semgrep scan --config p/python --error --exclude data --exclude web/node_modules
-    uv run python scripts/check_zero_cost.py
-    uv run python scripts/redact_pii.py --check docs/PROGRESS.md governance/*.md README.md
+    python3 scripts/check_zero_cost.py
+    # docs/ADJUDICATE.md is excluded: it quotes Federal Register text verbatim,
+    # including official agency contact blocks (public by law, not PII).
+    sh -c 'uv run python scripts/redact_pii.py --check README.md governance/*.md $(ls docs/*.md | grep -v ADJUDICATE)'
 
 # pa11y (WCAG2AA) against the built static site
 a11y:
     @test -d web/out || just build-web
     sh -c 'python3 -m http.server 8031 -d web/out >/dev/null 2>&1 & S=$!; sleep 1; R=0; for r in "" obligations/ authorities/ drafts/ evaluation/ sources/; do npx --yes pa11y@9.1.1 --standard WCAG2AA "http://localhost:8031/$r" || R=$?; done; kill $S; exit $R'
-
-# The governance/ cards, impact assessment and monitoring/rollback plans ARE
-# present (docs/PROGRESS.md).
-# OSCAL component-definition validation — DE-SCOPED from this build
-govern:
-    @echo "de-scoped: OSCAL validation; governance artifacts live in governance/" && exit 1
 
 # scripts/check_zero_cost.py (fails if a non-allowlisted service appears)
 check-cost:

@@ -19,6 +19,7 @@ from typing import TypedDict, cast
 
 from reglens.authority.records import AuthorityExport
 from reglens.config import Settings
+from reglens.currency import build_currency_export
 from reglens.extract.records import ClaimRecord, DocumentExtraction, load_extractions
 from reglens.ingest.federal_register import require_safe_document_number
 from reglens.ingest.snapshot import iter_snapshots, read_manifest
@@ -29,6 +30,8 @@ from reglens.search_index import (
     build_search_index,
     serialize_search_index,
 )
+from reglens.store.corpus_scope import build_corpus
+from reglens.store.export_api import export_api_data
 from reglens.structure import (
     PartStructure,
     SectionsExport,
@@ -106,8 +109,24 @@ def cfr_references_by_document(data_dir: Path) -> dict[str, list[Mapping[str, ob
     return references
 
 
-EXAMPLE_ACCEPTED_CLAIM_ID = "fe677d4f490f99b2"
-EXAMPLE_REJECTED_CLAIM_ID = "33961b9a82254639"
+EXAMPLE_ACCEPTED_CLAIM_ID = "f5b026804c7ae3a2"
+EXAMPLE_REJECTED_CLAIM_ID = "92e403c2833a2adf"
+
+# Sentinel slots the live-drafting client replaces with model narrative; they
+# must never collide with real template text (asserted by the export itself).
+MODEL_SUMMARY_SLOT = "[[MODEL-SUMMARY]]"
+MODEL_SUPPLEMENTARY_SLOT = "[[MODEL-SUPPLEMENTARY]]"
+
+
+class _DraftInputPart(TypedDict):
+    part: int
+    heading: str
+    authority: str
+
+
+class _DraftInputsPayload(TypedDict):
+    parts: list[_DraftInputPart]
+    doc_types: list[str]
 
 
 class _NoClosestDetail(TypedDict):
@@ -460,24 +479,13 @@ def export_web_data(settings: Settings, web_dir: Path) -> Path:
                 source, encoding="utf-8", newline="\n"
             )
 
-    model_tags = sorted(
-        {claim.run.model_tag for extraction in extractions for claim in extraction.claims}
-    )
-    accepted = sum(extraction.accepted_count for extraction in extractions)
-    rejected = sum(extraction.rejected_count for extraction in extractions)
     payload = [extraction.model_dump() for extraction in extractions]
     references = cfr_references_by_document(settings.data_dir)
     for extraction, document in zip(extractions, payload, strict=True):
         number = extraction.document_number
         document["category"] = document_category(number, references.get(number, []))
     (out_dir / "claims.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
-    site = {
-        "accepted_count": accepted,
-        "rejected_count": rejected,
-        "document_count": len(extractions),
-        "model_tags": model_tags,
-        "data_as_of": latest_fetch[:10],
-    }
+    site = build_corpus(settings, extractions, data_as_of=latest_fetch[:10]).model_dump()
     (out_dir / "site.json").write_text(json.dumps(site, indent=2, sort_keys=True) + "\n")
     return out_dir
 
@@ -666,7 +674,7 @@ def export_example(out_dir: Path) -> None:
 
 
 def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
-    """Export EXTEND-OGC01 artifacts (authority, grounding, drafts, texts).
+    """Export authority, grounding, drafting, and source-text artifacts.
 
     The U.S.C. section texts and derived part texts are written byte-identical
     to what the provenance gate verified, so UI highlight offsets never drift.
@@ -679,11 +687,13 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     from reglens.draft.run import CONFORMANCE_JSON, DRAFTS_DIR
     from reglens.grounding.run import GROUNDING_JSON
     from reglens.ingest.ecfr import xml_to_text
+    from reglens.memo import MEMOS_JSON
 
     out_dir = web_dir / "public" / "data"
     usc_dir = out_dir / "usc"
     parts_dir = out_dir / "authority-parts"
     drafts_out = out_dir / "drafts"
+    templates_out = out_dir / "draft-templates"
     # A failed rebuild must not leave a derived index describing newer source
     # files alongside an older index.
     for artifact_name in ("sections.json", "search-index.json"):
@@ -691,7 +701,7 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     # Fail-closed publication: every generated text directory mirrors the
     # current accepted/pinned set exactly, so removed inputs cannot remain
     # published or leak into a later search index.
-    for directory in (usc_dir, parts_dir, drafts_out):
+    for directory in (usc_dir, parts_dir, drafts_out, templates_out):
         shutil.rmtree(directory, ignore_errors=True)
         directory.mkdir(parents=True, exist_ok=True)
 
@@ -709,8 +719,38 @@ def export_ogc01_data(settings: Settings, web_dir: Path) -> None:
     (out_dir / "authority.json").write_text(export.model_dump_json(indent=2) + "\n")
     (out_dir / "grounding.json").write_text(GROUNDING_JSON.read_text())
     (out_dir / "conformance.json").write_text(CONFORMANCE_JSON.read_text())
+    (out_dir / "memos.json").write_text(MEMOS_JSON.read_text())
     for draft_path in sorted(DRAFTS_DIR.glob("*.txt")):
         (drafts_out / draft_path.name).write_bytes(draft_path.read_bytes())
+
+    # Live-drafting support: the deterministic skeleton (with sentinel slots
+    # for the two model-generated fields) and the minimal per-part inputs are
+    # exported from the SAME Python template and authority records the
+    # build-time drafts use, so the live endpoint and the committed drafts
+    # cannot drift apart structurally.
+    from reglens.draft.templates import DOC_TYPES, build_skeleton
+
+    for part in export.parts:
+        for doc_type in DOC_TYPES:
+            skeleton = build_skeleton(part, doc_type, MODEL_SUMMARY_SLOT, MODEL_SUPPLEMENTARY_SLOT)
+            if (
+                skeleton.count(MODEL_SUMMARY_SLOT) != 1
+                or skeleton.count(MODEL_SUPPLEMENTARY_SLOT) != 1
+            ):
+                # Fail-closed: a sentinel colliding with template text would
+                # let the client splice narrative into the wrong location.
+                raise ValueError(f"draft template sentinel collision for part {part.part}")
+            (templates_out / f"31-CFR-{part.part}-{doc_type}.txt").write_text(
+                skeleton, encoding="utf-8", newline="\n"
+            )
+    draft_inputs: _DraftInputsPayload = {
+        "parts": [
+            {"part": part.part, "heading": part.part_heading, "authority": part.authority_text}
+            for part in export.parts
+        ],
+        "doc_types": sorted(DOC_TYPES),
+    }
+    (out_dir / "draft-inputs.json").write_text(json.dumps(draft_inputs, indent=2) + "\n")
 
     # Grounding scans every FR document, including the four source preambles
     # that carry no extracted claims — export their texts too so marker spans
@@ -793,13 +833,30 @@ def export_use_case_inventory(settings: Settings, web_dir: Path) -> None:
     )
 
 
+def export_currency(settings: Settings, web_dir: Path) -> None:
+    """Export the eCFR amendment-currency comparison from committed snapshots.
+
+    Reads the snapshotted eCFR versioner responses only — never the network — so
+    the drift the site reports is reproducible from the repository alone and the
+    deployed page needs no third-party origin. Failure mode: a missing snapshot
+    or a census section with no amendment record raises (see
+    :func:`reglens.currency.build_currency_export`); nothing partial is written.
+    """
+    export = build_currency_export(settings.data_dir)
+    (web_dir / "public" / "data" / "currency.json").write_text(
+        export.model_dump_json(indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+
+
 def main() -> int:
     settings = Settings()
     out_dir = export_web_data(settings, Path("web"))
     export_ogc01_data(settings, Path("web"))
     export_use_case_inventory(settings, Path("web"))
+    export_currency(settings, Path("web"))
     export_rejected_details(out_dir)
     export_example(out_dir)
+    export_api_data(Path("web"))
     print(out_dir)
     return 0
 

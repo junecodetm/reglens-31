@@ -7,10 +7,10 @@ facts. Failure mode: a span that fails the provenance gate is counted as a
 rejection and excluded (fail-closed; expected zero by construction since the
 patterns match the same text they quote — reported as a guardrail).
 
-This is a retrieval task, never a prediction task (EXTEND-OGC01 §0.2). No
-marker, count, density, or band states or implies anything about a
-regulation's validity or any judicial outcome. The analytic *West Virginia
-v. EPA* marker ("reliance on general authority to reach a major question")
+This is a retrieval task, never a prediction task. No marker, count, density,
+or band states or implies anything about a regulation's validity or any
+judicial outcome. The analytic *West Virginia v. EPA* marker ("reliance on
+general authority to reach a major question")
 is NOT literally searchable and is therefore out of scope — a limitation
 stated in docs/OGC01-ALIGNMENT.md.
 """

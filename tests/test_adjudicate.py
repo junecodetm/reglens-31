@@ -97,9 +97,10 @@ def test_render_ogc01_worklist_renders_each_fixture_backed_section_exactly(
 ) -> None:
     assert render_ogc01_worklist() == (
         "\n"
-        "# EXTEND-OGC01 Adjudication Worklist\n"
+        "# OGC-01 Capability Adjudication Worklist\n"
         "\n"
-        "Progress: **2/3 adjudicated.** Same protocol as above:\n"
+        "Provisional — machine-proposed labels, human-adjudicated: 2/3.\n"
+        "Apply the same protocol as above:\n"
         'find the record in its JSONL file, correct if needed, set `"adjudicated": true`,\n'
         "commit; `just eval` restates the metrics and their label automatically.\n"
         "\n"
@@ -107,7 +108,8 @@ def test_render_ogc01_worklist_renders_each_fixture_backed_section_exactly(
         "`reglens/eval/gold/authority/class_gold.jsonl`\n"
         "\n"
         "Check each against the U.S.C. section text (`web/public/data/usc/"
-        "usc-<title>-s<section>.txt`) and docs/ANNOTATION_GUIDELINES.md §OGC-01.\n"
+        "usc-<title>-s<section>.txt`) and the OGC-01 addendum in "
+        "docs/ANNOTATION_GUIDELINES.md.\n"
         "\n"
         "### Batch A1\n"
         "\n"
@@ -137,12 +139,12 @@ def test_batch_headers_mark_documented_indices_and_short_final_range(tmp_path: P
     _write_case(gold_dir, provisions, records)
 
     lines = render_worklist(gold_dir).splitlines()
-    headers = [line for line in lines if line.startswith("## Evening ")]
+    headers = [line for line in lines if line.startswith("## Batch ")]
 
     assert headers == [
-        "## Evening 1 (items 1-20)",
-        "## Evening 2 (items 21-40)",
-        "## Evening 3 (items 41-45)",
+        "## Batch 1 (items 1-20)",
+        "## Batch 2 (items 21-40)",
+        "## Batch 3 (items 41-45)",
     ]
     for header, item_number in zip(headers, (1, 21, 41), strict=True):
         header_index = lines.index(header)
@@ -160,10 +162,10 @@ def test_progress_line_counts_only_adjudicated_records(tmp_path: Path) -> None:
     _write_case(gold_dir, provisions, records)
 
     progress_line = next(
-        line for line in render_worklist(gold_dir).splitlines() if line.startswith("Progress:")
+        line for line in render_worklist(gold_dir).splitlines() if line.startswith("Provisional")
     )
 
-    assert progress_line == "Progress: **2/3 adjudicated.** Labels below are"
+    assert progress_line == ("Provisional — machine-proposed labels, human-adjudicated: 2/3.")
 
 
 def test_long_provision_text_is_truncated_with_one_ellipsis(tmp_path: Path) -> None:

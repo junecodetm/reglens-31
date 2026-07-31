@@ -6,9 +6,9 @@ grant span. Failure mode: none of the patterns matching yields ``silent``
 (a documented outcome, not an error); pattern quotes are later gate-verified
 by the caller and rejected fail-closed if verification fails.
 
-This is retrieval, not inference: no LLM is involved (EXTEND-OGC01 Stage 1
-makes zero legal conclusions — it surfaces the statutory verb for attorney
-judgment). The pattern table below IS the classifier; it is documented in
+This is retrieval, not inference: no LLM is involved and the result makes no
+legal conclusion — it surfaces the statutory verb for attorney judgment. The
+pattern table below IS the classifier; it is documented in
 docs/OGC01-ALIGNMENT.md and evaluated against proposed gold labels.
 
 Documented edge decision: "under regulations prescribed by the Secretary"

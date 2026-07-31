@@ -1,1 +1,1 @@
-"""Draft rule skeleton generator (EXTEND-OGC01 Stage 3)."""
+"""Draft rule skeleton generator with fail-closed conformance gates."""
