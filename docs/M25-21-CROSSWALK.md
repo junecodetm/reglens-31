@@ -1,9 +1,9 @@
 # OMB M-25-21 §4(b) Minimum-Practices Crosswalk
 
-> EXTEND-OGC01 Stage 4. Practice names and the deadline text below were verified
-> against the memo PDF itself (whitehouse.gov, M-25-21, issued 2025-04-03), not a
-> secondary source. This is a demonstration mapping for an independent prototype;
-> it is not a compliance claim, and this project is not a federal AI use case.
+The practice names and deadline text are drawn from the M-25-21 memorandum
+(WhiteHouse.gov, issued 2025-04-03). This crosswalk maps an independent
+prototype's artifacts to the memorandum. It is not a compliance claim, and the
+project is not a federal AI use case.
 
 ## Scope note
 
@@ -15,37 +15,38 @@ upon request as determined by OMB. If a particular high-impact use case is not
 compliant with the minimum practices then the agency must safely discontinue use
 of the AI functionality."*
 
-The 365-day clock (≈2026-04-03) and the discontinuation consequence apply to
-high-impact uses of AI; §4(b)(ii) separately requires an AI impact assessment
-*"before deploying"* a new high-impact use case — the memo's textual distinction
-between in-operation and pre-deployment obligations. OGC-01 ("Regulatory Reform
-Tool", Departmental Offices, high-impact) is listed as **Pre-Deployment**, so the
-§4(b) practices are the gate it must clear before deployment. That is precisely
-the stage this prototype demonstrates artifacts for.
+The 365-day deadline (approximately 2026-04-03) and the discontinuation
+requirement apply to high-impact uses of AI. Section 4(b)(ii) separately
+requires an AI impact assessment *"before deploying"* a new high-impact use
+case, distinguishing operational obligations from pre-deployment obligations.
+OGC-01 ("Regulatory Reform Tool," Departmental Offices, high-impact) is listed
+as **Pre-Deployment**. This prototype demonstrates artifacts relevant to that
+pre-deployment gate without asserting that the artifacts satisfy it.
 
-## Crosswalk: §4(b) minimum practices → concrete artifacts in this repo
+## Section 4(b) minimum-practices crosswalk
 
-| # | M-25-21 §4(b) practice (memo's wording) | Artifact here that demonstrates it |
+| # | M-25-21 §4(b) practice (memo's wording) | Artifact mapping |
 |---|---|---|
-| i | Conduct Pre-Deployment Testing | `reglens/eval/` harness (P/R/F1 with 95% Wilson + clustered-bootstrap CIs over a versioned gold set); CI regression gate (`.github/workflows/eval.yml`, fails on F1 regression or citation fidelity < 1.0); week-one falsification tests (docs/BUILD_PLAN.md); Playwright end-to-end audit |
+| i | Conduct Pre-Deployment Testing | `reglens/eval/` harness (P/R/F1 with 95% Wilson and clustered-bootstrap CIs over a versioned gold set); CI regression gate (`.github/workflows/eval.yml`, which fails on F1 regression or citation fidelity below 1.0); Playwright end-to-end audit; full local verification through `just ci`, documented in `docs/COMMANDS.md` |
 | ii | Complete AI Impact Assessment | `governance/ai_impact_assessment.md` (intended use, affected parties, failure modes, mitigations) |
-| iii | Conduct Ongoing Monitoring for Performance and Potential Adverse Impacts | `governance/monitoring_plan.md` (staleness triggers, refresh/retirement policy, "data as of" banner); every push re-runs the eval gate on pinned fixtures |
-| iv | Ensure Adequate Human Training and Assessment | `docs/ANNOTATION_GUIDELINES.md` (written labeling guidelines) + `docs/ADJUDICATE.md` (structured human-adjudication worklist; metrics restate from the JSONL as adjudication proceeds) |
-| v | Provide Additional Human Oversight, Intervention, and Accountability (incl. fail-safe) | The fail-closed provenance gate (`reglens/provenance.py`): an unverifiable claim is dropped, never shown — the fail-safe that "minimizes the risk of significant harm"; rejected-claim counts are publicly visible; `governance/rollback_plan.md` (revert to last-good static export + pinned model) |
-| vi | Offer Consistent Remedies or Appeals | Prototype scoping (honest): there are no end users whose determinations could require remedy — every displayed claim links to its primary source so any reader can check and refute it, and corrections land through the public issue tracker + adjudication worklist, restating metrics automatically |
-| vii | Consult and Incorporate Feedback from End Users and the Public | Public repository with issues enabled; evaluation data, guidelines, and rejection counts published for inspection. Prototype scoping: no agency end-user population exists to consult |
+| iii | Conduct Ongoing Monitoring for Performance and Potential Adverse Impacts | `governance/monitoring_plan.md` defines snapshot-age triggers and refresh or retirement controls. Every push runs the evaluation gate against pinned fixtures. |
+| iv | Ensure Adequate Human Training and Assessment | `docs/ANNOTATION_GUIDELINES.md` defines labeling criteria, and `docs/ADJUDICATE.md` defines the human-adjudication procedure. The prototype has no agency workforce or training program. |
+| v | Provide Additional Human Oversight, Intervention, and Accountability (incl. fail-safe) | The fail-closed provenance gate in `reglens/provenance.py` rejects unverifiable claims and reports rejection counts. `governance/rollback_plan.md` defines recovery to a known-good static export and pinned model. |
+| vi | Offer Consistent Remedies or Appeals | No remedies or appeals process is implemented because the prototype makes no determinations about people. Each displayed claim links to its primary source, and the public issue tracker and adjudication worklist support corrections. |
+| vii | Consult and Incorporate Feedback from End Users and the Public | The public repository exposes issues, evaluation data, guidelines, and rejection counts for review. No agency end-user population exists for consultation. |
 
 ## NIST AI 600-1 (Generative AI Profile) mapping
 
 | AI 600-1 risk | Posture here |
 |---|---|
-| **Confabulation** | Structural, not advisory: every model claim must carry a verbatim source span that passes a deterministic exact-substring check (fail-closed); citation fidelity is reported as a guardrail metric and gated at 1.0 in CI; draft-skeleton narratives pass a fabrication scan (RIN/docket/dollar/date/contact patterns reject the draft) and an unverifiable-quote gate |
-| **Information Integrity** | Content-addressed immutable snapshots (SHA-256) of every source with manifests (URL, fetch time, hash); deterministic replay (temperature 0, pinned model tag, prompt hash, input SHA recorded per run); SBOM + checksum-verified security tooling in CI; the deployed site is a pre-computed static artifact with no runtime network calls |
+| **Confabulation** | Structural, not advisory: every extracted claim must carry a verbatim source span that passes a deterministic exact-substring check (fail-closed); citation fidelity is reported as a guardrail metric and gated at 1.0 in CI; committed draft narratives pass the complete fabrication and unverifiable-quote gates; optional live narratives pass the disclosed in-browser gate subset and fall back to committed drafts on failure |
+| **Information Integrity** | Content-addressed immutable snapshots (SHA-256) of every source with manifests (URL, fetch time, hash); deterministic replay (temperature 0, pinned model tag, prompt hash, input SHA recorded per run); SBOM and checksum-verified security tooling in CI; a precomputed core site and read API that require no runtime network call; an optional same-origin live drafting endpoint with committed-draft fallback |
 
 ## Sources
 
 - OMB M-25-21, "Accelerating Federal Use of AI through Innovation, Governance,
-  and Public Trust" (2025-04-03), §§3, 4(a)(1), 4(b) — read from the memo PDF.
+  and Public Trust" (2025-04-03), §§3, 4(a)(1), and 4(b).
 - NIST AI 600-1, Generative AI Profile (2024-07-26), Confabulation and
   Information Integrity risk categories.
-- Treasury AI Use Case Inventory entry for OGC-01 (see docs/OGC01-ALIGNMENT.md).
+- Treasury AI Use Case Inventory entry for OGC-01 (see
+  `docs/OGC01-ALIGNMENT.md`).

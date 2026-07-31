@@ -1,9 +1,24 @@
 # Monitoring Plan — RegLens-31
 
-The deployed artifact is a pre-computed static export; "monitoring" is therefore snapshot-refresh discipline, not live telemetry.
+The deployed artifact is a precomputed static export. Monitoring consists of
+snapshot refresh, validation, and retirement controls rather than live
+telemetry.
 
-- **Staleness trigger:** the site footer shows the snapshot's "data as of" date. Policy: refresh (re-run `just ingest && just extract && just eval && just build-web`, commit, push → auto-deploy) when the snapshot is older than 90 days, or retire the demo with a dated notice.
-- **Drift trigger:** any upstream schema change surfaces as pydantic validation failures at ingest (tolerant parser logs unknown fields; hard failures stop the pipeline fail-closed).
-- **Quality regression:** the CI eval gate re-runs the harness on every push from committed fixtures; F1 below baseline − 0.05 or citation fidelity < 1.0 fails the build.
-- **Security cadence:** weekly scheduled security workflow (CodeQL, pip-audit, osv-scanner, gitleaks, semgrep, SBOM).
-- **Adjudication cadence:** ~20 gold items per evening (`docs/ADJUDICATE.md`); metrics and their provisional label restate automatically from the JSONL.
+- **Staleness:** The site footer displays the source snapshot date. A snapshot
+  older than 90 days requires either a refresh through `just ingest-corpus`,
+  `just ecfr-currency`, `just extract`, and `just rebuild`, or retirement of
+  the demonstration with a dated notice. `just rebuild` regenerates the
+  database, authority, grounding, draft, memorandum, evaluation, and web
+  artifacts. `docs/COMMANDS.md` documents the command surface.
+- **Schema drift:** Pydantic validation reports upstream schema changes during
+  ingestion. The tolerant parser logs unknown fields; hard validation failures
+  stop the pipeline.
+- **Quality regression:** The CI evaluation gate runs against committed
+  fixtures on every push. F1 below the baseline minus 0.05 or citation fidelity
+  below 1.0 fails the build.
+- **Security cadence:** A weekly workflow runs CodeQL, pip-audit, osv-scanner,
+  gitleaks, and semgrep, and generates an SBOM.
+- **Adjudication cadence:** Review sessions cover approximately 20 evaluation
+  items under `docs/ADJUDICATE.md`. Metrics and
+  `Provisional — machine-proposed labels, human-adjudicated: N/M` are
+  recalculated from the JSONL records.

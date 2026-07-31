@@ -1,9 +1,42 @@
 # Rollback Plan — RegLens-31
 
-**Deployed site:** Cloudflare Pages keeps every deployment immutable. Rollback = promote the last-good deployment in the Pages dashboard, or `git revert` the offending commit and push (CI redeploys). The static export has no state to migrate.
+## Deployed site
 
-**Pipeline:** raw snapshots are immutable and content-addressed; any processed artifact can be regenerated from a known-good snapshot + the pinned model tag recorded in each claim's `run` metadata. To roll back a bad extraction: `git revert` the commit that changed `data/processed/` / `web/public/data/` and rebuild.
+Cloudflare Pages retains immutable deployments. Recovery promotes the last known
+good deployment in the Pages dashboard or reverts the responsible commit and
+allows CI to redeploy. The static export has no state migration requirement.
 
-**Model:** the model tag is pinned in config; rolling back a model change is a one-line revert plus `just extract && just eval` — the eval gate blocks the rollback if it regresses metrics.
+## Pipeline
 
-**Secrets:** the only secret anywhere is the Cloudflare Pages deploy token (GitHub Actions secret, Pages:Edit scope). Compromise response: roll the token in the Cloudflare dashboard and update the repo secret; nothing else is affected.
+Raw snapshots are immutable and content-addressed. Processed artifacts can be
+regenerated from a known-good snapshot and the pinned model tag recorded in each
+claim's `run` metadata. Recovery from an invalid extraction reverts the commit
+that changed `data/processed/` or `web/public/data/` and rebuilds the static
+artifacts.
+
+## Model
+
+The model tag is pinned in configuration. Recovery from an invalid model change
+reverts the configuration change, runs `just extract`, and then runs
+`just rebuild` so every downstream artifact derives from the restored claims.
+The evaluation gate rejects a rollback that regresses metrics.
+
+## Secrets
+
+The static export requires no runtime secret. Deployment and optional
+generation use the following credentials:
+
+- `CLOUDFLARE_API_TOKEN` is a GitHub Actions secret with Pages:Edit scope for
+  deployment and Pages secret management.
+- `GROQ_API_KEY` is a GitHub Actions secret that deployment binds to the
+  Cloudflare Pages project for `/api/draft`.
+- `REGLENS_GROQ_API_KEY` is the local pipeline setting for Groq-backed draft and
+  memorandum generation and belongs only in the gitignored `.env` or process
+  environment.
+
+A suspected Cloudflare token compromise requires token rotation and replacement
+of the GitHub Actions secret. A suspected Groq key compromise requires provider
+rotation, replacement of the GitHub Actions secret, redeployment to replace the
+Pages project secret, and replacement of any local value. If the Groq secret is
+missing or unavailable, the optional live endpoint returns a typed failure and
+the interface falls back to the committed static draft.

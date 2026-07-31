@@ -1,11 +1,18 @@
-# Coding Standards
+# Coding standards
 
-> Decomposed from CLAUDE.md §5 (2026-07-28). A condensed version lives in the CLAUDE.md core; this is the full text.
-
-- Python 3.13, full type hints, `pyright` strict on `reglens/`. `ruff` for lint + format; no unformatted code merges.
-- Pydantic v2 models for every external payload and every extracted record; no untyped dicts crossing module boundaries.
-- Pure functions where possible; network side effects isolated in `ingest/` and `extract/llm.py` (the local model call); artifact writes in `store/` and thin CLI entry points.
-- Determinism: LLM calls use temperature 0 and a pinned model tag; every run records model id, prompt hash, and input SHA.
-- No secret in code; config via env + `.env` (gitignored); `pydantic-settings` for typed config.
-- Docstrings state inputs, outputs, and failure mode. Every fail-closed path is commented as such.
-- Tests: `pytest` + `respx`/`vcrpy` cassettes for HTTP + `hypothesis` for the provenance normalizer.
+- Production Python targets version 3.13 and uses complete type annotations.
+  `pyright` runs in strict mode over `reglens/`; `ruff` provides linting and
+  formatting.
+- Pydantic v2 models validate every external payload and extracted record.
+  Untyped dictionaries do not cross module boundaries.
+- Pure functions are preferred. Network side effects are isolated in
+  `reglens/ingest/` and `reglens/extract/llm.py`; artifact writes are isolated
+  in `reglens/store/` and thin command-line entry points.
+- Model calls use temperature 0 and a pinned model tag. Each run records the
+  model identifier, prompt hash, and input SHA.
+- Source code contains no secrets. Environment variables and a gitignored
+  `.env` file provide configuration through `pydantic-settings`.
+- Docstrings state inputs, outputs, and failure modes. Comments identify
+  fail-closed paths.
+- Tests use `pytest`, `respx` or `vcrpy` cassettes for HTTP behavior, and
+  `hypothesis` for provenance normalization.

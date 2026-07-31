@@ -1,14 +1,63 @@
-# AI Impact Assessment — RegLens-31 (prototype-scoped)
+# AI Impact Assessment — RegLens-31 Prototype
 
-**Purpose & benefit:** demonstrate auditable, provenance-gated extraction of regulatory obligations (maps to Treasury's "Document Processing and Regulatory Intake" use-case family and DO high-impact use case OGC-01) with zero data egress.
+## Purpose and benefit
 
-**Rights/safety impact:** minimal by construction — public regulatory text only; no PII ingested; no decisions about individuals; outputs are assistive with a human in the loop and a visible non-affiliation disclaimer.
+RegLens-31 demonstrates auditable, provenance-gated extraction of regulatory
+obligations. The capability corresponds to Treasury's "Document Processing and
+Regulatory Intake" use-case family and high-impact use case OGC-01, whose
+inventory component is General Counsel.
 
-**Failure modes & mitigations (NIST AI RMF MAP/MEASURE/MANAGE):**
-- *Confabulated claims* → fail-closed provenance gate rejects unverifiable quotes; rejection counts are public in the UI.
-- *Missed obligations (recall)* → measured against a versioned gold set with honest CIs; provisional labeling until adjudication.
-- *Prompt injection from source text* → no tools, no fetching, delimited data, schema-constrained output, gate as backstop.
-- *Metric gaming/regression* → CI eval gate on committed fixtures fails the build on F1 regression or fidelity < 1.0.
-- *Staleness* → dated snapshot with "as of" footer; refresh policy in monitoring_plan.md.
+## Data handling
 
-**Human oversight:** every claim links to its primary source with the exact span highlighted; adjudication worklist (`docs/ADJUDICATE.md`) restates metrics as humans rule on labels.
+Obligation extraction runs locally and has no third-party egress. The committed
+draft and review-memorandum narratives use the pinned Groq free-tier
+`openai/gpt-oss-120b` model. Draft prompts send the part number, heading,
+authority citation, and document type. Memorandum prompts also send derived
+authority classifications and marker counts and bands. These inputs are public
+regulatory metadata or deterministic evidence; they do not include corpus
+documents.
+
+The optional `/api/draft` endpoint sends the draft metadata and the
+visitor-supplied policy objective to Groq. The objective is limited to 500
+characters, neutralized as data rather than instructions, and leaves the
+visitor's browser. The endpoint cannot determine whether a visitor has entered
+sensitive content; visitors must not submit personal or non-public information.
+
+## Rights and safety impact
+
+The corpus pipeline ingests public regulatory text and no private-individual
+PII. Source documents may contain official public contact information. The
+system makes no decisions about individuals. Outputs support human review and
+appear with a non-affiliation disclaimer.
+
+## Failure modes and mitigations
+
+The controls correspond to the NIST AI RMF MAP, MEASURE, and MANAGE functions.
+
+- **Confabulated claims:** A fail-closed provenance gate rejects unverifiable
+  quotations, and the interface reports rejection counts.
+- **Missed obligations:** Recall is measured against a versioned evaluation set
+  with confidence intervals. Metrics carry the label
+  `Provisional — machine-proposed labels, human-adjudicated: N/M` until human
+  adjudication is complete.
+- **Prompt injection from source text or a policy objective:** Models execute
+  no tools and fetch no URLs. Inputs are delimited, live policy objectives are
+  neutralized as data, output is schema-constrained, and quotation checks
+  provide an independent control.
+- **Metric gaming or regression:** The CI evaluation gate uses committed
+  fixtures and fails on an F1 regression or citation fidelity below 1.0.
+- **Staleness:** The interface displays the source snapshot date.
+  `governance/monitoring_plan.md` defines refresh and retirement criteria.
+- **Hosted-service availability and quota:** Draft, memorandum, and live
+  narrative generation depend on the shared Groq free tier. The live interface
+  reports unavailability or quota exhaustion and falls back to a committed
+  draft.
+- **Live-gate coverage:** Committed drafts pass the full build-time conformance
+  gate. Live output passes only the documented in-browser subset and is labeled
+  accordingly.
+
+## Human oversight
+
+Every claim links to its primary source and highlights the exact supporting
+span. The adjudication worklist in `docs/ADJUDICATE.md` restates metrics as
+reviewers adjudicate labels.

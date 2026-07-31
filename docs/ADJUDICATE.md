@@ -1,7 +1,7 @@
 # Adjudication Worklist
 
-Progress: **0/251 adjudicated.** Labels below are
-machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on them.
+Provisional — machine-proposed labels, human-adjudicated: 0/251.
+Each record identifies its proposing model in `proposed_by`. Machine proposals are not ground truth until adjudicated.
 
 ## How to adjudicate an item
 
@@ -14,7 +14,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
    (`just eval` regenerates metrics; `uv run python -m reglens.eval.adjudicate`
    regenerates this worklist).
 
-## Evening 1 (items 1-20)
+## Batch 1 (items 1-20)
 
 ### 1. `3c8441d058413908` — ⬜ pending
 
@@ -156,7 +156,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Annex list heading; no operative language
 
-## Evening 2 (items 21-40)
+## Batch 2 (items 21-40)
 
 ### 21. `4a56313231e28efd` — ⬜ pending
 
@@ -298,7 +298,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Describes UMRA section 202 requirements located elsewhere; disclaims applicability here
 
-## Evening 3 (items 41-60)
+## Batch 3 (items 41-60)
 
 ### 41. `ef97036326d8ad04` — ⬜ pending
 
@@ -440,7 +440,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Notice of document availability on OFAC website
 
-## Evening 4 (items 61-80)
+## Batch 4 (items 61-80)
 
 ### 61. `6633cc3ee6925c25` — ⬜ pending
 
@@ -582,7 +582,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Definitional note explaining the term petrochemical products
 
-## Evening 5 (items 81-100)
+## Batch 5 (items 81-100)
 
 ### 81. `44e23c611d8f0083` — ⬜ pending
 
@@ -724,7 +724,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** SUMMARY describing scope and affected parties of final regulations
 
-## Evening 6 (items 101-120)
+## Batch 6 (items 101-120)
 
 ### 101. `01ac94b090ad08e4` — ⬜ pending
 
@@ -866,7 +866,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** HTML/Federal Register masthead boilerplate
 
-## Evening 7 (items 121-140)
+## Batch 7 (items 121-140)
 
 ### 121. `bce8ed0640416b07` — ⬜ pending
 
@@ -1008,7 +1008,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=prohibition, party=the company
 - **Rationale (claude-fable-5):** Revocation 'precludes the company from underwriting or reinsuring additional bonds'
 
-## Evening 8 (items 141-160)
+## Batch 8 (items 141-160)
 
 ### 141. `ecb5fe8465702e73` — ⬜ pending
 
@@ -1150,7 +1150,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=requirement, party=the Director
 - **Rationale (claude-fable-5):** 'the Director shall determine' whether to dismiss or issue Order; 'Order shall be served'
 
-## Evening 9 (items 161-180)
+## Batch 9 (items 161-180)
 
 ### 161. `bc793aff6f77c9a7` — ⬜ pending
 
@@ -1197,7 +1197,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 ### 167. `754706afed881e29` — ⬜ pending
 
 - **Document:** C1-2026-10036 (chars 360-1016)
-- **Provision:**  ========================================================================  Rules and Regulations   Federal Register  ________________________________________________________________________    This section of the FEDERAL REGISTER contains regulatory documents  having general applicability and legal effect, most of which are keyed  to and codified in the Code of Federal Regulations, which is publis…
+- **Provision:** ======================================================================== Rules and Regulations Federal Register ________________________________________________________________________ This section of the FEDERAL REGISTER contains regulatory documents having general applicability and legal effect, most of which are keyed to and codified in the Code of Federal Regulations, which is published under …
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** Federal Register masthead boilerplate describing the Rules section
 
@@ -1292,7 +1292,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=requirement, party=the company (subject elided by truncation)
 - **Rationale (claude-fable-5):** operative 'must: meet and maintain ... submit proof ... submit to Treasury'
 
-## Evening 10 (items 181-200)
+## Batch 10 (items 181-200)
 
 ### 181. `3b92143d21ecc682` — ⬜ pending
 
@@ -1434,7 +1434,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=False
 - **Rationale (claude-fable-5):** describes Treasury's own calculation method; no duty on a regulated party
 
-## Evening 11 (items 201-220)
+## Batch 11 (items 201-220)
 
 ### 201. `41fcf5cce4c2151d` — ⬜ pending
 
@@ -1576,7 +1576,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=reporting, party=any insurer subject to the data request
 - **Rationale (claude-fable-5):** 'shall respond to the request within the time frame specified by the Secretary'
 
-## Evening 12 (items 221-240)
+## Batch 12 (items 221-240)
 
 ### 221. `b4e911ded348d619` — ⬜ pending
 
@@ -1718,7 +1718,7 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Proposed:** is_obligation=True, type=prohibition
 - **Rationale (claude-fable-5):** 'may not ... participate or advise in the decision'; subject truncated by span boundary
 
-## Evening 13 (items 241-251)
+## Batch 13 (items 241-251)
 
 ### 241. `c25d8bbe535e2cea` — ⬜ pending
 
@@ -1798,15 +1798,16 @@ machine-proposed (see `proposed_by`) and are NOT ground truth until you rule on 
 - **Rationale (claude-fable-5):** FOIA exemption statement; no duty imposed on any party
 
 
-# EXTEND-OGC01 Adjudication Worklist
+# OGC-01 Capability Adjudication Worklist
 
-Progress: **0/306 adjudicated.** Same protocol as above:
+Provisional — machine-proposed labels, human-adjudicated: 0/306.
+Apply the same protocol as above:
 find the record in its JSONL file, correct if needed, set `"adjudicated": true`,
 commit; `just eval` restates the metrics and their label automatically.
 
 ## A. Classifications (112 items) — `reglens/eval/gold/authority/class_gold.jsonl`
 
-Check each against the U.S.C. section text (`web/public/data/usc/usc-<title>-s<section>.txt`) and docs/ANNOTATION_GUIDELINES.md §OGC-01.
+Check each against the U.S.C. section text (`web/public/data/usc/usc-<title>-s<section>.txt`) and the OGC-01 addendum in docs/ANNOTATION_GUIDELINES.md.
 
 ### Batch A1
 
